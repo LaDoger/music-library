@@ -1,6 +1,8 @@
 files/audio/
 logs/
-parts/
+parts/*
+!parts/UI_NOTES.md
+!parts/UI_REVIEW.md
 briefs/
 scripts/__pycache__/
 *.pyc

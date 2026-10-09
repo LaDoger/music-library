@@ -1,55 +1,98 @@
 # Music library
 
-Searchable public-domain / Creative Commons classical library for video work (Michael Saylor / Strategy style edits), with **15-second audition previews** and downloadable **editable scores** (MIDI / MusicXML / LilyPond).
+A multi-genre library of **any good music we can legally use** in commercial and social video (Michael Saylor / Strategy style edits on X): classical, jazz, ragtime, blues, folk, world, marches, early popular, silent/film and quality modern CC0 / CC BY. No filler; every licence is checked per file.
 
-**Live site:** https://ladoger.github.io/music-library/  
-**Repo:** https://github.com/LaDoger/music-library  
-**Full recordings:** GitHub Release [`audio-v1`](https://github.com/LaDoger/music-library/releases/tag/audio-v1) (not in git — too large)
+**Editable scores come first.** The point is to take a work (Bach, Wagner, anything PD), get a clean MIDI / LilyPond / MusicXML file and re-genre or re-render it for video. Recordings are secondary.
 
-## Goal
-Take any major-composer work (starting with the full Bach BWV catalogue), find a clean editable score, and re-genre / render it for video. **Editable scores are the priority.** Recordings are secondary.
+- **Live site:** https://ladoger.github.io/music-library/
+- **Repo:** https://github.com/LaDoger/music-library
+- **Full recordings:** GitHub Release [`audio-v1`](https://github.com/LaDoger/music-library/releases/tag/audio-v1) (not in git, too large). Each row's `release_audio_url` points at its asset.
 
-
-75 classical pieces (or movements) collected for commercial and public social video, such as Michael Saylor / Strategy posts on X.
-Every row has a local recording or editable score, plus a 15-second audition MP3.
+v1 holds 75 classical pieces; the data model and UI are already multi-genre. The next batches add Bach (BWV catalogue first), Wagner, Mahler and Bruckner scores, then PD jazz/ragtime/blues and other genres.
 
 | | count |
 |---|---|
 | Pieces (rows) | 75 |
 | Rows with a downloaded editable score | 30 |
-| Rows with a downloaded recording | 64 |
+| Rows with a recording (on the Release) | 64 |
 | Preview MP3s | 75 |
 | `verified=yes` (license text seen on the source page) | 71 |
+| Licence badge: Clean / Credit required / ShareAlike / Flagged / Unverified | 49 / 5 / 11 / 6 / 4 |
 
-The master list is **`library.csv`** (columns are defined in `SCHEMA.md`). `library.xlsx` holds the same data with a frozen header and filters.
+## Using the site
+
+- **Search** by title, composer or **catalogue number**: `BWV 565`, `bwv565`, `Op. 27`, `K331`, `WWV 86`. Accents are optional (`dvorak`).
+- **Has editable score** toggle (next to the search box) shows only rows with a downloadable score.
+- **Filters:** genre, composer, mood, era, energy, licence status, has recording, verified, plus sort. Every filter is in the URL, so a filtered view can be shared. **Clear all** resets.
+- **Browse chips** by genre, era, composer or mood. Card or list view; 24 rows per page.
+- **Top picks for Saylor videos** row at the top (the 15 below).
+- **Preview player:** one 15 s clip at a time. `Space` play/pause, `Esc` close details / stop, `/` jump to search.
+- **Detail panel** (click a title, or link `?id=<id>`): strong excerpt, video ideas, licence badge for the recording and the score, legal flags and notes, a **Copy licence + credit** button, and links to the preview, full recording, score files and source pages.
+
+Licence badges show the **most restrictive** part of the row and never overclaim:
+
+| badge | meaning |
+|---|---|
+| Clean | PD / CC0 / PDM / US-gov recording and score; no credit needed (courtesy credits still listed) |
+| Credit required | CC BY (or Commons attribution) somewhere in the row |
+| ShareAlike | CC BY-SA or OAL somewhere in the row (often only the score; the card shows "rec … · score …") |
+| Flagged | known caveat: Holst term in life+100 territories, band arrangements, retired CC PD dedication |
+| Unverified | rights not confirmed from the source page |
+
+Run locally:
+
+```bash
+cd /workspace/music/library
+python3 -m http.server 8000      # then open http://localhost:8000/
+```
+
+### Updating the site data
+
+`data/library.json` is generated. After editing `library.csv` (or merging a new batch) run:
+
+```bash
+python3 scripts/sync_site_data.py          # rebuild JSON (idempotent)
+python3 scripts/sync_site_data.py --check  # summary + warnings only
+```
+
+It derives genre, era, energy, `licence_status` (+ separate `recording_status` / `score_status`), `legal_flags`, `has_editable_score`, `has_recording`, score file lists, `release_audio_url` and the top-pick rank (from the table in this README). New genres: add a `genre` column value to the CSV rows (`classical | jazz | ragtime | blues | folk | world | marches | early_popular | film_silent | modern_cc | other`). Architecture and scaling notes for 1000+ rows: `parts/UI_NOTES.md`.
+
+### Deploying (GitHub Pages)
+
+Pages serves the repo root of `main`: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `/ (root)`**. `.nojekyll` makes Pages serve files as-is. `files/audio/` is git-ignored and never committed; full recordings are uploaded to the Release with `scripts/upload_release.sh`.
 
 ## Folder layout
 
 ```
+index.html, assets/          the Pages site (vanilla JS, no build step)
+data/library.json            site data, generated by scripts/sync_site_data.py
 library.csv / library.xlsx   master list, one row per piece/movement
 SCHEMA.md                    column definitions and license policy
 README.md                    this file
-STATUS.txt                   build log, one line per stage
-files/audio/<id>.<ext>       full recordings (FLAC / OGG / Opus / MP3 originals, not re-encoded)
+STATUS.md / STATUS.txt       checkpoint log / build log
+files/audio/<id>.<ext>       full recordings, local only (git-ignored; published on Release audio-v1)
 files/scores/<id>.<ext>      editable scores: MIDI, LilyPond (.ly), PDF, Mutopia zips
                              (<id>_lilypond.zip / <id>_midi.zip; shared sets like
                              mussorgsky_pictures_at_an_exhibition-*.zip, dvorak_new_world-*.zip)
 previews/<id>.mp3            15 s audition clips
 previews/index.html          audition page (all clips, mood tags, license line, filter box)
-parts/                       per-agent source CSVs and summaries, MERGE_NOTES.md (merge log)
+parts/                       per-agent source CSVs and summaries, MERGE_NOTES.md, UI_NOTES.md
 logs/                        license evidence, source pages, download manifests, rename map
-scripts/                     make_preview.py, build_preview_index.py, merge_library.py, Commons helpers
+scripts/                     sync_site_data.py, make_preview.py, build_preview_index.py, merge_library.py,
+                             upload_release.sh, Commons helpers
 ```
 
 Files are named by `id`, which already contains the composer, catalogue number and short title (e.g. `beethoven_op67_symphony5.flac`).
 A few codex entries also keep their LilyPond source (`.ly`) or the original ALAC file (`chopin_op9_2_nocturne.m4a`) next to the file the CSV points to.
 
-## How to audition
+## How to audition offline
+
+The site above is the main way in. For a no-server fallback:
 
 1. Open `previews/index.html` in a browser. Opening it straight from disk works; there are no external dependencies.
 2. Type in the filter box to search by composer, title or mood (e.g. `epic`, `dark`, `calm`, `triumphant`).
 3. Each card shows the mood tags, the tempo/energy, who added it, and the recording and score licenses. Rows that are not fully verified are labelled.
-4. When you like a clip, find its `id` in `library.csv`. Check `legal_notes` and use the full file in `files/audio/`. Use `notable_excerpt` to find the strongest part.
+4. When you like a clip, find its `id` in `library.csv`. Check `legal_notes` and use the full file from the Release (or `files/audio/` locally). Use `notable_excerpt` to find the strongest part.
 
 Every preview is 15 s, MP3 192 kbps, 44.1 kHz stereo, normalised to about -16 LUFS (measured -16.9 to -15.1), with 0.35 s / 0.45 s fades.
 Previews are cut from the licensed recording where there is one. Otherwise they are our own FluidSynth renders of the licensed MIDI.
@@ -76,7 +119,7 @@ A public-domain composition does not mean a public-domain recording. Read **both
 | schubert_d328_erlkonig | recording credited on source page, CC BY 3.0 |
 | holst_planets_jupiter | Skidmore College Orchestra / Musopen (Commons attribution template) |
 | pachelbel_canon_d | preview is a render of a CC BY 4.0 Mutopia edition (Michael Fischer v. Mollard / Mutopia) |
-| mussorgsky_night_on_bald_mountain | **score only** CC BY 3.0. The recording itself is PD. |
+| mussorgsky_night_on_bald_mountain | **score only** CC BY 3.0. The recording itself is PD (site badge: Credit required, "rec Clean · score Credit required"). |
 
 **3. Flag only: do not treat as clean.**
 - *Share-alike recordings:*
@@ -110,7 +153,7 @@ A public-domain composition does not mean a public-domain recording. Read **both
 
 ## Top 15 picks for Saylor-style videos
 
-All picks are `verified=yes`. Picks 1–11 and 14 are fully clean. Picks 12, 13 and 15 need a credit (Moonlight I is a courtesy credit). Picks 3 and 10 are PD in the US as government works.
+All picks are `verified=yes`. Picks 1–11 and 14 have fully clean **recordings**. (The site badge also counts the score: picks 4 and 5 show ShareAlike and pick 14 Credit required because of their Mutopia scores.) Picks 12, 13 and 15 need a credit (Moonlight I is a courtesy credit). Picks 3 and 10 are PD in the US as government works.
 
 | # | id | why |
 |---|---|---|

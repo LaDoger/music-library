@@ -33,3 +33,23 @@ Preview policy (required):
 - Prefer cutting the best excerpt from the PD/CC recording; else render MIDI/MusicXML via FluidSynth + good soundfont
 - Spec: MP3 192k, loudness ~-16 LUFS integrated, short fades in/out (~0.3–0.5s), stereo
 - Also build previews/index.html: simple player listing all pieces with mood tags and audio controls
+
+## Multi-genre extension (2026-10-09)
+Additional JSON fields (CSV may lag; sync script fills JSON):
+- genre: classical | jazz | ragtime | blues | folk | world | marches | early_popular | film_silent | modern_cc | other
+- era: free text browse bucket
+- licence_status: clean | attribution | sharealike | flagged | unverified
+- has_editable_score, has_recording: booleans
+- release_audio_url: GitHub Release asset URL for full recording
+Scope: any legally usable good music for commercial/social video. Quality bar: no filler. Verify every licence per file.
+
+Site-only JSON fields (all derived by `scripts/sync_site_data.py`; do not hand-edit the JSON):
+- recording_status, score_status: licence class of each part (blank when the part is absent)
+- licence_status: most restrictive of the two (clean < attribution < flagged < sharealike < unverified); `flagged` comes from the FLAGGED list in the script; verified != yes forces unverified
+- legal_flags: short caveat chips derived from legal_notes (informational, do not change the badge)
+- energy: low | moderate | high | very_high (from tempo_energy)
+- score_files: every file under files/scores/ belonging to the row
+- top_pick_rank, top_pick_why: from the README "Top 15 picks" table (0 / blank otherwise)
+- search_text: lowercase search blob incl. catalogue variants (BWV 565 / bwv565)
+- Optional CSV columns `genre`, `era` override the derived values.
+
