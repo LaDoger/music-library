@@ -98,7 +98,7 @@
   "sort_name": "1525, Matthaus Greiter,",
   "birth_year": null,
   "death_year": 1552,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -121,7 +121,7 @@
   "sort_name": "1529, Martin Luther, ca.",
   "birth_year": null,
   "death_year": 1546,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -144,7 +144,7 @@
   "sort_name": "1539, Martin Luther,",
   "birth_year": null,
   "death_year": 1546,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1112,7 +1112,7 @@
   "sort_name": "Aagesen, Truid",
   "birth_year": null,
   "death_year": 1625,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1212,7 +1212,7 @@
   "sort_name": "Agostini, Lodovico",
   "birth_year": null,
   "death_year": 1590,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1259,7 +1259,7 @@
   "sort_name": "Agresta, Agostino",
   "birth_year": null,
   "death_year": 1617,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1547,7 +1547,7 @@
   "sort_name": "Anerio, Felice",
   "birth_year": null,
   "death_year": 1614,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1572,7 +1572,7 @@
   "sort_name": "Anonymous",
   "birth_year": null,
   "death_year": null,
-  "era": "Unknown",
+  "era": "Traditional",
   "genres": [
    "classical"
   ],
@@ -1723,7 +1723,7 @@
   "sort_name": "Appenzeller, Benedictus",
   "birth_year": null,
   "death_year": 1558,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1754,7 +1754,7 @@
   "sort_name": "Arbeau, Thoinot",
   "birth_year": null,
   "death_year": 1595,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1784,7 +1784,7 @@
   "sort_name": "Arcadelt, Jacques",
   "birth_year": null,
   "death_year": 1568,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1949,7 +1949,7 @@
   "sort_name": "Arthopius",
   "birth_year": null,
   "death_year": 1834,
-  "era": "Romantic",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -1972,7 +1972,7 @@
   "sort_name": "Artusi, Giovanni",
   "birth_year": null,
   "death_year": 1613,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -2012,7 +2012,7 @@
   "sort_name": "Baccusi, Ippolito",
   "birth_year": null,
   "death_year": 1609,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -3038,7 +3038,7 @@
   "sort_name": "Berchem, Jacquet de",
   "birth_year": null,
   "death_year": 1565,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -3094,7 +3094,7 @@
   "sort_name": "Bertani, Lelio",
   "birth_year": null,
   "death_year": 1624,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -3742,7 +3742,7 @@
   "sort_name": "Bruck, Arnold von",
   "birth_year": null,
   "death_year": 1554,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -3965,7 +3965,7 @@
   "sort_name": "Byrd, William",
   "birth_year": null,
   "death_year": 1623,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4085,7 +4085,7 @@
   "sort_name": "Caccini, Giulio",
   "birth_year": null,
   "death_year": 1618,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4163,7 +4163,7 @@
   "sort_name": "Calvisius, Sethus",
   "birth_year": null,
   "death_year": 1615,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4196,7 +4196,7 @@
   "sort_name": "Canis, Cornelius",
   "birth_year": null,
   "death_year": 1561,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4364,7 +4364,7 @@
   "sort_name": "Castro, Jean de",
   "birth_year": null,
   "death_year": 1611,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4458,7 +4458,7 @@
   "sort_name": "Certon, Pierre",
   "birth_year": null,
   "death_year": 1572,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4898,7 +4898,7 @@
   "sort_name": "Corteccia, Francesco",
   "birth_year": null,
   "death_year": 1571,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4923,7 +4923,7 @@
   "sort_name": "Costeley, Guillaume",
   "birth_year": null,
   "death_year": 1606,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -4993,7 +4993,7 @@
   "sort_name": "Crecquillon, Thomas",
   "birth_year": null,
   "death_year": 1557,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5085,7 +5085,7 @@
   "sort_name": "Croce, Giovanni",
   "birth_year": null,
   "death_year": 1609,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5152,7 +5152,7 @@
   "sort_name": "Cutting, Francis",
   "birth_year": null,
   "death_year": 1596,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5518,7 +5518,7 @@
   "sort_name": "Dowland, John",
   "birth_year": null,
   "death_year": 1626,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5642,7 +5642,7 @@
   "sort_name": "Ducis, Benedictus",
   "birth_year": null,
   "death_year": 1544,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5828,7 +5828,7 @@
   "sort_name": "Encina, Juan del",
   "birth_year": null,
   "death_year": 1529,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -5908,7 +5908,7 @@
   "sort_name": "Faignient, Noé",
   "birth_year": null,
   "death_year": 1578,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6023,7 +6023,7 @@
   "sort_name": "Felis, Stefano",
   "birth_year": null,
   "death_year": 1603,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6137,7 +6137,7 @@
   "sort_name": "Fontanelli, Alfonso",
   "birth_year": null,
   "death_year": 1622,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6454,7 +6454,7 @@
   "sort_name": "Gabrieli, Andrea",
   "birth_year": null,
   "death_year": 1585,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6488,7 +6488,7 @@
   "sort_name": "Gabrieli, Giovanni",
   "birth_year": null,
   "death_year": 1612,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6577,7 +6577,7 @@
   "sort_name": "Galilei, Vincenzo",
   "birth_year": null,
   "death_year": 1591,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6600,7 +6600,7 @@
   "sort_name": "Galliculus, Johannes",
   "birth_year": null,
   "death_year": 1550,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6625,7 +6625,7 @@
   "sort_name": "Gallus, Jacobus",
   "birth_year": null,
   "death_year": 1591,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6674,7 +6674,7 @@
   "sort_name": "Gastoldi, Giovanni Giacomo",
   "birth_year": null,
   "death_year": 1609,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6730,7 +6730,7 @@
   "sort_name": "Gervaise, Claude",
   "birth_year": null,
   "death_year": 1558,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6758,7 +6758,7 @@
   "sort_name": "Gesualdo, Carlo",
   "birth_year": 1566,
   "death_year": 1613,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6848,7 +6848,7 @@
   "sort_name": "Ghizzolo, Giovanni",
   "birth_year": null,
   "death_year": 1625,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -6911,7 +6911,7 @@
   "sort_name": "Gibbons, Orlando",
   "birth_year": null,
   "death_year": 1625,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -7099,7 +7099,7 @@
   "sort_name": "Gombert, Nicolas",
   "birth_year": null,
   "death_year": 1560,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -7611,7 +7611,7 @@
   "sort_name": "Guerrero, Francisco",
   "birth_year": null,
   "death_year": 1599,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -7713,7 +7713,7 @@
   "sort_name": "Guyot, Jean",
   "birth_year": null,
   "death_year": 1588,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -7994,7 +7994,7 @@
   "sort_name": "Hassler, Hans Leo",
   "birth_year": null,
   "death_year": 1612,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8257,7 +8257,7 @@
   "sort_name": "Hellinck, Lupus",
   "birth_year": null,
   "death_year": 1541,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8411,7 +8411,7 @@
   "sort_name": "Holborne, Anthony",
   "birth_year": null,
   "death_year": 1602,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8463,7 +8463,7 @@
   "sort_name": "Hollander, Christian",
   "birth_year": null,
   "death_year": 1589,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8819,7 +8819,7 @@
   "sort_name": "India, Sigismondo d'",
   "birth_year": null,
   "death_year": 1629,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8903,7 +8903,7 @@
   "sort_name": "Ingegneri, Marc'Antonio",
   "birth_year": null,
   "death_year": 1592,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -8940,7 +8940,7 @@
   "sort_name": "Isaac, Heinrich",
   "birth_year": null,
   "death_year": 1517,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -9039,7 +9039,7 @@
   "sort_name": "Janequin, Clément",
   "birth_year": null,
   "death_year": 1558,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -9385,7 +9385,7 @@
   "sort_name": "Klingenstein, Bernhard",
   "birth_year": null,
   "death_year": 1614,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -9681,7 +9681,7 @@
   "sort_name": "Lassus, Orlande de",
   "birth_year": null,
   "death_year": 1594,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -9902,7 +9902,7 @@
   "sort_name": "Lechner, Leonhard",
   "birth_year": null,
   "death_year": 1606,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10383,7 +10383,7 @@
   "sort_name": "Luzzaschi, Luzzasco",
   "birth_year": null,
   "death_year": 1607,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10462,7 +10462,7 @@
   "sort_name": "Machaut, Guillaume de",
   "birth_year": null,
   "death_year": 1377,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10535,7 +10535,7 @@
   "sort_name": "Macque, Giovanni de",
   "birth_year": null,
   "death_year": 1614,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10658,7 +10658,7 @@
   "sort_name": "Maillard, Jean",
   "birth_year": null,
   "death_year": 1572,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10684,7 +10684,7 @@
   "sort_name": "Manchicourt, Pierre de",
   "birth_year": null,
   "death_year": 1564,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10757,7 +10757,7 @@
   "sort_name": "Marenzio, Luca",
   "birth_year": null,
   "death_year": 1599,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -10933,7 +10933,7 @@
   "sort_name": "Massaino, Tiburtio",
   "birth_year": null,
   "death_year": 1610,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11099,7 +11099,7 @@
   "sort_name": "Meldert, Leonard",
   "birth_year": null,
   "death_year": 1610,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11280,7 +11280,7 @@
   "sort_name": "Merulo, Claudio",
   "birth_year": null,
   "death_year": 1604,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11340,7 +11340,7 @@
   "sort_name": "Micheli, Domenico",
   "birth_year": null,
   "death_year": 1590,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11452,7 +11452,7 @@
   "sort_name": "Moderne, Jacques",
   "birth_year": null,
   "death_year": 1560,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11475,7 +11475,7 @@
   "sort_name": "Monte, Philippe de",
   "birth_year": null,
   "death_year": 1603,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11650,7 +11650,7 @@
   "sort_name": "Morales, Cristóbal de",
   "birth_year": null,
   "death_year": 1553,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11680,7 +11680,7 @@
   "sort_name": "Morley, Thomas",
   "birth_year": null,
   "death_year": 1602,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11765,7 +11765,7 @@
   "sort_name": "Moscaglia, Giovanni Battista",
   "birth_year": null,
   "death_year": 1589,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11790,7 +11790,7 @@
   "sort_name": "Mosto, Giovanni Battista",
   "birth_year": null,
   "death_year": 1596,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -11876,7 +11876,7 @@
   "sort_name": "Mouton, Jean",
   "birth_year": null,
   "death_year": 1522,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12254,7 +12254,7 @@
   "sort_name": "Nanino, Giovanni Maria",
   "birth_year": null,
   "death_year": 1607,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12285,7 +12285,7 @@
   "sort_name": "Nenna, Pomponio",
   "birth_year": null,
   "death_year": 1608,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12384,7 +12384,7 @@
   "sort_name": "Notari, Angelo",
   "birth_year": null,
   "death_year": 1663,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12480,7 +12480,7 @@
   "sort_name": "Ockeghem, Johannes",
   "birth_year": null,
   "death_year": 1497,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12590,7 +12590,7 @@
   "sort_name": "Orologio, Alessandro",
   "birth_year": null,
   "death_year": 1633,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12616,7 +12616,7 @@
   "sort_name": "Ortiz, Diego",
   "birth_year": null,
   "death_year": 1570,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12767,7 +12767,7 @@
   "sort_name": "Palestrina, Giovanni Pierluigi da",
   "birth_year": null,
   "death_year": 1594,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -12904,7 +12904,7 @@
   "sort_name": "Pallavicino, Benedetto",
   "birth_year": null,
   "death_year": 1601,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13038,7 +13038,7 @@
   "sort_name": "Papa, Jacob Clemens non",
   "birth_year": null,
   "death_year": 1555,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13236,7 +13236,7 @@
   "sort_name": "Pevernage, Andreas",
   "birth_year": null,
   "death_year": 1591,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13266,7 +13266,7 @@
   "sort_name": "Philips, Peter",
   "birth_year": null,
   "death_year": 1628,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13467,7 +13467,7 @@
   "sort_name": "Pontio, Pietro",
   "birth_year": null,
   "death_year": 1596,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13492,7 +13492,7 @@
   "sort_name": "Porta, Costanzo",
   "birth_year": null,
   "death_year": 1601,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13558,7 +13558,7 @@
   "sort_name": "Praetorius, Michael",
   "birth_year": null,
   "death_year": 1621,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13614,7 +13614,7 @@
   "sort_name": "Pres, Josquin de",
   "birth_year": null,
   "death_year": 1521,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13637,7 +13637,7 @@
   "sort_name": "Prez, Josquin des",
   "birth_year": null,
   "death_year": 1521,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -13940,7 +13940,7 @@
   "sort_name": "Radesca, Enrico",
   "birth_year": null,
   "death_year": 1625,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -14242,7 +14242,7 @@
   "sort_name": "Richafort, Jean",
   "birth_year": null,
   "death_year": 1547,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -14357,7 +14357,7 @@
   "sort_name": "Rore, Cipriano de",
   "birth_year": null,
   "death_year": 1565,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -14514,7 +14514,7 @@
   "sort_name": "Rue, Pierre de la",
   "birth_year": null,
   "death_year": 1518,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -14677,7 +14677,7 @@
   "sort_name": "Sandrin",
   "birth_year": null,
   "death_year": 1561,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -15552,7 +15552,7 @@
   "sort_name": "Senfl, Ludwig",
   "birth_year": null,
   "death_year": 1543,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -15579,7 +15579,7 @@
   "sort_name": "Sermisy, Claudin de",
   "birth_year": null,
   "death_year": 1562,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -16326,7 +16326,7 @@
   "sort_name": "Sweelinck, Jan Pieterszoon",
   "birth_year": null,
   "death_year": 1621,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -16410,7 +16410,7 @@
   "sort_name": "Tallis, Thomas",
   "birth_year": null,
   "death_year": 1585,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -16752,7 +16752,7 @@
   "sort_name": "Tollius, Jan",
   "birth_year": null,
   "death_year": 1603,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -16897,7 +16897,7 @@
   "sort_name": "Traditional",
   "birth_year": null,
   "death_year": null,
-  "era": "Unknown",
+  "era": "Traditional",
   "genres": [
    "classical"
   ],
@@ -17722,7 +17722,7 @@
   "sort_name": "Troiano, Massimo",
   "birth_year": null,
   "death_year": 1600,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -17820,7 +17820,7 @@
   "sort_name": "Vecchi, Orazio",
   "birth_year": null,
   "death_year": 1605,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -17845,7 +17845,7 @@
   "sort_name": "Vento, Ivo",
   "birth_year": null,
   "death_year": 1575,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -17949,7 +17949,7 @@
   "sort_name": "Verdonck, Cornelis",
   "birth_year": null,
   "death_year": 1625,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18045,7 +18045,7 @@
   "sort_name": "Victoria, Tomás Luis de",
   "birth_year": null,
   "death_year": 1611,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18296,7 +18296,7 @@
   "sort_name": "Vulpius, Melchior",
   "birth_year": null,
   "death_year": 1615,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18373,7 +18373,7 @@
   "sort_name": "Waelrant, Hubert",
   "birth_year": null,
   "death_year": 1595,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18551,7 +18551,7 @@
   "sort_name": "Weelkes, Thomas",
   "birth_year": null,
   "death_year": 1623,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18600,7 +18600,7 @@
   "sort_name": "Weerbeke, Gaspar van",
   "birth_year": null,
   "death_year": 1517,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18625,7 +18625,7 @@
   "sort_name": "Wert, Giaches de",
   "birth_year": null,
   "death_year": 1596,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18737,7 +18737,7 @@
   "sort_name": "Willaert, Adrian",
   "birth_year": null,
   "death_year": 1562,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],
@@ -18899,7 +18899,7 @@
   "sort_name": "Zoilo, Annibale",
   "birth_year": null,
   "death_year": 1592,
-  "era": "Baroque",
+  "era": "Renaissance",
   "genres": [
    "classical"
   ],

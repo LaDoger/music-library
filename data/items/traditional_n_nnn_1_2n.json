@@ -2,7 +2,7 @@
  "id": "traditional_n_nnn_1_2n",
  "composer": "Traditional",
  "death_year": "",
- "title": "ÐÑÐ ÑÑÑÐ½ÑÐµ",
+ "title": "Ochi chyornye (Очи чёрные) / Dark Eyes",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -29,7 +29,7 @@
  "instrumentation": "1 tracks; lesyeuxnoirs-blackeyes-simple-piano-organ-orgue-ochichernie; folk",
  "popularity": "rating=4.59;ratings=14;favorites=37;views=3196",
  "genre": "classical",
- "era": "Unknown",
+ "era": "Traditional",
  "composer_slug": "traditional",
  "composer_short": "Traditional",
  "composer_sort": "Traditional",
@@ -85,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Traditional: ÐÑÐ ÑÑÑÐ½ÑÐµ (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Traditional: Ochi chyornye (Очи чёрные) / Dark Eyes (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

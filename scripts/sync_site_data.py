@@ -144,6 +144,49 @@ def era_for(composer, death_year):
     return "Modern"
 
 
+# Garbled (mojibake) source titles; the original bytes were lost upstream, so these are hand-set.
+TITLE_FIXES = {
+    "arensky_3_4_n_n_1_2_n_lullaby_n_1_2n": "Lullaby (Колыбельная)",
+    "leontovych_n_o_shchedryk_carol_of_the_b": "Shchedryk (Щедрик) / Carol of the Bells",
+    "tchaikovsky_mein_schutzgeist_mein_engel": "Mein Schutzgeist, mein Engel, mein Lieb (Мой гений, мой ангел, мой друг)",
+    "tchaikovsky_op71_dance_of_the_sugar_plum_fair": "Dance of the Sugar Plum Fairy (Танец Феи Драже)",
+    "traditional_traditional_music_bourrae_dr": "Bourrée droite",
+    "traditional_traditional_music_bourrae_a": "Bourrée à Jenzat",
+    "traditional_n_nnn_1_2n": "Ochi chyornye (Очи чёрные) / Dark Eyes",
+    "danhauser_l1_solfeige_des_solfeiges_vol_1": "Solfège des solfèges vol. 1 ex. 79 (p. 27)",
+    "holmes_augusta_holmes_stances_tirei": "Stances (tirées de l'Ode triomphale)",
+}
+
+
+TRADITIONAL_COMPOSERS = {"traditional", "anonymous", "anon.", "anon", "unknown", "folk", "trad."}
+
+
+def _load_wikidata_birth():
+    try:
+        d = json.load(open(os.path.join(ROOT, "scripts", "bulk", "pdmx_composers_wikidata.json"), encoding="utf-8"))
+        return {c["name"]: c.get("birth") for c in d.get("composers", []) if c.get("birth")}
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+WIKIDATA_BIRTH = _load_wikidata_birth()
+
+
+def refine_era(composer, era, birth_year, death_year):
+    """Renaissance for composers born before ~1570 or dead before ~1630; Traditional for anon/trad."""
+    if (composer or "").strip().lower() in TRADITIONAL_COMPOSERS:
+        return "Traditional"
+    if COMPOSER_ERA.get(composer):
+        return COMPOSER_ERA[composer]
+    def yr(v):
+        m = re.search(r"\d{3,4}", str(v or ""))
+        return int(m.group(0)) if m else None
+    b, d = yr(birth_year), yr(death_year)
+    if (b is not None and b < 1570) or (d is not None and d < 1630):
+        return "Renaissance"
+    return era or "Unknown"
+
+
 def energy_for(tempo):
     t = (tempo or "").lower()
     part = t.split("/", 1)[1] if "/" in t else t
@@ -299,11 +342,15 @@ def build():
         p = prev.get(rid, {})
         item = {k: (v or "").strip() for k, v in r.items() if k}
 
+        if rid in TITLE_FIXES:
+            item["title"] = TITLE_FIXES[rid]
         genre = item.get("genre") or p.get("genre") or "classical"
         if genre not in GENRES:
             problems.append(f"{rid}: unknown genre {genre!r}")
         item["genre"] = genre
-        item["era"] = item.get("era") or era_for(item["composer"], item.get("death_year"))
+        item["era"] = refine_era(item["composer"], item.get("era") or era_for(item["composer"], item.get("death_year")),
+                                 composer_meta.get(item["composer"], {}).get("birth_year") or WIKIDATA_BIRTH.get(item["composer"]),
+                                 item.get("death_year"))
         item["video_use_ideas"] = video_ideas.clean_idea(rid, item.get("video_use_ideas", ""))
         if video_ideas.needs_rewrite(item["video_use_ideas"]):
             problems.append(f"{rid}: video_use_ideas has niche wording; add a generic line to scripts/video_ideas.py")

@@ -538,8 +538,12 @@ def era_for(composer: str, death_year) -> str:
     if composer in known:
         return known[composer]
     year = parse_year(death_year)
+    if (composer or "").strip().lower() in {"traditional", "anonymous"}:
+        return "Traditional"
     if year is None:
         return ""
+    if year < 1630:
+        return "Renaissance"
     if year <= 1760:
         return "Baroque"
     if year <= 1830:
