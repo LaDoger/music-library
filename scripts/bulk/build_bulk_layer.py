@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "library_bulk.csv"
 EXCLUDED = ("orff", "prokofiev", "shostakovich", "stravinsky", "medtner", "sorabji")
-PREVIEW_NOTE = re.compile(r"Preview is an own FluidSynth[^.]*\.", re.I)
+PREVIEW_NOTE = re.compile(r"Preview is an own (?:FluidSynth|MIDI)[^.]*\.", re.I)
 UNFINISHED = re.compile(r"\bwip\b|\bdraft\b|work in progress", re.I)
 NO_PREVIEW = ("No pre-rendered preview: the site plays the score MIDI with an in-browser "
               "General MIDI synth; no third-party recording.")
@@ -82,8 +82,9 @@ def main() -> int:
                 continue
             if not keep(row, why):
                 continue
-            if row.get("preview_path") and not (ROOT / row["preview_path"]).is_file():
-                row["preview_path"] = ""
+            # Synth-rendered previews were removed on 2026-10-09 (docs/REMOVED_SYNTH_AUDIO.md);
+            # bulk rows are score-only and play via the in-browser MIDI player.
+            row["preview_path"] = ""
             if not row.get("preview_path"):
                 notes = PREVIEW_NOTE.sub(NO_PREVIEW, row.get("legal_notes") or "")
                 if NO_PREVIEW not in notes:

@@ -2,7 +2,11 @@
 """Make a ~15s audition MP3 (192k, stereo, 44.1k) at ~-16 LUFS with short fades.
 
 Usage:
-  make_preview.py --audio in.flac|--midi in.mid [--start SEC|MM:SS] --out previews/foo.mp3
+  make_preview.py --audio in.flac [--start SEC|MM:SS] --out previews/foo.mp3
+
+Only cut previews from real recordings. --midi (FluidSynth previews) is refused:
+synth-rendered audio was removed on 2026-10-09 (docs/REMOVED_SYNTH_AUDIO.md);
+score-only rows play via the in-browser MIDI player.
 
 Two-pass loudnorm (measure, then linear gain) on the faded excerpt, followed by
 a check of the encoded MP3; if it lands more than 0.5 LU off target a small
@@ -124,6 +128,8 @@ def main():
     ap.add_argument("--start", type=str, default="0")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
+    if args.midi:
+        raise SystemExit("--midi is disabled: no synth-rendered previews (docs/REMOVED_SYNTH_AUDIO.md)")
     make_preview(args.midi or args.audio, args.out, parse_time(args.start), midi=bool(args.midi))
 
 

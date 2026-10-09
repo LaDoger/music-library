@@ -17,10 +17,10 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composition PD worldwide. Mutopia piece 517 (Suite 1 for Cello Solo) copyright line is Public Domain; header.ily sets license to Public Domain and says the typesetter placed it in the public domain (source named as Schirmer, 1916). Local file is movement 1 only (bwv1007-1.mid), cello. Not the same piece as BWV 846 or BWV 565. Preview is an own FluidSynth cello render.",
+ "legal_notes": "Composition PD worldwide. Mutopia piece 517 (Suite 1 for Cello Solo) copyright line is Public Domain; header.ily sets license to Public Domain and says the typesetter placed it in the public domain (source named as Schirmer, 1916). Local file is movement 1 only (bwv1007-1.mid), cello. Not the same piece as BWV 846 or BWV 565. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/bach_bwv1007_prelude.mid",
  "local_audio_path": "",
- "preview_path": "previews/bach_bwv1007_prelude.mp3",
+ "preview_path": "",
  "verified": "yes",
  "added_by": "grok",
  "genre": "classical",
@@ -32,7 +32,7 @@
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
- "preview_url": "previews/bach_bwv1007_prelude.mp3",
+ "preview_url": "",
  "score_url": "files/scores/bach_bwv1007_prelude.mid",
  "score_files": [
   "files/scores/bach_bwv1007_prelude.mid"
@@ -47,9 +47,7 @@
  "recording_status": "",
  "score_status": "clean",
  "licence_status": "clean",
- "legal_flags": [
-  "Own MIDI render"
- ],
+ "legal_flags": [],
  "energy": "moderate",
  "editors_pick": false,
  "editors_pick_rank": 0,
@@ -58,14 +56,11 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1007_prelude.mid",
- "stream_synth_url": "",
- "release_synth_url": "",
- "synth_duration_s": 0,
- "schema_version": 2,
+ "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1007_prelude",
  "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1007_prelude.json",
- "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1007_prelude.mp3",
+ "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1007_prelude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv1007_prelude.mid"

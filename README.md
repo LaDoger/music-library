@@ -7,7 +7,7 @@ A composer-first library of **good music we can legally use** in commercial and 
 - **Live site:** https://ladoger.github.io/music-library/
 - **Repo:** https://github.com/LaDoger/music-library
 - **Full recordings:** GitHub Release [`audio-v1`](https://github.com/LaDoger/music-library/releases/tag/audio-v1) (not in git, too large). Each row's `release_audio_url` points at its asset.
-- **Synth renders:** GitHub Release [`synth-v1`](https://github.com/LaDoger/music-library/releases/tag/synth-v1): full-length FluidSynth MP3s of editor's-pick scores (`stream_synth_url`; they carry the score licence).
+- **No synth-rendered audio is hosted.** All FluidSynth previews and the `synth-v1` Release renders were removed on 2026-10-09 ([docs/REMOVED_SYNTH_AUDIO.md](docs/REMOVED_SYNTH_AUDIO.md)). Score-only pieces play their MIDI in the browser.
 
 The library started with 75 classical pieces and grows in batches (Bach BWV first, then Wagner, Mahler, Bruckner and other PD composers). The site and `data/*.json` are regenerated from `library.csv`; the numbers below are a snapshot at the last sync.
 
@@ -17,7 +17,6 @@ The library started with 75 classical pieces and grows in batches (Bach BWV firs
 | Composers | 47 (42 with a verified PD portrait) |
 | Rows with a downloadable editable score | 289 |
 | Rows with a full recording (Release `audio-v1`) | 64 (61 with a direct Commons / Internet Archive stream) |
-| Pre-rendered synth MP3s (Release `synth-v1`) | 7 |
 | Licence badge: Clean / Credit required / ShareAlike / Flagged / Unverified | 259 / 33 / 32 / 6 / 4 |
 
 ## For AI agents and the `musiclib` CLI
@@ -51,12 +50,11 @@ musiclib arrange <id> --style lofi                 # hook: runs $MUSICLIB_ARRANG
 - **Filters:** composer, genre, era, mood, energy, licence status, has recording, verified, plus the **Has editable score** toggle. Every filter is in the URL, so a filtered view can be shared.
 - **Editor's picks for video** row on the home page (the 15 below). **See all ranked** / the *Editor's picks* tab shows them in rank order (`?picks=1`).
 - **Player** (one source at a time, `Space` play/pause, `Esc` stop, `/` search). Each piece offers whatever exists:
-  - **Preview**: the 15 s audition clip.
+  - **Preview**: the 15 s audition clip, cut from a real recording (only rows with a recording have one).
   - **Full recording**: the whole performance, with seek bar and time / duration. It streams the Commons MP3 transcode or Internet Archive MP3 when one was resolved (`stream_audio_url`), else the GitHub Release file; if the browser cannot play either, the player offers *Download / open recording*.
-  - **Synth render**: the score rendered by FluidSynth (FluidR3_GM), pre-rendered for editor's picks on Release `synth-v1` (`stream_synth_url`).
-  - **Live MIDI synth**: any scored piece played in the browser (Magenta SoundFontPlayer, SGM+ soundfont, loaded on first use) with **tempo** control (50–150 %) and a piano roll.
-  - Synth renders are made from the score, so they carry the **score** licence; the player and detail panel say so.
-- **Detail panel** (click a title, or link `?id=<id>`): listen buttons, strong excerpt, video ideas, licence badge for the recording and the score, legal flags and notes, **Copy licence + credit**, and links to the preview, full recording, stream, synth render, score files and source pages.
+  - **Synth**: any scored piece played in the browser (Magenta SoundFontPlayer, SGM+ soundfont, loaded on first use) with **tempo** control (50–150 %) and a piano roll.
+  - Synth playback is made from the score, so it carries the **score** licence; the player and detail panel say so. No pre-rendered synth audio is hosted.
+- **Detail panel** (click a title, or link `?id=<id>`): listen buttons, strong excerpt, video ideas, licence badge for the recording and the score, legal flags and notes, **Copy licence + credit**, and links to the preview, full recording, stream, score files and source pages.
 
 Licence badges show the **most restrictive** part of the row and never overclaim:
 
@@ -84,7 +82,7 @@ python3 scripts/sync_site_data.py          # rebuild JSON (idempotent)
 python3 scripts/sync_site_data.py --check  # summary + warnings only
 ```
 
-It derives genre, era, energy, `licence_status` (+ separate `recording_status` / `score_status`), `legal_flags`, `has_editable_score`, `has_recording`, score file lists, `release_audio_url`, `editors_pick_rank` (from the table in this README), composer fields and `data/composers.json`, and merges the offline caches in `data/cache/` (`stream_audio_url`, `stream_synth_url`). `video_use_ideas` passes through `scripts/video_ideas.py`, which keeps the wording generic.
+It derives genre, era, energy, `licence_status` (+ separate `recording_status` / `score_status`), `legal_flags`, `has_editable_score`, `has_recording`, score file lists, `release_audio_url`, `editors_pick_rank` (from the table in this README), composer fields and `data/composers.json`, and merges the offline caches in `data/cache/` (`stream_audio_url`). `video_use_ideas` passes through `scripts/video_ideas.py`, which keeps the wording generic.
 
 The network steps are separate and cached, so the sync itself stays offline:
 
@@ -93,8 +91,6 @@ python3 scripts/video_ideas.py          # rewrite niche video_use_ideas in libra
 python3 scripts/fetch_composer_meta.py  # Wikidata life dates + PD/CC0-only Commons portraits -> data/cache/composer_meta.json
 python3 scripts/resolve_streams.py      # Commons / archive.org direct streams (duration-checked) -> data/cache/stream_audio.json
 python3 scripts/build_midi_play.py      # browser MIDI for zip-only / MusicXML-only scores -> files/midi_play/<id>.mid
-python3 scripts/render_synth.py         # FluidSynth MP3s for editor's picks -> release_staging/synth/
-gh release upload synth-v1 release_staging/synth/*_synth.mp3 --clobber && python3 scripts/render_synth.py --record
 python3 scripts/sync_site_data.py       # then rebuild the JSON
 ``` New genres: add a `genre` column value to the CSV rows (`classical | jazz | ragtime | blues | folk | world | marches | early_popular | film_silent | modern_cc | other`). Architecture and scaling notes for 1000+ rows: `parts/UI_NOTES.md`.
 
@@ -108,7 +104,7 @@ Pages serves the repo root of `main`: **Settings → Pages → Build and deploym
 index.html, assets/          the Pages site (vanilla JS, no build step)
 data/library.json            site data, generated by scripts/sync_site_data.py
 data/composers.json          composer index (life dates, era, counts, piece ids, portrait + licence)
-data/cache/                  network lookups cached for the offline sync (composer meta, streams, synth renders)
+data/cache/                  network lookups cached for the offline sync (composer meta, streams)
 assets/vendor/               html-midi-player bundle (Tone.js + Magenta core), loaded only for live MIDI
 data/catalog.json, data/items/  agent index + per-item records (scripts/build_catalog.py, run by sync)
 AGENTS.md, llms.txt          agent entry points; docs/MCP_PLAN.md
@@ -143,9 +139,7 @@ The site above is the main way in. For a no-server fallback:
 4. When you like a clip, find its `id` in `library.csv`. Check `legal_notes` and use the full file from the Release (or `files/audio/` locally). Use `notable_excerpt` to find the strongest part.
 
 Every preview is 15 s, MP3 192 kbps, 44.1 kHz stereo, normalised to about -16 LUFS (measured -16.9 to -15.1), with 0.35 s / 0.45 s fades.
-Previews are cut from the licensed recording where there is one. Otherwise they are our own FluidSynth renders of the licensed MIDI.
-The MIDI renders are bach_bwv1007_prelude, bach_bwv1068_air, debussy_arabesque_1, debussy_clair_de_lune, faure_*, handel_hwv56_hallelujah, mozart_k525_nachtmusik, pachelbel_canon_d and satie_gnossienne_1.
-They are not human performances.
+Previews are cut only from the licensed recording. Rows without a recording have no preview; they play the score MIDI in the browser. Synth-rendered previews were removed on 2026-10-09 (docs/REMOVED_SYNTH_AUDIO.md).
 
 ## License rules
 

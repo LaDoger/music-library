@@ -65,3 +65,5 @@ Completed and deployed: 5a768be (23 verified clean rows: 13 Wagner + 10 Mahler; 
 ## Bulk pipeline resume (CP-BULK1)
 
 Done: harvest + dedup + 181 score/preview rows in `parts/BULK_batchA_rows.csv`. Not done: PDMX MIDI archive, and appending these rows onto `library.csv` (leave that until batch-1 and the UI scrub are finished; append by id, do not rewrite the whole CSV). Exact commands: `briefs/NIGHTLY_BULK.md`. Do not download `mxl.tar.gz` or `pdf.tar.gz`. Grok had no rate-limit at 18:30; Codex primary was 49%. Continue.
+
+> 22:26 CEST: synth-audio removal job (briefs/BRIEF_remove_synth_audio.md, Claude opus) running detached, log logs/synthrm_claude.log. Resume: if no CP-SYNTHRM row, re-run that brief.

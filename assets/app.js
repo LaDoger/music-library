@@ -3,7 +3,8 @@
    scripts/build_catalog.py) + data/composers.json; data/items/<id>.json is fetched when a
    piece is opened. Falls back to data/library.json if the index is missing.
    Views: composer index (default) → composer page (?composer=) → works (?view=works).
-   One global player: 15 s preview, full recording, pre-rendered synth MP3 or live in-browser MIDI. */
+   One global player: 15 s preview / full recording (real recordings only) or the score MIDI
+   synthesised live in the browser (html-midi-player). No pre-rendered synth audio. */
 (() => {
   "use strict";
 
@@ -31,8 +32,7 @@
   const MODES = {
     preview: { label: "Preview", short: "15 s", badge: "Preview · 15 s" },
     full: { label: "Full recording", short: "Full", badge: "Recording" },
-    synth: { label: "Synth render", short: "Synth", badge: "Synth render · FluidSynth" },
-    midi: { label: "Live MIDI synth", short: "MIDI", badge: "Live MIDI synth" },
+    midi: { label: "Synth (in-browser MIDI)", short: "Synth", badge: "Synth · in-browser MIDI" },
   };
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
@@ -241,7 +241,7 @@
       ? `<span class="tag score" title="${esc(r.editable_format || "Editable score")}">✎ Score</span>`
       : `<span class="tag noscore" title="No editable score yet">no score</span>`;
     const rec = r.has_recording ? `<span class="tag rec" title="Full recording: play it in full from the player">♫ Recording</span>` : "";
-    const synth = r.midi_play_url ? `<span class="tag synth" title="Plays as a synth render in the browser">◍ Synth</span>` : "";
+    const synth = r.midi_play_url ? `<span class="tag synth" title="Plays the score MIDI in the browser">◍ Synth</span>` : "";
     const composer = inComposer ? "" : `<a class="c-composer" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer)}</a>`;
     return `<article class="card${inComposer ? " in-composer" : ""}${r.id === player.id ? " playing" : ""}" data-id="${esc(r.id)}">
       <div class="card-head">
@@ -546,10 +546,9 @@
     const note = {
       preview: "15 s audition",
       full: [r.stream_audio_url ? (/archive\.org/.test(r.stream_audio_url) ? "Internet Archive stream" : "Wikimedia stream") : "GitHub Release file", dur(r.duration_s)].filter(Boolean).join(" · "),
-      synth: ["FluidSynth render", dur(r.synth_duration_s), `licence: ${scoreLic}`].filter(Boolean).join(" · "),
       midi: `in-browser, adjustable tempo · licence: ${scoreLic}`,
     };
-    const kind = { preview: "Preview", full: "Recording", synth: "Synth render", midi: "Synth render" };
+    const kind = { preview: "Preview", full: "Recording", midi: "Synth" };
     const btns = modes.map((m) => `<button type="button" class="listen-btn m-${m}" data-act="mode" data-mode="${m}" data-id="${esc(r.id)}" aria-pressed="false">
         <span class="lb-icon" aria-hidden="true">▶</span>
         <span class="lb-text"><span class="lb-label">${esc(MODES[m].label)}</span><small>${esc(note[m])}</small></span>
@@ -613,7 +612,6 @@
         ${linkRow(r.preview_url, "15 s preview MP3", "MP3")}
         ${linkRow(r.release_audio_url, "Full recording (Release audio-v1)", fmtBytes(r.release_audio_bytes))}
         ${linkRow(r.stream_audio_url, "Full recording stream", (r.stream_audio_mime || "").replace("audio/", "").toUpperCase())}
-        ${linkRow(r.stream_synth_url, "Synth render MP3 (FluidSynth)", "MP3")}
         ${scoreLinks || ""}
         ${r.midi_play_url && !(r.score_files || []).includes(r.midi_play_url) ? linkRow(r.midi_play_url, "Playable MIDI (extracted)", "MID") : ""}
         ${linkRow(r.recording_source_url, "Recording source page", "source")}
@@ -680,14 +678,12 @@
     const m = [];
     if (r.preview_url) m.push("preview");
     if (r.stream_audio_url || r.release_audio_url) m.push("full");
-    if (r.stream_synth_url) m.push("synth");
     if (r.midi_play_url) m.push("midi");
     return m;
   }
   function sourcesFor(r, m) {
     if (m === "preview") return [r.preview_url];
     if (m === "full") return [...new Set([r.stream_audio_url, r.release_audio_url].filter(Boolean))];
-    if (m === "synth") return [r.stream_synth_url];
     return [];
   }
   const isPlaying = () => (player.mode === "midi" ? midi.playing || midi.loading : !!player.id && !audio.paused);
@@ -752,7 +748,7 @@
     if (player.mode === "midi") return midi.seq ? midi.seq.totalTime : 0;
     if (Number.isFinite(audio.duration) && audio.duration > 0) return audio.duration;
     const r = BY_ID.get(player.id) || {};
-    return player.mode === "preview" ? 15 : player.mode === "synth" ? r.synth_duration_s || 0 : r.duration_s || 0;
+    return player.mode === "preview" ? 15 : r.duration_s || 0;
   }
   function seek(t) {
     const d = duration();
@@ -769,12 +765,12 @@
     document.body.classList.add("has-player");
     $("#pTitle").textContent = r.title;
     $("#pComposer").textContent = r.composer;
-    $("#pSub").textContent = `${r.catalog ? r.catalog + " · " : ""}${LICENCE[r.licence_status]?.[0] || ""}${player.mode === "synth" || player.mode === "midi" ? " · score licence: " + (LICENCE[r.score_status]?.[0] || "?") : ""}`;
+    $("#pSub").textContent = `${r.catalog ? r.catalog + " · " : ""}${LICENCE[r.licence_status]?.[0] || ""}${player.mode === "midi" ? " · score licence: " + (LICENCE[r.score_status]?.[0] || "?") : ""}`;
     $("#pMode").textContent = MODES[player.mode].badge;
     $("#pMode").className = "p-mode k-" + player.mode;
-    $("#pModes").innerHTML = ["preview", "full", "synth", "midi"].filter((m) => modes.includes(m)).map((m) =>
+    $("#pModes").innerHTML = ["preview", "full", "midi"].filter((m) => modes.includes(m)).map((m) =>
       `<button type="button" data-pmode="${m}" aria-pressed="${m === player.mode}" title="${esc(MODES[m].label)}">${esc(MODES[m].short)}</button>`).join("");
-    if (!modes.includes("full") && r.has_editable_score) $("#pModes").insertAdjacentHTML("beforeend", `<span class="p-nofull" title="No recording yet: Synth / MIDI play the full score">no recording</span>`);
+    if (!modes.includes("full") && r.has_editable_score) $("#pModes").insertAdjacentHTML("beforeend", `<span class="p-nofull" title="No recording yet: Synth plays the full score MIDI in the browser">no recording</span>`);
     $("#pTempoWrap").hidden = player.mode !== "midi";
     $("#pTempo").value = player.tempo;
     $("#pTempoOut").textContent = Math.round(player.tempo * 100) + "%";

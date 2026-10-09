@@ -31,14 +31,14 @@ INDEX_FIELDS = [
     "id", "composer", "title", "catalog", "movement", "genre", "era", "mood_tags", "energy",
     "licence_status", "recording_status", "score_status", "verified", "has_editable_score",
     "has_recording", "editors_pick_rank", "death_year", "preview_url", "midi_play_url",
-    "stream_audio_url", "release_audio_url", "stream_synth_url", "video_use_ideas", "catalog_variants",
+    "stream_audio_url", "release_audio_url", "video_use_ideas", "catalog_variants",
 ]
 ITEMS_DIR = os.path.join(ROOT, "data", "items")
 
 PAGES_BASE = "https://ladoger.github.io/music-library/"
 REPO_URL = "https://github.com/LaDoger/music-library"
 RELEASE_URL = REPO_URL + "/releases/tag/audio-v1"
-SCHEMA_VERSION = 2  # 2: editors_pick_rank replaces top_pick_rank; composer + stream/synth fields
+SCHEMA_VERSION = 3  # 2: editors_pick_rank replaces top_pick_rank; composer + stream fields. 3: stream_synth_url removed (no synth audio)
 
 LICENCE_MEANING = {
     "clean": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
@@ -131,7 +131,6 @@ def build():
             "release_audio_url": r.get("release_audio_url", ""),
             "stream_audio_url": r.get("stream_audio_url", ""),
             "midi_play_url": url(r.get("midi_play_url", "")),
-            "stream_synth_url": r.get("stream_synth_url", ""),
             "item_json_url": url(item_rel),
         })
         full = dict(r)

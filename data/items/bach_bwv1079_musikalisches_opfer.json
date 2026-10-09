@@ -7,7 +7,7 @@
  "movement": "Musikalisches Opfer",
  "mood_tags": "contrapuntal",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Own MIDI render 00:00-00:15 (opening)",
+ "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
  "video_use_ideas": "Underscore a focused explanation with the opening bars.",
  "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=702",
  "editable_format": "MIDI; LilyPond",
@@ -17,10 +17,10 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1750. Public domain in life+70 countries and, for this generation, normally PD-US as a historic published work. Mutopia header licence: Public Domain. Piece id 702. MIDI, when present, is the Mutopia FTP render of this LilyPond file, not a performance. Preview is an own FluidSynth (FluidR3_GM) render, 15 seconds, fades, loudness-normalised. source_rank pending. Instrumentation: Harpsichord, Piano. Mutopia git 2144afd6f52d.",
+ "legal_notes": "Composer died 1750. Public domain in life+70 countries and, for this generation, normally PD-US as a historic published work. Mutopia header licence: Public Domain. Piece id 702. MIDI, when present, is the Mutopia FTP render of this LilyPond file, not a performance. source_rank pending. Instrumentation: Harpsichord, Piano. Mutopia git 2144afd6f52d. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/bach_bwv1079_musikalisches_opfer.mid",
  "local_audio_path": "",
- "preview_path": "previews/bach_bwv1079_musikalisches_opfer.mp3",
+ "preview_path": "",
  "verified": "yes",
  "added_by": "grok",
  "source_rank": "2",
@@ -37,7 +37,7 @@
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
- "preview_url": "previews/bach_bwv1079_musikalisches_opfer.mp3",
+ "preview_url": "",
  "score_url": "files/scores/bach_bwv1079_musikalisches_opfer.mid",
  "score_files": [
   "files/scores/bach_bwv1079_musikalisches_opfer.mid"
@@ -50,9 +50,7 @@
  "recording_status": "",
  "score_status": "clean",
  "licence_status": "clean",
- "legal_flags": [
-  "Own MIDI render"
- ],
+ "legal_flags": [],
  "energy": "moderate",
  "editors_pick": false,
  "editors_pick_rank": 0,
@@ -61,14 +59,11 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1079_musikalisches_opfer.mid",
- "stream_synth_url": "",
- "release_synth_url": "",
- "synth_duration_s": 0,
- "schema_version": 2,
+ "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1079_musikalisches_opfer",
  "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1079_musikalisches_opfer.json",
- "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1079_musikalisches_opfer.mp3",
+ "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1079_musikalisches_opfer.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv1079_musikalisches_opfer.mid"

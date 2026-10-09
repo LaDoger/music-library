@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Player check: preview / full recording (stream -> Release -> "open recording" fallback) /
-   pre-rendered synth MP3 / live in-browser MIDI synth with tempo; one source at a time.
+   live in-browser MIDI synth with tempo (no pre-rendered synth audio); one source at a time.
    NODE_PATH=/tmp/music-ui-review/node_modules node scripts/check_player.cjs
    External audio URLs are routed to local files, so the audio part is offline. The live MIDI
    part loads the Magenta SGM+ soundfont from storage.googleapis.com; SKIP_NET=1 skips it. */
@@ -51,12 +51,12 @@ const server = http.createServer((req, res) => {
     page.on('pageerror', e => errors.push(e.message));
     const audioState = () => page.evaluate(() => ({ n: window.__audios.length, src: window.__audios[0].src, paused: window.__audios[0].paused }));
     const r = rows.find(x => x.id === 'grieg_peer_gynt_mountain_king');
-    assert(r.stream_audio_url && r.release_audio_url && r.stream_synth_url && r.midi_play_url, 'test row has every source');
+    assert(r.stream_audio_url && r.release_audio_url && r.midi_play_url && !('stream_synth_url' in r), 'test row has every source');
 
     await page.goto(base + '?id=' + r.id);
     await page.waitForSelector('#drawer.open .listen-btn');
-    assert.deepEqual(await page.locator('.listen-btn').evaluateAll(b => b.map(x => x.dataset.mode)), ['preview', 'full', 'synth', 'midi']);
-    assert.deepEqual(await page.locator('.listen-btn .kind').allTextContents(), ['Preview', 'Recording', 'Synth render', 'Synth render']);
+    assert.deepEqual(await page.locator('.listen-btn').evaluateAll(b => b.map(x => x.dataset.mode)), ['preview', 'full', 'midi']);
+    assert.deepEqual(await page.locator('.listen-btn .kind').allTextContents(), ['Preview', 'Recording', 'Synth']);
 
     // Full recording from the direct stream.
     await page.locator('.listen-btn.m-full').click();
@@ -88,17 +88,15 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.locator('#pOpen').getAttribute('href'), r.release_audio_url);
     failStreams = failRelease = false;
 
-    // Pre-rendered synth MP3 (synth-v1 Release).
-    await page.locator('.listen-btn.m-synth').click();
-    await page.waitForFunction(u => window.__audios[0].src === u && !window.__audios[0].paused, r.stream_synth_url);
-    assert.match(await page.locator('#pMode').textContent(), /Synth render/);
-    assert.match(await page.locator('#pSub').textContent(), /score licence/);
+    // No pre-rendered synth audio (removed 2026-10-09): no synth MP3 button, single Audio element.
+    assert.equal(await page.locator('.listen-btn.m-synth').count(), 0);
     assert.equal(await page.evaluate(() => window.__audios.length), 1);
 
     if (!process.env.SKIP_NET) {
       // Live MIDI: audio element released, synth plays, tempo rescales duration.
       await page.locator('.listen-btn.m-midi').click();
-      await page.waitForFunction(() => document.querySelector('#pMode').textContent === 'Live MIDI synth' && !document.querySelector('#player').classList.contains('loading') && /^0:0[1-9]/.test(document.querySelector('#pTime').textContent), null, { timeout: 60000 });
+      await page.waitForFunction(() => document.querySelector('#pMode').textContent === 'Synth · in-browser MIDI' && !document.querySelector('#player').classList.contains('loading') && /^0:0[1-9]/.test(document.querySelector('#pTime').textContent), null, { timeout: 60000 });
+      assert.match(await page.locator('#pSub').textContent(), /score licence/);
       a = await audioState();
       assert.equal(a.paused, true); assert.equal(a.src, '', 'audio element released while MIDI plays');
       assert.equal(await page.locator('#pTempoWrap').isVisible(), true);
@@ -131,9 +129,10 @@ const server = http.createServer((req, res) => {
     await page.waitForSelector('#drawer.open .listen-btn');
     assert.equal(await page.locator('.listen-btn.m-full').count(), 0);
     assert.equal(await page.locator('.listen-btn.m-midi').count(), 1);
+    assert.equal(await page.locator('.listen-btn.m-preview').count(), 0, 'score-only row has no (synth) preview');
     await page.keyboard.press('Escape'); // stop
     assert.equal(errors.length, 0, errors.join('\n'));
-    console.log(`PASS player: modes + badges; full stream, seek, Release fallback, open-recording fallback; synth MP3; ${process.env.SKIP_NET ? '(live MIDI skipped)' : 'live MIDI + tempo + piano roll + pause'}; one source at a time; score-only row.`);
+    console.log(`PASS player: modes + badges; full stream, seek, Release fallback, open-recording fallback; no synth MP3; ${process.env.SKIP_NET ? '(live MIDI skipped)' : 'live MIDI + tempo + piano roll + pause'}; one source at a time; score-only row.`);
   } finally {
     await browser.close();
   }

@@ -17,10 +17,10 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composition published 1893, so the music itself is PD-EU and PD-US. The Mutopia edition (piece 2035) is Creative Commons Attribution-ShareAlike 4.0, stated on the piece page and in the LilyPond header. Share-alike can obligate a derivative edition, and a render made from this specific edition should not be treated as a clean PD recording. Credit the typesetter via the Mutopia page if this file is shipped. Preview is an own FluidSynth render.",
+ "legal_notes": "Composition published 1893, so the music itself is PD-EU and PD-US. The Mutopia edition (piece 2035) is Creative Commons Attribution-ShareAlike 4.0, stated on the piece page and in the LilyPond header. Share-alike can obligate a derivative edition, and a render made from this specific edition should not be treated as a clean PD recording. Credit the typesetter via the Mutopia page if this file is shipped. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/satie_gnossienne_1.mid",
  "local_audio_path": "",
- "preview_path": "previews/satie_gnossienne_1.mp3",
+ "preview_path": "",
  "verified": "yes",
  "added_by": "grok",
  "genre": "classical",
@@ -32,7 +32,7 @@
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
- "preview_url": "previews/satie_gnossienne_1.mp3",
+ "preview_url": "",
  "score_url": "files/scores/satie_gnossienne_1.mid",
  "score_files": [
   "files/scores/satie_gnossienne_1.mid"
@@ -48,7 +48,6 @@
  "score_status": "sharealike",
  "licence_status": "sharealike",
  "legal_flags": [
-  "Own MIDI render",
   "ShareAlike score only"
  ],
  "energy": "low",
@@ -59,14 +58,11 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_gnossienne_1.mid",
- "stream_synth_url": "",
- "release_synth_url": "",
- "synth_duration_s": 0,
- "schema_version": 2,
+ "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_gnossienne_1",
  "item_json_url": "https://ladoger.github.io/music-library/data/items/satie_gnossienne_1.json",
- "preview_url_abs": "https://ladoger.github.io/music-library/previews/satie_gnossienne_1.mp3",
+ "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/satie_gnossienne_1.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/satie_gnossienne_1.mid"

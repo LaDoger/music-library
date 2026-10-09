@@ -23,7 +23,6 @@ Derived fields
   stream_audio_url    direct Commons / archive.org stream (data/cache/stream_audio.json)
   midi_play_url       MIDI the in-browser synth plays (plain .mid, or files/midi_play/<id>.mid
                       extracted / converted by scripts/build_midi_play.py)
-  stream_synth_url    pre-rendered full-length FluidSynth MP3 (data/cache/synth_renders.json)
   search_text         lowercase blob the UI searches (catalogue variants included)
 
 Also writes data/composers.json and rebuilds data/catalog.json + data/items/*.json
@@ -287,7 +286,6 @@ def build():
     picks = parse_editors_picks()
     composer_meta = load_cache("composer_meta.json")
     streams = load_cache("stream_audio.json")
-    synths = load_cache("synth_renders.json")
     out, problems = [], []
 
     for r in rows:
@@ -348,7 +346,6 @@ def build():
         moods = [m.strip() for m in item.get("mood_tags", "").split(";") if m.strip()]
         rank, why = picks.get(rid, (0, ""))
         stream = streams.get(rid, {}) if has_rec else {}
-        synth = synths.get(rid, {}) if has_score else {}
         midi_play = midi_play_for(item, score_files) if has_score else ""
 
         item.update({
@@ -370,9 +367,6 @@ def build():
             "stream_audio_mime": stream.get("stream_audio_mime", ""),
             "duration_s": stream.get("local_duration") or stream.get("duration") or 0,
             "midi_play_url": midi_play,
-            "stream_synth_url": synth.get("url", ""),
-            "release_synth_url": synth.get("url", "") if "/releases/download/" in synth.get("url", "") else "",
-            "synth_duration_s": synth.get("duration", 0),
         })
         item["search_text"] = " ".join([
             item["title"], item["composer"], item.get("catalog", ""), catalog_variants(item.get("catalog")),
@@ -442,8 +436,7 @@ def main():
     print("scores:", sum(o["has_editable_score"] for o in out), "recordings:", sum(o["has_recording"] for o in out),
           "editor's picks:", sum(1 for o in out if o["editors_pick_rank"]))
     print("composers:", len(composers), "with portrait:", sum(1 for c in composers if c["portrait_url"]),
-          "streams:", sum(1 for o in out if o["stream_audio_url"]), "midi_play:", sum(1 for o in out if o["midi_play_url"]),
-          "synth renders:", sum(1 for o in out if o["stream_synth_url"]))
+          "streams:", sum(1 for o in out if o["stream_audio_url"]), "midi_play:", sum(1 for o in out if o["midi_play_url"]))
     for p in problems:
         print("WARN", p)
     if not check:

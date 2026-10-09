@@ -12,7 +12,7 @@ You are looking at **LaDoger's music library**: public-domain and openly license
 | Composer index | https://ladoger.github.io/music-library/data/composers.json (site: `?composer=<name>`) |
 | Short version of this file | https://ladoger.github.io/music-library/llms.txt |
 | Full recordings | GitHub Release `audio-v1`: `https://github.com/LaDoger/music-library/releases/download/audio-v1/<file>` (each item's `release_audio_url`); direct streams in `stream_audio_url` |
-| Synth renders | GitHub Release `synth-v1`: FluidSynth MP3s of editor's-pick scores (`stream_synth_url`; score licence applies) |
+| Synth audio | None hosted. Synth-rendered previews and the `synth-v1` renders were removed on 2026-10-09 ([docs/REMOVED_SYNTH_AUDIO.md](docs/REMOVED_SYNTH_AUDIO.md)). The site plays score MIDI in the browser; render your own with recipe 5. |
 | Repo | https://github.com/LaDoger/music-library |
 | CLI | `python -m musiclib ...` (see [CLI](#cli)) |
 
@@ -37,7 +37,7 @@ Rules that always hold:
 - Never add music that is CC BY-NC, all-rights-reserved, or has a guessed licence. Never download from MuseScore.com (it needs a login). Excluded composers (not PD): Orff, Prokofiev, Shostakovich, Stravinsky. Ravel's Boléro is excluded (disputed).
 - `musiclib credit <id>` prints the credit text and exits 0 only for `clean` / `attribution`.
 
-**Quality bar:** no filler. Every row is a strong, recognisable piece with a stated video use (`video_use_ideas`) and a best excerpt (`notable_excerpt`). Previews are 15 s MP3s at about −16 LUFS. They are auditions only; use the full recording or your own render in the video.
+**Quality bar:** no filler. Every row is a strong, recognisable piece with a stated video use (`video_use_ideas`) and a best excerpt (`notable_excerpt`). Previews are 15 s MP3s at about −16 LUFS, cut from the real recording; rows without a recording have none. They are auditions only; use the full recording or your own render in the video.
 
 ## IDs and catalogue numbers
 
@@ -49,9 +49,9 @@ Rules that always hold:
 
 ## Item fields you will use
 
-From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, editors_pick_rank, composer_slug, composer_sort, preview_url, score_url, release_audio_url, stream_audio_url, midi_play_url, stream_synth_url, item_json_url`.
+From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, editors_pick_rank, composer_slug, composer_sort, preview_url, score_url, release_audio_url, stream_audio_url, midi_play_url, item_json_url`.
 
-The item JSON adds: `legal_notes, legal_flags, recording_license, recording_performer, recording_source_url, recording_quality, editable_license, editable_format, editable_source_url, notable_excerpt, video_use_ideas, score_files[] / score_files_abs[], render_midi {file, url, zip_member}, midi_play_url / midi_play_url_abs, stream_audio_url, stream_synth_url, birth_year, credit_text, licence_meaning, page_url`.
+The item JSON adds: `legal_notes, legal_flags, recording_license, recording_performer, recording_source_url, recording_quality, editable_license, editable_format, editable_source_url, notable_excerpt, video_use_ideas, score_files[] / score_files_abs[], render_midi {file, url, zip_member}, midi_play_url / midi_play_url_abs, stream_audio_url, birth_year, credit_text, licence_meaning, page_url`.
 
 ## Recipes
 
@@ -76,7 +76,7 @@ python -m musiclib get grieg_peer_gynt_mountain_king          # URLs, local path
 python -m musiclib get grieg_peer_gynt_mountain_king --json   # = data/items/<id>.json
 ```
 
-Play `preview_url` to audition. Bulk-imported rows (OpenScore, Mutopia, PDMX; `added_by` = `bulk`) have no pre-rendered preview: `preview_url` is empty, so audition `midi_play_url` (or `render` it, recipe 5). `notable_excerpt` gives the strongest timestamp.
+Play `preview_url` to audition. Only rows with a real recording have a preview. Score-only rows (all bulk imports and most curated scores) have an empty `preview_url`, so audition `midi_play_url` (or `render` it, recipe 5). `notable_excerpt` gives the strongest timestamp.
 
 ### 3. Download the recording (Release URL)
 

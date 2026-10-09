@@ -82,7 +82,10 @@ def cmd_get(lib: Library, a) -> int:
     if it.get("legal_flags"):
         lines.append("flags: " + "; ".join(it["legal_flags"]))
     lines.append(f"page:      {it['page_url']}")
-    lines.append(f"preview:   {it['preview_url_abs']}{local(it['preview_url'])}")
+    if it.get("preview_url"):
+        lines.append(f"preview:   {it['preview_url_abs']}{local(it['preview_url'])}")
+    else:
+        lines.append("preview:   none (score-only: play midi_play_url in a MIDI player)")
     if it["has_recording"]:
         lines.append(f"recording: {it['release_audio_url']}"
                      f"  [{it.get('recording_quality') or '?'}; {it.get('recording_license')}]")
@@ -98,8 +101,6 @@ def cmd_get(lib: Library, a) -> int:
         rm = it.get("render_midi")
         if rm:
             lines.append(f"  render source: {rm['file']}" + (f" -> {rm['zip_member']}" if rm["zip_member"] else ""))
-        if it.get("stream_synth_url"):
-            lines.append(f"  synth render: {it['stream_synth_url']}  (FluidSynth; carries the score licence)")
     else:
         lines.append("score: none")
     if it.get("notable_excerpt"):
@@ -153,6 +154,9 @@ def cmd_download(lib: Library, a) -> int:
                 got.append(dest)
             licence_warning(it["score_status"], "the score")
         elif kind == "preview":
+            if not it.get("preview_url"):
+                warn(f"{a.id}: no preview (score-only; play midi_play_url or `musiclib render {a.id}`)")
+                continue
             dest = out / Path(it["preview_url"]).name
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(lib.local_file(it["preview_url"]).read_bytes())

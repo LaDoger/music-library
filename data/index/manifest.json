@@ -1,5 +1,5 @@
 {
- "schema_version": 2,
+ "schema_version": 3,
  "count": 4596,
  "fields": [
   "id",
@@ -23,34 +23,33 @@
   "midi_play_url",
   "stream_audio_url",
   "release_audio_url",
-  "stream_synth_url",
   "video_use_ideas",
   "catalog_variants"
  ],
  "parts": [
   {
    "file": "part-000.json",
-   "count": 752
+   "count": 795
   },
   {
    "file": "part-001.json",
-   "count": 849
+   "count": 861
   },
   {
    "file": "part-002.json",
-   "count": 864
+   "count": 871
   },
   {
    "file": "part-003.json",
-   "count": 800
+   "count": 819
   },
   {
    "file": "part-004.json",
-   "count": 788
+   "count": 815
   },
   {
    "file": "part-005.json",
-   "count": 543
+   "count": 435
   }
  ],
  "item_json": "data/items/{id}.json"

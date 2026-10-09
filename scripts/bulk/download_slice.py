@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Download a licence-clean first slice and render 15 second previews.
+"""Download a licence-clean slice of scores (no audio: synth previews were removed 2026-10-09).
 
 Reads parts/BULK_candidates.csv. Selects at most --limit new pieces
 (default 220, hard cap 300) across OpenScore quartets, OpenScore Lieder,
 Mutopia PD/CC-BY, and PDMX only when the MIDI member is already on disk.
-Writes scores under files/scores/, previews under previews/, and appends
+Writes scores under files/scores/ and appends
 parts/BULK_batchA_rows.csv. Never rewrites library.csv or BATCH1 files.
 
 Safe to re-run: ids already in the batch CSV, or whose score file already
@@ -267,6 +267,7 @@ def _export_midi(mxl: Path, mid: Path, work: Path):
 
 
 def _preview(midi: Path, out: Path):
+    raise RuntimeError("synth previews are disabled (docs/REMOVED_SYNTH_AUDIO.md)")
     script = ROOT / "scripts" / "make_preview.py"
     result = subprocess.run(
         ["python3", str(script), "--midi", str(midi), "--start", "0", "--out", str(out)],
@@ -310,7 +311,7 @@ def _github_mxl(row: dict) -> str:
     return ""
 
 
-def process(row: dict, pdmx_root: Path | None, preview: bool = True) -> dict:
+def process(row: dict, pdmx_root: Path | None, preview: bool = False) -> dict:
     ident = row["id"]
     work = ROOT / ".tmp" / "bulk" / "work" / ident
     if work.exists():
@@ -405,7 +406,7 @@ def _done_ids(path: Path) -> set[str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Download the first bulk slice and render previews")
+    parser = argparse.ArgumentParser(description="Download a bulk slice of licence-clean scores")
     parser.add_argument("--candidates", type=Path, default=ROOT / "parts" / "BULK_candidates.csv")
     parser.add_argument("--out", type=Path, default=ROOT / "parts" / "BULK_batchA_rows.csv")
     parser.add_argument("--limit", type=int, default=220)
@@ -420,7 +421,8 @@ def main():
     parser.add_argument("--bulk", action="store_true",
                         help="Scale run: thousands-sized source caps, no composer caps")
     parser.add_argument("--no-preview", action="store_true",
-                        help="Skip the 15 s MP3 preview (bulk rows play via the in-browser MIDI synth)")
+                        help="No-op, kept for old command lines: synth previews are never rendered "
+                             "(removed 2026-10-09; rows play via the in-browser MIDI player)")
     args = parser.parse_args()
     global BULK
     BULK = args.bulk
@@ -465,7 +467,7 @@ def main():
     failures = []
     ok = 0
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
-        futures = {pool.submit(process, row, args.pdmx_root, not args.no_preview): row for row in picked}
+        futures = {pool.submit(process, row, args.pdmx_root, False): row for row in picked}
         for future in as_completed(futures):
             row = futures[future]
             try:

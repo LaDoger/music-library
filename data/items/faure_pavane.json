@@ -17,10 +17,10 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Pavane Op.50 (1887) is PD-EU and PD-US as a composition. Mutopia piece 2196 is CC BY-SA 4.0 (piece page and project listing). Share-alike: do not treat a render of this edition as a clean PD master. The MIDI is flute plus nylon guitar, not the orchestral pavane. Credit the Mutopia edition if used.",
+ "legal_notes": "Pavane Op.50 (1887) is PD-EU and PD-US as a composition. Mutopia piece 2196 is CC BY-SA 4.0 (piece page and project listing). Share-alike: do not treat a render of this edition as a clean PD master. The MIDI is flute plus nylon guitar, not the orchestral pavane. Credit the Mutopia edition if used. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/faure_pavane.mid",
  "local_audio_path": "",
- "preview_path": "previews/faure_pavane.mp3",
+ "preview_path": "",
  "verified": "yes",
  "added_by": "grok",
  "genre": "classical",
@@ -32,7 +32,7 @@
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
- "preview_url": "previews/faure_pavane.mp3",
+ "preview_url": "",
  "score_url": "files/scores/faure_pavane.mid",
  "score_files": [
   "files/scores/faure_pavane.mid"
@@ -58,14 +58,11 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/faure_pavane.mid",
- "stream_synth_url": "",
- "release_synth_url": "",
- "synth_duration_s": 0,
- "schema_version": 2,
+ "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_pavane",
  "item_json_url": "https://ladoger.github.io/music-library/data/items/faure_pavane.json",
- "preview_url_abs": "https://ladoger.github.io/music-library/previews/faure_pavane.mp3",
+ "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_pavane.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/faure_pavane.mid"
