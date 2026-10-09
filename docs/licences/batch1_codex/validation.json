@@ -1,0 +1,143 @@
+{
+  "count": 23,
+  "preview_checks": [
+    {
+      "id": "mahler_gmw29_rheinlegendchen",
+      "duration": 15.046531,
+      "lufs": -16.3,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw45_kindertotenlieder1",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw45_kindertotenlieder2",
+      "duration": 15.046531,
+      "lufs": -16.3,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw45_kindertotenlieder3",
+      "duration": 15.046531,
+      "lufs": -16.1,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw45_kindertotenlieder4",
+      "duration": 15.046531,
+      "lufs": -16.2,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw45_kindertotenlieder5",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw10_gesellen1",
+      "duration": 15.046531,
+      "lufs": -16.2,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw10_gesellen2",
+      "duration": 15.046531,
+      "lufs": -16.5,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw10_gesellen3",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "mahler_gmw10_gesellen4",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv91_wesendonck1_der_engel",
+      "duration": 15.046531,
+      "lufs": -16.1,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv91_wesendonck2_stehe_still",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv91_wesendonck3_im_treibhaus",
+      "duration": 15.046531,
+      "lufs": -16.1,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv91_wesendonck4_schmerzen",
+      "duration": 15.046531,
+      "lufs": -16.2,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv91_wesendonck5_traume",
+      "duration": 15.046531,
+      "lufs": -16.3,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv75_elsa_procession",
+      "duration": 15.046531,
+      "lufs": -16.3,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv86d_gotterdammerung_act3_prelude",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv111_parsifal_prelude",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv111_parsifal_good_friday",
+      "duration": 15.046531,
+      "lufs": -16.2,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv96_meistersinger_prelude",
+      "duration": 15.046531,
+      "lufs": -16.2,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv86d_siegfried_funeral_march",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv90_tristan_liebestod",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    },
+    {
+      "id": "wagner_wwv70_tannhauser_overture",
+      "duration": 15.046531,
+      "lufs": -16.0,
+      "bytes": 361786
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+[
+  {
+    "id": "mahler_gmw29_rheinlegendchen",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Des_Knaben_Wunderhorn/7_Rheinlegendchen/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Des_Knaben_Wunderhorn/7_Rheinlegendchen/lc29746856.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw29_rheinlegendchen.mxl",
+        "sha256": "2e53f18fcd85df59371a368488a4c054c14e8783007b1769216ecc26c3fb7b2d"
+      },
+      {
+        "path": "files/scores/mahler_gmw29_rheinlegendchen.mid",
+        "sha256": "488921eea42271161a2ee51c9d160787b60836b331052b2f87359d8c4a84420b"
+      }
+    ],
+    "preview_start_seconds": 19.89,
+    "original_score_id": "29746856",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "# Rheinlegendchen\n\n__No.7 from [Des Knaben Wunderhorn](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/29746856\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/29746856\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/46767"
+    },
+    "midi_notes": 1273,
+    "midi_duration_seconds": 156.132
+  },
+  {
+    "id": "mahler_gmw45_kindertotenlieder1",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n/lc5054519.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder1.mxl",
+        "sha256": "643f9f05eb9b2935ae4efc387998c0026cb14ab45f522fcc22ff52a0d42ece64"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder1.mscx",
+        "sha256": "89e388e2f4f75ac6f33a9d05bb75484c96e2c4f68b4ac849e9d7e24176fd6708"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder1.mid",
+        "sha256": "2f77a26ed208dc7f1743039ebd7ce43ccb9b8bcc5a5b14cef24f064a77390c15"
+      }
+    ],
+    "preview_start_seconds": 16.89,
+    "original_score_id": "5054519",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Nun will die Sonn’ so hell aufgeh’n\n\n__No.1 from [Kindertotenlieder](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5054519\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5054519\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/37187\n"
+    },
+    "midi_notes": 985,
+    "midi_duration_seconds": 354.554
+  },
+  {
+    "id": "mahler_gmw45_kindertotenlieder2",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/2_Nun_seh%E2%80%99_ich_wohl%2C_warum_so_dunkle_Flammen/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/2_Nun_seh%E2%80%99_ich_wohl%2C_warum_so_dunkle_Flammen/lc5051724.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder2.mxl",
+        "sha256": "a15b0eed3d2003ee501b36bbbcdcb54dddaf1b8d5d06717ff39fbe66d91b0dc5"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder2.mscx",
+        "sha256": "952a0a17b81091e94fe020e355c74b4227a8072523f840257f58cd838c933aa2"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder2.mid",
+        "sha256": "4d1784538347e6022a2913932d2b33c61bf8062ed5b72be9f617eb88d355bb2c"
+      }
+    ],
+    "preview_start_seconds": 17.96,
+    "original_score_id": "5051724",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Nun seh’ ich wohl, warum so dunkle Flammen\n\n__No.2 from [Kindertotenlieder](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5051724\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5051724\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/37187\n"
+    },
+    "midi_notes": 744,
+    "midi_duration_seconds": 299.988
+  },
+  {
+    "id": "mahler_gmw45_kindertotenlieder3",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/3_Wenn_dein_M%C3%BCtterlein/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/3_Wenn_dein_M%C3%BCtterlein/lc5052787.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder3.mxl",
+        "sha256": "a7c40c6ea70a72588f0e5c9cce8020be423a11dbe9cab50a1a43e3232b3870fe"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder3.mscx",
+        "sha256": "90f6729d04c2ef6957ab3a7bced6e1299d636218085e8b0497ff09808f6a4724"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder3.mid",
+        "sha256": "26867eb9821b298475a5cb70e5ebacc203bb311bacf8a2f50eb28cd01daa841b"
+      }
+    ],
+    "preview_start_seconds": 32.06,
+    "original_score_id": "5052787",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Wenn dein Mütterlein\n\n__No.3 from [Kindertotenlieder](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5052787\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5052787\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/37187\n"
+    },
+    "midi_notes": 988,
+    "midi_duration_seconds": 349.309
+  },
+  {
+    "id": "mahler_gmw45_kindertotenlieder4",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/4_Oft_denk%E2%80%99_ich%2C_sie_sind_nur_ausgegangen/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/4_Oft_denk%E2%80%99_ich%2C_sie_sind_nur_ausgegangen/lc5062118.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder4.mxl",
+        "sha256": "e39ab4907b9f94c4b2db0d3330705c7e2489f86d61038971cec678f3d47d13c7"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder4.mscx",
+        "sha256": "f391306fd25ab544a26d76e0160e8aa6b20f66741d6d675de4ceae4497bd8ec8"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder4.mid",
+        "sha256": "2d9e6cf7807fe902c860c318604808747a8d9da374b1561b04608730ffc15fdc"
+      }
+    ],
+    "preview_start_seconds": 16.89,
+    "original_score_id": "5062118",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Oft denk’ ich, sie sind nur ausgegangen\n\n__No.4 from [Kindertotenlieder](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5062118\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5062118\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/37187\n"
+    },
+    "midi_notes": 900,
+    "midi_duration_seconds": 255.855
+  },
+  {
+    "id": "mahler_gmw45_kindertotenlieder5",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/5_In_diesem_Wetter/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/5_In_diesem_Wetter/lc5052823.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder5.mxl",
+        "sha256": "10d7e675bcdc9abf469dafae6483518733d27d32d4e607c41357be9ef70e3e0e"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder5.mscx",
+        "sha256": "1e4f140c109283639f02e2913c8c780b87a72f1eb54cd56e533f54b75ec1f0b6"
+      },
+      {
+        "path": "files/scores/mahler_gmw45_kindertotenlieder5.mid",
+        "sha256": "1abd95ebb662ff9700bbc9bb620235aab59ada9a19ae783478a9e3cbd544755b"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "5052823",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# In diesem Wetter\n\n__No.5 from [Kindertotenlieder](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5052823\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5052823\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/37187\n"
+    },
+    "midi_notes": 3035,
+    "midi_duration_seconds": 460.414
+  },
+  {
+    "id": "mahler_gmw10_gesellen1",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/1_Wenn_mein_Schatz_Hochzeit_macht/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/1_Wenn_mein_Schatz_Hochzeit_macht/lc5026266.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw10_gesellen1.mxl",
+        "sha256": "62bc12779aaf74aad42fcc9ba7777c1f053d675039116b1f90d5bc5fa8666043"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen1.mscx",
+        "sha256": "f9fc78901fb39ae90dccf3fb8f2d64e36000fe03b2887726c1ae8940a282ec07"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen1.mid",
+        "sha256": "d933da861eb09503e4d09121004c7940fe7b58804078b303c072210421475b7f"
+      }
+    ],
+    "preview_start_seconds": 3.75,
+    "original_score_id": "5026266",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Wenn mein Schatz Hochzeit macht\n\n__No.1 from [Lieder eines fahrenden Gesellen](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026266\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026266\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/20510\n"
+    },
+    "midi_notes": 1180,
+    "midi_duration_seconds": 142.67
+  },
+  {
+    "id": "mahler_gmw10_gesellen2",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld/lc5026309.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw10_gesellen2.mxl",
+        "sha256": "619ca1a7f4dd4f55870ac643b50d387bad696a2279200115506b8cac924e51be"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen2.mscx",
+        "sha256": "9668c2f4a2179b6b6899e0005e785b87daf8bc8e36939090ab0ced84415841f5"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen2.mid",
+        "sha256": "346eae5d31ac83d4a39bf4e45f5bbebcf3b2cb245c42c2f76df33b2ec8ba2887"
+      }
+    ],
+    "preview_start_seconds": 2.75,
+    "original_score_id": "5026309",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Gieng heut morgen übers Feld\n\n__No.2 from [Lieder eines fahrenden Gesellen](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026309\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026309\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/20510\n"
+    },
+    "midi_notes": 1742,
+    "midi_duration_seconds": 265.244
+  },
+  {
+    "id": "mahler_gmw10_gesellen3",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/3_Ich_hab%E2%80%99_ein_gl%C3%BChend_Messer/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/3_Ich_hab%E2%80%99_ein_gl%C3%BChend_Messer/lc5026306.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw10_gesellen3.mxl",
+        "sha256": "781f36a8b81d867ce1ac6f62908b0f2fae90a4d0d0cb4f1fe4c83b2677e5e3c6"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen3.mscx",
+        "sha256": "249176bb93cdcf69c4994c2f55e94634abae752cbdb2e73f4bca58e74ab63ee7"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen3.mid",
+        "sha256": "761276431ed9351efbceb3d151db2c5da766e17bae282d03413b836632506c5c"
+      }
+    ],
+    "preview_start_seconds": 5.91,
+    "original_score_id": "5026306",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Ich hab’ ein glühend Messer\n\n__No.3 from [Lieder eines fahrenden Gesellen](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026306\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026306\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/20510\n"
+    },
+    "midi_notes": 2169,
+    "midi_duration_seconds": 158.131
+  },
+  {
+    "id": "mahler_gmw10_gesellen4",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/4_Die_zwei_blauen_Augen_von_meinem_Schatz/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/4_Die_zwei_blauen_Augen_von_meinem_Schatz/lc5026316.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/mahler_gmw10_gesellen4.mxl",
+        "sha256": "f1fb7adae995a6a62dda2b823aca33e26bf6056104b77367938b47a394e9082a"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen4.mscx",
+        "sha256": "c9bc59f8a769cda27160a5c7a8b892c427d56b20ac4db20487adc0a2c867fe82"
+      },
+      {
+        "path": "files/scores/mahler_gmw10_gesellen4.mid",
+        "sha256": "cc3b07f04cdcdcacbebfd0dd3c20348d8c62b41ceb79f5dce8a8656b27bd6afc"
+      }
+    ],
+    "preview_start_seconds": 0,
+    "original_score_id": "5026316",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Die zwei blauen Augen von meinem Schatz\n\n__No.4 from [Lieder eines fahrenden Gesellen](..) by [Gustav Mahler](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026316\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026316\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/20510\n"
+    },
+    "midi_notes": 1503,
+    "midi_duration_seconds": 177.71
+  },
+  {
+    "id": "wagner_wwv91_wesendonck1_der_engel",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/1_Der_Engel/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/1_Der_Engel/lc5026068.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck1_der_engel.mxl",
+        "sha256": "991fa7a009b11f0ecb2cb9ebf5f18b214fae26496064b6933a291e06c042981e"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck1_der_engel.mscx",
+        "sha256": "53bcdf390eb17c99c57cfecd550ac3c4e99440221fc23bea8b14c6cfb183a851"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck1_der_engel.mid",
+        "sha256": "347ff9cc9dbf5773439a841a9e994153ad212eb73537b6e7b70c5c01afb5c2cd"
+      }
+    ],
+    "preview_start_seconds": 9.18,
+    "original_score_id": "5026068",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Der Engel\n\n__No.1 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](..) by [Richard Wagner](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026068\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026068\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/44645\n"
+    },
+    "midi_notes": 939,
+    "midi_duration_seconds": 154.437
+  },
+  {
+    "id": "wagner_wwv91_wesendonck2_stehe_still",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/2_Stehe_still%21/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/2_Stehe_still%21/lc5026077.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck2_stehe_still.mxl",
+        "sha256": "f109c9bc55af59e278b9f836a05f3d556fa39e65a7a85c3caf103f6bd1c98ba6"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck2_stehe_still.mscx",
+        "sha256": "c471d6a3c19777989a11af7293f1ddca1e6cbeb00cb077e775ecadd52efc36ac"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck2_stehe_still.mid",
+        "sha256": "7aa4b8750a100d50c30807bdf43ff55033d23274039dcee651c136a2db2ebff2"
+      }
+    ],
+    "preview_start_seconds": 3.18,
+    "original_score_id": "5026077",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Stehe still!\n\n__No.2 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](..) by [Richard Wagner](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026077\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026077\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/44645\n"
+    },
+    "midi_notes": 1304,
+    "midi_duration_seconds": 198.076
+  },
+  {
+    "id": "wagner_wwv91_wesendonck3_im_treibhaus",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus/lc5026084.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck3_im_treibhaus.mxl",
+        "sha256": "77f39c7eaca3d246f8f797c2cb37b4a740c93b9f3d5e475e1b7073d971a9aa96"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck3_im_treibhaus.mscx",
+        "sha256": "f5ce6593fac70475b618c3635f6b2803840cdbaa54793996d67d9a15499015ce"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck3_im_treibhaus.mid",
+        "sha256": "671f7dd1702029c039589b222b66577a5a63646b6037ad593c983241ee9b8137"
+      }
+    ],
+    "preview_start_seconds": 19.55,
+    "original_score_id": "5026084",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Im Treibhaus\n\n__No.3 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](..) by [Richard Wagner](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026084\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026084\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/44645\n"
+    },
+    "midi_notes": 1055,
+    "midi_duration_seconds": 257.407
+  },
+  {
+    "id": "wagner_wwv91_wesendonck4_schmerzen",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/4_Schmerzen/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/4_Schmerzen/lc5026087.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mxl",
+        "sha256": "e3977a2912c02562b23ae392bdd9eb1d8a31bbf3f808f9f314e04b1a67d6f797"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mscx",
+        "sha256": "b7a387e6d428c1ba2517c5c3733b72d7c2a3cc98730b2841450d81af51540f72"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+        "sha256": "433f06f9691263d2409c6f4bb710be6556303cd7ed3803b4e6ceaf4162bd9179"
+      }
+    ],
+    "preview_start_seconds": 8.32,
+    "original_score_id": "5026087",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Schmerzen\n\n__No.4 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](..) by [Richard Wagner](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026087\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026087\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/44645\n"
+    },
+    "midi_notes": 850,
+    "midi_duration_seconds": 107.526
+  },
+  {
+    "id": "wagner_wwv91_wesendonck5_traume",
+    "source_page": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/5_Tr%C3%A4ume/README.md",
+    "download_url": "https://raw.githubusercontent.com/OpenScore/Lieder/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/5_Tr%C3%A4ume/lc5026092.mxl",
+    "licence": "CC0",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck5_traume.mxl",
+        "sha256": "616babc8ec12fcd4b410b3e572ff1450c041048129d231b7faad818960a83cf9"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck5_traume.mscx",
+        "sha256": "39441a62887877bccffe8f2e9609038ae9cf4b5c7aad1b472f22eb0f26c868ac"
+      },
+      {
+        "path": "files/scores/wagner_wwv91_wesendonck5_traume.mid",
+        "sha256": "85d9cba8d110dbbe7c8c2999282dd63443fe5e1dc699486d9052d915e3a278fc"
+      }
+    ],
+    "preview_start_seconds": 48.75,
+    "original_score_id": "5026092",
+    "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+    "licence_evidence": {
+      "licence_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/LICENSE.txt",
+      "score_readme": "\n# Träume\n\n__No.5 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](..) by [Richard Wagner](../..)__\n\nTranscribed and maintained by contributors to [OpenScore Lieder].\n\nPlease visit the [official score page] for more information.\n\n[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5026092\n[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus\n\n## External links\n\n- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.\n- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.\n\n[MuseScore]: https://musescore.com/score/5026092\n[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/44645\n"
+    },
+    "midi_notes": 2120,
+    "midi_duration_seconds": 244.281
+  },
+  {
+    "id": "wagner_wwv75_elsa_procession",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-wagner-elsa-s-procession-to-the-cathedral-from-t.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv75_elsa_procession.mxl",
+        "sha256": "b1f026a5cb7e1d7b3917c8cc23bcc8c2d5f0bc629b6ce2c9b15b9e716d72d4d7"
+      },
+      {
+        "path": "files/scores/wagner_wwv75_elsa_procession.mid",
+        "sha256": "ee27782cf32b385446902323e51b8a02745605d421b7501e8cf5ebfb96c8bf55"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "4682626",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/4682626"
+    },
+    "midi_notes": 1904,
+    "midi_duration_seconds": 559.896
+  },
+  {
+    "id": "wagner_wwv86d_gotterdammerung_act3_prelude",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-richard-wagner-goitterdaimmerung-act-3-prelude-s.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv86d_gotterdammerung_act3_prelude.mxl",
+        "sha256": "0326157a90130a26c95093f41c780be27af3e2290bac9d4a1bdeeb7af57e5c7a"
+      },
+      {
+        "path": "files/scores/wagner_wwv86d_gotterdammerung_act3_prelude.mid",
+        "sha256": "074d79f62bcec1ecb5f8cccee7dbb470508e2ada751359f166c458a0f0558ac1"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "5693371",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/5693371"
+    },
+    "midi_notes": 2320,
+    "midi_duration_seconds": 268.945
+  },
+  {
+    "id": "wagner_wwv111_parsifal_prelude",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-wagner-overture-to-the-opera-parsifal.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv111_parsifal_prelude.mxl",
+        "sha256": "8f91e948f04d266e3822aacde87d20d0406c87b647be96b06f0c1908a37ec5c8"
+      },
+      {
+        "path": "files/scores/wagner_wwv111_parsifal_prelude.mid",
+        "sha256": "a512b05869202edf7c0cb149d47cee77b5ec332becfc7b67940c5a9b46297b36"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "4623491",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/4623491"
+    },
+    "midi_notes": 4061,
+    "midi_duration_seconds": 675.925
+  },
+  {
+    "id": "wagner_wwv111_parsifal_good_friday",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-good-friday-magic-r-wagner-l-winkler.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv111_parsifal_good_friday.mxl",
+        "sha256": "6809b220ae6f067c7fb83ba96c6445cf850c80428c7e60ad2924de178f36a165"
+      },
+      {
+        "path": "files/scores/wagner_wwv111_parsifal_good_friday.mid",
+        "sha256": "59de00d0073004eb2ff6f29bd114826fb37191755b113a252d60de3e3d5c8d29"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "5037767",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/5037767"
+    },
+    "midi_notes": 1874,
+    "midi_duration_seconds": 398.134
+  },
+  {
+    "id": "wagner_wwv96_meistersinger_prelude",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-die-meistersinger-von-nurnberg-vorspiel-r-wagner.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv96_meistersinger_prelude.mxl",
+        "sha256": "4e47399fdb3c7907587c0db21f7e40a4b6e10f9f656f2a7c3b4981f036b0c77c"
+      },
+      {
+        "path": "files/scores/wagner_wwv96_meistersinger_prelude.mid",
+        "sha256": "c27667712004a7d5699107074ae0c232418371be5e2f14dbac5878ad6e315e80"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "4801061",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/4801061"
+    },
+    "midi_notes": 6623,
+    "midi_duration_seconds": 552.274
+  },
+  {
+    "id": "wagner_wwv86d_siegfried_funeral_march",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-wagner-siegfried-s-funeral-march-from-gotterdamm.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv86d_siegfried_funeral_march.mxl",
+        "sha256": "9ce3aaf1053670504229d8d00366434f1d8fe42bfe9c864f3d62dd5c8ba71cd5"
+      },
+      {
+        "path": "files/scores/wagner_wwv86d_siegfried_funeral_march.mid",
+        "sha256": "b80e7df988776854698996266d67ffb797a3ab866d40336ded3f6585d2abde30"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "1172966",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/1172966"
+    },
+    "midi_notes": 2898,
+    "midi_duration_seconds": 342.669
+  },
+  {
+    "id": "wagner_wwv90_tristan_liebestod",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-wagner-tristan-and-isolde-transfiguration-act-ii.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv90_tristan_liebestod.mxl",
+        "sha256": "af90b8c12e0b3041f629a34e91b9edd5e777d6d2ed06defad7db97944e849214"
+      },
+      {
+        "path": "files/scores/wagner_wwv90_tristan_liebestod.mid",
+        "sha256": "01d1520684cbbb5b5555e6b2834aff0c54134d45f203cb8ab22b64a8f1527b33"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "846481",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/846481"
+    },
+    "midi_notes": 2976,
+    "midi_duration_seconds": 243.835
+  },
+  {
+    "id": "wagner_wwv70_tannhauser_overture",
+    "source_page": "https://app.jamescartersound.com/sheet-music/wagner/",
+    "download_url": "https://app.jamescartersound.com/notation/scores/pdmx/wagner-wagner-tannhauser-overture.mxl",
+    "licence": "PD",
+    "checked": "2026-10-09",
+    "files": [
+      {
+        "path": "files/scores/wagner_wwv70_tannhauser_overture.mxl",
+        "sha256": "000e8fc6056b9f011c6cd0a2bb21aa08ad8b840931484001a64802d61024f4ad"
+      },
+      {
+        "path": "files/scores/wagner_wwv70_tannhauser_overture.mid",
+        "sha256": "c4ba8d94a4e085192e69ed26057ae14bf5c4421ca87442fed2b6183ff15d04b4"
+      }
+    ],
+    "preview_start_seconds": 0.0,
+    "original_score_id": "154217",
+    "source_commit": "",
+    "licence_evidence": {
+      "current_page_declares": "Every score here is public domain, free to read, print and keep.",
+      "archived_score_license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": false,
+      "metadata_archive": "https://zenodo.org/records/15571083",
+      "original_score_url": "https://musescore.com/score/154217"
+    },
+    "midi_notes": 12168,
+    "midi_duration_seconds": 956.633
+  }
+]

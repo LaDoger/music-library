@@ -1,0 +1,70 @@
+{
+ "id": "wagner_wwv111_parsifal_prelude",
+ "composer": "Richard Wagner",
+ "death_year": "1883",
+ "title": "Parsifal: Prelude to Act I",
+ "catalog": "WWV 111",
+ "movement": "Act I: Vorspiel",
+ "mood_tags": "solemn;spiritual;suspended",
+ "tempo_energy": "sehr langsam / low energy",
+ "notable_excerpt": "Own MIDI render 0.00–15.00s; opening melody / theme",
+ "video_use_ideas": "Open a patient reflective narrative with the Communion theme.",
+ "editable_source_url": "https://app.jamescartersound.com/sheet-music/wagner/",
+ "editable_format": "MusicXML (MXL); MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Wagner composition public domain (d.1883; opera published in the nineteenth century). Piano reduction. Source metadata names Albert Heintz (d.1936), while visible credits name Richard Kleinmichel (d.1901); both historic arrangers are out of life+70 copyright. Retain the source credit discrepancy; do not present this as the orchestral score. Downloaded from Artform, whose Wagner score page explicitly labels each listed score public domain. Matched PDMX per-file metadata records CC0 with license_conflict=False; no conflicting rights text in the MXL. Original MuseScore page currently returns HTTP 403; no files downloaded from MuseScore.com. PDMX dataset-level CC BY 4.0 notice is distinct from the source score’s per-file CC0 dedication; credit for consulted metadata: Long, Novack, Berg-Kirkpatrick and McAuley, PDMX, https://doi.org/10.5281/zenodo.15571083. Only Artform’s independently labelled PD score is redistributed here. Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/wagner_wwv111_parsifal_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/wagner_wwv111_parsifal_prelude.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/wagner_wwv111_parsifal_prelude.mp3",
+ "score_url": "files/scores/wagner_wwv111_parsifal_prelude.mid",
+ "score_files": [
+  "files/scores/wagner_wwv111_parsifal_prelude.mid",
+  "files/scores/wagner_wwv111_parsifal_prelude.mxl"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "spiritual",
+  "suspended"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv111_parsifal_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/wagner_wwv111_parsifal_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/wagner_wwv111_parsifal_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/wagner_wwv111_parsifal_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv111_parsifal_prelude.mid",
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv111_parsifal_prelude.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/wagner_wwv111_parsifal_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/wagner_wwv111_parsifal_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Richard Wagner: Parsifal: Prelude to Act I, WWV 111 (composition public domain).\nScore edition: https://app.jamescartersound.com/sheet-music/wagner/. Licence: PD."
+}

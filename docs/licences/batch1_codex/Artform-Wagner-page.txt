@@ -1,0 +1,4 @@
+Source: https://app.jamescartersound.com/sheet-music/wagner/
+Retrieved: 2026-10-09
+Licence statement: Every score here is public domain, free to read, print and keep.
+Files below additionally matched to per-file CC0 / no-conflict entries in PDMX 15571083. Entrance of the Gods into Walhalla excluded: license_conflict=True.

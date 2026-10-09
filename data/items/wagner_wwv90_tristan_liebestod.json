@@ -1,0 +1,70 @@
+{
+ "id": "wagner_wwv90_tristan_liebestod",
+ "composer": "Richard Wagner",
+ "death_year": "1883",
+ "title": "Tristan und Isolde: Liebestod",
+ "catalog": "WWV 90",
+ "movement": "Act III: Transfiguration",
+ "mood_tags": "yearning;romantic;swelling",
+ "tempo_energy": "massig langsam / moderate",
+ "notable_excerpt": "Own MIDI render 0.00–15.00s; opening melody / theme",
+ "video_use_ideas": "Support an emotional closing montage that gradually opens into resolution.",
+ "editable_source_url": "https://app.jamescartersound.com/sheet-music/wagner/",
+ "editable_format": "MusicXML (MXL); MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Wagner composition public domain (d.1883; opera published in the nineteenth century). Historic piano arrangement by Louis Winkler (d.1889). Downloaded from Artform, whose Wagner score page explicitly labels each listed score public domain. Matched PDMX per-file metadata records CC0 with license_conflict=False; no conflicting rights text in the MXL. Original MuseScore page currently returns HTTP 403; no files downloaded from MuseScore.com. PDMX dataset-level CC BY 4.0 notice is distinct from the source score’s per-file CC0 dedication; credit for consulted metadata: Long, Novack, Berg-Kirkpatrick and McAuley, PDMX, https://doi.org/10.5281/zenodo.15571083. Only Artform’s independently labelled PD score is redistributed here. Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/wagner_wwv90_tristan_liebestod.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/wagner_wwv90_tristan_liebestod.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/wagner_wwv90_tristan_liebestod.mp3",
+ "score_url": "files/scores/wagner_wwv90_tristan_liebestod.mid",
+ "score_files": [
+  "files/scores/wagner_wwv90_tristan_liebestod.mid",
+  "files/scores/wagner_wwv90_tristan_liebestod.mxl"
+ ],
+ "mood_tags_list": [
+  "yearning",
+  "romantic",
+  "swelling"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv90_tristan_liebestod",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/wagner_wwv90_tristan_liebestod.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/wagner_wwv90_tristan_liebestod.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/wagner_wwv90_tristan_liebestod.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv90_tristan_liebestod.mid",
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv90_tristan_liebestod.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/wagner_wwv90_tristan_liebestod.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/wagner_wwv90_tristan_liebestod.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Richard Wagner: Tristan und Isolde: Liebestod, WWV 90 (composition public domain).\nScore edition: https://app.jamescartersound.com/sheet-music/wagner/. Licence: PD."
+}

@@ -1,0 +1,73 @@
+{
+ "id": "mahler_gmw45_kindertotenlieder2",
+ "composer": "Gustav Mahler",
+ "death_year": "1911",
+ "title": "Kindertotenlieder: Nun seh’ ich wohl, warum so dunkle Flammen",
+ "catalog": "GMW 45-K No. 2",
+ "movement": "No. 2. Nun seh’ ich wohl, warum so dunkle Flammen",
+ "mood_tags": "dark;yearning;reflective",
+ "tempo_energy": "ruhig / low energy",
+ "notable_excerpt": "Own MIDI render 17.96–32.96s; opening melody / theme",
+ "video_use_ideas": "Underscore a sober explanation of uncertainty and perseverance.",
+ "editable_source_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/2_Nun_seh%E2%80%99_ich_wohl%2C_warum_so_dunkle_Flammen/README.md",
+ "editable_format": "MusicXML (MXL); MIDI; MuseScore (MSCX)",
+ "editable_license": "CC0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition and German text public domain (historic publication; composer d.1911). OpenScore Lieder repository README explicitly releases these scores under CC0 1.0; LICENSE.txt checked. Voice-and-piano edition. MIDI exported from the native MuseScore score to preserve hidden playback tempos; The notated vocal line is played as GM oboe, not sung. Courtesy credit requested by source: OpenScore Lieder — https://github.com/OpenScore/Lieder (optional under CC0). Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/mahler_gmw45_kindertotenlieder2.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/mahler_gmw45_kindertotenlieder2.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/mahler_gmw45_kindertotenlieder2.mp3",
+ "score_url": "files/scores/mahler_gmw45_kindertotenlieder2.mid",
+ "score_files": [
+  "files/scores/mahler_gmw45_kindertotenlieder2.mid",
+  "files/scores/mahler_gmw45_kindertotenlieder2.mscx",
+  "files/scores/mahler_gmw45_kindertotenlieder2.mxl"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "yearning",
+  "reflective"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render",
+  "Courtesy credit"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mahler_gmw45_kindertotenlieder2",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mahler_gmw45_kindertotenlieder2.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mahler_gmw45_kindertotenlieder2.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder2.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder2.mid",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder2.mscx",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder2.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/mahler_gmw45_kindertotenlieder2.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder2.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Gustav Mahler: Kindertotenlieder: Nun seh’ ich wohl, warum so dunkle Flammen, GMW 45-K No. 2 (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/2_Nun_seh%E2%80%99_ich_wohl%2C_warum_so_dunkle_Flammen/README.md. Licence: CC0."
+}

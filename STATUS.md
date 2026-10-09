@@ -8,6 +8,7 @@ Updated: 2026-10-09 17:30 Europe/Warsaw (CEST)
 ## Checkpoint log
 | # | Time | What | Quota |
 |---|---|---|---|
+| CP-WM4 | 2026-10-09 17:53 | Wagner/Mahler slice integrated: 23 new clean rows (13 Wagner/10 Mahler), 60 score files, 23 15s MP3 previews (−16.5 to −16.0 LUFS). All slice metadata/hash/preview/CLI checks passed; sampled cross-audit of 170 Bach rows passed (10 source pages). Summary/research/evidence saved. Shared master now 268 rows with concurrent Bach work preserved. Next: scoped commit/push, then Pages smoke checks; no new Release audio. | quota check follows |
 | CP-R1 | 2026-10-09 17:10 | Agent-library research brief written; launching Grok Build | continue |
 | CP5 | 16:58 | Repo pushed; release created | continue |
 | CP6 | 17:02 | Genre field + multi-genre UI brief; upload script; expand-batch1 brief (Bach/Wagner/Mahler/Bruckner first) | continue |
@@ -28,3 +29,7 @@ Updated: 2026-10-09 17:30 Europe/Warsaw (CEST)
 
 ## Scope (standing)
 Any legally usable good music, any genre. Editable scores first. Verify licences per item. Quality bar: no filler.
+
+## Codex Wagner/Mahler batch 1 resume
+
+The verified 23-row slice is in parts/BATCH1_codex_rows.csv and library.csv; report: parts/BATCH1_codex_SUMMARY.md. Unverified symphony candidates are research-only in parts/BATCH1_codex_RESEARCH.md. Preserve concurrent UI/research edits; stage only this slice and regenerated data. Re-run python3 scripts/sync_site_data.py and python3 scripts/build_catalog.py --check after later CSV changes. No audio-v1 upload is needed. Checkpoint quota remains below 85%; continue.

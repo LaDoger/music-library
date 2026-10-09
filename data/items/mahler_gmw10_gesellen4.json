@@ -1,0 +1,73 @@
+{
+ "id": "mahler_gmw10_gesellen4",
+ "composer": "Gustav Mahler",
+ "death_year": "1911",
+ "title": "Lieder eines fahrenden Gesellen: Die zwei blauen Augen von meinem Schatz",
+ "catalog": "GMW 10-K No. 4",
+ "movement": "No. 4. Die zwei blauen Augen von meinem Schatz",
+ "mood_tags": "solemn;resigned;tender",
+ "tempo_energy": "alla marcia / low energy",
+ "notable_excerpt": "Own MIDI render 0.00–15.00s; opening melody / theme",
+ "video_use_ideas": "Close a journey narrative with a restrained farewell.",
+ "editable_source_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/4_Die_zwei_blauen_Augen_von_meinem_Schatz/README.md",
+ "editable_format": "MusicXML (MXL); MIDI; MuseScore (MSCX)",
+ "editable_license": "CC0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition and German text public domain (historic publication; composer d.1911). OpenScore Lieder repository README explicitly releases these scores under CC0 1.0; LICENSE.txt checked. Voice-and-piano edition. MIDI exported from the native MuseScore score to preserve hidden playback tempos; The notated vocal line is played as GM oboe, not sung. Courtesy credit requested by source: OpenScore Lieder — https://github.com/OpenScore/Lieder (optional under CC0). Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/mahler_gmw10_gesellen4.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/mahler_gmw10_gesellen4.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/mahler_gmw10_gesellen4.mp3",
+ "score_url": "files/scores/mahler_gmw10_gesellen4.mid",
+ "score_files": [
+  "files/scores/mahler_gmw10_gesellen4.mid",
+  "files/scores/mahler_gmw10_gesellen4.mscx",
+  "files/scores/mahler_gmw10_gesellen4.mxl"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "resigned",
+  "tender"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render",
+  "Courtesy credit"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mahler_gmw10_gesellen4",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mahler_gmw10_gesellen4.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mahler_gmw10_gesellen4.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mahler_gmw10_gesellen4.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw10_gesellen4.mid",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw10_gesellen4.mscx",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw10_gesellen4.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/mahler_gmw10_gesellen4.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/mahler_gmw10_gesellen4.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Gustav Mahler: Lieder eines fahrenden Gesellen: Die zwei blauen Augen von meinem Schatz, GMW 10-K No. 4 (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/4_Die_zwei_blauen_Augen_von_meinem_Schatz/README.md. Licence: CC0."
+}

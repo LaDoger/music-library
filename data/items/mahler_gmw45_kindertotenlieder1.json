@@ -1,0 +1,73 @@
+{
+ "id": "mahler_gmw45_kindertotenlieder1",
+ "composer": "Gustav Mahler",
+ "death_year": "1911",
+ "title": "Kindertotenlieder: Nun will die Sonn’ so hell aufgeh’n",
+ "catalog": "GMW 45-K No. 1",
+ "movement": "No. 1. Nun will die Sonn’ so hell aufgeh’n",
+ "mood_tags": "solemn;hushed;reflective",
+ "tempo_energy": "langsam / low energy",
+ "notable_excerpt": "Own MIDI render 16.89–31.89s; opening melody / theme",
+ "video_use_ideas": "Support a quiet remembrance or a measured reflection on loss.",
+ "editable_source_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n/README.md",
+ "editable_format": "MusicXML (MXL); MIDI; MuseScore (MSCX)",
+ "editable_license": "CC0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition and German text public domain (historic publication; composer d.1911). OpenScore Lieder repository README explicitly releases these scores under CC0 1.0; LICENSE.txt checked. Voice-and-piano edition. MIDI exported from the native MuseScore score to preserve hidden playback tempos; The notated vocal line is played as GM oboe, not sung. Courtesy credit requested by source: OpenScore Lieder — https://github.com/OpenScore/Lieder (optional under CC0). Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/mahler_gmw45_kindertotenlieder1.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/mahler_gmw45_kindertotenlieder1.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/mahler_gmw45_kindertotenlieder1.mp3",
+ "score_url": "files/scores/mahler_gmw45_kindertotenlieder1.mid",
+ "score_files": [
+  "files/scores/mahler_gmw45_kindertotenlieder1.mid",
+  "files/scores/mahler_gmw45_kindertotenlieder1.mscx",
+  "files/scores/mahler_gmw45_kindertotenlieder1.mxl"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "hushed",
+  "reflective"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render",
+  "Courtesy credit"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mahler_gmw45_kindertotenlieder1",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mahler_gmw45_kindertotenlieder1.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mahler_gmw45_kindertotenlieder1.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder1.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder1.mid",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder1.mscx",
+  "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder1.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/mahler_gmw45_kindertotenlieder1.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/mahler_gmw45_kindertotenlieder1.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Gustav Mahler: Kindertotenlieder: Nun will die Sonn’ so hell aufgeh’n, GMW 45-K No. 1 (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Mahler%2C_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n/README.md. Licence: CC0."
+}

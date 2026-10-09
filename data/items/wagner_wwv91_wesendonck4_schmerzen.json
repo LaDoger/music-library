@@ -1,0 +1,73 @@
+{
+ "id": "wagner_wwv91_wesendonck4_schmerzen",
+ "composer": "Richard Wagner",
+ "death_year": "1883",
+ "title": "5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91: Schmerzen",
+ "catalog": "WWV 91 No. 4",
+ "movement": "No. 4. Schmerzen",
+ "mood_tags": "dramatic;resolute;swelling",
+ "tempo_energy": "langsam und breit / moderate",
+ "notable_excerpt": "Own MIDI render 8.32–23.32s; opening melody / theme",
+ "video_use_ideas": "Build from adversity toward a determined milestone.",
+ "editable_source_url": "https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/4_Schmerzen/README.md",
+ "editable_format": "MusicXML (MXL); MIDI; MuseScore (MSCX)",
+ "editable_license": "CC0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition and German text public domain (historic publication; composer d.1883). OpenScore Lieder repository README explicitly releases these scores under CC0 1.0; LICENSE.txt checked. Voice-and-piano edition. MIDI exported from the native MuseScore score to preserve hidden playback tempos; The notated vocal line is played as GM oboe, not sung. Courtesy credit requested by source: OpenScore Lieder — https://github.com/OpenScore/Lieder (optional under CC0). Preview is an own FluidSynth render (FluidR3_GM), 15 seconds with fades and loudness normalisation; no third-party recording used.",
+ "local_score_path": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/wagner_wwv91_wesendonck4_schmerzen.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/wagner_wwv91_wesendonck4_schmerzen.mp3",
+ "score_url": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+ "score_files": [
+  "files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+  "files/scores/wagner_wwv91_wesendonck4_schmerzen.mscx",
+  "files/scores/wagner_wwv91_wesendonck4_schmerzen.mxl"
+ ],
+ "mood_tags_list": [
+  "dramatic",
+  "resolute",
+  "swelling"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render",
+  "Courtesy credit"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv91_wesendonck4_schmerzen",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/wagner_wwv91_wesendonck4_schmerzen.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/wagner_wwv91_wesendonck4_schmerzen.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv91_wesendonck4_schmerzen.mscx",
+  "https://ladoger.github.io/music-library/files/scores/wagner_wwv91_wesendonck4_schmerzen.mxl"
+ ],
+ "render_midi": {
+  "file": "files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/wagner_wwv91_wesendonck4_schmerzen.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Richard Wagner: 5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91: Schmerzen, WWV 91 No. 4 (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/38c5db510224d9facdc4b08d741fc788cfb58ea8/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/4_Schmerzen/README.md. Licence: CC0."
+}
