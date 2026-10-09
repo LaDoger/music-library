@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv869_fugue",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Well-Tempered Clavier I: Fugue No. 24 in B minor",
+ "catalog": "BWV 869",
+ "movement": "Fugue",
+ "mood_tags": "dark;mysterious;solemn",
+ "tempo_energy": "largo / low energy",
+ "notable_excerpt": "MIDI render 00:00.504–00:15.504 (opening)",
+ "video_use_ideas": "Chromatic, all-twelve-notes subject for a deep, enigmatic segment.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1563",
+ "editable_format": "MIDI; LilyPond (zip)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 1563 ('Das Wohltemperierte Clavier I, Fuga XXIV', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Itay Perl). Edition source: Breitkopf & Härtel, 1866. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv869_fugue.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv869_fugue.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv869_fugue.mp3",
+ "score_url": "files/scores/bach_bwv869_fugue.mid",
+ "score_files": [
+  "files/scores/bach_bwv869_fugue.mid",
+  "files/scores/bach_bwv869_fugue_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "mysterious",
+  "solemn"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv869_fugue",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv869_fugue.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv869_fugue.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv869_fugue.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv869_fugue.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv869_fugue_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv869_fugue.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv869_fugue.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier I: Fugue No. 24 in B minor, BWV 869 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1563. Licence: PD."
+}

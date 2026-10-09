@@ -1,0 +1,72 @@
+{
+ "id": "bach_bwv1030_flute_sonata",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Sonata in B minor for flute and harpsichord",
+ "catalog": "BWV 1030",
+ "movement": "I. Andante (render_midi); Largo e dolce and Presto in the score files",
+ "mood_tags": "elegant;reflective;flowing",
+ "tempo_energy": "andante / flowing",
+ "notable_excerpt": "MIDI render 00:00.223–00:15.223 (opening)",
+ "video_use_ideas": "Refined flute-and-keyboard bed for a premium brand segment.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=645",
+ "editable_format": "MIDI; LilyPond (zip)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 645 ('Sonata in B minor for flute and harpsichord', for Flute and Harpsichord/Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Urs Metzger). Edition source: Autograph. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv1030_flute_sonata.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv1030_flute_sonata.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv1030_flute_sonata.mp3",
+ "score_url": "files/scores/bach_bwv1030_flute_sonata.mid",
+ "score_files": [
+  "files/scores/bach_bwv1030_flute_sonata.mid",
+  "files/scores/bach_bwv1030_flute_sonata_all_movements_midi.zip",
+  "files/scores/bach_bwv1030_flute_sonata_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "reflective",
+  "flowing"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1030_flute_sonata",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1030_flute_sonata.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1030_flute_sonata.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1030_flute_sonata.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1030_flute_sonata.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1030_flute_sonata_all_movements_midi.zip",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1030_flute_sonata_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv1030_flute_sonata.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv1030_flute_sonata.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Sonata in B minor for flute and harpsichord, BWV 1030 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=645. Licence: PD."
+}

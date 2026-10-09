@@ -1,0 +1,70 @@
+{
+ "id": "petzold_bwv_anh115_minuet_g_minor",
+ "composer": "Christian Petzold",
+ "death_year": "1733",
+ "title": "Minuet in G minor (Anna Magdalena Bach Notebook)",
+ "catalog": "BWV Anh. 115",
+ "movement": "",
+ "mood_tags": "elegant;reflective;dance",
+ "tempo_energy": "allegretto / lilting",
+ "notable_excerpt": "MIDI render 00:00.004–00:15.004 (opening)",
+ "video_use_ideas": "Minor-key companion to the G major minuet for a wistful aside.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=76",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide. Long attributed to J. S. Bach (BWV Anh. numbering) and copied into the 1725 Anna Magdalena Bach Notebook; now credited to Christian Petzold (d.1733). Mutopia piece 76 ('Menuet', for Harpsichord, Piano, Clavichord); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Allen Garvin). Edition source: Bach-Gesellschaft. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/petzold_bwv_anh115_minuet_g_minor.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/petzold_bwv_anh115_minuet_g_minor.mp3",
+ "score_url": "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+ "score_files": [
+  "files/scores/petzold_bwv_anh115_minuet_g_minor.ly",
+  "files/scores/petzold_bwv_anh115_minuet_g_minor.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "reflective",
+  "dance"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=petzold_bwv_anh115_minuet_g_minor",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/petzold_bwv_anh115_minuet_g_minor.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/petzold_bwv_anh115_minuet_g_minor.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.ly",
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Christian Petzold: Minuet in G minor (Anna Magdalena Bach Notebook), BWV Anh. 115 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=76. Licence: PD."
+}

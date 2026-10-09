@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv871_fugue",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Well-Tempered Clavier II: Fugue No. 2 in C minor",
+ "catalog": "BWV 871",
+ "movement": "Fugue",
+ "mood_tags": "dark;determined;clear",
+ "tempo_energy": "moderato / measured",
+ "notable_excerpt": "MIDI render 00:00.521–00:15.521 (opening)",
+ "video_use_ideas": "Dense stretto fugue for an argument that tightens step by step.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=9",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 9 ('Das Wohltemperierte Clavier II, Fuga II', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Felix Braun). Edition source: Unknown. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv871_fugue.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv871_fugue.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv871_fugue.mp3",
+ "score_url": "files/scores/bach_bwv871_fugue.mid",
+ "score_files": [
+  "files/scores/bach_bwv871_fugue.ly",
+  "files/scores/bach_bwv871_fugue.mid"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "determined",
+  "clear"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv871_fugue",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv871_fugue.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv871_fugue.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv871_fugue.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv871_fugue.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv871_fugue.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv871_fugue.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv871_fugue.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier II: Fugue No. 2 in C minor, BWV 871 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=9. Licence: PD."
+}

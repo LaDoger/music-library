@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv582_passacaglia",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Passacaglia and Fugue in C minor",
+ "catalog": "BWV 582",
+ "movement": "Passacaglia and Fugue (complete)",
+ "mood_tags": "dark;epic;majestic",
+ "tempo_energy": "moderato / building",
+ "notable_excerpt": "MIDI render 00:00.016–00:15.016 (opening)",
+ "video_use_ideas": "A repeating bass that grows variation by variation: slow, steady build to a climax.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=741",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 741 ('Passacaglia', for Organ); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Urs Metzger). Edition source: 8656, C. F. Peters, Leipzig. The Mutopia MIDI uses flute-type registration; re-voice to church organ (GM 19) for a heavier sound. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv582_passacaglia.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv582_passacaglia.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv582_passacaglia.mp3",
+ "score_url": "files/scores/bach_bwv582_passacaglia.mid",
+ "score_files": [
+  "files/scores/bach_bwv582_passacaglia.ly",
+  "files/scores/bach_bwv582_passacaglia.mid"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "epic",
+  "majestic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv582_passacaglia",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv582_passacaglia.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv582_passacaglia.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv582_passacaglia.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv582_passacaglia.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv582_passacaglia.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv582_passacaglia.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv582_passacaglia.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Passacaglia and Fugue in C minor, BWV 582 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=741. Licence: PD."
+}

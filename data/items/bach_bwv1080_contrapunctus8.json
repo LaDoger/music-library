@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv1080_contrapunctus8",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "The Art of Fugue: Contrapunctus 8 (a 3)",
+ "catalog": "BWV 1080",
+ "movement": "Contrapunctus 8",
+ "mood_tags": "dark;mysterious;determined",
+ "tempo_energy": "moderato / measured",
+ "notable_excerpt": "MIDI render 00:01.203–00:16.203 (opening)",
+ "video_use_ideas": "Angular triple fugue for a deep technical dive.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=739",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 739 ('Die Kunst der Fuge, Contrapunctus VIII', for String Ensemble); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Arnaud Gossart). Edition source: Breitkopf & Härtel, 1885. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv1080_contrapunctus8.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv1080_contrapunctus8.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv1080_contrapunctus8.mp3",
+ "score_url": "files/scores/bach_bwv1080_contrapunctus8.mid",
+ "score_files": [
+  "files/scores/bach_bwv1080_contrapunctus8.ly",
+  "files/scores/bach_bwv1080_contrapunctus8.mid"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "mysterious",
+  "determined"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1080_contrapunctus8",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1080_contrapunctus8.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1080_contrapunctus8.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus8.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus8.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus8.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv1080_contrapunctus8.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus8.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: The Art of Fugue: Contrapunctus 8 (a 3), BWV 1080 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=739. Licence: PD."
+}

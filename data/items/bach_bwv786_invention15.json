@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv786_invention15",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Two-Part Invention No. 15 in B minor",
+ "catalog": "BWV 786",
+ "movement": "",
+ "mood_tags": "urgent;dark;clear",
+ "tempo_energy": "allegro / steady drive",
+ "notable_excerpt": "MIDI render 00:00.006–00:15.006 (opening)",
+ "video_use_ideas": "Short, pointed minor-key cue for a skeptical counterpoint.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=68",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 68 ('Invention 15', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Allen Garvin). Edition source: Bach-Gesellschaft. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv786_invention15.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv786_invention15.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv786_invention15.mp3",
+ "score_url": "files/scores/bach_bwv786_invention15.mid",
+ "score_files": [
+  "files/scores/bach_bwv786_invention15.ly",
+  "files/scores/bach_bwv786_invention15.mid"
+ ],
+ "mood_tags_list": [
+  "urgent",
+  "dark",
+  "clear"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv786_invention15",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv786_invention15.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv786_invention15.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv786_invention15.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv786_invention15.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv786_invention15.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv786_invention15.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv786_invention15.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Two-Part Invention No. 15 in B minor, BWV 786 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=68. Licence: PD."
+}

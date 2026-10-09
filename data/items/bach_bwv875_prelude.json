@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv875_prelude",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Well-Tempered Clavier II: Prelude No. 6 in D minor",
+ "catalog": "BWV 875",
+ "movement": "Prelude",
+ "mood_tags": "urgent;driving;dramatic",
+ "tempo_energy": "presto / very high drive",
+ "notable_excerpt": "MIDI render 00:00.004–00:15.004 (opening)",
+ "video_use_ideas": "Furious triplet runs for a breaking-news or shock cut.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=974",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 974 ('Das Wohltemperierte Clavier II, Praeludium VI', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Gwenaël Joret). Edition source: Bach Gesellschaft Ausgabe 1851-1899 Band 14 (1866). Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv875_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv875_prelude.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv875_prelude.mp3",
+ "score_url": "files/scores/bach_bwv875_prelude.mid",
+ "score_files": [
+  "files/scores/bach_bwv875_prelude.ly",
+  "files/scores/bach_bwv875_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "urgent",
+  "driving",
+  "dramatic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "very_high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv875_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv875_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv875_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv875_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv875_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv875_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv875_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv875_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier II: Prelude No. 6 in D minor, BWV 875 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=974. Licence: PD."
+}

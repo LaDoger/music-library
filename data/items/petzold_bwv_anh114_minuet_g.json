@@ -1,0 +1,70 @@
+{
+ "id": "petzold_bwv_anh114_minuet_g",
+ "composer": "Christian Petzold",
+ "death_year": "1733",
+ "title": "Minuet in G major (Anna Magdalena Bach Notebook)",
+ "catalog": "BWV Anh. 114",
+ "movement": "",
+ "mood_tags": "elegant;bright;dance",
+ "tempo_energy": "allegretto / lilting",
+ "notable_excerpt": "MIDI render 00:00.006–00:15.006 (opening)",
+ "video_use_ideas": "The world's best-known minuet: instantly recognisable, light, elegant hook.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=75",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide. Long attributed to J. S. Bach (BWV Anh. numbering) and copied into the 1725 Anna Magdalena Bach Notebook; now credited to Christian Petzold (d.1733). Mutopia piece 75 ('Menuet', for Harpsichord, Piano, Clavichord); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Allen Garvin). Edition source: Bach-Gesellschaft. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/petzold_bwv_anh114_minuet_g.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/petzold_bwv_anh114_minuet_g.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/petzold_bwv_anh114_minuet_g.mp3",
+ "score_url": "files/scores/petzold_bwv_anh114_minuet_g.mid",
+ "score_files": [
+  "files/scores/petzold_bwv_anh114_minuet_g.ly",
+  "files/scores/petzold_bwv_anh114_minuet_g.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "bright",
+  "dance"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=petzold_bwv_anh114_minuet_g",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/petzold_bwv_anh114_minuet_g.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/petzold_bwv_anh114_minuet_g.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh114_minuet_g.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh114_minuet_g.ly",
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh114_minuet_g.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/petzold_bwv_anh114_minuet_g.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh114_minuet_g.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Christian Petzold: Minuet in G major (Anna Magdalena Bach Notebook), BWV Anh. 114 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=75. Licence: PD."
+}

@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv533_prelude_e_minor",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Prelude in E minor ('Cathedral')",
+ "catalog": "BWV 533",
+ "movement": "Prelude",
+ "mood_tags": "dark;solemn;dramatic",
+ "tempo_energy": "free tempo / building",
+ "notable_excerpt": "MIDI render 00:00.268–00:15.268 (opening)",
+ "video_use_ideas": "Brooding organ opener for a serious history segment.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1843",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 1843 ('Prélude en mi mineur', for Organ); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Pierre Pouillon). Edition source: Bach-Gesellschaft Ausgabe IMSLP. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv533_prelude_e_minor.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv533_prelude_e_minor.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv533_prelude_e_minor.mp3",
+ "score_url": "files/scores/bach_bwv533_prelude_e_minor.mid",
+ "score_files": [
+  "files/scores/bach_bwv533_prelude_e_minor.ly",
+  "files/scores/bach_bwv533_prelude_e_minor.mid"
+ ],
+ "mood_tags_list": [
+  "dark",
+  "solemn",
+  "dramatic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv533_prelude_e_minor",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv533_prelude_e_minor.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv533_prelude_e_minor.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv533_prelude_e_minor.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv533_prelude_e_minor.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv533_prelude_e_minor.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv533_prelude_e_minor.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv533_prelude_e_minor.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Prelude in E minor ('Cathedral'), BWV 533 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1843. Licence: PD."
+}

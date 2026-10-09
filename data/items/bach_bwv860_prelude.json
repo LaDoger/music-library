@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv860_prelude",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Well-Tempered Clavier I: Prelude No. 15 in G major",
+ "catalog": "BWV 860",
+ "movement": "Prelude",
+ "mood_tags": "bright;energetic;playful",
+ "tempo_energy": "presto / high drive",
+ "notable_excerpt": "MIDI render 00:00.003–00:15.003 (opening)",
+ "video_use_ideas": "Brilliant, sweeping arpeggios for a celebration cut.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=604",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 604 ('Das Wohltemperierte Clavier I, Praeludium XV', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Stelios Samelis). Edition source: Augener, ed. C. Czerny (1791-1857). Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv860_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv860_prelude.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv860_prelude.mp3",
+ "score_url": "files/scores/bach_bwv860_prelude.mid",
+ "score_files": [
+  "files/scores/bach_bwv860_prelude.ly",
+  "files/scores/bach_bwv860_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "bright",
+  "energetic",
+  "playful"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv860_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv860_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv860_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv860_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv860_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv860_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv860_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv860_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier I: Prelude No. 15 in G major, BWV 860 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=604. Licence: PD."
+}

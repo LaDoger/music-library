@@ -1,0 +1,72 @@
+{
+ "id": "bach_bwv816_french_suite5",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "French Suite No. 5 in G major",
+ "catalog": "BWV 816",
+ "movement": "Gigue (render_midi); all seven movements in the score files",
+ "mood_tags": "bright;dance;energetic",
+ "tempo_energy": "allegro / bright",
+ "notable_excerpt": "MIDI render 00:00.006–00:15.006 (opening)",
+ "video_use_ideas": "Sunny, bouncing gigue for a celebratory recap.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=99",
+ "editable_format": "MIDI; LilyPond (zip)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 99 ('French Suite no. 5 in G major', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Joel Mayes). Edition source: Unknown. Mutopia provides every movement (Allemande, Courante, Sarabande, Gavotte, Bourrée, Loure, Gigue) as separate MIDI files; the Gavotte is the best-known. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv816_french_suite5.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv816_french_suite5.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv816_french_suite5.mp3",
+ "score_url": "files/scores/bach_bwv816_french_suite5.mid",
+ "score_files": [
+  "files/scores/bach_bwv816_french_suite5.mid",
+  "files/scores/bach_bwv816_french_suite5_all_movements_midi.zip",
+  "files/scores/bach_bwv816_french_suite5_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "bright",
+  "dance",
+  "energetic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv816_french_suite5",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv816_french_suite5.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv816_french_suite5.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv816_french_suite5.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv816_french_suite5.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv816_french_suite5_all_movements_midi.zip",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv816_french_suite5_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv816_french_suite5.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv816_french_suite5.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: French Suite No. 5 in G major, BWV 816 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=99. Licence: PD."
+}

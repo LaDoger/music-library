@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv1046_brandenburg1_2_adagio",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Brandenburg Concerto No. 1 in F major: II. Adagio",
+ "catalog": "BWV 1046",
+ "movement": "II. Adagio",
+ "mood_tags": "solemn;tender;reflective",
+ "tempo_energy": "adagio / low energy",
+ "notable_excerpt": "MIDI render 00:00.003–00:15.003 (opening)",
+ "video_use_ideas": "Mournful oboe-and-violin duet for a sober reflection.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1577",
+ "editable_format": "MIDI; LilyPond (zip)",
+ "editable_license": "CC-BY 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 1577 ('Brandenburg Concerto No. 1 (Second Movement - Adagio)'); score licensed Creative Commons Attribution 3.0 (piece page, RDF and .ly header), typeset by Ben Stewart. Credit when you use the score or your own render of it: 'Score: Ben Stewart / Mutopia Project (www.mutopiaproject.org, piece 1577), CC BY 3.0, https://creativecommons.org/licenses/by/3.0/' and say what you changed. Edition source: Rust, 1871. Bach Gesellschaft Volume 19. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv1046_brandenburg1_2_adagio.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv1046_brandenburg1_2_adagio.mp3",
+ "score_url": "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+ "score_files": [
+  "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+  "files/scores/bach_bwv1046_brandenburg1_2_adagio_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "tender",
+  "reflective"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "attribution",
+ "licence_status": "attribution",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1046_brandenburg1_2_adagio",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1046_brandenburg1_2_adagio.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1046_brandenburg1_2_adagio.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1046_brandenburg1_2_adagio_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
+ "credit_text": "Johann Sebastian Bach: Brandenburg Concerto No. 1 in F major: II. Adagio, BWV 1046 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1577. Licence: CC-BY 3.0."
+}

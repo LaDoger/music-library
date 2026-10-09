@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv779_invention8",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Two-Part Invention No. 8 in F major",
+ "catalog": "BWV 779",
+ "movement": "",
+ "mood_tags": "bright;playful;energetic",
+ "tempo_energy": "allegro / bright",
+ "notable_excerpt": "MIDI render 00:00.338–00:15.338 (opening)",
+ "video_use_ideas": "The best-known invention: bouncy, upbeat energy for a quick explainer.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=61",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 61 ('Invention 8', for Harpsichord, Piano); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Allen Garvin). Edition source: Bach-Gesellschaft. Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv779_invention8.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv779_invention8.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv779_invention8.mp3",
+ "score_url": "files/scores/bach_bwv779_invention8.mid",
+ "score_files": [
+  "files/scores/bach_bwv779_invention8.ly",
+  "files/scores/bach_bwv779_invention8.mid"
+ ],
+ "mood_tags_list": [
+  "bright",
+  "playful",
+  "energetic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv779_invention8",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv779_invention8.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv779_invention8.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv779_invention8.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv779_invention8.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv779_invention8.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv779_invention8.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv779_invention8.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Two-Part Invention No. 8 in F major, BWV 779 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=61. Licence: PD."
+}

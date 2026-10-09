@@ -1,0 +1,72 @@
+{
+ "id": "bach_bwv1080_contrapunctus12",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "The Art of Fugue: Contrapunctus 12 (a 4, mirror fugue)",
+ "catalog": "BWV 1080",
+ "movement": "Contrapunctus 12 (rectus; inversus also included)",
+ "mood_tags": "solemn;mysterious;clear",
+ "tempo_energy": "moderato / measured",
+ "notable_excerpt": "MIDI render 00:00.006–00:15.006 (opening)",
+ "video_use_ideas": "Mirror fugue: the same music reflected, for a symmetry or 'two sides' story.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=764",
+ "editable_format": "MIDI; LilyPond (zip)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD worldwide (J. S. Bach d.1750). Mutopia piece 764 ('Die Kunst der Fuge, Contrapunctus XVIII a 4 (rectus, inversus)', for String Ensemble); licence shown as Public Domain on the piece page, in the Mutopia RDF and in the .ly header (placed in the public domain by typesetter Arnaud Gossart). Edition source: Breitkopf & Härtel, 1885. Mutopia labels this Contrapunctus XVIII (older numbering). Preview is an own FluidSynth (FluidR3_GM) render of the Mutopia MIDI, not a human performance; no recording in this row.",
+ "local_score_path": "files/scores/bach_bwv1080_contrapunctus12.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv1080_contrapunctus12.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv1080_contrapunctus12.mp3",
+ "score_url": "files/scores/bach_bwv1080_contrapunctus12.mid",
+ "score_files": [
+  "files/scores/bach_bwv1080_contrapunctus12.mid",
+  "files/scores/bach_bwv1080_contrapunctus12_inversus.mid",
+  "files/scores/bach_bwv1080_contrapunctus12_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "mysterious",
+  "clear"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1080_contrapunctus12",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1080_contrapunctus12.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1080_contrapunctus12.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus12.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus12.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus12_inversus.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus12_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv1080_contrapunctus12.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus12.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: The Art of Fugue: Contrapunctus 12 (a 4, mirror fugue), BWV 1080 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=764. Licence: PD."
+}
