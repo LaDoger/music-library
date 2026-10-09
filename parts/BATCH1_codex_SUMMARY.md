@@ -13,7 +13,7 @@
 - [OpenScore Lieder](https://github.com/OpenScore/Lieder) expressly releases its scores under CC0. Used commit `38c5db510224d9facdc4b08d741fc788cfb58ea8`; each song’s README and score path are recorded in the manifest. The repository licence and README are preserved in `docs/licences/batch1_codex/`.
 - Eight Wagner piano scores were downloaded directly from [Artform’s Wagner collection](https://app.jamescartersound.com/sheet-music/wagner/), which explicitly labels each listed score public domain. Each selected score additionally matches a per-file CC0 entry with `license_conflict=False` in [PDMX release 15571083](https://zenodo.org/records/15571083); the MXL files carry no conflicting rights statement. Collection labels alone were insufficient: Entrance of the Gods into Walhalla was excluded because its archived metadata reports a licence conflict.
 - The original MuseScore pages returned HTTP 403. No files were downloaded from MuseScore.com. The Artform licence statement is the checked source-page evidence for its eight files; archived metadata is supporting evidence, not a substitute source-page verification for other candidates. PDMX’s dataset-level CC BY 4.0 metadata notice is acknowledged in the legal notes; this batch redistributes Artform’s independently labelled PD score files, not PDMX archive files.
-- Parsifal prelude’s metadata and visible credits disagree on the historic arranger (Heintz vs Kleinmichel). Both are out of life+70 copyright; the discrepancy is disclosed in `legal_notes` rather than silently resolved.
+- Parsifal prelude’s metadata and visible credits disagree on the historic arranger (Heintz vs Kleinmichel). The checked biographical entries date [Heintz](https://imslp.org/wiki/Category:Heintz,_Albert) to 1911 and Kleinmichel to 1901; [Winkler](https://imslp.org/wiki/Category:Winkler,_Louis), used by two other reductions, died in 1886. Both Parsifal arrangers are out of life+70 copyright; the discrepancy is disclosed in `legal_notes` rather than silently resolved.
 - Per-file origins, licensing evidence, SHA256 hashes, MIDI note counts and preview offsets: `docs/licences/batch1_codex/manifest.json`.
 
 ## Quality and validation
@@ -39,3 +39,5 @@ Concurrent Bach and UI/research changes were preserved. The commit is scoped to 
 - CP-WM3: 23 curated rows / 60 score files prepared; native tempos preserved; quota 47%, continue.
 - CP-WM4: previews, licence/data checks and Bach cross-audit passed; generated site/agent data; commit/push next.
 - CP-WM5: commit and live-deployment result recorded in STATUS.md.
+
+- CP-WM6: final biography check corrected arranger dates in three legal notes; 268-entry deployment and all 23 new item/score/preview routes verified.

@@ -8,6 +8,8 @@ Updated: 2026-10-09 17:30 Europe/Warsaw (CEST)
 ## Checkpoint log
 | # | Time | What | Quota |
 |---|---|---|---|
+| CP-WM6 | 2026-10-09 18:00 | Final biography check corrected Heintz (1911) and Winkler (1886) dates in three Wagner legal notes; classification unchanged. Source citations added to manifest/report; regenerated data in scoped HEAD snapshot. Next: push correction, verify live legal notes, then close batch. Concurrent 66-row niche expansion and UI edits preserved. | Codex 47% → continue |
+| CP-WM5 | 2026-10-09 17:57 | Scoped Wagner/Mahler expansion committed and pushed: 5a768be (23 clean rows, 60 score files, 23 previews, licence evidence/reports). Concurrent UI/research CSV/data edits left in working tree. Pages deployed: 268 entries; 106/106 new item, score and preview URLs HTTP 200. | Codex 47% → continue |
 | CP-WM4 | 2026-10-09 17:53 | Wagner/Mahler slice integrated: 23 new clean rows (13 Wagner/10 Mahler), 60 score files, 23 15s MP3 previews (−16.5 to −16.0 LUFS). All slice metadata/hash/preview/CLI checks passed; sampled cross-audit of 170 Bach rows passed (10 source pages). Summary/research/evidence saved. Shared master now 268 rows with concurrent Bach work preserved. Next: scoped commit/push, then Pages smoke checks; no new Release audio. | quota check follows |
 | CP-R1 | 2026-10-09 17:10 | Agent-library research brief written; launching Grok Build | continue |
 | CP5 | 16:58 | Repo pushed; release created | continue |
@@ -32,4 +34,4 @@ Any legally usable good music, any genre. Editable scores first. Verify licences
 
 ## Codex Wagner/Mahler batch 1 resume
 
-The verified 23-row slice is in parts/BATCH1_codex_rows.csv and library.csv; report: parts/BATCH1_codex_SUMMARY.md. Unverified symphony candidates are research-only in parts/BATCH1_codex_RESEARCH.md. Preserve concurrent UI/research edits; stage only this slice and regenerated data. Re-run python3 scripts/sync_site_data.py and python3 scripts/build_catalog.py --check after later CSV changes. No audio-v1 upload is needed. Checkpoint quota remains below 85%; continue.
+The verified 23-row slice is committed/pushed in 5a768be: 13 Wagner + 10 Mahler, 60 score files and 23 validated 15s auditions. Report: parts/BATCH1_codex_SUMMARY.md. Deployment checks: 268 live catalogue entries, 106/106 new URLs HTTP 200. Final arranger-date correction is prepared as a separate scoped commit; push and verify the three updated live legal notes. Unverified Mahler symphony candidates remain research-only in parts/BATCH1_codex_RESEARCH.md. Preserve concurrent work; after later CSV changes run python3 scripts/sync_site_data.py and python3 scripts/build_catalog.py --check. No audio-v1 upload is needed.

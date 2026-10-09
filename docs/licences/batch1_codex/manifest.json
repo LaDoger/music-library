@@ -533,7 +533,9 @@
       "original_score_url": "https://musescore.com/score/4623491"
     },
     "midi_notes": 4061,
-    "midi_duration_seconds": 675.925
+    "midi_duration_seconds": 675.925,
+    "arranger_biography_url": "https://imslp.org/wiki/Category:Heintz,_Albert",
+    "arranger_death_year": 1911
   },
   {
     "id": "wagner_wwv111_parsifal_good_friday",
@@ -563,7 +565,9 @@
       "original_score_url": "https://musescore.com/score/5037767"
     },
     "midi_notes": 1874,
-    "midi_duration_seconds": 398.134
+    "midi_duration_seconds": 398.134,
+    "arranger_biography_url": "https://imslp.org/wiki/Category:Winkler,_Louis",
+    "arranger_death_year": 1886
   },
   {
     "id": "wagner_wwv96_meistersinger_prelude",
@@ -653,7 +657,9 @@
       "original_score_url": "https://musescore.com/score/846481"
     },
     "midi_notes": 2976,
-    "midi_duration_seconds": 243.835
+    "midi_duration_seconds": 243.835,
+    "arranger_biography_url": "https://imslp.org/wiki/Category:Winkler,_Louis",
+    "arranger_death_year": 1886
   },
   {
     "id": "wagner_wwv70_tannhauser_overture",
