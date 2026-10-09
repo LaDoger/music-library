@@ -1,0 +1,70 @@
+{
+ "id": "schumann_op15_7_traumerei",
+ "composer": "Robert Schumann",
+ "death_year": "1856",
+ "title": "Träumerei",
+ "catalog": "Op. 15 No. 7",
+ "movement": "Kinderszenen: Dreaming",
+ "mood_tags": "calm;nostalgic;gentle",
+ "tempo_energy": "langsam / low energy",
+ "notable_excerpt": "recording 00:00.000–00:15.000",
+ "video_use_ideas": "Close a thoughtful message with a gentle reflective piano phrase.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=504",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg",
+ "recording_performer": "Musopen (performer not named on source page)",
+ "recording_license": "PD",
+ "recording_quality": "OGG Vorbis ~114k; 44.1 kHz stereo",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). Recording explicitly PD release by Musopen with VRT ticket 2008012110017088. Source asks courtesy attribution; credit Musopen (https://musopen.org/) is recommended. Performer not identified on source page. PD editable edition also downloaded.",
+ "local_score_path": "files/scores/schumann_op15_7_traumerei.mid",
+ "local_audio_path": "files/audio/schumann_op15_7_traumerei.ogg",
+ "preview_path": "previews/schumann_op15_7_traumerei.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "schumann_op15_7_traumerei.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/schumann_op15_7_traumerei.ogg",
+ "release_audio_bytes": 2892811,
+ "preview_url": "previews/schumann_op15_7_traumerei.mp3",
+ "score_url": "files/scores/schumann_op15_7_traumerei.mid",
+ "score_files": [
+  "files/scores/schumann_op15_7_traumerei.ly",
+  "files/scores/schumann_op15_7_traumerei.mid"
+ ],
+ "mood_tags_list": [
+  "calm",
+  "nostalgic",
+  "gentle"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Courtesy credit"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=schumann_op15_7_traumerei",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op15_7_traumerei.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/schumann_op15_7_traumerei.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/schumann_op15_7_traumerei.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/schumann_op15_7_traumerei.ly",
+  "https://ladoger.github.io/music-library/files/scores/schumann_op15_7_traumerei.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/schumann_op15_7_traumerei.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/schumann_op15_7_traumerei.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Robert Schumann: Träumerei, Op. 15 No. 7 (composition public domain).\nRecording: Musopen (performer not named on source page). Licence: PD. Source: https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=504. Licence: PD."
+}

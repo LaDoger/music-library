@@ -24,7 +24,7 @@
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "sort", "view", "page", "id"];
+  const PARAMS = ["q", ...FACETS, "score", "picks", "sort", "view", "page", "id"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -42,6 +42,7 @@
   let currentId = null;
   let lastFocus = null;
   let browseTab = "genre";
+  let qTimer;
 
   /* ---------- data ---------- */
   function prepare(rows) {
@@ -65,6 +66,17 @@
     for (const k of PARAMS) state[k] = p.get(k) || "";
     state.page = Math.max(1, parseInt(state.page, 10) || 1);
     state.view = state.view === "list" ? "list" : "grid";
+    for (const k of ["score", "picks"]) state[k] = state[k] === "1" ? "1" : "";
+    const allowed = {
+      genre: GENRES.map(([v]) => v), energy: ENERGY.map(([v]) => v), licence: LICENCE_ORDER,
+      rec: ["0", "1"], verified: ["yes", "unverified"], sort: ["score", "title", "composer", "year", "energy"],
+    };
+    if (ROWS.length) {
+      for (const k of ["composer", "era"]) allowed[k] = uniq(k);
+      allowed.mood = [...new Set(ROWS.flatMap((r) => r.mood_tags_list))];
+      if (state.id && !BY_ID.has(state.id)) state.id = "";
+    }
+    for (const [k, values] of Object.entries(allowed)) if (state[k] && !values.includes(state[k])) state[k] = "";
   }
   function writeState(push = false) {
     const p = new URLSearchParams();
@@ -91,6 +103,7 @@
   }
   function matches(r, toks, except) {
     if (state.score && !r.has_editable_score) return false;
+    if (state.picks && !r.top_pick_rank) return false;
     for (const k of FACETS) {
       if (k === except || !state[k]) continue;
       if (k === "mood") { if (!r.mood_tags_list.includes(state.mood)) return false; }
@@ -125,6 +138,7 @@
       score: (a, b) => (b.has_editable_score - a.has_editable_score) || surname(a.composer).localeCompare(surname(b.composer)) || a.title.localeCompare(b.title),
     }[state.sort];
     if (by) res.sort(by);
+    else if (state.picks) res.sort((a, b) => a.top_pick_rank - b.top_pick_rank);
     else {
       const rel = new Map(res.map((r) => [r, relevance(r, toks)]));
       res.sort((a, b) => rel.get(b) - rel.get(a) || a.title.localeCompare(b.title));
@@ -184,6 +198,7 @@
   function renderResults(res) {
     const pages = Math.max(1, Math.ceil(res.length / PAGE_SIZE));
     if (state.page > pages) state.page = pages;
+    writeState();
     const slice = res.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
     const box = $("#results");
     box.className = "results " + state.view;
@@ -253,7 +268,7 @@
     $("#f_sort").value = state.sort; $("#f_sort").classList.toggle("active", !!state.sort);
     $("#f_score").checked = !!state.score;
     if (document.activeElement !== $("#q")) $("#q").value = state.q;
-    const active = FACETS.filter((k) => state[k]).length + (state.score ? 1 : 0) + (state.q ? 1 : 0);
+    const active = FACETS.filter((k) => state[k]).length + (state.score ? 1 : 0) + (state.q ? 1 : 0) + (state.picks ? 1 : 0);
     $("#filterCount").hidden = !active;
     $("#filterCount").textContent = active;
     $("#clearAll").hidden = !active;
@@ -275,7 +290,12 @@
   }
 
   function renderBrowse() {
-    $$(".browse-tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.browse === browseTab)));
+    $$(".browse-tabs button").forEach((b) => {
+      const selected = b.dataset.browse === browseTab;
+      b.setAttribute("aria-selected", String(selected));
+      b.tabIndex = selected ? 0 : -1;
+    });
+    $("#browseChips").setAttribute("aria-labelledby", "browse-" + browseTab);
     const counts = facetCounts(browseTab);
     let items;
     if (browseTab === "genre") items = GENRES.map(([v, l]) => [v, l]);
@@ -306,7 +326,7 @@
     $("#picks").innerHTML = picks.map((r) => `<div class="pick" data-id="${esc(r.id)}">
       <span class="rank">${r.top_pick_rank}</span>
       <div style="min-width:0">
-        <div class="pt" data-act="open" data-id="${esc(r.id)}" role="button" tabindex="0">${esc(r.title)}</div>
+        <button class="pt" type="button" data-act="open" data-id="${esc(r.id)}">${esc(r.title)}</button>
         <div class="pc">${esc(surname(r.composer))}${r.catalog ? " · " + esc(r.catalog) : ""}</div>
         <div class="why">${esc(r.top_pick_why)}</div>
         <div style="margin-top:6px">${badge(r.licence_status)}</div>
@@ -316,6 +336,7 @@
   }
 
   function render() {
+    clearTimeout(qTimer);
     renderFilters();
     renderGenreStrip();
     renderBrowse();
@@ -388,7 +409,7 @@
         ${flags ? `<div class="flags" style="margin-bottom:8px">${flags}</div>` : ""}
         <p class="legal">${esc(r.legal_notes || "No notes.")}</p>
         <h4 style="margin-top:10px">Credit block</h4>
-        <div class="credit-box" id="creditBox">${esc(creditText(r))}</div>
+        <div class="credit-box" id="creditBox" tabindex="0" role="region" aria-label="Licence and credit text">${esc(creditText(r))}</div>
       </div>
       <div class="d-section"><h4>Files &amp; links</h4><div class="links">
         ${linkRow(r.preview_url, "15 s preview MP3", "MP3")}
@@ -406,11 +427,13 @@
     if (!$("#drawer").classList.contains("open")) lastFocus = document.activeElement;
     renderDetail(r);
     const d = $("#drawer");
+    d.inert = false;
     d.classList.add("open");
     d.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+    $$(".skip, header.top, main, #player").forEach((el) => { el.inert = true; });
     $(".drawer-panel").scrollTop = 0;
-    $(".drawer-panel").focus();
+    $(".drawer-close").focus();
     if (state.id !== id) { state.id = id; writeState(push); }
   }
   function closeDetail(updateUrl = true) {
@@ -418,9 +441,12 @@
     if (!d.classList.contains("open")) return;
     d.classList.remove("open");
     d.setAttribute("aria-hidden", "true");
+    d.inert = true;
     document.body.style.overflow = "";
+    $$(".skip, header.top, main, #player").forEach((el) => { el.inert = false; });
     if (updateUrl && state.id) { state.id = ""; writeState(false); }
-    if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
+    if (lastFocus && document.contains(lastFocus) && lastFocus !== document.body && !lastFocus.closest("[hidden]")) lastFocus.focus();
+    else $("#results").focus({ preventScroll: true });
   }
 
   /* ---------- player (one at a time) ---------- */
@@ -434,6 +460,7 @@
     currentId = id;
     audio.src = r.preview_url;
     audio.currentTime = 0;
+    updateProgress();
     audio.play().catch(onPlayError);
     $("#player").hidden = false;
     $("#pTitle").textContent = r.title;
@@ -459,6 +486,7 @@
       const on = b.dataset.id === currentId;
       b.textContent = on && playing ? "❚❚" : "▶";
       b.setAttribute("aria-pressed", String(on && playing));
+      b.setAttribute("aria-label", `${on && playing ? "Pause" : "Play"} 15 s preview of ${BY_ID.get(b.dataset.id)?.title || "music"}`);
     });
     $$(".card").forEach((c) => c.classList.toggle("playing", c.dataset.id === currentId));
     $("#pBtn").textContent = playing ? "❚❚" : "▶";
@@ -467,12 +495,17 @@
   const fmtTime = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
   audio.addEventListener("play", syncPlayButtons);
   audio.addEventListener("pause", syncPlayButtons);
-  audio.addEventListener("ended", () => { audio.currentTime = 0; syncPlayButtons(); });
-  audio.addEventListener("timeupdate", () => {
-    const d = audio.duration || 15;
+  audio.addEventListener("ended", () => { audio.currentTime = 0; updateProgress(); syncPlayButtons(); });
+  function updateProgress() {
+    const d = Number.isFinite(audio.duration) ? audio.duration : 15;
     $("#pProg").style.width = `${Math.min(100, (audio.currentTime / d) * 100)}%`;
     $("#pTime").textContent = fmtTime(audio.currentTime);
-  });
+    $("#pBar").setAttribute("aria-valuemax", String(d));
+    $("#pBar").setAttribute("aria-valuenow", String(audio.currentTime));
+    $("#pBar").setAttribute("aria-valuetext", `${fmtTime(audio.currentTime)} of ${fmtTime(d)}`);
+  }
+  audio.addEventListener("timeupdate", updateProgress);
+  audio.addEventListener("loadedmetadata", updateProgress);
 
   /* ---------- misc ---------- */
   let toastTimer;
@@ -484,14 +517,19 @@
     toastTimer = setTimeout(() => t.classList.remove("show"), 1800);
   }
   async function copy(text, msg) {
+    const focus = document.activeElement;
     try {
       await navigator.clipboard.writeText(text);
     } catch {
       const ta = document.createElement("textarea");
       ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
-      document.body.appendChild(ta); ta.select();
-      try { document.execCommand("copy"); } catch { /* ignore */ }
+      ($("#drawer").classList.contains("open") ? $(".drawer-panel") : document.body).appendChild(ta);
+      ta.select();
+      let copied = false;
+      try { copied = document.execCommand("copy"); } catch { /* handled below */ }
       ta.remove();
+      if (focus && document.contains(focus)) focus.focus();
+      if (!copied) { toast("Could not copy. Select and copy the text manually."); return; }
     }
     toast(msg);
   }
@@ -502,23 +540,25 @@
     render();
   }
   function clearAll() {
-    for (const k of [...FACETS, "q", "score", "sort"]) state[k] = "";
+    for (const k of [...FACETS, "q", "score", "picks", "sort"]) state[k] = "";
     state.page = 1;
     $("#q").value = "";
     writeState();
     render();
   }
   function scrollToResults() {
-    const top = $("#results").getBoundingClientRect().top + window.scrollY - $(".controls").offsetHeight - 10;
-    if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
+    const controls = $(".controls");
+    const offset = getComputedStyle(controls).position === "sticky" ? controls.offsetHeight : 0;
+    const top = $("#results").getBoundingClientRect().top + window.scrollY - offset - 10;
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
   }
 
   /* ---------- events ---------- */
   function bind() {
-    let qTimer;
     $("#q").addEventListener("input", (e) => {
       clearTimeout(qTimer);
-      qTimer = setTimeout(() => { state.q = e.target.value.trim(); state.page = 1; writeState(); render(); }, 120);
+      state.q = e.target.value.trim(); state.page = 1;
+      qTimer = setTimeout(() => { writeState(); render(); }, 120);
     });
     const selMap = { f_genre: "genre", f_composer: "composer", f_mood: "mood", f_era: "era", f_energy: "energy", f_licence: "licence", f_rec: "rec", f_verified: "verified", f_sort: "sort" };
     for (const [id, key] of Object.entries(selMap)) {
@@ -532,10 +572,18 @@
     $("#clearAll").addEventListener("click", clearAll);
     $("#showPicks").addEventListener("click", () => {
       clearAll();
-      state.sort = ""; state.view = "list"; writeState(); render(); scrollToResults();
+      state.picks = "1"; state.view = "list"; writeState(); render(); scrollToResults();
     });
     $$(".view-toggle button").forEach((b) => b.addEventListener("click", () => { state.view = b.dataset.view; writeState(); render(); }));
     $$(".browse-tabs button").forEach((b) => b.addEventListener("click", () => { browseTab = b.dataset.browse; renderBrowse(); }));
+    $(".browse-tabs").addEventListener("keydown", (e) => {
+      const tabs = $$(".browse-tabs button");
+      const i = tabs.indexOf(e.target);
+      if (i < 0 || !["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) return;
+      e.preventDefault();
+      const next = e.key === "Home" ? 0 : e.key === "End" ? tabs.length - 1 : (i + (e.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[next].click(); tabs[next].focus();
+    });
     $("#browseChips").addEventListener("click", (e) => {
       const c = e.target.closest(".chip");
       if (c) setFilter(c.dataset.facet, c.dataset.value);
@@ -548,7 +596,7 @@
     $("#pager").addEventListener("click", (e) => {
       const b = e.target.closest("button[data-page]");
       if (!b || b.disabled) return;
-      state.page = +b.dataset.page; writeState(); render(); scrollToResults();
+      state.page = +b.dataset.page; writeState(); render(); $("#results").focus({ preventScroll: true }); scrollToResults();
     });
 
     // Delegated actions on cards, picks and the drawer.
@@ -569,17 +617,22 @@
         }
       }
     });
-    $("#picks").addEventListener("keydown", (e) => {
-      if ((e.key === "Enter" || e.key === " ") && e.target.matches(".pt")) { e.preventDefault(); openDetail(e.target.dataset.id); }
-    });
-
     $("#pBtn").addEventListener("click", () => currentId && play(currentId));
     $("#pClose").addEventListener("click", stop);
     $("#pTitle").addEventListener("click", () => currentId && openDetail(currentId));
     $("#pBar").addEventListener("click", (e) => {
       if (!audio.duration) return;
       const rect = e.currentTarget.getBoundingClientRect();
-      audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+      audio.currentTime = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width)) * audio.duration;
+      updateProgress();
+    });
+    $("#pBar").addEventListener("keydown", (e) => {
+      if (!Number.isFinite(audio.duration)) return;
+      const steps = { ArrowLeft: -1, ArrowDown: -1, ArrowRight: 1, ArrowUp: 1, PageDown: -5, PageUp: 5 };
+      if (!(e.key in steps) && e.key !== "Home" && e.key !== "End") return;
+      e.preventDefault();
+      audio.currentTime = e.key === "Home" ? 0 : e.key === "End" ? audio.duration : Math.max(0, Math.min(audio.duration, audio.currentTime + steps[e.key]));
+      updateProgress();
     });
 
     document.addEventListener("keydown", (e) => {
@@ -602,7 +655,7 @@
           const first = compute().find((r) => r.preview_url);
           if (first) play(first.id);
         }
-      } else if (e.key === "/") {
+      } else if (e.key === "/" && !$("#drawer").classList.contains("open")) {
         e.preventDefault();
         $("#q").focus();
       }
@@ -614,12 +667,13 @@
       const f = $$("button, a[href], [tabindex]:not([tabindex='-1'])", $(".drawer-panel")).filter((x) => !x.disabled);
       if (!f.length) return;
       const first = f[0], last = f[f.length - 1];
-      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      if (e.shiftKey && (document.activeElement === first || document.activeElement === $(".drawer-panel"))) { e.preventDefault(); last.focus(); }
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     });
 
     window.addEventListener("popstate", () => {
       readState();
+      $("#q").value = state.q;
       render();
       if (state.id) openDetail(state.id, false); else closeDetail(false);
     });
@@ -638,6 +692,7 @@
       return;
     }
     BY_ID = new Map(ROWS.map((r) => [r.id, r]));
+    readState();
     renderStats();
     renderPicks();
     render();

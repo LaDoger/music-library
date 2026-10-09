@@ -1,0 +1,72 @@
+{
+ "id": "pachelbel_canon_d",
+ "composer": "Johann Pachelbel",
+ "death_year": "1706",
+ "title": "Canon in D major",
+ "catalog": "P. 37",
+ "movement": "Canon",
+ "mood_tags": "elegant;calm;uplifting",
+ "tempo_energy": "andante / gradual build",
+ "notable_excerpt": "MIDI render 01:00.000–01:15.000",
+ "video_use_ideas": "Accompany a steady accumulation or growth narrative.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2047",
+ "editable_format": "MIDI; LilyPond (ZIP)",
+ "editable_license": "CC-BY",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). Editable edition CC BY 4.0: credit Michael Fischer v. Mollard / Mutopia Project, link the source and https://creativecommons.org/licenses/by/4.0/, and state edits. Own MIDI-render preview from this edition carries the edition attribution; no third-party recording downloaded.",
+ "local_score_path": "files/scores/pachelbel_canon_d.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/pachelbel_canon_d.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/pachelbel_canon_d.mp3",
+ "score_url": "files/scores/pachelbel_canon_d.mid",
+ "score_files": [
+  "files/scores/pachelbel_canon_d.mid",
+  "files/scores/pachelbel_canon_d_lilypond.zip",
+  "files/scores/pachelbel_canon_d_midi.zip"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "calm",
+  "uplifting"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "attribution",
+ "licence_status": "attribution",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=pachelbel_canon_d",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/pachelbel_canon_d.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/pachelbel_canon_d.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d.mid",
+  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_lilypond.zip",
+  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_midi.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/pachelbel_canon_d.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
+ "credit_text": "Johann Pachelbel: Canon in D major, P. 37 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2047. Licence: CC-BY."
+}

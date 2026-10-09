@@ -1,0 +1,69 @@
+{
+ "id": "strauss2_blue_danube",
+ "composer": "Johann Strauss II",
+ "death_year": "1899",
+ "title": "On the Beautiful Blue Danube",
+ "catalog": "Op.314",
+ "movement": "",
+ "mood_tags": "elegant;waltz;celebratory",
+ "tempo_energy": "waltz tempo / buoyant",
+ "notable_excerpt": "recording 00:18–00:33 (waltz theme)",
+ "video_use_ideas": "Glide through a city night montage or a celebration cut.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=519",
+ "editable_format": "MIDI",
+ "editable_license": "CC BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:%22An_der_sch%C3%B6nen,_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac",
+ "recording_performer": "United States Marine Band",
+ "recording_license": "PD-USGov",
+ "recording_quality": "FLAC 44.1 kHz/24 stereo",
+ "legal_notes": "Waltz composed 1866, PD-EU and PD-US. Recording file page: composition tag PD-old-auto-expired (death year 1899) and performance tag PD-USGov-Military-Marines (U.S. federal government work, public domain in the United States). Foreign recognition of U.S. government works varies. The Mutopia MIDI (piece 519) is only the main theme and is CC BY-SA 4.0; do not treat that edition as a clean PD score. Preview is cut from the Marine Band FLAC, not from the MIDI.",
+ "local_score_path": "files/scores/strauss2_blue_danube.mid",
+ "local_audio_path": "files/audio/strauss2_blue_danube.flac",
+ "preview_path": "previews/strauss2_blue_danube.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "strauss2_blue_danube.flac",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/strauss2_blue_danube.flac",
+ "release_audio_bytes": 88641631,
+ "preview_url": "previews/strauss2_blue_danube.mp3",
+ "score_url": "files/scores/strauss2_blue_danube.mid",
+ "score_files": [
+  "files/scores/strauss2_blue_danube.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "waltz",
+  "celebratory"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "US-gov PD (territorial)",
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=strauss2_blue_danube",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/strauss2_blue_danube.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/strauss2_blue_danube.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/strauss2_blue_danube.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/strauss2_blue_danube.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/strauss2_blue_danube.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/strauss2_blue_danube.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Johann Strauss II: On the Beautiful Blue Danube, Op.314 (composition public domain).\nRecording: United States Marine Band. Licence: PD-USGov. Source: https://commons.wikimedia.org/wiki/File:%22An_der_sch%C3%B6nen,_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=519. Licence: CC BY-SA 4.0."
+}

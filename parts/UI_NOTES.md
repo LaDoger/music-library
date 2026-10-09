@@ -39,17 +39,20 @@ the UI already lists all 11 schema genres (empty ones are dimmed, "coming in lat
 ## Search / filter performance
 - On load each row gets precomputed lowercase, diacritic-folded `_text` plus a squashed copy without spaces/dots,
   so `BWV565`, `bwv 565`, `op.27`, `Dvorak` all match. Query tokens are ANDed.
-- Filtering is a single linear pass; facet counts are one extra pass per facet. Measured with 1,200 synthetic rows
-  (2.7 MB JSON) in headless Chrome: full filter + facet counts + render of one page ≈ 6 ms.
+- Filtering is a single linear pass; facet counts are one extra pass per facet. Review measurement with 1,200
+  synthetic rows (2.49 MiB compact JSON) in headless Chrome: five filter/facet/render samples were
+  6.9, 9.9, 152.8, 7.4 and 5.8 ms (median 7.4 ms). This is a desktop measurement, not a mobile guarantee.
 - Only one page (24 rows) is in the DOM at a time; pagination instead of virtual scroll keeps URLs shareable
   (`?page=3`) and keyboard/screen-reader behaviour simple.
-- All filter state is in the URL (`q, genre, composer, mood, era, energy, licence, rec, verified, score, sort, view,
-  page, id`). `?id=<row id>` deep-links the detail drawer; Back closes it.
+- All filter state is in the URL (`q, genre, composer, mood, era, energy, licence, rec, verified, score, picks,
+  sort, view, page, id`). `?picks=1` shows only ranked top picks, in rank order with the default sort.
+  `?id=<row id>` deep-links the detail drawer; Back closes it. Invalid filters are cleared and pages are clamped
+  in both the UI and URL. The drawer is inert when closed; background controls are inert when it is open.
 
 ## Scaling thresholds
 | rows | JSON (raw / gzip on Pages) | plan |
 |---|---|---|
-| ≤ 3,000 | ≤ ~7 MB / ~1 MB | current single file is fine |
+| ≤ 3,000 | estimate ≤ ~7 MB / ~1 MB | current pagination; profile mobile first-load before growing |
 | 3k–20k | too heavy for mobile first load | split: `data/index.json` (id, title, composer, catalog, genre, era, energy, moods, licence, has_*, top pick, search_text) + `data/detail/<shard>.json` loaded when the drawer opens |
 | > 20k | | prebuilt inverted index (e.g. MiniSearch/Lunr JSON) or per-genre shards |
 The sync script is the only place that needs to change; `app.js` reads `search_text` and the listed fields only.
@@ -57,10 +60,15 @@ The sync script is the only place that needs to change; `app.js` reads `search_t
 ## Player
 One shared `Audio` element (`preload="none"`), so starting a clip stops the previous one. Mini player bar at the
 bottom with seek. Keys: `Space` play/pause (current clip, or the first result), `Esc` closes the drawer then stops
-playback, `/` focuses search. Space on a focused button keeps the native click.
+playback, `/` focuses search when the drawer is closed. Space on a focused button keeps the native click.
+The seek slider supports arrows (1 s), PageUp/PageDown (5 s), Home and End. Playback buttons announce Play/Pause.
+
+Browser regression: `scripts/check_pages_ui.cjs` (Playwright + installed Chrome; install/run commands are in
+the script and `parts/UI_REVIEW.md`). It serves a Pages-style subpath and tests real audio, filters, history,
+keyboard focus, clipboard failures, responsive breakpoints and a synthetic 1,200-row catalogue.
 
 ## Known gaps / next
-- `grieg_peer_gynt_morning_mood.flac` was not on Release `audio-v1` at 2026-10-09 17:30 (upload hit a network
-  error); its "Full recording" link 404s until `scripts/upload_release.sh` is re-run.
+- Release inventory checked on 2026-10-09: all 64 referenced recordings are present among 65 assets,
+  including `grieg_peer_gynt_morning_mood.flac`; the earlier missing-asset note is resolved.
 - No waveform / exact excerpt markers; `notable_excerpt` is free text.
 - Composer browse chips list every composer; at 300+ composers switch that tab to an A–Z index.

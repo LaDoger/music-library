@@ -1,0 +1,71 @@
+{
+ "id": "dvorak_new_world_largo",
+ "composer": "Antonín Dvořák",
+ "death_year": "1904",
+ "title": "Symphony No. 9 'From the New World' - Largo",
+ "catalog": "Op. 95",
+ "movement": "II. Largo",
+ "mood_tags": "calm;nostalgic;solemn;homeward",
+ "tempo_energy": "largo / low",
+ "notable_excerpt": "0:24-0:39 (preview window)",
+ "video_use_ideas": "Reflective 'going home' moment / long-term vision.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+ "editable_format": "LilyPond .ly + MIDI (zips, all 4 mvts)",
+ "editable_license": "CC-BY-SA 3.0 (flag SA)",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg",
+ "recording_performer": "Musopen (performers not named)",
+ "recording_license": "PD (Commons: PD-author + Musopen + OTRS 2008012110017088)",
+ "recording_quality": "OGG Vorbis ~167k 48 kHz stereo",
+ "legal_notes": "Composition PD. Recording PD via Musopen. Mutopia full score is CC BY-SA 3.0 - FLAG SA (score only). Direct file: https://upload.wikimedia.org/wikipedia/commons/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg",
+ "local_score_path": "files/scores/dvorak_new_world-lys.zip",
+ "local_audio_path": "files/audio/dvorak_new_world_largo.ogg",
+ "preview_path": "previews/dvorak_new_world_largo.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "dvorak_new_world_largo.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/dvorak_new_world_largo.ogg",
+ "release_audio_bytes": 14538509,
+ "preview_url": "previews/dvorak_new_world_largo.mp3",
+ "score_url": "files/scores/dvorak_new_world-lys.zip",
+ "score_files": [
+  "files/scores/dvorak_new_world-lys.zip",
+  "files/scores/dvorak_new_world-mids.zip"
+ ],
+ "mood_tags_list": [
+  "calm",
+  "nostalgic",
+  "solemn",
+  "homeward"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "ShareAlike score only"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=dvorak_new_world_largo",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/dvorak_new_world_largo.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/dvorak_new_world_largo.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/dvorak_new_world-mids.zip",
+  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
+  "zip_member": "Mvt2_Largo.mid"
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Antonín Dvořák: Symphony No. 9 'From the New World' - Largo, Op. 95 (composition public domain).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-author + Musopen + OTRS 2008012110017088). Source: https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793. Licence: CC-BY-SA 3.0 (flag SA)."
+}

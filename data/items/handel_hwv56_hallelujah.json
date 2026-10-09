@@ -1,0 +1,72 @@
+{
+ "id": "handel_hwv56_hallelujah",
+ "composer": "George Frideric Handel",
+ "death_year": "1759",
+ "title": "Messiah: Hallelujah Chorus",
+ "catalog": "HWV 56",
+ "movement": "Hallelujah",
+ "mood_tags": "triumphant;epic;celebratory",
+ "tempo_energy": "allegro / high energy",
+ "notable_excerpt": "MIDI render 00:00.000–00:15.000",
+ "video_use_ideas": "Celebrate a milestone with the opening Hallelujah motif.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459",
+ "editable_format": "MIDI; LilyPond (ZIP)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). PD edition by Joshua Koo. Preview is an own synthesized choral/orchestral MIDI render, not a human choir. No separately verified modern PD recording selected.",
+ "local_score_path": "files/scores/handel_hwv56_hallelujah.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/handel_hwv56_hallelujah.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/handel_hwv56_hallelujah.mp3",
+ "score_url": "files/scores/handel_hwv56_hallelujah.mid",
+ "score_files": [
+  "files/scores/handel_hwv56_hallelujah.mid",
+  "files/scores/handel_hwv56_hallelujah_lilypond.zip",
+  "files/scores/handel_hwv56_hallelujah_midi.zip"
+ ],
+ "mood_tags_list": [
+  "triumphant",
+  "epic",
+  "celebratory"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv56_hallelujah",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/handel_hwv56_hallelujah.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/handel_hwv56_hallelujah.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/handel_hwv56_hallelujah.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/handel_hwv56_hallelujah.mid",
+  "https://ladoger.github.io/music-library/files/scores/handel_hwv56_hallelujah_lilypond.zip",
+  "https://ladoger.github.io/music-library/files/scores/handel_hwv56_hallelujah_midi.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/handel_hwv56_hallelujah.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/handel_hwv56_hallelujah.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "George Frideric Handel: Messiah: Hallelujah Chorus, HWV 56 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459. Licence: PD."
+}

@@ -1,0 +1,68 @@
+{
+ "id": "faure_pavane",
+ "composer": "Gabriel Fauré",
+ "death_year": "1924",
+ "title": "Pavane",
+ "catalog": "Op.50",
+ "movement": "",
+ "mood_tags": "elegant;wistful;processional",
+ "tempo_energy": "moderato / poised",
+ "notable_excerpt": "MIDI render 00:01–00:16",
+ "video_use_ideas": "Processional underscore for a formal entrance or a closing card.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2196",
+ "editable_format": "MIDI",
+ "editable_license": "CC BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Pavane Op.50 (1887) is PD-EU and PD-US as a composition. Mutopia piece 2196 is CC BY-SA 4.0 (piece page and project listing). Share-alike: do not treat a render of this edition as a clean PD master. The MIDI is flute plus nylon guitar, not the orchestral pavane. Credit the Mutopia edition if used.",
+ "local_score_path": "files/scores/faure_pavane.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/faure_pavane.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/faure_pavane.mp3",
+ "score_url": "files/scores/faure_pavane.mid",
+ "score_files": [
+  "files/scores/faure_pavane.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "wistful",
+  "processional"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=faure_pavane",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/faure_pavane.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/faure_pavane.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_pavane.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/faure_pavane.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/faure_pavane.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/faure_pavane.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Gabriel Fauré: Pavane, Op.50 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2196. Licence: CC BY-SA 4.0."
+}

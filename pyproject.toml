@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musiclib"
+version = "0.1.0"
+description = "CLI for the LaDoger music library: search, get, download, render (FluidSynth), credit"
+readme = "AGENTS.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+musiclib = "musiclib.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["musiclib"]

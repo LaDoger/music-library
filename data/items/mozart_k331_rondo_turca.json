@@ -1,0 +1,70 @@
+{
+ "id": "mozart_k331_rondo_turca",
+ "composer": "Wolfgang Amadeus Mozart",
+ "death_year": "1791",
+ "title": "Rondo alla Turca",
+ "catalog": "K. 331",
+ "movement": "III. Allegretto",
+ "mood_tags": "playful;energetic;elegant",
+ "tempo_energy": "allegretto / brisk energy",
+ "notable_excerpt": "recording 00:00.800–00:15.800",
+ "video_use_ideas": "Add a nimble rhythm to quick explanatory cuts.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=108",
+ "editable_format": "MIDI; LilyPond (ZIP)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Mozart-Marsz_turecki-%28Romuald_Greiss%29.ogg",
+ "recording_performer": "Romuald Greiss (piano)",
+ "recording_license": "PD",
+ "recording_quality": "OGG Vorbis ~58k; 22.05 kHz stereo",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). Recording explicitly released to PD by Romuald Greiss. Original OGG is low bitrate and 22.05 kHz; preview conversion does not improve source fidelity. PD MIDI/LilyPond also available for a fresh render.",
+ "local_score_path": "files/scores/mozart_k331_rondo_turca.mid",
+ "local_audio_path": "files/audio/mozart_k331_rondo_turca.ogg",
+ "preview_path": "previews/mozart_k331_rondo_turca.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Classical",
+ "release_audio_name": "mozart_k331_rondo_turca.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mozart_k331_rondo_turca.ogg",
+ "release_audio_bytes": 1315215,
+ "preview_url": "previews/mozart_k331_rondo_turca.mp3",
+ "score_url": "files/scores/mozart_k331_rondo_turca.mid",
+ "score_files": [
+  "files/scores/mozart_k331_rondo_turca.mid",
+  "files/scores/mozart_k331_rondo_turca_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "playful",
+  "energetic",
+  "elegant"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Lo-fi source"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mozart_k331_rondo_turca",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mozart_k331_rondo_turca.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mozart_k331_rondo_turca.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k331_rondo_turca.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mozart_k331_rondo_turca.mid",
+  "https://ladoger.github.io/music-library/files/scores/mozart_k331_rondo_turca_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/mozart_k331_rondo_turca.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/mozart_k331_rondo_turca.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Wolfgang Amadeus Mozart: Rondo alla Turca, K. 331 (composition public domain).\nRecording: Romuald Greiss (piano). Licence: PD. Source: https://commons.wikimedia.org/wiki/File:Mozart-Marsz_turecki-%28Romuald_Greiss%29.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=108. Licence: PD."
+}

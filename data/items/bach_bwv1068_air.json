@@ -1,0 +1,70 @@
+{
+ "id": "bach_bwv1068_air",
+ "composer": "Johann Sebastian Bach",
+ "death_year": "1750",
+ "title": "Air on the G String",
+ "catalog": "BWV 1068",
+ "movement": "II. Air",
+ "mood_tags": "calm;elegant;reflective",
+ "tempo_energy": "adagio / low energy",
+ "notable_excerpt": "MIDI render 00:00.000–00:15.000",
+ "video_use_ideas": "Support a measured long-term strategy message.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1534",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). PD flute-and-guitar adaptation by Mike Blackstock; preview is an own MIDI render of that adaptation, not an orchestral performance. The orchestral Mutopia edition (ID 242) is CC BY-SA and was not downloaded.",
+ "local_score_path": "files/scores/bach_bwv1068_air.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bach_bwv1068_air.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bach_bwv1068_air.mp3",
+ "score_url": "files/scores/bach_bwv1068_air.mid",
+ "score_files": [
+  "files/scores/bach_bwv1068_air.ly",
+  "files/scores/bach_bwv1068_air.mid"
+ ],
+ "mood_tags_list": [
+  "calm",
+  "elegant",
+  "reflective"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1068_air",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv1068_air.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bach_bwv1068_air.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1068_air.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1068_air.ly",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1068_air.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bach_bwv1068_air.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bach_bwv1068_air.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Johann Sebastian Bach: Air on the G String, BWV 1068 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1534. Licence: PD."
+}

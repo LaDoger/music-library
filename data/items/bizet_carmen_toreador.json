@@ -1,0 +1,73 @@
+{
+ "id": "bizet_carmen_toreador",
+ "composer": "Georges Bizet",
+ "death_year": "1875",
+ "title": "Carmen - Toreador Song (Votre toast)",
+ "catalog": "",
+ "movement": "Act II (clip from Musopen opera recording)",
+ "mood_tags": "swaggering;bold;festive;confident",
+ "tempo_energy": "allegro moderato / mid-high",
+ "notable_excerpt": "4:10-4:25 (preview window)",
+ "video_use_ideas": "Swagger cue for a bold entrance / 'toreador vs bear'.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=635",
+ "editable_format": "LilyPond .ly + MIDI + PDF (Prelude, piano)",
+ "editable_license": "CC-BY-SA 2.5 (flag SA)",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Bizet_-_Carmen_-_Toreador_Song_(French,_Musopen).ogg",
+ "recording_performer": "Musopen (opera recording; performers not named)",
+ "recording_license": "CC0 (Commons: Cc-zero + Musopen)",
+ "recording_quality": "OGG Vorbis ~111k 44 kHz mono",
+ "legal_notes": "Composition PD. Recording CC0 via Musopen. Mutopia piano score of the Carmen Prelude (contains Toreador theme) is CC BY-SA 2.5 - FLAG SA (score only). Habanera: only a self-made synth render (PD-self) found - not added. Direct file: https://upload.wikimedia.org/wikipedia/commons/b/bd/Bizet_-_Carmen_-_Toreador_Song_%28French%2C_Musopen%29.ogg",
+ "local_score_path": "files/scores/bizet_carmen_prelude.mid",
+ "local_audio_path": "files/audio/bizet_carmen_toreador.ogg",
+ "preview_path": "previews/bizet_carmen_toreador.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "bizet_carmen_toreador.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/bizet_carmen_toreador.ogg",
+ "release_audio_bytes": 3761681,
+ "preview_url": "previews/bizet_carmen_toreador.mp3",
+ "score_url": "files/scores/bizet_carmen_prelude.mid",
+ "score_files": [
+  "files/scores/bizet_carmen_prelude.ly",
+  "files/scores/bizet_carmen_prelude.mid",
+  "files/scores/bizet_carmen_prelude.pdf"
+ ],
+ "mood_tags_list": [
+  "swaggering",
+  "bold",
+  "festive",
+  "confident"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bizet_carmen_toreador",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bizet_carmen_toreador.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bizet_carmen_toreador.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bizet_carmen_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bizet_carmen_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/bizet_carmen_prelude.mid",
+  "https://ladoger.github.io/music-library/files/scores/bizet_carmen_prelude.pdf"
+ ],
+ "render_midi": {
+  "file": "files/scores/bizet_carmen_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bizet_carmen_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Georges Bizet: Carmen - Toreador Song (Votre toast) (composition public domain).\nRecording: Musopen (opera recording; performers not named). Licence: CC0 (Commons: Cc-zero + Musopen). Source: https://commons.wikimedia.org/wiki/File:Bizet_-_Carmen_-_Toreador_Song_(French,_Musopen).ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=635. Licence: CC-BY-SA 2.5 (flag SA)."
+}

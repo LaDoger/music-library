@@ -1,0 +1,69 @@
+{
+ "id": "satie_gnossienne_1",
+ "composer": "Erik Satie",
+ "death_year": "1925",
+ "title": "Gnossienne No. 1",
+ "catalog": "Gnossienne No.1",
+ "movement": "",
+ "mood_tags": "mysterious;spare;hypnotic",
+ "tempo_energy": "lent / low pulse",
+ "notable_excerpt": "MIDI render 00:01–00:16",
+ "video_use_ideas": "Underscore a puzzle, a night walk, or an uneasy pause.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2035",
+ "editable_format": "MIDI",
+ "editable_license": "CC BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition published 1893, so the music itself is PD-EU and PD-US. The Mutopia edition (piece 2035) is Creative Commons Attribution-ShareAlike 4.0, stated on the piece page and in the LilyPond header. Share-alike can obligate a derivative edition, and a render made from this specific edition should not be treated as a clean PD recording. Credit the typesetter via the Mutopia page if this file is shipped. Preview is an own FluidSynth render.",
+ "local_score_path": "files/scores/satie_gnossienne_1.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/satie_gnossienne_1.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/satie_gnossienne_1.mp3",
+ "score_url": "files/scores/satie_gnossienne_1.mid",
+ "score_files": [
+  "files/scores/satie_gnossienne_1.mid"
+ ],
+ "mood_tags_list": [
+  "mysterious",
+  "spare",
+  "hypnotic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=satie_gnossienne_1",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/satie_gnossienne_1.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/satie_gnossienne_1.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/satie_gnossienne_1.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/satie_gnossienne_1.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/satie_gnossienne_1.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/satie_gnossienne_1.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Erik Satie: Gnossienne No. 1, Gnossienne No.1 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2035. Licence: CC BY-SA 4.0."
+}

@@ -1,0 +1,68 @@
+{
+ "id": "debussy_arabesque_1",
+ "composer": "Claude Debussy",
+ "death_year": "1918",
+ "title": "Deux arabesques: Première arabesque",
+ "catalog": "L.66 No.1",
+ "movement": "",
+ "mood_tags": "elegant;flowing;bright",
+ "tempo_energy": "andantino / flowing",
+ "notable_excerpt": "MIDI render 00:01–00:16 (opening arpeggios)",
+ "video_use_ideas": "Use the opening arpeggios under a light product or travel cut.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1777",
+ "editable_format": "MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition published by Durand, 1904. PD-EU and PD-US. Mutopia piece 1777 and the LilyPond header say Public Domain (typesetter dedication, creativecommons.org/licenses/publicdomain). Preview is an own FluidSynth piano render.",
+ "local_score_path": "files/scores/debussy_arabesque_1.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/debussy_arabesque_1.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/debussy_arabesque_1.mp3",
+ "score_url": "files/scores/debussy_arabesque_1.mid",
+ "score_files": [
+  "files/scores/debussy_arabesque_1.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "flowing",
+  "bright"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=debussy_arabesque_1",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/debussy_arabesque_1.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/debussy_arabesque_1.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_arabesque_1.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/debussy_arabesque_1.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/debussy_arabesque_1.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/debussy_arabesque_1.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Claude Debussy: Deux arabesques: Première arabesque, L.66 No.1 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1777. Licence: PD."
+}

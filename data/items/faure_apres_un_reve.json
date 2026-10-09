@@ -1,0 +1,68 @@
+{
+ "id": "faure_apres_un_reve",
+ "composer": "Gabriel Fauré",
+ "death_year": "1924",
+ "title": "Après un rêve",
+ "catalog": "Op.7 No.1",
+ "movement": "",
+ "mood_tags": "lyrical;tender;calm",
+ "tempo_energy": "andante / singing",
+ "notable_excerpt": "MIDI render 00:02–00:17",
+ "video_use_ideas": "Carry a voiceover about a long-held goal.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=368",
+ "editable_format": "MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Song from 1878 (Trois mélodies, Op.7). PD-EU (Fauré d.1924, life+70 from 1995) and PD-US. Mutopia piece 368 and the LilyPond header say the typesetter placed the edition in the public domain. Preview is an own FluidSynth render, not a sung performance.",
+ "local_score_path": "files/scores/faure_apres_un_reve.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/faure_apres_un_reve.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/faure_apres_un_reve.mp3",
+ "score_url": "files/scores/faure_apres_un_reve.mid",
+ "score_files": [
+  "files/scores/faure_apres_un_reve.mid"
+ ],
+ "mood_tags_list": [
+  "lyrical",
+  "tender",
+  "calm"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=faure_apres_un_reve",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/faure_apres_un_reve.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/faure_apres_un_reve.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/faure_apres_un_reve.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Gabriel Fauré: Après un rêve, Op.7 No.1 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=368. Licence: PD."
+}

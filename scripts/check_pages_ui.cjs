@@ -1,0 +1,209 @@
+#!/usr/bin/env node
+/* Browser regression check. Install Playwright outside the repo if desired:
+   npm install --prefix /tmp/music-ui-review playwright
+   NODE_PATH=/tmp/music-ui-review/node_modules node scripts/check_pages_ui.cjs
+   Uses installed Chrome (CHROME_BIN can override); serves a Pages-style subpath locally. */
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const http = require('node:http');
+const { chromium } = require('playwright');
+const root = path.resolve(__dirname, '..');
+const rows = JSON.parse(fs.readFileSync(path.join(root, 'data/library.json')));
+const server = http.createServer((req, res) => {
+  const url = new URL(req.url, 'http://localhost');
+  const name = decodeURIComponent(url.pathname).replace(/^\/music-library\//, '') || 'index.html';
+  const file = path.resolve(root, name);
+  if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) {
+    res.writeHead(404); res.end(); return;
+  }
+  const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.mp3': 'audio/mpeg' };
+  res.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
+  const size = fs.statSync(file).size;
+  const range = /bytes=(\d+)-(\d*)/.exec(req.headers.range || '');
+  const start = range ? Number(range[1]) : 0;
+  const end = range && range[2] ? Math.min(Number(range[2]), size - 1) : size - 1;
+  res.setHeader('Accept-Ranges', 'bytes');
+  res.setHeader('Content-Length', end - start + 1);
+  if (range) res.writeHead(206, { 'Content-Range': `bytes ${start}-${end}/${size}` });
+  fs.createReadStream(file, { start, end }).pipe(res);
+});
+
+(async () => {
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  const base = `http://127.0.0.1:${server.address().port}/music-library/`;
+  const browser = await chromium.launch({ executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox'] });
+  try {
+    const context = await browser.newContext({ permissions: ['clipboard-read', 'clipboard-write'] });
+    await context.addInitScript(() => {
+      const NativeAudio = window.Audio;
+      window.Audio = function (...args) {
+        const audio = new NativeAudio(...args);
+        (window.__reviewAudios ||= []).push(audio);
+        return audio;
+      };
+    });
+    const page = await context.newPage();
+    const errors = [];
+    page.on('pageerror', e => errors.push(e.message));
+    async function load(query = '') {
+      await page.goto(base + query);
+      await page.waitForFunction(() => document.querySelector('#resultCount b'));
+    }
+    async function count(n) {
+      await page.waitForFunction(expected => +document.querySelector('#resultCount b').textContent === expected, n);
+    }
+    async function insideDrawer() {
+      assert(await page.evaluate(() => !!document.activeElement.closest('#drawer')), 'Focus must stay inside dialog');
+    }
+
+    await load();
+    assert.equal(await page.locator('.card').count(), 24);
+    assert.equal(await page.locator('.pick').count(), 15);
+    for (const q of ['BWV565', 'bwv 565', 'dvorak', 'Op 27', 'K331']) {
+      await page.locator('#q').fill(q);
+      await page.waitForTimeout(180);
+      assert((await page.locator('.card').count()) > 0, `Search ${q}`);
+      assert.equal(new URL(page.url()).searchParams.get('q'), q);
+    }
+    await page.locator('#clearAll').click(); await count(rows.length);
+    // Clear before the search debounce expires: the old query must not return.
+    await page.evaluate(() => {
+      const q = document.querySelector('#q'); q.value = 'Bach'; q.dispatchEvent(new Event('input', { bubbles: true }));
+      document.querySelector('#clearAll').click();
+    });
+    await page.waitForTimeout(180); await count(rows.length);
+    assert.equal(await page.locator('#q').inputValue(), '');
+    await page.locator('#f_score').check(); await count(rows.filter(r => r.has_editable_score).length);
+    await page.locator('#clearAll').click();
+    await page.setViewportSize({ width: 1280, height: 900 });
+    const filters = {
+      genre: ['classical', r => r.genre === 'classical'],
+      composer: ['Johann Sebastian Bach', r => r.composer === 'Johann Sebastian Bach'],
+      mood: ['epic', r => r.mood_tags_list.includes('epic')],
+      era: ['Baroque', r => r.era === 'Baroque'],
+      energy: ['high', r => r.energy === 'high'],
+      licence: ['sharealike', r => r.licence_status === 'sharealike'],
+      rec: ['0', r => !r.has_recording],
+      verified: ['unverified', r => r.verified !== 'yes'],
+    };
+    for (const [key, [value, predicate]] of Object.entries(filters)) {
+      await page.locator('#f_' + key).selectOption(value); await count(rows.filter(predicate).length);
+      assert.equal(new URL(page.url()).searchParams.get(key), value);
+      await page.reload(); await count(rows.filter(predicate).length);
+      await page.locator('#clearAll').click(); await count(rows.length);
+    }
+    await page.locator('#showPicks').click(); await count(15);
+    const expectedPicks = rows.filter(r => r.top_pick_rank).sort((a, b) => a.top_pick_rank - b.top_pick_rank).map(r => r.id);
+    assert.deepEqual(await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id)), expectedPicks);
+    assert.equal(new URL(page.url()).searchParams.get('picks'), '1');
+    await page.locator('#clearAll').click();
+    await page.locator('#pager button[data-page="2"]').first().click();
+    assert.equal(await page.evaluate(() => document.activeElement.id), 'results');
+    assert.equal(new URL(page.url()).searchParams.get('page'), '2');
+    await load('?page=999&score=0&rec=no&licence=unknown&id=missing');
+    assert.equal(await page.locator('#f_score').isChecked(), false);
+    assert.equal(new URL(page.url()).searchParams.get('page'), '4');
+    for (const k of ['score', 'rec', 'licence', 'id']) assert.equal(new URL(page.url()).searchParams.has(k), false);
+    await load('?q=BWV565');
+    const opener = page.locator('.card h3 button').first(); await opener.click();
+    assert.equal(await page.locator('main').evaluate(el => el.inert), true);
+    assert.equal(await page.locator('#drawer').evaluate(el => el.inert), false);
+    assert.equal(await page.evaluate(() => document.activeElement.className), 'icon-btn drawer-close');
+    await page.keyboard.press('Shift+Tab'); await insideDrawer();
+    await page.keyboard.press('Tab'); await insideDrawer();
+    await page.keyboard.press('/'); await insideDrawer();
+    for (let i = 0; i < 25; i++) { await page.keyboard.press('Tab'); await insideDrawer(); }
+    await page.locator('[data-act="copy"]').click();
+    assert.match(await page.evaluate(() => navigator.clipboard.readText()), /Norbert Schenk/);
+    await page.locator('[data-act="link"]').click();
+    assert.equal(new URL(await page.evaluate(() => navigator.clipboard.readText())).searchParams.get('id'), 'bach_bwv565_toccata');
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#drawer').evaluate(el => el.inert), true);
+    assert.equal(await page.locator('main').evaluate(el => el.inert), false);
+    assert.equal(await page.evaluate(() => document.activeElement.dataset.act), 'open');
+    await opener.click(); await page.goBack();
+    assert.equal(await page.locator('#drawer').getAttribute('aria-hidden'), 'true');
+    await page.goForward();
+    assert.equal(await page.locator('#drawer').getAttribute('aria-hidden'), 'false');
+    await page.keyboard.press('Escape');
+    // Back/Forward while the search field is focused must update its visible value.
+    await page.evaluate(() => { history.pushState(null, '', '?q=Bach'); history.pushState(null, '', '?q=Chopin'); document.querySelector('#q').focus(); });
+    await page.goBack(); assert.equal(await page.locator('#q').inputValue(), 'Bach');
+    await load();
+    await page.locator('#browse-genre').focus(); await page.keyboard.press('ArrowRight');
+    assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-era');
+    assert.equal(await page.locator('#browseChips').getAttribute('aria-labelledby'), 'browse-era');
+    await page.keyboard.press('End'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-mood');
+    await page.keyboard.press('Home'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-genre');
+
+    // Real MP3 playback, one Audio object, native button Space, global Space/Esc and seek.
+    await page.locator('.card [data-act="play"]').first().click();
+    await page.waitForFunction(() => !window.__reviewAudios[0].paused && Number.isFinite(window.__reviewAudios[0].duration));
+    assert.equal(await page.evaluate(() => window.__reviewAudios.length), 1);
+    const firstSrc = await page.evaluate(() => window.__reviewAudios[0].src);
+    await page.locator('.card [data-act="play"]').nth(1).click();
+    await page.waitForFunction(src => window.__reviewAudios[0].src !== src && !window.__reviewAudios[0].paused && Number.isFinite(window.__reviewAudios[0].duration), firstSrc);
+    assert.equal(await page.locator('.card.playing').count(), 1);
+    await page.locator('#pBtn').focus(); await page.keyboard.press('Space');
+    await page.waitForFunction(() => window.__reviewAudios[0].paused);
+    await page.locator('#pBar').focus(); await page.keyboard.press('ArrowRight');
+    assert((await page.locator('#pBar').getAttribute('aria-valuenow')) > 0);
+    await page.keyboard.press('Home'); assert.equal(await page.locator('#pBar').getAttribute('aria-valuenow'), '0');
+    await page.locator('#results').focus(); await page.keyboard.press('Space');
+    await page.waitForFunction(() => !window.__reviewAudios[0].paused);
+    await page.keyboard.press('Escape'); assert.equal(await page.locator('#player').isVisible(), false);
+    await page.keyboard.press('/'); assert.equal(await page.evaluate(() => document.activeElement.id), 'q');
+
+    for (const width of [320, 390, 560, 561, 720, 999, 1000, 1280]) {
+      await page.setViewportSize({ width, height: 844 });
+      for (const view of ['grid', 'list']) {
+        await page.locator(`[data-view="${view}"]`).click();
+        assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px ${view} overflow`);
+        assert(await page.evaluate(() => [...document.querySelectorAll('.card')].every(c => c.scrollWidth <= c.clientWidth + 1)), `${width}px ${view} card clipping`);
+      }
+      assert.equal(await page.locator('#filters').isVisible(), width >= 1000);
+    }
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.locator('#filtersBtn').click(); assert.equal(await page.locator('#filters').isVisible(), true);
+    await page.setViewportSize({ width: 1280, height: 844 });
+    await page.setViewportSize({ width: 390, height: 844 });
+    assert.equal(await page.locator('#filters').isVisible(), true);
+    await page.locator('#filtersBtn').click(); assert.equal(await page.locator('#filters').isVisible(), false);
+    await page.locator('.card h3 button').first().click();
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Mobile drawer overflow');
+    // Force both clipboard methods to fail; never claim that the copy succeeded.
+    await page.evaluate(() => {
+      Object.defineProperty(navigator, 'clipboard', { value: { writeText: async () => { throw new Error('denied'); } } });
+      document.execCommand = () => false;
+    });
+    await page.locator('[data-act="copy"]').click();
+    assert.match(await page.locator('#toast').innerText(), /Could not copy/);
+    await insideDrawer();
+    assert.equal(await page.locator('textarea').count(), 0);
+    await page.keyboard.press('Escape');
+
+    // Synthetic expansion preserves unique IDs and uses the actual UI render/filter path.
+    const synthetic = Array.from({ length: 16 }, (_, batch) => rows.map(r => ({ ...r, id: r.id + '_' + batch, top_pick_rank: batch ? 0 : r.top_pick_rank }))).flat();
+    const scalePage = await context.newPage();
+    await scalePage.route('**/data/library.json', route => route.fulfill({ json: synthetic }));
+    await scalePage.goto(base); await scalePage.waitForSelector('.card');
+    assert.equal(await scalePage.locator('.card').count(), 24);
+    assert.equal(await scalePage.locator('#resultCount b').innerText(), '1200');
+    const timings = [];
+    for (let i = 0; i < 5; i++) {
+      timings.push(await scalePage.evaluate(() => {
+        const start = performance.now();
+        const toggle = document.querySelector('#f_score'); toggle.checked = !toggle.checked;
+        toggle.dispatchEvent(new Event('change', { bubbles: true }));
+        return performance.now() - start;
+      }));
+    }
+    assert.equal(await scalePage.locator('.card').count(), 24);
+    assert.equal(errors.length, 0, errors.join('\n'));
+    console.log('PASS: search; all facets + reload; clear debounce; ranked picks; pagination/URL normalization; modal focus/history; copy success/failure; tabs; real single-player audio/seek/Space/Esc; mobile/resize; 1,200 rows.');
+    console.log(`1,200-row filter/facet/render samples (ms): ${timings.map(t => t.toFixed(1)).join(', ')}; raw JSON ${(Buffer.byteLength(JSON.stringify(synthetic)) / 1024 / 1024).toFixed(2)} MiB; 24 result cards.`);
+  } finally {
+    await browser.close();
+  }
+})().catch(e => { console.error(e.stack); process.exitCode = 1; }).finally(() => server.close());

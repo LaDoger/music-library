@@ -1,0 +1,71 @@
+{
+ "id": "mussorgsky_pictures_great_gate_kiev",
+ "composer": "Modest Mussorgsky",
+ "death_year": "1881",
+ "title": "Pictures at an Exhibition - The Great Gate of Kiev",
+ "catalog": "",
+ "movement": "X. La grande porte de Kiev",
+ "mood_tags": "epic;triumphant;majestic;grand",
+ "tempo_energy": "maestoso / very high, grand finale",
+ "notable_excerpt": "5:00-5:15 (preview window)",
+ "video_use_ideas": "Triumphant finale for a milestone/ATH reveal.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=475",
+ "editable_format": "LilyPond .ly + MIDI (zips, full cycle)",
+ "editable_license": "CC-BY-SA 4.0 (flag SA)",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+ "recording_performer": "Musopen (piano; performer not named)",
+ "recording_license": "PD (Commons: PD-author + PD-old-100)",
+ "recording_quality": "OGG Vorbis ~170k 48 kHz stereo",
+ "legal_notes": "Composition PD. Recording PD via Musopen (piano version). Score: same Mutopia CC BY-SA 4.0 set as Promenade (flag SA). Direct file: https://upload.wikimedia.org/wikipedia/commons/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+ "local_score_path": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
+ "local_audio_path": "files/audio/mussorgsky_pictures_great_gate_kiev.ogg",
+ "preview_path": "previews/mussorgsky_pictures_great_gate_kiev.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "mussorgsky_pictures_great_gate_kiev.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mussorgsky_pictures_great_gate_kiev.ogg",
+ "release_audio_bytes": 6986122,
+ "preview_url": "previews/mussorgsky_pictures_great_gate_kiev.mp3",
+ "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
+ "score_files": [
+  "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
+  "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+ ],
+ "mood_tags_list": [
+  "epic",
+  "triumphant",
+  "majestic",
+  "grand"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "ShareAlike score only"
+ ],
+ "energy": "very_high",
+ "top_pick_rank": 4,
+ "top_pick_why": "Monumental, cathedral-like grandeur for \"digital capital / monument\" visuals. PD.",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mussorgsky_pictures_great_gate_kiev",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mussorgsky_pictures_great_gate_kiev.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mussorgsky_pictures_great_gate_kiev.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+  "url": "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+  "zip_member": "great-gate.mid"
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Modest Mussorgsky: Pictures at an Exhibition - The Great Gate of Kiev (composition public domain).\nRecording: Musopen (piano; performer not named). Licence: PD (Commons: PD-author + PD-old-100). Source: https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=475. Licence: CC-BY-SA 4.0 (flag SA)."
+}

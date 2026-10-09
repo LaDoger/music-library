@@ -1,0 +1,68 @@
+{
+ "id": "debussy_clair_de_lune",
+ "composer": "Claude Debussy",
+ "death_year": "1918",
+ "title": "Suite bergamasque: Clair de lune",
+ "catalog": "L.75 No.3",
+ "movement": "",
+ "mood_tags": "calm;elegant;nocturnal",
+ "tempo_energy": "andante / floating",
+ "notable_excerpt": "MIDI render 00:01–00:16 (opening melody)",
+ "video_use_ideas": "Hold under a quiet night shot or a reflective close.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778",
+ "editable_format": "MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition first published 1905 (E. Fromont). PD-EU (Debussy d.1918, life+70) and PD-US (published before 1930). Mutopia piece 1778 and the LilyPond header say Public Domain; the typesetter placed the edition in the public domain. Preview is an own FluidSynth render of that MIDI, not a commercial piano recording.",
+ "local_score_path": "files/scores/debussy_clair_de_lune.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/debussy_clair_de_lune.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/debussy_clair_de_lune.mp3",
+ "score_url": "files/scores/debussy_clair_de_lune.mid",
+ "score_files": [
+  "files/scores/debussy_clair_de_lune.mid"
+ ],
+ "mood_tags_list": [
+  "calm",
+  "elegant",
+  "nocturnal"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=debussy_clair_de_lune",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/debussy_clair_de_lune.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/debussy_clair_de_lune.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/debussy_clair_de_lune.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Claude Debussy: Suite bergamasque: Clair de lune, L.75 No.3 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778. Licence: PD."
+}

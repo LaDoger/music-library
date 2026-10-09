@@ -1,0 +1,68 @@
+{
+ "id": "faure_sicilienne",
+ "composer": "Gabriel Fauré",
+ "death_year": "1924",
+ "title": "Sicilienne",
+ "catalog": "Op.78",
+ "movement": "",
+ "mood_tags": "elegant;pastoral;gentle",
+ "tempo_energy": "allegretto / lilting",
+ "notable_excerpt": "MIDI render 00:01–00:16",
+ "video_use_ideas": "Light pastoral B-roll or a soft interlude between harder cuts.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=636",
+ "editable_format": "MIDI",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Op.78 Sicilienne (1893/1898) is PD-EU and PD-US. Mutopia piece 636 is a fingered guitar arrangement; the piece page and LilyPond header say Public Domain. The MIDI track is acoustic guitar (nylon), not the familiar flute-and-orchestra version. Preview is an own FluidSynth guitar render.",
+ "local_score_path": "files/scores/faure_sicilienne.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/faure_sicilienne.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/faure_sicilienne.mp3",
+ "score_url": "files/scores/faure_sicilienne.mid",
+ "score_files": [
+  "files/scores/faure_sicilienne.mid"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "pastoral",
+  "gentle"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=faure_sicilienne",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/faure_sicilienne.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/faure_sicilienne.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/faure_sicilienne.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Gabriel Fauré: Sicilienne, Op.78 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=636. Licence: PD."
+}

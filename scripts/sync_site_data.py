@@ -20,6 +20,8 @@ Derived fields
   top_pick_rank/why   from the "Top 15 picks" table in README.md
   search_text         lowercase blob the UI searches (catalogue variants included)
 
+Also rebuilds data/catalog.json + data/items/*.json (scripts/build_catalog.py).
+
 Usage: python3 scripts/sync_site_data.py [--check]   (--check: report only, no write)
 """
 import csv
@@ -292,6 +294,11 @@ def main():
           "top picks:", sum(1 for o in out if o["top_pick_rank"]))
     for p in problems:
         print("WARN", p)
+    if not check:
+        # agent-facing data/catalog.json + data/items/*.json derive from library.json
+        import build_catalog
+        if build_catalog.main():
+            problems.append("build_catalog warnings")
     return 1 if problems else 0
 
 

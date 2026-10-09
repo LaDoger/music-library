@@ -1,0 +1,71 @@
+{
+ "id": "dvorak_new_world_finale",
+ "composer": "Antonín Dvořák",
+ "death_year": "1904",
+ "title": "Symphony No. 9 'From the New World' - Finale",
+ "catalog": "Op. 95",
+ "movement": "IV. Allegro con fuoco",
+ "mood_tags": "epic;driving;heroic;dramatic",
+ "tempo_energy": "allegro con fuoco / very high drive",
+ "notable_excerpt": "0:12-0:27 (preview window)",
+ "video_use_ideas": "Brass-led 'march of progress' opener.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+ "editable_format": "LilyPond .ly + MIDI (zips, all 4 mvts)",
+ "editable_license": "CC-BY-SA 3.0 (flag SA)",
+ "musescore_url": "",
+ "recording_source_url": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iv._allegro_con_fuoco.ogg",
+ "recording_performer": "Musopen (performers not named)",
+ "recording_license": "PD (Commons: PD-author + Musopen)",
+ "recording_quality": "OGG Vorbis ~174k 48 kHz stereo",
+ "legal_notes": "Composition PD. Recording PD via Musopen. Mutopia score CC BY-SA 3.0 (flag SA). Direct file: https://upload.wikimedia.org/wikipedia/commons/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg",
+ "local_score_path": "files/scores/dvorak_new_world-lys.zip",
+ "local_audio_path": "files/audio/dvorak_new_world_finale.ogg",
+ "preview_path": "previews/dvorak_new_world_finale.mp3",
+ "verified": "yes",
+ "added_by": "claude",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "dvorak_new_world_finale.ogg",
+ "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/dvorak_new_world_finale.ogg",
+ "release_audio_bytes": 15295639,
+ "preview_url": "previews/dvorak_new_world_finale.mp3",
+ "score_url": "files/scores/dvorak_new_world-lys.zip",
+ "score_files": [
+  "files/scores/dvorak_new_world-lys.zip",
+  "files/scores/dvorak_new_world-mids.zip"
+ ],
+ "mood_tags_list": [
+  "epic",
+  "driving",
+  "heroic",
+  "dramatic"
+ ],
+ "has_editable_score": true,
+ "has_recording": true,
+ "recording_status": "clean",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "ShareAlike score only"
+ ],
+ "energy": "very_high",
+ "top_pick_rank": 5,
+ "top_pick_why": "Brass march of progress, \"the new world\" message built in. PD recording.",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=dvorak_new_world_finale",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/dvorak_new_world_finale.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/dvorak_new_world_finale.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/dvorak_new_world-mids.zip",
+  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
+  "zip_member": "Mvt4_conFuoco.mid"
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Antonín Dvořák: Symphony No. 9 'From the New World' - Finale, Op. 95 (composition public domain).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-author + Musopen). Source: https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iv._allegro_con_fuoco.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793. Licence: CC-BY-SA 3.0 (flag SA)."
+}

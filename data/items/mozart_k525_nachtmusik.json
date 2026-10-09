@@ -1,0 +1,70 @@
+{
+ "id": "mozart_k525_nachtmusik",
+ "composer": "Wolfgang Amadeus Mozart",
+ "death_year": "1791",
+ "title": "Eine kleine Nachtmusik",
+ "catalog": "K. 525",
+ "movement": "I. Allegro",
+ "mood_tags": "elegant;playful;confident",
+ "tempo_energy": "allegro / bright energy",
+ "notable_excerpt": "MIDI render 00:00.000–00:15.000",
+ "video_use_ideas": "Introduce a crisp recurring brand or chapter motif.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=900",
+ "editable_format": "MIDI; LilyPond (ZIP)",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Composition PD-EU (life+70 expired) and PD-US (historic published work). PD string-quartet edition; preview is an own MIDI render. European Archive recording candidates were not downloaded because their page did not adequately establish worldwide recording clearance for this use.",
+ "local_score_path": "files/scores/mozart_k525_nachtmusik.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/mozart_k525_nachtmusik.mp3",
+ "verified": "yes",
+ "added_by": "codex",
+ "genre": "classical",
+ "era": "Classical",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/mozart_k525_nachtmusik.mp3",
+ "score_url": "files/scores/mozart_k525_nachtmusik.mid",
+ "score_files": [
+  "files/scores/mozart_k525_nachtmusik.mid",
+  "files/scores/mozart_k525_nachtmusik_lilypond.zip"
+ ],
+ "mood_tags_list": [
+  "elegant",
+  "playful",
+  "confident"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=mozart_k525_nachtmusik",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/mozart_k525_nachtmusik.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/mozart_k525_nachtmusik.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k525_nachtmusik.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/mozart_k525_nachtmusik.mid",
+  "https://ladoger.github.io/music-library/files/scores/mozart_k525_nachtmusik_lilypond.zip"
+ ],
+ "render_midi": {
+  "file": "files/scores/mozart_k525_nachtmusik.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/mozart_k525_nachtmusik.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Wolfgang Amadeus Mozart: Eine kleine Nachtmusik, K. 525 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=900. Licence: PD."
+}
