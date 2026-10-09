@@ -41,3 +41,4 @@ Concurrent Bach and UI/research changes were preserved. The commit is scoped to 
 - CP-WM5: commit and live-deployment result recorded in STATUS.md.
 
 - CP-WM6: final biography check corrected arranger dates in three legal notes; 268-entry deployment and all 23 new item/score/preview routes verified.
+- CP-WM7: both Pages deployments succeeded; all three corrected legal notes are live. Batch complete; quota 47%.
