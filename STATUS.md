@@ -24,6 +24,7 @@ Updated: 2026-10-09 18:00 Europe/Warsaw (CEST)
 | CP5 | 16:58 | Repo pushed; release created | continue |
 | CP6 | 17:02 | Genre field + multi-genre UI brief; upload script; expand-batch1 brief (Bach/Wagner/Mahler/Bruckner first) | continue |
 | CP7 | 17:10 | `scripts/sync_site_data.py` (CSV→JSON, idempotent; licence/era/energy/flags/top picks). Next: index.html + assets at repo root | continue |
+| CP16 | 18:16 | LIVE: composer-first UI deployed (334 works, 47 composers). Full play + synth verified paths 200. Deployed scrub = 0 hits for Saylor/Strategy/MSTR/bitcoin/crypto. Models: opus-5-5 UI; haiku-5-5 used in batch harvests; Codex high reviewing. | Codex 49% OK → continue |
 | CP15 | 18:15 | Composer-first UI + full play + live MIDI synth + brand scrub DONE (opus-5-5). 334 rows synced (batch1 merged). Deploying. Model tiering noted. Review Codex still in flight. | Codex 49% OK → continue |
 | CP14 | 17:52 | Model tiering: bulk→claude-haiku-5-5 / Codex low / grok-4.7-build-fast; hard→opus-5-5 / gpt-6.1-sol high / grok-4.7. See briefs/MODEL_TIERING.md. UI still on opus (correct). Bulk pipeline should switch harvest to fast tier. | Codex 47% OK → continue |
 | CP13 | 17:46 | User approved full licence-clean pull from research sources. SOURCES_POLICY updated; bulk pipeline brief launched (Grok). UI composer+fullplay+synth still in flight; batch1 Bach/Wagner/Mahler/Bruckner still in flight. | Codex 47% OK → continue |
