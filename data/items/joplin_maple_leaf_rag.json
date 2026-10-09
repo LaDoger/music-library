@@ -40,9 +40,7 @@
  "preview_url": "",
  "score_url": "files/scores/joplin_maple_leaf_rag.mid",
  "score_files": [
-  "files/scores/joplin_maple_leaf_rag.mid",
-  "files/scores/joplin_maple_leaf_rag_piano_duetb51.mid",
-  "files/scores/joplin_maple_leaf_rag_scott_joplinb51.mid"
+  "files/scores/joplin_maple_leaf_rag.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -106,9 +104,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
-  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag_piano_duetb51.mid",
-  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag_scott_joplinb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
  "render_midi": {

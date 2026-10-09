@@ -36,9 +36,7 @@
  "score_url": "files/scores/dvorak_new_world-lys.zip",
  "score_files": [
   "files/scores/dvorak_new_world-lys.zip",
-  "files/scores/dvorak_new_world-mids.zip",
-  "files/scores/dvorak_new_world_symphonieb2.mid",
-  "files/scores/dvorak_new_world_symphony_movementb2.mid"
+  "files/scores/dvorak_new_world-mids.zip"
  ],
  "mood_tags_list": [
   "epic",
@@ -71,15 +69,13 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
-  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphonieb2.mid",
-  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphony_movementb2.mid"
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/midi_play/dvorak_new_world_finale.mid",
  "render_midi": {
-  "file": "files/scores/dvorak_new_world_symphonieb2.mid",
-  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphonieb2.mid",
-  "zip_member": ""
+  "file": "files/scores/dvorak_new_world-mids.zip",
+  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
+  "zip_member": "Mvt4_conFuoco.mid"
  },
  "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
  "credit_text": "Antonín Dvořák: Symphony No. 9 'From the New World' - Finale, Op. 95 (composition public domain).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-author + Musopen). Source: https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iv._allegro_con_fuoco.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793. Licence: CC-BY-SA 3.0 (flag SA)."

@@ -36,8 +36,7 @@
  "score_url": "files/scores/bach_bwv999_prelude.mid",
  "score_files": [
   "files/scores/bach_bwv999_prelude.ly",
-  "files/scores/bach_bwv999_prelude.mid",
-  "files/scores/bach_bwv999_prelude_in_d_minorb51.mid"
+  "files/scores/bach_bwv999_prelude.mid"
  ],
  "mood_tags_list": [
   "flowing",
@@ -75,8 +74,7 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude_in_d_minorb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
  "render_midi": {

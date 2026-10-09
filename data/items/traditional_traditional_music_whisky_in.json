@@ -2,7 +2,7 @@
  "id": "traditional_traditional_music_whisky_in",
  "composer": "Traditional",
  "death_year": "",
- "title": "Traditional music - Whisky in the Jar",
+ "title": "Whisky in the Jar",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -64,7 +64,7 @@
   {
    "id": "traditional_traditional_music_whisky_inb2",
    "source": "pdmx",
-   "title": "Traditional music - Whisky in the Jar",
+   "title": "Whisky in the Jar",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -85,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Traditional: Traditional music - Whisky in the Jar (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Traditional: Whisky in the Jar (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -290,6 +290,8 @@ def build():
         editions = json.load(open(os.path.join(ROOT, "library_other_editions.json"), encoding="utf-8"))
     except (FileNotFoundError, ValueError):
         editions = {}
+    # alternates' MIDIs stay on disk untracked; never pick them up by id prefix
+    ALL_IDS.update(e["id"] for alts in editions.values() for e in alts)
     out, problems = [], []
 
     for r in rows:

@@ -62,6 +62,13 @@
  "midi_play_url": "files/scores/traditional_holly_and_the_ivy_the.mid",
  "other_editions": [
   {
+   "id": "traditional_holly_and_ivy",
+   "source": "pdmx",
+   "title": "Holly and Ivy",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
    "id": "traditional_the_holly_and_the_ivy",
    "source": "pdmx",
    "title": "The Holly and the Ivy",

@@ -60,7 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/palestrina_o_domine_jesu_christe_giovan.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "palestrina_giovanni_pierluigi_da_palest",
+   "source": "pdmx",
+   "title": "O Domine Jesu Christe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=palestrina_o_domine_jesu_christe_giovan",

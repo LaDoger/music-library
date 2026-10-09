@@ -2,7 +2,7 @@
  "id": "traditional_traditional_music_the_king_o",
  "composer": "Traditional",
  "death_year": "",
- "title": "Traditional music - The King of the Faeries",
+ "title": "The King of the Faeries",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -64,7 +64,7 @@
   {
    "id": "traditional_traditional_music_the_king_ob2",
    "source": "pdmx",
-   "title": "Traditional music - The King of the Faeries",
+   "title": "The King of the Faeries",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -85,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Traditional: Traditional music - The King of the Faeries (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Traditional: The King of the Faeries (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

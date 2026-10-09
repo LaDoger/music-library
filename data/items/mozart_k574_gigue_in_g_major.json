@@ -40,8 +40,7 @@
  "preview_url": "",
  "score_url": "files/scores/mozart_k574_gigue_in_g_major.mid",
  "score_files": [
-  "files/scores/mozart_k574_gigue_in_g_major.mid",
-  "files/scores/mozart_k574_gigue_in_g_major_k_574b51.mid"
+  "files/scores/mozart_k574_gigue_in_g_major.mid"
  ],
  "mood_tags_list": [
   "fast",
@@ -77,8 +76,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
-  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major_k_574b51.mid"
+  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
  "render_midi": {

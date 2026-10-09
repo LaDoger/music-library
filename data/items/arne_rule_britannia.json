@@ -70,6 +70,13 @@
    "title": "Rule Britannia",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=574",
    "licence": "PD"
+  },
+  {
+   "id": "arne_rule_britanniab2",
+   "source": "pdmx",
+   "title": "Rule Britannia!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schema_version": 3,

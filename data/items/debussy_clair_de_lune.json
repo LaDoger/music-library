@@ -35,10 +35,7 @@
  "preview_url": "",
  "score_url": "files/scores/debussy_clair_de_lune.mid",
  "score_files": [
-  "files/scores/debussy_clair_de_lune.mid",
-  "files/scores/debussy_clair_de_lune_c_debussyb51.mid",
-  "files/scores/debussy_clair_de_lune_easyb51.mid",
-  "files/scores/debussy_clair_de_lune_for_viola_andb51.mid"
+  "files/scores/debussy_clair_de_lune.mid"
  ],
  "mood_tags_list": [
   "calm",
@@ -117,10 +114,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid",
-  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune_c_debussyb51.mid",
-  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune_easyb51.mid",
-  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune_for_viola_andb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_clair_de_lune.mid",
  "render_midi": {

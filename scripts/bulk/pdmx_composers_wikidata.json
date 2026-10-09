@@ -1,0 +1,3985 @@
+{
+ "generated": "2026-10-09T23:19:29+0200",
+ "source": "Wikidata SPARQL (P31 Q5, P106/P279* musician or composer, P569/P570); names = PDMX composer_name values not matched by the schema.py hand list",
+ "min_rows": 3,
+ "composers": [
+  {
+   "canon": "adam geibel",
+   "name": "Adam Geibel",
+   "birth": 1855,
+   "death": 1933,
+   "prefix": "geibel",
+   "wikidata": "Q20663595",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "adolphe adam",
+   "name": "Adolphe Adam",
+   "birth": 1803,
+   "death": 1856,
+   "prefix": "adam",
+   "wikidata": "Q189544",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "adolphe danhauser",
+   "name": "Adolphe Danhauser",
+   "birth": 1835,
+   "death": 1896,
+   "prefix": "danhauser",
+   "wikidata": "Q365709",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "adrian willaert",
+   "name": "Adrian Willaert",
+   "birth": 1480,
+   "death": 1562,
+   "prefix": "willaert",
+   "wikidata": "Q312615",
+   "aliases": [
+    "adriaan willaert"
+   ],
+   "pdmx_rows": 17
+  },
+  {
+   "canon": "agostino agresta",
+   "name": "Agostino Agresta",
+   "birth": 1600,
+   "death": 1617,
+   "prefix": "agresta",
+   "wikidata": "Q4693616",
+   "aliases": [],
+   "pdmx_rows": 13
+  },
+  {
+   "canon": "alessandro orologio",
+   "name": "Alessandro Orologio",
+   "birth": 1550,
+   "death": 1633,
+   "prefix": "orologio",
+   "wikidata": "Q3610181",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "alfonso fontanelli",
+   "name": "Alfonso Fontanelli",
+   "birth": 1557,
+   "death": 1622,
+   "prefix": "fontanelli",
+   "wikidata": "Q2062267",
+   "aliases": [],
+   "pdmx_rows": 13
+  },
+  {
+   "canon": "amy winehouse",
+   "name": "Amy Winehouse",
+   "birth": 1983,
+   "death": 2011,
+   "prefix": "winehouse",
+   "wikidata": "Q15897",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "andrea gabrieli",
+   "name": "Andrea Gabrieli",
+   "birth": 1533,
+   "death": 1585,
+   "prefix": "andreagabrieli",
+   "wikidata": "Q217317",
+   "aliases": [],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "andreas hammerschmidt",
+   "name": "Andreas Hammerschmidt",
+   "birth": 1611,
+   "death": 1675,
+   "prefix": "hammerschmidt",
+   "wikidata": "Q497864",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "andreas pevernage",
+   "name": "Andreas Pevernage",
+   "birth": 1542,
+   "death": 1591,
+   "prefix": "pevernage",
+   "wikidata": "Q2159084",
+   "aliases": [
+    "andre pevernage"
+   ],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "angelo notari",
+   "name": "Angelo Notari",
+   "birth": 1566,
+   "death": 1663,
+   "prefix": "notari",
+   "wikidata": "Q2849490",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "annibale zoilo",
+   "name": "Annibale Zoilo",
+   "birth": 1537,
+   "death": 1592,
+   "prefix": "zoilo",
+   "wikidata": "Q2920312",
+   "aliases": [
+    "annibal zoilo"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "anthony holborne",
+   "name": "Anthony Holborne",
+   "birth": 1545,
+   "death": 1602,
+   "prefix": "holborne",
+   "wikidata": "Q1676220",
+   "aliases": [
+    "antony holborne"
+   ],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "antonio carlos jobim",
+   "name": "Antônio Carlos Jobim",
+   "birth": 1927,
+   "death": 1994,
+   "prefix": "jobim",
+   "wikidata": "Q200131",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "ariel ramirez",
+   "name": "Ariel Ramírez",
+   "birth": 1921,
+   "death": 2010,
+   "prefix": "ramirez",
+   "wikidata": "Q356552",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "arnold von bruck",
+   "name": "Arnold von Bruck",
+   "birth": 1500,
+   "death": 1554,
+   "prefix": "bruck",
+   "wikidata": "Q696713",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "arthopius",
+   "name": "Arthopius",
+   "birth": 1482,
+   "death": 1834,
+   "prefix": "arthopius",
+   "wikidata": "Q56026832",
+   "aliases": [
+    "balthasar arthopius"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "arthur willard pryor",
+   "name": "Arthur Willard Pryor",
+   "birth": 1870,
+   "death": 1942,
+   "prefix": "pryor",
+   "wikidata": "Q1043029",
+   "aliases": [
+    "arthur pryor"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "astor piazzolla",
+   "name": "Astor Piazzolla",
+   "birth": 1921,
+   "death": 1992,
+   "prefix": "piazzolla",
+   "wikidata": "Q172505",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "august soderman",
+   "name": "August Söderman",
+   "birth": 1832,
+   "death": 1876,
+   "prefix": "soderman",
+   "wikidata": "Q764212",
+   "aliases": [
+    "johan august soderman"
+   ],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "augusta holmes",
+   "name": "Augusta Holmès",
+   "birth": 1847,
+   "death": 1903,
+   "prefix": "holmes",
+   "wikidata": "Q464636",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "barbara strozzi",
+   "name": "Barbara Strozzi",
+   "birth": 1619,
+   "death": 1677,
+   "prefix": "strozzi",
+   "wikidata": "Q232235",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "benedetto pallavicino",
+   "name": "Benedetto Pallavicino",
+   "birth": 1551,
+   "death": 1601,
+   "prefix": "pallavicino",
+   "wikidata": "Q4887229",
+   "aliases": [],
+   "pdmx_rows": 112
+  },
+  {
+   "canon": "benedictus appenzeller",
+   "name": "Benedictus Appenzeller",
+   "birth": 1480,
+   "death": 1558,
+   "prefix": "appenzeller",
+   "wikidata": "Q428997",
+   "aliases": [],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "benedictus ducis",
+   "name": "Benedictus Ducis",
+   "birth": 1490,
+   "death": 1544,
+   "prefix": "ducis",
+   "wikidata": "Q122657",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "benjamin britten",
+   "name": "Benjamin Britten",
+   "birth": 1913,
+   "death": 1976,
+   "prefix": "britten",
+   "wikidata": "Q150767",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "bernhard klingenstein",
+   "name": "Bernhard Klingenstein",
+   "birth": 1545,
+   "death": 1614,
+   "prefix": "klingenstein",
+   "wikidata": "Q55133965",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "bobby helms",
+   "name": "Bobby Helms",
+   "birth": 1933,
+   "death": 1997,
+   "prefix": "helms",
+   "wikidata": "Q888554",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "calixa lavallee",
+   "name": "Calixa Lavallée",
+   "birth": 1842,
+   "death": 1891,
+   "prefix": "lavallee",
+   "wikidata": "Q1027051",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "carl henze",
+   "name": "Carl Henze",
+   "birth": 1872,
+   "death": 1946,
+   "prefix": "henze",
+   "wikidata": "Q1038761",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "carl nielsen",
+   "name": "Carl Nielsen",
+   "birth": 1865,
+   "death": 1931,
+   "prefix": "nielsen",
+   "wikidata": "Q205139",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "carlos gardel",
+   "name": "Carlos Gardel",
+   "birth": 1890,
+   "death": 1935,
+   "prefix": "gardel",
+   "wikidata": "Q229613",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "carlos guastavino",
+   "name": "Carlos Guastavino",
+   "birth": 1912,
+   "death": 2000,
+   "prefix": "guastavino",
+   "wikidata": "Q559847",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "charles marie widor",
+   "name": "Charles-Marie Widor",
+   "birth": 1844,
+   "death": 1937,
+   "prefix": "widor",
+   "wikidata": "Q215161",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "charles william hempel",
+   "name": "Charles William Hempel",
+   "birth": 1777,
+   "death": 1855,
+   "prefix": "hempel",
+   "wikidata": "Q5083562",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "chris perry",
+   "name": "Chris Perry",
+   "birth": 1928,
+   "death": 2002,
+   "prefix": "perry",
+   "wikidata": "Q5107740",
+   "aliases": [],
+   "pdmx_rows": 22
+  },
+  {
+   "canon": "christian haslerud",
+   "name": "Christian Haslerud",
+   "birth": 1834,
+   "death": 1921,
+   "prefix": "haslerud",
+   "wikidata": "Q21418971",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "christian hollander",
+   "name": "Christian Hollander",
+   "birth": 1512,
+   "death": 1589,
+   "prefix": "hollander",
+   "wikidata": "Q5109731",
+   "aliases": [
+    "christiaan hollander"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "christian petzold",
+   "name": "Christian Petzold",
+   "birth": 1677,
+   "death": 1733,
+   "prefix": "petzold",
+   "wikidata": "Q537804",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "chuck berry",
+   "name": "Chuck Berry",
+   "birth": 1926,
+   "death": 2017,
+   "prefix": "berry",
+   "wikidata": "Q5921",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "cipriano de rore",
+   "name": "Cipriano de Rore",
+   "birth": 1515,
+   "death": 1565,
+   "prefix": "rore",
+   "wikidata": "Q316074",
+   "aliases": [],
+   "pdmx_rows": 12
+  },
+  {
+   "canon": "claude gervaise",
+   "name": "Claude Gervaise",
+   "birth": 1505,
+   "death": 1558,
+   "prefix": "gervaise",
+   "wikidata": "Q1096794",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "claudin de sermisy",
+   "name": "Claudin de Sermisy",
+   "birth": 1490,
+   "death": 1562,
+   "prefix": "sermisy",
+   "wikidata": "Q968593",
+   "aliases": [],
+   "pdmx_rows": 23
+  },
+  {
+   "canon": "claudio merulo",
+   "name": "Claudio Merulo",
+   "birth": 1533,
+   "death": 1604,
+   "prefix": "merulo",
+   "wikidata": "Q380517",
+   "aliases": [
+    "claudio da correggio"
+   ],
+   "pdmx_rows": 15
+  },
+  {
+   "canon": "claudio saracini",
+   "name": "Claudio Saracini",
+   "birth": 1586,
+   "death": 1630,
+   "prefix": "saracini",
+   "wikidata": "Q2333985",
+   "aliases": [],
+   "pdmx_rows": 29
+  },
+  {
+   "canon": "clement janequin",
+   "name": "Clément Janequin",
+   "birth": 1485,
+   "death": 1558,
+   "prefix": "janequin",
+   "wikidata": "Q71526",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "constantijn huygens",
+   "name": "Constantijn Huygens",
+   "birth": 1596,
+   "death": 1687,
+   "prefix": "huygens",
+   "wikidata": "Q560746",
+   "aliases": [],
+   "pdmx_rows": 33
+  },
+  {
+   "canon": "cornelis verdonck",
+   "name": "Cornelis Verdonck",
+   "birth": 1563,
+   "death": 1625,
+   "prefix": "verdonck",
+   "wikidata": "Q1858617",
+   "aliases": [
+    "cornelius verdonck"
+   ],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "cornelius canis",
+   "name": "Cornelius Canis",
+   "birth": 1506,
+   "death": 1561,
+   "prefix": "canis",
+   "wikidata": "Q2997483",
+   "aliases": [],
+   "pdmx_rows": 13
+  },
+  {
+   "canon": "cornelius gurlitt",
+   "name": "Cornelius Gurlitt",
+   "birth": 1820,
+   "death": 1901,
+   "prefix": "gurlitt",
+   "wikidata": "Q688544",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "costanzo porta",
+   "name": "Costanzo Porta",
+   "birth": 1529,
+   "death": 1601,
+   "prefix": "porta",
+   "wikidata": "Q1136470",
+   "aliases": [],
+   "pdmx_rows": 19
+  },
+  {
+   "canon": "cristobal de morales",
+   "name": "Cristóbal de Morales",
+   "birth": 1500,
+   "death": 1553,
+   "prefix": "morales",
+   "wikidata": "Q360184",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "cyrillus kreek",
+   "name": "Cyrillus Kreek",
+   "birth": 1889,
+   "death": 1962,
+   "prefix": "kreek",
+   "wikidata": "Q1148829",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "dan emmett",
+   "name": "Dan Emmett",
+   "birth": 1815,
+   "death": 1904,
+   "prefix": "emmett",
+   "wikidata": "Q3602423",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "daniel speer",
+   "name": "Daniel Speer",
+   "birth": 1636,
+   "death": 1707,
+   "prefix": "speer",
+   "wikidata": "Q539915",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "david bowie",
+   "name": "David Bowie",
+   "birth": 1947,
+   "death": 2016,
+   "prefix": "bowie",
+   "wikidata": "Q5383",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "diego ortiz",
+   "name": "Diego Ortiz",
+   "birth": 1510,
+   "death": 1570,
+   "prefix": "ortiz",
+   "wikidata": "Q493773",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "dobri hristov",
+   "name": "Dobri Hristov",
+   "birth": 1875,
+   "death": 1941,
+   "prefix": "hristov",
+   "wikidata": "Q1233402",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "domenico micheli",
+   "name": "Domenico Micheli",
+   "birth": 1540,
+   "death": 1590,
+   "prefix": "micheli",
+   "wikidata": "Q87642969",
+   "aliases": [],
+   "pdmx_rows": 48
+  },
+  {
+   "canon": "douglas guest",
+   "name": "Douglas Guest",
+   "birth": 1916,
+   "death": 1996,
+   "prefix": "guest",
+   "wikidata": "Q5301543",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "duke ellington",
+   "name": "Duke Ellington",
+   "birth": 1899,
+   "death": 1974,
+   "prefix": "ellington",
+   "wikidata": "Q4030",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "eduardo di capua",
+   "name": "Eduardo Di Capua",
+   "birth": 1865,
+   "death": 1917,
+   "prefix": "capua",
+   "wikidata": "Q506089",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "emanuel moor",
+   "name": "Emánuel Moór",
+   "birth": 1863,
+   "death": 1931,
+   "prefix": "moor",
+   "wikidata": "Q324193",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "ennio morricone",
+   "name": "Ennio Morricone",
+   "birth": 1928,
+   "death": 2020,
+   "prefix": "morricone",
+   "wikidata": "Q23848",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "enrico radesca",
+   "name": "Enrico Radesca",
+   "birth": 1570,
+   "death": 1625,
+   "prefix": "radesca",
+   "wikidata": "Q3726016",
+   "aliases": [
+    "enrico radesca di foggia"
+   ],
+   "pdmx_rows": 14
+  },
+  {
+   "canon": "ernesto nazareth",
+   "name": "Ernesto Nazareth",
+   "birth": 1863,
+   "death": 1934,
+   "prefix": "nazareth",
+   "wikidata": "Q1356808",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "fats waller",
+   "name": "Fats Waller",
+   "birth": 1904,
+   "death": 1943,
+   "prefix": "waller",
+   "wikidata": "Q310476",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "felice anerio",
+   "name": "Felice Anerio",
+   "birth": 1560,
+   "death": 1614,
+   "prefix": "anerio",
+   "wikidata": "Q549044",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "ferdinando carulli",
+   "name": "Ferdinando Carulli",
+   "birth": 1770,
+   "death": 1841,
+   "prefix": "carulli",
+   "wikidata": "Q332596",
+   "aliases": [],
+   "pdmx_rows": 12
+  },
+  {
+   "canon": "francesca caccini",
+   "name": "Francesca Caccini",
+   "birth": 1587,
+   "death": 1641,
+   "prefix": "caccini",
+   "wikidata": "Q232035",
+   "aliases": [],
+   "pdmx_rows": 17
+  },
+  {
+   "canon": "francesco corteccia",
+   "name": "Francesco Corteccia",
+   "birth": 1502,
+   "death": 1571,
+   "prefix": "corteccia",
+   "wikidata": "Q1230392",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "francesco della porta",
+   "name": "Francesco della Porta",
+   "birth": 1590,
+   "death": 1666,
+   "prefix": "francescodellaporta",
+   "wikidata": "Q57477543",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "francis cutting",
+   "name": "Francis Cutting",
+   "birth": 1550,
+   "death": 1596,
+   "prefix": "cutting",
+   "wikidata": "Q3404004",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "francis poulenc",
+   "name": "Francis Poulenc",
+   "birth": 1899,
+   "death": 1963,
+   "prefix": "poulenc",
+   "wikidata": "Q191408",
+   "aliases": [],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "francisco guerrero",
+   "name": "Francisco Guerrero",
+   "birth": 1528,
+   "death": 1599,
+   "prefix": "guerrero",
+   "wikidata": "Q470568",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "frank bridge",
+   "name": "Frank Bridge",
+   "birth": 1879,
+   "death": 1941,
+   "prefix": "bridge",
+   "wikidata": "Q366636",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "franz wohlfahrt",
+   "name": "Franz Wohlfahrt",
+   "birth": 1833,
+   "death": 1884,
+   "prefix": "wohlfahrt",
+   "wikidata": "Q439539",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "fritz kreisler",
+   "name": "Fritz Kreisler",
+   "birth": 1875,
+   "death": 1962,
+   "prefix": "kreisler",
+   "wikidata": "Q78517",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "gabriel moreno carrillo",
+   "name": "Gabriel Moreno Carrillo",
+   "birth": 1941,
+   "death": 2019,
+   "prefix": "carrillo",
+   "wikidata": "Q5873478",
+   "aliases": [
+    "gabriel moreno"
+   ],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "galt macdermot",
+   "name": "Galt MacDermot",
+   "birth": 1928,
+   "death": 2018,
+   "prefix": "macdermot",
+   "wikidata": "Q1346345",
+   "aliases": [],
+   "pdmx_rows": 14
+  },
+  {
+   "canon": "gaspar sanz celma",
+   "name": "Gaspar Sanz Celma",
+   "birth": 1640,
+   "death": 1710,
+   "prefix": "celma",
+   "wikidata": "Q440048",
+   "aliases": [
+    "gaspar sanz"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "gaspar van weerbeke",
+   "name": "Gaspar van Weerbeke",
+   "birth": 1445,
+   "death": 1517,
+   "prefix": "weerbeke",
+   "wikidata": "Q729507",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "georges brassens",
+   "name": "Georges Brassens",
+   "birth": 1921,
+   "death": 1981,
+   "prefix": "brassens",
+   "wikidata": "Q449",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "giaches de wert",
+   "name": "Giaches de Wert",
+   "birth": 1535,
+   "death": 1596,
+   "prefix": "wert",
+   "wikidata": "Q591939",
+   "aliases": [],
+   "pdmx_rows": 40
+  },
+  {
+   "canon": "giovanni artusi",
+   "name": "Giovanni Artusi",
+   "birth": 1540,
+   "death": 1613,
+   "prefix": "artusi",
+   "wikidata": "Q725724",
+   "aliases": [
+    "giovanni maria artusi"
+   ],
+   "pdmx_rows": 18
+  },
+  {
+   "canon": "giovanni battista casali",
+   "name": "Giovanni Battista Casali",
+   "birth": 1715,
+   "death": 1792,
+   "prefix": "casali",
+   "wikidata": "Q1525836",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "giovanni battista moscaglia",
+   "name": "Giovanni Battista Moscaglia",
+   "birth": 1550,
+   "death": 1589,
+   "prefix": "moscaglia",
+   "wikidata": "Q60441032",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "giovanni battista mosto",
+   "name": "Giovanni Battista Mosto",
+   "birth": 1550,
+   "death": 1596,
+   "prefix": "mosto",
+   "wikidata": "Q1119331",
+   "aliases": [],
+   "pdmx_rows": 12
+  },
+  {
+   "canon": "giovanni croce",
+   "name": "Giovanni Croce",
+   "birth": 1557,
+   "death": 1609,
+   "prefix": "croce",
+   "wikidata": "Q920564",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "giovanni de macque",
+   "name": "Giovanni de Macque",
+   "birth": 1550,
+   "death": 1614,
+   "prefix": "macque",
+   "wikidata": "Q1403614",
+   "aliases": [],
+   "pdmx_rows": 28
+  },
+  {
+   "canon": "giovanni felice sances",
+   "name": "Giovanni Felice Sances",
+   "birth": 1600,
+   "death": 1679,
+   "prefix": "sances",
+   "wikidata": "Q689539",
+   "aliases": [],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "giovanni gabrieli",
+   "name": "Giovanni Gabrieli",
+   "birth": 1557,
+   "death": 1612,
+   "prefix": "gabrieli",
+   "wikidata": "Q34624",
+   "aliases": [],
+   "pdmx_rows": 17
+  },
+  {
+   "canon": "giovanni ghizzolo",
+   "name": "Giovanni Ghizzolo",
+   "birth": 1580,
+   "death": 1625,
+   "prefix": "ghizzolo",
+   "wikidata": "Q3107205",
+   "aliases": [],
+   "pdmx_rows": 41
+  },
+  {
+   "canon": "giovanni giacomo gastoldi",
+   "name": "Giovanni Giacomo Gastoldi",
+   "birth": 1554,
+   "death": 1609,
+   "prefix": "gastoldi",
+   "wikidata": "Q964231",
+   "aliases": [
+    "giovanni gastoldi"
+   ],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "giovanni maria nanino",
+   "name": "Giovanni Maria Nanino",
+   "birth": 1544,
+   "death": 1607,
+   "prefix": "nanino",
+   "wikidata": "Q706287",
+   "aliases": [],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "giovanni rovetta",
+   "name": "Giovanni Rovetta",
+   "birth": 1596,
+   "death": 1668,
+   "prefix": "rovetta",
+   "wikidata": "Q1526347",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "giulio caccini",
+   "name": "Giulio Caccini",
+   "birth": 1551,
+   "death": 1618,
+   "prefix": "giuliocaccini",
+   "wikidata": "Q215308",
+   "aliases": [],
+   "pdmx_rows": 13
+  },
+  {
+   "canon": "gregorio allegri",
+   "name": "Gregorio Allegri",
+   "birth": 1582,
+   "death": 1652,
+   "prefix": "allegri",
+   "wikidata": "Q216695",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "guillaume costeley",
+   "name": "Guillaume Costeley",
+   "birth": 1531,
+   "death": 1606,
+   "prefix": "costeley",
+   "wikidata": "Q326158",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "guillaume de machaut",
+   "name": "Guillaume de Machaut",
+   "birth": 1300,
+   "death": 1377,
+   "prefix": "machaut",
+   "wikidata": "Q200580",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "halfdan kjerulf",
+   "name": "Halfdan Kjerulf",
+   "birth": 1815,
+   "death": 1868,
+   "prefix": "kjerulf",
+   "wikidata": "Q740077",
+   "aliases": [
+    "halvdan kjerulf"
+   ],
+   "pdmx_rows": 25
+  },
+  {
+   "canon": "hans leo hassler",
+   "name": "Hans Leo Hassler",
+   "birth": 1564,
+   "death": 1612,
+   "prefix": "hassler",
+   "wikidata": "Q164882",
+   "aliases": [],
+   "pdmx_rows": 20
+  },
+  {
+   "canon": "harold arlen",
+   "name": "Harold Arlen",
+   "birth": 1905,
+   "death": 1986,
+   "prefix": "arlen",
+   "wikidata": "Q448644",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "hector berlioz",
+   "name": "Hector Berlioz",
+   "birth": 1803,
+   "death": 1869,
+   "prefix": "berlioz",
+   "wikidata": "Q1151",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "heinrich isaac",
+   "name": "Heinrich Isaac",
+   "birth": 1450,
+   "death": 1517,
+   "prefix": "isaac",
+   "wikidata": "Q316668",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "heinrich wilhelm ernst",
+   "name": "Heinrich Wilhelm Ernst",
+   "birth": 1812,
+   "death": 1865,
+   "prefix": "ernst",
+   "wikidata": "Q528748",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "heitor villa lobos",
+   "name": "Heitor Villa-Lobos",
+   "birth": 1887,
+   "death": 1959,
+   "prefix": "lobos",
+   "wikidata": "Q203514",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "henry lemoine",
+   "name": "Henry Lemoine",
+   "birth": 1786,
+   "death": 1854,
+   "prefix": "lemoine",
+   "wikidata": "Q1606982",
+   "aliases": [],
+   "pdmx_rows": 20
+  },
+  {
+   "canon": "henry mancini",
+   "name": "Henry Mancini",
+   "birth": 1924,
+   "death": 1994,
+   "prefix": "mancini",
+   "wikidata": "Q185928",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "hoagy carmichael",
+   "name": "Hoagy Carmichael",
+   "birth": 1899,
+   "death": 1981,
+   "prefix": "carmichael",
+   "wikidata": "Q460662",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "horace silver",
+   "name": "Horace Silver",
+   "birth": 1928,
+   "death": 2014,
+   "prefix": "silver",
+   "wikidata": "Q365560",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "hubert waelrant",
+   "name": "Hubert Waelrant",
+   "birth": 1517,
+   "death": 1595,
+   "prefix": "waelrant",
+   "wikidata": "Q2664749",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "hugo distler",
+   "name": "Hugo Distler",
+   "birth": 1908,
+   "death": 1942,
+   "prefix": "distler",
+   "wikidata": "Q702366",
+   "aliases": [],
+   "pdmx_rows": 19
+  },
+  {
+   "canon": "ippolito baccusi",
+   "name": "Ippolito Baccusi",
+   "birth": 1540,
+   "death": 1609,
+   "prefix": "baccusi",
+   "wikidata": "Q1493373",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "ivo vento",
+   "name": "Ivo Vento",
+   "birth": 1543,
+   "death": 1575,
+   "prefix": "vento",
+   "wikidata": "Q1675812",
+   "aliases": [
+    "ivo de vento"
+   ],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "ivor gurney",
+   "name": "Ivor Gurney",
+   "birth": 1890,
+   "death": 1937,
+   "prefix": "gurney",
+   "wikidata": "Q323048",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "jacob clemens non papa",
+   "name": "Jacob Clemens non Papa",
+   "birth": 1510,
+   "death": 1555,
+   "prefix": "papa",
+   "wikidata": "Q438090",
+   "aliases": [
+    "jacobus clemens non papa"
+   ],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "jacobus gallus",
+   "name": "Jacobus Gallus",
+   "birth": 1550,
+   "death": 1591,
+   "prefix": "gallus",
+   "wikidata": "Q439813",
+   "aliases": [
+    "jacob handl"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "jacques arcadelt",
+   "name": "Jacques Arcadelt",
+   "birth": 1507,
+   "death": 1568,
+   "prefix": "arcadelt",
+   "wikidata": "Q316402",
+   "aliases": [
+    "jacob arcadelt"
+   ],
+   "pdmx_rows": 31
+  },
+  {
+   "canon": "jacques moderne",
+   "name": "Jacques Moderne",
+   "birth": 1500,
+   "death": 1560,
+   "prefix": "moderne",
+   "wikidata": "Q547935",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "jacquet de berchem",
+   "name": "Jacquet de Berchem",
+   "birth": 1505,
+   "death": 1565,
+   "prefix": "berchem",
+   "wikidata": "Q1413650",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "james hook",
+   "name": "James Hook",
+   "birth": 1746,
+   "death": 1827,
+   "prefix": "hook",
+   "wikidata": "Q614576",
+   "aliases": [],
+   "pdmx_rows": 17
+  },
+  {
+   "canon": "james horner",
+   "name": "James Horner",
+   "birth": 1953,
+   "death": 2015,
+   "prefix": "horner",
+   "wikidata": "Q106221",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "james pierpont",
+   "name": "James Pierpont",
+   "birth": 1822,
+   "death": 1893,
+   "prefix": "pierpont",
+   "wikidata": "Q1344188",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "james scott",
+   "name": "James Scott",
+   "birth": 1885,
+   "death": 1938,
+   "prefix": "scott",
+   "wikidata": "Q1383575",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "james scott skinner",
+   "name": "James Scott Skinner",
+   "birth": 1843,
+   "death": 1927,
+   "prefix": "skinner",
+   "wikidata": "Q1681085",
+   "aliases": [
+    "j scott skinner"
+   ],
+   "pdmx_rows": 72
+  },
+  {
+   "canon": "jan baptist verrijt",
+   "name": "Jan Baptist Verrijt",
+   "birth": 1600,
+   "death": 1650,
+   "prefix": "verrijt",
+   "wikidata": "Q1861227",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "jan tollius",
+   "name": "Jan Tollius",
+   "birth": 1550,
+   "death": 1603,
+   "prefix": "tollius",
+   "wikidata": "Q284127",
+   "aliases": [],
+   "pdmx_rows": 59
+  },
+  {
+   "canon": "jean de castro",
+   "name": "Jean de Castro",
+   "birth": 1540,
+   "death": 1611,
+   "prefix": "castro",
+   "wikidata": "Q3175340",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "jean guyot",
+   "name": "Jean Guyot",
+   "birth": 1512,
+   "death": 1588,
+   "prefix": "guyot",
+   "wikidata": "Q3172456",
+   "aliases": [
+    "johannes castileti"
+   ],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "jean maillard",
+   "name": "Jean Maillard",
+   "birth": 1515,
+   "death": 1572,
+   "prefix": "maillard",
+   "wikidata": "Q3807690",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "jean marie leclair",
+   "name": "Jean-Marie Leclair",
+   "birth": 1697,
+   "death": 1764,
+   "prefix": "leclair",
+   "wikidata": "Q348875",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "jean mouton",
+   "name": "Jean Mouton",
+   "birth": 1459,
+   "death": 1522,
+   "prefix": "mouton",
+   "wikidata": "Q1660965",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "jean richafort",
+   "name": "Jean Richafort",
+   "birth": 1480,
+   "death": 1547,
+   "prefix": "richafort",
+   "wikidata": "Q722322",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "jeremiah clarke",
+   "name": "Jeremiah Clarke",
+   "birth": 1674,
+   "death": 1707,
+   "prefix": "clarke",
+   "wikidata": "Q440020",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "joachim andersen",
+   "name": "Joachim Andersen",
+   "birth": 1847,
+   "death": 1909,
+   "prefix": "andersen",
+   "wikidata": "Q785596",
+   "aliases": [],
+   "pdmx_rows": 18
+  },
+  {
+   "canon": "joaquin turina",
+   "name": "Joaquin Turina",
+   "birth": 1882,
+   "death": 1949,
+   "prefix": "turina",
+   "wikidata": "Q318077",
+   "aliases": [
+    "joaquin turina perez"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "johan halvorsen",
+   "name": "Johan Halvorsen",
+   "birth": 1864,
+   "death": 1935,
+   "prefix": "halvorsen",
+   "wikidata": "Q449172",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "johann hermann schein",
+   "name": "Johann Hermann Schein",
+   "birth": 1586,
+   "death": 1630,
+   "prefix": "schein",
+   "wikidata": "Q57827",
+   "aliases": [],
+   "pdmx_rows": 23
+  },
+  {
+   "canon": "johann hieronymus kapsberger",
+   "name": "Johann Hieronymus Kapsberger",
+   "birth": 1580,
+   "death": 1651,
+   "prefix": "kapsberger",
+   "wikidata": "Q707863",
+   "aliases": [
+    "giovanni girolamo kapsperger"
+   ],
+   "pdmx_rows": 16
+  },
+  {
+   "canon": "johann joseph fux",
+   "name": "Johann Joseph Fux",
+   "birth": 1660,
+   "death": 1741,
+   "prefix": "fux",
+   "wikidata": "Q311378",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "johannes galliculus",
+   "name": "Johannes Galliculus",
+   "birth": 1401,
+   "death": 1550,
+   "prefix": "galliculus",
+   "wikidata": "Q546961",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "johannes ockeghem",
+   "name": "Johannes Ockeghem",
+   "birth": 1410,
+   "death": 1497,
+   "prefix": "ockeghem",
+   "wikidata": "Q143059",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "john bacchus dykes",
+   "name": "John Bacchus Dykes",
+   "birth": 1823,
+   "death": 1876,
+   "prefix": "dykes",
+   "wikidata": "Q3269824",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "john blow",
+   "name": "John Blow",
+   "birth": 1649,
+   "death": 1708,
+   "prefix": "blow",
+   "wikidata": "Q311110",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "john broderip",
+   "name": "John Broderip",
+   "birth": 1719,
+   "death": 1770,
+   "prefix": "broderip",
+   "wikidata": "Q6223293",
+   "aliases": [],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "john coltrane",
+   "name": "John Coltrane",
+   "birth": 1926,
+   "death": 1967,
+   "prefix": "coltrane",
+   "wikidata": "Q7346",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "john crerar",
+   "name": "John Crerar",
+   "birth": 1749,
+   "death": 1840,
+   "prefix": "crerar",
+   "wikidata": "Q6227605",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "john denver",
+   "name": "John Denver",
+   "birth": 1943,
+   "death": 1997,
+   "prefix": "denver",
+   "wikidata": "Q105460",
+   "aliases": [],
+   "pdmx_rows": 9
+  },
+  {
+   "canon": "john francis wade",
+   "name": "John Francis Wade",
+   "birth": 1711,
+   "death": 1786,
+   "prefix": "wade",
+   "wikidata": "Q1335565",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "john gow",
+   "name": "John Gow",
+   "birth": 1764,
+   "death": 1826,
+   "prefix": "johngow",
+   "wikidata": "Q138654835",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "john lennon",
+   "name": "John Lennon",
+   "birth": 1940,
+   "death": 1980,
+   "prefix": "lennon",
+   "wikidata": "Q1203",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "john philip sousa",
+   "name": "John Philip Sousa",
+   "birth": 1854,
+   "death": 1932,
+   "prefix": "sousa",
+   "wikidata": "Q295935",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "john playford",
+   "name": "John Playford",
+   "birth": 1623,
+   "death": 1686,
+   "prefix": "playford",
+   "wikidata": "Q1282455",
+   "aliases": [],
+   "pdmx_rows": 29
+  },
+  {
+   "canon": "john stafford smith",
+   "name": "John Stafford Smith",
+   "birth": 1750,
+   "death": 1836,
+   "prefix": "smith",
+   "wikidata": "Q563098",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "john stainer",
+   "name": "John Stainer",
+   "birth": 1840,
+   "death": 1901,
+   "prefix": "stainer",
+   "wikidata": "Q1388550",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "john wall callcott",
+   "name": "John Wall Callcott",
+   "birth": 1766,
+   "death": 1821,
+   "prefix": "callcott",
+   "wikidata": "Q6262765",
+   "aliases": [],
+   "pdmx_rows": 16
+  },
+  {
+   "canon": "johnny marks",
+   "name": "Johnny Marks",
+   "birth": 1909,
+   "death": 1985,
+   "prefix": "marks",
+   "wikidata": "Q1702357",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "jose de torres",
+   "name": "José de Torres",
+   "birth": 1670,
+   "death": 1738,
+   "prefix": "torres",
+   "wikidata": "Q6294322",
+   "aliases": [
+    "jose de torres y martinez bravo"
+   ],
+   "pdmx_rows": 16
+  },
+  {
+   "canon": "josef rheinberger",
+   "name": "Josef Rheinberger",
+   "birth": 1839,
+   "death": 1901,
+   "prefix": "rheinberger",
+   "wikidata": "Q365555",
+   "aliases": [
+    "joseph rheinberger"
+   ],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "joseph kosma",
+   "name": "Joseph Kosma",
+   "birth": 1905,
+   "death": 1969,
+   "prefix": "kosma",
+   "wikidata": "Q213661",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "joseph kuffner",
+   "name": "Joseph Küffner",
+   "birth": 1776,
+   "death": 1856,
+   "prefix": "kuffner",
+   "wikidata": "Q106000",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "joseph stephenson",
+   "name": "Joseph Stephenson",
+   "birth": 1723,
+   "death": 1810,
+   "prefix": "stephenson",
+   "wikidata": "Q41782936",
+   "aliases": [],
+   "pdmx_rows": 25
+  },
+  {
+   "canon": "juan alais",
+   "name": "Juan Alais",
+   "birth": 1844,
+   "death": 1914,
+   "prefix": "alais",
+   "wikidata": "Q3187546",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "juan bautista alberdi",
+   "name": "Juan Bautista Alberdi",
+   "birth": 1810,
+   "death": 1884,
+   "prefix": "alberdi",
+   "wikidata": "Q722738",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "juan del encina",
+   "name": "Juan del Encina",
+   "birth": 1468,
+   "death": 1529,
+   "prefix": "encina",
+   "wikidata": "Q1191258",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "jule styne",
+   "name": "Jule Styne",
+   "birth": 1905,
+   "death": 1994,
+   "prefix": "styne",
+   "wikidata": "Q587741",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "kenny dorham",
+   "name": "Kenny Dorham",
+   "birth": 1924,
+   "death": 1972,
+   "prefix": "dorham",
+   "wikidata": "Q498729",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "knut hakanson",
+   "name": "Knut Håkanson",
+   "birth": 1887,
+   "death": 1929,
+   "prefix": "hakanson",
+   "wikidata": "Q5819974",
+   "aliases": [],
+   "pdmx_rows": 15
+  },
+  {
+   "canon": "kurt weill",
+   "name": "Kurt Weill",
+   "birth": 1900,
+   "death": 1950,
+   "prefix": "weill",
+   "wikidata": "Q55004",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "lajos bardos",
+   "name": "Lajos Bárdos",
+   "birth": 1899,
+   "death": 1986,
+   "prefix": "bardos",
+   "wikidata": "Q853389",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "lelia naylor morris",
+   "name": "Lelia Naylor Morris",
+   "birth": 1862,
+   "death": 1929,
+   "prefix": "morris",
+   "wikidata": "Q20726592",
+   "aliases": [
+    "mrs c h morris"
+   ],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "lelio bertani",
+   "name": "Lelio Bertani",
+   "birth": 1550,
+   "death": 1624,
+   "prefix": "bertani",
+   "wikidata": "Q55225579",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "leonard bernstein",
+   "name": "Leonard Bernstein",
+   "birth": 1918,
+   "death": 1990,
+   "prefix": "bernstein",
+   "wikidata": "Q152505",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "leonard cohen",
+   "name": "Leonard Cohen",
+   "birth": 1934,
+   "death": 2016,
+   "prefix": "cohen",
+   "wikidata": "Q1276",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "leonard meldert",
+   "name": "Leonard Meldert",
+   "birth": 1535,
+   "death": 1610,
+   "prefix": "meldert",
+   "wikidata": "Q3830307",
+   "aliases": [
+    "leonardo meldert"
+   ],
+   "pdmx_rows": 16
+  },
+  {
+   "canon": "leonhard lechner",
+   "name": "Leonhard Lechner",
+   "birth": 1553,
+   "death": 1606,
+   "prefix": "lechner",
+   "wikidata": "Q683132",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "lili boulanger",
+   "name": "Lili Boulanger",
+   "birth": 1893,
+   "death": 1918,
+   "prefix": "boulanger",
+   "wikidata": "Q230412",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "lodovico agostini",
+   "name": "Lodovico Agostini",
+   "birth": 1534,
+   "death": 1590,
+   "prefix": "agostini",
+   "wikidata": "Q946839",
+   "aliases": [],
+   "pdmx_rows": 25
+  },
+  {
+   "canon": "loreto vittori",
+   "name": "Loreto Vittori",
+   "birth": 1600,
+   "death": 1670,
+   "prefix": "vittori",
+   "wikidata": "Q725197",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "louis chen",
+   "name": "Louis Chen",
+   "birth": 1918,
+   "death": 2010,
+   "prefix": "chen",
+   "wikidata": "Q126595382",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "louis spohr",
+   "name": "Louis Spohr",
+   "birth": 1784,
+   "death": 1859,
+   "prefix": "spohr",
+   "wikidata": "Q57226",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "louis vierne",
+   "name": "Louis Vierne",
+   "birth": 1870,
+   "death": 1937,
+   "prefix": "vierne",
+   "wikidata": "Q299669",
+   "aliases": [],
+   "pdmx_rows": 12
+  },
+  {
+   "canon": "lowell mason",
+   "name": "Lowell Mason",
+   "birth": 1792,
+   "death": 1872,
+   "prefix": "lowellmason",
+   "wikidata": "Q1349257",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "luca marenzio",
+   "name": "Luca Marenzio",
+   "birth": 1553,
+   "death": 1599,
+   "prefix": "marenzio",
+   "wikidata": "Q316532",
+   "aliases": [],
+   "pdmx_rows": 75
+  },
+  {
+   "canon": "ludwig senfl",
+   "name": "Ludwig Senfl",
+   "birth": 1486,
+   "death": 1543,
+   "prefix": "senfl",
+   "wikidata": "Q58008",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "luigi cherubini",
+   "name": "Luigi Cherubini",
+   "birth": 1760,
+   "death": 1842,
+   "prefix": "cherubini",
+   "wikidata": "Q20721",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "luigi legnani",
+   "name": "Luigi Legnani",
+   "birth": 1790,
+   "death": 1877,
+   "prefix": "legnani",
+   "wikidata": "Q1876212",
+   "aliases": [],
+   "pdmx_rows": 16
+  },
+  {
+   "canon": "lupus hellinck",
+   "name": "Lupus Hellinck",
+   "birth": 1493,
+   "death": 1541,
+   "prefix": "hellinck",
+   "wikidata": "Q765254",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "luzzasco luzzaschi",
+   "name": "Luzzasco Luzzaschi",
+   "birth": 1545,
+   "death": 1607,
+   "prefix": "luzzaschi",
+   "wikidata": "Q445581",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "manuel de falla",
+   "name": "Manuel de Falla",
+   "birth": 1876,
+   "death": 1946,
+   "prefix": "falla",
+   "wikidata": "Q193283",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "marc antonio ingegneri",
+   "name": "Marc'Antonio Ingegneri",
+   "birth": 1535,
+   "death": 1592,
+   "prefix": "ingegneri",
+   "wikidata": "Q1995396",
+   "aliases": [
+    "marco antonio ingegneri"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "marcel dupre",
+   "name": "Marcel Dupré",
+   "birth": 1886,
+   "death": 1971,
+   "prefix": "dupre",
+   "wikidata": "Q315879",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "marco da gagliano",
+   "name": "Marco da Gagliano",
+   "birth": 1582,
+   "death": 1643,
+   "prefix": "gagliano",
+   "wikidata": "Q540638",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "marin marais",
+   "name": "Marin Marais",
+   "birth": 1656,
+   "death": 1728,
+   "prefix": "marais",
+   "wikidata": "Q213519",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "martin andreas udbye",
+   "name": "Martin Andreas Udbye",
+   "birth": 1820,
+   "death": 1889,
+   "prefix": "udbye",
+   "wikidata": "Q377392",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "massimo troiano",
+   "name": "Massimo Troiano",
+   "birth": 1600,
+   "death": 1600,
+   "prefix": "troiano",
+   "wikidata": "Q1907732",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "matteo carcassi",
+   "name": "Matteo Carcassi",
+   "birth": 1796,
+   "death": 1853,
+   "prefix": "carcassi",
+   "wikidata": "Q469912",
+   "aliases": [],
+   "pdmx_rows": 13
+  },
+  {
+   "canon": "melchior vulpius",
+   "name": "Melchior Vulpius",
+   "birth": 1570,
+   "death": 1615,
+   "prefix": "vulpius",
+   "wikidata": "Q702277",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "michael altenburg",
+   "name": "Michael Altenburg",
+   "birth": 1584,
+   "death": 1640,
+   "prefix": "altenburg",
+   "wikidata": "Q186258",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "michel pignolet de monteclair",
+   "name": "Michel Pignolet de Montéclair",
+   "birth": 1667,
+   "death": 1737,
+   "prefix": "monteclair",
+   "wikidata": "Q487175",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "miles davis",
+   "name": "Miles Davis",
+   "birth": 1926,
+   "death": 1991,
+   "prefix": "davis",
+   "wikidata": "Q93341",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "mykola leontovych",
+   "name": "Mykola Leontovych",
+   "birth": 1877,
+   "death": 1921,
+   "prefix": "leontovych",
+   "wikidata": "Q467914",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "nathaniel gow",
+   "name": "Nathaniel Gow",
+   "birth": 1763,
+   "death": 1831,
+   "prefix": "gow",
+   "wikidata": "Q6969638",
+   "aliases": [],
+   "pdmx_rows": 111
+  },
+  {
+   "canon": "nicolas gombert",
+   "name": "Nicolas Gombert",
+   "birth": 1495,
+   "death": 1560,
+   "prefix": "gombert",
+   "wikidata": "Q549689",
+   "aliases": [],
+   "pdmx_rows": 32
+  },
+  {
+   "canon": "nino rota",
+   "name": "Nino Rota",
+   "birth": 1911,
+   "death": 1979,
+   "prefix": "rota",
+   "wikidata": "Q214665",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "noe faignient",
+   "name": "Noé Faignient",
+   "birth": 1537,
+   "death": 1578,
+   "prefix": "faignient",
+   "wikidata": "Q2134295",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "ole olsen",
+   "name": "Ole Olsen",
+   "birth": 1850,
+   "death": 1927,
+   "prefix": "olsen",
+   "wikidata": "Q1926647",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "oliver holden",
+   "name": "Oliver Holden",
+   "birth": 1765,
+   "death": 1844,
+   "prefix": "holden",
+   "wikidata": "Q7087602",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "orazio tarditi",
+   "name": "Orazio Tarditi",
+   "birth": 1602,
+   "death": 1677,
+   "prefix": "tarditi",
+   "wikidata": "Q20101901",
+   "aliases": [
+    "horatio tarditi"
+   ],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "orazio vecchi",
+   "name": "Orazio Vecchi",
+   "birth": 1550,
+   "death": 1605,
+   "prefix": "vecchi",
+   "wikidata": "Q84146",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "oscar borg",
+   "name": "Oscar Borg",
+   "birth": 1851,
+   "death": 1930,
+   "prefix": "borg",
+   "wikidata": "Q6419027",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "otto langey",
+   "name": "Otto Langey",
+   "birth": 1851,
+   "death": 1922,
+   "prefix": "langey",
+   "wikidata": "Q15838408",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "otto lindblad",
+   "name": "Otto Lindblad",
+   "birth": 1809,
+   "death": 1864,
+   "prefix": "lindblad",
+   "wikidata": "Q710593",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "pascual roch",
+   "name": "Pascual Roch",
+   "birth": 1860,
+   "death": 1921,
+   "prefix": "roch",
+   "wikidata": "Q112429860",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "paul cooper",
+   "name": "Paul Cooper",
+   "birth": 1926,
+   "death": 1996,
+   "prefix": "cooper",
+   "wikidata": "Q22096025",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "paul rubens",
+   "name": "Paul Rubens",
+   "birth": 1875,
+   "death": 1917,
+   "prefix": "rubens",
+   "wikidata": "Q2402383",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "pavel chesnokov",
+   "name": "Pavel Chesnokov",
+   "birth": 1877,
+   "death": 1944,
+   "prefix": "chesnokov",
+   "wikidata": "Q584391",
+   "aliases": [
+    "pavel tsjesnokov"
+   ],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "percy grainger",
+   "name": "Percy Grainger",
+   "birth": 1882,
+   "death": 1961,
+   "prefix": "grainger",
+   "wikidata": "Q318354",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "peter brynie lindeman",
+   "name": "Peter Brynie Lindeman",
+   "birth": 1858,
+   "death": 1930,
+   "prefix": "lindeman",
+   "wikidata": "Q15127678",
+   "aliases": [
+    "peter lindeman"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "peter milne",
+   "name": "Peter Milne",
+   "birth": 1824,
+   "death": 1908,
+   "prefix": "milne",
+   "wikidata": "Q19517981",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "peter philips",
+   "name": "Peter Philips",
+   "birth": 1560,
+   "death": 1628,
+   "prefix": "philips",
+   "wikidata": "Q1930460",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "philippe de monte",
+   "name": "Philippe de Monte",
+   "birth": 1521,
+   "death": 1603,
+   "prefix": "monte",
+   "wikidata": "Q277029",
+   "aliases": [],
+   "pdmx_rows": 31
+  },
+  {
+   "canon": "piero benedetti",
+   "name": "Piero Benedetti",
+   "birth": 1585,
+   "death": 1649,
+   "prefix": "benedetti",
+   "wikidata": "Q106989081",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "pierre certon",
+   "name": "Pierre Certon",
+   "birth": 1515,
+   "death": 1572,
+   "prefix": "certon",
+   "wikidata": "Q484817",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "pierre de la rue",
+   "name": "Pierre de la Rue",
+   "birth": 1460,
+   "death": 1518,
+   "prefix": "rue",
+   "wikidata": "Q370540",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "pierre de manchicourt",
+   "name": "Pierre de Manchicourt",
+   "birth": 1510,
+   "death": 1564,
+   "prefix": "manchicourt",
+   "wikidata": "Q2132795",
+   "aliases": [],
+   "pdmx_rows": 25
+  },
+  {
+   "canon": "pietro pontio",
+   "name": "Pietro Pontio",
+   "birth": 1535,
+   "death": 1596,
+   "prefix": "pontio",
+   "wikidata": "Q7193022",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "pomponio nenna",
+   "name": "Pomponio Nenna",
+   "birth": 1556,
+   "death": 1608,
+   "prefix": "nenna",
+   "wikidata": "Q3907903",
+   "aliases": [],
+   "pdmx_rows": 24
+  },
+  {
+   "canon": "ralph vaughan williams",
+   "name": "Ralph Vaughan Williams",
+   "birth": 1872,
+   "death": 1958,
+   "prefix": "williams",
+   "wikidata": "Q207947",
+   "aliases": [],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "richard rodgers",
+   "name": "Richard Rodgers",
+   "birth": 1902,
+   "death": 1979,
+   "prefix": "rodgers",
+   "wikidata": "Q269094",
+   "aliases": [],
+   "pdmx_rows": 10
+  },
+  {
+   "canon": "rikard nordraak",
+   "name": "Rikard Nordraak",
+   "birth": 1842,
+   "death": 1866,
+   "prefix": "nordraak",
+   "wikidata": "Q366629",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "robert de visee",
+   "name": "Robert de Visée",
+   "birth": 1652,
+   "death": 1730,
+   "prefix": "visee",
+   "wikidata": "Q580371",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "robert mackintosh",
+   "name": "Robert Mackintosh",
+   "birth": 1745,
+   "death": 1807,
+   "prefix": "mackintosh",
+   "wikidata": "Q15830974",
+   "aliases": [],
+   "pdmx_rows": 23
+  },
+  {
+   "canon": "robert whinham",
+   "name": "Robert Whinham",
+   "birth": 1814,
+   "death": 1893,
+   "prefix": "whinham",
+   "wikidata": "Q7351001",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "rodolphe kreutzer",
+   "name": "Rodolphe Kreutzer",
+   "birth": 1766,
+   "death": 1831,
+   "prefix": "kreutzer",
+   "wikidata": "Q336692",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "roy hargrove",
+   "name": "Roy Hargrove",
+   "birth": 1969,
+   "death": 2018,
+   "prefix": "hargrove",
+   "wikidata": "Q648750",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "ruben gonzalez",
+   "name": "Rubén González",
+   "birth": 1919,
+   "death": 2003,
+   "prefix": "gonzalez",
+   "wikidata": "Q458251",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "ryuichi sakamoto",
+   "name": "Ryuichi Sakamoto",
+   "birth": 1952,
+   "death": 2023,
+   "prefix": "sakamoto",
+   "wikidata": "Q345494",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "samuel arnold",
+   "name": "Samuel Arnold",
+   "birth": 1740,
+   "death": 1802,
+   "prefix": "arnold",
+   "wikidata": "Q1379741",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "samuel scheidt",
+   "name": "Samuel Scheidt",
+   "birth": 1587,
+   "death": 1654,
+   "prefix": "scheidt",
+   "wikidata": "Q169291",
+   "aliases": [],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "sandrin",
+   "name": "Sandrin",
+   "birth": 1490,
+   "death": 1561,
+   "prefix": "sandrin",
+   "wikidata": "Q2015834",
+   "aliases": [
+    "pierre sandrin"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "scan tester",
+   "name": "Scan Tester",
+   "birth": 1886,
+   "death": 1972,
+   "prefix": "tester",
+   "wikidata": "Q7429886",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "sethus calvisius",
+   "name": "Sethus Calvisius",
+   "birth": 1556,
+   "death": 1615,
+   "prefix": "calvisius",
+   "wikidata": "Q65356",
+   "aliases": [
+    "seth calvisius"
+   ],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "sigismondo d india",
+   "name": "Sigismondo d' India",
+   "birth": 1582,
+   "death": 1629,
+   "prefix": "india",
+   "wikidata": "Q457145",
+   "aliases": [],
+   "pdmx_rows": 60
+  },
+  {
+   "canon": "sigurd lie",
+   "name": "Sigurd Lie",
+   "birth": 1871,
+   "death": 1904,
+   "prefix": "lie",
+   "wikidata": "Q1771827",
+   "aliases": [],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "stefano felis",
+   "name": "Stefano Felis",
+   "birth": 1538,
+   "death": 1603,
+   "prefix": "felis",
+   "wikidata": "Q431549",
+   "aliases": [],
+   "pdmx_rows": 14
+  },
+  {
+   "canon": "stephen sondheim",
+   "name": "Stephen Sondheim",
+   "birth": 1930,
+   "death": 2021,
+   "prefix": "sondheim",
+   "wikidata": "Q153579",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "thoinot arbeau",
+   "name": "Thoinot Arbeau",
+   "birth": 1520,
+   "death": 1595,
+   "prefix": "arbeau",
+   "wikidata": "Q919152",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "thomas arne",
+   "name": "Thomas Arne",
+   "birth": 1710,
+   "death": 1778,
+   "prefix": "arne",
+   "wikidata": "Q309709",
+   "aliases": [],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "thomas crecquillon",
+   "name": "Thomas Crecquillon",
+   "birth": 1505,
+   "death": 1557,
+   "prefix": "crecquillon",
+   "wikidata": "Q611169",
+   "aliases": [],
+   "pdmx_rows": 45
+  },
+  {
+   "canon": "thomas hastings",
+   "name": "Thomas Hastings",
+   "birth": 1784,
+   "death": 1872,
+   "prefix": "hastings",
+   "wikidata": "Q5793076",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "thomas jarman",
+   "name": "Thomas Jarman",
+   "birth": 1776,
+   "death": 1861,
+   "prefix": "jarman",
+   "wikidata": "Q62006114",
+   "aliases": [],
+   "pdmx_rows": 17
+  },
+  {
+   "canon": "thomas morley",
+   "name": "Thomas Morley",
+   "birth": 1559,
+   "death": 1602,
+   "prefix": "morley",
+   "wikidata": "Q438141",
+   "aliases": [],
+   "pdmx_rows": 46
+  },
+  {
+   "canon": "thomas ravenscroft",
+   "name": "Thomas Ravenscroft",
+   "birth": 1588,
+   "death": 1635,
+   "prefix": "ravenscroft",
+   "wikidata": "Q634595",
+   "aliases": [],
+   "pdmx_rows": 6
+  },
+  {
+   "canon": "thomas weelkes",
+   "name": "Thomas Weelkes",
+   "birth": 1576,
+   "death": 1623,
+   "prefix": "weelkes",
+   "wikidata": "Q553908",
+   "aliases": [],
+   "pdmx_rows": 25
+  },
+  {
+   "canon": "tiburtio massaino",
+   "name": "Tiburtio Massaino",
+   "birth": 1540,
+   "death": 1610,
+   "prefix": "massaino",
+   "wikidata": "Q7800551",
+   "aliases": [],
+   "pdmx_rows": 87
+  },
+  {
+   "canon": "tomas luis de victoria",
+   "name": "Tomás Luis de Victoria",
+   "birth": 1548,
+   "death": 1611,
+   "prefix": "victoria",
+   "wikidata": "Q215128",
+   "aliases": [],
+   "pdmx_rows": 11
+  },
+  {
+   "canon": "truid aagesen",
+   "name": "Truid Aagesen",
+   "birth": 1593,
+   "death": 1625,
+   "prefix": "aagesen",
+   "wikidata": "Q1152212",
+   "aliases": [
+    "theodorico sistino"
+   ],
+   "pdmx_rows": 7
+  },
+  {
+   "canon": "turlough o carolan",
+   "name": "Turlough O'Carolan",
+   "birth": 1670,
+   "death": 1738,
+   "prefix": "carolan",
+   "wikidata": "Q335838",
+   "aliases": [
+    "turlough carolan"
+   ],
+   "pdmx_rows": 46
+  },
+  {
+   "canon": "vasily kalinnikov",
+   "name": "Vasily Kalinnikov",
+   "birth": 1866,
+   "death": 1901,
+   "prefix": "kalinnikov",
+   "wikidata": "Q368147",
+   "aliases": [
+    "vasili kalinnikov"
+   ],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "viktor kosenko",
+   "name": "Viktor Kosenko",
+   "birth": 1896,
+   "death": 1938,
+   "prefix": "kosenko",
+   "wikidata": "Q4234841",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "walford davies",
+   "name": "Walford Davies",
+   "birth": 1869,
+   "death": 1941,
+   "prefix": "davies",
+   "wikidata": "Q3131948",
+   "aliases": [
+    "henry walford davies"
+   ],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "william batchelder bradbury",
+   "name": "William Batchelder Bradbury",
+   "birth": 1816,
+   "death": 1868,
+   "prefix": "bradbury",
+   "wikidata": "Q322931",
+   "aliases": [
+    "william b bradbury"
+   ],
+   "pdmx_rows": 4
+  },
+  {
+   "canon": "william billings",
+   "name": "William Billings",
+   "birth": 1746,
+   "death": 1800,
+   "prefix": "billings",
+   "wikidata": "Q1348460",
+   "aliases": [],
+   "pdmx_rows": 8
+  },
+  {
+   "canon": "william charles levey",
+   "name": "William Charles Levey",
+   "birth": 1837,
+   "death": 1894,
+   "prefix": "levey",
+   "wikidata": "Q55837489",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "william croft",
+   "name": "William Croft",
+   "birth": 1678,
+   "death": 1727,
+   "prefix": "croft",
+   "wikidata": "Q1236164",
+   "aliases": [],
+   "pdmx_rows": 5
+  },
+  {
+   "canon": "william knapp",
+   "name": "William Knapp",
+   "birth": 1698,
+   "death": 1768,
+   "prefix": "knapp",
+   "wikidata": "Q18531446",
+   "aliases": [],
+   "pdmx_rows": 3
+  },
+  {
+   "canon": "william shield",
+   "name": "William Shield",
+   "birth": 1748,
+   "death": 1829,
+   "prefix": "shield",
+   "wikidata": "Q3568956",
+   "aliases": [],
+   "pdmx_rows": 6
+  }
+ ],
+ "skipped": [
+  {
+   "name": "William Marshall",
+   "why": "ambiguous",
+   "qids": [
+    "Q1724782",
+    "Q18531461",
+    "Q3568810",
+    "Q8015153"
+   ]
+  },
+  {
+   "name": "Alexander Walker",
+   "why": "no death date",
+   "qids": [
+    "Q4720320"
+   ]
+  },
+  {
+   "name": "Thomas Clark",
+   "why": "ambiguous",
+   "qids": [
+    "Q111976780",
+    "Q7788437"
+   ]
+  },
+  {
+   "name": "Tielman Susato",
+   "why": "credit years [1551] vs 1500-1570",
+   "qids": [
+    "Q547783"
+   ]
+  },
+  {
+   "name": "Niel Gow",
+   "why": "ambiguous",
+   "qids": [
+    "Q1531562",
+    "Q19352191"
+   ]
+  },
+  {
+   "name": "Toby Fox",
+   "why": "no death date",
+   "qids": [
+    "Q23919389"
+   ]
+  },
+  {
+   "name": "Francisco Valls",
+   "why": "ambiguous",
+   "qids": [
+    "Q1349459",
+    "Q5867686"
+   ]
+  },
+  {
+   "name": "Koji Kondo",
+   "why": "no death date",
+   "qids": [
+    "Q356782"
+   ]
+  },
+  {
+   "name": "Van Morrison",
+   "why": "no death date",
+   "qids": [
+    "Q272203"
+   ]
+  },
+  {
+   "name": "Nigel Gatherer",
+   "why": "no death date",
+   "qids": [
+    "Q2052928"
+   ]
+  },
+  {
+   "name": "André Vierendeels",
+   "why": "no death date",
+   "qids": [
+    "Q52913075"
+   ]
+  },
+  {
+   "name": "James Brown",
+   "why": "ambiguous",
+   "qids": [
+    "Q109453627",
+    "Q133570982",
+    "Q139481129",
+    "Q139481133",
+    "Q44476131",
+    "Q5950",
+    "Q6131466",
+    "Q635131",
+    "Q975078"
+   ]
+  },
+  {
+   "name": "Ferdinando di Lasso",
+   "why": "ambiguous",
+   "qids": [
+    "Q1406105",
+    "Q14848233"
+   ]
+  },
+  {
+   "name": "Giovanni Stefani",
+   "why": "no death date",
+   "qids": [
+    "Q85951666"
+   ]
+  },
+  {
+   "name": "John Young",
+   "why": "ambiguous",
+   "qids": [
+    "Q1452172",
+    "Q21078942",
+    "Q249865",
+    "Q6245076",
+    "Q6249853",
+    "Q6265201",
+    "Q6265220"
+   ]
+  },
+  {
+   "name": "Neil Gow",
+   "why": "ambiguous",
+   "qids": [
+    "Q1531562",
+    "Q19352191",
+    "Q20621298"
+   ]
+  },
+  {
+   "name": "Henry Playford",
+   "why": "credit years [1686, 1687, 1690, 1695, 1698, 1701, 1702, 1703] vs 1657-1709",
+   "qids": [
+    "Q15512089"
+   ]
+  },
+  {
+   "name": "Nobuo Uematsu",
+   "why": "no death date",
+   "qids": [
+    "Q312327"
+   ]
+  },
+  {
+   "name": "Bernardino Mosto",
+   "why": "no death date",
+   "qids": [
+    "Q110908708"
+   ]
+  },
+  {
+   "name": "James Oswald",
+   "why": "credit years [1750] vs 1710-1769",
+   "qids": [
+    "Q6140679"
+   ]
+  },
+  {
+   "name": "Billie Eilish",
+   "why": "no death date",
+   "qids": [
+    "Q29564107"
+   ]
+  },
+  {
+   "name": "Masato Nakamura",
+   "why": "no death date",
+   "qids": [
+    "Q724016"
+   ]
+  },
+  {
+   "name": "Alan Silvestri",
+   "why": "no death date",
+   "qids": [
+    "Q313537"
+   ]
+  },
+  {
+   "name": "Joe Hisaishi",
+   "why": "no death date",
+   "qids": [
+    "Q275900"
+   ]
+  },
+  {
+   "name": "Hans Zimmer",
+   "why": "no death date",
+   "qids": [
+    "Q76364"
+   ]
+  },
+  {
+   "name": "Alan Menken",
+   "why": "no death date",
+   "qids": [
+    "Q317272"
+   ]
+  },
+  {
+   "name": "James Hill",
+   "why": "ambiguous",
+   "qids": [
+    "Q14949502",
+    "Q18671580",
+    "Q6136056"
+   ]
+  },
+  {
+   "name": "Danny Troob",
+   "why": "no death date",
+   "qids": [
+    "Q5220894"
+   ]
+  },
+  {
+   "name": "Junichi Masuda",
+   "why": "no death date",
+   "qids": [
+    "Q1190425"
+   ]
+  },
+  {
+   "name": "Sam Anderson",
+   "why": "no death date",
+   "qids": [
+    "Q7408193"
+   ]
+  },
+  {
+   "name": "Franz Gruber",
+   "why": "ambiguous",
+   "qids": [
+    "Q32558615",
+    "Q513185",
+    "Q94864541"
+   ]
+  },
+  {
+   "name": "Ed Sheeran",
+   "why": "no death date",
+   "qids": [
+    "Q47447"
+   ]
+  },
+  {
+   "name": "Murray Gold",
+   "why": "no death date",
+   "qids": [
+    "Q957357"
+   ]
+  },
+  {
+   "name": "Shoji Meguro",
+   "why": "no death date",
+   "qids": [
+    "Q1082896"
+   ]
+  },
+  {
+   "name": "Akira Senju",
+   "why": "no death date",
+   "qids": [
+    "Q1139702"
+   ]
+  },
+  {
+   "name": "Robert Burns",
+   "why": "ambiguous",
+   "qids": [
+    "Q1375663",
+    "Q16185280",
+    "Q3312145",
+    "Q81960",
+    "Q887831"
+   ]
+  },
+  {
+   "name": "Stevie Wonder",
+   "why": "no death date",
+   "qids": [
+    "Q714"
+   ]
+  },
+  {
+   "name": "Jeremy Soule",
+   "why": "no death date",
+   "qids": [
+    "Q466213"
+   ]
+  },
+  {
+   "name": "Lewis Capaldi",
+   "why": "no death date",
+   "qids": [
+    "Q42315001"
+   ]
+  },
+  {
+   "name": "Yoko Shimomura",
+   "why": "no death date",
+   "qids": [
+    "Q1073854"
+   ]
+  },
+  {
+   "name": "Philippe Verdelot",
+   "why": "credit years [1485, 1530] vs None-1552",
+   "qids": [
+    "Q714219"
+   ]
+  },
+  {
+   "name": "Michael Giacchino",
+   "why": "no death date",
+   "qids": [
+    "Q155124"
+   ]
+  },
+  {
+   "name": "John Pringle",
+   "why": "no death date",
+   "qids": [
+    "Q6253443"
+   ]
+  },
+  {
+   "name": "Ramin Djawadi",
+   "why": "no death date",
+   "qids": [
+    "Q57577"
+   ]
+  },
+  {
+   "name": "John Lowe",
+   "why": "credit years [1815] vs 1942-2024",
+   "qids": [
+    "Q6245412"
+   ]
+  },
+  {
+   "name": "Rebecca Sugar",
+   "why": "no death date",
+   "qids": [
+    "Q12569944"
+   ]
+  },
+  {
+   "name": "Charles Dibdin",
+   "why": "ambiguous",
+   "qids": [
+    "Q1064116",
+    "Q5076847"
+   ]
+  },
+  {
+   "name": "Kazumi Totaka",
+   "why": "no death date",
+   "qids": [
+    "Q1371555"
+   ]
+  },
+  {
+   "name": "Martin Luther",
+   "why": "ambiguous",
+   "qids": [
+    "Q6776086",
+    "Q9554"
+   ]
+  },
+  {
+   "name": "John Hughes",
+   "why": "ambiguous",
+   "qids": [
+    "Q131400362",
+    "Q141438187",
+    "Q15453135",
+    "Q17309161",
+    "Q17309163",
+    "Q20733450",
+    "Q20804718",
+    "Q20821430",
+    "Q6240287"
+   ]
+  },
+  {
+   "name": "John Fawcett",
+   "why": "ambiguous",
+   "qids": [
+    "Q13522473",
+    "Q3364547",
+    "Q6232822"
+   ]
+  },
+  {
+   "name": "Danny Elfman",
+   "why": "no death date",
+   "qids": [
+    "Q193338"
+   ]
+  },
+  {
+   "name": "Irving Berlin",
+   "why": "credit years [1912, 1913, 1918] vs 1888-1989",
+   "qids": [
+    "Q128746"
+   ]
+  },
+  {
+   "name": "John Smith",
+   "why": "ambiguous",
+   "qids": [
+    "Q114708298",
+    "Q18546641",
+    "Q44410",
+    "Q6619429",
+    "Q66732657"
+   ]
+  },
+  {
+   "name": "Robert White",
+   "why": "ambiguous",
+   "qids": [
+    "Q1998583",
+    "Q21598417",
+    "Q7351010"
+   ]
+  },
+  {
+   "name": "George Jenkins",
+   "why": "credit years [1806] vs 1911-1967",
+   "qids": [
+    "Q30102258"
+   ]
+  },
+  {
+   "name": "Chris Hülsbeck",
+   "why": "no death date",
+   "qids": [
+    "Q64712"
+   ]
+  },
+  {
+   "name": "John Rutter",
+   "why": "no death date",
+   "qids": [
+    "Q505614"
+   ]
+  },
+  {
+   "name": "Daniel Dow",
+   "why": "credit years [1773, 1776] vs 1732-1783",
+   "qids": [
+    "Q5216992"
+   ]
+  },
+  {
+   "name": "Yasunori Mitsuda",
+   "why": "no death date",
+   "qids": [
+    "Q369806"
+   ]
+  },
+  {
+   "name": "Mahito Yokota",
+   "why": "no death date",
+   "qids": [
+    "Q506255"
+   ]
+  },
+  {
+   "name": "Christopher Larkin",
+   "why": "ambiguous",
+   "qids": [
+    "Q17385757",
+    "Q86921446"
+   ]
+  },
+  {
+   "name": "John Williams",
+   "why": "ambiguous",
+   "qids": [
+    "Q131285",
+    "Q13129355",
+    "Q139586772",
+    "Q15429336",
+    "Q1702181",
+    "Q1702434",
+    "Q1702438",
+    "Q20733681",
+    "Q20821181",
+    "Q20821185",
+    "Q2333172",
+    "Q28361531",
+    "Q28361534",
+    "Q28361542",
+    "Q370293",
+    "Q6248062",
+    "Q86579375",
+    "Q921945"
+   ]
+  },
+  {
+   "name": "Arthur S. Sullivan",
+   "why": "credit years [1872] vs 1842-1900",
+   "qids": [
+    "Q212692"
+   ]
+  },
+  {
+   "name": "William Christie",
+   "why": "no death date",
+   "qids": [
+    "Q376588"
+   ]
+  },
+  {
+   "name": "John Johnson",
+   "why": "ambiguous",
+   "qids": [
+    "Q6106988",
+    "Q6241938",
+    "Q722109"
+   ]
+  },
+  {
+   "name": "Billy Joel",
+   "why": "no death date",
+   "qids": [
+    "Q194333"
+   ]
+  },
+  {
+   "name": "Andrew Lloyd Webber",
+   "why": "no death date",
+   "qids": [
+    "Q180975"
+   ]
+  },
+  {
+   "name": "Tobias Hume",
+   "why": "credit years [1605] vs 1569-1645",
+   "qids": [
+    "Q938499"
+   ]
+  },
+  {
+   "name": "Blake Neely",
+   "why": "no death date",
+   "qids": [
+    "Q881273"
+   ]
+  },
+  {
+   "name": "Masashi Hamauzu",
+   "why": "no death date",
+   "qids": [
+    "Q719149"
+   ]
+  },
+  {
+   "name": "John Jenkins",
+   "why": "ambiguous",
+   "qids": [
+    "Q1509098",
+    "Q357588"
+   ]
+  },
+  {
+   "name": "Yoko Kanno",
+   "why": "no death date",
+   "qids": [
+    "Q224981"
+   ]
+  },
+  {
+   "name": "Herbie Hancock",
+   "why": "no death date",
+   "qids": [
+    "Q105875"
+   ]
+  },
+  {
+   "name": "John Powell",
+   "why": "ambiguous",
+   "qids": [
+    "Q107910181",
+    "Q112458981",
+    "Q1701459",
+    "Q313540"
+   ]
+  },
+  {
+   "name": "John Legend",
+   "why": "no death date",
+   "qids": [
+    "Q44857"
+   ]
+  },
+  {
+   "name": "John Arnold",
+   "why": "ambiguous",
+   "qids": [
+    "Q21039184",
+    "Q28070929"
+   ]
+  },
+  {
+   "name": "Yugo Kanno",
+   "why": "no death date",
+   "qids": [
+    "Q3573298"
+   ]
+  },
+  {
+   "name": "Elton John",
+   "why": "no death date",
+   "qids": [
+    "Q2808"
+   ]
+  },
+  {
+   "name": "Claude Joseph Rouget de Lisle",
+   "why": "credit years [1792] vs 1760-1836",
+   "qids": [
+    "Q207660"
+   ]
+  },
+  {
+   "name": "Kerry Mills",
+   "why": "credit years [1899, 1900] vs 1869-1948",
+   "qids": [
+    "Q1274305"
+   ]
+  },
+  {
+   "name": "Franz Xaver Gruber",
+   "why": "ambiguous",
+   "qids": [
+    "Q1449619",
+    "Q513185",
+    "Q94792625"
+   ]
+  },
+  {
+   "name": "Henry Clay Work",
+   "why": "credit years [1865, 1876] vs 1832-1884",
+   "qids": [
+    "Q3025798"
+   ]
+  },
+  {
+   "name": "Alexandre Desplat",
+   "why": "no death date",
+   "qids": [
+    "Q313362"
+   ]
+  },
+  {
+   "name": "Johann Walter",
+   "why": "ambiguous",
+   "qids": [
+    "Q17130904",
+    "Q702924",
+    "Q94936027"
+   ]
+  },
+  {
+   "name": "William Martin",
+   "why": "ambiguous",
+   "qids": [
+    "Q104649232",
+    "Q8015187"
+   ]
+  },
+  {
+   "name": "James Leach",
+   "why": "ambiguous",
+   "qids": [
+    "Q100982200",
+    "Q109856737",
+    "Q16859364",
+    "Q99678195"
+   ]
+  },
+  {
+   "name": "Hiroyuki Sawano",
+   "why": "no death date",
+   "qids": [
+    "Q2603945"
+   ]
+  },
+  {
+   "name": "Johannes Lupi",
+   "why": "ambiguous",
+   "qids": [
+    "Q2390385",
+    "Q97597208"
+   ]
+  },
+  {
+   "name": "Karl Jenkins",
+   "why": "ambiguous",
+   "qids": [
+    "Q333168",
+    "Q5272348"
+   ]
+  },
+  {
+   "name": "Daniel Ingram",
+   "why": "no death date",
+   "qids": [
+    "Q5217578"
+   ]
+  },
+  {
+   "name": "Sir John Stainer",
+   "why": "ambiguous",
+   "qids": [
+    "Q105071144",
+    "Q1388550"
+   ]
+  },
+  {
+   "name": "Giovanni Battista Martini",
+   "why": "ambiguous",
+   "qids": [
+    "Q217435",
+    "Q283651"
+   ]
+  },
+  {
+   "name": "Salvatore Gambardella",
+   "why": "credit years [1893] vs 1871-1913",
+   "qids": [
+    "Q3946068"
+   ]
+  },
+  {
+   "name": "Yuki Kajiura",
+   "why": "no death date",
+   "qids": [
+    "Q132433"
+   ]
+  },
+  {
+   "name": "John Bowie",
+   "why": "credit years [1789] vs None-1815",
+   "qids": [
+    "Q6222681"
+   ]
+  },
+  {
+   "name": "Paul Simon",
+   "why": "no death date",
+   "qids": [
+    "Q4028"
+   ]
+  },
+  {
+   "name": "Philip Glass",
+   "why": "no death date",
+   "qids": [
+    "Q189729"
+   ]
+  },
+  {
+   "name": "Ariana Grande",
+   "why": "no death date",
+   "qids": [
+    "Q151892"
+   ]
+  },
+  {
+   "name": "John Valentine",
+   "why": "ambiguous",
+   "qids": [
+    "Q113579691",
+    "Q6261721"
+   ]
+  },
+  {
+   "name": "Mariah Carey",
+   "why": "no death date",
+   "qids": [
+    "Q41076"
+   ]
+  },
+  {
+   "name": "James Buckley",
+   "why": "no death date",
+   "qids": [
+    "Q6130454"
+   ]
+  },
+  {
+   "name": "William Bennett",
+   "why": "ambiguous",
+   "qids": [
+    "Q20797564",
+    "Q56244390",
+    "Q590301",
+    "Q8005408"
+   ]
+  },
+  {
+   "name": "John Farmer",
+   "why": "ambiguous",
+   "qids": [
+    "Q1335446",
+    "Q510683"
+   ]
+  },
+  {
+   "name": "Nicholas Hooper",
+   "why": "no death date",
+   "qids": [
+    "Q521288"
+   ]
+  },
+  {
+   "name": "Ludovico Einaudi",
+   "why": "no death date",
+   "qids": [
+    "Q83182"
+   ]
+  },
+  {
+   "name": "Adam Guettel",
+   "why": "no death date",
+   "qids": [
+    "Q4679169"
+   ]
+  },
+  {
+   "name": "Michiru Yamane",
+   "why": "no death date",
+   "qids": [
+    "Q2698275"
+   ]
+  },
+  {
+   "name": "Allan MacDonald",
+   "why": "ambiguous",
+   "qids": [
+    "Q20615478",
+    "Q28047603"
+   ]
+  },
+  {
+   "name": "Melanie Martinez",
+   "why": "ambiguous",
+   "qids": [
+    "Q16211162",
+    "Q6811312"
+   ]
+  },
+  {
+   "name": "Anne Dudley",
+   "why": "no death date",
+   "qids": [
+    "Q273502"
+   ]
+  },
+  {
+   "name": "John Wallace",
+   "why": "ambiguous",
+   "qids": [
+    "Q57941720",
+    "Q6223637",
+    "Q6228353",
+    "Q6262780",
+    "Q6262782"
+   ]
+  },
+  {
+   "name": "Jorge Rojas",
+   "why": "no death date",
+   "qids": [
+    "Q5935950"
+   ]
+  },
+  {
+   "name": "Bobby McFerrin",
+   "why": "no death date",
+   "qids": [
+    "Q310894"
+   ]
+  },
+  {
+   "name": "William Reeve",
+   "why": "credit years [1791] vs 1757-1815",
+   "qids": [
+    "Q8017451"
+   ]
+  },
+  {
+   "name": "Jeremy Zuckerman",
+   "why": "no death date",
+   "qids": [
+    "Q3247705"
+   ]
+  },
+  {
+   "name": "Ernesto De Curtis",
+   "why": "credit years [1902] vs 1875-1937",
+   "qids": [
+    "Q1356854"
+   ]
+  },
+  {
+   "name": "Brian Tyler",
+   "why": "no death date",
+   "qids": [
+    "Q251144"
+   ]
+  },
+  {
+   "name": "Cecil Macklin",
+   "why": "credit years [1911] vs 1883-1944",
+   "qids": [
+    "Q109884987"
+   ]
+  },
+  {
+   "name": "Kristofer Maddigan",
+   "why": "no death date",
+   "qids": [
+    "Q92274151"
+   ]
+  },
+  {
+   "name": "Takanashi Yasuharu",
+   "why": "no death date",
+   "qids": [
+    "Q941314"
+   ]
+  },
+  {
+   "name": "George William Warren",
+   "why": "credit years [1892] vs 1828-1902",
+   "qids": [
+    "Q20726537"
+   ]
+  },
+  {
+   "name": "Bon Jovi",
+   "why": "no death date",
+   "qids": [
+    "Q150916"
+   ]
+  },
+  {
+   "name": "Grant Kirkhope",
+   "why": "no death date",
+   "qids": [
+    "Q1818767"
+   ]
+  },
+  {
+   "name": "Samuel Howard",
+   "why": "credit years [1744] vs 1710-1782",
+   "qids": [
+    "Q18672293"
+   ]
+  },
+  {
+   "name": "José Feliciano",
+   "why": "no death date",
+   "qids": [
+    "Q315784"
+   ]
+  },
+  {
+   "name": "Neil Diamond",
+   "why": "no death date",
+   "qids": [
+    "Q294531"
+   ]
+  },
+  {
+   "name": "Henry C. Work",
+   "why": "credit years [1865, 1870] vs 1832-1884",
+   "qids": [
+    "Q3025798"
+   ]
+  },
+  {
+   "name": "Borislav Slavov",
+   "why": "no death date",
+   "qids": [
+    "Q4422978"
+   ]
+  },
+  {
+   "name": "Keith Jarrett",
+   "why": "no death date",
+   "qids": [
+    "Q207034"
+   ]
+  },
+  {
+   "name": "Steven Verhelst",
+   "why": "no death date",
+   "qids": [
+    "Q2537314"
+   ]
+  },
+  {
+   "name": "Christopher Tin",
+   "why": "no death date",
+   "qids": [
+    "Q1087016"
+   ]
+  },
+  {
+   "name": "Taku Iwasaki",
+   "why": "no death date",
+   "qids": [
+    "Q1341491"
+   ]
+  },
+  {
+   "name": "Laura Shigihara",
+   "why": "no death date",
+   "qids": [
+    "Q512791"
+   ]
+  },
+  {
+   "name": "Howard Shore",
+   "why": "no death date",
+   "qids": [
+    "Q207773"
+   ]
+  },
+  {
+   "name": "Vienna Teng",
+   "why": "no death date",
+   "qids": [
+    "Q453390"
+   ]
+  },
+  {
+   "name": "Alessandro Striggio",
+   "why": "ambiguous",
+   "qids": [
+    "Q1334439",
+    "Q1377115"
+   ]
+  },
+  {
+   "name": "Malcolm MacDonald",
+   "why": "ambiguous",
+   "qids": [
+    "Q3876039",
+    "Q6742453"
+   ]
+  },
+  {
+   "name": "Claude Goudimel",
+   "why": "credit years [1568] vs 1505-1572",
+   "qids": [
+    "Q497713"
+   ]
+  },
+  {
+   "name": "Hieronymus Praetorius",
+   "why": "ambiguous",
+   "qids": [
+    "Q125193",
+    "Q565543"
+   ]
+  },
+  {
+   "name": "Camila Cabello",
+   "why": "no death date",
+   "qids": [
+    "Q18810940"
+   ]
+  },
+  {
+   "name": "Peter Cornelius",
+   "why": "ambiguous",
+   "qids": [
+    "Q3366296",
+    "Q459443",
+    "Q57257"
+   ]
+  },
+  {
+   "name": "Ryo Nagamatsu",
+   "why": "no death date",
+   "qids": [
+    "Q11550112"
+   ]
+  },
+  {
+   "name": "Thomas Moore",
+   "why": "ambiguous",
+   "qids": [
+    "Q18735151",
+    "Q315346",
+    "Q981857"
+   ]
+  },
+  {
+   "name": "Andrew Prahlow",
+   "why": "no death date",
+   "qids": [
+    "Q115915569"
+   ]
+  },
+  {
+   "name": "Christopher Tye",
+   "why": "credit years [1533] vs 1505-1573",
+   "qids": [
+    "Q1087040"
+   ]
+  },
+  {
+   "name": "Akira Yamaoka",
+   "why": "no death date",
+   "qids": [
+    "Q315850"
+   ]
+  },
+  {
+   "name": "Frederik Wiedmann",
+   "why": "no death date",
+   "qids": [
+    "Q97308"
+   ]
+  },
+  {
+   "name": "Mariano Garau",
+   "why": "no death date",
+   "qids": [
+    "Q14527697"
+   ]
+  },
+  {
+   "name": "Shawn Mendes",
+   "why": "no death date",
+   "qids": [
+    "Q17198340"
+   ]
+  },
+  {
+   "name": "James MacDonald",
+   "why": "ambiguous",
+   "qids": [
+    "Q2739967",
+    "Q60499506"
+   ]
+  },
+  {
+   "name": "Gilberto Gil",
+   "why": "no death date",
+   "qids": [
+    "Q221479"
+   ]
+  },
+  {
+   "name": "Jean Courtois",
+   "why": "no death date",
+   "qids": [
+    "Q18206098"
+   ]
+  },
+  {
+   "name": "Ray Charles",
+   "why": "ambiguous",
+   "qids": [
+    "Q544387",
+    "Q7297319"
+   ]
+  },
+  {
+   "name": "Euday L. Bowman",
+   "why": "credit years [1914] vs 1887-1949",
+   "qids": [
+    "Q3059496"
+   ]
+  },
+  {
+   "name": "John Mason",
+   "why": "Wikidata hit is the English hymn writer (1646-1694); PDMX credits are 19th-century Scottish fiddle tunes (Wild Rose of the Mountain).",
+   "qids": [
+    "Q6247069"
+   ]
+  }
+ ]
+}

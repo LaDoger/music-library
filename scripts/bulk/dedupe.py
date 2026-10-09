@@ -68,6 +68,8 @@ def composer_variants(name: str) -> list[str]:
     folded = re.sub(r"\([^)]*\)", " ", name or "").strip()
     parts = [p for p in re.split(r"\s+", folded) if p]
     out = {folded}
+    if folded.lower() == "traditional":
+        out.add("Traditional music")  # PDMX folk uploads: "Traditional music - Glencoe March"
     if len(parts) >= 2:
         out.add(parts[-1])
         out.add(" ".join(parts[-2:]))
@@ -253,7 +255,8 @@ def quality(row: dict, fp: dict) -> tuple:
     rating = float((re.search(r"rating=([0-9.]+)", pop) or [0, 0])[1] or 0)
     ratings = float((re.search(r"ratings=([0-9.]+)", pop) or [0, 0])[1] or 0)
     title = row.get("title") or ""
-    messy = int(bool(re.search(r"[_#*]|\b(?:wip|test|easy|simplified|arr)\b|^[a-z]", title, re.I)))
+    messy = int(bool(re.search(r"[_#*]|\b(?:wip|test|easy|simplified|arr)\b|^[a-z]", title, re.I)
+                     or re.search(r"Ã|Â|(?<=[a-z])Ì|[\x80-\x9f]|[åäèæç]{3}", title)))  # mojibake: "SolfeÌge", "ååèäº"
     return (source_tier(row), messy, -min(len(fp.get(row["id"], [])), 2 * N_INTERVALS) // 32,
             -_midi_size(row) // 4000, -(rating * min(ratings, 20)), len(title), row["id"])
 

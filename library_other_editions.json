@@ -1,4 +1,29 @@
 {
+ "adam_o_holy_night": [
+  {
+   "id": "adam_s2015_o_holy_night_piano_vocal_arr",
+   "source": "pdmx",
+   "title": "O Holy Night (Piano/Vocal Arr.)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "adam_adolphe_adam_o_holy_night",
+   "source": "pdmx",
+   "title": "O Holy Night",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "adam_o_noite_santa_piano_orgao_e": [
+  {
+   "id": "adam_oh_holy_night",
+   "source": "pdmx",
+   "title": "Oh Holy Night",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "alkan_op10no1_concerto_da_camera_no_1": [
   {
    "id": "alkan_op10no1_concerto_da_camera_no_1b2",
@@ -33,6 +58,22 @@
    "title": "Prelude No 24",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  }
+ ],
+ "allegri_miserere_mei_deus_gregorio_a": [
+  {
+   "id": "allegri_miserere_mei_deusb2",
+   "source": "pdmx",
+   "title": "Miserere mei Deus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "allegri_gregorio_allegri_miserere_me",
+   "source": "pdmx",
+   "title": "Miserere mei Deus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "anonymous_alleluia_the_bridegroom_come": [
@@ -544,6 +585,52 @@
    "licence": "CC0"
   }
  ],
+ "arbeau_pavane_belle_qui_tiens_ma_vi": [
+  {
+   "id": "arbeau_thoinot_arbeau_belle_qui_tie",
+   "source": "pdmx",
+   "title": "Belle qui tiens ma vie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "arbeau_belle_qui_tiens_ma_vie",
+   "source": "pdmx",
+   "title": "Belle qui tiens ma vie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "arbeau_belle_qui_tiens_ma_vie_pavanb51",
+   "source": "pdmx",
+   "title": "Belle qui tiens ma vie (pavane)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "arcadelt_ave_maria_arcadelt_satb": [
+  {
+   "id": "arcadelt_ave_maria_j_arcadelt",
+   "source": "pdmx",
+   "title": "Ave Maria (J.Arcadelt)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "arcadelt_ave_mariab2",
+   "source": "pdmx",
+   "title": "Ave Maria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "arcadelt_a_v_e_m_a_r_i_a_4voci",
+   "source": "pdmx",
+   "title": "A V E M a R I a 4voci",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "arne_rule_britannia": [
   {
    "id": "unknown_o1414_rule_britannia",
@@ -551,6 +638,13 @@
    "title": "Rule Britannia",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=574",
    "licence": "PD"
+  },
+  {
+   "id": "arne_rule_britanniab2",
+   "source": "pdmx",
+   "title": "Rule Britannia!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "ascarlatti_exultate_deo_a_scarlatti_sat": [
@@ -3317,7 +3411,14 @@
    "licence": "PD"
   }
  ],
- "beethoven_op107no3_air_from_little_russia": [
+ "beethoven_op107no3_russian_folk_song_op_107_no": [
+  {
+   "id": "beethoven_op107no3_air_from_little_russia",
+   "source": "pdmx",
+   "title": "Air from 'little Russia'",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
   {
    "id": "beethoven_op107no3_air_from_little_russiab2",
    "source": "pdmx",
@@ -3996,6 +4097,15 @@
    "id": "beethoven_woo86_ludwig_van_beethoven_ecossaib2",
    "source": "pdmx",
    "title": "\\'Ecossaise",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "billings_wareham_william_billings": [
+  {
+   "id": "billings_wareham_billings_william_bil",
+   "source": "pdmx",
+   "title": "Wareham",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -5254,6 +5364,65 @@
    "licence": "PD"
   }
  ],
+ "calvisius_calvisius_veni_sancte_spirit": [
+  {
+   "id": "calvisius_veni_sancte_spiritus_sethus",
+   "source": "pdmx",
+   "title": "Veni sancte spiritus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "carolan_carolan_s_air_am": [
+  {
+   "id": "carolan_o_carolan_s_welcome",
+   "source": "pdmx",
+   "title": "Welcome",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "carolan_carolan_s_welcome",
+   "source": "pdmx",
+   "title": "Carolan's Welcome",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "carolan_si_beag_si_mor": [
+  {
+   "id": "carolan_sheebeg_and_sheemoreb2",
+   "source": "pdmx",
+   "title": "Sheebeg and Sheemore",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "carolan_turlough_carolan_si_bheag_si": [
+  {
+   "id": "carolan_sheebeg_and_sheemore_si_bheg",
+   "source": "pdmx",
+   "title": "Sheebeg and Sheemore (si'bheg and si'mhor)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "certon_la_la_la_je_ne_lose_dire_1": [
+  {
+   "id": "certon_la_la_la_je_ne_l_ose_dire_pi",
+   "source": "pdmx",
+   "title": "La la la je ne l'ose dire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "certon_je_ne_l_ose_dire_pierre_cert",
+   "source": "pdmx",
+   "title": "Je ne l'ose dire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "chabrier_l_invitation_au_voyage_emman": [
   {
    "id": "chabrier_l_invitation_au_voyage_emmanb2",
@@ -6131,6 +6300,15 @@
    "id": "chopin_frederic_francois_chopin_s_wb2",
    "source": "pdmx",
    "title": "Frédéric François Chopin's Warschauer Mazurka (Harp Version)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "clarke_jeremiah_clarke_trumpet_volu": [
+  {
+   "id": "clarke_trumpet_voluntaryb2",
+   "source": "pdmx",
+   "title": "Trumpet Voluntary",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -8060,6 +8238,15 @@
    "licence": "CC0"
   }
  ],
+ "dykes_with_broken_heart_and_contri": [
+  {
+   "id": "dykes_lord_hear_my_pray_r_and_let",
+   "source": "pdmx",
+   "title": "Lord hear my pray'r and let me cry (Psalm 102) to St. Cross (LM)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "faure_cantique_de_jean_racine_gabr": [
   {
    "id": "faure_cantique_de_jean_racine_gabrb2",
@@ -8681,6 +8868,15 @@
    "title": "Partita_'Der_Naseweise_Orgelprobierer'",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "gastoldi_la_sirena_for_3_part_recorde": [
+  {
+   "id": "gastoldi_la_sirena_giovanni_gastoldi",
+   "source": "pdmx",
+   "title": "La sirena - Giovanni Gastoldi",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "gesualdo_a_voi_mentre_il_mio_core_car": [
@@ -9647,6 +9843,15 @@
    "licence": "CC0"
   }
  ],
+ "glinka_glinka_the_lark_from_a_farew": [
+  {
+   "id": "glinka_mikhail_glinka_mily_balakire",
+   "source": "pdmx",
+   "title": "Mily Balakirev: The Lark",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "gottschalk_le_bananier_chiptune": [
   {
    "id": "gottschalk_le_bananier_chiptuneb2",
@@ -9924,6 +10129,42 @@
    "id": "gounod_virgo_singularis_charles_goub2",
    "source": "pdmx",
    "title": "Virgo Singularis",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "gow_nathaniel_gow_ardrossan_cana": [
+  {
+   "id": "gow_nathaniel_gow_the_ardrossan",
+   "source": "pdmx",
+   "title": "The Ardrossan Canal",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "gow_nathaniel_gow_gow_s_quickste": [
+  {
+   "id": "gow_nathaniel_gow_it_s_just_for",
+   "source": "pdmx",
+   "title": "It's Just for Fun",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "gow_nathaniel_gow_neil_gow_s_fid": [
+  {
+   "id": "gow_nathaniel_gow_niel_gow_s_fid",
+   "source": "pdmx",
+   "title": "Niel Gow's Fiddle",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "gow_nathaniel_gow_up_in_the_air": [
+  {
+   "id": "gow_nathaniel_gow_sir_george_cle",
+   "source": "pdmx",
+   "title": "Sir George Clerk of Pennycuik",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -10337,6 +10578,22 @@
    "licence": "CC0"
   }
  ],
+ "handel_775_joy_to_the_world_multi": [
+  {
+   "id": "handel_joy_to_the_world_satbb2",
+   "source": "pdmx",
+   "title": "Joy to the World (SATB)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "handel_joy_to_the_world_satbb3",
+   "source": "pdmx",
+   "title": "Joy to the World (SATB)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "handel_adagio_and_allegro": [
   {
    "id": "handel_adagio_and_allegrob2",
@@ -10442,6 +10699,15 @@
    "licence": "CC0"
   }
  ],
+ "handel_from_the_aylesford_piecesb6": [
+  {
+   "id": "handel_impertinence",
+   "source": "pdmx",
+   "title": "Impertinence",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "handel_hallelujah_chorus": [
   {
    "id": "handel_hallelujah_chorusb2",
@@ -10449,6 +10715,20 @@
    "title": "Hallelujah Chorus",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "handel_aaeaoaaa",
+   "source": "pdmx",
+   "title": "ååèäºååå",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "handel_hallelujah_george_frideric_h",
+   "source": "pdmx",
+   "title": "Hallelujah",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "handel_handel_fugue_no_1_in_g_minor": [
@@ -10469,6 +10749,15 @@
    "licence": "PD"
   }
  ],
+ "handel_handel_s_clarinet_2parts_tly": [
+  {
+   "id": "handel_handel_s_clarinet_primo_tly",
+   "source": "pdmx",
+   "title": "Clarinet. Primo. TLY.016",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "handel_handel_sonata_iv_pour_flute": [
   {
    "id": "handel_handel_sonata_iv_pour_fluteb3",
@@ -10485,6 +10774,15 @@
    "title": "Händel sonata IV pour flüte et clavier Larghetto",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "handel_handel_with_care": [
+  {
+   "id": "handel_handel_handel_with_care",
+   "source": "pdmx",
+   "title": "Handel with Care",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "handel_hwv17_son_nata_a_lagrimar_g_f_hand": [
@@ -10755,6 +11053,13 @@
    "title": "Joy to the World (Piano solo)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "handel_joy_to_the_worldb2",
+   "source": "pdmx",
+   "title": "Joy! to the World",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "handel_joy_to_the_world_satb_and_bo": [
@@ -10773,15 +11078,6 @@
    "title": "Joy to the World (SATB and Boys' Choirs) with piano/organ",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  }
- ],
- "handel_joy_to_the_world_satbb2": [
-  {
-   "id": "handel_joy_to_the_world_satbb3",
-   "source": "pdmx",
-   "title": "Joy to the World (SATB)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "handel_joy_to_the_world_the_lord_is": [
@@ -10879,6 +11175,24 @@
    "id": "handel_water_music_suite_airb2",
    "source": "pdmx",
    "title": "Water Music Suite Air",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "haslerud_anne_knutsdotter": [
+  {
+   "id": "haslerud_anne_knudsdotter_haslerud_sa",
+   "source": "pdmx",
+   "title": "Anne Knudsdotter SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "hassler_bwv769_vom_himmel_hoch_da_komm_ich": [
+  {
+   "id": "hassler_vom_himmel_hoch_da_komm_ich",
+   "source": "pdmx",
+   "title": "Vom Himmel hoch da komm ich her",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -11677,6 +11991,15 @@
    "licence": "CC0"
   }
  ],
+ "holmes_la_chanson_de_jean_prouvaire": [
+  {
+   "id": "holmes_augusta_holmes_la_chanson_de",
+   "source": "pdmx",
+   "title": "La Chanson de Jean Prouvaire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "humperdinck_evening_prayer_recorder_quar": [
   {
    "id": "humperdinck_evening_prayer_recorder_quarb2",
@@ -11684,6 +12007,24 @@
    "title": "Evening Prayer - Recorder Quartet",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "janequin_ce_moys_de_may_clement_janeq": [
+  {
+   "id": "janequin_ce_moys_de_mayb2",
+   "source": "pdmx",
+   "title": "Ce Moys de May",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "janequin_la_meuniere_de_vernon_clemenb2": [
+  {
+   "id": "janequin_la_meuniere_de_vernon_clemen",
+   "source": "pdmx",
+   "title": "La meunière de Vernon - Clément Janequin - SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "jcbach_1_movimento_do_concerto_para": [
@@ -11889,6 +12230,31 @@
    "id": "lassus_s1581_matona_mia_cara",
    "source": "pdmx",
    "title": "Matona Mia Cara",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "leontovych_n_o_shchedryk_carol_of_the_b": [
+  {
+   "id": "leontovych_carol_of_the_bells_satb_reco",
+   "source": "pdmx",
+   "title": "Carol of the Bells (SATB recorder)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "lie_sangerhilsen_lie": [
+  {
+   "id": "lie_sangerhilsen_sigurd_lie_ttbb",
+   "source": "pdmx",
+   "title": "Sangerhilsen TTBB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "lie_sangerhilsen_landsmote_2018",
+   "source": "pdmx",
+   "title": "Sangerhilsen - Landsmøte 2018",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -13135,6 +13501,24 @@
    "licence": "CC0"
   }
  ],
+ "milne_peter_milne_aboyne_castle": [
+  {
+   "id": "milne_peter_milne_the_marchioness",
+   "source": "pdmx",
+   "title": "The Marchioness of Huntly",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "milne_peter_milne_j_o_forbes_of_co": [
+  {
+   "id": "milne_peter_milne_j_o_forbes_esq_o",
+   "source": "pdmx",
+   "title": "J.O. Forbes Esq. of Corse",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "monteverdi_ab_aeterno_ordinata_sum_clau": [
   {
    "id": "monteverdi_ab_aeterno_ordinata_sum_claub2",
@@ -13517,6 +13901,13 @@
    "title": "Sfogava con le stelle",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "monteverdi_sfogava_con_le_stelle_claudib3",
+   "source": "pdmx",
+   "title": "Sfogava con le stelle",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "monteverdi_si_come_crescon_claudio_mont": [
@@ -13560,6 +13951,24 @@
    "id": "monteverdi_vago_augelletto_che_cantandob2",
    "source": "pdmx",
    "title": "Vago augelletto che cantando vai",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "morley_it_was_a_lover_and_his_lassb2": [
+  {
+   "id": "morley_thomas_morley_it_was_a_lover",
+   "source": "pdmx",
+   "title": "It was a lover and his lass",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "morley_now_is_the_month_of_maying": [
+  {
+   "id": "morley_thomas_morley_now_is_the_mon",
+   "source": "pdmx",
+   "title": "Now Is the Month of Maying",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -15284,11 +15693,29 @@
    "licence": "CC0"
   }
  ],
+ "nordraak_ja_vi_elsker_dette_landet_no": [
+  {
+   "id": "nordraak_ja_vi_elsker_dette_landetb2",
+   "source": "pdmx",
+   "title": "Ja vi elsker dette landet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "offenbach_cancan_offenbach": [
   {
    "id": "offenbach_can_can",
    "source": "pdmx",
    "title": "Can can",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ortiz_recercada_primera": [
+  {
+   "id": "ortiz_recercada_primera_guitarb51",
+   "source": "pdmx",
+   "title": "Recercada primera (Guitar)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -16004,6 +16431,33 @@
    "licence": "CC0"
   }
  ],
+ "palestrina_o_domine_jesu_christe_giovan": [
+  {
+   "id": "palestrina_giovanni_pierluigi_da_palest",
+   "source": "pdmx",
+   "title": "O Domine Jesu Christe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "palestrina_sicut_cervus_giovanni_pierlu": [
+  {
+   "id": "palestrina_sicut_cervus_in_sol_maggiore",
+   "source": "pdmx",
+   "title": "Sicut Cervus (in sol maggiore)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "palestrina_vergine_chiara_giovanni_pier": [
+  {
+   "id": "palestrina_vergine_chiarab2",
+   "source": "pdmx",
+   "title": "Vergine chiara",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "pergolesi_3_duetto_o_quam_tristis_et_a": [
   {
    "id": "pergolesi_3_duetto_o_quam_tristis_et_ab2",
@@ -16083,6 +16537,42 @@
    "title": "Stabat Mater",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  }
+ ],
+ "pierpont_the_one_horse_open_sleigh": [
+  {
+   "id": "pierpont_one_horse_open_sleigh",
+   "source": "pdmx",
+   "title": "One Horse Open Sleigh",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "playford_easy_guitar_maiden_fair_play": [
+  {
+   "id": "playford_easy_guitar_maiden_fair_playb2",
+   "source": "pdmx",
+   "title": "Easy Guitar - Maiden Fair - Playford John (1623 - 1686)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "playford_easy_guitar_over_the_mountai": [
+  {
+   "id": "playford_easy_guitar_over_the_mountaib2",
+   "source": "pdmx",
+   "title": "Easy Guitar - Over the Mountains - Playford John (1623 - 1686) - Tablature",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "playford_glory_of_the_north_playford": [
+  {
+   "id": "playford_glory_of_the_north_playfordb2",
+   "source": "pdmx",
+   "title": "Glory of the North - Playford John (1623 - 1686)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "puccini_o_mio_babbino_caro_for_solo": [
@@ -16232,9 +16722,25 @@
    "licence": "PD"
   }
  ],
+ "purcell_henry_purcell_lilli_burlero": [
+  {
+   "id": "purcell_purcell_lilli_burlero",
+   "source": "pdmx",
+   "title": "Lilli Burlero",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "purcell_henry_purcell_nymphs_and_she": [
   {
    "id": "purcell_henry_purcell_nymphs_and_sheb2",
+   "source": "pdmx",
+   "title": "Nymphs and Shepherds Come Away",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_purcell_nymphs_and_shepherds",
    "source": "pdmx",
    "title": "Nymphs and Shepherds Come Away",
    "url": "https://zenodo.org/records/15571083",
@@ -16330,6 +16836,13 @@
    "title": "If Love's a Sweet Passion",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "purcell_purcell_if_love_s_a_sweet_pa",
+   "source": "pdmx",
+   "title": "If Love's a Sweet Passion",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "purcell_in_these_delightful_pleasant": [
@@ -16394,6 +16907,15 @@
    "id": "purcell_lost_is_my_quiet_henry_purceb2",
    "source": "pdmx",
    "title": "Lost is my quiet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "purcell_magnificat_and_nunc_dimittisb2": [
+  {
+   "id": "purcell_magnificat_and_nunc_dimittis",
+   "source": "pdmx",
+   "title": "Magnificat and Nunc dimittis in g minor",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -16642,6 +17164,22 @@
    "title": "Two daughters of this aged stream SA Purcell",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "purcell_wa_is_me": [
+  {
+   "id": "purcell_epsom_wells",
+   "source": "pdmx",
+   "title": "Epsom Wells",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_purcell_woe_is_mewhat_can_i",
+   "source": "pdmx",
+   "title": "Woe Is MeWhat Can I Do? HA.115",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "purcell_we_the_spirits_of_the_air_sc": [
@@ -16977,6 +17515,15 @@
    "licence": "CC0"
   }
  ],
+ "rheinberger_abendlied": [
+  {
+   "id": "rheinberger_op69no3_abendlied",
+   "source": "pdmx",
+   "title": "Abendlied",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "rimskykorsakov_allegro_vivace_from_concerto": [
   {
    "id": "rimskykorsakov_allegro_vivace_from_concertob2",
@@ -17086,6 +17633,22 @@
    "id": "rimskykorsakov_rimsky_korsakov_harmonic_exeb8",
    "source": "pdmx",
    "title": "Harmonic Exercises Free Melodic Figuration (1)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "roch_polka_pascual_rochb2": [
+  {
+   "id": "roch_polka_pascual_roch_1864_1921",
+   "source": "pdmx",
+   "title": "Polka - Pascual Roch (1864 - 1921)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "roch_polka_pascual_roch_1864_1921b2",
+   "source": "pdmx",
+   "title": "Polka - Pascual Roch (1864 - 1921) - Tablature",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -17397,6 +17960,15 @@
    "id": "rossini_william_tell_overtureb2",
    "source": "pdmx",
    "title": "William Tell Overture",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rubens_3_prince_s_chorus": [
+  {
+   "id": "rubens_way_for_the_prince_prince_s",
+   "source": "pdmx",
+   "title": "Way for the prince (Prince's chorus) RUBENS SATB",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -19549,6 +20121,49 @@
    "licence": "CC0"
   }
  ],
+ "skinner_dr_mchardy_banchory": [
+  {
+   "id": "skinner_doctor_mchardy_banchory",
+   "source": "pdmx",
+   "title": "Doctor McHardy (Banchory)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "smith_the_star_spangled_banner_sat": [
+  {
+   "id": "smith_star_spangled_banner_violinb51",
+   "source": "pdmx",
+   "title": "Star Spangled Banner_Violin Duet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "smith_the_star_spangled_banner_ser",
+   "source": "pdmx",
+   "title": "The Star-Spangled Banner Service Edition",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "smith_the_star_spangled_bannerb2": [
+  {
+   "id": "smith_star_spangled_banner",
+   "source": "pdmx",
+   "title": "Star-Spangled Banner",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "soderman_benedictus_med_orgel": [
+  {
+   "id": "soderman_benedictus_5_from_andliga_sa",
+   "source": "pdmx",
+   "title": "Benedictus (5 from 'Andliga sånger')",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "sor_divertimento_no_1": [
   {
    "id": "sor_divertimento_no_1b2",
@@ -19644,6 +20259,33 @@
    "id": "sor_sor_lagrime_mie_d_affanno_gub2",
    "source": "pdmx",
    "title": "Lagrime mie d'affanno - Guitare et voix",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "spohr_for_den_norske_bonde_spohr_t": [
+  {
+   "id": "spohr_sangen_ret_som_ornen_stiger",
+   "source": "pdmx",
+   "title": "Sangen - Ret som ørnen stiger",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "stainer_god_rest_ye_merry_gentlemen": [
+  {
+   "id": "stainer_god_rest_you_merry",
+   "source": "pdmx",
+   "title": "God Rest You Merry",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "stainer_the_first_noel": [
+  {
+   "id": "stainer_the_first_nowell",
+   "source": "pdmx",
+   "title": "The first Nowell",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -21103,6 +21745,15 @@
    "licence": "CC0"
   }
  ],
+ "traditional_breton_tune": [
+  {
+   "id": "traditional_traditional_music_breton_tun",
+   "source": "pdmx",
+   "title": "Breton Tune",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "traditional_carol_of_the_bells_sat": [
   {
    "id": "traditional_carol_of_the_bells_satb2",
@@ -21148,6 +21799,15 @@
    "licence": "PD"
   }
  ],
+ "traditional_deck_the_hallsb2": [
+  {
+   "id": "traditional_deck_the_halls",
+   "source": "pdmx",
+   "title": "Deck The Halls",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "traditional_down_in_the_river_to_pray": [
   {
    "id": "traditional_down_in_the_river_to_prayb2",
@@ -21175,6 +21835,15 @@
    "licence": "CC0"
   }
  ],
+ "traditional_for_standard_bass_accordion": [
+  {
+   "id": "traditional_greensleevesb2",
+   "source": "pdmx",
+   "title": "Greensleeves",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "traditional_god_rest_ye_funky_gentlemen": [
   {
    "id": "traditional_god_rest_ye_funky_gentlemenb2",
@@ -21182,6 +21851,15 @@
    "title": "God Rest Ye Funky Gentlemen",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "traditional_god_rest_you_merry_gentlemen": [
+  {
+   "id": "traditional_traditional_music_god_rest_y",
+   "source": "pdmx",
+   "title": "God Rest You Merry Gentlemen.",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_greensleeves_variations": [
@@ -21203,6 +21881,13 @@
   }
  ],
  "traditional_holly_and_the_ivy_the": [
+  {
+   "id": "traditional_holly_and_ivy",
+   "source": "pdmx",
+   "title": "Holly and Ivy",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
   {
    "id": "traditional_the_holly_and_the_ivy",
    "source": "pdmx",
@@ -21234,6 +21919,13 @@
    "title": "King of Fairies(for Piano)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "traditional_traditional_music_king_of_th",
+   "source": "pdmx",
+   "title": "King of the Fairies",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_lam_the_lamb_folk_melody_fro": [
@@ -21317,6 +22009,15 @@
    "licence": "CC0"
   }
  ],
+ "traditional_red_apple_rag": [
+  {
+   "id": "traditional_traditional_music_red_apple",
+   "source": "pdmx",
+   "title": "Red Apple Rag",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "traditional_sally_gardens": [
   {
    "id": "traditional_sally_gardensb2",
@@ -21324,6 +22025,13 @@
    "title": "Sally Gardens",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "traditional_traditional_music_sally_gard",
+   "source": "pdmx",
+   "title": "Sally Gardens",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_sara_gelin_sari_gelin_the_fa": [
@@ -21360,6 +22068,15 @@
    "title": "Simple Gifts",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "traditional_soldier_s_joy": [
+  {
+   "id": "traditional_traditional_music_soldier_s",
+   "source": "pdmx",
+   "title": "Soldier's Joy",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_st_columba": [
@@ -21423,11 +22140,27 @@
    "licence": "CC0"
   }
  ],
- "traditional_the_butterfly_for_piano": [
+ "traditional_the_butterflyb2": [
+  {
+   "id": "traditional_the_butterfly_for_piano",
+   "source": "pdmx",
+   "title": "The Butterfly(for Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
   {
    "id": "traditional_the_butterfly_for_pianob2",
    "source": "pdmx",
    "title": "The Butterfly(for Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "traditional_the_first_noelb3": [
+  {
+   "id": "traditional_the_first_noelb2",
+   "source": "pdmx",
+   "title": "The First Noel",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -21448,6 +22181,13 @@
    "title": "The Parting Glass",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "traditional_traditional_music_parting_gl",
+   "source": "pdmx",
+   "title": "Parting Glass",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_the_rights_of_man_for_piano": [
@@ -21466,22 +22206,92 @@
    "title": "The Sailor's Hornpipe",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "traditional_sailor_s_hornpipe",
+   "source": "pdmx",
+   "title": "Sailor's Hornpipe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_auld_lang": [
+  {
+   "id": "traditional_auld_lang_syne",
+   "source": "pdmx",
+   "title": "Auld Lang Syne",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "traditional_traditional_music_schleinigeb10": [
+  {
+   "id": "traditional_traditional_music_schleinigeb17",
+   "source": "pdmx",
+   "title": "Schleinige Taenze in D nr. 5",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_schleinigeb11": [
+  {
+   "id": "traditional_traditional_music_schleinigeb5",
+   "source": "pdmx",
+   "title": "Schleinige Taenze in G nr. 20",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_she_ll_be": [
+  {
+   "id": "traditional_she_ll_be_coming_round_the_m",
+   "source": "pdmx",
+   "title": "She'll Be Coming Round The Mountain",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_the_gallow": [
+  {
+   "id": "traditional_traditional_music_the_gallowb2",
+   "source": "pdmx",
+   "title": "The Gallowglass Arranged by Terry Tully",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "traditional_traditional_music_the_king_o": [
   {
    "id": "traditional_traditional_music_the_king_ob2",
    "source": "pdmx",
-   "title": "Traditional music - The King of the Faeries",
+   "title": "The King of the Faeries",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_the_primro": [
+  {
+   "id": "traditional_traditional_music_the_primrob2",
+   "source": "pdmx",
+   "title": "The Primrose Lass",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "traditional_traditional_music_the_south": [
+  {
+   "id": "traditional_the_south_wind",
+   "source": "pdmx",
+   "title": "The South Wind",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "traditional_traditional_music_whisky_in": [
   {
    "id": "traditional_traditional_music_whisky_inb2",
    "source": "pdmx",
-   "title": "Traditional music - Whisky in the Jar",
+   "title": "Whisky in the Jar",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
   }
@@ -21522,6 +22332,15 @@
    "licence": "CC0"
   }
  ],
+ "traditional_we_wish_you_a_merry_christma": [
+  {
+   "id": "traditional_we_wish_you_a_merry_christmab2",
+   "source": "pdmx",
+   "title": "We Wish You a Merry Christmas",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "traditional_you_are_my_sunshine_brass_ba": [
   {
    "id": "traditional_you_are_my_sunshine_brass_bab2",
@@ -21547,6 +22366,15 @@
    "title": "In der Ferne",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=800",
    "licence": "CC-BY"
+  }
+ ],
+ "unknown_nearer_my_god_to_thee": [
+  {
+   "id": "lowellmason_nearer_my_god_to_thee",
+   "source": "pdmx",
+   "title": "Nearer My God To Thee",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "unknown_s100_abschied_farewell": [

@@ -40,8 +40,7 @@
  "preview_url": "",
  "score_url": "files/scores/gibbons_the_silver_swan.mid",
  "score_files": [
-  "files/scores/gibbons_the_silver_swan.mid",
-  "files/scores/gibbons_the_silver_swan_orlando_gibbb51.mid"
+  "files/scores/gibbons_the_silver_swan.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -91,8 +90,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
-  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan_orlando_gibbb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
  "render_midi": {

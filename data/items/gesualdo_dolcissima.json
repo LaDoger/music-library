@@ -36,8 +36,7 @@
  "score_url": "files/scores/gesualdo_dolcissima.mid",
  "score_files": [
   "files/scores/gesualdo_dolcissima.ly",
-  "files/scores/gesualdo_dolcissima.mid",
-  "files/scores/gesualdo_dolcissima_mia_vita_carlo_geb51.mid"
+  "files/scores/gesualdo_dolcissima.mid"
  ],
  "mood_tags_list": [
   "chromatic",
@@ -77,8 +76,7 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.ly",
-  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
-  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima_mia_vita_carlo_geb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
  "render_midi": {

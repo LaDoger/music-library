@@ -60,7 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/palestrina_vergine_chiara_giovanni_pier.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "palestrina_vergine_chiarab2",
+   "source": "pdmx",
+   "title": "Vergine chiara",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=palestrina_vergine_chiara_giovanni_pier",

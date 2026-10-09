@@ -40,8 +40,7 @@
  "preview_url": "",
  "score_url": "files/scores/scriabin_op11_prelude.mid",
  "score_files": [
-  "files/scores/scriabin_op11_prelude.mid",
-  "files/scores/scriabin_op11_prelude_a_scriabin_op_11_nob51.mid"
+  "files/scores/scriabin_op11_prelude.mid"
  ],
  "mood_tags_list": [
   "intimate"
@@ -76,8 +75,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_prelude.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_prelude.mid",
-  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_prelude_a_scriabin_op_11_nob51.mid"
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_prelude.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_prelude.mid",
  "render_midi": {
