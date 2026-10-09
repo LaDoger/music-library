@@ -1,0 +1,71 @@
+{
+ "id": "bruckner_wab129_perger",
+ "composer": "Anton Bruckner",
+ "death_year": "1896",
+ "title": "Perger Präludium",
+ "catalog": "WAB 129",
+ "movement": "",
+ "mood_tags": "solemn;organ;brief",
+ "tempo_energy": "moderato / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A short solemn organ prelude before a larger statement.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2017",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 2017: LilyPond header sets the edition licence to CC BY-SA 4.0. Typesetter: Sam Bivens. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Organ prelude in C, WAB 129, not a symphony movement. Header names the Austrian National Library manuscript Mus.Hs.44609/1. No clean editable symphony-movement score was found on Mutopia or on the IMSLP Symphony No. 7 page (Synthesized/MIDI count 0).",
+ "local_score_path": "files/scores/bruckner_wab129_perger.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/bruckner_wab129_perger.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/bruckner_wab129_perger.mp3",
+ "score_url": "files/scores/bruckner_wab129_perger.mid",
+ "score_files": [
+  "files/scores/bruckner_wab129_perger.ly",
+  "files/scores/bruckner_wab129_perger.mid"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "organ",
+  "brief"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=bruckner_wab129_perger",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/bruckner_wab129_perger.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/bruckner_wab129_perger.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bruckner_wab129_perger.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/bruckner_wab129_perger.ly",
+  "https://ladoger.github.io/music-library/files/scores/bruckner_wab129_perger.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/bruckner_wab129_perger.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/bruckner_wab129_perger.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Anton Bruckner: Perger Präludium, WAB 129 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2017. Licence: CC-BY-SA 4.0."
+}

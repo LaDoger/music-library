@@ -1,0 +1,71 @@
+{
+ "id": "gesualdo_dolcissima",
+ "composer": "Carlo Gesualdo",
+ "death_year": "1613",
+ "title": "Dolcissima mia vita",
+ "catalog": "Madrigali a 5",
+ "movement": "",
+ "mood_tags": "chromatic;aching;renaissance",
+ "tempo_energy": "madrigal / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "Chromatic madrigal pain under a close, uneasy portrait.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1716",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 1716: LilyPond header sets the edition licence to CC BY-SA 3.0. Typesetter: Björn Sothmann. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Header source is Simone Molinaro's Partitura delli sei libri de' Madrigali a cinque voci. SSATB.",
+ "local_score_path": "files/scores/gesualdo_dolcissima.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/gesualdo_dolcissima.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Renaissance",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/gesualdo_dolcissima.mp3",
+ "score_url": "files/scores/gesualdo_dolcissima.mid",
+ "score_files": [
+  "files/scores/gesualdo_dolcissima.ly",
+  "files/scores/gesualdo_dolcissima.mid"
+ ],
+ "mood_tags_list": [
+  "chromatic",
+  "aching",
+  "renaissance"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=gesualdo_dolcissima",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/gesualdo_dolcissima.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/gesualdo_dolcissima.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.ly",
+  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/gesualdo_dolcissima.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Carlo Gesualdo: Dolcissima mia vita, Madrigali a 5 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1716. Licence: CC-BY-SA 3.0."
+}

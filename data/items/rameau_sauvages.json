@@ -1,0 +1,70 @@
+{
+ "id": "rameau_sauvages",
+ "composer": "Jean-Philippe Rameau",
+ "death_year": "1764",
+ "title": "Les sauvages",
+ "catalog": "Nouvelles suites de pièces de clavecin",
+ "movement": "",
+ "mood_tags": "bold;rhythmic;ceremonial",
+ "tempo_energy": "gravement / high drive",
+ "notable_excerpt": "MIDI render 00:00–00:15 (the riff)",
+ "video_use_ideas": "The stomping riff for a bold entrance or a tribal-cut montage.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=407",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia legal.html says the contributor dedicated this edition to the public domain (print, sell, change, distribute, record, perform). The LilyPond header copyright/license line is \"Public Domain\". Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. Mutopia piece 407. Typesetter: Ludovic Sardain. Header places it in Nouvelles suites de Pièces de Clavecin.",
+ "local_score_path": "files/scores/rameau_sauvages.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/rameau_sauvages.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/rameau_sauvages.mp3",
+ "score_url": "files/scores/rameau_sauvages.mid",
+ "score_files": [
+  "files/scores/rameau_sauvages.ly",
+  "files/scores/rameau_sauvages.mid"
+ ],
+ "mood_tags_list": [
+  "bold",
+  "rhythmic",
+  "ceremonial"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=rameau_sauvages",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/rameau_sauvages.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/rameau_sauvages.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/rameau_sauvages.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/rameau_sauvages.ly",
+  "https://ladoger.github.io/music-library/files/scores/rameau_sauvages.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/rameau_sauvages.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/rameau_sauvages.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Jean-Philippe Rameau: Les sauvages, Nouvelles suites de pièces de clavecin (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=407. Licence: PD."
+}

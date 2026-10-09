@@ -51,6 +51,10 @@ COMPOSER_ERA = {
     "George Frideric Handel": "Baroque",
     "Antonio Vivaldi": "Baroque",
     "Johann Pachelbel": "Baroque",
+    "Jean-Philippe Rameau": "Baroque",  # d.1764 would otherwise fall in the Classical bucket
+    "Carlo Gesualdo": "Renaissance",
+    "William Byrd": "Renaissance",
+    "Mily Balakirev": "Romantic",
     "Wolfgang Amadeus Mozart": "Classical",
     "Joseph Haydn": "Classical",
     "Ludwig van Beethoven": "Classical / early Romantic",

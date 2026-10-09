@@ -1,0 +1,71 @@
+{
+ "id": "buxtehude_buxwv75_ad_cor",
+ "composer": "Dieterich Buxtehude",
+ "death_year": "1707",
+ "title": "Membra Jesu nostri",
+ "catalog": "BuxWV 75",
+ "movement": "Ad cor",
+ "mood_tags": "devotional;somber;baroque",
+ "tempo_energy": "cantata / low energy",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "Use Ad cor, the sixth cantata, at the heart, for a solemn sacred scene.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1729",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 1729: LilyPond header sets the edition licence to CC BY-SA 3.0. Typesetter: Martin Straeten. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. This MIDI is Ad cor only, in include order A–G of the Mutopia score. The LilyPond zip is the whole cycle.",
+ "local_score_path": "files/scores/buxtehude_buxwv75_ad_cor.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/buxtehude_buxwv75_ad_cor.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/buxtehude_buxwv75_ad_cor.mp3",
+ "score_url": "files/scores/buxtehude_buxwv75_ad_cor.mid",
+ "score_files": [
+  "files/scores/buxtehude_buxwv75_ad_cor-lys.zip",
+  "files/scores/buxtehude_buxwv75_ad_cor.mid"
+ ],
+ "mood_tags_list": [
+  "devotional",
+  "somber",
+  "baroque"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv75_ad_cor",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/buxtehude_buxwv75_ad_cor.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/buxtehude_buxwv75_ad_cor.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv75_ad_cor.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv75_ad_cor-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv75_ad_cor.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/buxtehude_buxwv75_ad_cor.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv75_ad_cor.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Dieterich Buxtehude: Membra Jesu nostri, BuxWV 75 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1729. Licence: CC-BY-SA 3.0."
+}

@@ -1,0 +1,70 @@
+{
+ "id": "reger_op42_3_iv",
+ "composer": "Max Reger",
+ "death_year": "1916",
+ "title": "Sonata No. 3 for unaccompanied violin",
+ "catalog": "Op. 42 No. 3",
+ "movement": "IV",
+ "mood_tags": "resolute;solo;building",
+ "tempo_energy": "quarter = 83 / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "The finale, broader, for a resolved ending.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1690",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 1690: LilyPond header sets the edition licence to CC BY 3.0. Typesetter: Carl M. Bolstad. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. CC BY: credit the typesetter and the Mutopia piece page, and link the licence. Header: Sonata 3, Op. 42, Heft 2 No. 3. Four MIDI blocks in movement order.",
+ "local_score_path": "files/scores/reger_op42_3_iv.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/reger_op42_3_iv.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/reger_op42_3_iv.mp3",
+ "score_url": "files/scores/reger_op42_3_iv.mid",
+ "score_files": [
+  "files/scores/reger_op42_3_iv-lys.zip",
+  "files/scores/reger_op42_3_iv.mid"
+ ],
+ "mood_tags_list": [
+  "resolute",
+  "solo",
+  "building"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "attribution",
+ "licence_status": "attribution",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=reger_op42_3_iv",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/reger_op42_3_iv.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/reger_op42_3_iv.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_op42_3_iv.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/reger_op42_3_iv-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/reger_op42_3_iv.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/reger_op42_3_iv.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/reger_op42_3_iv.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
+ "credit_text": "Max Reger: Sonata No. 3 for unaccompanied violin, Op. 42 No. 3 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1690. Licence: CC-BY 3.0."
+}

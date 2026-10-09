@@ -1,0 +1,71 @@
+{
+ "id": "alkan_op31_8_folle",
+ "composer": "Charles-Valentin Alkan",
+ "death_year": "1888",
+ "title": "Chanson de la folle au bord de la mer",
+ "catalog": "Op. 31 No. 8",
+ "movement": "No. 8",
+ "mood_tags": "eerie;desolate;hypnotic",
+ "tempo_energy": "andantino / suspended",
+ "notable_excerpt": "MIDI render 00:00–00:15 (the rocking fifths)",
+ "video_use_ideas": "The rocking bare fifths under a lonely or ominous landscape shot.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2232",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 2232: LilyPond header sets the edition licence to CC BY-SA 4.0. Typesetter: Anonymous. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Song of the Madwoman on the Seashore, from 25 Préludes Op. 31. Source named on the piece page as A.M. Schlesinger, 1847.",
+ "local_score_path": "files/scores/alkan_op31_8_folle.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/alkan_op31_8_folle.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/alkan_op31_8_folle.mp3",
+ "score_url": "files/scores/alkan_op31_8_folle.mid",
+ "score_files": [
+  "files/scores/alkan_op31_8_folle.ly",
+  "files/scores/alkan_op31_8_folle.mid"
+ ],
+ "mood_tags_list": [
+  "eerie",
+  "desolate",
+  "hypnotic"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=alkan_op31_8_folle",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/alkan_op31_8_folle.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/alkan_op31_8_folle.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/alkan_op31_8_folle.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/alkan_op31_8_folle.ly",
+  "https://ladoger.github.io/music-library/files/scores/alkan_op31_8_folle.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/alkan_op31_8_folle.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/alkan_op31_8_folle.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Charles-Valentin Alkan: Chanson de la folle au bord de la mer, Op. 31 No. 8 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2232. Licence: CC-BY-SA 4.0."
+}

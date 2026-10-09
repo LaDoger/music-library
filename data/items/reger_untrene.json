@@ -1,0 +1,70 @@
+{
+ "id": "reger_untrene",
+ "composer": "Max Reger",
+ "death_year": "1916",
+ "title": "Untreue (Das zerbrochene Ringlein)",
+ "catalog": "arr. 1913",
+ "movement": "",
+ "mood_tags": "folkish;wistful;choral",
+ "tempo_energy": "ruhig / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15 (stanza 1)",
+ "video_use_ideas": "A simple choral folk song for a human, old-country beat.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=621",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 621: LilyPond header sets the edition licence to CC BY 4.0. Typesetter: Klaus Rettinghaus. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. CC BY: credit the typesetter and the Mutopia piece page, and link the licence. Header composer is Friedrich Glück (1793–1840), 1814; arranger line is Bearbeitung von Max Reger (1873–1916), 1913. The tune is Glück's In einem kühlen Grunde. Both the song and Reger's arrangement are PD; the edition is CC BY 4.0. The piece is about 30 seconds.",
+ "local_score_path": "files/scores/reger_untrene.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/reger_untrene.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/reger_untrene.mp3",
+ "score_url": "files/scores/reger_untrene.mid",
+ "score_files": [
+  "files/scores/reger_untrene.ly",
+  "files/scores/reger_untrene.mid"
+ ],
+ "mood_tags_list": [
+  "folkish",
+  "wistful",
+  "choral"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "attribution",
+ "licence_status": "attribution",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=reger_untrene",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/reger_untrene.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/reger_untrene.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_untrene.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/reger_untrene.ly",
+  "https://ladoger.github.io/music-library/files/scores/reger_untrene.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/reger_untrene.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/reger_untrene.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
+ "credit_text": "Max Reger: Untreue (Das zerbrochene Ringlein), arr. 1913 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=621. Licence: CC-BY 4.0."
+}

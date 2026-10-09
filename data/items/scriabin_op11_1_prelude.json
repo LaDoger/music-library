@@ -1,0 +1,70 @@
+{
+ "id": "scriabin_op11_1_prelude",
+ "composer": "Alexander Scriabin",
+ "death_year": "1915",
+ "title": "Prelude",
+ "catalog": "Op. 11 No. 1",
+ "movement": "No. 1",
+ "mood_tags": "bright;restless;clear",
+ "tempo_energy": "vivace / high drive",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A bright short prelude to open a clean explanation.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1779",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia legal.html says the contributor dedicated this edition to the public domain (print, sell, change, distribute, record, perform). The LilyPond header copyright/license line is \"Public Domain\". Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. Mutopia piece 1779. Typesetter: Keith OHara. Header title is Prelude, Op. 11 No. 1. Source named M.P. Belaieff, 1895. This is No. 1 only, not the whole set of 24.",
+ "local_score_path": "files/scores/scriabin_op11_1_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/scriabin_op11_1_prelude.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/scriabin_op11_1_prelude.mp3",
+ "score_url": "files/scores/scriabin_op11_1_prelude.mid",
+ "score_files": [
+  "files/scores/scriabin_op11_1_prelude.ly",
+  "files/scores/scriabin_op11_1_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "bright",
+  "restless",
+  "clear"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op11_1_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/scriabin_op11_1_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/scriabin_op11_1_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/scriabin_op11_1_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Alexander Scriabin: Prelude, Op. 11 No. 1 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1779. Licence: PD."
+}

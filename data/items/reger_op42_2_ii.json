@@ -1,0 +1,70 @@
+{
+ "id": "reger_op42_2_ii",
+ "composer": "Max Reger",
+ "death_year": "1916",
+ "title": "Sonata No. 2 for unaccompanied violin",
+ "catalog": "Op. 42 No. 2",
+ "movement": "II",
+ "mood_tags": "inward;solo;swaying",
+ "tempo_energy": "eighth = 108 / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "The middle movement for a swaying, thoughtful cut.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1522",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia legal.html says the contributor dedicated this edition to the public domain (print, sell, change, distribute, record, perform). The LilyPond header copyright/license line is \"Public Domain\". Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. Mutopia piece 1522. Typesetter: Carl M. Bolstad. The composer line in sonate2.ly says Op. 42, Heft 1 No. 2, and the title is Sonata 2. The mutopiaopus field in the same file says \"42, Heft 1 No. 1\", which disagrees; this file is Sonata 2. First movement is marked Allegro con grazia.",
+ "local_score_path": "files/scores/reger_op42_2_ii.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/reger_op42_2_ii.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/reger_op42_2_ii.mp3",
+ "score_url": "files/scores/reger_op42_2_ii.mid",
+ "score_files": [
+  "files/scores/reger_op42_2_ii-lys.zip",
+  "files/scores/reger_op42_2_ii.mid"
+ ],
+ "mood_tags_list": [
+  "inward",
+  "solo",
+  "swaying"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=reger_op42_2_ii",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/reger_op42_2_ii.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/reger_op42_2_ii.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_op42_2_ii.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/reger_op42_2_ii-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/reger_op42_2_ii.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/reger_op42_2_ii.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/reger_op42_2_ii.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Max Reger: Sonata No. 2 for unaccompanied violin, Op. 42 No. 2 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1522. Licence: PD."
+}

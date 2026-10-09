@@ -1,0 +1,71 @@
+{
+ "id": "scriabin_op16_3_prelude",
+ "composer": "Alexander Scriabin",
+ "death_year": "1915",
+ "title": "Prelude",
+ "catalog": "Op. 16 No. 3",
+ "movement": "No. 3",
+ "mood_tags": "intimate;chromatic;lyric",
+ "tempo_energy": "andante / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A short chromatic prelude under a quiet aside.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=761",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 2.5",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 761: LilyPond header sets the edition licence to CC BY-SA 2.5. Typesetter: Philippe Hézaine. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Five Preludes Op. 16. Header names M.P. Belaieff, Leipzig, 1897. This file is one prelude only.",
+ "local_score_path": "files/scores/scriabin_op16_3_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/scriabin_op16_3_prelude.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/scriabin_op16_3_prelude.mp3",
+ "score_url": "files/scores/scriabin_op16_3_prelude.mid",
+ "score_files": [
+  "files/scores/scriabin_op16_3_prelude.ly",
+  "files/scores/scriabin_op16_3_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "intimate",
+  "chromatic",
+  "lyric"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op16_3_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/scriabin_op16_3_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/scriabin_op16_3_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op16_3_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op16_3_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op16_3_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/scriabin_op16_3_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/scriabin_op16_3_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Alexander Scriabin: Prelude, Op. 16 No. 3 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=761. Licence: CC-BY-SA 2.5."
+}

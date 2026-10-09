@@ -1,0 +1,72 @@
+{
+ "id": "couperin_salvum_me_fac",
+ "composer": "François Couperin",
+ "death_year": "1733",
+ "title": "Salvum me fac Deus",
+ "catalog": "Motet (Philidor, c.1705)",
+ "movement": "",
+ "mood_tags": "urgent;devotional;dark",
+ "tempo_energy": "psalm / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15 (opening section)",
+ "video_use_ideas": "An urgent psalm setting for a plea or a rescue beat.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=969",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 969: LilyPond header sets the edition licence to CC BY 3.0. Typesetter: Nicolas Sceaux. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. CC BY: credit the typesetter and the Mutopia piece page, and link the licence. Local MIDI is the first score block (the opening). The companion mids zip has every section Mutopia generated.",
+ "local_score_path": "files/scores/couperin_salvum_me_fac.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/couperin_salvum_me_fac.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/couperin_salvum_me_fac.mp3",
+ "score_url": "files/scores/couperin_salvum_me_fac.mid",
+ "score_files": [
+  "files/scores/couperin_salvum_me_fac-lys.zip",
+  "files/scores/couperin_salvum_me_fac-mids.zip",
+  "files/scores/couperin_salvum_me_fac.mid"
+ ],
+ "mood_tags_list": [
+  "urgent",
+  "devotional",
+  "dark"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "attribution",
+ "licence_status": "attribution",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=couperin_salvum_me_fac",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/couperin_salvum_me_fac.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/couperin_salvum_me_fac.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac-mids.zip",
+  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/couperin_salvum_me_fac.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
+ "credit_text": "François Couperin: Salvum me fac Deus, Motet (Philidor, c.1705) (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=969. Licence: CC-BY 3.0."
+}

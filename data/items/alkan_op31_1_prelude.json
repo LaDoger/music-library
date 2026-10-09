@@ -1,0 +1,71 @@
+{
+ "id": "alkan_op31_1_prelude",
+ "composer": "Charles-Valentin Alkan",
+ "death_year": "1888",
+ "title": "Prélude",
+ "catalog": "Op. 31 No. 1",
+ "movement": "No. 1",
+ "mood_tags": "solemn;dark;brief",
+ "tempo_energy": "andante / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A short solemn organ-or-piano cadence under a still frame.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1731",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 1731: LilyPond header sets the edition licence to CC BY-SA 3.0. Typesetter: Karsten Hens. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. 25 Préludes for piano or organ. This file is No. 1 only.",
+ "local_score_path": "files/scores/alkan_op31_1_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/alkan_op31_1_prelude.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/alkan_op31_1_prelude.mp3",
+ "score_url": "files/scores/alkan_op31_1_prelude.mid",
+ "score_files": [
+  "files/scores/alkan_op31_1_prelude.ly",
+  "files/scores/alkan_op31_1_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "solemn",
+  "dark",
+  "brief"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=alkan_op31_1_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/alkan_op31_1_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/alkan_op31_1_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/alkan_op31_1_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/alkan_op31_1_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/alkan_op31_1_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/alkan_op31_1_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/alkan_op31_1_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Charles-Valentin Alkan: Prélude, Op. 31 No. 1 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1731. Licence: CC-BY-SA 3.0."
+}

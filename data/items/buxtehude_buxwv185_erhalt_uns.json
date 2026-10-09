@@ -1,0 +1,70 @@
+{
+ "id": "buxtehude_buxwv185_erhalt_uns",
+ "composer": "Dieterich Buxtehude",
+ "death_year": "1707",
+ "title": "Erhalt uns, Herr, bei deinem Wort",
+ "catalog": "BuxWV 185",
+ "movement": "",
+ "mood_tags": "stern;chorale;clear",
+ "tempo_energy": "chorale / moderate",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A stern chorale prelude under a serious statement.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1745",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia legal.html says the contributor dedicated this edition to the public domain (print, sell, change, distribute, record, perform). The LilyPond header copyright/license line is \"Public Domain\". Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. Mutopia piece 1745. Header copyright is Public Domain. Organ chorale BuxWV 185.",
+ "local_score_path": "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/buxtehude_buxwv185_erhalt_uns.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Baroque",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/buxtehude_buxwv185_erhalt_uns.mp3",
+ "score_url": "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+ "score_files": [
+  "files/scores/buxtehude_buxwv185_erhalt_uns.ly",
+  "files/scores/buxtehude_buxwv185_erhalt_uns.mid"
+ ],
+ "mood_tags_list": [
+  "stern",
+  "chorale",
+  "clear"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "moderate",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv185_erhalt_uns",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/buxtehude_buxwv185_erhalt_uns.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/buxtehude_buxwv185_erhalt_uns.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv185_erhalt_uns.ly",
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv185_erhalt_uns.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "Dieterich Buxtehude: Erhalt uns, Herr, bei deinem Wort, BuxWV 185 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1745. Licence: PD."
+}

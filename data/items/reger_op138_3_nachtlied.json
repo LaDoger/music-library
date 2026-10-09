@@ -1,0 +1,71 @@
+{
+ "id": "reger_op138_3_nachtlied",
+ "composer": "Max Reger",
+ "death_year": "1916",
+ "title": "Nachtlied",
+ "catalog": "Op. 138 No. 3",
+ "movement": "",
+ "mood_tags": "nocturnal;choral;hushed",
+ "tempo_energy": "ruhig / low energy",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A hushed night-song chorus for a closing night shot.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=940",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 3.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 940: LilyPond header sets the edition licence to CC BY-SA 3.0. Typesetter: Matthias Berndt. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Header tempo is Ruhig. Five-part a cappella chorus, Op. 138 No. 3.",
+ "local_score_path": "files/scores/reger_op138_3_nachtlied.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/reger_op138_3_nachtlied.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Late Romantic / early 20th",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/reger_op138_3_nachtlied.mp3",
+ "score_url": "files/scores/reger_op138_3_nachtlied.mid",
+ "score_files": [
+  "files/scores/reger_op138_3_nachtlied.ly",
+  "files/scores/reger_op138_3_nachtlied.mid"
+ ],
+ "mood_tags_list": [
+  "nocturnal",
+  "choral",
+  "hushed"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=reger_op138_3_nachtlied",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/reger_op138_3_nachtlied.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/reger_op138_3_nachtlied.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_op138_3_nachtlied.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/reger_op138_3_nachtlied.ly",
+  "https://ladoger.github.io/music-library/files/scores/reger_op138_3_nachtlied.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/reger_op138_3_nachtlied.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/reger_op138_3_nachtlied.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Max Reger: Nachtlied, Op. 138 No. 3 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=940. Licence: CC-BY-SA 3.0."
+}

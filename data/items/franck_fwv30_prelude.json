@@ -1,0 +1,70 @@
+{
+ "id": "franck_fwv30_prelude",
+ "composer": "César Franck",
+ "death_year": "1890",
+ "title": "Prélude, fugue et variation",
+ "catalog": "FWV 30",
+ "movement": "Prélude",
+ "mood_tags": "serene;organ;searching",
+ "tempo_energy": "andantino / low energy",
+ "notable_excerpt": "MIDI render 00:00–00:15 (the prélude tune)",
+ "video_use_ideas": "The organ prélude under a slow, thoughtful walk.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=936",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "PD",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia legal.html says the contributor dedicated this edition to the public domain (print, sell, change, distribute, record, perform). The LilyPond header copyright/license line is \"Public Domain\". Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. Mutopia piece 936. Typesetter: Pierre Pouillon. Header title is \"Prélude de Prélude, fugue et variation\", FWV 30 / Op. 18. This file is the Prélude only, not the fugue or the variation.",
+ "local_score_path": "files/scores/franck_fwv30_prelude.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/franck_fwv30_prelude.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/franck_fwv30_prelude.mp3",
+ "score_url": "files/scores/franck_fwv30_prelude.mid",
+ "score_files": [
+  "files/scores/franck_fwv30_prelude.ly",
+  "files/scores/franck_fwv30_prelude.mid"
+ ],
+ "mood_tags_list": [
+  "serene",
+  "organ",
+  "searching"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "clean",
+ "legal_flags": [
+  "Own MIDI render"
+ ],
+ "energy": "low",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=franck_fwv30_prelude",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/franck_fwv30_prelude.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/franck_fwv30_prelude.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/franck_fwv30_prelude.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/franck_fwv30_prelude.ly",
+  "https://ladoger.github.io/music-library/files/scores/franck_fwv30_prelude.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/franck_fwv30_prelude.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/franck_fwv30_prelude.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
+ "credit_text": "César Franck: Prélude, fugue et variation, FWV 30 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=936. Licence: PD."
+}

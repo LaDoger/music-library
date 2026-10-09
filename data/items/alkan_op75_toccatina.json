@@ -1,0 +1,71 @@
+{
+ "id": "alkan_op75_toccatina",
+ "composer": "Charles-Valentin Alkan",
+ "death_year": "1888",
+ "title": "Toccatina",
+ "catalog": "Op. 75",
+ "movement": "",
+ "mood_tags": "brilliant;driving;relentless",
+ "tempo_energy": "quasi prestissimo / very high",
+ "notable_excerpt": "MIDI render 00:00–00:15",
+ "video_use_ideas": "A glittering perpetual-motion sting for a fast cut or a chase.",
+ "editable_source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2163",
+ "editable_format": "MIDI; LilyPond",
+ "editable_license": "CC-BY-SA 4.0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "Mutopia piece 2163: LilyPond header sets the edition licence to CC BY-SA 4.0. Typesetter: tanukiyarou. Composition is PD-EU (life+70) and PD-US (published before 1930). Preview is an own FluidSynth render. FLAG share-alike: a render or arrangement of this edition must stay share-alike. Header tempo is Quasi Prestissimo, MIDI quarter = 180. Source on the piece page: Paris, Richault, plate 15672 R.",
+ "local_score_path": "files/scores/alkan_op75_toccatina.mid",
+ "local_audio_path": "",
+ "preview_path": "previews/alkan_op75_toccatina.mp3",
+ "verified": "yes",
+ "added_by": "grok",
+ "genre": "classical",
+ "era": "Romantic",
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "previews/alkan_op75_toccatina.mp3",
+ "score_url": "files/scores/alkan_op75_toccatina.mid",
+ "score_files": [
+  "files/scores/alkan_op75_toccatina-lys.zip",
+  "files/scores/alkan_op75_toccatina.mid"
+ ],
+ "mood_tags_list": [
+  "brilliant",
+  "driving",
+  "relentless"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "sharealike",
+ "licence_status": "sharealike",
+ "legal_flags": [
+  "Own MIDI render",
+  "ShareAlike score only"
+ ],
+ "energy": "very_high",
+ "top_pick_rank": 0,
+ "top_pick_why": "",
+ "schema_version": 1,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=alkan_op75_toccatina",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/alkan_op75_toccatina.json",
+ "preview_url_abs": "https://ladoger.github.io/music-library/previews/alkan_op75_toccatina.mp3",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/alkan_op75_toccatina.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/alkan_op75_toccatina-lys.zip",
+  "https://ladoger.github.io/music-library/files/scores/alkan_op75_toccatina.mid"
+ ],
+ "render_midi": {
+  "file": "files/scores/alkan_op75_toccatina.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/alkan_op75_toccatina.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
+ "credit_text": "Charles-Valentin Alkan: Toccatina, Op. 75 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2163. Licence: CC-BY-SA 4.0."
+}
