@@ -57,22 +57,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/wagner_wwv75_elsa_procession.mid",
- "other_editions": [
-  {
-   "id": "wagner_wwv75_wagner_lohengrin_vorspiel_to",
-   "source": "pdmx",
-   "title": "Lohengrin Vorspiel to Akt 1. WWV 75. {Professional production full score.}",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "wagner_wwv75_wagner_lohengrin_vorspiel_tob2",
-   "source": "pdmx",
-   "title": "Lohengrin Vorspiel to Akt 1. WWV 75. {Professional production full score.}",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv75_elsa_procession",

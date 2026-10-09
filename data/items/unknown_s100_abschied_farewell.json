@@ -69,27 +69,6 @@
    "licence": "PD"
   },
   {
-   "id": "unknown_s100_die_jagd_the_chase",
-   "source": "mutopia",
-   "title": "La Chasse",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=220",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_fortschritt_progress",
-   "source": "mutopia",
-   "title": "Progrès",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=215",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_unschuld",
-   "source": "mutopia",
-   "title": "Innocence",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=214",
-   "licence": "PD"
-  },
-  {
    "id": "unknown_s100_aufrightigkeit_sincerity",
    "source": "mutopia",
    "title": "La Candeur",
@@ -97,87 +76,10 @@
    "licence": "PD"
   },
   {
-   "id": "unknown_s100_unruhe_restlessness",
-   "source": "mutopia",
-   "title": "Inquiétude",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=230",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_arabeske",
-   "source": "mutopia",
-   "title": "L'Arabesque",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=203",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_trost",
-   "source": "mutopia",
-   "title": "Consolation",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=224",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_anmut_gracefulness",
-   "source": "mutopia",
-   "title": "La Gracieuse",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=217",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_hirtenlied_pastoral",
-   "source": "mutopia",
-   "title": "La Pastorale",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=218",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_steierischer_tanz_styrian_da",
-   "source": "mutopia",
-   "title": "La Styrienne",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=225",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_zartes_blumlein_a_dainty_flo",
-   "source": "mutopia",
-   "title": "Tendre Fleur",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=221",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_klagelied_lamentation",
-   "source": "mutopia",
-   "title": "Douce Plainte",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=228",
-   "licence": "PD"
-  },
-  {
    "id": "unknown_s100_plappermaulchen_chatterbox",
    "source": "mutopia",
    "title": "La Babillarde",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=229",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_die_schaferin_the_sheperdess",
-   "source": "mutopia",
-   "title": "La Bergeronnette",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=222",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_kleine_gesellschaft_festive",
-   "source": "mutopia",
-   "title": "La Petite Réunion",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=219",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_rieselnder_bach_the_limpid_s",
-   "source": "mutopia",
-   "title": "Le Courant Limpide",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=216",
    "licence": "PD"
   }
  ],

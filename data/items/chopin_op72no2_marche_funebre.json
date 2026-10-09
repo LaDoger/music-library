@@ -67,6 +67,20 @@
    "title": "Marche funèbre",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "chopin_marche_funebre",
+   "source": "pdmx",
+   "title": "Marche funebre",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_marche_funebreb2",
+   "source": "pdmx",
+   "title": "Marche funebre",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schema_version": 3,

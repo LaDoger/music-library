@@ -55,7 +55,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 174.8,
  "midi_play_url": "",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "brahms_hungarian_dance_no_5_in_f_mi",
+   "source": "pdmx",
+   "title": "Hungarian Dance No. 5 in F minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "brahms_hungarian_dance_no_5_in_f_mib2",
+   "source": "pdmx",
+   "title": "Hungarian Dance No. 5 in F minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_hungarian_dance_5",

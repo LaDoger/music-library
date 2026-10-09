@@ -544,6 +544,15 @@
    "licence": "CC0"
   }
  ],
+ "arne_rule_britannia": [
+  {
+   "id": "unknown_o1414_rule_britannia",
+   "source": "mutopia",
+   "title": "Rule Britannia",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=574",
+   "licence": "PD"
+  }
+ ],
  "ascarlatti_exultate_deo_a_scarlatti_sat": [
   {
    "id": "ascarlatti_exultate_deo_a_scarlatti_satb2",
@@ -578,6 +587,20 @@
    "title": "1. Menuett",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "bach_minuet_in_g_minor_from_anna",
+   "source": "pdmx",
+   "title": "Minuet in G Minor from Anna Magdalena Notebook",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_minuet_in_g_minor_from_annab2",
+   "source": "pdmx",
+   "title": "Minuet in G Minor from Anna Magdalena Notebook",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   },
   {
    "id": "bach_minuet_in_g_minorb2",
@@ -768,14 +791,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv1007_prelude": [
-  {
-   "id": "bach_bwv1007_suite_no_1_full_bach_recorde",
-   "source": "pdmx",
-   "title": "Suite No.1 (full) - Bach (Recorder)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv1007_suite_no_1_full_bach_recorde": [
   {
    "id": "bach_bwv1007_suite_no_1_full_bach_recordeb2",
    "source": "pdmx",
@@ -821,6 +837,15 @@
    "id": "bach_bwv1010_bwv_1010_cello_suite_no_4_inb2",
    "source": "pdmx",
    "title": "BWV 1010 Cello Suite No.4 in E-flat major (A = 415 Hz)ããããHarp sound",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "bach_bwv1011_sarabande": [
+  {
+   "id": "bach_bach_cello_suite_no_5_saraba",
+   "source": "pdmx",
+   "title": "Cello Suite No. 5 Sarabande",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -898,14 +923,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv1031_siciliano": [
-  {
-   "id": "bach_bwv1031_bach_flute_sonata_no_3_largo",
-   "source": "pdmx",
-   "title": "Flute Sonata No. 3 Largo e Dolce",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv1031_bach_flute_sonata_no_3_largo": [
   {
    "id": "bach_bwv1031_bach_flute_sonata_no_3_largob2",
    "source": "pdmx",
@@ -1128,21 +1146,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv1068_air": [
-  {
-   "id": "bach_bwv1068_from_suite_no_3_in_d_bwv_106",
-   "source": "mutopia",
-   "title": "Air, from Suite No.3 in D",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=461",
-   "licence": "PD"
-  },
-  {
-   "id": "bach_bwv1068_orchestal_suite_no_3_ii_aria",
-   "source": "pdmx",
-   "title": "Orchestal Suite no. 3 II. Aria Johann Sebastian Bach",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv1068_orchestal_suite_no_3_ii_aria": [
   {
    "id": "bach_bwv1068_orchestal_suite_no_3_ii_ariab2",
    "source": "pdmx",
@@ -1333,6 +1337,15 @@
    "id": "bach_bwv25_ich_will_alle_meine_tage_byb2",
    "source": "pdmx",
    "title": "Ich Will Alle Meine Tage by J.S. Bach (Es ist nichts Gesundes an meinem Leibe BWV 25 6 Chorale)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "bach_bwv347_bwv_347": [
+  {
+   "id": "bach_ich_dank_dir_lieber_herre_ba",
+   "source": "pdmx",
+   "title": "Ich dank' dir lieber Herre",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -1988,14 +2001,7 @@
    "licence": "PD"
   }
  ],
- "bach_bwv847_prelude": [
-  {
-   "id": "bach_bwv847_bach_wtc_fugue_2_in_cm_bwv_8",
-   "source": "pdmx",
-   "title": "WTC Fugue 2 in Cm (BWV 847)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv847_bach_wtc_fugue_2_in_cm_bwv_8": [
   {
    "id": "bach_bwv847_bach_wtc_fugue_2_in_cm_bwv_8b2",
    "source": "pdmx",
@@ -2074,15 +2080,6 @@
    "title": "Das Wohltemperierte Clavier I, Fuga XVI",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=805",
    "licence": "PD"
-  }
- ],
- "bach_bwv862_bwv_862": [
-  {
-   "id": "bach_bwv862_bwv_862_the_well_tempered_clb51",
-   "source": "pdmx",
-   "title": "BWV 862 The Well-Tempered Clavier Part I Praeludium XVII",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   }
  ],
  "bach_bwv865_fugue": [
@@ -2319,14 +2316,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv996_bourree": [
-  {
-   "id": "bach_bwv996_j_s_bach_bourree_in_e_minor",
-   "source": "pdmx",
-   "title": "J. S. Bach - Bourrée in E minor BWV 996",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv996_j_s_bach_bourree_in_e_minor": [
   {
    "id": "bach_bwv996_j_s_bach_bourree_in_e_minorb2",
    "source": "pdmx",
@@ -2539,15 +2529,6 @@
    "id": "bach_minue_g_bach_duob2",
    "source": "pdmx",
    "title": "Minue g bach duo",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "bach_minuet_in_g_minor_from_anna": [
-  {
-   "id": "bach_minuet_in_g_minor_from_annab2",
-   "source": "pdmx",
-   "title": "Minuet in G Minor from Anna Magdalena Notebook",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -4310,11 +4291,18 @@
    "licence": "CC0"
   }
  ],
- "brahms_hungarian_dance_in_g_minor_n": [
+ "brahms_hungarian_dance_5": [
   {
-   "id": "brahms_hungarian_dance_in_g_minor_nb2",
+   "id": "brahms_hungarian_dance_no_5_in_f_mi",
    "source": "pdmx",
-   "title": "Hungarian Dance in G. Minor No. 1 for Cello",
+   "title": "Hungarian Dance No. 5 in F minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "brahms_hungarian_dance_no_5_in_f_mib2",
+   "source": "pdmx",
+   "title": "Hungarian Dance No. 5 in F minor",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -4324,15 +4312,6 @@
    "id": "brahms_hungarian_dance_no_5_bass_arb2",
    "source": "pdmx",
    "title": "Hungarian Dance No. 5 (bass arr.)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "brahms_hungarian_dance_no_5_in_f_mi": [
-  {
-   "id": "brahms_hungarian_dance_no_5_in_f_mib2",
-   "source": "pdmx",
-   "title": "Hungarian Dance No. 5 in F minor",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -4585,6 +4564,20 @@
    "id": "brahms_woo1_hungarian_dance_no_1b2",
    "source": "pdmx",
    "title": "Hungarian Dance No. 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "brahms_hungarian_dance_in_g_minor_n",
+   "source": "pdmx",
+   "title": "Hungarian Dance in G. Minor No. 1 for Cello",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "brahms_hungarian_dance_in_g_minor_nb2",
+   "source": "pdmx",
+   "title": "Hungarian Dance in G. Minor No. 1 for Cello",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -5459,15 +5452,6 @@
    "licence": "CC0"
   }
  ],
- "chopin_marche_funebre": [
-  {
-   "id": "chopin_marche_funebreb2",
-   "source": "pdmx",
-   "title": "Marche funebre",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "chopin_mazurka_23_fr": [
   {
    "id": "chopin_mazurka_23_frb2",
@@ -6051,6 +6035,20 @@
    "title": "Marche funèbre",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "chopin_marche_funebre",
+   "source": "pdmx",
+   "title": "Marche funebre",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_marche_funebreb2",
+   "source": "pdmx",
+   "title": "Marche funebre",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "chopin_op9_2_nocturne": [
@@ -8083,6 +8081,20 @@
    "title": "Cantique de Jean Racine",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "faure_op11_cantique_de_jean_racine",
+   "source": "pdmx",
+   "title": "Cantique de Jean Racine",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "faure_op11_cantique_de_jean_racineb2",
+   "source": "pdmx",
+   "title": "Cantique de Jean Racine",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "faure_elegie_by_g_faure_for_two_ce": [
@@ -8135,15 +8147,6 @@
    "id": "faure_faure_requiem_i_introit_et_kb2",
    "source": "pdmx",
    "title": "Requiem I. Introït et Kyrie",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "faure_op11_cantique_de_jean_racine": [
-  {
-   "id": "faure_op11_cantique_de_jean_racineb2",
-   "source": "pdmx",
-   "title": "Cantique de Jean Racine",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -10027,9 +10030,14 @@
    "title": "In Hall of The Mountain King",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  }
- ],
- "grieg_in_the_hall_of_the_mountain": [
+  },
+  {
+   "id": "grieg_in_the_hall_of_the_mountain",
+   "source": "pdmx",
+   "title": "In the Hall of the Mountain King from 'Peer Gynt'",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
   {
    "id": "grieg_in_the_hall_of_the_mountainb2",
    "source": "pdmx",
@@ -10155,6 +10163,15 @@
    "licence": "CC0"
   }
  ],
+ "grieg_op46_peer_gynt_morning_mood": [
+  {
+   "id": "grieg_op46_peer_gynt_morning_moodb2",
+   "source": "pdmx",
+   "title": "Peer Gynt - Morning Mood",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "grieg_op47_lyric_piece_book_iv_no_2_alb": [
   {
    "id": "grieg_op47_lyric_piece_book_iv_no_2_albb2",
@@ -10214,20 +10231,6 @@
    "title": "In the Hall of the Mountain King",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1888",
    "licence": "PD"
-  },
-  {
-   "id": "grieg_op46_peer_gynt_morning_mood",
-   "source": "pdmx",
-   "title": "Peer Gynt - Morning Mood",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "grieg_op46_peer_gynt_morning_moodb2",
-   "source": "pdmx",
-   "title": "Peer Gynt - Morning Mood",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   },
   {
    "id": "grieg_in_der_halle_des_bergkonigs",
@@ -10357,6 +10360,20 @@
    "id": "handel_arrival_of_the_queen_of_shebb2",
    "source": "pdmx",
    "title": "Arrival of the Queen of Sheba",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "handel_hwv67_the_arrival_of_the_queen_of",
+   "source": "pdmx",
+   "title": "The Arrival of the Queen of Sheba for harp",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "handel_hwv67_the_arrival_of_the_queen_ofb2",
+   "source": "pdmx",
+   "title": "The Arrival of the Queen of Sheba for harp",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -10551,14 +10568,7 @@
    "licence": "CC0"
   }
  ],
- "handel_hwv351_des_feux_d_artifice_royaux": [
-  {
-   "id": "handel_hwv351_music_for_the_royal_firework",
-   "source": "pdmx",
-   "title": "Music for the Royal Fireworks - La Réjouissance",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "handel_hwv351_music_for_the_royal_firework": [
   {
    "id": "handel_hwv351_music_for_the_royal_fireworkb2",
    "source": "pdmx",
@@ -10655,14 +10665,9 @@
    "title": "ååèäºåååï¼åä¼åï¼",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "handel_hwv56_handel_worthy_is_the_lamb_fr",
-   "source": "pdmx",
-   "title": "Worthy Is The Lamb from The Messiah (full score)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+  }
+ ],
+ "handel_hwv56_handel_worthy_is_the_lamb_fr": [
   {
    "id": "handel_hwv56_handel_worthy_is_the_lamb_frb2",
    "source": "pdmx",
@@ -10705,15 +10710,6 @@
    "title": "Judas Maccabeus (Thine be the glory)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
-  }
- ],
- "handel_hwv67_the_arrival_of_the_queen_of": [
-  {
-   "id": "handel_hwv67_the_arrival_of_the_queen_ofb2",
-   "source": "pdmx",
-   "title": "The Arrival of the Queen of Sheba for harp",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   }
  ],
  "handel_hwv74_royal_wedding_2018_the_bride": [
@@ -12257,6 +12253,15 @@
    "licence": "CC0"
   }
  ],
+ "macdowell_edward_macdowell_to_a_wild_r": [
+  {
+   "id": "macdowell_op51no1_to_a_wild_rose_arranged_for",
+   "source": "pdmx",
+   "title": "To A Wild Rose arranged for Violin Solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "mahler_ich_bin_der_welt_abhanden_ge": [
   {
    "id": "mahler_ich_bin_der_welt_abhanden_geb2",
@@ -12732,15 +12737,6 @@
    "title": "Music for the play Ghetto",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  }
- ],
- "mendelssohn_o36_allein_gott_in_der_hoh_sei_e": [
-  {
-   "id": "mendelssohn_o36_textit_paulus_oratorio_nr_9",
-   "source": "mutopia",
-   "title": "Dir, Herr, dir will ich mich ergeben",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=491",
-   "licence": "PD"
   }
  ],
  "mendelssohn_o_for_the_wings_of_a_dove": [
@@ -13631,6 +13627,36 @@
    "licence": "CC0"
   }
  ],
+ "mozart_ave_verum_corpus": [
+  {
+   "id": "mozart_k618_ave_verum_corpus_mozart",
+   "source": "pdmx",
+   "title": "Ave Verum Corpus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mozart_k618_ave_verum_corpus_mozartb2",
+   "source": "pdmx",
+   "title": "Ave Verum Corpus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mozart_ave_verum_corpus_mozart_altob51",
+   "source": "pdmx",
+   "title": "Ave Verum Corpus - Mozart (Alto)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mozart_ave_verum_corpus_mozart_soprb51",
+   "source": "pdmx",
+   "title": "Ave Verum Corpus - Mozart (Soprano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "mozart_ave_verumb2": [
   {
    "id": "mozart_ave_verumb3",
@@ -14100,15 +14126,6 @@
    "licence": "CC0"
   }
  ],
- "mozart_k331_rondo_turca": [
-  {
-   "id": "mozart_k331_sonate_opus_kv_331_tema",
-   "source": "mutopia",
-   "title": "Sonate Opus KV 331 - Tema",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=614",
-   "licence": "PD"
-  }
- ],
  "mozart_k336_wolfgang_amadeus_mozart_chur": [
   {
    "id": "mozart_k336_wolfgang_amadeus_mozart_churb2",
@@ -14261,14 +14278,7 @@
    "licence": "CC0"
   }
  ],
- "mozart_k457_1st_movement": [
-  {
-   "id": "mozart_k457_mozart_klaviersonate_kv_457",
-   "source": "pdmx",
-   "title": "Klaviersonate KV 457 - 1 expozice",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "mozart_k457_mozart_klaviersonate_kv_457": [
   {
    "id": "mozart_k457_mozart_klaviersonate_kv_457b2",
    "source": "pdmx",
@@ -14525,29 +14535,6 @@
    "licence": "CC0"
   }
  ],
- "mozart_k618_ave_verum_corpus_mozart": [
-  {
-   "id": "mozart_k618_ave_verum_corpus_mozartb2",
-   "source": "pdmx",
-   "title": "Ave Verum Corpus",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "mozart_ave_verum_corpus_mozart_altob51",
-   "source": "pdmx",
-   "title": "Ave Verum Corpus - Mozart (Alto)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "mozart_ave_verum_corpus_mozart_soprb51",
-   "source": "pdmx",
-   "title": "Ave Verum Corpus - Mozart (Soprano)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "mozart_k620_arie_des_papageno": [
   {
    "id": "mozart_k620_arie_des_papagenob2",
@@ -14575,14 +14562,7 @@
    "licence": "CC0"
   }
  ],
- "mozart_k6_fragment": [
-  {
-   "id": "mozart_k6_w_a_mozart_sonata_in_c_major",
-   "source": "pdmx",
-   "title": "W. A. Mozart Sonata in C Major K6.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "mozart_k6_w_a_mozart_sonata_in_c_major": [
   {
    "id": "mozart_k6_w_a_mozart_sonata_in_c_majorb2",
    "source": "pdmx",
@@ -17056,6 +17036,15 @@
    "licence": "CC0"
   }
  ],
+ "rimskykorsakov_op35_rimsky_korsakov_scheherazade": [
+  {
+   "id": "rimskykorsakov_op35_rimsky_korsakov_scheherazadeb2",
+   "source": "pdmx",
+   "title": "Scheherazade - Part I (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "rimskykorsakov_procession_of_the_nobles_fro": [
   {
    "id": "rimskykorsakov_procession_of_the_nobles_frob2",
@@ -17097,22 +17086,6 @@
    "id": "rimskykorsakov_rimsky_korsakov_harmonic_exeb8",
    "source": "pdmx",
    "title": "Harmonic Exercises Free Melodic Figuration (1)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "rimskykorsakov_scheherazade_sea": [
-  {
-   "id": "rimskykorsakov_op35_rimsky_korsakov_scheherazade",
-   "source": "pdmx",
-   "title": "Scheherazade - Part I (Piano solo)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "rimskykorsakov_op35_rimsky_korsakov_scheherazadeb2",
-   "source": "pdmx",
-   "title": "Scheherazade - Part I (Piano solo)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -17595,6 +17568,15 @@
    "licence": "CC0"
   }
  ],
+ "saintsaens_op47_danse_bacchanale_vc": [
+  {
+   "id": "saintsaens_op47_danse_bacchanale_vcb2",
+   "source": "pdmx",
+   "title": "Danse Bacchanale-VC",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "saintsaens_op52_fugue_en_fa_mineur_saint_sae": [
   {
    "id": "saintsaens_op52_fugue_en_fa_mineur_saint_saeb2",
@@ -17620,22 +17602,6 @@
    "title": "Danse Macabre",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
-  }
- ],
- "saintsaens_samson_bacchanale": [
-  {
-   "id": "saintsaens_op47_danse_bacchanale_vc",
-   "source": "pdmx",
-   "title": "Danse Bacchanale-VC",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "saintsaens_op47_danse_bacchanale_vcb2",
-   "source": "pdmx",
-   "title": "Danse Bacchanale-VC",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   }
  ],
  "saintsaens_symphony_no_3_2nd_movement": [
@@ -17771,15 +17737,6 @@
    "licence": "CC0"
   }
  ],
- "satie_erik_satie_gnossienne_n1": [
-  {
-   "id": "satie_erik_satie_gnossienne_n1b2",
-   "source": "pdmx",
-   "title": "Gnossienne n1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "satie_erik_satie_gnossienne_no_3": [
   {
    "id": "satie_erik_satie_gnossienne_no_3b2",
@@ -17835,6 +17792,20 @@
    "title": "Gnossienne no. 1 for Flute and Harp",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "satie_erik_satie_gnossienne_n1",
+   "source": "pdmx",
+   "title": "Gnossienne n1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "satie_erik_satie_gnossienne_n1b2",
+   "source": "pdmx",
+   "title": "Gnossienne n1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "satie_gnossienne_n2_solo": [
@@ -17846,7 +17817,14 @@
    "licence": "CC0"
   }
  ],
- "satie_gymnopedie_no_1_by_satie_tra": [
+ "satie_gymnopedie_1": [
+  {
+   "id": "satie_gymnopedie_no_1_by_satie_tra",
+   "source": "pdmx",
+   "title": "Gymnopédie No. 1 by Satie transposed to C arranged for lever harp",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
   {
    "id": "satie_gymnopedie_no_1_by_satie_trab2",
    "source": "pdmx",
@@ -18423,15 +18401,6 @@
    "licence": "PD"
   }
  ],
- "schubert_auf_dem_wasser_zu_singen": [
-  {
-   "id": "schubert_auf_dem_wasser_zu_singenb2",
-   "source": "pdmx",
-   "title": "Auf Dem Wasser Zu Singen",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "schubert_beguine_no_1": [
   {
    "id": "schubert_beguine_no_1b2",
@@ -18851,15 +18820,6 @@
    "licence": "PD"
   }
  ],
- "schubert_op4_zweite_fassung": [
-  {
-   "id": "schubert_op4_der_wanderer",
-   "source": "mutopia",
-   "title": "Der Wanderer",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1556",
-   "licence": "PD"
-  }
- ],
  "schubert_op50no13_vals_no_13": [
   {
    "id": "schubert_op50no13_vals_no_13b2",
@@ -18887,6 +18847,22 @@
    "licence": "PD"
   }
  ],
+ "schubert_op72_auf_dem_wasser_zu_singen": [
+  {
+   "id": "schubert_auf_dem_wasser_zu_singen",
+   "source": "pdmx",
+   "title": "Auf Dem Wasser Zu Singen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "schubert_auf_dem_wasser_zu_singenb2",
+   "source": "pdmx",
+   "title": "Auf Dem Wasser Zu Singen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schubert_op92_no_1_der_musensohn_d_764": [
   {
    "id": "schubert_op92_der_musensohn",
@@ -18896,21 +18872,7 @@
    "licence": "PD"
   }
  ],
- "schubert_op96_no_4_fischerweise_d_881": [
-  {
-   "id": "schubert_op96_no_3_wandrers_nachtlied_d_76",
-   "source": "openscore-lieder",
-   "title": "4 Lieder, Op.96: Wandrers Nachtlied, D.768",
-   "url": "https://github.com/OpenScore/Lieder/blob/main/scores/Schubert%2C_Franz/4_Lieder%2C_Op.96/3_Wandrers_Nachtlied%2C_D.768",
-   "licence": "CC0"
-  },
-  {
-   "id": "schubert_op96_zweite_fassung",
-   "source": "mutopia",
-   "title": "Fischerweise",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1589",
-   "licence": "PD"
-  },
+ "schubert_op96_no_3_wandrers_nachtlied_d_76": [
   {
    "id": "schubert_op96_wanderers_nachtlied_ii_uber",
    "source": "pdmx",
@@ -18924,6 +18886,15 @@
    "title": "Wanderers Nachtlied II (Über allen Höhen)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "schubert_op96_no_4_fischerweise_d_881": [
+  {
+   "id": "schubert_op96_zweite_fassung",
+   "source": "mutopia",
+   "title": "Fischerweise",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1589",
+   "licence": "PD"
   }
  ],
  "schubert_pflicht_und_liebe_in_c_minor": [
@@ -19123,14 +19094,9 @@
    "title": "Kinderscenen - Wichtige Begebenheit",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=374",
    "licence": "CC-BY"
-  },
-  {
-   "id": "schumann_op15_schumann_kinderszenen_op_15",
-   "source": "pdmx",
-   "title": "Kinderszenen Op. 15",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+  }
+ ],
+ "schumann_op15_schumann_kinderszenen_op_15": [
   {
    "id": "schumann_op15_schumann_kinderszenen_op_15b2",
    "source": "pdmx",
@@ -20669,14 +20635,9 @@
    "title": "The Seasons: January",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1171",
    "licence": "PD"
-  },
-  {
-   "id": "tchaikovsky_op37_the_seasons_march_song_of_th",
-   "source": "pdmx",
-   "title": "The Seasons March: Song of the Lark Op. 37a No. 3 Pyotr Ilyich Tchaikovsky",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+  }
+ ],
+ "tchaikovsky_op37_the_seasons_march_song_of_th": [
   {
    "id": "tchaikovsky_op37_the_seasons_march_song_of_thb2",
    "source": "pdmx",
@@ -20780,6 +20741,15 @@
    "title": "Piano Concerto No. 1 1st Mvmt (arr. for 2 pianos)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "tchaikovsky_romeo_and_juliet": [
+  {
+   "id": "tchaikovsky_romeo_and_juliet_fantasy_oveb51",
+   "source": "pdmx",
+   "title": "Romeo and Juliet Fantasy Overture Tchaikovsky",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "tchaikovsky_s16_romance_opus_16_no_1": [
@@ -21561,6 +21531,15 @@
    "licence": "CC0"
   }
  ],
+ "unknown_abendlied": [
+  {
+   "id": "unknown_op30_abendlied",
+   "source": "mutopia",
+   "title": "Abendlied",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1539",
+   "licence": "CC-BY"
+  }
+ ],
  "unknown_in_der_ferne": [
   {
    "id": "unknown_in_der_ferneb2",
@@ -21579,87 +21558,10 @@
    "licence": "PD"
   },
   {
-   "id": "unknown_s100_die_jagd_the_chase",
-   "source": "mutopia",
-   "title": "La Chasse",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=220",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_fortschritt_progress",
-   "source": "mutopia",
-   "title": "Progrès",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=215",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_unschuld",
-   "source": "mutopia",
-   "title": "Innocence",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=214",
-   "licence": "PD"
-  },
-  {
    "id": "unknown_s100_aufrightigkeit_sincerity",
    "source": "mutopia",
    "title": "La Candeur",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=202",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_unruhe_restlessness",
-   "source": "mutopia",
-   "title": "Inquiétude",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=230",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_arabeske",
-   "source": "mutopia",
-   "title": "L'Arabesque",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=203",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_trost",
-   "source": "mutopia",
-   "title": "Consolation",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=224",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_anmut_gracefulness",
-   "source": "mutopia",
-   "title": "La Gracieuse",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=217",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_hirtenlied_pastoral",
-   "source": "mutopia",
-   "title": "La Pastorale",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=218",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_steierischer_tanz_styrian_da",
-   "source": "mutopia",
-   "title": "La Styrienne",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=225",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_zartes_blumlein_a_dainty_flo",
-   "source": "mutopia",
-   "title": "Tendre Fleur",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=221",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_klagelied_lamentation",
-   "source": "mutopia",
-   "title": "Douce Plainte",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=228",
    "licence": "PD"
   },
   {
@@ -21668,27 +21570,22 @@
    "title": "La Babillarde",
    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=229",
    "licence": "PD"
-  },
+  }
+ ],
+ "unknown_s100_arabeske": [
   {
-   "id": "unknown_s100_die_schaferin_the_sheperdess",
+   "id": "unknown_s100_anmut_gracefulness",
    "source": "mutopia",
-   "title": "La Bergeronnette",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=222",
+   "title": "La Gracieuse",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=217",
    "licence": "PD"
   },
   {
-   "id": "unknown_s100_kleine_gesellschaft_festive",
-   "source": "mutopia",
-   "title": "La Petite Réunion",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=219",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_rieselnder_bach_the_limpid_s",
-   "source": "mutopia",
-   "title": "Le Courant Limpide",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=216",
-   "licence": "PD"
+   "id": "burgmuller_l_arabesque",
+   "source": "pdmx",
+   "title": "L'arabesque",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "verdi_aida_atto_ii_gran_finale_sec": [
@@ -22620,22 +22517,6 @@
    "licence": "CC0"
   }
  ],
- "wagner_walkure_ride_of_the_valkyries": [
-  {
-   "id": "wagner_wwv86b_wagner_ride_of_the_valkryies",
-   "source": "pdmx",
-   "title": "Ride of the Valkryies from Akt 3 of Die Walkure. WWV 86B. [Professional production full score.] Unfinished.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "wagner_wwv86b_wagner_ride_of_the_valkryiesb2",
-   "source": "pdmx",
-   "title": "Ride of the Valkryies from Akt 3 of Die Walkure. WWV 86B. [Professional production full score.] Unfinished.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "wagner_wwv103_wagner_siegfried_idyll_wwv_1": [
   {
    "id": "wagner_wwv103_wagner_siegfried_idyll_wwv_1b2",
@@ -22645,14 +22526,7 @@
    "licence": "CC0"
   }
  ],
- "wagner_wwv111_parsifal_prelude": [
-  {
-   "id": "wagner_wwv111_wagner_parsifal_vorspiel_to",
-   "source": "pdmx",
-   "title": "Parsifal Vorspiel to Akt 1. WWV 111. {Professional production full score.}",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "wagner_wwv111_wagner_parsifal_vorspiel_to": [
   {
    "id": "wagner_wwv111_wagner_parsifal_vorspiel_tob2",
    "source": "pdmx",
@@ -22715,14 +22589,7 @@
    "licence": "CC0"
   }
  ],
- "wagner_wwv70_tannhauser_overture": [
-  {
-   "id": "wagner_wwv70_wagner_pilgerchor_aus_tannha",
-   "source": "pdmx",
-   "title": "Pilgerchor aus Tannhäuser (Horn Quartet)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "wagner_wwv70_wagner_pilgerchor_aus_tannha": [
   {
    "id": "wagner_wwv70_wagner_pilgerchor_aus_tannhab2",
    "source": "pdmx",
@@ -22731,14 +22598,7 @@
    "licence": "CC0"
   }
  ],
- "wagner_wwv75_elsa_procession": [
-  {
-   "id": "wagner_wwv75_wagner_lohengrin_vorspiel_to",
-   "source": "pdmx",
-   "title": "Lohengrin Vorspiel to Akt 1. WWV 75. {Professional production full score.}",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "wagner_wwv75_wagner_lohengrin_vorspiel_to": [
   {
    "id": "wagner_wwv75_wagner_lohengrin_vorspiel_tob2",
    "source": "pdmx",
@@ -22765,6 +22625,15 @@
    "licence": "CC0"
   }
  ],
+ "wagner_wwv86b_wagner_ride_of_the_valkryies": [
+  {
+   "id": "wagner_wwv86b_wagner_ride_of_the_valkryiesb2",
+   "source": "pdmx",
+   "title": "Ride of the Valkryies from Akt 3 of Die Walkure. WWV 86B. [Professional production full score.] Unfinished.",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "wagner_wwv86c_wagner_siegfried_akt_2_siegf": [
   {
    "id": "wagner_wwv86c_wagner_siegfried_akt_2_siegfb2",
@@ -22774,14 +22643,7 @@
    "licence": "CC0"
   }
  ],
- "wagner_wwv86d_siegfried_funeral_march": [
-  {
-   "id": "wagner_wwv86d_wagner_gotterdammerung_vorsp",
-   "source": "pdmx",
-   "title": "Gotterdammerung Vorspiel to Akt 2. WWV 86D. {Professional production full score.}",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "wagner_wwv86d_wagner_gotterdammerung_vorsp": [
   {
    "id": "wagner_wwv86d_wagner_gotterdammerung_vorspb2",
    "source": "pdmx",
@@ -22815,14 +22677,7 @@
    "licence": "CC0"
   }
  ],
- "wagner_wwv96_meistersinger_prelude": [
-  {
-   "id": "wagner_wwv96_richard_wagner_ende_zu_die_m",
-   "source": "pdmx",
-   "title": "ENDE.zu.DIE MEISTERSINGER in Full score. WWV 96.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "wagner_wwv96_richard_wagner_ende_zu_die_m": [
   {
    "id": "wagner_wwv96_richard_wagner_ende_zu_die_mb2",
    "source": "pdmx",

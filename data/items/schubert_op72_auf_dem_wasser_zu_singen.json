@@ -60,7 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_op72_auf_dem_wasser_zu_singen.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "schubert_auf_dem_wasser_zu_singen",
+   "source": "pdmx",
+   "title": "Auf Dem Wasser Zu Singen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "schubert_auf_dem_wasser_zu_singenb2",
+   "source": "pdmx",
+   "title": "Auf Dem Wasser Zu Singen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_op72_auf_dem_wasser_zu_singen",

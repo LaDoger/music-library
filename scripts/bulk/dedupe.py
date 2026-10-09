@@ -27,6 +27,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
+from difflib import SequenceMatcher
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -137,6 +138,9 @@ def title_key(title: str, composer: str) -> str:
     for pat in TITLE_NOISE:
         text = re.sub(pat, " ", text)
     text = re.sub(r"\b(?:no|nr|n|num|number)\.?\s*(?=\d)", " ", text)  # keep the number itself
+    head = re.sub(r"\s+from\s+[a-z' ]+$", "", text)  # "... from 'Peer Gynt'"
+    if len(re.sub(r"[^a-z0-9]", "", head)) >= 8:
+        text = head
     text = re.sub(r"\b(in [a-g](?: (?:flat|sharp|b|#))?(?: (?:major|minor|maj|min|dur|moll))?)\b", " ", text)
     text = re.sub(r"\b(major|minor|the|a|an|no|num|number)\b", " ", text)
     return re.sub(r"[^a-z0-9]", "", text)
@@ -286,11 +290,24 @@ def dedupe(curated: list[dict], bulk: list[dict]):
         named = found - {":"}
         if ":" in found and len(named) == 1:
             buckets[("cat", comp, key, named.pop())] += buckets.pop(("cat", comp, key, ":"))
+    # A title-only row joins the one catalogued piece with the same title ("In the Hall of the Mountain King").
+    titled = defaultdict(set)
+    for rid, (comp, cat, tkey, mov, _) in meta.items():
+        if comp and cat and len(tkey) >= 8:
+            titled[(comp, tkey)].add(("cat", comp, cat, mov))
+    for key in [k for k in buckets if k[0] == "title"]:
+        hits = titled.get((key[1], key[2]), set())
+        if len(hits) == 1:
+            target = next(iter(hits))
+            if target in buckets:
+                buckets[target] += buckets.pop(key)
     for bucket in buckets.values():
         for i, a in enumerate(bucket):
             for b in bucket[i + 1:]:
                 num_a, num_b = meta[a][4], meta[b][4]
                 if num_a - num_b and num_b - num_a:  # BWV 1079 "Ricercar a 6" vs "Canon a 2"
+                    continue
+                if not titles_close(meta[a][2], meta[b][2]):  # Op. 46: "Morning Mood" vs "Mountain King"
                     continue
                 groups.union(a, b)
                 reason.setdefault((a, b), ("A", 1.0))
@@ -344,6 +361,12 @@ def dedupe(curated: list[dict], bulk: list[dict]):
         if r["id"] not in dropped:
             kept.append(r)
     return kept, dict(editions), manifest, _stats(rows, dropped)
+
+
+def titles_close(a: str, b: str) -> bool:
+    if not a or not b or a in b or b in a:
+        return True
+    return SequenceMatcher(None, a, b).ratio() >= 0.6
 
 
 def _b_compatible(a: tuple, b: tuple) -> bool:

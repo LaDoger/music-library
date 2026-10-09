@@ -40,8 +40,7 @@
  "preview_url": "",
  "score_url": "files/scores/bach_bwv862_bwv_862.mid",
  "score_files": [
-  "files/scores/bach_bwv862_bwv_862.mid",
-  "files/scores/bach_bwv862_bwv_862_the_well_tempered_clb51.mid"
+  "files/scores/bach_bwv862_bwv_862.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -61,15 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv862_bwv_862.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv862_bwv_862_the_well_tempered_clb51",
-   "source": "pdmx",
-   "title": "BWV 862 The Well-Tempered Clavier Part I Praeludium XVII",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv862_bwv_862",
@@ -77,8 +68,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv862_bwv_862.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv862_bwv_862.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv862_bwv_862_the_well_tempered_clb51.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv862_bwv_862.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv862_bwv_862.mid",
  "render_midi": {

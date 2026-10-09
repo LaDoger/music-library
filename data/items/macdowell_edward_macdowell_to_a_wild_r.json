@@ -60,7 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/macdowell_edward_macdowell_to_a_wild_r.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "macdowell_op51no1_to_a_wild_rose_arranged_for",
+   "source": "pdmx",
+   "title": "To A Wild Rose arranged for Violin Solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=macdowell_edward_macdowell_to_a_wild_r",

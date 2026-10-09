@@ -57,22 +57,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1031_siciliano.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv1031_bach_flute_sonata_no_3_largo",
-   "source": "pdmx",
-   "title": "Flute Sonata No. 3 Largo e Dolce",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_bwv1031_bach_flute_sonata_no_3_largob2",
-   "source": "pdmx",
-   "title": "Flute Sonata No. 3 Largo e Dolce",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1031_siciliano",

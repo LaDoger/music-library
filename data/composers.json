@@ -1422,8 +1422,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 12,
-  "score_count": 12,
+  "piece_count": 11,
+  "score_count": 11,
   "recording_count": 0,
   "piece_ids": [
    "arne_a_favorite_glee_to_soften_ca",
@@ -1436,8 +1436,7 @@
    "arne_the_family_quarrel",
    "arne_the_miller_of_mansfield",
    "arne_the_weeders",
-   "arne_thou_soft_flowing_avon",
-   "unknown_o1414_rule_britannia"
+   "arne_thou_soft_flowing_avon"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -1539,8 +1538,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 499,
-  "score_count": 499,
+  "piece_count": 503,
+  "score_count": 503,
   "recording_count": 2,
   "piece_ids": [
    "bach_bwv1007_prelude",
@@ -1740,7 +1739,6 @@
    "bach_cpebach_cembalo_concerto_wq",
    "bach_canon_in_d",
    "bach_bach_cantata_80_bass_soprano",
-   "bach_bach_cello_suite_no_5_saraba",
    "bach_bach_cello_suite_no_2_in_d_m",
    "bach_cello_suite_no_6_sarabande_f",
    "bach_cellosuite_no_1_in_g_major_f",
@@ -1764,7 +1762,6 @@
    "bach_gavotte",
    "bach_hai_umat_nyanyilah",
    "bach_ix_preludio",
-   "bach_ich_dank_dir_lieber_herre_ba",
    "bach_ich_steh_an_deiner_krippen_h",
    "bach_in_dulci_jubilo",
    "bach_invencion_i",
@@ -1785,7 +1782,6 @@
    "bach_menuett",
    "bach_minue_g_bach_duo",
    "bach_minuet_1",
-   "bach_minuet_in_g_minor_from_anna",
    "bach_minuet_no_3_trio_of_cellos",
    "bach_minueto_v",
    "bach_minueto_de_bach_violao",
@@ -1829,12 +1825,14 @@
    "bach_bwv1002_bourree_bwv_1002_johann_seba",
    "bach_bwv1004_bwv_1004_violin_partita_no_2",
    "bach_bwv1006_gavotte_en_rondo_from_partit",
+   "bach_bwv1007_suite_no_1_full_bach_recorde",
    "bach_bwv1008_bwv_1008_cello_suite_no_2_in",
    "bach_bwv1009_j_s_bach_cello_suite_n_3_bwv",
    "bach_bwv1012_bwv_1012_cello_suite_no_6_in",
    "bach_bwv1014_bwv_1014_sonata_for_violin_a",
    "bach_bwv1015_bwv_1015_sonata_for_violin_a",
    "bach_bwv1027_bwv_1027_sonata_for_viola_da",
+   "bach_bwv1031_bach_flute_sonata_no_3_largo",
    "bach_bwv1032_bach_flute_sonata_in_a_major",
    "bach_bwv1034_bwv_1034_flute_sonata_in_e_m",
    "bach_bwv1035_bwv_1035_flute_sonata_in_e_m",
@@ -1860,6 +1858,8 @@
    "bach_bwv1065_bwv_1065_concerto_for_four_h",
    "bach_bwv1066_johann_sebastian_bach_marsch",
    "bach_bwv1067_menuet_et_badinerie_bwv_1067",
+   "bach_bwv1068_from_suite_no_3_in_d_bwv_106",
+   "bach_bwv1068_orchestal_suite_no_3_ii_aria",
    "bach_bwv1073_canon_a_2_per_tonos",
    "bach_bwv1087_14_canons_on_the_goldberg_gr",
    "bach_bwv136_cantate_bwv_136_erforsche_mi",
@@ -1955,6 +1955,7 @@
    "bach_bwv830_bwv_830_partita_vi_air",
    "bach_bwv841_bach_minuets_in_g_gm_for_flu",
    "bach_bwv842_menuet_g_moll_bwv_842",
+   "bach_bwv847_bach_wtc_fugue_2_in_cm_bwv_8",
    "bach_bwv848_bwv_848_the_well_tempered_cl",
    "bach_bwv849_bwv_849_the_well_tempered_cl",
    "bach_bwv849_a_5_voci",
@@ -1966,6 +1967,7 @@
    "bach_bwv857_bwv_857_the_well_tempered_cl",
    "bach_bwv858_bwv_858_the_well_tempered_cl",
    "bach_bwv859_bwv_859_the_well_tempered_cl",
+   "bach_bwv862_bwv_862_the_well_tempered_clb51",
    "bach_bwv862_bwv_862",
    "bach_bwv864_bwv_864_the_well_tempered_cl",
    "bach_bwv868_bwv_868_the_well_tempered_cl",
@@ -2011,6 +2013,7 @@
    "bach_bwv988_bwv_988_goldberg_variations",
    "bach_bwv989_aria_variata_alla_maniera_it",
    "bach_bwv994_applicatio",
+   "bach_bwv996_j_s_bach_bourree_in_e_minor",
    "bach_bwv997_5_double",
    "bach_bwv998_bwv_998_prelude_fugue_and_al",
    "bach_bwvanh109_johann_sebastian_bach_fuga_c",
@@ -2692,8 +2695,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 166,
-  "score_count": 165,
+  "piece_count": 164,
+  "score_count": 163,
   "recording_count": 1,
   "piece_ids": [
    "brahms_hungarian_dance_5",
@@ -2707,8 +2710,6 @@
    "brahms_der_abend_neo_choir",
    "brahms_hungarian_dance_no_5_pag_1",
    "brahms_hungarian_dance_no_5_bass_ar",
-   "brahms_hungarian_dance_no_5_in_f_mi",
-   "brahms_hungarian_dance_in_g_minor_n",
    "brahms_hungarian_dances_no_5_yg",
    "brahms_in_stiller_nacht",
    "brahms_waldesnacht",
@@ -2968,11 +2969,10 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 5,
-  "score_count": 5,
+  "piece_count": 4,
+  "score_count": 4,
   "recording_count": 0,
   "piece_ids": [
-   "burgmuller_l_arabesque",
    "burgmuller_le_courant_limpide_the_cryst",
    "burgmuller_nocturne_n1",
    "burgmuller_op100no2_burgmuller_arabesque_op_100",
@@ -2995,11 +2995,24 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 1,
-  "score_count": 1,
+  "piece_count": 14,
+  "score_count": 14,
   "recording_count": 0,
   "piece_ids": [
-   "unknown_s100_abschied_farewell"
+   "unknown_s100_trost",
+   "unknown_s100_klagelied_lamentation",
+   "unknown_s100_unschuld",
+   "unknown_s100_unruhe_restlessness",
+   "unknown_s100_abschied_farewell",
+   "unknown_s100_arabeske",
+   "unknown_s100_die_schaferin_the_sheperdess",
+   "unknown_s100_die_jagd_the_chase",
+   "unknown_s100_hirtenlied_pastoral",
+   "unknown_s100_kleine_gesellschaft_festive",
+   "unknown_s100_steierischer_tanz_styrian_da",
+   "unknown_s100_rieselnder_bach_the_limpid_s",
+   "unknown_s100_fortschritt_progress",
+   "unknown_s100_zartes_blumlein_a_dainty_flo"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -3371,15 +3384,14 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 93,
-  "score_count": 92,
+  "piece_count": 92,
+  "score_count": 91,
   "recording_count": 3,
   "piece_ids": [
    "chopin_op10_12_revolutionary",
    "chopin_op28_15_raindrop",
    "chopin_op9_2_nocturne",
    "chopin_casta_diva",
-   "chopin_marche_funebre",
    "chopin_mazurka_23_fr",
    "chopin_chopin_mazurka_op_posth_68_n",
    "chopin_polonaise_in_g_minor",
@@ -4260,8 +4272,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 43,
-  "score_count": 43,
+  "piece_count": 42,
+  "score_count": 42,
   "recording_count": 0,
   "piece_ids": [
    "faure_apres_un_reve",
@@ -4283,7 +4295,6 @@
    "faure_op48_requiem_in_d_minor_op_48_gab",
    "faure_op56_berceuse",
    "faure_op65no2_tantum_ergo_op_65_no_2_gabri",
-   "faure_op11_cantique_de_jean_racine",
    "faure_op121_string_quartet_op_121",
    "faure_op16_berceuse_flute_and_guitar_du",
    "faure_op21_no_3_adieu",
@@ -5260,7 +5271,6 @@
    "grieg_grieg_edvard_solvejgs_song",
    "grieg_hilsen_gruss_edward_grieg",
    "grieg_in_hall_of_the_mountain_king",
-   "grieg_in_the_hall_of_the_mountain",
    "grieg_inga_litamor",
    "grieg_last_spring_grieg_arr_solo_g",
    "grieg_no_ser_er_atter_slike_fjell",
@@ -5290,6 +5300,7 @@
    "grieg_op30_mandssang_jeg_lagde_mig_sa_s",
    "grieg_op38no4_edvard_grieg_lyric_pieces_op",
    "grieg_op40_grieg_holberg_suite_v_rigaud",
+   "grieg_op46_peer_gynt_morning_mood",
    "grieg_op7_grieg_sonata_in_e_minor_move",
    "grieg_d02_la_mort_d_ase",
    "grieg_l1901_til_ole_bull_ttbb_grieg",
@@ -5382,8 +5393,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 97,
-  "score_count": 96,
+  "piece_count": 98,
+  "score_count": 97,
   "recording_count": 1,
   "piece_ids": [
    "handel_hwv349_hornpipe",
@@ -5463,6 +5474,7 @@
    "handel_hwv348_air_from_watermusic",
    "handel_hwv350_minuet_water_music_hwv_350",
    "handel_hwv351_des_feux_d_artifice_royaux",
+   "handel_hwv351_music_for_the_royal_firework",
    "handel_hwv361_sonata_3_hwv_361",
    "handel_hwv363b_haendel_hwv_363b_bourree_for",
    "handel_hwv374_flute_sonata_in_a_minor_hwv",
@@ -5472,12 +5484,12 @@
    "handel_hwv437_saraband_georg_friedrich_han",
    "handel_hwv491_gavotte_in_g_major",
    "handel_hwv494_impertinence_hwv_494_haendel",
+   "handel_hwv56_handel_worthy_is_the_lamb_fr",
    "handel_hwv57_handel_hwv_57_samson_total_e",
    "handel_hwv58_furie_terribili",
    "handel_hwv585_sonatina_in_b_flat_major",
    "handel_hwv607_fugue_in_ba_major",
    "handel_hwv63_judas_maccabeus_thine_be_the",
-   "handel_hwv67_the_arrival_of_the_queen_of",
    "handel_hwv7_lascia_ch_io_pianga_g_f_hand",
    "handel_hwv74_royal_wedding_2018_the_bride",
    "handel_hwv7a_handel_rinaldo_lascia_ch_io",
@@ -6801,14 +6813,13 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 4,
-  "score_count": 4,
+  "piece_count": 3,
+  "score_count": 3,
   "recording_count": 0,
   "piece_ids": [
    "macdowell_edward_macdowell_to_a_wild_r",
    "macdowell_edward_mcdowell_to_a_wild_ro",
-   "macdowell_op51no8_8_a_deserted_farm",
-   "macdowell_op51no1_to_a_wild_rose_arranged_for"
+   "macdowell_op51no8_8_a_deserted_farm"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -7027,8 +7038,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 97,
-  "score_count": 96,
+  "piece_count": 98,
+  "score_count": 97,
   "recording_count": 1,
   "piece_ids": [
    "mendelssohn_op26_hebrides",
@@ -7070,6 +7081,7 @@
    "mendelssohn_cia",
    "mendelssohn_bwv416_vater_unser_im_himmelreich_m",
    "mendelssohn_o36_allein_gott_in_der_hoh_sei_e",
+   "mendelssohn_o36_textit_paulus_oratorio_nr_9",
    "mendelssohn_op64_violin_concerto_in_e_minor_o",
    "mendelssohn_op115_zwei_geistliche_choere_fur_v",
    "mendelssohn_op16_scherzo_in_e_minor",
@@ -7332,8 +7344,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 187,
-  "score_count": 186,
+  "piece_count": 189,
+  "score_count": 188,
   "recording_count": 2,
   "piece_ids": [
    "mozart_k331_rondo_turca",
@@ -7467,6 +7479,7 @@
    "mozart_k384_o_wie_will_ich_triumphieren",
    "mozart_k395_il_capro_e_la_capretta",
    "mozart_k439_due_pupille_amabili_mozart_s",
+   "mozart_k457_mozart_klaviersonate_kv_457",
    "mozart_k492_the_marriage_of_figaro_overt",
    "mozart_k499_string_quartet_no_20_in_d_ma",
    "mozart_k501_mozart_andante_with_5_variat",
@@ -7481,7 +7494,6 @@
    "mozart_k589_string_quartet_no_22_in_b_fl",
    "mozart_k590_string_quartet_no_23_in_f_ma",
    "mozart_k605_3_german_dances_no_3_sleigh",
-   "mozart_k618_ave_verum_corpus_mozart",
    "mozart_k620_arie_des_papageno",
    "mozart_k622_mozart_clarinet_concerto_no",
    "mozart_k80_string_quartet_no_1_in_g_maj",
@@ -7497,10 +7509,12 @@
    "mozart_k467_mozart_piano_concerto_no_21",
    "mozart_k5_w_a_mozart_minuet_in_f_major",
    "mozart_k6_fragment",
+   "mozart_k6_w_a_mozart_sonata_in_c_major",
    "mozart_k94_minuet_in_d_major_k94_73h_by",
    "mozart_k14_mozart_sonata_kv_14",
    "mozart_k309_piano_sonata_in_c_major_kv_3",
    "mozart_k31_sonata_kv_31",
+   "mozart_k331_sonate_opus_kv_331_tema",
    "mozart_k336_wolfgang_amadeus_mozart_chur",
    "mozart_k346_luci_care_luci_belle",
    "mozart_k397_kv_397_385g",
@@ -8760,8 +8774,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 14,
-  "score_count": 12,
+  "piece_count": 15,
+  "score_count": 13,
   "recording_count": 2,
   "piece_ids": [
    "rimskykorsakov_flight_of_the_bumblebee",
@@ -8777,7 +8791,8 @@
    "rimskykorsakov_hvalite_gospoda_s_nebes_no_1",
    "rimskykorsakov_procession_of_the_nobles_fro",
    "rimskykorsakov_op17_rimsky_korsakov_fugue_6_op_1",
-   "rimskykorsakov_op34_capriccio_espagnol_op_34_nik"
+   "rimskykorsakov_op34_capriccio_espagnol_op_34_nik",
+   "rimskykorsakov_op35_rimsky_korsakov_scheherazade"
   ],
   "wikidata": "Q93227",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nikolai_A._Rimsky-Korsakov.jpg/330px-Nikolai_A._Rimsky-Korsakov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -8880,8 +8895,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 32,
-  "score_count": 29,
+  "piece_count": 33,
+  "score_count": 30,
   "recording_count": 3,
   "piece_ids": [
    "saintsaens_carnival_aquarium",
@@ -8913,6 +8928,7 @@
    "saintsaens_op22_saint_saens_2nd_piano_concer",
    "saintsaens_op28_introduction_and_rondo_capri",
    "saintsaens_op33_concerto_no_1_in_a_minor_sai",
+   "saintsaens_op47_danse_bacchanale_vc",
    "saintsaens_op52_fugue_en_fa_mineur_saint_sae",
    "saintsaens_op36_romance_pour_cor",
    "saintsaens_s40_danse_macabre"
@@ -8985,8 +9001,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 46,
-  "score_count": 46,
+  "piece_count": 44,
+  "score_count": 44,
   "recording_count": 1,
   "piece_ids": [
    "satie_gnossienne_1",
@@ -9003,9 +9019,7 @@
    "satie_gnossienne_n2_solo",
    "satie_erik_satie_gnossienne_no_4",
    "satie_erik_satie_gnossienne_no_3",
-   "satie_erik_satie_gnossienne_n1",
    "satie_gymnopedie_no_1_guitar",
-   "satie_gymnopedie_no_1_by_satie_tra",
    "satie_gymnopedie_no_2",
    "satie_gymnopedie_no_3",
    "satie_je_te_veux_for_cello_triob51",
@@ -9208,14 +9222,13 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 190,
-  "score_count": 190,
+  "piece_count": 191,
+  "score_count": 191,
   "recording_count": 1,
   "piece_ids": [
    "schubert_d328_erlkonig",
    "schubert_am_brunnen_vor_dem_tore",
    "schubert_an_die_musik_accompaniment",
-   "schubert_auf_dem_wasser_zu_singen",
    "schubert_beguine_no_1",
    "schubert_der_lindenbaum_satb",
    "schubert_erlkonig_elf_king_clarinet",
@@ -9366,6 +9379,7 @@
    "schubert_op23_selige_welt",
    "schubert_op3_heidenroslein",
    "schubert_op31_suleika_2",
+   "schubert_op4_der_wanderer",
    "schubert_op4_zweite_fassung",
    "schubert_op43_nacht_und_traume",
    "schubert_op50no13_vals_no_13",
@@ -9400,6 +9414,7 @@
    "schubert_op96_no_1_die_sterne_d_939",
    "schubert_op96_no_4_fischerweise_d_881",
    "schubert_op96_no_2_jagers_liebeslied_d_909",
+   "schubert_op96_no_3_wandrers_nachtlied_d_76",
    "schubert_op137_sonatina_op_137_1_allegro_f",
    "schubert_s94_moment_musicaux_no_3_in_f_mi"
   ],
@@ -9459,8 +9474,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 122,
-  "score_count": 122,
+  "piece_count": 123,
+  "score_count": 123,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -9473,6 +9488,7 @@
    "schumann_op10no5_concert_etude_after_paganini",
    "schumann_op10no6_concert_etude_after_paganini",
    "schumann_op15_curiose_geschichte",
+   "schumann_op15_schumann_kinderszenen_op_15",
    "schumann_op29no3_zigeunerleben_op_29_no_3_rob",
    "schumann_op3no1_etude_after_paganini_s_5th_c",
    "schumann_op3no2_etude_after_paganini_s_9th_c",
@@ -10367,7 +10383,6 @@
    "tchaikovsky_old_french_songb2",
    "tchaikovsky_old_french_song_fhorn_trombo",
    "tchaikovsky_pas_de_deux_from_the_nutcrac",
-   "tchaikovsky_romeo_and_juliet_fantasy_oveb51",
    "tchaikovsky_tchaikovsky_romeo_and_juliet",
    "tchaikovsky_sleeping_beauty_duet_waltz_b",
    "tchaikovsky_tetris_theme_a_fast",
@@ -10377,6 +10392,7 @@
    "tchaikovsky_op20_swan_lake_op_20_act_iv_no_29",
    "tchaikovsky_op22_tchaikovsky_quartet_2",
    "tchaikovsky_op35_pyotr_tchaikovsky_violin_con",
+   "tchaikovsky_op37_the_seasons_march_song_of_th",
    "tchaikovsky_op39_march_of_the_wooden_soldiers",
    "tchaikovsky_op59_scene_rustique_russe",
    "tchaikovsky_op11_string_quartet_no_1_op_11",
@@ -11039,12 +11055,11 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 2,
-  "score_count": 2,
+  "piece_count": 1,
+  "score_count": 1,
   "recording_count": 0,
   "piece_ids": [
-   "unknown_abendlied",
-   "unknown_op30_abendlied"
+   "unknown_abendlied"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -11086,8 +11101,8 @@
   "genres": [
    "classical"
   ],
-  "piece_count": 41,
-  "score_count": 38,
+  "piece_count": 47,
+  "score_count": 44,
   "recording_count": 3,
   "piece_ids": [
    "wagner_lohengrin_bridal_chorus",
@@ -11116,21 +11131,27 @@
    "wagner_wagner_richard_das_brautlied",
    "wagner_richard_wagner_symphony_in_c",
    "wagner_wwv103_wagner_siegfried_idyll_wwv_1",
+   "wagner_wwv111_wagner_parsifal_vorspiel_to",
    "wagner_wwv21_wagner_pianoforte_sonate_im",
    "wagner_wwv29_wagner_symphony_in_c_major_w",
    "wagner_wwv42_richard_wagner_rule_britanni",
    "wagner_wwv49_wagner_rienzi_overture_to_ak",
    "wagner_wwv59_wagner_a_faust_overture_wwv",
    "wagner_wwv63_wagner_der_fleigende_holland",
+   "wagner_wwv70_wagner_pilgerchor_aus_tannha",
+   "wagner_wwv75_wagner_lohengrin_vorspiel_to",
    "wagner_wwv84_polka_in_g_major_r_wagner_ww",
    "wagner_wwv86a_wagner_vorspiel_to_das_rhein",
+   "wagner_wwv86b_wagner_ride_of_the_valkryies",
    "wagner_wwv86c_wagner_siegfried_akt_2_siegf",
+   "wagner_wwv86d_wagner_gotterdammerung_vorsp",
    "wagner_wwv91_no_1_der_engel",
    "wagner_wwv91_no_3_im_treibhaus",
    "wagner_wwv91_no_4_schmerzen",
    "wagner_wwv91_no_2_stehe_still",
    "wagner_wwv91_no_5_traume",
-   "wagner_wwv93_wagner_elegy_for_piano_in_ab"
+   "wagner_wwv93_wagner_elegy_for_piano_in_ab",
+   "wagner_wwv96_richard_wagner_ende_zu_die_m"
   ],
   "wikidata": "Q1511",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/330px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

@@ -63,7 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/arne_rule_britannia.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "unknown_o1414_rule_britannia",
+   "source": "mutopia",
+   "title": "Rule Britannia",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=574",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=arne_rule_britannia",
