@@ -1,0 +1,11 @@
+files/audio/
+logs/
+parts/
+briefs/
+scripts/__pycache__/
+*.pyc
+.DS_Store
+.tmp/
+release_staging/
+node_modules/
+dist/
