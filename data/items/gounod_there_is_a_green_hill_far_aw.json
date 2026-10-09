@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_there_is_a_green_hill_far_aw.mid",
+ "other_editions": [
+  {
+   "id": "gounod_there_is_a_green_hill_far_awb2",
+   "source": "pdmx",
+   "title": "There is a green hill far away",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_there_is_a_green_hill_far_aw",

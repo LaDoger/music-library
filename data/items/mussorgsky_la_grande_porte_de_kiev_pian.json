@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mussorgsky_la_grande_porte_de_kiev_pian.mid",
+ "other_editions": [
+  {
+   "id": "mussorgsky_la_grande_porte_de_kiev_pianb2",
+   "source": "pdmx",
+   "title": "La grande porte de Kiev (piano 8 mains)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mussorgsky_la_grande_porte_de_kiev_pian",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/foster_de_camptown_races_ttbb.mid",
+ "other_editions": [
+  {
+   "id": "foster_de_camptown_races_ttbbb2",
+   "source": "pdmx",
+   "title": "De Camptown Races - TTBB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=foster_de_camptown_races_ttbb",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/hensel_wenn_ich_mir_in_stiller_seel.mid",
+ "other_editions": [
+  {
+   "id": "hensel_wenn_ich_mir_in_stiller_seelb2",
+   "source": "pdmx",
+   "title": "Wenn ich mir in stiller Seele",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=hensel_wenn_ich_mir_in_stiller_seel",

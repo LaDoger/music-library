@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_zu_rauch.mid",
+ "other_editions": [
+  {
+   "id": "brahms_zu_rauchb2",
+   "source": "pdmx",
+   "title": "Zu Rauch",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_zu_rauch",

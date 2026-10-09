@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tallis_all_people_that_on_earth_do.mid",
+ "other_editions": [
+  {
+   "id": "tallis_all_people_that_on_earth_dob2",
+   "source": "pdmx",
+   "title": "All people that on earth do dwell - Anonymous (formerly attributed to Thomas Tallis)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tallis_all_people_that_on_earth_do",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/paganini_op1no11_solo_violin_caprice_no_11_in.mid",
+ "other_editions": [
+  {
+   "id": "paganini_op1no11_solo_violin_caprice_no_11_inb2",
+   "source": "pdmx",
+   "title": "Solo Violin Caprice No. 11 in C Major - N. Paganini Op. 1 No. 11",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=paganini_op1no11_solo_violin_caprice_no_11_in",

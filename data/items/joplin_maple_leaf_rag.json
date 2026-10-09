@@ -40,7 +40,9 @@
  "preview_url": "",
  "score_url": "files/scores/joplin_maple_leaf_rag.mid",
  "score_files": [
-  "files/scores/joplin_maple_leaf_rag.mid"
+  "files/scores/joplin_maple_leaf_rag.mid",
+  "files/scores/joplin_maple_leaf_rag_piano_duetb51.mid",
+  "files/scores/joplin_maple_leaf_rag_scott_joplinb51.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -60,6 +62,43 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/joplin_maple_leaf_rag.mid",
+ "other_editions": [
+  {
+   "id": "joplin_maple_leaf_ragb2",
+   "source": "pdmx",
+   "title": "Maple Leaf Rag",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "joplin_joplination_a_scott_joplin_m",
+   "source": "pdmx",
+   "title": "Joplination (A Scott Joplin music compilation)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "joplin_joplination_a_scott_joplin_mb2",
+   "source": "pdmx",
+   "title": "Joplination (A Scott Joplin music compilation)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "joplin_maple_leaf_rag_piano_duetb51",
+   "source": "pdmx",
+   "title": "Maple Leaf Rag - Piano Duet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "joplin_maple_leaf_rag_scott_joplinb51",
+   "source": "pdmx",
+   "title": "Maple Leaf Rag",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=joplin_maple_leaf_rag",
@@ -67,7 +106,9 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid"
+  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
+  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag_piano_duetb51.mid",
+  "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag_scott_joplinb51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/joplin_maple_leaf_rag.mid",
  "render_midi": {

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_allegro_molto_in_c_major_w_a.mid",
+ "other_editions": [
+  {
+   "id": "mozart_allegro_molto_in_c_major_w_ab2",
+   "source": "pdmx",
+   "title": "Allegro Molto in C Major - W.A. Mozart",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_allegro_molto_in_c_major_w_a",

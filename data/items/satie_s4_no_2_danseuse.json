@@ -63,6 +63,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_s4_no_2_danseuse.mid",
+ "other_editions": [
+  {
+   "id": "satie_ii_danseuse_erik_satie",
+   "source": "pdmx",
+   "title": "II. Danseuse Erik Satie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "satie_ii_danseuse_erik_satieb2",
+   "source": "pdmx",
+   "title": "II. Danseuse Erik Satie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_s4_no_2_danseuse",

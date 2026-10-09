@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv661_nun_komm_der_heiden_heiland.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv661_nun_komm_der_heiden_heilandb2",
+   "source": "pdmx",
+   "title": "Nun komm der Heiden Heiland BWV 661 (chorale prelude)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv661_nun_komm_der_heiden_heiland",

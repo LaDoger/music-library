@@ -57,6 +57,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv805_duetto4.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv805_bwv_805",
+   "source": "mutopia",
+   "title": "Duetto IV",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1598",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv805_duetto4",

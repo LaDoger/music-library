@@ -2,7 +2,7 @@
  "id": "mozart_k285_mozart_flute_quartet_in_d_fo",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Mozart Flute Quartet in D For Flute and Piano K285",
+ "title": "Flute Quartet in D For Flute and Piano K285",
  "catalog": "K285",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k285_mozart_flute_quartet_in_d_fo.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k285_mozart_flute_quartet_in_d_fob2",
+   "source": "pdmx",
+   "title": "Flute Quartet in D For Flute and Piano K285",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k285_mozart_flute_quartet_in_d_fo",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Mozart Flute Quartet in D For Flute and Piano K285, K285 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Wolfgang Amadeus Mozart: Flute Quartet in D For Flute and Piano K285, K285 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -2,7 +2,7 @@
  "id": "gesualdo_o_crux_benedicta_carlo_gesua",
  "composer": "Carlo Gesualdo",
  "death_year": "1613",
- "title": "O Crux benedicta - Carlo Gesualdo",
+ "title": "O Crux benedicta",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gesualdo_o_crux_benedicta_carlo_gesua.mid",
+ "other_editions": [
+  {
+   "id": "gesualdo_o_crux_benedicta_carlo_gesuab2",
+   "source": "pdmx",
+   "title": "O Crux benedicta",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gesualdo_o_crux_benedicta_carlo_gesua",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Carlo Gesualdo: O Crux benedicta - Carlo Gesualdo (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Carlo Gesualdo: O Crux benedicta (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -2,7 +2,7 @@
  "id": "chopin_op15_nocturne_no_2_opus_9_chopin",
  "composer": "Frédéric Chopin",
  "death_year": "1849",
- "title": "Nocturne No. 2 Opus 9 (Chopin)",
+ "title": "Nocturne No. 2 Opus 9",
  "catalog": "Op.15",
  "movement": "",
  "mood_tags": "nocturnal;gentle",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op15_nocturne_no_2_opus_9_chopin.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op15_nocturne_no_2_opus_9_chopinb2",
+   "source": "pdmx",
+   "title": "Nocturne No. 2 Opus 9",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op15_nocturne_no_2_opus_9_chopin",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Frédéric Chopin: Nocturne No. 2 Opus 9 (Chopin), Op.15 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Frédéric Chopin: Nocturne No. 2 Opus 9, Op.15 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

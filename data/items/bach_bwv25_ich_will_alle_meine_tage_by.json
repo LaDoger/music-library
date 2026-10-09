@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv25_ich_will_alle_meine_tage_by.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv25_ich_will_alle_meine_tage_byb2",
+   "source": "pdmx",
+   "title": "Ich Will Alle Meine Tage by J.S. Bach (Es ist nichts Gesundes an meinem Leibe BWV 25 6 Chorale)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv25_ich_will_alle_meine_tage_by",

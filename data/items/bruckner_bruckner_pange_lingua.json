@@ -2,7 +2,7 @@
  "id": "bruckner_bruckner_pange_lingua",
  "composer": "Anton Bruckner",
  "death_year": "1896",
- "title": "Bruckner - Pange Lingua",
+ "title": "Pange Lingua",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bruckner_bruckner_pange_lingua.mid",
+ "other_editions": [
+  {
+   "id": "bruckner_bruckner_pange_linguab2",
+   "source": "pdmx",
+   "title": "Pange Lingua",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bruckner_wab33_pange_lingua_tantum_ergo_phr",
+   "source": "pdmx",
+   "title": "Pange lingua - Tantum ergo (Phrygian) WAB 33",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "bruckner_wab33_pange_lingua_tantum_ergo_phrb2",
+   "source": "pdmx",
+   "title": "Pange lingua - Tantum ergo (Phrygian) WAB 33",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bruckner_bruckner_pange_lingua",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Anton Bruckner: Bruckner - Pange Lingua (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Anton Bruckner: Pange Lingua (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

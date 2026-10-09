@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/anonymous_o_salutaris_hostia_teofil_kl.mid",
+ "other_editions": [
+  {
+   "id": "anonymous_o_salutaris_hostia_teofil_klb2",
+   "source": "pdmx",
+   "title": "O salutaris hostia - Teofil Klonowski based on an Anonymous chant",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=anonymous_o_salutaris_hostia_teofil_kl",

@@ -62,6 +62,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/foster_come_where_my_love_lies_drea.mid",
+ "other_editions": [
+  {
+   "id": "foster_come_where_my_love_lies_dreab2",
+   "source": "pdmx",
+   "title": "Come Where My Love Lies Dreaming - Stephen Collins Foster",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=foster_come_where_my_love_lies_drea",

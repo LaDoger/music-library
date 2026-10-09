@@ -2,7 +2,7 @@
  "id": "haydn_hobi100_minuet_in_g_major_haydn",
  "composer": "Joseph Haydn",
  "death_year": "1809",
- "title": "Minuet in G major (Haydn)",
+ "title": "Minuet in G major",
  "catalog": "Hob.I:100",
  "movement": "",
  "mood_tags": "moderate;elegant",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_hobi100_minuet_in_g_major_haydn.mid",
+ "other_editions": [
+  {
+   "id": "haydn_hobi100_minuet_in_g_major_haydnb2",
+   "source": "pdmx",
+   "title": "Minuet in G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "haydn_minuet_g_major",
+   "source": "pdmx",
+   "title": "Minuet G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "haydn_minuet_g_majorb2",
+   "source": "pdmx",
+   "title": "Minuet G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_hobi100_minuet_in_g_major_haydn",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Joseph Haydn: Minuet in G major (Haydn), Hob.I:100 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Joseph Haydn: Minuet in G major, Hob.I:100 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

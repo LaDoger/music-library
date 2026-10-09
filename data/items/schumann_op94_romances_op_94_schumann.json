@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schumann_op94_romances_op_94_schumann.mid",
+ "other_editions": [
+  {
+   "id": "schumann_op94_romances_op_94_schumannb2",
+   "source": "pdmx",
+   "title": "Romances op.94 Schumann",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op94_romances_op_94_schumann",

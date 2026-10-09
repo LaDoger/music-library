@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv74_royal_wedding_2018_the_bride.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv74_royal_wedding_2018_the_brideb2",
+   "source": "pdmx",
+   "title": "Royal Wedding 2018. The Bride's Entrance. Handel: Eternal Source of Light Divine",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv74_royal_wedding_2018_the_bride",

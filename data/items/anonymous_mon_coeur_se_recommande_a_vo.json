@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/anonymous_mon_coeur_se_recommande_a_vo.mid",
+ "other_editions": [
+  {
+   "id": "anonymous_mon_coeur_se_recommande_a_vob2",
+   "source": "pdmx",
+   "title": "Mon Coeur se recommande a vous (Anonymus)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=anonymous_mon_coeur_se_recommande_a_vo",

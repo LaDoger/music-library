@@ -63,6 +63,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/stanford_op117_no_2_the_song_of_the_sou_wes.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=stanford_op117_no_2_the_song_of_the_sou_wes",

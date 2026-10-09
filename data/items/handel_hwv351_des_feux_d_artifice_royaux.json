@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv351_des_feux_d_artifice_royaux.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv351_music_for_the_royal_firework",
+   "source": "pdmx",
+   "title": "Music for the Royal Fireworks - La Réjouissance",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "handel_hwv351_music_for_the_royal_fireworkb2",
+   "source": "pdmx",
+   "title": "Music for the Royal Fireworks - La Réjouissance",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv351_des_feux_d_artifice_royaux",

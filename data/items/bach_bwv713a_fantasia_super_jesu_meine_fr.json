@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv713a_fantasia_super_jesu_meine_fr.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv713a_fantasia_super_jesu_meine_frb2",
+   "source": "pdmx",
+   "title": "Fantasia super Jesu meine Freude. BWV 713a",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv713a_fantasia_super_jesu_meine_fr",

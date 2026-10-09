@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv7_lascia_ch_io_pianga_g_f_hand.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv7_lascia_ch_io_pianga_g_f_handb2",
+   "source": "pdmx",
+   "title": "Lascia ch'io pianga - G.F. Handel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv7_lascia_ch_io_pianga_g_f_hand",

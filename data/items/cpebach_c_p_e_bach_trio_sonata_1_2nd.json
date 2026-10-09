@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/cpebach_c_p_e_bach_trio_sonata_1_2nd.mid",
+ "other_editions": [
+  {
+   "id": "cpebach_c_p_e_bach_trio_sonata_1_2ndb2",
+   "source": "pdmx",
+   "title": "C.P.E. Bach Trio Sonata 1. (2nd Mov.)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=cpebach_c_p_e_bach_trio_sonata_1_2nd",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv525_organ_sonata_n1_in_e_flat_ma.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv525_organ_sonata_n1_in_e_flat_mab2",
+   "source": "pdmx",
+   "title": "Organ Sonata N1 in E-flat major BWV 525 - III. Allegro",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv525_organ_sonata_n1_in_e_flat_ma",

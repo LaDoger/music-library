@@ -2,7 +2,7 @@
  "id": "purcell_lord_how_long_wilt_thou_be_a",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "Lord how long wilt thou be angry - Henry Purcell",
+ "title": "Lord how long wilt thou be angry",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_lord_how_long_wilt_thou_be_a.mid",
+ "other_editions": [
+  {
+   "id": "purcell_lord_how_long_wilt_thou_be_ab2",
+   "source": "pdmx",
+   "title": "Lord how long wilt thou be angry",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_lord_how_long_purcell",
+   "source": "pdmx",
+   "title": "Lord how long Purcell",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_lord_how_long_wilt_thou_be_a",
@@ -76,5 +92,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: Lord how long wilt thou be angry - Henry Purcell (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Henry Purcell: Lord how long wilt thou be angry (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

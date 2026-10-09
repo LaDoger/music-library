@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_o_sacred_head_johann_sebasti.mid",
+ "other_editions": [
+  {
+   "id": "bach_o_sacred_head_johann_sebastib2",
+   "source": "pdmx",
+   "title": "O sacred head - Johann Sebastian Bach on a tune by Hans Leo Hassler",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_o_sacred_head_johann_sebasti",

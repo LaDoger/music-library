@@ -2,7 +2,7 @@
  "id": "pachelbel_pachelbel_s_canon_in_d_minor",
  "composer": "Johann Pachelbel",
  "death_year": "1706",
- "title": "Pachelbel's Canon in D Minor (Just for Fun)",
+ "title": "Canon in D Minor (Just for Fun)",
  "catalog": "",
  "movement": "",
  "mood_tags": "contrapuntal",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/pachelbel_pachelbel_s_canon_in_d_minor.mid",
+ "other_editions": [
+  {
+   "id": "pachelbel_pachelbel_s_canon_in_d_minorb2",
+   "source": "pdmx",
+   "title": "Canon in D Minor (Just for Fun)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pachelbel_pachelbel_s_canon_in_d_minor",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Pachelbel: Pachelbel's Canon in D Minor (Just for Fun) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Pachelbel: Canon in D Minor (Just for Fun) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gibbons_the_guardian_angel.mid",
+ "other_editions": [
+  {
+   "id": "gibbons_the_guardian_angelb2",
+   "source": "pdmx",
+   "title": "The Guardian Angel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gibbons_the_guardian_angel",

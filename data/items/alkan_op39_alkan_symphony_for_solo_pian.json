@@ -2,7 +2,7 @@
  "id": "alkan_op39_alkan_symphony_for_solo_pian",
  "composer": "Charles-Valentin Alkan",
  "death_year": "1888",
- "title": "Alkan Symphony for Solo Piano Fourth Movement with a twist",
+ "title": "Symphony for Solo Piano Fourth Movement with a twist",
  "catalog": "Op.39",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/alkan_op39_alkan_symphony_for_solo_pian.mid",
+ "other_editions": [
+  {
+   "id": "alkan_op39_alkan_symphony_for_solo_pianb2",
+   "source": "pdmx",
+   "title": "Symphony for Solo Piano Fourth Movement with a twist",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=alkan_op39_alkan_symphony_for_solo_pian",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Charles-Valentin Alkan: Alkan Symphony for Solo Piano Fourth Movement with a twist, Op.39 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Charles-Valentin Alkan: Symphony for Solo Piano Fourth Movement with a twist, Op.39 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

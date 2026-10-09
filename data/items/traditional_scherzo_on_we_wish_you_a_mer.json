@@ -61,6 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_scherzo_on_we_wish_you_a_mer.mid",
+ "other_editions": [
+  {
+   "id": "traditional_scherzo_on_we_wish_you_a_merb2",
+   "source": "pdmx",
+   "title": "Scherzo on We Wish You a Merry Christmas",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_scherzo_on_we_wish_you_a_mer",

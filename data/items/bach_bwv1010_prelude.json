@@ -57,6 +57,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1010_prelude.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv1010_bwv_1010_cello_suite_no_4_in",
+   "source": "pdmx",
+   "title": "BWV 1010 Cello Suite No.4 in E-flat major (A = 415 Hz)ããããHarp sound",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_bwv1010_bwv_1010_cello_suite_no_4_inb2",
+   "source": "pdmx",
+   "title": "BWV 1010 Cello Suite No.4 in E-flat major (A = 415 Hz)ããããHarp sound",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1010_prelude",

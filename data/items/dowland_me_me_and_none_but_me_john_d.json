@@ -2,7 +2,7 @@
  "id": "dowland_me_me_and_none_but_me_john_d",
  "composer": "John Dowland",
  "death_year": "1626",
- "title": "Me me and none but me - John Dowland",
+ "title": "Me me and none but me",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_me_me_and_none_but_me_john_d.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_me_me_and_none_but_me_john_d",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "John Dowland: Me me and none but me - John Dowland (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "John Dowland: Me me and none but me (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

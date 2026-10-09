@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/grieg_ave_maris_stella_satb_edvard.mid",
+ "other_editions": [
+  {
+   "id": "grieg_ave_maris_stella_satb_edvardb2",
+   "source": "pdmx",
+   "title": "Ave Maris Stella SATB Edvard Grieg",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "grieg_ave_maris_stella_edvard_grie",
+   "source": "pdmx",
+   "title": "Ave maris stella",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "grieg_ave_maris_stella_edvard_grieb2",
+   "source": "pdmx",
+   "title": "Ave maris stella",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_ave_maris_stella_satb_edvard",

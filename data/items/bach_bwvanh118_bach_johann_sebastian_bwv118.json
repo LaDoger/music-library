@@ -2,7 +2,7 @@
  "id": "bach_bwvanh118_bach_johann_sebastian_bwv118",
  "composer": "Johann Sebastian Bach",
  "death_year": "1750",
- "title": "Bach Johann Sebastian : BWV118 O Jesu Christ meins Lebens Licht BWV 118 trans",
+ "title": "Johann Sebastian: BWV118 O Jesu Christ meins Lebens Licht BWV 118 trans",
  "catalog": "BWV Anh.118",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwvanh118_bach_johann_sebastian_bwv118.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwvanh118_bach_johann_sebastian_bwv118b2",
+   "source": "pdmx",
+   "title": "Johann Sebastian: BWV118 O Jesu Christ meins Lebens Licht BWV 118 trans",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwvanh118_bach_johann_sebastian_bwv118",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Bach Johann Sebastian : BWV118 O Jesu Christ meins Lebens Licht BWV 118 trans, BWV Anh.118 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Sebastian Bach: Johann Sebastian: BWV118 O Jesu Christ meins Lebens Licht BWV 118 trans, BWV Anh.118 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

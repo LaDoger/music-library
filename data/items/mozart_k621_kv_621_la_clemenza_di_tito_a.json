@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k621_kv_621_la_clemenza_di_tito_a.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k621_kv_621_la_clemenza_di_tito_ab2",
+   "source": "pdmx",
+   "title": "KV 621 La clemenza di Tito â 13 Aria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k621_kv_621_la_clemenza_di_tito_a",

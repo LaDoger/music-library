@@ -2,7 +2,7 @@
  "id": "mendelssohn_op97_da_jesus_geboren_ward_wo_ist",
  "composer": "Felix Mendelssohn",
  "death_year": "1847",
- "title": "Da Jesus geboren ward - Wo ist der neugeboren Op. 97 more generally known as Christus Op. 97 - Felix Mendelssohn",
+ "title": "Da Jesus geboren ward - Wo ist der neugeboren Op. 97 more generally known as Christus Op. 97",
  "catalog": "Op. 97",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_op97_da_jesus_geboren_ward_wo_ist.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_op97_da_jesus_geboren_ward_wo_istb2",
+   "source": "pdmx",
+   "title": "Da Jesus geboren ward - Wo ist der neugeboren Op. 97 more generally known as Christus Op. 97",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_op97_da_jesus_geboren_ward_wo_ist",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Felix Mendelssohn: Da Jesus geboren ward - Wo ist der neugeboren Op. 97 more generally known as Christus Op. 97 - Felix Mendelssohn, Op. 97 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Felix Mendelssohn: Da Jesus geboren ward - Wo ist der neugeboren Op. 97 more generally known as Christus Op. 97, Op. 97 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

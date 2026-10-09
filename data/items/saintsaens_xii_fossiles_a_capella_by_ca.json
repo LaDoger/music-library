@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/saintsaens_xii_fossiles_a_capella_by_ca.mid",
+ "other_editions": [
+  {
+   "id": "saintsaens_xii_fossiles_a_capella_by_cab2",
+   "source": "pdmx",
+   "title": "XII. Fossiles (a capella) by Camille Saint-Säens from Le carnaval des animaux",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=saintsaens_xii_fossiles_a_capella_by_ca",

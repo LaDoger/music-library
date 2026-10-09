@@ -10,11 +10,16 @@ Gate (re-checked here, whatever the batch file says):
   composer death year <= 1929, no excluded composer, score file on disk,
   editable_source_url and editable_license present.
 
+Then dedupe (scripts/bulk/dedupe.py) against library.csv and across batches:
+duplicates are dropped and listed as other_editions in
+library_other_editions.json; titles lose repeated composer names.
+
 Usage: python3 scripts/bulk/build_bulk_layer.py [--check]
 """
 from __future__ import annotations
 
 import csv
+import json
 import re
 import sys
 from collections import Counter
@@ -22,6 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "library_bulk.csv"
+EDITIONS = ROOT / "library_other_editions.json"
 EXCLUDED = ("orff", "prokofiev", "shostakovich", "stravinsky", "medtner", "sorabji")
 PREVIEW_NOTE = re.compile(r"Preview is an own (?:FluidSynth|MIDI)[^.]*\.", re.I)
 UNFINISHED = re.compile(r"\bwip\b|\bdraft\b|work in progress", re.I)
@@ -66,8 +72,13 @@ def keep(row: dict, why: Counter) -> bool:
     return True
 
 
-def main() -> int:
-    curated = {row["id"] for row in load(ROOT / "library.csv")}
+def main(argv: list[str] | None = None) -> int:
+    argv = sys.argv[1:] if argv is None else argv
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import dedupe
+
+    curated_rows = load(ROOT / "library.csv")
+    curated = {row["id"] for row in curated_rows}
     batches = sorted((ROOT / "parts").glob("BULK_batch*_rows.csv"))
     rows, seen, why = [], set(), Counter()
     fields: list[str] = []
@@ -100,14 +111,20 @@ def main() -> int:
                     except UnicodeError:
                         pass
             row["title"] = row["title"].replace("DvoÅák", "Dvořák")
+            row["title"] = dedupe.clean_title(row["title"], row.get("composer") or "")
             seen.add(rid)
             rows.append(row)
+    gated = len(rows)
+    rows, editions, manifest, stats = dedupe.dedupe(curated_rows, rows)
+    why["duplicate-piece"] += gated - len(rows)
     rows.sort(key=lambda r: (r.get("composer") or "", r.get("catalog") or "", r.get("title") or "", r["id"]))
     print(f"bulk layer: {len(rows)} rows from {[p.name for p in batches]}")
     print("by source:", dict(Counter(r.get("source_name") for r in rows)))
     print("by licence:", dict(Counter(r.get("licence_class") for r in rows)))
     print("dropped:", dict(why))
-    if "--check" in sys.argv:
+    print(f"dedupe: {stats['dropped']} duplicates dropped; before {stats['before']} after {stats['after']}")
+    dedupe.write_outputs(manifest, stats)
+    if "--check" in argv:
         return 0
     tmp = OUT.with_suffix(".tmp")
     with tmp.open("w", newline="", encoding="utf-8") as handle:
@@ -115,6 +132,7 @@ def main() -> int:
         writer.writeheader()
         writer.writerows(rows)
     tmp.replace(OUT)
+    EDITIONS.write_text(json.dumps(dict(sorted(editions.items())), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)}")
     return 0
 

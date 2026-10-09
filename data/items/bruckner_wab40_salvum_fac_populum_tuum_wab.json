@@ -2,7 +2,7 @@
  "id": "bruckner_wab40_salvum_fac_populum_tuum_wab",
  "composer": "Anton Bruckner",
  "death_year": "1896",
- "title": "Salvum fac populum tuum WAB 40 - Anton Bruckner",
+ "title": "Salvum fac populum tuum WAB 40",
  "catalog": "WAB 40",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bruckner_wab40_salvum_fac_populum_tuum_wab.mid",
+ "other_editions": [
+  {
+   "id": "bruckner_wab40_salvum_fac_populum_tuum_wabb2",
+   "source": "pdmx",
+   "title": "Salvum fac populum tuum WAB 40",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bruckner_wab40_salvum_fac_populum_tuum_wab",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Anton Bruckner: Salvum fac populum tuum WAB 40 - Anton Bruckner, WAB 40 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Anton Bruckner: Salvum fac populum tuum WAB 40, WAB 40 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

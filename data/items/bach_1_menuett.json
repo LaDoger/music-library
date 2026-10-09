@@ -60,6 +60,36 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_1_menuett.mid",
+ "other_editions": [
+  {
+   "id": "bach_1_menuettb2",
+   "source": "pdmx",
+   "title": "1. Menuett",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "bach_minuet_in_g_minorb2",
+   "source": "pdmx",
+   "title": "Minuet in G Minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_minuet_in_c_minor",
+   "source": "pdmx",
+   "title": "Minuet_in_C_Minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_bach_minuet_in_g",
+   "source": "pdmx",
+   "title": "Minuet in G",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_1_menuett",

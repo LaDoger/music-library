@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_iv_passepied.mid",
+ "other_editions": [
+  {
+   "id": "debussy_iv_passepiedb2",
+   "source": "pdmx",
+   "title": "IV. Passepied",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_suite_bergamasque_iv",
+   "source": "pdmx",
+   "title": "Suite Bergamasque - IV. Passpied",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_suite_bergamasque_ivb2",
+   "source": "pdmx",
+   "title": "Suite Bergamasque - IV. Passpied",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_iv_passepied",

@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/pachelbel_we_ll_bring_the_world_his_tr.mid",
+ "other_editions": [
+  {
+   "id": "pachelbel_we_ll_bring_the_world_his_trb2",
+   "source": "pdmx",
+   "title": "We'll Bring the World His Truth/Pachelbel s Canon",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pachelbel_we_ll_bring_the_world_his_tr",

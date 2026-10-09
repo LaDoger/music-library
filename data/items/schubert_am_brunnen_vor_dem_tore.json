@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_am_brunnen_vor_dem_tore.mid",
+ "other_editions": [
+  {
+   "id": "schubert_am_brunnen_vor_dem_toreb2",
+   "source": "pdmx",
+   "title": "Am Brunnen vor dem Tore",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_am_brunnen_vor_dem_tore",

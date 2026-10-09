@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_brahms_variations_on_a_theme.mid",
+ "other_editions": [
+  {
+   "id": "haydn_brahms_variations_on_a_themeb2",
+   "source": "pdmx",
+   "title": "Brahms Variations on a Theme Var 7",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_brahms_variations_on_a_theme",

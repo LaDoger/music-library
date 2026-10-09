@@ -71,7 +71,8 @@
       const text = fold(r.search_text || [r.title, r.composer, c.sort_name, r.catalog, r.catalog_variants, r.movement, r.mood_tags, r.genre, r.era, r.id.replace(/_/g, " ")].join(" "));
       return Object.assign(r, {
         _text: text,
-        _squash: squash(text),
+        // Squash each field on its own: "BWV 56" + variants "56 56" must not squash to "bwv565656".
+        _squash: [r.title, r.catalog, r.movement, r.composer].map((v) => squash(fold(v || ""))).join("|"),
         _title: fold(r.title),
         _composer: fold(r.composer),
         _catalog: squash(fold(r.catalog)),
@@ -618,6 +619,9 @@
         ${linkRow(r.editable_source_url, "Score source page", "source")}
         ${linkRow(r.musescore_url, "MuseScore page", "check licence")}
       </div></div>
+      ${(r.other_editions || []).length ? `<div class="d-section"><h4>Other editions (duplicates merged into this card)</h4><div class="links">
+        ${r.other_editions.map((e) => linkRow(e.url, `${e.title || e.id} · ${e.source}`, e.licence)).join("")}
+      </div></div>` : ""}
       <div class="d-section"><h4>Details</h4><dl class="kv">${kv}</dl></div>`;
     $("#dTempo")?.addEventListener("input", (e) => setTempo(+e.target.value));
     if (player.mode === "midi" && player.id === r.id) attachRoll();

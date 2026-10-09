@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_the_rights_of_man_for_piano.mid",
+ "other_editions": [
+  {
+   "id": "traditional_the_rights_of_man_for_pianob2",
+   "source": "pdmx",
+   "title": "The Rights of Man(for Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_the_rights_of_man_for_piano",

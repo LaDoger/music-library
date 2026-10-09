@@ -2,7 +2,7 @@
  "id": "debussy_debussy_petite_piece",
  "composer": "Claude Debussy",
  "death_year": "1918",
- "title": "Debussy - Petite Pièce",
+ "title": "Petite Pièce",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_debussy_petite_piece.mid",
+ "other_editions": [
+  {
+   "id": "debussy_debussy_petite_pieceb2",
+   "source": "pdmx",
+   "title": "Petite Pièce",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_petite_piece",
+   "source": "pdmx",
+   "title": "Petite pièce",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_petite_pieceb2",
+   "source": "pdmx",
+   "title": "Petite pièce",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_debussy_petite_piece",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Claude Debussy: Debussy - Petite Pièce (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Claude Debussy: Petite Pièce (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

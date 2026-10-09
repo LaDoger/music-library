@@ -60,6 +60,43 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_instrumental_spring_the_four.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_instrumental_spring_the_fourb2",
+   "source": "pdmx",
+   "title": "Instrumental Spring The Four Seasons",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_allegro_from_la_primavera_sp",
+   "source": "pdmx",
+   "title": "Allegro from La Primavera (Spring) Antonio Vivaldi",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_allegro_from_la_primavera_spb2",
+   "source": "pdmx",
+   "title": "Allegro from La Primavera (Spring) Antonio Vivaldi",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_vivaldi_la_primavera",
+   "source": "pdmx",
+   "title": "VIVALDI La Primavera",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_vivaldi_la_primaverab2",
+   "source": "pdmx",
+   "title": "VIVALDI La Primavera",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_instrumental_spring_the_four",

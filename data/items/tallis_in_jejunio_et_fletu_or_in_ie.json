@@ -2,7 +2,7 @@
  "id": "tallis_in_jejunio_et_fletu_or_in_ie",
  "composer": "Thomas Tallis",
  "death_year": "1585",
- "title": "In jejunio et fletu or In ieiunio et fletu - Thomas Tallis",
+ "title": "In jejunio et fletu or In ieiunio et fletu",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tallis_in_jejunio_et_fletu_or_in_ie.mid",
+ "other_editions": [
+  {
+   "id": "tallis_in_jejunio_et_fletu_or_in_ieb2",
+   "source": "pdmx",
+   "title": "In jejunio et fletu or In ieiunio et fletu",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tallis_in_jejunio_et_fletu_or_in_ie",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Thomas Tallis: In jejunio et fletu or In ieiunio et fletu - Thomas Tallis (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Thomas Tallis: In jejunio et fletu or In ieiunio et fletu (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

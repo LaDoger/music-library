@@ -2,7 +2,7 @@
  "id": "debussy_debussy_preludes_book_i_xii",
  "composer": "Claude Debussy",
  "death_year": "1918",
- "title": "Debussy - Préludes - Book I - XII",
+ "title": "Préludes - Book I - XII",
  "catalog": "",
  "movement": "",
  "mood_tags": "intimate",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_debussy_preludes_book_i_xii.mid",
+ "other_editions": [
+  {
+   "id": "debussy_debussy_preludes_book_i_xiib2",
+   "source": "pdmx",
+   "title": "Préludes - Book I - XII",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_debussy_preludes_book_i_xii",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Claude Debussy: Debussy - Préludes - Book I - XII (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Claude Debussy: Préludes - Book I - XII (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

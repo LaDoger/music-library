@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k457_1st_movement.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k457_mozart_klaviersonate_kv_457",
+   "source": "pdmx",
+   "title": "Klaviersonate KV 457 - 1 expozice",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mozart_k457_mozart_klaviersonate_kv_457b2",
+   "source": "pdmx",
+   "title": "Klaviersonate KV 457 - 1 expozice",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k457_1st_movement",

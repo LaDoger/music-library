@@ -2,7 +2,7 @@
  "id": "dowland_john_dowland_xv_when_david_s",
  "composer": "John Dowland",
  "death_year": "1626",
- "title": "John Dowland - XV. When David's life by Saul was often sought",
+ "title": "XV. When David's life by Saul was often sought",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_john_dowland_xv_when_david_s.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_john_dowland_xv_when_david_s",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "John Dowland: John Dowland - XV. When David's life by Saul was often sought (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "John Dowland: XV. When David's life by Saul was often sought (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

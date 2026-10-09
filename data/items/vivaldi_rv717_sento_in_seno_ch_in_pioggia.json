@@ -2,7 +2,7 @@
  "id": "vivaldi_rv717_sento_in_seno_ch_in_pioggia",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Sento in seno ch'in pioggia di lagrime - Antonio Vivaldi",
+ "title": "Sento in seno ch'in pioggia di lagrime",
  "catalog": "RV 717",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv717_sento_in_seno_ch_in_pioggia.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_rv717_sento_in_seno_ch_in_pioggiab2",
+   "source": "pdmx",
+   "title": "Sento in seno ch'in pioggia di lagrime",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv717_sento_in_seno_ch_in_pioggia",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Sento in seno ch'in pioggia di lagrime - Antonio Vivaldi, RV 717 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: Sento in seno ch'in pioggia di lagrime, RV 717 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

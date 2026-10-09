@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv736_j_s_bach_valet_will_ich_dir.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv736_j_s_bach_valet_will_ich_dirb2",
+   "source": "pdmx",
+   "title": "J. S. Bach: Valet will ich dir geben BWV 736",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv736_j_s_bach_valet_will_ich_dir",

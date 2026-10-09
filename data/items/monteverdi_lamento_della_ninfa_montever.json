@@ -2,7 +2,7 @@
  "id": "monteverdi_lamento_della_ninfa_montever",
  "composer": "Claudio Monteverdi",
  "death_year": "1643",
- "title": "Lamento della ninfa - Monteverdi",
+ "title": "Lamento della ninfa",
  "catalog": "",
  "movement": "",
  "mood_tags": "slow;somber",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/monteverdi_lamento_della_ninfa_montever.mid",
+ "other_editions": [
+  {
+   "id": "monteverdi_lamento_della_ninfa_monteverb2",
+   "source": "pdmx",
+   "title": "Lamento della ninfa",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=monteverdi_lamento_della_ninfa_montever",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Claudio Monteverdi: Lamento della ninfa - Monteverdi (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Claudio Monteverdi: Lamento della ninfa (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/corelli_op6no8_concerto_grosso_op_6_no_8_mo.mid",
+ "other_editions": [
+  {
+   "id": "corelli_op6no8_concerto_grosso_op_6_no_8_mob2",
+   "source": "pdmx",
+   "title": "Concerto Grosso Op 6 No 8 Movement 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=corelli_op6no8_concerto_grosso_op_6_no_8_mo",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_sonata_no_14_moonlight_beeth.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_sonata_no_14_moonlight_beethb2",
+   "source": "pdmx",
+   "title": "Sonata No. 14 Moonlight Beethoven",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_sonata_no_14_moonlight_beeth",

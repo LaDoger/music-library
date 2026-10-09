@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv211_j_s_bach_cantata_bwv_211_cof.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv211_j_s_bach_cantata_bwv_211_cofb2",
+   "source": "pdmx",
+   "title": "J.S. Bach - Cantata BWV 211 Coffee - I. Recitativ (Tenore)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv211_j_s_bach_cantata_bwv_211_cof",

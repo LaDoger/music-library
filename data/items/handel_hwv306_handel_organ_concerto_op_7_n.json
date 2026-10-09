@@ -2,7 +2,7 @@
  "id": "handel_hwv306_handel_organ_concerto_op_7_n",
  "composer": "George Frideric Handel",
  "death_year": "1759",
- "title": "Handel - Organ Concerto Op. 7 No. 1 HWV 306: I",
+ "title": "Organ Concerto Op. 7 No. 1 HWV 306: I",
  "catalog": "HWV 306",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv306_handel_organ_concerto_op_7_n.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv306_handel_organ_concerto_op_7_nb2",
+   "source": "pdmx",
+   "title": "Organ Concerto Op. 7 No. 1 HWV 306: I",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv306_handel_organ_concerto_op_7_n",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "George Frideric Handel: Handel - Organ Concerto Op. 7 No. 1 HWV 306: I, HWV 306 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "George Frideric Handel: Organ Concerto Op. 7 No. 1 HWV 306: I, HWV 306 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

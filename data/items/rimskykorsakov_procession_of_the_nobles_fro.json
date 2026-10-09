@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rimskykorsakov_procession_of_the_nobles_fro.mid",
+ "other_editions": [
+  {
+   "id": "rimskykorsakov_procession_of_the_nobles_frob2",
+   "source": "pdmx",
+   "title": "Procession of The Nobles from Rimsly-Korsakov's Mlada",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rimskykorsakov_procession_of_the_nobles_fro",

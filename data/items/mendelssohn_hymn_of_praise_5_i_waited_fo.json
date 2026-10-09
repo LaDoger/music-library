@@ -2,7 +2,7 @@
  "id": "mendelssohn_hymn_of_praise_5_i_waited_fo",
  "composer": "Felix Mendelssohn",
  "death_year": "1847",
- "title": "Hymn of Praise: 5 - I waited for the Lord - Felix Mendelssohn",
+ "title": "Hymn of Praise: 5 - I waited for the Lord",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_hymn_of_praise_5_i_waited_fo.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_hymn_of_praise_5_i_waited_fob2",
+   "source": "pdmx",
+   "title": "Hymn of Praise: 5 - I waited for the Lord",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_hymn_of_praise_5_i_waited_fo",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Felix Mendelssohn: Hymn of Praise: 5 - I waited for the Lord - Felix Mendelssohn (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Felix Mendelssohn: Hymn of Praise: 5 - I waited for the Lord (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

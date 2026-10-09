@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_we_the_spirits_of_the_air_sc.mid",
+ "other_editions": [
+  {
+   "id": "purcell_we_the_spirits_of_the_air_scb2",
+   "source": "pdmx",
+   "title": "We the spirits of the air - SCORE",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_we_the_spirits_of_the_air_sc",

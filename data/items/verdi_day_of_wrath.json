@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/verdi_day_of_wrath.mid",
+ "other_editions": [
+  {
+   "id": "verdi_day_of_wrathb2",
+   "source": "pdmx",
+   "title": "Day of Wrath",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=verdi_day_of_wrath",

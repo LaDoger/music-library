@@ -2,7 +2,7 @@
  "id": "mhaydn_domine_deus_haydn",
  "composer": "Johann Michael Haydn",
  "death_year": "1806",
- "title": "Domine Deus (Haydn)",
+ "title": "Domine Deus",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mhaydn_domine_deus_haydn.mid",
+ "other_editions": [
+  {
+   "id": "mhaydn_domine_deus_haydnb2",
+   "source": "pdmx",
+   "title": "Domine Deus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mhaydn_domine_deus_haydn",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Michael Haydn: Domine Deus (Haydn) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Michael Haydn: Domine Deus (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

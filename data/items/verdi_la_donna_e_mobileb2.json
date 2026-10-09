@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/verdi_la_donna_e_mobileb2.mid",
+ "other_editions": [
+  {
+   "id": "verdi_la_donna_e_mobileb3",
+   "source": "pdmx",
+   "title": "La donna e mobile",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "verdi_giuseppe_verdi_la_donna_e_mo",
+   "source": "pdmx",
+   "title": "La Donna 'e Mobile",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "verdi_giuseppe_verdi_la_donna_e_mob2",
+   "source": "pdmx",
+   "title": "La Donna 'e Mobile",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=verdi_la_donna_e_mobileb2",

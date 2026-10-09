@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv347_1_sinfonia_overture.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv347_1_sinfonia_overtureb2",
+   "source": "pdmx",
+   "title": "1. Sinfonia (Overture)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv347_1_sinfonia_overture",

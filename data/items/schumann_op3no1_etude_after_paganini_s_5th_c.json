@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schumann_op3no1_etude_after_paganini_s_5th_c.mid",
+ "other_editions": [
+  {
+   "id": "schumann_op3no1_etude_after_paganini_s_5th_cb2",
+   "source": "pdmx",
+   "title": "Étude after Paganini's 5th Caprice - R. Schumann Op. 3 No. 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op3no1_etude_after_paganini_s_5th_c",

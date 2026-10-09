@@ -2,7 +2,7 @@
  "id": "brahms_op116no2_intermezzo_op_116_no_2_johan",
  "composer": "Johannes Brahms",
  "death_year": "1897",
- "title": "Intermezzo Op. 116 No. 2 (Johannes Brahms)",
+ "title": "Intermezzo Op. 116 No. 2",
  "catalog": "Op. 116 No. 2",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op116no2_intermezzo_op_116_no_2_johan.mid",
+ "other_editions": [
+  {
+   "id": "brahms_op116no2_intermezzo_op_116_no_2_johanb2",
+   "source": "pdmx",
+   "title": "Intermezzo Op. 116 No. 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op116no2_intermezzo_op_116_no_2_johan",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johannes Brahms: Intermezzo Op. 116 No. 2 (Johannes Brahms), Op. 116 No. 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johannes Brahms: Intermezzo Op. 116 No. 2, Op. 116 No. 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -2,7 +2,7 @@
  "id": "mozart_k477_mozart_maurerische_trauermus",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Mozart: Maurerische Trauermusik K. 477",
+ "title": "Maurerische Trauermusik K. 477",
  "catalog": "K. 477",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k477_mozart_maurerische_trauermus.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k477_mozart_maurerische_trauermusb2",
+   "source": "pdmx",
+   "title": "Maurerische Trauermusik K. 477",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k477_mozart_maurerische_trauermus",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Mozart: Maurerische Trauermusik K. 477, K. 477 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Wolfgang Amadeus Mozart: Maurerische Trauermusik K. 477, K. 477 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

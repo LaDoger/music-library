@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rimskykorsakov_hummelflug_duet.mid",
+ "other_editions": [
+  {
+   "id": "rimskykorsakov_hummelflug_duetb2",
+   "source": "pdmx",
+   "title": "Hummelflug Duet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rimskykorsakov_the_flight_of_the_bumblebee",
+   "source": "pdmx",
+   "title": "The Flight of the BumbleBee (Hummelflug)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rimskykorsakov_the_flight_of_the_bumblebeeb2",
+   "source": "pdmx",
+   "title": "The Flight of the BumbleBee (Hummelflug)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rimskykorsakov_hummelflug_duet",

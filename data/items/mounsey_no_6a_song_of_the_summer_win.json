@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mounsey_no_6a_song_of_the_summer_win.mid",
+ "other_editions": [
+  {
+   "id": "mounsey_no_6_song_of_the_summer_wind",
+   "source": "openscore-lieder",
+   "title": "Songs of Remembrance: Song of the Summer Winds",
+   "url": "https://github.com/OpenScore/Lieder/blob/main/scores/Mounsey_Bartholomew%2C_Ann/Songs_of_Remembrance/6_Song_of_the_Summer_Winds",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mounsey_no_6a_song_of_the_summer_win",

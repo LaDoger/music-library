@@ -36,7 +36,9 @@
  "score_url": "files/scores/dvorak_new_world-lys.zip",
  "score_files": [
   "files/scores/dvorak_new_world-lys.zip",
-  "files/scores/dvorak_new_world-mids.zip"
+  "files/scores/dvorak_new_world-mids.zip",
+  "files/scores/dvorak_new_world_symphonieb2.mid",
+  "files/scores/dvorak_new_world_symphony_movementb2.mid"
  ],
  "mood_tags_list": [
   "calm",
@@ -60,6 +62,7 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 694.46,
  "midi_play_url": "files/midi_play/dvorak_new_world_largo.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dvorak_new_world_largo",
@@ -68,13 +71,15 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip"
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphonieb2.mid",
+  "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphony_movementb2.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/midi_play/dvorak_new_world_largo.mid",
  "render_midi": {
-  "file": "files/scores/dvorak_new_world-mids.zip",
-  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world-mids.zip",
-  "zip_member": "Mvt2_Largo.mid"
+  "file": "files/scores/dvorak_new_world_symphonieb2.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/dvorak_new_world_symphonieb2.mid",
+  "zip_member": ""
  },
  "licence_meaning": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
  "credit_text": "Antonín Dvořák: Symphony No. 9 'From the New World' - Largo, Op. 95 (composition public domain).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-author + Musopen + OTRS 2008012110017088). Source: https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793. Licence: CC-BY-SA 3.0 (flag SA)."

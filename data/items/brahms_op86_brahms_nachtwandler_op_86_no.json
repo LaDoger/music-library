@@ -2,7 +2,7 @@
  "id": "brahms_op86_brahms_nachtwandler_op_86_no",
  "composer": "Johannes Brahms",
  "death_year": "1897",
- "title": "Brahms: Nachtwandler Op. 86 Nº 3",
+ "title": "Nachtwandler Op. 86 Nº 3",
  "catalog": "Op. 86",
  "movement": "",
  "mood_tags": "nocturnal;gentle",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op86_brahms_nachtwandler_op_86_no.mid",
+ "other_editions": [
+  {
+   "id": "brahms_op86_brahms_nachtwandler_op_86_nob2",
+   "source": "pdmx",
+   "title": "Nachtwandler Op. 86 Nº 3",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op86_brahms_nachtwandler_op_86_no",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johannes Brahms: Brahms: Nachtwandler Op. 86 Nº 3, Op. 86 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johannes Brahms: Nachtwandler Op. 86 Nº 3, Op. 86 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

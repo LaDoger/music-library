@@ -63,6 +63,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/stanford_op43_no_3_say_o_say_saith_the_mus.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=stanford_op43_no_3_say_o_say_saith_the_mus",

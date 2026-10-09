@@ -2,7 +2,7 @@
  "id": "bizet_bizet_prelude_from_carmen_cl",
  "composer": "Georges Bizet",
  "death_year": "1875",
- "title": "Bizet - Prelude from Carmen - Clarinet Choir",
+ "title": "Prelude from Carmen - Clarinet Choir",
  "catalog": "",
  "movement": "",
  "mood_tags": "intimate",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bizet_bizet_prelude_from_carmen_cl.mid",
+ "other_editions": [
+  {
+   "id": "bizet_bizet_prelude_from_carmen_clb2",
+   "source": "pdmx",
+   "title": "Prelude from Carmen - Clarinet Choir",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bizet_bizet_prelude_from_carmen_cl",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Georges Bizet: Bizet - Prelude from Carmen - Clarinet Choir (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Georges Bizet: Prelude from Carmen - Clarinet Choir (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k231_leck_mich_im_arsch_a_canon_b.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k231_leck_mich_im_arsch_a_canon_bb2",
+   "source": "pdmx",
+   "title": "Leck mich im Arsch - a Canon by Wolfgang Amadeus Mozart K. 231",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k231_leck_mich_im_arsch_a_canon_b",

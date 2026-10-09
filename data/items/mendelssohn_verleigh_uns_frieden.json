@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_verleigh_uns_frieden.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_verleigh_uns_friedenb2",
+   "source": "pdmx",
+   "title": "Verleigh uns Frieden",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_verleigh_uns_frieden",

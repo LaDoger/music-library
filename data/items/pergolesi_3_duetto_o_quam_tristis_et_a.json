@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/pergolesi_3_duetto_o_quam_tristis_et_a.mid",
+ "other_editions": [
+  {
+   "id": "pergolesi_3_duetto_o_quam_tristis_et_ab2",
+   "source": "pdmx",
+   "title": "3. Duetto O quam tristis et afflicta",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pergolesi_3_duetto_o_quam_tristis_et_a",

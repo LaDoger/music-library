@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/paganini_op1no4_solo_violin_caprice_no_4_in.mid",
+ "other_editions": [
+  {
+   "id": "paganini_op1no4_solo_violin_caprice_no_4_inb2",
+   "source": "pdmx",
+   "title": "Solo Violin Caprice No. 4 in C Minor - N. Paganini Op. 1 No. 4",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=paganini_op1no4_solo_violin_caprice_no_4_in",

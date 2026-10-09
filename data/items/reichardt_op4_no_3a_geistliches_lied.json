@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/reichardt_op4_no_3a_geistliches_lied.mid",
+ "other_editions": [
+  {
+   "id": "reichardt_op4_no_3b_geistliches_lied_4_par",
+   "source": "openscore-lieder",
+   "title": "6 Lieder von Novalis, Op.4: Geistliches Lied (4-part)",
+   "url": "https://github.com/OpenScore/Lieder/blob/main/scores/Reichardt%2C_Louise/6_Lieder_von_Novalis%2C_Op.4/3b_Geistliches_Lied_%284-part%29",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=reichardt_op4_no_3a_geistliches_lied",

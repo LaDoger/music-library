@@ -2,7 +2,7 @@
  "id": "rossini_rossini_una_voce",
  "composer": "Gioachino Rossini",
  "death_year": "1868",
- "title": "Rossini - UNA VOCE.",
+ "title": "Una Voce.",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rossini_rossini_una_voce.mid",
+ "other_editions": [
+  {
+   "id": "rossini_rossini_una_voceb2",
+   "source": "pdmx",
+   "title": "Una Voce.",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rossini_rossini_una_voce",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Gioachino Rossini: Rossini - UNA VOCE. (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Gioachino Rossini: Una Voce. (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

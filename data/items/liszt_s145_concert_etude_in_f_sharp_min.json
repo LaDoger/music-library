@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/liszt_s145_concert_etude_in_f_sharp_min.mid",
+ "other_editions": [
+  {
+   "id": "liszt_s145_concert_etude_in_f_sharp_minb2",
+   "source": "pdmx",
+   "title": "Concert Etude in F-Sharp minor Gnomenreigen (Dance of the Gnomes)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=liszt_s145_concert_etude_in_f_sharp_min",

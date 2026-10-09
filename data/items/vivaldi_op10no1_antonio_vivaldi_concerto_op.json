@@ -2,7 +2,7 @@
  "id": "vivaldi_op10no1_antonio_vivaldi_concerto_op",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Antonio Vivaldi - Concerto Op. 10 no. 1",
+ "title": "Concerto Op. 10 no. 1",
  "catalog": "Op. 10 no. 1",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_op10no1_antonio_vivaldi_concerto_op.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_op10no1_antonio_vivaldi_concerto_op",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Antonio Vivaldi - Concerto Op. 10 no. 1, Op. 10 no. 1 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Antonio Vivaldi: Concerto Op. 10 no. 1, Op. 10 no. 1 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

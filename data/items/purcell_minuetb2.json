@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_minuetb2.mid",
+ "other_editions": [
+  {
+   "id": "purcell_henry_purcell_minuet",
+   "source": "pdmx",
+   "title": "Minuet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_henry_purcell_minuetb2",
+   "source": "pdmx",
+   "title": "Minuet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_minuetb2",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/scriabin_op62_aleksandr_scriabin_piano_son.mid",
+ "other_editions": [
+  {
+   "id": "scriabin_op62_aleksandr_scriabin_piano_sonb2",
+   "source": "pdmx",
+   "title": "Aleksandr Scriabin - Piano Sonata No. 6 Op. 62 (abandoned)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op62_aleksandr_scriabin_piano_son",

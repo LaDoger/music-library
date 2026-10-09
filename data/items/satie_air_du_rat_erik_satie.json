@@ -2,7 +2,7 @@
  "id": "satie_air_du_rat_erik_satie",
  "composer": "Erik Satie",
  "death_year": "1925",
- "title": "air du rat Erik Satie",
+ "title": "Air du rat Erik Satie",
  "catalog": "",
  "movement": "",
  "mood_tags": "intimate",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_air_du_rat_erik_satie.mid",
+ "other_editions": [
+  {
+   "id": "satie_air_du_rat_erik_satieb2",
+   "source": "pdmx",
+   "title": "Air du rat Erik Satie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_air_du_rat_erik_satie",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Erik Satie: air du rat Erik Satie (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Erik Satie: Air du rat Erik Satie (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

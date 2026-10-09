@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv244_j_s_bach_st_matthew_passion.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv244_j_s_bach_st_matthew_passionb2",
+   "source": "pdmx",
+   "title": "J.S. Bach - St Matthew Passion Part II No. 39: Aria Erbarme dich mein Gott",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv244_j_s_bach_st_matthew_passion",

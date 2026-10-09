@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/grieg_l1901_til_ole_bull_ttbb_grieg.mid",
+ "other_editions": [
+  {
+   "id": "grieg_l1901_til_ole_bull_ttbb_griegb2",
+   "source": "pdmx",
+   "title": "Til Ole Bull TTBB Grieg",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_l1901_til_ole_bull_ttbb_grieg",

@@ -40,7 +40,9 @@
  "preview_url": "",
  "score_url": "files/scores/beethoven_ode_to_joy.mid",
  "score_files": [
-  "files/scores/beethoven_ode_to_joy.mid"
+  "files/scores/beethoven_ode_to_joy.mid",
+  "files/scores/beethoven_ode_to_joy_arrangement_withb51.mid",
+  "files/scores/beethoven_ode_to_joy_arrangementb51.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -60,6 +62,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_ode_to_joy.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_ode_to_joyb2",
+   "source": "pdmx",
+   "title": "Ode to Joy",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "beethoven_ode_to_joy_arrangement_withb51",
+   "source": "pdmx",
+   "title": "Ode to Joy Arrangement with Metronome",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "beethoven_ode_to_joy_arrangementb51",
+   "source": "pdmx",
+   "title": "Ode to Joy Arrangement",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_ode_to_joy",
@@ -67,7 +92,9 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy.mid"
+  "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy.mid",
+  "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy_arrangement_withb51.mid",
+  "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy_arrangementb51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_ode_to_joy.mid",
  "render_midi": {

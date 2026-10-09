@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op33no4_mazurka_in_b_minor_op_33_no.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op33no4_mazurka_in_b_minor_op_33_nob2",
+   "source": "pdmx",
+   "title": "Mazurka in B minor Op.33 No.4 Chopin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op33no4_mazurka_in_b_minor_op_33_no",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_mission_impossible_in_winter.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_mission_impossible_in_winterb2",
+   "source": "pdmx",
+   "title": "Mission Impossible In Winter",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_mission_impossible_in_winter",

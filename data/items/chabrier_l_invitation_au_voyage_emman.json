@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chabrier_l_invitation_au_voyage_emman.mid",
+ "other_editions": [
+  {
+   "id": "chabrier_l_invitation_au_voyage_emmanb2",
+   "source": "pdmx",
+   "title": "L'Invitation au Voyage Emmanuel Chabrier",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chabrier_l_invitation_au_voyage_emman",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv315_le_quattro_stagioni_rv_315_l.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_rv315_le_quattro_stagioni_rv_315_lb2",
+   "source": "pdmx",
+   "title": "Le Quattro Stagioni; RV 315 'L'estate' (Summer) Mvt. 1 Antonio Vivaldi",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv315_le_quattro_stagioni_rv_315_l",

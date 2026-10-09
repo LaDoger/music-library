@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/byrd_l1_ne_irascaris_viol_1_tab.mid",
+ "other_editions": [
+  {
+   "id": "byrd_l1_ne_irascaris_viol_1_tabb2",
+   "source": "pdmx",
+   "title": "Ne_irascaris_Viol.1_tab",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=byrd_l1_ne_irascaris_viol_1_tab",

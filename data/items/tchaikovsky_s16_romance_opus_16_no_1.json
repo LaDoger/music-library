@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tchaikovsky_s16_romance_opus_16_no_1.mid",
+ "other_editions": [
+  {
+   "id": "tchaikovsky_s16_romance_opus_16_no_1b2",
+   "source": "pdmx",
+   "title": "Romance Opus 16 - No. 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_s16_romance_opus_16_no_1",

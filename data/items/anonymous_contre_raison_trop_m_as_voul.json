@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/anonymous_contre_raison_trop_m_as_voul.mid",
+ "other_editions": [
+  {
+   "id": "anonymous_contre_raison_trop_m_as_voulb2",
+   "source": "pdmx",
+   "title": "Contre raison trop m'as voulu",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=anonymous_contre_raison_trop_m_as_voul",

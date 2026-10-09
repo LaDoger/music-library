@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1009_j_s_bach_cello_suite_n_3_bwv.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv1009_j_s_bach_cello_suite_n_3_bwvb2",
+   "source": "pdmx",
+   "title": "J. S. Bach - Cello Suite n 3 BWV 1009 - 5. Bourrée I",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1009_j_s_bach_cello_suite_n_3_bwv",

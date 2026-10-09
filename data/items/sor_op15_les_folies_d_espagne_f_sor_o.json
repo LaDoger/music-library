@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/sor_op15_les_folies_d_espagne_f_sor_o.mid",
+ "other_editions": [
+  {
+   "id": "sor_op15_les_folies_d_espagne_f_sor_ob2",
+   "source": "pdmx",
+   "title": "Les Folies d'Espagne - F. Sor Op. 15a",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=sor_op15_les_folies_d_espagne_f_sor_o",

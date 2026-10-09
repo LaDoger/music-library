@@ -2,7 +2,7 @@
  "id": "mozart_mozart_requiem_sanctus",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Mozart Requiem - Sanctus",
+ "title": "Requiem - Sanctus",
  "catalog": "",
  "movement": "",
  "mood_tags": "slow;somber",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_mozart_requiem_sanctus.mid",
+ "other_editions": [
+  {
+   "id": "mozart_mozart_requiem_sanctusb2",
+   "source": "pdmx",
+   "title": "Requiem - Sanctus",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_mozart_requiem_sanctus",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Mozart Requiem - Sanctus (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Wolfgang Amadeus Mozart: Requiem - Sanctus (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

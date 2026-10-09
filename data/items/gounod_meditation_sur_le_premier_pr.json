@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1893. Public domain in life+70 countries and, for this generation, normally PD-US as a historic published work. Mutopia header licence: Public Domain. Piece id 2167. MIDI, when present, is the Mutopia FTP render of this LilyPond file, not a performance. source_rank pending. Instrumentation: Piano, Violin. Mutopia git 2144afd6f52d. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
+ "legal_notes": "Composer died 1893. Public domain in life+70 countries and, for this generation, normally PD-US as a historic published work. Mutopia header licence: Public Domain. Piece id 2167. MIDI, when present, is the Mutopia FTP render of this LilyPond file, not a performance. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording. source_rank pending. Instrumentation: Piano, Violin. Mutopia git 2144afd6f52d.",
  "local_score_path": "files/scores/gounod_meditation_sur_le_premier_pr.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -59,6 +59,50 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_meditation_sur_le_premier_pr.mid",
+ "other_editions": [
+  {
+   "id": "gounod_ave_maria_bach_gounod",
+   "source": "pdmx",
+   "title": "Ave Maria Bach",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_maria_bach_gounodb2",
+   "source": "pdmx",
+   "title": "Ave Maria Bach",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_maria_charles_gounod",
+   "source": "pdmx",
+   "title": "Ave Maria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_maria_charles_gounodb2",
+   "source": "pdmx",
+   "title": "Ave Maria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_mariab2",
+   "source": "pdmx",
+   "title": "Ave Maria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_mariab3",
+   "source": "pdmx",
+   "title": "Ave Maria",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_meditation_sur_le_premier_pr",

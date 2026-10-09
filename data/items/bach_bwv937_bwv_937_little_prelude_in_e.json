@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv937_bwv_937_little_prelude_in_e.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv937_bwv_937_little_prelude_in_eb2",
+   "source": "pdmx",
+   "title": "BWV 937 Little Prelude in E major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv937_bwv_937_little_prelude_in_e",

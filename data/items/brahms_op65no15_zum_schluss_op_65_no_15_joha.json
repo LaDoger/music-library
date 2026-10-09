@@ -2,7 +2,7 @@
  "id": "brahms_op65no15_zum_schluss_op_65_no_15_joha",
  "composer": "Johannes Brahms",
  "death_year": "1897",
- "title": "Zum Schluß Op. 65 No. 15 - Johannes Brahms",
+ "title": "Zum Schluß Op. 65 No. 15",
  "catalog": "Op. 65 No. 15",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op65no15_zum_schluss_op_65_no_15_joha.mid",
+ "other_editions": [
+  {
+   "id": "brahms_op65no15_zum_schluss_op_65_no_15_johab2",
+   "source": "pdmx",
+   "title": "Zum Schluß Op. 65 No. 15",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op65no15_zum_schluss_op_65_no_15_joha",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johannes Brahms: Zum Schluß Op. 65 No. 15 - Johannes Brahms, Op. 65 No. 15 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Johannes Brahms: Zum Schluß Op. 65 No. 15, Op. 65 No. 15 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

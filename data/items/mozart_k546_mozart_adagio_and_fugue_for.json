@@ -2,7 +2,7 @@
  "id": "mozart_k546_mozart_adagio_and_fugue_for",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Mozart: Adagio and Fugue For Strings in C Minor K. 546",
+ "title": "Adagio and Fugue For Strings in C Minor K. 546",
  "catalog": "K. 546",
  "movement": "",
  "mood_tags": "slow;somber;contrapuntal",
@@ -61,6 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k546_mozart_adagio_and_fugue_for.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k546_mozart_adagio_and_fugue_forb2",
+   "source": "pdmx",
+   "title": "Adagio and Fugue For Strings in C Minor K. 546",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k546_mozart_adagio_and_fugue_for",
@@ -77,5 +86,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Mozart: Adagio and Fugue For Strings in C Minor K. 546, K. 546 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Wolfgang Amadeus Mozart: Adagio and Fugue For Strings in C Minor K. 546, K. 546 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

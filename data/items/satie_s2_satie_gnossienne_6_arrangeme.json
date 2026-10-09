@@ -2,7 +2,7 @@
  "id": "satie_s2_satie_gnossienne_6_arrangeme",
  "composer": "Erik Satie",
  "death_year": "1925",
- "title": "Satie - Gnossienne 6 - Arrangement pour Big Band",
+ "title": "Gnossienne 6 - Arrangement pour Big Band",
  "catalog": "s 2",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_s2_satie_gnossienne_6_arrangeme.mid",
+ "other_editions": [
+  {
+   "id": "satie_s2_satie_gnossienne_6_arrangemeb2",
+   "source": "pdmx",
+   "title": "Gnossienne 6 - Arrangement pour Big Band",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_s2_satie_gnossienne_6_arrangeme",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Erik Satie: Satie - Gnossienne 6 - Arrangement pour Big Band, s 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Erik Satie: Gnossienne 6 - Arrangement pour Big Band, s 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

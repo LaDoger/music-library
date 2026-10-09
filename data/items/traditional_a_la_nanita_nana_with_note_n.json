@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_a_la_nanita_nana_with_note_n.mid",
+ "other_editions": [
+  {
+   "id": "traditional_a_la_nanita_nana_with_note_nb2",
+   "source": "pdmx",
+   "title": "A la Nanita Nana with Note Names",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_a_la_nanita_nana_with_note_n",

@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_philemon_et_baucis_air_de_vu.mid",
+ "other_editions": [
+  {
+   "id": "gounod_philemon_et_baucis_air_de_vub2",
+   "source": "pdmx",
+   "title": "Philemon et Baucis air de Vulcain",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_philemon_et_baucis_air_de_vu",

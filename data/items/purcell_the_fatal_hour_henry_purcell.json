@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_the_fatal_hour_henry_purcell.mid",
+ "other_editions": [
+  {
+   "id": "purcell_the_fatal_hour_henry_purcellb3",
+   "source": "pdmx",
+   "title": "The Fatal Hour - Henry Purcell (W/Melody)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_the_fatal_hour_henry_purcell",

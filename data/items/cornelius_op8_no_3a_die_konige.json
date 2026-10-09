@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/cornelius_op8_no_3a_die_konige.mid",
+ "other_editions": [
+  {
+   "id": "cornelius_op8_no_3b_die_konige",
+   "source": "openscore-lieder",
+   "title": "Weihnachtslieder, Op.8: Die Könige",
+   "url": "https://github.com/OpenScore/Lieder/blob/main/scores/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/3b_Die_K%C3%B6nige",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=cornelius_op8_no_3a_die_konige",

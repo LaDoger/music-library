@@ -2,7 +2,7 @@
  "id": "bach_bwv1032_bach_flute_sonata_in_a_major",
  "composer": "Johann Sebastian Bach",
  "death_year": "1750",
- "title": "Bach - Flute Sonata in A Major. BWV 1032. {Professional production score.}",
+ "title": "Flute Sonata in A Major. BWV 1032. {Professional production score.}",
  "catalog": "BWV 1032",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1032_bach_flute_sonata_in_a_major.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv1032_bach_flute_sonata_in_a_majorb2",
+   "source": "pdmx",
+   "title": "Flute Sonata in A Major. BWV 1032. {Professional production score.}",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1032_bach_flute_sonata_in_a_major",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Bach - Flute Sonata in A Major. BWV 1032. {Professional production score.}, BWV 1032 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Sebastian Bach: Flute Sonata in A Major. BWV 1032. {Professional production score.}, BWV 1032 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

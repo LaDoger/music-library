@@ -286,6 +286,10 @@ def build():
     picks = parse_editors_picks()
     composer_meta = load_cache("composer_meta.json")
     streams = load_cache("stream_audio.json")
+    try:  # duplicates collapsed by scripts/bulk/dedupe.py, listed on the kept item
+        editions = json.load(open(os.path.join(ROOT, "library_other_editions.json"), encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        editions = {}
     out, problems = [], []
 
     for r in rows:
@@ -367,6 +371,7 @@ def build():
             "stream_audio_mime": stream.get("stream_audio_mime", ""),
             "duration_s": stream.get("local_duration") or stream.get("duration") or 0,
             "midi_play_url": midi_play,
+            "other_editions": editions.get(rid, []),
         })
         item["search_text"] = " ".join([
             item["title"], item["composer"], item.get("catalog", ""), catalog_variants(item.get("catalog")),

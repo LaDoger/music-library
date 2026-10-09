@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_water_music_suite_air.mid",
+ "other_editions": [
+  {
+   "id": "handel_water_music_suite_airb2",
+   "source": "pdmx",
+   "title": "Water Music Suite Air",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_water_music_suite_air",

@@ -2,7 +2,7 @@
  "id": "ascarlatti_toglietemi_la_vita_ancor_ale",
  "composer": "Alessandro Scarlatti",
  "death_year": "1725",
- "title": "Toglietemi la vita ancor - Alessandro Scarlatti",
+ "title": "Toglietemi la vita ancor",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/ascarlatti_toglietemi_la_vita_ancor_ale.mid",
+ "other_editions": [
+  {
+   "id": "ascarlatti_toglietemi_la_vita_ancor_aleb2",
+   "source": "pdmx",
+   "title": "Toglietemi la vita ancor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=ascarlatti_toglietemi_la_vita_ancor_ale",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Alessandro Scarlatti: Toglietemi la vita ancor - Alessandro Scarlatti (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Alessandro Scarlatti: Toglietemi la vita ancor (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

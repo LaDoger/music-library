@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/corelli_gigue.mid",
+ "other_editions": [
+  {
+   "id": "corelli_gigueb2",
+   "source": "pdmx",
+   "title": "Gigue",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=corelli_gigue",

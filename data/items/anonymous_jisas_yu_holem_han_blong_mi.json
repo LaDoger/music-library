@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/anonymous_jisas_yu_holem_han_blong_mi.mid",
+ "other_editions": [
+  {
+   "id": "anonymous_jisas_yu_holem_han_blong_mib2",
+   "source": "pdmx",
+   "title": "Jisas Yu Holem Han Blong Mi - Choir SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=anonymous_jisas_yu_holem_han_blong_mi",

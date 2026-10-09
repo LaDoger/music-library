@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_op92_no_1_der_musensohn_d_764.mid",
+ "other_editions": [
+  {
+   "id": "schubert_op92_der_musensohn",
+   "source": "mutopia",
+   "title": "Der Musensohn",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1558",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_op92_no_1_der_musensohn_d_764",

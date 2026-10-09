@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rossini_gioacchino_rossini_barber_of.mid",
+ "other_editions": [
+  {
+   "id": "rossini_gioacchino_rossini_barber_ofb2",
+   "source": "pdmx",
+   "title": "Gioacchino Rossini - Barber of Seville",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rossini_gioacchino_rossini_barber_of",

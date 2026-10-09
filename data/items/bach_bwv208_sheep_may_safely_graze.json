@@ -57,6 +57,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv208_sheep_may_safely_graze.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv208_schafe_konnen_sicher_weiden",
+   "source": "mutopia",
+   "title": "Schafe Können Sicher Weiden (Sheep Will Safely Graze)",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1794",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv208_sheep_may_safely_graze",

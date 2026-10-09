@@ -2,7 +2,7 @@
  "id": "schumann_op68no17_schumann_album_for_the_young",
  "composer": "Robert Schumann",
  "death_year": "1856",
- "title": "Schumann - Album for the Young Op. 68 No. 17 Little Morning-Wanderer",
+ "title": "Album for the Young Op. 68 No. 17 Little Morning-Wanderer",
  "catalog": "Op. 68 No. 17",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schumann_op68no17_schumann_album_for_the_young.mid",
+ "other_editions": [
+  {
+   "id": "schumann_op68no17_schumann_album_for_the_youngb2",
+   "source": "pdmx",
+   "title": "Album for the Young Op. 68 No. 17 Little Morning-Wanderer",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op68no17_schumann_album_for_the_young",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Robert Schumann: Schumann - Album for the Young Op. 68 No. 17 Little Morning-Wanderer, Op. 68 No. 17 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Robert Schumann: Album for the Young Op. 68 No. 17 Little Morning-Wanderer, Op. 68 No. 17 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -59,6 +59,15 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 181.6,
  "midi_play_url": "files/scores/mozart_k331_rondo_turca.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k331_sonate_opus_kv_331_tema",
+   "source": "mutopia",
+   "title": "Sonate Opus KV 331 - Tema",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=614",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k331_rondo_turca",

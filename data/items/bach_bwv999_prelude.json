@@ -36,7 +36,8 @@
  "score_url": "files/scores/bach_bwv999_prelude.mid",
  "score_files": [
   "files/scores/bach_bwv999_prelude.ly",
-  "files/scores/bach_bwv999_prelude.mid"
+  "files/scores/bach_bwv999_prelude.mid",
+  "files/scores/bach_bwv999_prelude_in_d_minorb51.mid"
  ],
  "mood_tags_list": [
   "flowing",
@@ -57,6 +58,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv999_prelude.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv999_prelude_in_d_minorb51",
+   "source": "mutopia",
+   "title": "Prelude in D Minor",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=60",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv999_prelude",
@@ -65,7 +75,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude_in_d_minorb51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv999_prelude.mid",
  "render_midi": {

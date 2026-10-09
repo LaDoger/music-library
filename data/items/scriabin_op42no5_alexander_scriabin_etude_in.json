@@ -2,7 +2,7 @@
  "id": "scriabin_op42no5_alexander_scriabin_etude_in",
  "composer": "Alexander Scriabin",
  "death_year": "1915",
- "title": "Alexander Scriabin: Étude in C-sharp minor Op.42 No.5",
+ "title": "Étude in C-sharp minor Op.42 No.5",
  "catalog": "Op.42 No.5",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/scriabin_op42no5_alexander_scriabin_etude_in.mid",
+ "other_editions": [
+  {
+   "id": "scriabin_op42no5_alexander_scriabin_etude_inb2",
+   "source": "pdmx",
+   "title": "Étude in C-sharp minor Op.42 No.5",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op42no5_alexander_scriabin_etude_in",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Alexander Scriabin: Alexander Scriabin: Étude in C-sharp minor Op.42 No.5, Op.42 No.5 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Alexander Scriabin: Étude in C-sharp minor Op.42 No.5, Op.42 No.5 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

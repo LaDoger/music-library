@@ -2,7 +2,7 @@
  "id": "handel_their_bodies_are_buried_in_p",
  "composer": "George Frideric Handel",
  "death_year": "1759",
- "title": "Their bodies are buried in peace - George Frideric Handel",
+ "title": "Their bodies are buried in peace",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_their_bodies_are_buried_in_p.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_their_bodies_are_buried_in_p",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "George Frideric Handel: Their bodies are buried in peace - George Frideric Handel (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "George Frideric Handel: Their bodies are buried in peace (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

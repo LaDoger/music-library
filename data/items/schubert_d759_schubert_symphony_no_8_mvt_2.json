@@ -2,7 +2,7 @@
  "id": "schubert_d759_schubert_symphony_no_8_mvt_2",
  "composer": "Franz Schubert",
  "death_year": "1828",
- "title": "Schubert - Symphony No 8. Mvt.2. D.759. {Professional production full score.} Unfinished.",
+ "title": "Symphony No 8. Mvt.2. D.759. {Professional production full score.} Unfinished.",
  "catalog": "D.759",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_d759_schubert_symphony_no_8_mvt_2.mid",
+ "other_editions": [
+  {
+   "id": "schubert_d759_schubert_symphony_no_8_mvt_2b2",
+   "source": "pdmx",
+   "title": "Symphony No 8. Mvt.2. D.759. {Professional production full score.} Unfinished.",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_d759_schubert_symphony_no_8_mvt_2",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Schubert: Schubert - Symphony No 8. Mvt.2. D.759. {Professional production full score.} Unfinished., D.759 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Franz Schubert: Symphony No 8. Mvt.2. D.759. {Professional production full score.} Unfinished., D.759 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

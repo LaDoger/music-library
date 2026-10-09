@@ -2,7 +2,7 @@
  "id": "reger_op138no2_morgengesang_op_138_no_2_max",
  "composer": "Max Reger",
  "death_year": "1916",
- "title": "Morgengesang Op. 138 No. 2 - Max Reger",
+ "title": "Morgengesang Op. 138 No. 2",
  "catalog": "Op. 138 No. 2",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/reger_op138no2_morgengesang_op_138_no_2_max.mid",
+ "other_editions": [
+  {
+   "id": "reger_op138no2_morgengesang_op_138_no_2_maxb2",
+   "source": "pdmx",
+   "title": "Morgengesang Op. 138 No. 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=reger_op138no2_morgengesang_op_138_no_2_max",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Max Reger: Morgengesang Op. 138 No. 2 - Max Reger, Op. 138 No. 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Max Reger: Morgengesang Op. 138 No. 2, Op. 138 No. 2 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

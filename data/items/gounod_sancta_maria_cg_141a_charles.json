@@ -2,7 +2,7 @@
  "id": "gounod_sancta_maria_cg_141a_charles",
  "composer": "Charles Gounod",
  "death_year": "1893",
- "title": "Sancta Maria CG 141a - Charles Gounod",
+ "title": "Sancta Maria CG 141a",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_sancta_maria_cg_141a_charles.mid",
+ "other_editions": [
+  {
+   "id": "gounod_sancta_maria_cg_141a_charlesb2",
+   "source": "pdmx",
+   "title": "Sancta Maria CG 141a",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_sancta_maria_cg_141a_charles",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Charles Gounod: Sancta Maria CG 141a - Charles Gounod (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Charles Gounod: Sancta Maria CG 141a (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

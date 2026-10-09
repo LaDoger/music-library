@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/grieg_no_ser_er_atter_slike_fjell.mid",
+ "other_editions": [
+  {
+   "id": "grieg_no_ser_er_atter_slike_fjellb2",
+   "source": "pdmx",
+   "title": "No ser er atter slike fjell og dalar - Tine solistkurs",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_no_ser_er_atter_slike_fjell",

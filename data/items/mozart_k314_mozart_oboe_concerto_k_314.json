@@ -2,7 +2,7 @@
  "id": "mozart_k314_mozart_oboe_concerto_k_314",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Mozart Oboe Concerto K.314",
+ "title": "Oboe Concerto K.314",
  "catalog": "K.314",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k314_mozart_oboe_concerto_k_314.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k314_mozart_oboe_concerto_k_314b2",
+   "source": "pdmx",
+   "title": "Oboe Concerto K.314",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k314_mozart_oboe_concerto_k_314",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Mozart Oboe Concerto K.314, K.314 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Wolfgang Amadeus Mozart: Oboe Concerto K.314, K.314 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

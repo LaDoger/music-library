@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op48_der_gang_zum_lieben_johannes.mid",
+ "other_editions": [
+  {
+   "id": "brahms_op48_der_gang_zum_lieben_johannesb2",
+   "source": "pdmx",
+   "title": "Der Gang zum Lieben Johannes Brahms",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op48_der_gang_zum_lieben_johannes",

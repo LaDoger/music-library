@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_nei_campi_e_nelle_selve_zwei.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_nei_campi_e_nelle_selve_zweib2",
+   "source": "pdmx",
+   "title": "Nei campi e nelle selve (Zweite Komposition)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_nei_campi_e_nelle_selve_zwei",

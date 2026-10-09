@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_d531_der_tod_und_das_madchen_d_53.mid",
+ "other_editions": [
+  {
+   "id": "schubert_d531_der_tod_und_das_madchen_d_53b2",
+   "source": "pdmx",
+   "title": "Der Tod und das Mädchen D.531",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_d531_der_tod_und_das_madchen_d_53",

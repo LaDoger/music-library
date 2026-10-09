@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bizet_carmenb2.mid",
+ "other_editions": [
+  {
+   "id": "bizet_carmenb3",
+   "source": "pdmx",
+   "title": "Carmen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "bizet_overture_to_carmen_for_piano",
+   "source": "pdmx",
+   "title": "Overture to Carmen for piano solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bizet_overture_to_carmen_for_pianob2",
+   "source": "pdmx",
+   "title": "Overture to Carmen for piano solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bizet_carmenb2",

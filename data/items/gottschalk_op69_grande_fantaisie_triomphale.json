@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gottschalk_op69_grande_fantaisie_triomphale.mid",
+ "other_editions": [
+  {
+   "id": "gottschalk_op69_grande_fantaisie_triomphaleb2",
+   "source": "pdmx",
+   "title": "Grande fantaisie triomphale sur l'hymne national brésilien Op.69 (Gottschalk Louis Moreau)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gottschalk_op69_grande_fantaisie_triomphale",

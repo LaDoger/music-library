@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/byrd_ne_irascaris_reh.mid",
+ "other_editions": [
+  {
+   "id": "byrd_ne_irascaris_rehb2",
+   "source": "pdmx",
+   "title": "Ne_irascaris_Reh",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "byrd_ne_irascaris_notation_duo",
+   "source": "pdmx",
+   "title": "Ne_irascaris_notation_duo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "byrd_ne_irascaris_notation_duob2",
+   "source": "pdmx",
+   "title": "Ne_irascaris_notation_duo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=byrd_ne_irascaris_reh",

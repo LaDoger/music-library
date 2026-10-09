@@ -2,7 +2,7 @@
  "id": "frescobaldi_girolamo_frescobaldi_ricerca",
  "composer": "Girolamo Frescobaldi",
  "death_year": "1643",
- "title": "Girolamo Frescobaldi - Ricercare con obligo del Basso come appare",
+ "title": "Ricercare con obligo del Basso come appare",
  "catalog": "",
  "movement": "",
  "mood_tags": "contrapuntal",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/frescobaldi_girolamo_frescobaldi_ricerca.mid",
+ "other_editions": [
+  {
+   "id": "frescobaldi_girolamo_frescobaldi_ricercab2",
+   "source": "pdmx",
+   "title": "Ricercare con obligo del Basso come appare",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=frescobaldi_girolamo_frescobaldi_ricerca",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Girolamo Frescobaldi: Girolamo Frescobaldi - Ricercare con obligo del Basso come appare (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Girolamo Frescobaldi: Ricercare con obligo del Basso come appare (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

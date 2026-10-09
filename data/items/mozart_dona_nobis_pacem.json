@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_dona_nobis_pacem.mid",
+ "other_editions": [
+  {
+   "id": "mozart_dona_nobis_pacemb2",
+   "source": "pdmx",
+   "title": "Dona Nobis Pacem",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_dona_nobis_pacem",

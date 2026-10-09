@@ -61,6 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op54_scherzo_no_4_f_chopin_op_54.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op54_scherzo_no_4_f_chopin_op_54b2",
+   "source": "pdmx",
+   "title": "Scherzo No.4 (F.Chopin Op.54)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op54_scherzo_no_4_f_chopin_op_54",

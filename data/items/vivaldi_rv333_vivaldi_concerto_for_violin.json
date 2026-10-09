@@ -2,7 +2,7 @@
  "id": "vivaldi_rv333_vivaldi_concerto_for_violin",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Vivaldi - Concerto for violin in G minor Rv 333 III. Allegro",
+ "title": "Concerto for violin in G minor Rv 333 III. Allegro",
  "catalog": "Rv 333",
  "movement": "",
  "mood_tags": "fast;bright",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv333_vivaldi_concerto_for_violin.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_rv333_vivaldi_concerto_for_violinb2",
+   "source": "pdmx",
+   "title": "Concerto for violin in G minor Rv 333 III. Allegro",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv333_vivaldi_concerto_for_violin",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Vivaldi - Concerto for violin in G minor Rv 333 III. Allegro, Rv 333 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: Concerto for violin in G minor Rv 333 III. Allegro, Rv 333 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

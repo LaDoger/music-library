@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv934_little_prelude_number_2_in_c.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv934_little_prelude_number_2_in_cb2",
+   "source": "pdmx",
+   "title": "Little Prelude Number 2 in C Minor - BWV 934",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv934_little_prelude_number_2_in_c",

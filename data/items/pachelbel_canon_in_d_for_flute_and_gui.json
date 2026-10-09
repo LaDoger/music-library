@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/pachelbel_canon_in_d_for_flute_and_gui.mid",
+ "other_editions": [
+  {
+   "id": "pachelbel_canon_in_d_for_flute_and_guib2",
+   "source": "pdmx",
+   "title": "Canon in D for Flute and Guitar duet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pachelbel_canon_in_d_for_flute_and_gui",

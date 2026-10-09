@@ -2,7 +2,7 @@
  "id": "purcell_if_love_s_a_sweet_passion_he",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "If love's a sweet passion - Henry Purcell",
+ "title": "If love's a sweet passion",
  "catalog": "",
  "movement": "",
  "mood_tags": "lyrical;tender",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_if_love_s_a_sweet_passion_he.mid",
+ "other_editions": [
+  {
+   "id": "purcell_if_love_s_a_sweet_passion_heb2",
+   "source": "pdmx",
+   "title": "If love's a sweet passion",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_if_love_s_a_sweet_passionb2",
+   "source": "pdmx",
+   "title": "If Love's a Sweet Passion",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "purcell_if_love_s_a_sweet_passionb3",
+   "source": "pdmx",
+   "title": "If Love's a Sweet Passion",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_if_love_s_a_sweet_passion_he",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: If love's a sweet passion - Henry Purcell (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Henry Purcell: If love's a sweet passion (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

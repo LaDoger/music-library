@@ -2,7 +2,7 @@
  "id": "viardot_no_4_hai_luli",
  "composer": "Pauline Viardot",
  "death_year": "1910",
- "title": "6 Mélodies et une havanaise: Hai Luli !",
+ "title": "6 Mélodies et une havanaise: Hai Luli!",
  "catalog": "",
  "movement": "No. 4. Hai Luli !",
  "mood_tags": "classical;lyrical",
@@ -63,6 +63,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/viardot_no_4_hai_luli.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=viardot_no_4_hai_luli",
@@ -80,5 +81,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Pauline Viardot: 6 Mélodies et une havanaise: Hai Luli ! (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/main/scores/Viardot%2C_Pauline/6_M%C3%A9lodies_et_une_havanaise/4_Hai_Luli_%21. Licence: CC0."
+ "credit_text": "Pauline Viardot: 6 Mélodies et une havanaise: Hai Luli! (composition public domain).\nScore edition: https://github.com/OpenScore/Lieder/blob/main/scores/Viardot%2C_Pauline/6_M%C3%A9lodies_et_une_havanaise/4_Hai_Luli_%21. Licence: CC0."
 }

@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1012_bwv_1012_cello_suite_no_6_in.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv1012_bwv_1012_cello_suite_no_6_inb2",
+   "source": "pdmx",
+   "title": "BWV 1012 Cello Suite No.6 in D major (A = 415 Hz)ããHarp sound",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_cello_suite_6",
+   "source": "pdmx",
+   "title": "Cello Suite 6",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1012_bwv_1012_cello_suite_no_6_in",

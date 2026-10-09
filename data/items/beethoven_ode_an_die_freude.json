@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_ode_an_die_freude.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_ode_an_die_freudeb2",
+   "source": "pdmx",
+   "title": "Ode an die Freude",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_ode_an_die_freude",

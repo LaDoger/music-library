@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tallis_the_lamentation_of_jeremiah.mid",
+ "other_editions": [
+  {
+   "id": "tallis_the_lamentation_of_jeremiahb2",
+   "source": "pdmx",
+   "title": "The Lamentation of Jeremiah II",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "tallis_lamentations_of_jeremiah_unf",
+   "source": "pdmx",
+   "title": "Lamentations Of Jeremiah (Unfinished)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "tallis_lamentations_of_jeremiah_unfb2",
+   "source": "pdmx",
+   "title": "Lamentations Of Jeremiah (Unfinished)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tallis_the_lamentation_of_jeremiah",

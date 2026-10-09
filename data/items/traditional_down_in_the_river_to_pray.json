@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_down_in_the_river_to_pray.mid",
+ "other_editions": [
+  {
+   "id": "traditional_down_in_the_river_to_prayb2",
+   "source": "pdmx",
+   "title": "Down in the River to Pray",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_down_in_the_river_to_pray",

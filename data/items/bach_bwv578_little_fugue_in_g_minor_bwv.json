@@ -59,6 +59,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv578_little_fugue_in_g_minor_bwv.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv578_little_fugue_in_g_minor_bwvb2",
+   "source": "pdmx",
+   "title": "Little Fugue in G Minor BWV 578 For Wind Ensemble",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_fugue_in_g_minor",
+   "source": "pdmx",
+   "title": "Fugue in G Minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "bach_bumpin_in_g_minor_but_better",
+   "source": "pdmx",
+   "title": "Bumpin in g minor(but better)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv578_little_fugue_in_g_minor_bwv",

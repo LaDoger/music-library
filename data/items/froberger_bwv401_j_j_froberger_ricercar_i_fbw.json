@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/froberger_bwv401_j_j_froberger_ricercar_i_fbw.mid",
+ "other_editions": [
+  {
+   "id": "froberger_bwv401_j_j_froberger_ricercar_i_fbwb2",
+   "source": "pdmx",
+   "title": "J. J. Froberger Ricercar I (FbWV 401)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=froberger_bwv401_j_j_froberger_ricercar_i_fbw",

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1027_bwv_1027_sonata_for_viola_da.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv1027_bwv_1027_sonata_for_viola_dab2",
+   "source": "pdmx",
+   "title": "BWV 1027: Sonata for Viola da Gamba and Harpsichord",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1027_bwv_1027_sonata_for_viola_da",

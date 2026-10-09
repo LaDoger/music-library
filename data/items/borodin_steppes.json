@@ -54,6 +54,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 458.24,
  "midi_play_url": "",
+ "other_editions": [
+  {
+   "id": "borodin_alexander_borodin_in_the_ste",
+   "source": "pdmx",
+   "title": "In the Steppes of Central Asia",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "borodin_alexander_borodin_in_the_steb2",
+   "source": "pdmx",
+   "title": "In the Steppes of Central Asia",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=borodin_steppes",

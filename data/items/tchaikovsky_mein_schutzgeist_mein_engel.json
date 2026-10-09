@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tchaikovsky_mein_schutzgeist_mein_engel.mid",
+ "other_editions": [
+  {
+   "id": "tchaikovsky_mein_schutzgeist_mein_engelb2",
+   "source": "pdmx",
+   "title": "Mein Schutzgeist mein Engel mein Lieb (ÐÐ¾Ð¹ Ð³ÐµÐ½ÐÐ¹ Ð¼Ð¾Ð¹ ÐÐ½Ð³ÐµÐ Ð¼Ð¾Ð¹ ÐÑÑÐ³)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_mein_schutzgeist_mein_engel",

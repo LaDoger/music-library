@@ -2,7 +2,7 @@
  "id": "purcell_cantate_domino_in_b_flat_z_2",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "Cantate Domino in B flat Z 230/9 - Henry Purcell",
+ "title": "Cantate Domino in B flat Z 230/9",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_cantate_domino_in_b_flat_z_2.mid",
+ "other_editions": [
+  {
+   "id": "purcell_cantate_domino_in_b_flat_z_2b2",
+   "source": "pdmx",
+   "title": "Cantate Domino in B flat Z 230/9",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_cantate_domino_in_b_flat_z_2",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: Cantate Domino in B flat Z 230/9 - Henry Purcell (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Henry Purcell: Cantate Domino in B flat Z 230/9 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

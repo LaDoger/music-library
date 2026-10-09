@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/lully_l_air_des_trembleurs_lully_i.mid",
+ "other_editions": [
+  {
+   "id": "lully_l_air_des_trembleurs_lully_ib2",
+   "source": "pdmx",
+   "title": "L'air des trembleurs (Lully Isis)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=lully_l_air_des_trembleurs_lully_i",

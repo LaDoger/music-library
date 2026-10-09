@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/telemann_fantasia_no_2_bb_trumpet.mid",
+ "other_editions": [
+  {
+   "id": "telemann_fantasia_no_2_bb_trumpetb2",
+   "source": "pdmx",
+   "title": "Fantasia No.2 Bb (Trumpet)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=telemann_fantasia_no_2_bb_trumpet",

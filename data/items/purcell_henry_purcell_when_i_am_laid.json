@@ -2,7 +2,7 @@
  "id": "purcell_henry_purcell_when_i_am_laid",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "Henry Purcell: When I am laid (aka Dido's Lament from Act 3 of Dido and Aeneas)",
+ "title": "When I am laid (aka Dido's Lament from Act 3 of Dido and Aeneas)",
  "catalog": "",
  "movement": "",
  "mood_tags": "slow;somber",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_henry_purcell_when_i_am_laid.mid",
+ "other_editions": [
+  {
+   "id": "purcell_henry_purcell_when_i_am_laidb2",
+   "source": "pdmx",
+   "title": "When I am laid (aka Dido's Lament from Act 3 of Dido and Aeneas)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_henry_purcell_when_i_am_laid",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: Henry Purcell: When I am laid (aka Dido's Lament from Act 3 of Dido and Aeneas) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Henry Purcell: When I am laid (aka Dido's Lament from Act 3 of Dido and Aeneas) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

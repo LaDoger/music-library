@@ -2,7 +2,7 @@
  "id": "bach_bwvanh120_johann_sebastian_bach_menuet",
  "composer": "Johann Sebastian Bach",
  "death_year": "1750",
- "title": "Johann Sebastian Bach - Menuet",
+ "title": "Menuet",
  "catalog": "BWV Anh. 120",
  "movement": "",
  "mood_tags": "moderate;elegant",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwvanh120_johann_sebastian_bach_menuet.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwvanh120_johann_sebastian_bach_menuetb2",
+   "source": "pdmx",
+   "title": "Menuet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwvanh120_johann_sebastian_bach_menuet",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Johann Sebastian Bach - Menuet, BWV Anh. 120 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Johann Sebastian Bach: Menuet, BWV Anh. 120 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

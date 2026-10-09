@@ -2,7 +2,7 @@
  "id": "schubert_franz_schubert_l_andler",
  "composer": "Franz Schubert",
  "death_year": "1828",
- "title": "Franz Schubert - L\\andler",
+ "title": "L\\andler",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_franz_schubert_l_andler.mid",
+ "other_editions": [
+  {
+   "id": "schubert_franz_schubert_l_andlerb2",
+   "source": "pdmx",
+   "title": "L\\andler",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_franz_schubert_l_andler",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Schubert: Franz Schubert - L\\andler (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Franz Schubert: L\\andler (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

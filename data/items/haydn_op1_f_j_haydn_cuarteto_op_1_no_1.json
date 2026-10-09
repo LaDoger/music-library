@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_op1_f_j_haydn_cuarteto_op_1_no_1.mid",
+ "other_editions": [
+  {
+   "id": "haydn_op1_f_j_haydn_cuarteto_op_1_no_1b2",
+   "source": "pdmx",
+   "title": "F. J. Haydn - Cuarteto op. 1 nº 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_op1_f_j_haydn_cuarteto_op_1_no_1",

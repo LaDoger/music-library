@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k15k_w_a_mozart_minore_in_a_minor.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k15k_w_a_mozart_minore_in_a_minorb2",
+   "source": "pdmx",
+   "title": "W.A. Mozart - Minore in A minor K. 15k",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k15k_w_a_mozart_minore_in_a_minor",

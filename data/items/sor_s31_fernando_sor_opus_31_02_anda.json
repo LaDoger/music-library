@@ -2,7 +2,7 @@
  "id": "sor_s31_fernando_sor_opus_31_02_anda",
  "composer": "Fernando Sor",
  "death_year": "1839",
- "title": "Fernando Sor - Opus 31.02 - Andante",
+ "title": "Opus 31.02 - Andante",
  "catalog": "s 31",
  "movement": "",
  "mood_tags": "moderate;elegant",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/sor_s31_fernando_sor_opus_31_02_anda.mid",
+ "other_editions": [
+  {
+   "id": "sor_s31_fernando_sor_opus_31_02_andab2",
+   "source": "pdmx",
+   "title": "Opus 31.02 - Andante",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=sor_s31_fernando_sor_opus_31_02_anda",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Fernando Sor: Fernando Sor - Opus 31.02 - Andante, s 31 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Fernando Sor: Opus 31.02 - Andante, s 31 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

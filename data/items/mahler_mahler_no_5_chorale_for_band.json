@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mahler_mahler_no_5_chorale_for_band.mid",
+ "other_editions": [
+  {
+   "id": "mahler_mahler_no_5_chorale_for_bandb2",
+   "source": "pdmx",
+   "title": "Mahler no. 5 Chorale for Band",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mahler_mahler_no_5_chorale_for_band",

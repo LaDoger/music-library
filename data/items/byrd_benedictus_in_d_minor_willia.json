@@ -2,7 +2,7 @@
  "id": "byrd_benedictus_in_d_minor_willia",
  "composer": "William Byrd",
  "death_year": "1623",
- "title": "Benedictus in D minor - William Byrd",
+ "title": "Benedictus in D minor",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/byrd_benedictus_in_d_minor_willia.mid",
+ "other_editions": [
+  {
+   "id": "byrd_benedictus_in_d_minor_williab2",
+   "source": "pdmx",
+   "title": "Benedictus in D minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=byrd_benedictus_in_d_minor_willia",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "William Byrd: Benedictus in D minor - William Byrd (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "William Byrd: Benedictus in D minor (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

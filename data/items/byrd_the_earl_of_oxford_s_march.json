@@ -2,7 +2,7 @@
  "id": "byrd_the_earl_of_oxford_s_march",
  "composer": "William Byrd",
  "death_year": "1623",
- "title": "THE EARL OF OXFORD'S MARCH",
+ "title": "The Earl of Oxford's March",
  "catalog": "",
  "movement": "",
  "mood_tags": "march;ceremonial",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/byrd_the_earl_of_oxford_s_march.mid",
+ "other_editions": [
+  {
+   "id": "byrd_the_earl_of_oxford_s_marchb2",
+   "source": "pdmx",
+   "title": "The Earl of Oxford's March",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=byrd_the_earl_of_oxford_s_march",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "William Byrd: THE EARL OF OXFORD'S MARCH (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "William Byrd: The Earl of Oxford's March (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

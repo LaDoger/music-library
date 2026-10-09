@@ -2,7 +2,7 @@
  "id": "monteverdi_lasciatemi_morire_monteverdi",
  "composer": "Claudio Monteverdi",
  "death_year": "1643",
- "title": "Lasciatemi morire! (Monteverdi) SSATB",
+ "title": "Lasciatemi morire! SSATB",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,43 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/monteverdi_lasciatemi_morire_monteverdi.mid",
+ "other_editions": [
+  {
+   "id": "monteverdi_lasciatemi_morire_monteverdib2",
+   "source": "pdmx",
+   "title": "Lasciatemi morire! SSATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "monteverdi_lasciatemi_morire_claudio_mo",
+   "source": "pdmx",
+   "title": "Lasciatemi morire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "monteverdi_lasciatemi_morire_claudio_mob2",
+   "source": "pdmx",
+   "title": "Lasciatemi morire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "monteverdi_lasciatemi_morireb2",
+   "source": "pdmx",
+   "title": "Lasciatemi morire!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "monteverdi_lasciatemi_morireb3",
+   "source": "pdmx",
+   "title": "Lasciatemi morire!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=monteverdi_lasciatemi_morire_monteverdi",
@@ -76,5 +113,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Claudio Monteverdi: Lasciatemi morire! (Monteverdi) SSATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Claudio Monteverdi: Lasciatemi morire! SSATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

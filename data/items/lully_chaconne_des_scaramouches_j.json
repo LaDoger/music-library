@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/lully_chaconne_des_scaramouches_j.mid",
+ "other_editions": [
+  {
+   "id": "lully_chaconne_des_scaramouches_jb2",
+   "source": "pdmx",
+   "title": "Chaconne des Scaramouches J.B Lully",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=lully_chaconne_des_scaramouches_j",

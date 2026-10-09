@@ -2,7 +2,7 @@
  "id": "satie_erik_satie_gnossienne_no_4",
  "composer": "Erik Satie",
  "death_year": "1925",
- "title": "Erik Satie - Gnossienne No. 4",
+ "title": "Gnossienne No. 4",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_erik_satie_gnossienne_no_4.mid",
+ "other_editions": [
+  {
+   "id": "satie_erik_satie_gnossienne_no_4b2",
+   "source": "pdmx",
+   "title": "Gnossienne No. 4",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_erik_satie_gnossienne_no_4",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Erik Satie: Erik Satie - Gnossienne No. 4 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Erik Satie: Gnossienne No. 4 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

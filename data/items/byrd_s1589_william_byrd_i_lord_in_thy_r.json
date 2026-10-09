@@ -2,7 +2,7 @@
  "id": "byrd_s1589_william_byrd_i_lord_in_thy_r",
  "composer": "William Byrd",
  "death_year": "1623",
- "title": "William Byrd - I. Lord in thy rage rebuke me not (Psalm 6)",
+ "title": "I. Lord in thy rage rebuke me not (Psalm 6)",
  "catalog": "s 1589",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/byrd_s1589_william_byrd_i_lord_in_thy_r.mid",
+ "other_editions": [
+  {
+   "id": "byrd_s1589_william_byrd_i_lord_in_thy_rb2",
+   "source": "pdmx",
+   "title": "I. Lord in thy rage rebuke me not (Psalm 6)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=byrd_s1589_william_byrd_i_lord_in_thy_r",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "William Byrd: William Byrd - I. Lord in thy rage rebuke me not (Psalm 6), s 1589 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "William Byrd: I. Lord in thy rage rebuke me not (Psalm 6), s 1589 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tallis_with_broken_heart_and_contri.mid",
+ "other_editions": [
+  {
+   "id": "tallis_with_broken_heart_and_contrib2",
+   "source": "pdmx",
+   "title": "With broken heart and contrite sigh - Tallis Canon with Descant",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tallis_with_broken_heart_and_contri",

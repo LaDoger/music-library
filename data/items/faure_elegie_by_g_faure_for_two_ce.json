@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/faure_elegie_by_g_faure_for_two_ce.mid",
+ "other_editions": [
+  {
+   "id": "faure_elegie_by_g_faure_for_two_ceb2",
+   "source": "pdmx",
+   "title": "Elegie by G. Fauré for two cellos",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_elegie_by_g_faure_for_two_ce",

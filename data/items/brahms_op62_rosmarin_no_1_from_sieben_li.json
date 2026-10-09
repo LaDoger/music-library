@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op62_rosmarin_no_1_from_sieben_li.mid",
+ "other_editions": [
+  {
+   "id": "brahms_op62_rosmarin_no_1_from_sieben_lib2",
+   "source": "pdmx",
+   "title": "Rosmarin No 1 from Sieben Lieder Opus 62 Recorder Quartet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op62_rosmarin_no_1_from_sieben_li",

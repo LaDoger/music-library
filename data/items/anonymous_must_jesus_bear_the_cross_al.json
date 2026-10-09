@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/anonymous_must_jesus_bear_the_cross_al.mid",
+ "other_editions": [
+  {
+   "id": "anonymous_must_jesus_bear_the_cross_alb2",
+   "source": "pdmx",
+   "title": "Must Jesus Bear the Cross Alone",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=anonymous_must_jesus_bear_the_cross_al",

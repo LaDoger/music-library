@@ -2,7 +2,7 @@
  "id": "ascarlatti_exultate_deo_a_scarlatti_sat",
  "composer": "Alessandro Scarlatti",
  "death_year": "1725",
- "title": "Exultate Deo (A. Scarlatti) SATB",
+ "title": "Exultate Deo SATB",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/ascarlatti_exultate_deo_a_scarlatti_sat.mid",
+ "other_editions": [
+  {
+   "id": "ascarlatti_exultate_deo_a_scarlatti_satb2",
+   "source": "pdmx",
+   "title": "Exultate Deo SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=ascarlatti_exultate_deo_a_scarlatti_sat",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Alessandro Scarlatti: Exultate Deo (A. Scarlatti) SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Alessandro Scarlatti: Exultate Deo SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

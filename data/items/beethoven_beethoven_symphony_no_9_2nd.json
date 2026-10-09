@@ -61,6 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_beethoven_symphony_no_9_2nd.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_beethoven_symphony_no_9_2ndb2",
+   "source": "pdmx",
+   "title": "Beethoven_Symphony_No._9_2nd_Movment_Scherzo_1st Violin_Titled",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_beethoven_symphony_no_9_2nd",

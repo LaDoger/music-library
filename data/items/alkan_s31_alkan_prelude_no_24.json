@@ -2,7 +2,7 @@
  "id": "alkan_s31_alkan_prelude_no_24",
  "composer": "Charles-Valentin Alkan",
  "death_year": "1888",
- "title": "Alkan Prelude No 24",
+ "title": "Prelude No 24",
  "catalog": "s 31",
  "movement": "",
  "mood_tags": "intimate",
@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/alkan_s31_alkan_prelude_no_24.mid",
+ "other_editions": [
+  {
+   "id": "alkan_s31_alkan_prelude_no_24b2",
+   "source": "pdmx",
+   "title": "Prelude No 24",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=alkan_s31_alkan_prelude_no_24",
@@ -75,5 +84,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Charles-Valentin Alkan: Alkan Prelude No 24, s 31 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Charles-Valentin Alkan: Prelude No 24, s 31 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

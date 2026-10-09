@@ -58,7 +58,7 @@ BULK_SOURCE_CAPS = {
     "openscore-lieder": 2000,
     "openscore-quartets": 600,
     "mutopia": 1500,
-    "pdmx": 2500,
+    "pdmx": 8000,
 }
 BULK = False
 MAX_LIMIT = 3000

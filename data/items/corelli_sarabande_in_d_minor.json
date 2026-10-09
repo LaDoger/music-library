@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/corelli_sarabande_in_d_minor.mid",
+ "other_editions": [
+  {
+   "id": "corelli_sarabande_in_d_minorb2",
+   "source": "pdmx",
+   "title": "Sarabande in D Minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=corelli_sarabande_in_d_minor",

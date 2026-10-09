@@ -2,7 +2,7 @@
  "id": "scarlatti_k98_domenico_scarlatti_sonata_k",
  "composer": "Domenico Scarlatti",
  "death_year": "1757",
- "title": "Domenico Scarlatti - Sonata K. 98",
+ "title": "Sonata K. 98",
  "catalog": "K. 98",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/scarlatti_k98_domenico_scarlatti_sonata_k.mid",
+ "other_editions": [
+  {
+   "id": "scarlatti_k98_domenico_scarlatti_sonata_kb2",
+   "source": "pdmx",
+   "title": "Sonata K. 98",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scarlatti_k98_domenico_scarlatti_sonata_k",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Domenico Scarlatti: Domenico Scarlatti - Sonata K. 98, K. 98 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Domenico Scarlatti: Sonata K. 98, K. 98 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

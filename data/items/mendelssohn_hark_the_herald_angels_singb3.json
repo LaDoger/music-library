@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_hark_the_herald_angels_singb3.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_hark_the_herald_angels_singb8",
+   "source": "pdmx",
+   "title": "Hark The Herald Angels Sing - Recorder with DESCANT",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_hark_the_herald_angels_singb3",

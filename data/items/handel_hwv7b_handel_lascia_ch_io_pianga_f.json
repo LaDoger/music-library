@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv7b_handel_lascia_ch_io_pianga_f.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv7b_handel_lascia_ch_io_pianga_fb2",
+   "source": "pdmx",
+   "title": "Händel - Lascia Ch'io Pianga for Baroque Flute (A=415)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv7b_handel_lascia_ch_io_pianga_f",

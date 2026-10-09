@@ -60,6 +60,43 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schumann_op15_curiose_geschichte.mid",
+ "other_editions": [
+  {
+   "id": "schumann_op15_hasche_mann",
+   "source": "mutopia",
+   "title": "Kinderscenen - Hasche-Mann",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=365",
+   "licence": "CC-BY"
+  },
+  {
+   "id": "schumann_op15_bittendes_kind",
+   "source": "mutopia",
+   "title": "Kinderscenen - Bittendes Kind",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=366",
+   "licence": "CC-BY"
+  },
+  {
+   "id": "schumann_op15_wichtige_begebenheit",
+   "source": "mutopia",
+   "title": "Kinderscenen - Wichtige Begebenheit",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=374",
+   "licence": "CC-BY"
+  },
+  {
+   "id": "schumann_op15_schumann_kinderszenen_op_15",
+   "source": "pdmx",
+   "title": "Kinderszenen Op. 15",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "schumann_op15_schumann_kinderszenen_op_15b2",
+   "source": "pdmx",
+   "title": "Kinderszenen Op. 15",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op15_curiose_geschichte",

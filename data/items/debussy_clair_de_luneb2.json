@@ -61,6 +61,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_clair_de_luneb2.mid",
+ "other_editions": [
+  {
+   "id": "debussy_clair_de_luneb3",
+   "source": "pdmx",
+   "title": "Clair de Lune",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_clair_de_lune_easyb51",
+   "source": "pdmx",
+   "title": "Clair de Lune (easy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_clair_de_luneb2",

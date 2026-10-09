@@ -2,7 +2,7 @@
  "id": "liszt_s140_franz_liszt_s_140_etude_6_va",
  "composer": "Franz Liszt",
  "death_year": "1886",
- "title": "Franz Liszt S. 140 Etude 6 Var. 2 but it's impossible",
+ "title": "S. 140 Etude 6 Var. 2 but it's impossible",
  "catalog": "S. 140",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/liszt_s140_franz_liszt_s_140_etude_6_va.mid",
+ "other_editions": [
+  {
+   "id": "liszt_s140_franz_liszt_s_140_etude_6_vab2",
+   "source": "pdmx",
+   "title": "S. 140 Etude 6 Var. 2 but it's impossible",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=liszt_s140_franz_liszt_s_140_etude_6_va",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Liszt: Franz Liszt S. 140 Etude 6 Var. 2 but it's impossible, S. 140 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Franz Liszt: S. 140 Etude 6 Var. 2 but it's impossible, S. 140 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

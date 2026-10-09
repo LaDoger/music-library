@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_gymnopedie_no_1_by_satie_tra.mid",
+ "other_editions": [
+  {
+   "id": "satie_gymnopedie_no_1_by_satie_trab2",
+   "source": "pdmx",
+   "title": "Gymnopédie No. 1 by Satie transposed to C arranged for lever harp",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_gymnopedie_no_1_by_satie_tra",

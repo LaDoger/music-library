@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_bonny_portmore_for_flute_and.mid",
+ "other_editions": [
+  {
+   "id": "traditional_bonny_portmore_for_flute_andb2",
+   "source": "pdmx",
+   "title": "Bonny Portmore for flute and violin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_bonny_portmore_for_flute_and",

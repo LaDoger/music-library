@@ -60,6 +60,57 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_la_fille_aux_cheveux_de_linb2.mid",
+ "other_editions": [
+  {
+   "id": "debussy_la_fille_aux_cheveux_de_linb4",
+   "source": "pdmx",
+   "title": "La Fille aux Cheveux de Lin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_la_fille_aux_cheveux_de_lin",
+   "source": "pdmx",
+   "title": "La fille aux cheveux de lin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_la_fille_aux_cheveux_de_linb3",
+   "source": "pdmx",
+   "title": "La fille aux cheveux de lin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_la_fille_aux_cheveux",
+   "source": "pdmx",
+   "title": "La fille aux cheveux de lin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_la_fille_aux_cheveuxb2",
+   "source": "pdmx",
+   "title": "La fille aux cheveux de lin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_fzw_audition_violin_the_girl",
+   "source": "pdmx",
+   "title": "FZW Audition Violin: The girl with the flaxen hair",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_fzw_audition_violin_the_girlb2",
+   "source": "pdmx",
+   "title": "FZW Audition Violin: The girl with the flaxen hair",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_la_fille_aux_cheveux_de_linb2",

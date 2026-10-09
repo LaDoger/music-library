@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dvorak_op55_silent_and_lone_the_woods_a.mid",
+ "other_editions": [
+  {
+   "id": "dvorak_op55_silent_and_lone_the_woods_ab2",
+   "source": "pdmx",
+   "title": "Silent and lone the woods A. Dvorak",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dvorak_op55_silent_and_lone_the_woods_a",

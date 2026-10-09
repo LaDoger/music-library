@@ -2,7 +2,7 @@
  "id": "mendelssohn_op69no3_magnificat_op_69_no_3_felix",
  "composer": "Felix Mendelssohn",
  "death_year": "1847",
- "title": "Magnificat Op. 69 No. 3 - Felix Mendelssohn",
+ "title": "Magnificat Op. 69 No. 3",
  "catalog": "Op. 69 No. 3",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_op69no3_magnificat_op_69_no_3_felix.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_op69no3_magnificat_op_69_no_3_felixb2",
+   "source": "pdmx",
+   "title": "Magnificat Op. 69 No. 3",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_op69no3_magnificat_op_69_no_3_felix",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Felix Mendelssohn: Magnificat Op. 69 No. 3 - Felix Mendelssohn, Op. 69 No. 3 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Felix Mendelssohn: Magnificat Op. 69 No. 3, Op. 69 No. 3 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

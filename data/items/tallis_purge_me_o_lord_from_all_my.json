@@ -2,7 +2,7 @@
  "id": "tallis_purge_me_o_lord_from_all_my",
  "composer": "Thomas Tallis",
  "death_year": "1585",
- "title": "Purge me O Lord from all my sin - Thomas Tallis",
+ "title": "Purge me O Lord from all my sin",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tallis_purge_me_o_lord_from_all_my.mid",
+ "other_editions": [
+  {
+   "id": "tallis_purge_me_o_lord_from_all_myb2",
+   "source": "pdmx",
+   "title": "Purge me O Lord from all my sin",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tallis_purge_me_o_lord_from_all_my",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Thomas Tallis: Purge me O Lord from all my sin - Thomas Tallis (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Thomas Tallis: Purge me O Lord from all my sin (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

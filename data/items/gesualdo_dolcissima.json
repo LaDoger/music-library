@@ -36,7 +36,8 @@
  "score_url": "files/scores/gesualdo_dolcissima.mid",
  "score_files": [
   "files/scores/gesualdo_dolcissima.ly",
-  "files/scores/gesualdo_dolcissima.mid"
+  "files/scores/gesualdo_dolcissima.mid",
+  "files/scores/gesualdo_dolcissima_mia_vita_carlo_geb51.mid"
  ],
  "mood_tags_list": [
   "chromatic",
@@ -59,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gesualdo_dolcissima.mid",
+ "other_editions": [
+  {
+   "id": "gesualdo_dolcissima_mia_vita_carlo_geb51",
+   "source": "pdmx",
+   "title": "Dolcissima mia vita",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gesualdo_dolcissima",
@@ -67,7 +77,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.ly",
-  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid"
+  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
+  "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima_mia_vita_carlo_geb51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gesualdo_dolcissima.mid",
  "render_midi": {

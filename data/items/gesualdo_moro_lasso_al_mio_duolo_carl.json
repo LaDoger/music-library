@@ -2,7 +2,7 @@
  "id": "gesualdo_moro_lasso_al_mio_duolo_carl",
  "composer": "Carlo Gesualdo",
  "death_year": "1613",
- "title": "Moro lasso al mio duolo - Carlo Gesualdo",
+ "title": "Moro lasso al mio duolo",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gesualdo_moro_lasso_al_mio_duolo_carl.mid",
+ "other_editions": [
+  {
+   "id": "gesualdo_moro_lasso_al_mio_duolo_carlb2",
+   "source": "pdmx",
+   "title": "Moro lasso al mio duolo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gesualdo_moro_lasso_al_mio_duolo_carl",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Carlo Gesualdo: Moro lasso al mio duolo - Carlo Gesualdo (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Carlo Gesualdo: Moro lasso al mio duolo (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

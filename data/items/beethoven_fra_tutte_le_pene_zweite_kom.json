@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_fra_tutte_le_pene_zweite_kom.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_fra_tutte_le_pene_zweite_komb2",
+   "source": "pdmx",
+   "title": "Fra tutte le pene (Zweite Komposition)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_fra_tutte_le_pene_zweite_kom",

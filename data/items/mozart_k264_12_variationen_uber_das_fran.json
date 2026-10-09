@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k264_12_variationen_uber_das_fran.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k264_12_variationen_uber_das_franb2",
+   "source": "pdmx",
+   "title": "12 Variationen über das französische Lied Ah vous dirai-je Maman K264 W.A.Mozart. Arrangement for String Quartet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k264_12_variationen_uber_das_fran",

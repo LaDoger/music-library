@@ -40,7 +40,8 @@
  "preview_url": "",
  "score_url": "files/scores/mozart_k574_gigue_in_g_major.mid",
  "score_files": [
-  "files/scores/mozart_k574_gigue_in_g_major.mid"
+  "files/scores/mozart_k574_gigue_in_g_major.mid",
+  "files/scores/mozart_k574_gigue_in_g_major_k_574b51.mid"
  ],
  "mood_tags_list": [
   "fast",
@@ -60,6 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k574_gigue_in_g_major.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k574_gigue_in_g_major_k_574b51",
+   "source": "pdmx",
+   "title": "Gigue in G Major - K. 574",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k574_gigue_in_g_major",
@@ -67,7 +77,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid"
+  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
+  "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major_k_574b51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k574_gigue_in_g_major.mid",
  "render_midi": {

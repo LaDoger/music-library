@@ -2,7 +2,7 @@
  "id": "dvorak_op95_symphony_9_in_e_minor_op_95",
  "composer": "Antonín Dvořák",
  "death_year": "1904",
- "title": "Symphony 9 in E minor Op. 95 From the New World Movement 2 (Antonin Dvorak)",
+ "title": "Symphony 9 in E minor Op. 95 From the New World Movement 2",
  "catalog": "Op. 95",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dvorak_op95_symphony_9_in_e_minor_op_95.mid",
+ "other_editions": [
+  {
+   "id": "dvorak_op95_symphony_9_in_e_minor_op_95b2",
+   "source": "pdmx",
+   "title": "Symphony 9 in E minor Op. 95 From the New World Movement 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dvorak_op95_symphony_9_in_e_minor_op_95",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonín Dvořák: Symphony 9 in E minor Op. 95 From the New World Movement 2 (Antonin Dvorak), Op. 95 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Antonín Dvořák: Symphony 9 in E minor Op. 95 From the New World Movement 2, Op. 95 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

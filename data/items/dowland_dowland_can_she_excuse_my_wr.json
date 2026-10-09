@@ -2,7 +2,7 @@
  "id": "dowland_dowland_can_she_excuse_my_wr",
  "composer": "John Dowland",
  "death_year": "1626",
- "title": "Dowland - Can she excuse my wrongs",
+ "title": "Can she excuse my wrongs",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_dowland_can_she_excuse_my_wr.mid",
+ "other_editions": [
+  {
+   "id": "dowland_dowland_can_she_excuse_my_wrb2",
+   "source": "pdmx",
+   "title": "Can she excuse my wrongs",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_dowland_can_she_excuse_my_wr",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "John Dowland: Dowland - Can she excuse my wrongs (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "John Dowland: Can she excuse my wrongs (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

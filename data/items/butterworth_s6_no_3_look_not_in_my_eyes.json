@@ -63,6 +63,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/butterworth_s6_no_3_look_not_in_my_eyes.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=butterworth_s6_no_3_look_not_in_my_eyes",

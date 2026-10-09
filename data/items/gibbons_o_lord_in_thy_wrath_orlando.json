@@ -2,7 +2,7 @@
  "id": "gibbons_o_lord_in_thy_wrath_orlando",
  "composer": "Orlando Gibbons",
  "death_year": "1625",
- "title": "O Lord in thy wrath - Orlando Gibbons",
+ "title": "O Lord in thy wrath",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gibbons_o_lord_in_thy_wrath_orlando.mid",
+ "other_editions": [
+  {
+   "id": "gibbons_o_lord_in_thy_wrath_orlandob2",
+   "source": "pdmx",
+   "title": "O Lord in thy wrath",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gibbons_o_lord_in_thy_wrath_orlando",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Orlando Gibbons: O Lord in thy wrath - Orlando Gibbons (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Orlando Gibbons: O Lord in thy wrath (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

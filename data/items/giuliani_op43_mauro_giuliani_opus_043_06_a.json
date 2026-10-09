@@ -2,7 +2,7 @@
  "id": "giuliani_op43_mauro_giuliani_opus_043_06_a",
  "composer": "Mauro Giuliani",
  "death_year": "1829",
- "title": "Mauro Giuliani - Opus 043.06 - Andante in C",
+ "title": "Opus 043.06 - Andante in C",
  "catalog": "Op.43",
  "movement": "",
  "mood_tags": "moderate;elegant",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/giuliani_op43_mauro_giuliani_opus_043_06_a.mid",
+ "other_editions": [
+  {
+   "id": "giuliani_op43_mauro_giuliani_opus_043_06_ab2",
+   "source": "pdmx",
+   "title": "Opus 043.06 - Andante in C",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=giuliani_op43_mauro_giuliani_opus_043_06_a",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Mauro Giuliani: Mauro Giuliani - Opus 043.06 - Andante in C, Op.43 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Mauro Giuliani: Opus 043.06 - Andante in C, Op.43 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

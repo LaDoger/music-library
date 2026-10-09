@@ -2,7 +2,7 @@
  "id": "vivaldi_rv310_vivaldi_violin_concerto_in_g",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Vivaldi - Violin Concerto in G Major Op. 7 No. 2",
+ "title": "Violin Concerto in G Major Op. 7 No. 2",
  "catalog": "RV 310",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv310_vivaldi_violin_concerto_in_g.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_rv310_vivaldi_violin_concerto_in_gb2",
+   "source": "pdmx",
+   "title": "Violin Concerto in G Major Op. 7 No. 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv310_vivaldi_violin_concerto_in_g",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Vivaldi - Violin Concerto in G Major Op. 7 No. 2, RV 310 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: Violin Concerto in G Major Op. 7 No. 2, RV 310 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

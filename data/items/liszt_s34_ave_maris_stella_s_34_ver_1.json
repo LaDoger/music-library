@@ -2,7 +2,7 @@
  "id": "liszt_s34_ave_maris_stella_s_34_ver_1",
  "composer": "Franz Liszt",
  "death_year": "1886",
- "title": "Ave maris stella S. 34 (ver. 1 for SATB ver. 2 for TTBB) - Franz Liszt",
+ "title": "Ave maris stella S. 34 (ver. 1 for SATB ver. 2 for TTBB)",
  "catalog": "S. 34",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/liszt_s34_ave_maris_stella_s_34_ver_1.mid",
+ "other_editions": [
+  {
+   "id": "liszt_s34_ave_maris_stella_s_34_ver_1b2",
+   "source": "pdmx",
+   "title": "Ave maris stella S. 34 (ver. 1 for SATB ver. 2 for TTBB)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=liszt_s34_ave_maris_stella_s_34_ver_1",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Liszt: Ave maris stella S. 34 (ver. 1 for SATB ver. 2 for TTBB) - Franz Liszt, S. 34 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Franz Liszt: Ave maris stella S. 34 (ver. 1 for SATB ver. 2 for TTBB), S. 34 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

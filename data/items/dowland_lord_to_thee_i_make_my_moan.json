@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_lord_to_thee_i_make_my_moan.mid",
+ "other_editions": [
+  {
+   "id": "dowland_lord_to_thee_i_make_my_moanb2",
+   "source": "pdmx",
+   "title": "Lord to thee I make my moan",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_lord_to_thee_i_make_my_moan",

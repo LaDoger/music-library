@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tarrega_lagrima_francisco_tarrega_18b51.mid",
+ "other_editions": [
+  {
+   "id": "tarrega_lagrima_francisco_tarrega_lab51",
+   "source": "pdmx",
+   "title": "Lagrima Francisco Tárrega Lagrima",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "tarrega_lagrima",
+   "source": "pdmx",
+   "title": "Lágrima",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "tarrega_lagrimab2",
+   "source": "pdmx",
+   "title": "Lágrima",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tarrega_lagrima_francisco_tarrega_18b51",

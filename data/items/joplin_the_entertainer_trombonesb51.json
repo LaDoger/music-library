@@ -2,7 +2,7 @@
  "id": "joplin_the_entertainer_trombonesb51",
  "composer": "Scott Joplin",
  "death_year": "1917",
- "title": "THE ENTERTAINER TROMBONES",
+ "title": "The Entertainer Trombones",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/joplin_the_entertainer_trombonesb51.mid",
+ "other_editions": [
+  {
+   "id": "joplin_s2_the_entertainer_trombones_2",
+   "source": "pdmx",
+   "title": "The Entertainer Trombones 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "joplin_s2_the_entertainer_trombones_2b2",
+   "source": "pdmx",
+   "title": "The Entertainer Trombones 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=joplin_the_entertainer_trombonesb51",
@@ -76,5 +92,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Scott Joplin: THE ENTERTAINER TROMBONES (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Scott Joplin: The Entertainer Trombones (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

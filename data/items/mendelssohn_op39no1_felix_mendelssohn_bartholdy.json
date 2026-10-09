@@ -2,7 +2,7 @@
  "id": "mendelssohn_op39no1_felix_mendelssohn_bartholdy",
  "composer": "Felix Mendelssohn",
  "death_year": "1847",
- "title": "Felix Mendelssohn Bartholdy Op. 39 No. 1 Veni domine",
+ "title": "Bartholdy Op. 39 No. 1 Veni domine",
  "catalog": "Op. 39 No. 1",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_op39no1_felix_mendelssohn_bartholdy.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_op39no1_felix_mendelssohn_bartholdyb2",
+   "source": "pdmx",
+   "title": "Bartholdy Op. 39 No. 1 Veni domine",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_op39no1_felix_mendelssohn_bartholdy",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Felix Mendelssohn: Felix Mendelssohn Bartholdy Op. 39 No. 1 Veni domine, Op. 39 No. 1 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Felix Mendelssohn: Bartholdy Op. 39 No. 1 Veni domine, Op. 39 No. 1 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

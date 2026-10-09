@@ -2,7 +2,7 @@
  "id": "hensel_wandl_ich_in_dem_wald_des_ab",
  "composer": "Fanny Hensel",
  "death_year": "1847",
- "title": "Wandl' ich in dem Wald des Abends - Fanny Hensel",
+ "title": "Wandl' ich in dem Wald des Abends",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/hensel_wandl_ich_in_dem_wald_des_ab.mid",
+ "other_editions": [
+  {
+   "id": "hensel_wandl_ich_in_dem_wald_des_abb2",
+   "source": "pdmx",
+   "title": "Wandl' ich in dem Wald des Abends",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=hensel_wandl_ich_in_dem_wald_des_ab",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Fanny Hensel: Wandl' ich in dem Wald des Abends - Fanny Hensel (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Fanny Hensel: Wandl' ich in dem Wald des Abends (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

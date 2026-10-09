@@ -2,7 +2,7 @@
  "id": "unknown_stille_nacht_hymntune",
  "composer": "Franz Gruber",
  "death_year": "1863",
- "title": "Stille  Nacht (hymntune)",
+ "title": "Stille Nacht (hymntune)",
  "catalog": "",
  "movement": "",
  "mood_tags": "nocturnal;gentle",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/unknown_stille_nacht_hymntune.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=unknown_stille_nacht_hymntune",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Gruber: Stille  Nacht (hymntune) (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1295. Licence: PD."
+ "credit_text": "Franz Gruber: Stille Nacht (hymntune) (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1295. Licence: PD."
 }

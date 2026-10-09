@@ -2,7 +2,7 @@
  "id": "field_john_field_nocturne_in_e_fla",
  "composer": "John Field",
  "death_year": "1837",
- "title": "John Field - Nocturne in E flat major Molto moderato",
+ "title": "Nocturne in E flat major Molto moderato",
  "catalog": "",
  "movement": "",
  "mood_tags": "moderate;elegant;nocturnal;gentle",
@@ -62,6 +62,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/field_john_field_nocturne_in_e_fla.mid",
+ "other_editions": [
+  {
+   "id": "field_john_field_nocturne_in_e_flab2",
+   "source": "pdmx",
+   "title": "Nocturne in E flat major Molto moderato",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=field_john_field_nocturne_in_e_fla",
@@ -78,5 +87,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "John Field: John Field - Nocturne in E flat major Molto moderato (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "John Field: Nocturne in E flat major Molto moderato (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

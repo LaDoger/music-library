@@ -57,6 +57,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv926_little_prelude.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv926_praeludium_2",
+   "source": "mutopia",
+   "title": "Praeludium 2",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=69",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv926_little_prelude",

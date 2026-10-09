@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_op52_no_6_ellens_gesang_iii_d_839.mid",
+ "other_editions": [
+  {
+   "id": "schubert_op52_ave_maria_ellens_dritter_ges",
+   "source": "mutopia",
+   "title": "Ave Maria (Ellens dritter Gesang)",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1054",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_op52_no_6_ellens_gesang_iii_d_839",

@@ -2,7 +2,7 @@
  "id": "purcell_henry_purcell_a_new_ground",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "Henry Purcell - A New Ground",
+ "title": "A New Ground",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_henry_purcell_a_new_ground.mid",
+ "other_editions": [
+  {
+   "id": "purcell_henry_purcell_a_new_groundb2",
+   "source": "pdmx",
+   "title": "A New Ground",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_henry_purcell_a_new_ground",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: Henry Purcell - A New Ground (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Henry Purcell: A New Ground (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

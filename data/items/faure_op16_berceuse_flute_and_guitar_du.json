@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/faure_op16_berceuse_flute_and_guitar_du.mid",
+ "other_editions": [
+  {
+   "id": "faure_op16_berceuse_flute_and_guitar_dub2",
+   "source": "pdmx",
+   "title": "Berceuse- Flute and Guitar Duet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_op16_berceuse_flute_and_guitar_du",

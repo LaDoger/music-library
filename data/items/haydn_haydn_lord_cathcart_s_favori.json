@@ -2,7 +2,7 @@
  "id": "haydn_haydn_lord_cathcart_s_favori",
  "composer": "Joseph Haydn",
  "death_year": "1809",
- "title": "Haydn - Lord Cathcart's Favorite. (p)1801.PN.19",
+ "title": "Lord Cathcart's Favorite. (p)1801.PN.19",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_haydn_lord_cathcart_s_favori.mid",
+ "other_editions": [
+  {
+   "id": "haydn_haydn_lord_cathcart_s_favorib2",
+   "source": "pdmx",
+   "title": "Lord Cathcart's Favorite. (p)1801.PN.19",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_haydn_lord_cathcart_s_favori",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Joseph Haydn: Haydn - Lord Cathcart's Favorite. (p)1801.PN.19 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Joseph Haydn: Lord Cathcart's Favorite. (p)1801.PN.19 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

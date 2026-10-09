@@ -2,7 +2,7 @@
  "id": "pergolesi_stabat_mater_giovanni_battis",
  "composer": "Giovanni Battista Pergolesi",
  "death_year": "1736",
- "title": "Stabat Mater - Giovanni Battista Pergolesi",
+ "title": "Stabat Mater",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/pergolesi_stabat_mater_giovanni_battis.mid",
+ "other_editions": [
+  {
+   "id": "pergolesi_stabat_mater_giovanni_battisb2",
+   "source": "pdmx",
+   "title": "Stabat Mater",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pergolesi_stabat_mater_giovanni_battis",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Giovanni Battista Pergolesi: Stabat Mater - Giovanni Battista Pergolesi (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Giovanni Battista Pergolesi: Stabat Mater (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

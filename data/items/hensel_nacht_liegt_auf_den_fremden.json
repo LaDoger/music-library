@@ -2,7 +2,7 @@
  "id": "hensel_nacht_liegt_auf_den_fremden",
  "composer": "Fanny Hensel",
  "death_year": "1847",
- "title": "Nacht liegt auf den fremden Wegen - Fanny Hensel",
+ "title": "Nacht liegt auf den fremden Wegen",
  "catalog": "",
  "movement": "",
  "mood_tags": "nocturnal;gentle",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/hensel_nacht_liegt_auf_den_fremden.mid",
+ "other_editions": [
+  {
+   "id": "hensel_nacht_liegt_auf_den_fremdenb2",
+   "source": "pdmx",
+   "title": "Nacht liegt auf den fremden Wegen",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=hensel_nacht_liegt_auf_den_fremden",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Fanny Hensel: Nacht liegt auf den fremden Wegen - Fanny Hensel (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Fanny Hensel: Nacht liegt auf den fremden Wegen (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

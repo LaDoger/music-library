@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/giuliani_op74no5_pieces_faciles_pour_flute_ou.mid",
+ "other_editions": [
+  {
+   "id": "giuliani_op74no5_pieces_faciles_pour_flute_oub2",
+   "source": "pdmx",
+   "title": "Pièces faciles pour Flûte ou Violon et Guitare Op.74 No.5 - Giuliani Mauro (1781 - 1829)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=giuliani_op74no5_pieces_faciles_pour_flute_ou",

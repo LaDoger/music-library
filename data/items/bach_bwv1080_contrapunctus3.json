@@ -57,6 +57,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1080_contrapunctus3.mid",
+ "other_editions": [
+  {
+   "id": "bach_s3_contrapunctus_3_from_the_art",
+   "source": "pdmx",
+   "title": "Contrapunctus 3 from the Art of the Fugue",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_s3_contrapunctus_3_from_the_artb2",
+   "source": "pdmx",
+   "title": "Contrapunctus 3 from the Art of the Fugue",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_j_s_bach_die_kunst_der_fuge",
+   "source": "pdmx",
+   "title": "J.S. Bach - Die Kunst Der Fuge - Contrapunctus III",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1080_contrapunctus3",

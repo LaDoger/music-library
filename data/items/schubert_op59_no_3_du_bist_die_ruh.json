@@ -63,6 +63,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_op59_no_3_du_bist_die_ruh.mid",
+ "other_editions": [
+  {
+   "id": "schubert_op59_du_bist_die_ruh",
+   "source": "mutopia",
+   "title": "Du bist die Ruh",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1053",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_op59_no_3_du_bist_die_ruh",

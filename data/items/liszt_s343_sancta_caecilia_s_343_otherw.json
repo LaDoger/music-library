@@ -2,7 +2,7 @@
  "id": "liszt_s343_sancta_caecilia_s_343_otherw",
  "composer": "Franz Liszt",
  "death_year": "1886",
- "title": "Sancta Caecilia S. 343 (otherwise unrelated to Sainte Cécile légende S. 5) - Franz Liszt",
+ "title": "Sancta Caecilia S. 343 (otherwise unrelated to Sainte Cécile légende S. 5)",
  "catalog": "S. 343",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/liszt_s343_sancta_caecilia_s_343_otherw.mid",
+ "other_editions": [
+  {
+   "id": "liszt_s343_sancta_caecilia_s_343_otherwb2",
+   "source": "pdmx",
+   "title": "Sancta Caecilia S. 343 (otherwise unrelated to Sainte Cécile légende S. 5)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=liszt_s343_sancta_caecilia_s_343_otherw",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Liszt: Sancta Caecilia S. 343 (otherwise unrelated to Sainte Cécile légende S. 5) - Franz Liszt, S. 343 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Franz Liszt: Sancta Caecilia S. 343 (otherwise unrelated to Sainte Cécile légende S. 5), S. 343 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

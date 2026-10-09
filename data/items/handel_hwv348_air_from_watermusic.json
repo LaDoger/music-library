@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_hwv348_air_from_watermusic.mid",
+ "other_editions": [
+  {
+   "id": "handel_hwv348_air_from_watermusicb2",
+   "source": "pdmx",
+   "title": "Air From Watermusic",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_hwv348_air_from_watermusic",

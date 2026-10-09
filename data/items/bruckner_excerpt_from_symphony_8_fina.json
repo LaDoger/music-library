@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bruckner_excerpt_from_symphony_8_fina.mid",
+ "other_editions": [
+  {
+   "id": "bruckner_excerpt_from_symphony_8_finab2",
+   "source": "pdmx",
+   "title": "Excerpt From Symphony 8 Finale Mvmt IV",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bruckner_excerpt_from_symphony_8_fina",

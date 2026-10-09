@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/foster_my_shepherd_is_the_living_lo.mid",
+ "other_editions": [
+  {
+   "id": "foster_my_shepherd_is_the_living_lob2",
+   "source": "pdmx",
+   "title": "My shepherd is the living Lord - John Foster",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=foster_my_shepherd_is_the_living_lo",

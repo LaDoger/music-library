@@ -57,6 +57,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv230_lobet_den_herrn.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv230_bwv_230",
+   "source": "mutopia",
+   "title": "Lobet den Herrn, alle Heiden (Psalm 117)",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1642",
+   "licence": "PD"
+  },
+  {
+   "id": "bach_lobet_den_herrn_alle_heiden",
+   "source": "pdmx",
+   "title": "Lobet den Herrn alle Heiden",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv230_lobet_den_herrn",

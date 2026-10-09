@@ -2,7 +2,7 @@
  "id": "gesualdo_se_chiudete_nel_core_carlo_g",
  "composer": "Carlo Gesualdo",
  "death_year": "1613",
- "title": "Se chiudete nel core - Carlo Gesualdo",
+ "title": "Se chiudete nel core",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gesualdo_se_chiudete_nel_core_carlo_g.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gesualdo_se_chiudete_nel_core_carlo_g",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Carlo Gesualdo: Se chiudete nel core - Carlo Gesualdo (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Carlo Gesualdo: Se chiudete nel core (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

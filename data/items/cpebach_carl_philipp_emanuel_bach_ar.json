@@ -2,7 +2,7 @@
  "id": "cpebach_carl_philipp_emanuel_bach_ar",
  "composer": "Carl Philipp Emanuel Bach",
  "death_year": "1788",
- "title": "Carl Philipp Emanuel Bach Arioso con six Variazoni",
+ "title": "Arioso con six Variazoni",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/cpebach_carl_philipp_emanuel_bach_ar.mid",
+ "other_editions": [
+  {
+   "id": "cpebach_carl_philipp_emanuel_bach_arb2",
+   "source": "pdmx",
+   "title": "Arioso con six Variazoni",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=cpebach_carl_philipp_emanuel_bach_ar",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Carl Philipp Emanuel Bach: Carl Philipp Emanuel Bach Arioso con six Variazoni (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Carl Philipp Emanuel Bach: Arioso con six Variazoni (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -2,7 +2,7 @@
  "id": "reger_bald_gras_i_am_acker_reger_s",
  "composer": "Max Reger",
  "death_year": "1916",
- "title": "Bald gras i am Acker (Reger) SATB",
+ "title": "Bald gras i am Acker SATB",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/reger_bald_gras_i_am_acker_reger_s.mid",
+ "other_editions": [
+  {
+   "id": "reger_bald_gras_i_am_acker_reger_sb2",
+   "source": "pdmx",
+   "title": "Bald gras i am Acker SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=reger_bald_gras_i_am_acker_reger_s",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Max Reger: Bald gras i am Acker (Reger) SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Max Reger: Bald gras i am Acker SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -2,7 +2,7 @@
  "id": "traditional_greensleeves_variations_forb51",
  "composer": "Traditional",
  "death_year": "",
- "title": "greensleeves variations for mandolin",
+ "title": "Greensleeves Variations for Mandolin",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/traditional_greensleeves_variations_forb51.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_greensleeves_variations_forb51",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Traditional: greensleeves variations for mandolin (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Traditional: Greensleeves Variations for Mandolin (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

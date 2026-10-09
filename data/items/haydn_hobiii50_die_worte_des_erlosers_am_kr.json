@@ -63,6 +63,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_hobiii50_die_worte_des_erlosers_am_kr.mid",
+ "other_editions": [
+  {
+   "id": "haydn_franz_joseph_haydn_las_siete",
+   "source": "pdmx",
+   "title": "Franz Joseph Haydn - Las siete últimas palabras de Cristo en la cruz: (I) Introducción",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "haydn_franz_joseph_haydn_las_sieteb2",
+   "source": "pdmx",
+   "title": "Franz Joseph Haydn - Las siete últimas palabras de Cristo en la cruz: (I) Introducción",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_hobiii50_die_worte_des_erlosers_am_kr",

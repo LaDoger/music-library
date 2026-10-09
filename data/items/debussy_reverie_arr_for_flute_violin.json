@@ -60,6 +60,85 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_reverie_arr_for_flute_violin.mid",
+ "other_editions": [
+  {
+   "id": "debussy_reverie_arr_for_flute_violinb2",
+   "source": "pdmx",
+   "title": "Rêverie Arr. for Flute Violin and Cello",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_reverieb2",
+   "source": "pdmx",
+   "title": "Rêverie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_reverieb3",
+   "source": "pdmx",
+   "title": "Rêverie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_reverie_piano_solo",
+   "source": "pdmx",
+   "title": "Rêverie (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_debussy_reverie_piano_solob2",
+   "source": "pdmx",
+   "title": "Rêverie (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_reverie_debussyb2",
+   "source": "pdmx",
+   "title": "Rêverie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "debussy_reverie_debussyb3",
+   "source": "pdmx",
+   "title": "Rêverie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "debussy_reverie_debussy_fix",
+   "source": "pdmx",
+   "title": "Rêverie:Debussy:fix",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "debussy_reverie_debussy_fixb2",
+   "source": "pdmx",
+   "title": "Rêverie:Debussy:fix",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "debussy_reveire_c_debussy",
+   "source": "pdmx",
+   "title": "Rêveire (C.Debussy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_reveire_c_debussyb2",
+   "source": "pdmx",
+   "title": "Rêveire (C.Debussy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_reverie_arr_for_flute_violin",

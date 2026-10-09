@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/humperdinck_evening_prayer_recorder_quar.mid",
+ "other_editions": [
+  {
+   "id": "humperdinck_evening_prayer_recorder_quarb2",
+   "source": "pdmx",
+   "title": "Evening Prayer - Recorder Quartet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=humperdinck_evening_prayer_recorder_quar",

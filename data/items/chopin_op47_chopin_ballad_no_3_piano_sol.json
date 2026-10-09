@@ -2,7 +2,7 @@
  "id": "chopin_op47_chopin_ballad_no_3_piano_sol",
  "composer": "Frédéric Chopin",
  "death_year": "1849",
- "title": "Chopin Ballad No. 3 (Piano solo)",
+ "title": "Ballad No. 3 (Piano solo)",
  "catalog": "Op.47",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op47_chopin_ballad_no_3_piano_sol.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op47_chopin_ballad_no_3_piano_solb2",
+   "source": "pdmx",
+   "title": "Ballad No. 3 (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op47_chopin_ballad_no_3_piano_sol",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Frédéric Chopin: Chopin Ballad No. 3 (Piano solo), Op.47 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Frédéric Chopin: Ballad No. 3 (Piano solo), Op.47 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

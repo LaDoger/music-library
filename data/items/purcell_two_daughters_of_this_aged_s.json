@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_two_daughters_of_this_aged_s.mid",
+ "other_editions": [
+  {
+   "id": "purcell_two_daughters_of_this_aged_sb2",
+   "source": "pdmx",
+   "title": "Two daughters of this aged stream SA Purcell",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_two_daughters_of_this_aged_s",

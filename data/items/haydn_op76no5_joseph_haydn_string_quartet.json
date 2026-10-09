@@ -2,7 +2,7 @@
  "id": "haydn_op76no5_joseph_haydn_string_quartet",
  "composer": "Joseph Haydn",
  "death_year": "1809",
- "title": "Joseph Haydn - String quartet - Op. 76 no.5 in D major - Movement I",
+ "title": "String quartet - Op. 76 no.5 in D major - Movement I",
  "catalog": "Op. 76 no.5",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/haydn_op76no5_joseph_haydn_string_quartet.mid",
+ "other_editions": [
+  {
+   "id": "haydn_op76no5_joseph_haydn_string_quartetb2",
+   "source": "pdmx",
+   "title": "String quartet - Op. 76 no.5 in D major - Movement I",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=haydn_op76no5_joseph_haydn_string_quartet",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Joseph Haydn: Joseph Haydn - String quartet - Op. 76 no.5 in D major - Movement I, Op. 76 no.5 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Joseph Haydn: String quartet - Op. 76 no.5 in D major - Movement I, Op. 76 no.5 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

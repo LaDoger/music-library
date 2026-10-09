@@ -63,6 +63,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_d911_no_05_der_lindenbaum.mid",
+ "other_editions": [
+  {
+   "id": "schubert_der_lindenbaumb2",
+   "source": "pdmx",
+   "title": "Der Lindenbaum",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "schubert_der_lindenbaumb3",
+   "source": "pdmx",
+   "title": "Der Lindenbaum",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_d911_no_05_der_lindenbaum",

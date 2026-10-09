@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_come_heavy_sleep_for_guitar.mid",
+ "other_editions": [
+  {
+   "id": "dowland_come_heavy_sleep_for_guitarb2",
+   "source": "pdmx",
+   "title": "Come Heavy Sleep for Guitar Quartet John Dowland",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_come_heavy_sleep_for_guitar",

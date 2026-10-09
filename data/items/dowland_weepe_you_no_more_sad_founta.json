@@ -2,7 +2,7 @@
  "id": "dowland_weepe_you_no_more_sad_founta",
  "composer": "John Dowland",
  "death_year": "1626",
- "title": "Weepe you no more sad fountaines - John Dowland",
+ "title": "Weepe you no more sad fountaines",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_weepe_you_no_more_sad_founta.mid",
+ "other_editions": [
+  {
+   "id": "dowland_weepe_you_no_more_sad_fountab2",
+   "source": "pdmx",
+   "title": "Weepe you no more sad fountaines",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_weepe_you_no_more_sad_founta",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "John Dowland: Weepe you no more sad fountaines - John Dowland (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "John Dowland: Weepe you no more sad fountaines (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

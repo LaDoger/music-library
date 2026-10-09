@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/reger_wiegenlied_max_reger.mid",
+ "other_editions": [
+  {
+   "id": "reger_wiegenlied_max_regerb2",
+   "source": "pdmx",
+   "title": "Wiegenlied Max Reger",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=reger_wiegenlied_max_reger",

@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv694_wo_soll_ich_fliehen_hin_chor.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv694_wo_soll_ich_fliehen_hin_chorb2",
+   "source": "pdmx",
+   "title": "Wo soll ich fliehen hin. (chorale prelude) BWV 694",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv694_wo_soll_ich_fliehen_hin_chor",

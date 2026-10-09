@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mendelssohn_op35_praeludium_2_op_35.mid",
+ "other_editions": [
+  {
+   "id": "mendelssohn_op35_praeludium_2_op_35b2",
+   "source": "pdmx",
+   "title": "Praeludium 2 op. 35",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mendelssohn_op35_praeludium_2_op_35",

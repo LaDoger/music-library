@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/dowland_go_crystal_tears_satb_john_d.mid",
+ "other_editions": [
+  {
+   "id": "dowland_go_crystal_tears_satb_john_db2",
+   "source": "pdmx",
+   "title": "Go crystal tears (SATB) John Dowland",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_go_crystal_tears_satb_john_d",

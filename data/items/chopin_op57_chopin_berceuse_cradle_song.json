@@ -2,7 +2,7 @@
  "id": "chopin_op57_chopin_berceuse_cradle_song",
  "composer": "Frédéric Chopin",
  "death_year": "1849",
- "title": "Chopin Berceuse (Cradle Song) Piano solo",
+ "title": "Berceuse (Cradle Song) Piano solo",
  "catalog": "Op.57",
  "movement": "",
  "mood_tags": "nocturnal;gentle",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op57_chopin_berceuse_cradle_song.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op57_chopin_berceuse_cradle_songb2",
+   "source": "pdmx",
+   "title": "Berceuse (Cradle Song) Piano solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op57_chopin_berceuse_cradle_song",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Frédéric Chopin: Chopin Berceuse (Cradle Song) Piano solo, Op.57 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Frédéric Chopin: Berceuse (Cradle Song) Piano solo, Op.57 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

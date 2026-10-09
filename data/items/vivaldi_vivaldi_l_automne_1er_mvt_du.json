@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_vivaldi_l_automne_1er_mvt_du.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_vivaldi_l_automne_1er_mvt_dub2",
+   "source": "pdmx",
+   "title": "VIVALDI L'automne 1er mvt - duo Ré M- élève/professeur ou 2 élèves",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_vivaldi_l_automne_1er_mvt_du",

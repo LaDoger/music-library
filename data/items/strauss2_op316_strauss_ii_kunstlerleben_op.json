@@ -2,7 +2,7 @@
  "id": "strauss2_op316_strauss_ii_kunstlerleben_op",
  "composer": "Johann Strauss II",
  "death_year": "1899",
- "title": "Strauss II - Künstlerleben Op. 316",
+ "title": "Künstlerleben Op. 316",
  "catalog": "Op. 316",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/strauss2_op316_strauss_ii_kunstlerleben_op.mid",
+ "other_editions": [
+  {
+   "id": "strauss2_op316_strauss_ii_kunstlerleben_opb2",
+   "source": "pdmx",
+   "title": "Künstlerleben Op. 316",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=strauss2_op316_strauss_ii_kunstlerleben_op",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Strauss II: Strauss II - Künstlerleben Op. 316, Op. 316 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Strauss II: Künstlerleben Op. 316, Op. 316 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

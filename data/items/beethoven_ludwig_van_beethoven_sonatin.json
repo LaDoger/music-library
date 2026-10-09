@@ -2,7 +2,7 @@
  "id": "beethoven_ludwig_van_beethoven_sonatin",
  "composer": "Ludwig van Beethoven",
  "death_year": "1827",
- "title": "Ludwig van Beethoven - Sonatina",
+ "title": "Sonatina",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_ludwig_van_beethoven_sonatin.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_ludwig_van_beethoven_sonatinb2",
+   "source": "pdmx",
+   "title": "Sonatina",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "beethoven_sonatina_in_g_major_ahn_5",
+   "source": "pdmx",
+   "title": "Sonatina in G major Ahn. 5",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "beethoven_sonatina_in_g_major_ahn_5b2",
+   "source": "pdmx",
+   "title": "Sonatina in G major Ahn. 5",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_ludwig_van_beethoven_sonatin",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Ludwig van Beethoven: Ludwig van Beethoven - Sonatina (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Ludwig van Beethoven: Sonatina (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_sonatine_in_f_major_woo_anh.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_sonatine_in_f_major_woo_anhb2",
+   "source": "pdmx",
+   "title": "Sonatine In F Major WoO Anh. 5 Beethoven",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_sonatine_in_f_major_woo_anh",

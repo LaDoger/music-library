@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_the_girl_with_the_flaxen_hai.mid",
+ "other_editions": [
+  {
+   "id": "debussy_the_girl_with_the_flaxen_haib2",
+   "source": "pdmx",
+   "title": "The Girl with the Flaxen Hair Clarinet Quartet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_the_girl_with_the_flaxen_hai",

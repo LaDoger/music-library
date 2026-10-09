@@ -141,6 +141,57 @@ _RAW = [
     ("mauro giuliani", "Mauro Giuliani", 1829, "giuliani", 5, ["giuliani"]),
     ("johann jakob froberger", "Johann Jakob Froberger", 1667, "froberger", 4, ["froberger"]),
     ("marc antoine charpentier", "Marc-Antoine Charpentier", 1704, "charpentier", 4, ["charpentier"]),
+    # Scale run 2 (2026-10-09): more PD composers (death <= 1929). Common surnames are
+    # matched only by the full needles (see _STRICT_LAST).
+    ("giacomo puccini", "Giacomo Puccini", 1924, "puccini", 4, ["puccini"]),
+    ("jules massenet", "Jules Massenet", 1912, "massenet", 4, ["massenet"]),
+    ("jacques offenbach", "Jacques Offenbach", 1880, "offenbach", 4, ["offenbach"]),
+    ("isaac albeniz", "Isaac Albéniz", 1909, "albeniz", 4, ["albeniz"]),
+    ("enrique granados", "Enrique Granados", 1916, "granados", 4, ["granados"]),
+    ("edward macdowell", "Edward MacDowell", 1908, "macdowell", 4, ["macdowell", "mac dowell"]),
+    ("anton arensky", "Anton Arensky", 1906, "arensky", 4, ["arensky"]),
+    ("anatoly lyadov", "Anatoly Lyadov", 1914, "lyadov", 4, ["lyadov", "liadov"]),
+    ("moritz moszkowski", "Moritz Moszkowski", 1925, "moszkowski", 4, ["moszkowski"]),
+    ("carl czerny", "Carl Czerny", 1857, "czerny", 4, ["czerny"]),
+    ("friedrich burgmuller", "Friedrich Burgmüller", 1874, "burgmuller", 4, ["burgmuller", "burgmueller"]),
+    ("luigi boccherini", "Luigi Boccherini", 1805, "boccherini", 4, ["boccherini"]),
+    ("giuseppe tartini", "Giuseppe Tartini", 1770, "tartini", 4, ["tartini"]),
+    ("giacomo meyerbeer", "Giacomo Meyerbeer", 1864, "meyerbeer", 4, ["meyerbeer"]),
+    ("bedrich smetana", "Bedřich Smetana", 1884, "smetana", 4, ["smetana"]),
+    ("zdenek fibich", "Zdeněk Fibich", 1900, "fibich", 4, ["fibich"]),
+    ("ernest chausson", "Ernest Chausson", 1899, "chausson", 4, ["chausson"]),
+    ("mikhail glinka", "Mikhail Glinka", 1857, "glinka", 4, ["glinka"]),
+    ("henri vieuxtemps", "Henri Vieuxtemps", 1881, "vieuxtemps", 4, ["vieuxtemps"]),
+    ("pablo de sarasate", "Pablo de Sarasate", 1908, "sarasate", 4, ["sarasate"]),
+    ("giovanni pierluigi da palestrina", "Giovanni Pierluigi da Palestrina", 1594, "palestrina", 4, ["palestrina"]),
+    ("josquin des prez", "Josquin des Prez", 1521, "josquin", 4, ["josquin"]),
+    ("orlande de lassus", "Orlande de Lassus", 1594, "lassus", 4, ["lassus", "orlando di lasso", "orlando lasso"]),
+    ("jan pieterszoon sweelinck", "Jan Pieterszoon Sweelinck", 1621, "sweelinck", 4, ["sweelinck"]),
+    ("johann kuhnau", "Johann Kuhnau", 1722, "kuhnau", 4, ["kuhnau"]),
+    ("francesco geminiani", "Francesco Geminiani", 1762, "geminiani", 4, ["geminiani"]),
+    ("antonio salieri", "Antonio Salieri", 1825, "salieri", 4, ["salieri"]),
+    ("anton diabelli", "Anton Diabelli", 1858, "diabelli", 4, ["diabelli"]),
+    ("friedrich kuhlau", "Friedrich Kuhlau", 1832, "kuhlau", 4, ["kuhlau"]),
+    ("emile waldteufel", "Émile Waldteufel", 1915, "waldteufel", 4, ["waldteufel"]),
+    ("franz von suppe", "Franz von Suppé", 1895, "suppe", 4, ["von suppe", "franz suppe"]),
+    ("julius fucik", "Julius Fučík", 1916, "fucik", 4, ["julius fucik"]),
+    ("alexandre guilmant", "Alexandre Guilmant", 1911, "guilmant", 4, ["guilmant"]),
+    ("leon boellmann", "Léon Boëllmann", 1897, "boellmann", 4, ["boellmann", "boelmann"]),
+    ("carl maria von weber", "Carl Maria von Weber", 1826, "weber", 4, ["von weber", "c m von weber", "carl maria weber"]),
+    ("johann nepomuk hummel", "Johann Nepomuk Hummel", 1837, "hummel", 4, ["johann nepomuk hummel", "j n hummel"]),
+    ("christoph willibald gluck", "Christoph Willibald Gluck", 1787, "gluck", 4, ["christoph willibald gluck", "c w gluck", "christoph gluck", "willibald gluck"]),
+    ("vincenzo bellini", "Vincenzo Bellini", 1835, "bellini", 4, ["vincenzo bellini"]),
+    ("arthur sullivan", "Arthur Sullivan", 1900, "sullivan", 4, ["arthur sullivan", "sir arthur sullivan"]),
+    ("max bruch", "Max Bruch", 1920, "bruch", 4, ["max bruch"]),
+    ("heinrich schutz", "Heinrich Schütz", 1672, "schutz", 4, ["heinrich schutz", "heinrich schuetz"]),
+    ("michael praetorius", "Michael Praetorius", 1621, "praetorius", 4, ["michael praetorius"]),
+    ("leo delibes", "Léo Delibes", 1891, "delibes", 4, ["delibes"]),
+    ("benjamin godard", "Benjamin Godard", 1895, "godard", 4, ["benjamin godard"]),
+    ("amilcare ponchielli", "Amilcare Ponchielli", 1886, "ponchielli", 4, ["ponchielli"]),
+    ("ruggero leoncavallo", "Ruggero Leoncavallo", 1919, "leoncavallo", 4, ["leoncavallo"]),
+    ("henryk wieniawski", "Henryk Wieniawski", 1880, "wieniawski", 4, ["wieniawski"]),
+    ("leos janacek", "Leoš Janáček", 1928, "janacek", 4, ["janacek"]),
+    ("samuel coleridge taylor", "Samuel Coleridge-Taylor", 1912, "coleridgetaylor", 4, ["coleridge taylor"]),
     ("traditional", "Traditional", None, "traditional", 5, []),
     ("anonymous", "Anonymous", None, "anonymous", 5, []),
 ]
@@ -260,6 +311,12 @@ def _last_token_hit(text: str, last: str) -> bool:
     return False
 
 
+_STRICT_LAST = {
+    "weber", "hummel", "gluck", "bellini", "sullivan", "bruch", "schutz",
+    "praetorius", "godard", "prez", "suppe", "fucik", "taylor",
+}
+
+
 def match_composer(name: str) -> str:
     """Map a messy credit line to a canon key, or '' if it is not a known composer."""
     text = fold(name)
@@ -302,7 +359,7 @@ def match_composer(name: str) -> str:
                 hits.append(canon)
                 break
             last = canon.split()[-1]
-            if last in {"bach", "haydn", "strauss", "schumann", "scarlatti"}:
+            if last in {"bach", "haydn", "strauss", "schumann", "scarlatti"} | _STRICT_LAST:
                 continue
             if _last_token_hit(padded, last) and (
                 canon.split()[0] in padded or len(needles) == 1 or last in padded

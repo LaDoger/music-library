@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_l3_once_more_i_hail_thee_n3_l_v.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_l3_once_more_i_hail_thee_n3_l_vb2",
+   "source": "pdmx",
+   "title": "Once more I hail Thee N3 L. van Beethoven",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_l3_once_more_i_hail_thee_n3_l_v",

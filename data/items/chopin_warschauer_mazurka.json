@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_warschauer_mazurka.mid",
+ "other_editions": [
+  {
+   "id": "chopin_warschauer_mazurkab2",
+   "source": "pdmx",
+   "title": "Warschauer Mazurka",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_frederic_francois_chopin_s_w",
+   "source": "pdmx",
+   "title": "Frédéric François Chopin's Warschauer Mazurka (Harp Version)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_frederic_francois_chopin_s_wb2",
+   "source": "pdmx",
+   "title": "Frédéric François Chopin's Warschauer Mazurka (Harp Version)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_warschauer_mazurka",

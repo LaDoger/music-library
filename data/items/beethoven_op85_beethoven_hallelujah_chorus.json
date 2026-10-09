@@ -2,7 +2,7 @@
  "id": "beethoven_op85_beethoven_hallelujah_chorus",
  "composer": "Ludwig van Beethoven",
  "death_year": "1827",
- "title": "Beethoven Hallelujah Chorus (SATB with organ)",
+ "title": "Hallelujah Chorus (SATB with organ)",
  "catalog": "Op.85",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_op85_beethoven_hallelujah_chorus.mid",
+ "other_editions": [
+  {
+   "id": "beethoven_op85_beethoven_hallelujah_chorusb2",
+   "source": "pdmx",
+   "title": "Hallelujah Chorus (SATB with organ)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "beethoven_hallelujah_ludwig_van_beetho",
+   "source": "pdmx",
+   "title": "Hallelujah",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "beethoven_hallelujah_ludwig_van_beethob2",
+   "source": "pdmx",
+   "title": "Hallelujah",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_op85_beethoven_hallelujah_chorus",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Ludwig van Beethoven: Beethoven Hallelujah Chorus (SATB with organ), Op.85 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Ludwig van Beethoven: Hallelujah Chorus (SATB with organ), Op.85 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

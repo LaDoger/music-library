@@ -2,7 +2,7 @@
  "id": "donizetti_l_aurora_gaetano_donizetti",
  "composer": "Gaetano Donizetti",
  "death_year": "1848",
- "title": "L'aurora - Gaetano Donizetti",
+ "title": "L'aurora",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/donizetti_l_aurora_gaetano_donizetti.mid",
+ "other_editions": [
+  {
+   "id": "donizetti_l_aurora_gaetano_donizettib2",
+   "source": "pdmx",
+   "title": "L'aurora",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=donizetti_l_aurora_gaetano_donizetti",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Gaetano Donizetti: L'aurora - Gaetano Donizetti (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Gaetano Donizetti: L'aurora (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

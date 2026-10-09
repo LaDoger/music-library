@@ -2,7 +2,7 @@
  "id": "sor_op6_fernando_sor_studio_op_6_n_8",
  "composer": "Fernando Sor",
  "death_year": "1839",
- "title": "Fernando Sor Studio op.6 n.8 Segovia n.1",
+ "title": "Studio op.6 n.8 Segovia n.1",
  "catalog": "op.6",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/sor_op6_fernando_sor_studio_op_6_n_8.mid",
+ "other_editions": [
+  {
+   "id": "sor_op6_fernando_sor_studio_op_6_n_8b2",
+   "source": "pdmx",
+   "title": "Studio op.6 n.8 Segovia n.1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=sor_op6_fernando_sor_studio_op_6_n_8",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Fernando Sor: Fernando Sor Studio op.6 n.8 Segovia n.1, op.6 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Fernando Sor: Studio op.6 n.8 Segovia n.1, op.6 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

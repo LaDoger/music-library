@@ -2,7 +2,7 @@
  "id": "bruckner_wab6_ave_maria_wab_6_anton_bruckn",
  "composer": "Anton Bruckner",
  "death_year": "1896",
- "title": "Ave Maria WAB 6 - Anton Bruckner",
+ "title": "Ave Maria WAB 6",
  "catalog": "WAB 6",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bruckner_wab6_ave_maria_wab_6_anton_bruckn.mid",
+ "other_editions": [
+  {
+   "id": "bruckner_wab6_ave_maria_wab_6_anton_brucknb2",
+   "source": "pdmx",
+   "title": "Ave Maria WAB 6",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bruckner_wab6_ave_maria_wab_6_anton_bruckn",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Anton Bruckner: Ave Maria WAB 6 - Anton Bruckner, WAB 6 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Anton Bruckner: Ave Maria WAB 6, WAB 6 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

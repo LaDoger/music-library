@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/grieg_peer_gynt_suite_ase_s_death.mid",
+ "other_editions": [
+  {
+   "id": "grieg_peer_gynt_suite_ase_s_deathb2",
+   "source": "pdmx",
+   "title": "Peer Gynt Suite Ase's Death",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_peer_gynt_suite_ase_s_death",

@@ -2,7 +2,7 @@
  "id": "purcell_if_all_be_true_that_i_do_thi",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "If all be true that I do think (Purcell) Kanon",
+ "title": "If all be true that I do think Kanon",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_if_all_be_true_that_i_do_thi.mid",
+ "other_editions": [
+  {
+   "id": "purcell_if_all_be_true_that_i_do_thib2",
+   "source": "pdmx",
+   "title": "If all be true that I do think Kanon",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_if_all_be_true_that_i_do_thi",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: If all be true that I do think (Purcell) Kanon (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Henry Purcell: If all be true that I do think Kanon (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

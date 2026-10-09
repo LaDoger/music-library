@@ -2,7 +2,7 @@
  "id": "jcbach_bwv543_bach_prelude_and_fugue_in_a",
  "composer": "Johann Christian Bach",
  "death_year": "1782",
- "title": "Bach - Prelude and Fugue in A Minor. BWV 543. {Professional production score.}",
+ "title": "Prelude and Fugue in A Minor. BWV 543. {Professional production score.}",
  "catalog": "BWV 543",
  "movement": "",
  "mood_tags": "contrapuntal;intimate",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/jcbach_bwv543_bach_prelude_and_fugue_in_a.mid",
+ "other_editions": [
+  {
+   "id": "jcbach_bwv543_bach_prelude_and_fugue_in_ab2",
+   "source": "pdmx",
+   "title": "Prelude and Fugue in A Minor. BWV 543. {Professional production score.}",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=jcbach_bwv543_bach_prelude_and_fugue_in_a",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Christian Bach: Bach - Prelude and Fugue in A Minor. BWV 543. {Professional production score.}, BWV 543 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Christian Bach: Prelude and Fugue in A Minor. BWV 543. {Professional production score.}, BWV 543 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

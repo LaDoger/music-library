@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_hornpipe.mid",
+ "other_editions": [
+  {
+   "id": "purcell_hornpipeb2",
+   "source": "pdmx",
+   "title": "Hornpipe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "purcell_henry_purcell_hornpipe",
+   "source": "pdmx",
+   "title": "Hornpipe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_henry_purcell_hornpipeb2",
+   "source": "pdmx",
+   "title": "Hornpipe",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_hornpipe",

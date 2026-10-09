@@ -2,7 +2,7 @@
  "id": "bach_bach_kyrie_from_mass_in_b_mi",
  "composer": "Johann Sebastian Bach",
  "death_year": "1750",
- "title": "Bach - Kyrie from Mass in B Minor - Woodwind Quintet",
+ "title": "Kyrie from Mass in B Minor - Woodwind Quintet",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bach_kyrie_from_mass_in_b_mi.mid",
+ "other_editions": [
+  {
+   "id": "bach_bach_kyrie_from_mass_in_b_mib2",
+   "source": "pdmx",
+   "title": "Kyrie from Mass in B Minor - Woodwind Quintet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bach_kyrie_from_mass_in_b_mi",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Bach - Kyrie from Mass in B Minor - Woodwind Quintet (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Johann Sebastian Bach: Kyrie from Mass in B Minor - Woodwind Quintet (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

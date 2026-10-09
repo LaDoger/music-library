@@ -2,7 +2,7 @@
  "id": "purcell_in_these_delightful_pleasant",
  "composer": "Henry Purcell",
  "death_year": "1695",
- "title": "In these delightful pleasant groves (Purcell) SATB",
+ "title": "In these delightful pleasant groves SATB",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_in_these_delightful_pleasant.mid",
+ "other_editions": [
+  {
+   "id": "purcell_in_these_delightful_pleasantb3",
+   "source": "pdmx",
+   "title": "In these delightful pleasant groves SATB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "purcell_in_these_delightful_pleasantb2",
+   "source": "pdmx",
+   "title": "In these delightful pleasant groves (SATB)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "purcell_in_these_delightful_pleasantb4",
+   "source": "pdmx",
+   "title": "In these delightful pleasant groves (SATB)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_in_these_delightful_pleasant",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Henry Purcell: In these delightful pleasant groves (Purcell) SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Henry Purcell: In these delightful pleasant groves SATB (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

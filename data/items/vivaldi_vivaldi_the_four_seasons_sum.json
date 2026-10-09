@@ -2,7 +2,7 @@
  "id": "vivaldi_vivaldi_the_four_seasons_sum",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Vivaldi - The Four Seasons - Summer 3rd movement",
+ "title": "The Four Seasons - Summer 3rd movement",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_vivaldi_the_four_seasons_sum.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_vivaldi_the_four_seasons_sumb2",
+   "source": "pdmx",
+   "title": "The Four Seasons - Summer 3rd movement",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_bb_summer_four_seasons_vival",
+   "source": "pdmx",
+   "title": "Bb Summer - Four Seasons Vivaldi Bb Clarinet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "vivaldi_bb_summer_four_seasons_vivalb2",
+   "source": "pdmx",
+   "title": "Bb Summer - Four Seasons Vivaldi Bb Clarinet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_vivaldi_the_four_seasons_sum",
@@ -76,5 +99,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Vivaldi - The Four Seasons - Summer 3rd movement (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: The Four Seasons - Summer 3rd movement (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

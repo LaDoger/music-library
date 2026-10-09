@@ -2,7 +2,7 @@
  "id": "lully_lully_premier_intermede_le_b",
  "composer": "Jean-Baptiste Lully",
  "death_year": "1687",
- "title": "Lully - Premier Intermede (le Bourgeois Gentilhomme)",
+ "title": "Premier Intermede (le Bourgeois Gentilhomme)",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/lully_lully_premier_intermede_le_b.mid",
+ "other_editions": [
+  {
+   "id": "lully_lully_premier_intermede_le_bb2",
+   "source": "pdmx",
+   "title": "Premier Intermede (le Bourgeois Gentilhomme)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=lully_lully_premier_intermede_le_b",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Jean-Baptiste Lully: Lully - Premier Intermede (le Bourgeois Gentilhomme) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Jean-Baptiste Lully: Premier Intermede (le Bourgeois Gentilhomme) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

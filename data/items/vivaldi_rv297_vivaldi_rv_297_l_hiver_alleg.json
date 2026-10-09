@@ -2,7 +2,7 @@
  "id": "vivaldi_rv297_vivaldi_rv_297_l_hiver_alleg",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Vivaldi - RV 297 L'Hiver - Allegro non molto (Piano)",
+ "title": "RV 297 L'Hiver - Allegro non molto (Piano)",
  "catalog": "RV 297",
  "movement": "",
  "mood_tags": "fast;bright",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv297_vivaldi_rv_297_l_hiver_alleg.mid",
+ "other_editions": [
+  {
+   "id": "vivaldi_rv297_vivaldi_rv_297_l_hiver_allegb2",
+   "source": "pdmx",
+   "title": "RV 297 L'Hiver - Allegro non molto (Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv297_vivaldi_rv_297_l_hiver_alleg",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Vivaldi - RV 297 L'Hiver - Allegro non molto (Piano), RV 297 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: RV 297 L'Hiver - Allegro non molto (Piano), RV 297 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

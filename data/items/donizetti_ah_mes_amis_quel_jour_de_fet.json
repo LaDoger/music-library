@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/donizetti_ah_mes_amis_quel_jour_de_fet.mid",
+ "other_editions": [
+  {
+   "id": "donizetti_ah_mes_amis_quel_jour_de_fetb2",
+   "source": "pdmx",
+   "title": "Ah! mes amis quel jour de fête...Pour mon âme (from La fille du régiment)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=donizetti_ah_mes_amis_quel_jour_de_fet",

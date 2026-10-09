@@ -2,7 +2,7 @@
  "id": "vivaldi_rv535_vivaldi_concerto_for_two_obo",
  "composer": "Antonio Vivaldi",
  "death_year": "1741",
- "title": "Vivaldi Concerto for Two Oboes (RV 535) II. Allegro Piano Transcription",
+ "title": "Concerto for Two Oboes (RV 535) II. Allegro Piano Transcription",
  "catalog": "RV 535",
  "movement": "",
  "mood_tags": "fast;bright",
@@ -60,6 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/vivaldi_rv535_vivaldi_concerto_for_two_obo.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=vivaldi_rv535_vivaldi_concerto_for_two_obo",
@@ -76,5 +77,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Antonio Vivaldi: Vivaldi Concerto for Two Oboes (RV 535) II. Allegro Piano Transcription, RV 535 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Antonio Vivaldi: Concerto for Two Oboes (RV 535) II. Allegro Piano Transcription, RV 535 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

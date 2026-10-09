@@ -58,6 +58,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 446.52,
  "midi_play_url": "",
+ "other_editions": [
+  {
+   "id": "saintsaens_op47_danse_bacchanale_vc",
+   "source": "pdmx",
+   "title": "Danse Bacchanale-VC",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "saintsaens_op47_danse_bacchanale_vcb2",
+   "source": "pdmx",
+   "title": "Danse Bacchanale-VC",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=saintsaens_samson_bacchanale",

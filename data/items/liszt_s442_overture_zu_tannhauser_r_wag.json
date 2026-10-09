@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/liszt_s442_overture_zu_tannhauser_r_wag.mid",
+ "other_editions": [
+  {
+   "id": "liszt_s442_overture_zu_tannhauser_r_wagb2",
+   "source": "pdmx",
+   "title": "Overture Zu Tannhäuser (R.Wagner - F.Liszt)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=liszt_s442_overture_zu_tannhauser_r_wag",

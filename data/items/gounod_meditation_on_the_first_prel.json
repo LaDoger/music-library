@@ -59,6 +59,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_meditation_on_the_first_prel.mid",
+ "other_editions": [
+  {
+   "id": "gounod_ave_maria_bach_solo_for_c_in",
+   "source": "pdmx",
+   "title": "Ave Maria Bach Solo For C Instruments",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "gounod_ave_maria_bach_solo_for_c_inb2",
+   "source": "pdmx",
+   "title": "Ave Maria Bach Solo For C Instruments",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_meditation_on_the_first_prel",

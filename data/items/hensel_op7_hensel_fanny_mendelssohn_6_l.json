@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/hensel_op7_hensel_fanny_mendelssohn_6_l.mid",
+ "other_editions": [
+  {
+   "id": "hensel_op7_hensel_fanny_mendelssohn_6_lb2",
+   "source": "pdmx",
+   "title": "Hensel_Fanny_Mendelssohn_-_6_Lieder_Op.7_No.3_-_Frhling",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=hensel_op7_hensel_fanny_mendelssohn_6_l",

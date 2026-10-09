@@ -57,6 +57,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv582_passacaglia.mid",
+ "other_editions": [
+  {
+   "id": "bach_bwv582_j_s_bach_passacaglia_and_fug",
+   "source": "pdmx",
+   "title": "J.S. Bach - Passacaglia and Fugue (BWV 582)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_bwv582_j_s_bach_passacaglia_and_fugb2",
+   "source": "pdmx",
+   "title": "J.S. Bach - Passacaglia and Fugue (BWV 582)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv582_passacaglia",

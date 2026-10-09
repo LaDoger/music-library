@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_they_tell_us_that_your_might.mid",
+ "other_editions": [
+  {
+   "id": "purcell_they_tell_us_that_your_mightb2",
+   "source": "pdmx",
+   "title": "They Tell Us That Your Mighty Powers Above (Purcell Arranged For Soprano [or flute] and String Quartet)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_they_tell_us_that_your_might",

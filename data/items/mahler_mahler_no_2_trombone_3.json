@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mahler_mahler_no_2_trombone_3.mid",
+ "other_editions": [
+  {
+   "id": "mahler_mahler_no_2_trombone_3b2",
+   "source": "pdmx",
+   "title": "Mahler no. 2 Trombone 3",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mahler_mahler_no_2_trombone_3",

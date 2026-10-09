@@ -2,7 +2,7 @@
  "id": "wagner_choeur_des_pelerins_wagner",
  "composer": "Richard Wagner",
  "death_year": "1883",
- "title": "Choeur des pélerins - Wagner",
+ "title": "Choeur des pélerins",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/wagner_choeur_des_pelerins_wagner.mid",
+ "other_editions": [
+  {
+   "id": "wagner_choeur_des_pelerins_wagnerb2",
+   "source": "pdmx",
+   "title": "Choeur des pélerins",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=wagner_choeur_des_pelerins_wagner",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Richard Wagner: Choeur des pélerins - Wagner (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Richard Wagner: Choeur des pélerins (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

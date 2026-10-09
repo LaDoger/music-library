@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op72_nocturne_f_chopin_op_72_no_1.mid",
+ "other_editions": [
+  {
+   "id": "chopin_op72_nocturne_f_chopin_op_72_no_1b2",
+   "source": "pdmx",
+   "title": "Nocturne (F.Chopin Op.72. No.1)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op72_nocturne_f_chopin_op_72_no_1",

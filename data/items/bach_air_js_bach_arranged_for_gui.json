@@ -59,6 +59,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_air_js_bach_arranged_for_gui.mid",
+ "other_editions": [
+  {
+   "id": "bach_air_js_bach_arranged_for_guib2",
+   "source": "pdmx",
+   "title": "Air JS Bach arranged for Guitar by G Dempsey",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_air_js_bach_arranged_for_gui",

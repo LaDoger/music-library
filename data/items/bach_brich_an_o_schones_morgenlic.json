@@ -60,6 +60,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_brich_an_o_schones_morgenlic.mid",
+ "other_editions": [
+  {
+   "id": "bach_brich_an_o_schones_morgenlicb2",
+   "source": "pdmx",
+   "title": "Brich an o schönes Morgenlicht",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bach_break_forth_o_beauteous_heav",
+   "source": "pdmx",
+   "title": "Break Forth O Beauteous Heavenly Light- ver2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_brich_an_o_schones_morgenlic",

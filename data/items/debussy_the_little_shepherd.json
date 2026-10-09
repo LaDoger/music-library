@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_the_little_shepherd.mid",
+ "other_editions": [
+  {
+   "id": "debussy_the_little_shepherdb2",
+   "source": "pdmx",
+   "title": "The little shepherd",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_children_s_corner_the_little",
+   "source": "pdmx",
+   "title": "Children's Corner - The Little Shepherd",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_children_s_corner_the_littleb2",
+   "source": "pdmx",
+   "title": "Children's Corner - The Little Shepherd",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_the_little_shepherd",

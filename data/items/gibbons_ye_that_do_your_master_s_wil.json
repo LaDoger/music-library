@@ -2,7 +2,7 @@
  "id": "gibbons_ye_that_do_your_master_s_wil",
  "composer": "Orlando Gibbons",
  "death_year": "1625",
- "title": "Ye that do your Master's will - Orlando Gibbons",
+ "title": "Ye that do your Master's will",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gibbons_ye_that_do_your_master_s_wil.mid",
+ "other_editions": [
+  {
+   "id": "gibbons_ye_that_do_your_master_s_wilb2",
+   "source": "pdmx",
+   "title": "Ye that do your Master's will",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gibbons_ye_that_do_your_master_s_wil",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Orlando Gibbons: Ye that do your Master's will - Orlando Gibbons (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Orlando Gibbons: Ye that do your Master's will (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

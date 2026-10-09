@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/paganini_violinkonzert_nr_4_a_minor.mid",
+ "other_editions": [
+  {
+   "id": "paganini_violinkonzert_nr_4_a_minorb2",
+   "source": "pdmx",
+   "title": "Violinkonzert_Nr._4_A minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=paganini_violinkonzert_nr_4_a_minor",

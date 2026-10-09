@@ -60,6 +60,36 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tchaikovsky_op37_august_harvest_time.mid",
+ "other_editions": [
+  {
+   "id": "tchaikovsky_op37_februar_carneval",
+   "source": "mutopia",
+   "title": "The Seasons: February",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1398",
+   "licence": "PD"
+  },
+  {
+   "id": "tchaikovsky_op37_january_before_the_chimney",
+   "source": "mutopia",
+   "title": "The Seasons: January",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1171",
+   "licence": "PD"
+  },
+  {
+   "id": "tchaikovsky_op37_the_seasons_march_song_of_th",
+   "source": "pdmx",
+   "title": "The Seasons March: Song of the Lark Op. 37a No. 3 Pyotr Ilyich Tchaikovsky",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "tchaikovsky_op37_the_seasons_march_song_of_thb2",
+   "source": "pdmx",
+   "title": "The Seasons March: Song of the Lark Op. 37a No. 3 Pyotr Ilyich Tchaikovsky",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_op37_august_harvest_time",

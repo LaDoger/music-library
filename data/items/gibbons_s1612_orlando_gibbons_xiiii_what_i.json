@@ -2,7 +2,7 @@
  "id": "gibbons_s1612_orlando_gibbons_xiiii_what_i",
  "composer": "Orlando Gibbons",
  "death_year": "1625",
- "title": "Orlando Gibbons - XIIII. What is our life?",
+ "title": "XIIII. What is our life?",
  "catalog": "s. 1612",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gibbons_s1612_orlando_gibbons_xiiii_what_i.mid",
+ "other_editions": [
+  {
+   "id": "gibbons_s1612_orlando_gibbons_xiiii_what_ib2",
+   "source": "pdmx",
+   "title": "XIIII. What is our life?",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gibbons_s1612_orlando_gibbons_xiiii_what_i",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Orlando Gibbons: Orlando Gibbons - XIIII. What is our life?, s. 1612 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Orlando Gibbons: XIIII. What is our life?, s. 1612 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rossini_whackiam_tell.mid",
+ "other_editions": [
+  {
+   "id": "rossini_whackiam_tellb2",
+   "source": "pdmx",
+   "title": "Whackiam Tell",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rossini_whackiam_tell",

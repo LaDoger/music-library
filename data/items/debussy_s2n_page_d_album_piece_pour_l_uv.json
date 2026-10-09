@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_s2n_page_d_album_piece_pour_l_uv.mid",
+ "other_editions": [
+  {
+   "id": "debussy_s2n_page_d_album_piece_pour_l_uvb2",
+   "source": "pdmx",
+   "title": "Page d'album (Pièce pour l'œuvre du Vêtement du blessé) - Arrangé pour musique de chambre",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_s2n_page_d_album_piece_pour_l_uv",

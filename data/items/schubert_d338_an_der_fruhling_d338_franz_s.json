@@ -2,7 +2,7 @@
  "id": "schubert_d338_an_der_fruhling_d338_franz_s",
  "composer": "Franz Schubert",
  "death_year": "1828",
- "title": "An der Frühling D338 - Franz Schubert",
+ "title": "An der Frühling D338",
  "catalog": "D338",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_d338_an_der_fruhling_d338_franz_s.mid",
+ "other_editions": [
+  {
+   "id": "schubert_d338_an_der_fruhling_d338_franz_sb2",
+   "source": "pdmx",
+   "title": "An der Frühling D338",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_d338_an_der_fruhling_d338_franz_s",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Franz Schubert: An der Frühling D338 - Franz Schubert, D338 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Franz Schubert: An der Frühling D338, D338 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

@@ -65,6 +65,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/boulanger_no_02_elle_est_gravement_gai.mid",
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=boulanger_no_02_elle_est_gravement_gai",

@@ -60,6 +60,29 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/handel_cantate_domino.mid",
+ "other_editions": [
+  {
+   "id": "handel_cantate_dominob2",
+   "source": "pdmx",
+   "title": "Cantate Domino",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "handel_tochter_zion_freue_dich",
+   "source": "pdmx",
+   "title": "Tochter Zion freue dich!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "handel_tochter_zion_freue_dichb2",
+   "source": "pdmx",
+   "title": "Tochter Zion freue dich!",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=handel_cantate_domino",

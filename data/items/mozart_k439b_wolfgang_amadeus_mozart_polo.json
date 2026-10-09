@@ -2,7 +2,7 @@
  "id": "mozart_k439b_wolfgang_amadeus_mozart_polo",
  "composer": "Wolfgang Amadeus Mozart",
  "death_year": "1791",
- "title": "Wolfgang Amadeus Mozart - Polonaise",
+ "title": "Polonaise",
  "catalog": "k439b",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,43 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k439b_wolfgang_amadeus_mozart_polo.mid",
+ "other_editions": [
+  {
+   "id": "mozart_k439b_wolfgang_amadeus_mozart_polob2",
+   "source": "pdmx",
+   "title": "Polonaise",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "mozart_wolfgang_amadeus_mozart_ball",
+   "source": "pdmx",
+   "title": "Ballet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "mozart_wolfgang_amadeus_mozart_ballb2",
+   "source": "pdmx",
+   "title": "Ballet",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "mozart_k487_polonaise_w_a_mozart",
+   "source": "pdmx",
+   "title": "Polonaise W.A. Mozart",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mozart_k487_polonaise_w_a_mozartb2",
+   "source": "pdmx",
+   "title": "Polonaise W.A. Mozart",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k439b_wolfgang_amadeus_mozart_polo",
@@ -76,5 +113,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Wolfgang Amadeus Mozart: Wolfgang Amadeus Mozart - Polonaise, k439b (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Wolfgang Amadeus Mozart: Polonaise, k439b (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

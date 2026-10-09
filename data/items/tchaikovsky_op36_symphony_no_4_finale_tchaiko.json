@@ -2,7 +2,7 @@
  "id": "tchaikovsky_op36_symphony_no_4_finale_tchaiko",
  "composer": "Pyotr Ilyich Tchaikovsky",
  "death_year": "1893",
- "title": "Symphony No.4 Finale (Tchaikovsky)",
+ "title": "Symphony No.4 Finale",
  "catalog": "Op.36",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tchaikovsky_op36_symphony_no_4_finale_tchaiko.mid",
+ "other_editions": [
+  {
+   "id": "tchaikovsky_op36_symphony_no_4_finale_tchaikob2",
+   "source": "pdmx",
+   "title": "Symphony No.4 Finale",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_op36_symphony_no_4_finale_tchaiko",
@@ -76,5 +85,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Pyotr Ilyich Tchaikovsky: Symphony No.4 Finale (Tchaikovsky), Op.36 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Pyotr Ilyich Tchaikovsky: Symphony No.4 Finale, Op.36 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

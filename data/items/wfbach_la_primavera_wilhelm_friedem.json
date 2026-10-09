@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/wfbach_la_primavera_wilhelm_friedem.mid",
+ "other_editions": [
+  {
+   "id": "wfbach_la_primavera_wilhelm_friedemb2",
+   "source": "pdmx",
+   "title": "La Primavera Wilhelm Friedemann BACH (Weimar 1710 - Berlín 1784)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=wfbach_la_primavera_wilhelm_friedem",

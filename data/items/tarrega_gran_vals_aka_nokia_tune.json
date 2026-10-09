@@ -60,6 +60,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tarrega_gran_vals_aka_nokia_tune.mid",
+ "other_editions": [
+  {
+   "id": "tarrega_gran_vals_aka_nokia_tuneb2",
+   "source": "pdmx",
+   "title": "Gran Vals (aka. Nokia Tune)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tarrega_gran_vals_aka_nokia_tune",
