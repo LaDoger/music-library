@@ -864,9 +864,9 @@
       // Tempo may have changed while samples were downloading.
       midi.seq = scaleSeq(core, midi.base, player.tempo);
       if (window.Tone && Tone.context.state !== "running") {
-        midi.pos = offset; syncPlayButtons(); toast("Press play to start the synth"); return;
+        syncPlayButtons(); toast("Press play to start the synth"); return;
       }
-      midiRun(offset);
+      midiRun(midi.pos);
       attachRoll();
     } catch (err) {
       if (gen !== midi.gen) return;
@@ -879,7 +879,10 @@
     const gen = ++midi.gen;
     midi.pos = offset; midi.startedAt = performance.now(); midi.playing = true;
     if (midi.sfp.isPlaying()) midi.sfp.stop();
-    midi.sfp.start(midi.seq, undefined, offset).then(() => {
+    Promise.resolve().then(() => {
+      if (gen !== midi.gen) return;
+      return midi.sfp.start(midi.seq, undefined, offset);
+    }).then(() => {
       if (gen === midi.gen && midi.playing) { clearInterval(midi.tick); midi.playing = false; midi.pos = 0; updateProgress(); syncPlayButtons(); }
     }).catch(() => {
       if (gen !== midi.gen) return;
@@ -923,12 +926,12 @@
     player.tempo = f;
     for (const el of ["#pTempo", "#dTempo"]) if ($(el) && +$(el).value !== f) $(el).value = f;
     for (const el of ["#pTempoOut", "#dTempoOut"]) if ($(el)) $(el).textContent = Math.round(f * 100) + "%";
-    if (player.mode !== "midi" || midi.id !== player.id || !midi.base || !window.core || midi.loading) return;
+    if (player.mode !== "midi" || midi.id !== player.id || !midi.base || !window.core) return;
     const scorePos = midiPos() * was;
     midi.seq = scaleSeq(window.core, midi.base, f);
     const t = scorePos / f;
     if (midi.playing) midiRun(t); else midi.pos = t;
-    attachRoll();
+    if (!midi.loading) attachRoll();
     updateProgress();
   }
   function attachRoll() {

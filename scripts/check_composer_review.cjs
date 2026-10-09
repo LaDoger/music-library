@@ -125,6 +125,15 @@ window.core = {
       assert.equal(await p.locator('#pBtn').getAttribute('aria-label'), 'Play', 'failed synth start must not show Pause');
       await p.close();
     });
+    await check('seek and tempo selected during sample loading survive completion', async () => {
+      const p = await fresh(); await loaded(p);
+      await p.locator('#pBar').focus(); await p.keyboard.press('ArrowRight');
+      await p.locator('#dTempo').fill('1.5');
+      await resolveSamples(p);
+      assert(Math.abs(await p.evaluate(() => __synth.starts[0].offset) - 5 / 1.5) < 0.01, 'sample completion must keep selected score position');
+      assert.equal(await p.locator('#pTempoOut').textContent(), '150%');
+      await p.close();
+    });
     await check('loading a different piece clears old duration and ignores old completion', async () => {
       const p = await fresh(); await loaded(p); await resolveSamples(p);
       await p.keyboard.press('Escape');
@@ -162,12 +171,12 @@ window.core = {
         if (name.startsWith('drawer')) await p.locator('.listen-btn.m-preview').click();
         await p.addScriptTag({path:require.resolve('axe-core/axe.min.js')});
         const result = await p.evaluate(async () => (await axe.run(document, {runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}})).violations.map(x => ({id:x.id, nodes:x.nodes.map(n=>n.target)})));
-        assert.deepEqual(result, [], name + ' accessibility violations: ' + JSON.stringify(result));
+        assert.equal(result.length, 0, name + ' accessibility violations: ' + JSON.stringify(result.map(v => ({id:v.id,count:v.nodes.length,examples:v.nodes.slice(0,3)}))));
         await p.screenshot({path:'/tmp/music-review-'+name+'.png',fullPage:false});
       }
       await p.close();
     });
     assert.deepEqual(pageErrors, [], 'browser exceptions');
-    assert.deepEqual(failures, [], 'review regressions');
+    assert.equal(failures.length, 0, 'review regressions: ' + failures.map(f=>f.split('\n')[0]).join('; '));
   } finally { await browser.close(); }
 })().catch(e => { console.error(e.message); process.exitCode = 1; }).finally(() => server.close());

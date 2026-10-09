@@ -114,12 +114,16 @@ const server = http.createServer((req, res) => {
       await page.waitForFunction(() => document.querySelector('#pBtn').textContent === '▶');
       const t1 = await page.locator('#pTime').textContent(); await page.waitForTimeout(600);
       assert.equal(await page.locator('#pTime').textContent(), t1, 'paused MIDI does not advance');
-      // Playing a card preview stops the synth.
-      await page.keyboard.press('Escape');
-      await page.goto(base + '?view=works&q=moonlight');
-      await page.locator('.card [data-act="play"]').first().click();
+      // Seek and resume, then switch to audio in this same document (no reload hiding overlap).
+      await page.locator('#pBar').focus(); await page.keyboard.press('ArrowRight');
+      assert(+(await page.locator('#pBar').getAttribute('aria-valuenow')) >= 5, 'paused MIDI seek moved');
+      await page.locator('#pBtn').click();
+      await page.waitForFunction(() => document.querySelector('#pBtn').getAttribute('aria-label') === 'Pause');
+      await page.locator('.listen-btn.m-preview').click();
       await page.waitForFunction(() => !window.__audios[0].paused);
       assert.equal(await page.locator('#pMode').textContent(), 'Preview · 15 s');
+      assert.equal(await page.locator('#pTempoWrap').isVisible(), false);
+      assert.equal(await page.locator('#rollWrap').isVisible(), false);
     }
     // Score-only piece: no Full button, synth modes offered.
     const scoreOnly = rows.find(x => !x.has_recording && x.midi_play_url);
