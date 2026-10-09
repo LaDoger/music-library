@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Music Library — legally usable music & editable scores for video</title>
-<meta name="description" content="Multi-genre library of public-domain and Creative Commons music for commercial and social video. Editable scores first, 15-second previews, licence checked per file.">
-<meta name="theme-color" content="#0a0b0f">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0b0f'/><path d='M12 22V9l12-3v13' stroke='%23f59e0b' stroke-width='2.5' fill='none'/><circle cx='9' cy='22' r='3' fill='%23f59e0b'/><circle cx='21' cy='19' r='3' fill='%23fb923c'/></svg>">
+<title>Music Library — public-domain classical music, scores &amp; full recordings</title>
+<meta name="description" content="Browse public-domain and openly licensed music by composer: full recordings, editable scores (MIDI / LilyPond / MusicXML) with in-browser synth playback, and a licence check on every file.">
+<meta name="theme-color" content="#0b0b0d">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b0b0d'/><path d='M12 22V9l12-3v13' stroke='%23d8c49a' stroke-width='2.2' fill='none'/><circle cx='9' cy='22' r='3' fill='%23d8c49a'/><circle cx='21' cy='19' r='3' fill='%23d8c49a'/></svg>">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -14,22 +14,31 @@
 
 <header class="top">
   <div class="wrap top-inner">
-    <div class="brand">
-      <span class="logo" aria-hidden="true">♪</span>
-      <div>
-        <h1>Music Library</h1>
-        <p class="tagline">Legally usable music for commercial &amp; social video. <strong>Editable scores first</strong> — re-genre anything.</p>
-      </div>
-    </div>
+    <a class="brand" href="./" data-act="composers">
+      <span class="logo" aria-hidden="true">𝄞</span>
+      <span>
+        <span class="brand-name">Music Library</span>
+        <span class="tagline">Public-domain &amp; openly licensed music — by composer, with full recordings and editable scores.</span>
+      </span>
+    </a>
     <div class="stats" id="stats" aria-live="polite"></div>
   </div>
-  <div class="wrap genre-strip" id="genreStrip" aria-label="Genres"></div>
+  <div class="wrap nav-row">
+    <nav class="modes" aria-label="Browse">
+      <a href="./" data-nav="composers">Composers</a>
+      <a href="?view=works" data-nav="works">All works</a>
+      <a href="?view=works&amp;picks=1&amp;layout=list" data-nav="picks">Editor’s picks</a>
+    </nav>
+    <div class="genre-strip" id="genreStrip" aria-label="Genres"></div>
+  </div>
 </header>
 
 <main class="wrap">
+  <section class="hero" id="composerHero" aria-labelledby="heroName" hidden></section>
+
   <section class="picks" aria-labelledby="picksTitle">
     <div class="section-head">
-      <h2 id="picksTitle">Top picks for Saylor videos</h2>
+      <h2 id="picksTitle">Editor’s picks for video</h2>
       <button class="link-btn" id="showPicks" type="button">See all ranked</button>
     </div>
     <div class="picks-row" id="picks"></div>
@@ -40,7 +49,7 @@
       <label class="search">
         <span class="sr">Search</span>
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Title, composer, catalogue no. (BWV 565, Op. 27, K. 331)…" autocomplete="off" spellcheck="false">
+        <input id="q" type="search" placeholder="Composer, work or catalogue no. (BWV 565, Op. 27, K. 331)…" autocomplete="off" spellcheck="false">
       </label>
       <label class="toggle score-toggle" title="Only pieces with a downloadable editable score (MIDI / LilyPond / MusicXML)">
         <input type="checkbox" id="f_score">
@@ -50,10 +59,10 @@
     </div>
 
     <div class="filters" id="filters">
-      <label><span>Genre</span><select id="f_genre"></select></label>
       <label><span>Composer</span><select id="f_composer"></select></label>
-      <label><span>Mood</span><select id="f_mood"></select></label>
+      <label><span>Genre</span><select id="f_genre"></select></label>
       <label><span>Era</span><select id="f_era"></select></label>
+      <label><span>Mood</span><select id="f_mood"></select></label>
       <label><span>Energy</span><select id="f_energy"></select></label>
       <label><span>Licence</span><select id="f_licence"></select></label>
       <label><span>Recording</span><select id="f_rec">
@@ -62,22 +71,23 @@
       <label><span>Verified</span><select id="f_verified">
         <option value="">Any</option><option value="yes">Verified only</option><option value="unverified">Unverified only</option>
       </select></label>
-      <label><span>Sort</span><select id="f_sort">
-        <option value="">Relevance</option>
-        <option value="score">Editable scores first</option>
+      <label class="sort-field"><span>Sort</span><select id="f_sort">
+        <option value="">Default (composer, catalogue)</option>
+        <option value="catalog">Catalogue no.</option>
         <option value="title">Title A–Z</option>
-        <option value="composer">Composer A–Z</option>
+        <option value="relevance">Best match</option>
         <option value="year">Composer death year</option>
         <option value="energy">Energy high → low</option>
+        <option value="score">Editable scores first</option>
       </select></label>
     </div>
 
     <div class="browse">
       <div class="browse-tabs" role="tablist" aria-label="Browse by">
-        <button id="browse-genre" role="tab" data-browse="genre" aria-selected="true" aria-controls="browseChips" type="button">Genre</button>
-        <button id="browse-era" role="tab" data-browse="era" aria-selected="false" aria-controls="browseChips" tabindex="-1" type="button">Era</button>
+        <button id="browse-era" role="tab" data-browse="era" aria-selected="true" aria-controls="browseChips" type="button">Era</button>
         <button id="browse-composer" role="tab" data-browse="composer" aria-selected="false" aria-controls="browseChips" tabindex="-1" type="button">Composer</button>
         <button id="browse-mood" role="tab" data-browse="mood" aria-selected="false" aria-controls="browseChips" tabindex="-1" type="button">Mood</button>
+        <button id="browse-genre" role="tab" data-browse="genre" aria-selected="false" aria-controls="browseChips" tabindex="-1" type="button">Genre</button>
       </div>
       <div class="chips" id="browseChips" role="tabpanel"></div>
     </div>
@@ -85,20 +95,20 @@
     <div class="result-bar">
       <p id="resultCount" aria-live="polite"></p>
       <div class="result-actions">
-        <button class="link-btn" id="clearAll" type="button" hidden>Clear all</button>
-        <div class="view-toggle" role="group" aria-label="View">
-          <button type="button" data-view="grid" aria-pressed="true" aria-label="Cards" title="Cards">▦</button>
-          <button type="button" data-view="list" aria-pressed="false" aria-label="List" title="List">☰</button>
+        <button class="link-btn" id="clearAll" type="button" hidden>Clear filters</button>
+        <div class="view-toggle" role="group" aria-label="Layout">
+          <button type="button" data-layout="grid" aria-pressed="true" aria-label="Cards" title="Cards">▦</button>
+          <button type="button" data-layout="list" aria-pressed="false" aria-label="List" title="List">☰</button>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="results" class="results grid" aria-label="Results" tabindex="-1"></section>
+  <section id="results" class="results composers" aria-label="Results" tabindex="-1"></section>
   <nav class="pager" id="pager" aria-label="Pages"></nav>
 
   <footer class="foot">
-    <p><strong>Licence badges never overclaim.</strong> A badge reflects the <em>most restrictive</em> part of the row (recording or score). PD composition ≠ PD recording. Always read the legal notes; US-government recordings are PD in the US only.</p>
+    <p><strong>Licence badges never overclaim.</strong> A badge reflects the <em>most restrictive</em> part of the row (recording or score). A public-domain composition does not make a recording public domain. Synth renders are made from the score and carry the score’s licence. US-government recordings are PD in the US only. Always read the legal notes.</p>
     <p class="legend">
       <span class="badge b-clean">Clean</span> PD / CC0 — no credit needed
       <span class="badge b-attribution">Credit required</span> CC BY — credit in post
@@ -106,11 +116,12 @@
       <span class="badge b-flagged">Flagged</span> known caveat
       <span class="badge b-unverified">Unverified</span> rights not confirmed
     </p>
-    <p>Full recordings: GitHub Release <a href="https://github.com/LaDoger/music-library/releases/tag/audio-v1">audio-v1</a> · Source: <a href="https://github.com/LaDoger/music-library">LaDoger/music-library</a> · Data: <a href="data/library.json">library.json</a> · <a href="data/catalog.json">catalog.json</a> · AI agents: <a href="https://github.com/LaDoger/music-library/blob/main/AGENTS.md">AGENTS.md</a> · <a href="llms.txt">llms.txt</a> · Keys: <kbd>/</kbd> search, <kbd>Space</kbd> play/pause, <kbd>Esc</kbd> close/stop</p>
+    <p>Listening: <b>Preview</b> = 15 s audition · <b>Recording</b> = full performance (Wikimedia / Internet Archive stream, or the GitHub Release <a href="https://github.com/LaDoger/music-library/releases/tag/audio-v1">audio-v1</a>) · <b>Synth render</b> = the score played by FluidSynth (pre-rendered) or by an in-browser MIDI synth (Magenta SGM+ soundfont, adjustable tempo). Composer portraits are Wikimedia Commons files tagged public domain; others get a monogram.</p>
+    <p>Source: <a href="https://github.com/LaDoger/music-library">LaDoger/music-library</a> · Data: <a href="data/library.json">library.json</a> · <a href="data/composers.json">composers.json</a> · <a href="data/catalog.json">catalog.json</a> · AI agents: <a href="https://github.com/LaDoger/music-library/blob/main/AGENTS.md">AGENTS.md</a> · <a href="llms.txt">llms.txt</a> · Keys: <kbd>/</kbd> search, <kbd>Space</kbd> play/pause, <kbd>Esc</kbd> close/stop</p>
   </footer>
 </main>
 
-<aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="dTitle" role="dialog" aria-modal="true" inert>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="dTitle" role="dialog" inert>
   <div class="drawer-scrim" data-close></div>
   <div class="drawer-panel" tabindex="-1">
     <button class="icon-btn drawer-close" type="button" data-close aria-label="Close details">✕</button>
@@ -118,19 +129,25 @@
   </div>
 </aside>
 
-<div class="player" id="player" hidden>
+<div class="player" id="player" role="region" aria-label="Player" hidden>
   <button class="play-btn big" id="pBtn" type="button" aria-label="Play">▶</button>
   <div class="p-meta">
-    <button class="p-title link-btn" id="pTitle" type="button"></button>
+    <div class="p-line"><span class="p-mode" id="pMode">Preview</span><span class="p-composer" id="pComposer"></span></div>
+    <button class="p-title link-btn" id="pTitle" type="button" title="Open details"></button>
     <div class="p-sub" id="pSub"></div>
-    <div class="p-bar" id="pBar" role="slider" tabindex="0" aria-label="Preview position" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0"><span id="pProg"></span></div>
+    <div class="p-bar" id="pBar" role="slider" tabindex="0" aria-label="Position" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0"><span id="pProg"></span></div>
   </div>
-  <span class="p-time" id="pTime">0:00</span>
-  <button class="icon-btn" id="pClose" type="button" aria-label="Stop">✕</button>
+  <div class="p-side">
+    <span class="p-time" id="pTime">0:00 / 0:15</span>
+    <div class="p-modes" id="pModes" role="group" aria-label="What to play"></div>
+    <label class="p-tempo" id="pTempoWrap" hidden><span>Tempo</span><input type="range" id="pTempo" min="0.5" max="1.5" step="0.05" value="1"><output id="pTempoOut">100%</output></label>
+    <a class="small-btn" id="pOpen" href="#" target="_blank" rel="noopener" hidden>Download / open recording</a>
+  </div>
+  <button class="icon-btn p-close" id="pClose" type="button" aria-label="Stop and close player">✕</button>
 </div>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<noscript><p class="wrap">This page needs JavaScript. The raw data is in <a href="data/library.json">data/library.json</a> (agent index: <a href="data/catalog.json">data/catalog.json</a>, guide: <a href="llms.txt">llms.txt</a>) and a static audition page is at <a href="previews/index.html">previews/index.html</a>.</p></noscript>
+<noscript><p class="wrap">This page needs JavaScript. The raw data is in <a href="data/library.json">data/library.json</a> (composers: <a href="data/composers.json">data/composers.json</a>, agent index: <a href="data/catalog.json">data/catalog.json</a>, guide: <a href="llms.txt">llms.txt</a>) and a static audition page is at <a href="previews/index.html">previews/index.html</a>.</p></noscript>
 <script src="assets/app.js" defer></script>
 </body>
 </html>

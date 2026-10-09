@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) {
     res.writeHead(404); res.end(); return;
   }
-  const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.mp3': 'audio/mpeg' };
+  const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.mp3': 'audio/mpeg', '.mid': 'audio/midi' };
   res.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
   const size = fs.statSync(file).size;
   const range = /bytes=(\d+)-(\d*)/.exec(req.headers.range || '');
@@ -46,10 +46,43 @@ const server = http.createServer((req, res) => {
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
-    async function load(query = '') {
+    async function load(query = '?view=works') {
       await page.goto(base + query);
       await page.waitForFunction(() => document.querySelector('#resultCount b'));
     }
+    const coll = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
+    const fold = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const composers = [...new Set(rows.map(r => r.composer))];
+    const bach = rows.filter(r => r.composer === 'Johann Sebastian Bach');
+
+    // Composer-first: default view is the A–Z composer index.
+    await load('');
+    assert.equal(await page.locator('.composer-card').count(), composers.length);
+    assert.equal(await page.locator('.card').count(), 0);
+    assert.equal(await page.locator('#composerHero').isHidden(), true);
+    assert.equal(await page.locator('.pick').count(), 15);
+    assert.match(await page.locator('#picksTitle').textContent(), /Editor.s picks for video/);
+    const sortNames = await page.locator('.composer-card .cc-name').allInnerTexts();
+    const bySort = [...composers].sort((a, b) => coll.compare(fold(rows.find(r => r.composer === a).composer_sort), fold(rows.find(r => r.composer === b).composer_sort)));
+    assert.deepEqual(sortNames, bySort, 'composer index A–Z by sort name');
+    await page.locator('.composer-card', { hasText: 'Johann Sebastian Bach' }).click();
+    await page.waitForSelector('#composerHero:not([hidden])');
+    assert.equal(new URL(page.url()).searchParams.get('composer'), 'Johann Sebastian Bach');
+    await count(bach.length);
+    assert.match(await page.locator('#composerHero').innerText(), /1685–1750/);
+    const cats = await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id));
+    const expectedCats = [...bach].sort((a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || coll.compare(a.title, b.title)).slice(0, 24).map(r => r.id);
+    assert.deepEqual(cats, expectedCats, 'composer page sorted by catalogue number');
+    await page.goBack(); await page.waitForSelector('.composer-card');
+    await load('?composer=Johann%20Sebastian%20Bach&score=1'); await count(bach.filter(r => r.has_editable_score).length);
+    await page.locator('#composerHero .back').click(); await page.waitForSelector('.composer-card');
+    assert.equal(new URL(page.url()).searchParams.has('composer'), false);
+    // Works view: default sort is composer, then catalogue, then title.
+    await load();
+    const firstIds = await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id));
+    const expectedFirst = [...rows].sort((a, b) => coll.compare(a.composer_sort, b.composer_sort) || (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || coll.compare(a.title, b.title)).slice(0, 24).map(r => r.id);
+    assert.deepEqual(firstIds, expectedFirst, 'default works sort');
+    assert.equal(await page.locator('.card .c-composer').count(), 24, 'composer name on every card');
     async function count(n) {
       await page.waitForFunction(expected => +document.querySelector('#resultCount b').textContent === expected, n);
     }
@@ -79,7 +112,6 @@ const server = http.createServer((req, res) => {
     await page.setViewportSize({ width: 1280, height: 900 });
     const filters = {
       genre: ['classical', r => r.genre === 'classical'],
-      composer: ['Johann Sebastian Bach', r => r.composer === 'Johann Sebastian Bach'],
       mood: ['epic', r => r.mood_tags_list.includes('epic')],
       era: ['Baroque', r => r.era === 'Baroque'],
       energy: ['high', r => r.energy === 'high'],
@@ -94,16 +126,16 @@ const server = http.createServer((req, res) => {
       await page.locator('#clearAll').click(); await count(rows.length);
     }
     await page.locator('#showPicks').click(); await count(15);
-    const expectedPicks = rows.filter(r => r.top_pick_rank).sort((a, b) => a.top_pick_rank - b.top_pick_rank).map(r => r.id);
+    const expectedPicks = rows.filter(r => r.editors_pick_rank).sort((a, b) => a.editors_pick_rank - b.editors_pick_rank).map(r => r.id);
     assert.deepEqual(await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id)), expectedPicks);
     assert.equal(new URL(page.url()).searchParams.get('picks'), '1');
     await page.locator('#clearAll').click();
     await page.locator('#pager button[data-page="2"]').first().click();
     assert.equal(await page.evaluate(() => document.activeElement.id), 'results');
     assert.equal(new URL(page.url()).searchParams.get('page'), '2');
-    await load('?page=999&score=0&rec=no&licence=unknown&id=missing');
+    await load('?view=works&page=999&score=0&rec=no&licence=unknown&id=missing');
     assert.equal(await page.locator('#f_score').isChecked(), false);
-    assert.equal(new URL(page.url()).searchParams.get('page'), '4');
+    assert.equal(new URL(page.url()).searchParams.get('page'), String(Math.ceil(rows.length / 24)));
     for (const k of ['score', 'rec', 'licence', 'id']) assert.equal(new URL(page.url()).searchParams.has(k), false);
     await load('?q=BWV565');
     const opener = page.locator('.card h3 button').first(); await opener.click();
@@ -131,11 +163,11 @@ const server = http.createServer((req, res) => {
     await page.evaluate(() => { history.pushState(null, '', '?q=Bach'); history.pushState(null, '', '?q=Chopin'); document.querySelector('#q').focus(); });
     await page.goBack(); assert.equal(await page.locator('#q').inputValue(), 'Bach');
     await load();
-    await page.locator('#browse-genre').focus(); await page.keyboard.press('ArrowRight');
-    assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-era');
-    assert.equal(await page.locator('#browseChips').getAttribute('aria-labelledby'), 'browse-era');
-    await page.keyboard.press('End'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-mood');
-    await page.keyboard.press('Home'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-genre');
+    await page.locator('#browse-era').focus(); await page.keyboard.press('ArrowRight');
+    assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-composer');
+    assert.equal(await page.locator('#browseChips').getAttribute('aria-labelledby'), 'browse-composer');
+    await page.keyboard.press('End'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-genre');
+    await page.keyboard.press('Home'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-era');
 
     // Real MP3 playback, one Audio object, native button Space, global Space/Esc and seek.
     await page.locator('.card [data-act="play"]').first().click();
@@ -145,6 +177,9 @@ const server = http.createServer((req, res) => {
     await page.locator('.card [data-act="play"]').nth(1).click();
     await page.waitForFunction(src => window.__reviewAudios[0].src !== src && !window.__reviewAudios[0].paused && Number.isFinite(window.__reviewAudios[0].duration), firstSrc);
     assert.equal(await page.locator('.card.playing').count(), 1);
+    await page.locator('.card.playing h3 button').click();
+    assert.equal(await page.locator('#detail [data-act="mode"][data-mode="preview"]').getAttribute('aria-pressed'), 'true');
+    await page.keyboard.press('Escape');
     await page.locator('#pBtn').focus(); await page.keyboard.press('Space');
     await page.waitForFunction(() => window.__reviewAudios[0].paused);
     await page.locator('#pBar').focus(); await page.keyboard.press('ArrowRight');
@@ -158,7 +193,7 @@ const server = http.createServer((req, res) => {
     for (const width of [320, 390, 560, 561, 720, 999, 1000, 1280]) {
       await page.setViewportSize({ width, height: 844 });
       for (const view of ['grid', 'list']) {
-        await page.locator(`[data-view="${view}"]`).click();
+        await page.locator(`[data-layout="${view}"]`).click();
         assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px ${view} overflow`);
         assert(await page.evaluate(() => [...document.querySelectorAll('.card')].every(c => c.scrollWidth <= c.clientWidth + 1)), `${width}px ${view} card clipping`);
       }
@@ -184,12 +219,12 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Escape');
 
     // Synthetic expansion preserves unique IDs and uses the actual UI render/filter path.
-    const synthetic = Array.from({ length: 16 }, (_, batch) => rows.map(r => ({ ...r, id: r.id + '_' + batch, top_pick_rank: batch ? 0 : r.top_pick_rank }))).flat();
+    const synthetic = Array.from({ length: 16 }, (_, batch) => rows.map(r => ({ ...r, id: r.id + '_' + batch, editors_pick_rank: batch ? 0 : r.editors_pick_rank }))).flat();
     const scalePage = await context.newPage();
     await scalePage.route('**/data/library.json', route => route.fulfill({ json: synthetic }));
-    await scalePage.goto(base); await scalePage.waitForSelector('.card');
+    await scalePage.goto(base + '?view=works'); await scalePage.waitForSelector('.card');
     assert.equal(await scalePage.locator('.card').count(), 24);
-    assert.equal(await scalePage.locator('#resultCount b').innerText(), '1200');
+    assert.equal(await scalePage.locator('#resultCount b').innerText(), String(synthetic.length));
     const timings = [];
     for (let i = 0; i < 5; i++) {
       timings.push(await scalePage.evaluate(() => {
@@ -200,9 +235,11 @@ const server = http.createServer((req, res) => {
       }));
     }
     assert.equal(await scalePage.locator('.card').count(), 24);
+    await scalePage.goto(base); await scalePage.waitForSelector('.composer-card');
+    assert.equal(await scalePage.locator('.composer-card').count(), composers.length);
     assert.equal(errors.length, 0, errors.join('\n'));
-    console.log('PASS: search; all facets + reload; clear debounce; ranked picks; pagination/URL normalization; modal focus/history; copy success/failure; tabs; real single-player audio/seek/Space/Esc; mobile/resize; 1,200 rows.');
-    console.log(`1,200-row filter/facet/render samples (ms): ${timings.map(t => t.toFixed(1)).join(', ')}; raw JSON ${(Buffer.byteLength(JSON.stringify(synthetic)) / 1024 / 1024).toFixed(2)} MiB; 24 result cards.`);
+    console.log(`PASS: composer index/page/sort; search; all facets + reload; clear debounce; editor's picks; pagination/URL normalization; modal focus/history; copy success/failure; tabs; real single-player audio/seek/Space/Esc; mobile/resize; ${synthetic.length} rows.`);
+    console.log(`${synthetic.length}-row filter/facet/render samples (ms): ${timings.map(t => t.toFixed(1)).join(', ')}; raw JSON ${(Buffer.byteLength(JSON.stringify(synthetic)) / 1024 / 1024).toFixed(2)} MiB; 24 result cards.`);
   } finally {
     await browser.close();
   }

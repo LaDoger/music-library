@@ -87,6 +87,8 @@ def cmd_get(lib: Library, a) -> int:
         lines.append(f"recording: {it['release_audio_url']}"
                      f"  [{it.get('recording_quality') or '?'}; {it.get('recording_license')}]")
         lines.append(f"  performer: {it.get('recording_performer') or '-'}; source: {it.get('recording_source_url')}")
+        if it.get("stream_audio_url"):
+            lines.append(f"  stream:    {it['stream_audio_url']}")
     else:
         lines.append("recording: none (render the score instead)")
     if it["has_editable_score"]:
@@ -96,6 +98,8 @@ def cmd_get(lib: Library, a) -> int:
         rm = it.get("render_midi")
         if rm:
             lines.append(f"  render source: {rm['file']}" + (f" -> {rm['zip_member']}" if rm["zip_member"] else ""))
+        if it.get("stream_synth_url"):
+            lines.append(f"  synth render: {it['stream_synth_url']}  (FluidSynth; carries the score licence)")
     else:
         lines.append("score: none")
     if it.get("notable_excerpt"):
@@ -260,7 +264,7 @@ def build_parser():
     s.add_argument("--has-recording", action="store_true")
     s.add_argument("--renderable", action="store_true", help="has a MIDI `render` can use")
     s.add_argument("--verified", action="store_true")
-    s.add_argument("--top", action="store_true", help="top picks for Saylor-style videos, ranked")
+    s.add_argument("--picks", "--top", dest="top", action="store_true", help="editor's picks for video, ranked")
     s.add_argument("--limit", type=int)
     s.add_argument("--json", action="store_true")
 

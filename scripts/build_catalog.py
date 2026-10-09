@@ -5,6 +5,7 @@ Outputs (all committed, served by GitHub Pages):
   data/catalog.json       compact index: one small record per piece + absolute URLs
   data/items/<id>.json    full record per piece (library.json row + URLs, render
                           hints and a ready-to-paste credit line)
+  (data/composers.json is written by sync_site_data.py; catalog.json links to it)
 
 Run after scripts/sync_site_data.py (which calls this automatically). Idempotent:
 output depends only on data/library.json and files in files/scores/.
@@ -24,7 +25,7 @@ ITEMS_DIR = os.path.join(ROOT, "data", "items")
 PAGES_BASE = "https://ladoger.github.io/music-library/"
 REPO_URL = "https://github.com/LaDoger/music-library"
 RELEASE_URL = REPO_URL + "/releases/tag/audio-v1"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2  # 2: editors_pick_rank replaces top_pick_rank; composer + stream/synth fields
 
 LICENCE_MEANING = {
     "clean": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
@@ -95,6 +96,8 @@ def build():
         index.append({
             "id": rid,
             "composer": r["composer"],
+            "composer_slug": r.get("composer_slug", ""),
+            "composer_sort": r.get("composer_sort", ""),
             "title": r["title"],
             "catalog": r.get("catalog", ""),
             "movement": r.get("movement", ""),
@@ -109,10 +112,13 @@ def build():
             "has_editable_score": r["has_editable_score"],
             "has_recording": r["has_recording"],
             "renderable_midi": bool(render and (render["file"].endswith((".mid", ".midi")) or render["zip_member"])),
-            "top_pick_rank": r.get("top_pick_rank", 0),
+            "editors_pick_rank": r.get("editors_pick_rank", 0),
             "preview_url": url(r.get("preview_url", "")),
             "score_url": url(r.get("score_url", "")),
             "release_audio_url": r.get("release_audio_url", ""),
+            "stream_audio_url": r.get("stream_audio_url", ""),
+            "midi_play_url": url(r.get("midi_play_url", "")),
+            "stream_synth_url": r.get("stream_synth_url", ""),
             "item_json_url": url(item_rel),
         })
         full = dict(r)
@@ -125,6 +131,7 @@ def build():
             "preview_url_abs": url(r.get("preview_url", "")),
             "score_url_abs": url(r.get("score_url", "")),
             "score_files_abs": [url(f) for f in r.get("score_files", [])],
+            "midi_play_url_abs": url(r.get("midi_play_url", "")),
             "render_midi": render,
             "licence_meaning": LICENCE_MEANING.get(r["licence_status"], ""),
             "credit_text": credit_text(r),
@@ -141,6 +148,7 @@ def build():
         "agents_md": REPO_URL + "/blob/main/AGENTS.md",
         "llms_txt": PAGES_BASE + "llms.txt",
         "full_data": PAGES_BASE + "data/library.json",
+        "composers": PAGES_BASE + "data/composers.json",
         "licence_status_meaning": LICENCE_MEANING,
         "count": len(index),
         "items": index,

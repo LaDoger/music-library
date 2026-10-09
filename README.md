@@ -1,23 +1,24 @@
 # Music library
 
-A multi-genre library of **any good music we can legally use** in commercial and social video (Michael Saylor / Strategy style edits on X): classical, jazz, ragtime, blues, folk, world, marches, early popular, silent/film and quality modern CC0 / CC BY. No filler; every licence is checked per file.
+A composer-first library of **good music we can legally use** in commercial and social video: public-domain and openly licensed classical music today, with room for jazz, ragtime, blues, folk, world, marches, early popular, silent/film and quality modern CC0 / CC BY. No filler; every licence is checked per file.
 
 **Editable scores come first.** The point is to take a work (Bach, Wagner, anything PD), get a clean MIDI / LilyPond / MusicXML file and re-genre or re-render it for video. Recordings are secondary.
 
 - **Live site:** https://ladoger.github.io/music-library/
 - **Repo:** https://github.com/LaDoger/music-library
 - **Full recordings:** GitHub Release [`audio-v1`](https://github.com/LaDoger/music-library/releases/tag/audio-v1) (not in git, too large). Each row's `release_audio_url` points at its asset.
+- **Synth renders:** GitHub Release [`synth-v1`](https://github.com/LaDoger/music-library/releases/tag/synth-v1): full-length FluidSynth MP3s of editor's-pick scores (`stream_synth_url`; they carry the score licence).
 
-v1 holds 75 classical pieces; the data model and UI are already multi-genre. The next batches add Bach (BWV catalogue first), Wagner, Mahler and Bruckner scores, then PD jazz/ragtime/blues and other genres.
+The library started with 75 classical pieces and grows in batches (Bach BWV first, then Wagner, Mahler, Bruckner and other PD composers). The site and `data/*.json` are regenerated from `library.csv`; the numbers below are a snapshot at the last sync.
 
 | | count |
 |---|---|
-| Pieces (rows) | 75 |
-| Rows with a downloaded editable score | 30 |
-| Rows with a recording (on the Release) | 64 |
-| Preview MP3s | 75 |
-| `verified=yes` (license text seen on the source page) | 71 |
-| Licence badge: Clean / Credit required / ShareAlike / Flagged / Unverified | 49 / 5 / 11 / 6 / 4 |
+| Works (rows) | 334 |
+| Composers | 47 (42 with a verified PD portrait) |
+| Rows with a downloadable editable score | 289 |
+| Rows with a full recording (Release `audio-v1`) | 64 (61 with a direct Commons / Internet Archive stream) |
+| Pre-rendered synth MP3s (Release `synth-v1`) | 7 |
+| Licence badge: Clean / Credit required / ShareAlike / Flagged / Unverified | 259 / 33 / 32 / 6 / 4 |
 
 ## For AI agents and the `musiclib` CLI
 
@@ -30,7 +31,7 @@ The CLI is pure stdlib Python 3.9+:
 
 ```bash
 pip install -e .                                   # repo root; or: PYTHONPATH=src python -m musiclib ...
-musiclib search --top                              # ranked picks; also: search bwv 565, search dramatic --clean --has-score
+musiclib search --picks                            # editor's picks, ranked; also: search bwv 565, search dramatic --clean --has-score
 musiclib get grieg_peer_gynt_mountain_king         # URLs, local paths, licence, best excerpt, credit
 musiclib download tchaikovsky_1812_overture --what recording   # from the Release; --what score|preview|all
 musiclib render grieg_peer_gynt_mountain_king --start 0:30 --duration 30 --out clip.mp3
@@ -44,13 +45,18 @@ musiclib arrange <id> --style lofi                 # hook: runs $MUSICLIB_ARRANG
 
 ## Using the site
 
-- **Search** by title, composer or **catalogue number**: `BWV 565`, `bwv565`, `Op. 27`, `K331`, `WWV 86`. Accents are optional (`dvorak`).
-- **Has editable score** toggle (next to the search box) shows only rows with a downloadable score.
-- **Filters:** genre, composer, mood, era, energy, licence status, has recording, verified, plus sort. Every filter is in the URL, so a filtered view can be shared. **Clear all** resets.
-- **Browse chips** by genre, era, composer or mood. Card or list view; 24 rows per page.
-- **Top picks for Saylor videos** row at the top (the 15 below). **See all ranked** shows those 15 in rank order (`?picks=1`); Clear all returns to the full library.
-- **Preview player:** one 15 s clip at a time. `Space` play/pause, `Esc` close details / stop, `/` jump to search.
-- **Detail panel** (click a title, or link `?id=<id>`): strong excerpt, video ideas, licence badge for the recording and the score, legal flags and notes, a **Copy licence + credit** button, and links to the preview, full recording, score files and source pages.
+- **Composers first.** The home page is an A–Z index of composers with life dates, era, a count of works / scores / recordings and a portrait (only Wikimedia Commons files tagged public domain or CC0, checked through the Commons API; everyone else gets a monogram). Click a composer for their page (`?composer=Johann%20Sebastian%20Bach`): all their works sorted by **catalogue number** (BWV, Op., K., WWV…), with every filter still available.
+- **All works** (`?view=works`) lists every piece. Cards lead with the composer, then the title, then the catalogue number. Default order: composer, then catalogue number, then title; other sorts (title, best match, death year, energy, scores first) are in the Sort menu.
+- **Search** by composer, title or **catalogue number**: `BWV 565`, `bwv565`, `Op. 27`, `K331`, `WWV 86`. Accents are optional (`dvorak`).
+- **Filters:** composer, genre, era, mood, energy, licence status, has recording, verified, plus the **Has editable score** toggle. Every filter is in the URL, so a filtered view can be shared.
+- **Editor's picks for video** row on the home page (the 15 below). **See all ranked** / the *Editor's picks* tab shows them in rank order (`?picks=1`).
+- **Player** (one source at a time, `Space` play/pause, `Esc` stop, `/` search). Each piece offers whatever exists:
+  - **Preview**: the 15 s audition clip.
+  - **Full recording**: the whole performance, with seek bar and time / duration. It streams the Commons MP3 transcode or Internet Archive MP3 when one was resolved (`stream_audio_url`), else the GitHub Release file; if the browser cannot play either, the player offers *Download / open recording*.
+  - **Synth render**: the score rendered by FluidSynth (FluidR3_GM), pre-rendered for editor's picks on Release `synth-v1` (`stream_synth_url`).
+  - **Live MIDI synth**: any scored piece played in the browser (Magenta SoundFontPlayer, SGM+ soundfont, loaded on first use) with **tempo** control (50–150 %) and a piano roll.
+  - Synth renders are made from the score, so they carry the **score** licence; the player and detail panel say so.
+- **Detail panel** (click a title, or link `?id=<id>`): listen buttons, strong excerpt, video ideas, licence badge for the recording and the score, legal flags and notes, **Copy licence + credit**, and links to the preview, full recording, stream, synth render, score files and source pages.
 
 Licence badges show the **most restrictive** part of the row and never overclaim:
 
@@ -78,7 +84,19 @@ python3 scripts/sync_site_data.py          # rebuild JSON (idempotent)
 python3 scripts/sync_site_data.py --check  # summary + warnings only
 ```
 
-It derives genre, era, energy, `licence_status` (+ separate `recording_status` / `score_status`), `legal_flags`, `has_editable_score`, `has_recording`, score file lists, `release_audio_url` and the top-pick rank (from the table in this README). New genres: add a `genre` column value to the CSV rows (`classical | jazz | ragtime | blues | folk | world | marches | early_popular | film_silent | modern_cc | other`). Architecture and scaling notes for 1000+ rows: `parts/UI_NOTES.md`.
+It derives genre, era, energy, `licence_status` (+ separate `recording_status` / `score_status`), `legal_flags`, `has_editable_score`, `has_recording`, score file lists, `release_audio_url`, `editors_pick_rank` (from the table in this README), composer fields and `data/composers.json`, and merges the offline caches in `data/cache/` (`stream_audio_url`, `stream_synth_url`). `video_use_ideas` passes through `scripts/video_ideas.py`, which keeps the wording generic.
+
+The network steps are separate and cached, so the sync itself stays offline:
+
+```bash
+python3 scripts/video_ideas.py          # rewrite niche video_use_ideas in library.csv (merge by id)
+python3 scripts/fetch_composer_meta.py  # Wikidata life dates + PD/CC0-only Commons portraits -> data/cache/composer_meta.json
+python3 scripts/resolve_streams.py      # Commons / archive.org direct streams (duration-checked) -> data/cache/stream_audio.json
+python3 scripts/build_midi_play.py      # browser MIDI for zip-only / MusicXML-only scores -> files/midi_play/<id>.mid
+python3 scripts/render_synth.py         # FluidSynth MP3s for editor's picks -> release_staging/synth/
+gh release upload synth-v1 release_staging/synth/*_synth.mp3 --clobber && python3 scripts/render_synth.py --record
+python3 scripts/sync_site_data.py       # then rebuild the JSON
+``` New genres: add a `genre` column value to the CSV rows (`classical | jazz | ragtime | blues | folk | world | marches | early_popular | film_silent | modern_cc | other`). Architecture and scaling notes for 1000+ rows: `parts/UI_NOTES.md`.
 
 ### Deploying (GitHub Pages)
 
@@ -89,6 +107,9 @@ Pages serves the repo root of `main`: **Settings → Pages → Build and deploym
 ```
 index.html, assets/          the Pages site (vanilla JS, no build step)
 data/library.json            site data, generated by scripts/sync_site_data.py
+data/composers.json          composer index (life dates, era, counts, piece ids, portrait + licence)
+data/cache/                  network lookups cached for the offline sync (composer meta, streams, synth renders)
+assets/vendor/               html-midi-player bundle (Tone.js + Magenta core), loaded only for live MIDI
 data/catalog.json, data/items/  agent index + per-item records (scripts/build_catalog.py, run by sync)
 AGENTS.md, llms.txt          agent entry points; docs/MCP_PLAN.md
 src/musiclib/, pyproject.toml  the musiclib CLI (search/get/download/render/trim/credit/arrange)
@@ -97,6 +118,7 @@ SCHEMA.md                    column definitions and license policy
 README.md                    this file
 STATUS.md / STATUS.txt       checkpoint log / build log
 files/audio/<id>.<ext>       full recordings, local only (git-ignored; published on Release audio-v1)
+files/midi_play/<id>.mid     browser-playable MIDI extracted from shared zips / converted from MusicXML
 files/scores/<id>.<ext>      editable scores: MIDI, LilyPond (.ly), PDF, Mutopia zips
                              (<id>_lilypond.zip / <id>_midi.zip; shared sets like
                              mussorgsky_pictures_at_an_exhibition-*.zip, dvorak_new_world-*.zip)
@@ -177,27 +199,27 @@ A public-domain composition does not mean a public-domain recording. Read **both
 - Anything CC BY-NC, all-rights-reserved, or with a guessed license.
 - Recordings tagged PD-EU-audio only, which are still protected in the US (e.g. Barbirolli's 1947 Nimrod).
 
-## Top 15 picks for Saylor-style videos
+## Editor's picks for video
 
-All picks are `verified=yes`. Picks 1–11 and 14 have fully clean **recordings**. (The site badge also counts the score: picks 4 and 5 show ShareAlike and pick 14 Credit required because of their Mutopia scores.) Picks 12, 13 and 15 need a credit (Moonlight I is a courtesy credit). Picks 3 and 10 are PD in the US as government works.
+The 15 strongest, most recognisable cues for general video editing, ranked. All picks are `verified=yes`. Picks 1–11 and 14 have fully clean **recordings**. (The site badge also counts the score: picks 4 and 5 show ShareAlike and pick 14 Credit required because of their Mutopia scores.) Picks 12, 13 and 15 need a credit (Moonlight I is a courtesy credit). Picks 3 and 10 are PD in the US as government works. The sync script reads this table into `editors_pick_rank` / `editors_pick_why`.
 
 | # | id | why |
 |---|---|---|
-| 1 | grieg_peer_gynt_mountain_king | Slow-to-frantic build: ideal for "adoption curve" or rising-price montages. PD recording and PD score. |
-| 2 | beethoven_op67_symphony5 | The fate motif, a four-note thesis statement for bold announcements. PD (courtesy credit Skidmore/Musopen). |
-| 3 | tchaikovsky_1812_overture | Cannons and bells finale for all-time-high or "victory" moments. US Army Band, PD-US. |
-| 4 | mussorgsky_pictures_great_gate_kiev | Monumental, cathedral-like grandeur for "digital capital / monument" visuals. PD. |
-| 5 | dvorak_new_world_finale | Brass march of progress, "the new world" message built in. PD recording. |
+| 1 | grieg_peer_gynt_mountain_king | Slow-to-frantic build: ideal for countdowns, chases and growth montages. PD recording and PD score. |
+| 2 | beethoven_op67_symphony5 | The four-note motif, a thesis statement for bold announcements. PD (courtesy credit Skidmore/Musopen). |
+| 3 | tchaikovsky_1812_overture | Cannons and bells finale for victory or record-breaking moments. US Army Band, PD-US. |
+| 4 | mussorgsky_pictures_great_gate_kiev | Monumental, cathedral-like grandeur for unveilings and landmark visuals. PD. |
+| 5 | dvorak_new_world_finale | Brass march of progress for journeys, launches and openers. PD recording. |
 | 6 | beethoven_op84_egmont | Victorious coda in a 48/24 FLAC. Triumphant closer after a struggle. PD. |
-| 7 | mozart_k550_symphony40 | Restless urgency under analytical voice-over, e.g. "inflation is eroding your money". PD FLAC. |
-| 8 | chopin_op10_12_revolutionary | Defiant, stormy piano for "revolution in money" lines. PD, named performer. |
-| 9 | vivaldi_rv315_summer_storm | Furious strings for volatility or market-storm cuts. PDM-owner declaration. |
-| 10 | verdi_aida_triumphal_march | Ceremonial trumpets for corporate milestones and treasury reveals. US Marine Band, PD-US. |
+| 7 | mozart_k550_symphony40 | Restless urgency under an analytical voice-over. PD FLAC. |
+| 8 | chopin_op10_12_revolutionary | Defiant, stormy piano for a turning point or a call to action. PD, named performer. |
+| 9 | vivaldi_rv315_summer_storm | Furious strings for storms, turbulence and action cuts. PDM-owner declaration. |
+| 10 | verdi_aida_triumphal_march | Ceremonial trumpets for milestones, openings and award moments. US Marine Band, PD-US. |
 | 11 | tchaikovsky_piano_concerto_1 | Huge opening chords for a grand, confident intro. CC0 (mono). |
 | 12 | bach_bwv565_toccata | The most recognisable dramatic organ opening there is. CC BY 4.0, credit Norbert Schenk. |
 | 13 | rstrauss_zarathustra_sunrise | "2001" sunrise awe for dawn-of-a-new-era reveals. CC BY 3.0, credit Kevin MacLeod. |
-| 14 | mussorgsky_night_on_bald_mountain | Dark and chaotic, for "fiat collapse" or bear-market segments. PD recording. |
-| 15 | beethoven_op27_2_moonlight1 | Calm, mysterious contrast for reflective long-term-thinking passages. PD (courtesy credit Paul Pitman/Musopen). |
+| 14 | mussorgsky_night_on_bald_mountain | Dark and chaotic, for storms, villains or crisis segments. PD recording. |
+| 15 | beethoven_op27_2_moonlight1 | Calm, mysterious contrast for reflective passages. PD (courtesy credit Paul Pitman/Musopen). |
 
 Honourable mentions:
 - holst_planets_mars: relentless and martial, CC0, but carries the Holst territorial flag and is only 61 s.

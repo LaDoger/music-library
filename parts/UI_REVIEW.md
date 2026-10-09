@@ -31,7 +31,7 @@ Search passes for `BWV565`, `bwv 565`, `Op 27`, `K331` and accent-free `dvorak`.
 
 Card/list layouts were checked at **320, 390, 560, 561, 720, 999, 1000 and 1280 px**: no document overflow or clipped result cards. Mobile filters collapse below 1000 px, remain open after a desktop/mobile round trip when opened by the user, and can be closed again. The 390 px drawer fits the viewport. Chrome was used; Safari/Firefox and a physical mobile device were not exercised.
 
-The current JSON is 178,240 bytes. A **1,200-row** synthetic catalogue (2.49 MiB compact JSON) rendered **24 result cards**. Five full filter/facet/render samples were **6.9, 9.9, 152.8, 7.4, 5.8 ms**: median **7.4 ms**, maximum **152.8 ms**. Pagination is a suitable DOM bound for 1000+ rows; these desktop timings do not establish a low-end mobile first-load budget. UI_NOTES.md now records the measured range instead of assuming every render takes 6 ms.
+The current JSON is 178,240 bytes. A **1,200-row** synthetic catalogue (2.49 MiB compact JSON) rendered **24 result cards**. Five full filter/facet/render samples were **6.9, 9.9, 152.8, 7.4, 5.8 ms**: median **7.4 ms**, maximum **152.8 ms**. A repeat pass after the final playback-label check measured 9.3, 9.3, 7.9, 9.3 and 5.7 ms. Pagination is a suitable DOM bound for 1000+ rows; these desktop timings do not establish a low-end mobile first-load budget. UI_NOTES.md now records the measured range instead of assuming every render takes 6 ms.
 
 ## Nice-to-have — follow-up
 

@@ -1,10 +1,12 @@
+> Composer-first views, full-track play and the in-browser synth (2026-10-09) are described in `parts/UI_COMPOSER_NOTES.md`.
+
 # Pages UI — architecture notes (built for 1000+ rows)
 
 Live: https://ladoger.github.io/music-library/ (GitHub Pages, branch `main`, folder `/` root)
 
 ## Files
 ```
-index.html            shell: header, top picks, controls, results, drawer, mini player
+index.html            shell: header + mode nav, composer hero, editor's picks, controls, results, drawer, player
 assets/styles.css     dark theme, amber/orange accent, mobile-first (breakpoints 560 / 720 / 1000 px)
 assets/app.js         all logic, vanilla JS, no build step, no external requests except the data file
 data/library.json     one array of rows, built by scripts/sync_site_data.py (never hand-edit)
@@ -19,7 +21,7 @@ The site sits at the repo root so `previews/` and `files/scores/` resolve withou
 `library.csv` (+ README top-picks table, files on disk) → `python3 scripts/sync_site_data.py` → `data/library.json` → browser.
 
 The sync script derives every UI field (genre, era, energy, licence classes, legal flags, score file list,
-release URL, top pick rank, `search_text`). It is deterministic: re-running without input changes gives a
+release URL, editor's pick rank, composer fields, stream/synth URLs, `search_text`). It is deterministic: re-running without input changes gives a
 byte-identical file. `--check` prints the summary and warnings without writing.
 
 Adding a genre batch: add `genre` (and optionally `era`) columns to the CSV rows or rely on the previous JSON;
@@ -45,7 +47,7 @@ the UI already lists all 11 schema genres (empty ones are dimmed, "coming in lat
 - Only one page (24 rows) is in the DOM at a time; pagination instead of virtual scroll keeps URLs shareable
   (`?page=3`) and keyboard/screen-reader behaviour simple.
 - All filter state is in the URL (`q, genre, composer, mood, era, energy, licence, rec, verified, score, picks,
-  sort, view, page, id`). `?picks=1` shows only ranked top picks, in rank order with the default sort.
+  sort, view, page, id`). `?picks=1` shows only ranked editor's picks, in rank order with the default sort.
   `?id=<row id>` deep-links the detail drawer; Back closes it. Invalid filters are cleared and pages are clamped
   in both the UI and URL. The drawer is inert when closed; background controls are inert when it is open.
 
@@ -53,7 +55,7 @@ the UI already lists all 11 schema genres (empty ones are dimmed, "coming in lat
 | rows | JSON (raw / gzip on Pages) | plan |
 |---|---|---|
 | ≤ 3,000 | estimate ≤ ~7 MB / ~1 MB | current pagination; profile mobile first-load before growing |
-| 3k–20k | too heavy for mobile first load | split: `data/index.json` (id, title, composer, catalog, genre, era, energy, moods, licence, has_*, top pick, search_text) + `data/detail/<shard>.json` loaded when the drawer opens |
+| 3k–20k | too heavy for mobile first load | split: `data/index.json` (id, title, composer, catalog, genre, era, energy, moods, licence, has_*, editor's pick, search_text) + `data/detail/<shard>.json` loaded when the drawer opens |
 | > 20k | | prebuilt inverted index (e.g. MiniSearch/Lunr JSON) or per-genre shards |
 The sync script is the only place that needs to change; `app.js` reads `search_text` and the listed fields only.
 

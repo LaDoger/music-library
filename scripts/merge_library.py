@@ -197,6 +197,9 @@ def main():
     mapping = rename_all(rows)
     plog = fix_previews(rows)
     rows.sort(key=lambda r: r["id"])
+    import video_ideas  # generic video uses; part files may still hold older wording
+    for r in rows:
+        r["video_use_ideas"] = video_ideas.clean_idea(r["id"], r.get("video_use_ideas", ""))
     with (ROOT / "library.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()

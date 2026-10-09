@@ -3,6 +3,7 @@ logs/
 parts/*
 !parts/UI_NOTES.md
 !parts/UI_REVIEW.md
+!parts/UI_COMPOSER_NOTES.md
 briefs/
 scripts/__pycache__/
 *.pyc

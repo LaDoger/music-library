@@ -43,6 +43,11 @@ def squash(text: str) -> str:
     return re.sub(r"[\s.,:'-]+", "", fold(text))
 
 
+
+def pick_rank(item):
+    """Editor's pick rank (1 = best, 0 = not a pick). Older catalogues used top_pick_rank."""
+    return item.get("editors_pick_rank", item.get("top_pick_rank", 0)) or 0
+
 class Library:
     def __init__(self):
         self.root = _find_root()
@@ -122,7 +127,7 @@ class Library:
                 continue
             if verified and it["verified"] != "yes":
                 continue
-            if top and not it["top_pick_rank"]:
+            if top and not pick_rank(it):
                 continue
             blob = fold(" ".join([it["id"].replace("_", " "), it["title"], it["composer"], it["catalog"],
                                   it["movement"], it["genre"], it["era"], " ".join(it["mood"])]))
@@ -130,5 +135,5 @@ class Library:
             if all(t in blob or squash(t) in flat for t in tokens):
                 out.append(it)
         if top:
-            out.sort(key=lambda i: i["top_pick_rank"])
+            out.sort(key=pick_rank)
         return out

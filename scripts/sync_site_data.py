@@ -2,8 +2,8 @@
 """Rebuild data/library.json (the Pages site data) from library.csv.
 
 Safe to re-run after every batch expansion: output depends only on library.csv,
-README.md (top picks), files on disk and, for a few hand-set fields, the previous
-data/library.json.
+README.md (editor's picks), files on disk, the offline caches in data/cache/ and, for a
+few hand-set fields, the previous data/library.json. No network access.
 
 Derived fields
   genre               CSV `genre` column > previous JSON > composer map > "classical"
@@ -17,10 +17,17 @@ Derived fields
   energy              low | moderate | high | very_high, from tempo_energy
   score_files         every file in files/scores/ belonging to the row
   release_audio_*     GitHub Release asset for local_audio_path
-  top_pick_rank/why   from the "Top 15 picks" table in README.md
+  editors_pick(_rank/_why)  from the "Editor's picks for video" table in README.md
+  video_use_ideas     generic video uses; curated overrides from scripts/video_ideas.py
+  composer_slug/_sort, birth_year   composer identity (data/cache/composer_meta.json)
+  stream_audio_url    direct Commons / archive.org stream (data/cache/stream_audio.json)
+  midi_play_url       MIDI the in-browser synth plays (plain .mid, or files/midi_play/<id>.mid
+                      extracted / converted by scripts/build_midi_play.py)
+  stream_synth_url    pre-rendered full-length FluidSynth MP3 (data/cache/synth_renders.json)
   search_text         lowercase blob the UI searches (catalogue variants included)
 
-Also rebuilds data/catalog.json + data/items/*.json (scripts/build_catalog.py).
+Also writes data/composers.json and rebuilds data/catalog.json + data/items/*.json
+(scripts/build_catalog.py).
 
 Usage: python3 scripts/sync_site_data.py [--check]   (--check: report only, no write)
 """
@@ -29,12 +36,19 @@ import json
 import os
 import re
 import sys
+import unicodedata
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import video_ideas  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(ROOT, "library.csv")
 JSON_PATH = os.path.join(ROOT, "data", "library.json")
 README_PATH = os.path.join(ROOT, "README.md")
 SCORES_DIR = os.path.join(ROOT, "files", "scores")
+MIDI_PLAY_DIR = os.path.join(ROOT, "files", "midi_play")
+COMPOSERS_PATH = os.path.join(ROOT, "data", "composers.json")
+CACHE_DIR = os.path.join(ROOT, "data", "cache")
 RELEASE_BASE = "https://github.com/LaDoger/music-library/releases/download/audio-v1/"
 
 GENRES = ["classical", "jazz", "ragtime", "blues", "folk", "world", "marches",
@@ -174,13 +188,13 @@ def score_files_for(row):
     return out
 
 
-def parse_top_picks():
+def parse_editors_picks():
     picks = {}
     try:
         text = open(README_PATH, encoding="utf-8").read()
     except FileNotFoundError:
         return picks
-    m = re.search(r"## Top 15 picks.*?\n(\|.*?)(\n\n|\Z)", text, re.S)
+    m = re.search(r"## Editor's picks for video.*?\n(\|.*?)(\n\n|\Z)", text, re.S)
     if not m:
         return picks
     for line in m.group(1).splitlines():
@@ -188,6 +202,49 @@ def parse_top_picks():
         if len(cells) >= 3 and cells[0].isdigit():
             picks[cells[1].strip("`")] = (int(cells[0]), cells[2])
     return picks
+
+
+def load_cache(name):
+    try:
+        return json.load(open(os.path.join(CACHE_DIR, name), encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+PARTICLES = {"van", "von", "de", "da", "di", "del", "der", "le", "la", "du"}
+SUFFIX = re.compile(r"^(I|II|III|IV|Jr\.?|Sr\.?)$")
+
+
+def slugify(name):
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def composer_names(name):
+    """'Ludwig van Beethoven' -> ('Beethoven', 'Beethoven, Ludwig van');
+    'Johann Strauss II' -> ('Strauss II', 'Strauss II, Johann')."""
+    parts = name.split()
+    suffix = parts.pop() if len(parts) > 2 and SUFFIX.match(parts[-1]) else ""
+    surname = parts.pop() if parts else name
+    particles = []
+    while parts and parts[-1].lower() in PARTICLES:
+        particles.insert(0, parts.pop())
+    short = surname + (" " + suffix if suffix else "")
+    given = " ".join(parts + particles)
+    return short, short + (", " + given if given else "")
+
+
+def midi_play_for(item, score_files):
+    """MIDI the browser synth can fetch directly: the row's own .mid, else a file
+    prepared by scripts/build_midi_play.py (zip member or MusicXML conversion)."""
+    own = "files/midi_play/" + item["id"] + ".mid"
+    if os.path.exists(os.path.join(ROOT, own)):
+        return own
+    mids = [f for f in score_files if f.lower().endswith((".mid", ".midi"))]
+    for pref in (item.get("local_score_path", ""), "files/scores/" + item["id"] + ".mid"):
+        if pref in mids:
+            return pref
+    return mids[0] if mids else ""
 
 
 def load_previous():
@@ -200,7 +257,10 @@ def load_previous():
 def build():
     rows = list(csv.DictReader(open(CSV_PATH, encoding="utf-8", newline="")))
     prev = load_previous()
-    picks = parse_top_picks()
+    picks = parse_editors_picks()
+    composer_meta = load_cache("composer_meta.json")
+    streams = load_cache("stream_audio.json")
+    synths = load_cache("synth_renders.json")
     out, problems = [], []
 
     for r in rows:
@@ -213,6 +273,15 @@ def build():
             problems.append(f"{rid}: unknown genre {genre!r}")
         item["genre"] = genre
         item["era"] = item.get("era") or era_for(item["composer"], item.get("death_year"))
+        item["video_use_ideas"] = video_ideas.clean_idea(rid, item.get("video_use_ideas", ""))
+        if video_ideas.needs_rewrite(item["video_use_ideas"]):
+            problems.append(f"{rid}: video_use_ideas has niche wording; add a generic line to scripts/video_ideas.py")
+        meta = composer_meta.get(item["composer"], {})
+        short, sort_name = composer_names(item["composer"])
+        item["composer_slug"] = slugify(item["composer"])
+        item["composer_short"] = short
+        item["composer_sort"] = sort_name
+        item["birth_year"] = meta.get("birth_year") or ""
 
         score_files = score_files_for(item)
         has_score = bool(item.get("local_score_path")) and os.path.exists(os.path.join(ROOT, item["local_score_path"]))
@@ -251,6 +320,9 @@ def build():
 
         moods = [m.strip() for m in item.get("mood_tags", "").split(";") if m.strip()]
         rank, why = picks.get(rid, (0, ""))
+        stream = streams.get(rid, {}) if has_rec else {}
+        synth = synths.get(rid, {}) if has_score else {}
+        midi_play = midi_play_for(item, score_files) if has_score else ""
 
         item.update({
             "preview_url": preview,
@@ -264,38 +336,87 @@ def build():
             "licence_status": status,
             "legal_flags": flags,
             "energy": energy_for(item.get("tempo_energy")),
-            "top_pick_rank": rank,
-            "top_pick_why": why,
+            "editors_pick": bool(rank),
+            "editors_pick_rank": rank,
+            "editors_pick_why": why,
+            "stream_audio_url": stream.get("stream_audio_url", ""),
+            "stream_audio_mime": stream.get("stream_audio_mime", ""),
+            "duration_s": stream.get("local_duration") or stream.get("duration") or 0,
+            "midi_play_url": midi_play,
+            "stream_synth_url": synth.get("url", ""),
+            "release_synth_url": synth.get("url", "") if "/releases/download/" in synth.get("url", "") else "",
+            "synth_duration_s": synth.get("duration", 0),
         })
         item["search_text"] = " ".join([
             item["title"], item["composer"], item.get("catalog", ""), catalog_variants(item.get("catalog")),
             item.get("movement", ""), rid.replace("_", " "), " ".join(moods), genre, item["era"],
-            item.get("recording_performer", ""),
+            item.get("recording_performer", ""), sort_name,
         ]).lower()
         out.append(item)
 
     missing_picks = sorted(set(picks) - {o["id"] for o in out})
     if missing_picks:
-        problems.append(f"top picks not in CSV: {missing_picks}")
-    return out, problems
+        problems.append(f"editor's picks not in CSV: {missing_picks}")
+    return out, build_composers(out, composer_meta), problems
+
+
+def build_composers(rows, meta):
+    """data/composers.json: one entry per composer, A–Z by sort name."""
+    from collections import Counter
+    groups = {}
+    for r in rows:
+        groups.setdefault(r["composer"], []).append(r)
+    out = []
+    for name, items in groups.items():
+        m = meta.get(name, {})
+        first = items[0]
+        deaths = Counter(str(i.get("death_year") or "") for i in items)
+        death = m.get("death_year") or (int(deaths.most_common(1)[0][0]) if deaths.most_common(1)[0][0].isdigit() else None)
+        portrait = m.get("portrait_url") if m.get("portrait_ok") else None
+        out.append({
+            "slug": first["composer_slug"],
+            "name": name,
+            "short_name": first["composer_short"],
+            "sort_name": first["composer_sort"],
+            "birth_year": m.get("birth_year"),
+            "death_year": death,
+            "era": Counter(i["era"] for i in items).most_common(1)[0][0],
+            "genres": sorted({i["genre"] for i in items}),
+            "piece_count": len(items),
+            "score_count": sum(1 for i in items if i["has_editable_score"]),
+            "recording_count": sum(1 for i in items if i["has_recording"]),
+            "piece_ids": [i["id"] for i in items],
+            "wikidata": m.get("wikidata"),
+            "portrait_url": portrait,
+            "portrait_licence": (m.get("portrait_licence") if portrait else None),
+            "portrait_source": (m.get("portrait_file_page") if portrait else None),
+            "portrait_note": ("Wikimedia Commons file tagged " + m.get("portrait_licence", "") + "; verified via Commons extmetadata")
+                             if portrait else "No verified PD/CC0 portrait; the site shows a monogram",
+        })
+    out.sort(key=lambda c: unicodedata.normalize("NFKD", c["sort_name"]).encode("ascii", "ignore").decode().lower())
+    return out
 
 
 def main():
-    out, problems = build()
+    out, composers, problems = build()
     check = "--check" in sys.argv
     if not check:
-        tmp = JSON_PATH + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(out, f, ensure_ascii=False, indent=1)
-            f.write("\n")
-        os.replace(tmp, JSON_PATH)
+        for path, obj in ((JSON_PATH, out), (COMPOSERS_PATH, composers)):
+            tmp = path + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(obj, f, ensure_ascii=False, indent=1)
+                f.write("\n")
+            os.replace(tmp, path)
     from collections import Counter
     print(f"{'checked' if check else 'wrote'} {len(out)} rows -> {os.path.relpath(JSON_PATH, ROOT)}")
     print("licence_status:", dict(Counter(o["licence_status"] for o in out)))
     print("genre:", dict(Counter(o["genre"] for o in out)), "era:", dict(Counter(o["era"] for o in out)))
     print("energy:", dict(Counter(o["energy"] for o in out)))
     print("scores:", sum(o["has_editable_score"] for o in out), "recordings:", sum(o["has_recording"] for o in out),
-          "top picks:", sum(1 for o in out if o["top_pick_rank"]))
+          "editor's picks:", sum(1 for o in out if o["editors_pick_rank"]))
+    print("composers:", len(composers), "with portrait:", sum(1 for c in composers if c["portrait_url"]),
+          "streams:", sum(1 for o in out if o["stream_audio_url"]), "midi_play:", sum(1 for o in out if o["midi_play_url"]),
+          "synth renders:", sum(1 for o in out if o["stream_synth_url"]))
     for p in problems:
         print("WARN", p)
     if not check:

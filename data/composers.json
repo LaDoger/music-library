@@ -1,0 +1,1370 @@
+[
+ {
+  "slug": "charles-valentin-alkan",
+  "name": "Charles-Valentin Alkan",
+  "short_name": "Alkan",
+  "sort_name": "Alkan, Charles-Valentin",
+  "birth_year": 1813,
+  "death_year": 1888,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 4,
+  "score_count": 4,
+  "recording_count": 0,
+  "piece_ids": [
+   "alkan_op31_1_prelude",
+   "alkan_op31_2_prelude",
+   "alkan_op31_8_folle",
+   "alkan_op75_toccatina"
+  ],
+  "wikidata": "Q217068",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Charles-Henri-Valentin_Morhange_dit_Alkan.jpg/330px-Charles-Henri-Valentin_Morhange_dit_Alkan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Charles-Henri-Valentin_Morhange_dit_Alkan.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "johann-sebastian-bach",
+  "name": "Johann Sebastian Bach",
+  "short_name": "Bach",
+  "sort_name": "Bach, Johann Sebastian",
+  "birth_year": 1685,
+  "death_year": 1750,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 172,
+  "score_count": 172,
+  "recording_count": 2,
+  "piece_ids": [
+   "bach_bwv1007_prelude",
+   "bach_bwv1068_air",
+   "bach_bwv565_toccata",
+   "bach_bwv846_prelude",
+   "bach_bwv208_sheep_may_safely_graze",
+   "bach_bwv230_lobet_den_herrn",
+   "bach_bwv508_bist_du_bei_mir",
+   "bach_bwv528_trio_sonata4",
+   "bach_bwv529_trio_sonata5",
+   "bach_bwv533_prelude_e_minor",
+   "bach_bwv542_fantasia_fugue",
+   "bach_bwv549_prelude_c_minor",
+   "bach_bwv582_passacaglia",
+   "bach_bwv599_nun_komm",
+   "bach_bwv600_gott_durch_deine_gute",
+   "bach_bwv601_herr_christ",
+   "bach_bwv602_lob_sei_dem_allmachtigen",
+   "bach_bwv604_gelobet_seist_du",
+   "bach_bwv605_der_tag_der_ist",
+   "bach_bwv606_vom_himmel_hoch",
+   "bach_bwv609_lobt_gott",
+   "bach_bwv610_jesu_meine_freude",
+   "bach_bwv618_o_lamm_gottes",
+   "bach_bwv619_christe_du_lamm",
+   "bach_bwv622_o_mensch_bewein",
+   "bach_bwv636_vater_unser",
+   "bach_bwv643_alle_menschen",
+   "bach_bwv646_wo_soll_ich_fliehen",
+   "bach_bwv647_wer_nur_den_lieben_gott",
+   "bach_bwv648_meine_seele",
+   "bach_bwv649_ach_bleib_bei_uns",
+   "bach_bwv650_kommst_du_nun",
+   "bach_bwv651_fantasia_komm_heiliger_geist",
+   "bach_bwv653_an_wasserflussen",
+   "bach_bwv654_schmucke_dich",
+   "bach_bwv657_nun_danket",
+   "bach_bwv687_aus_tiefer_not",
+   "bach_bwv720_ein_feste_burg",
+   "bach_bwv727_herzlich_tut_mich",
+   "bach_bwv734_nun_freut_euch",
+   "bach_bwv735_valet_will_ich",
+   "bach_bwv751_in_dulci_jubilo",
+   "bach_bwv769_canonic_variations",
+   "bach_bwv773_invention2",
+   "bach_bwv774_invention3",
+   "bach_bwv775_invention4",
+   "bach_bwv776_invention5",
+   "bach_bwv778_invention7",
+   "bach_bwv779_invention8",
+   "bach_bwv781_invention10",
+   "bach_bwv782_invention11",
+   "bach_bwv784_invention13",
+   "bach_bwv785_invention14",
+   "bach_bwv786_invention15",
+   "bach_bwv787_sinfonia1",
+   "bach_bwv788_sinfonia2",
+   "bach_bwv789_sinfonia3",
+   "bach_bwv790_sinfonia4",
+   "bach_bwv791_sinfonia5",
+   "bach_bwv792_sinfonia6",
+   "bach_bwv793_sinfonia7",
+   "bach_bwv794_sinfonia8",
+   "bach_bwv795_sinfonia9",
+   "bach_bwv796_sinfonia10",
+   "bach_bwv797_sinfonia11",
+   "bach_bwv798_sinfonia12",
+   "bach_bwv799_sinfonia13",
+   "bach_bwv800_sinfonia14",
+   "bach_bwv801_sinfonia15",
+   "bach_bwv803_duetto2",
+   "bach_bwv804_duetto3",
+   "bach_bwv805_duetto4",
+   "bach_bwv806_bourree1",
+   "bach_bwv806_bourree2",
+   "bach_bwv807_bourree1",
+   "bach_bwv807_bourree2",
+   "bach_bwv807_gigue",
+   "bach_bwv816_french_suite5",
+   "bach_bwv825_partita1",
+   "bach_bwv826_partita2_sinfonia",
+   "bach_bwv827_partita3",
+   "bach_bwv829_partita5",
+   "bach_bwv830_partita6",
+   "bach_bwv846_fugue",
+   "bach_bwv847_prelude",
+   "bach_bwv848_prelude",
+   "bach_bwv848_fugue",
+   "bach_bwv849_prelude",
+   "bach_bwv849_fugue",
+   "bach_bwv850_prelude",
+   "bach_bwv851_prelude",
+   "bach_bwv851_fugue",
+   "bach_bwv853_prelude",
+   "bach_bwv853_fugue",
+   "bach_bwv854_prelude",
+   "bach_bwv855_prelude",
+   "bach_bwv855_fugue",
+   "bach_bwv856_prelude",
+   "bach_bwv856_fugue",
+   "bach_bwv860_prelude",
+   "bach_bwv860_fugue",
+   "bach_bwv861_prelude",
+   "bach_bwv861_fugue",
+   "bach_bwv862_prelude",
+   "bach_bwv862_fugue",
+   "bach_bwv865_prelude",
+   "bach_bwv865_fugue",
+   "bach_bwv869_fugue",
+   "bach_bwv870_prelude",
+   "bach_bwv870_fugue",
+   "bach_bwv871_prelude",
+   "bach_bwv871_fugue",
+   "bach_bwv875_prelude",
+   "bach_bwv895_prelude_fugue",
+   "bach_bwv903_chromatic_fantasia",
+   "bach_bwv903_fugue",
+   "bach_bwv910_toccata",
+   "bach_bwv926_little_prelude",
+   "bach_bwv928_little_prelude",
+   "bach_bwv996_bourree",
+   "bach_bwv997_prelude",
+   "bach_bwv997_fugue",
+   "bach_bwv997_sarabande",
+   "bach_bwv997_gigue",
+   "bach_bwv999_prelude",
+   "bach_bwv1002_violin_partita1",
+   "bach_bwv1009_prelude",
+   "bach_bwv1009_bourree",
+   "bach_bwv1009_gigue",
+   "bach_bwv1010_prelude",
+   "bach_bwv1010_bourree",
+   "bach_bwv1011_prelude",
+   "bach_bwv1011_sarabande",
+   "bach_bwv1011_gigue",
+   "bach_bwv1013_flute_partita",
+   "bach_bwv1017_siciliano",
+   "bach_bwv1030_flute_sonata",
+   "bach_bwv1031_siciliano",
+   "bach_bwv1042_1_allegro",
+   "bach_bwv1042_2_adagio",
+   "bach_bwv1042_3_allegro_assai",
+   "bach_bwv1043_1_vivace",
+   "bach_bwv1043_2_largo",
+   "bach_bwv1043_3_allegro",
+   "bach_bwv1046_brandenburg1_1_allegro",
+   "bach_bwv1046_brandenburg1_2_adagio",
+   "bach_bwv1047_brandenburg2_1_allegro",
+   "bach_bwv1047_brandenburg2_2_andante",
+   "bach_bwv1047_brandenburg2_3_allegro_assai",
+   "bach_bwv1050_brandenburg5_allegro",
+   "bach_bwv1056r_largo",
+   "bach_bwv1079_ricercar_a3",
+   "bach_bwv1079_ricercar_a6",
+   "bach_bwv1080_contrapunctus1",
+   "bach_bwv1080_contrapunctus2",
+   "bach_bwv1080_contrapunctus3",
+   "bach_bwv1080_contrapunctus4",
+   "bach_bwv1080_contrapunctus5",
+   "bach_bwv1080_contrapunctus6",
+   "bach_bwv1080_contrapunctus7",
+   "bach_bwv1080_contrapunctus8",
+   "bach_bwv1080_contrapunctus9",
+   "bach_bwv1080_contrapunctus10",
+   "bach_bwv1080_contrapunctus11",
+   "bach_bwv1080_canon_octave",
+   "bach_bwv1080_canon_twelfth",
+   "bach_bwv1080_canon_tenth",
+   "bach_bwv1080_canon_augmentation",
+   "bach_bwv1080_contrapunctus12",
+   "bach_bwv1080_contrapunctus13",
+   "bach_bwv1080_fuga_2_clav",
+   "bach_bwv1080_contrapunctus14"
+  ],
+  "wikidata": "Q1339",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Johann_Sebastian_Bach.png/330px-Johann_Sebastian_Bach.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.png",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "ludwig-van-beethoven",
+  "name": "Ludwig van Beethoven",
+  "short_name": "Beethoven",
+  "sort_name": "Beethoven, Ludwig van",
+  "birth_year": 1770,
+  "death_year": 1827,
+  "era": "Classical / early Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 5,
+  "score_count": 2,
+  "recording_count": 5,
+  "piece_ids": [
+   "beethoven_op27_2_moonlight1",
+   "beethoven_op27_2_moonlight3",
+   "beethoven_op67_symphony5",
+   "beethoven_op84_egmont",
+   "beethoven_woo59_fur_elise"
+  ],
+  "wikidata": "Q255",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/330px-Beethoven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "hector-berlioz",
+  "name": "Hector Berlioz",
+  "short_name": "Berlioz",
+  "sort_name": "Berlioz, Hector",
+  "birth_year": 1803,
+  "death_year": 1869,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "berlioz_fantastique_witches_sabbath"
+  ],
+  "wikidata": "Q1151",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Berlioz_Petit_BNF_Gallica-crop.jpg/330px-Berlioz_Petit_BNF_Gallica-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Berlioz_Petit_BNF_Gallica-crop.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "georges-bizet",
+  "name": "Georges Bizet",
+  "short_name": "Bizet",
+  "sort_name": "Bizet, Georges",
+  "birth_year": 1838,
+  "death_year": 1875,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 1,
+  "piece_ids": [
+   "bizet_carmen_toreador"
+  ],
+  "wikidata": "Q56158",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Georges_bizet.jpg/330px-Georges_bizet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Georges_bizet.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "alexander-borodin",
+  "name": "Alexander Borodin",
+  "short_name": "Borodin",
+  "sort_name": "Borodin, Alexander",
+  "birth_year": 1833,
+  "death_year": 1887,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "borodin_quartet2_nocturne",
+   "borodin_steppes"
+  ],
+  "wikidata": "Q164004",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Borodin.jpg/330px-Borodin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Borodin.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "johannes-brahms",
+  "name": "Johannes Brahms",
+  "short_name": "Brahms",
+  "sort_name": "Brahms, Johannes",
+  "birth_year": 1833,
+  "death_year": 1897,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "brahms_hungarian_dance_5"
+  ],
+  "wikidata": "Q7294",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JohannesBrahms.jpg/330px-JohannesBrahms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:JohannesBrahms.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "anton-bruckner",
+  "name": "Anton Bruckner",
+  "short_name": "Bruckner",
+  "sort_name": "Bruckner, Anton",
+  "birth_year": 1824,
+  "death_year": 1896,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "bruckner_wab129_perger"
+  ],
+  "wikidata": "Q81752",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Joseph_Anton_Bruckner_%281868%29.jpg/330px-Joseph_Anton_Bruckner_%281868%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Joseph_Anton_Bruckner_(1868).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "dieterich-buxtehude",
+  "name": "Dieterich Buxtehude",
+  "short_name": "Buxtehude",
+  "sort_name": "Buxtehude, Dieterich",
+  "birth_year": 1637,
+  "death_year": 1707,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 13,
+  "score_count": 13,
+  "recording_count": 0,
+  "piece_ids": [
+   "buxtehude_buxwv155_toccata",
+   "buxtehude_buxwv185_erhalt_uns",
+   "buxtehude_buxwv208_nun_bitten",
+   "buxtehude_buxwv209_nun_bitten",
+   "buxtehude_buxwv69_laudate",
+   "buxtehude_buxwv4_alles",
+   "buxtehude_buxwv75_ad_pedes",
+   "buxtehude_buxwv75_ad_genua",
+   "buxtehude_buxwv75_ad_manus",
+   "buxtehude_buxwv75_ad_latus",
+   "buxtehude_buxwv75_ad_pectus",
+   "buxtehude_buxwv75_ad_cor",
+   "buxtehude_buxwv75_ad_faciem"
+  ],
+  "wikidata": "Q153637",
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "frederic-chopin",
+  "name": "Frédéric Chopin",
+  "short_name": "Chopin",
+  "sort_name": "Chopin, Frédéric",
+  "birth_year": 1810,
+  "death_year": 1849,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 2,
+  "recording_count": 3,
+  "piece_ids": [
+   "chopin_op10_12_revolutionary",
+   "chopin_op28_15_raindrop",
+   "chopin_op9_2_nocturne"
+  ],
+  "wikidata": "Q1268",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Chopin%2C_by_Wodzinska.JPG/330px-Chopin%2C_by_Wodzinska.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Chopin,_by_Wodzinska.JPG",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "francois-couperin",
+  "name": "François Couperin",
+  "short_name": "Couperin",
+  "sort_name": "Couperin, François",
+  "birth_year": 1668,
+  "death_year": 1733,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 15,
+  "score_count": 15,
+  "recording_count": 0,
+  "piece_ids": [
+   "couperin_art_allemande",
+   "couperin_art_prelude_1",
+   "couperin_art_prelude_2",
+   "couperin_art_prelude_3",
+   "couperin_art_prelude_4",
+   "couperin_art_prelude_5",
+   "couperin_art_prelude_6",
+   "couperin_art_prelude_7",
+   "couperin_art_prelude_8",
+   "couperin_aspiratio",
+   "couperin_dialogus",
+   "couperin_precatio",
+   "couperin_salve_regina",
+   "couperin_salvum_me_fac",
+   "couperin_usquequo"
+  ],
+  "wikidata": "Q50186",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Fran%C3%A7ois_Couperin.jpg/330px-Fran%C3%A7ois_Couperin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "claude-debussy",
+  "name": "Claude Debussy",
+  "short_name": "Debussy",
+  "sort_name": "Debussy, Claude",
+  "birth_year": 1862,
+  "death_year": 1918,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 2,
+  "recording_count": 1,
+  "piece_ids": [
+   "debussy_arabesque_1",
+   "debussy_clair_de_lune",
+   "debussy_danse_sacree"
+  ],
+  "wikidata": "Q4700",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Claude_Debussy_by_Atelier_Nadar.jpg/330px-Claude_Debussy_by_Atelier_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "antonin-dvorak",
+  "name": "Antonín Dvořák",
+  "short_name": "Dvořák",
+  "sort_name": "Dvořák, Antonín",
+  "birth_year": 1841,
+  "death_year": 1904,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 2,
+  "piece_ids": [
+   "dvorak_new_world_finale",
+   "dvorak_new_world_largo"
+  ],
+  "wikidata": "Q7298",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Dvorak.jpg/330px-Dvorak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Dvorak.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "edward-elgar",
+  "name": "Edward Elgar",
+  "short_name": "Elgar",
+  "sort_name": "Elgar, Edward",
+  "birth_year": 1857,
+  "death_year": 1934,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "elgar_pomp_circumstance_1"
+  ],
+  "wikidata": "Q179631",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Edward_Elgar_1857_-_1934.jpg/330px-Edward_Elgar_1857_-_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_1857_-_1934.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "gabriel-faure",
+  "name": "Gabriel Fauré",
+  "short_name": "Fauré",
+  "sort_name": "Fauré, Gabriel",
+  "birth_year": 1845,
+  "death_year": 1924,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 3,
+  "recording_count": 0,
+  "piece_ids": [
+   "faure_apres_un_reve",
+   "faure_pavane",
+   "faure_sicilienne"
+  ],
+  "wikidata": "Q104919",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Faur%C3%A9Pirou1905.jpg/330px-Faur%C3%A9Pirou1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9Pirou1905.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "cesar-franck",
+  "name": "César Franck",
+  "short_name": "Franck",
+  "sort_name": "Franck, César",
+  "birth_year": 1822,
+  "death_year": 1890,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "franck_fwv30_prelude",
+   "franck_fwv62_ave_maria"
+  ],
+  "wikidata": "Q50187",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/C%C3%A9sar_Franck_by_Pierre_Petit.jpg/330px-C%C3%A9sar_Franck_by_Pierre_Petit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:C%C3%A9sar_Franck_by_Pierre_Petit.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "carlo-gesualdo",
+  "name": "Carlo Gesualdo",
+  "short_name": "Gesualdo",
+  "sort_name": "Gesualdo, Carlo",
+  "birth_year": 1566,
+  "death_year": 1613,
+  "era": "Renaissance",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "gesualdo_dolcissima"
+  ],
+  "wikidata": "Q192958",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Gesualdo3.jpg/330px-Gesualdo3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Gesualdo3.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "edvard-grieg",
+  "name": "Edvard Grieg",
+  "short_name": "Grieg",
+  "sort_name": "Grieg, Edvard",
+  "birth_year": 1843,
+  "death_year": 1907,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 1,
+  "recording_count": 2,
+  "piece_ids": [
+   "grieg_peer_gynt_morning_mood",
+   "grieg_peer_gynt_mountain_king"
+  ],
+  "wikidata": "Q80621",
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "george-frideric-handel",
+  "name": "George Frideric Handel",
+  "short_name": "Handel",
+  "sort_name": "Handel, George Frideric",
+  "birth_year": 1685,
+  "death_year": 1759,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 1,
+  "recording_count": 1,
+  "piece_ids": [
+   "handel_hwv349_hornpipe",
+   "handel_hwv56_hallelujah"
+  ],
+  "wikidata": "Q7302",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/330px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "gustav-holst",
+  "name": "Gustav Holst",
+  "short_name": "Holst",
+  "sort_name": "Holst, Gustav",
+  "birth_year": 1874,
+  "death_year": 1934,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "holst_planets_jupiter",
+   "holst_planets_mars"
+  ],
+  "wikidata": "Q200867",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Gustav_Holst.jpg/330px-Gustav_Holst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Gustav_Holst.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "franz-liszt",
+  "name": "Franz Liszt",
+  "short_name": "Liszt",
+  "sort_name": "Liszt, Franz",
+  "birth_year": 1811,
+  "death_year": 1886,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 0,
+  "recording_count": 3,
+  "piece_ids": [
+   "liszt_hungarian_rhapsody_2",
+   "liszt_la_campanella",
+   "liszt_liebestraum_3"
+  ],
+  "wikidata": "Q41309",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/FLisztFXD.jpg/330px-FLisztFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:FLisztFXD.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "gustav-mahler",
+  "name": "Gustav Mahler",
+  "short_name": "Mahler",
+  "sort_name": "Mahler, Gustav",
+  "birth_year": 1860,
+  "death_year": 1911,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 11,
+  "score_count": 10,
+  "recording_count": 1,
+  "piece_ids": [
+   "mahler_adagietto",
+   "mahler_gmw29_rheinlegendchen",
+   "mahler_gmw45_kindertotenlieder1",
+   "mahler_gmw45_kindertotenlieder2",
+   "mahler_gmw45_kindertotenlieder3",
+   "mahler_gmw45_kindertotenlieder4",
+   "mahler_gmw45_kindertotenlieder5",
+   "mahler_gmw10_gesellen1",
+   "mahler_gmw10_gesellen2",
+   "mahler_gmw10_gesellen3",
+   "mahler_gmw10_gesellen4"
+  ],
+  "wikidata": "Q7304",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gustav-Mahler-Kohut.jpg/330px-Gustav-Mahler-Kohut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Gustav-Mahler-Kohut.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "felix-mendelssohn",
+  "name": "Felix Mendelssohn",
+  "short_name": "Mendelssohn",
+  "sort_name": "Mendelssohn, Felix",
+  "birth_year": 1809,
+  "death_year": 1847,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "mendelssohn_op26_hebrides"
+  ],
+  "wikidata": "Q46096",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_%281833%29.jpg/330px-Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_%281833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "wolfgang-amadeus-mozart",
+  "name": "Wolfgang Amadeus Mozart",
+  "short_name": "Mozart",
+  "sort_name": "Mozart, Wolfgang Amadeus",
+  "birth_year": 1756,
+  "death_year": 1791,
+  "era": "Classical",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 2,
+  "recording_count": 2,
+  "piece_ids": [
+   "mozart_k331_rondo_turca",
+   "mozart_k525_nachtmusik",
+   "mozart_k550_symphony40"
+  ],
+  "wikidata": "Q254",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/330px-Wolfgang-amadeus-mozart_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Wolfgang-amadeus-mozart_1.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "modest-mussorgsky",
+  "name": "Modest Mussorgsky",
+  "short_name": "Mussorgsky",
+  "sort_name": "Mussorgsky, Modest",
+  "birth_year": 1839,
+  "death_year": 1881,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 4,
+  "score_count": 4,
+  "recording_count": 4,
+  "piece_ids": [
+   "mussorgsky_night_on_bald_mountain",
+   "mussorgsky_pictures_baba_yaga",
+   "mussorgsky_pictures_great_gate_kiev",
+   "mussorgsky_pictures_promenade"
+  ],
+  "wikidata": "Q132682",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg/330px-Modest_Musorgskiy_1876_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Modest_Musorgskiy_1876_(cropped).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "jacques-offenbach",
+  "name": "Jacques Offenbach",
+  "short_name": "Offenbach",
+  "sort_name": "Offenbach, Jacques",
+  "birth_year": 1819,
+  "death_year": 1880,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "offenbach_orpheus_cancan"
+  ],
+  "wikidata": "Q41555",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jacques_Offenbach_by_F%C3%A9lix_Nadar_%28restored%29.jpg/330px-Jacques_Offenbach_by_F%C3%A9lix_Nadar_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Jacques_Offenbach_by_F%C3%A9lix_Nadar_(restored).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "johann-pachelbel",
+  "name": "Johann Pachelbel",
+  "short_name": "Pachelbel",
+  "sort_name": "Pachelbel, Johann",
+  "birth_year": 1653,
+  "death_year": 1706,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "pachelbel_canon_d"
+  ],
+  "wikidata": "Q76485",
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "christian-petzold",
+  "name": "Christian Petzold",
+  "short_name": "Petzold",
+  "sort_name": "Petzold, Christian",
+  "birth_year": 1677,
+  "death_year": 1733,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "petzold_bwv_anh114_minuet_g",
+   "petzold_bwv_anh115_minuet_g_minor"
+  ],
+  "wikidata": "Q537804",
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "sergei-rachmaninoff",
+  "name": "Sergei Rachmaninoff",
+  "short_name": "Rachmaninoff",
+  "sort_name": "Rachmaninoff, Sergei",
+  "birth_year": 1873,
+  "death_year": 1943,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "rachmaninoff_piano_concerto_2",
+   "rachmaninoff_prelude_op3_no2"
+  ],
+  "wikidata": "Q131861",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Sergei_Rachmaninoff%2C_pianist_%28SAYRE_1608%29_%28restored%29.jpg/330px-Sergei_Rachmaninoff%2C_pianist_%28SAYRE_1608%29_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff,_pianist_(SAYRE_1608)_(restored).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "jean-philippe-rameau",
+  "name": "Jean-Philippe Rameau",
+  "short_name": "Rameau",
+  "sort_name": "Rameau, Jean-Philippe",
+  "birth_year": 1683,
+  "death_year": 1764,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 9,
+  "score_count": 9,
+  "recording_count": 0,
+  "piece_ids": [
+   "rameau_tendres_plaintes",
+   "rameau_sauvages",
+   "rameau_tambourin",
+   "rameau_rct43_ouverture_1",
+   "rameau_rct43_ouverture_2",
+   "rameau_rct43_marche",
+   "rameau_rct43_tonnerre",
+   "rameau_rct43_rossignols",
+   "rameau_rct43_chaconne"
+  ],
+  "wikidata": "Q1145",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg/330px-Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Attribu%C3%A9_%C3%A0_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "maurice-ravel",
+  "name": "Maurice Ravel",
+  "short_name": "Ravel",
+  "sort_name": "Ravel, Maurice",
+  "birth_year": 1875,
+  "death_year": 1937,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "ravel_pavane"
+  ],
+  "wikidata": "Q1178",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Maurice_Ravel_1925.jpg/330px-Maurice_Ravel_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_1925.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "max-reger",
+  "name": "Max Reger",
+  "short_name": "Reger",
+  "sort_name": "Reger, Max",
+  "birth_year": 1873,
+  "death_year": 1916,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 13,
+  "score_count": 13,
+  "recording_count": 0,
+  "piece_ids": [
+   "reger_op42_1_i",
+   "reger_op42_1_ii",
+   "reger_op42_1_iii",
+   "reger_op42_2_i",
+   "reger_op42_2_ii",
+   "reger_op42_2_iii",
+   "reger_op42_3_i",
+   "reger_op42_3_ii",
+   "reger_op42_3_iii",
+   "reger_op42_3_iv",
+   "reger_op135a_10_grosser_gott",
+   "reger_op138_3_nachtlied",
+   "reger_untrene"
+  ],
+  "wikidata": "Q57139",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Reger.jpg/330px-Reger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Reger.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "nikolai-rimsky-korsakov",
+  "name": "Nikolai Rimsky-Korsakov",
+  "short_name": "Rimsky-Korsakov",
+  "sort_name": "Rimsky-Korsakov, Nikolai",
+  "birth_year": 1844,
+  "death_year": 1908,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "rimskykorsakov_flight_of_the_bumblebee",
+   "rimskykorsakov_scheherazade_sea"
+  ],
+  "wikidata": "Q93227",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nikolai_A._Rimsky-Korsakov.jpg/330px-Nikolai_A._Rimsky-Korsakov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Nikolai_A._Rimsky-Korsakov.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "camille-saint-saens",
+  "name": "Camille Saint-Saëns",
+  "short_name": "Saint-Saëns",
+  "sort_name": "Saint-Saëns, Camille",
+  "birth_year": 1835,
+  "death_year": 1921,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 3,
+  "score_count": 0,
+  "recording_count": 3,
+  "piece_ids": [
+   "saintsaens_carnival_aquarium",
+   "saintsaens_danse_macabre",
+   "saintsaens_samson_bacchanale"
+  ],
+  "wikidata": "Q150445",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Camille_Saint-Saens_b_Meurisse_1921.jpg/330px-Camille_Saint-Saens_b_Meurisse_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Camille_Saint-Saens_b_Meurisse_1921.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "erik-satie",
+  "name": "Erik Satie",
+  "short_name": "Satie",
+  "sort_name": "Satie, Erik",
+  "birth_year": 1866,
+  "death_year": 1925,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 1,
+  "piece_ids": [
+   "satie_gnossienne_1",
+   "satie_gymnopedie_1"
+  ],
+  "wikidata": "Q187192",
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "franz-schubert",
+  "name": "Franz Schubert",
+  "short_name": "Schubert",
+  "sort_name": "Schubert, Franz",
+  "birth_year": 1797,
+  "death_year": 1828,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 1,
+  "piece_ids": [
+   "schubert_d328_erlkonig"
+  ],
+  "wikidata": "Q7312",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png/330px-Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "robert-schumann",
+  "name": "Robert Schumann",
+  "short_name": "Schumann",
+  "sort_name": "Schumann, Robert",
+  "birth_year": 1810,
+  "death_year": 1856,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 1,
+  "piece_ids": [
+   "schumann_op15_7_traumerei"
+  ],
+  "wikidata": "Q7351",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Robert-schumann.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "alexander-scriabin",
+  "name": "Alexander Scriabin",
+  "short_name": "Scriabin",
+  "sort_name": "Scriabin, Alexander",
+  "birth_year": 1872,
+  "death_year": 1915,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 8,
+  "score_count": 8,
+  "recording_count": 0,
+  "piece_ids": [
+   "scriabin_op2_1_etude",
+   "scriabin_op11_1_prelude",
+   "scriabin_op16_1_prelude",
+   "scriabin_op16_2_prelude",
+   "scriabin_op16_3_prelude",
+   "scriabin_op16_4_prelude",
+   "scriabin_op16_5_prelude",
+   "scriabin_op59_2_prelude"
+  ],
+  "wikidata": "Q185647",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Skrjabin_Alexander.jpg/330px-Skrjabin_Alexander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Skrjabin_Alexander.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "bedrich-smetana",
+  "name": "Bedřich Smetana",
+  "short_name": "Smetana",
+  "sort_name": "Smetana, Bedřich",
+  "birth_year": 1824,
+  "death_year": 1884,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "smetana_vltava"
+  ],
+  "wikidata": "Q48173",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/FriedrichSmetana.jpg/330px-FriedrichSmetana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:FriedrichSmetana.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "johann-strauss-i",
+  "name": "Johann Strauss I",
+  "short_name": "Strauss I",
+  "sort_name": "Strauss I, Johann",
+  "birth_year": 1804,
+  "death_year": 1849,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "strauss1_radetzky"
+  ],
+  "wikidata": "Q184178",
+  "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Johann_Strauss_I_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Johann_Strauss_I_(1).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "johann-strauss-ii",
+  "name": "Johann Strauss II",
+  "short_name": "Strauss II",
+  "sort_name": "Strauss II, Johann",
+  "birth_year": 1825,
+  "death_year": 1899,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 1,
+  "piece_ids": [
+   "strauss2_blue_danube"
+  ],
+  "wikidata": "Q83309",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Johann_Strauss_II_%283%29.jpg/330px-Johann_Strauss_II_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Johann_Strauss_II_(3).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "richard-strauss",
+  "name": "Richard Strauss",
+  "short_name": "Strauss",
+  "sort_name": "Strauss, Richard",
+  "birth_year": 1864,
+  "death_year": 1949,
+  "era": "Late Romantic / early 20th",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "rstrauss_zarathustra_sunrise"
+  ],
+  "wikidata": "Q13894",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Postcard-1910_Strauss_Richard.jpg/330px-Postcard-1910_Strauss_Richard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Postcard-1910_Strauss_Richard.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "franz-von-suppe",
+  "name": "Franz von Suppé",
+  "short_name": "Suppé",
+  "sort_name": "Suppé, Franz von",
+  "birth_year": 1819,
+  "death_year": 1895,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 1,
+  "score_count": 0,
+  "recording_count": 1,
+  "piece_ids": [
+   "suppe_light_cavalry"
+  ],
+  "wikidata": "Q310431",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Franz_von_Supp%C3%A9_by_Fritz_Luckhardt.jpg/330px-Franz_von_Supp%C3%A9_by_Fritz_Luckhardt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Franz_von_Supp%C3%A9_by_Fritz_Luckhardt.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "pyotr-ilyich-tchaikovsky",
+  "name": "Pyotr Ilyich Tchaikovsky",
+  "short_name": "Tchaikovsky",
+  "sort_name": "Tchaikovsky, Pyotr Ilyich",
+  "birth_year": 1840,
+  "death_year": 1893,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 5,
+  "score_count": 0,
+  "recording_count": 5,
+  "piece_ids": [
+   "tchaikovsky_1812_overture",
+   "tchaikovsky_nutcracker_waltz_of_flowers",
+   "tchaikovsky_piano_concerto_1",
+   "tchaikovsky_romeo_and_juliet",
+   "tchaikovsky_swan_lake_act2_scene"
+  ],
+  "wikidata": "Q7315",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_%281840-1893%29.jpg/330px-Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_%281840-1893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "giuseppe-verdi",
+  "name": "Giuseppe Verdi",
+  "short_name": "Verdi",
+  "sort_name": "Verdi, Giuseppe",
+  "birth_year": 1813,
+  "death_year": 1901,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "verdi_aida_triumphal_march",
+   "verdi_requiem_dies_irae"
+  ],
+  "wikidata": "Q7317",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Giuseppe_Verdi_xilografia.jpg/330px-Giuseppe_Verdi_xilografia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_xilografia.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "antonio-vivaldi",
+  "name": "Antonio Vivaldi",
+  "short_name": "Vivaldi",
+  "sort_name": "Vivaldi, Antonio",
+  "birth_year": 1678,
+  "death_year": 1741,
+  "era": "Baroque",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 2,
+  "score_count": 0,
+  "recording_count": 2,
+  "piece_ids": [
+   "vivaldi_rv269_spring",
+   "vivaldi_rv315_summer_storm"
+  ],
+  "wikidata": "Q1340",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg/330px-Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ },
+ {
+  "slug": "richard-wagner",
+  "name": "Richard Wagner",
+  "short_name": "Wagner",
+  "sort_name": "Wagner, Richard",
+  "birth_year": 1813,
+  "death_year": 1883,
+  "era": "Romantic",
+  "genres": [
+   "classical"
+  ],
+  "piece_count": 16,
+  "score_count": 13,
+  "recording_count": 3,
+  "piece_ids": [
+   "wagner_lohengrin_bridal_chorus",
+   "wagner_tristan_prelude",
+   "wagner_walkure_ride_of_the_valkyries",
+   "wagner_wwv91_wesendonck1_der_engel",
+   "wagner_wwv91_wesendonck2_stehe_still",
+   "wagner_wwv91_wesendonck3_im_treibhaus",
+   "wagner_wwv91_wesendonck4_schmerzen",
+   "wagner_wwv91_wesendonck5_traume",
+   "wagner_wwv75_elsa_procession",
+   "wagner_wwv86d_gotterdammerung_act3_prelude",
+   "wagner_wwv111_parsifal_prelude",
+   "wagner_wwv111_parsifal_good_friday",
+   "wagner_wwv96_meistersinger_prelude",
+   "wagner_wwv86d_siegfried_funeral_march",
+   "wagner_wwv90_tristan_liebestod",
+   "wagner_wwv70_tannhauser_overture"
+  ],
+  "wikidata": "Q1511",
+  "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/330px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "portrait_licence": "Public domain",
+  "portrait_source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
+  "portrait_note": "Wikimedia Commons file tagged Public domain; verified via Commons extmetadata"
+ }
+]

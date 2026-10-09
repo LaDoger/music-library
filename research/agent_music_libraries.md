@@ -226,3 +226,15 @@ Agent surfaces: https://github.com/deer/music.build , https://github.com/tskovlu
 - U.S. federal recordings are public domain in the United States. Composition copyright, and copyright in other countries, is a separate test.
 - open-lofi’s CC0 dedication may conflict with Suno’s terms. Not verified.
 - MCP servers appear often. The registry survey is a snapshot on 2026-10-09, not a guarantee that a catalogue server will not be published next week.
+
+## Cross-check errata (Codex)
+
+Cross-checked 2026-10-09. Full evidence and revised recommendations: [CROSSCHECK_codex.md](CROSSCHECK_codex.md).
+
+- **Narrow the novelty claim.** [Keynata Commons](https://carf-coder.github.io/keynata-commons/release/index.json) is a working CC0-declared MIDI/MP3/JSON library: 203 tracks, seven categories, per-track metadata. Codex scores it **4**, with generated-music, quality and provenance limitations. “Nothing above 3” is incorrect. Recognisable repertoire with independently documented score/recording rights remains a plausible differentiation.
+- **OpenScore Orchestra is downloadable now** in [Hauptstimme](https://github.com/MarkGotham/Hauptstimme): CC0 scores, CC BY-SA annotations, MIT code. Also add MusicNet, Open Goldberg/OpenWTC and OpenGameArt MIDI/audio packs as substantial partial matches.
+- **PDMX counts are confirmed**, but [Zenodo v9](https://zenodo.org/records/15571083) licenses the dataset CC BY 4.0, separately from source-score CC0/PDM labels. The conflict filter does not establish clearance. Prefer curated OpenScore/Mutopia editions before bulk expansion.
+- **Incompetech endpoints are confirmed live.** [pieces.json](https://incompetech.com/music/royalty-free/pieces.json) has 1,443 rows and 41 sheet-music entries (PDF or PDF ZIP); it exposes no editable-score links or `uuid`/`wav` keys. The author's bulk-pack announcement also mentions MIDI, so “no scores” is too broad. [FreePD](https://freepd.com/) explicitly reports permanent closure.
+- **Counts:** ASAP's current repository says **1,068 performances**; its NC licence is correctly reported. Aria-MIDI has **1,186,253 files / approximately 100,629 hours**, not 1.18M hours. MuseTrainer's “clean” characterisation is unsupported by per-file rights evidence.
+- **Catalogue MCP already exists:** [Epidemic's official MCP](https://developers.epidemicsound.com/docs/mcp/) searches and downloads its proprietary catalogue. It still lacks PD/CC terms and editable scores. The listed community repositories resolved; some secondary HTTP links remained unconfirmed.
+- **Reuse qualifications:** Jamendo requires per-track CC checks, not a universal paid-licence assumption. Freesound commercial API restrictions are confirmed; logged-in downloads do not establish permission for a commercial ingestion workaround. Pixabay prohibits standalone redistribution, so its current Content Licence tracks do not belong in a redistributable PD/CC shelf.

@@ -1,0 +1,58 @@
+{
+ "bach_bwv565_toccata": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/bach_bwv565_toccata_synth.mp3",
+  "duration": 300.04,
+  "bytes": 5823008,
+  "midi": "files/scores/bach_bwv565_toccata.mid",
+  "capped": true,
+  "soundfont": "FluidR3_GM"
+ },
+ "beethoven_op67_symphony5": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/beethoven_op67_symphony5_synth.mp3",
+  "duration": 300.04,
+  "bytes": 7145371,
+  "midi": "files/scores/beethoven_op67_symphony5.mid",
+  "capped": true,
+  "soundfont": "FluidR3_GM"
+ },
+ "chopin_op10_12_revolutionary": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/chopin_op10_12_revolutionary_synth.mp3",
+  "duration": 128.18,
+  "bytes": 3008373,
+  "midi": "files/scores/chopin_op10_12_revolutionary.mid",
+  "capped": false,
+  "soundfont": "FluidR3_GM"
+ },
+ "dvorak_new_world_finale": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/dvorak_new_world_finale_synth.mp3",
+  "duration": 300.04,
+  "bytes": 7067598,
+  "midi": "files/midi_play/dvorak_new_world_finale.mid",
+  "capped": true,
+  "soundfont": "FluidR3_GM"
+ },
+ "grieg_peer_gynt_mountain_king": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/grieg_peer_gynt_mountain_king_synth.mp3",
+  "duration": 148.17,
+  "bytes": 3536828,
+  "midi": "files/scores/grieg_peer_gynt_mountain_king.mid",
+  "capped": false,
+  "soundfont": "FluidR3_GM"
+ },
+ "mussorgsky_night_on_bald_mountain": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/mussorgsky_night_on_bald_mountain_synth.mp3",
+  "duration": 300.04,
+  "bytes": 7365925,
+  "midi": "files/scores/mussorgsky_night_on_bald_mountain.mid",
+  "capped": true,
+  "soundfont": "FluidR3_GM"
+ },
+ "mussorgsky_pictures_great_gate_kiev": {
+  "url": "https://github.com/LaDoger/music-library/releases/download/synth-v1/mussorgsky_pictures_great_gate_kiev_synth.mp3",
+  "duration": 300.04,
+  "bytes": 6685775,
+  "midi": "files/midi_play/mussorgsky_pictures_great_gate_kiev.mid",
+  "capped": true,
+  "soundfont": "FluidR3_GM"
+ }
+}

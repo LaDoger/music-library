@@ -1,0 +1,490 @@
+{
+ "bach_bwv565_toccata": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3",
+  "duration": 463.97,
+  "via": "commons",
+  "local_duration": 463.99
+ },
+ "bach_bwv846_prelude": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg/JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg",
+  "duration": 254.17,
+  "via": "commons",
+  "local_duration": 254.17
+ },
+ "beethoven_op27_2_moonlight1": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg",
+  "duration": 335.77,
+  "via": "commons",
+  "local_duration": 335.77
+ },
+ "beethoven_op27_2_moonlight3": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Moonlight_Sonata_Presto.ogg/Moonlight_Sonata_Presto.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Moonlight_Sonata_Presto.ogg",
+  "duration": 493.71,
+  "via": "commons",
+  "local_duration": 493.71
+ },
+ "beethoven_op67_symphony5": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg",
+  "duration": 500.09,
+  "via": "commons",
+  "local_duration": 500.09
+ },
+ "beethoven_op84_egmont": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Beethoven_EgmontOvertureOp.84/LudwigVanBeethoven-EgmontOvertureOp.84.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Beethoven_EgmontOvertureOp.84/LudwigVanBeethoven-EgmontOvertureOp.84.flac",
+  "duration": 540.0,
+  "via": "archive.org",
+  "local_duration": 540.9
+ },
+ "beethoven_woo59_fur_elise": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/FurElise.ogg",
+  "duration": 176.59,
+  "via": "commons",
+  "local_duration": 176.59
+ },
+ "berlioz_fantastique_witches_sabbath": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/A_Dream_of_a_Witches%27_Sabbath_-_transcribed_by_Lt._Col._Jack_T._Cline_-_U.S._Marine_Band.ogg/A_Dream_of_a_Witches%27_Sabbath_-_transcribed_by_Lt._Col._Jack_T._Cline_-_U.S._Marine_Band.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/A_Dream_of_a_Witches%27_Sabbath_-_transcribed_by_Lt._Col._Jack_T._Cline_-_U.S._Marine_Band.ogg",
+  "duration": 543.97,
+  "via": "commons",
+  "local_duration": 543.97
+ },
+ "bizet_carmen_toreador": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Bizet_-_Carmen_-_Toreador_Song_%28French%2C_Musopen%29.ogg/Bizet_-_Carmen_-_Toreador_Song_%28French%2C_Musopen%29.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Bizet_-_Carmen_-_Toreador_Song_%28French%2C_Musopen%29.ogg",
+  "duration": 270.59,
+  "via": "commons",
+  "local_duration": 270.59
+ },
+ "borodin_quartet2_nocturne": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Borodin_StringQuartetNo.2inDMajor/AlexanderBorodin-StringQuartetNo.2InDMajor-03-NocturneAndante.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Borodin_StringQuartetNo.2inDMajor/AlexanderBorodin-StringQuartetNo.2InDMajor-03-NocturneAndante.flac",
+  "duration": 547.0,
+  "via": "archive.org",
+  "local_duration": 547.36
+ },
+ "borodin_steppes": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Borodin_InTheSteppesOfCentralAsia/AlexanderBorodin-InTheSteppesOfCentralAsia.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Borodin_InTheSteppesOfCentralAsia/AlexanderBorodin-InTheSteppesOfCentralAsia.flac",
+  "duration": 458.0,
+  "via": "archive.org",
+  "local_duration": 458.24
+ },
+ "brahms_hungarian_dance_5": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Brahms_nikisch_hd5.ogg/Brahms_nikisch_hd5.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Brahms_nikisch_hd5.ogg",
+  "duration": 174.8,
+  "via": "commons",
+  "local_duration": 174.8
+ },
+ "chopin_op10_12_revolutionary": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac",
+  "duration": 164.79,
+  "via": "commons",
+  "local_duration": 164.79
+ },
+ "chopin_op28_15_raindrop": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Prelude_Op._28_no._15.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Prelude_Op._28_no._15.mp3",
+  "duration": 295.27,
+  "via": "commons",
+  "local_duration": 295.27
+ },
+ "debussy_danse_sacree": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Danse_Sacr%C3%A9e.ogg/Danse_Sacr%C3%A9e.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Danse_Sacr%C3%A9e.ogg",
+  "duration": 290.17,
+  "via": "commons",
+  "local_duration": 290.17
+ },
+ "dvorak_new_world_finale": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg",
+  "duration": 702.89,
+  "via": "commons",
+  "local_duration": 702.89
+ },
+ "dvorak_new_world_largo": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg",
+  "duration": 694.46,
+  "via": "commons",
+  "local_duration": 694.46
+ },
+ "grieg_peer_gynt_morning_mood": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac",
+  "duration": 229.18,
+  "via": "commons",
+  "local_duration": 229.18
+ },
+ "grieg_peer_gynt_mountain_king": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac",
+  "duration": 154.09,
+  "via": "commons",
+  "local_duration": 154.09
+ },
+ "handel_hwv349_hornpipe": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "duration": 228.66,
+  "via": "commons",
+  "local_duration": 228.67
+ },
+ "holst_planets_jupiter": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Gustav_Holst_-_the_planets%2C_op._32_-_iv._jupiter%2C_the_bringer_of_jollity.ogg/Gustav_Holst_-_the_planets%2C_op._32_-_iv._jupiter%2C_the_bringer_of_jollity.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gustav_Holst_-_the_planets%2C_op._32_-_iv._jupiter%2C_the_bringer_of_jollity.ogg",
+  "duration": 508.47,
+  "via": "commons",
+  "local_duration": 508.47
+ },
+ "holst_planets_mars": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Holst%2C_The_Planets%2C_Op._32_-_I._Mars%2C_the_Bringer_of_War.ogg/Holst%2C_The_Planets%2C_Op._32_-_I._Mars%2C_the_Bringer_of_War.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Holst%2C_The_Planets%2C_Op._32_-_I._Mars%2C_the_Bringer_of_War.ogg",
+  "duration": 61.05,
+  "via": "commons",
+  "local_duration": 61.05
+ },
+ "liszt_hungarian_rhapsody_2": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Hungarian_Rhapsody_No_2.ogg/Hungarian_Rhapsody_No_2.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Hungarian_Rhapsody_No_2.ogg",
+  "duration": 545.28,
+  "via": "commons",
+  "local_duration": 545.28
+ },
+ "liszt_la_campanella": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Liszt-La_Campanella-Greiss.ogg/Liszt-La_Campanella-Greiss.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Liszt-La_Campanella-Greiss.ogg",
+  "duration": 372.19,
+  "via": "commons",
+  "local_duration": 372.19
+ },
+ "liszt_liebestraum_3": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac",
+  "duration": 238.25,
+  "via": "commons",
+  "local_duration": 238.25
+ },
+ "mahler_adagietto": {
+  "stream_audio_url": "https://archive.org/download/Mahler_Symphony_5/04.PSO020103-Mahler-5-IV_64kb.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/Mahler_Symphony_5/04.PSO020103-Mahler-5-IV.mp3",
+  "duration": 621.0,
+  "via": "archive.org",
+  "local_duration": 620.37
+ },
+ "mendelssohn_op26_hebrides": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Mendelssohn_Hebrides/FelixMendelssohn-HebridesOvertureFingalsCave.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Mendelssohn_Hebrides/FelixMendelssohn-HebridesOvertureFingalsCave.flac",
+  "duration": 682.0,
+  "via": "archive.org",
+  "local_duration": 682.58
+ },
+ "mozart_k331_rondo_turca": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Mozart-Marsz_turecki-%28Romuald_Greiss%29.ogg/Mozart-Marsz_turecki-%28Romuald_Greiss%29.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mozart-Marsz_turecki-%28Romuald_Greiss%29.ogg",
+  "duration": 180.53,
+  "via": "commons",
+  "local_duration": 181.6
+ },
+ "mozart_k550_symphony40": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Mozart_SymphonyNo.40inGMinor/WolfgangAmadeusMozart-SymphonyNo.40InGMinorK.550-01-MoltoAllegro.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Mozart_SymphonyNo.40inGMinor/WolfgangAmadeusMozart-SymphonyNo.40InGMinorK.550-01-MoltoAllegro.flac",
+  "duration": 358.0,
+  "via": "archive.org",
+  "local_duration": 358.82
+ },
+ "mussorgsky_night_on_bald_mountain": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg/Modest_Mussorgsky_-_night_on_bald_mountain.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg",
+  "duration": 733.2,
+  "via": "commons",
+  "local_duration": 733.2
+ },
+ "mussorgsky_pictures_baba_yaga": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Mussorgsky_Pictures_at_an_Exhibition_Part8.ogg/Mussorgsky_Pictures_at_an_Exhibition_Part8.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mussorgsky_Pictures_at_an_Exhibition_Part8.ogg",
+  "duration": 441.53,
+  "via": "commons",
+  "local_duration": 441.53
+ },
+ "mussorgsky_pictures_great_gate_kiev": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+  "duration": 328.2,
+  "via": "commons",
+  "local_duration": 328.2
+ },
+ "mussorgsky_pictures_promenade": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg",
+  "duration": 100.58,
+  "via": "commons",
+  "local_duration": 100.58
+ },
+ "offenbach_orpheus_cancan": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Offenbach_-_Orpheus_in_the_Underworld_-_Overture%2C_Can_Can_section.ogg/Offenbach_-_Orpheus_in_the_Underworld_-_Overture%2C_Can_Can_section.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/6/63/Offenbach_-_Orpheus_in_the_Underworld_-_Overture%2C_Can_Can_section.ogg",
+  "duration": 106.88,
+  "via": "commons",
+  "local_duration": 106.88
+ },
+ "rachmaninoff_piano_concerto_2": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg",
+  "duration": 654.41,
+  "via": "commons",
+  "local_duration": 654.41
+ },
+ "rachmaninoff_prelude_op3_no2": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg",
+  "duration": 227.91,
+  "via": "commons",
+  "local_duration": 227.91
+ },
+ "ravel_pavane": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Maurice_Ravel_-_Pavane_pour_une_infante_d%C3%A9funte.ogg/Maurice_Ravel_-_Pavane_pour_une_infante_d%C3%A9funte.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Maurice_Ravel_-_Pavane_pour_une_infante_d%C3%A9funte.ogg",
+  "duration": 269.77,
+  "via": "commons",
+  "local_duration": 269.77
+ },
+ "rimskykorsakov_flight_of_the_bumblebee": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flight_of_the_Bumblebee_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flight_of_the_Bumblebee_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+  "duration": 81.62,
+  "via": "commons",
+  "local_duration": 81.62
+ },
+ "rimskykorsakov_scheherazade_sea": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Rimsky-Korsakov_-_Scheherazade_-_1._Largo_e_maestoso_for_Piano_solo.ogg/Rimsky-Korsakov_-_Scheherazade_-_1._Largo_e_maestoso_for_Piano_solo.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Rimsky-Korsakov_-_Scheherazade_-_1._Largo_e_maestoso_for_Piano_solo.ogg",
+  "duration": 537.05,
+  "via": "commons",
+  "local_duration": 537.05
+ },
+ "rstrauss_zarathustra_sunrise": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Also_Sprach_Zarathustra_-_Einleitung.ogg/Also_Sprach_Zarathustra_-_Einleitung.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Also_Sprach_Zarathustra_-_Einleitung.ogg",
+  "duration": 86.06,
+  "via": "commons",
+  "local_duration": 86.06
+ },
+ "saintsaens_carnival_aquarium": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg/Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg",
+  "duration": 148.01,
+  "via": "commons",
+  "local_duration": 148.01
+ },
+ "saintsaens_danse_macabre": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg/PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/7/76/PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg",
+  "duration": 419.08,
+  "via": "commons",
+  "local_duration": 419.08
+ },
+ "saintsaens_samson_bacchanale": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Danse_Bacchanale_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Danse_Bacchanale_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+  "duration": 446.52,
+  "via": "commons",
+  "local_duration": 446.52
+ },
+ "satie_gymnopedie_1": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Gymnopedie_No._1..ogg/Gymnopedie_No._1..ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Gymnopedie_No._1..ogg",
+  "duration": 204.8,
+  "via": "commons",
+  "local_duration": 204.8
+ },
+ "schubert_d328_erlkonig": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Schubert%27s_Erlk%C3%B6nig%2C_D.328_-_Michael_Jackson.ogg/Schubert%27s_Erlk%C3%B6nig%2C_D.328_-_Michael_Jackson.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Schubert%27s_Erlk%C3%B6nig%2C_D.328_-_Michael_Jackson.ogg",
+  "duration": 247.04,
+  "via": "commons",
+  "local_duration": 247.04
+ },
+ "schumann_op15_7_traumerei": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg",
+  "duration": 203.0,
+  "via": "commons",
+  "local_duration": 203.0
+ },
+ "smetana_vltava": {
+  "stream_audio_url": "https://archive.org/download/MusopenCollectionAsFlac/Smetana_Vltava/BedichSmetana-MVlast-Vltava.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://archive.org/download/MusopenCollectionAsFlac/Smetana_Vltava/BedichSmetana-MVlast-Vltava.flac",
+  "duration": 770.0,
+  "via": "archive.org",
+  "local_duration": 770.86
+ },
+ "strauss1_radetzky": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/USMC_Band_-_Radetzky_March.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/USMC_Band_-_Radetzky_March.mp3",
+  "duration": 153.0,
+  "via": "commons",
+  "local_duration": 153.0
+ },
+ "strauss2_blue_danube": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/%22An_der_sch%C3%B6nen%2C_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac/%22An_der_sch%C3%B6nen%2C_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/%22An_der_sch%C3%B6nen%2C_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac",
+  "duration": 549.12,
+  "via": "commons",
+  "local_duration": 549.12
+ },
+ "suppe_light_cavalry": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Overture_to_Light_Cavalry_-_U.S._Marine_Band.ogg/Overture_to_Light_Cavalry_-_U.S._Marine_Band.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Overture_to_Light_Cavalry_-_U.S._Marine_Band.ogg",
+  "duration": 419.08,
+  "via": "commons",
+  "local_duration": 419.08
+ },
+ "tchaikovsky_nutcracker_waltz_of_flowers": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+  "duration": 450.23,
+  "via": "commons",
+  "local_duration": 450.23
+ },
+ "tchaikovsky_piano_concerto_1": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg",
+  "duration": 1127.36,
+  "via": "commons",
+  "local_duration": 1127.36
+ },
+ "tchaikovsky_romeo_and_juliet": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Pyotr_Ilyich_Tchaikovsky_-_romeo_and_juliet-_overture-fantasy.ogg/Pyotr_Ilyich_Tchaikovsky_-_romeo_and_juliet-_overture-fantasy.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pyotr_Ilyich_Tchaikovsky_-_romeo_and_juliet-_overture-fantasy.ogg",
+  "duration": 1112.33,
+  "via": "commons",
+  "local_duration": 1112.33
+ },
+ "tchaikovsky_swan_lake_act2_scene": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Tchaikovsky_-_Swan_Lake_Op.20_-_Act_II_Pt.1.ogg/Tchaikovsky_-_Swan_Lake_Op.20_-_Act_II_Pt.1.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tchaikovsky_-_Swan_Lake_Op.20_-_Act_II_Pt.1.ogg",
+  "duration": 250.1,
+  "via": "commons",
+  "local_duration": 250.1
+ },
+ "verdi_aida_triumphal_march": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Triumphal_March_from_Aida.ogg/Triumphal_March_from_Aida.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Triumphal_March_from_Aida.ogg",
+  "duration": 307.59,
+  "via": "commons",
+  "local_duration": 307.59
+ },
+ "verdi_requiem_dies_irae": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg",
+  "duration": 122.09,
+  "via": "commons",
+  "local_duration": 122.07
+ },
+ "vivaldi_rv269_spring": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg",
+  "duration": 214.01,
+  "via": "commons",
+  "local_duration": 214.01
+ },
+ "vivaldi_rv315_summer_storm": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Summer%2C_RV_315_-_III._Presto.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Summer%2C_RV_315_-_III._Presto.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Summer%2C_RV_315_-_III._Presto.ogg",
+  "duration": 176.62,
+  "via": "commons",
+  "local_duration": 176.62
+ },
+ "wagner_lohengrin_bridal_chorus": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Richard_Wagner_-_Treulich_gef%C3%BChrt.ogg/Richard_Wagner_-_Treulich_gef%C3%BChrt.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Richard_Wagner_-_Treulich_gef%C3%BChrt.ogg",
+  "duration": 105.02,
+  "via": "commons",
+  "local_duration": 105.02
+ },
+ "wagner_tristan_prelude": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg/Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg",
+  "duration": 669.29,
+  "via": "commons",
+  "local_duration": 669.29
+ },
+ "wagner_walkure_ride_of_the_valkyries": {
+  "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg/Richard_Wagner_-_Ride_of_the_Valkyries.ogg.mp3",
+  "stream_audio_mime": "audio/mpeg",
+  "stream_audio_original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
+  "duration": 257.67,
+  "via": "commons",
+  "local_duration": 257.67
+ }
+}

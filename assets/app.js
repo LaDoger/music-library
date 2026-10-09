@@ -1,9 +1,13 @@
-/* Music Library UI — vanilla JS, no build step. Data: data/library.json (built by scripts/sync_site_data.py).
-   Scales by filtering a precomputed in-memory index and rendering one page (24 rows) at a time. */
+/* Music Library UI — vanilla JS, no build step.
+   Data: data/library.json + data/composers.json (built by scripts/sync_site_data.py).
+   Views: composer index (default) → composer page (?composer=) → works (?view=works).
+   One global player: 15 s preview, full recording, pre-rendered synth MP3 or live in-browser MIDI. */
 (() => {
   "use strict";
 
   const PAGE_SIZE = 24;
+  const SOUNDFONT = "https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus";
+  const MIDI_LIB = "assets/vendor/midi-player.bundle.js";
   const GENRES = [
     ["classical", "Classical"], ["jazz", "Jazz"], ["ragtime", "Ragtime"], ["blues", "Blues"], ["folk", "Folk"],
     ["world", "World"], ["marches", "Marches"], ["early_popular", "Early popular"], ["film_silent", "Silent / film"],
@@ -21,10 +25,17 @@
   const ENERGY = [["very_high", "Very high"], ["high", "High"], ["moderate", "Moderate"], ["low", "Low"]];
   const ENERGY_LABEL = Object.fromEntries(ENERGY);
   const ENERGY_RANK = { very_high: 4, high: 3, moderate: 2, low: 1 };
+  const SORTS = ["composer", "catalog", "title", "relevance", "year", "energy", "score"];
+  const MODES = {
+    preview: { label: "Preview", short: "15 s", badge: "Preview · 15 s" },
+    full: { label: "Full recording", short: "Full", badge: "Recording" },
+    synth: { label: "Synth render", short: "Synth", badge: "Synth render · FluidSynth" },
+    midi: { label: "Live MIDI synth", short: "MIDI", badge: "Live MIDI synth" },
+  };
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "picks", "sort", "view", "page", "id"];
+  const PARAMS = ["q", ...FACETS, "score", "picks", "sort", "view", "layout", "page", "id"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -32,19 +43,26 @@
   const fold = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const squash = (s) => s.replace(/[\s.,;:/()\-–'"]+/g, "");
   const safeUrl = (u) => (/^(https?:\/\/|previews\/|files\/|data\/)/i.test(u || "") ? u : "");
-  const surname = (name) => { const p = String(name).split(" "); return p[p.length - 1]; };
+  const coll = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+  const fmtTime = (s) => {
+    s = Math.max(0, Math.floor(s || 0));
+    const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), ss = String(s % 60).padStart(2, "0");
+    return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
+  };
 
   let ROWS = [];
   let BY_ID = new Map();
+  let COMPOSERS = new Map(); // name -> composers.json entry
   const state = {};
-  const audio = new Audio();
-  audio.preload = "none";
-  let currentId = null;
   let lastFocus = null;
-  let browseTab = "genre";
+  let browseTab = "era";
   let qTimer;
 
   /* ---------- data ---------- */
+  function shortName(name) {
+    const p = String(name).split(" ");
+    return /^(I|II|III|IV)$/.test(p[p.length - 1]) && p.length > 2 ? p.slice(-2).join(" ") : p[p.length - 1];
+  }
   function prepare(rows) {
     return rows.map((r) => {
       const text = fold(r.search_text || [r.title, r.composer, r.catalog, r.mood_tags].join(" "));
@@ -54,22 +72,41 @@
         _title: fold(r.title),
         _composer: fold(r.composer),
         _catalog: squash(fold(r.catalog)),
+        composer_sort: r.composer_sort || r.composer,
+        composer_short: r.composer_short || shortName(r.composer),
         genre: r.genre || "other",
         mood_tags_list: r.mood_tags_list || String(r.mood_tags || "").split(";").map((s) => s.trim()).filter(Boolean),
       });
     });
   }
+  function composerInfo(name) {
+    const c = COMPOSERS.get(name);
+    if (c) return c;
+    const r = ROWS.find((x) => x.composer === name) || {};
+    return { name, short_name: r.composer_short || shortName(name), sort_name: r.composer_sort || name,
+      birth_year: +r.birth_year || null, death_year: +r.death_year || null, era: r.era || "", genres: [r.genre].filter(Boolean) };
+  }
+  const lifeDates = (c) => (c.birth_year || c.death_year ? `${c.birth_year || "?"}–${c.death_year || ""}` : "");
+  function monogram(c) {
+    const given = String(c.sort_name || "").split(", ")[1] || "";
+    const g = given.split(/\s+/).find((w) => w && w[0] === w[0].toUpperCase()) || "";
+    return (g ? g[0] : "") + String(c.short_name || c.name)[0];
+  }
+  const composerHref = (name) => "?composer=" + encodeURIComponent(name);
 
   /* ---------- state <-> URL ---------- */
   function readState() {
     const p = new URLSearchParams(location.search);
     for (const k of PARAMS) state[k] = p.get(k) || "";
     state.page = Math.max(1, parseInt(state.page, 10) || 1);
-    state.view = state.view === "list" ? "list" : "grid";
+    // Legacy ?view=list|grid (v1 URLs) -> works view with that layout.
+    if (state.view === "list" || state.view === "grid") { state.layout = state.layout || state.view; state.view = "works"; }
+    if (!["composers", "works"].includes(state.view)) state.view = "";
+    state.layout = state.layout === "list" ? "list" : "grid";
     for (const k of ["score", "picks"]) state[k] = state[k] === "1" ? "1" : "";
     const allowed = {
       genre: GENRES.map(([v]) => v), energy: ENERGY.map(([v]) => v), licence: LICENCE_ORDER,
-      rec: ["0", "1"], verified: ["yes", "unverified"], sort: ["score", "title", "composer", "year", "energy"],
+      rec: ["0", "1"], verified: ["yes", "unverified"], sort: SORTS,
     };
     if (ROWS.length) {
       for (const k of ["composer", "era"]) allowed[k] = uniq(k);
@@ -82,11 +119,20 @@
     const p = new URLSearchParams();
     for (const k of PARAMS) {
       const v = state[k];
-      if (v && !(k === "page" && v === 1) && !(k === "view" && v === "grid")) p.set(k, v);
+      if (v && !(k === "page" && v === 1) && !(k === "layout" && v === "grid")) p.set(k, v);
     }
     const qs = p.toString();
     const url = location.pathname + (qs ? "?" + qs : "") + location.hash;
     if (url !== location.pathname + location.search + location.hash) history[push ? "pushState" : "replaceState"](null, "", url);
+  }
+  /** composers (A–Z index) | composer (one composer's works) | works (all works). */
+  function mode() {
+    if (state.composer) return "composer";
+    if (state.view === "works" || state.q || state.picks) return "works";
+    return "composers";
+  }
+  function activeFilterCount() {
+    return FACETS.filter((k) => k !== "composer" && state[k]).length + (state.score ? 1 : 0) + (state.q ? 1 : 0) + (state.picks ? 1 : 0);
   }
 
   /* ---------- filtering ---------- */
@@ -103,7 +149,7 @@
   }
   function matches(r, toks, except) {
     if (state.score && !r.has_editable_score) return false;
-    if (state.picks && !r.top_pick_rank) return false;
+    if (state.picks && !r.editors_pick_rank) return false;
     for (const k of FACETS) {
       if (k === except || !state[k]) continue;
       if (k === "mood") { if (!r.mood_tags_list.includes(state.mood)) return false; }
@@ -123,27 +169,35 @@
       if (r._composer.includes(t)) s += 4;
       if (r._catalog.includes(squash(t))) s += 8;
     }
-    if (r.top_pick_rank) s += 3 + (16 - r.top_pick_rank) / 16;
+    if (r.editors_pick_rank) s += 3 + (16 - r.editors_pick_rank) / 16;
     if (r.has_editable_score) s += 1;
     return s;
+  }
+  const byCatalog = (a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || "", b.catalog || "") || coll.compare(a.title, b.title);
+  const byComposer = (a, b) => coll.compare(a.composer_sort, b.composer_sort) || byCatalog(a, b);
+  function effectiveSort() {
+    if (state.sort) return state.sort;
+    if (state.picks) return "picks";
+    return mode() === "composer" ? "catalog" : "composer";
   }
   function compute() {
     const toks = tokens();
     const res = ROWS.filter((r) => matches(r, toks, null));
-    const by = {
-      title: (a, b) => a.title.localeCompare(b.title),
-      composer: (a, b) => surname(a.composer).localeCompare(surname(b.composer)) || a.title.localeCompare(b.title),
-      year: (a, b) => (+a.death_year || 9999) - (+b.death_year || 9999) || a.title.localeCompare(b.title),
-      energy: (a, b) => (ENERGY_RANK[b.energy] || 0) - (ENERGY_RANK[a.energy] || 0) || a.title.localeCompare(b.title),
-      score: (a, b) => (b.has_editable_score - a.has_editable_score) || surname(a.composer).localeCompare(surname(b.composer)) || a.title.localeCompare(b.title),
-    }[state.sort];
-    if (by) res.sort(by);
-    else if (state.picks) res.sort((a, b) => a.top_pick_rank - b.top_pick_rank);
-    else {
+    const sort = effectiveSort();
+    if (sort === "relevance") {
       const rel = new Map(res.map((r) => [r, relevance(r, toks)]));
-      res.sort((a, b) => rel.get(b) - rel.get(a) || a.title.localeCompare(b.title));
+      return res.sort((a, b) => rel.get(b) - rel.get(a) || byComposer(a, b));
     }
-    return res;
+    const by = {
+      picks: (a, b) => a.editors_pick_rank - b.editors_pick_rank,
+      composer: byComposer,
+      catalog: (a, b) => byCatalog(a, b) || byComposer(a, b),
+      title: (a, b) => coll.compare(a.title, b.title) || byComposer(a, b),
+      year: (a, b) => (+a.death_year || 9999) - (+b.death_year || 9999) || byComposer(a, b),
+      energy: (a, b) => (ENERGY_RANK[b.energy] || 0) - (ENERGY_RANK[a.energy] || 0) || byComposer(a, b),
+      score: (a, b) => (b.has_editable_score - a.has_editable_score) || byComposer(a, b),
+    }[sort];
+    return res.sort(by);
   }
   function facetCounts(key) {
     const toks = tokens();
@@ -168,40 +222,45 @@
     return parts.length > 1 || (parts.length && r.licence_status !== (r.recording_status || r.score_status))
       ? `<span class="sub-status">${parts.join(" · ")}</span>` : "";
   };
-  const playIcon = (id) => (id === currentId && !audio.paused ? "❚❚" : "▶");
-  const playBtn = (r, cls = "") =>
-    r.preview_url
-      ? `<button class="play-btn ${cls}" type="button" data-act="play" data-id="${esc(r.id)}" aria-label="Play 15 s preview of ${esc(r.title)}">${playIcon(r.id)}</button>`
-      : `<button class="play-btn ${cls}" type="button" disabled aria-label="No preview">▶</button>`;
+  const cardMode = (r) => (r.preview_url ? "preview" : availableModes(r)[0] || "");
+  const playBtn = (r, cls = "") => {
+    const m = cardMode(r);
+    return m
+      ? `<button class="play-btn ${cls}" type="button" data-act="play" data-mode="${m}" data-id="${esc(r.id)}" aria-label="Play ${esc(MODES[m].label.toLowerCase())} of ${esc(r.title)}">▶</button>`
+      : `<button class="play-btn ${cls}" type="button" disabled aria-label="Nothing to play">▶</button>`;
+  };
+  const movementSuffix = (r) => (r.movement && !fold(r.title).includes(fold(r.movement)) ? ` · ${esc(r.movement)}` : "");
 
-  function cardHTML(r) {
-    const cat = r.catalog ? `<span class="cat">${esc(r.catalog)}</span>` : "";
-    const moods = r.mood_tags_list.slice(0, 4).map((m) => `<button type="button" class="tag mood" data-act="mood" data-mood="${esc(m)}">${esc(m)}</button>`).join("");
+  function cardHTML(r, inComposer) {
+    const moods = r.mood_tags_list.slice(0, 3).map((m) => `<button type="button" class="tag mood" data-act="mood" data-mood="${esc(m)}">${esc(m)}</button>`).join("");
     const score = r.has_editable_score
       ? `<span class="tag score" title="${esc(r.editable_format || "Editable score")}">✎ Score</span>`
       : `<span class="tag noscore" title="No editable score yet">no score</span>`;
-    const rec = r.has_recording ? `<span class="tag" title="Full recording on GitHub Release">♫ Recording</span>` : "";
-    return `<article class="card${r.id === currentId ? " playing" : ""}" data-id="${esc(r.id)}">
+    const rec = r.has_recording ? `<span class="tag rec" title="Full recording: play it in full from the player">♫ Recording</span>` : "";
+    const synth = r.midi_play_url ? `<span class="tag synth" title="Plays as a synth render in the browser">◍ Synth</span>` : "";
+    const composer = inComposer ? "" : `<a class="c-composer" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer)}</a>`;
+    return `<article class="card${inComposer ? " in-composer" : ""}${r.id === player.id ? " playing" : ""}" data-id="${esc(r.id)}">
       <div class="card-head">
         ${playBtn(r)}
         <div class="card-title">
+          ${composer}
           <h3><button type="button" data-act="open" data-id="${esc(r.id)}">${esc(r.title)}</button></h3>
-          <div class="composer">${esc(r.composer)} ${cat}</div>
+          <div class="c-cat">${r.catalog ? `<span class="cat">${esc(r.catalog)}</span>` : ""}${movementSuffix(r)}</div>
         </div>
       </div>
-      <div class="meta">${score}${rec}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
+      <div class="meta">${score}${rec}${synth}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
       ${r.video_use_ideas ? `<p class="excerpt">${esc(r.video_use_ideas)}</p>` : ""}
-      <div class="badges">${badge(r.licence_status)}${subStatus(r)}${r.top_pick_rank ? `<span class="tag" title="Top pick">★ #${r.top_pick_rank}</span>` : ""}</div>
+      <div class="badges">${badge(r.licence_status)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
     </article>`;
   }
 
-  function renderResults(res) {
+  function renderWorks(res) {
     const pages = Math.max(1, Math.ceil(res.length / PAGE_SIZE));
     if (state.page > pages) state.page = pages;
     writeState();
     const slice = res.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
     const box = $("#results");
-    box.className = "results " + state.view;
+    box.className = "results " + state.layout;
     if (!slice.length) {
       const g = state.genre && GENRE_LABEL[state.genre];
       box.innerHTML = `<div class="empty-state"><p><b>No matches.</b> ${g && !ROWS.some((r) => r.genre === state.genre)
@@ -209,12 +268,88 @@
         : "Try fewer filters or a different spelling (catalogue numbers work with or without spaces: BWV565, Op 27)."}</p>
         <button class="btn" type="button" data-act="clear">Clear all filters</button></div>`;
     } else {
-      box.innerHTML = slice.map(cardHTML).join("");
+      const inComposer = mode() === "composer";
+      box.innerHTML = slice.map((r) => cardHTML(r, inComposer)).join("");
     }
     const from = res.length ? (state.page - 1) * PAGE_SIZE + 1 : 0;
     const to = Math.min(res.length, state.page * PAGE_SIZE);
-    $("#resultCount").innerHTML = `<b>${res.length}</b> of ${ROWS.length} pieces${res.length > PAGE_SIZE ? ` · showing ${from}–${to}` : ""}`;
+    const scope = mode() === "composer" ? `works by ${esc(composerInfo(state.composer).short_name)}` : `of ${ROWS.length} works`;
+    $("#resultCount").innerHTML = `<b>${res.length}</b> ${scope}${res.length > PAGE_SIZE ? ` · showing ${from}–${to}` : ""}`;
     renderPager(pages);
+  }
+
+  function composerGroups() {
+    const toks = tokens();
+    const groups = new Map();
+    for (const r of ROWS) {
+      if (!matches(r, toks, "composer")) continue;
+      const g = groups.get(r.composer) || { n: 0, scores: 0, recs: 0 };
+      g.n++; g.scores += r.has_editable_score ? 1 : 0; g.recs += r.has_recording ? 1 : 0;
+      groups.set(r.composer, g);
+    }
+    return [...groups.entries()].map(([name, g]) => ({ ...composerInfo(name), name, ...g }))
+      .sort((a, b) => coll.compare(fold(a.sort_name), fold(b.sort_name)));
+  }
+  function portraitHTML(c, cls) {
+    return c.portrait_url
+      ? `<img class="${cls}" src="${esc(c.portrait_url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+      : `<span class="${cls} monogram" aria-hidden="true">${esc(monogram(c))}</span>`;
+  }
+  function renderComposers() {
+    writeState();
+    const list = composerGroups();
+    const box = $("#results");
+    box.className = "results composers";
+    const letters = new Map();
+    for (const c of list) {
+      const L = fold(c.sort_name)[0].toUpperCase();
+      if (!letters.has(L)) letters.set(L, []);
+      letters.get(L).push(c);
+    }
+    const az = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((L) => letters.has(L)
+      ? `<a href="#letter-${L}" data-act="letter" data-letter="${L}">${L}</a>` : `<span aria-hidden="true">${L}</span>`).join("");
+    box.innerHTML = !list.length
+      ? `<div class="empty-state"><p><b>No composers match these filters.</b></p><button class="btn" type="button" data-act="clear">Clear all filters</button></div>`
+      : `<nav class="az" aria-label="Composers by letter">${az}</nav>` + [...letters.entries()].map(([L, cs]) => `
+        <section class="letter-group" id="letter-${L}" aria-labelledby="lh-${L}">
+          <h3 class="letter" id="lh-${L}">${L}</h3>
+          <div class="composer-grid">${cs.map((c) => `
+            <a class="composer-card" href="${esc(composerHref(c.name))}" data-act="composer" data-composer="${esc(c.name)}">
+              ${portraitHTML(c, "cc-portrait")}
+              <span class="cc-body">
+                <span class="cc-name">${esc(c.name)}</span>
+                <span class="cc-dates">${esc(lifeDates(c))}${c.era ? ` · ${esc(c.era)}` : ""}</span>
+                <span class="cc-count"><b>${c.n}</b> ${c.n === 1 ? "work" : "works"}${c.scores ? ` · ${c.scores} ${c.scores === 1 ? "score" : "scores"}` : ""}${c.recs ? ` · ${c.recs} ${c.recs === 1 ? "recording" : "recordings"}` : ""}</span>
+              </span>
+            </a>`).join("")}</div>
+        </section>`).join("");
+    const works = list.reduce((s, c) => s + c.n, 0);
+    $("#resultCount").innerHTML = `<b>${list.length}</b> composers · ${works} works`;
+    $("#pager").innerHTML = "";
+  }
+
+  function renderComposerHero() {
+    const hero = $("#composerHero");
+    if (mode() !== "composer") { hero.hidden = true; hero.innerHTML = ""; return; }
+    const c = composerInfo(state.composer);
+    const all = ROWS.filter((r) => r.composer === state.composer);
+    const scores = all.filter((r) => r.has_editable_score).length;
+    const recs = all.filter((r) => r.has_recording).length;
+    const genres = (c.genres || []).filter((g) => g !== "classical" || c.genres.length > 1).map((g) => GENRE_LABEL[g] || g).join(", ");
+    hero.hidden = false;
+    hero.innerHTML = `
+      <a class="back" href="./" data-act="composers">← All composers</a>
+      <div class="hero-inner">
+        ${portraitHTML(c, "hero-portrait")}
+        <div>
+          <p class="hero-kicker">${esc(c.era || "")}${genres ? ` · ${esc(genres)}` : ""}</p>
+          <h2 class="hero-name" id="heroName">${esc(c.name)}</h2>
+          <p class="hero-dates">${esc(lifeDates(c))}</p>
+          <p class="hero-stats"><b>${all.length}</b> ${all.length === 1 ? "work" : "works"} · <b>${scores}</b> editable ${scores === 1 ? "score" : "scores"} · <b>${recs}</b> ${recs === 1 ? "recording" : "recordings"}</p>
+          ${c.portrait_url ? `<p class="hero-credit">Portrait: <a href="${esc(safeUrl(c.portrait_source))}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${esc(c.portrait_licence || "")}</p>` : ""}
+        </div>
+      </div>`;
+    document.title = `${c.name} — Music Library`;
   }
 
   function renderPager(pages) {
@@ -251,11 +386,13 @@
   function uniq(key) {
     return [...new Set(ROWS.map((r) => r[key]).filter(Boolean))];
   }
+  function composersSorted() {
+    return uniq("composer").sort((a, b) => coll.compare(fold(composerInfo(a).sort_name), fold(composerInfo(b).sort_name)));
+  }
 
   function renderFilters() {
     fillSelect("#f_genre", "genre", GENRES, "All genres");
-    const composers = uniq("composer").sort((a, b) => surname(a).localeCompare(surname(b)));
-    fillSelect("#f_composer", "composer", composers.map((c) => [c, c]), "All composers");
+    fillSelect("#f_composer", "composer", composersSorted().map((c) => [c, composerInfo(c).sort_name]), "All composers");
     const moodCounts = facetCounts("mood");
     const moods = [...new Set(ROWS.flatMap((r) => r.mood_tags_list))].sort((a, b) => (moodCounts.get(b) || 0) - (moodCounts.get(a) || 0) || a.localeCompare(b));
     fillSelect("#f_mood", "mood", moods.map((m) => [m, m]), "Any mood");
@@ -268,11 +405,13 @@
     $("#f_sort").value = state.sort; $("#f_sort").classList.toggle("active", !!state.sort);
     $("#f_score").checked = !!state.score;
     if (document.activeElement !== $("#q")) $("#q").value = state.q;
-    const active = FACETS.filter((k) => state[k]).length + (state.score ? 1 : 0) + (state.q ? 1 : 0) + (state.picks ? 1 : 0);
+    const active = activeFilterCount();
     $("#filterCount").hidden = !active;
     $("#filterCount").textContent = active;
     $("#clearAll").hidden = !active;
-    $$(".view-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
+    $$(".view-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.layout === state.layout)));
+    $(".view-toggle").hidden = mode() === "composers";
+    $(".sort-field").hidden = mode() === "composers";
   }
 
   function eraYear(e) {
@@ -281,15 +420,24 @@
     return i < 0 ? 99 : i;
   }
 
+  function renderNav() {
+    const m = mode();
+    const cur = state.picks ? "picks" : m === "works" ? "works" : "composers";
+    $$(".modes [data-nav]").forEach((b) => {
+      if (b.dataset.nav === cur) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+    });
+  }
+
   function renderGenreStrip() {
     const counts = new Map();
     for (const r of ROWS) counts.set(r.genre, (counts.get(r.genre) || 0) + 1);
     const btn = (v, label, n) =>
       `<button type="button" data-genre="${esc(v)}" aria-pressed="${state.genre === v}" class="${n === 0 ? "empty" : ""}" title="${n === 0 ? "Coming in later batches" : ""}">${esc(label)}<small>${n}</small></button>`;
-    $("#genreStrip").innerHTML = btn("", "All", ROWS.length) + GENRES.map(([v, l]) => btn(v, l, counts.get(v) || 0)).join("");
+    $("#genreStrip").innerHTML = btn("", "All genres", ROWS.length) + GENRES.map(([v, l]) => btn(v, l, counts.get(v) || 0)).join("");
   }
 
   function renderBrowse() {
+    $(".browse").hidden = mode() === "composers";
     $$(".browse-tabs button").forEach((b) => {
       const selected = b.dataset.browse === browseTab;
       b.setAttribute("aria-selected", String(selected));
@@ -300,7 +448,7 @@
     let items;
     if (browseTab === "genre") items = GENRES.map(([v, l]) => [v, l]);
     else if (browseTab === "era") items = uniq("era").sort((a, b) => eraYear(a) - eraYear(b)).map((e) => [e, e]);
-    else if (browseTab === "composer") items = uniq("composer").sort((a, b) => (counts.get(b) || 0) - (counts.get(a) || 0) || surname(a).localeCompare(surname(b))).map((c) => [c, surname(c)]);
+    else if (browseTab === "composer") items = composersSorted().map((c) => [c, composerInfo(c).short_name]);
     else items = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b)).slice(0, 60).map((m) => [m, m]);
     $("#browseChips").innerHTML = items.map(([v, l]) => {
       const n = counts.get(v) || 0;
@@ -314,35 +462,53 @@
     const scores = ROWS.filter((r) => r.has_editable_score).length;
     const recs = ROWS.filter((r) => r.has_recording).length;
     const clean = ROWS.filter((r) => r.licence_status === "clean").length;
-    const genres = new Set(ROWS.map((r) => r.genre)).size;
     const composers = new Set(ROWS.map((r) => r.composer)).size;
-    $("#stats").innerHTML = [[n, "pieces"], [scores, "editable scores"], [recs, "recordings"], [clean, "clean"], [composers, "composers"], [genres, genres === 1 ? "genre live" : "genres"]]
+    $("#stats").innerHTML = [[composers, "composers"], [n, "works"], [scores, "editable scores"], [recs, "recordings"], [clean, "clean"]]
       .map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
   }
 
   function renderPicks() {
-    const picks = ROWS.filter((r) => r.top_pick_rank).sort((a, b) => a.top_pick_rank - b.top_pick_rank);
-    $(".picks").hidden = !picks.length;
+    const picks = ROWS.filter((r) => r.editors_pick_rank).sort((a, b) => a.editors_pick_rank - b.editors_pick_rank);
     $("#picks").innerHTML = picks.map((r) => `<div class="pick" data-id="${esc(r.id)}">
-      <span class="rank">${r.top_pick_rank}</span>
-      <div style="min-width:0">
+      <span class="rank">${r.editors_pick_rank}</span>
+      <div class="pick-body">
+        <a class="pc" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer_short)}</a>
         <button class="pt" type="button" data-act="open" data-id="${esc(r.id)}">${esc(r.title)}</button>
-        <div class="pc">${esc(surname(r.composer))}${r.catalog ? " · " + esc(r.catalog) : ""}</div>
-        <div class="why">${esc(r.top_pick_why)}</div>
-        <div style="margin-top:6px">${badge(r.licence_status)}</div>
+        <div class="pcat">${esc(r.catalog || "")}</div>
+        <div class="why">${esc(r.editors_pick_why)}</div>
+        <div class="pick-badges">${badge(r.licence_status)}</div>
       </div>
       ${playBtn(r)}
     </div>`).join("");
+    return picks.length;
   }
 
   function render() {
     clearTimeout(qTimer);
+    const m = mode();
+    renderNav();
     renderFilters();
     renderGenreStrip();
     renderBrowse();
-    renderResults(compute());
+    renderComposerHero();
+    if (m !== "composer") document.title = "Music Library — public-domain classical music, scores & full recordings";
+    $(".picks").hidden = !(m !== "composer" && !state.q && !state.picks && !activeFilterCount()) || !$("#picks").children.length;
+    if (m === "composers") renderComposers(); else renderWorks(compute());
     syncPlayButtons();
   }
+
+  /* ---------- navigation ---------- */
+  function go(changes, { push = true, scroll = true } = {}) {
+    closeDetail(false);
+    Object.assign(state, { page: 1, id: "" }, changes);
+    writeState(push);
+    render();
+    if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  const openComposer = (name) => { go({ composer: name, view: "", sort: "", picks: "" }); $("#composerHero .back")?.focus({ preventScroll: true }); };
+  const showComposers = () => go({ composer: "", view: "", q: "", picks: "", sort: "" });
+  const showWorks = () => go({ composer: "", view: "works", picks: "" });
+  const showPicks = () => go({ ...Object.fromEntries(FACETS.map((k) => [k, ""])), q: "", score: "", sort: "", view: "works", picks: "1", layout: "list" });
 
   /* ---------- detail drawer ---------- */
   function fmtBytes(b) {
@@ -369,6 +535,33 @@
     const ext = /^https?:/.test(u) ? ' target="_blank" rel="noopener"' : "";
     return `<a href="${esc(u)}"${ext}><span>${esc(label)}</span>${note ? `<small>${esc(note)}</small>` : ""}</a>`;
   }
+  function listenHTML(r) {
+    const modes = availableModes(r);
+    const dur = (s) => (s ? fmtTime(s) : "");
+    const scoreLic = r.score_status ? LICENCE[r.score_status][0] : "score licence";
+    const note = {
+      preview: "15 s audition",
+      full: [r.stream_audio_url ? (/archive\.org/.test(r.stream_audio_url) ? "Internet Archive stream" : "Wikimedia stream") : "GitHub Release file", dur(r.duration_s)].filter(Boolean).join(" · "),
+      synth: ["FluidSynth render", dur(r.synth_duration_s), `licence: ${scoreLic}`].filter(Boolean).join(" · "),
+      midi: `in-browser, adjustable tempo · licence: ${scoreLic}`,
+    };
+    const kind = { preview: "Preview", full: "Recording", synth: "Synth render", midi: "Synth render" };
+    const btns = modes.map((m) => `<button type="button" class="listen-btn m-${m}" data-act="mode" data-mode="${m}" data-id="${esc(r.id)}" aria-pressed="false">
+        <span class="lb-icon" aria-hidden="true">▶</span>
+        <span class="lb-text"><span class="lb-label">${esc(MODES[m].label)}</span><small>${esc(note[m])}</small></span>
+        <span class="kind k-${m}">${kind[m]}</span>
+      </button>`).join("");
+    const fallback = !r.has_recording ? "" : `<p class="listen-note">Full recording won't play here? ${[
+      linkRow(r.release_audio_url, "Download from the Release", fmtBytes(r.release_audio_bytes)),
+      linkRow(r.recording_source_url, "open the source page", ""),
+    ].filter(Boolean).join(" or ")}</p>`;
+    return `<div class="d-section d-listen"><h4>Listen</h4>
+      ${btns ? `<div class="listen-grid">${btns}</div>` : "<p>No audio for this piece yet.</p>"}
+      ${r.midi_play_url ? `<div class="tempo-row"><label for="dTempo">Tempo</label><input type="range" id="dTempo" class="tempo" min="0.5" max="1.5" step="0.05" value="${player.tempo}"><output id="dTempoOut">${Math.round(player.tempo * 100)}%</output><small>live MIDI only</small></div>
+        <div class="roll-wrap" id="rollWrap" hidden><svg id="roll" aria-label="Piano roll"></svg></div>` : ""}
+      ${fallback}
+    </div>`;
+  }
   function renderDetail(r) {
     const flags = (r.legal_flags || []).map((f) => {
       const soft = /render|lo-fi|courtesy|US-gov/i.test(f);
@@ -388,24 +581,25 @@
       flagged: "Flagged: there is a known caveat (territory, arrangement or dedication). Read the notes before commercial use.",
       unverified: "Unverified: rights could not be confirmed from the source page. Do not use commercially until checked.",
     }[r.licence_status] || "";
+    const c = composerInfo(r.composer);
 
     $("#detail").innerHTML = `
-      <div class="d-kicker">${esc(r.catalog || r.id)}${r.top_pick_rank ? ` · ★ Top pick #${r.top_pick_rank}` : ""}</div>
+      <a class="d-composer" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer)}<span>${esc(lifeDates(c))}</span></a>
       <h2 class="d-title" id="dTitle">${esc(r.title)}</h2>
-      <p class="d-composer">${esc(r.composer)}${r.death_year ? ` <span style="color:var(--dim)">(d. ${esc(r.death_year)})</span>` : ""}</p>
+      <div class="d-kicker">${esc(r.catalog || "")}${movementSuffix(r)}${r.editors_pick_rank ? ` · ★ Editor's pick #${r.editors_pick_rank}` : ""}</div>
       <div class="badges">${badge(r.licence_status)}${subStatus(r)}
         ${r.has_editable_score ? '<span class="tag score">✎ Editable score</span>' : '<span class="tag noscore">No editable score yet</span>'}</div>
+      ${listenHTML(r)}
       <div class="d-actions">
-        ${playBtn(r, "big")}<span style="color:var(--muted);font-size:13px">15 s preview</span>
         <button class="small-btn" type="button" data-act="copy" data-id="${esc(r.id)}">Copy licence + credit</button>
         <button class="small-btn" type="button" data-act="link" data-id="${esc(r.id)}">Copy link</button>
       </div>
-      ${r.top_pick_why ? `<div class="callout">${esc(r.top_pick_why)}</div>` : ""}
+      ${r.editors_pick_why ? `<div class="callout">${esc(r.editors_pick_why)}</div>` : ""}
       <div class="d-section"><h4>Strong excerpt</h4><p>${esc(r.notable_excerpt || "—")}</p></div>
       <div class="d-section"><h4>Video ideas</h4><p>${esc(r.video_use_ideas || "—")}</p>
         <div class="meta" style="margin-top:6px">${r.mood_tags_list.map((m) => `<button type="button" class="tag mood" data-act="mood" data-mood="${esc(m)}">${esc(m)}</button>`).join("")}</div></div>
       <div class="d-section"><h4>Licence &amp; legal</h4>
-        <div class="callout muted" style="margin-bottom:8px">${esc(statusNote)}</div>
+        <div class="callout muted" style="margin-bottom:8px">${esc(statusNote)}${r.midi_play_url ? " Synth renders are made from the score, so they carry the score licence." : ""}</div>
         ${flags ? `<div class="flags" style="margin-bottom:8px">${flags}</div>` : ""}
         <p class="legal">${esc(r.legal_notes || "No notes.")}</p>
         <h4 style="margin-top:10px">Credit block</h4>
@@ -414,24 +608,30 @@
       <div class="d-section"><h4>Files &amp; links</h4><div class="links">
         ${linkRow(r.preview_url, "15 s preview MP3", "MP3")}
         ${linkRow(r.release_audio_url, "Full recording (Release audio-v1)", fmtBytes(r.release_audio_bytes))}
+        ${linkRow(r.stream_audio_url, "Full recording stream", (r.stream_audio_mime || "").replace("audio/", "").toUpperCase())}
+        ${linkRow(r.stream_synth_url, "Synth render MP3 (FluidSynth)", "MP3")}
         ${scoreLinks || ""}
+        ${r.midi_play_url && !(r.score_files || []).includes(r.midi_play_url) ? linkRow(r.midi_play_url, "Playable MIDI (extracted)", "MID") : ""}
         ${linkRow(r.recording_source_url, "Recording source page", "source")}
         ${linkRow(r.editable_source_url, "Score source page", "source")}
         ${linkRow(r.musescore_url, "MuseScore page", "check licence")}
       </div></div>
       <div class="d-section"><h4>Details</h4><dl class="kv">${kv}</dl></div>`;
+    $("#dTempo")?.addEventListener("input", (e) => setTempo(+e.target.value));
+    if (player.mode === "midi" && player.id === r.id) attachRoll();
   }
   function openDetail(id, push = true) {
     const r = BY_ID.get(id);
     if (!r) return;
     if (!$("#drawer").classList.contains("open")) lastFocus = document.activeElement;
     renderDetail(r);
+    syncPlayButtons();
     const d = $("#drawer");
     d.inert = false;
     d.classList.add("open");
     d.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
-    $$(".skip, header.top, main, #player").forEach((el) => { el.inert = true; });
+    $$(".skip, header.top, main").forEach((el) => { el.inert = true; });
     $(".drawer-panel").scrollTop = 0;
     $(".drawer-close").focus();
     if (state.id !== id) { state.id = id; writeState(push); }
@@ -443,69 +643,309 @@
     d.setAttribute("aria-hidden", "true");
     d.inert = true;
     document.body.style.overflow = "";
-    $$(".skip, header.top, main, #player").forEach((el) => { el.inert = false; });
+    $$(".skip, header.top, main").forEach((el) => { el.inert = false; });
     if (updateUrl && state.id) { state.id = ""; writeState(false); }
     if (lastFocus && document.contains(lastFocus) && lastFocus !== document.body && !lastFocus.closest("[hidden]")) lastFocus.focus();
     else $("#results").focus({ preventScroll: true });
   }
 
-  /* ---------- player (one at a time) ---------- */
-  function play(id) {
+  /* ---------- player: one source at a time ---------- */
+  const audio = new Audio();
+  audio.preload = "metadata";
+  const player = { id: null, mode: null, sources: [], srcIdx: 0, tempo: 1, failed: false };
+  const midi = { id: null, base: null, seq: null, sfp: null, ready: false, pos: 0, startedAt: 0, playing: false, loading: false, gen: 0, vis: null, tick: null };
+  let midiLib = null;
+
+  function availableModes(r) {
+    const m = [];
+    if (r.preview_url) m.push("preview");
+    if (r.stream_audio_url || r.release_audio_url) m.push("full");
+    if (r.stream_synth_url) m.push("synth");
+    if (r.midi_play_url) m.push("midi");
+    return m;
+  }
+  function sourcesFor(r, m) {
+    if (m === "preview") return [r.preview_url];
+    if (m === "full") return [...new Set([r.stream_audio_url, r.release_audio_url].filter(Boolean))];
+    if (m === "synth") return [r.stream_synth_url];
+    return [];
+  }
+  const isPlaying = () => (player.mode === "midi" ? midi.playing || midi.loading : !!player.id && !audio.paused);
+
+  function playItem(id, m) {
     const r = BY_ID.get(id);
-    if (!r || !r.preview_url) return;
-    if (currentId === id) {
-      if (audio.paused) audio.play().catch(onPlayError); else audio.pause();
-      return;
-    }
-    currentId = id;
-    audio.src = r.preview_url;
+    if (!r) return;
+    m = m || cardMode(r);
+    if (!availableModes(r).includes(m)) return;
+    if (player.id === id && player.mode === m) return togglePlay();
+    haltAll();
+    Object.assign(player, { id, mode: m, failed: false, srcIdx: 0, sources: sourcesFor(r, m) });
+    showPlayer(r);
+    if (m === "midi") midiStart(r, 0);
+    else loadSource(0);
+    syncPlayButtons();
+  }
+  function loadSource(i) {
+    player.srcIdx = i;
+    const src = player.sources[i];
+    audio.src = src;
     audio.currentTime = 0;
     updateProgress();
-    audio.play().catch(onPlayError);
-    $("#player").hidden = false;
-    $("#pTitle").textContent = r.title;
-    $("#pSub").textContent = `${r.composer}${r.catalog ? " · " + r.catalog : ""} · ${LICENCE[r.licence_status]?.[0] || ""}`;
+    const started = audio.src;
+    audio.play().catch((e) => onAudioFail(started, e));
+  }
+  function onAudioFail(src, e) {
+    if (e && e.name === "AbortError") return;
+    if (e && e.name === "NotAllowedError") { toast("Press play to start"); syncPlayButtons(); return; }
+    if (!player.id || player.mode === "midi" || src !== audio.src) return;
+    if (player.srcIdx + 1 < player.sources.length) { loadSource(player.srcIdx + 1); return; }
+    player.failed = true;
+    toast(player.mode === "full" ? "This browser can't stream the recording — use Download / open recording" : "Could not play this audio");
+    showPlayer(BY_ID.get(player.id));
     syncPlayButtons();
   }
-  function onPlayError(e) {
-    if (e && e.name === "AbortError") return;
-    toast("Could not play preview");
-    syncPlayButtons();
+  audio.addEventListener("error", () => { if (audio.getAttribute("src")) onAudioFail(audio.src); });
+  function togglePlay() {
+    if (!player.id) return;
+    if (player.mode === "midi") return midi.playing || midi.loading ? midiPause() : midiResume();
+    if (player.failed) { player.failed = false; return loadSource(0); }
+    if (audio.paused) {
+      const src = audio.src;
+      audio.play().catch((e) => onAudioFail(src, e));
+    } else audio.pause();
+  }
+  function haltAll() {
+    if (audio.getAttribute("src")) { audio.pause(); audio.removeAttribute("src"); audio.load(); }
+    midiHalt();
   }
   function stop() {
-    audio.pause();
-    audio.removeAttribute("src");
-    audio.load();
-    currentId = null;
+    const restoreFocus = $("#player").contains(document.activeElement);
+    haltAll();
+    player.id = player.mode = null;
     $("#player").hidden = true;
+    document.body.classList.remove("has-player");
     syncPlayButtons();
+    if (restoreFocus) ($("#drawer").classList.contains("open") ? $(".drawer-close") : $("#results")).focus({ preventScroll: true });
+  }
+  function position() { return player.mode === "midi" ? midiPos() : audio.currentTime || 0; }
+  function duration() {
+    if (player.mode === "midi") return midi.seq ? midi.seq.totalTime : 0;
+    if (Number.isFinite(audio.duration) && audio.duration > 0) return audio.duration;
+    const r = BY_ID.get(player.id) || {};
+    return player.mode === "preview" ? 15 : player.mode === "synth" ? r.synth_duration_s || 0 : r.duration_s || 0;
+  }
+  function seek(t) {
+    const d = duration();
+    if (!d) return;
+    t = Math.max(0, Math.min(d, t));
+    if (player.mode === "midi") midiSeek(t); else audio.currentTime = t;
+    updateProgress();
+  }
+
+  function showPlayer(r) {
+    const focusedMode = document.activeElement?.dataset.pmode;
+    const modes = availableModes(r);
+    $("#player").hidden = false;
+    document.body.classList.add("has-player");
+    $("#pTitle").textContent = r.title;
+    $("#pComposer").textContent = r.composer;
+    $("#pSub").textContent = `${r.catalog ? r.catalog + " · " : ""}${LICENCE[r.licence_status]?.[0] || ""}${player.mode === "synth" || player.mode === "midi" ? " · score licence: " + (LICENCE[r.score_status]?.[0] || "?") : ""}`;
+    $("#pMode").textContent = MODES[player.mode].badge;
+    $("#pMode").className = "p-mode k-" + player.mode;
+    $("#pModes").innerHTML = ["preview", "full", "synth", "midi"].filter((m) => modes.includes(m)).map((m) =>
+      `<button type="button" data-pmode="${m}" aria-pressed="${m === player.mode}" title="${esc(MODES[m].label)}">${esc(MODES[m].short)}</button>`).join("");
+    if (!modes.includes("full") && r.has_editable_score) $("#pModes").insertAdjacentHTML("beforeend", `<span class="p-nofull" title="No recording yet: Synth / MIDI play the full score">no recording</span>`);
+    $("#pTempoWrap").hidden = player.mode !== "midi";
+    $("#pTempo").value = player.tempo;
+    $("#pTempoOut").textContent = Math.round(player.tempo * 100) + "%";
+    const open = player.failed && player.mode === "full" ? safeUrl(r.release_audio_url || r.recording_source_url) : "";
+    $("#pOpen").hidden = !open;
+    if (open) $("#pOpen").href = open;
+    $("#pBar").setAttribute("aria-label", `${MODES[player.mode].label} position`);
+    updateProgress();
+    if (focusedMode) $("#pModes [data-pmode='" + focusedMode + "']")?.focus({ preventScroll: true });
   }
   function syncPlayButtons() {
-    const playing = !audio.paused && !!currentId;
+    const playing = isPlaying();
     $$('[data-act="play"]').forEach((b) => {
-      const on = b.dataset.id === currentId;
+      const on = b.dataset.id === player.id && b.dataset.mode === player.mode;
       b.textContent = on && playing ? "❚❚" : "▶";
       b.setAttribute("aria-pressed", String(on && playing));
-      b.setAttribute("aria-label", `${on && playing ? "Pause" : "Play"} 15 s preview of ${BY_ID.get(b.dataset.id)?.title || "music"}`);
+      const m = MODES[b.dataset.mode] || MODES.preview;
+      b.setAttribute("aria-label", `${on && playing ? "Pause" : "Play"} ${m.label.toLowerCase()} of ${BY_ID.get(b.dataset.id)?.title || "music"}`);
     });
-    $$(".card").forEach((c) => c.classList.toggle("playing", c.dataset.id === currentId));
+    $$('[data-act="mode"]').forEach((b) => {
+      const on = b.dataset.id === player.id && b.dataset.mode === player.mode;
+      b.setAttribute("aria-pressed", String(on && playing));
+      b.classList.toggle("current", on);
+      $(".lb-icon", b).textContent = on && playing ? "❚❚" : "▶";
+    });
+    $$("#pModes [data-pmode]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.pmode === player.mode)));
+    $$(".card, .pick").forEach((c) => c.classList.toggle("playing", c.dataset.id === player.id));
     $("#pBtn").textContent = playing ? "❚❚" : "▶";
     $("#pBtn").setAttribute("aria-label", playing ? "Pause" : "Play");
+    $("#player").classList.toggle("loading", midi.loading && player.mode === "midi");
   }
-  const fmtTime = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+  function updateProgress() {
+    const d = duration();
+    const t = Math.min(position(), d || Infinity);
+    $("#pProg").style.width = d ? `${Math.min(100, (t / d) * 100)}%` : "0";
+    $("#pTime").textContent = `${fmtTime(t)} / ${d ? fmtTime(d) : "–:––"}`;
+    const bar = $("#pBar");
+    bar.setAttribute("aria-valuemax", String(Math.round(d)));
+    bar.setAttribute("aria-valuenow", String(Math.round(t)));
+    bar.setAttribute("aria-valuetext", `${fmtTime(t)} of ${fmtTime(d)}`);
+  }
   audio.addEventListener("play", syncPlayButtons);
   audio.addEventListener("pause", syncPlayButtons);
   audio.addEventListener("ended", () => { audio.currentTime = 0; updateProgress(); syncPlayButtons(); });
-  function updateProgress() {
-    const d = Number.isFinite(audio.duration) ? audio.duration : 15;
-    $("#pProg").style.width = `${Math.min(100, (audio.currentTime / d) * 100)}%`;
-    $("#pTime").textContent = fmtTime(audio.currentTime);
-    $("#pBar").setAttribute("aria-valuemax", String(d));
-    $("#pBar").setAttribute("aria-valuenow", String(audio.currentTime));
-    $("#pBar").setAttribute("aria-valuetext", `${fmtTime(audio.currentTime)} of ${fmtTime(d)}`);
-  }
   audio.addEventListener("timeupdate", updateProgress);
   audio.addEventListener("loadedmetadata", updateProgress);
+  audio.addEventListener("durationchange", updateProgress);
+
+  /* ---------- live MIDI synth (Magenta SoundFontPlayer, loaded on first use) ---------- */
+  function loadMidiLib() {
+    if (!midiLib) {
+      midiLib = new Promise((resolve, reject) => {
+        const s = document.createElement("script");
+        s.src = MIDI_LIB;
+        s.onload = () => (window.core ? resolve(window.core) : reject(new Error("synth library missing")));
+        s.onerror = () => { midiLib = null; reject(new Error("could not load the synth library")); };
+        document.head.appendChild(s);
+      });
+    }
+    return midiLib;
+  }
+  function scaleSeq(core, seq, f) {
+    const s = core.sequences.clone(seq);
+    for (const n of s.notes) { n.startTime /= f; n.endTime /= f; }
+    for (const c of s.controlChanges || []) c.time /= f;
+    for (const p of s.pitchBends || []) p.time /= f;
+    for (const t of s.tempos || []) { t.time /= f; t.qpm *= f; }
+    s.totalTime /= f;
+    return s;
+  }
+  function midiPos() {
+    if (!midi.seq) return 0;
+    const p = midi.playing ? midi.pos + (performance.now() - midi.startedAt) / 1000 : midi.pos;
+    return Math.min(p, midi.seq.totalTime);
+  }
+  async function midiStart(r, offset) {
+    const gen = ++midi.gen;
+    midi.ready = false;
+    if (midi.id !== r.id) midi.seq = null;
+    midi.loading = true; midi.playing = false; midi.pos = offset;
+    updateProgress();
+    syncPlayButtons();
+    try {
+      const core = await loadMidiLib();
+      if (gen !== midi.gen) return;
+      if (window.Tone && Tone.context.state !== "running") await Tone.start().catch(() => {});
+      if (gen !== midi.gen) return;
+      if (midi.id !== r.id) {
+        const res = await fetch(r.midi_play_url);
+        if (gen !== midi.gen) return;
+        if (!res.ok) throw new Error("MIDI " + res.status);
+        const base = core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer()));
+        if (gen !== midi.gen) return;
+        Object.assign(midi, { id: r.id, base, seq: null });
+      }
+      midi.seq = scaleSeq(core, midi.base, player.tempo);
+      if (!midi.sfp) {
+        midi.sfp = new core.SoundFontPlayer(SOUNDFONT, undefined, undefined, undefined, {
+          run: (n) => { try { midi.vis && midi.vis.redraw(n, true); } catch { /* visual only */ } },
+          stop: () => {},
+        });
+      }
+      await midi.sfp.loadSamples(midi.seq);
+      if (gen !== midi.gen) return;
+      midi.loading = false;
+      midi.ready = true;
+      // Tempo may have changed while samples were downloading.
+      midi.seq = scaleSeq(core, midi.base, player.tempo);
+      if (window.Tone && Tone.context.state !== "running") {
+        midi.pos = offset; syncPlayButtons(); toast("Press play to start the synth"); return;
+      }
+      midiRun(offset);
+      attachRoll();
+    } catch (err) {
+      if (gen !== midi.gen) return;
+      midi.loading = false;
+      toast("Synth unavailable: " + err.message);
+      syncPlayButtons();
+    }
+  }
+  function midiRun(offset) {
+    const gen = ++midi.gen;
+    midi.pos = offset; midi.startedAt = performance.now(); midi.playing = true;
+    if (midi.sfp.isPlaying()) midi.sfp.stop();
+    midi.sfp.start(midi.seq, undefined, offset).then(() => {
+      if (gen === midi.gen && midi.playing) { clearInterval(midi.tick); midi.playing = false; midi.pos = 0; updateProgress(); syncPlayButtons(); }
+    }).catch(() => {
+      if (gen !== midi.gen) return;
+      clearInterval(midi.tick);
+      midi.playing = false;
+      toast("Synth unavailable. Press play to retry.");
+      updateProgress();
+      syncPlayButtons();
+    });
+    clearInterval(midi.tick);
+    midi.tick = setInterval(() => { if (player.mode === "midi") updateProgress(); }, 250);
+    syncPlayButtons();
+  }
+  function midiPause() {
+    if (midi.loading) { midi.gen++; midi.loading = false; syncPlayButtons(); return; }
+    midi.pos = midiPos(); midi.playing = false; midi.gen++;
+    if (midi.sfp && midi.sfp.isPlaying()) midi.sfp.stop();
+    clearInterval(midi.tick);
+    syncPlayButtons();
+  }
+  function midiResume() {
+    const r = BY_ID.get(player.id);
+    if (!midi.ready || !midi.seq || midi.id !== player.id) return midiStart(r, midi.pos || 0);
+    if (window.Tone && Tone.context.state !== "running") Tone.start().catch(() => {});
+    midiRun(midi.pos >= midi.seq.totalTime - 0.05 ? 0 : midi.pos);
+  }
+  function midiSeek(t) {
+    if (midi.playing) midiRun(t); else midi.pos = t;
+  }
+  function midiHalt() {
+    midi.gen++;
+    midi.loading = false;
+    if (midi.sfp && midi.sfp.isPlaying()) midi.sfp.stop();
+    midi.playing = false; midi.pos = 0;
+    clearInterval(midi.tick);
+    detachRoll();
+  }
+  function setTempo(f) {
+    f = Math.max(0.5, Math.min(1.5, f || 1));
+    const was = player.tempo;
+    player.tempo = f;
+    for (const el of ["#pTempo", "#dTempo"]) if ($(el) && +$(el).value !== f) $(el).value = f;
+    for (const el of ["#pTempoOut", "#dTempoOut"]) if ($(el)) $(el).textContent = Math.round(f * 100) + "%";
+    if (player.mode !== "midi" || midi.id !== player.id || !midi.base || !window.core || midi.loading) return;
+    const scorePos = midiPos() * was;
+    midi.seq = scaleSeq(window.core, midi.base, f);
+    const t = scorePos / f;
+    if (midi.playing) midiRun(t); else midi.pos = t;
+    attachRoll();
+    updateProgress();
+  }
+  function attachRoll() {
+    const svg = $("#roll");
+    if (!svg || !window.core || !midi.seq || player.mode !== "midi" || state.id !== player.id) return;
+    try {
+      svg.innerHTML = "";
+      midi.vis = new window.core.PianoRollSVGVisualizer(midi.seq, svg, {
+        noteHeight: 2, pixelsPerTimeStep: 40, noteRGB: "200, 200, 210", activeNoteRGB: "226, 196, 140", minPitch: 21, maxPitch: 108,
+      });
+      $("#rollWrap").hidden = false;
+    } catch { midi.vis = null; }
+  }
+  function detachRoll() {
+    midi.vis = null;
+    if ($("#rollWrap")) $("#rollWrap").hidden = true;
+  }
 
   /* ---------- misc ---------- */
   let toastTimer;
@@ -514,7 +954,7 @@
     t.textContent = msg;
     t.classList.add("show");
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => t.classList.remove("show"), 1800);
+    toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
   }
   async function copy(text, msg) {
     const focus = document.activeElement;
@@ -534,13 +974,14 @@
     toast(msg);
   }
   function setFilter(key, value) {
+    if (key === "composer") return state.composer === value ? showComposers() : openComposer(value);
     state[key] = state[key] === value ? "" : value;
     state.page = 1;
     writeState();
     render();
   }
   function clearAll() {
-    for (const k of [...FACETS, "q", "score", "picks", "sort"]) state[k] = "";
+    for (const k of [...FACETS.filter((f) => f !== "composer"), "q", "score", "picks", "sort"]) state[k] = "";
     state.page = 1;
     $("#q").value = "";
     writeState();
@@ -552,29 +993,35 @@
     const top = $("#results").getBoundingClientRect().top + window.scrollY - offset - 10;
     window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
   }
+  const plainClick = (e) => !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button > 0);
 
   /* ---------- events ---------- */
   function bind() {
     $("#q").addEventListener("input", (e) => {
       clearTimeout(qTimer);
       state.q = e.target.value.trim(); state.page = 1;
+      if (state.q && mode() === "composers") state.view = "works";
       qTimer = setTimeout(() => { writeState(); render(); }, 120);
     });
-    const selMap = { f_genre: "genre", f_composer: "composer", f_mood: "mood", f_era: "era", f_energy: "energy", f_licence: "licence", f_rec: "rec", f_verified: "verified", f_sort: "sort" };
+    const selMap = { f_genre: "genre", f_mood: "mood", f_era: "era", f_energy: "energy", f_licence: "licence", f_rec: "rec", f_verified: "verified", f_sort: "sort" };
     for (const [id, key] of Object.entries(selMap)) {
       $("#" + id).addEventListener("change", (e) => { state[key] = e.target.value; state.page = 1; writeState(); render(); });
     }
+    $("#f_composer").addEventListener("change", (e) => (e.target.value ? openComposer(e.target.value) : showComposers()));
     $("#f_score").addEventListener("change", (e) => { state.score = e.target.checked ? "1" : ""; state.page = 1; writeState(); render(); });
     $("#filtersBtn").addEventListener("click", (e) => {
       const open = $("#filters").classList.toggle("open");
       e.currentTarget.setAttribute("aria-expanded", String(open));
     });
     $("#clearAll").addEventListener("click", clearAll);
-    $("#showPicks").addEventListener("click", () => {
-      clearAll();
-      state.picks = "1"; state.view = "list"; writeState(); render(); scrollToResults();
+    $("#showPicks").addEventListener("click", () => { showPicks(); scrollToResults(); });
+    $(".modes").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-nav]");
+      if (!b || !plainClick(e)) return;
+      e.preventDefault();
+      ({ composers: showComposers, works: showWorks, picks: showPicks })[b.dataset.nav]();
     });
-    $$(".view-toggle button").forEach((b) => b.addEventListener("click", () => { state.view = b.dataset.view; writeState(); render(); }));
+    $$(".view-toggle button").forEach((b) => b.addEventListener("click", () => { state.layout = b.dataset.layout; writeState(); render(); }));
     $$(".browse-tabs button").forEach((b) => b.addEventListener("click", () => { browseTab = b.dataset.browse; renderBrowse(); }));
     $(".browse-tabs").addEventListener("keydown", (e) => {
       const tabs = $$(".browse-tabs button");
@@ -599,15 +1046,27 @@
       state.page = +b.dataset.page; writeState(); render(); $("#results").focus({ preventScroll: true }); scrollToResults();
     });
 
-    // Delegated actions on cards, picks and the drawer.
+    // Delegated actions on cards, composer cards, picks and the drawer.
     document.addEventListener("click", (e) => {
       const el = e.target.closest("[data-act], [data-close]");
       if (!el) return;
       if (el.hasAttribute("data-close")) return closeDetail();
       const id = el.dataset.id;
       switch (el.dataset.act) {
-        case "play": return play(id);
+        case "play": return playItem(id, el.dataset.mode);
+        case "mode": return playItem(id, el.dataset.mode);
         case "open": return openDetail(id);
+        case "composer": if (!plainClick(e)) return; e.preventDefault(); return openComposer(el.dataset.composer);
+        case "composers": if (!plainClick(e)) return; e.preventDefault(); return showComposers();
+        case "letter": {
+          e.preventDefault();
+          const target = $("#letter-" + el.dataset.letter);
+          if (!target) return;
+          const controls = $(".controls");
+          const offset = getComputedStyle(controls).position === "sticky" ? controls.offsetHeight : 0;
+          window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset - 8, behavior: "smooth" });
+          return $(".composer-card", target)?.focus({ preventScroll: true });
+        }
         case "mood": closeDetail(); return setFilter("mood", el.dataset.mood);
         case "clear": return clearAll();
         case "copy": return copy(creditText(BY_ID.get(id)), "Licence + credit copied");
@@ -617,43 +1076,47 @@
         }
       }
     });
-    $("#pBtn").addEventListener("click", () => currentId && play(currentId));
+    $("#pBtn").addEventListener("click", togglePlay);
     $("#pClose").addEventListener("click", stop);
-    $("#pTitle").addEventListener("click", () => currentId && openDetail(currentId));
+    $("#pTitle").addEventListener("click", () => player.id && openDetail(player.id));
+    $("#pModes").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-pmode]");
+      if (b && player.id) playItem(player.id, b.dataset.pmode);
+    });
+    $("#pTempo").addEventListener("input", (e) => setTempo(+e.target.value));
     $("#pBar").addEventListener("click", (e) => {
-      if (!audio.duration) return;
       const rect = e.currentTarget.getBoundingClientRect();
-      audio.currentTime = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width)) * audio.duration;
-      updateProgress();
+      seek(Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width)) * duration());
     });
     $("#pBar").addEventListener("keydown", (e) => {
-      if (!Number.isFinite(audio.duration)) return;
-      const steps = { ArrowLeft: -1, ArrowDown: -1, ArrowRight: 1, ArrowUp: 1, PageDown: -5, PageUp: 5 };
+      const d = duration();
+      if (!d) return;
+      const big = Math.max(5, d / 20);
+      const steps = { ArrowLeft: -5, ArrowDown: -5, ArrowRight: 5, ArrowUp: 5, PageDown: -big, PageUp: big };
       if (!(e.key in steps) && e.key !== "Home" && e.key !== "End") return;
       e.preventDefault();
-      audio.currentTime = e.key === "Home" ? 0 : e.key === "End" ? audio.duration : Math.max(0, Math.min(audio.duration, audio.currentTime + steps[e.key]));
-      updateProgress();
+      seek(e.key === "Home" ? 0 : e.key === "End" ? d - 0.5 : position() + steps[e.key]);
     });
 
     document.addEventListener("keydown", (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const t = e.target;
-      const typing = t.matches && t.matches("input, textarea, select, [contenteditable]");
+      const typing = t.matches && t.matches("input:not([type=range]), textarea, select, [contenteditable]");
       if (e.key === "Escape") {
         if (typing && t.id === "q" && t.value) return; // let the browser clear the search box
         if ($("#drawer").classList.contains("open")) { e.preventDefault(); closeDetail(); }
-        else if (currentId) { e.preventDefault(); stop(); }
+        else if (player.id) { e.preventDefault(); stop(); }
         else if (typing) t.blur();
         return;
       }
       if (typing) return;
       if (e.key === " " || e.code === "Space") {
-        if (t.matches && t.matches("button, a, [role=button]")) return; // native activation
+        if (t.matches && t.matches("button, a, [role=button], input")) return; // native activation
         e.preventDefault();
-        if (currentId) play(currentId);
-        else {
-          const first = compute().find((r) => r.preview_url);
-          if (first) play(first.id);
+        if (player.id) togglePlay();
+        else if (mode() !== "composers") {
+          const first = compute().find((r) => cardMode(r));
+          if (first) playItem(first.id);
         }
       } else if (e.key === "/" && !$("#drawer").classList.contains("open")) {
         e.preventDefault();
@@ -662,13 +1125,17 @@
     });
 
     // Keep focus inside the open drawer.
-    $("#drawer").addEventListener("keydown", (e) => {
-      if (e.key !== "Tab") return;
-      const f = $$("button, a[href], [tabindex]:not([tabindex='-1'])", $(".drawer-panel")).filter((x) => !x.disabled);
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Tab" || !$("#drawer").classList.contains("open")) return;
+      // The player sits above the drawer and stays operable, so it is part of the Tab cycle.
+      const sel = "button, a[href], input, [tabindex]:not([tabindex='-1'])";
+      const f = [...$$(sel, $(".drawer-panel")), ...($("#player").hidden ? [] : $$(sel, $("#player")))]
+        .filter((x) => !x.disabled && x.offsetParent !== null);
       if (!f.length) return;
       const first = f[0], last = f[f.length - 1];
-      if (e.shiftKey && (document.activeElement === first || document.activeElement === $(".drawer-panel"))) { e.preventDefault(); last.focus(); }
-      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      const outside = !f.includes(document.activeElement);
+      if (e.shiftKey && (document.activeElement === first || outside)) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && (document.activeElement === last || outside)) { e.preventDefault(); first.focus(); }
     });
 
     window.addEventListener("popstate", () => {
@@ -684,9 +1151,12 @@
     readState();
     bind();
     try {
-      const res = await fetch("data/library.json", { cache: "no-cache" });
-      if (!res.ok) throw new Error(res.status);
-      ROWS = prepare(await res.json());
+      const [lib, comps] = await Promise.all([
+        fetch("data/library.json", { cache: "no-cache" }).then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); }),
+        fetch("data/composers.json", { cache: "no-cache" }).then((res) => (res.ok ? res.json() : [])).catch(() => []),
+      ]);
+      ROWS = prepare(lib);
+      COMPOSERS = new Map(comps.map((c) => [c.name, c]));
     } catch (err) {
       $("#results").innerHTML = `<div class="empty-state">Could not load <code>data/library.json</code> (${esc(err.message)}). If you opened this file from disk, run <code>python3 -m http.server</code> in the repo root and open <code>http://localhost:8000/</code>.</div>`;
       return;

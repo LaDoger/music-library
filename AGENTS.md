@@ -1,6 +1,6 @@
 # AGENTS.md — how an AI agent gets music out of this library
 
-You are looking at **LaDoger's music library**: music for commercial and social video (Michael Saylor / Strategy-style edits on X), with licence metadata and explicit caveats per item. Unverified rows are retained for research and are not cleared for publishing. Editable scores (MIDI / LilyPond) come first, so you can re-render or re-genre a piece. Recordings come second.
+You are looking at **LaDoger's music library**: public-domain and openly licensed music for commercial and social video, organised by composer, with licence metadata and explicit caveats per item. Unverified rows are retained for research and are not cleared for publishing. Editable scores (MIDI / LilyPond) come first, so you can re-render or re-genre a piece. Recordings come second.
 
 | what | where |
 |---|---|
@@ -8,8 +8,10 @@ You are looking at **LaDoger's music library**: music for commercial and social 
 | Agent index (small, absolute URLs) | https://ladoger.github.io/music-library/data/catalog.json |
 | Full record per piece | https://ladoger.github.io/music-library/data/items/<id>.json |
 | Full site data (all fields, relative paths) | https://ladoger.github.io/music-library/data/library.json |
+| Composer index | https://ladoger.github.io/music-library/data/composers.json (site: `?composer=<name>`) |
 | Short version of this file | https://ladoger.github.io/music-library/llms.txt |
-| Full recordings | GitHub Release `audio-v1`: `https://github.com/LaDoger/music-library/releases/download/audio-v1/<file>` (each item's `release_audio_url`) |
+| Full recordings | GitHub Release `audio-v1`: `https://github.com/LaDoger/music-library/releases/download/audio-v1/<file>` (each item's `release_audio_url`); direct streams in `stream_audio_url` |
+| Synth renders | GitHub Release `synth-v1`: FluidSynth MP3s of editor's-pick scores (`stream_synth_url`; score licence applies) |
 | Repo | https://github.com/LaDoger/music-library |
 | CLI | `python -m musiclib ...` (see [CLI](#cli)) |
 
@@ -41,13 +43,14 @@ Rules that always hold:
 - `id` is stable, lowercase, and built from composer + catalogue number + short title: `bach_bwv565_toccata`, `beethoven_op67_symphony5`, `grieg_peer_gynt_mountain_king`. Files are named by id.
 - `catalog` holds the standard catalogue number: `BWV 565`, `Op. 67`, `K. 525`, `HWV 56`, `WoO 59`, `L.75 No.3`. Search accepts any spacing: `bwv565`, `BWV 565`, `op 27`.
 - One row per piece, or per movement when movements are used separately (`movement` field).
-- `top_pick_rank` 1–15 = the best picks for Saylor-style videos (0 = not a top pick).
+- `editors_pick_rank` 1–15 = editor's picks for video, the strongest general-purpose cues (0 = not a pick; `editors_pick` is the boolean).
+- `composer_slug` / `composer_sort` link a work to its entry in `data/composers.json` (life dates, era, `piece_ids`, PD/CC0 portrait or null).
 
 ## Item fields you will use
 
-From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, top_pick_rank, preview_url, score_url, release_audio_url, item_json_url`.
+From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, editors_pick_rank, composer_slug, composer_sort, preview_url, score_url, release_audio_url, stream_audio_url, midi_play_url, stream_synth_url, item_json_url`.
 
-The item JSON adds: `legal_notes, legal_flags, recording_license, recording_performer, recording_source_url, recording_quality, editable_license, editable_format, editable_source_url, notable_excerpt, video_use_ideas, score_files[] / score_files_abs[], render_midi {file, url, zip_member}, credit_text, licence_meaning, page_url`.
+The item JSON adds: `legal_notes, legal_flags, recording_license, recording_performer, recording_source_url, recording_quality, editable_license, editable_format, editable_source_url, notable_excerpt, video_use_ideas, score_files[] / score_files_abs[], render_midi {file, url, zip_member}, midi_play_url / midi_play_url_abs, stream_audio_url, stream_synth_url, birth_year, credit_text, licence_meaning, page_url`.
 
 ## Recipes
 
@@ -56,14 +59,14 @@ Assume you have a checkout (`git clone https://github.com/LaDoger/music-library 
 ### 1. Find a piece
 
 ```bash
-python -m musiclib search --top                       # ranked best picks
+python -m musiclib search --picks                     # editor's picks, ranked
 python -m musiclib search dramatic --clean            # words match title/composer/catalogue/mood/genre
 python -m musiclib search bwv 565
 python -m musiclib search --mood epic --has-score     # filters: --genre --composer --mood --energy --licence --verified
 python -m musiclib search --clean --renderable --json # machine output
 ```
 
-Without the CLI, fetch `data/catalog.json` and filter `items` on `licence_status`, `mood`, `energy`, `has_editable_score`, `top_pick_rank`.
+Without the CLI, fetch `data/catalog.json` and filter `items` on `licence_status`, `mood`, `energy`, `has_editable_score`, `editors_pick_rank`, `composer_slug`.
 
 ### 2. Look at it and decide
 
@@ -81,7 +84,7 @@ python -m musiclib download tchaikovsky_1812_overture --what recording --out dow
 # or: curl -L -o downloads/x.ogg "$(jq -r .release_audio_url data/items/tchaikovsky_1812_overture.json)"
 ```
 
-Formats vary (FLAC / OGG / MP3 / M4A; see `recording_quality`). Only rows with `has_recording: true` have one.
+Formats vary (FLAC / OGG / MP3 / M4A; see `recording_quality`). Only rows with `has_recording: true` have one. To listen without downloading, `stream_audio_url` (when set) is a direct Wikimedia Commons MP3 transcode or Internet Archive MP3 of the same recording (duration-checked against the Release file).
 
 ### 4. Fetch the score
 
