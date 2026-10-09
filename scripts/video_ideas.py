@@ -14,12 +14,14 @@ other agents in the meantime are kept; only the video_use_ideas cell of known id
 """
 import csv
 import io
+import json
 import os
 import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(ROOT, "library.csv")
+NOTES_PATH = os.path.join(ROOT, "scripts", "video_notes.json")
 
 # Niche, brand and market wording that does not belong in a general library. The first
 # names are written with a character class so a repo-wide grep for them stays at zero.
@@ -119,9 +121,20 @@ def needs_rewrite(text):
     return bool(BANNED.search(text or ""))
 
 
+def load_notes(path=NOTES_PATH):
+    """Generated per-row notes from scripts/bulk/video_notes.py; niche wording is dropped."""
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return {k: v for k, v in json.load(f).items() if isinstance(v, str) and not needs_rewrite(v)}
+
+
+NOTES = load_notes()
+
+
 def clean_idea(rid, text):
-    """Text the site should show: curated override, else the CSV text."""
-    return IDEAS.get(rid, text or "")
+    """Text the site should show: curated override, else generated note, else the CSV text."""
+    return IDEAS.get(rid) or NOTES.get(rid) or text or ""
 
 
 def main():
