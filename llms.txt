@@ -1,6 +1,6 @@
 # LaDoger music library
 
-> Public-domain and openly licensed music (classical first, by composer) for commercial and social video, with licence metadata and explicit caveats per item. Unverified rows are retained for research and are not cleared for publishing. Each row has a 15 s preview, an editable score where one exists (MIDI / LilyPond / MusicXML), and, where available, a full recording (direct stream_audio_url and a GitHub Release copy) and a FluidSynth synth render. Built for agents that need music for a video: find → download or render → trim → credit.
+> Public-domain and openly licensed music (classical first, by composer) for commercial and social video, with licence metadata and explicit caveats per item. Unverified rows are retained for research and are not cleared for publishing. Curated rows have a 15 s preview (bulk-imported rows play the score MIDI instead), an editable score where one exists (MIDI / LilyPond / MusicXML), and, where available, a full recording (direct stream_audio_url and a GitHub Release copy) and a FluidSynth synth render. Built for agents that need music for a video: find → download or render → trim → credit.
 
 Base URL: https://ladoger.github.io/music-library/
 Every piece has a stable id (e.g. bach_bwv565_toccata) and a catalogue number (BWV 565, Op. 67, K. 525).
@@ -15,6 +15,7 @@ Your own render of a score carries the score's licence (score_status), not the r
 
 ## Data
 - [catalog.json](https://ladoger.github.io/music-library/data/catalog.json): compact index; all URLs absolute; filter on licence_status, mood, energy, has_editable_score, editors_pick_rank, composer_slug
+- [index/manifest.json](https://ladoger.github.io/music-library/data/index/manifest.json): slim sharded index the site loads (columnar parts ≤ 300 KB, relative URLs)
 - [items/<id>.json](https://ladoger.github.io/music-library/data/items/bach_bwv565_toccata.json): full record per piece: legal_notes, credit_text, render_midi, notable_excerpt, video_use_ideas
 - [composers.json](https://ladoger.github.io/music-library/data/composers.json): composer index: slug, name, birth_year, death_year, era, genres, piece_count, piece_ids, portrait_url (PD/CC0 only) + licence
 - [library.json](https://ladoger.github.io/music-library/data/library.json): full site data (relative paths)

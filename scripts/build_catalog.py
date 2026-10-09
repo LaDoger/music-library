@@ -5,6 +5,10 @@ Outputs (all committed, served by GitHub Pages):
   data/catalog.json       compact index: one small record per piece + absolute URLs
   data/items/<id>.json    full record per piece (library.json row + URLs, render
                           hints and a ready-to-paste credit line)
+  data/index/manifest.json + data/index/part-NNN.json
+                          slim site index (columnar rows, relative URLs) in
+                          chunks of <= SHARD_BYTES; the UI loads these, then
+                          fetches data/items/<id>.json when a piece is opened
   (data/composers.json is written by sync_site_data.py; catalog.json links to it)
 
 Run after scripts/sync_site_data.py (which calls this automatically). Idempotent:
@@ -20,6 +24,15 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB_PATH = os.path.join(ROOT, "data", "library.json")
 CATALOG_PATH = os.path.join(ROOT, "data", "catalog.json")
+INDEX_DIR = os.path.join(ROOT, "data", "index")
+SHARD_BYTES = 280_000
+# Columns of the slim site index. Booleans are 0/1, moods ';'-joined, empty = "".
+INDEX_FIELDS = [
+    "id", "composer", "title", "catalog", "movement", "genre", "era", "mood_tags", "energy",
+    "licence_status", "recording_status", "score_status", "verified", "has_editable_score",
+    "has_recording", "editors_pick_rank", "death_year", "preview_url", "midi_play_url",
+    "stream_audio_url", "release_audio_url", "stream_synth_url", "video_use_ideas", "catalog_variants",
+]
 ITEMS_DIR = os.path.join(ROOT, "data", "items")
 
 PAGES_BASE = "https://ladoger.github.io/music-library/"
@@ -156,6 +169,48 @@ def build():
     return catalog, items, problems
 
 
+def slim_row(r):
+    out = []
+    for f in INDEX_FIELDS:
+        if f == "mood_tags":
+            v = ";".join(r.get("mood_tags_list", []))
+        elif f == "catalog_variants":
+            # search aliases: 'BWV 565' also matches 'bwv565'
+            v = " ".join(w for w in r.get("search_text", "").split() if any(c.isdigit() for c in w))
+        elif f == "verified":
+            v = 1 if r.get("verified") == "yes" else 0
+        else:
+            v = r.get(f, "")
+        if isinstance(v, bool):
+            v = int(v)
+        out.append(v)
+    return out
+
+
+def build_index(rows):
+    """Split the slim index into parts of at most SHARD_BYTES (compact JSON)."""
+    parts, cur, size = [], [], 0
+    for r in rows:
+        row = slim_row(r)
+        n = len(json.dumps(row, ensure_ascii=False, separators=(",", ":"))) + 1
+        if cur and size + n > SHARD_BYTES:
+            parts.append(cur)
+            cur, size = [], 0
+        cur.append(row)
+        size += n
+    if cur:
+        parts.append(cur)
+    names = [f"part-{i:03d}.json" for i in range(len(parts))]
+    manifest = {
+        "schema_version": SCHEMA_VERSION,
+        "count": len(rows),
+        "fields": INDEX_FIELDS,
+        "parts": [{"file": n, "count": len(p)} for n, p in zip(names, parts)],
+        "item_json": "data/items/{id}.json",
+    }
+    return manifest, dict(zip(names, parts))
+
+
 def dump(obj, path):
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
@@ -174,7 +229,17 @@ def main():
         for name in os.listdir(ITEMS_DIR):
             if name.endswith(".json") and name[:-5] not in items:
                 os.remove(os.path.join(ITEMS_DIR, name))
-        print(f"wrote data/catalog.json + {len(items)} data/items/*.json")
+        manifest, shards = build_index(json.load(open(LIB_PATH, encoding="utf-8")))
+        os.makedirs(INDEX_DIR, exist_ok=True)
+        for name in os.listdir(INDEX_DIR):
+            if name.startswith("part-") and name not in shards:
+                os.remove(os.path.join(INDEX_DIR, name))
+        for name, rows in shards.items():
+            with open(os.path.join(INDEX_DIR, name), "w", encoding="utf-8") as f:
+                json.dump({"fields": INDEX_FIELDS, "rows": rows}, f, ensure_ascii=False, separators=(",", ":"))
+                f.write("\n")
+        dump(manifest, os.path.join(INDEX_DIR, "manifest.json"))
+        print(f"wrote data/catalog.json + {len(items)} data/items/*.json + {len(shards)} data/index parts")
     else:
         print(f"checked {len(items)} items")
     for p in problems:

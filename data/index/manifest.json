@@ -1,0 +1,57 @@
+{
+ "schema_version": 2,
+ "count": 4596,
+ "fields": [
+  "id",
+  "composer",
+  "title",
+  "catalog",
+  "movement",
+  "genre",
+  "era",
+  "mood_tags",
+  "energy",
+  "licence_status",
+  "recording_status",
+  "score_status",
+  "verified",
+  "has_editable_score",
+  "has_recording",
+  "editors_pick_rank",
+  "death_year",
+  "preview_url",
+  "midi_play_url",
+  "stream_audio_url",
+  "release_audio_url",
+  "stream_synth_url",
+  "video_use_ideas",
+  "catalog_variants"
+ ],
+ "parts": [
+  {
+   "file": "part-000.json",
+   "count": 752
+  },
+  {
+   "file": "part-001.json",
+   "count": 849
+  },
+  {
+   "file": "part-002.json",
+   "count": 864
+  },
+  {
+   "file": "part-003.json",
+   "count": 800
+  },
+  {
+   "file": "part-004.json",
+   "count": 788
+  },
+  {
+   "file": "part-005.json",
+   "count": 543
+  }
+ ],
+ "item_json": "data/items/{id}.json"
+}

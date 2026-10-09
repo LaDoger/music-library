@@ -5,7 +5,8 @@ You are looking at **LaDoger's music library**: public-domain and openly license
 | what | where |
 |---|---|
 | Human site | https://ladoger.github.io/music-library/ (`?id=<id>` opens one piece) |
-| Agent index (small, absolute URLs) | https://ladoger.github.io/music-library/data/catalog.json |
+| Agent index (every piece, absolute URLs; a few MB at thousands of rows) | https://ladoger.github.io/music-library/data/catalog.json |
+| Slim sharded index (what the site loads; columnar, relative URLs, parts ≤ 300 KB) | https://ladoger.github.io/music-library/data/index/manifest.json → `data/index/part-NNN.json` (`{fields, rows}`) |
 | Full record per piece | https://ladoger.github.io/music-library/data/items/<id>.json |
 | Full site data (all fields, relative paths) | https://ladoger.github.io/music-library/data/library.json |
 | Composer index | https://ladoger.github.io/music-library/data/composers.json (site: `?composer=<name>`) |
@@ -75,7 +76,7 @@ python -m musiclib get grieg_peer_gynt_mountain_king          # URLs, local path
 python -m musiclib get grieg_peer_gynt_mountain_king --json   # = data/items/<id>.json
 ```
 
-Play `preview_url` to audition. `notable_excerpt` gives the strongest timestamp.
+Play `preview_url` to audition. Bulk-imported rows (OpenScore, Mutopia, PDMX; `added_by` = `bulk`) have no pre-rendered preview: `preview_url` is empty, so audition `midi_play_url` (or `render` it, recipe 5). `notable_excerpt` gives the strongest timestamp.
 
 ### 3. Download the recording (Release URL)
 
@@ -160,7 +161,7 @@ Data source: `$MUSICLIB_ROOT`, otherwise the checkout the package is in (or one 
 
 ## Changing the library (maintainers / agents with write access)
 
-- `library.csv` is the master. After editing it, run `python3 scripts/sync_site_data.py`. It rebuilds `data/library.json`, `data/catalog.json` and `data/items/*.json`. Never hand-edit the JSON.
+- `library.csv` is the hand-curated master. Bulk imports live in `library_bulk.csv` (built by `python3 scripts/bulk/build_bulk_layer.py` from `parts/BULK_batch*_rows.csv`; PD / CC0 / CC BY only, composer died ≤ 1929). A `library.csv` row wins on the same id. After editing either, run `python3 scripts/sync_site_data.py`. It rebuilds `data/library.json`, `data/catalog.json`, `data/index/*` and `data/items/*.json`. Never hand-edit the JSON.
 - Licence policy and columns: `SCHEMA.md`. Progress and resume steps: `STATUS.md`.
 - **Never commit `files/audio/`** (full recordings go to the Release with `scripts/upload_release.sh`). Never commit secrets or tokens.
 - Verify every licence on the source page itself; set `verified=yes` only after you have seen the licence text.

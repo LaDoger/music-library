@@ -71,7 +71,7 @@ const server = http.createServer((req, res) => {
     await count(bach.length);
     assert.match(await page.locator('#composerHero').innerText(), /1685–1750/);
     const cats = await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id));
-    const expectedCats = [...bach].sort((a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || coll.compare(a.title, b.title)).slice(0, 24).map(r => r.id);
+    const expectedCats = [...bach].sort((a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title)).slice(0, 48).map(r => r.id);
     assert.deepEqual(cats, expectedCats, 'composer page sorted by catalogue number');
     await page.goBack(); await page.waitForSelector('.composer-card');
     await load('?composer=Johann%20Sebastian%20Bach&score=1'); await count(bach.filter(r => r.has_editable_score).length);
@@ -80,18 +80,18 @@ const server = http.createServer((req, res) => {
     // Works view: default sort is composer, then catalogue, then title.
     await load();
     const firstIds = await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id));
-    const expectedFirst = [...rows].sort((a, b) => coll.compare(a.composer_sort, b.composer_sort) || (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || coll.compare(a.title, b.title)).slice(0, 24).map(r => r.id);
+    const expectedFirst = [...rows].sort((a, b) => coll.compare(a.composer_sort, b.composer_sort) || (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title)).slice(0, 48).map(r => r.id);
     assert.deepEqual(firstIds, expectedFirst, 'default works sort');
-    assert.equal(await page.locator('.card .c-composer').count(), 24, 'composer name on every card');
+    assert.equal(await page.locator('.card .c-composer').count(), 48, 'composer name on every card');
     async function count(n) {
-      await page.waitForFunction(expected => +document.querySelector('#resultCount b').textContent === expected, n);
+      await page.waitForFunction(expected => +document.querySelector('#resultCount b')?.textContent === expected, n);
     }
     async function insideDrawer() {
       assert(await page.evaluate(() => !!document.activeElement.closest('#drawer')), 'Focus must stay inside dialog');
     }
 
     await load();
-    assert.equal(await page.locator('.card').count(), 24);
+    assert.equal(await page.locator('.card').count(), 48);
     assert.equal(await page.locator('.pick').count(), 15);
     for (const q of ['BWV565', 'bwv 565', 'dvorak', 'Op 27', 'K331']) {
       await page.locator('#q').fill(q);
@@ -135,7 +135,7 @@ const server = http.createServer((req, res) => {
     assert.equal(new URL(page.url()).searchParams.get('page'), '2');
     await load('?view=works&page=999&score=0&rec=no&licence=unknown&id=missing');
     assert.equal(await page.locator('#f_score').isChecked(), false);
-    assert.equal(new URL(page.url()).searchParams.get('page'), String(Math.ceil(rows.length / 24)));
+    assert.equal(new URL(page.url()).searchParams.get('page'), String(Math.ceil(rows.length / 48)));
     for (const k of ['score', 'rec', 'licence', 'id']) assert.equal(new URL(page.url()).searchParams.has(k), false);
     await load('?q=BWV565');
     const opener = page.locator('.card h3 button').first(); await opener.click();
@@ -170,11 +170,12 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Home'); assert.equal(await page.evaluate(() => document.activeElement.id), 'browse-era');
 
     // Real MP3 playback, one Audio object, native button Space, global Space/Esc and seek.
-    await page.locator('.card [data-act="play"]').first().click();
+    await load('?view=works&picks=1'); // bulk rows have no MP3 preview; picks all do
+    await page.locator('.card [data-act="play"][data-mode="preview"]').first().click();
     await page.waitForFunction(() => !window.__reviewAudios[0].paused && Number.isFinite(window.__reviewAudios[0].duration));
     assert.equal(await page.evaluate(() => window.__reviewAudios.length), 1);
     const firstSrc = await page.evaluate(() => window.__reviewAudios[0].src);
-    await page.locator('.card [data-act="play"]').nth(1).click();
+    await page.locator('.card [data-act="play"][data-mode="preview"]').nth(1).click();
     await page.waitForFunction(src => window.__reviewAudios[0].src !== src && !window.__reviewAudios[0].paused && Number.isFinite(window.__reviewAudios[0].duration), firstSrc);
     assert.equal(await page.locator('.card.playing').count(), 1);
     await page.locator('.card.playing h3 button').click();
@@ -219,11 +220,12 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Escape');
 
     // Synthetic expansion preserves unique IDs and uses the actual UI render/filter path.
-    const synthetic = Array.from({ length: 16 }, (_, batch) => rows.map(r => ({ ...r, id: r.id + '_' + batch, editors_pick_rank: batch ? 0 : r.editors_pick_rank }))).flat();
+    const synthetic = Array.from({ length: Math.max(2, Math.ceil(10000 / rows.length)) }, (_, batch) => rows.map(r => ({ ...r, id: r.id + '_' + batch, editors_pick_rank: batch ? 0 : r.editors_pick_rank }))).flat();
     const scalePage = await context.newPage();
+    await scalePage.route('**/data/index/manifest.json', route => route.fulfill({ status: 404, body: '' })); // force the library.json fallback
     await scalePage.route('**/data/library.json', route => route.fulfill({ json: synthetic }));
     await scalePage.goto(base + '?view=works'); await scalePage.waitForSelector('.card');
-    assert.equal(await scalePage.locator('.card').count(), 24);
+    assert.equal(await scalePage.locator('.card').count(), 48);
     assert.equal(await scalePage.locator('#resultCount b').innerText(), String(synthetic.length));
     const timings = [];
     for (let i = 0; i < 5; i++) {
@@ -234,12 +236,12 @@ const server = http.createServer((req, res) => {
         return performance.now() - start;
       }));
     }
-    assert.equal(await scalePage.locator('.card').count(), 24);
+    assert.equal(await scalePage.locator('.card').count(), 48);
     await scalePage.goto(base); await scalePage.waitForSelector('.composer-card');
     assert.equal(await scalePage.locator('.composer-card').count(), composers.length);
     assert.equal(errors.length, 0, errors.join('\n'));
     console.log(`PASS: composer index/page/sort; search; all facets + reload; clear debounce; editor's picks; pagination/URL normalization; modal focus/history; copy success/failure; tabs; real single-player audio/seek/Space/Esc; mobile/resize; ${synthetic.length} rows.`);
-    console.log(`${synthetic.length}-row filter/facet/render samples (ms): ${timings.map(t => t.toFixed(1)).join(', ')}; raw JSON ${(Buffer.byteLength(JSON.stringify(synthetic)) / 1024 / 1024).toFixed(2)} MiB; 24 result cards.`);
+    console.log(`${synthetic.length}-row filter/facet/render samples (ms): ${timings.map(t => t.toFixed(1)).join(', ')}; raw JSON ${(Buffer.byteLength(JSON.stringify(synthetic)) / 1024 / 1024).toFixed(2)} MiB; 48 result cards.`);
   } finally {
     await browser.close();
   }

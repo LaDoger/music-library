@@ -76,6 +76,8 @@ WIDE_CAP = {
     "johann sebastian bach", "ludwig van beethoven", "wolfgang amadeus mozart",
     "frederic chopin", "franz schubert", "richard wagner", "gustav mahler",
     "anton bruckner", "claude debussy",
+    # Scale run: complete-catalogue targets.
+    "george frideric handel", "johannes brahms", "pyotr ilyich tchaikovsky",
 }
 
 

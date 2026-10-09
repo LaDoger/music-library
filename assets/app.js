@@ -1,11 +1,13 @@
 /* Music Library UI — vanilla JS, no build step.
-   Data: data/library.json + data/composers.json (built by scripts/sync_site_data.py).
+   Data: data/index/manifest.json + data/index/part-*.json (slim columnar index, built by
+   scripts/build_catalog.py) + data/composers.json; data/items/<id>.json is fetched when a
+   piece is opened. Falls back to data/library.json if the index is missing.
    Views: composer index (default) → composer page (?composer=) → works (?view=works).
    One global player: 15 s preview, full recording, pre-rendered synth MP3 or live in-browser MIDI. */
 (() => {
   "use strict";
 
-  const PAGE_SIZE = 24;
+  const PAGE_SIZE = 48;
   const SOUNDFONT = "https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus";
   const MIDI_LIB = "assets/vendor/midi-player.bundle.js";
   const GENRES = [
@@ -65,15 +67,16 @@
   }
   function prepare(rows) {
     return rows.map((r) => {
-      const text = fold(r.search_text || [r.title, r.composer, r.catalog, r.mood_tags].join(" "));
+      const c = COMPOSERS.get(r.composer) || {};
+      const text = fold(r.search_text || [r.title, r.composer, c.sort_name, r.catalog, r.catalog_variants, r.movement, r.mood_tags, r.genre, r.era, r.id.replace(/_/g, " ")].join(" "));
       return Object.assign(r, {
         _text: text,
         _squash: squash(text),
         _title: fold(r.title),
         _composer: fold(r.composer),
         _catalog: squash(fold(r.catalog)),
-        composer_sort: r.composer_sort || r.composer,
-        composer_short: r.composer_short || shortName(r.composer),
+        composer_sort: r.composer_sort || c.sort_name || r.composer,
+        composer_short: r.composer_short || c.short_name || shortName(r.composer),
         genre: r.genre || "other",
         mood_tags_list: r.mood_tags_list || String(r.mood_tags || "").split(";").map((s) => s.trim()).filter(Boolean),
       });
@@ -173,7 +176,8 @@
     if (r.has_editable_score) s += 1;
     return s;
   }
-  const byCatalog = (a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || "", b.catalog || "") || coll.compare(a.title, b.title);
+  // Same catalogue number: the curated row (it has a preview) before bulk imports.
+  const byCatalog = (a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || "", b.catalog || "") || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title);
   const byComposer = (a, b) => coll.compare(a.composer_sort, b.composer_sort) || byCatalog(a, b);
   function effectiveSort() {
     if (state.sort) return state.sort;
@@ -620,9 +624,25 @@
     $("#dTempo")?.addEventListener("input", (e) => setTempo(+e.target.value));
     if (player.mode === "midi" && player.id === r.id) attachRoll();
   }
+  // Index rows are slim; the full record (legal notes, sources, score files) loads on open.
+  async function loadFull(r) {
+    if (r._full) return r;
+    const res = await fetch(`data/items/${encodeURIComponent(r.id)}.json`);
+    if (!res.ok) throw new Error(res.status);
+    const full = await res.json();
+    delete full.mood_tags_list;
+    for (const k of ["preview_url", "midi_play_url", "score_url"]) if (full[k] === undefined) delete full[k];
+    return Object.assign(r, full, { _full: true });
+  }
   function openDetail(id, push = true) {
     const r = BY_ID.get(id);
     if (!r) return;
+    if (!r._full) {
+      // Open at once from the index row, then fill in the full record.
+      loadFull(r).then(() => {
+        if (state.id === id && $("#drawer").classList.contains("open")) { renderDetail(r); syncPlayButtons(); }
+      }).catch((err) => toast(`Could not load the full record (${err.message})`));
+    }
     if (!$("#drawer").classList.contains("open")) lastFocus = document.activeElement;
     renderDetail(r);
     syncPlayButtons();
@@ -1072,7 +1092,7 @@
         }
         case "mood": closeDetail(); return setFilter("mood", el.dataset.mood);
         case "clear": return clearAll();
-        case "copy": return copy(creditText(BY_ID.get(id)), "Licence + credit copied");
+        case "copy": return loadFull(BY_ID.get(id)).then((r) => copy(creditText(r), "Licence + credit copied"));
         case "link": {
           const u = new URL(location.href); u.search = ""; u.searchParams.set("id", id);
           return copy(u.toString(), "Link copied");
@@ -1150,16 +1170,35 @@
   }
 
   /* ---------- boot ---------- */
+  const getJSON = (url) => fetch(url, { cache: "no-cache" }).then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); });
+  function unpack(part) {
+    const f = part.fields;
+    return part.rows.map((row) => {
+      const r = {};
+      f.forEach((k, i) => { r[k] = row[i]; });
+      r.has_editable_score = !!r.has_editable_score;
+      r.has_recording = !!r.has_recording;
+      r.verified = r.verified ? "yes" : "no";
+      r.editors_pick_rank = +r.editors_pick_rank || 0;
+      return r;
+    });
+  }
+  async function loadIndex() {
+    let manifest;
+    try { manifest = await getJSON("data/index/manifest.json"); } catch { return getJSON("data/library.json"); }
+    const parts = await Promise.all(manifest.parts.map((p) => getJSON("data/index/" + p.file)));
+    return parts.flatMap(unpack);
+  }
   async function boot() {
     readState();
     bind();
     try {
       const [lib, comps] = await Promise.all([
-        fetch("data/library.json", { cache: "no-cache" }).then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); }),
+        loadIndex(),
         fetch("data/composers.json", { cache: "no-cache" }).then((res) => (res.ok ? res.json() : [])).catch(() => []),
       ]);
-      ROWS = prepare(lib);
       COMPOSERS = new Map(comps.map((c) => [c.name, c]));
+      ROWS = prepare(lib);
     } catch (err) {
       $("#results").innerHTML = `<div class="empty-state">Could not load <code>data/library.json</code> (${esc(err.message)}). If you opened this file from disk, run <code>python3 -m http.server</code> in the repo root and open <code>http://localhost:8000/</code>.</div>`;
       return;

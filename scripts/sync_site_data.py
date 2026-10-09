@@ -43,6 +43,9 @@ import video_ideas  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(ROOT, "library.csv")
+# Bulk layer (OpenScore / Mutopia / PDMX imports), built by
+# scripts/bulk/build_bulk_layer.py. A library.csv row wins on the same id.
+BULK_CSV_PATH = os.path.join(ROOT, "library_bulk.csv")
 JSON_PATH = os.path.join(ROOT, "data", "library.json")
 README_PATH = os.path.join(ROOT, "README.md")
 SCORES_DIR = os.path.join(ROOT, "files", "scores")
@@ -174,18 +177,37 @@ def score_files_for(row):
     stem = os.path.splitext(os.path.basename(path))[0]
     stem = re.sub(r"-(lys|mids)$", "", stem)
     prefixes = {stem, row["id"]}
-    try:
-        names = sorted(os.listdir(SCORES_DIR))
-    except FileNotFoundError:
-        return []
     out = []
-    for n in names:
-        base = os.path.splitext(n)[0]
-        if any(base == p or base.startswith(p + "_") or base.startswith(p + "-") for p in prefixes):
-            out.append("files/scores/" + n)
+    for p in prefixes:
+        for base, n in score_names_from(p):
+            if base != p and base in ALL_IDS:
+                continue  # another row's own file (bulk ids often extend a curated id)
+            if (base == p or base.startswith(p + "_") or base.startswith(p + "-")) and "files/scores/" + n not in out:
+                out.append("files/scores/" + n)
+    out.sort()
     if path not in out and os.path.exists(os.path.join(ROOT, path)):
         out.insert(0, path)
     return out
+
+
+_SCORE_NAMES = None
+ALL_IDS = set()
+
+
+def score_names_from(prefix):
+    """(stem, filename) pairs in files/scores/ whose stem starts with prefix.
+    Sorted list + bisect: thousands of rows x thousands of files stays fast."""
+    global _SCORE_NAMES
+    import bisect
+    if _SCORE_NAMES is None:
+        try:
+            _SCORE_NAMES = sorted((os.path.splitext(n)[0], n) for n in os.listdir(SCORES_DIR))
+        except FileNotFoundError:
+            _SCORE_NAMES = []
+    i = bisect.bisect_left(_SCORE_NAMES, (prefix, ""))
+    while i < len(_SCORE_NAMES) and _SCORE_NAMES[i][0].startswith(prefix):
+        yield _SCORE_NAMES[i]
+        i += 1
 
 
 def parse_editors_picks():
@@ -256,6 +278,11 @@ def load_previous():
 
 def build():
     rows = list(csv.DictReader(open(CSV_PATH, encoding="utf-8", newline="")))
+    if os.path.exists(BULK_CSV_PATH):
+        curated = {r["id"].strip() for r in rows}
+        rows += [r for r in csv.DictReader(open(BULK_CSV_PATH, encoding="utf-8", newline=""))
+                 if r["id"].strip() not in curated]
+    ALL_IDS.update(r["id"].strip() for r in rows)
     prev = load_previous()
     picks = parse_editors_picks()
     composer_meta = load_cache("composer_meta.json")

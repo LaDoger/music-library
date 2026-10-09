@@ -26,7 +26,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from dedup import dedup_key, existing_from_paths, is_duplicate, load_csv_rows, popularity_value  # noqa: E402
+from dedup import (  # noqa: E402
+    canon_name,
+    dedup_key,
+    existing_from_paths,
+    is_duplicate,
+    load_csv_rows,
+    popularity_value,
+)
 from midi_clip import clip_midi  # noqa: E402
 from schema import (  # noqa: E402
     CANDIDATE_COLUMNS,
@@ -46,6 +53,15 @@ SOURCE_CAPS = {
     "mutopia": 60,
     "pdmx": 24,
 }
+# --bulk (scale run): per-source caps sized for thousands, composer caps off.
+BULK_SOURCE_CAPS = {
+    "openscore-lieder": 2000,
+    "openscore-quartets": 600,
+    "mutopia": 1500,
+    "pdmx": 2500,
+}
+BULK = False
+MAX_LIMIT = 3000
 COMPOSER_CAPS = {
     "franz schubert": 26,
     "robert schumann": 16,
@@ -71,6 +87,8 @@ MAX_DOWNLOAD = 8_000_000
 
 
 def composer_cap(canon: str) -> int:
+    if BULK:
+        return 10_000
     if canon in COMPOSER_CAPS:
         return COMPOSER_CAPS[canon]
     return TIER_CAPS.get(composer_record(canon)["tier"], 6)
@@ -94,10 +112,17 @@ def _row_sort_key(row: dict):
 
 
 def _take(groups: dict[str, list], order: list[str], limit: int, picked, by_source, by_composer):
+    """Round-robin one piece per composer. Stop at exactly `limit` new rows.
+
+    The cap is checked inside the composer loop. Checking it only at the
+    start of a round would append every composer in that round and overshoot.
+    """
     cursors = {canon: 0 for canon in order}
     while len(picked) < limit:
         progressed = False
         for canon in order:
+            if len(picked) >= limit:
+                return
             if by_composer[canon] >= composer_cap(canon):
                 continue
             rows = groups.get(canon) or []
@@ -105,7 +130,8 @@ def _take(groups: dict[str, list], order: list[str], limit: int, picked, by_sour
                 row = rows[cursors[canon]]
                 cursors[canon] += 1
                 source = row.get("source_name") or ""
-                if by_source[source] >= SOURCE_CAPS.get(source, 20):
+                caps = BULK_SOURCE_CAPS if BULK else SOURCE_CAPS
+                if by_source[source] >= caps.get(source, 20):
                     continue
                 picked.append(row)
                 by_source[source] += 1
@@ -116,7 +142,13 @@ def _take(groups: dict[str, list], order: list[str], limit: int, picked, by_sour
             break
 
 
-def select(rows: list[dict], limit: int, pdmx_root: Path | None) -> list[dict]:
+def select(
+    rows: list[dict],
+    limit: int,
+    pdmx_root: Path | None,
+    prior_source: Counter | None = None,
+    prior_composer: Counter | None = None,
+) -> list[dict]:
     eligible = [
         row for row in rows
         if row.get("licence_class") in {"clean", "attribution"}
@@ -152,12 +184,25 @@ def select(rows: list[dict], limit: int, pdmx_root: Path | None) -> list[dict]:
     rest = [canon for canon in groups if canon not in COMPOSER_CAPS]
     rest.sort(key=lambda canon: (composer_record(canon)["tier"], canon))
     picked = []
-    by_source = Counter()
-    by_composer = Counter()
+    by_source = Counter(prior_source or {})
+    by_composer = Counter(prior_composer or {})
     _take(groups, named, limit, picked, by_source, by_composer)
     _take(groups, rest, limit, picked, by_source, by_composer)
-    print("selected", len(picked), dict(by_source))
+    print("selected", len(picked), dict(Counter(row.get("source_name") or "" for row in picked)))
     return picked
+
+
+def _prior_counts(path: Path) -> tuple[Counter, Counter]:
+    """Counts already appended to the batch CSV, so a resume keeps the caps."""
+    sources: Counter = Counter()
+    composers: Counter = Counter()
+    if not path.exists() or path.stat().st_size == 0:
+        return sources, composers
+    with path.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            sources[row.get("source_name") or ""] += 1
+            composers[canon_name(row.get("composer") or "")] += 1
+    return sources, composers
 
 
 def _pdmx_file(row: dict, root: Path | None) -> Path | None:
@@ -168,6 +213,24 @@ def _pdmx_file(row: dict, root: Path | None) -> Path | None:
     if path and path.is_file() and path.stat().st_size > 64:
         return path
     return None
+
+
+def _mutopia_alt(url: str) -> str:
+    """Retry one directory up when the LilyPond file is nested under itself.
+
+    ftp/.../BWV1013/bwv1013/bwv1013.mid follows the .ly path. The rendered MIDI
+    is often ftp/.../BWV1013/bwv1013.mid. A normal ftp/.../Piece/Piece.mid URL
+    is left alone; this alternate is only fetched after that URL 404s.
+    """
+    parts = urllib.parse.urlsplit(url)
+    segs = [segment for segment in parts.path.split("/") if segment]
+    if len(segs) < 4 or not segs[-1].lower().endswith(".mid"):
+        return ""
+    stem = segs[-1][:-4].lower()
+    if stem != segs[-2].lower() or stem != segs[-3].lower():
+        return ""
+    segs = segs[:-2] + [segs[-1]]
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, "/" + "/".join(segs), "", ""))
 
 
 def _fetch(url: str, dest: Path) -> bytes:
@@ -231,7 +294,11 @@ def _github_mxl(row: dict) -> str:
     quoted = urllib.parse.quote(folder)
     url = f"https://api.github.com/repos/{repo}/contents/{quoted}?ref=main"
     request = urllib.request.Request(url, headers={"User-Agent": "music-library-bulk/1.0", "Accept": "application/vnd.github+json"})
-    with urllib.request.urlopen(request, timeout=60) as response:
+    try:
+        response_cm = urllib.request.urlopen(request, timeout=60)
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"HTTP {exc.code} {url}") from exc
+    with response_cm as response:
         import json
         payload = json.loads(response.read().decode("utf-8"))
     if not isinstance(payload, list):
@@ -243,7 +310,7 @@ def _github_mxl(row: dict) -> str:
     return ""
 
 
-def process(row: dict, pdmx_root: Path | None) -> dict:
+def process(row: dict, pdmx_root: Path | None, preview: bool = True) -> dict:
     ident = row["id"]
     work = ROOT / ".tmp" / "bulk" / "work" / ident
     if work.exists():
@@ -258,7 +325,14 @@ def process(row: dict, pdmx_root: Path | None) -> dict:
     try:
         if source == "mutopia":
             raw = work / "source.mid"
-            data = _fetch(row["download_url"], raw)
+            try:
+                data = _fetch(row["download_url"], raw)
+            except RuntimeError:
+                alt = _mutopia_alt(row.get("download_url") or "")
+                if not alt:
+                    raise
+                data = _fetch(alt, raw)
+                row["download_url"] = alt
             if data[:4] != b"MThd":
                 raise RuntimeError("FTP URL did not return MIDI")
             score_mid = raw
@@ -287,19 +361,22 @@ def process(row: dict, pdmx_root: Path | None) -> dict:
             final_mxl.write_bytes(mxl.read_bytes())
         else:
             raise RuntimeError(f"unknown source {source}")
-        clipped = work / "clip.mid"
-        clip_midi(score_mid, clipped, 20.0)
-        _preview(clipped, work / "preview.mp3")
+        if preview:
+            clipped = work / "clip.mid"
+            clip_midi(score_mid, clipped, 20.0)
+            _preview(clipped, work / "preview.mp3")
         final_mid.write_bytes(Path(score_mid).read_bytes())
-        final_preview.write_bytes((work / "preview.mp3").read_bytes())
+        if preview:
+            final_preview.write_bytes((work / "preview.mp3").read_bytes())
     finally:
         subprocess.run(["rm", "-rf", str(work)], check=False)
     done = {column: row.get(column, "") for column in BATCH_COLUMNS}
     done["id"] = ident
     done["local_score_path"] = f"files/scores/{ident}.mid"
     done["local_audio_path"] = ""
-    done["preview_path"] = f"previews/{ident}.mp3"
-    done["added_by"] = "grok"
+    # Bulk rows have no pre-rendered preview; the site synthesises the MIDI on demand.
+    done["preview_path"] = f"previews/{ident}.mp3" if preview else ""
+    done["added_by"] = "grok" if preview else "bulk"
     done["recording_source_url"] = ""
     done["recording_performer"] = ""
     done["recording_license"] = ""
@@ -335,10 +412,20 @@ def main():
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--pdmx-root", type=Path, default=ROOT / ".tmp" / "pdmx" / "mid")
     parser.add_argument("--failures", type=Path, default=ROOT / "parts" / "bulk_raw" / "download_failures.csv")
+    parser.add_argument(
+        "--sources", default="",
+        help="Comma-separated source_name filter (openscore-lieder, openscore-quartets, mutopia, pdmx)",
+    )
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--bulk", action="store_true",
+                        help="Scale run: thousands-sized source caps, no composer caps")
+    parser.add_argument("--no-preview", action="store_true",
+                        help="Skip the 15 s MP3 preview (bulk rows play via the in-browser MIDI synth)")
     args = parser.parse_args()
-    if args.limit > 300:
-        raise SystemExit("refusing a slice above 300 pieces this session")
+    global BULK
+    BULK = args.bulk
+    if args.limit > MAX_LIMIT:
+        raise SystemExit(f"refusing a slice above {MAX_LIMIT} pieces")
     library_paths = [ROOT / "library.csv", *sorted((ROOT / "parts").glob("BATCH1_*.csv"))]
     index = existing_from_paths(library_paths)
     for folder in (ROOT / "files" / "scores", ROOT / "previews"):
@@ -360,7 +447,15 @@ def main():
             row.get("title", ""), row.get("movement", ""),
         )
         fresh.append(row)
-    picked = select(fresh, args.limit, args.pdmx_root if args.pdmx_root.exists() else None)
+    if args.sources.strip():
+        allowed = {part.strip() for part in args.sources.split(",") if part.strip()}
+        fresh = [row for row in fresh if (row.get("source_name") or "") in allowed]
+    prior_source, prior_composer = _prior_counts(args.out)
+    picked = select(
+        fresh, args.limit,
+        args.pdmx_root if args.pdmx_root.exists() else None,
+        prior_source, prior_composer,
+    )
     print(f"queue {len(picked)} after dedup ({len(already)} already in {args.out.name})")
     if args.dry_run:
         by_comp = Counter((row.get("composer"), row.get("source_name")) for row in picked)
@@ -370,7 +465,7 @@ def main():
     failures = []
     ok = 0
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
-        futures = {pool.submit(process, row, args.pdmx_root): row for row in picked}
+        futures = {pool.submit(process, row, args.pdmx_root, not args.no_preview): row for row in picked}
         for future in as_completed(futures):
             row = futures[future]
             try:

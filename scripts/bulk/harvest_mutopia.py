@@ -208,11 +208,18 @@ def _licence_text(header: str) -> str:
 
 
 def _should_skip(path: Path) -> bool:
+    """Skip includes, part extracts, and paper-size wrappers. Keep one score file."""
     name = path.name.lower()
     if "header" in name or name.startswith("part-") or name.startswith("common"):
         return True
-    parts = {part.lower() for part in path.parts}
+    if name in {"notes.ly", "defs.ly", "definitions.ly"} or name.startswith(("a4-", "a3-", "letter-")):
+        return True
+    parts = [part.lower() for part in path.parts]
     if "common" in parts:
+        return True
+    # Mutopia keeps the includable LilyPond under piece-lys/. The FTP MIDI
+    # for the piece, when it exists, is not that include file.
+    if any(part == "lys" or part.endswith("-lys") for part in parts):
         return True
     return False
 
