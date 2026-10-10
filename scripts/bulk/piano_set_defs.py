@@ -235,6 +235,50 @@ for _s in SETS:
     if _s[1] == SCH: REQUIRE.setdefault(_s[0], "|".join(_s[2]))
 SET_WORDS = {"chopin": r"etude|prelude|nocturne|valse|waltz|ballad|scherz", "schubert": r"impromptu|moment", "mendelssohn": r"lied|song", "brahms": r"intermezz|capriccio|ballade|romanze|rhapsod|fantasi|klavierst|piece", "scriabin": r"etude|poem|poeme"}
 
+# ---- Mahler (d. 1911: PD worldwide). Titles are folded to ascii (umlauts become plain vowels, ß is dropped) before matching.
+# Symphony movements are matched by movement name plus a symphony-number guard (REQUIRE), not by number alone.
+def _sym_req(n):
+    return rf"symph[a-z]*\.? ?(?:no\.? ?|nr\.? ?|n\.? ?)?0?{n}(?![0-9])|(?<![0-9]){n}(?:st|nd|rd|th) symph" + (r"|\b9 adagio" if n == 9 else "")
+MAHLER_SYM = {
+ 1: [("I Langsam, schleppend", [r"langsam[^|]*schleppend|slow(ly)?,? dragging"]), ("II Kraftig bewegt", [r"kraftig bewegt"]),
+     ("III Feierlich und gemessen (Trauermarsch)", [r"feierlich und gemessen|trauermarsch|funeral march"]), ("IV Sturmisch bewegt", [r"sturmisch bewegt|stormy"])],
+ 2: [("I Allegro maestoso (Todtenfeier)", [r"allegro maestoso|todtenfeier"]), ("II Andante moderato", [r"andante moderato"]),
+     ("III In ruhig fliessender Bewegung", [r"ruhig fl\w*ender"]), ("IV Urlicht", [r"urlicht"]), ("V Im Tempo des Scherzo (Auferstehung)", [r"tempo des scherzo|auferstehung|resurrection"])],
+ 3: [("I Kraftig. Entschieden", [r"entschieden"]), ("II Tempo di Menuetto", [r"menuett|menuet"]), ("III Comodo (Scherzando)", [r"comodo|scherzando"]),
+     ("IV Was mir die Liebe erzahlt", [r"was mir die liebe|what love tells"]), ("V Es sungen drei Engel", [r"es sungen drei engel|drei engel|three angels|lustig im tempo"]),
+     ("VI Langsam. Ruhevoll", [r"langsam[^|]*ruhevoll(?![^|]*liebe)"])],
+ 4: [("I Bedachtig, nicht eilen", [r"bedachtig|nicht eilen"]), ("II In gemachlicher Bewegung", [r"gemachlicher bewegung|gemachlich"]),
+     ("III Ruhevoll", [r"ruhevoll"]), ("IV Sehr behaglich (Das himmlische Leben)", [r"sehr behaglich|himmlische leben|behaglich"])],
+ 5: [("I Trauermarsch", [r"trauermarsch|in gemessenem schritt"]), ("II Sturmisch bewegt", [r"sturmisch bewegt|vehemenz"]),
+     ("III Scherzo", [r"scherzo"]), ("IV Adagietto", [r"adagietto"]), ("V Rondo-Finale", [r"rondo.?finale"])],
+ 6: [("I Allegro energico, ma non troppo", [r"allegro energico"]), ("II Scherzo", [r"scherzo"]), ("III Andante moderato", [r"andante moderato"]), ("IV Finale", [r"finale"])],
+ 7: [("I Langsam - Allegro risoluto", [r"allegro risoluto"]), ("II Nachtmusik I", [r"nachtmusik (?:i|1)(?![i0-9])"]), ("III Scherzo (Schattenhaft)", [r"schattenhaft|scherzo"]),
+     ("IV Nachtmusik II", [r"nachtmusik (?:ii|2)(?![0-9])"]), ("V Rondo-Finale", [r"rondo.?finale"])],
+ 8: [("Teil I Veni creator spiritus", [r"veni creator"]), ("Teil II Faust (Schlussszene)", [r"faust"])],
+ 9: [("I Andante comodo", [r"andante comodo"]), ("II Im Tempo eines gemachlichen Landlers", [r"landler"]), ("III Rondo-Burleske", [r"rondo.?burles"]), ("IV Adagio", [r"adagio"])],
+}
+MAHLER_SONGS = [
+ ("Mahler Lieder eines fahrenden Gesellen", r"gesellen", [("1 Wenn mein Schatz Hochzeit macht", [r"wenn mein schatz|hochzeit macht"]), ("2 Gieng heut morgen uber's Feld", [r"gieng heut|ging heut"]),
+     ("3 Ich hab' ein gluhend Messer", [r"gluhend messer|hab ein gluh"]), ("4 Die zwei blauen Augen", [r"zwei blauen augen|blauen augen"])]),
+ ("Mahler Kindertotenlieder", r"kindertotenlied", [("1 Nun will die Sonn' so hell aufgeh'n", [r"sonn so hell|son so hell"]), ("2 Nun seh' ich wohl, warum so dunkle Flammen", [r"dunkle flamm"]),
+     ("3 Wenn dein Mutterlein", [r"mutterlein"]), ("4 Oft denk' ich, sie sind nur ausgegangen", [r"oft denk|sind nur ausgegangen"]), ("5 In diesem Wetter", [r"in diesem wetter"])]),
+ ("Mahler Ruckert-Lieder", r"ruckert|welt abhanden|blicke mir|um mitternacht|linden duft|liebst du um", [("Ich atmet' einen linden Duft", [r"linden duft"]), ("Blicke mir nicht in die Lieder", [r"blicke mir nicht"]),
+     ("Um Mitternacht", [r"um mitternacht"]), ("Ich bin der Welt abhanden gekommen", [r"welt abhanden"]), ("Liebst du um Schonheit", [r"liebst du um sch"])]),
+ ("Mahler Lieder aus Des Knaben Wunderhorn", r"wunderhorn|rheinlegend|urlicht|himmlische leben|revelge|tambourg|fischpredigt|trompeten|schildwache|verlorne muh|irdische leben|ablosung|scheiden und meiden|lob des hohen|wiedergeseh|trost im ungluck|wer hat dies", [
+     ("Rheinlegendchen", [r"rheinlegend"]), ("Verlorne Muh'", [r"verlorne muh"]), ("Trost im Ungluck", [r"trost im ung"]), ("Wer hat dies Liedlein erdacht?", [r"liedlein erdacht|wer hat dies"]),
+     ("Das irdische Leben", [r"irdische leben"]), ("Des Antonius von Padua Fischpredigt", [r"fischpredigt"]), ("Lob des hohen Verstands", [r"hohen verstands|lob des hohen"]),
+     ("Der Schildwache Nachtlied", [r"schildwache"]), ("Ablosung im Sommer", [r"ablosung"]), ("Scheiden und Meiden", [r"scheiden und meiden"]), ("Nicht wiedergesehn!", [r"wiedergeseh"]),
+     ("Wo die schonen Trompeten blasen", [r"trompeten blasen"]), ("Revelge", [r"revelge"]), ("Der Tambourg'sell", [r"tambourg"]), ("Urlicht", [r"urlicht"]), ("Das himmlische Leben", [r"himmlische leben"])]),
+ ("Mahler Das Lied von der Erde", r"lied von der erde|song of the earth|lied der erde", [("I Das Trinklied vom Jammer der Erde", [r"trinklied|drinking song"]), ("II Der Einsame im Herbst", [r"einsame im herbst|lonely (one|man) in autumn"]),
+     ("III Von der Jugend", [r"von der jugend|youth"]), ("IV Von der Schonheit", [r"von der sch.nheit|beauty"]), ("V Der Trunkene im Fruhling", [r"trunkene im fr|drunken"]), ("VI Der Abschied", [r"abschied|farewell"])]),
+]
+for _n, _mv in MAHLER_SYM.items():
+    _name = f"Mahler Symphony No. {_n}"
+    SETS.append((_name, "mahler", [r"symph"], "PD", mv(_mv, numbered=False)))
+    REQUIRE[_name] = _sym_req(_n)
+for _name, _req, _mv in MAHLER_SONGS:
+    SETS.append((_name, "mahler", [r"\."], "PD", mv(_mv, numbered=False)))
+    REQUIRE[_name] = _req
 def _num_ok(lab, n, cats, h):
     if n and re.search(num_rx(cats, n), h): return True
     return False

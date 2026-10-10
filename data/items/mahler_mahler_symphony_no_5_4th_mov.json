@@ -2,7 +2,7 @@
  "id": "mahler_mahler_symphony_no_5_4th_mov",
  "composer": "Gustav Mahler",
  "death_year": "1911",
- "title": "Symphony No. 5 (4th Movement Excerpt) Piano Solo",
+ "title": "Symphony No. 5 (arr. piano solo; 4th movement excerpt)",
  "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -65,7 +65,7 @@
   {
    "id": "mahler_mahler_symphony_no_5_4th_movb2",
    "source": "pdmx",
-   "title": "Symphony No. 5 (4th Movement Excerpt) Piano Solo",
+   "title": "Symphony No. 5 (arr. piano solo; 4th movement excerpt)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -86,5 +86,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Gustav Mahler: Symphony No. 5 (4th Movement Excerpt) Piano Solo (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Gustav Mahler: Symphony No. 5 (arr. piano solo; 4th movement excerpt) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

@@ -28,16 +28,19 @@ def score(r):
     rt, n = (float(m.group(1)), int(m.group(2))) if m else (0.0, 0)
     return (SRC_ORDER.get(r["source_name"], 9), -(rt * math.log(2 + n)))
 
-def pdmx_rows(comps):
+def pdmx_rows(comps, max_tracks=2):
     out = []
     for x in csv.DictReader(PDMX_CSV.open(newline="", encoding="utf-8", errors="replace")):
         if x["subset:no_license_conflict"] != "True" or x["license_conflict"] == "True" or x["license"] not in ("publicdomain", "cc-zero"):
             continue
         c = canon_name(x["composer_name"] or "")
+        if c not in comps and (x["composer_name"] or "").strip().upper() in ("", "NA"):
+            # composer field is NA: take the set composer whose surname appears in the title ("... from Des Knaben Wunderhorn - Gustav Mahler")
+            c = next((k for k in comps if k.split()[-1] in D.fold(x["title"])), c)
         if c not in comps or not (x["mid"] or "").strip():
             continue
         blob = f"{x['title']} {x['song_name']} {x.get('subtitle','')}"
-        if ARRANGED.search(f"{blob} {x['composer_name']}") or int(float(x["n_tracks"] or 9)) > 2 or x.get("is_draft") == "True":
+        if ARRANGED.search(f"{blob} {x['composer_name']}") or int(float(x["n_tracks"] or 9)) > max_tracks or x.get("is_draft") == "True":
             continue
         rec = composer_record(c); lic = "PD" if x["license"] == "publicdomain" else "CC0"
         title = re.sub(r"\s*[-–]\s*" + re.escape(rec["name"].split()[-1]) + r".*$", "", x["title"]).strip() or x["song_name"]
@@ -56,7 +59,7 @@ def pdmx_rows(comps):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--plan", default=str(ROOT / ".tmp/psets/plan.json"))
-    ap.add_argument("--composer", default="", help="only sets for this composer surname (substring of the set composer key)"); ap.add_argument("--out", default=str(OUT)); a = ap.parse_args()
+    ap.add_argument("--composer", default="", help="only sets for this composer surname (substring of the set composer key)"); ap.add_argument("--out", default=str(OUT)); ap.add_argument("--max-tracks", type=int, default=2, help="PDMX track cap; orchestral movements need more (Mahler: 30)"); a = ap.parse_args()
     out = Path(a.out)
     items = D.json.load(open(ROOT / "data/catalog.json")) if hasattr(D, "json") else json.load(open(ROOT / "data/catalog.json"))
     items = items["items"] if isinstance(items, dict) else items
@@ -67,7 +70,7 @@ def main():
         if r.get("licence_class") in ("clean", "attribution") and r.get("canon") in comps and int(r.get("death_year") or 9999) <= 1929 \
                 and not ARRANGED.search(f"{r['title']} {r.get('movement','')}") and r["source_name"] != "pdmx":
             pool.append(r)
-    pool += pdmx_rows(comps)
+    pool += pdmx_rows(comps, a.max_tracks)
     print("pool", len(pool))
     for i, r in enumerate(pool): r["_k"] = i
     picked, plan = {}, []

@@ -11960,8 +11960,8 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 30,
-  "score_count": 29,
+  "piece_count": 32,
+  "score_count": 31,
   "recording_count": 1,
   "piece_ids": [
    "mahler_adagietto",
@@ -11976,6 +11976,7 @@
    "mahler_gmw10_gesellen3",
    "mahler_gmw10_gesellen4",
    "mahler_mahler_9_adagio",
+   "mahler_ps_des_antonius_von_padua_fischpredigt_from_des_kna",
    "mahler_ich_bin_der_welt_abhanden_ge",
    "mahler_mahler_kindertotenlieder_i_n",
    "mahler_mahler_no_2_trombone_3",
@@ -11986,6 +11987,7 @@
    "mahler_mahler_no_2_brass_chorale_sc",
    "mahler_mahler_no_2_trombone_2",
    "mahler_mahler_no_2_tuba",
+   "mahler_ps_sturmisch_bewegt_mit_grosster_vehemenz_from_mahl",
    "mahler_symphnie_no_1_mahler",
    "mahler_symphony_3_5th_movement_es_s",
    "mahler_mahler_symphony_no_2_brass_c",
@@ -18339,13 +18341,12 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 14,
-  "score_count": 13,
+  "piece_count": 13,
+  "score_count": 12,
   "recording_count": 1,
   "piece_ids": [
    "rstrauss_zarathustra_sunrise",
    "rstrauss_op_11_horn_concerto_no_1_in_e",
-   "rstrauss_op2_string_quartet_in_a_major",
    "rstrauss_op_23_macbeth",
    "rstrauss_op_24_tod_und_verklarung",
    "rstrauss_op_27_4_lieder_op_27_cacilie",
