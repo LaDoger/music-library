@@ -5,7 +5,7 @@ Pools: parts/BULK_candidates.csv (Mutopia PD/CC BY, OpenScore CC0, PDMX clean) a
 (subset:no_license_conflict, licence publicdomain/cc-zero, no licence conflict, <=2 tracks, no arrangements).
 Fully-PD composers only (death <= 1929); US-PD-only sets are left to the IMSLP browser list.
 Writes parts/BULK_batchPS_rows.csv (picked up by build_bulk_layer.py).
-  python3 scripts/bulk/import_piano_sets.py [--dry-run]
+  python3 scripts/bulk/import_piano_sets.py [--dry-run] [--composer mendelssohn] [--out parts/BULK_batch_SETS_Mendelssohn_rows.csv]
 """
 from __future__ import annotations
 import argparse, csv, json, math, re, subprocess, sys
@@ -55,10 +55,12 @@ def pdmx_rows(comps):
     return out
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--plan", default=str(ROOT / ".tmp/psets/plan.json")); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--plan", default=str(ROOT / ".tmp/psets/plan.json"))
+    ap.add_argument("--composer", default="", help="only sets for this composer surname (substring of the set composer key)"); ap.add_argument("--out", default=str(OUT)); a = ap.parse_args()
+    out = Path(a.out)
     items = D.json.load(open(ROOT / "data/catalog.json")) if hasattr(D, "json") else json.load(open(ROOT / "data/catalog.json"))
     items = items["items"] if isinstance(items, dict) else items
-    sets = [s for s in D.SETS if s[3] == "PD"]
+    sets = [s for s in D.SETS if s[3] == "PD" and (not a.composer or a.composer in s[1])]
     comps = {canon_name(s[1]) for s in sets}
     pool = []
     for r in csv.DictReader((ROOT / "parts/BULK_candidates.csv").open(newline="", encoding="utf-8")):
@@ -102,8 +104,8 @@ def main():
         except Exception as e:  # noqa: BLE001
             print("FAIL", r["id"], str(e)[:200]); continue
         done["added_by"] = "bulk"
-        DS._append(OUT, done); ok += 1; print("OK", done["id"], labs)
-    print(f"wrote {ok} rows -> {OUT}")
+        DS._append(out, done); ok += 1; print("OK", done["id"], labs)
+    print(f"wrote {ok} rows -> {out}")
     return 0
 
 if __name__ == "__main__":

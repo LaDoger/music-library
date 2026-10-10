@@ -63,6 +63,28 @@ SETS = [
  ("Mendelssohn Songs without Words Op.30", "mendelssohn", [op(30)], "PD", numbered(6)),
  ("Mendelssohn Songs without Words Op.62", "mendelssohn", [op(62)], "PD", numbered(6, {6: [r"spring song|fruhlingslied[^|]*(62|lied ohne|songs without)"]})),
  ("Mendelssohn Songs without Words Op.67", "mendelssohn", [op(67)], "PD", numbered(6, {4: [r"spinn(ing|erlied)"]})),
+ ("Mendelssohn Songs without Words Op.38", "mendelssohn", [op(38)], "PD", numbered(6)),
+ ("Mendelssohn Songs without Words Op.53", "mendelssohn", [op(53), r"\bs\.? ?53(?![0-9])"], "PD", numbered(6)),
+ ("Mendelssohn Songs without Words Op.85", "mendelssohn", [op(85)], "PD", numbered(6)),
+ ("Mendelssohn Songs without Words Op.102", "mendelssohn", [op(102), r"\bs\.? ?102(?![0-9])"], "PD", numbered(3)),
+ ("Mendelssohn String Quartets Op.12-80", "mendelssohn", [op(12), op(13), op(44), op(80)], "PD", [
+     ("Quartet No. 1 Op.12", 0, [op(12)]), ("Quartet No. 2 Op.13", 0, [op(13)]),
+     ("Quartet No. 3 Op.44/1", 0, [r"\bop\.? ?44[^|]{0,8}?(?:no\.? ?)?1(?![0-9])"]),
+     ("Quartet No. 4 Op.44/2", 0, [r"\bop\.? ?44[^|]{0,8}?(?:no\.? ?)?2(?![0-9])"]),
+     ("Quartet No. 5 Op.44/3", 0, [r"\bop\.? ?44[^|]{0,8}?(?:no\.? ?)?3(?![0-9])"]),
+     ("Quartet No. 6 Op.80", 0, [op(80)])]),
+ ("Mendelssohn Piano Trios Op.49 & Op.66", "mendelssohn", [op(49), op(66)], "PD", [
+     ("Piano Trio No. 1 Op.49", 0, [op(49)]), ("Piano Trio No. 2 Op.66", 0, [op(66)])]),
+ ("Mendelssohn Variations sérieuses Op.54", "mendelssohn", [op(54), r"s[eé]rieuses|serieuses"], "PD", [
+     ("Complete (17 variations)", 0, [r"variations? s[eé]rieuses|serieuses|op\.? ?54"])]),
+ ("Mendelssohn 6 Duets Op.63", "mendelssohn", [op(63)], "PD", [
+     ("No. 1 Ich wollt'", 0, [r"op\.? ?63[^|]*ich wollt"]), ("No. 2 Abschiedslied der Zugvögel", 0, [r"op\.? ?63[^|]*abschiedslied"]),
+     ("No. 3 Gruss", 0, [r"op\.? ?63[^|]*\bgruss"]), ("No. 4 Herbstlied", 0, [r"op\.? ?63[^|]*herbstlied"]),
+     ("No. 5 Volkslied", 0, [r"op\.? ?63[^|]*volkslied"]), ("No. 6 Maiglöckchen", 0, [r"op\.? ?63[^|]*maiglock"])]),
+ ("Mendelssohn 6 Gesänge Op.86", "mendelssohn", [op(86)], "PD", [
+     ("No. 1 Das Fenster", 0, [r"op\.? ?86[^|]*fenster"]), ("No. 2 Morgenlied", 0, [r"op\.? ?86[^|]*morgenlied"]),
+     ("No. 3 Die Liebende schreibt", 0, [r"op\.? ?86[^|]*liebende"]), ("No. 4 Allnächtlich im Traume", 0, [r"op\.? ?86[^|]*allnachtlich"]),
+     ("No. 5 Der Mond", 0, [r"op\.? ?86[^|]*\bmond"]), ("No. 6 Altdeutsches Frühlingslied", 0, [r"op\.? ?86[^|]*altdeutsches"])]),
  # ---- Schumann (Robert only: composer must contain "robert schumann", so Clara Schumann's songs never count)
  ("Schumann Kinderszenen Op.15", SCH, [op(15), r"kindersz|kindersc"], "PD", mv([
      ("1 Von fremden Ländern", [r"fremden landern|foreign lands"]), ("2 Kuriose Geschichte", [r"c(u|k)riose geschichte|curious story"]),
