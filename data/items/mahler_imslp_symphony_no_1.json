@@ -2,9 +2,9 @@
  "id": "mahler_imslp_symphony_no_1",
  "composer": "Gustav Mahler",
  "death_year": "1911",
- "title": "Symphony No. 1",
- "catalog": "",
- "movement": "",
+ "title": "Symphony No. 1: II. Kräftig bewegt (arr. for accordion orchestra)",
+ "catalog": "GMW 11",
+ "movement": "II. Kräftig bewegt, doch nicht zu schnell (Scherzo / Ländler)",
  "mood_tags": "classical;lyrical",
  "tempo_energy": "moderate / opening",
  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Source: IMSLP file PMLP15427-Symphony-1-2-Mahler.mscz (file), licence CC BY 4.0 per the IMSLP file tag. CC BY 4.0: credit \"PMLP15427-Symphony-1-2-Mahler.mscz\" by its IMSLP uploader, via IMSLP (https://imslp.org/wiki/Symphony_No.1%2C_GMW_11_%28Mahler%2C_Gustav%29). Converted .mscz/.mxl to MIDI with MuseScore 4 CLI; original engraving file kept. No third-party recording; the site plays the MIDI in-browser. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
+ "legal_notes": "Source: IMSLP file PMLP15427-Symphony-1-2-Mahler.mscz (file), licence CC BY 4.0 per the IMSLP file tag. CC BY 4.0: credit \"PMLP15427-Symphony-1-2-Mahler.mscz\" by its IMSLP uploader, via IMSLP (https://imslp.org/wiki/Symphony_No.1%2C_GMW_11_%28Mahler%2C_Gustav%29). Converted .mscz/.mxl to MIDI with MuseScore 4 CLI; original engraving file kept. No third-party recording; the site plays the MIDI in-browser. Content check 2026-10-10: this file holds only movement II (Kräftig bewegt, A major, 3/4, ~7 min) in a third-party arrangement for accordion orchestra, not the full orchestral symphony; title corrected. The arranger is the IMSLP uploader (CC BY 4.0, credit them). No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/mahler_imslp_symphony_no_1.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -26,7 +26,7 @@
  "source_rank": "9",
  "source_name": "imslp",
  "licence_class": "clean",
- "instrumentation": "orchestra",
+ "instrumentation": "accordion orchestra (18 accordion parts), timpani, triangle",
  "popularity": "",
  "genre": "classical",
  "era": "Late Romantic / early 20th",
@@ -80,5 +80,5 @@
   "zip_member": ""
  },
  "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
- "credit_text": "Gustav Mahler: Symphony No. 1 (composition public domain).\nScore edition: https://imslp.org/wiki/Symphony_No.1%2C_GMW_11_%28Mahler%2C_Gustav%29. Licence: CC BY 4.0."
+ "credit_text": "Gustav Mahler: Symphony No. 1: II. Kräftig bewegt (arr. for accordion orchestra), GMW 11 (composition public domain).\nScore edition: https://imslp.org/wiki/Symphony_No.1%2C_GMW_11_%28Mahler%2C_Gustav%29. Licence: CC BY 4.0."
 }
