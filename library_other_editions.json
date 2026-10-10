@@ -8870,6 +8870,15 @@
    "licence": "CC0"
   }
  ],
+ "gambardella_salvatore_gambardella_o_mare": [
+  {
+   "id": "gambardella_salvatore_gambardella_o_mareb2",
+   "source": "pdmx",
+   "title": "O Marenariello [GmG]",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "gastoldi_la_sirena_for_3_part_recorde": [
   {
    "id": "gastoldi_la_sirena_giovanni_gastoldi",
@@ -10578,6 +10587,15 @@
    "licence": "CC0"
   }
  ],
+ "gruber_silent_nightb2": [
+  {
+   "id": "gruber_silent_night_for_solo_guitar",
+   "source": "pdmx",
+   "title": "Silent Night for Solo Guitar",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "handel_775_joy_to_the_world_multi": [
   {
    "id": "handel_joy_to_the_world_satbb2",
@@ -11996,6 +12014,45 @@
    "id": "holmes_augusta_holmes_la_chanson_de",
    "source": "pdmx",
    "title": "La Chanson de Jean Prouvaire",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "hplayford_henry_playford_whimbleton_ho": [
+  {
+   "id": "hplayford_henry_playford_whimbleton_hob2",
+   "source": "pdmx",
+   "title": "Whimbleton House 5-time",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "hume_love_s_farewell_tenor_viol": [
+  {
+   "id": "hume_lovesfarewell_bassviol_tab",
+   "source": "pdmx",
+   "title": "LovesFarewell.BassViol_TAB",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "hume_love_s_farewell_treble_viol",
+   "source": "pdmx",
+   "title": "Love's_Farewell treble viol",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "hume_love_s_farewell_for_bass_vio",
+   "source": "pdmx",
+   "title": "Love's Farewell for Bass Viol",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "hume_love_s_farewell_for_viol_in",
+   "source": "pdmx",
+   "title": "Love's Farewell for Viol in Plainway / ffeff Tuning",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -15693,6 +15750,119 @@
    "licence": "CC0"
   }
  ],
+ "nielgow_neil_gow_glenburnie_rant": [
+  {
+   "id": "nielgow_neil_gow_the_glenburnie_rant",
+   "source": "pdmx",
+   "title": "Neil Gow - the Glenburnie Rant",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_calum_crubach": [
+  {
+   "id": "nielgow_niel_gow_miss_sarah_drummond",
+   "source": "pdmx",
+   "title": "Miss Sarah Drummond of Perth",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_dunkeld_harmitage": [
+  {
+   "id": "nielgow_niel_gow_dunkeld_hermitage",
+   "source": "pdmx",
+   "title": "Dunkeld Hermitage",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_lamentation_for_jam": [
+  {
+   "id": "nielgow_composed_by_neil_gow_neil_go",
+   "source": "pdmx",
+   "title": "Composed by Neil Gow - Neil Gow's Lamentation For Moray Of Abercarary. RHu.165",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_mr_moray_of_abercai": [
+  {
+   "id": "nielgow_niel_gow_mr_moray_of_abercar",
+   "source": "pdmx",
+   "title": "Mr. Moray of Abercarney",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_mrs_macdouall_grant": [
+  {
+   "id": "nielgow_niel_gow_mrs_macdouall_grantb3",
+   "source": "pdmx",
+   "title": "Mrs MacDouall Grant [AABCC]",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_niel_gow_s_quickste": [
+  {
+   "id": "nielgow_niel_gow_quickstep",
+   "source": "pdmx",
+   "title": "Quickstep",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_s_lament_for_the_de": [
+  {
+   "id": "nielgow_niel_gow_niel_gow_s_lament_f",
+   "source": "pdmx",
+   "title": "Lament for the Death of His Second Wife",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_the_ladies_of_dunse": [
+  {
+   "id": "nielgow_neil_gow_duchess_of_buccleug",
+   "source": "pdmx",
+   "title": "Neil Gow - Duchess of Buccleugh",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "nielgow_neil_gow_the_duchess_of_bucc",
+   "source": "pdmx",
+   "title": "Neil Gow - the Duchess of Buccleugh",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_the_shepherd_s_croo": [
+  {
+   "id": "nielgow_neil_gow_dunkeld_bridge",
+   "source": "pdmx",
+   "title": "Neil Gow - Dunkeld Bridge",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "nielgow_niel_gow_whisky_welcome_back": [
+  {
+   "id": "nielgow_niel_gow_welcome_whiskey_bac",
+   "source": "pdmx",
+   "title": "Welcome Whiskey Back Again",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "nielgow_neil_gow_welcome_whisky_back",
+   "source": "pdmx",
+   "title": "Neil Gow - Welcome Whisky Back Again",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "nordraak_ja_vi_elsker_dette_landet_no": [
   {
    "id": "nordraak_ja_vi_elsker_dette_landetb2",
@@ -16159,6 +16329,15 @@
    "title": "We'll Bring the World His Truth/Pachelbel s Canon",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "padremartini_la_risata_martini_3_like_ste": [
+  {
+   "id": "padremartini_la_risatab2",
+   "source": "pdmx",
+   "title": "La risata",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ],
  "paganini_caprice_no_24_for_double_bas": [
@@ -17960,6 +18139,15 @@
    "id": "rossini_william_tell_overtureb2",
    "source": "pdmx",
    "title": "William Tell Overture",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rougetdelisle_la_marseillaise_en_re_majeurb51": [
+  {
+   "id": "rougetdelisle_la_marseillaise",
+   "source": "pdmx",
+   "title": "La Marseillaise",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -20121,6 +20309,15 @@
    "licence": "CC0"
   }
  ],
+ "showard_samuel_howard_deliab2": [
+  {
+   "id": "showard_samuel_howard_delia_or_the_a",
+   "source": "pdmx",
+   "title": "Delia (or The Amorous Goddess)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "skinner_dr_mchardy_banchory": [
   {
    "id": "skinner_doctor_mchardy_banchory",
@@ -20376,6 +20573,33 @@
    "id": "sullivan_the_long_day_closesb2",
    "source": "pdmx",
    "title": "The long day closes",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "susato_je_prens_en_gre_tielman_susa": [
+  {
+   "id": "susato_tielman_susato_je_prens_en_g",
+   "source": "pdmx",
+   "title": "Je prens en gré",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "susato_mille_regretz_tielman_susato": [
+  {
+   "id": "susato_tielman_susato_mille_regretz",
+   "source": "pdmx",
+   "title": "Mille regretz",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "susato_pour_quoy_tielman_susato_c_1": [
+  {
+   "id": "susato_pour_quoy_tielman_susato_c_1b2",
+   "source": "pdmx",
+   "title": "Pour Quoy - Tielman Susato (c.1510 - c.1570)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -22377,6 +22601,15 @@
    "licence": "PD"
   }
  ],
+ "unknown_op9_grablied": [
+  {
+   "id": "cornelius_grablied",
+   "source": "pdmx",
+   "title": "Grablied",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "unknown_s100_abschied_farewell": [
   {
    "id": "unknown_s100_ballade",
@@ -23532,6 +23765,157 @@
    "licence": "CC0"
   }
  ],
+ "wmarshall_william_marshall_bog_o_gight": [
+  {
+   "id": "wmarshall_william_marshall_the_bog_o_g",
+   "source": "pdmx",
+   "title": "The Bog o' Gight",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_fochaber_s": [
+  {
+   "id": "wmarshall_william_marshall_the_fochabe",
+   "source": "pdmx",
+   "title": "The Fochabers Rant",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "wmarshall_william_marshall_the_illumin",
+   "source": "pdmx",
+   "title": "The Illumination 9th February 1781",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_johnston_s": [
+  {
+   "id": "wmarshall_william_marshall_mr_john_angb2",
+   "source": "pdmx",
+   "title": "Mr John Angus's Reel - of Calcutta",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_lady_jane_tb3": [
+  {
+   "id": "wmarshall_william_marshall_lady_jane_tb2",
+   "source": "pdmx",
+   "title": "Lady Jane Taylor - of Rothimay",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_look_behind": [
+  {
+   "id": "wmarshall_william_marshall_the_house_o",
+   "source": "pdmx",
+   "title": "The House of Letterfourie",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_major_l_ste": [
+  {
+   "id": "wmarshall_william_marshall_major_l_steb2",
+   "source": "pdmx",
+   "title": "Major L. Stewart's Reel - of the Island of Java",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_mill_of_lag": [
+  {
+   "id": "wmarshall_william_marshall_the_mill_of",
+   "source": "pdmx",
+   "title": "The Mill of Laggan",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_miss_kather": [
+  {
+   "id": "wmarshall_william_marshall_miss_kathar",
+   "source": "pdmx",
+   "title": "Miss Katharine Stewart Forbes' Strathspey- of Achmedden",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_miss_young": [
+  {
+   "id": "wmarshall_william_marshall_miss_sally",
+   "source": "pdmx",
+   "title": "Miss Sally Eglinson (1781)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_mr_alexandeb2": [
+  {
+   "id": "wmarshall_william_marshall_mr_alexande",
+   "source": "pdmx",
+   "title": "Mr Alexander Laing's Hornpipe - Leuchold",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_strathbogie": [
+  {
+   "id": "wmarshall_william_marshall_the_strathb",
+   "source": "pdmx",
+   "title": "The Strathbogie Toast",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_sugar_candi": [
+  {
+   "id": "wmarshall_william_marshall_earl_of_ang",
+   "source": "pdmx",
+   "title": "Earl of Angus and Arran [AABCBC]",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_the_buck_of": [
+  {
+   "id": "wmarshall_william_marshall_the_buck_ofb2",
+   "source": "pdmx",
+   "title": "The Buck of the Carrach",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_the_maquis": [
+  {
+   "id": "wmarshall_william_marshall_the_marquis",
+   "source": "pdmx",
+   "title": "The Marquis of Bowmont's Reel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_the_road_to": [
+  {
+   "id": "wmarshall_wm_marshall_the_road_to_berw",
+   "source": "pdmx",
+   "title": "Wm MARSHALL - THE ROAD TO BERWICK",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "wmarshall_william_marshall_william_gib": [
+  {
+   "id": "wmarshall_william_marshall_william_gibb2",
+   "source": "pdmx",
+   "title": "William Gibson Graig M.P.",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
  "wolf_aufblick": [
   {
    "id": "wolf_aufblickb2",
@@ -23566,6 +23950,15 @@
    "title": "Wallis unser Heimatland",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "work_henry_clay_work_marching_thr": [
+  {
+   "id": "work_marching_through_georgia",
+   "source": "pdmx",
+   "title": "Marching Through Georgia",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
   }
  ]
 }

@@ -1,0 +1,378 @@
+{
+ "generated": "2026-10-10T03:40+0200",
+ "source": "Scale run 4: hand-disambiguated PDMX composer_name values that gen_pdmx_composers.py skipped (ambiguous Wikidata hit, or credit-year check tripped by publication years). Each entry was resolved by reading the PDMX titles (e.g. Strathspeys/reels -> the Scottish fiddler; psalm settings -> Goudimel) and checking the Wikidata life dates. All died <= 1929. Loaded by schema.py as tier 6, full-name match only.",
+ "composers": [
+  {
+   "canon": "william marshall",
+   "name": "William Marshall",
+   "birth": 1748,
+   "death": 1833,
+   "prefix": "wmarshall",
+   "wikidata": "Q1724782",
+   "aliases": [
+    "wm marshall"
+   ],
+   "note": "Scottish fiddler-composer; PDMX titles are his strathspeys/reels (1781/1822 collections). Other Wikidata William Marshalls are a 1806-1875 organist (also PD) and 20th-c. singers/actors (no match to these titles)."
+  },
+  {
+   "canon": "niel gow",
+   "name": "Niel Gow",
+   "birth": 1727,
+   "death": 1807,
+   "prefix": "nielgow",
+   "wikidata": "Q1531562",
+   "aliases": [
+    "neil gow"
+   ],
+   "note": "Scottish fiddler; his son Niel Gow jr (1794-1823) is also PD. Nathaniel Gow is a separate existing composer (full-name match keeps them apart)."
+  },
+  {
+   "canon": "tielman susato",
+   "name": "Tielman Susato",
+   "birth": 1510,
+   "death": 1570,
+   "prefix": "susato",
+   "wikidata": "Q547783",
+   "aliases": [],
+   "note": "credit year 1551 is the Danserye publication year"
+  },
+  {
+   "canon": "claude goudimel",
+   "name": "Claude Goudimel",
+   "birth": 1505,
+   "death": 1572,
+   "prefix": "goudimel",
+   "wikidata": "Q497713",
+   "aliases": [],
+   "note": "Genevan psalm settings"
+  },
+  {
+   "canon": "thomas clark",
+   "name": "Thomas Clark",
+   "birth": 1775,
+   "death": 1859,
+   "prefix": "tclark",
+   "wikidata": "Q7788437",
+   "aliases": [],
+   "note": "Thomas Clark of Canterbury, West Gallery hymn tunes/anthems (titles 'from A Second Set ...'); the other hit is a living digital artist with no match to these titles."
+  },
+  {
+   "canon": "francisco valls",
+   "name": "Francisco Valls",
+   "birth": 1665,
+   "death": 1747,
+   "prefix": "valls",
+   "wikidata": "Q1349459",
+   "aliases": [],
+   "note": "Catalan Baroque maestro de capilla; titles are villancicos/motets. Other hit is a modern singer."
+  },
+  {
+   "canon": "henry playford",
+   "name": "Henry Playford",
+   "birth": 1657,
+   "death": 1709,
+   "prefix": "hplayford",
+   "wikidata": "Q15512089",
+   "aliases": [],
+   "note": "credit years are Dancing Master edition years"
+  },
+  {
+   "canon": "daniel dow",
+   "name": "Daniel Dow",
+   "birth": 1732,
+   "death": 1783,
+   "prefix": "dow",
+   "wikidata": "Q5216992",
+   "aliases": [],
+   "note": "credit years are collection years"
+  },
+  {
+   "canon": "james oswald",
+   "name": "James Oswald",
+   "birth": 1710,
+   "death": 1769,
+   "prefix": "oswald",
+   "wikidata": "Q6140679",
+   "aliases": [],
+   "note": "Caledonian Pocket Companion"
+  },
+  {
+   "canon": "john bowie",
+   "name": "John Bowie",
+   "birth": null,
+   "death": 1815,
+   "prefix": "jbowie",
+   "wikidata": "Q6222681",
+   "aliases": [],
+   "note": "Perth fiddler/publisher, collection 1789"
+  },
+  {
+   "canon": "ferdinando di lasso",
+   "name": "Ferdinando di Lasso",
+   "birth": 1560,
+   "death": 1609,
+   "prefix": "ferdlasso",
+   "wikidata": "Q1406105",
+   "aliases": [
+    "ferdinand di lasso"
+   ],
+   "note": "son of Orlando di Lasso; the grandson (1592-1636) is also PD"
+  },
+  {
+   "canon": "franz xaver gruber",
+   "name": "Franz Xaver Gruber",
+   "birth": 1787,
+   "death": 1863,
+   "prefix": "gruber",
+   "wikidata": "Q513185",
+   "aliases": [
+    "franz gruber"
+   ],
+   "note": "Stille Nacht; the other Franz (Xaver) Grubers in Wikidata are a singer/writer with no matching titles"
+  },
+  {
+   "canon": "charles dibdin",
+   "name": "Charles Dibdin",
+   "birth": 1745,
+   "death": 1814,
+   "prefix": "dibdin",
+   "wikidata": "Q1064116",
+   "aliases": [],
+   "note": "son Charles I. M. Dibdin (1768-1833) is also PD"
+  },
+  {
+   "canon": "martin luther",
+   "name": "Martin Luther",
+   "birth": 1483,
+   "death": 1546,
+   "prefix": "luther",
+   "wikidata": "Q9554",
+   "aliases": [],
+   "note": "chorale melodies (Ein feste Burg etc.)"
+  },
+  {
+   "canon": "henry clay work",
+   "name": "Henry Clay Work",
+   "birth": 1832,
+   "death": 1884,
+   "prefix": "work",
+   "wikidata": "Q3025798",
+   "aliases": [
+    "henry c work"
+   ],
+   "note": "credit years are publication years"
+  },
+  {
+   "canon": "philippe verdelot",
+   "name": "Philippe Verdelot",
+   "birth": 1480,
+   "death": 1552,
+   "prefix": "verdelot",
+   "wikidata": "Q714219",
+   "aliases": [],
+   "note": "madrigals"
+  },
+  {
+   "canon": "robert white",
+   "name": "Robert White",
+   "birth": 1538,
+   "death": 1574,
+   "prefix": "rwhite",
+   "wikidata": "Q1998583",
+   "aliases": [],
+   "note": "Tudor church music (Magnificat, Lamentations); other hits are 20th-c. American singers"
+  },
+  {
+   "canon": "samuel howard",
+   "name": "Samuel Howard",
+   "birth": 1710,
+   "death": 1782,
+   "prefix": "showard",
+   "wikidata": "Q18672293",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "william reeve",
+   "name": "William Reeve",
+   "birth": 1757,
+   "death": 1815,
+   "prefix": "reeve",
+   "wikidata": "Q8017451",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "john jenkins",
+   "name": "John Jenkins",
+   "birth": 1592,
+   "death": 1678,
+   "prefix": "jjenkins",
+   "wikidata": "Q1509098",
+   "aliases": [],
+   "note": "viol consort pavans; other hit is a 1931-1993 jazz saxophonist with no matching titles"
+  },
+  {
+   "canon": "peter cornelius",
+   "name": "Peter Cornelius",
+   "birth": 1824,
+   "death": 1874,
+   "prefix": "cornelius",
+   "wikidata": "Q57257",
+   "aliases": [],
+   "note": "German Lieder (Grablied, Ach wie nichtig); the Austrian singer-songwriter (b.1951) has no matching titles"
+  },
+  {
+   "canon": "claude joseph rouget de lisle",
+   "name": "Claude Joseph Rouget de Lisle",
+   "birth": 1760,
+   "death": 1836,
+   "prefix": "rougetdelisle",
+   "wikidata": "Q207660",
+   "aliases": [],
+   "note": "La Marseillaise (1792)"
+  },
+  {
+   "canon": "christopher tye",
+   "name": "Christopher Tye",
+   "birth": 1505,
+   "death": 1573,
+   "prefix": "tye",
+   "wikidata": "Q1087040",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "tobias hume",
+   "name": "Tobias Hume",
+   "birth": 1569,
+   "death": 1645,
+   "prefix": "hume",
+   "wikidata": "Q938499",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "johann walter",
+   "name": "Johann Walter",
+   "birth": 1496,
+   "death": 1570,
+   "prefix": "jwalter",
+   "wikidata": "Q702924",
+   "aliases": [],
+   "note": "Lutheran chorales; all Johann Walters in Wikidata died before 1750"
+  },
+  {
+   "canon": "johannes lupi",
+   "name": "Johannes Lupi",
+   "birth": 1506,
+   "death": 1539,
+   "prefix": "lupi",
+   "wikidata": "Q2390385",
+   "aliases": [],
+   "note": "chansons"
+  },
+  {
+   "canon": "giovanni battista martini",
+   "name": "Giovanni Battista Martini",
+   "birth": 1706,
+   "death": 1784,
+   "prefix": "padremartini",
+   "wikidata": "Q283651",
+   "aliases": [],
+   "note": "Padre Martini"
+  },
+  {
+   "canon": "hieronymus praetorius",
+   "name": "Hieronymus Praetorius",
+   "birth": 1560,
+   "death": 1629,
+   "prefix": "hpraetorius",
+   "wikidata": "Q565543",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "john farmer",
+   "name": "John Farmer",
+   "birth": 1570,
+   "death": 1601,
+   "prefix": "jfarmer",
+   "wikidata": "Q510683",
+   "aliases": [],
+   "note": "madrigalist (Fair Phyllis); the other John Farmer (1835-1901) is also PD"
+  },
+  {
+   "canon": "alessandro striggio",
+   "name": "Alessandro Striggio",
+   "birth": 1540,
+   "death": 1592,
+   "prefix": "striggio",
+   "wikidata": "Q1377115",
+   "aliases": [],
+   "note": "madrigals; the younger Striggio (1573-1630) is a librettist and also PD"
+  },
+  {
+   "canon": "george william warren",
+   "name": "George William Warren",
+   "birth": 1828,
+   "death": 1902,
+   "prefix": "gwwarren",
+   "wikidata": "Q20726537",
+   "aliases": [],
+   "note": ""
+  },
+  {
+   "canon": "salvatore gambardella",
+   "name": "Salvatore Gambardella",
+   "birth": 1871,
+   "death": 1913,
+   "prefix": "gambardella",
+   "wikidata": "Q3946068",
+   "aliases": [],
+   "note": "O Marenariello (1893)"
+  }
+ ],
+ "flagged_1930_1955": [
+  {
+   "name": "Kerry Mills",
+   "birth": 1869,
+   "death": 1948,
+   "wikidata": "Q1274305",
+   "pdmx_rows": 8,
+   "note": "At a Georgia Camp Meeting (1897), Whistling Rufus (1899): US-PD by publication date, EU/life+70 PD since 2019. Not added: bulk gate is death <= 1929."
+  },
+  {
+   "name": "Euday L. Bowman",
+   "birth": 1887,
+   "death": 1949,
+   "wikidata": "Q3059496",
+   "pdmx_rows": 4,
+   "note": "12th Street Rag (1914): US-PD; EU PD since 2020. Not added (gate)."
+  },
+  {
+   "name": "Cecil Macklin",
+   "birth": 1883,
+   "death": 1944,
+   "wikidata": "Q109884987",
+   "pdmx_rows": 5,
+   "note": "Tres Moutarde (1911). Not added (gate)."
+  },
+  {
+   "name": "Ernesto De Curtis",
+   "birth": 1875,
+   "death": 1937,
+   "wikidata": "Q1356854",
+   "pdmx_rows": 14,
+   "note": "Torna a Sorrento (1902/1905). Not added (gate)."
+  }
+ ],
+ "excluded": [
+  {
+   "name": "Irving Berlin",
+   "death": 1989,
+   "pdmx_rows": 50,
+   "note": "pre-1931 songs are US-PD but composer died 1989: excluded by the > 1955 rule."
+  }
+ ]
+}

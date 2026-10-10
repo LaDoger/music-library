@@ -211,6 +211,16 @@ if GENERATED_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSE
         _RAW.append((_entry["canon"], _entry["name"], _entry["death"], _entry["prefix"], 6, _entry["aliases"]))
         GENERATED_CANONS.add(_entry["canon"])
 
+# Scale run 4: hand-disambiguated names the generator skipped (see the json's notes).
+MANUAL_FILE = Path(__file__).resolve().parent / "pdmx_composers_manual.json"
+if MANUAL_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"):
+    _known = {item[0] for item in _RAW}
+    for _entry in json.loads(MANUAL_FILE.read_text(encoding="utf-8"))["composers"]:
+        if _entry["canon"] in _known or _entry.get("death") is None or _entry["death"] > 1929:
+            continue
+        _RAW.append((_entry["canon"], _entry["name"], _entry["death"], _entry["prefix"], 6, _entry["aliases"]))
+        GENERATED_CANONS.add(_entry["canon"])
+
 COMPOSERS = {}
 for canon, display, death, prefix, tier, _aliases in _RAW:
     COMPOSERS[canon] = {
