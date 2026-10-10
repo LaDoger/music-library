@@ -6764,6 +6764,13 @@
    "title": "Arabesque N1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_imslp_l_66_no_1_arabesque_no_1",
+   "source": "imslp",
+   "title": "Arabesque No. 1",
+   "url": "https://imslp.org/wiki/2_Arabesques%2C_CD_74_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "debussy_ballade_c_debussy": [
@@ -6885,6 +6892,20 @@
    "title": "III. Clair de Lune",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_lune",
+   "source": "imslp",
+   "title": "Suite bergamasque: Clair de lune",
+   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_luneb2",
+   "source": "imslp",
+   "title": "Suite bergamasque: Clair de lune",
+   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "debussy_clair_de_luneb2": [
@@ -7055,6 +7076,15 @@
    "title": "Hommage à Rameau de Images (2) Claude Debussy",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "debussy_imslp_l_66_no_2_arabesque_no_2": [
+  {
+   "id": "debussy_imslp_l_66_no_2_arabesque_no_2b2",
+   "source": "imslp",
+   "title": "Arabesque No. 2",
+   "url": "https://imslp.org/wiki/2_Arabesques%2C_CD_74_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "debussy_iv_passepied": [
@@ -8407,6 +8437,106 @@
    "licence": "PD"
   }
  ],
+ "elgar_imslp_op_28_organ_sonata_no_1_movement_1_arr_for": [
+  {
+   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_4_arr_for",
+   "source": "imslp",
+   "title": "Organ Sonata No. 1: movement 4 (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_3_arr_for",
+   "source": "imslp",
+   "title": "Organ Sonata No. 1: movement 3 (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_2_arr_for",
+   "source": "imslp",
+   "title": "Organ Sonata No. 1: movement 2 (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra": [
+  {
+   "id": "elgar_imslp_op_31_after_arr_for_orchestra",
+   "source": "imslp",
+   "title": "After (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/2_Songs%2C_Op.31_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_op_41_in_the_dawn_arr_for_orchestra": [
+  {
+   "id": "elgar_imslp_op_41_speak_music_arr_for_orchestra",
+   "source": "imslp",
+   "title": "Speak Music (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/2_Songs%2C_Op.41_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc": [
+  {
+   "id": "elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc",
+   "source": "imslp",
+   "title": "O Soft Was the Song (in E) (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/3_Songs%2C_Op.59_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "elgar_imslp_op_59_twilight_arr_for_orchestra",
+   "source": "imslp",
+   "title": "Twilight (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/3_Songs%2C_Op.59_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch",
+   "source": "imslp",
+   "title": "Was It Some Golden Star? (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/3_Songs%2C_Op.59_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_op_60_the_torch_arr_for_orchestra": [
+  {
+   "id": "elgar_imslp_op_60_the_river_arr_for_orchestra",
+   "source": "imslp",
+   "title": "The River (arr. for orchestra)",
+   "url": "https://imslp.org/wiki/2_Songs%2C_Op.60_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_the_language_of_flowers_arr_for_orchestrab51": [
+  {
+   "id": "elgar_imslp_the_language_of_flowers",
+   "source": "imslp",
+   "title": "The Language of Flowers",
+   "url": "https://imslp.org/wiki/The_Language_of_Flowers_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version": [
+  {
+   "id": "elgar_imslp_the_pipes_of_pan_arr_for_orchestra_versionb2",
+   "source": "imslp",
+   "title": "The Pipes of Pan (arr. for orchestra) [version B]",
+   "url": "https://imslp.org/wiki/The_Pipes_of_Pan_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
+ "elgar_op_12_salut_d_amour_liebesgruss": [
+  {
+   "id": "elgar_imslp_op_12_salut_d_amour",
+   "source": "imslp",
+   "title": "Salut d'amour",
+   "url": "https://imslp.org/wiki/Salut_d%27amour%2C_Op.12_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
  "elgar_op_36_enigma_variations_x_intermezzo_edward_elga": [
   {
    "id": "elgar_op_36_elgar_enigma_variations_xi_nimrod",
@@ -8421,6 +8551,13 @@
    "title": "Nimrod",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "elgar_imslp_op_36_enigma_variations_nimrod",
+   "source": "imslp",
+   "title": "Enigma Variations: Nimrod",
+   "url": "https://imslp.org/wiki/Variations_on_an_Original_Theme_%27Enigma%27%2C_Op.36_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "elgar_pomp_circumstance_1": [
@@ -12233,6 +12370,22 @@
    "title": "Second Suite in F for military band",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "holst_op_29_no_2_st_paul_s_suite": [
+  {
+   "id": "holst_imslp_op_29_no_2_st_paul_s_suite",
+   "source": "imslp",
+   "title": "St Paul's Suite",
+   "url": "https://imslp.org/wiki/St._Paul%27s_Suite%2C_Op.29_No.2_%28Holst%2C_Gustav%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51",
+   "source": "imslp",
+   "title": "St Paul's Suite (arr. for string quintet)",
+   "url": "https://imslp.org/wiki/St._Paul%27s_Suite%2C_Op.29_No.2_%28Holst%2C_Gustav%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "holst_op_32_jupiter_bringer_of_jollity": [
@@ -17763,6 +17916,15 @@
    "licence": "CC0"
   }
  ],
+ "rachmaninoff_prelude_op3_no2": [
+  {
+   "id": "rachmaninoff_imslp_op_3_no_2_prelude_in_c_sharp_minor",
+   "source": "imslp",
+   "title": "Prelude in C-sharp minor",
+   "url": "https://imslp.org/wiki/Morceaux_de_fantaisie%2C_Op.3_%28Rachmaninoff%2C_Sergei%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
  "rameau_avec_du_vin_endormons_nous_r": [
   {
    "id": "rameau_avec_du_vin_endormons_nous_rb2",
@@ -19064,6 +19226,20 @@
    "title": "Gnossienne n1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "satie_imslp_gnossienne_no_1_arr_for_quartet",
+   "source": "imslp",
+   "title": "Gnossienne No. 1 (arr. for quartet)",
+   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "satie_imslp_gnossienne_no_1_arr_for_quintet",
+   "source": "imslp",
+   "title": "Gnossienne No. 1 (arr. for quintet)",
+   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "satie_gnossienne_n2_solo": [
@@ -19089,6 +19265,13 @@
    "title": "Gymnopédie No. 1 by Satie transposed to C arranged for lever harp",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "satie_imslp_gymnopedie_no_1",
+   "source": "imslp",
+   "title": "Gymnopédie No. 1",
+   "url": "https://imslp.org/wiki/3_Gymnop%C3%A9dies_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "satie_gymnopedie_no_1_guitar": [
@@ -19098,6 +19281,15 @@
    "title": "Gymnopédie No. 1 Guitar",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "satie_je_te_veux": [
+  {
+   "id": "satie_imslp_je_te_veux",
+   "source": "imslp",
+   "title": "Je te veux",
+   "url": "https://imslp.org/wiki/Je_te_veux_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "satie_la_grenouille_americaine_eri": [
@@ -24169,6 +24361,15 @@
    "licence": "CC0"
   }
  ],
+ "wagner_wwv70_tannhauser_overture": [
+  {
+   "id": "wagner_imslp_wwv_70_tannhauser_overture_selections",
+   "source": "imslp",
+   "title": "Tannhäuser: Overture (selections)",
+   "url": "https://imslp.org/wiki/Tannh%C3%A4user%2C_WWV_70_%28Wagner%2C_Richard%29",
+   "licence": "CC0"
+  }
+ ],
  "wagner_wwv70_wagner_pilgerchor_aus_tannha": [
   {
    "id": "wagner_wwv70_wagner_pilgerchor_aus_tannhab2",
@@ -24220,6 +24421,15 @@
    "source": "pdmx",
    "title": "Siegfried Akt 2: Siegfried vs Fafner. WWV 86C. {Professional production full score.}",
    "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "wagner_wwv86d_siegfried_funeral_march": [
+  {
+   "id": "wagner_imslp_wwv_86d_gotterdammerung_siegfried_s_death",
+   "source": "imslp",
+   "title": "Götterdämmerung: Siegfried's Death",
+   "url": "https://imslp.org/wiki/G%C3%B6tterd%C3%A4mmerung%2C_WWV_86D_%28Wagner%2C_Richard%29",
    "licence": "CC0"
   }
  ],

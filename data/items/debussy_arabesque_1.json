@@ -134,6 +134,13 @@
    "title": "Arabesque N1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_imslp_l_66_no_1_arabesque_no_1",
+   "source": "imslp",
+   "title": "Arabesque No. 1",
+   "url": "https://imslp.org/wiki/2_Arabesques%2C_CD_74_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,

@@ -242,7 +242,7 @@ def source_tier(row: dict) -> int:
         return 2
     if name.startswith("music21"):
         return 3
-    if name == "commons":  # hand-vetted gap fillers never displace an id that is already live
+    if name in ("commons", "imslp"):  # hand-vetted gap fillers never displace an id that is already live
         return 5
     return 4
 

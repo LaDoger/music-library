@@ -71,6 +71,13 @@
    "title": "Gymnopédie No. 1 by Satie transposed to C arranged for lever harp",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "satie_imslp_gymnopedie_no_1",
+   "source": "imslp",
+   "title": "Gymnopédie No. 1",
+   "url": "https://imslp.org/wiki/3_Gymnop%C3%A9dies_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,

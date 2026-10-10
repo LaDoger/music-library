@@ -64,7 +64,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_je_te_veux.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "satie_imslp_je_te_veux",
+   "source": "imslp",
+   "title": "Je te veux",
+   "url": "https://imslp.org/wiki/Je_te_veux_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_je_te_veux",

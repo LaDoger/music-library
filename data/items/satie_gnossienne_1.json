@@ -87,6 +87,20 @@
    "title": "Gnossienne n1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "satie_imslp_gnossienne_no_1_arr_for_quartet",
+   "source": "imslp",
+   "title": "Gnossienne No. 1 (arr. for quartet)",
+   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "satie_imslp_gnossienne_no_1_arr_for_quintet",
+   "source": "imslp",
+   "title": "Gnossienne No. 1 (arr. for quintet)",
+   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,

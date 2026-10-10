@@ -59,7 +59,15 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 227.91,
  "midi_play_url": "",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "rachmaninoff_imslp_op_3_no_2_prelude_in_c_sharp_minor",
+   "source": "imslp",
+   "title": "Prelude in C-sharp minor",
+   "url": "https://imslp.org/wiki/Morceaux_de_fantaisie%2C_Op.3_%28Rachmaninoff%2C_Sergei%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rachmaninoff_prelude_op3_no2",

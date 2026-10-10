@@ -67,7 +67,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/holst_op_29_no_2_st_paul_s_suite.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "holst_imslp_op_29_no_2_st_paul_s_suite",
+   "source": "imslp",
+   "title": "St Paul's Suite",
+   "url": "https://imslp.org/wiki/St._Paul%27s_Suite%2C_Op.29_No.2_%28Holst%2C_Gustav%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51",
+   "source": "imslp",
+   "title": "St Paul's Suite (arr. for string quintet)",
+   "url": "https://imslp.org/wiki/St._Paul%27s_Suite%2C_Op.29_No.2_%28Holst%2C_Gustav%29",
+   "licence": "CC BY 4.0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=holst_op_29_no_2_st_paul_s_suite",

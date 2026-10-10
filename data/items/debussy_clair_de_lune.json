@@ -106,6 +106,20 @@
    "title": "III. Clair de Lune",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_lune",
+   "source": "imslp",
+   "title": "Suite bergamasque: Clair de lune",
+   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_luneb2",
+   "source": "imslp",
+   "title": "Suite bergamasque: Clair de lune",
+   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,

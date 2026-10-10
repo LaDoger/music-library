@@ -81,6 +81,13 @@
    "title": "Nimrod",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "elgar_imslp_op_36_enigma_variations_nimrod",
+   "source": "imslp",
+   "title": "Enigma Variations: Nimrod",
+   "url": "https://imslp.org/wiki/Variations_on_an_Original_Theme_%27Enigma%27%2C_Op.36_%28Elgar%2C_Edward%29",
+   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,
