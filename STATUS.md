@@ -173,3 +173,4 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 | CP-OCR1-5 | 2026-10-11T00:13+02:00 | Live adds: Kreisleriana 1, Fantasiestücke 3, Nachtstücke 2-3, Carnaval 4, Albumblätter 11. All OMR done (op26 done). Novelletten 300 dpi export failed again → Sol transcribes from page images (out/op21b, placeholder .mxl); reexport.sh retry running. | Running |
 | CP-OCR1-6 | 2026-10-11T00:30+02:00 | Live adds: Papillons 4-5, Davidsbündlertänze 1. Novelletten 300 dpi re-export succeeded with sheets 6, 9 skipped (out/op21b); Sol corrects it with page images for skipped pages. | Running |
 | CP-OCR1-7 | 2026-10-11T00:45+02:00 | Live adds: Papillons 6-7, Davidsbündlertänze 2. Nachtstücke No.4 (long) in final proofread. | Running |
+| CP-OCR1-8 | 2026-10-11T01:00+02:00 | Live adds: Papillons 8-9, Nachtstücke 4 (set COMPLETE), Carnaval 6. | Running |
