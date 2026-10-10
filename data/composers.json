@@ -17457,8 +17457,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 154,
-  "score_count": 154,
+  "piece_count": 157,
+  "score_count": 157,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17614,7 +17614,10 @@
    "schumann_op124_albumblaetter_11",
    "schumann_op2_papillons_4",
    "schumann_op2_papillons_5",
-   "schumann_op6_davidsbuendlertaenze_1"
+   "schumann_op6_davidsbuendlertaenze_1",
+   "schumann_op2_papillons_6",
+   "schumann_op2_papillons_7",
+   "schumann_op6_davidsbuendlertaenze_2"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
