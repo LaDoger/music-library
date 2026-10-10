@@ -458,6 +458,19 @@
     "rakhmaninov"
    ],
    "note": "LaDoger approved 2026-10-10 (depth run 1): US-PD-only, works published before 1931 (Concertos 1-3, Preludes, Études-tableaux, Vespers ...); post-1930 works excluded. Checklist: scripts/bulk/catalogue_data.py -> docs/catalogues/."
+  },
+  {
+   "canon": "bela bartok",
+   "name": "Béla Bartók",
+   "birth": 1881,
+   "death": 1945,
+   "prefix": "bartok",
+   "aliases": [
+    "bartok",
+    "bela bartok",
+    "béla bartók"
+   ],
+   "note": "LaDoger approved 2026-10-11 (priority composer): US-PD-only, works published before 1931 (Sz. 39, 42, 47, 49, 55, 56, 62, 71, 80, 81, 84 per IMSLP publication years). Revised 1945 For Children is out of scope. Checklist: scripts/bulk/catalogue_data.py BARTOK -> docs/catalogues/."
   }
  ]
 }

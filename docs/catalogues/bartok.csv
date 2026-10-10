@@ -1,0 +1,13 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.6 / Sz.38,14 Bagatelles,1909,in-scope,,0,,,"Rozsnyai, Budapest 1909 (IMSLP '14 Bagatelles, Op.6'); composed 1908; all PDMX files conflict-flagged, so none imported"
+Sz.39,Ten Easy Pieces,1909,in-scope,yes,1,bartok_sz_39_ten_easy_pieces,pdmx,"Rozsnyai, Budapest 1909 (IMSLP, plate R.K. 293); composed 1908"
+Sz.42,For Children (original 1909-11 version),1909,in-scope,,0,,,"Rozsnyai, 4 vols 1909-11 (IMSLP); 1945 revision (Boosey & Hawkes 1947) is NOT in scope: drop it in review"
+Op.8c / Sz.47,Three Burlesques,1912,in-scope,,0,,,"Rozsavolgyi, Budapest 1912 (IMSLP)"
+Sz.49,Allegro barbaro,1918,in-scope,,0,,,"Universal Edition 1918 (IMSLP, plate U.E. 5904); composed 1911"
+Sz.55,Sonatina,1919,in-scope,,0,,,Universal Edition 1919 (IMSLP); composed 1915
+Sz.56,Romanian Folk Dances (piano),1918,in-scope,yes,1,bartok_sz_56_romanian_folk_dances_piano,pdmx,"Universal Edition 1918 (IMSLP, plate U.E. 5802); composed 1915; orch. Sz.68 not a match"
+Op.14 / Sz.62,Suite for Piano,1918,in-scope,,0,,,"Universal Edition 1918 (IMSLP, plate U.E. 5891); composed 1916"
+Sz.71,15 Hungarian Peasant Songs,1920,in-scope,,0,,,"Universal Edition 1920 (IMSLP, plate U.E. 6370); composed 1914-18"
+Sz.80,Piano Sonata,1927,in-scope,,0,,,"Universal Edition 1927 (IMSLP, plate U.E. 8772); composed 1926"
+Sz.81,Out of Doors,1927,in-scope,,0,,,Universal Edition 1927 (IMSLP); composed 1926
+Sz.84,Three Rondos on Slovak Folk Tunes,1930,in-scope,,0,,,"Universal Edition 1930 (IMSLP, plate U.E. 9508; Wikipedia 'later in 1930'); composed 1916 and 1927; at the 1930 cut-off"

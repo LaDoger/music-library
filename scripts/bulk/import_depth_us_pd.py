@@ -48,8 +48,11 @@ NAME_RX = {
     "elgar": r"(?<!m)\belgar\b",
     "holst": r"\bholst\b",
     "rachmaninoff": r"rachmanin|rakhmanin|rachmanov",
+    "bartok": r"bart[oó]k",
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
+# "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.
+ORIGINAL_EASY = re.compile(r"\b(ten|10) easy pieces\b", re.I)
 ARRANGED = re.compile(
     r"\barr\b|arr\.|arranged|arrangement|transcri|for (woodwind|brass|tuba|trombone|viola|clarinet|guitar|"
     r"band|wind|flute|saxophone|choir|organ|jazz)|woodwind|\bbrass|\btuba|mellophone|\bjazz|\bswing\b|"
@@ -204,7 +207,7 @@ def harvest(chks: list[Checklist], per_entry_cap: int = 4, per_multi_cap: int = 
                 continue
             blob = f"{raw.get('title') or ''} {raw.get('song_name') or ''}"
             orch = chk.key == "ravel" and RAVEL_ORCH.search(comp) and re.search(r"pictures|tableaux", blob, re.I)
-            if not orch and ARRANGED.search(f"{blob} {comp}"):
+            if not orch and ARRANGED.search(f"{ORIGINAL_EASY.sub('', blob)} {comp}"):
                 skipped["arranged"] += 1
                 continue
             hit = chk.match(norm(blob))

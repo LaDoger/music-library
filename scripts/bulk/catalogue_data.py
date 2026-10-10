@@ -248,6 +248,21 @@ RACHMANINOFF = [
     ("no Op.", "Polka italienne (Italian Polka)", 1906, UNV, r"italian polka|polka italienne|italian polkka", "Arrangement of a Rubinstein/Italian tune; pub. date not confirmed"),
 ]
 
+BARTOK = [
+    ("Op.6 / Sz.38", "14 Bagatelles", 1909, IN, r"bagatelle", "Rozsnyai, Budapest 1909 (IMSLP '14 Bagatelles, Op.6'); composed 1908; all PDMX files conflict-flagged, so none imported"),
+    ("Sz.39", "Ten Easy Pieces", 1909, IN, r"ten easy pieces|10 easy pieces", "Rozsnyai, Budapest 1909 (IMSLP, plate R.K. 293); composed 1908"),
+    ("Sz.42", "For Children (original 1909-11 version)", 1909, IN, r"for children", "Rozsnyai, 4 vols 1909-11 (IMSLP); 1945 revision (Boosey & Hawkes 1947) is NOT in scope: drop it in review"),
+    ("Op.8c / Sz.47", "Three Burlesques", 1912, IN, r"burlesque", "Rozsavolgyi, Budapest 1912 (IMSLP)"),
+    ("Sz.49", "Allegro barbaro", 1918, IN, r"allegro barbaro", "Universal Edition 1918 (IMSLP, plate U.E. 5904); composed 1911"),
+    ("Sz.55", "Sonatina", 1919, IN, r"sonatina", "Universal Edition 1919 (IMSLP); composed 1915"),
+    ("Sz.56", "Romanian Folk Dances (piano)", 1918, IN, r"romanian folk dances|rumanian folk dances", "Universal Edition 1918 (IMSLP, plate U.E. 5802); composed 1915; orch. Sz.68 not a match"),
+    ("Op.14 / Sz.62", "Suite for Piano", 1918, IN, r"suite op 14|suite for piano op 14|suite sz 62", "Universal Edition 1918 (IMSLP, plate U.E. 5891); composed 1916"),
+    ("Sz.71", "15 Hungarian Peasant Songs", 1920, IN, r"15 hungarian peasant songs|15 magyar parasztdal|hungarian peasant songs", "Universal Edition 1920 (IMSLP, plate U.E. 6370); composed 1914-18"),
+    ("Sz.80", "Piano Sonata", 1927, IN, r"piano sonata", "Universal Edition 1927 (IMSLP, plate U.E. 8772); composed 1926"),
+    ("Sz.81", "Out of Doors", 1927, IN, r"out of doors", "Universal Edition 1927 (IMSLP); composed 1926"),
+    ("Sz.84", "Three Rondos on Slovak Folk Tunes", 1930, IN, r"rondos? on slovak|three rondos|slovak folk tunes", "Universal Edition 1930 (IMSLP, plate U.E. 9508; Wikipedia 'later in 1930'); composed 1916 and 1927; at the 1930 cut-off"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -278,5 +293,11 @@ COMPOSERS = {
         "catalogue": "Op. (Threlfall)", "rows": RACHMANINOFF,
         "prefix": "rachmaninoff", "genre": "classical", "era": "Late Romantic",
         "scope_note": "Principal works by opus; the many songs (Op.4, 8, 14, 21, 26, 34, 38) are covered by only a few entries.",
+    },
+    "bartok": {
+        "name": "Béla Bartók", "canon": "bela bartok", "death": 1945, "birth": 1881,
+        "catalogue": "Sz. (Szőllősy) / Op. (BB numbers not used)", "rows": BARTOK,
+        "prefix": "bartok", "genre": "classical", "era": "20th century",
+        "scope_note": "The 12 works listed by LaDoger on 2026-10-11 only; publication years from IMSLP work pages. Revised 1945 For Children is out of scope.",
     },
 }
