@@ -37,7 +37,7 @@
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "scope", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id"];
+  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id", "watch"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -117,6 +117,7 @@
       for (const k of ["composer", "era"]) allowed[k] = uniq(k);
       allowed.mood = [...new Set(ROWS.flatMap((r) => r.mood_tags_list))];
       if (state.id && !BY_ID.has(state.id)) state.id = "";
+      if (state.watch && !BY_ID.has(state.watch)) state.watch = "";
     }
     for (const [k, values] of Object.entries(allowed)) if (state[k] && !values.includes(state[k])) state[k] = "";
   }
@@ -248,6 +249,9 @@
   };
   const movementSuffix = (r) => (r.movement && !fold(r.title).includes(fold(r.movement)) ? ` · ${esc(r.movement)}` : "");
 
+  const watchBtn = (r) => (r.midi_play_url
+    ? `<a class="tag watch-tag" href="?watch=${encodeURIComponent(r.id)}" data-act="watch" data-id="${esc(r.id)}" title="Watch the score play: engraved sheet music synced to live audio">▶ Watch</a>` : "");
+
   function cardHTML(r, inComposer) {
     const moods = r.mood_tags_list.slice(0, 3).map((m) => `<button type="button" class="tag mood" data-act="mood" data-mood="${esc(m)}">${esc(m)}</button>`).join("");
     const score = r.has_editable_score
@@ -265,7 +269,7 @@
           <div class="c-cat">${r.catalog ? `<span class="cat">${esc(r.catalog)}</span>` : ""}${movementSuffix(r)}</div>
         </div>
       </div>
-      <div class="meta">${score}${rec}${synth}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
+      <div class="meta">${watchBtn(r)}${score}${rec}${synth}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
       ${r.video_use_ideas ? `<p class="excerpt">${esc(r.video_use_ideas)}</p>` : ""}
       <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
     </article>`;
@@ -587,6 +591,7 @@
       linkRow(r.recording_source_url, "open the source page", ""),
     ].filter(Boolean).join(" or ")}</p>`;
     return `<div class="d-section d-listen"><h4>Listen</h4>
+      ${r.midi_play_url ? `<a class="btn watch-btn" href="?watch=${encodeURIComponent(r.id)}" data-act="watch" data-id="${esc(r.id)}">▶ Watch: score video</a>` : ""}
       ${btns ? `<div class="listen-grid">${btns}</div>` : "<p>No audio for this piece yet.</p>"}
       ${r.midi_play_url ? `<div class="tempo-row"><label for="dTempo">Tempo</label><input type="range" id="dTempo" class="tempo" min="0.5" max="1.5" step="0.05" value="${player.tempo}"><output id="dTempoOut">${Math.round(player.tempo * 100)}%</output><small>live MIDI only</small></div>
         <div class="roll-wrap" id="rollWrap" hidden><svg id="roll" aria-label="Piano roll"></svg></div>` : ""}
@@ -663,6 +668,55 @@
     for (const k of ["preview_url", "midi_play_url", "score_url"]) if (full[k] === undefined) delete full[k];
     return Object.assign(r, full, { _full: true });
   }
+  /* ---------- watch (score-video player, lazy-loaded) ---------- */
+  let watchLoad = null;
+  function loadWatch() {
+    if (!watchLoad) {
+      watchLoad = new Promise((resolve, reject) => {
+        const css = document.createElement("link");
+        css.rel = "stylesheet"; css.href = "assets/watch.css";
+        document.head.appendChild(css);
+        const s = document.createElement("script");
+        s.src = "assets/watch.js";
+        s.onload = () => resolve(window.MusicWatch);
+        s.onerror = () => { watchLoad = null; reject(new Error("could not load the watch player")); };
+        document.head.appendChild(s);
+      });
+    }
+    return watchLoad;
+  }
+  async function openWatch(id, push = true) {
+    const r = BY_ID.get(id);
+    if (!r) return;
+    if (player.id) stop();
+    closeDetail(false);
+    if (!document.body.classList.contains("watching")) lastFocus = document.activeElement;
+    document.body.classList.add("watching");
+    $$(".skip, header.top, main, .player").forEach((el) => { el.inert = true; });
+    if (state.watch !== id) { state.watch = id; state.id = ""; writeState(push); }
+    try {
+      const W = await loadWatch();
+      if (state.watch !== id) return;
+      W.open(id, {
+        rows: ROWS, byId: BY_ID, composers: COMPOSERS, loadFull,
+        navigate: (nid, replace) => { state.watch = nid; writeState(!replace); },
+        close: () => closeWatch(true),
+      });
+    } catch (err) {
+      toast(err.message);
+      closeWatch(true);
+    }
+  }
+  function closeWatch(updateUrl = true) {
+    if (!document.body.classList.contains("watching")) return;
+    document.body.classList.remove("watching");
+    if (window.MusicWatch) window.MusicWatch.close();
+    $$(".skip, header.top, main, .player").forEach((el) => { el.inert = false; });
+    if (updateUrl && state.watch) { state.watch = ""; writeState(true); }
+    else state.watch = "";
+    if (lastFocus && document.contains(lastFocus) && lastFocus !== document.body) lastFocus.focus();
+  }
+
   function openDetail(id, push = true) {
     const r = BY_ID.get(id);
     if (!r) return;
@@ -1108,6 +1162,7 @@
         case "play": return playItem(id, el.dataset.mode);
         case "mode": return playItem(id, el.dataset.mode);
         case "open": return openDetail(id);
+        case "watch": if (!plainClick(e)) return; e.preventDefault(); return openWatch(id);
         case "composer": if (!plainClick(e)) return; e.preventDefault(); return openComposer(el.dataset.composer);
         case "composers": if (!plainClick(e)) return; e.preventDefault(); return showComposers();
         case "letter": {
@@ -1161,7 +1216,7 @@
         else if (typing) t.blur();
         return;
       }
-      if (typing) return;
+      if (typing || document.body.classList.contains("watching")) return;
       if (e.key === " " || e.code === "Space") {
         if (t.matches && t.matches("button, a, [role=button], input")) return; // native activation
         e.preventDefault();
@@ -1194,6 +1249,8 @@
       readState();
       $("#q").value = state.q;
       render();
+      if (state.watch) { openWatch(state.watch, false); return; }
+      closeWatch(false);
       if (state.id) openDetail(state.id, false); else closeDetail(false);
     });
   }
@@ -1237,7 +1294,8 @@
     renderStats();
     renderPicks();
     render();
-    if (state.id) openDetail(state.id, false);
+    if (state.watch) openWatch(state.watch, false);
+    else if (state.id) openDetail(state.id, false);
   }
   boot();
 })();
