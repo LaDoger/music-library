@@ -260,10 +260,10 @@
             const tr = kid(el, "transpose");
             if (tr) trans = (+txt(tr, "chromatic", 0) || 0) + 12 * (+txt(tr, "octave-change", 0) || 0);
           } else if (t === "note") {
-            if (kid(el, "grace")) continue;
-            const dur = (+txt(el, "duration", 0) || 0) / div;
+            const grace = !!kid(el, "grace");   // no time of its own: a short note on the next beat
+            const dur = grace ? 0.125 : (+txt(el, "duration", 0) || 0) / div;
             let start;
-            if (kid(el, "chord")) start = last; else { start = pos; last = pos; pos += dur; }
+            if (grace) start = pos; else if (kid(el, "chord")) start = last; else { start = pos; last = pos; pos += dur; }
             mx = Math.max(mx, pos);
             if (kid(el, "rest") || kid(el, "cue")) continue;
             const iid = kid(el, "instrument") && kid(el, "instrument").getAttribute("id");
@@ -338,20 +338,22 @@
     st.push(n);
     for (let s = 0; s + 1 < st.length; s++) {
       const s0 = st[s], s1 = st[s + 1];
-      let i = s0, start = s0, pass = 1, jumped = false, guard = 0;
+      let i = s0, jumped = false, guard = 0;
+      const fr = [{ start: s0, pass: 1 }];   // open repeats, innermost last
       while (i < s1 && guard++ < 20 * n) {
         const M = meas[i];
-        if (M.fwd && start !== i) { start = i; pass = 1; }
+        if (M.fwd && fr[fr.length - 1].start !== i) fr.push({ start: i, pass: 1 });
+        const F = fr[fr.length - 1], pass = F.pass;
         if (M.endnums && !(jumped ? M.endnums === lastEnding(i) : M.endnums.includes(pass))) { i++; continue; }
         out.push(i);
         if (jumped && M.fine) break;
         if (jumped && M.tocoda) { let c = i + 1; while (c < s1 && !meas[c].coda) c++; if (c < s1) { i = c; continue; } }
-        if (M.bwd && !jumped && pass < M.bwd) { pass++; i = start; continue; }
-        if (M.bwd) { pass = 1; start = i + 1; }
+        if (M.bwd && !jumped && pass < M.bwd) { F.pass++; i = F.start; continue; }
+        if (M.bwd) { if (fr.length > 1) fr.pop(); else { F.pass = 1; F.start = i + 1; } }
         if ((M.dc || M.ds) && !jumped) {
-          jumped = true; pass = 1;
+          jumped = true;
           if (M.dc) i = s0; else { i = s0; for (let k = s0; k < s1; k++) if (meas[k].segno) { i = k; break; } }
-          start = i;
+          fr.length = 0; fr.push({ start: i, pass: 1 });
           continue;
         }
         i++;
