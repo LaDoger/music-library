@@ -196,12 +196,37 @@ SETS = [
  ("Richard Strauss 4 Lieder Op.27", "richard strauss", [op(27)], "US-PD-only", numbered(4, {1: [r"ruhe,? meine seele"], 2: [r"cacilie"], 3: [r"heimliche aufforderung"], 4: [r"morgen"]})),
  ("Richard Strauss Acht Gedichte Op.10", "richard strauss", [op(10)], "US-PD-only", mv([("1 Zueignung", [r"zueignung"]), ("2 Nichts", [r"\bnichts\b"]), ("3 Die Nacht", [r"die nacht"]),
      ("4 Die Georgine", [r"georgine"]), ("5 Geduld", [r"\bgeduld\b"]), ("6 Die Verschwiegenen", [r"verschwiegen"]), ("7 Die Zeitlose", [r"zeitlose"]), ("8 Allerseelen", [r"allerseelen"])])),
+ # ---- Vivaldi (d. 1741, fully PD). Concerto-level cycles; movement labels are aliases, not split files.
+ ("Vivaldi Four Seasons Op.8 Nos.1-4", "vivaldi", [r"four seasons|quattro stagioni|rv ?(269|315|293|297)\b|op\.? ?8 ?no\.? ?[1-4]\b"], "PD", [
+     ("1 Spring (RV 269)", 0, [r"\brv ?269\b|\bop\.? ?8 ?no\.? ?1\b|\bprimavera\b|\bspring\b"]),
+     ("2 Summer (RV 315)", 0, [r"\brv ?315\b|\bop\.? ?8 ?no\.? ?2\b|\bl.?estate\b|\bsummer\b|\bsommer\b"]),
+     ("3 Autumn (RV 293)", 0, [r"\brv ?293\b|\bop\.? ?8 ?no\.? ?3\b|\bl.?autunno\b|\bautumn\b|\bautomne\b|\bautumno\b"]),
+     ("4 Winter (RV 297)", 0, [r"\brv ?297\b|\bop\.? ?8 ?no\.? ?4\b|\bl.?inverno\b|\bl.?hiver\b|\bwinter\b|\binverno\b"])]),
+ ("Vivaldi L'estro armonico Op.3", "vivaldi", [op(3), r"estro"], "PD", numbered(12, label="Concerto Op.3 No. {i}")),
+ ("Vivaldi La stravaganza Op.4", "vivaldi", [op(4), r"stravaganza"], "PD", numbered(12, label="Concerto Op.4 No. {i}")),
+ ("Vivaldi Il cimento Op.8", "vivaldi", [op(8)], "PD", numbered(12, label="Concerto Op.8 No. {i}")),
+ ("Vivaldi Gloria RV 589", "vivaldi", [r"\bgloria\b|rv ?589"], "PD", [(lab, 0, [al]) for lab, al in [
+     ("I Gloria in excelsis Deo", r"gloria in excelsis"), ("II Et in terra pax", r"et in terra pax|in terra pax"),
+     ("III Laudamus te", r"laudamus te"), ("IV Gratias agimus tibi", r"gratias agimus"),
+     ("V Propter magnam gloriam", r"propter magnam"), ("VI Domine Deus", r"domine deus(?![^|]*agnus)"),
+     ("VII Domine Fili unigenite", r"domine fili"), ("VIII Domine Deus, Agnus Dei", r"agnus dei"),
+     ("IX Qui tollis", r"qui tollis"), ("X Qui sedes", r"qui sedes"), ("XI Quoniam tu solus", r"quoniam tu solus"),
+     ("XII Cum Sancto Spiritu", r"cum sancto spiritu")]]),
+ ("Vivaldi Magnificat RV 611", "vivaldi", [r"magnificat|rv ?61[01]\b"], "PD", [(lab, 0, [al]) for lab, al in [
+     ("1 Magnificat anima mea", r"magnificat anima"), ("2 Et exultavit", r"et exultavit"), ("3 Quia respexit", r"quia respexit"),
+     ("4 Quia fecit", r"quia fecit"), ("5 Et misericordia", r"et misericordia"), ("6 Fecit potentiam", r"fecit potentiam"),
+     ("7 Deposuit", r"deposuit"), ("8 Esurientes", r"esurientes"), ("9 Suscepit Israel", r"suscepit israel"),
+     ("10 Sicut locutus est", r"sicut locutus"), ("11 Gloria Patri", r"gloria patri"), ("12 Sicut erat", r"sicut erat")]]),
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
 REQUIRE = {"Beethoven 32 Piano Sonatas": r"sonat|pathetique|moonlight|mondschein|appassionata|waldstein|tempest|sturm|hammerklavier|adieux|pastoral|aurora|hunt",
            "Ravel Le Tombeau de Couperin M.68": r"tombeau", "Debussy Préludes Book I L.117": r"prelude|l\.? ?117|l\.? ?125",
            "Debussy Préludes Book II L.123": r"prelude|l\.? ?123|l\.? ?131"}
+# per-set exclusions (voice parts of a single movement; arrangements of a concerto) applied on top of EXCLUDE
+EXTRA_EXCLUDE = {"Vivaldi Gloria RV 589": r"\b(soprano|alto|tenor|bass|basso|canto)\b",
+                 "Vivaldi Magnificat RV 611": r"\b(soprano|alto|tenor|bass|basso|canto)\b|\bmagnificat\b(?![^|]*anima)",
+                 "Vivaldi Four Seasons Op.8 Nos.1-4": r"clarinet|guitar|celtic|brass|quintet|lute|flute|harp|organ|mandolin|piano|simple|didattica|duo|cello|oboe|mission|puddle|designing|lago|february|angeli|sonata|trio|vocal|mix"}
 EXCLUDE = r"\b(violin|cello|horn|flute|clarinet) sonata|\bfor (clarinet|flute|violin|cello|orchestra|band|guitar|organ|string|wind|brass)|\barr\.|arranged|arrangement|transcri|\beasy\b|simplified"
 WHOLE = {"Ravel Le Tombeau de Couperin M.68": r"^le tombeau de couperin \| +\|"}
 # Robert Schumann sets: an item must carry the set's own opus/title word (a title alias alone is not enough),
@@ -223,6 +248,7 @@ def match_set(items, s):
         own = re.search(r"op\.(\d+)", name, re.I).group(1)
         pool = [(i, h) for i, h in pool if own in re.findall(r"\bop(?:us)?\.? ?(\d+)", h) or not re.search(r"\bop(?:us)?\.? ?\d", h)]
     pool = [(i, h) for i, h in pool if not re.search(EXCLUDE, h) and (name not in REQUIRE or re.search(REQUIRE[name], h))]
+    if name in EXTRA_EXCLUDE: pool = [(i, h) for i, h in pool if not re.search(EXTRA_EXCLUDE[name], h)]
     labs = [m[0] for m in mvts]
     if name in WHOLE:
         w = [i for i, h in pool if re.search(WHOLE[name], h)]
