@@ -53,7 +53,7 @@ body.watching header.top, body.watching main, body.watching .player, body.watchi
 .w-seek::before { content: ""; position: absolute; left: 0; right: 0; top: 7px; height: 4px; border-radius: 2px; background: #2a2b31; }
 .w-seek span { position: absolute; left: 0; top: 7px; height: 4px; border-radius: 2px; background: var(--accent); width: 0; }
 .w-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.w-play { width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: #1a1710; font-size: 1.05rem; }
+.watch .w-play { color: #1a1710; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: #1a1710; font-size: 1.05rem; }
 .w-play:disabled { opacity: .4; }
 .w-time, .w-meas { font-size: .82rem; color: #b9b6ae; font-variant-numeric: tabular-nums; }
 .w-tempo { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: .8rem; color: #b9b6ae; }
@@ -91,3 +91,4 @@ body.watching header.top, body.watching main, body.watching .player, body.watchi
 .watch-tag { background: #2a2418; color: #e2c48c; text-decoration: none; border-color: #5b4d2a; }
 .watch-tag:hover { background: #3a3120; }
 .watch-btn { display: inline-block; margin-bottom: 10px; text-decoration: none; }
+.w-seg button:disabled { opacity: .35; cursor: default; }

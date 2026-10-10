@@ -99,6 +99,7 @@
       e.position = () => (e.playing ? Math.min(e.pos + (e.now() - e.started), e.seq.totalTime) : e.pos);
       e.start = (offset) => {
         e.gen++; const gen = e.gen;
+        try { e.sampler.releaseAll(); } catch { /* ok */ }
         e.pos = offset; e.started = e.now() + 0.08; e.playing = true;
         e.idx = e.notes.findIndex((n) => n.endTime > offset);
         if (e.idx < 0) e.idx = e.notes.length;
@@ -279,8 +280,9 @@
       fillCard(w, full);
       const xml = (full.score_files || []).find((f) => XML_RE.test(f));
       w.hasXml = !!xml;
-      if (!w.view) w.view = xml ? "score" : "roll";
-      setView(w, w.view);
+      w.view = xml ? (prefs.view || "score") : "roll";
+      for (const b of root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]')) b.disabled = !xml;
+      setView(w, w.view, true);
       await loadBundle();
       const res = await fetch(full.midi_play_url);
       if (!res.ok) throw new Error("MIDI " + res.status);
@@ -291,7 +293,7 @@
       if (xml) {
         setStatus("Engraving the score…");
         await new Promise((res2) => setTimeout(res2, 30));
-        try { await loadScore(w, xml); w.hasScore = true; } catch (err) { console.warn("score failed", err); w.hasScore = false; if (w.view !== "roll") setView(w, "roll"); setStatus("Score could not be drawn; showing the piano roll."); }
+        try { await loadScore(w, xml); w.hasScore = true; } catch (err) { console.warn("score failed", err); w.hasScore = false; if (w.view !== "roll") setView(w, "roll", true); root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]').forEach((b) => { b.disabled = true; }); setStatus("Score could not be drawn; showing the piano roll."); }
         if (W !== w) return;
       }
       if (w.hasScore) { w.scale = w.scoreQ > 0 ? w.tm.qOf(w.total) / w.scoreQ : 1; if (Math.abs(w.scale - 1) < 0.03) w.scale = 1; }
@@ -384,8 +386,10 @@
   }
   function loop(w) {
     if (W !== w) return;
-    if (w.engine && (w.engine.playing || w.dirty)) { sync(w); w.dirty = false; }
-    if (w.view !== "score") drawRoll(w);
+    const live = w.engine && w.engine.playing;
+    if (w.engine && (live || w.dirty)) sync(w);
+    if (w.view !== "score" && (live || w.dirty)) drawRoll(w);
+    w.dirty = false;
     w.raf = requestAnimationFrame(() => loop(w));
   }
   function drawRoll(w) {
@@ -467,16 +471,16 @@
   }
 
   /* ---------- UI ---------- */
-  function setView(w, v) {
-    if (v !== "score" && !w.rollNotes && !w.hasXml) { /* roll data arrives after MIDI loads */ }
-    w.view = v; prefs.view = v;
+  function setView(w, v, forced) {
+    w.view = v; if (!forced) prefs.view = v;
+    w.dirty = true;
     w.stage.dataset.vmode = v;
     w.root.querySelectorAll(".w-seg [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
     if (w.hasScore) requestAnimationFrame(() => { w.dirty = true; });
   }
   function setPaper(w, p) {
     prefs.paper = p; localStorage.setItem("watchPaper", p);
-    w.root.className = w.root.className.replace(/paper-\w+/, "paper-" + p) + "";
+    w.root.className = w.root.className.replace(/paper-\w+/, "paper-" + p); w.dirty = true;
     const b = w.q('[data-w="paper"]'); b.textContent = p === "dark" ? "Dark paper" : "Light paper"; b.setAttribute("aria-pressed", String(p === "light"));
   }
   function bindUI(w) {
@@ -528,6 +532,7 @@
     document.addEventListener("keydown", w.trap);
     let rt = 0;
     w.ro = new ResizeObserver(() => {
+      w.dirty = true;
       clearTimeout(rt);
       rt = setTimeout(() => {
         if (!w.hasScore || !w.paper.clientWidth || Math.abs(w.paper.clientWidth - w.lastW) < 4) return;
