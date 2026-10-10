@@ -268,7 +268,7 @@
             <button class="w-icon" type="button" data-w="next" aria-label="Next movement" disabled>⏭</button>
             <span class="w-time" id="wTime">0:00 / 0:00</span>
             <span class="w-meas" id="wMeas"></span>
-            <label class="w-sound"><span>Sound</span><select id="wSound">${SOUNDS.map((x) => `<option value="${x.id}">${esc(x.label)}</option>`).join("")}</select></label>
+            <label class="w-sound"><span>Sound</span><select id="wSound" disabled>${SOUNDS.map((x) => `<option value="${x.id}">${esc(x.label)}</option>`).join("")}</select></label>
             <label class="w-tempo"><span>Tempo</span><input type="range" id="wTempo" min="0.5" max="1.5" step="0.05" value="1"><output id="wTempoOut">100%</output></label>
           </div>
         </div>
@@ -330,7 +330,7 @@
       w.full = full; w.soundChoice = prefSound(); w.q("#wSound").value = SOUNDS.some((x) => x.id === w.soundChoice) ? w.soundChoice : "auto";
       renderCredits(w, full);
       setStatus(w.kind === "piano" ? "" : "");
-      w.q("#wPlay").disabled = false;
+      w.q("#wPlay").disabled = false; w.q("#wSound").disabled = false;
       w.q("#wPlay").focus({ preventScroll: true });
       showCard(w);
       sync(w, true);
@@ -350,29 +350,32 @@
   }
   async function setSound(w, id) {
     const choice = SOUNDS.some((x) => x.id === id) ? id : "auto";
-    localStorage.setItem("watchSound", choice); ctx.setSound(choice === "auto" ? "" : choice);
-    if (!w.ready) return;
+    if (!w.ready || w.switching) return;
     const next = choice === "auto" ? autoSound(w.base) : choice;
-    w.soundChoice = choice;
-    if (next === w.sound) return;
+    const commit = () => { w.soundChoice = choice; localStorage.setItem("watchSound", choice); ctx.setSound(choice === "auto" ? "" : choice); };
+    if (next === w.sound) return commit();
     const old = w.engine, t = basePos(w), was = old.playing, sel = w.q("#wSound"), prev = w.sound;
-    sel.disabled = true; w.setStatus("Loading " + soundName(next) + "…");
+    const lock = (on) => { w.switching = on; for (const x of [sel, w.q("#wTempo"), w.q("#wPlay")]) x.disabled = on; };
+    lock(true); w.setStatus("Loading " + soundName(next) + "…");
     if (was) old.pause();
     const eng = makeEngine(next === "gm" ? "sf" : "piano", next);
     try { await eng.load(w.scaled); }
     catch (err) {
       console.warn("sound failed", err);
-      sel.disabled = false; w.setStatus("Could not load that sound. Keeping " + soundName(prev) + ".");
+      if (W !== w) return;
+      lock(false); w.setStatus("Could not load that sound. Keeping " + soundName(prev) + ".");
       if (was) old.start(old.pos);
-      w.soundChoice = prev; sel.value = prev; return;
+      sel.value = w.soundChoice; return;
     }
     if (W !== w) return;
+    commit();
+    old.gen++; old.onend = null;
     eng.onend = () => onEnded(w);
     try { if (old.sampler) old.sampler.dispose(); if (old.sfp && old.sfp.isPlaying()) old.sfp.stop(); } catch { /* ok */ }
     w.engine = eng; w.sound = next; w.kind = eng.kind;
     eng.pos = t / w.tempo;
     if (was) eng.start(eng.pos);
-    sel.disabled = false; w.setStatus(""); renderCredits(w, w.full); setPlayUI(w); sync(w, true);
+    lock(false); w.setStatus(""); renderCredits(w, w.full); setPlayUI(w); sync(w, true);
   }
   async function prepareAudio(w) {
     const f = prefs.tempo;
