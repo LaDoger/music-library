@@ -67,15 +67,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_op_12_salut_d_amour_liebesgruss.mid",
- "other_editions": [
-  {
-   "id": "elgar_imslp_op_12_salut_d_amour",
-   "source": "imslp",
-   "title": "Salut d'amour",
-   "url": "https://imslp.org/wiki/Salut_d%27amour%2C_Op.12_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_op_12_salut_d_amour_liebesgruss",

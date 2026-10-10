@@ -61,20 +61,6 @@
  "midi_play_url": "files/scores/satie_gnossienne_1.mid",
  "other_editions": [
   {
-   "id": "satie_gnossienne_no_1_for_flute_an",
-   "source": "pdmx",
-   "title": "Gnossienne no. 1 for Flute and Harp",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "satie_gnossienne_no_1_for_flute_anb2",
-   "source": "pdmx",
-   "title": "Gnossienne no. 1 for Flute and Harp",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
    "id": "satie_erik_satie_gnossienne_n1",
    "source": "pdmx",
    "title": "Gnossienne n1",
@@ -87,20 +73,6 @@
    "title": "Gnossienne n1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "satie_imslp_gnossienne_no_1_arr_for_quartet",
-   "source": "imslp",
-   "title": "Gnossienne No. 1 (arr. for quartet)",
-   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
-   "licence": "CC BY 4.0"
-  },
-  {
-   "id": "satie_imslp_gnossienne_no_1_arr_for_quintet",
-   "source": "imslp",
-   "title": "Gnossienne No. 1 (arr. for quintet)",
-   "url": "https://imslp.org/wiki/Gnossiennes_%28Satie%2C_Erik%29",
-   "licence": "CC BY 4.0"
   }
  ],
  "schema_version": 3,

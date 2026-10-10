@@ -64,22 +64,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schubert_op96_no_3_wandrers_nachtlied_d_76.mid",
- "other_editions": [
-  {
-   "id": "schubert_op96_wanderers_nachtlied_ii_uber",
-   "source": "pdmx",
-   "title": "Wanderers Nachtlied II (Über allen Höhen)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "schubert_op96_wanderers_nachtlied_ii_uberb2",
-   "source": "pdmx",
-   "title": "Wanderers Nachtlied II (Über allen Höhen)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schubert_op96_no_3_wandrers_nachtlied_d_76",

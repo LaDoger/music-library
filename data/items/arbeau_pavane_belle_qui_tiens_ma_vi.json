@@ -61,29 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/arbeau_pavane_belle_qui_tiens_ma_vi.mid",
- "other_editions": [
-  {
-   "id": "arbeau_thoinot_arbeau_belle_qui_tie",
-   "source": "pdmx",
-   "title": "Belle qui tiens ma vie",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "arbeau_belle_qui_tiens_ma_vie",
-   "source": "pdmx",
-   "title": "Belle qui tiens ma vie",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "arbeau_belle_qui_tiens_ma_vie_pavanb51",
-   "source": "pdmx",
-   "title": "Belle qui tiens ma vie (pavane)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=arbeau_pavane_belle_qui_tiens_ma_vi",

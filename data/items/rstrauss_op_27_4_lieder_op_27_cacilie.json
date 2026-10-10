@@ -70,29 +70,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rstrauss_op_27_4_lieder_op_27_cacilie.mid",
- "other_editions": [
-  {
-   "id": "rstrauss_op_27_cacilie_voice_piano_richard_strauss_op_27",
-   "source": "pdmx",
-   "title": "Cäcilie (Voice&Piano)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "rstrauss_op_27_morgen_voice_piano_richard_strauss_op_27_n",
-   "source": "pdmx",
-   "title": "Morgen! (Voice&Piano)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "rstrauss_op_27_ruhe_meine_seele_voice_piano_richard_strau",
-   "source": "pdmx",
-   "title": "Ruhe meine Seele! (Voice&Piano)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rstrauss_op_27_4_lieder_op_27_cacilie",

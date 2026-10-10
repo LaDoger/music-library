@@ -63,13 +63,6 @@
  "midi_play_url": "files/scores/adam_o_holy_night.mid",
  "other_editions": [
   {
-   "id": "adam_s2015_o_holy_night_piano_vocal_arr",
-   "source": "pdmx",
-   "title": "O Holy Night (Piano/Vocal Arr.)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
    "id": "adam_adolphe_adam_o_holy_night",
    "source": "pdmx",
    "title": "O Holy Night",

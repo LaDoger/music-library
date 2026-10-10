@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/nielgow_niel_gow_lamentation_for_jam.mid",
- "other_editions": [
-  {
-   "id": "nielgow_composed_by_neil_gow_neil_go",
-   "source": "pdmx",
-   "title": "Composed by Neil Gow - Neil Gow's Lamentation For Moray Of Abercarary. RHu.165",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=nielgow_niel_gow_lamentation_for_jam",

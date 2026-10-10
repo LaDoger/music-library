@@ -67,29 +67,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_imslp_op_28_organ_sonata_no_1_movement_1_arr_for.mid",
- "other_editions": [
-  {
-   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_4_arr_for",
-   "source": "imslp",
-   "title": "Organ Sonata No. 1: movement 4 (arr. for orchestra)",
-   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  },
-  {
-   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_3_arr_for",
-   "source": "imslp",
-   "title": "Organ Sonata No. 1: movement 3 (arr. for orchestra)",
-   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  },
-  {
-   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_2_arr_for",
-   "source": "imslp",
-   "title": "Organ Sonata No. 1: movement 2 (arr. for orchestra)",
-   "url": "https://imslp.org/wiki/Organ_Sonata%2C_Op.28_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_imslp_op_28_organ_sonata_no_1_movement_1_arr_for",

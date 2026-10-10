@@ -64,15 +64,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/chausson_op2_no_5_serenade_italienne.mid",
- "other_editions": [
-  {
-   "id": "chausson_serenade_italienne_by_ernest",
-   "source": "pdmx",
-   "title": "Serenade Italienne",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chausson_op2_no_5_serenade_italienne",

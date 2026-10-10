@@ -61,22 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/tchaikovsky_op37_august_harvest_time.mid",
- "other_editions": [
-  {
-   "id": "tchaikovsky_op37_februar_carneval",
-   "source": "mutopia",
-   "title": "The Seasons: February",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1398",
-   "licence": "PD"
-  },
-  {
-   "id": "tchaikovsky_op37_january_before_the_chimney",
-   "source": "mutopia",
-   "title": "The Seasons: January",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1171",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_op37_august_harvest_time",

@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/lassus_matona_mia_cara_satb.mid",
- "other_editions": [
-  {
-   "id": "lassus_s1581_matona_mia_cara",
-   "source": "pdmx",
-   "title": "Matona Mia Cara",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=lassus_matona_mia_cara_satb",

@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv848_fugue.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv848_a_3_voci",
-   "source": "mutopia",
-   "title": "Das Wohltemperierte Clavier I, Fuga III",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=569",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv848_fugue",

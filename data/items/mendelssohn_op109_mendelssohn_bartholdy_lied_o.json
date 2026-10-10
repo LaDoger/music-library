@@ -68,6 +68,20 @@
    "title": "Bartholdy: Lied ohne Worte op. 109",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "mendelssohn_op109no3_lied_ohne_worte",
+   "source": "pdmx",
+   "title": "Lied ohne Worte",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mendelssohn_op109no3_lied_ohne_worteb2",
+   "source": "pdmx",
+   "title": "Lied ohne Worte",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schema_version": 3,

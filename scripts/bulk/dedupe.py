@@ -5,15 +5,16 @@ Called from build_bulk_layer.py, so every import goes through it. Also runs
 standalone (``python3 scripts/bulk/dedupe.py``) to print the report only.
 
 Two match keys:
-  A  composer + normalised catalogue no. + normalised title (accents, punctuation,
-     composer name, "arr.", "for piano", "by X" removed). Catalogue alone links
-     rows when the movement signatures are compatible; title alone links rows
-     only when neither side has a catalogue number.
+  A  composer + normalised catalogue no. + movement identity (No., month name,
+     key, sub-title) + normalised title. Rows whose movement identifiers conflict
+     never merge. Catalogue alone links rows when movement identities match or
+     one side has none; title alone links rows only when neither side has a
+     catalogue number.
   B  MIDI content fingerprint: melody line (top note per onset) as a
      transposition-invariant interval sequence. Exact hash of the first 64
      intervals, or interval 4-gram Jaccard >= SIM_MIN. B merges only within one
-     composer, and never across two different catalogue numbers or movements,
-     so movements sharing an opening theme stay apart.
+     composer, never across different catalogue numbers, and only when movement
+     identifiers (No. / month / key / sub-title) match or are both absent.
 
 Canonical per group: curated (library.csv) > OpenScore > Mutopia > best PDMX
 (more tracks, longer, higher rating, cleaner title). Curated rows are never
@@ -153,9 +154,187 @@ def catalog_key(row: dict) -> str:
     return cat if re.search(r"\d", cat) else ""
 
 
+# Month names (EN/DE/FR/IT) -> stable code. Used for sets like Tchaikovsky's Seasons.
+_MONTHS = {
+    "january": "jan", "janvier": "jan", "januar": "jan", "gennaio": "jan",
+    "february": "feb", "fevrier": "feb", "februar": "feb", "febbraio": "feb",
+    "march": "mar", "mars": "mar", "marz": "mar", "maerz": "mar", "marzo": "mar",
+    "april": "apr", "avril": "apr", "aprile": "apr",
+    "may": "may", "mai": "may", "maggio": "may",
+    "june": "jun", "juin": "jun", "juni": "jun", "giugno": "jun",
+    "july": "jul", "juillet": "jul", "juli": "jul", "luglio": "jul",
+    "august": "aug", "aout": "aug", "agosto": "aug",
+    "september": "sep", "septembre": "sep", "settembre": "sep",
+    "october": "oct", "octobre": "oct", "oktober": "oct", "ottobre": "oct",
+    "november": "nov", "novembre": "nov",
+    "december": "dec", "decembre": "dec", "dezember": "dec", "dicembre": "dec",
+}
+_NO_RE = re.compile(
+    r"\b(?:no|nr|n|num|number|movement|mov\.?|mtv|teil|part)\.?\s*(\d{1,2})\b", re.I)
+_ROMAN_NO_RE = re.compile(
+    r"(?:^|[\s:.\-–—])(?:no\.?\s*)?(i{1,3}|iv|vi{0,3}|ix|x|xi|xii)\b(?!\w)", re.I)
+_KEY_RE = re.compile(
+    r"\bin\s+([a-g])(?:[\s\-]*(flat|sharp|b|#|es|is))?(?:\s*(major|minor|maj|min|dur|moll))?\b",
+    re.I)
+_OP_NO_RE = re.compile(r"\bop(?:us)?\.?\s*\d+\s*(?:no|nr|n)\.?\s*(\d{1,2})\b", re.I)
+# Kind / form words that are not distinctive movement subtitles on their own.
+_SUB_STOP = {
+    "prelude", "praeludium", "preludium", "fugue", "fuga", "toccata", "fantasia",
+    "fantasy", "allemande", "courante", "sarabande", "gigue", "bourree", "minuet",
+    "menuet", "scherzo", "aria", "chorale", "passacaglia", "chaconne", "invention",
+    "sinfonia", "overture", "adagio", "allegro", "andante", "largo", "lento",
+    "presto", "vivace", "grave", "march", "waltz", "valse", "nocturne", "etude",
+    "ballade", "polonaise", "mazurka", "rondo", "variation", "variations", "canon",
+    "romance", "intermezzo", "bagatelle", "impromptu", "berceuse", "barcarolle",
+    "sonata", "symphony", "concerto", "suite", "partita", "quartet", "trio",
+    "piece", "pieces", "movement", "book", "volume", "major", "minor", "piano",
+    "the", "and", "from", "with", "for", "op", "opus", "no", "number", "kinderscenen",
+    "kinderszenen", "seasons", "preludes", "etudes", "songs", "lyric",
+}
+
+
+def _norm_key_token(letter: str, accidental: str | None, mode: str | None) -> str:
+    letter = letter.lower()
+    acc = (accidental or "").lower()
+    if acc in {"flat", "b", "es"}:
+        letter += "b"
+    elif acc in {"sharp", "#", "is"}:
+        letter += "s"
+    mode_l = (mode or "").lower()
+    if mode_l in {"minor", "min", "moll"}:
+        return f"{letter}minor"
+    if mode_l in {"major", "maj", "dur"}:
+        return f"{letter}major"
+    return letter
+
+
+def _roman_to_int(raw: str) -> str | None:
+    raw = raw.lower()
+    table = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7,
+             "viii": 8, "ix": 9, "x": 10, "xi": 11, "xii": 12}
+    return str(table[raw]) if raw in table else None
+
+
+def _subtitle_slug(text: str) -> str:
+    """Distinctive free-text movement/sub-title, or '' if only generic form words."""
+    folded = fold(text or "")
+    folded = _NO_RE.sub(" ", folded)
+    folded = _KEY_RE.sub(" ", folded)
+    folded = re.sub(r"\b(?:op(?:us)?\.?\s*\d+)\b", " ", folded)
+    for month in _MONTHS:
+        folded = re.sub(rf"\b{month}\b", " ", folded)
+    tokens = re.findall(r"[a-z0-9]+", folded)
+    keep = [t for t in tokens if t not in _SUB_STOP and not t.isdigit() and len(t) >= 3]
+    if not keep:
+        return ""
+    return "".join(keep)[:40]
+
+
+def movement_parts(row: dict) -> dict[str, str]:
+    """Typed movement identifiers for a row: no / month / key / sub.
+
+    Drawn from title, movement and catalogue so set members (Kinderszenen
+    pieces, Seasons months, Op. 28 preludes, numbered movements) stay apart
+    even when they share one Op. number.
+    """
+    title = row.get("title") or ""
+    movement = row.get("movement") or ""
+    catalog = row.get("catalog") or ""
+    blob = fold(f"{title} {movement} {catalog}")
+    parts: dict[str, str] = {}
+
+    nums = _NO_RE.findall(blob)
+    if not nums:
+        op_no = _OP_NO_RE.search(blob)
+        if op_no:
+            nums = [op_no.group(1)]
+    if not nums:
+        # Trailing / separated roman: "Préludes - Book I - XII", "I. Prelude"
+        for match in _ROMAN_NO_RE.finditer(blob):
+            converted = _roman_to_int(match.group(1))
+            if converted:
+                nums.append(converted)
+    if nums:
+        # Prefer the last number (usually the piece no. after Op. / suite no.)
+        parts["no"] = str(int(nums[-1]))
+
+    for name, code in _MONTHS.items():
+        if re.search(rf"\b{name}\b", blob):
+            parts["month"] = code
+            break
+
+    key_match = _KEY_RE.search(blob)
+    if key_match:
+        parts["key"] = _norm_key_token(key_match.group(1), key_match.group(2), key_match.group(3))
+
+    # Subtitle: prefer the movement field; else the segment after ":" / " - " in the title.
+    sub = _subtitle_slug(movement)
+    if not sub:
+        seg = title
+        for sep in (" - ", " – ", " — ", ": ", "; "):
+            if sep in title:
+                seg = title.split(sep)[-1]
+                break
+        sub = _subtitle_slug(seg)
+    # Avoid re-stating a lone month/key as subtitle.
+    if sub and sub not in {parts.get("month", ""), parts.get("key", "")}:
+        parts["sub"] = sub
+
+    # Fall back to kind+number from movement_sig when nothing else landed.
+    if not parts:
+        number, kinds = movement_sig(movement or title)
+        if number:
+            parts["no"] = number
+        if kinds:
+            parts["kind"] = "-".join(kinds)
+    return parts
+
+
 def movement_key(row: dict) -> str:
-    number, kinds = movement_sig(row.get("movement") or "")
-    return f"{number or ''}:{'-'.join(kinds)}"
+    """Stable movement identity for dedupe buckets, or ':' when none found."""
+    parts = movement_parts(row)
+    if not parts:
+        return ":"
+    return "|".join(f"{k}:{parts[k]}" for k in sorted(parts))
+
+
+def _parse_identity(value: str) -> dict[str, str]:
+    if not value or value == ":":
+        return {}
+    return dict(p.split(":", 1) for p in value.split("|") if ":" in p)
+
+
+def identities_conflict(a: str, b: str) -> bool:
+    """True when movement identifiers disagree (not equal / not a refinement).
+
+    A refinement is OK for key A: ``sub:haschemann`` may merge with
+    ``no:3|sub:haschemann``. Parallel but non-overlapping ids like
+    ``key:gminor`` vs ``no:6`` conflict, as do different months or Nos.
+    """
+    if not a or a == ":" or not b or b == ":":
+        return False
+    if a == b:
+        return False
+    da, db = _parse_identity(a), _parse_identity(b)
+    for dim in set(da) & set(db):
+        if da[dim] != db[dim]:
+            return True
+    ka, kb = set(da), set(db)
+    # Neither identity is a subset of the other → distinct pieces of the set.
+    if not (ka <= kb or kb <= ka):
+        return True
+    return False
+
+
+def identities_match_or_absent(a: str, b: str) -> bool:
+    """Fingerprint merges only when identities are equal, or both absent."""
+    empty_a = not a or a == ":"
+    empty_b = not b or b == ":"
+    if empty_a and empty_b:
+        return True
+    if empty_a or empty_b:
+        return False
+    return a == b
 
 
 # --------------------------------------------------------------------------- MIDI fingerprint
@@ -277,29 +456,26 @@ def dedupe(curated: list[dict], bulk: list[dict]):
                          title_key(r.get("title"), r.get("composer") or ""), movement_key(r),
                          frozenset(re.findall(r"\d+", fold(r.get("title") or "") + " " + (r.get("movement") or ""))))
 
-    # Key A
+    # Key A. Bucket by composer + catalogue (or title when no catalogue). Movement
+    # identity is not part of the bucket key so "Op. 15" / "Op. 15 No. 3" editions of
+    # the same piece can still meet; identities_conflict blocks distinct movements.
     buckets = defaultdict(list)
     for rid, (comp, cat, tkey, mov, _) in meta.items():
         if not comp:
             continue
         if cat:
-            buckets[("cat", comp, cat, mov)].append(rid)
+            # Strip a trailing noN from opXXnoY so Op.15 and Op.15 No.3 share a bucket;
+            # the piece number lives in the movement identity instead.
+            cat_stem = re.sub(r"(op\d+)no\d+[a-z]?$", r"\1", cat)
+            buckets[("cat", comp, cat_stem)].append(rid)
         elif len(tkey) >= 4:
-            buckets[("title", comp, tkey, mov)].append(rid)
-    # A whole-work row with no movement joins the catalogue's only movement row ("BWV 565" + "Toccata").
-    movs = defaultdict(set)
-    for kind, comp, key, mov in buckets:
-        if kind == "cat":
-            movs[(comp, key)].add(mov)
-    for (comp, key), found in movs.items():
-        named = found - {":"}
-        if ":" in found and len(named) == 1:
-            buckets[("cat", comp, key, named.pop())] += buckets.pop(("cat", comp, key, ":"))
+            buckets[("title", comp, tkey)].append(rid)
     # A title-only row joins the one catalogued piece with the same title ("In the Hall of the Mountain King").
     titled = defaultdict(set)
     for rid, (comp, cat, tkey, mov, _) in meta.items():
         if comp and cat and len(tkey) >= 8:
-            titled[(comp, tkey)].add(("cat", comp, cat, mov))
+            cat_stem = re.sub(r"(op\d+)no\d+[a-z]?$", r"\1", cat)
+            titled[(comp, tkey)].add(("cat", comp, cat_stem))
     for key in [k for k in buckets if k[0] == "title"]:
         hits = titled.get((key[1], key[2]), set())
         if len(hits) == 1:
@@ -309,6 +485,16 @@ def dedupe(curated: list[dict], bulk: list[dict]):
     for bucket in buckets.values():
         for i, a in enumerate(bucket):
             for b in bucket[i + 1:]:
+                if identities_conflict(meta[a][3], meta[b][3]):
+                    continue  # Kinderszenen No.2 vs No.3, Seasons August vs January, …
+                # Whole-work (no identity) must not absorb a multi-movement catalogue.
+                mov_a, mov_b = meta[a][3], meta[b][3]
+                if (mov_a == ":") != (mov_b == ":"):
+                    # Allow only when the named side is the sole identity in this bucket
+                    # with a titles_close match (handled below); otherwise skip.
+                    named = {meta[x][3] for x in bucket if meta[x][3] != ":"}
+                    if len(named) != 1:
+                        continue
                 num_a, num_b = meta[a][4], meta[b][4]
                 if num_a - num_b and num_b - num_a:  # BWV 1079 "Ricercar a 6" vs "Canon a 2"
                     continue
@@ -369,7 +555,13 @@ def dedupe(curated: list[dict], bulk: list[dict]):
 
 
 def titles_close(a: str, b: str) -> bool:
-    if not a or not b or a in b or b in a:
+    if not a or not b:
+        return True
+    if a == b:
+        return True
+    # "prelude" in "preludeop236" is not evidence they are the same piece.
+    shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
+    if shorter in longer and len(shorter) >= 10:
         return True
     return SequenceMatcher(None, a, b).ratio() >= 0.6
 
@@ -381,7 +573,10 @@ def _b_compatible(a: tuple, b: tuple) -> bool:
         return False
     if num_a - num_b and num_b - num_a:  # "Psalm 22 part 1" vs "part 4": each title has a number the other lacks
         return False
-    if mov_a != ":" and mov_b != ":" and mov_a != mov_b:
+    if identities_conflict(mov_a, mov_b):
+        return False
+    # Fingerprint merges only when movement ids match, or both are absent.
+    if not identities_match_or_absent(mov_a, mov_b):
         return False
     return True
 

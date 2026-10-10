@@ -58,36 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1079_ricercar_a6.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv1079_musikalisches_opfer",
-   "source": "mutopia",
-   "title": "Musikalisches Opfer, Ricercare a 6",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=702",
-   "licence": "PD"
-  },
-  {
-   "id": "bach_bwv1079_musicalisches_opfer",
-   "source": "mutopia",
-   "title": "Musicalisches Opfer, Ricercare",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=690",
-   "licence": "PD"
-  },
-  {
-   "id": "bach_bwv1079_j_s_bach_musikalisches_opfer",
-   "source": "pdmx",
-   "title": "J.S. Bach - Musikalisches Opfer: Canon a 2 - I (Cancrizans)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_bwv1079_j_s_bach_musikalisches_opferb2",
-   "source": "pdmx",
-   "title": "J.S. Bach - Musikalisches Opfer: Canon a 2 - I (Cancrizans)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1079_ricercar_a6",

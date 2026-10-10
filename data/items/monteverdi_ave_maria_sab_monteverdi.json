@@ -68,20 +68,6 @@
    "title": "Ave Maria - SAB Monteverdi",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "monteverdi_ave_maria_gratia_plena_claud",
-   "source": "pdmx",
-   "title": "Ave Maria gratia plena",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "monteverdi_ave_maria_gratia_plena_claudb2",
-   "source": "pdmx",
-   "title": "Ave Maria gratia plena",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

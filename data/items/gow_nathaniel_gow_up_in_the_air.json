@@ -60,15 +60,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gow_nathaniel_gow_up_in_the_air.mid",
- "other_editions": [
-  {
-   "id": "gow_nathaniel_gow_sir_george_cle",
-   "source": "pdmx",
-   "title": "Sir George Clerk of Pennycuik",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gow_nathaniel_gow_up_in_the_air",

@@ -61,6 +61,13 @@
  "midi_play_url": "",
  "other_editions": [
   {
+   "id": "rachmaninoff_op_3_sergei_rachmaninoff_prelude_op_3_no_2_in_c",
+   "source": "pdmx",
+   "title": "Prelude Op.3 No.2 in C-sharp minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
    "id": "rachmaninoff_imslp_op_3_no_2_prelude_in_c_sharp_minor",
    "source": "imslp",
    "title": "Prelude in C-sharp minor",

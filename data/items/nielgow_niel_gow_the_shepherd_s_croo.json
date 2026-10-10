@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/nielgow_niel_gow_the_shepherd_s_croo.mid",
- "other_editions": [
-  {
-   "id": "nielgow_neil_gow_dunkeld_bridge",
-   "source": "pdmx",
-   "title": "Neil Gow - Dunkeld Bridge",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=nielgow_niel_gow_the_shepherd_s_croo",

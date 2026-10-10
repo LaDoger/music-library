@@ -60,29 +60,7 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 154.09,
  "midi_play_url": "files/scores/grieg_peer_gynt_mountain_king.mid",
- "other_editions": [
-  {
-   "id": "grieg_op46_in_der_halle_des_bergkonigs",
-   "source": "mutopia",
-   "title": "In the Hall of the Mountain King",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1888",
-   "licence": "PD"
-  },
-  {
-   "id": "grieg_in_der_halle_des_bergkonigs",
-   "source": "pdmx",
-   "title": "In der Halle des Bergkönigs",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "grieg_in_der_halle_des_bergkonigsb2",
-   "source": "pdmx",
-   "title": "In der Halle des Bergkönigs",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_peer_gynt_mountain_king",

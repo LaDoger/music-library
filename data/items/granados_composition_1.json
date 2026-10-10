@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/granados_composition_1.mid",
- "other_editions": [
-  {
-   "id": "granados_composition_1_finishedb51",
-   "source": "pdmx",
-   "title": "Composition 1 Finished",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=granados_composition_1",

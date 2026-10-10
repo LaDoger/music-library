@@ -61,36 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/hume_love_s_farewell_tenor_viol.mid",
- "other_editions": [
-  {
-   "id": "hume_lovesfarewell_bassviol_tab",
-   "source": "pdmx",
-   "title": "LovesFarewell.BassViol_TAB",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "hume_love_s_farewell_treble_viol",
-   "source": "pdmx",
-   "title": "Love's_Farewell treble viol",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "hume_love_s_farewell_for_bass_vio",
-   "source": "pdmx",
-   "title": "Love's Farewell for Bass Viol",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "hume_love_s_farewell_for_viol_in",
-   "source": "pdmx",
-   "title": "Love's Farewell for Viol in Plainway / ffeff Tuning",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=hume_love_s_farewell_tenor_viol",

@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/wagner_wwv86d_siegfried_funeral_march.mid",
- "other_editions": [
-  {
-   "id": "wagner_imslp_wwv_86d_gotterdammerung_siegfried_s_death",
-   "source": "imslp",
-   "title": "Götterdämmerung: Siegfried's Death",
-   "url": "https://imslp.org/wiki/G%C3%B6tterd%C3%A4mmerung%2C_WWV_86D_%28Wagner%2C_Richard%29",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv86d_siegfried_funeral_march",

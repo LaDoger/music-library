@@ -59,22 +59,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1030_flute_sonata.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv1030_bwv_1030_flute_sonata_in_b_m",
-   "source": "pdmx",
-   "title": "BWV 1030 Flute Sonata in B minor",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_bwv1030_bwv_1030_flute_sonata_in_b_mb2",
-   "source": "pdmx",
-   "title": "BWV 1030 Flute Sonata in B minor",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1030_flute_sonata",

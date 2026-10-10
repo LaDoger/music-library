@@ -58,22 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/wagner_wwv90_tristan_liebestod.mid",
- "other_editions": [
-  {
-   "id": "wagner_wwv90_richard_wagner_ende_zu_trist",
-   "source": "pdmx",
-   "title": "ENDE.zu.TRISTAN UND ISOLDE. WWV 90.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "wagner_wwv90_richard_wagner_ende_zu_tristb2",
-   "source": "pdmx",
-   "title": "ENDE.zu.TRISTAN UND ISOLDE. WWV 90.",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=wagner_wwv90_tristan_liebestod",

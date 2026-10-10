@@ -68,27 +68,6 @@
    "title": "VII Domine Fili Unigenite ALTO",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "vivaldi_vii_domine_fili_unigenite_ba",
-   "source": "pdmx",
-   "title": "VII Domine Fili Unigenite BASS",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "vivaldi_vii_domine_fili_unigenite_te",
-   "source": "pdmx",
-   "title": "VII Domine Fili Unigenite TENOR",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "vivaldi_vii_domine_fili_unigenite_so",
-   "source": "pdmx",
-   "title": "VII Domine Fili Unigenite SOPRANO",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   }
  ],
  "schema_version": 3,

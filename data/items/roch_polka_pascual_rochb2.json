@@ -61,22 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/roch_polka_pascual_rochb2.mid",
- "other_editions": [
-  {
-   "id": "roch_polka_pascual_roch_1864_1921",
-   "source": "pdmx",
-   "title": "Polka - Pascual Roch (1864 - 1921)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "roch_polka_pascual_roch_1864_1921b2",
-   "source": "pdmx",
-   "title": "Polka - Pascual Roch (1864 - 1921) - Tablature",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=roch_polka_pascual_rochb2",

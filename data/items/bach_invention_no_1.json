@@ -63,20 +63,6 @@
  "midi_play_url": "files/scores/bach_invention_no_1.mid",
  "other_editions": [
   {
-   "id": "bach_johann_sebastian_bach_invenc",
-   "source": "pdmx",
-   "title": "Invención n.º 1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_johann_sebastian_bach_invencb2",
-   "source": "pdmx",
-   "title": "Invención n.º 1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
    "id": "bach_bach_invention_no_1",
    "source": "pdmx",
    "title": "Invention No 1",

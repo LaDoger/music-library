@@ -67,20 +67,6 @@
    "title": "Canon In D Major P.37 Pachelbel",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "pachelbel_kanon_de_pachelbel_sanz",
-   "source": "pdmx",
-   "title": "Kanon de pachelbel SANZ",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "pachelbel_kanon_de_pachelbel_sanzb2",
-   "source": "pdmx",
-   "title": "Kanon de pachelbel SANZ",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

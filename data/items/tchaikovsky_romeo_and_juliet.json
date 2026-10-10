@@ -56,15 +56,7 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 1112.33,
  "midi_play_url": "",
- "other_editions": [
-  {
-   "id": "tchaikovsky_romeo_and_juliet_fantasy_oveb51",
-   "source": "pdmx",
-   "title": "Romeo and Juliet Fantasy Overture Tchaikovsky",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=tchaikovsky_romeo_and_juliet",

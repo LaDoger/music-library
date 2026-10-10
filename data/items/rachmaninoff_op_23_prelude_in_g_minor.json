@@ -66,22 +66,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
- "other_editions": [
-  {
-   "id": "rachmaninoff_op_23_rachmaninoff_prelude_op_23_no_4_in_d_major",
-   "source": "pdmx",
-   "title": "Prelude op. 23 no. 4 in D major (with fingering pedals and tips)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "rachmaninoff_op_23_prelude_s_rachmaninoff_op_23_no_6",
-   "source": "pdmx",
-   "title": "Prelude Op. 23 No. 6",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rachmaninoff_op_23_prelude_in_g_minor",

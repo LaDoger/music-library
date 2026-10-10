@@ -67,29 +67,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_op_36_enigma_variations_x_intermezzo_edward_elga.mid",
- "other_editions": [
-  {
-   "id": "elgar_op_36_elgar_enigma_variations_xi_nimrod",
-   "source": "pdmx",
-   "title": "Enigma Variations - XI. Nimrod",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "elgar_op_36_nimrod",
-   "source": "pdmx",
-   "title": "Nimrod",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "elgar_imslp_op_36_enigma_variations_nimrod",
-   "source": "imslp",
-   "title": "Enigma Variations: Nimrod",
-   "url": "https://imslp.org/wiki/Variations_on_an_Original_Theme_%27Enigma%27%2C_Op.36_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_op_36_enigma_variations_x_intermezzo_edward_elga",

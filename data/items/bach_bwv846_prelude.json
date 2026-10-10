@@ -60,46 +60,11 @@
  "midi_play_url": "files/scores/bach_bwv846_prelude.mid",
  "other_editions": [
   {
-   "id": "bach_ave_maria_bach_gounod_for_vi",
-   "source": "pdmx",
-   "title": "Ave Maria (Bach/Gounod) for violin and piano",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_ave_maria_bach_gounod_for_vib2",
-   "source": "pdmx",
-   "title": "Ave Maria (Bach/Gounod) for violin and piano",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "bach_bwv846a_johann_sebastian_bach_prelud",
-   "source": "pdmx",
-   "title": "Preludio",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "bach_prelude_n1",
-   "source": "pdmx",
-   "title": "Prélude n1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
    "id": "bach_prelude_in_c_major",
    "source": "pdmx",
    "title": "Prelude in C Major",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "bach_praeludium_i",
-   "source": "pdmx",
-   "title": "Praeludium I",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

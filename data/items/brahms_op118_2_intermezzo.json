@@ -61,7 +61,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/brahms_op118_2_intermezzo.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "brahms_op118no2_brahms_intermezzo_op_118_no",
+   "source": "pdmx",
+   "title": "Intermezzo Op. 118 No. 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "brahms_op118no2_brahms_intermezzo_op_118_nob2",
+   "source": "pdmx",
+   "title": "Intermezzo Op. 118 No. 2",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=brahms_op118_2_intermezzo",

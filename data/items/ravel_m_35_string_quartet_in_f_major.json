@@ -70,15 +70,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/ravel_m_35_string_quartet_in_f_major.mid",
- "other_editions": [
-  {
-   "id": "ravel_m_35_string_quartet_in_fb2",
-   "source": "pdmx",
-   "title": "String Quartet in F",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=ravel_m_35_string_quartet_in_f_major",

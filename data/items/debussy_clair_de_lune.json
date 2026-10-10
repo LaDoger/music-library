@@ -57,71 +57,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/debussy_clair_de_lune.mid",
- "other_editions": [
-  {
-   "id": "debussy_l75_suite_bergamasque_clair_de_l",
-   "source": "mutopia",
-   "title": "Suite Bergamasque: Clair de Lune",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778",
-   "licence": "PD"
-  },
-  {
-   "id": "debussy_clair_de_lune_for_viola_andb51",
-   "source": "pdmx",
-   "title": "Clair de Lune for Viola and Piano",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_clair_de_lune_c_debussyb51",
-   "source": "pdmx",
-   "title": "Clair de Lune (C.Debussy)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_debussy_suite_bergamasque_ii",
-   "source": "pdmx",
-   "title": "Suite Bergamasque - III. Clair de Lune",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_debussy_suite_bergamasque_iib3",
-   "source": "pdmx",
-   "title": "Suite Bergamasque - III. Clair de Lune",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_iii_clair_de_lune",
-   "source": "pdmx",
-   "title": "III. Clair de Lune",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_iii_clair_de_luneb2",
-   "source": "pdmx",
-   "title": "III. Clair de Lune",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_lune",
-   "source": "imslp",
-   "title": "Suite bergamasque: Clair de lune",
-   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
-   "licence": "CC BY 4.0"
-  },
-  {
-   "id": "debussy_imslp_l_75_suite_bergamasque_clair_de_luneb2",
-   "source": "imslp",
-   "title": "Suite bergamasque: Clair de lune",
-   "url": "https://imslp.org/wiki/Suite_bergamasque%2C_CD_82_%28Debussy%2C_Claude%29",
-   "licence": "CC BY 4.0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_clair_de_lune",

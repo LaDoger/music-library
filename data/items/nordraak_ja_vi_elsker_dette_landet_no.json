@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/nordraak_ja_vi_elsker_dette_landet_no.mid",
- "other_editions": [
-  {
-   "id": "nordraak_ja_vi_elsker_dette_landetb2",
-   "source": "pdmx",
-   "title": "Ja vi elsker dette landet",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=nordraak_ja_vi_elsker_dette_landet_no",

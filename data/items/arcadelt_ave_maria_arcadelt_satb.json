@@ -61,29 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/arcadelt_ave_maria_arcadelt_satb.mid",
- "other_editions": [
-  {
-   "id": "arcadelt_ave_maria_j_arcadelt",
-   "source": "pdmx",
-   "title": "Ave Maria (J.Arcadelt)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "arcadelt_ave_mariab2",
-   "source": "pdmx",
-   "title": "Ave Maria",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "arcadelt_a_v_e_m_a_r_i_a_4voci",
-   "source": "pdmx",
-   "title": "A V E M a R I a 4voci",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=arcadelt_ave_maria_arcadelt_satb",

@@ -68,20 +68,6 @@
    "title": "Minuet in G major",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "haydn_minuet_g_major",
-   "source": "pdmx",
-   "title": "Minuet G major",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "haydn_minuet_g_majorb2",
-   "source": "pdmx",
-   "title": "Minuet G major",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

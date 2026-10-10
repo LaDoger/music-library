@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/puccini_oh_mio_babbino_caro_oh_my_be.mid",
- "other_editions": [
-  {
-   "id": "puccini_practice_easy_level_oh_my_be",
-   "source": "pdmx",
-   "title": "Practice_Easy Level_Oh_My_Beloved_Father",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=puccini_oh_mio_babbino_caro_oh_my_be",

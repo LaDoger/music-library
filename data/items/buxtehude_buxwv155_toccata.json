@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/buxtehude_buxwv155_toccata.mid",
- "other_editions": [
-  {
-   "id": "buxtehude_buxwv155_buxwv_155",
-   "source": "mutopia",
-   "title": "Toccata",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2075",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv155_toccata",

@@ -67,15 +67,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra.mid",
- "other_editions": [
-  {
-   "id": "elgar_imslp_op_41_speak_music_arr_for_orchestra",
-   "source": "imslp",
-   "title": "Speak Music (arr. for orchestra)",
-   "url": "https://imslp.org/wiki/2_Songs%2C_Op.41_%28Elgar%2C_Edward%29",
-   "licence": "CC BY 4.0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_imslp_op_41_in_the_dawn_arr_for_orchestra",

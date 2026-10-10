@@ -68,6 +68,20 @@
    "title": "Minute Waltz in Dâ Major Op. 64 No. 1",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "chopin_op64_minute_waltz",
+   "source": "pdmx",
+   "title": "Minute Waltz",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_op64_minute_waltzb2",
+   "source": "pdmx",
+   "title": "Minute Waltz",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schema_version": 3,

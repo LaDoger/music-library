@@ -61,29 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/unknown_s100_abschied_farewell.mid",
- "other_editions": [
-  {
-   "id": "unknown_s100_ballade",
-   "source": "mutopia",
-   "title": "Ballade",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=227",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_aufrightigkeit_sincerity",
-   "source": "mutopia",
-   "title": "La Candeur",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=202",
-   "licence": "PD"
-  },
-  {
-   "id": "unknown_s100_plappermaulchen_chatterbox",
-   "source": "mutopia",
-   "title": "La Babillarde",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=229",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=unknown_s100_abschied_farewell",

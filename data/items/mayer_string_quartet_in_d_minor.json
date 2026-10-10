@@ -64,36 +64,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/mayer_string_quartet_in_d_minor.mid",
- "other_editions": [
-  {
-   "id": "mayer_string_quartet_in_d_major",
-   "source": "openscore-quartets",
-   "title": "String Quartet in D Major",
-   "url": "https://github.com/OpenScore/StringQuartets/blob/main/scores/Mayer%2C_Emilie/String_Quartet_in_D_Major",
-   "licence": "CC0"
-  },
-  {
-   "id": "mayer_string_quartet_in_f_major",
-   "source": "openscore-quartets",
-   "title": "String Quartet in F Major",
-   "url": "https://github.com/OpenScore/StringQuartets/blob/main/scores/Mayer%2C_Emilie/String_Quartet_in_F_Major",
-   "licence": "CC0"
-  },
-  {
-   "id": "mayer_string_quartet_in_e_minor",
-   "source": "openscore-quartets",
-   "title": "String Quartet in E minor",
-   "url": "https://github.com/OpenScore/StringQuartets/blob/main/scores/Mayer%2C_Emilie/String_Quartet_in_E_minor",
-   "licence": "CC0"
-  },
-  {
-   "id": "mayer_string_quartet_in_a_major",
-   "source": "openscore-quartets",
-   "title": "String Quartet in A Major",
-   "url": "https://github.com/OpenScore/StringQuartets/blob/main/scores/Mayer%2C_Emilie/String_Quartet_in_A_Major",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mayer_string_quartet_in_d_minor",

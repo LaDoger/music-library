@@ -57,7 +57,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/faure_apres_un_reve.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "faure_op7_no_1_apres_un_reve",
+   "source": "openscore-lieder",
+   "title": "3 Songs, Op.7: Après un rêve",
+   "url": "https://github.com/OpenScore/Lieder/blob/main/scores/Faur%C3%A9%2C_Gabriel/3_Songs%2C_Op.7/1_Apr%C3%A8s_un_r%C3%AAve",
+   "licence": "CC0"
+  },
+  {
+   "id": "faure_op7_apres_un_reve",
+   "source": "mutopia",
+   "title": "Après un Rêve",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=368",
+   "licence": "PD"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_apres_un_reve",

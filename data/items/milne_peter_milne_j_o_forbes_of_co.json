@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/milne_peter_milne_j_o_forbes_of_co.mid",
- "other_editions": [
-  {
-   "id": "milne_peter_milne_j_o_forbes_esq_o",
-   "source": "pdmx",
-   "title": "J.O. Forbes Esq. of Corse",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=milne_peter_milne_j_o_forbes_of_co",

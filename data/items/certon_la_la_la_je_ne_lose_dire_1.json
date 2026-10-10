@@ -61,22 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/certon_la_la_la_je_ne_lose_dire_1.mid",
- "other_editions": [
-  {
-   "id": "certon_la_la_la_je_ne_l_ose_dire_pi",
-   "source": "pdmx",
-   "title": "La la la je ne l'ose dire",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "certon_je_ne_l_ose_dire_pierre_cert",
-   "source": "pdmx",
-   "title": "Je ne l'ose dire",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=certon_la_la_la_je_ne_lose_dire_1",

@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/nielgow_niel_gow_calum_crubach.mid",
- "other_editions": [
-  {
-   "id": "nielgow_niel_gow_miss_sarah_drummond",
-   "source": "pdmx",
-   "title": "Miss Sarah Drummond of Perth",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=nielgow_niel_gow_calum_crubach",

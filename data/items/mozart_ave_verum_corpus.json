@@ -75,20 +75,6 @@
    "title": "Ave Verum Corpus",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "mozart_ave_verum_corpus_mozart_altob51",
-   "source": "pdmx",
-   "title": "Ave Verum Corpus - Mozart (Alto)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "mozart_ave_verum_corpus_mozart_soprb51",
-   "source": "pdmx",
-   "title": "Ave Verum Corpus - Mozart (Soprano)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
   }
  ],
  "schema_version": 3,

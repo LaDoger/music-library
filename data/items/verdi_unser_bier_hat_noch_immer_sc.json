@@ -68,20 +68,6 @@
    "title": "Unser Bier hat noch immer schön' Schaum",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "verdi_rabszolgakorus",
-   "source": "pdmx",
-   "title": "Rabszolgakórus",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "verdi_rabszolgakorusb2",
-   "source": "pdmx",
-   "title": "Rabszolgakórus",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

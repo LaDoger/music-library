@@ -61,22 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/purcell_wa_is_me.mid",
- "other_editions": [
-  {
-   "id": "purcell_epsom_wells",
-   "source": "pdmx",
-   "title": "Epsom Wells",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "purcell_purcell_woe_is_mewhat_can_i",
-   "source": "pdmx",
-   "title": "Woe Is MeWhat Can I Do? HA.115",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=purcell_wa_is_me",

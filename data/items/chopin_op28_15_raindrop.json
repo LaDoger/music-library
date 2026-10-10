@@ -58,7 +58,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 295.27,
  "midi_play_url": "files/scores/chopin_op28_15_raindrop.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "chopin_op28_prelude_no_15_in_d_flat_majo",
+   "source": "pdmx",
+   "title": "Prelude No. 15 in D flat major Op. 28 The Raindrop Prelude",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "chopin_op28_prelude_no_15_in_d_flat_majob2",
+   "source": "pdmx",
+   "title": "Prelude No. 15 in D flat major Op. 28 The Raindrop Prelude",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op28_15_raindrop",

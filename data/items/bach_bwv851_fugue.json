@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv851_fugue.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv851_das_wohltemperierte_clavier",
-   "source": "mutopia",
-   "title": "Das Wohltemperierte Clavier I, Fuga VI",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=988",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv851_fugue",

@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv860_fugue.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv860_fuga_15_bwv_860",
-   "source": "mutopia",
-   "title": "Fuga 15 - BWV 860",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=605",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv860_fugue",

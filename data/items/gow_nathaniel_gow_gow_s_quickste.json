@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/gow_nathaniel_gow_gow_s_quickste.mid",
- "other_editions": [
-  {
-   "id": "gow_nathaniel_gow_it_s_just_for",
-   "source": "pdmx",
-   "title": "It's Just for Fun",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gow_nathaniel_gow_gow_s_quickste",

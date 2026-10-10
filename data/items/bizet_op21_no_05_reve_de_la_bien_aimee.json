@@ -64,7 +64,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bizet_op21_no_05_reve_de_la_bien_aimee.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "bizet_op21_bizet_op_21_reve_de_la_bien",
+   "source": "pdmx",
+   "title": "Op.21: Rêve de la bien aimée",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "bizet_op21_bizet_op_21_reve_de_la_bienb2",
+   "source": "pdmx",
+   "title": "Op.21: Rêve de la bien aimée",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bizet_op21_no_05_reve_de_la_bien_aimee",

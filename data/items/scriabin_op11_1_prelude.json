@@ -58,7 +58,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/scriabin_op11_1_prelude.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "scriabin_op11_prelude_a_scriabin_op_11_nob51",
+   "source": "pdmx",
+   "title": "Prelude (A.Scriabin Op.11.No.1)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op11_1_prelude",

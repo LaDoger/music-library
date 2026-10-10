@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/sullivan_search_throughout_the_panora.mid",
- "other_editions": [
-  {
-   "id": "sullivan_search_throughout_the_panorab2",
-   "source": "pdmx",
-   "title": "Search throughout the panorama ARTHUR SULLIVAN",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=sullivan_search_throughout_the_panora",

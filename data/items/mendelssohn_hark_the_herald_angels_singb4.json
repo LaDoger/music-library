@@ -68,20 +68,6 @@
    "title": "Hark The Herald Angels Sing",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
-  },
-  {
-   "id": "mendelssohn_mendelssohn_hark_the_herald",
-   "source": "pdmx",
-   "title": "Mendelssohn (Hark the herald angels sing)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "mendelssohn_mendelssohn_hark_the_heraldb2",
-   "source": "pdmx",
-   "title": "Mendelssohn (Hark the herald angels sing)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
   }
  ],
  "schema_version": 3,

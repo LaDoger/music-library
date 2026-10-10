@@ -58,15 +58,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv649_ach_bleib_bei_uns.mid",
- "other_editions": [
-  {
-   "id": "bach_bwv649_a_2_clav_e_pedale",
-   "source": "mutopia",
-   "title": "Ach bleib bei uns, Herr Jesu Christ",
-   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1185",
-   "licence": "PD"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv649_ach_bleib_bei_uns",

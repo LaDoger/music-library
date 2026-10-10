@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/playford_glory_of_the_north_playford.mid",
- "other_editions": [
-  {
-   "id": "playford_glory_of_the_north_playfordb2",
-   "source": "pdmx",
-   "title": "Glory of the North - Playford John (1623 - 1686)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=playford_glory_of_the_north_playford",

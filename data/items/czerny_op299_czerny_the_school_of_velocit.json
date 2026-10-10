@@ -61,7 +61,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/czerny_op299_czerny_the_school_of_velocit.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "czerny_op299no1_czerny_school_of_velocity_op",
+   "source": "pdmx",
+   "title": "School Of Velocity - Op. 299 No. 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=czerny_op299_czerny_the_school_of_velocit",
