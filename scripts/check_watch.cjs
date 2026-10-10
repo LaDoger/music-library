@@ -15,6 +15,8 @@ fs.mkdirSync(SHOTS, { recursive: true });
 const FIX_SHOTS = process.env.FIX_SHOTS || path.join(root, '.tmp/watch/shots_fix');
 fs.mkdirSync(FIX_SHOTS, { recursive: true });
 const VIEWPORTS = [[1280, 800], [1440, 900], [1920, 1080], [1366, 768], [390, 844], [820, 1180]];
+// sync drift pieces: repeats + volta + D.S. al Fine / 18 tempo marks (piano) / plain piano
+const DRIFT_IDS = ['duchambge_ronde_des_pauvres', 'wagner_wwv75_elsa_procession', 'wagner_wwv86d_siegfried_funeral_march'];
 const IDS = { piano: 'chopin_op74_no_1_zyczenie', midiOnly: 'bach_bwv1007_prelude', orchestral: 'wagner_wwv70_tannhauser_overture', set: 'mahler_gmw10_gesellen1', setNext: 'mahler_gmw10_gesellen2' };
 const server = http.createServer((req, res) => {
   const name = decodeURIComponent(new URL(req.url, 'http://x').pathname).replace(/^\//, '') || 'index.html';
@@ -57,9 +59,20 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     let s = await st();
     assert.equal(s.kind, 'piano'); assert(s.hasScore, 'score drawn'); assert(s.steps > 20 && s.systems >= 3, 'steps/systems');
     assert.equal(s.ctxState, 'running'); ok('audio context running (Salamander piano)');
-    assert.equal(await page.locator('#wCard .wc-comp').textContent(), 'Frédéric Chopin');
-    await page.screenshot({ path: path.join(SHOTS, 'watch_piano_titlecard.png') });
-    await sleep(3800);
+    // static heading above the stage (no title-card overlay over the score)
+    assert.equal(await page.locator('.w-card, #wCard').count(), 0, 'no title-card overlay');
+    const head = await page.evaluate(() => {
+      const r = (s) => document.querySelector(s).getBoundingClientRect();
+      const vis = (s) => { const e = document.querySelector(s); const b = e.getBoundingClientRect(); return !e.hidden && b.width > 0 && b.height > 0 && getComputedStyle(e).visibility !== 'hidden'; };
+      return { comp: document.querySelector('#wComp').textContent, title: document.querySelector('#wTitle').textContent, cat: document.querySelector('#wCat').textContent,
+        vis: vis('#wComp') && vis('#wTitle') && vis('#wCat'), above: r('#wCat').bottom <= r('#wStage').top + 0.5 && r('#wTitle').bottom <= r('#wStage').top + 0.5,
+        overlay: [...document.querySelectorAll('#wStage > *')].filter((e) => !['wPaper', 'wRoll', 'wStatus'].includes(e.id)).length };
+    });
+    assert(head.comp.startsWith('Frédéric Chopin') && /Życzenie|Zyczenie|Wish/i.test(head.title) && /Op\. ?74/.test(head.cat), 'heading text ' + JSON.stringify(head));
+    assert(head.vis && head.above, 'composer, title and catalogue visible above the stage ' + JSON.stringify(head));
+    assert.equal(head.overlay, 0, 'nothing else layered over the score');
+    ok(`heading above stage: ${head.comp} / ${head.title} / ${head.cat}`);
+    await page.screenshot({ path: path.join(SHOTS, 'watch_piano_start.png') });
     const t0 = s.baseTime, m0 = s.measure;
     await page.waitForFunction((m) => window.__watch.measure > m + 1, m0, { timeout: 40000 });
     s = await st();
@@ -137,6 +150,23 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     await page.screenshot({ path: path.join(SHOTS, 'watch_set_next.png') });
 
 
+    /* (f) sync drift: cursor vs the notes actually sounding, against an independent truth
+       (scripts/watch_truth.py unrolls the MusicXML; see scripts/watch_drift.cjs). < 1 beat. */
+    console.log('sync drift');
+    const { measureDrift, truthFor } = require('./watch_drift.cjs');
+    const truths = truthFor(DRIFT_IDS);
+    const driftCase = async (id, opts, label) => {
+      const r = await measureDrift(page, base, id, truths[id], opts);
+      if (truths[id].match !== undefined) assert(truths[id].match >= 0.85, `${id}: unrolled MusicXML matches only ${(truths[id].match * 100).toFixed(0)}% of the MIDI measures`);
+      assert(r.n >= 6, `${id}${label}: only ${r.n}/8 reliable samples`);
+      assert(r.max < 1, `${id}${label}: drift ${r.max.toFixed(2)} beats (${r.rows.map((x) => x.ok ? x.err.toFixed(2) : '-').join(' ')})`);
+      ok(`${id}${label}: max ${r.max.toFixed(2)}, mean ${r.mean.toFixed(2)} beats over ${r.n} samples (${r.audioSrc})`);
+      return r;
+    };
+    for (const id of DRIFT_IDS) assert.equal((await driftCase(id, {}, '')).audioSrc, 'score');
+    assert.equal((await driftCase(DRIFT_IDS[0], { tempo: 1.5 }, ' @150%')).audioSrc, 'score');
+    assert.equal((await driftCase(DRIFT_IDS[0], { extra: '&audio=midi' }, ' MIDI audio, DTW-aligned')).audioSrc, 'midi-aligned');
+
     /* (e) layout: page scrolls, no horizontal overflow, bar + stage + controls fit the viewport */
     const engines = [['chromium', null]];
     for (const [n, t] of [['webkit', webkit], ['firefox', firefox]]) {
@@ -158,7 +188,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         await sleep(600);
         const geo = await p2.evaluate(() => {
           const r = (s) => document.querySelector(s).getBoundingClientRect();
-          const wide = [...document.querySelectorAll('#watch *')].filter((el) => { const b = el.getBoundingClientRect(); return b.width && b.height && getComputedStyle(el).visibility !== 'hidden' && !el.closest('.w-paper, .w-card, svg') && b.right > innerWidth + 1; }).map((el) => el.className || el.tagName);
+          const wide = [...document.querySelectorAll('#watch *')].filter((el) => { const b = el.getBoundingClientRect(); return b.width && b.height && getComputedStyle(el).visibility !== 'hidden' && !el.closest('.w-paper, svg') && b.right > innerWidth + 1; }).map((el) => el.className || el.tagName);
           return { sh: document.documentElement.scrollHeight, ch: document.documentElement.clientHeight, sw: document.documentElement.scrollWidth, iw: innerWidth, ih: innerHeight, stageB: r('#wStage').bottom, ctlB: r('.w-controls').bottom, paperW: r('#wPaper').width, osmdR: r('#wOsmd').right, osmdL: r('#wOsmd').left, wide };
         });
         assert(geo.sw <= geo.iw, `${tag} no horizontal scroll (${geo.sw} > ${geo.iw})`);

@@ -1,5 +1,5 @@
 /* Watch player: engraved score (OpenSheetMusicDisplay) synced to live audio rendered in the
-   browser from the score MIDI. Lazy-loaded by app.js on ?watch=<id>; adds no media files.
+   browser from the score itself (unrolled MusicXML; the MIDI for MIDI-only rows). Lazy-loaded by app.js on ?watch=<id>; adds no media files.
    Libraries: OSMD (BSD-3, jsDelivr, loaded here), Tone.js + Magenta core (vendor bundle, shared with
    the detail-page synth), Salamander Grand Piano samples (CC BY 3.0, tonejs.github.io). See docs/WATCH_PLAYER.md. */
 (() => {
@@ -172,14 +172,302 @@
     return s;
   }
 
-  /* ---------- score (OSMD) ---------- */
-  const toBinary = (buf) => { const u = new Uint8Array(buf); let s = ""; for (let i = 0; i < u.length; i += 8192) s += String.fromCharCode.apply(null, u.subarray(i, i + 8192)); return s; };
-  async function loadScore(w, file) {
-    await loadOSMD();
+  /* ---------- score timeline: MusicXML -> unrolled measures, tempo map, notes ----------
+     Audio and cursor share one clock: the score is unrolled in playback order (repeats, voltas,
+     D.C./D.S./Fine/To Coda; repeats are not replayed after a jump, the last volta is taken),
+     tempo comes from <sound tempo> / metronome marks, and the notes of the unrolled score become
+     the NoteSequence the audio engines play. Positions are in quarter notes ("u" = unrolled). */
+  async function unzipXml(buf) {
+    const b = new Uint8Array(buf), dv = new DataView(buf);
+    let eocd = -1;
+    for (let i = b.length - 22; i >= Math.max(0, b.length - 65557); i--) if (dv.getUint32(i, true) === 0x06054b50) { eocd = i; break; }
+    if (eocd < 0) throw new Error("not a zip");
+    const files = new Map();
+    for (let p = dv.getUint32(eocd + 16, true), n = dv.getUint16(eocd + 10, true); n-- > 0;) {
+      const method = dv.getUint16(p + 10, true), size = dv.getUint32(p + 20, true), nl = dv.getUint16(p + 28, true);
+      const xl = dv.getUint16(p + 30, true), cl = dv.getUint16(p + 32, true), lh = dv.getUint32(p + 42, true);
+      files.set(new TextDecoder().decode(b.subarray(p + 46, p + 46 + nl)), { method, size, lh });
+      p += 46 + nl + xl + cl;
+    }
+    const read = async (name) => {
+      const f = files.get(name); if (!f) return null;
+      const start = f.lh + 30 + dv.getUint16(f.lh + 26, true) + dv.getUint16(f.lh + 28, true), raw = b.subarray(start, start + f.size);
+      if (f.method === 0) return raw;
+      if (f.method !== 8 || typeof DecompressionStream === "undefined") throw new Error("unsupported zip");
+      return new Uint8Array(await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).arrayBuffer());
+    };
+    const cont = await read("META-INF/container.xml");
+    const m = cont && new TextDecoder().decode(cont).match(/full-path="([^"]+)"/);
+    const name = m ? m[1] : [...files.keys()].find((k) => !k.startsWith("META-INF") && /\.(xml|musicxml)$/i.test(k));
+    return read(name);
+  }
+  const decodeXml = (u) => new TextDecoder(u[0] === 0xff && u[1] === 0xfe ? "utf-16le" : u[0] === 0xfe && u[1] === 0xff ? "utf-16be" : "utf-8").decode(u);
+  // Returns { text } (MusicXML) or { raw } (binary string for OSMD) when the browser cannot unzip.
+  async function fetchScore(file) {
     const res = await fetch(file);
     if (!res.ok) throw new Error("score " + res.status);
-    const isZip = /\.mxl$/i.test(file);
-    const data = isZip ? toBinary(await res.arrayBuffer()) : await res.text();
+    const buf = await res.arrayBuffer();
+    if (!/\.mxl$/i.test(file)) return { text: decodeXml(new Uint8Array(buf)) };
+    try { return { text: decodeXml(await unzipXml(buf)) }; } catch (err) { console.warn("mxl unzip failed", err); return { raw: toBinary(buf) }; }
+  }
+
+  const STEP = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+  const DYN = { pppp: 10, ppp: 23, pp: 36, p: 49, mp: 64, mf: 80, f: 96, ff: 112, fff: 120, ffff: 127, sf: 112, sfz: 112, fz: 112, sfp: 96, rfz: 112 };
+  const kid = (el, name) => { for (const c of el.children) if (c.localName === name) return c; return null; };
+  const kids = (el, name) => [...el.children].filter((c) => c.localName === name);
+  const txt = (el, name, d) => { const c = el && kid(el, name); return c ? c.textContent.trim() : d; };
+  function parseMusicXML(text) {
+    const doc = new DOMParser().parseFromString(text, "application/xml");
+    const root = doc.documentElement;
+    if (!root || root.localName !== "score-partwise") throw new Error("not score-partwise MusicXML");
+    const instr = new Map();   // score-part id -> Map(instrument id -> {prog, drum, unpitched})
+    for (const sp of root.querySelectorAll("part-list > score-part")) {
+      const m = new Map();
+      for (const mi of kids(sp, "midi-instrument")) {
+        const ch = +txt(mi, "midi-channel", 1), prog = Math.max(0, +txt(mi, "midi-program", 1) - 1), up = txt(mi, "midi-unpitched", "");
+        m.set(mi.getAttribute("id"), { prog, drum: ch === 10, unpitched: up ? +up - 1 : -1 });
+      }
+      instr.set(sp.getAttribute("id"), m);
+    }
+    const parts = kids(root, "part");
+    const n = kids(parts[0], "measure").length;
+    const meas = Array.from({ length: n }, () => ({ len: 0, fwd: false, bwd: 0, ending: null, endStop: false, segno: false, coda: false, dc: false, ds: false, fine: false, tocoda: false }));
+    const notes = [], tempos = [];
+    let soundJumps = false;
+    const words = [];
+    parts.forEach((part, pi) => {
+      const ins = instr.get(part.getAttribute("id")) || new Map();
+      const insDef = ins.values().next().value || { prog: 0, drum: false, unpitched: -1 };
+      let div = 1, ts = 4, vel = 80, trans = 0;
+      kids(part, "measure").forEach((mEl, mi) => {
+        if (mi >= n) return;
+        const M = meas[mi];
+        if (M.num === undefined) M.num = mEl.getAttribute("number") || "";
+        let pos = 0, mx = 0, last = 0;
+        const sound = (s, at) => {
+          if (s.hasAttribute("tempo") && +s.getAttribute("tempo") > 0) tempos.push({ m: mi, off: at, qpm: +s.getAttribute("tempo") });
+          if (s.hasAttribute("dynamics")) vel = Math.max(1, Math.min(127, Math.round(+s.getAttribute("dynamics") * 0.9)));
+          for (const [a, k] of [["segno", "segno"], ["coda", "coda"], ["dalsegno", "ds"], ["tocoda", "tocoda"]]) if (s.hasAttribute(a)) { M[k] = true; soundJumps = true; }
+          if (s.getAttribute("dacapo") === "yes") { M.dc = true; soundJumps = true; }
+          if (s.hasAttribute("fine")) { M.fine = true; soundJumps = true; }
+        };
+        for (const el of mEl.children) {
+          const t = el.localName;
+          if (t === "attributes") {
+            const d = txt(el, "divisions", ""); if (d) div = +d || 1;
+            const tm = kid(el, "time");
+            if (tm && txt(tm, "beats", "")) ts = txt(tm, "beats", "4").split("+").reduce((a, x) => a + (+x || 0), 0) * 4 / (+txt(tm, "beat-type", 4) || 4);
+            const tr = kid(el, "transpose");
+            if (tr) trans = (+txt(tr, "chromatic", 0) || 0) + 12 * (+txt(tr, "octave-change", 0) || 0);
+          } else if (t === "note") {
+            if (kid(el, "grace")) continue;
+            const dur = (+txt(el, "duration", 0) || 0) / div;
+            let start;
+            if (kid(el, "chord")) start = last; else { start = pos; last = pos; pos += dur; }
+            mx = Math.max(mx, pos);
+            if (kid(el, "rest") || kid(el, "cue")) continue;
+            const iid = kid(el, "instrument") && kid(el, "instrument").getAttribute("id");
+            const def = (iid && ins.get(iid)) || insDef;
+            let pitch = -1, drum = def.drum;
+            const p = kid(el, "pitch"), up = kid(el, "unpitched");
+            if (p) pitch = 12 * (+txt(p, "octave", 4) + 1) + STEP[txt(p, "step", "C")] + Math.round(+txt(p, "alter", 0) || 0) + (drum ? 0 : trans);
+            else if (up) { pitch = def.unpitched; drum = true; }
+            if (pitch < 0 || pitch > 127) continue;
+            const ties = kids(el, "tie").map((x) => x.getAttribute("type"));
+            const nv = el.hasAttribute("dynamics") ? Math.max(1, Math.min(127, Math.round(+el.getAttribute("dynamics") * 0.9))) : vel;
+            notes.push({ m: mi, off: start, dur, pitch, part: pi, prog: def.prog, drum, vel: nv, tieStop: ties.includes("stop"), tieStart: ties.includes("start") });
+          } else if (t === "backup") pos -= (+txt(el, "duration", 0) || 0) / div;
+          else if (t === "forward") { pos += (+txt(el, "duration", 0) || 0) / div; mx = Math.max(mx, pos); }
+          else if (t === "barline") {
+            const r = kid(el, "repeat");
+            if (r) { if (r.getAttribute("direction") === "forward") M.fwd = true; else M.bwd = Math.max(M.bwd, +r.getAttribute("times") || 1); }   // 1 = times not given
+            const e = kid(el, "ending");
+            if (e) { if (e.getAttribute("type") === "start") M.ending = (e.getAttribute("number") || "1").match(/\d+/g)?.map(Number) || [1]; else M.endStop = true; }
+            for (const s of kids(el, "sound")) sound(s, pos);
+            if (kid(el, "segno")) M.segno = true;
+            if (kid(el, "coda")) M.coda = true;
+          } else if (t === "sound") sound(el, pos);
+          else if (t === "direction") {
+            const at = pos + (+txt(el, "offset", 0) || 0) / div;
+            const ss = kids(el, "sound");
+            for (const s of ss) sound(s, at);
+            for (const dt of kids(el, "direction-type")) {
+              if (kid(dt, "segno")) M.segno = true;
+              if (kid(dt, "coda")) M.coda = true;
+              const mm = kid(dt, "metronome");
+              if (mm && !ss.some((s) => s.hasAttribute("tempo")) && txt(mm, "per-minute", "")) {
+                const unit = { whole: 4, half: 2, quarter: 1, eighth: 0.5, "16th": 0.25 }[txt(mm, "beat-unit", "quarter")] || 1;
+                const qpm = parseFloat(txt(mm, "per-minute", "")) * unit * (kids(mm, "beat-unit-dot").length ? 1.5 : 1);
+                if (qpm > 0) tempos.push({ m: mi, off: at, qpm });
+              }
+              const dy = kid(dt, "dynamics");
+              if (dy && !ss.some((s) => s.hasAttribute("dynamics")) && dy.children[0] && DYN[dy.children[0].localName]) vel = DYN[dy.children[0].localName];
+              for (const wd of kids(dt, "words")) words.push({ M, s: wd.textContent.trim() });
+            }
+          }
+        }
+        // notated durations can be rounded (tuplets): snap to the time signature when within 3 %
+        M.len = Math.max(M.len, Math.abs(mx - ts) <= ts * 0.03 ? ts : mx);
+      });
+    });
+    // Scores without <sound> jump attributes: read the usual words instead.
+    if (!soundJumps) for (const { M, s } of words) {
+      if (/^D\.\s*C\./i.test(s) || /^da capo/i.test(s)) M.dc = true;
+      else if (/^D\.\s*S\./i.test(s) || /^dal segno/i.test(s)) M.ds = true;
+      else if (/^fine\.?$/i.test(s)) M.fine = true;
+      else if (/^to coda/i.test(s)) M.tocoda = true;
+    }
+    let cur = null;   // an ending without a stop closes at a backward repeat or before a forward repeat
+    for (const M of meas) { if (M.fwd && !M.ending) cur = null; if (M.ending) cur = M.ending; M.endnums = cur; if (M.endStop || M.bwd) cur = null; }
+    // repeat without times= inside a volta group: as many passes as the highest ending number
+    meas.forEach((M, i) => {
+      if (M.bwd !== 1) return;
+      let lo = i, hi = i, mx = 2;
+      if (M.endnums) { while (lo > 0 && meas[lo - 1].endnums) lo--; while (hi + 1 < meas.length && meas[hi + 1].endnums) hi++; for (let k = lo; k <= hi; k++) mx = Math.max(mx, ...meas[k].endnums); }
+      M.bwd = mx;
+    });
+    return { meas, notes, tempos };
+  }
+  // Per movement (numbering restarts at 1, or 0 for a pickup): D.C./segno/coda stay inside it and
+  // Fine ends only that movement.
+  function unrollOrder(meas) {
+    const n = meas.length, out = [];
+    const lastEnding = (i) => { let k = i; while (k + 1 < n && meas[k + 1].endnums) k++; return meas[k].endnums; };
+    const st = [0];
+    for (let i = 1; i < n; i++) if (meas[i].num === "0" || (meas[i].num === "1" && meas[i - 1].num !== "0")) st.push(i);
+    st.push(n);
+    for (let s = 0; s + 1 < st.length; s++) {
+      const s0 = st[s], s1 = st[s + 1];
+      let i = s0, start = s0, pass = 1, jumped = false, guard = 0;
+      while (i < s1 && guard++ < 20 * n) {
+        const M = meas[i];
+        if (M.fwd && start !== i) { start = i; pass = 1; }
+        if (M.endnums && !(jumped ? M.endnums === lastEnding(i) : M.endnums.includes(pass))) { i++; continue; }
+        out.push(i);
+        if (jumped && M.fine) break;
+        if (jumped && M.tocoda) { let c = i + 1; while (c < s1 && !meas[c].coda) c++; if (c < s1) { i = c; continue; } }
+        if (M.bwd && !jumped && pass < M.bwd) { pass++; i = start; continue; }
+        if (M.bwd) { pass = 1; start = i + 1; }
+        if ((M.dc || M.ds) && !jumped) {
+          jumped = true; pass = 1;
+          if (M.dc) i = s0; else { i = s0; for (let k = s0; k < s1; k++) if (meas[k].segno) { i = k; break; } }
+          start = i;
+          continue;
+        }
+        i++;
+      }
+    }
+    return out;
+  }
+  // Piecewise-linear lookups over sorted [x, y] anchors (clamped extrapolation at the ends).
+  function pwl(xs, ys) {
+    const f = (a, b) => (v) => {
+      let lo = 0, hi = a.length - 1;
+      if (v <= a[0]) return b[0] + (v - a[0]) * (a.length > 1 ? (b[1] - b[0]) / (a[1] - a[0] || 1) : 1);
+      while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (a[mid] <= v) lo = mid; else hi = mid - 1; }
+      if (lo >= a.length - 1) { const k = a.length - 1; return b[k] + (v - a[k]) * (k > 0 ? (b[k] - b[k - 1]) / (a[k] - a[k - 1] || 1) : 1); }
+      return b[lo] + (v - a[lo]) * (b[lo + 1] - b[lo]) / (a[lo + 1] - a[lo] || 1);
+    };
+    return { yOf: f(xs, ys), xOf: f(ys, xs) };
+  }
+  // uTempos: [[u, qpm]] to use instead of the score's marks (scores without any tempo mark).
+  function scoreTimeline(score, uTempos) {
+    const { meas, notes, tempos } = score;
+    const order = unrollOrder(meas);
+    if (!order.length) throw new Error("empty score");
+    tempos.sort((a, b) => a.m - b.m || a.off - b.off);
+    const startQpm = []; let q = 120, ti = 0;   // MuseScore default before the first mark
+    for (let m = 0; m < meas.length; m++) { while (ti < tempos.length && (tempos[ti].m < m || (tempos[ti].m === m && tempos[ti].off < 1e-6))) q = tempos[ti++].qpm; startQpm[m] = q; }
+    const byM = new Map(); for (const nt of notes) { if (!byM.has(nt.m)) byM.set(nt.m, []); byM.get(nt.m).push(nt); }
+    for (const l of byM.values()) l.sort((a, b) => a.off - b.off || b.tieStop - a.tieStop);   // time order, so a tie is closed before a later re-strike
+    const tByM = new Map(); for (const t of tempos) if (t.off >= 1e-6) { if (!tByM.has(t.m)) tByM.set(t.m, []); tByM.get(t.m).push(t); }
+    const entries = [], ev = []; let u = 0;
+    for (const m of order) {
+      entries.push({ m, u0: u, len: meas[m].len });
+      ev.push([u, startQpm[m]]);
+      for (const t of tByM.get(m) || []) if (t.off < meas[m].len) ev.push([u + t.off, t.qpm]);
+      u += meas[m].len;
+    }
+    if (uTempos && uTempos.length) { ev.length = 0; ev.push(...uTempos); }
+    // tempo segments -> anchors (u, seconds)
+    const us = [0], ts = [0]; let cq = ev[0][1];
+    for (const [eu, qpm] of ev) {
+      if (eu > us[us.length - 1] + 1e-9) { ts.push(ts[ts.length - 1] + (eu - us[us.length - 1]) * 60 / cq); us.push(eu); }
+      cq = qpm;
+    }
+    ts.push(ts[ts.length - 1] + (u - us[us.length - 1]) * 60 / cq); us.push(u);
+    const map = pwl(ts, us);   // yOf: seconds -> u, xOf: u -> seconds
+    const sec = (x) => map.xOf(x);
+    // notes in playback order; ties extend the sounding note
+    const out = [], onsets = [], open = new Map();
+    for (const e of entries) {
+      for (const nt of byM.get(e.m) || []) {
+        const su = e.u0 + nt.off, eu = su + nt.dur, key = nt.part + ":" + nt.pitch;
+        const prev = open.get(key);
+        if (nt.tieStop && prev && Math.abs(prev.eu - su) < 1e-3) { prev.eu = eu; if (!nt.tieStart) open.delete(key); continue; }
+        const o = { su, eu, pitch: nt.pitch, velocity: nt.vel, program: nt.prog, isDrum: nt.drum, instrument: nt.part };
+        out.push(o); if (!nt.drum) onsets.push([su, nt.pitch]);
+        if (nt.tieStart) open.set(key, o); else open.delete(key);
+      }
+    }
+    out.sort((a, b) => a.su - b.su);
+    onsets.sort((a, b) => a[0] - b[0]);
+    const total = sec(u);
+    const seqObj = {
+      ticksPerQuarter: 220, totalTime: total,
+      tempos: ev.map(([eu, qpm]) => ({ time: sec(eu), qpm })).filter((t, i, a) => i === 0 || t.qpm !== a[i - 1].qpm),
+      notes: out.map((o) => ({ pitch: o.pitch, velocity: o.velocity, startTime: sec(o.su), endTime: Math.max(sec(o.su) + 0.03, sec(o.eu) - 0.005), program: o.program, isDrum: o.isDrum, instrument: o.instrument })),
+    };
+    const NS = window.core && window.core.NoteSequence;
+    const seq = NS && NS.fromObject ? NS.fromObject(seqObj) : seqObj;
+    return { entries, measures: meas.length, U: u, onsets, seq, total, uOf: map.yOf, tOf: map.xOf, score, marked: tempos.length > 0 };
+  }
+
+  // Score shown, audio from a separate MIDI: align MIDI onsets to the unrolled score onsets with a
+  // banded DTW (cost = 1 - Jaccard of the pitch sets) and map MIDI seconds -> score position.
+  function alignMidi(tl, seq) {
+    const S = []; for (const [x, p] of tl.onsets) { const l = S[S.length - 1]; if (l && x - l.x < 1e-6) l.p.add(p); else S.push({ x, p: new Set([p]) }); }
+    const mid = [...seq.notes].filter((nt) => !nt.isDrum).sort((a, b) => a.startTime - b.startTime);
+    const A = []; for (const nt of mid) { const l = A[A.length - 1]; if (l && nt.startTime - l.x < 0.03) l.p.add(nt.pitch); else A.push({ x: nt.startTime, p: new Set([nt.pitch]) }); }
+    const N = A.length, M = S.length;
+    if (N < 2 || M < 2) return null;
+    const W = Math.max(150, Math.ceil(0.15 * Math.max(N, M))), Wd = 2 * W + 1;
+    const center = (i) => Math.round(i * (M - 1) / (N - 1));
+    const D = new Float32Array(N * Wd).fill(Infinity), B = new Uint8Array(N * Wd);
+    const at = (i, j) => { const k = j - center(i) + W; return k >= 0 && k < Wd ? i * Wd + k : -1; };
+    const jac = (a, b) => { let c = 0; for (const x of a) if (b.has(x)) c++; return c / (a.size + b.size - c || 1); };
+    for (let i = 0; i < N; i++) {
+      const c0 = center(i);
+      for (let j = Math.max(0, c0 - W); j <= Math.min(M - 1, c0 + W); j++) {
+        const c = 1 - jac(A[i].p, S[j].p), k = at(i, j);
+        if (i === 0 && j === 0) { D[k] = c; continue; }
+        let best = Infinity, dir = 0, x;
+        if (i > 0 && j > 0 && (x = at(i - 1, j - 1)) >= 0 && D[x] < best) { best = D[x]; dir = 1; }
+        if (i > 0 && (x = at(i - 1, j)) >= 0 && D[x] + 0.3 < best) { best = D[x] + 0.3; dir = 2; }
+        if (j > 0 && (x = at(i, j - 1)) >= 0 && D[x] + 0.3 < best) { best = D[x] + 0.3; dir = 3; }
+        D[k] = c + best; B[k] = dir;
+      }
+    }
+    if (at(N - 1, M - 1) < 0 || !isFinite(D[at(N - 1, M - 1)])) return null;
+    const xs = [], ys = [];
+    for (let i = N - 1, j = M - 1; i >= 0 && j >= 0;) {
+      const k = at(i, j), d = B[k];
+      if (d === 1 || (i === 0 && j === 0)) { if (jac(A[i].p, S[j].p) >= 0.5) { xs.push(A[i].x); ys.push(S[j].x); } }
+      if (d === 1) { i--; j--; } else if (d === 2) i--; else if (d === 3) j--; else break;
+    }
+    xs.reverse(); ys.reverse();
+    const fx = [], fy = [];   // strictly increasing in both
+    for (let k = 0; k < xs.length; k++) if (!fx.length || (xs[k] > fx[fx.length - 1] + 1e-4 && ys[k] > fy[fy.length - 1] + 1e-6)) { fx.push(xs[k]); fy.push(ys[k]); }
+    if (fx.length < 2) return null;
+    if (seq.totalTime > fx[fx.length - 1] && tl.U > fy[fy.length - 1]) { fx.push(seq.totalTime); fy.push(tl.U); }
+    const map = pwl(fx, fy);
+    return { uOf: (t) => Math.max(0, Math.min(tl.U, map.yOf(t))), anchors: fx.length };
+  }
+
+  /* ---------- score (OSMD) ---------- */
+  const toBinary = (buf) => { const u = new Uint8Array(buf); let s = ""; for (let i = 0; i < u.length; i += 8192) s += String.fromCharCode.apply(null, u.subarray(i, i + 8192)); return s; };
+  async function loadScore(w, data) {
+    await loadOSMD();
     const o = new window.opensheetmusicdisplay.OpenSheetMusicDisplay(w.osmdEl, {
       backend: "svg", autoResize: false, drawTitle: false, drawSubtitle: false, drawComposer: false, drawLyricist: false,
       drawCredits: false, drawPartNames: true, followCursor: false, drawingParameters: "default", pageFormat: "Endless",
@@ -187,14 +475,28 @@
     await o.load(data);
     w.osmd = o;
     layoutScore(w);
-    // Cursor step table: whole-note timestamps and measure index per step.
+    // Cursor step table (score order, no repeats): measure index + quarter offset in the measure for
+    // every note onset; per measure the first step index and an iterator clone to jump to it.
     o.cursor.show();
     cursorA11y(w);
-    const it = o.cursor.Iterator; w.steps = [];
-    while (!it.EndReached) { w.steps.push({ q: it.currentTimeStamp.RealValue * 4, m: it.CurrentMeasureIndex }); o.cursor.next(); }
+    const it = o.cursor.Iterator; w.steps = []; w.mFirst = []; w.mClone = []; w.mStart = [];
+    while (!it.EndReached) {
+      const m = it.CurrentMeasureIndex;
+      if (w.mFirst[m] === undefined) { w.mFirst[m] = w.steps.length; w.mClone[m] = it.clone(); }
+      w.steps.push({ m, o: (it.currentTimeStamp.RealValue - it.CurrentMeasure.AbsoluteTimestamp.RealValue) * 4 });
+      o.cursor.next();
+    }
+    o.Sheet.SourceMeasures.forEach((sm, i) => { w.mStart[i] = sm.AbsoluteTimestamp.RealValue * 4; });
     o.cursor.reset(); w.stepIdx = 0;
-    const last = w.steps[w.steps.length - 1];
-    w.scoreQ = last ? last.q + 1 : 1;
+  }
+  // No usable MusicXML timeline (e.g. the browser cannot unzip): score order, MIDI tempo map,
+  // linear stretch if the MIDI is longer (repeats expanded). Last resort only.
+  function linearClock(w, seq) {
+    const sm = w.osmd.Sheet.SourceMeasures, tm = tempoMap(seq);
+    const entries = sm.map((x, i) => ({ m: i, u0: w.mStart[i], len: x.Duration.RealValue * 4 }));
+    const U = entries.length ? entries[entries.length - 1].u0 + entries[entries.length - 1].len : 1;
+    let scale = tm.qOf(seq.totalTime) / U; if (Math.abs(scale - 1) < 0.03) scale = 1;
+    return { entries, uOf: (t) => tm.qOf(t) / scale };
   }
   function cursorA11y(w) {
     const el = w.osmd && w.osmd.cursor.cursorElement;
@@ -235,7 +537,7 @@
       <div class="w-main">
         <header class="w-bar">
           <button class="w-icon" type="button" data-w="close" aria-label="Close player">←</button>
-          <div class="w-heading"><div class="w-comp" id="wComp"></div><h2 class="w-title" id="wTitle" tabindex="-1"></h2></div>
+          <div class="w-heading"><div class="w-comp" id="wComp"></div><h2 class="w-title" id="wTitle" tabindex="-1"></h2><div class="w-cat" id="wCat"></div></div>
           <div class="w-opts">
             <div class="w-seg" role="group" aria-label="View">
               <button type="button" data-view="score" aria-pressed="false">Score</button>
@@ -257,7 +559,6 @@
             <div class="w-page" id="wPage"></div>
           </div>
           <canvas class="w-roll" id="wRoll" aria-label="Piano roll"></canvas>
-          <div class="w-card" id="wCard" aria-hidden="true"><div class="wc-comp"></div><div class="wc-title"></div><div class="wc-cat"></div></div>
           <div class="w-status" id="wStatus" role="status" aria-live="polite">Loading…</div>
         </div>
         <div class="w-controls">
@@ -293,7 +594,7 @@
     const setStatus = (m) => { const s = w.q("#wStatus"); if (!s) return; s.textContent = m || ""; s.hidden = !m; };
     w.setStatus = setStatus;
     $("#wComp", root).textContent = r.composer;
-    $("#wTitle", root).textContent = r.title + (r.movement && !r.title.includes(r.movement) ? " · " + r.movement : "");
+    fillHeading(w, r);
     document.title = `${r.title} · ${r.composer} — Watch · Music Library`;
     $("#wTitle", root).focus({ preventScroll: true });
     const z = parseFloat(ctx.zoom ? ctx.zoom() : "");
@@ -306,27 +607,58 @@
       const full = await ctx.loadFull(r);
       if (W !== w) return;
       renderCredits(w, full);
-      fillCard(w, full);
+      fillHeading(w, full);
       const xml = (full.score_files || []).find((f) => XML_RE.test(f));
       w.hasXml = !!xml;
       w.view = xml ? (prefs.view || "score") : "roll";
       for (const b of root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]')) b.disabled = !xml;
       setView(w, w.view, true);
       await loadBundle();
-      const res = await fetch(full.midi_play_url);
-      if (!res.ok) throw new Error("MIDI " + res.status);
-      const base = window.core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer()));
-      if (W !== w) return;
-      w.base = base; w.tm = tempoMap(base); w.total = base.totalTime;
-      w.sound = resolveSound(base);
-      w.kind = w.sound === "gm" ? "sf" : "piano";
+      // Audio source: the unrolled MusicXML (one clock for audio and cursor); the MIDI only for
+      // MIDI-only rows, when the score cannot be turned into notes, or with &audio=midi.
+      const forceMidi = (ctx.audio ? ctx.audio() : "") === "midi";
+      let tl = null;
       if (xml) {
         setStatus("Engraving the score…");
         await new Promise((res2) => setTimeout(res2, 30));
-        try { await loadScore(w, xml); w.hasScore = true; } catch (err) { console.warn("score failed", err); w.hasScore = false; if (w.view !== "roll") setView(w, "roll", true); root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]').forEach((b) => { b.disabled = true; }); setStatus("Score could not be drawn; showing the piano roll."); }
+        try {
+          const src = await fetchScore(xml);
+          if (W !== w) return;
+          if (src.text) { try { tl = scoreTimeline(parseMusicXML(src.text)); } catch (err) { console.warn("score timeline failed", err); } }
+          await loadScore(w, src.text || src.raw); w.hasScore = true;
+          if (tl && tl.measures !== w.osmd.Sheet.SourceMeasures.length) { console.warn("measure count differs from OSMD; using the MIDI"); tl = null; }
+        } catch (err) { console.warn("score failed", err); w.hasScore = false; if (w.view !== "roll") setView(w, "roll", true); root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]').forEach((b) => { b.disabled = true; }); setStatus("Score could not be drawn; showing the piano roll."); }
         if (W !== w) return;
       }
-      if (w.hasScore) { w.scale = w.scoreQ > 0 ? w.tm.qOf(w.total) / w.scoreQ : 1; if (Math.abs(w.scale - 1) < 0.03) w.scale = 1; }
+      let base, midi = null;
+      const loadMidi = async () => {
+        const res = await fetch(full.midi_play_url);
+        if (!res.ok) throw new Error("MIDI " + res.status);
+        return window.core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer()));
+      };
+      if (tl && !tl.marked && !forceMidi) {
+        // No tempo mark in the score: borrow the MIDI's tempo map when it has the same length in quarters.
+        try {
+          midi = await loadMidi();
+          const tm = tempoMap(midi), mq = tm.qOf(midi.totalTime);
+          if (Math.abs(mq - tl.U) <= 0.03 * tl.U && midi.tempos && midi.tempos.length) tl = scoreTimeline(tl.score, midi.tempos.map((t) => [tm.qOf(t.time), t.qpm]).sort((a, b) => a[0] - b[0]));
+        } catch (err) { console.warn("MIDI tempo unavailable", err); }
+        if (W !== w) return;
+      }
+      if (tl && tl.seq.notes.length && !forceMidi) { base = tl.seq; w.audioSrc = "score"; w.clock = tl; }
+      else {
+        base = midi || await loadMidi();
+        if (W !== w) return;
+        w.audioSrc = "midi";
+        if (w.hasScore) {
+          const al = tl && alignMidi(tl, base);
+          w.clock = al ? { entries: tl.entries, uOf: al.uOf } : linearClock(w, base);
+          w.audioSrc = al ? "midi-aligned" : "midi-linear";
+        }
+      }
+      w.base = base; w.total = base.totalTime;
+      w.sound = resolveSound(base);
+      w.kind = w.sound === "gm" ? "sf" : "piano";
       w.rollNotes = base.notes.filter((n) => !n.isDrum);
       await prepareAudio(w);
       if (W !== w) return;
@@ -336,7 +668,6 @@
       setStatus(w.kind === "piano" ? "" : "");
       w.q("#wPlay").disabled = false; w.q("#wSound").disabled = false;
       w.q("#wPlay").focus({ preventScroll: true });
-      showCard(w);
       sync(w, true);
       loop(w);
     } catch (err) {
@@ -399,12 +730,28 @@
 
   /* ---------- sync / animation ---------- */
   const basePos = (w) => (w.engine ? w.engine.position() * w.tempo : 0);   // base seconds
-  function stepAt(w, t) {
-    let q = w.tm.qOf(t);
-    if (w.scale !== 1) q /= w.scale;
-    const s = w.steps; let lo = 0, hi = s.length - 1;
-    while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (s[mid].q <= q + 1e-6) lo = mid; else hi = mid - 1; }
-    return lo;
+  // base seconds -> { m: measure (score index), step: cursor step index } via the unrolled timeline
+  function posAt(w, t) {
+    const E = w.clock.entries, u = w.clock.uOf(t);
+    let lo = 0, hi = E.length - 1;
+    while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (E[mid].u0 <= u + 1e-6) lo = mid; else hi = mid - 1; }
+    const e = E[lo], off = u - e.u0;
+    let step = w.mFirst[e.m];
+    if (step === undefined) {   // measure without cursor steps: stay on the last step before it
+      step = 0; for (let m = e.m - 1; m >= 0; m--) if (w.mFirst[m] !== undefined) { step = w.mFirst[m]; while (step + 1 < w.steps.length && w.steps[step + 1].m === m) step++; break; }
+    } else while (step + 1 < w.steps.length && w.steps[step + 1].m === e.m && w.steps[step + 1].o <= off + 1e-6) step++;
+    return { m: e.m, step, u };
+  }
+  function moveCursor(w, idx) {
+    const c = w.osmd.cursor;
+    if (idx === w.stepIdx + 1) c.next();
+    else if (idx !== w.stepIdx) {
+      const m = w.steps[idx].m;
+      c.iterator = w.mClone[m].clone();
+      for (let i = w.mFirst[m]; i < idx; i++) c.next();
+    }
+    c.update();
+    w.stepIdx = idx;
   }
   function sync(w, force) {
     if (!w.engine) return;
@@ -414,16 +761,11 @@
     seek.setAttribute("aria-valuenow", String(Math.round(t / total * 100)));
     seek.setAttribute("aria-valuetext", `${fmt(t / w.tempo)} of ${fmt(total / w.tempo)}`);
     w.q("#wTime").textContent = `${fmt(t / w.tempo)} / ${fmt(total / w.tempo)}`;
-    if (w.hasScore && w.steps.length) {
-      const idx = stepAt(w, t);
-      if (idx !== w.stepIdx || force) {
-        const c = w.osmd.cursor;
-        if (idx === w.stepIdx + 1) c.next();
-        else if (idx !== w.stepIdx) { c.reset(); for (let i = 0; i < idx; i++) c.next(); }
-        c.update();
-        w.stepIdx = idx;
-        highlight(w, w.steps[idx].m, force);
-      } else if (force) highlight(w, w.steps[idx].m, true);
+    if (w.hasScore && w.steps.length && w.clock) {
+      const p = posAt(w, t);
+      w.u = p.u;
+      if (p.step !== w.stepIdx || force) moveCursor(w, p.step);
+      if (p.m !== w.curMeasure || force) highlight(w, p.m, force);
     }
     exposeState(w);
   }
@@ -486,7 +828,6 @@
   async function play(w) {
     if (!w.ready) return;
     try { if (window.Tone.context.state !== "running") await window.Tone.start(); } catch { /* retried on next click */ }
-    hideCard(w);
     const e = w.engine;
     const from = e.pos >= w.scaled.totalTime - 0.05 ? 0 : e.pos;
     w.playing = true; e.start(from); setPlayUI(w);
@@ -661,17 +1002,12 @@
       <span class="wc-sound">${w.sound ? "Sound credits: " + (soundDef(w.sound).gm ? GM_CREDIT : soundDef(w.sound).credit) + ". " : ""}Audio rendered live in your browser; engraving by OpenSheetMusicDisplay. <a href="https://github.com/LaDoger/music-library/blob/main/docs/WATCH_PLAYER.md" target="_blank" rel="noopener">Licences</a></span>
       <a href="?id=${encodeURIComponent(f.id)}" data-w-detail>Details</a>`;
   }
-  function fillCard(w, f) {
-    const c = w.q("#wCard");
-    c.querySelector(".wc-comp").textContent = f.composer;
-    c.querySelector(".wc-title").textContent = f.title.includes(":") ? f.title.split(":").slice(1).join(":").trim() || f.title : f.title;
-    c.querySelector(".wc-cat").textContent = [...new Set([f.title.includes(":") ? f.title.split(":")[0].trim() : "", f.catalog, f.movement].filter(Boolean))].join(" · ");
+  // Static heading above the stage (never over the score): composer, work title, catalogue line.
+  function fillHeading(w, f) {
+    w.q("#wTitle").textContent = f.title + (f.movement && !f.title.includes(f.movement) ? " · " + f.movement : "");
+    w.q("#wCat").textContent = f.catalog || "";
+    w.q("#wCat").hidden = !f.catalog;
   }
-  function showCard(w) {
-    const c = w.q("#wCard"); c.classList.remove("show"); void c.offsetWidth; c.classList.add("show");
-    clearTimeout(w.cardT); w.cardT = setTimeout(() => hideCard(w), 3400);
-  }
-  function hideCard(w) { w.q("#wCard")?.classList.remove("show"); }
 
   function exposeState(w) {
     const e = w.engine;
@@ -681,6 +1017,7 @@
       audioTime: e ? e.position() : 0, baseTime: w.engine ? basePos(w) : 0, total: w.total || 0,
       measure: w.curMeasure, measures: w.meas ? w.meas.length : 0, system: w.curSys, systems: w.sys ? w.sys.length : 0,
       turns: w.turns, hasScore: !!w.hasScore, tempo: w.tempo || 1, steps: w.steps ? w.steps.length : 0,
+      cursor: w.steps && w.steps[w.stepIdx] ? { m: w.steps[w.stepIdx].m, off: w.steps[w.stepIdx].o } : null, u: w.u || 0, audioSrc: w.audioSrc || "",
       seek: (t) => seek(w, t), play: () => play(w),
     };
   }
@@ -688,7 +1025,7 @@
   function teardown() {
     const w = W; if (!w) return;
     W = null;
-    cancelAnimationFrame(w.raf); clearTimeout(w.cardT);
+    cancelAnimationFrame(w.raf);
     document.removeEventListener("keydown", w.keys); document.removeEventListener("keydown", w.trap);
     document.removeEventListener("fullscreenchange", w.onFs);
     w.ro && w.ro.disconnect(); w.ro2 && w.ro2.disconnect();
@@ -703,5 +1040,5 @@
     document.title = "Music Library — public-domain classical music, scores & full recordings";
   }
 
-  window.MusicWatch = { open, close };
+  window.MusicWatch = { open, close, _score: { fetchScore, parseMusicXML, unrollOrder, scoreTimeline, alignMidi } };   // _score: tests only
 })();
