@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9813,
+ "count": 9815,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -304463,6 +304463,70 @@
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op99_bunte_blaetter_7.mid",
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op99_bunte_blaetter_7.json"
+  },
+  {
+   "id": "bartok_sz49_allegro_barbaro_orch_johnson",
+   "composer": "Béla Bartók",
+   "composer_slug": "bela-bartok",
+   "composer_sort": "Bartók, Béla",
+   "title": "Allegro barbaro (arr. orchestra, Johnson)",
+   "catalog": "Sz. 49",
+   "movement": "",
+   "genre": "classical",
+   "era": "20th century",
+   "mood": [
+    "classical",
+    "driving",
+    "fierce"
+   ],
+   "energy": "high",
+   "licence_status": "flagged",
+   "recording_status": "",
+   "score_status": "attribution",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 0,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz49_allegro_barbaro_orch_johnson.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz49_allegro_barbaro_orch_johnson.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz49_allegro_barbaro_orch_johnson.json"
+  },
+  {
+   "id": "bartok_sz81_out_of_doors_orch_johnson",
+   "composer": "Béla Bartók",
+   "composer_slug": "bela-bartok",
+   "composer_sort": "Bartók, Béla",
+   "title": "Out of Doors (arr. orchestra, Johnson)",
+   "catalog": "Sz. 81",
+   "movement": "",
+   "genre": "classical",
+   "era": "20th century",
+   "mood": [
+    "classical",
+    "mysterious",
+    "nocturnal"
+   ],
+   "energy": "moderate",
+   "licence_status": "flagged",
+   "recording_status": "",
+   "score_status": "attribution",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 0,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz81_out_of_doors_orch_johnson.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz81_out_of_doors_orch_johnson.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz81_out_of_doors_orch_johnson.json"
   }
  ]
 }
