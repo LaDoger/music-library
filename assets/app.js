@@ -37,7 +37,7 @@
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "scope", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id", "watch"];
+  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id", "watch", "sound"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -701,6 +701,8 @@
         rows: ROWS, byId: BY_ID, composers: COMPOSERS, loadFull,
         navigate: (nid, replace) => { state.watch = nid; writeState(!replace); },
         close: () => closeWatch(true),
+        sound: () => state.sound,
+        setSound: (v) => { state.sound = v; writeState(false); },
       });
     } catch (err) {
       toast(err.message);
@@ -712,6 +714,7 @@
     document.body.classList.remove("watching");
     if (window.MusicWatch) window.MusicWatch.close();
     $$(".skip, header.top, main, .player").forEach((el) => { el.inert = false; });
+    state.sound = "";
     if (updateUrl && state.watch) { state.watch = ""; writeState(true); }
     else state.watch = "";
     if (lastFocus && document.contains(lastFocus) && lastFocus !== document.body) lastFocus.focus();

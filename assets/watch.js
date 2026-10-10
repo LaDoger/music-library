@@ -80,17 +80,41 @@
     }
     return urls;
   }
-  function makeEngine(kind) {
+  const GLEITZ = "https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/";
+  const SOUNDS = [
+    { id: "auto", label: "Auto (best for this piece)" },
+    { id: "salamander", label: "Grand piano (Salamander)", credit: 'Salamander Grand Piano by Alexander Holm, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>' },
+    { id: "harpsichord", label: "Harpsichord", gm: "harpsichord" },
+    { id: "rhodes", label: "Rhodes / electric piano", gm: "electric_piano_1" },
+    { id: "celesta", label: "Celesta", gm: "celesta" },
+    { id: "musicbox", label: "Music box", gm: "music_box" },
+    { id: "organ", label: "Church organ", gm: "church_organ" },
+    { id: "gm", label: "Orchestral set (SGM+, multi-instrument)", credit: "SGM+ soundfont via Magenta (Apache-2.0 player)" },
+  ];
+  const GM_CREDIT = 'FluidR3_GM by Frank Wen, pre-rendered by gleitz/midi-js-soundfonts, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>';
+  const soundDef = (id) => SOUNDS.find((x) => x.id === id) || SOUNDS[0];
+  const soundName = (id) => soundDef(id).label.replace(/ \(.*/, "").toLowerCase();
+  async function gmUrls(name) {
+    const r = await fetch(GLEITZ + name + "-mp3.js");
+    if (!r.ok) throw new Error("soundfont " + r.status);
+    const t = await r.text();
+    const all = JSON.parse(t.slice(t.indexOf("{", t.indexOf("MIDI.Soundfont." + name)), t.lastIndexOf("}") + 1).replace(/,\s*}$/, "}"));
+    const urls = {}; Object.keys(all).forEach((k, i) => { if (i % 2 === 0) urls[k] = all[k]; });   // every 2nd key; the sampler repitches
+    return urls;
+  }
+  function makeEngine(kind, sound) {
     const core = window.core, Tone = window.Tone;
-    const e = { kind, ready: false, playing: false, pos: 0, base: 0, started: 0, seq: null, gen: 0, onend: null };
+    const e = { kind, sound, ready: false, playing: false, pos: 0, base: 0, started: 0, seq: null, gen: 0, onend: null };
     if (kind === "piano") {
       e.load = async (seq) => {
         e.seq = seq;
         e.notes = seq.notes.filter((n) => !n.isDrum).sort((a, b) => a.startTime - b.startTime);
         if (!e.sampler) {
+          const def = soundDef(e.sound);
+          const cfg = def.gm ? { urls: await gmUrls(def.gm), release: def.id === "organ" ? 0.3 : 1 } : { urls: pianoUrls(), release: 1.2, baseUrl: SALAMANDER };
           e.sampler = await new Promise((res, rej) => {
-            const s = new Tone.Sampler({ urls: pianoUrls(), release: 1.2, baseUrl: SALAMANDER, onload: () => res(s), onerror: rej }).toDestination();
-            setTimeout(() => rej(new Error("piano samples timed out")), 25000);
+            const s = new Tone.Sampler({ ...cfg, onload: () => res(s), onerror: rej }).toDestination();
+            setTimeout(() => rej(new Error("samples timed out")), 40000);
           });
         }
         e.ready = true;
@@ -244,6 +268,7 @@
             <button class="w-icon" type="button" data-w="next" aria-label="Next movement" disabled>⏭</button>
             <span class="w-time" id="wTime">0:00 / 0:00</span>
             <span class="w-meas" id="wMeas"></span>
+            <label class="w-sound"><span>Sound</span><select id="wSound">${SOUNDS.map((x) => `<option value="${x.id}">${esc(x.label)}</option>`).join("")}</select></label>
             <label class="w-tempo"><span>Tempo</span><input type="range" id="wTempo" min="0.5" max="1.5" step="0.05" value="1"><output id="wTempoOut">100%</output></label>
           </div>
         </div>
@@ -289,7 +314,8 @@
       const base = window.core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer()));
       if (W !== w) return;
       w.base = base; w.tm = tempoMap(base); w.total = base.totalTime;
-      w.kind = isPianoSeq(base) ? "piano" : "sf";
+      w.sound = resolveSound(base);
+      w.kind = w.sound === "gm" ? "sf" : "piano";
       if (xml) {
         setStatus("Engraving the score…");
         await new Promise((res2) => setTimeout(res2, 30));
@@ -301,6 +327,7 @@
       await prepareAudio(w);
       if (W !== w) return;
       w.ready = true;
+      w.full = full; w.soundChoice = prefSound(); w.q("#wSound").value = SOUNDS.some((x) => x.id === w.soundChoice) ? w.soundChoice : "auto";
       renderCredits(w, full);
       setStatus(w.kind === "piano" ? "" : "");
       w.q("#wPlay").disabled = false;
@@ -315,17 +342,49 @@
     }
   }
 
+  const prefSound = () => ctx.sound() || localStorage.getItem("watchSound") || "auto";
+  const autoSound = (base) => (isPianoSeq(base) ? "salamander" : "gm");
+  function resolveSound(base) {
+    const c = prefSound();
+    return SOUNDS.some((x) => x.id === c) && c !== "auto" ? c : autoSound(base);
+  }
+  async function setSound(w, id) {
+    const choice = SOUNDS.some((x) => x.id === id) ? id : "auto";
+    localStorage.setItem("watchSound", choice); ctx.setSound(choice === "auto" ? "" : choice);
+    if (!w.ready) return;
+    const next = choice === "auto" ? autoSound(w.base) : choice;
+    w.soundChoice = choice;
+    if (next === w.sound) return;
+    const old = w.engine, t = basePos(w), was = old.playing, sel = w.q("#wSound"), prev = w.sound;
+    sel.disabled = true; w.setStatus("Loading " + soundName(next) + "…");
+    if (was) old.pause();
+    const eng = makeEngine(next === "gm" ? "sf" : "piano", next);
+    try { await eng.load(w.scaled); }
+    catch (err) {
+      console.warn("sound failed", err);
+      sel.disabled = false; w.setStatus("Could not load that sound. Keeping " + soundName(prev) + ".");
+      if (was) old.start(old.pos);
+      w.soundChoice = prev; sel.value = prev; return;
+    }
+    if (W !== w) return;
+    eng.onend = () => onEnded(w);
+    try { if (old.sampler) old.sampler.dispose(); if (old.sfp && old.sfp.isPlaying()) old.sfp.stop(); } catch { /* ok */ }
+    w.engine = eng; w.sound = next; w.kind = eng.kind;
+    eng.pos = t / w.tempo;
+    if (was) eng.start(eng.pos);
+    sel.disabled = false; w.setStatus(""); renderCredits(w, w.full); setPlayUI(w); sync(w, true);
+  }
   async function prepareAudio(w) {
     const f = prefs.tempo;
     w.q("#wTempo").value = f; w.q("#wTempoOut").textContent = Math.round(f * 100) + "%";
     w.scaled = scaleSeq(w.base, f);
-    w.setStatus(w.kind === "piano" ? "Loading piano samples…" : "Loading orchestral samples…");
-    let eng = makeEngine(w.kind);
+    w.setStatus("Loading " + soundName(w.sound) + " samples…");
+    let eng = makeEngine(w.kind, w.sound);
     try { await eng.load(w.scaled); }
     catch (err) {
       if (w.kind !== "piano") throw err;
-      console.warn("piano samples failed, falling back to SGM+", err);
-      w.kind = "sf"; eng = makeEngine("sf"); await eng.load(w.scaled);
+      console.warn("samples failed, falling back to SGM+", err);
+      w.sound = "gm"; w.kind = "sf"; eng = makeEngine("sf", "gm"); await eng.load(w.scaled);
     }
     eng.onend = () => onEnded(w);
     w.engine = eng; w.tempo = f;
@@ -499,6 +558,7 @@
         case "next": { const { next } = upNext(w.r); if (next.length) go(next[0].id, false); return; }
       }
     };
+    w.q("#wSound").onchange = (e) => setSound(w, e.target.value);
     w.q("#wTempo").oninput = (e) => setTempo(w, +e.target.value);
     const bar = w.q("#wSeek");
     const frac = (e) => { const b = bar.getBoundingClientRect(); return Math.max(0, Math.min(1, (e.clientX - b.left) / b.width)); };
@@ -568,7 +628,7 @@
     const lic = { clean: "Public domain / CC0 score", attribution: "Credit required (CC BY)", sharealike: "ShareAlike", flagged: "Flagged: read the legal notes", unverified: "Unverified: not cleared for publishing" }[f.licence_status] || f.licence_status;
     w.q("#wCredits").innerHTML = `<span class="wc-lic ${esc(f.score_status === "clean" ? "" : "warn")}">Score: ${esc(f.score_status || "?")} · ${esc(lic)}</span>
       <span>${esc(f.credit_text || "")}</span>
-      <span>Audio rendered live in your browser${w.kind === "piano" ? " with the Salamander Grand Piano (Alexander Holm, CC BY 3.0)" : " with the SGM+ soundfont"}; engraving by OpenSheetMusicDisplay. <a href="https://github.com/LaDoger/music-library/blob/main/docs/WATCH_PLAYER.md" target="_blank" rel="noopener">Licences</a></span>
+      <span class="wc-sound">${w.sound ? "Sound credits: " + (soundDef(w.sound).gm ? GM_CREDIT : soundDef(w.sound).credit) + ". " : ""}Audio rendered live in your browser; engraving by OpenSheetMusicDisplay. <a href="https://github.com/LaDoger/music-library/blob/main/docs/WATCH_PLAYER.md" target="_blank" rel="noopener">Licences</a></span>
       <a href="?id=${encodeURIComponent(f.id)}" data-w-detail>Details</a>`;
   }
   function fillCard(w, f) {
@@ -586,7 +646,7 @@
   function exposeState(w) {
     const e = w.engine;
     window.__watch = {
-      id: w.id, ready: !!w.ready, playing: !!(e && e.playing), kind: w.kind || "", view: w.view,
+      id: w.id, ready: !!w.ready, playing: !!(e && e.playing), kind: w.kind || "", sound: w.sound || "", view: w.view,
       ctxState: window.Tone ? window.Tone.context.state : "none",
       audioTime: e ? e.position() : 0, baseTime: w.engine ? basePos(w) : 0, total: w.total || 0,
       measure: w.curMeasure, measures: w.meas ? w.meas.length : 0, system: w.curSys, systems: w.sys ? w.sys.length : 0,

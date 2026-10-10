@@ -87,6 +87,24 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     const bad = ax.violations.filter((v) => ['serious', 'critical'].includes(v.impact));
     if (bad.length) { failed++; console.log('  FAIL axe: ' + bad.map((v) => v.id + ' x' + v.nodes.length + ' ' + v.nodes.map((n) => n.html.slice(0, 110)).join(' | ')).join('\n   ')); } else ok(`axe: no serious/critical violations (${ax.violations.length} minor)`);
 
+    /* (a2) sound picker: switch each sound live, URL + localStorage persist */
+    console.log('sound picker');
+    await page.evaluate(() => localStorage.removeItem('watchSound'));
+    await start(IDS.piano, 1.5);
+    for (const snd of ['harpsichord', 'rhodes', 'celesta', 'musicbox', 'organ', 'gm', 'salamander']) {
+      await page.selectOption('#wSound', snd);
+      await page.waitForFunction((x) => window.__watch.sound === x && !document.querySelector('#wSound').disabled, snd, { timeout: 90000 });
+      const a = (await st()).baseTime; await sleep(1800); s = await st();
+      assert(s.playing && s.baseTime > a + 0.5, snd + ' plays and time advances');
+      assert.equal(new URL(page.url()).searchParams.get('sound'), snd);
+      assert.equal(await page.evaluate(() => localStorage.getItem('watchSound')), snd);
+      assert((await page.locator('#wCredits .wc-sound').textContent()).includes('Sound credits'), 'credits shown');
+      ok('sound ' + snd + ' loaded and playing');
+    }
+    await page.goto(base + '?watch=' + IDS.piano + '&sound=harpsichord'); await ready(IDS.piano);
+    assert.equal((await st()).sound, 'harpsichord'); assert.equal(await page.inputValue('#wSound'), 'harpsichord'); ok('&sound=harpsichord honoured on load');
+    await page.evaluate(() => localStorage.removeItem('watchSound'));
+
     /* (b) MIDI-only */
     console.log('MIDI-only: ' + IDS.midiOnly);
     await start(IDS.midiOnly, 1.5);

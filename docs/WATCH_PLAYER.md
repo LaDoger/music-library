@@ -18,6 +18,17 @@ OSMD cursor steps are recorded once (quarter-note timestamp + measure index). Th
 - Piano-led pieces (≤3 instruments, ≥65 % GM piano programs, including piano + sung line): Tone.js `Sampler` with Salamander Grand Piano.
 - Everything else: the Magenta `SoundFontPlayer` with SGM+ (same as the detail-page synth); also the fallback if piano samples fail.
 
+## Sound picker
+A "Sound" select in the player lazy-loads only the chosen set; the choice is kept in `localStorage` (`watchSound`) and the URL (`&sound=<id>`, which wins). `auto` = Salamander for piano-led pieces, SGM+ otherwise. Switching mid-play keeps position and resumes. A sampler sound plays every pitched part of the piece with that one instrument; use "Orchestral set" for multi-instrument pieces. If a set fails to load, the player keeps the current sound.
+
+| id | Sound | Source | Licence |
+|---|---|---|---|
+| `salamander` | Grand piano | https://tonejs.github.io/audio/salamander/ | CC BY 3.0 (Alexander Holm) |
+| `harpsichord`, `rhodes` (GM Electric Piano 1), `celesta`, `musicbox`, `organ` (Church Organ) | FluidR3_GM, pre-rendered per instrument | https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/ (README: https://github.com/gleitz/midi-js-soundfonts) | CC BY 3.0 (per that README) |
+| `gm` | SGM+ orchestral set | https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus | existing engine |
+
+Skipped: a soft/felt or upright piano. The only candidates found were MusyngKite/FatBoy (CC BY-SA 3.0, share-alike) and tonejs-instruments (mixed sources incl. Freesound/Karoryfer; its README claims CC BY 3.0 but per-sample provenance is unclear and it is not on a CDN path that resolves), so none was added. Nothing is stored in the repo. The credits line in the player names the active set.
+
 ## Third-party licences
 | Component | Licence | Loaded from |
 |---|---|---|
