@@ -2,8 +2,8 @@
  "id": "schumann_op4_traeumerei",
  "composer": "Robert Schumann",
  "death_year": "1856",
- "title": "Traeumerei",
- "catalog": "Op.4",
+ "title": "Traeumerei (arr.)",
+ "catalog": "",
  "movement": "",
  "mood_tags": "classical;lyrical",
  "tempo_energy": "moderate / opening",
@@ -65,7 +65,7 @@
   {
    "id": "schumann_op4_traeumereib2",
    "source": "pdmx",
-   "title": "Traeumerei",
+   "title": "Traeumerei (arr.)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -86,5 +86,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Robert Schumann: Traeumerei, Op.4 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Robert Schumann: Traeumerei (arr.) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

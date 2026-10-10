@@ -17,6 +17,7 @@ def hay(it): return fold(" | ".join(str(it.get(k) or "") for k in ("title", "mov
 def op(n): return rf"\bop(?:us)?\.? ?{n}(?![0-9])"
 def cat(prefix, n): return rf"\b{prefix}\.? ?{n}(?![0-9])"
 NUMW = {1: "one|first|i", 2: "two|second|ii", 3: "three|third|iii"}
+SCH = "robert schumann"
 
 def num_rx(cats, n):
     c = "(?:" + "|".join(cats) + ")"
@@ -62,8 +63,8 @@ SETS = [
  ("Mendelssohn Songs without Words Op.30", "mendelssohn", [op(30)], "PD", numbered(6)),
  ("Mendelssohn Songs without Words Op.62", "mendelssohn", [op(62)], "PD", numbered(6, {6: [r"spring song|fruhlingslied[^|]*(62|lied ohne|songs without)"]})),
  ("Mendelssohn Songs without Words Op.67", "mendelssohn", [op(67)], "PD", numbered(6, {4: [r"spinn(ing|erlied)"]})),
- # ---- Schumann
- ("Schumann Kinderszenen Op.15", "schumann", [op(15), r"kindersz|kindersc"], "PD", mv([
+ # ---- Schumann (Robert only: composer must contain "robert schumann", so Clara Schumann's songs never count)
+ ("Schumann Kinderszenen Op.15", SCH, [op(15), r"kindersz|kindersc"], "PD", mv([
      ("1 Von fremden Ländern", [r"fremden landern|foreign lands"]), ("2 Kuriose Geschichte", [r"c(u|k)riose geschichte|curious story"]),
      ("3 Hasche-Mann", [r"hasche.?mann|blind man"]), ("4 Bittendes Kind", [r"bittendes kind|pleading child"]),
      ("5 Glückes genug", [r"gluckes genug|happy enough"]), ("6 Wichtige Begebenheit", [r"wichtige begebenheit|important event"]),
@@ -71,6 +72,35 @@ SETS = [
      ("9 Ritter vom Steckenpferde", [r"steckenpferd|hobby.?horse"]), ("10 Fast zu ernst", [r"fast zu ernst|almost too serious"]),
      ("11 Fürchtenmachen", [r"furchtenmachen|frightening"]), ("12 Kind im Einschlummern", [r"einschlummern|falling asleep"]),
      ("13 Der Dichter spricht", [r"dichter spricht|poet speaks"])])),
+ ("Schumann Kreisleriana Op.16", SCH, [op(16), r"kreisleriana"], "PD", numbered(8)),
+ ("Schumann Davidsbündlertänze Op.6", SCH, [op(6), r"davidsb"], "PD", numbered(18)),
+ ("Schumann Waldszenen Op.82", SCH, [op(82), r"waldszen"], "PD", numbered(9, {
+     1: [r"eintritt"], 2: [r"jager auf der lauer|hunters? on the lookout"], 3: [r"einsame blumen|lonely flowers"],
+     4: [r"verrufene stelle|haunted place"], 5: [r"freundliche landschaft|friendly landscape"], 6: [r"herberge|wayside inn"],
+     7: [r"vogel als prophet|bird as prophet"], 8: [r"jagdlied|hunting song"], 9: [r"abschied|farewell"]})),
+ ("Schumann Novelletten Op.21", SCH, [op(21), r"novellet"], "PD", numbered(8)),
+ ("Schumann Fantasiestücke Op.12", SCH, [op(12), r"fantasiest"], "PD", numbered(8, {
+     1: [r"des abends|of evening"], 2: [r"aufschwung|soaring"], 3: [r"warum|why\b"], 4: [r"grillen|whims"],
+     5: [r"in der nacht|in the night"], 6: [r"fabel|fable"], 7: [r"traumes wirren|dream confusion"], 8: [r"ende vom lied|end of the song"]})),
+ ("Schumann Papillons Op.2", SCH, [op(2), r"papillon"], "PD", numbered(12)),
+ ("Schumann Bunte Blätter Op.99", SCH, [op(99), r"bunte bl"], "PD", numbered(14)),
+ ("Schumann Nachtstücke Op.23", SCH, [op(23), r"nachtst"], "PD", numbered(4)),
+ ("Schumann Arabeske Op.18", SCH, [op(18), r"arabe"], "PD", numbered(1, {1: [r"arabe"]})),
+ ("Schumann Carnaval Op.9 (Sphinxes not counted)", SCH, [op(9), r"carnaval"], "PD", numbered(21, {
+     1: [r"carnaval[^|]*preambule"], 2: [r"carnaval[^|]*pierrot"], 3: [r"carnaval[^|]*arlequin"], 4: [r"carnaval[^|]*valse noble"],
+     5: [r"carnaval[^|]*eusebius"], 6: [r"carnaval[^|]*florestan"], 7: [r"carnaval[^|]*coquette"], 8: [r"carnaval[^|]*replique"],
+     9: [r"carnaval[^|]*papillons"], 10: [r"carnaval[^|]*(lettres dansantes|asch)"], 11: [r"carnaval[^|]*chiarina"],
+     12: [r"carnaval[^|]*chopin"], 13: [r"carnaval[^|]*estrella"], 14: [r"carnaval[^|]*reconnaissance"],
+     15: [r"carnaval[^|]*pantalon"], 16: [r"carnaval[^|]*valse allemande"], 17: [r"carnaval[^|]*paganini"],
+     18: [r"carnaval[^|]*aveu"], 19: [r"carnaval[^|]*promenade"], 20: [r"carnaval[^|]*pause"],
+     21: [r"carnaval[^|]*(philistins|philistines)"]})),
+ ("Schumann Album für die Jugend Op.68", SCH, [op(68), r"album[^|]*(?:jugend|young)"], "PD", numbered(43, {35: [r"mignon"]})),
+ ("Schumann Albumblätter Op.124", SCH, [op(124), r"albumbl"], "PD", numbered(20)),
+ ("Schumann Fantasie Op.17", SCH, [op(17), r"fantasie\b"], "PD", numbered(3)),
+ ("Schumann Faschingsschwank aus Wien Op.26", SCH, [op(26), r"faschingssch"], "PD", numbered(5)),
+ ("Schumann Symphonic Études Op.13 (12 études)", SCH, [op(13), r"symphonic|sinfonische"], "PD", numbered(12, label="Étude {i}")),
+ ("Schumann Abegg Variations Op.1", SCH, [op(1), r"abegg"], "PD", numbered(1, {1: [r"abegg"]})),
+ ("Schumann Toccata Op.7", SCH, [op(7), r"toccata"], "PD", numbered(1, {1: [r"toccata"]})),
  # ---- Brahms
  ("Brahms Fantasien Op.116", "brahms", [op(116)], "PD", numbered(7)),
  ("Brahms Intermezzi Op.117", "brahms", [op(117)], "PD", numbered(3)),
@@ -120,6 +150,10 @@ REQUIRE = {"Beethoven 32 Piano Sonatas": r"sonat|pathetique|moonlight|mondschein
            "Debussy Préludes Book II L.123": r"prelude|l\.? ?123|l\.? ?131"}
 EXCLUDE = r"\b(violin|cello|horn|flute|clarinet) sonata|\bfor (clarinet|flute|violin|cello|orchestra|band|guitar|organ|string|wind|brass)|\barr\.|arranged|arrangement|transcri|\beasy\b|simplified"
 WHOLE = {"Ravel Le Tombeau de Couperin M.68": r"^le tombeau de couperin \| +\|"}
+# Robert Schumann sets: an item must carry the set's own opus/title word (a title alias alone is not enough),
+# so a same-named song or Clara Schumann's opus numbers cannot count
+for _s in SETS:
+    if _s[1] == SCH: REQUIRE.setdefault(_s[0], "|".join(_s[2]))
 SET_WORDS = {"chopin": r"etude|prelude|nocturne|valse|waltz|ballad|scherz", "schubert": r"impromptu|moment", "mendelssohn": r"lied|song", "brahms": r"intermezz|capriccio|ballade|romanze|rhapsod|fantasi|klavierst|piece", "scriabin": r"etude|poem|poeme"}
 
 def _num_ok(lab, n, cats, h):
@@ -129,7 +163,11 @@ def _num_ok(lab, n, cats, h):
 def match_set(items, s):
     """-> (have labels, missing labels, {label: [ids]})"""
     name, comp, cats, scope, mvts = s
-    pool = [(it.get("id"), hay(it)) for it in items if comp in fold(it.get("composer"))]
+    pool = [(it.get("id"), hay(it)) for it in items if comp in fold(it.get("composer"))
+            and not re.search(r"voice|vocal|lieder", fold(f"{it.get('instrumentation') or ''} {it.get('source_name') or ''}"))]
+    if comp == SCH:  # a Schumann item naming a different opus ("Intermezzo op 46 ... Faschingsschwank") is not this set
+        own = re.search(r"op\.(\d+)", name, re.I).group(1)
+        pool = [(i, h) for i, h in pool if own in re.findall(r"\bop(?:us)?\.? ?(\d+)", h) or not re.search(r"\bop(?:us)?\.? ?\d", h)]
     pool = [(i, h) for i, h in pool if not re.search(EXCLUDE, h) and (name not in REQUIRE or re.search(REQUIRE[name], h))]
     labs = [m[0] for m in mvts]
     if name in WHOLE:
