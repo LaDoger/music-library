@@ -184,6 +184,14 @@ SETS = [
  ("Rachmaninoff Cello Sonata Op.19", "rachmaninoff", [op(19), r"cello sonata"], "US-PD-only", [
      ("I Lento - Allegro moderato", 1, [rf"(?=.*{op(19)})[^|]*lento"]), ("II Allegro scherzando", 2, [rf"(?=.*{op(19)})[^|]*scherzando"]),
      ("III Andante - Allegro mosso", 3, [rf"(?=.*{op(19)})[^|]*andante"])]),
+ # ---- Rimsky-Korsakov (d.1908; orchestral works, per-movement piano/score files only where they exist)
+ ("Rimsky-Korsakov Scheherazade Op.35", "rimsky", [op(35)], "PD", mv([
+     ("I The Sea and Sinbad's Ship", [r"sea and sinbad|sinbad.s ship|part i(?![iv])"]), ("II The Kalendar Prince", [r"kalendar|kalandar"]),
+     ("III The Young Prince and the Princess", [r"young prince|princess"]), ("IV Festival at Baghdad", [r"baghdad"])])),
+ # III has no alias yet: its title/order is not verified against a score, so it only matches by "Op. 34 No. 3"
+ ("Rimsky-Korsakov Capriccio espagnol Op.34", "rimsky", [op(34)], "PD", mv([
+     ("I Alborada", [r"alborada"]), ("II Variazioni", [r"variazioni|variations"]), ("III", []),
+     ("IV Scena e canto gitano", [r"scena e canto|canto gitano|gitano"]), ("V Fandango asturiano", [r"fandango"])])),
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
