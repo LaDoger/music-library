@@ -73,3 +73,5 @@ Optional columns on bulk rows (passed through to item JSON and the slim index):
 
 Gate: only LaDoger-approved composers in `scripts/bulk/pdmx_composers_manual.json` → `approved_us_pd_only` (death 1930–1955) may use `US-PD-only`, and only with a verified pre-1931 publication year. Site shows a **US public domain only** badge; `licence_status` is `flagged`. New 1930–1955 composers stay listed under `flagged_1930_1955` until approved.
 
+
+- score_method: blank | `OCR draft` (score made by optical music recognition from a PD scan and corrected; bar counts and rhythm checked, may contain wrong notes; site shows a badge)

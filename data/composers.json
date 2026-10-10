@@ -16020,8 +16020,8 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 40,
-  "score_count": 39,
+  "piece_count": 46,
+  "score_count": 45,
   "recording_count": 1,
   "piece_ids": [
    "ravel_pavane",
@@ -16063,7 +16063,13 @@
    "ravel_m_a4_11_maurice_ravel_chanson_de_la_mariee",
    "ravel_m_a4_11_la_bas_vers_l_eglise_maurice_ravel",
    "ravel_m_a4_11_quel_galant_m_est_comparable_maurice_rav",
-   "ravel_m_a4_11_tout_gai_maurice_ravel"
+   "ravel_m_a4_11_tout_gai_maurice_ravel",
+   "ravel_m61_valses_nobles_1",
+   "ravel_m61_valses_nobles_2",
+   "ravel_m61_valses_nobles_3",
+   "ravel_m61_valses_nobles_4",
+   "ravel_m61_valses_nobles_5",
+   "ravel_m61_valses_nobles_6"
   ],
   "wikidata": "Q1178",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Maurice_Ravel_1925.jpg/330px-Maurice_Ravel_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -17451,8 +17457,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 128,
-  "score_count": 128,
+  "piece_count": 129,
+  "score_count": 129,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17582,7 +17588,8 @@
    "schumann_op15no05_gluckes_genug",
    "schumann_op15no07_traumerei",
    "schumann_op69_klosterfraulein_op_69_3_robe",
-   "schumann_op94_romances_op_94_schumann"
+   "schumann_op94_romances_op_94_schumann",
+   "schumann_op68_12_knecht_ruprecht_orch_marigo"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

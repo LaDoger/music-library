@@ -360,7 +360,7 @@ def build():
         item = {k: (v or "").strip() for k, v in r.items() if k}
         # Keep territorial columns only when set (US-PD-only rows); omit empties so
         # ordinary items are not rewritten on every sync.
-        for _k in ("licence_scope", "publication_year", "licence_scope_reason"):
+        for _k in ("licence_scope", "publication_year", "licence_scope_reason", "score_method"):
             if not item.get(_k):
                 item.pop(_k, None)
 

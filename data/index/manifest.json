@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "count": 9743,
+ "count": 9750,
  "fields": [
   "id",
   "composer",
@@ -26,60 +26,61 @@
   "video_use_ideas",
   "catalog_variants",
   "licence_scope",
-  "featured_rank"
+  "featured_rank",
+  "score_method"
  ],
  "parts": [
   {
    "file": "part-000.json",
-   "count": 749
+   "count": 743
   },
   {
    "file": "part-001.json",
-   "count": 791
+   "count": 784
   },
   {
    "file": "part-002.json",
-   "count": 777
+   "count": 771
   },
   {
    "file": "part-003.json",
-   "count": 754
+   "count": 750
   },
   {
    "file": "part-004.json",
-   "count": 807
-  },
-  {
-   "file": "part-005.json",
    "count": 798
   },
   {
+   "file": "part-005.json",
+   "count": 796
+  },
+  {
    "file": "part-006.json",
-   "count": 742
+   "count": 730
   },
   {
    "file": "part-007.json",
-   "count": 741
+   "count": 739
   },
   {
    "file": "part-008.json",
-   "count": 792
+   "count": 781
   },
   {
    "file": "part-009.json",
-   "count": 752
+   "count": 745
   },
   {
    "file": "part-010.json",
-   "count": 838
+   "count": 825
   },
   {
    "file": "part-011.json",
-   "count": 831
+   "count": 828
   },
   {
    "file": "part-012.json",
-   "count": 371
+   "count": 460
   }
  ],
  "item_json": "data/items/{id}.json"

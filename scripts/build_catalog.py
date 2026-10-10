@@ -32,7 +32,7 @@ INDEX_FIELDS = [
     "licence_status", "recording_status", "score_status", "verified", "has_editable_score",
     "has_recording", "editors_pick_rank", "death_year", "preview_url", "midi_play_url",
     "stream_audio_url", "release_audio_url", "video_use_ideas", "catalog_variants",
-    "licence_scope", "featured_rank",
+    "licence_scope", "featured_rank", "score_method",
 ]
 ITEMS_DIR = os.path.join(ROOT, "data", "items")
 

@@ -415,3 +415,5 @@ h2::before { content: ""; display: inline-block; width: 14px; height: 1px; backg
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; animation: none !important; }
 }
+
+.badge.b-ocr { background: #fff3cd; color: #7a5a00; border: 1px solid #e0c060; }

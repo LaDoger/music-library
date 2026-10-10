@@ -233,6 +233,8 @@
     const tip = "US public domain only — may be copyrighted elsewhere, including EU/Poland. Composer died 1930–1955; work published before 1931.";
     return `<span class="badge b-us-pd" title="${esc(tip)}">US public domain only</span>`;
   };
+  const ocrBadge = (r) => (r.score_method || "").startsWith("OCR")
+    ? `<span class="badge b-ocr" title="Score read by optical music recognition from a public-domain scan and corrected: bar counts and rhythms checked, but it may contain wrong notes.">OCR draft · may contain wrong notes</span>` : "";
   const subStatus = (r) => {
     const parts = [];
     if (r.recording_status) parts.push(`rec <b>${esc(LICENCE[r.recording_status][0])}</b>`);
@@ -271,7 +273,7 @@
       </div>
       <div class="meta">${watchBtn(r)}${score}${rec}${synth}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
       ${r.video_use_ideas ? `<p class="excerpt">${esc(r.video_use_ideas)}</p>` : ""}
-      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
+      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${ocrBadge(r)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
     </article>`;
   }
 
@@ -511,7 +513,7 @@
         <button class="pt" type="button" data-act="open" data-id="${esc(r.id)}">${esc(r.title)}</button>
         <div class="pcat">${esc(r.catalog || "")}</div>
         <div class="why">${esc(r.editors_pick_why)}</div>
-        <div class="pick-badges">${badge(r.licence_status)}${scopeBadge(r)}</div>
+        <div class="pick-badges">${badge(r.licence_status)}${scopeBadge(r)}${ocrBadge(r)}</div>
       </div>
       ${playBtn(r)}
     </div>`).join("");
@@ -623,7 +625,7 @@
       <a class="d-composer" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer)}<span>${esc(lifeDates(c))}</span></a>
       <h2 class="d-title" id="dTitle">${esc(r.title)}</h2>
       <div class="d-kicker">${esc(r.catalog || "")}${movementSuffix(r)}${r.editors_pick_rank ? ` · ★ Editor's pick #${r.editors_pick_rank}` : ""}</div>
-      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${subStatus(r)}
+      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${ocrBadge(r)}${subStatus(r)}
         ${r.has_editable_score ? '<span class="tag score">✎ Editable score</span>' : '<span class="tag noscore">No editable score yet</span>'}</div>
       ${listenHTML(r)}
       <div class="d-actions">
