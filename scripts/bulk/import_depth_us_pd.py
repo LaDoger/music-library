@@ -49,6 +49,7 @@ NAME_RX = {
     "holst": r"\bholst\b",
     "rachmaninoff": r"rachmanin|rakhmanin|rachmanov",
     "bartok": r"bart[oó]k",
+    "falla": r"\bfalla\b",
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
 # "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.
@@ -148,7 +149,8 @@ class Checklist:
 
 # Checklist entries that stand for a set of separate pieces: keep each file's own title (movement) there.
 SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", "Op.16", "Op.23", "Op.27 / TrV 170",
-        "Op.30", "Op.31", "Op.34 No.14", "Op.36", "Op.37", "Op.39", "Op.42", "Op.60", "Op.32 / H.125", "Op.24 / H.90"}
+        "Op.30", "Op.31", "Op.34 No.14", "Op.36", "Op.37", "Op.39", "Op.42", "Op.60", "Op.32 / H.125", "Op.24 / H.90",
+        "Siete canciones", "Cuatro piezas", "3 Melodies"}
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"
@@ -363,10 +365,16 @@ def main() -> int:
             failures.append({"id": ident, "source": row["source_name"], "error": str(exc)[:200]})
             print(f"FAIL {ident}: {exc}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    # Keep rows from other composers' runs (e.g. Bartók in the same P7 file); this run's ids replace older ones.
+    kept_old = []
+    if OUT.is_file():
+        new_ids = {r["id"] for r in done}
+        with OUT.open(newline="", encoding="utf-8") as handle:
+            kept_old = [r for r in csv.DictReader(handle) if r.get("id") not in new_ids]
     with OUT.open("w", newline="", encoding="utf-8") as handle:
         w = csv.DictWriter(handle, fieldnames=BATCH_COLUMNS, extrasaction="ignore")
         w.writeheader()
-        w.writerows(done)
+        w.writerows(kept_old + done)
     if failures:
         with FAIL.open("w", newline="", encoding="utf-8") as handle:
             w = csv.DictWriter(handle, fieldnames=["id", "source", "error"])

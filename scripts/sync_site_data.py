@@ -433,6 +433,7 @@ def build():
             if eu_warn(item):
                 flags.insert(0, f"US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.{death}, published {pub}")
             else:
+                flags = [x for x in flags if x != "US public domain only"]
                 flags.insert(0, f"Pre-1931 publication: public domain in the US (published {pub}) and in the EU / life+70 countries (composer d.{death}); later works by this composer are not US-PD")
         if rid in FLAGGED:
             flags.insert(0, FLAGGED[rid])

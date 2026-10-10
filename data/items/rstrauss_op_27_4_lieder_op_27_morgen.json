@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1949; work published 1894, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. FLAG composer term: composer died 1949. Public domain in life+70 countries. Not a blanket PD-US claim, because works published from 1930 may remain protected. OpenScore Lieder score CC0 1.0 (repository LICENSE.txt checked). Instrumentation: Voice, Piano. Courtesy credit requested by the project: OpenScore and https://github.com/OpenScore/Lieder. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording. Vocal lines sound as General MIDI instruments, not sung. source_rank=9.",
+ "legal_notes": "US public domain only (composer died 1949; work published 1894, before 1931). Also public domain in the EU / life+70 countries (composer died 1949); only this pre-1931 publication is US-PD, later works by the composer are not. FLAG composer term: composer died 1949. Public domain in life+70 countries. Not a blanket PD-US claim, because works published from 1930 may remain protected. OpenScore Lieder score CC0 1.0 (repository LICENSE.txt checked). Instrumentation: Voice, Piano. Courtesy credit requested by the project: OpenScore and https://github.com/OpenScore/Lieder. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording. Vocal lines sound as General MIDI instruments, not sung. source_rank=9.",
  "local_score_path": "files/scores/rstrauss_op_27_4_lieder_op_27_morgen.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -32,7 +32,7 @@
  "era": "Late Romantic",
  "licence_scope": "US-PD-only",
  "publication_year": "1894",
- "licence_scope_reason": "US public domain only (composer died 1949; work published 1894, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
+ "licence_scope_reason": "US public domain only (composer died 1949; work published 1894, before 1931). Also public domain in the EU / life+70 countries (composer died 1949); only this pre-1931 publication is US-PD, later works by the composer are not.",
  "composer_slug": "richard-strauss",
  "composer_short": "Strauss",
  "composer_sort": "Strauss, Richard",
@@ -57,8 +57,7 @@
  "score_status": "clean",
  "licence_status": "flagged",
  "legal_flags": [
-  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1949, published 1894",
-  "US public domain only",
+  "Pre-1931 publication: public domain in the US (published 1894) and in the EU / life+70 countries (composer d.1949); later works by this composer are not US-PD",
   "Composer-term caveat",
   "Courtesy credit"
  ],
@@ -88,5 +87,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Richard Strauss: 4 Lieder, Op.27: Morgen!, Op. 27 (composition: US public domain only; published 1894, composer d.1949; may be protected outside the US).\nScore edition: https://github.com/OpenScore/Lieder/blob/main/scores/Strauss%2C_Richard/4_Lieder%2C_Op.27/4_Morgen%21. Licence: CC0."
+ "credit_text": "Richard Strauss: 4 Lieder, Op.27: Morgen!, Op. 27 (composition public domain in the US, published 1894, and in the EU / life+70 countries, composer d.1949).\nScore edition: https://github.com/OpenScore/Lieder/blob/main/scores/Strauss%2C_Richard/4_Lieder%2C_Op.27/4_Morgen%21. Licence: CC0."
 }

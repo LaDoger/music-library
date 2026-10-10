@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1943; work published 1892, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/9/32/QmRMUGts6TP4zBHgB5DoaZynAEPsoHtERNrKLaqzRJZsKb.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
+ "legal_notes": "US public domain only (composer died 1943; work published 1892, before 1931). Also public domain in the EU / life+70 countries (composer died 1943); only this pre-1931 publication is US-PD, later works by the composer are not. PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/9/32/QmRMUGts6TP4zBHgB5DoaZynAEPsoHtERNrKLaqzRJZsKb.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/rachmaninoff_op_3_elegie_s_rachmaninoff_op_3_no_1.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -32,7 +32,7 @@
  "era": "Late Romantic",
  "licence_scope": "US-PD-only",
  "publication_year": "1892",
- "licence_scope_reason": "US public domain only (composer died 1943; work published 1892, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
+ "licence_scope_reason": "US public domain only (composer died 1943; work published 1892, before 1931). Also public domain in the EU / life+70 countries (composer died 1943); only this pre-1931 publication is US-PD, later works by the composer are not.",
  "composer_slug": "sergei-rachmaninoff",
  "composer_short": "Rachmaninoff",
  "composer_sort": "Rachmaninoff, Sergei",
@@ -56,8 +56,7 @@
  "score_status": "clean",
  "licence_status": "flagged",
  "legal_flags": [
-  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1943, published 1892",
-  "US public domain only"
+  "Pre-1931 publication: public domain in the US (published 1892) and in the EU / life+70 countries (composer d.1943); later works by this composer are not US-PD"
  ],
  "energy": "moderate",
  "editors_pick": false,
@@ -84,5 +83,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Sergei Rachmaninoff: Elegie, Op. 3 (composition: US public domain only; published 1892, composer d.1943; may be protected outside the US).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Sergei Rachmaninoff: Elegie, Op. 3 (composition public domain in the US, published 1892, and in the EU / life+70 countries, composer d.1943).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

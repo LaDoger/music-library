@@ -471,6 +471,19 @@
     "béla bartók"
    ],
    "note": "LaDoger approved 2026-10-11 (priority composer): US-PD-only, works published before 1931 (Sz. 39, 42, 47, 49, 55, 56, 62, 71, 80, 81, 84 per IMSLP publication years). Revised 1945 For Children is out of scope. Checklist: scripts/bulk/catalogue_data.py BARTOK -> docs/catalogues/."
+  },
+  {
+   "canon": "manuel de falla",
+   "name": "Manuel de Falla",
+   "birth": 1876,
+   "death": 1946,
+   "prefix": "falla",
+   "aliases": [
+    "falla",
+    "manuel de falla",
+    "de falla"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works published before 1931 only (Noches, El amor brujo, El sombrero de tres picos + suites, La vida breve, Siete canciones, Fantasia betica, El retablo, Harpsichord Concerto, Cuatro piezas, Psyche, 3 Melodies, Serenata). Post-1930 publications excluded. Checklist: scripts/bulk/catalogue_data.py FALLA."
   }
  ]
 }

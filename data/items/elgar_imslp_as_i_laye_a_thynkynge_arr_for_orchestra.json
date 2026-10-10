@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1934; work published 1888, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. Source: IMSLP file PMLP894176-Elgar_As_I_laye_a-thynkynge_orch_Morrison_midi.mid (Synthesized Performance), licence CC BY 4.0 per the IMSLP file tag. Arrangement by Morrison (IMSLP). CC BY 4.0: credit \"PMLP894176-Elgar_As_I_laye_a-thynkynge_orch_Morrison_midi.mid\" by Morrison, via IMSLP (https://imslp.org/wiki/As_I_laye_a-Thynkynge_%28Elgar%2C_Edward%29). No third-party recording; the site plays the MIDI in-browser. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
+ "legal_notes": "US public domain only (composer died 1934; work published 1888, before 1931). Also public domain in the EU / life+70 countries (composer died 1934); only this pre-1931 publication is US-PD, later works by the composer are not. Source: IMSLP file PMLP894176-Elgar_As_I_laye_a-thynkynge_orch_Morrison_midi.mid (Synthesized Performance), licence CC BY 4.0 per the IMSLP file tag. Arrangement by Morrison (IMSLP). CC BY 4.0: credit \"PMLP894176-Elgar_As_I_laye_a-thynkynge_orch_Morrison_midi.mid\" by Morrison, via IMSLP (https://imslp.org/wiki/As_I_laye_a-Thynkynge_%28Elgar%2C_Edward%29). No third-party recording; the site plays the MIDI in-browser. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -32,7 +32,7 @@
  "era": "Late Romantic / early 20th",
  "licence_scope": "US-PD-only",
  "publication_year": "1888",
- "licence_scope_reason": "US public domain only (composer died 1934; work published 1888, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
+ "licence_scope_reason": "US public domain only (composer died 1934; work published 1888, before 1931). Also public domain in the EU / life+70 countries (composer died 1934); only this pre-1931 publication is US-PD, later works by the composer are not.",
  "composer_slug": "edward-elgar",
  "composer_short": "Elgar",
  "composer_sort": "Elgar, Edward",
@@ -56,8 +56,7 @@
  "score_status": "attribution",
  "licence_status": "flagged",
  "legal_flags": [
-  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1934, published 1888",
-  "US public domain only"
+  "Pre-1931 publication: public domain in the US (published 1888) and in the EU / life+70 countries (composer d.1934); later works by this composer are not US-PD"
  ],
  "energy": "moderate",
  "editors_pick": false,
@@ -84,5 +83,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Edward Elgar: As I laye a-Thynkynge (arr. for orchestra) (composition: US public domain only; published 1888, composer d.1934; may be protected outside the US).\nScore edition: https://imslp.org/wiki/As_I_laye_a-Thynkynge_%28Elgar%2C_Edward%29. Licence: CC BY 4.0."
+ "credit_text": "Edward Elgar: As I laye a-Thynkynge (arr. for orchestra) (composition public domain in the US, published 1888, and in the EU / life+70 countries, composer d.1934).\nScore edition: https://imslp.org/wiki/As_I_laye_a-Thynkynge_%28Elgar%2C_Edward%29. Licence: CC BY 4.0."
 }

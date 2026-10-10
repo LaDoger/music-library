@@ -263,6 +263,30 @@ BARTOK = [
     ("Sz.84", "Three Rondos on Slovak Folk Tunes", 1930, IN, r"rondos? on slovak|three rondos|slovak folk tunes", "Universal Edition 1930 (IMSLP, plate U.E. 9508; Wikipedia 'later in 1930'); composed 1916 and 1927; at the 1930 cut-off"),
 ]
 
+FALLA = [
+    ("Noches", "Nights in the Gardens of Spain", 1922, IN, r"noches en los jardines|nights in the gardens|jardines de espana", "Max Eschig, Paris 1922 (two-piano reduction; full score 1923); composed 1909-15"),
+    ("Amor brujo", "El amor brujo (incl. Ritual Fire Dance)", 1921, IN, r"amor brujo|love the magician|ritual fire|danza ritual|ritual del fuego", "Piano reduction 1921, full score J. & W. Chester 1924 (plate J.W.C. 41); composed 1914-15, rev. 1916-20"),
+    ("Tres picos Suite 1", "The Three-Cornered Hat, Suite No.1", 1921, IN, r"three cornered hat.*suite no 1|suite no 1.*three cornered|sombrero.*suite no 1", "J. & W. Chester, London 1921 (IMSLP); ballet premiered London 1919. Listed before the ballet row so suite titles match here"),
+    ("Tres picos Suite 2", "The Three-Cornered Hat, Suite No.2", 1921, IN, r"three cornered hat.*suite no 2|suite no 2.*three cornered|sombrero.*suite no 2", "IMSLP first publication 1921; publisher not named in the excerpt read (Chester assumed, to confirm)"),
+    ("Tres picos", "El sombrero de tres picos (The Three-Cornered Hat), ballet", 1921, IN, r"three cornered hat|sombrero de tres picos|tres picos", "J. & W. Chester, London c1921 (complete score, IMSLP / Morgan Library); premiered London 1919"),
+    ("Vida breve", "La vida breve (Danza espanola No.1)", 1913, IN, r"vida breve|short life|danza espanola", "Max Eschig, Paris 1913 (vocal score, plate M.E. 400); Danza espanola No.1 full score Eschig 1925"),
+    ("Siete canciones", "Siete canciones populares espanolas", 1922, IN, r"siete canciones|seven spanish|canciones populares|\bpolo\b|\bjota\b|\bnana\b|seguidilla murciana|asturiana|\bballo\b", "Max Eschig, Paris 1922 (IMSLP first publication); composed 1914"),
+    ("Fantasia betica", "Fantasia betica (piano)", 1922, IN, r"fantasia betica|betica", "J. & W. Chester 1922 (IMSLP); composed 1919"),
+    ("Retablo", "El retablo de maese Pedro", 1924, IN, r"retablo|maese pedro|puppet show", "J. & W. Chester 1924 (IMSLP); composed 1919-23"),
+    ("Harpsichord", "Harpsichord Concerto", 1928, IN, r"harpsichord concerto|concerto.*harpsichord|cembalo concerto", "Max Eschig, Paris 1928 (plate M.E. 1787); composed 1926"),
+    ("Cuatro piezas", "Cuatro piezas espanolas (Pieces espagnoles)", 1909, IN, r"cuatro piezas|piezas espanolas|pieces espagnoles|pieces espanolas", "Durand & Fils, Paris 1909 (plate D. & F. 7217; IMSLP); premiered 1908 by Viñes"),
+    ("Psyche", "Psyche (3 poems, voice and ensemble)", 1927, IN, r"psyche", "J. & W. Chester 1927 (plate J.W.C. 55, IMSLP); composed 1924"),
+    ("3 Melodies", "3 Melodies (Trois melodies)", 1910, IN, r"chinoiserie|trois melodies|3 melodies", "Rouart, Lerolle & Cie, Paris 1910 (IMSLP); 'Chinoiserie' file assumed to be from this set, to confirm"),
+    ("Serenata", "Serenata andaluza (piano)", 1902, IN, r"serenata andaluza|andalusian serenade|serenata", "Faustino Fuentes, Madrid, n.d. (ca.1902, plate 18355); early salon piece"),
+    ("Nocturno", "Nocturno (piano)", 1902, IN, r"nocturno", "Faustino Fuentes, Madrid, n.d. (ca.1902, IMSLP); other sources give 1903; both pre-1931"),
+    ("Homenaje", "Homenaje: Le tombeau de Paul Dukas", 1935, POST, r"homenaje|tombeau de paul dukas|pour le tombeau", "Composed 1935 (Dukas memorial); post-1930 publication: excluded"),
+    ("Balada", "Balada de Mallorca", 1933, POST, r"balada de mallorca|balada", "IMSLP first publication 1975 (Ricordi); post-1930: excluded"),
+    ("Soneto", "Soneto a Cordoba", 1927, POST, r"soneto|cordoba", "Premiered 1927; Wikipedia gives OUP / Chester 1932, a Greek archive 1956: post-1930 either way, excluded"),
+    ("Atlantida", "Atlantida (orchestral cantata)", 1962, POST, r"atlantida", "Unfinished at death (1946); completed by Halffter, published 1962: excluded"),
+    ("Fanfare", "Fanfare pour une fete", None, UNV, r"fanfare pour une fete|fanfare", "Publication year not checked: not imported until verified"),
+    ("Gran teatro", "El gran teatro del mundo", None, UNV, r"gran teatro del mundo", "Publication year not checked: not imported until verified"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -299,5 +323,11 @@ COMPOSERS = {
         "catalogue": "Sz. (Szőllősy) / Op. (BB numbers not used)", "rows": BARTOK,
         "prefix": "bartok", "genre": "classical", "era": "20th century",
         "scope_note": "The 12 works listed by LaDoger on 2026-10-11 only; publication years from IMSLP work pages. Revised 1945 For Children is out of scope.",
+    },
+    "falla": {
+        "name": "Manuel de Falla", "canon": "manuel de falla", "death": 1946, "birth": 1876,
+        "catalogue": "No standard catalogue number (labels are short work names)", "rows": FALLA,
+        "prefix": "falla", "genre": "classical", "era": "Early 20th century",
+        "scope_note": "Principal works for video (LaDoger priority list 2026-10-11). Publication years from IMSLP work pages; Soneto a Cordoba, Balada, Homenaje and Atlantida are post-1930 and excluded.",
     },
 }

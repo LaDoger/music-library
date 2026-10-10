@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1937; work published 1911, before 1931). May still be copyrighted elsewhere, including EU/Poland. OCR draft: score made by optical music recognition (Audiveris 5.11) from the public-domain Durand 1912 print scan https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice, then corrected (Claude Opus). Method: OMR from PD scan, corrected. Bar count matches the scan and every bar has the correct duration; estimated pitch accuracy ~90% from spot checks. MAY CONTAIN WRONG NOTES; slurs, pedal and most grace notes not encoded. Transcription by LaDoger's library, released CC0. MusicXML: files/scores/ravel_m61_valses_nobles_5.musicxml.",
+ "legal_notes": "US public domain only (composer died 1937; work published 1911, before 1931). Also public domain in the EU / life+70 countries (composer died 1937); only this pre-1931 publication is US-PD, later works by the composer are not. OCR draft: score made by optical music recognition (Audiveris 5.11) from the public-domain Durand 1912 print scan https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice, then corrected (Claude Opus). Method: OMR from PD scan, corrected. Bar count matches the scan and every bar has the correct duration; estimated pitch accuracy ~90% from spot checks. MAY CONTAIN WRONG NOTES; slurs, pedal and most grace notes not encoded. Transcription by LaDoger's library, released CC0. MusicXML: files/scores/ravel_m61_valses_nobles_5.musicxml.",
  "local_score_path": "files/scores/ravel_m61_valses_nobles_5.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -59,8 +59,7 @@
  "score_status": "clean",
  "licence_status": "flagged",
  "legal_flags": [
-  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1937, published 1911",
-  "US public domain only"
+  "Pre-1931 publication: public domain in the US (published 1911) and in the EU / life+70 countries (composer d.1937); later works by this composer are not US-PD"
  ],
  "energy": "moderate",
  "editors_pick": false,
@@ -88,5 +87,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Maurice Ravel: Valses nobles et sentimentales - Valse V (Presque lent), M. 61 (composition: US public domain only; published 1911, composer d.1937; may be protected outside the US).\nScore edition: https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice. Licence: Public Domain (US); transcription CC0."
+ "credit_text": "Maurice Ravel: Valses nobles et sentimentales - Valse V (Presque lent), M. 61 (composition public domain in the US, published 1911, and in the EU / life+70 countries, composer d.1937).\nScore edition: https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice. Licence: Public Domain (US); transcription CC0."
 }
