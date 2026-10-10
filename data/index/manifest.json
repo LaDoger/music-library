@@ -67,15 +67,19 @@
   },
   {
    "file": "part-009.json",
-   "count": 817
+   "count": 758
   },
   {
    "file": "part-010.json",
-   "count": 931
+   "count": 852
   },
   {
    "file": "part-011.json",
-   "count": 718
+   "count": 831
+  },
+  {
+   "file": "part-012.json",
+   "count": 25
   }
  ],
  "item_json": "data/items/{id}.json"
