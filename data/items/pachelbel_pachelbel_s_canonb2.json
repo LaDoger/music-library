@@ -97,6 +97,48 @@
    "licence": "CC0"
   },
   {
+   "id": "pachelbel_canon_pachelbel",
+   "source": "pdmx",
+   "title": "Canon Pachelbel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_pachelbelb2",
+   "source": "pdmx",
+   "title": "Canon Pachelbel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_for_solo_guitar",
+   "source": "pdmx",
+   "title": "Canon in d - For solo guitar",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_for_solo_guitarb2",
+   "source": "pdmx",
+   "title": "Canon in d - For solo guitar",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_maj",
+   "source": "pdmx",
+   "title": "Canon in D Maj",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_majb2",
+   "source": "pdmx",
+   "title": "Canon in D Maj",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
    "id": "pachelbel_johann_pachelbel_pachelbel_s",
    "source": "pdmx",
    "title": "Canon",
@@ -109,6 +151,62 @@
    "title": "Canon",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_g_major",
+   "source": "pdmx",
+   "title": "Canon in G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_g_majorb2",
+   "source": "pdmx",
+   "title": "Canon in G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_easy",
+   "source": "pdmx",
+   "title": "Canon in D (easy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_easyb2",
+   "source": "pdmx",
+   "title": "Canon in D (easy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_by_pachelbel",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_by_pachelbelb2",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_db2",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_db3",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schema_version": 3,

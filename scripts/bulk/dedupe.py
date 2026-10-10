@@ -280,13 +280,18 @@ def movement_parts(row: dict) -> dict[str, str]:
     if sub and sub not in {parts.get("month", ""), parts.get("key", "")}:
         parts["sub"] = sub
 
+    # Form/kind word from title+movement (prelude vs nocturne, etc.).
+    _, kinds = movement_sig(f"{title} {movement}")
+    if kinds:
+        parts["kind"] = kinds[0]
+
     # Fall back to kind+number from movement_sig when nothing else landed.
     if not parts:
-        number, kinds = movement_sig(movement or title)
+        number, kinds2 = movement_sig(movement or title)
         if number:
             parts["no"] = number
-        if kinds:
-            parts["kind"] = "-".join(kinds)
+        if kinds2:
+            parts["kind"] = "-".join(kinds2)
     return parts
 
 

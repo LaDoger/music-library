@@ -817,7 +817,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv1009_prelude": [
+ "bach_bwv1009_bourree": [
   {
    "id": "bach_bwv1009_j_s_bach_cello_suite_n_3_bwv",
    "source": "pdmx",
@@ -1524,14 +1524,7 @@
    "licence": "CC0"
   }
  ],
- "bach_bwv807_gigue": [
-  {
-   "id": "bach_bwv807_j_s_bach_english_suite_no_2",
-   "source": "pdmx",
-   "title": "J.S. Bach: English Suite No.2 In A Minor BWV 807 - 1. Prelude",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
+ "bach_bwv807_j_s_bach_english_suite_no_2": [
   {
    "id": "bach_bwv807_j_s_bach_english_suite_no_2b2",
    "source": "pdmx",
@@ -4292,6 +4285,15 @@
    "title": "Passacaglia in D Minor. BuxWV 161. {Professional production score.}",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  }
+ ],
+ "buxtehude_buxwv155_toccata": [
+  {
+   "id": "buxtehude_buxwv155_buxwv_155",
+   "source": "mutopia",
+   "title": "Toccata",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2075",
+   "licence": "PD"
   }
  ],
  "buxtehude_dietrich_buxtehude_chacona_e": [
@@ -11488,15 +11490,6 @@
    "licence": "PD"
   }
  ],
- "kuhlau_op20_kuhlau_sonatina_op_20_nr_1_c": [
-  {
-   "id": "kuhlau_op20no1_piano_sonatina_in_c_major_op",
-   "source": "pdmx",
-   "title": "Piano Sonatina in C major Op 20 No 1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "liszt_d889_schubert_serenade_standchen": [
   {
    "id": "liszt_d889_schubert_serenade_standchenb2",
@@ -14946,66 +14939,6 @@
    "licence": "PD"
   }
  ],
- "pachelbel_canon_in_d_for_solo_guitar": [
-  {
-   "id": "pachelbel_canon_in_d_for_solo_guitarb2",
-   "source": "pdmx",
-   "title": "Canon in d - For solo guitar",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "pachelbel_canon_in_d_easy",
-   "source": "pdmx",
-   "title": "Canon in D (easy)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "pachelbel_canon_in_d_easyb2",
-   "source": "pdmx",
-   "title": "Canon in D (easy)",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "pachelbel_canon_in_d_by_pachelbel",
-   "source": "pdmx",
-   "title": "Canon in D",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "pachelbel_canon_in_d_by_pachelbelb2",
-   "source": "pdmx",
-   "title": "Canon in D",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "PD"
-  },
-  {
-   "id": "pachelbel_canon_in_db2",
-   "source": "pdmx",
-   "title": "Canon in D",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  },
-  {
-   "id": "pachelbel_canon_in_db3",
-   "source": "pdmx",
-   "title": "Canon in D",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "pachelbel_canon_in_d_maj": [
-  {
-   "id": "pachelbel_canon_in_d_majb2",
-   "source": "pdmx",
-   "title": "Canon in D Maj",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "pachelbel_canon_in_d_major_p_37_pachel": [
   {
    "id": "pachelbel_canon_in_d_major_p_37_pachelb2",
@@ -15060,15 +14993,6 @@
    "licence": "CC0"
   }
  ],
- "pachelbel_canon_in_g_major": [
-  {
-   "id": "pachelbel_canon_in_g_majorb2",
-   "source": "pdmx",
-   "title": "Canon in G major",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
  "pachelbel_canon_medley": [
   {
    "id": "pachelbel_canon_medleyb2",
@@ -15083,15 +15007,6 @@
    "id": "pachelbel_canon_or_cannon_in_d_johannb2",
    "source": "pdmx",
    "title": "Canon or Cannon in D Johann Pachelbel",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
- "pachelbel_canon_pachelbel": [
-  {
-   "id": "pachelbel_canon_pachelbelb2",
-   "source": "pdmx",
-   "title": "Canon Pachelbel",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -15246,6 +15161,48 @@
    "licence": "CC0"
   },
   {
+   "id": "pachelbel_canon_pachelbel",
+   "source": "pdmx",
+   "title": "Canon Pachelbel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_pachelbelb2",
+   "source": "pdmx",
+   "title": "Canon Pachelbel",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_for_solo_guitar",
+   "source": "pdmx",
+   "title": "Canon in d - For solo guitar",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_for_solo_guitarb2",
+   "source": "pdmx",
+   "title": "Canon in d - For solo guitar",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_maj",
+   "source": "pdmx",
+   "title": "Canon in D Maj",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_majb2",
+   "source": "pdmx",
+   "title": "Canon in D Maj",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
    "id": "pachelbel_johann_pachelbel_pachelbel_s",
    "source": "pdmx",
    "title": "Canon",
@@ -15258,6 +15215,62 @@
    "title": "Canon",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_g_major",
+   "source": "pdmx",
+   "title": "Canon in G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_g_majorb2",
+   "source": "pdmx",
+   "title": "Canon in G major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_d_easy",
+   "source": "pdmx",
+   "title": "Canon in D (easy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_easyb2",
+   "source": "pdmx",
+   "title": "Canon in D (easy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_by_pachelbel",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_d_by_pachelbelb2",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  },
+  {
+   "id": "pachelbel_canon_in_db2",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "pachelbel_canon_in_db3",
+   "source": "pdmx",
+   "title": "Canon in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "pachelbel_pachelbels_canon_in_d": [
@@ -19031,6 +19044,13 @@
  ],
  "scriabin_op11_1_prelude": [
   {
+   "id": "scriabin_op11_prelude",
+   "source": "mutopia",
+   "title": "Prelude",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1779",
+   "licence": "PD"
+  },
+  {
    "id": "scriabin_op11_prelude_a_scriabin_op_11_nob51",
    "source": "pdmx",
    "title": "Prelude (A.Scriabin Op.11.No.1)",
@@ -19097,6 +19117,15 @@
    "licence": "CC0"
   }
  ],
+ "scriabin_op59_2_prelude": [
+  {
+   "id": "scriabin_op59_prelude",
+   "source": "mutopia",
+   "title": "Prelude",
+   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=445",
+   "licence": "PD"
+  }
+ ],
  "scriabin_op62_aleksandr_scriabin_piano_son": [
   {
    "id": "scriabin_op62_aleksandr_scriabin_piano_sonb2",
@@ -19129,13 +19158,6 @@
    "title": "Nocturne for the left hand",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
-  },
-  {
-   "id": "scriabin_imslp_op_9_no_1_prelude_for_the_left_hand",
-   "source": "imslp",
-   "title": "Prelude for the Left Hand",
-   "url": "https://imslp.org/wiki/Prelude_and_Nocturne_for_the_Left_Hand%2C_Op.9_%28Scriabin%2C_Aleksandr%29",
-   "licence": "CC BY 4.0"
   }
  ],
  "scriabin_woo20_a_scriabin_fugue_a5_woo_20": [
@@ -22225,6 +22247,15 @@
    "source": "pdmx",
    "title": "Der Fleigende Hollander Overture to Akt 1. WWV 63. [Professional production full score.] [Unfinished.].",
    "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "wagner_wwv70_tannhauser_overture": [
+  {
+   "id": "wagner_imslp_wwv_70_tannhauser_overture_selections",
+   "source": "imslp",
+   "title": "Tannhäuser: Overture (selections)",
+   "url": "https://imslp.org/wiki/Tannh%C3%A4user%2C_WWV_70_%28Wagner%2C_Richard%29",
    "licence": "CC0"
   }
  ],

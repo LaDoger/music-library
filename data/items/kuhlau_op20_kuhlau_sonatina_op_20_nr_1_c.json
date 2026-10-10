@@ -61,15 +61,7 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/kuhlau_op20_kuhlau_sonatina_op_20_nr_1_c.mid",
- "other_editions": [
-  {
-   "id": "kuhlau_op20no1_piano_sonatina_in_c_major_op",
-   "source": "pdmx",
-   "title": "Piano Sonatina in C major Op 20 No 1",
-   "url": "https://zenodo.org/records/15571083",
-   "licence": "CC0"
-  }
- ],
+ "other_editions": [],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=kuhlau_op20_kuhlau_sonatina_op_20_nr_1_c",

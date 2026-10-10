@@ -2205,8 +2205,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 576,
-  "score_count": 576,
+  "piece_count": 577,
+  "score_count": 577,
   "recording_count": 2,
   "piece_ids": [
    "bach_bwv1007_prelude",
@@ -2662,6 +2662,7 @@
    "bach_bwv804_bwv_804",
    "bach_bwv805_bwv_805",
    "bach_bwv806_bwv_806_english_suite_i_bour",
+   "bach_bwv807_j_s_bach_english_suite_no_2",
    "bach_bwv808_j_s_bach_english_suite_no_3",
    "bach_bwv809_bwv_809_english_suite_iv_gig",
    "bach_bwv810_bwv_810_english_suite_v_prel",
@@ -4195,8 +4196,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 18,
-  "score_count": 18,
+  "piece_count": 17,
+  "score_count": 17,
   "recording_count": 0,
   "piece_ids": [
    "buxtehude_buxwv155_toccata",
@@ -4215,8 +4216,7 @@
    "buxtehude_buxtehude_alelluia",
    "buxtehude_dietrich_buxtehude_chacona_e",
    "buxtehude_glorie_daei_lui_dumnezeu",
-   "buxtehude_buxtehude_passacaglia_in_d_m",
-   "buxtehude_buxwv155_buxwv_155"
+   "buxtehude_buxtehude_passacaglia_in_d_m"
   ],
   "wikidata": "Q153637",
   "portrait_url": null,
@@ -10711,11 +10711,12 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 3,
-  "score_count": 3,
+  "piece_count": 4,
+  "score_count": 4,
   "recording_count": 0,
   "piece_ids": [
    "kuhlau_o_du_nase_aller_nasen_friedr",
+   "kuhlau_op20no1_piano_sonatina_in_c_major_op",
    "kuhlau_op119_kuhlau_trio_pour_flute_et_sa",
    "kuhlau_op20_kuhlau_sonatina_op_20_nr_1_c"
   ],
@@ -14491,8 +14492,8 @@
    "classical"
   ],
   "featured_rank": 4,
-  "piece_count": 36,
-  "score_count": 36,
+  "piece_count": 32,
+  "score_count": 32,
   "recording_count": 0,
   "piece_ids": [
    "pachelbel_canon_d",
@@ -14502,12 +14503,10 @@
    "pachelbel_canon_gigue_in_d_major_by_pa",
    "pachelbel_canon_in_d_major_p_37_pachel",
    "pachelbel_canon_medley",
-   "pachelbel_canon_pachelbel",
    "pachelbel_pachelbel_canon_small_ensembb51",
    "pachelbel_canon_and_gigue_in_d",
    "pachelbel_canon_en_re",
    "pachelbel_canon_in_c_aa",
-   "pachelbel_canon_in_d_maj",
    "pachelbel_canon_in_d_major_pachebel_s",
    "pachelbel_pachelbel_s_canon_in_d_minor",
    "pachelbel_canon_in_d_violin_duet",
@@ -14515,8 +14514,6 @@
    "pachelbel_canon_in_d_partitura",
    "pachelbel_canon_in_d_trombone_or_any_o",
    "pachelbel_canon_in_d_x_perfect",
-   "pachelbel_canon_in_g_major",
-   "pachelbel_canon_in_d_for_solo_guitar",
    "pachelbel_canon_or_cannon_in_d_johann",
    "pachelbel_pachelbel_chaconne_in_f_mino",
    "pachelbel_johann_pachelbel_firsts_page",
@@ -17635,8 +17632,8 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 32,
-  "score_count": 32,
+  "piece_count": 31,
+  "score_count": 31,
   "recording_count": 0,
   "piece_ids": [
    "scriabin_op2_1_etude",
@@ -17649,7 +17646,6 @@
    "scriabin_op59_2_prelude",
    "scriabin_andante_and_scherzo",
    "scriabin_imslp_op_10_impromptu",
-   "scriabin_op11_prelude",
    "scriabin_op_13_no_1_prelude_op_13_no_1",
    "scriabin_op_25_no_3_mazurka_op_25_no_3",
    "scriabin_op_25_no_9_mazurka_op_25_no_9",
@@ -17658,10 +17654,10 @@
    "scriabin_op_40_no_2_mazurka_op_40_no_2",
    "scriabin_op_42_no_1_etude_op_42_no_1",
    "scriabin_op_42_no_6_etude_op_42_no_6",
-   "scriabin_op59_prelude",
    "scriabin_op62_aleksandr_scriabin_piano_son",
    "scriabin_op_68_piano_sonata_no_9_black_mass",
    "scriabin_imslp_op_72_vers_la_flamme_arr_for_orchestrab51",
+   "scriabin_imslp_op_9_no_1_prelude_for_the_left_hand",
    "scriabin_op2no1_scriabin_etude_in_c_minor_op",
    "scriabin_op42_scriabin_etude_no_4",
    "scriabin_op42no5_alexander_scriabin_etude_in",
@@ -20935,8 +20931,8 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 51,
-  "score_count": 48,
+  "piece_count": 50,
+  "score_count": 47,
   "recording_count": 3,
   "piece_ids": [
    "wagner_lohengrin_bridal_chorus",
@@ -20974,7 +20970,6 @@
    "wagner_wwv59_wagner_a_faust_overture_wwv",
    "wagner_wwv63_wagner_der_fleigende_holland",
    "wagner_wwv70_wagner_pilgerchor_aus_tannha",
-   "wagner_imslp_wwv_70_tannhauser_overture_selections",
    "wagner_wwv75_wagner_lohengrin_vorspiel_to",
    "wagner_wwv84_polka_in_g_major_r_wagner_ww",
    "wagner_wwv86a_wagner_vorspiel_to_das_rhein",
