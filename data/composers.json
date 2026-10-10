@@ -3466,6 +3466,29 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "euday-l-bowman",
+  "name": "Euday L. Bowman",
+  "short_name": "Bowman",
+  "sort_name": "Bowman, Euday L.",
+  "birth_year": null,
+  "death_year": 1949,
+  "era": "Romantic",
+  "genres": [
+   "ragtime"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "ebowman_12th_street_ragb4"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "william-batchelder-bradbury",
   "name": "William Batchelder Bradbury",
   "short_name": "Bradbury",
@@ -5302,6 +5325,30 @@
    "croft_god_is_gone_up_with_a_merry",
    "croft_hanover_o_worship_the_king",
    "croft_laudate_dominum_william_crof"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "ernesto-de-curtis",
+  "name": "Ernesto De Curtis",
+  "short_name": "Curtis",
+  "sort_name": "Curtis, Ernesto De",
+  "birth_year": null,
+  "death_year": 1937,
+  "era": "Romantic",
+  "genres": [
+   "early_popular"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "decurtis_torna_a_sorrento",
+   "decurtis_voce_e_notte"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -11212,6 +11259,29 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "cecil-macklin",
+  "name": "Cecil Macklin",
+  "short_name": "Macklin",
+  "sort_name": "Macklin, Cecil",
+  "birth_year": null,
+  "death_year": 1944,
+  "era": "Romantic",
+  "genres": [
+   "ragtime"
+  ],
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "macklin_tres_moutarde_too_much_mustard"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "giovanni-de-macque",
   "name": "Giovanni de Macque",
   "short_name": "Macque",
@@ -12394,6 +12464,30 @@
    "micheli_tu_perche_manchi_domenico_mi",
    "micheli_veggio_ai_dolci_domenico_mic",
    "micheli_vita_de_la_mia_vita_domenico"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "kerry-mills",
+  "name": "Kerry Mills",
+  "short_name": "Mills",
+  "sort_name": "Mills, Kerry",
+  "birth_year": null,
+  "death_year": 1948,
+  "era": "Romantic",
+  "genres": [
+   "ragtime"
+  ],
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "kmills_at_a_georgia_camp_meeting",
+   "kmills_whistling_rufus"
   ],
   "wikidata": null,
   "portrait_url": null,

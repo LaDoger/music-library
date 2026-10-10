@@ -235,6 +235,7 @@ h2::before { content: ""; display: inline-block; width: 14px; height: 1px; backg
 .b-attribution { color: var(--blue); border-color: rgba(140, 196, 255, .45); background: rgba(140, 196, 255, .07); }
 .b-sharealike { color: var(--violet); border-color: rgba(185, 164, 251, .45); background: rgba(185, 164, 251, .07); }
 .b-flagged { color: var(--red); border-color: rgba(242, 145, 145, .45); background: rgba(242, 145, 145, .07); }
+.b-us-pd { color: #e6a23c; border-color: rgba(230, 162, 60, .55); background: rgba(230, 162, 60, .10); }
 .b-unverified { color: var(--grey); border-color: rgba(161, 161, 170, .45); border-style: dashed; background: transparent; }
 .sub-status { font-size: 11px; color: var(--dim); }
 .sub-status b { font-weight: 600; }

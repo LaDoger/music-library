@@ -33,6 +33,7 @@ EXTRA_COLUMNS = [
     "source_rank", "source_name", "licence_class", "instrumentation",
     "popularity", "genre", "era", "dedup_key", "download_url",
     "repo_path", "external_id", "canon", "quality_penalty",
+    "licence_scope", "publication_year", "licence_scope_reason",
 ]
 
 CANDIDATE_COLUMNS = SCHEMA_COLUMNS + EXTRA_COLUMNS
@@ -220,6 +221,21 @@ if MANUAL_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"
             continue
         _RAW.append((_entry["canon"], _entry["name"], _entry["death"], _entry["prefix"], 6, _entry["aliases"]))
         GENERATED_CANONS.add(_entry["canon"])
+
+# LaDoger-approved US-PD-only composers (death 1930–1955). Full-name match only.
+# Works need a verified publication year ≤ 1930 and licence_scope=US-PD-only.
+US_PD_ONLY_CANONS = set()
+US_PD_ONLY_FILE = MANUAL_FILE
+if US_PD_ONLY_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"):
+    _known = {item[0] for item in _RAW}
+    for _entry in json.loads(US_PD_ONLY_FILE.read_text(encoding="utf-8")).get("approved_us_pd_only", []):
+        if _entry["canon"] in _known or _entry.get("death") is None:
+            continue
+        if not (1930 <= int(_entry["death"]) <= 1955):
+            continue
+        _RAW.append((_entry["canon"], _entry["name"], _entry["death"], _entry["prefix"], 6, _entry.get("aliases") or []))
+        GENERATED_CANONS.add(_entry["canon"])
+        US_PD_ONLY_CANONS.add(_entry["canon"])
 
 COMPOSERS = {}
 for canon, display, death, prefix, tier, _aliases in _RAW:
@@ -432,7 +448,7 @@ def parse_year(value) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def composition_status(canon: str, death: int | None) -> tuple[str, str]:
+def composition_status(canon: str, death: int | None, publication_year: int | None = None) -> tuple[str, str]:
     """Return (status, note) for the composition's term, separate from the edition licence."""
     if canon in EXCLUDED_CANONS or composer_record(canon)["tier"] >= 9:
         return "excluded", "Named exclusion in the source policy (not cleared for this library)."
@@ -443,10 +459,20 @@ def composition_status(canon: str, death: int | None) -> tuple[str, str]:
     if death > 1955:
         return "excluded", f"Composer died {death}; not public domain under life+70 as of 2026."
     if death > 1929:
+        # LaDoger may approve individual composers for pre-1931 US-PD works only.
+        if canon in US_PD_ONLY_CANONS and publication_year is not None and publication_year <= 1930:
+            return (
+                "flagged",
+                f"US public domain only: composer died {death}; work published {publication_year} "
+                "(before 1931). May be copyrighted elsewhere, including EU/Poland. "
+                "LaDoger approved this composer with licence_scope=US-PD-only.",
+            )
         return (
             "flagged",
             f"FLAG composer term: composer died {death}. Public domain in life+70 countries. "
-            "Not a blanket PD-US claim, because works published from 1930 may remain protected.",
+            "Not a blanket PD-US claim, because works published from 1930 may remain protected. "
+            "Do not import unless LaDoger approves the composer for US-PD-only with a verified "
+            "pre-1931 publication year.",
         )
     return (
         "clean",

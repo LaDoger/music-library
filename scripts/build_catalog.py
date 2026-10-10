@@ -32,6 +32,7 @@ INDEX_FIELDS = [
     "licence_status", "recording_status", "score_status", "verified", "has_editable_score",
     "has_recording", "editors_pick_rank", "death_year", "preview_url", "midi_play_url",
     "stream_audio_url", "release_audio_url", "video_use_ideas", "catalog_variants",
+    "licence_scope",
 ]
 ITEMS_DIR = os.path.join(ROOT, "data", "items")
 
@@ -44,7 +45,7 @@ LICENCE_MEANING = {
     "clean": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
     "attribution": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
     "sharealike": "CC BY-SA or OAL somewhere in the row. Remixes may have to carry the same licence. Check recording_status vs score_status: often only one part is affected.",
-    "flagged": "Known caveat (territorial term, arrangement, retired PD dedication). Read legal_notes before publishing.",
+    "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
     "unverified": "Rights not confirmed from the source page. Do not publish without checking.",
 }
 

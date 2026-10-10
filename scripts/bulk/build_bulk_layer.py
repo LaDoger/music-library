@@ -9,6 +9,9 @@ Gate (re-checked here, whatever the batch file says):
   licence_class clean or attribution only (no SA / NC / ND), verified=yes,
   composer death year <= 1929, no excluded composer, score file on disk,
   editable_source_url and editable_license present.
+  Exception: licence_scope=US-PD-only for LaDoger-approved composers (death
+  1930–1955) with a verified publication_year <= 1930; those rows may be
+  licence_class=flagged and must keep the US-PD-only flag.
 
 Then dedupe (scripts/bulk/dedupe.py) against library.csv and across batches:
 duplicates are dropped and listed as other_editions in
@@ -42,8 +45,29 @@ def load(path: Path) -> list[dict]:
         return list(csv.DictReader(handle))
 
 
+def _us_pd_only_ok(row: dict) -> bool:
+    """LaDoger-approved US-PD-only exception (death 1930–1955, pub ≤ 1930)."""
+    if (row.get("licence_scope") or "") != "US-PD-only":
+        return False
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import schema
+    from schema import fold, match_composer
+    canon = match_composer(row.get("composer") or "") or fold(row.get("composer") or "")
+    if canon not in schema.US_PD_ONLY_CANONS:
+        return False
+    pub = row.get("publication_year") or ""
+    if not str(pub).isdigit() or not (1 <= int(pub) <= 1930):
+        return False
+    death = row.get("death_year") or ""
+    if not death.isdigit() or not (1930 <= int(death) <= 1955):
+        return False
+    return True
+
+
 def keep(row: dict, why: Counter) -> bool:
-    if (row.get("licence_class") or "") not in {"clean", "attribution"}:
+    us_pd = _us_pd_only_ok(row)
+    allowed = {"clean", "attribution"} | ({"flagged"} if us_pd else set())
+    if (row.get("licence_class") or "") not in allowed:
         why["licence"] += 1
         return False
     lic = (row.get("editable_license") or "").lower()
@@ -56,9 +80,10 @@ def keep(row: dict, why: Counter) -> bool:
     death = row.get("death_year") or ""
     anon = (row.get("composer") or "").lower() in {"traditional", "anonymous", "anon."}
     if (death.isdigit() and int(death) > 1929) or (not death.isdigit() and not anon):
-        # A dated arranger of a traditional tune counts too (e.g. a 1930 hymn harmonisation).
-        why["death>1929"] += 1
-        return False
+        if not us_pd:
+            # A dated arranger of a traditional tune counts too (e.g. a 1930 hymn harmonisation).
+            why["death>1929"] += 1
+            return False
     if UNFINISHED.search(row.get("title") or ""):
         why["wip-title"] += 1
         return False

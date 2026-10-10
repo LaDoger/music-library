@@ -36,7 +36,7 @@
   };
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
-  const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "rec", "verified"];
+  const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "scope", "rec", "verified"];
   const PARAMS = ["q", ...FACETS, "score", "picks", "sort", "view", "layout", "page", "id"];
 
   const $ = (s, el = document) => el.querySelector(s);
@@ -146,6 +146,7 @@
   function facetValue(r, k) {
     switch (k) {
       case "licence": return r.licence_status;
+      case "scope": return (r.licence_scope === "US-PD-only") ? "us_pd_only" : "worldwide";
       case "rec": return r.has_recording ? "1" : "0";
       case "verified": return r.verified === "yes" ? "yes" : "unverified";
       default: return r[k];
@@ -220,6 +221,11 @@
     const [label, tip] = LICENCE[st] || LICENCE.unverified;
     return `<span class="badge b-${esc(st || "unverified")}" title="${esc(tip)}">${esc(label)}</span>`;
   };
+  const scopeBadge = (r) => {
+    if (r.licence_scope !== "US-PD-only") return "";
+    const tip = "US public domain only — may be copyrighted elsewhere, including EU/Poland. Composer died 1930–1955; work published before 1931.";
+    return `<span class="badge b-us-pd" title="${esc(tip)}">US public domain only</span>`;
+  };
   const subStatus = (r) => {
     const parts = [];
     if (r.recording_status) parts.push(`rec <b>${esc(LICENCE[r.recording_status][0])}</b>`);
@@ -255,7 +261,7 @@
       </div>
       <div class="meta">${score}${rec}${synth}<span class="tag" title="${esc(r.tempo_energy)}">⚡ ${esc(ENERGY_LABEL[r.energy] || r.energy || "?")}</span>${moods}</div>
       ${r.video_use_ideas ? `<p class="excerpt">${esc(r.video_use_ideas)}</p>` : ""}
-      <div class="badges">${badge(r.licence_status)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
+      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${subStatus(r)}${r.editors_pick_rank ? `<span class="tag pick-tag" title="Editor's pick">★ Pick #${r.editors_pick_rank}</span>` : ""}</div>
     </article>`;
   }
 
@@ -405,6 +411,7 @@
     fillSelect("#f_era", "era", eras.map((e) => [e, e]), "All eras");
     fillSelect("#f_energy", "energy", ENERGY, "Any energy");
     fillSelect("#f_licence", "licence", LICENCE_ORDER.map((k) => [k, LICENCE[k][0]]), "Any licence");
+    fillSelect("#f_scope", "scope", [["worldwide", "Worldwide / life+70 PD"], ["us_pd_only", "US public domain only"]], "Any territory");
     $("#f_rec").value = state.rec; $("#f_rec").classList.toggle("active", !!state.rec);
     $("#f_verified").value = state.verified; $("#f_verified").classList.toggle("active", !!state.verified);
     $("#f_sort").value = state.sort; $("#f_sort").classList.toggle("active", !!state.sort);
@@ -481,7 +488,7 @@
         <button class="pt" type="button" data-act="open" data-id="${esc(r.id)}">${esc(r.title)}</button>
         <div class="pcat">${esc(r.catalog || "")}</div>
         <div class="why">${esc(r.editors_pick_why)}</div>
-        <div class="pick-badges">${badge(r.licence_status)}</div>
+        <div class="pick-badges">${badge(r.licence_status)}${scopeBadge(r)}</div>
       </div>
       ${playBtn(r)}
     </div>`).join("");
@@ -582,7 +589,7 @@
       clean: "Composition and the parts we ship are PD / CC0 as far as the source pages show. Courtesy credits are still listed where the source asks.",
       attribution: "Credit is required — copy the block below into the post or video description.",
       sharealike: "ShareAlike: a remix or render of the BY-SA part may have to be released under the same licence. Do not treat as clean.",
-      flagged: "Flagged: there is a known caveat (territory, arrangement or dedication). Read the notes before commercial use.",
+      flagged: "Flagged: there is a known caveat (territory, US-PD-only scope, arrangement or dedication). Read the notes before commercial use.",
       unverified: "Unverified: rights could not be confirmed from the source page. Do not use commercially until checked.",
     }[r.licence_status] || "";
     const c = composerInfo(r.composer);
@@ -591,7 +598,7 @@
       <a class="d-composer" href="${esc(composerHref(r.composer))}" data-act="composer" data-composer="${esc(r.composer)}">${esc(r.composer)}<span>${esc(lifeDates(c))}</span></a>
       <h2 class="d-title" id="dTitle">${esc(r.title)}</h2>
       <div class="d-kicker">${esc(r.catalog || "")}${movementSuffix(r)}${r.editors_pick_rank ? ` · ★ Editor's pick #${r.editors_pick_rank}` : ""}</div>
-      <div class="badges">${badge(r.licence_status)}${subStatus(r)}
+      <div class="badges">${badge(r.licence_status)}${scopeBadge(r)}${subStatus(r)}
         ${r.has_editable_score ? '<span class="tag score">✎ Editable score</span>' : '<span class="tag noscore">No editable score yet</span>'}</div>
       ${listenHTML(r)}
       <div class="d-actions">

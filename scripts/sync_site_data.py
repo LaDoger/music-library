@@ -14,6 +14,7 @@ Derived fields
   score_status        licence class of editable_license (blank if no score)
   licence_status      worst of the above, + FLAGGED overrides, verified!=yes -> unverified
   legal_flags         short caveat chips (territorial term, arrangement, render, ...)
+  licence_scope       blank | US-PD-only (LaDoger-approved pre-1931 US-PD works of 1930–1955 composers)
   energy              low | moderate | high | very_high, from tempo_energy
   score_files         every file in files/scores/ belonging to the row
   release_audio_*     GitHub Release asset for local_audio_path
@@ -92,6 +93,7 @@ FLAGGED = {
 
 FLAG_RULES = [
     # (chip label, regex on legal_notes + licence strings)
+    ("US public domain only", r"US public domain only|licence_scope=US-PD-only|US-PD-only"),
     ("Composer-term caveat", r"FLAG (HOLST|RACHMANINOFF|composer term|death year)"),
     ("US-gov PD (territorial)", r"PD-USGov|US Marine Band|USGov|U\.S\. federal government"),
     ("Arrangement risk", r"arrangement (copyright not confirmed|not stated)|residual risk on arrangement|arranger .* not stated|status of arrangement not stated"),
@@ -341,6 +343,11 @@ def build():
         rid = r["id"].strip()
         p = prev.get(rid, {})
         item = {k: (v or "").strip() for k, v in r.items() if k}
+        # Keep territorial columns only when set (US-PD-only rows); omit empties so
+        # ordinary items are not rewritten on every sync.
+        for _k in ("licence_scope", "publication_year", "licence_scope_reason"):
+            if not item.get(_k):
+                item.pop(_k, None)
 
         if rid in TITLE_FIXES:
             item["title"] = TITLE_FIXES[rid]
@@ -380,13 +387,21 @@ def build():
         status = worst(rec_status, score_status)
         if rid in FLAGGED:
             status = worst(status, "flagged")
+        us_pd = (item.get("licence_scope") or "") == "US-PD-only"
+        if us_pd:
+            status = worst(status, "flagged")
         if item.get("verified") != "yes":
             status = "unverified"
 
-        blob = " ".join([item.get("legal_notes", ""), item.get("recording_license", ""), item.get("editable_license", "")])
+        blob = " ".join([item.get("legal_notes", ""), item.get("recording_license", ""), item.get("editable_license", ""),
+                         item.get("licence_scope", ""), item.get("licence_scope_reason", "")])
         flags = [label for label, rx in FLAG_RULES if re.search(rx, blob, re.I)]
         if score_status == "sharealike" and rec_status != "sharealike":
             flags.append("ShareAlike score only")
+        if us_pd:
+            pub = item.get("publication_year") or "?"
+            death = item.get("death_year") or "?"
+            flags.insert(0, f"US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.{death}, published {pub}")
         if rid in FLAGGED:
             flags.insert(0, FLAGGED[rid])
 

@@ -14,7 +14,8 @@ Licence status per item (the most restrictive part wins):
 Your own render of a score carries the score's licence (score_status), not the recording's.
 
 ## Data
-- [catalog.json](https://ladoger.github.io/music-library/data/catalog.json): compact index; all URLs absolute; filter on licence_status, mood, energy, has_editable_score, editors_pick_rank, composer_slug
+- Items with `licence_scope: "US-PD-only"` are US public domain (published before 1931) for LaDoger-approved composers who died 1930–1955; they stay `licence_status: flagged` and may be copyrighted elsewhere (incl. EU/Poland). Filter with Territory / `licence_scope`.
+- [catalog.json](https://ladoger.github.io/music-library/data/catalog.json): compact index; all URLs absolute; filter on licence_status, mood, energy, has_editable_score, editors_pick_rank, composer_slug, licence_scope
 - [index/manifest.json](https://ladoger.github.io/music-library/data/index/manifest.json): slim sharded index the site loads (columnar parts ≤ 300 KB, relative URLs)
 - [items/<id>.json](https://ladoger.github.io/music-library/data/items/bach_bwv565_toccata.json): full record per piece: legal_notes, credit_text, render_midi, notable_excerpt, video_use_ideas
 - [composers.json](https://ladoger.github.io/music-library/data/composers.json): composer index: slug, name, birth_year, death_year, era, genres, piece_count, piece_ids, portrait_url (PD/CC0 only) + licence

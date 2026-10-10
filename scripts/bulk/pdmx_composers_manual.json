@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T03:40+0200",
+ "generated": "2026-10-10T08:30+0200",
  "source": "Scale run 4: hand-disambiguated PDMX composer_name values that gen_pdmx_composers.py skipped (ambiguous Wikidata hit, or credit-year check tripped by publication years). Each entry was resolved by reading the PDMX titles (e.g. Strathspeys/reels -> the Scottish fiddler; psalm settings -> Goudimel) and checking the Wikidata life dates. All died <= 1929. Loaded by schema.py as tier 6, full-name match only.",
  "composers": [
   {
@@ -335,36 +335,8 @@
  ],
  "flagged_1930_1955": [
   {
-   "name": "Kerry Mills",
-   "birth": 1869,
-   "death": 1948,
-   "wikidata": "Q1274305",
-   "pdmx_rows": 8,
-   "note": "At a Georgia Camp Meeting (1897), Whistling Rufus (1899): US-PD by publication date, EU/life+70 PD since 2019. Not added: bulk gate is death <= 1929."
-  },
-  {
-   "name": "Euday L. Bowman",
-   "birth": 1887,
-   "death": 1949,
-   "wikidata": "Q3059496",
-   "pdmx_rows": 4,
-   "note": "12th Street Rag (1914): US-PD; EU PD since 2020. Not added (gate)."
-  },
-  {
-   "name": "Cecil Macklin",
-   "birth": 1883,
-   "death": 1944,
-   "wikidata": "Q109884987",
-   "pdmx_rows": 5,
-   "note": "Tres Moutarde (1911). Not added (gate)."
-  },
-  {
-   "name": "Ernesto De Curtis",
-   "birth": 1875,
-   "death": 1937,
-   "wikidata": "Q1356854",
-   "pdmx_rows": 14,
-   "note": "Torna a Sorrento (1902/1905). Not added (gate)."
+   "name": "(none pending)",
+   "note": "Previously listed Kerry Mills, Euday Bowman, Cecil Macklin, Ernesto De Curtis were approved 2026-10-10 and moved to approved_us_pd_only. List new 1930–1955 candidates here for LaDoger approval before import."
   }
  ],
  "excluded": [
@@ -373,6 +345,59 @@
    "death": 1989,
    "pdmx_rows": 50,
    "note": "pre-1931 songs are US-PD but composer died 1989: excluded by the > 1955 rule."
+  }
+ ],
+ "approved_us_pd_only": [
+  {
+   "canon": "kerry mills",
+   "name": "Kerry Mills",
+   "birth": 1869,
+   "death": 1948,
+   "prefix": "kmills",
+   "wikidata": "Q1274305",
+   "aliases": [
+    "kerry mills"
+   ],
+   "note": "LaDoger approved 2026-10-10: US-PD-only for works published before 1931 (At a Georgia Camp Meeting 1897, Whistling Rufus 1899)."
+  },
+  {
+   "canon": "euday bowman",
+   "name": "Euday L. Bowman",
+   "birth": 1887,
+   "death": 1949,
+   "prefix": "ebowman",
+   "wikidata": "Q3059496",
+   "aliases": [
+    "euday l bowman",
+    "euday bowman",
+    "e l bowman"
+   ],
+   "note": "LaDoger approved 2026-10-10: US-PD-only for works published before 1931 (12th Street Rag 1914)."
+  },
+  {
+   "canon": "cecil macklin",
+   "name": "Cecil Macklin",
+   "birth": 1883,
+   "death": 1944,
+   "prefix": "macklin",
+   "wikidata": "Q109884987",
+   "aliases": [
+    "cecil macklin"
+   ],
+   "note": "LaDoger approved 2026-10-10: US-PD-only for works published before 1931 (Très Moutarde 1911)."
+  },
+  {
+   "canon": "ernesto de curtis",
+   "name": "Ernesto De Curtis",
+   "birth": 1875,
+   "death": 1937,
+   "prefix": "decurtis",
+   "wikidata": "Q1356854",
+   "aliases": [
+    "ernesto de curtis",
+    "e de curtis"
+   ],
+   "note": "LaDoger approved 2026-10-10: US-PD-only for works published before 1931 (Torna a Sorrento 1902, Voce 'e notte 1904)."
   }
  ]
 }

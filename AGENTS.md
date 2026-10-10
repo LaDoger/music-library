@@ -35,6 +35,10 @@ Rules that always hold:
 - **Your own render of a score carries the score's licence (`score_status`), not the recording's.** A PD MIDI rendered by you is clean even when the row's recording is CC BY.
 - US-government band recordings (Marine / Army / Navy / Air Force Band) are PD in the US. Other countries do not always agree; the row flags it.
 - Never add music that is CC BY-NC, all-rights-reserved, or has a guessed licence. Never download from MuseScore.com (it needs a login). Excluded composers (not PD): Orff, Prokofiev, Shostakovich, Stravinsky. Ravel's Boléro is excluded (disputed).
+
+### US public domain only (`licence_scope: US-PD-only`)
+Some composers who died 1930–1955 have works **published before 1931** that are public domain in the US. LaDoger may approve individual composers for import with a visible **US public domain only** badge. Those rows are `licence_status: flagged` and may still be copyrighted elsewhere (including EU/Poland). Filter them out with Territory → "Worldwide / life+70 PD" (`?scope=worldwide`). Do **not** add other 1930–1955 composers until LaDoger approves each one (list candidates in `STATUS.md`). Approved today: Kerry Mills, Euday L. Bowman, Cecil Macklin, Ernesto De Curtis — works with a verified publication year ≤ 1930 only.
+
 - `musiclib credit <id>` prints the credit text and exits 0 only for `clean` / `attribution`.
 
 **Quality bar:** no filler. Every row is a strong, recognisable piece with a stated video use (`video_use_ideas`) and a best excerpt (`notable_excerpt`). Previews are 15 s MP3s at about −16 LUFS, cut from the real recording; rows without a recording have none. They are auditions only; use the full recording or your own render in the video.
