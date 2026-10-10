@@ -11,6 +11,9 @@ video file is added to the repo.
 - Views: Score (default when a `.mxl/.musicxml/.xml` exists), Piano roll (canvas; the only view for MIDI-only rows), Both. Dark paper / Light paper (cream, black ink). Title card ~3 s at start. Tempo 50–150 %, seek bar, fullscreen (F), Space = play/pause, Esc = close.
 - Up next: remaining movements of the same work (same composer + title prefix before ":"/catalogue), then more by the same composer (editable scores and featured first). When a movement ends, the next one in the set autoplays.
 
+## Layout and scrolling
+The watch route is a normal page: the library content is hidden with `display:none` (not `visibility`), `.watch` is in normal flow, and the page scrolls. Only browser fullscreen (F) locks to the viewport. The stage is `max(260px, 100dvh - header bar - controls)` (JS sets `--w-bars` from the measured bar + controls heights), so bar + stage + controls fit on screen at scroll 0. "Up next" sits beside the stage on wide screens (sticky) and below it on ≤860px. The score is laid out to the stage width minus 16 px side padding; nothing overflows horizontally. Zoom −/+/Fit (50–250 %, 10 % steps) rescales the engraving while keeping it fit to width; it is kept in the URL as `&zoom=1.3` (omitted at 100 %). Controls wrap on mobile.
+
 ## Sync
 OSMD cursor steps are recorded once (quarter-note timestamp + measure index). The MIDI tempo map converts playback seconds to quarter notes; the nearest step drives the cursor, measure box and system scroll. If the MIDI length differs from the score by >3 % (e.g. repeats expanded in the MIDI) the score time is scaled linearly. v1 limit: no repeat/jump tracking.
 
@@ -40,4 +43,4 @@ Skipped: a soft/felt or upright piano. The only candidates found were MusyngKite
 Deviation from the brief: MIDI is parsed with Magenta's `midiToSequenceProto` (already vendored) instead of adding `@tonejs/midi`. MusicXML without a MIDI is not played (every current MusicXML row has a MIDI).
 
 ## Tests
-`NODE_PATH=/tmp/music-ui-review/node_modules node scripts/check_watch.cjs` (network needed). Covers piano MusicXML, MIDI-only, orchestral-style MusicXML, set autoplay; asserts the audio context runs, time advances, measure highlight and system turns, axe, mobile screenshot.
+`NODE_PATH=/tmp/music-ui-review/node_modules node scripts/check_watch.cjs` (network needed). Covers piano MusicXML, MIDI-only, orchestral-style MusicXML, set autoplay; also a layout matrix (1280x800, 1440x900, 1920x1080, 1366x768, 390x844, 820x1180 in chromium; webkit/firefox when installed): library and watch pages scroll, no horizontal overflow, stage + controls fit the viewport, zoom; screenshots to `.tmp/watch/shots_fix/`. Asserts the audio context runs, time advances, measure highlight and system turns, axe, mobile screenshot.

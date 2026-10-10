@@ -201,10 +201,10 @@
     if (el) { el.alt = ""; el.setAttribute("role", "presentation"); }
   }
   function layoutScore(w) {
-    const o = w.osmd, box = w.paper;
-    const width = Math.max(280, Math.min(box.clientWidth, 1500));
+    const o = w.osmd;
+    const width = Math.max(240, Math.min(w.slide.clientWidth, 1500));
     w.osmdEl.style.width = width + "px";
-    o.zoom = width < 600 ? 0.7 : width > 1200 ? 1.1 : 1;
+    o.zoom = (width < 600 ? 0.7 : width > 1200 ? 1.1 : 1) * w.zoom;
     o.render();
     const unit = 10 * o.zoom;
     const sysMap = new Map(); w.sys = []; w.meas = [];
@@ -268,6 +268,7 @@
             <button class="w-icon" type="button" data-w="next" aria-label="Next movement" disabled>⏭</button>
             <span class="w-time" id="wTime">0:00 / 0:00</span>
             <span class="w-meas" id="wMeas"></span>
+            <span class="w-zoom" role="group" aria-label="Score zoom"><button class="w-chip" type="button" data-w="zout" aria-label="Zoom out">−</button><output id="wZoom" aria-live="polite">100%</output><button class="w-chip" type="button" data-w="zin" aria-label="Zoom in">+</button><button class="w-chip" type="button" data-w="zfit">Fit</button></span>
             <label class="w-sound"><span>Sound</span><select id="wSound" disabled>${SOUNDS.map((x) => `<option value="${x.id}">${esc(x.label)}</option>`).join("")}</select></label>
             <label class="w-tempo"><span>Tempo</span><input type="range" id="wTempo" min="0.5" max="1.5" step="0.05" value="1"><output id="wTempoOut">100%</output></label>
           </div>
@@ -295,6 +296,9 @@
     $("#wTitle", root).textContent = r.title + (r.movement && !r.title.includes(r.movement) ? " · " + r.movement : "");
     document.title = `${r.title} · ${r.composer} — Watch · Music Library`;
     $("#wTitle", root).focus({ preventScroll: true });
+    const z = parseFloat(ctx.zoom ? ctx.zoom() : "");
+    w.zoom = z >= 0.5 && z <= 2.5 ? Math.round(z * 10) / 10 : 1;
+    window.scrollTo(0, 0);
     bindUI(w);
     renderNext(w);
     exposeState(w);
@@ -557,6 +561,9 @@
         case "play": return w.engine && w.engine.playing ? pause(w) : play(w);
         case "paper": return setPaper(w, prefs.paper === "dark" ? "light" : "dark");
         case "full": return toggleFull(w);
+        case "zin": return setZoom(w, w.zoom + 0.1);
+        case "zout": return setZoom(w, w.zoom - 0.1);
+        case "zfit": return setZoom(w, 1);
         case "prev": { const { set } = upNext(w.r); const i = set.findIndex((x) => x.id === w.r.id); if (basePos(w) > 3 || i <= 0) return seek(w, 0); return go(set[i - 1].id, false); }
         case "next": { const { next } = upNext(w.r); if (next.length) go(next[0].id, false); return; }
       }
@@ -604,8 +611,28 @@
     });
     w.lastW = 0;
     w.ro.observe(w.paper);
+    zoomUI(w); fitStage(w);
+    w.ro2 = new ResizeObserver(() => fitStage(w));
+    w.ro2.observe(w.q(".w-bar")); w.ro2.observe(w.q(".w-controls"));
     w.onFs = () => { w.q('[data-w="full"]').setAttribute("aria-pressed", String(!!document.fullscreenElement)); };
     document.addEventListener("fullscreenchange", w.onFs);
+  }
+  function setZoom(w, z) {
+    z = Math.round(Math.max(0.5, Math.min(2.5, z)) * 10) / 10;
+    if (z === w.zoom) return;
+    w.zoom = z;
+    if (ctx.setZoom) ctx.setZoom(z === 1 ? "" : String(z));
+    zoomUI(w);
+    if (w.hasScore) relayout(w);
+  }
+  function zoomUI(w) {
+    w.q("#wZoom").textContent = Math.round(w.zoom * 100) + "%";
+    w.q('[data-w="zout"]').disabled = w.zoom <= 0.5; w.q('[data-w="zin"]').disabled = w.zoom >= 2.5;
+  }
+  // Stage height = viewport minus header bar and controls, so bar + stage + controls fit on screen.
+  function fitStage(w) {
+    const h = (w.q(".w-bar").offsetHeight || 0) + (w.q(".w-controls").offsetHeight || 0);
+    w.root.style.setProperty("--w-bars", h + "px");
   }
   function relayout(w) {
     layoutScore(w);
@@ -664,7 +691,7 @@
     cancelAnimationFrame(w.raf); clearTimeout(w.cardT);
     document.removeEventListener("keydown", w.keys); document.removeEventListener("keydown", w.trap);
     document.removeEventListener("fullscreenchange", w.onFs);
-    w.ro && w.ro.disconnect();
+    w.ro && w.ro.disconnect(); w.ro2 && w.ro2.disconnect();
     if (w.engine) { try { w.engine.pause(); w.engine.sampler && w.engine.sampler.dispose(); } catch { /* ok */ } }
     if (w.osmd) { try { w.osmd.clear(); } catch { /* ok */ } }
   }

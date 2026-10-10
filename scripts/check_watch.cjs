@@ -8,10 +8,13 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const http = require('node:http');
-const { chromium } = require('playwright');
+const { chromium, webkit, firefox } = require('playwright');
 const root = path.resolve(__dirname, '..');
 const SHOTS = process.env.SHOTS || '/workspace/music/library/.tmp/watch/shots';
 fs.mkdirSync(SHOTS, { recursive: true });
+const FIX_SHOTS = process.env.FIX_SHOTS || path.join(root, '.tmp/watch/shots_fix');
+fs.mkdirSync(FIX_SHOTS, { recursive: true });
+const VIEWPORTS = [[1280, 800], [1440, 900], [1920, 1080], [1366, 768], [390, 844], [820, 1180]];
 const IDS = { piano: 'chopin_op74_no_1_zyczenie', midiOnly: 'bach_bwv1007_prelude', orchestral: 'wagner_wwv70_tannhauser_overture', set: 'mahler_gmw10_gesellen1', setNext: 'mahler_gmw10_gesellen2' };
 const server = http.createServer((req, res) => {
   const name = decodeURIComponent(new URL(req.url, 'http://x').pathname).replace(/^\//, '') || 'index.html';
@@ -132,6 +135,63 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     assert.equal(new URL(page.url()).searchParams.get('watch'), IDS.setNext);
     ok('autoplayed next movement ' + IDS.setNext);
     await page.screenshot({ path: path.join(SHOTS, 'watch_set_next.png') });
+
+
+    /* (e) layout: page scrolls, no horizontal overflow, bar + stage + controls fit the viewport */
+    const engines = [['chromium', null]];
+    for (const [n, t] of [['webkit', webkit], ['firefox', firefox]]) {
+      try { const b = await t.launch(); engines.push([n, b]); } catch { console.log('  skip ' + n + ' (not installed)'); }
+    }
+    for (const [bn, eb] of engines) {
+      const br = eb || browser;
+      for (const [vw, vh] of VIEWPORTS) {
+        const tag = `${bn} ${vw}x${vh}`;
+        const c2 = await br.newContext({ viewport: { width: vw, height: vh } });
+        const p2 = await c2.newPage();
+        // library page scrolls
+        await p2.goto(base);
+        await p2.waitForSelector('#results > *', { timeout: 30000 }); await sleep(500);
+        const lib = await p2.evaluate(async () => { const h = document.documentElement.scrollHeight - innerHeight; window.scrollTo(0, 400); await new Promise((r) => setTimeout(r, 100)); return { h, y: scrollY }; });
+        assert(lib.h > 0 && lib.y > 0, tag + ' library page scrolls');
+        await p2.goto(base + '?watch=' + IDS.piano);
+        await p2.waitForFunction((i) => window.__watch && window.__watch.id === i && window.__watch.ready, IDS.piano, { timeout: 150000 });
+        await sleep(600);
+        const geo = await p2.evaluate(() => {
+          const r = (s) => document.querySelector(s).getBoundingClientRect();
+          const wide = [...document.querySelectorAll('#watch *')].filter((el) => { const b = el.getBoundingClientRect(); return b.width && b.height && getComputedStyle(el).visibility !== 'hidden' && !el.closest('.w-paper, .w-card, svg') && b.right > innerWidth + 1; }).map((el) => el.className || el.tagName);
+          return { sh: document.documentElement.scrollHeight, ch: document.documentElement.clientHeight, sw: document.documentElement.scrollWidth, iw: innerWidth, ih: innerHeight, stageB: r('#wStage').bottom, ctlB: r('.w-controls').bottom, paperW: r('#wPaper').width, osmdR: r('#wOsmd').right, osmdL: r('#wOsmd').left, wide };
+        });
+        assert(geo.sw <= geo.iw, `${tag} no horizontal scroll (${geo.sw} > ${geo.iw})`);
+        assert.deepEqual(geo.wide, [], `${tag} elements beyond viewport width`);
+        assert(geo.osmdR <= geo.iw && geo.osmdL >= 0, `${tag} score inside viewport (${geo.osmdL}..${geo.osmdR})`);
+        assert(geo.ctlB <= geo.ih + 0.5 && geo.stageB <= geo.ih, `${tag} stage+controls fit (${geo.ctlB} vs ${geo.ih})`);
+        assert(geo.sh > geo.ch, `${tag} watch page is scrollable (${geo.sh} > ${geo.ch})`);
+        await p2.screenshot({ path: path.join(FIX_SHOTS, `${bn}_${vw}x${vh}.png`) });
+        const sc = await p2.evaluate(async () => { window.scrollTo(0, 300); await new Promise((r) => setTimeout(r, 150)); return scrollY; });
+        assert(sc > 0, tag + ' watch page scrolls (scrollY ' + sc + ')');
+        if (vw === 390 || vw === 1280) {
+          const w0 = await p2.evaluate(() => document.querySelector('#wOsmd').getBoundingClientRect().width);
+          await p2.evaluate(() => scrollTo(0, 0));
+          await p2.click('[data-w="zin"]'); await p2.click('[data-w="zin"]'); await sleep(900);
+          assert.equal(new URL(p2.url()).searchParams.get('zoom'), '1.2');
+          const g2 = await p2.evaluate(() => ({ sw: document.documentElement.scrollWidth, iw: innerWidth, r: document.querySelector('#wOsmd').getBoundingClientRect().right }));
+          assert(g2.sw <= g2.iw && g2.r <= g2.iw, tag + ' zoomed score still fits width');
+          await p2.click('[data-w="zfit"]'); await sleep(500);
+          assert.equal(new URL(p2.url()).searchParams.get('zoom'), null);
+        }
+        ok(tag + ' layout');
+        await c2.close();
+      }
+      if (eb) await eb.close();
+    }
+    {
+      const c3 = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      const p3 = await c3.newPage();
+      await p3.goto(base + '?watch=' + IDS.piano + '&zoom=1.3');
+      await p3.waitForSelector('#wZoom');
+      assert.equal(await p3.textContent('#wZoom'), '130%'); ok('&zoom=1.3 honoured on load');
+      await c3.close();
+    }
 
     /* mobile */
     await page.setViewportSize({ width: 390, height: 780 });
