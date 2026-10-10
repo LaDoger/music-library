@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9760,
+ "count": 9762,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -302459,6 +302459,38 @@
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op68_12_knecht_ruprecht_orch_marigo.json"
   },
   {
+   "id": "schumann_op82_waldszenen_2",
+   "composer": "Robert Schumann",
+   "composer_slug": "robert-schumann",
+   "composer_sort": "Schumann, Robert",
+   "title": "Waldszenen - No. 2 Jäger auf der Lauer",
+   "catalog": "Op. 82",
+   "movement": "No. 2",
+   "genre": "classical",
+   "era": "Romantic",
+   "mood": [
+    "classical",
+    "romantic",
+    "lyrical"
+   ],
+   "energy": "moderate",
+   "licence_status": "clean",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 3,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op82_waldszenen_2.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op82_waldszenen_2.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op82_waldszenen_2.json"
+  },
+  {
    "id": "schumann_op2_papillons_1",
    "composer": "Robert Schumann",
    "composer_slug": "robert-schumann",
@@ -302777,6 +302809,38 @@
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op124_albumblaetter_5.mid",
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op124_albumblaetter_5.json"
+  },
+  {
+   "id": "schumann_op124_albumblaetter_6",
+   "composer": "Robert Schumann",
+   "composer_slug": "robert-schumann",
+   "composer_sort": "Schumann, Robert",
+   "title": "Albumblätter - No. 6",
+   "catalog": "Op. 124",
+   "movement": "No. 6",
+   "genre": "classical",
+   "era": "Romantic",
+   "mood": [
+    "classical",
+    "romantic",
+    "lyrical"
+   ],
+   "energy": "moderate",
+   "licence_status": "clean",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 3,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op124_albumblaetter_6.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op124_albumblaetter_6.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op124_albumblaetter_6.json"
   }
  ]
 }
