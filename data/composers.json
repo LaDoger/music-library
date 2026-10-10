@@ -17457,8 +17457,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 129,
-  "score_count": 129,
+  "piece_count": 132,
+  "score_count": 132,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17589,7 +17589,10 @@
    "schumann_op15no07_traumerei",
    "schumann_op69_klosterfraulein_op_69_3_robe",
    "schumann_op94_romances_op_94_schumann",
-   "schumann_op68_12_knecht_ruprecht_orch_marigo"
+   "schumann_op68_12_knecht_ruprecht_orch_marigo",
+   "schumann_op2_papillons_1",
+   "schumann_op2_papillons_2",
+   "schumann_op2_papillons_3"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
