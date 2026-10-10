@@ -140,8 +140,28 @@ SETS = [
  ("Scriabin 12 Études Op.8", "scriabin", [op(8)], "PD", numbered(12)),
  ("Ravel Valses nobles et sentimentales M.61", "ravel", [r"valses nobles"], "US-PD-only", numbered(8, label="Valse {i}")),
  ("Ravel Le Tombeau de Couperin M.68", "ravel", [r"tombeau"], "US-PD-only", mv([(t, [t]) for t in ["prelude", "fugue", "forlane", "rigaudon", "menuet", "toccata"]])),
- ("Rachmaninoff Preludes Op.23", "rachmaninoff", [op(23)], "US-PD-only", numbered(10)),
- ("Rachmaninoff Preludes Op.32", "rachmaninoff", [op(32)], "US-PD-only", numbered(13)),
+ ("Rachmaninoff Preludes Op.23", "rachmaninoff", [op(23)], "US-PD-only", numbered(10, {
+     1: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*f[ -]?sharp minor"], 2: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\bb minor"], 3: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\bd minor"], 4: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\bd major"],
+     5: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\bg minor"], 6: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\be minor"], 7: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*\bc minor"], 8: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*a[ -]?flat major"],
+     9: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*e[ -]?flat major"], 10: [r"(?=.*\bop(?:us)?\.? ?23(?![0-9]))prelude[^|]*g[ -]?flat major"]})),
+ ("Rachmaninoff Preludes Op.32", "rachmaninoff", [op(32)], "US-PD-only", numbered(13, {4: [r"(?=.*\bop(?:us)?\.? ?32(?![0-9]))prelude[^|]*\be minor"]})),
+ ("Rachmaninoff Moments musicaux Op.16", "rachmaninoff", [op(16), r"moment(s)? musica"], "US-PD-only", numbered(6, {
+     1: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*\bb[ -]?flat minor|moment[^|]*\bbb minor"], 2: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*e[ -]?flat minor|moment[^|]*\bes minor|moment[^|]*\beb minor"],
+     3: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*\bb minor"], 4: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*\be minor"], 5: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*d[ -]?flat major|moment[^|]*\bdb major"], 6: [r"(?=.*\bop(?:us)?\.? ?16(?![0-9]))moment[^|]*\bc major"]})),
+ ("Rachmaninoff Études-tableaux Op.33", "rachmaninoff", [op(33)], "US-PD-only", numbered(9, {i: [rf"(?=.*{op(33)})[^|]*\bno\.? ?0?{i}\b"] for i in range(1, 10)})),
+ ("Rachmaninoff Études-tableaux Op.39", "rachmaninoff", [op(39)], "US-PD-only", numbered(9, {i: [rf"(?=.*{op(39)})[^|]*\bno\.? ?0?{i}\b"] for i in range(1, 10)} | {1: [rf"(?=.*{op(39)})[^|]*c minor"]})),
+ ("Rachmaninoff Piano Concerto No. 2 Op.18", "rachmaninoff", [op(18)], "US-PD-only", [
+     ("I Moderato", 1, [rf"(?=.*{op(18)})[^|]*moderato"]), ("II Adagio sostenuto", 2, [rf"(?=.*{op(18)})[^|]*adagio sostenuto"]),
+     ("III Allegro scherzando", 3, [rf"(?=.*{op(18)})[^|]*allegro scherzando"])]),
+ ("Rachmaninoff Piano Concerto No. 3 Op.30", "rachmaninoff", [op(30)], "US-PD-only", [
+     ("I Allegro ma non tanto", 1, [rf"(?=.*{op(30)})[^|]*allegro ma non tanto|(?=.*{op(30)})[^|]*(1st|first) movement"]), ("II Intermezzo: Adagio", 2, [rf"(?=.*{op(30)})[^|]*intermezzo"]),
+     ("III Alla breve", 3, [rf"(?=.*{op(30)})[^|]*alla breve"])]),
+ ("Rachmaninoff Symphony No. 2 Op.27", "rachmaninoff", [op(27)], "US-PD-only", [
+     ("I Largo", 1, [rf"(?=.*{op(27)})[^|]*largo"]), ("II Allegro molto", 2, [rf"(?=.*{op(27)})[^|]*allegro molto"]),
+     ("III Adagio", 3, [rf"(?=.*{op(27)})[^|]*adagio"]), ("IV Allegro vivace", 4, [rf"(?=.*{op(27)})[^|]*allegro vivace"])]),
+ ("Rachmaninoff Cello Sonata Op.19", "rachmaninoff", [op(19), r"cello sonata"], "US-PD-only", [
+     ("I Lento - Allegro moderato", 1, [rf"(?=.*{op(19)})[^|]*lento"]), ("II Allegro scherzando", 2, [rf"(?=.*{op(19)})[^|]*scherzando"]),
+     ("III Andante - Allegro mosso", 3, [rf"(?=.*{op(19)})[^|]*andante"])]),
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
