@@ -484,6 +484,20 @@
     "de falla"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works published before 1931 only (Noches, El amor brujo, El sombrero de tres picos + suites, La vida breve, Siete canciones, Fantasia betica, El retablo, Harpsichord Concerto, Cuatro piezas, Psyche, 3 Melodies, Serenata). Post-1930 publications excluded. Checklist: scripts/bulk/catalogue_data.py FALLA."
+  },
+  {
+   "canon": "sergei prokofiev",
+   "name": "Sergei Prokofiev",
+   "birth": 1891,
+   "death": 1953,
+   "prefix": "prokofiev",
+   "aliases": [
+    "prokofiev",
+    "sergei prokofiev",
+    "sergey prokofiev",
+    "serguei prokofiev"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Toccata Op.11, Piano Sonatas 1-4, Sarcasms, Visions fugitives, Piano Concertos 1-3, Symphonies 1-2, Scythian Suite, Love for Three Oranges, Overture on Hebrew Themes, Quintet Op.39 ...). Post-1930 publications (Lieutenant Kije, Peter and the Wolf, Romeo and Juliet, Cinderella, Piano Sonatas 6-8, Symphonies 3-5 ...) excluded. Checklist: scripts/bulk/catalogue_data.py PROKOFIEV."
   }
  ]
 }

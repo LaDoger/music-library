@@ -28,7 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalogue_data import COMPOSERS, IN  # noqa: E402
-from dedup import allocate_id, existing_from_paths  # noqa: E402
+from dedup import allocate_id, canon_name, existing_from_paths  # noqa: E402
 from schema import CANDIDATE_COLUMNS, fold, mood_tags, slugify, tempo_energy, US_PD_ONLY_CANONS  # noqa: E402
 import download_slice  # noqa: E402
 
@@ -50,6 +50,8 @@ NAME_RX = {
     "rachmaninoff": r"rachmanin|rakhmanin|rachmanov",
     "bartok": r"bart[oó]k",
     "falla": r"\bfalla\b",
+    "granados": r"\benrique granados\b|\bgranados enrique\b",
+    "prokofiev": r"prokof",
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
 # "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.
@@ -150,7 +152,8 @@ class Checklist:
 # Checklist entries that stand for a set of separate pieces: keep each file's own title (movement) there.
 SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", "Op.16", "Op.23", "Op.27 / TrV 170",
         "Op.30", "Op.31", "Op.34 No.14", "Op.36", "Op.37", "Op.39", "Op.42", "Op.60", "Op.32 / H.125", "Op.24 / H.90",
-        "Siete canciones", "Cuatro piezas", "3 Melodies"}
+        "Siete canciones", "Cuatro piezas", "3 Melodies", "Goyescas", "Danzas", "Valses",
+        "Op.2", "Op.17", "Op.22", "Op.31", "Op.33 / Op.33bis", "Op.35"}
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"
@@ -177,17 +180,19 @@ def make_row(chk: Checklist, base: dict, cat, ctitle, year, title, source) -> di
     info = chk.info
     row = {c: "" for c in CANDIDATE_COLUMNS}
     row.update(base)
-    reason = SCOPE_REASON.format(death=info["death"], year=year)
+    # Fully PD composers (died <= 1929) are clean everywhere: no US-PD-only scope, no flag.
+    fully_pd = info["death"] <= 1929
+    reason = "" if fully_pd else SCOPE_REASON.format(death=info["death"], year=year)
     row.update({
         "composer": info["name"], "death_year": str(info["death"]), "title": title,
         "catalog": cat_label(cat),
         "mood_tags": mood_tags(title, "", info["genre"]), "tempo_energy": tempo_energy(title, ""),
         "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
         "video_use_ideas": "Underscore a short scene with the opening bars.",
-        "verified": "yes", "added_by": "bulk", "licence_class": "flagged",
+        "verified": "yes", "added_by": "bulk", "licence_class": "clean" if fully_pd else "flagged",
         "genre": info["genre"], "era": info["era"], "canon": info["canon"], "quality_penalty": "0",
-        "licence_scope": SCOPE, "publication_year": str(year), "licence_scope_reason": reason,
-        "legal_notes": reason + " " + base.get("legal_notes", ""),
+        "licence_scope": "" if fully_pd else SCOPE, "publication_year": str(year), "licence_scope_reason": reason,
+        "legal_notes": (reason + " " + base.get("legal_notes", "")).strip(),
     })
     return row
 
@@ -209,7 +214,8 @@ def harvest(chks: list[Checklist], per_entry_cap: int = 4, per_multi_cap: int = 
                 continue
             blob = f"{raw.get('title') or ''} {raw.get('song_name') or ''}"
             orch = chk.key == "ravel" and RAVEL_ORCH.search(comp) and re.search(r"pictures|tableaux", blob, re.I)
-            if not orch and ARRANGED.search(f"{ORIGINAL_EASY.sub('', blob)} {comp}"):
+            # PDMX tag "classicalguitar" marks a guitar transcription (e.g. Granados Danza 2 "oriental"): an arrangement.
+            if not orch and (ARRANGED.search(f"{ORIGINAL_EASY.sub('', blob)} {comp}") or "classicalguitar" in (raw.get("tags") or "")):
                 skipped["arranged"] += 1
                 continue
             hit = chk.match(norm(blob))
@@ -316,11 +322,18 @@ def main() -> int:
     keys = args.composer or list(COMPOSERS)
     chks = []
     for k in keys:
-        if COMPOSERS[k]["canon"] not in US_PD_ONLY_CANONS:
+        if COMPOSERS[k]["canon"] not in US_PD_ONLY_CANONS and COMPOSERS[k]["death"] > 1929:
             print(f"SKIP {k}: not in approved_us_pd_only")
             continue
         chks.append(Checklist(k))
     rows = harvest(chks)
+    # Skip rows already in the live library (same composer and title, catalogue labels differ by source).
+    live = set()
+    for name in ("library.csv", "library_bulk.csv"):
+        if (ROOT / name).is_file():
+            with (ROOT / name).open(newline="", encoding="utf-8") as handle:
+                live |= {(canon_name(r["composer"]), norm(r["title"])) for r in csv.DictReader(handle)}
+    rows = [r for r in rows if (canon_name(r["composer"]), norm(r["title"])) not in live]
     by = {}
     for r in rows:
         by.setdefault((r["composer"], r["catalog"]), []).append(r["source_name"])

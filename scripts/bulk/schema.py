@@ -44,7 +44,6 @@ CLASS_ORDER = ["clean", "attribution", "flagged", "sharealike", "unverified", "e
 # Named exclusions from the batch briefs. Death year also excludes life+70 failures.
 EXCLUDED_CANONS = {
     "igor stravinsky",
-    "sergei prokofiev",
     "dmitri shostakovich",
     "carl orff",
     "nikolai medtner",
@@ -119,7 +118,7 @@ _RAW = [
     ("george gershwin", "George Gershwin", 1937, "gershwin", 4, ["gershwin"]),
     ("scott joplin", "Scott Joplin", 1917, "joplin", 4, ["scott joplin", "joplin"]),
     ("igor stravinsky", "Igor Stravinsky", 1971, "stravinsky", 9, ["stravinsky"]),
-    ("sergei prokofiev", "Sergei Prokofiev", 1953, "prokofiev", 9, ["prokofiev"]),
+    ("sergei prokofiev", "Sergei Prokofiev", 1953, "prokofiev", 4, ["prokofiev"]),
     ("dmitri shostakovich", "Dmitri Shostakovich", 1975, "shostakovich", 9, ["shostakovich"]),
     ("carl orff", "Carl Orff", 1982, "orff", 9, ["carl orff"]),
     ("nikolai medtner", "Nikolai Medtner", 1951, "medtner", 9, ["medtner"]),

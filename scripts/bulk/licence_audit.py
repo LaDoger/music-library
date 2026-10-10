@@ -40,7 +40,7 @@ for r in csv.DictReader((ROOT / "library_bulk.csv").open(newline="", encoding="u
                 hit = c.match(norm(f"{r['title']} {r.get('movement','')} {r.get('catalog','')}"))
                 if hit and hit[3] != "in-scope":
                     bad.append((rid, f"matches excluded/unverified checklist row {hit[0]} {hit[1]} ({hit[3]})"))
-    if canon in {"igor stravinsky", "sergei prokofiev", "dmitri shostakovich", "carl orff"}:
+    if canon in {"igor stravinsky", "dmitri shostakovich", "carl orff"}:
         bad.append((rid, "excluded composer"))
     if canon == "maurice ravel" and re.search(r"\bbol[eé]ro\b", r["title"], re.I):
         bad.append((rid, "Boléro present"))

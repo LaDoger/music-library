@@ -8439,8 +8439,8 @@
    "classical"
   ],
   "featured_rank": 4,
-  "piece_count": 6,
-  "score_count": 6,
+  "piece_count": 8,
+  "score_count": 8,
   "recording_count": 0,
   "piece_ids": [
    "granados_composition_1",
@@ -8448,7 +8448,9 @@
    "granados_granados_enrique_spanish_dan",
    "granados_heart_and_soul_remix",
    "granados_himno_atletico_de_madrid",
-   "granados_s5_8_poetic_waltzes_5"
+   "granados_s5_8_poetic_waltzes_5",
+   "granados_valses_8_poetic_waltzes_coda",
+   "granados_valses_8_poetic_waltzes_7"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -15710,6 +15712,32 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "sergei-prokofiev",
+  "name": "Sergei Prokofiev",
+  "short_name": "Prokofiev",
+  "sort_name": "Prokofiev, Sergei",
+  "birth_year": null,
+  "death_year": 1953,
+  "era": "20th century",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 3,
+  "score_count": 3,
+  "recording_count": 0,
+  "piece_ids": [
+   "prokofiev_op_22_ridicolosamente",
+   "prokofiev_op_33_march_from_the_love_of_three_oranges",
+   "prokofiev_op_25_gavotta"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "giacomo-puccini",
   "name": "Giacomo Puccini",
   "short_name": "Puccini",
@@ -17510,8 +17538,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 170,
-  "score_count": 170,
+  "piece_count": 180,
+  "score_count": 180,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17683,7 +17711,17 @@
    "schumann_op6_davidsbuendlertaenze_4",
    "schumann_op99_bunte_blaetter_3",
    "schumann_op99_bunte_blaetter_4",
-   "schumann_op9_carnaval_13"
+   "schumann_op9_carnaval_13",
+   "schumann_op82_waldszenen_1",
+   "schumann_op82_waldszenen_3",
+   "schumann_op82_waldszenen_4",
+   "schumann_op82_waldszenen_5",
+   "schumann_op82_waldszenen_6",
+   "schumann_op82_waldszenen_7",
+   "schumann_op2_papillons_11",
+   "schumann_op6_davidsbuendlertaenze_5",
+   "schumann_op99_bunte_blaetter_6",
+   "schumann_op99_bunte_blaetter_7"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
