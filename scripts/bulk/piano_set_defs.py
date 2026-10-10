@@ -217,6 +217,15 @@ SETS = [
      ("4 Quia fecit", r"quia fecit"), ("5 Et misericordia", r"et misericordia"), ("6 Fecit potentiam", r"fecit potentiam"),
      ("7 Deposuit", r"deposuit"), ("8 Esurientes", r"esurientes"), ("9 Suscepit Israel", r"suscepit israel"),
      ("10 Sicut locutus est", r"sicut locutus"), ("11 Gloria Patri", r"gloria patri"), ("12 Sicut erat", r"sicut erat")]]),
+# ---- Mussorgsky (Pictures at an Exhibition, 1874: ten numbered pictures; Promenades are interludes and not counted)
+ ("Mussorgsky Pictures at an Exhibition (1874)", "mussorgsky", [r"pictures at an exhibition|tableaux d.une exposition|bilder einer ausstellung|exposition"], "PD", mv([
+     ("1 Gnomus", [r"gnomus|gnome"]), ("2 Il vecchio castello", [r"vecchio castello|old castle|alte schloss|castello"]),
+     ("3 Tuileries", [r"tuileries|tuilerie"]), ("4 Bydło", [r"bydlo|bydło|ox.?cart|oxcart"]),
+     ("5 Ballet of the Unhatched Chicks", [r"ballet des poussins|unhatched|ballet of the chicks|chicks"]),
+     ("6 Samuel Goldenberg und Schmuÿle", [r"goldenberg|schmuyle|schmuy|two jews|goldberg"]),
+     ("7 Limoges", [r"limoges"]), ("8 Catacombae", [r"catacomb|sepulcrum|con mortuis|cum mortuis|lingua mortua"]),
+     ("9 Baba Yaga (La cabane sur des pattes de poule)", [r"baba.?yaga|cabane|hut on fowl|fowl.?s legs|pattes de poule|baba(?![a-z])"]),
+     ("10 The Great Gate of Kiev", [r"great gate|grande porte|kiev|kyiv"])])),
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
