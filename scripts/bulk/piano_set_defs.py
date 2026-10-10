@@ -192,6 +192,10 @@ SETS = [
  ("Rimsky-Korsakov Capriccio espagnol Op.34", "rimsky", [op(34)], "PD", mv([
      ("I Alborada", [r"alborada"]), ("II Variazioni", [r"variazioni|variations"]), ("III", []),
      ("IV Scena e canto gitano", [r"scena e canto|canto gitano|gitano"]), ("V Fandango asturiano", [r"fandango"])])),
+ # ---- Richard Strauss (US-PD-only: works published <= 1930; composer match is "richard strauss", not Johann)
+ ("Richard Strauss 4 Lieder Op.27", "richard strauss", [op(27)], "US-PD-only", numbered(4, {1: [r"ruhe,? meine seele"], 2: [r"cacilie"], 3: [r"heimliche aufforderung"], 4: [r"morgen"]})),
+ ("Richard Strauss Acht Gedichte Op.10", "richard strauss", [op(10)], "US-PD-only", mv([("1 Zueignung", [r"zueignung"]), ("2 Nichts", [r"\bnichts\b"]), ("3 Die Nacht", [r"die nacht"]),
+     ("4 Die Georgine", [r"georgine"]), ("5 Geduld", [r"\bgeduld\b"]), ("6 Die Verschwiegenen", [r"verschwiegen"]), ("7 Die Zeitlose", [r"zeitlose"]), ("8 Allerseelen", [r"allerseelen"])])),
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
