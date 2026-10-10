@@ -37,39 +37,39 @@
   },
   {
    "file": "part-002.json",
-   "count": 824
+   "count": 805
   },
   {
    "file": "part-003.json",
-   "count": 885
+   "count": 787
   },
   {
    "file": "part-004.json",
-   "count": 923
+   "count": 830
   },
   {
    "file": "part-005.json",
-   "count": 852
+   "count": 843
   },
   {
    "file": "part-006.json",
-   "count": 842
+   "count": 868
   },
   {
    "file": "part-007.json",
-   "count": 908
+   "count": 888
   },
   {
    "file": "part-008.json",
-   "count": 885
+   "count": 878
   },
   {
    "file": "part-009.json",
-   "count": 948
+   "count": 955
   },
   {
    "file": "part-010.json",
-   "count": 578
+   "count": 791
   }
  ],
  "item_json": "data/items/{id}.json"
