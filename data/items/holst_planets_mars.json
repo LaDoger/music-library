@@ -29,6 +29,7 @@
  "composer_short": "Holst",
  "composer_sort": "Holst, Gustav",
  "birth_year": 1874,
+ "featured_rank": 1,
  "release_audio_name": "holst_planets_mars.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/holst_planets_mars.ogg",
  "release_audio_bytes": 1101750,

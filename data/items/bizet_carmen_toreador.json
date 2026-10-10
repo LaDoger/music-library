@@ -29,6 +29,7 @@
  "composer_short": "Bizet",
  "composer_sort": "Bizet, Georges",
  "birth_year": 1838,
+ "featured_rank": 4,
  "release_audio_name": "bizet_carmen_toreador.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/bizet_carmen_toreador.ogg",
  "release_audio_bytes": 3761681,

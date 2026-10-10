@@ -29,6 +29,7 @@
  "composer_short": "Strauss II",
  "composer_sort": "Strauss II, Johann",
  "birth_year": 1825,
+ "featured_rank": 4,
  "release_audio_name": "strauss2_blue_danube.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/strauss2_blue_danube.flac",
  "release_audio_bytes": 88641631,

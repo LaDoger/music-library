@@ -29,6 +29,7 @@
  "composer_short": "Satie",
  "composer_sort": "Satie, Erik",
  "birth_year": 1866,
+ "featured_rank": 1,
  "release_audio_name": "satie_gymnopedie_1.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/satie_gymnopedie_1.ogg",
  "release_audio_bytes": 6502597,

@@ -29,6 +29,7 @@
  "composer_short": "Wagner",
  "composer_sort": "Wagner, Richard",
  "birth_year": 1813,
+ "featured_rank": 1,
  "release_audio_name": "wagner_tristan_prelude.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/wagner_tristan_prelude.ogg",
  "release_audio_bytes": 14524966,

@@ -37,6 +37,7 @@
  "composer_short": "Macklin",
  "composer_sort": "Macklin, Cecil",
  "birth_year": "",
+ "featured_rank": 0,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -112,5 +113,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Cecil Macklin: Très Moutarde (Too Much Mustard) (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
+ "credit_text": "Cecil Macklin: Très Moutarde (Too Much Mustard) (composition: US public domain only; published 1911, composer d.1944; may be protected outside the US).\nScore edition: https://zenodo.org/records/15571083. Licence: PD."
 }

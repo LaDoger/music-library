@@ -1,0 +1,21 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.32 / H.125,The Planets,1921,in-scope,yes,4,holst_planets_jupiter holst_planets_mars holst_op_32_jupiter_bringer_of_jollity holst_op_32_mars,"curated,pdmx",Goodwin & Tabb 1921; Jupiter hymn tune 'Thaxted' from this
+Op.29 No.2 / H.118,St Paul's Suite,1922,in-scope,yes,1,holst_op_29_no_2_st_paul_s_suite,pdmx,
+Op.28 No.1 / H.105,First Suite in E♭ for military band,1921,in-scope,yes,1,holst_op_28_no_1_first_suite_in_e_for_military_band,pdmx,
+Op.28 No.2 / H.106,Second Suite in F for military band,1922,in-scope,yes,1,holst_op_28_no_2_second_suite_in_f_for_military_bandb2,pdmx,
+Op.29 No.1 / H.107,Beni Mora,1921,in-scope,,0,,,
+Op.37 / H.140,The Hymn of Jesus,1920,in-scope,,0,,,
+Op.47 / H.172,Egdon Heath,1928,in-scope,,0,,,
+Op.40 No.2 / H.152,Fugal Concerto,1923,in-scope,,0,,,
+Op.40 No.1 / H.151,A Fugal Overture,1922,in-scope,,0,,,
+Op.33 / H.126,A Japanese Suite,1922,in-scope,,0,,,
+Op.52 / H.178,Hammersmith,1930,unverified-pub,n/a,0,,,"Published 1930/31, not confirmed"
+Op.21 No.2 / H.87,A Somerset Rhapsody,1910,in-scope,,0,,,
+no Op.,In the Bleak Midwinter (Cranham),1906,in-scope,yes,2,holst_no_op_cranham_hymntune holst_no_op_in_the_bleak_midwinter_cranhamb3,"mutopia,pdmx",English Hymnal 1906
+H.148,"I Vow to Thee, My Country (Thaxted)",1921,in-scope,yes,1,holst_h_148_thaxted,mutopia,Tune 1921; hymn 1925
+Op.25 / H.96,Savitri,1923,in-scope,,0,,,
+Op.38 / H.144,Ode to Death,1922,in-scope,,0,,,
+Op.24 / H.90,Hymns from the Rig Veda (Hymn to Indra),1911,in-scope,yes,1,holst_op_24_hymn_to_indra_gustav_holst,pdmx,
+Op.39 / H.150,The Perfect Fool,1923,in-scope,,0,,,
+no Op.,Personent hodie (arr.),1928,unverified-pub,n/a,0,,,Arrangement of 16th-c. tune (Piae Cantiones)
+H.190,Brook Green Suite,1934,excluded-post1930,n/a,0,,,Published 1934

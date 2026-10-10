@@ -29,6 +29,7 @@
  "composer_short": "Saint-Saëns",
  "composer_sort": "Saint-Saëns, Camille",
  "birth_year": 1835,
+ "featured_rank": 2,
  "release_audio_name": "saintsaens_danse_macabre.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/saintsaens_danse_macabre.ogg",
  "release_audio_bytes": 3712742,

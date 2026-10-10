@@ -60,6 +60,9 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.locator('.composer-card').count(), composers.length);
     assert.equal(await page.locator('.card').count(), 0);
     assert.equal(await page.locator('#composerHero').isHidden(), true);
+    const featNames = [...new Set(rows.filter(r => r.featured_rank >= 1 && r.featured_rank <= 2).map(r => r.composer))];
+    assert.equal(await page.locator('#featuredStrip .fchip').count(), featNames.length, 'featured composer chips');
+    assert.equal(await page.locator('#featuredStrip').isVisible(), true);
     assert.equal(await page.locator('.pick').count(), 15);
     assert.match(await page.locator('#picksTitle').textContent(), /Editor.s picks for video/);
     const sortNames = await page.locator('.composer-card .cc-name').allInnerTexts();
@@ -77,10 +80,10 @@ const server = http.createServer((req, res) => {
     await load('?composer=Johann%20Sebastian%20Bach&score=1'); await count(bach.filter(r => r.has_editable_score).length);
     await page.locator('#composerHero .back').click(); await page.waitForSelector('.composer-card');
     assert.equal(new URL(page.url()).searchParams.has('composer'), false);
-    // Works view: default sort is composer, then catalogue, then title.
+    // Works view: default sort is featured composers first (rank 1-4, depth run 1), then composer, catalogue, title.
     await load();
     const firstIds = await page.locator('.card').evaluateAll(cards => cards.map(c => c.dataset.id));
-    const expectedFirst = [...rows].sort((a, b) => coll.compare(a.composer_sort, b.composer_sort) || (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title)).slice(0, 48).map(r => r.id);
+    const expectedFirst = [...rows].sort((a, b) => ((a.featured_rank || 9) - (b.featured_rank || 9)) || coll.compare(a.composer_sort, b.composer_sort) || (!a.catalog - !b.catalog) || coll.compare(a.catalog || '', b.catalog || '') || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title)).slice(0, 48).map(r => r.id);
     assert.deepEqual(firstIds, expectedFirst, 'default works sort');
     assert.equal(await page.locator('.card .c-composer').count(), 48, 'composer name on every card');
     async function count(n) {
@@ -109,6 +112,14 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.locator('#q').inputValue(), '');
     await page.locator('#f_score').check(); await count(rows.filter(r => r.has_editable_score).length);
     await page.locator('#clearAll').click();
+    // Featured composers (featured_rank 1-2): filter checkbox + URL param.
+    const isFeat = r => r.featured_rank >= 1 && r.featured_rank <= 2;
+    assert(rows.some(isFeat), 'featured_rank present in data');
+    await page.locator('#f_featured').check(); await count(rows.filter(isFeat).length);
+    assert.equal(new URL(page.url()).searchParams.get('featured'), '1');
+    await page.reload(); await count(rows.filter(isFeat).length);
+    await page.locator('#clearAll').click(); await count(rows.length);
+    assert.equal(await page.locator('#f_featured').isChecked(), false);
     await page.setViewportSize({ width: 1280, height: 900 });
     const filters = {
       genre: ['classical', r => r.genre === 'classical'],

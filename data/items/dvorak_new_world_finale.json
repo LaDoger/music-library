@@ -29,6 +29,7 @@
  "composer_short": "Dvořák",
  "composer_sort": "Dvořák, Antonín",
  "birth_year": 1841,
+ "featured_rank": 2,
  "release_audio_name": "dvorak_new_world_finale.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/dvorak_new_world_finale.ogg",
  "release_audio_bytes": 15295639,

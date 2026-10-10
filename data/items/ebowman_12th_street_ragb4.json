@@ -37,6 +37,7 @@
  "composer_short": "Bowman",
  "composer_sort": "Bowman, Euday L.",
  "birth_year": "",
+ "featured_rank": 0,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -112,5 +113,5 @@
   "zip_member": ""
  },
  "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
- "credit_text": "Euday L. Bowman: 12th Street Rag (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Euday L. Bowman: 12th Street Rag (composition: US public domain only; published 1914, composer d.1949; may be protected outside the US).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

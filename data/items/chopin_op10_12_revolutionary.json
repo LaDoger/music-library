@@ -29,6 +29,7 @@
  "composer_short": "Chopin",
  "composer_sort": "Chopin, Frédéric",
  "birth_year": 1810,
+ "featured_rank": 3,
  "release_audio_name": "chopin_op10_12_revolutionary.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/chopin_op10_12_revolutionary.flac",
  "release_audio_bytes": 10526372,

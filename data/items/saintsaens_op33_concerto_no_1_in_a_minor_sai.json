@@ -34,6 +34,7 @@
  "composer_short": "Saint-Saëns",
  "composer_sort": "Saint-Saëns, Camille",
  "birth_year": 1835,
+ "featured_rank": 2,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -63,6 +64,13 @@
  "other_editions": [
   {
    "id": "saintsaens_op33_concerto_no_1_in_a_minor_saib2",
+   "source": "pdmx",
+   "title": "Concerto No. 1 in a minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "saintsaens_concerto_no_1_in_a_minor_saint_saens",
    "source": "pdmx",
    "title": "Concerto No. 1 in a minor",
    "url": "https://zenodo.org/records/15571083",

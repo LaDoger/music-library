@@ -1,0 +1,102 @@
+{
+ "id": "rachmaninoff_op_23_prelude_in_g_minor",
+ "composer": "Sergei Rachmaninoff",
+ "death_year": "1943",
+ "title": "Prelude in G Minor",
+ "catalog": "Op. 23",
+ "movement": "",
+ "mood_tags": "intimate",
+ "tempo_energy": "moderate / opening",
+ "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "video_use_ideas": "Underscore a short scene with the opening bars.",
+ "editable_source_url": "https://zenodo.org/records/15571083",
+ "editable_format": "MIDI; MusicXML (inside PDMX archives)",
+ "editable_license": "CC0",
+ "musescore_url": "",
+ "recording_source_url": "",
+ "recording_performer": "",
+ "recording_license": "",
+ "recording_quality": "",
+ "legal_notes": "US public domain only (composer died 1943; work published 1903, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/15/32/QmXMh8e34QiNRXGmpYWXcmhu2hFd7zczGRJaUB4c7tGr6s.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
+ "local_score_path": "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+ "local_audio_path": "",
+ "preview_path": "",
+ "verified": "yes",
+ "added_by": "bulk",
+ "source_rank": "9",
+ "source_name": "pdmx",
+ "licence_class": "flagged",
+ "instrumentation": "25 tracks",
+ "popularity": "rating=4.79;ratings=7;favorites=5;views=118",
+ "genre": "classical",
+ "era": "Late Romantic",
+ "licence_scope": "US-PD-only",
+ "publication_year": "1903",
+ "licence_scope_reason": "US public domain only (composer died 1943; work published 1903, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
+ "composer_slug": "sergei-rachmaninoff",
+ "composer_short": "Rachmaninoff",
+ "composer_sort": "Rachmaninoff, Sergei",
+ "birth_year": 1873,
+ "featured_rank": 1,
+ "release_audio_name": "",
+ "release_audio_url": "",
+ "release_audio_bytes": 0,
+ "preview_url": "",
+ "score_url": "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+ "score_files": [
+  "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid"
+ ],
+ "mood_tags_list": [
+  "intimate"
+ ],
+ "has_editable_score": true,
+ "has_recording": false,
+ "recording_status": "",
+ "score_status": "clean",
+ "licence_status": "flagged",
+ "legal_flags": [
+  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1943, published 1903",
+  "US public domain only"
+ ],
+ "energy": "moderate",
+ "editors_pick": false,
+ "editors_pick_rank": 0,
+ "editors_pick_why": "",
+ "stream_audio_url": "",
+ "stream_audio_mime": "",
+ "duration_s": 0,
+ "midi_play_url": "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+ "other_editions": [
+  {
+   "id": "rachmaninoff_op_23_rachmaninoff_prelude_op_23_no_4_in_d_major",
+   "source": "pdmx",
+   "title": "Prelude op. 23 no. 4 in D major (with fingering pedals and tips)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rachmaninoff_op_23_prelude_s_rachmaninoff_op_23_no_6",
+   "source": "pdmx",
+   "title": "Prelude Op. 23 No. 6",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "schema_version": 3,
+ "pages_base": "https://ladoger.github.io/music-library/",
+ "page_url": "https://ladoger.github.io/music-library/?id=rachmaninoff_op_23_prelude_in_g_minor",
+ "item_json_url": "https://ladoger.github.io/music-library/data/items/rachmaninoff_op_23_prelude_in_g_minor.json",
+ "preview_url_abs": "",
+ "score_url_abs": "https://ladoger.github.io/music-library/files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+ "score_files_abs": [
+  "https://ladoger.github.io/music-library/files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid"
+ ],
+ "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+ "render_midi": {
+  "file": "files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+  "url": "https://ladoger.github.io/music-library/files/scores/rachmaninoff_op_23_prelude_in_g_minor.mid",
+  "zip_member": ""
+ },
+ "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
+ "credit_text": "Sergei Rachmaninoff: Prelude in G Minor, Op. 23 (composition: US public domain only; published 1903, composer d.1943; may be protected outside the US).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+}

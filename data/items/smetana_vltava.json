@@ -29,6 +29,7 @@
  "composer_short": "Smetana",
  "composer_sort": "Smetana, Bedřich",
  "birth_year": 1824,
+ "featured_rank": 4,
  "release_audio_name": "smetana_vltava.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/smetana_vltava.flac",
  "release_audio_bytes": 143713118,

@@ -34,6 +34,7 @@
  "composer_short": "Scriabin",
  "composer_sort": "Scriabin, Alexander",
  "birth_year": 1872,
+ "featured_rank": 1,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -67,6 +68,13 @@
    "title": "Étude in C-sharp minor Op.42 No.5",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_42_no_5_etude_op_42_no_5",
+   "source": "commons",
+   "title": "Étude Op. 42 No. 5",
+   "url": "https://commons.wikimedia.org/wiki/File:Stigliani.-.scriabin.42.05.mid",
+   "licence": "PD"
   }
  ],
  "schema_version": 3,

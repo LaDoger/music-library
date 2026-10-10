@@ -29,6 +29,7 @@
  "composer_short": "Rachmaninoff",
  "composer_sort": "Rachmaninoff, Sergei",
  "birth_year": 1873,
+ "featured_rank": 1,
  "release_audio_name": "rachmaninoff_piano_concerto_2.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/rachmaninoff_piano_concerto_2.ogg",
  "release_audio_bytes": 11066516,
@@ -57,7 +58,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 654.41,
  "midi_play_url": "",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "rachmaninoff_op_18_piano_concerto_no_2_in_c_minor",
+   "source": "pdmx",
+   "title": "Piano Concerto No. 2 in C minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rachmaninoff_op_18_piano_concerto_no_2_in_c_minorb2",
+   "source": "pdmx",
+   "title": "Piano Concerto No. 2 in C minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rachmaninoff_piano_concerto_2",

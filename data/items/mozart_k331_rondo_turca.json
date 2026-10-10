@@ -29,6 +29,7 @@
  "composer_short": "Mozart",
  "composer_sort": "Mozart, Wolfgang Amadeus",
  "birth_year": 1756,
+ "featured_rank": 3,
  "release_audio_name": "mozart_k331_rondo_turca.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mozart_k331_rondo_turca.ogg",
  "release_audio_bytes": 1315215,

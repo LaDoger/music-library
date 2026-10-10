@@ -1,0 +1,40 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.4 / TrV 132,Suite in B♭ for 13 winds,1885,in-scope,,0,,,
+Op.7 / TrV 106,Serenade in E♭ for 13 winds,1882,in-scope,,0,,,
+Op.8 / TrV 110,Violin Concerto in D minor,1882,in-scope,,0,,,
+Op.11 / TrV 117,Horn Concerto No. 1 in E♭,1883,in-scope,yes,1,rstrauss_op_11_horn_concerto_no_1_in_e,pdmx,Aibl 1883
+Op.10 / TrV 141,Acht Gedichte: Zueignung / Die Nacht / Allerseelen,1885,in-scope,,0,,,"Op.10 Nos. 1, 3, 8"
+Op.12 / TrV 126,Symphony No. 2 in F minor,1887,in-scope,,0,,,
+Op.16 / TrV 147,Aus Italien,1887,in-scope,,0,,,
+Op.18 / TrV 151,Violin Sonata in E♭,1888,in-scope,,0,,,Includes the Improvisation movement
+TrV 145,Burleske in D minor,1894,in-scope,,0,,,Pub. 1894 (Jos. Aibl); Wikipedia dates composition 1886
+Op.20 / TrV 156,Don Juan,1890,in-scope,,0,,,Leuckart 1890
+Op.23 / TrV 163,Macbeth,1891,in-scope,yes,1,rstrauss_op_23_macbeth,pdmx,
+Op.24 / TrV 158,Tod und Verklärung,1891,in-scope,yes,1,rstrauss_op_24_tod_und_verklarung,pdmx,Aibl 1891
+Op.27 / TrV 170,Vier Lieder: Ruhe meine Seele! / Cäcilie / Heimliche Aufforderung / Morgen!,1894,in-scope,yes,4,rstrauss_op_27_4_lieder_op_27_cacilie rstrauss_op_27_4_lieder_op_27_heimliche_aufforderung rstrauss_op_27_4_lieder_op_27_morgen rstrauss_op_27_4_lieder_op_27_ruhe_meine_seele,openscore-lieder,Joh. André 1894
+Op.28 / TrV 171,Till Eulenspiegels lustige Streiche,1895,in-scope,,0,,,Aibl 1895
+Op.30 / TrV 176,Also sprach Zarathustra,1896,in-scope,yes,1,rstrauss_zarathustra_sunrise,curated,Aibl 1896
+Op.35 / TrV 184,Don Quixote,1898,in-scope,,0,,,Leuckart 1898
+Op.40 / TrV 190,Ein Heldenleben,1899,in-scope,,0,,,Leuckart 1899
+Op.41 / TrV 195,Fünf Lieder: Wiegenlied,1899,in-scope,,0,,,Op.41 No.1 (1899)
+Op.49 / TrV 204,Acht Lieder: Waldseligkeit,1901,in-scope,,0,,,
+Op.53 / TrV 209,Symphonia domestica,1904,in-scope,,0,,,Fürstner 1904
+Op.54 / TrV 215,Salome,1905,in-scope,,0,,,Fürstner 1905 (incl. Dance of the Seven Veils)
+Op.58 / TrV 223,Elektra,1908,in-scope,,0,,,Fürstner 1908
+Op.59 / TrV 227,Der Rosenkavalier,1911,in-scope,yes,1,rstrauss_op_59_der_rosenkavalier,pdmx,Fürstner 1910-11; Waltz Sequences later
+Op.60 / TrV 228,Ariadne auf Naxos / Le Bourgeois gentilhomme,1912,in-scope,,0,,,Fürstner 1912; Bourgeois gentilhomme suite 1920
+Op.63 / TrV 231,Josephs Legende,1914,in-scope,,0,,,
+Op.64 / TrV 233,Eine Alpensinfonie,1915,in-scope,,0,,,Leuckart 1915
+Op.65 / TrV 234,Die Frau ohne Schatten,1919,in-scope,yes,1,rstrauss_op_65_die_frau_ohne_schatten,pdmx,Fürstner 1919
+Op.72 / TrV 246,Intermezzo,1924,in-scope,,0,,,Fürstner 1924
+Op.75 / TrV 255,Die ägyptische Helena,1928,in-scope,,0,,,Fürstner 1928
+Op.6 / TrV 115,Cello Sonata in F,1883,in-scope,,0,,,
+Op.13 / TrV 137,Piano Quartet in C minor,1885,in-scope,,0,,,
+Op.79 / TrV 263,Arabella,1933,excluded-post1930,n/a,0,,,Published 1933
+Op.81 / TrV 271,Friedenstag,1938,excluded-post1930,n/a,0,,,
+TrV 290,Metamorphosen,1946,excluded-post1930,n/a,0,,,Composed 1945
+TrV 292,Oboe Concerto,1948,excluded-post1930,n/a,0,,,Composed 1945
+TrV 283,Horn Concerto No. 2,1942,excluded-post1930,n/a,0,,,Composed 1942
+TrV 297,Vier letzte Lieder,1950,excluded-post1930,n/a,0,,,Published 1950
+Op.85 / TrV 279,Capriccio,1942,excluded-post1930,n/a,0,,,
+Op.82 / TrV 272,Daphne,1938,excluded-post1930,n/a,0,,,

@@ -34,6 +34,7 @@
  "composer_short": "Scriabin",
  "composer_sort": "Scriabin, Alexander",
  "birth_year": 1872,
+ "featured_rank": 1,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -67,6 +68,13 @@
    "title": "Étude in D-sharp minor Op.8 No.12",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_8_no_12_etude_op_8_no_12",
+   "source": "commons",
+   "title": "Étude Op. 8 No. 12",
+   "url": "https://commons.wikimedia.org/wiki/File:Stigliani.-.scriabin.08.12.mid",
+   "licence": "PD"
   }
  ],
  "schema_version": 3,

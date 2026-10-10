@@ -29,6 +29,7 @@
  "composer_short": "Offenbach",
  "composer_sort": "Offenbach, Jacques",
  "birth_year": 1819,
+ "featured_rank": 4,
  "release_audio_name": "offenbach_orpheus_cancan.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/offenbach_orpheus_cancan.ogg",
  "release_audio_bytes": 1484326,

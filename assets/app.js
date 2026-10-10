@@ -28,7 +28,7 @@
   const ENERGY = [["very_high", "Very high"], ["high", "High"], ["moderate", "Moderate"], ["low", "Low"]];
   const ENERGY_LABEL = Object.fromEntries(ENERGY);
   const ENERGY_RANK = { very_high: 4, high: 3, moderate: 2, low: 1 };
-  const SORTS = ["composer", "catalog", "title", "relevance", "year", "energy", "score"];
+  const SORTS = ["featured", "composer", "catalog", "title", "relevance", "year", "energy", "score"];
   const MODES = {
     preview: { label: "Preview", short: "15 s", badge: "Preview · 15 s" },
     full: { label: "Full recording", short: "Full", badge: "Recording" },
@@ -37,7 +37,7 @@
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "scope", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "picks", "sort", "view", "layout", "page", "id"];
+  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -79,6 +79,7 @@
         composer_sort: r.composer_sort || c.sort_name || r.composer,
         composer_short: r.composer_short || c.short_name || shortName(r.composer),
         genre: r.genre || "other",
+        featured_rank: +r.featured_rank || 0,
         mood_tags_list: r.mood_tags_list || String(r.mood_tags || "").split(";").map((s) => s.trim()).filter(Boolean),
       });
     });
@@ -107,7 +108,7 @@
     if (state.view === "list" || state.view === "grid") { state.layout = state.layout || state.view; state.view = "works"; }
     if (!["composers", "works"].includes(state.view)) state.view = "";
     state.layout = state.layout === "list" ? "list" : "grid";
-    for (const k of ["score", "picks"]) state[k] = state[k] === "1" ? "1" : "";
+    for (const k of ["score", "featured", "picks"]) state[k] = state[k] === "1" ? "1" : "";
     const allowed = {
       genre: GENRES.map(([v]) => v), energy: ENERGY.map(([v]) => v), licence: LICENCE_ORDER,
       rec: ["0", "1"], verified: ["yes", "unverified"], sort: SORTS,
@@ -136,7 +137,7 @@
     return "composers";
   }
   function activeFilterCount() {
-    return FACETS.filter((k) => k !== "composer" && state[k]).length + (state.score ? 1 : 0) + (state.q ? 1 : 0) + (state.picks ? 1 : 0);
+    return FACETS.filter((k) => k !== "composer" && state[k]).length + (state.score ? 1 : 0) + (state.featured ? 1 : 0) + (state.q ? 1 : 0) + (state.picks ? 1 : 0);
   }
 
   /* ---------- filtering ---------- */
@@ -154,6 +155,7 @@
   }
   function matches(r, toks, except) {
     if (state.score && !r.has_editable_score) return false;
+    if (state.featured && !(r.featured_rank >= 1 && r.featured_rank <= 2)) return false;
     if (state.picks && !r.editors_pick_rank) return false;
     for (const k of FACETS) {
       if (k === except || !state[k]) continue;
@@ -181,10 +183,13 @@
   // Same catalogue number: the curated row (it has a preview) before bulk imports.
   const byCatalog = (a, b) => (!a.catalog - !b.catalog) || coll.compare(a.catalog || "", b.catalog || "") || (!a.preview_url - !b.preview_url) || coll.compare(a.title, b.title);
   const byComposer = (a, b) => coll.compare(a.composer_sort, b.composer_sort) || byCatalog(a, b);
+  // Featured composers first (rank 1 top cinematic group, 2 next tier, 3 tier A/B, 4 other majors), then A–Z.
+  const rankOf = (r) => r.featured_rank || 9;
+  const byFeatured = (a, b) => rankOf(a) - rankOf(b) || byComposer(a, b);
   function effectiveSort() {
     if (state.sort) return state.sort;
     if (state.picks) return "picks";
-    return mode() === "composer" ? "catalog" : "composer";
+    return mode() === "composer" ? "catalog" : "featured";
   }
   function compute() {
     const toks = tokens();
@@ -196,6 +201,7 @@
     }
     const by = {
       picks: (a, b) => a.editors_pick_rank - b.editors_pick_rank,
+      featured: byFeatured,
       composer: byComposer,
       catalog: (a, b) => byCatalog(a, b) || byComposer(a, b),
       title: (a, b) => coll.compare(a.title, b.title) || byComposer(a, b),
@@ -339,6 +345,18 @@
     $("#pager").innerHTML = "";
   }
 
+  /** Featured composers (featured_rank 1-2 in data/composers.json): a chip strip above the A-Z index. */
+  function renderFeatured() {
+    const strip = $("#featuredStrip");
+    const names = new Map();
+    for (const r of ROWS) if (r.featured_rank >= 1 && r.featured_rank <= 2 && !names.has(r.composer)) names.set(r.composer, { rank: r.featured_rank, n: 0 });
+    for (const r of ROWS) if (names.has(r.composer)) names.get(r.composer).n++;
+    const list = [...names.entries()].sort((a, b) => a[1].rank - b[1].rank || coll.compare(fold(composerInfo(a[0]).sort_name), fold(composerInfo(b[0]).sort_name)));
+    strip.hidden = !(mode() === "composers" && !activeFilterCount() && list.length);
+    if (strip.hidden) return;
+    $("#fchips").innerHTML = list.map(([name, v]) => `<a class="fchip r${v.rank}" href="${esc(composerHref(name))}" data-act="composer" data-composer="${esc(name)}">${esc(composerInfo(name).short_name)} <span>${v.n}</span></a>`).join("");
+  }
+
   function renderComposerHero() {
     const hero = $("#composerHero");
     if (mode() !== "composer") { hero.hidden = true; hero.innerHTML = ""; return; }
@@ -416,6 +434,7 @@
     $("#f_verified").value = state.verified; $("#f_verified").classList.toggle("active", !!state.verified);
     $("#f_sort").value = state.sort; $("#f_sort").classList.toggle("active", !!state.sort);
     $("#f_score").checked = !!state.score;
+    $("#f_featured").checked = !!state.featured;
     if (document.activeElement !== $("#q")) $("#q").value = state.q;
     const active = activeFilterCount();
     $("#filterCount").hidden = !active;
@@ -503,6 +522,7 @@
     renderGenreStrip();
     renderBrowse();
     renderComposerHero();
+    renderFeatured();
     if (m !== "composer") document.title = "Music Library — public-domain classical music, scores & full recordings";
     $(".picks").hidden = !(m !== "composer" && !state.q && !state.picks && !activeFilterCount()) || !$("#picks").children.length;
     if (m === "composers") renderComposers(); else renderWorks(compute());
@@ -1011,7 +1031,7 @@
     render();
   }
   function clearAll() {
-    for (const k of [...FACETS.filter((f) => f !== "composer"), "q", "score", "picks", "sort"]) state[k] = "";
+    for (const k of [...FACETS.filter((f) => f !== "composer"), "q", "score", "featured", "picks", "sort"]) state[k] = "";
     state.page = 1;
     $("#q").value = "";
     writeState();
@@ -1039,6 +1059,8 @@
     }
     $("#f_composer").addEventListener("change", (e) => (e.target.value ? openComposer(e.target.value) : showComposers()));
     $("#f_score").addEventListener("change", (e) => { state.score = e.target.checked ? "1" : ""; state.page = 1; writeState(); render(); });
+    $("#f_featured").addEventListener("change", (e) => { state.featured = e.target.checked ? "1" : ""; state.page = 1; writeState(); render(); });
+    $("#showFeatured").addEventListener("click", () => { state.featured = "1"; state.page = 1; writeState(); render(); });
     $("#filtersBtn").addEventListener("click", (e) => {
       const open = $("#filters").classList.toggle("open");
       e.currentTarget.setAttribute("aria-expanded", String(open));

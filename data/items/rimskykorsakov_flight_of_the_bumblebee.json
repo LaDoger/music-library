@@ -29,6 +29,7 @@
  "composer_short": "Rimsky-Korsakov",
  "composer_sort": "Rimsky-Korsakov, Nikolai",
  "birth_year": 1844,
+ "featured_rank": 2,
  "release_audio_name": "rimskykorsakov_flight_of_the_bumblebee.mp3",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/rimskykorsakov_flight_of_the_bumblebee.mp3",
  "release_audio_bytes": 3407834,

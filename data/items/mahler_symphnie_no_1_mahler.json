@@ -34,6 +34,7 @@
  "composer_short": "Mahler",
  "composer_sort": "Mahler, Gustav",
  "birth_year": 1860,
+ "featured_rank": 1,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -63,6 +64,13 @@
  "other_editions": [
   {
    "id": "mahler_symphnie_no_1_mahlerb2",
+   "source": "pdmx",
+   "title": "Symphnie No.1 mahler",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mahler_symphnie_no_1_mahlerb3",
    "source": "pdmx",
    "title": "Symphnie No.1 mahler",
    "url": "https://zenodo.org/records/15571083",

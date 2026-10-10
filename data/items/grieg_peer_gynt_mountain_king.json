@@ -29,6 +29,7 @@
  "composer_short": "Grieg",
  "composer_sort": "Grieg, Edvard",
  "birth_year": 1843,
+ "featured_rank": 2,
  "release_audio_name": "grieg_peer_gynt_mountain_king.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/grieg_peer_gynt_mountain_king.flac",
  "release_audio_bytes": 25778747,

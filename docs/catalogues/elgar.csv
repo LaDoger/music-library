@@ -1,0 +1,42 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.12,Salut d'amour (Liebesgruss),1889,in-scope,yes,1,elgar_op_12_salut_d_amour_liebesgruss,pdmx,Schott 1889
+Op.15 No.1/2,Chanson de nuit / Chanson de matin,1901,in-scope,,0,,,Pub. 1901 (Novello/Schott)
+Op.19,Froissart (concert overture),1890,in-scope,,0,,,
+Op.20,Serenade for Strings in E minor,1893,in-scope,,0,,,
+Op.27,Three Bavarian Dances,1897,in-scope,,0,,,
+Op.30,Scenes from the Saga of King Olaf,1896,in-scope,yes,1,elgar_op_30_as_torrents_in_summer_from_scenes_from_the,pdmx,Includes 'As torrents in summer'
+Op.32,Sea Pictures,1899,in-scope,,0,,,
+Op.36,Variations on an Original Theme 'Enigma',1899,in-scope,yes,4,elgar_op_36_enigma_variations_op_36_variation_10_dorab elgar_op_36_enigma_variations_op_36_variation_11_g_r_s elgar_op_36_enigma_variations_x_intermezzo_edward_elga elgar_op_36_lux_aeterna_edward_elgar,pdmx,Novello 1899
+Op.38,The Dream of Gerontius,1900,in-scope,,0,,,
+Op.39 No.1,Pomp and Circumstance March No. 1 in D,1901,in-scope,yes,1,elgar_pomp_circumstance_1,curated,Boosey 1901
+Op.39 No.2,Pomp and Circumstance March No. 2 in A minor,1901,in-scope,,0,,,
+Op.39 No.3,Pomp and Circumstance March No. 3 in C minor,1905,in-scope,,0,,,
+Op.39 No.4,Pomp and Circumstance March No. 4 in G,1907,in-scope,,0,,,
+Op.39 No.5,Pomp and Circumstance March No. 5 in C,1930,unverified-pub,n/a,0,,,Pub. year 1930 or 1931 not confirmed
+Op.40,Cockaigne (In London Town),1901,in-scope,,0,,,
+Op.41,In the South (Alassio),1904,in-scope,,0,,,
+Op.42,Grania and Diarmid,1902,in-scope,yes,1,elgar_op_42_there_are_seven_that_pull_the_thread_edwar,pdmx,
+Op.44,Coronation Ode,1902,in-scope,,0,,,Land of Hope and Glory finale
+Op.47,Introduction and Allegro for Strings,1905,in-scope,,0,,,Novello 1905
+Op.49,The Apostles,1903,in-scope,,0,,,
+Op.50,The Kingdom,1906,in-scope,,0,,,
+Op.53 No.1,There is sweet music,1908,in-scope,,0,,,Part songs from the Greek Anthology
+Op.55,Symphony No. 1 in A♭,1908,in-scope,,0,,,Novello 1908
+Op.58,Elegy for strings,1909,in-scope,,0,,,
+Op.61,Violin Concerto in B minor,1910,in-scope,,0,,,Novello 1910
+Op.63,Symphony No. 2 in E♭,1911,in-scope,,0,,,Novello 1911
+Op.64,Coronation March,1911,in-scope,,0,,,
+Op.68,Falstaff (symphonic study),1913,in-scope,,0,,,
+Op.70,Sospiri,1914,in-scope,,0,,,
+Op.73 No.2,Evening Scene,1906,in-scope,yes,1,elgar_op_73_no_2_evening_scene,pdmx,Op.73 part songs
+Op.82,Violin Sonata in E minor,1919,in-scope,,0,,,
+Op.83,String Quartet in E minor,1919,in-scope,yes,1,elgar_op_83_string_quartet_op_83,openscore-quartets,Novello 1919
+Op.84,Piano Quintet in A minor,1919,in-scope,,0,,,
+Op.85,Cello Concerto in E minor,1919,in-scope,,0,,,Novello 1919/1920
+Op.1a / 1b,The Wand of Youth Suites 1 & 2,1907,in-scope,,0,,,
+Op.60,Two Songs (The Torch / The River),1909,in-scope,yes,2,elgar_op_60_2_songs_op_60_the_river elgar_op_60_2_songs_op_60_the_torch,openscore-lieder,Op.60
+no Op.,Ave maris stella,1900,unverified-pub,n/a,0,,,Pub. date not confirmed
+no Op.,Weary Wind of the West,1903,unverified-pub,n/a,0,,,Pub. date not confirmed
+no Op.,Nursery Suite,1931,excluded-post1930,n/a,0,,,Published 1931
+Op.87,Severn Suite,1930,unverified-pub,n/a,0,,,Brass band 1930; orchestral 1930s
+no Op.,"Symphony No. 3 (sketches, Payne)",1998,excluded-post1930,n/a,0,,,Elaborated 1998

@@ -29,6 +29,7 @@
  "composer_short": "Ravel",
  "composer_sort": "Ravel, Maurice",
  "birth_year": 1875,
+ "featured_rank": 1,
  "release_audio_name": "ravel_pavane.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/ravel_pavane.ogg",
  "release_audio_bytes": 3702044,
@@ -54,7 +55,22 @@
  "stream_audio_mime": "audio/mpeg",
  "duration_s": 269.77,
  "midi_play_url": "",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "ravel_m_19_pavane_pour_une_infante_defunteb2",
+   "source": "pdmx",
+   "title": "Pavane pour une infante défunte",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "ravel_m_19_pavane_pour_une_infante_defunte",
+   "source": "pdmx",
+   "title": "Pavane pour une infante défunte",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=ravel_pavane",

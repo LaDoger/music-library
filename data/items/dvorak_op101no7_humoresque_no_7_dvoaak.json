@@ -34,6 +34,7 @@
  "composer_short": "Dvořák",
  "composer_sort": "Dvořák, Antonín",
  "birth_year": 1841,
+ "featured_rank": 2,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -66,6 +67,13 @@
    "title": "Humoresque no. 7",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "dvorak_op_101_no_7_humoresque_in_g_flat_major",
+   "source": "commons",
+   "title": "Humoresque in G-flat major",
+   "url": "https://commons.wikimedia.org/wiki/File:Humoresk_Dvorak.mid",
+   "licence": "PD"
   }
  ],
  "schema_version": 3,

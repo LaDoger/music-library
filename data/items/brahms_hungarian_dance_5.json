@@ -29,6 +29,7 @@
  "composer_short": "Brahms",
  "composer_sort": "Brahms, Johannes",
  "birth_year": 1833,
+ "featured_rank": 3,
  "release_audio_name": "brahms_hungarian_dance_5.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/brahms_hungarian_dance_5.ogg",
  "release_audio_bytes": 3129355,

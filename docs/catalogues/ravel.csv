@@ -1,0 +1,80 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+M.7,Menuet antique,1898,in-scope,,0,,,Enoch 1898; orchestration M.7a 1929
+M.19,Pavane pour une infante défunte,1900,in-scope,yes,1,ravel_pavane,curated,Demets 1900; orch. M.19a 1910
+M.30,Jeux d'eau,1902,in-scope,yes,1,ravel_m_30_jeux_d_eau,pdmx,Demets 1902
+M.40,Sonatine,1905,in-scope,yes,1,ravel_m_40_sonatine,pdmx,Durand 1905
+M.43.1,Miroirs: Noctuelles,1906,in-scope,,0,,,"Miroirs, Calmette/Eschig 1906"
+M.43.2,Miroirs: Oiseaux tristes,1906,in-scope,,0,,,
+M.43.3,Miroirs: Une barque sur l'océan,1906,in-scope,,0,,,orch. M.43a 1906/1926
+M.43.4,Miroirs: Alborada del gracioso,1906,in-scope,,0,,,"orch. M.43c 1918, Durand 1919"
+M.43.5,Miroirs: La vallée des cloches,1906,in-scope,,0,,,
+M.55.1,Gaspard de la nuit: Ondine,1909,in-scope,,0,,,Durand 1909
+M.55.2,Gaspard de la nuit: Le gibet,1909,in-scope,yes,1,ravel_m_55_2_gaspard_de_la_nuit_le_gibet,pdmx,
+M.55.3,Gaspard de la nuit: Scarbo,1909,in-scope,,0,,,
+M.55,Gaspard de la nuit (complete),1909,in-scope,yes,1,ravel_m_55_gaspard_de_la_nuit_complete,pdmx,Matches whole-cycle files
+M.58,Menuet sur le nom d'Haydn,1910,in-scope,yes,1,ravel_m_58_menuet_sur_le_nom_d_haydn,pdmx,Revue musicale S.I.M. 1910
+M.60,Ma mère l'Oye (piano duet),1910,in-scope,yes,1,ravel_m_60_ravel_le_jardin_feerique_from_ma_mere_l_oye,pdmx,"Durand 1910; ballet M.62 1912, suite orch. M.60a 1911"
+M.61,Valses nobles et sentimentales,1911,in-scope,,0,,,Durand 1911
+M.63,"À la manière de… (Borodine, Chabrier)",1913,in-scope,yes,1,ravel_m_63_a_la_maniere_de_borodine_chabrier,pdmx,Revue musicale 1913
+M.65,Prélude,1913,in-scope,,0,,,Durand 1913 (Conservatoire sight-reading)
+M.68,Le Tombeau de Couperin,1918,in-scope,yes,1,ravel_m_68_le_tombeau_de_couperin,pdmx,Durand 1918; orch. M.68a 1919
+M.72,La Valse,1921,in-scope,yes,1,ravel_m_72_la_valse,pdmx,Durand 1921 (piano solo M.72b 1920)
+M.70,Frontispice,1919,in-scope,,0,,,
+M.54,Rapsodie espagnole,1908,in-scope,,0,,,Durand 1908
+M.57,Daphnis et Chloé,1913,in-scope,yes,1,ravel_m_57_daphnis_et_chloe,pdmx,"Piano score 1911, orchestral 1913; Suites 1/2 M.57a/b"
+M.A24,Pictures at an Exhibition (orch. Ravel),1929,in-scope,yes,12,ravel_m_a24_10_la_grande_porte_de_kiev ravel_m_a24_2_il_vecchio_castello ravel_m_a24_4_bydlo ravel_m_a24_5_ballet_des_poussins_dans_leurs_coques ravel_m_a24_6_samuel_goldberg_and_schmuyle ravel_m_a24_8_catacombae,pdmx,"Éditions russes de musique 1929; Mussorgsky d.1881 so the underlying work is PD everywhere, Ravel's orchestration is US-PD-only"
+M.A25,Debussy: Sarabande (orch. Ravel),1923,in-scope,,0,,,Durand 1923
+M.A26,Debussy: Danse (Tarantelle styrienne) (orch. Ravel),1923,in-scope,,0,,,Durand 1923
+M.52,L'Heure espagnole,1908,in-scope,,0,,,Vocal score Durand 1908
+M.71,L'Enfant et les sortilèges,1925,in-scope,,0,,,Vocal score Durand 1925
+M.80,Fanfare for L'éventail de Jeanne,1929,in-scope,,0,,,Heugel 1929
+M.35,String Quartet in F,1910,in-scope,yes,1,ravel_m_35_string_quartet_in_f_major,openscore-quartets,Durand 1910
+M.46,Introduction et Allegro,1906,in-scope,,0,,,Durand 1906
+M.67,Piano Trio in A minor,1915,in-scope,,0,,,Durand 1915
+M.73,Sonata for Violin and Cello,1922,in-scope,,0,,,Durand 1922
+M.74,Berceuse sur le nom de Gabriel Fauré,1922,in-scope,yes,1,ravel_m_74_berceuse_sur_le_nom_de_gabriel_faure,pdmx,Revue musicale 1922
+M.76,Tzigane,1924,in-scope,,0,,,Durand 1924; orch. M.76a 1924
+M.77,Violin Sonata No. 2,1927,in-scope,,0,,,Durand 1927
+M.41,Shéhérazade (songs),1904,in-scope,,0,,,Jobert 1904
+M.50,Histoires naturelles,1907,in-scope,,0,,,Durand 1907
+M.51,Vocalise-étude / Pièce en forme de habanera,1907,in-scope,yes,1,ravel_m_51_vocalise_etude_piece_en_forme_de_habanera,pdmx,Leduc 1907
+M.64,Trois poèmes de Stéphane Mallarmé,1914,in-scope,,0,,,Durand 1914
+M.69,Trois chansons,1916,in-scope,yes,2,ravel_m_69_nicolette_maurice_ravel ravel_m_69_ronde_maurice_ravel,pdmx,Durand 1916
+M.75,Ronsard à son âme,1924,in-scope,,0,,,Revue musicale 1924
+M.78,Chansons madécasses,1926,in-scope,,0,,,Durand 1926
+M.79,Rêves,1927,in-scope,yes,1,ravel_m_79_reves,pdmx,1927
+M.A4-11,Cinq mélodies populaires grecques,1906,in-scope,yes,4,ravel_m_a4_11_maurice_ravel_chanson_de_la_mariee ravel_m_a4_11_la_bas_vers_l_eglise_maurice_ravel ravel_m_a4_11_quel_galant_m_est_comparable_maurice_rav ravel_m_a4_11_tout_gai_maurice_ravel,pdmx,Durand 1906
+M.A17,Chants populaires,1910,in-scope,yes,2,ravel_m_a17_chanson_espagnole_ravel ravel_m_a17_chanson_francaise_chant_populaire_limousin,pdmx,"Chanson espagnole/française/italienne/hébraïque, 1910"
+M.A22,Deux mélodies hébraïques,1915,in-scope,,0,,,Durand 1915
+M.81,Boléro,1929,excluded-disputed,n/a,0,,,Boléro excluded: disputed (LaDoger). Never import.
+M.82,Piano Concerto for the Left Hand in D,1931,excluded-post1930,n/a,0,,,Published 1931
+M.83,Piano Concerto in G,1932,excluded-disputed,n/a,0,,,Published 1932; excluded by LaDoger
+M.84,Don Quichotte à Dulcinée,1934,excluded-disputed,n/a,0,,,Composed 1932-33; excluded by LaDoger
+M.85,Morgiane,,excluded-post1930,n/a,0,,,Unrealised sketches
+M.86,Jeanne d'Arc,,excluded-post1930,n/a,0,,,Unrealised
+M.1-3,Piano Sonata; Grieg and Schumann Variations,,excluded-unpublished,n/a,0,,,"Juvenilia, unpublished (first published 1975+)"
+M.4,Ballade de la reine morte d'aimer,,excluded-unpublished,n/a,0,,,Unpublished until 1975
+M.5,Sérénade grotesque,,excluded-unpublished,n/a,0,,,Published 1975
+M.6,Un grand sommeil noir,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.8,Habanera (Sites auriculaires),,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.9,Sainte,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.10,D'Anne jouant de l'espinette,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.11,La Parade,,excluded-unpublished,n/a,0,,,Unpublished
+M.12,"Violin Sonata (No. 1, posthumous)",,excluded-unpublished,n/a,0,,,Published 1975
+M.13,Entre cloches,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.14,Valse in D,,excluded-unpublished,n/a,0,,,Unpublished
+M.15,Chanson du rouet,,excluded-unpublished,n/a,0,,,Unpublished
+M.16,Si morne!,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.17,"Shéhérazade, ouverture de féerie",,excluded-unpublished,n/a,0,,,Published 1975
+M.18,Olympia,,excluded-unpublished,n/a,0,,,Unfinished
+M.20-44,"Conservatoire fugues (M.20, 23, 24, 26, 27, 32, 36, 44)",,excluded-unpublished,n/a,0,,,Unpublished exercises
+M.21,D'Anne qui me jecta de la neige,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.22-38,"Prix de Rome cantatas (Callirhoé, Myrrha, Alcyone, Alyssa, ...)",,excluded-unpublished,n/a,0,,,Unpublished competition cantatas
+M.39,Manteau de fleurs,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.42,Menuet in C♯ minor,,excluded-unpublished,n/a,0,,,Unpublished
+M.47,Noël des jouets,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.48,Les grands vents venus d'outre-mer,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.49,La cloche engloutie,,excluded-unpublished,n/a,0,,,"Unfinished opera, sketches only"
+M.53,Sur l'herbe,,unverified-pub,n/a,0,,,Pub. date not confirmed
+M.59,Saint François d'Assise,,excluded-unpublished,n/a,0,,,Unpublished
+M.66,Zaspiak-Bat,,excluded-unpublished,n/a,0,,,"Unfinished, unpublished"

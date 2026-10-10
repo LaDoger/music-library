@@ -29,6 +29,7 @@
  "composer_short": "Tchaikovsky",
  "composer_sort": "Tchaikovsky, Pyotr Ilyich",
  "birth_year": 1840,
+ "featured_rank": 2,
  "release_audio_name": "tchaikovsky_romeo_and_juliet.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/tchaikovsky_romeo_and_juliet.ogg",
  "release_audio_bytes": 18076488,

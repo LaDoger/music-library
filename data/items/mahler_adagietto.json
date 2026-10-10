@@ -29,6 +29,7 @@
  "composer_short": "Mahler",
  "composer_sort": "Mahler, Gustav",
  "birth_year": 1860,
+ "featured_rank": 1,
  "release_audio_name": "mahler_adagietto.mp3",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mahler_adagietto.mp3",
  "release_audio_bytes": 14888912,

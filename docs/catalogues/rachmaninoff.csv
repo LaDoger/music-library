@@ -1,0 +1,29 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.1,Piano Concerto No. 1 in F♯ minor,1892,in-scope,,0,,,1892 / rev. 1917 (pub. 1917)
+Op.3,Morceaux de fantaisie (incl. Prélude in C♯ minor),1892,in-scope,yes,2,rachmaninoff_prelude_op3_no2 rachmaninoff_op_3_elegie_s_rachmaninoff_op_3_no_1,"curated,pdmx",Gutheil 1893
+Op.5,Fantaisie-tableaux (Suite No. 1),1894,in-scope,yes,1,rachmaninoff_op_5_fantaisie_tableaux_suite_no_1,pdmx,
+Op.16,Moments musicaux,1897,in-scope,yes,5,rachmaninoff_op_16_rachmaninoff_moment_musical_no_1_in_bb_min rachmaninoff_op_16_rachmaninoff_moment_musical_no_2_in_eb_min rachmaninoff_op_16_rachmaninoff_moment_musical_no_3_in_b_mino rachmaninoff_op_16_rachmaninoff_moment_musical_no_5_in_db_maj rachmaninoff_op_16_sergei_rachmaninoff_moment_musicaux_op_16,pdmx,Gutheil 1897
+Op.18,Piano Concerto No. 2 in C minor,1901,in-scope,yes,1,rachmaninoff_piano_concerto_2,curated,Gutheil 1901
+Op.19,Cello Sonata in G minor,1901,in-scope,,0,,,
+Op.22,Variations on a Theme of Chopin,1903,in-scope,yes,1,rachmaninoff_op_22_variations_on_a_theme_of_chopin,pdmx,
+Op.23,Ten Preludes,1903,in-scope,yes,1,rachmaninoff_op_23_prelude_in_g_minor,pdmx,Gutheil 1904
+Op.27,Symphony No. 2 in E minor,1908,in-scope,,0,,,
+Op.28,Piano Sonata No. 1 in D minor,1908,in-scope,,0,,,
+Op.29,The Isle of the Dead,1909,in-scope,,0,,,
+Op.30,Piano Concerto No. 3 in D minor,1910,in-scope,yes,1,rachmaninoff_op_30_rachmaninoff_piano_concerto_no_3_1st_movem,pdmx,Gutheil 1910
+Op.31,Liturgy of St. John Chrysostom,1910,in-scope,yes,1,rachmaninoff_op_31_cherubic_hymn,pdmx,
+Op.32,Thirteen Preludes,1911,in-scope,,0,,,
+Op.33,Études-tableaux,1911,in-scope,,0,,,
+Op.34 No.14,Vocalise,1913,in-scope,yes,1,rachmaninoff_op_34_no_14_rachmaninoff_vocalise_op_34_n_14,pdmx,Gutheil 1913
+Op.35,The Bells,1913,in-scope,,0,,,
+Op.36,Piano Sonata No. 2 in B♭ minor (1913 / 1931 versions),1913,unverified-pub,n/a,0,,,Edition (1913 vs revised 1931) cannot be told from the source file: not imported
+Op.37,All-Night Vigil (Vespers),1915,in-scope,yes,1,rachmaninoff_op_37_ave_maria_bogoroditse_devo,pdmx,Jurgenson 1915; 'Bogoroditse Devo' is no. 6
+Op.39,Études-tableaux,1917,in-scope,yes,2,rachmaninoff_op_39_rachmaninoff_etude_tableaux_no_1_in_c_mino rachmaninoff_op_39_rachmaninoff_etudes_tableaux_op_39_no_2,pdmx,Gutheil/Muzgiz 1917
+Op.40,Piano Concerto No. 4 in G minor,1928,unverified-pub,n/a,0,,,1928 / revised 1936 / 1941 editions cannot be told apart: not imported
+Op.41,Three Russian Songs,1927,in-scope,,0,,,
+Op.43,Rhapsody on a Theme of Paganini,1934,excluded-post1930,n/a,0,,,Published 1934
+Op.42,Variations on a Theme of Corelli,1931,excluded-post1930,n/a,0,,,Published 1931
+Op.44,Symphony No. 3,1937,excluded-post1930,n/a,0,,,Published 1937
+Op.45,Symphonic Dances,1941,excluded-post1930,n/a,0,,,Published 1941
+Op.13,Symphony No. 1 in D minor,1947,excluded-post1930,n/a,0,,,First published posthumously 1947
+no Op.,Polka italienne (Italian Polka),1906,unverified-pub,n/a,0,,,Arrangement of a Rubinstein/Italian tune; pub. date not confirmed

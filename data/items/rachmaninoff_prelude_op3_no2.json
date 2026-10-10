@@ -29,6 +29,7 @@
  "composer_short": "Rachmaninoff",
  "composer_sort": "Rachmaninoff, Sergei",
  "birth_year": 1873,
+ "featured_rank": 1,
  "release_audio_name": "rachmaninoff_prelude_op3_no2.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/rachmaninoff_prelude_op3_no2.ogg",
  "release_audio_bytes": 1874409,

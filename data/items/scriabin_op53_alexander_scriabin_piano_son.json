@@ -34,6 +34,7 @@
  "composer_short": "Scriabin",
  "composer_sort": "Scriabin, Alexander",
  "birth_year": 1872,
+ "featured_rank": 1,
  "release_audio_name": "",
  "release_audio_url": "",
  "release_audio_bytes": 0,
@@ -66,6 +67,13 @@
    "source": "pdmx",
    "title": "Piano Sonata No.5 Op.53",
    "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_53_piano_sonata_no_5",
+   "source": "commons",
+   "title": "Piano Sonata No. 5",
+   "url": "https://commons.wikimedia.org/wiki/File:Scriabin%2C_Sonata_No._5%2C_Op._53.mid",
    "licence": "CC0"
   }
  ],

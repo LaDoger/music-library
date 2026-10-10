@@ -37,7 +37,7 @@ Rules that always hold:
 - Never add music that is CC BY-NC, all-rights-reserved, or has a guessed licence. Never download from MuseScore.com (it needs a login). Excluded composers (not PD): Orff, Prokofiev, Shostakovich, Stravinsky. Ravel's Boléro is excluded (disputed).
 
 ### US public domain only (`licence_scope: US-PD-only`)
-Some composers who died 1930–1955 have works **published before 1931** that are public domain in the US. LaDoger may approve individual composers for import with a visible **US public domain only** badge. Those rows are `licence_status: flagged` and may still be copyrighted elsewhere (including EU/Poland). Filter them out with Territory → "Worldwide / life+70 PD" (`?scope=worldwide`). Do **not** add other 1930–1955 composers until LaDoger approves each one (list candidates in `STATUS.md`). Approved today: Kerry Mills, Euday L. Bowman, Cecil Macklin, Ernesto De Curtis — works with a verified publication year ≤ 1930 only.
+Some composers who died 1930–1955 have works **published before 1931** that are public domain in the US. LaDoger may approve individual composers for import with a visible **US public domain only** badge. Those rows are `licence_status: flagged` and may still be copyrighted elsewhere (including EU/Poland). Filter them out with Territory → "Worldwide / life+70 PD" (`?scope=worldwide`). Do **not** add other 1930–1955 composers until LaDoger approves each one (list candidates in `STATUS.md`). Approved today: Kerry Mills, Euday L. Bowman, Cecil Macklin, Ernesto De Curtis, Maurice Ravel, Richard Strauss, Edward Elgar, Gustav Holst, Sergei Rachmaninoff — works with a verified publication year ≤ 1930 only (Ravel's Boléro, Piano Concerto in G, Left Hand concerto and Don Quichotte are excluded). Per-work checklists: `docs/catalogues/*.csv`; tier list and coverage: `docs/catalogues/TIER_LIST.md`.
 
 - `musiclib credit <id>` prints the credit text and exits 0 only for `clean` / `attribution`.
 
@@ -49,11 +49,12 @@ Some composers who died 1930–1955 have works **published before 1931** that ar
 - `catalog` holds the standard catalogue number: `BWV 565`, `Op. 67`, `K. 525`, `HWV 56`, `WoO 59`, `L.75 No.3`. Search accepts any spacing: `bwv565`, `BWV 565`, `op 27`.
 - One row per piece, or per movement when movements are used separately (`movement` field).
 - `editors_pick_rank` 1–15 = editor's picks for video, the strongest general-purpose cues (0 = not a pick; `editors_pick` is the boolean).
+- `featured_rank` 1–4 = featured composer tier (1 = top cinematic group: Ravel, Debussy, Satie, Mahler, Bruckner, Wagner, R. Strauss, Elgar, Holst, Rachmaninoff, Scriabin; 2 = Tchaikovsky, Dvořák, Mussorgsky, Rimsky-Korsakov, Berlioz, Grieg, Saint-Saëns, Verdi, Fauré, Liszt; 3 = other core tier A/B; 4 = other major composers; 0 = not listed). The site lists featured composers first; also on `data/composers.json`.
 - `composer_slug` / `composer_sort` link a work to its entry in `data/composers.json` (life dates, era, `piece_ids`, PD/CC0 portrait or null).
 
 ## Item fields you will use
 
-From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, editors_pick_rank, composer_slug, composer_sort, preview_url, score_url, release_audio_url, stream_audio_url, midi_play_url, item_json_url`.
+From `catalog.json` → `items[]`: `id, composer, title, catalog, movement, genre, era, mood[], energy, licence_status, recording_status, score_status, verified, has_editable_score, has_recording, renderable_midi, editors_pick_rank, featured_rank, composer_slug, composer_sort, preview_url, score_url, release_audio_url, stream_audio_url, midi_play_url, item_json_url`.
 
 The item JSON adds: `legal_notes, legal_flags, recording_license, recording_performer, recording_source_url, recording_quality, editable_license, editable_format, editable_source_url, notable_excerpt, video_use_ideas, score_files[] / score_files_abs[], render_midi {file, url, zip_member}, midi_play_url / midi_play_url_abs, stream_audio_url, birth_year, credit_text, licence_meaning, page_url`.
 

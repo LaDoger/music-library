@@ -29,6 +29,7 @@
  "composer_short": "Borodin",
  "composer_sort": "Borodin, Alexander",
  "birth_year": 1833,
+ "featured_rank": 4,
  "release_audio_name": "borodin_steppes.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/borodin_steppes.flac",
  "release_audio_bytes": 73785694,

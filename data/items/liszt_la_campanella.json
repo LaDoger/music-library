@@ -29,6 +29,7 @@
  "composer_short": "Liszt",
  "composer_sort": "Liszt, Franz",
  "birth_year": 1811,
+ "featured_rank": 2,
  "release_audio_name": "liszt_la_campanella.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/liszt_la_campanella.ogg",
  "release_audio_bytes": 2596535,

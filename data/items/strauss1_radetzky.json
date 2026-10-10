@@ -29,6 +29,7 @@
  "composer_short": "Strauss I",
  "composer_sort": "Strauss I, Johann",
  "birth_year": 1804,
+ "featured_rank": 0,
  "release_audio_name": "strauss1_radetzky.mp3",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/strauss1_radetzky.mp3",
  "release_audio_bytes": 6124664,

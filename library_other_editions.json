@@ -4769,6 +4769,15 @@
    "licence": "PD"
   }
  ],
+ "bruckner_locus_iste_anton_bruckner": [
+  {
+   "id": "bruckner_locus_isteb2",
+   "source": "pdmx",
+   "title": "Locus iste",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "bruckner_wab12_dir_herr_dir_will_ich_mich_e": [
   {
    "id": "bruckner_wab12_dir_herr_dir_will_ich_mich_eb2",
@@ -6818,6 +6827,13 @@
    "title": "Children's Corner - Jimbo's Lullaby",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_l_113_children_s_corner_jimbo_s_lullaby",
+   "source": "commons",
+   "title": "Children's Corner: Jimbo's Lullaby",
+   "url": "https://commons.wikimedia.org/wiki/File:Debussy%2C_Children%27s_Corner%2C_No._2.mid",
+   "licence": "CC0"
   }
  ],
  "debussy_clair_de_lune": [
@@ -7228,6 +7244,13 @@
    "title": "Nocturne (C.Debussy)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "debussy_nocturne_c_debussyb3",
+   "source": "pdmx",
+   "title": "Nocturne (C.Debussy)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "debussy_petite_suite_c_debussy": [
@@ -7401,6 +7424,13 @@
    "source": "pdmx",
    "title": "Children's Corner - The Little Shepherd",
    "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "debussy_l_113_children_s_corner_the_little_shepherd",
+   "source": "commons",
+   "title": "Children's Corner: The Little Shepherd",
+   "url": "https://commons.wikimedia.org/wiki/File:Debussy%2C_Children%27s_Corner%2C_No._5.mid",
    "licence": "CC0"
   }
  ],
@@ -8203,6 +8233,13 @@
    "title": "Humoresque no. 7",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "dvorak_op_101_no_7_humoresque_in_g_flat_major",
+   "source": "commons",
+   "title": "Humoresque in G-flat major",
+   "url": "https://commons.wikimedia.org/wiki/File:Humoresk_Dvorak.mid",
+   "licence": "PD"
   }
  ],
  "dvorak_op22_serenade_for_strings_antonin": [
@@ -8368,6 +8405,38 @@
    "title": "12th Street Rag",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  }
+ ],
+ "elgar_op_36_enigma_variations_x_intermezzo_edward_elga": [
+  {
+   "id": "elgar_op_36_elgar_enigma_variations_xi_nimrod",
+   "source": "pdmx",
+   "title": "Enigma Variations - XI. Nimrod",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "elgar_op_36_nimrod",
+   "source": "pdmx",
+   "title": "Nimrod",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "elgar_pomp_circumstance_1": [
+  {
+   "id": "elgar_op_39_no_1_pomp_and_circumstance_march_no_1_in_db2",
+   "source": "pdmx",
+   "title": "Pomp and Circumstance March No. 1 in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "elgar_op_39_no_1_pomp_and_circumstance_march_no_1_in_d",
+   "source": "pdmx",
+   "title": "Pomp and Circumstance March No. 1 in D",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "faure_cantique_de_jean_racine_gabr": [
@@ -12141,6 +12210,49 @@
    "licence": "CC0"
   }
  ],
+ "holst_no_op_in_the_bleak_midwinter_cranhamb3": [
+  {
+   "id": "holst_no_op_in_the_bleak_midwinter_cranhamb2",
+   "source": "pdmx",
+   "title": "In the Bleak Midwinter (Cranham)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "holst_no_op_in_the_bleak_midwinter_cranham",
+   "source": "pdmx",
+   "title": "In the Bleak Midwinter (Cranham)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "holst_op_28_no_2_second_suite_in_f_for_military_bandb2": [
+  {
+   "id": "holst_op_28_no_2_second_suite_in_f_for_military_band",
+   "source": "pdmx",
+   "title": "Second Suite in F for military band",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "holst_op_32_jupiter_bringer_of_jollity": [
+  {
+   "id": "holst_op_32_jupiterb2",
+   "source": "pdmx",
+   "title": "Jupiter",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "holst_op_32_mars": [
+  {
+   "id": "holst_op_32_mars_bringer_of_warb51",
+   "source": "pdmx",
+   "title": "Mars: Bringer of War",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "hplayford_henry_playford_whimbleton_ho": [
   {
    "id": "hplayford_henry_playford_whimbleton_hob2",
@@ -12609,6 +12721,13 @@
    "title": "Venezia e Napoli I (Revised Version)",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "liszt_liszt_venezia_e_napoli_i_revised_version",
+   "source": "pdmx",
+   "title": "Venezia e Napoli I (Revised Version)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "liszt_s172c_invocation_from_liszt_s_harm": [
@@ -13022,6 +13141,13 @@
  "mahler_symphnie_no_1_mahler": [
   {
    "id": "mahler_symphnie_no_1_mahlerb2",
+   "source": "pdmx",
+   "title": "Symphnie No.1 mahler",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "mahler_symphnie_no_1_mahlerb3",
    "source": "pdmx",
    "title": "Symphnie No.1 mahler",
    "url": "https://zenodo.org/records/15571083",
@@ -17587,6 +17713,56 @@
    "licence": "CC0"
   }
  ],
+ "rachmaninoff_op_23_prelude_in_g_minor": [
+  {
+   "id": "rachmaninoff_op_23_rachmaninoff_prelude_op_23_no_4_in_d_major",
+   "source": "pdmx",
+   "title": "Prelude op. 23 no. 4 in D major (with fingering pedals and tips)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rachmaninoff_op_23_prelude_s_rachmaninoff_op_23_no_6",
+   "source": "pdmx",
+   "title": "Prelude Op. 23 No. 6",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rachmaninoff_op_34_no_14_rachmaninoff_vocalise_op_34_n_14": [
+  {
+   "id": "rachmaninoff_op_34_no_14_vocalise",
+   "source": "pdmx",
+   "title": "Vocalise",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rachmaninoff_op_39_rachmaninoff_etudes_tableaux_op_39_no_2": [
+  {
+   "id": "rachmaninoff_op_39_etudes_tableaux_op_39",
+   "source": "pdmx",
+   "title": "Etudes Tableaux Op 39",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rachmaninoff_piano_concerto_2": [
+  {
+   "id": "rachmaninoff_op_18_piano_concerto_no_2_in_c_minor",
+   "source": "pdmx",
+   "title": "Piano Concerto No. 2 in C minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rachmaninoff_op_18_piano_concerto_no_2_in_c_minorb2",
+   "source": "pdmx",
+   "title": "Piano Concerto No. 2 in C minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "rameau_avec_du_vin_endormons_nous_r": [
   {
    "id": "rameau_avec_du_vin_endormons_nous_rb2",
@@ -17745,6 +17921,67 @@
    "id": "rameau_rendons_un_eternel_hommageb2",
    "source": "pdmx",
    "title": "Rendons un éternel hommage",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ravel_m_35_string_quartet_in_f_major": [
+  {
+   "id": "ravel_m_35_string_quartet_in_fb2",
+   "source": "pdmx",
+   "title": "String Quartet in F",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ravel_m_40_sonatine": [
+  {
+   "id": "ravel_m_40_sonatineb2",
+   "source": "pdmx",
+   "title": "Sonatine",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "ravel_m_60_ravel_le_jardin_feerique_from_ma_mere_l_oye": [
+  {
+   "id": "ravel_m_60_le_jardin_feerique",
+   "source": "pdmx",
+   "title": "Le Jardin Féerique",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ravel_m_63_a_la_maniere_de_borodine_chabrier": [
+  {
+   "id": "ravel_m_63_a_la_maniere_de_borodine_chabrierb2",
+   "source": "pdmx",
+   "title": "À la manière de… (Borodine, Chabrier)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ravel_m_a17_chanson_francaise_chant_populaire_limousin": [
+  {
+   "id": "ravel_m_a17_ravel_maurice_chanson_italienne_romaine_ch",
+   "source": "pdmx",
+   "title": "Chanson italienne (chant populaire romain)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "ravel_pavane": [
+  {
+   "id": "ravel_m_19_pavane_pour_une_infante_defunteb2",
+   "source": "pdmx",
+   "title": "Pavane pour une infante défunte",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "ravel_m_19_pavane_pour_une_infante_defunte",
+   "source": "pdmx",
+   "title": "Pavane pour une infante défunte",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
   }
@@ -18351,6 +18588,54 @@
    "licence": "CC0"
   }
  ],
+ "rstrauss_op_11_horn_concerto_no_1_in_e": [
+  {
+   "id": "rstrauss_op_11_horn_concerto_no_1_in_eb2",
+   "source": "pdmx",
+   "title": "Horn Concerto No. 1 in E♭",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rstrauss_op_27_4_lieder_op_27_cacilie": [
+  {
+   "id": "rstrauss_op_27_cacilie_voice_piano_richard_strauss_op_27",
+   "source": "pdmx",
+   "title": "Cäcilie (Voice&Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rstrauss_op_27_morgen_voice_piano_richard_strauss_op_27_n",
+   "source": "pdmx",
+   "title": "Morgen! (Voice&Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rstrauss_op_27_ruhe_meine_seele_voice_piano_richard_strau",
+   "source": "pdmx",
+   "title": "Ruhe meine Seele! (Voice&Piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
+ "rstrauss_op_65_die_frau_ohne_schatten": [
+  {
+   "id": "rstrauss_op_65_die_frau_ohne_schattenb3",
+   "source": "pdmx",
+   "title": "Die Frau ohne Schatten",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "rstrauss_op_65_die_frau_ohne_schattenb2",
+   "source": "pdmx",
+   "title": "Die Frau ohne Schatten",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "rubens_3_prince_s_chorus": [
   {
    "id": "rubens_way_for_the_prince_prince_s",
@@ -18489,6 +18774,13 @@
    "title": "2nd Piano Concerto (1st Movement) Piano solo",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "saintsaens_saint_saens_2nd_piano_concerto_1st_movement_pian",
+   "source": "pdmx",
+   "title": "2nd Piano Concerto (1st Movement) Piano solo",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "saintsaens_op28_introduction_and_rondo_capri": [
@@ -18512,6 +18804,13 @@
  "saintsaens_op33_concerto_no_1_in_a_minor_sai": [
   {
    "id": "saintsaens_op33_concerto_no_1_in_a_minor_saib2",
+   "source": "pdmx",
+   "title": "Concerto No. 1 in a minor",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "saintsaens_concerto_no_1_in_a_minor_saint_saens",
    "source": "pdmx",
    "title": "Concerto No. 1 in a minor",
    "url": "https://zenodo.org/records/15571083",
@@ -20443,6 +20742,13 @@
    "title": "Étude in C-sharp minor Op.42 No.5",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_42_no_5_etude_op_42_no_5",
+   "source": "commons",
+   "title": "Étude Op. 42 No. 5",
+   "url": "https://commons.wikimedia.org/wiki/File:Stigliani.-.scriabin.42.05.mid",
+   "licence": "PD"
   }
  ],
  "scriabin_op45_album_leaf": [
@@ -20460,6 +20766,13 @@
    "source": "pdmx",
    "title": "Piano Sonata No.5 Op.53",
    "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_53_piano_sonata_no_5",
+   "source": "commons",
+   "title": "Piano Sonata No. 5",
+   "url": "https://commons.wikimedia.org/wiki/File:Scriabin%2C_Sonata_No._5%2C_Op._53.mid",
    "licence": "CC0"
   }
  ],
@@ -20479,6 +20792,13 @@
    "title": "Étude in D-sharp minor Op.8 No.12",
    "url": "https://zenodo.org/records/15571083",
    "licence": "CC0"
+  },
+  {
+   "id": "scriabin_op_8_no_12_etude_op_8_no_12",
+   "source": "commons",
+   "title": "Étude Op. 8 No. 12",
+   "url": "https://commons.wikimedia.org/wiki/File:Stigliani.-.scriabin.08.12.mid",
+   "licence": "PD"
   }
  ],
  "scriabin_op9_scriabin_s_nocturne_for_the": [

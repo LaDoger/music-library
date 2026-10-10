@@ -29,6 +29,7 @@
  "composer_short": "Strauss",
  "composer_sort": "Strauss, Richard",
  "birth_year": 1864,
+ "featured_rank": 1,
  "release_audio_name": "rstrauss_zarathustra_sunrise.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/rstrauss_zarathustra_sunrise.ogg",
  "release_audio_bytes": 4307636,

@@ -141,7 +141,14 @@ h2::before { content: ""; display: inline-block; width: 14px; height: 1px; backg
 .toggle input::after { content: ""; position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; border-radius: 50%; background: #ddd; transition: transform .15s; }
 .toggle input:checked { background: var(--gold); }
 .toggle input:checked::after { transform: translateX(14px); background: #111; }
-.score-toggle:has(input:checked) { border-color: var(--gold); box-shadow: var(--glow); }
+.score-toggle:has(input:checked), .featured-toggle:has(input:checked) { border-color: var(--gold); box-shadow: var(--glow); }
+.featured-strip { margin-bottom: 10px; }
+.featured-strip[hidden] { display: none; }
+.fchips { display: flex; flex-wrap: wrap; gap: 8px; }
+.fchip { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line2); background: var(--panel); color: var(--text); font-size: 14px; }
+.fchip span { font-size: 12px; color: var(--muted); }
+.fchip.r1 { border-color: var(--gold); }
+.fchip:hover { border-color: var(--gold); text-decoration: none; color: var(--gold); }
 .btn { border-radius: 12px; border: 1px solid var(--line2); background: var(--panel); padding: 0 14px; min-height: 44px; cursor: pointer; }
 .btn:hover { border-color: var(--gold); }
 .pill { display: inline-grid; place-items: center; min-width: 18px; height: 18px; border-radius: 9px; background: var(--gold); color: #111; font-size: 11px; font-weight: 700; padding: 0 5px; }
@@ -399,7 +406,7 @@ h2::before { content: ""; display: inline-block; width: 14px; height: 1px; backg
   .modes { flex: 1 1 100%; }
   .modes a { flex: 1; text-align: center; padding: 6px 8px; font-size: 13.5px; }
   .stats .stat:nth-child(n+4) { display: none; }
-  .score-toggle { flex: 1; justify-content: center; }
+  .score-toggle, .featured-toggle { flex: 1; justify-content: center; }
   .hero-inner { flex-direction: column; align-items: flex-start; padding: 16px; }
   .hero-portrait { width: 96px; height: 120px; }
   .composer-grid { grid-template-columns: 1fr; }

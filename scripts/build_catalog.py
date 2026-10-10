@@ -32,7 +32,7 @@ INDEX_FIELDS = [
     "licence_status", "recording_status", "score_status", "verified", "has_editable_score",
     "has_recording", "editors_pick_rank", "death_year", "preview_url", "midi_play_url",
     "stream_audio_url", "release_audio_url", "video_use_ideas", "catalog_variants",
-    "licence_scope",
+    "licence_scope", "featured_rank",
 ]
 ITEMS_DIR = os.path.join(ROOT, "data", "items")
 
@@ -89,7 +89,11 @@ def credit_text(item):
     work = f"{item['composer']}: {item['title']}"
     if item.get("catalog"):
         work += f", {item['catalog']}"
-    lines = [work + " (composition public domain)."]
+    if item.get("licence_scope") == "US-PD-only":
+        lines = [work + f" (composition: US public domain only; published {item.get('publication_year') or '?'}, "
+                 f"composer d.{item.get('death_year') or '?'}; may be protected outside the US)."]
+    else:
+        lines = [work + " (composition public domain)."]
     if item.get("has_recording"):
         perf = item.get("recording_performer") or "performer not named"
         lines.append(f"Recording: {perf}. Licence: {item.get('recording_license') or 'see source'}. "
@@ -127,6 +131,7 @@ def build():
             "has_recording": r["has_recording"],
             "renderable_midi": bool(render and (render["file"].endswith((".mid", ".midi")) or render["zip_member"])),
             "editors_pick_rank": r.get("editors_pick_rank", 0),
+            "featured_rank": r.get("featured_rank", 0),
             "preview_url": url(r.get("preview_url", "")),
             "score_url": url(r.get("score_url", "")),
             "release_audio_url": r.get("release_audio_url", ""),

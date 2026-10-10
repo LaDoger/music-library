@@ -229,9 +229,10 @@ US_PD_ONLY_FILE = MANUAL_FILE
 if US_PD_ONLY_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"):
     _known = {item[0] for item in _RAW}
     for _entry in json.loads(US_PD_ONLY_FILE.read_text(encoding="utf-8")).get("approved_us_pd_only", []):
-        if _entry["canon"] in _known or _entry.get("death") is None:
+        if _entry.get("death") is None or not (1930 <= int(_entry["death"]) <= 1955):
             continue
-        if not (1930 <= int(_entry["death"]) <= 1955):
+        if _entry["canon"] in _known:  # already in the table (e.g. Ravel, tier 4): only mark it approved
+            US_PD_ONLY_CANONS.add(_entry["canon"])
             continue
         _RAW.append((_entry["canon"], _entry["name"], _entry["death"], _entry["prefix"], 6, _entry.get("aliases") or []))
         GENERATED_CANONS.add(_entry["canon"])

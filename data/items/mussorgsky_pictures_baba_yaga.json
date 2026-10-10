@@ -29,6 +29,7 @@
  "composer_short": "Mussorgsky",
  "composer_sort": "Mussorgsky, Modest",
  "birth_year": 1839,
+ "featured_rank": 2,
  "release_audio_name": "mussorgsky_pictures_baba_yaga.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mussorgsky_pictures_baba_yaga.ogg",
  "release_audio_bytes": 8228923,

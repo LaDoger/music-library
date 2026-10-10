@@ -29,6 +29,7 @@
  "composer_short": "Verdi",
  "composer_sort": "Verdi, Giuseppe",
  "birth_year": 1813,
+ "featured_rank": 2,
  "release_audio_name": "verdi_aida_triumphal_march.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/verdi_aida_triumphal_march.ogg",
  "release_audio_bytes": 5692667,

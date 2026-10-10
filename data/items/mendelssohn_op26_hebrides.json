@@ -29,6 +29,7 @@
  "composer_short": "Mendelssohn",
  "composer_sort": "Mendelssohn, Felix",
  "birth_year": 1809,
+ "featured_rank": 3,
  "release_audio_name": "mendelssohn_op26_hebrides.flac",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/mendelssohn_op26_hebrides.flac",
  "release_audio_bytes": 104081780,

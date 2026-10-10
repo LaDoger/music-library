@@ -29,6 +29,7 @@
  "composer_short": "Bach",
  "composer_sort": "Bach, Johann Sebastian",
  "birth_year": 1685,
+ "featured_rank": 3,
  "release_audio_name": "bach_bwv846_prelude.ogg",
  "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/bach_bwv846_prelude.ogg",
  "release_audio_bytes": 3548463,
