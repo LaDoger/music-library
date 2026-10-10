@@ -17457,8 +17457,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 141,
-  "score_count": 141,
+  "piece_count": 145,
+  "score_count": 145,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17601,7 +17601,11 @@
    "schumann_op124_albumblaetter_3",
    "schumann_op124_albumblaetter_4",
    "schumann_op124_albumblaetter_5",
-   "schumann_op124_albumblaetter_6"
+   "schumann_op124_albumblaetter_6",
+   "schumann_op18_arabeske_1",
+   "schumann_op9_carnaval_2",
+   "schumann_op124_albumblaetter_9",
+   "schumann_op124_albumblaetter_10"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
