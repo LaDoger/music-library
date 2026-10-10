@@ -104,6 +104,19 @@ FLAG_RULES = [
 ]
 
 
+EU_WARN_COMPOSERS = ("stravinsky", "prokofiev")  # LaDoger 2026-10-11: only these get the EU warning
+
+
+def eu_warn(item):
+    """True when a US-PD-only row may still be protected in the EU (named composers, or death < 70 years ago)."""
+    name = (item.get("composer") or "").lower()
+    try:
+        died = int(item.get("death_year") or 0)
+    except ValueError:
+        died = 0
+    return any(c in name for c in EU_WARN_COMPOSERS) or died == 0 or died > 1955
+
+
 def classify(lic):
     """Licence string -> class, or '' when there is nothing licensed."""
     s = (lic or "").strip()
@@ -417,7 +430,10 @@ def build():
         if us_pd:
             pub = item.get("publication_year") or "?"
             death = item.get("death_year") or "?"
-            flags.insert(0, f"US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.{death}, published {pub}")
+            if eu_warn(item):
+                flags.insert(0, f"US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.{death}, published {pub}")
+            else:
+                flags.insert(0, f"Pre-1931 publication: public domain in the US (published {pub}) and in the EU / life+70 countries (composer d.{death}); later works by this composer are not US-PD")
         if rid in FLAGGED:
             flags.insert(0, FLAGGED[rid])
 

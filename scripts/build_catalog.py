@@ -90,8 +90,13 @@ def credit_text(item):
     if item.get("catalog"):
         work += f", {item['catalog']}"
     if item.get("licence_scope") == "US-PD-only":
-        lines = [work + f" (composition: US public domain only; published {item.get('publication_year') or '?'}, "
-                 f"composer d.{item.get('death_year') or '?'}; may be protected outside the US)."]
+        from sync_site_data import eu_warn
+        if eu_warn(item):
+            lines = [work + f" (composition: US public domain only; published {item.get('publication_year') or '?'}, "
+                     f"composer d.{item.get('death_year') or '?'}; may be protected outside the US)."]
+        else:
+            lines = [work + f" (composition public domain in the US, published {item.get('publication_year') or '?'}, "
+                     f"and in the EU / life+70 countries, composer d.{item.get('death_year') or '?'})."]
     else:
         lines = [work + " (composition public domain)."]
     if item.get("has_recording"):

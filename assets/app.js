@@ -230,7 +230,13 @@
   };
   const scopeBadge = (r) => {
     if (r.licence_scope !== "US-PD-only") return "";
-    const tip = "US public domain only — may be copyrighted elsewhere, including EU/Poland. Composer died 1930–1955; work published before 1931.";
+    const died = parseInt(r.death_year, 10) || 0;
+    const euWarn = /stravinsky|prokofiev/i.test(r.composer || "") || !died || died > 1955;
+    if (!euWarn) {
+      const tip2 = `Public domain in the EU / life+70 countries (composer died ${died}) and in the US for this work (published before 1931). Later works by this composer are not US public domain.`;
+      return `<span class="badge b-us-pd" title="${esc(tip2)}">PD: EU + US (pre-1931 work)</span>`;
+    }
+    const tip = "US public domain only — may be copyrighted elsewhere, including EU/Poland. Work published before 1931.";
     return `<span class="badge b-us-pd" title="${esc(tip)}">US public domain only</span>`;
   };
   const ocrBadge = (r) => (r.score_method || "").startsWith("OCR")
