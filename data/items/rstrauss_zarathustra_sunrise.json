@@ -17,12 +17,15 @@
  "recording_performer": "Kevin MacLeod (incompetech.com), 2010",
  "recording_license": "CC BY 3.0",
  "recording_quality": "OGG Vorbis ~400 kbps; 44.1 kHz stereo",
- "legal_notes": "FLAG composer term: Richard Strauss died 1949. This tone poem was published in 1896, so the composition is PD-US (published before 1930) and PD in life+70 countries since 1 Jan 2020. Later Strauss works are not the same. The recording is Kevin MacLeod's performance, file metadata and the Commons page say CC BY 3.0. Required credit: Kevin MacLeod (incompetech.com), Creative Commons Attribution 3.0 (https://creativecommons.org/licenses/by/3.0/). Source page links incompetech. Not a Vienna Philharmonic recording.",
+ "legal_notes": "US public domain only (composer died 1949; work published 1896, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. FLAG composer term: Richard Strauss died 1949. This tone poem was published in 1896, so the composition is PD-US (published before 1930) and PD in life+70 countries since 1 Jan 2020. Later Strauss works are not the same. The recording is Kevin MacLeod's performance, file metadata and the Commons page say CC BY 3.0. Required credit: Kevin MacLeod (incompetech.com), Creative Commons Attribution 3.0 (https://creativecommons.org/licenses/by/3.0/). Source page links incompetech. Not a Vienna Philharmonic recording.",
  "local_score_path": "",
  "local_audio_path": "files/audio/rstrauss_zarathustra_sunrise.ogg",
  "preview_path": "previews/rstrauss_zarathustra_sunrise.mp3",
  "verified": "yes",
  "added_by": "grok",
+ "licence_scope": "US-PD-only",
+ "publication_year": "1896",
+ "licence_scope_reason": "US public domain only (composer died 1949; work published 1896, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
  "genre": "classical",
  "era": "Late Romantic / early 20th",
  "composer_slug": "richard-strauss",
@@ -45,8 +48,10 @@
  "has_recording": true,
  "recording_status": "attribution",
  "score_status": "",
- "licence_status": "attribution",
+ "licence_status": "flagged",
  "legal_flags": [
+  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1949, published 1896",
+  "US public domain only",
   "Composer-term caveat"
  ],
  "energy": "high",
@@ -67,6 +72,6 @@
  "score_files_abs": [],
  "midi_play_url_abs": "",
  "render_midi": null,
- "licence_meaning": "CC BY somewhere in the row. Commercial use OK with the credit line in the post / video description.",
- "credit_text": "Richard Strauss: Also sprach Zarathustra: Sunrise, Op.30 (composition public domain).\nRecording: Kevin MacLeod (incompetech.com), 2010. Licence: CC BY 3.0. Source: https://commons.wikimedia.org/wiki/File:Also_Sprach_Zarathustra_-_Einleitung.ogg"
+ "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
+ "credit_text": "Richard Strauss: Also sprach Zarathustra: Sunrise, Op.30 (composition: US public domain only; published 1896, composer d.1949; may be protected outside the US).\nRecording: Kevin MacLeod (incompetech.com), 2010. Licence: CC BY 3.0. Source: https://commons.wikimedia.org/wiki/File:Also_Sprach_Zarathustra_-_Einleitung.ogg"
 }

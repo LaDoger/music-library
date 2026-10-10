@@ -17,12 +17,15 @@
  "recording_performer": "\"The President's Own\" United States Marine Band (recorded 1988)",
  "recording_license": "PD-USGov",
  "recording_quality": "MP3 143 kbps; 44.1 kHz stereo",
- "legal_notes": "FLAG death year, same family of caution as Holst: Elgar died 1934. This march was published in 1901, before 1930, so the composition is PD-US. Life+70 countries: PD since 2005. Commons composition tag pd-old-auto-expired|1934 claims PD where the term is life+80 or fewer, and PD-US for publication before 1 Jan 1931. Performance tag PD-USGov-Marines redirects to PD-USGov-Military-Marines (U.S. government work, public domain in the United States). ID3 in the file names the 17 Apr 1988 band-hall album. Foreign status of the recording varies. Nimrod was not used: the easy Commons file is a 1947 commercial recording still protected in the US.",
+ "legal_notes": "US public domain only (composer died 1934; work published 1901, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. FLAG death year, same family of caution as Holst: Elgar died 1934. This march was published in 1901, before 1930, so the composition is PD-US. Life+70 countries: PD since 2005. Commons composition tag pd-old-auto-expired|1934 claims PD where the term is life+80 or fewer, and PD-US for publication before 1 Jan 1931. Performance tag PD-USGov-Marines redirects to PD-USGov-Military-Marines (U.S. government work, public domain in the United States). ID3 in the file names the 17 Apr 1988 band-hall album. Foreign status of the recording varies. Nimrod was not used: the easy Commons file is a 1947 commercial recording still protected in the US.",
  "local_score_path": "",
  "local_audio_path": "files/audio/elgar_pomp_circumstance_1.mp3",
  "preview_path": "previews/elgar_pomp_circumstance_1.mp3",
  "verified": "yes",
  "added_by": "grok",
+ "licence_scope": "US-PD-only",
+ "publication_year": "1901",
+ "licence_scope_reason": "US public domain only (composer died 1934; work published 1901, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
  "genre": "classical",
  "era": "Late Romantic / early 20th",
  "composer_slug": "edward-elgar",
@@ -45,8 +48,10 @@
  "has_recording": true,
  "recording_status": "clean",
  "score_status": "",
- "licence_status": "clean",
+ "licence_status": "flagged",
  "legal_flags": [
+  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1934, published 1901",
+  "US public domain only",
   "Composer-term caveat",
   "US-gov PD (territorial)"
  ],
@@ -83,6 +88,6 @@
  "score_files_abs": [],
  "midi_play_url_abs": "",
  "render_midi": null,
- "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Edward Elgar: Pomp and Circumstance March No. 1, Op.39 No.1 (composition public domain).\nRecording: \"The President's Own\" United States Marine Band (recorded 1988). Licence: PD-USGov. Source: https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3"
+ "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
+ "credit_text": "Edward Elgar: Pomp and Circumstance March No. 1, Op.39 No.1 (composition: US public domain only; published 1901, composer d.1934; may be protected outside the US).\nRecording: \"The President's Own\" United States Marine Band (recorded 1988). Licence: PD-USGov. Source: https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3"
 }

@@ -17,12 +17,15 @@
  "recording_performer": "Musopen (performers not named)",
  "recording_license": "PD (Commons: PD-Author + PD-RusEmpire; Musopen OTRS 2008012110017088)",
  "recording_quality": "OGG Vorbis ~135k 48 kHz stereo",
- "legal_notes": "FLAG RACHMANINOFF: PD life+70 since 2014. US: Op. 18 published 1901 -> PD. Recording PD via Musopen. Opening bell chords at 0:00 are the iconic hook; preview uses the march-like climax. Direct file: https://upload.wikimedia.org/wikipedia/commons/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg",
+ "legal_notes": "US public domain only (composer died 1943; work published 1901, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. FLAG RACHMANINOFF: PD life+70 since 2014. US: Op. 18 published 1901 -> PD. Recording PD via Musopen. Opening bell chords at 0:00 are the iconic hook; preview uses the march-like climax. Direct file: https://upload.wikimedia.org/wikipedia/commons/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg",
  "local_score_path": "",
  "local_audio_path": "files/audio/rachmaninoff_piano_concerto_2.ogg",
  "preview_path": "previews/rachmaninoff_piano_concerto_2.mp3",
  "verified": "yes",
  "added_by": "claude",
+ "licence_scope": "US-PD-only",
+ "publication_year": "1901",
+ "licence_scope_reason": "US public domain only (composer died 1943; work published 1901, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
  "genre": "classical",
  "era": "Late Romantic / early 20th",
  "composer_slug": "sergei-rachmaninoff",
@@ -46,8 +49,10 @@
  "has_recording": true,
  "recording_status": "clean",
  "score_status": "",
- "licence_status": "clean",
+ "licence_status": "flagged",
  "legal_flags": [
+  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1943, published 1901",
+  "US public domain only",
   "Composer-term caveat"
  ],
  "energy": "high",
@@ -83,6 +88,6 @@
  "score_files_abs": [],
  "midi_play_url_abs": "",
  "render_midi": null,
- "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Sergei Rachmaninoff: Piano Concerto No. 2 - I. Moderato, Op. 18 (composition public domain).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-Author + PD-RusEmpire; Musopen OTRS 2008012110017088). Source: https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg"
+ "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
+ "credit_text": "Sergei Rachmaninoff: Piano Concerto No. 2 - I. Moderato, Op. 18 (composition: US public domain only; published 1901, composer d.1943; may be protected outside the US).\nRecording: Musopen (performers not named). Licence: PD (Commons: PD-Author + PD-RusEmpire; Musopen OTRS 2008012110017088). Source: https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg"
 }

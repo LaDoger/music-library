@@ -743,7 +743,7 @@
     "triumph"
    ],
    "energy": "high",
-   "licence_status": "clean",
+   "licence_status": "flagged",
    "recording_status": "clean",
    "score_status": "",
    "verified": "yes",
@@ -1523,7 +1523,7 @@
     "stormy"
    ],
    "energy": "high",
-   "licence_status": "clean",
+   "licence_status": "flagged",
    "recording_status": "clean",
    "score_status": "",
    "verified": "yes",
@@ -1588,7 +1588,7 @@
     "slow"
    ],
    "energy": "low",
-   "licence_status": "clean",
+   "licence_status": "flagged",
    "recording_status": "clean",
    "score_status": "",
    "verified": "yes",
@@ -1686,7 +1686,7 @@
     "fanfare"
    ],
    "energy": "high",
-   "licence_status": "attribution",
+   "licence_status": "flagged",
    "recording_status": "attribution",
    "score_status": "",
    "verified": "yes",

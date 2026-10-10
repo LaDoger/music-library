@@ -17,12 +17,15 @@
  "recording_performer": "Pracchia-78 (own virtual-piano render)",
  "recording_license": "PD-self",
  "recording_quality": "OGG Vorbis ~128 kbps; 44.1 kHz stereo",
- "legal_notes": "Piano pavane published 1899; orchestration 1910. Ravel d.1937: PD in life+70 countries since 2008, and PD-US because of the 1899 publication. This audio is not a concert performance. The file page says the uploader created it with a GigaSampler virtual piano and released it with PD-self: the copyright holder releases the work into the public domain worldwide, or if that is not possible grants use for any purpose without conditions. Boléro was not included (disputed). No clean PD edition of the String Quartet, movement 2, was found.",
+ "legal_notes": "US public domain only (composer died 1937; work published 1900, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag. Piano pavane published 1899; orchestration 1910. Ravel d.1937: PD in life+70 countries since 2008, and PD-US because of the 1899 publication. This audio is not a concert performance. The file page says the uploader created it with a GigaSampler virtual piano and released it with PD-self: the copyright holder releases the work into the public domain worldwide, or if that is not possible grants use for any purpose without conditions. Boléro was not included (disputed). No clean PD edition of the String Quartet, movement 2, was found.",
  "local_score_path": "",
  "local_audio_path": "files/audio/ravel_pavane.ogg",
  "preview_path": "previews/ravel_pavane.mp3",
  "verified": "yes",
  "added_by": "grok",
+ "licence_scope": "US-PD-only",
+ "publication_year": "1900",
+ "licence_scope_reason": "US public domain only (composer died 1937; work published 1900, before 1931). May still be copyrighted elsewhere, including life+70 / life+100 territories (EU/Poland and others). LaDoger approved 2026-10-10 with this flag.",
  "genre": "classical",
  "era": "Late Romantic / early 20th",
  "composer_slug": "maurice-ravel",
@@ -45,8 +48,11 @@
  "has_recording": true,
  "recording_status": "clean",
  "score_status": "",
- "licence_status": "clean",
- "legal_flags": [],
+ "licence_status": "flagged",
+ "legal_flags": [
+  "US public domain only — may be copyrighted elsewhere (incl. EU/Poland); composer d.1937, published 1900",
+  "US public domain only"
+ ],
  "energy": "low",
  "editors_pick": false,
  "editors_pick_rank": 0,
@@ -80,6 +86,6 @@
  "score_files_abs": [],
  "midi_play_url_abs": "",
  "render_midi": null,
- "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Maurice Ravel: Pavane pour une infante défunte, M.19 (composition public domain).\nRecording: Pracchia-78 (own virtual-piano render). Licence: PD-self. Source: https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Pavane_pour_une_infante_d%C3%A9funte.ogg"
+ "licence_meaning": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
+ "credit_text": "Maurice Ravel: Pavane pour une infante défunte, M.19 (composition: US public domain only; published 1900, composer d.1937; may be protected outside the US).\nRecording: Pracchia-78 (own virtual-piano render). Licence: PD-self. Source: https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Pavane_pour_une_infante_d%C3%A9funte.ogg"
 }
