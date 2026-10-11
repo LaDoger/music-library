@@ -5,9 +5,9 @@
  "title": "Papillons - No. 9",
  "catalog": "Op. 2",
  "movement": "No. 9",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;dreamy;suspended;unsettled;key: D-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D-flat major. Chord journey: ii4 - vi7 loop with lingering vi, bVI - iv - bVI - bIV colour, ii - II#3 - V pivot, closes on vii#6 with no firm tonic. Texture: sparse two-voice melody over a slow chordal bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "dreamy",
+  "suspended",
+  "unsettled",
+  "key: D-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

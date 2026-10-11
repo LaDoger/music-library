@@ -5,9 +5,9 @@
  "title": "Papillons - No. 7",
  "catalog": "Op. 2",
  "movement": "No. 7",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;capricious;lilting;key: Ab major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Ab major. Chord journey: vi - III7 - IV6 - vi turnaround, #iio6 - I - ii - iii - IV - v7 - I, ends with v5 - i5 minor shadow then iii. Texture: light dance figuration with a clear melodic top line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "capricious",
+  "lilting",
+  "key: Ab major"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 1",
  "catalog": "Op. 6",
  "movement": "No. 1",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;buoyant;dance-like;key: G major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G major. Chord journey: i5 - I - IV - viiø43 - I, iii and i flicker, ii+ - I32 - bVII - bVI - vi, closes via iv to I6. Texture: brisk chordal dance with a bouncing bass under a bright melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "buoyant",
+  "dance-like",
+  "key: G major"
  ],
  "has_editable_score": true,
  "has_recording": false,

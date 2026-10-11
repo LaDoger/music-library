@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 4",
  "catalog": "Op. 6",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;turbulent;brooding;dark;key: B minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B minor. Chord journey: v - i - III+6/4 - i - III4/2 - III7 - bVII7 - viio7 - i - i7 - bVI4 - iv - bVII4 - V7 - i6/4, closes i - v - v - i. Texture: driving chordal outbursts over a repeated bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "turbulent",
+  "brooding",
+  "dark",
+  "key: B minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

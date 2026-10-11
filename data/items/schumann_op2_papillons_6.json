@@ -5,9 +5,9 @@
  "title": "Papillons - No. 6",
  "catalog": "Op. 2",
  "movement": "No. 6",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;agitated;playful;dramatic;key: D minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: viio6 - i7 rocking with i6 - III - V, V - I - V tonic-dominant cycling, returns to i7 and closes i6 - v - i. Texture: rapid staccato figuration with punctuating chord changes.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "agitated",
+  "playful",
+  "dramatic",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

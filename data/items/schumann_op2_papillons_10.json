@@ -5,9 +5,9 @@
  "title": "Papillons - No. 10",
  "catalog": "Op. 2",
  "movement": "No. 10",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;yearning;restless;unresolved;key: G major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G major. Chord journey: iv - v42 sustained - vi7 - iii - ii7 - #i (G# colour) - bVII - i+ - bVII - #i6, ends on ii6 - IV6/4 - ii4/2 with no tonic close. Texture: dense chordal texture with rising sixteenth figuration.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "yearning",
+  "restless",
+  "unresolved",
+  "key: G major"
  ],
  "has_editable_score": true,
  "has_recording": false,

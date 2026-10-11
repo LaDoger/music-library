@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 3",
  "catalog": "Op. 6",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;sunny;buoyant;bright;key: G major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G major. Chord journey: I - IV - I - iv7 - I - IV - iii6/4 - ii - ii6 - #iv6 - vi6 - #vi7 - ii2 - ii5 - #iv, closes I64 - I. Texture: bright two-staff chordal texture with a sustained bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "sunny",
+  "buoyant",
+  "bright",
+  "key: G major"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -668972,9 +668972,9 @@
   "title": "Davidsbündlertänze - No. 1",
   "catalog": "Op. 6",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;bright;buoyant;dance-like;key: G major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: i5 - I - IV - viiø43 - I, iii and i flicker, ii+ - I32 - bVII - bVI - vi, closes via iv to I6. Texture: brisk chordal dance with a bouncing bass under a bright melody.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669014,8 +669014,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "bright",
+   "buoyant",
+   "dance-like",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669032,7 +669035,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_1.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 1 robert schumann op. 6 op 6 op. 6 op6 no. 1 schumann op6 davidsbuendlertaenze 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 1 robert schumann op. 6 op 6 op. 6 op6 no. 1 schumann op6 davidsbuendlertaenze 1 classical piano bright buoyant dance-like key: g major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_6",
@@ -669041,9 +669044,9 @@
   "title": "Papillons - No. 6",
   "catalog": "Op. 2",
   "movement": "No. 6",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;agitated;playful;dramatic;key: D minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D minor. Chord journey: viio6 - i7 rocking with i6 - III - V, V - I - V tonic-dominant cycling, returns to i7 and closes i6 - v - i. Texture: rapid staccato figuration with punctuating chord changes.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669083,8 +669086,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "agitated",
+   "playful",
+   "dramatic",
+   "key: D minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669101,7 +669107,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_6.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 6 robert schumann op. 2 op 2 op. 2 op2 no. 6 schumann op2 papillons 6 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 6 robert schumann op. 2 op 2 op. 2 op2 no. 6 schumann op2 papillons 6 classical piano agitated playful dramatic key: d minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_7",
@@ -669110,9 +669116,9 @@
   "title": "Papillons - No. 7",
   "catalog": "Op. 2",
   "movement": "No. 7",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;tender;capricious;lilting;key: Ab major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: vi - III7 - IV6 - vi turnaround, #iio6 - I - ii - iii - IV - v7 - I, ends with v5 - i5 minor shadow then iii. Texture: light dance figuration with a clear melodic top line.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669152,8 +669158,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "tender",
+   "capricious",
+   "lilting",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669170,7 +669179,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_7.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 7 robert schumann op. 2 op 2 op. 2 op2 no. 7 schumann op2 papillons 7 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 7 robert schumann op. 2 op 2 op. 2 op2 no. 7 schumann op2 papillons 7 classical piano tender capricious lilting key: ab major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op6_davidsbuendlertaenze_2",
@@ -669179,9 +669188,9 @@
   "title": "Davidsbündlertänze - No. 2",
   "catalog": "Op. 6",
   "movement": "No. 2",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;restless;searching;brooding;key: B minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: B minor. Chord journey: III+7 - III+7 - III - ii7 cycles, v7 - v7 - III#6/4 - v#6/3 - bVI7 - I6/4 - ii6 - vi7 - V, closes III+7 - III - ii7 - i. Texture: pulsing chordal figures with dense inner motion.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669221,8 +669230,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "restless",
+   "searching",
+   "brooding",
+   "key: B minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669239,7 +669251,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_2.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 2 robert schumann op. 6 op 6 op. 6 op6 no. 2 schumann op6 davidsbuendlertaenze 2 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 2 robert schumann op. 6 op 6 op. 6 op6 no. 2 schumann op6 davidsbuendlertaenze 2 classical piano restless searching brooding key: b minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_8",
@@ -669248,9 +669260,9 @@
   "title": "Papillons - No. 8",
   "catalog": "Op. 2",
   "movement": "No. 8",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;brooding;chromatic;unsettled;key: C# minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C# minor. Chord journey: i7 - iv - bVI - V, bIII - bVI - bIV chromatic detour, bVII colour, ends on bVII without returning to i. Texture: heavy chordal texture with broken lower lines.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669290,8 +669302,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "brooding",
+   "chromatic",
+   "unsettled",
+   "key: C# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669308,7 +669323,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_8.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 8 robert schumann op. 2 op 2 op. 2 op2 no. 8 schumann op2 papillons 8 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 8 robert schumann op. 2 op 2 op. 2 op2 no. 8 schumann op2 papillons 8 classical piano brooding chromatic unsettled key: c# minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_9",
@@ -669317,9 +669332,9 @@
   "title": "Papillons - No. 9",
   "catalog": "Op. 2",
   "movement": "No. 9",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;dreamy;suspended;unsettled;key: D-flat major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D-flat major. Chord journey: ii4 - vi7 loop with lingering vi, bVI - iv - bVI - bIV colour, ii - II#3 - V pivot, closes on vii#6 with no firm tonic. Texture: sparse two-voice melody over a slow chordal bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669359,8 +669374,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "dreamy",
+   "suspended",
+   "unsettled",
+   "key: D-flat major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669377,7 +669395,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_9.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 9 robert schumann op. 2 op 2 op. 2 op2 no. 9 schumann op2 papillons 9 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 9 robert schumann op. 2 op 2 op. 2 op2 no. 9 schumann op2 papillons 9 classical piano dreamy suspended unsettled key: d-flat major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op23_nachtstuecke_4",
@@ -669386,9 +669404,9 @@
   "title": "Nachtstücke - No. 4",
   "catalog": "Op. 23",
   "movement": "No. 4",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;nocturnal;wistful;tender;key: F major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F major. Chord journey: #iv°7 - V7 - I, V - IV - V - I, iv and #iv° colour, ends on I64 - V with a half-cadence. Texture: chordal accompaniment with a murmuring bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669428,8 +669446,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "nocturnal",
+   "wistful",
+   "tender",
+   "key: F major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669446,7 +669467,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op23_nachtstuecke_4.mid",
   "other_editions": [],
-  "search_text": "nachtstücke - no. 4 robert schumann op. 23 op 23 op. 23 op23 no. 4 schumann op23 nachtstuecke 4 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "nachtstücke - no. 4 robert schumann op. 23 op 23 op. 23 op23 no. 4 schumann op23 nachtstuecke 4 classical piano nocturnal wistful tender key: f major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op9_carnaval_6",
@@ -669455,9 +669476,9 @@
   "title": "Carnaval - No. 6",
   "catalog": "Op. 9",
   "movement": "No. 6",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;ardent;rhythmic;bright;key: F major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F major. Chord journey: vi5 - #iio6 turn repeated, vi7 - I - I7 - i, bbVII colour, closes on #iio6 with a chromatic tail. Texture: dotted chordal figures with a sharp cross-rhythm.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669497,8 +669518,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "ardent",
+   "rhythmic",
+   "bright",
+   "key: F major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669515,7 +669539,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op9_carnaval_6.mid",
   "other_editions": [],
-  "search_text": "carnaval - no. 6 robert schumann op. 9 op 9 op. 9 op9 no. 6 schumann op9 carnaval 6 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "carnaval - no. 6 robert schumann op. 9 op 9 op. 9 op9 no. 6 schumann op9 carnaval 6 classical piano ardent rhythmic bright key: f major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_10",
@@ -669524,9 +669548,9 @@
   "title": "Papillons - No. 10",
   "catalog": "Op. 2",
   "movement": "No. 10",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;yearning;restless;unresolved;key: G major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: iv - v42 sustained - vi7 - iii - ii7 - #i (G# colour) - bVII - i+ - bVII - #i6, ends on ii6 - IV6/4 - ii4/2 with no tonic close. Texture: dense chordal texture with rising sixteenth figuration.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669566,8 +669590,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "yearning",
+   "restless",
+   "unresolved",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669584,7 +669611,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_10.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 10 robert schumann op. 2 op 2 op. 2 op2 no. 10 schumann op2 papillons 10 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 10 robert schumann op. 2 op 2 op. 2 op2 no. 10 schumann op2 papillons 10 classical piano yearning restless unresolved key: g major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op6_davidsbuendlertaenze_3",
@@ -669593,9 +669620,9 @@
   "title": "Davidsbündlertänze - No. 3",
   "catalog": "Op. 6",
   "movement": "No. 3",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;sunny;buoyant;bright;key: G major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: I - IV - I - iv7 - I - IV - iii6/4 - ii - ii6 - #iv6 - vi6 - #vi7 - ii2 - ii5 - #iv, closes I64 - I. Texture: bright two-staff chordal texture with a sustained bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669635,8 +669662,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "sunny",
+   "buoyant",
+   "bright",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669653,7 +669683,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_3.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 3 robert schumann op. 6 op 6 op. 6 op6 no. 3 schumann op6 davidsbuendlertaenze 3 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 3 robert schumann op. 6 op 6 op. 6 op6 no. 3 schumann op6 davidsbuendlertaenze 3 classical piano sunny buoyant bright key: g major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op9_carnaval_7",
@@ -669662,9 +669692,9 @@
   "title": "Carnaval - No. 7",
   "catalog": "Op. 9",
   "movement": "No. 7",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;playful;coy;brisk;key: E-flat major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E-flat major. Chord journey: ii+ - iii - V6/4 - #iv° - II - vii° - II6 - V - iii - III - vi - v - #iv - v, ends I53 - V64 - ii7 - V64. Texture: light staccato chordal figures over a tripping bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669704,8 +669734,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "playful",
+   "coy",
+   "brisk",
+   "key: E-flat major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669722,7 +669755,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op9_carnaval_7.mid",
   "other_editions": [],
-  "search_text": "carnaval - no. 7 robert schumann op. 9 op 9 op. 9 op9 no. 7 schumann op9 carnaval 7 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "carnaval - no. 7 robert schumann op. 9 op 9 op. 9 op9 no. 7 schumann op9 carnaval 7 classical piano playful coy brisk key: e-flat major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op9_carnaval_8",
@@ -669731,9 +669764,9 @@
   "title": "Carnaval - No. 8",
   "catalog": "Op. 9",
   "movement": "No. 8",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;stark;dotted;restless;key: G minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: vii° - bVI - III - bVI - III6/4 - #io7 - v - #io7 - v6/4 - bVI7 - iv - v6 - bVI6, cadential i6/4 - iv - v - vø7 - v - i6/4. Texture: sharp dotted chordal figures with dense inner motion.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669773,8 +669806,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "stark",
+   "dotted",
+   "restless",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669791,7 +669827,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op9_carnaval_8.mid",
   "other_editions": [],
-  "search_text": "carnaval - no. 8 robert schumann op. 9 op 9 op. 9 op9 no. 8 schumann op9 carnaval 8 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "carnaval - no. 8 robert schumann op. 9 op 9 op. 9 op9 no. 8 schumann op9 carnaval 8 classical piano stark dotted restless key: g minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op99_bunte_blaetter_1",
@@ -669800,9 +669836,9 @@
   "title": "Bunte Blätter - No. 1",
   "catalog": "Op. 99",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;bright;nostalgic;gentle;key: A major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: A major. Chord journey: iv7 - I - i7 minor shadow - iv7 - vi - I - II7 - ii7 - #iv°7 - v - ii - I7 - iii6, closes on I with I6/4 pedal turns. Texture: chordal accompaniment with quick ornamental figures.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -669842,8 +669878,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "bright",
+   "nostalgic",
+   "gentle",
+   "key: A major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -669860,7 +669899,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op99_bunte_blaetter_1.mid",
   "other_editions": [],
-  "search_text": "bunte blätter - no. 1 robert schumann op. 99 op 99 op. 99 op99 no. 1 schumann op99 bunte blaetter 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "bunte blätter - no. 1 robert schumann op. 99 op 99 op. 99 op99 no. 1 schumann op99 bunte blaetter 1 classical piano bright nostalgic gentle key: a major classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz_39_ten_easy_pieces",
@@ -670011,9 +670050,9 @@
   "title": "Davidsbündlertänze - No. 4",
   "catalog": "Op. 6",
   "movement": "No. 4",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;turbulent;brooding;dark;key: B minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: B minor. Chord journey: v - i - III+6/4 - i - III4/2 - III7 - bVII7 - viio7 - i - i7 - bVI4 - iv - bVII4 - V7 - i6/4, closes i - v - v - i. Texture: driving chordal outbursts over a repeated bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -670053,8 +670092,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "turbulent",
+   "brooding",
+   "dark",
+   "key: B minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -670071,7 +670113,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_4.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 4 robert schumann op. 6 op 6 op. 6 op6 no. 4 schumann op6 davidsbuendlertaenze 4 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 4 robert schumann op. 6 op 6 op. 6 op6 no. 4 schumann op6 davidsbuendlertaenze 4 classical piano turbulent brooding dark key: b minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op99_bunte_blaetter_3",
@@ -670080,9 +670122,9 @@
   "title": "Bunte Blätter - No. 3",
   "catalog": "Op. 99",
   "movement": "No. 3",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;sunny;tranquil;lyrical;key: E major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E major. Chord journey: iii6 - I - I - IV6/4 - I - vii7 - V - V6/4 - V - v - v - ii - ii6/4 - ii - ii - vi6, closes I6 - I - I6/4 - I6/4. Texture: even chordal accompaniment under a singing melody.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -670122,8 +670164,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "sunny",
+   "tranquil",
+   "lyrical",
+   "key: E major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -670140,7 +670185,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op99_bunte_blaetter_3.mid",
   "other_editions": [],
-  "search_text": "bunte blätter - no. 3 robert schumann op. 99 op 99 op. 99 op99 no. 3 schumann op99 bunte blaetter 3 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "bunte blätter - no. 3 robert schumann op. 99 op 99 op. 99 op99 no. 3 schumann op99 bunte blaetter 3 classical piano sunny tranquil lyrical key: e major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op99_bunte_blaetter_4",

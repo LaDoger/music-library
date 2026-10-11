@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 8",
  "catalog": "Op. 9",
  "movement": "No. 8",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;stark;dotted;restless;key: G minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: vii° - bVI - III - bVI - III6/4 - #io7 - v - #io7 - v6/4 - bVI7 - iv - v6 - bVI6, cadential i6/4 - iv - v - vø7 - v - i6/4. Texture: sharp dotted chordal figures with dense inner motion.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "stark",
+  "dotted",
+  "restless",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

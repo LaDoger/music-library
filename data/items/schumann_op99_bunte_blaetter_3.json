@@ -5,9 +5,9 @@
  "title": "Bunte Blätter - No. 3",
  "catalog": "Op. 99",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;sunny;tranquil;lyrical;key: E major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E major. Chord journey: iii6 - I - I - IV6/4 - I - vii7 - V - V6/4 - V - v - v - ii - ii6/4 - ii - ii - vi6, closes I6 - I - I6/4 - I6/4. Texture: even chordal accompaniment under a singing melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "sunny",
+  "tranquil",
+  "lyrical",
+  "key: E major"
  ],
  "has_editable_score": true,
  "has_recording": false,

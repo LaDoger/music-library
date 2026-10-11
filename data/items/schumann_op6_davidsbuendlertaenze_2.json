@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 2",
  "catalog": "Op. 6",
  "movement": "No. 2",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;restless;searching;brooding;key: B minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B minor. Chord journey: III+7 - III+7 - III - ii7 cycles, v7 - v7 - III#6/4 - v#6/3 - bVI7 - I6/4 - ii6 - vi7 - V, closes III+7 - III - ii7 - i. Texture: pulsing chordal figures with dense inner motion.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "restless",
+  "searching",
+  "brooding",
+  "key: B minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

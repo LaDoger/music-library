@@ -5,9 +5,9 @@
  "title": "Nachtstücke - No. 4",
  "catalog": "Op. 23",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;nocturnal;wistful;tender;key: F major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F major. Chord journey: #iv°7 - V7 - I, V - IV - V - I, iv and #iv° colour, ends on I64 - V with a half-cadence. Texture: chordal accompaniment with a murmuring bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "nocturnal",
+  "wistful",
+  "tender",
+  "key: F major"
  ],
  "has_editable_score": true,
  "has_recording": false,
