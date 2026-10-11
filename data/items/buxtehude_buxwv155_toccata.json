@@ -37,7 +37,8 @@
  "score_url": "files/scores/buxtehude_buxwv155_toccata.mid",
  "score_files": [
   "files/scores/buxtehude_buxwv155_toccata.ly",
-  "files/scores/buxtehude_buxwv155_toccata.mid"
+  "files/scores/buxtehude_buxwv155_toccata.mid",
+  "files/scores/buxtehude_buxwv155_toccata_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "dramatic",
@@ -67,6 +68,7 @@
    "licence": "PD"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv155_toccata",
@@ -75,7 +77,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata.ly",
-  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata.mid"
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata.mid",
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv155_toccata.mid",
  "render_midi": {

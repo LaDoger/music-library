@@ -721,7 +721,8 @@
   "score_files": [
    "files/scores/bizet_carmen_prelude.ly",
    "files/scores/bizet_carmen_prelude.mid",
-   "files/scores/bizet_carmen_prelude.pdf"
+   "files/scores/bizet_carmen_prelude.pdf",
+   "files/scores/bizet_carmen_toreador_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "swaggering",
@@ -746,7 +747,8 @@
   "duration_s": 270.59,
   "midi_play_url": "files/scores/bizet_carmen_prelude.mid",
   "other_editions": [],
-  "search_text": "carmen - toreador song (votre toast) georges bizet   act ii (clip from musopen opera recording) bizet carmen toreador swaggering bold festive confident classical romantic musopen (opera recording; performers not named) bizet, georges"
+  "search_text": "carmen - toreador song (votre toast) georges bizet   act ii (clip from musopen opera recording) bizet carmen toreador swaggering bold festive confident classical romantic musopen (opera recording; performers not named) bizet, georges",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "borodin_quartet2_nocturne",
@@ -17754,7 +17756,8 @@
   "score_url": "files/scores/alkan_op75_toccatina.mid",
   "score_files": [
    "files/scores/alkan_op75_toccatina-lys.zip",
-   "files/scores/alkan_op75_toccatina.mid"
+   "files/scores/alkan_op75_toccatina.mid",
+   "files/scores/alkan_op75_toccatina_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "brilliant",
@@ -17778,7 +17781,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/alkan_op75_toccatina.mid",
   "other_editions": [],
-  "search_text": "toccatina charles-valentin alkan op. 75 op 75 op. 75 op75  alkan op75 toccatina brilliant driving relentless classical romantic  alkan, charles-valentin"
+  "search_text": "toccatina charles-valentin alkan op. 75 op 75 op. 75 op75  alkan op75 toccatina brilliant driving relentless classical romantic  alkan, charles-valentin",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "scriabin_op2_1_etude",
@@ -19934,7 +19938,8 @@
   "score_url": "files/scores/buxtehude_buxwv155_toccata.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv155_toccata.ly",
-   "files/scores/buxtehude_buxwv155_toccata.mid"
+   "files/scores/buxtehude_buxwv155_toccata.mid",
+   "files/scores/buxtehude_buxwv155_toccata_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -19964,7 +19969,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "toccata dieterich buxtehude buxwv 155 buxwv 155 buxwv155  buxtehude buxwv155 toccata dramatic free organ classical baroque  buxtehude, dieterich"
+  "search_text": "toccata dieterich buxtehude buxwv 155 buxwv 155 buxwv155  buxtehude buxwv155 toccata dramatic free organ classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv185_erhalt_uns",
@@ -20331,7 +20337,8 @@
   "score_url": "files/scores/buxtehude_buxwv75_ad_pedes.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv75_ad_pedes-lys.zip",
-   "files/scores/buxtehude_buxwv75_ad_pedes.mid"
+   "files/scores/buxtehude_buxwv75_ad_pedes.mid",
+   "files/scores/buxtehude_buxwv75_ad_pedes_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "devotional",
@@ -20355,7 +20362,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv75_ad_pedes.mid",
   "other_editions": [],
-  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad pedes buxtehude buxwv75 ad pedes devotional somber baroque classical baroque  buxtehude, dieterich"
+  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad pedes buxtehude buxwv75 ad pedes devotional somber baroque classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv75_ad_genua",
@@ -20461,7 +20469,8 @@
   "score_url": "files/scores/buxtehude_buxwv75_ad_manus.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv75_ad_manus-lys.zip",
-   "files/scores/buxtehude_buxwv75_ad_manus.mid"
+   "files/scores/buxtehude_buxwv75_ad_manus.mid",
+   "files/scores/buxtehude_buxwv75_ad_manus_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "devotional",
@@ -20485,7 +20494,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv75_ad_manus.mid",
   "other_editions": [],
-  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad manus buxtehude buxwv75 ad manus devotional somber baroque classical baroque  buxtehude, dieterich"
+  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad manus buxtehude buxwv75 ad manus devotional somber baroque classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv75_ad_latus",
@@ -20591,7 +20601,8 @@
   "score_url": "files/scores/buxtehude_buxwv75_ad_pectus.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv75_ad_pectus-lys.zip",
-   "files/scores/buxtehude_buxwv75_ad_pectus.mid"
+   "files/scores/buxtehude_buxwv75_ad_pectus.mid",
+   "files/scores/buxtehude_buxwv75_ad_pectus_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "devotional",
@@ -20615,7 +20626,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv75_ad_pectus.mid",
   "other_editions": [],
-  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad pectus buxtehude buxwv75 ad pectus devotional somber baroque classical baroque  buxtehude, dieterich"
+  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad pectus buxtehude buxwv75 ad pectus devotional somber baroque classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv75_ad_cor",
@@ -20656,7 +20668,8 @@
   "score_url": "files/scores/buxtehude_buxwv75_ad_cor.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv75_ad_cor-lys.zip",
-   "files/scores/buxtehude_buxwv75_ad_cor.mid"
+   "files/scores/buxtehude_buxwv75_ad_cor.mid",
+   "files/scores/buxtehude_buxwv75_ad_cor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "devotional",
@@ -20680,7 +20693,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv75_ad_cor.mid",
   "other_editions": [],
-  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad cor buxtehude buxwv75 ad cor devotional somber baroque classical baroque  buxtehude, dieterich"
+  "search_text": "membra jesu nostri dieterich buxtehude buxwv 75 buxwv 75 buxwv75 ad cor buxtehude buxwv75 ad cor devotional somber baroque classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv75_ad_faciem",
@@ -35015,7 +35029,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_ich_ruf_zu_dir_herr_jesus_ch.mid",
   "score_files": [
-   "files/scores/anonymous_ich_ruf_zu_dir_herr_jesus_ch.mid"
+   "files/scores/anonymous_ich_ruf_zu_dir_herr_jesus_ch.mid",
+   "files/scores/anonymous_ich_ruf_zu_dir_herr_jesus_ch_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -35036,7 +35051,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_ich_ruf_zu_dir_herr_jesus_ch.mid",
   "other_editions": [],
-  "search_text": "ich ruf zu dir, herr jesus christ anonymous    anonymous ich ruf zu dir herr jesus ch classical lyrical classical traditional  anonymous"
+  "search_text": "ich ruf zu dir, herr jesus christ anonymous    anonymous ich ruf zu dir herr jesus ch classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_ik_zeg_adieu",
@@ -36417,7 +36433,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_lobt_gott_ihr_christen_allzu.mid",
   "score_files": [
-   "files/scores/anonymous_lobt_gott_ihr_christen_allzu.mid"
+   "files/scores/anonymous_lobt_gott_ihr_christen_allzu.mid",
+   "files/scores/anonymous_lobt_gott_ihr_christen_allzu_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -36438,7 +36455,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_lobt_gott_ihr_christen_allzu.mid",
   "other_editions": [],
-  "search_text": "lobt gott, ihr christen, allzugleich anonymous    anonymous lobt gott ihr christen allzu classical lyrical classical traditional  anonymous"
+  "search_text": "lobt gott, ihr christen, allzugleich anonymous    anonymous lobt gott ihr christen allzu classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_maitland",
@@ -116944,7 +116962,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_a_popular_western_refrain.mid",
   "score_files": [
-   "files/scores/unknown_a_popular_western_refrain.mid"
+   "files/scores/unknown_a_popular_western_refrain.mid",
+   "files/scores/unknown_a_popular_western_refrain_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -116965,7 +116984,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_a_popular_western_refrain.mid",
   "other_editions": [],
-  "search_text": "oh! boatman, haste! daniel decatur emmett esq.   a popular western refrain unknown a popular western refrain classical lyrical classical romantic  esq., daniel decatur emmett"
+  "search_text": "oh! boatman, haste! daniel decatur emmett esq.   a popular western refrain unknown a popular western refrain classical lyrical classical romantic  esq., daniel decatur emmett",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "dow_daniel_dow_bonny_lass_of_fis",
@@ -130360,7 +130380,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_presto.mid",
   "score_files": [
-   "files/scores/elgar_imslp_presto.mid"
+   "files/scores/elgar_imslp_presto.mid",
+   "files/scores/elgar_imslp_presto_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -130383,7 +130404,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_presto.mid",
   "other_editions": [],
-  "search_text": "presto edward elgar    elgar imslp presto fast bright classical late romantic / early 20th  elgar, edward"
+  "search_text": "presto edward elgar    elgar imslp presto fast bright classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_queen_mary_s_song_arr_for_orchestra",
@@ -185305,7 +185327,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_o20no13_drei_sonatines.mid",
   "score_files": [
-   "files/scores/unknown_o20no13_drei_sonatines.mid"
+   "files/scores/unknown_o20no13_drei_sonatines.mid",
+   "files/scores/unknown_o20no13_drei_sonatines_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "playful"
@@ -185325,7 +185348,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_o20no13_drei_sonatines.mid",
   "other_editions": [],
-  "search_text": "sonatine i - rondo frederik kuhlau o 20, no. 1: 3 o 20, no 1: 3 o 20, no. 1: 3 o20,no1:3 drei sonatines unknown o20no13 drei sonatines playful classical romantic  kuhlau, frederik"
+  "search_text": "sonatine i - rondo frederik kuhlau o 20, no. 1: 3 o 20, no 1: 3 o 20, no. 1: 3 o20,no1:3 drei sonatines unknown o20no13 drei sonatines playful classical romantic  kuhlau, frederik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "burgmuller_l_arabesque",
@@ -242381,7 +242405,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_finale_del_atto_ii.mid",
   "score_files": [
-   "files/scores/verdi_finale_del_atto_ii.mid"
+   "files/scores/verdi_finale_del_atto_ii.mid",
+   "files/scores/verdi_finale_del_atto_ii_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242402,7 +242427,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_finale_del_atto_ii.mid",
   "other_editions": [],
-  "search_text": "la traviata - n10 finale del atto ii giuseppe verdi   finale del atto ii verdi finale del atto ii classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n10 finale del atto ii giuseppe verdi   finale del atto ii verdi finale del atto ii classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_coro_di_zingari",
@@ -242447,7 +242473,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_coro_di_zingari.mid",
   "score_files": [
-   "files/scores/verdi_coro_di_zingari.mid"
+   "files/scores/verdi_coro_di_zingari.mid",
+   "files/scores/verdi_coro_di_zingari_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242468,7 +242495,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_coro_di_zingari.mid",
   "other_editions": [],
-  "search_text": "la traviata - n11 coro di zingari giuseppe verdi   coro di zingari verdi coro di zingari classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n11 coro di zingari giuseppe verdi   coro di zingari verdi coro di zingari classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_coro_di_mattadori_spagnuoli",
@@ -242513,7 +242541,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_coro_di_mattadori_spagnuoli.mid",
   "score_files": [
-   "files/scores/verdi_coro_di_mattadori_spagnuoli.mid"
+   "files/scores/verdi_coro_di_mattadori_spagnuoli.mid",
+   "files/scores/verdi_coro_di_mattadori_spagnuoli_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242534,7 +242563,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_coro_di_mattadori_spagnuoli.mid",
   "other_editions": [],
-  "search_text": "la traviata - n12 coro di mattadori spagnuoli giuseppe verdi   coro di mattadori spagnuoli verdi coro di mattadori spagnuoli classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n12 coro di mattadori spagnuoli giuseppe verdi   coro di mattadori spagnuoli verdi coro di mattadori spagnuoli classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_seguito_del_finale_ii",
@@ -242645,7 +242675,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_largo_del_finale_ii.mid",
   "score_files": [
-   "files/scores/verdi_largo_del_finale_ii.mid"
+   "files/scores/verdi_largo_del_finale_ii.mid",
+   "files/scores/verdi_largo_del_finale_ii_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -242666,7 +242697,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_largo_del_finale_ii.mid",
   "other_editions": [],
-  "search_text": "la traviata - n14 largo del finale ii giuseppe verdi   largo del finale ii verdi largo del finale ii slow somber classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n14 largo del finale ii giuseppe verdi   largo del finale ii verdi largo del finale ii slow somber classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_scena_ed_ariab4",
@@ -242711,7 +242743,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_scena_ed_ariab4.mid",
   "score_files": [
-   "files/scores/verdi_scena_ed_ariab4.mid"
+   "files/scores/verdi_scena_ed_ariab4.mid",
+   "files/scores/verdi_scena_ed_ariab4_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242732,7 +242765,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_scena_ed_ariab4.mid",
   "other_editions": [],
-  "search_text": "la traviata - n15 scena ed aria giuseppe verdi   scena ed aria verdi scena ed ariab4 classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n15 scena ed aria giuseppe verdi   scena ed aria verdi scena ed ariab4 classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_coro_baccanale",
@@ -242911,7 +242945,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_scena_finale.mid",
   "score_files": [
-   "files/scores/verdi_scena_finale.mid"
+   "files/scores/verdi_scena_finale.mid",
+   "files/scores/verdi_scena_finale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242932,7 +242967,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_scena_finale.mid",
   "other_editions": [],
-  "search_text": "la traviata - n18 scena finale giuseppe verdi   scena finale verdi scena finale classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n18 scena finale giuseppe verdi   scena finale verdi scena finale classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_brindisi_dell_introduzione",
@@ -242977,7 +243013,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_brindisi_dell_introduzione.mid",
   "score_files": [
-   "files/scores/verdi_brindisi_dell_introduzione.mid"
+   "files/scores/verdi_brindisi_dell_introduzione.mid",
+   "files/scores/verdi_brindisi_dell_introduzione_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242998,7 +243035,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_brindisi_dell_introduzione.mid",
   "other_editions": [],
-  "search_text": "la traviata - n2 brindisi giuseppe verdi   brindisi dell introduzione verdi brindisi dell introduzione classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n2 brindisi giuseppe verdi   brindisi dell introduzione verdi brindisi dell introduzione classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_valzer_e_duetto",
@@ -243109,7 +243147,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_streta_dell_introduzione.mid",
   "score_files": [
-   "files/scores/verdi_streta_dell_introduzione.mid"
+   "files/scores/verdi_streta_dell_introduzione.mid",
+   "files/scores/verdi_streta_dell_introduzione_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -243130,7 +243169,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_streta_dell_introduzione.mid",
   "other_editions": [],
-  "search_text": "la traviata - n4 streta dell'introduzione giuseppe verdi   streta dell'introduzione verdi streta dell introduzione classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n4 streta dell'introduzione giuseppe verdi   streta dell'introduzione verdi streta dell introduzione classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_scena_ed_aria",
@@ -243373,7 +243413,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_scena_e_duettino.mid",
   "score_files": [
-   "files/scores/verdi_scena_e_duettino.mid"
+   "files/scores/verdi_scena_e_duettino.mid",
+   "files/scores/verdi_scena_e_duettino_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -243394,7 +243435,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_scena_e_duettino.mid",
   "other_editions": [],
-  "search_text": "la traviata - n8 scena e duettino giuseppe verdi   scena e duettino verdi scena e duettino classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n8 scena e duettino giuseppe verdi   scena e duettino verdi scena e duettino classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_scena_ed_ariab3",
@@ -272489,7 +272531,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_71_malaguena.mid",
   "score_files": [
-   "files/scores/unknown_71_malaguena.mid"
+   "files/scores/unknown_71_malaguena.mid",
+   "files/scores/unknown_71_malaguena_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -272510,7 +272553,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_71_malaguena.mid",
   "other_editions": [],
-  "search_text": "rumores de la caleta isaac albéniz 71 71 malagueña unknown 71 malaguena classical lyrical classical romantic  albéniz, isaac"
+  "search_text": "rumores de la caleta isaac albéniz 71 71 malagueña unknown 71 malaguena classical lyrical classical romantic  albéniz, isaac",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "albeniz_op165no2_isaac_albeniz_tango",
@@ -335813,7 +335857,8 @@
   "preview_url": "",
   "score_url": "files/scores/strauss2_thunder_and_lightning.mid",
   "score_files": [
-   "files/scores/strauss2_thunder_and_lightning.mid"
+   "files/scores/strauss2_thunder_and_lightning.mid",
+   "files/scores/strauss2_thunder_and_lightning_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -335834,7 +335879,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/strauss2_thunder_and_lightning.mid",
   "other_editions": [],
-  "search_text": "thunder and lightning johann strauss ii    strauss2 thunder and lightning classical lyrical classical romantic  strauss ii, johann"
+  "search_text": "thunder and lightning johann strauss ii    strauss2 thunder and lightning classical lyrical classical romantic  strauss ii, johann",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "strauss2_wer_uns_getraut",
@@ -398400,7 +398446,8 @@
   "preview_url": "",
   "score_url": "files/scores/gottschalk_op100_la_mort_du_cygne.mid",
   "score_files": [
-   "files/scores/gottschalk_op100_la_mort_du_cygne.mid"
+   "files/scores/gottschalk_op100_la_mort_du_cygne.mid",
+   "files/scores/gottschalk_op100_la_mort_du_cygne_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -398421,7 +398468,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/gottschalk_op100_la_mort_du_cygne.mid",
   "other_editions": [],
-  "search_text": "the dying swan louis moreau gottschalk op. 100 op 100 op. 100 op100 la mort du cygne gottschalk op100 la mort du cygne classical lyrical classical romantic  gottschalk, louis moreau"
+  "search_text": "the dying swan louis moreau gottschalk op. 100 op 100 op. 100 op100 la mort du cygne gottschalk op100 la mort du cygne classical lyrical classical romantic  gottschalk, louis moreau",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "gottschalk_op55_battle_cry_of_freedom_gottsc",
@@ -519934,7 +519982,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_march_and_two_step.mid",
   "score_files": [
-   "files/scores/joplin_march_and_two_step.mid"
+   "files/scores/joplin_march_and_two_step.mid",
+   "files/scores/joplin_march_and_two_step_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -519955,7 +520004,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_march_and_two_step.mid",
   "other_editions": [],
-  "search_text": "a breeze from alabama scott joplin   march and two-step joplin march and two step march ceremonial classical romantic  joplin, scott"
+  "search_text": "a breeze from alabama scott joplin   march and two-step joplin march and two step march ceremonial classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_bethena_ragtime_waltz_by_sco",
@@ -520074,7 +520124,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_elite_syncopations.mid",
   "score_files": [
-   "files/scores/joplin_elite_syncopations.mid"
+   "files/scores/joplin_elite_syncopations.mid",
+   "files/scores/joplin_elite_syncopations_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520095,7 +520146,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_elite_syncopations.mid",
   "other_editions": [],
-  "search_text": "elite syncopations scott joplin    joplin elite syncopations classical lyrical classical romantic  joplin, scott"
+  "search_text": "elite syncopations scott joplin    joplin elite syncopations classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_eugenia",
@@ -520140,7 +520192,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_eugenia.mid",
   "score_files": [
-   "files/scores/joplin_eugenia.mid"
+   "files/scores/joplin_eugenia.mid",
+   "files/scores/joplin_eugenia_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520161,7 +520214,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_eugenia.mid",
   "other_editions": [],
-  "search_text": "eugenia scott joplin    joplin eugenia classical lyrical classical romantic  joplin, scott"
+  "search_text": "eugenia scott joplin    joplin eugenia classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_joplination_a_scott_joplin_m",
@@ -520280,7 +520334,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_magnetic_rag.mid",
   "score_files": [
-   "files/scores/joplin_magnetic_rag.mid"
+   "files/scores/joplin_magnetic_rag.mid",
+   "files/scores/joplin_magnetic_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520301,7 +520356,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_magnetic_rag.mid",
   "other_editions": [],
-  "search_text": "magnetic rag scott joplin    joplin magnetic rag classical lyrical classical romantic  joplin, scott"
+  "search_text": "magnetic rag scott joplin    joplin magnetic rag classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_maple_leaf_rag",
@@ -520633,7 +520689,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_original_rags.mid",
   "score_files": [
-   "files/scores/joplin_original_rags.mid"
+   "files/scores/joplin_original_rags.mid",
+   "files/scores/joplin_original_rags_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520654,7 +520711,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_original_rags.mid",
   "other_editions": [],
-  "search_text": "original rags scott joplin    joplin original rags classical lyrical classical romantic  joplin, scott"
+  "search_text": "original rags scott joplin    joplin original rags classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_peacherine_rag",
@@ -520699,7 +520757,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_peacherine_rag.mid",
   "score_files": [
-   "files/scores/joplin_peacherine_rag.mid"
+   "files/scores/joplin_peacherine_rag.mid",
+   "files/scores/joplin_peacherine_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520720,7 +520779,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_peacherine_rag.mid",
   "other_editions": [],
-  "search_text": "peacherine rag scott joplin    joplin peacherine rag classical lyrical classical romantic  joplin, scott"
+  "search_text": "peacherine rag scott joplin    joplin peacherine rag classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_pineapple_rag",
@@ -520765,7 +520825,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_pineapple_rag.mid",
   "score_files": [
-   "files/scores/joplin_pineapple_rag.mid"
+   "files/scores/joplin_pineapple_rag.mid",
+   "files/scores/joplin_pineapple_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520801,7 +520862,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "pineapple rag scott joplin    joplin pineapple rag classical lyrical classical romantic  joplin, scott"
+  "search_text": "pineapple rag scott joplin    joplin pineapple rag classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_please_say_you_will",
@@ -520915,7 +520977,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_search_light_rag.mid",
   "score_files": [
-   "files/scores/joplin_search_light_rag.mid"
+   "files/scores/joplin_search_light_rag.mid",
+   "files/scores/joplin_search_light_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -520936,7 +520999,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_search_light_rag.mid",
   "other_editions": [],
-  "search_text": "search-light rag scott joplin    joplin search light rag classical lyrical classical romantic  joplin, scott"
+  "search_text": "search-light rag scott joplin    joplin search light rag classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_solace",
@@ -521121,7 +521185,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_a_ragtime_two_step.mid",
   "score_files": [
-   "files/scores/joplin_a_ragtime_two_step.mid"
+   "files/scores/joplin_a_ragtime_two_step.mid",
+   "files/scores/joplin_a_ragtime_two_step_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -521142,7 +521207,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_a_ragtime_two_step.mid",
   "other_editions": [],
-  "search_text": "something doing scott joplin   a ragtime two step. joplin a ragtime two step classical lyrical classical romantic  joplin, scott"
+  "search_text": "something doing scott joplin   a ragtime two step. joplin a ragtime two step classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_a_rag_time_two_step",
@@ -521187,7 +521253,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_a_rag_time_two_step.mid",
   "score_files": [
-   "files/scores/joplin_a_rag_time_two_step.mid"
+   "files/scores/joplin_a_rag_time_two_step.mid",
+   "files/scores/joplin_a_rag_time_two_step_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -521208,7 +521275,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_a_rag_time_two_step.mid",
   "other_editions": [],
-  "search_text": "sugar cane scott joplin   a rag time two step joplin a rag time two step classical lyrical classical romantic  joplin, scott"
+  "search_text": "sugar cane scott joplin   a rag time two step joplin a rag time two step classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_rag_time_two_step",
@@ -521253,7 +521321,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_rag_time_two_step.mid",
   "score_files": [
-   "files/scores/joplin_rag_time_two_step.mid"
+   "files/scores/joplin_rag_time_two_step.mid",
+   "files/scores/joplin_rag_time_two_step_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -521274,7 +521343,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_rag_time_two_step.mid",
   "other_editions": [],
-  "search_text": "sun flower slow drag scott joplin   rag time two step joplin rag time two step classical lyrical classical romantic  joplin, scott"
+  "search_text": "sun flower slow drag scott joplin   rag time two step joplin rag time two step classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_the_entertainer_guitareb51",
@@ -521385,7 +521455,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_a_rag_time_two_stepb2.mid",
   "score_files": [
-   "files/scores/joplin_a_rag_time_two_stepb2.mid"
+   "files/scores/joplin_a_rag_time_two_stepb2.mid",
+   "files/scores/joplin_a_rag_time_two_stepb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -521406,7 +521477,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_a_rag_time_two_stepb2.mid",
   "other_editions": [],
-  "search_text": "the easy winners scott joplin   a rag time two step. joplin a rag time two stepb2 classical lyrical classical romantic  joplin, scott"
+  "search_text": "the easy winners scott joplin   a rag time two step. joplin a rag time two stepb2 classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_the_easy_winners",
@@ -521591,7 +521663,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_a_ragtime_two_stepb2.mid",
   "score_files": [
-   "files/scores/joplin_a_ragtime_two_stepb2.mid"
+   "files/scores/joplin_a_ragtime_two_stepb2.mid",
+   "files/scores/joplin_a_ragtime_two_stepb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -521612,7 +521685,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_a_ragtime_two_stepb2.mid",
   "other_editions": [],
-  "search_text": "the entertainer scott joplin   a ragtime two step joplin a ragtime two stepb2 classical lyrical classical romantic  joplin, scott"
+  "search_text": "the entertainer scott joplin   a ragtime two step joplin a ragtime two stepb2 classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_the_entertainer",
@@ -522010,7 +522084,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_the_strenuous_life.mid",
   "score_files": [
-   "files/scores/joplin_the_strenuous_life.mid"
+   "files/scores/joplin_the_strenuous_life.mid",
+   "files/scores/joplin_the_strenuous_life_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -522031,7 +522106,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_the_strenuous_life.mid",
   "other_editions": [],
-  "search_text": "the strenuous life scott joplin    joplin the strenuous life classical lyrical classical romantic  joplin, scott"
+  "search_text": "the strenuous life scott joplin    joplin the strenuous life classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_wall_street_rag",
@@ -522076,7 +522152,8 @@
   "preview_url": "",
   "score_url": "files/scores/joplin_wall_street_rag.mid",
   "score_files": [
-   "files/scores/joplin_wall_street_rag.mid"
+   "files/scores/joplin_wall_street_rag.mid",
+   "files/scores/joplin_wall_street_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -522097,7 +522174,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/joplin_wall_street_rag.mid",
   "other_editions": [],
-  "search_text": "wall street rag scott joplin    joplin wall street rag classical lyrical classical romantic  joplin, scott"
+  "search_text": "wall street rag scott joplin    joplin wall street rag classical lyrical classical romantic  joplin, scott",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_weeping_willow",
@@ -566483,7 +566561,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_the_harlem_rag.mid",
   "score_files": [
-   "files/scores/unknown_the_harlem_rag.mid"
+   "files/scores/unknown_the_harlem_rag.mid",
+   "files/scores/unknown_the_harlem_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -566504,7 +566583,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_the_harlem_rag.mid",
   "other_editions": [],
-  "search_text": "the harlem rag tom turpin    unknown the harlem rag classical lyrical classical 20th century  turpin, tom"
+  "search_text": "the harlem rag tom turpin    unknown the harlem rag classical lyrical classical 20th century  turpin, tom",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_1903_the_st_louis_rag",
