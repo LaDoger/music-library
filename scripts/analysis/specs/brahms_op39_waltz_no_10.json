@@ -1,0 +1,954 @@
+{
+  "meta": {
+    "id": "brahms_op39_waltz_no_10",
+    "parent_item_id": "brahms_op39_waltz_no_10",
+    "title": "Waltz No. 10",
+    "composer": "Johannes Brahms",
+    "source_file": "files/scores/brahms_op39_waltz_no_10.mid",
+    "quarter_range": [
+      0,
+      96.0
+    ],
+    "bar_quarters": 3.0,
+    "time_signature": "3/4",
+    "key": "G",
+    "tempo": 160,
+    "midi_play_url": "files/scores/brahms_op39_waltz_no_10.mid",
+    "source_licence": "PD",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2164",
+    "quantisation_divisors": [
+      4,
+      8
+    ],
+    "notation_notes": "Mutopia MIDI (LilyPond render, Public Domain, piece 2164): 32 bars of 3/4 from quarter 0 (no pickup), quarter = 160 BPM, no CC64 pedal. Both repeats are written out in the MIDI: A = bars 1–8 (1st ending bar 8) and 9–16 (2nd ending bar 16); B = 17–24 (1st ending) and 25–32 (2nd ending). Bar numbers follow the unfolded MIDI, not printed volta numbering. Home key G (MIDI key signature G; the draft's 'b' was a key-window artefact). Grace notes B–C–D before bars 23/31 (0.05 quarter) are omitted in notation. MIDI-derived score, not an Urtext."
+  },
+  "draft": false,
+  "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+  "summary": "A 16-bar G-major waltz with both halves repeated (the MIDI unfolds it to 32 bars). A opens off-tonic: rocking, then rising, parallel thirds over a D pedal (V7). A G pedal then carries G7–C/G–Gm, darkening before a half cadence. B swerves from that D7 straight to B major (chromatic mediant), repeats the figure in B minor, and uses Bm as iii of G to return through IV–ii6–V7–I.",
+  "sections": [
+    {
+      "name": "A",
+      "start_bar": 1,
+      "end_bar": 8,
+      "mood": [
+        "graceful",
+        "lilting"
+      ],
+      "description": "4 bars of V7 over a D pedal (rocking, rising thirds), then 4 bars over a G pedal (G7–C/G–Gm) closing on V7 (1st ending)."
+    },
+    {
+      "name": "A (repeat)",
+      "start_bar": 9,
+      "end_bar": 16,
+      "mood": [
+        "graceful",
+        "lilting"
+      ],
+      "description": "Literal repeat; the 2nd ending (bar 16) closes on V7 (HC)."
+    },
+    {
+      "name": "B",
+      "start_bar": 17,
+      "end_bar": 24,
+      "mood": [
+        "surprised",
+        "bittersweet",
+        "resolved"
+      ],
+      "description": "2+2+4: B major, then B minor, then IV–ii6–V7–I in G (IAC on the 1st ending)."
+    },
+    {
+      "name": "B (repeat)",
+      "start_bar": 25,
+      "end_bar": 32,
+      "mood": [
+        "surprised",
+        "bittersweet",
+        "resolved"
+      ],
+      "description": "Literal repeat; the 2nd ending closes with a PAC on G."
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 1,
+      "end_bar": 16,
+      "labels": [
+        "graceful",
+        "lilting"
+      ]
+    },
+    {
+      "start_bar": 17,
+      "end_bar": 20,
+      "labels": [
+        "surprised",
+        "bittersweet"
+      ]
+    },
+    {
+      "start_bar": 21,
+      "end_bar": 24,
+      "labels": [
+        "resolved"
+      ]
+    },
+    {
+      "start_bar": 25,
+      "end_bar": 28,
+      "labels": [
+        "surprised",
+        "bittersweet"
+      ]
+    },
+    {
+      "start_bar": 29,
+      "end_bar": 32,
+      "labels": [
+        "resolved"
+      ]
+    }
+  ],
+  "tricks": [
+    "Bars 1–4: the waltz opens on V7 over a D pedal, not on the tonic; G appears only as passing G/D sonorities.",
+    "Bars 1 and 3: the RH moves in parallel thirds, first rocking (C/E–D/F#), then climbing a scale in thirds.",
+    "Bars 5–7: the tonic arrives as G7, then C/G, then G minor (Bb–B oscillation) over a G pedal, with an inner line falling F–E–D.",
+    "Bars 16–17: the half-cadence D7 resolves to B major instead of G (chromatic mediant).",
+    "Bars 17–20: the same two bars in B major, then B minor: parallel-mode shading.",
+    "Bars 20–21: Bm is reinterpreted as iii of G and leads back by V7.",
+    "Bars 21–24: IV–ii6–V7–I cadence with falling appoggiatura sixths over V7."
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 8,
+      "why": "Composer's own repeat: the 1st-ending D7 (bar 8) runs into the D7 of bar 1.",
+      "quarter_range": [
+        0,
+        24
+      ],
+      "requires_audition": false
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "why": "Four bars of V7 over a D pedal: a hovering, unresolved loop.",
+      "quarter_range": [
+        0,
+        12
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 17,
+      "end_bar": 24,
+      "why": "Composer's own repeat of B; the G-to-B seam is the mediant swerve.",
+      "quarter_range": [
+        48,
+        72
+      ],
+      "requires_audition": false
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "Rocking thirds over a D pedal, V7–I64–V7: the opening gesture.",
+      "quarter_range": [
+        0,
+        6
+      ]
+    },
+    {
+      "start_bar": 16,
+      "end_bar": 18,
+      "why": "D7 to B major: the chromatic-mediant swerve.",
+      "quarter_range": [
+        45,
+        54
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 21,
+      "end_bar": 24,
+      "why": "IV–ii6–V7–I cadential tag in G.",
+      "quarter_range": [
+        60,
+        72
+      ]
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Bars 1–4: a dominant pedal with rocking thirds feels light and suspended; it suits a soft verse that has not landed yet."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 5–8: G7–C/G–Gm over a tonic pedal darkens, then halts on V7 to set up an arrival."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 17–20: V7 sidestepping to B major, then B minor, gives a bridge a bright jolt and a shadow before IV–ii6–V7–I (bars 21–24) brings it home."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 1,
+      "reason": "The draft's key b was a window artefact; the piece is in G (MIDI key signature G). Bars 1–4 prolong D7 with passing G/D and Em7/D (= G6/D) sonorities; this is not a key change."
+    },
+    {
+      "bar": 7,
+      "reason": "Gm is a colour reading: B natural (LH beat 3 and RH eighths) sounds almost as much as Bb, so a chromatic-neighbour oscillation over G is equally valid."
+    },
+    {
+      "bar": 17,
+      "reason": "Bars 17–20 could be read as a tonicization of III/iii rather than established keys. B and b key signatures are shown because the passage is a self-contained 4-bar unit with no G-major chord."
+    },
+    {
+      "bar": 24,
+      "reason": "IAC vs PAC depends on which RH line is heard as the melody. The D5 top voice makes the 1st ending imperfect; the 2nd ending (bar 32) has G4 on top."
+    }
+  ],
+  "bars": [
+    {
+      "bar": 1,
+      "start_quarter": 0.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant over D pedal; RH thirds C/E–D/F# neighbour, then passing E/G–F#/A"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "A: 8-bar G-major strain (4 bars on a D pedal + 4 on a G pedal), repeated as bars 9–16 (MIDI unfolds the repeat; 1st/2nd endings at bars 8/16)"
+        },
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: opens off-tonic, on a dominant pedal with rocking thirds"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_dominant",
+          "text": "D2 on every downbeat, D3 on beats 2–3, bars 1–4"
+        },
+        {
+          "type": "counterpoint",
+          "technique": "parallel_3rds_6ths",
+          "text": "RH moves in parallel thirds in bars 1 and 3"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "C/E–D/F# rocking thirds rising to E/G–F#/A: the opening cell"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 3.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "tonic over D pedal"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant (D–C–F#–A)"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Em7/D",
+          "rn": "vi42",
+          "function": "tonic colour (= G6/D) over D pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "start_quarter": 6.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; RH climbs in parallel thirds D/F# to B/D"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "tonic over D pedal; A/C passing"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "the third-figure of bar 1 continues as a rising scale in thirds D/F# to B/D, peaking on C/E in bar 4"
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "start_quarter": 9.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; C/E and B/D are upper neighbours; phrase ends on V"
+        }
+      ],
+      "events": [
+        {
+          "type": "rhythm_phrase",
+          "technique": "phrase_length",
+          "text": "4-bar phrase ends on V7 without a cadence; resolution deferred to the G pedal of bar 5"
+        }
+      ]
+    },
+    {
+      "bar": 5,
+      "start_quarter": 12.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7",
+          "rn": "V7/IV",
+          "function": "tonic made applied dominant over G pedal; A5 a passing ninth"
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the tonic arrives, but as G7 over a G pedal"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_tonic",
+          "text": "G2 downbeats and G3 on beats 2–3, bars 5–7"
+        },
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "leaping RH figure (B4–F5–A5 / B4–E5–G5 / Bb4–D5–G5) with an inner line falling F–E–D, bars 5–7"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 15.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C/G",
+          "rn": "IV64",
+          "function": "subdominant over G pedal; repeated B4 an upper-voice suspension"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "start_quarter": 18.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Gm",
+          "rn": "i",
+          "function": "borrowed minor tonic over G pedal; Bb–B natural oscillation"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "G-minor colour: Bb4 alternates with B natural over the G pedal (G7, C/G, Gm darkening)"
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "start_quarter": 21.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "chromatic appoggiatura",
+          "reason": "G2 bass under F#4/G#4 then A4: no complete triad; G# is a chromatic lower neighbour to A"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; E/G and D/F# passing thirds"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "HC",
+          "text": "1st ending: phrase closes on V7, which runs into the D7 of the repeated bar 1"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "elision",
+          "text": "the 1st-ending D7 flows directly into the D7 prolongation of bar 1"
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "start_quarter": 24.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant over D pedal; RH thirds C/E–D/F# neighbour, then passing E/G–F#/A"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "A repeated (written-out repeat of bars 1–8)"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "start_quarter": 27.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "tonic over D pedal"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant (D–C–F#–A)"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Em7/D",
+          "rn": "vi42",
+          "function": "tonic colour (= G6/D) over D pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 11,
+      "start_quarter": 30.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; RH climbs in parallel thirds D/F# to B/D"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "tonic over D pedal; A/C passing"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 12,
+      "start_quarter": 33.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; C/E and B/D are upper neighbours; phrase ends on V"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 13,
+      "start_quarter": 36.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7",
+          "rn": "V7/IV",
+          "function": "tonic made applied dominant over G pedal; A5 a passing ninth"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 14,
+      "start_quarter": 39.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C/G",
+          "rn": "IV64",
+          "function": "subdominant over G pedal; repeated B4 an upper-voice suspension"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 15,
+      "start_quarter": 42.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Gm",
+          "rn": "i",
+          "function": "borrowed minor tonic over G pedal; Bb–B natural oscillation"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 45.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "chromatic appoggiatura over D",
+          "reason": "D2 with F#4/G#4 only; no A or C until beat 2"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; B4 a passing upper note"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "HC",
+          "text": "2nd ending: A closes on V7 in G"
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "start_quarter": 48.0,
+      "duration_quarters": 3.0,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/D#",
+          "rn": "I6",
+          "function": "B-major tonic; bass arpeggiates D#–F#–B, A#/C# passing thirds"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_2",
+          "text": "B: 8 bars (2 in B major, 2 in B minor, 4 cadential bars in G), repeated as bars 25–32"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the D7 of bar 16 swerves to B major instead of G"
+        },
+        {
+          "type": "modulation",
+          "technique": "chromatic_mediant",
+          "text": "G to B major directly after the V7 half cadence (chromatic mediant)",
+          "from_key": "G",
+          "to_key": "B"
+        },
+        {
+          "type": "bass_line",
+          "technique": "arpeggiated",
+          "text": "octave bass D#–F#–B / F#–F#–B outlines the tonic, bars 17–20"
+        },
+        {
+          "type": "counterpoint",
+          "technique": "parallel_3rds_6ths",
+          "text": "RH thirds rock F#/B–A#/C# then rise to C#/E"
+        },
+        {
+          "type": "hook",
+          "technique": "harmonic_cell",
+          "text": "D7 to B major: the chromatic-mediant swerve"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "start_quarter": 51.0,
+      "duration_quarters": 3.0,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/F#",
+          "rn": "I64",
+          "function": "B tonic prolonged; RH thirds D#/F#, C#/E, B/D# descend, C#/E passing"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 19,
+      "start_quarter": 54.0,
+      "duration_quarters": 3.0,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/D",
+          "rn": "i6",
+          "function": "same figure with D natural (parallel minor); bass D–F#–B"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "B major to B minor (parallel mode) at the 2-bar repetition; D natural replaces D#",
+          "from_key": "B",
+          "to_key": "b"
+        },
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "bars 17–18 repeated in the minor mode"
+        }
+      ]
+    },
+    {
+      "bar": 20,
+      "start_quarter": 57.0,
+      "duration_quarters": 3.0,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "i64",
+          "function": "minor tonic prolonged; C#/E passing; Bm = iii of G, the pivot back"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 21,
+      "start_quarter": 60.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant of G; RH A/C–B/D neighbour thirds climb to D/F#"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "Bm (i in b = iii in G) moves to D7 (V7 of G): back to the home key",
+          "from_key": "b",
+          "to_key": "G"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: IV–ii6–V7–I brings the swerve home to G"
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "start_quarter": 63.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C",
+          "rn": "IV",
+          "function": "subdominant, root position"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Am/C",
+          "rn": "ii6",
+          "function": "pre-dominant; grace B–C–D into the next bar"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 23,
+      "start_quarter": 66.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; RH sixths E/C, D/B fall to C/A (chord tones)"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "RH E/C and D/B over the D7 bass fall to C/A across the bar"
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "start_quarter": 69.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G",
+          "rn": "I",
+          "function": "tonic arrival"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "1st ending: root-position V7–I, but top voice D5 (scale degree 5); beat-3 G4/B4 leads into the repeat"
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "start_quarter": 72.0,
+      "duration_quarters": 3.0,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/D#",
+          "rn": "I6",
+          "function": "B-major tonic; bass arpeggiates D#–F#–B, A#/C# passing thirds"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_2",
+          "text": "B repeated (written-out repeat of bars 17–24)"
+        },
+        {
+          "type": "modulation",
+          "technique": "chromatic_mediant",
+          "text": "G (bar 24) to B major again at the repeat",
+          "from_key": "G",
+          "to_key": "B"
+        }
+      ]
+    },
+    {
+      "bar": 26,
+      "start_quarter": 75.0,
+      "duration_quarters": 3.0,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/F#",
+          "rn": "I64",
+          "function": "B tonic prolonged; RH thirds D#/F#, C#/E, B/D# descend, C#/E passing"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 27,
+      "start_quarter": 78.0,
+      "duration_quarters": 3.0,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/D",
+          "rn": "i6",
+          "function": "same figure with D natural (parallel minor); bass D–F#–B"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "B to b again",
+          "from_key": "B",
+          "to_key": "b"
+        }
+      ]
+    },
+    {
+      "bar": 28,
+      "start_quarter": 81.0,
+      "duration_quarters": 3.0,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "i64",
+          "function": "minor tonic prolonged; C#/E passing; Bm = iii of G, the pivot back"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 29,
+      "start_quarter": 84.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant of G; RH A/C–B/D neighbour thirds climb to D/F#"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "Bm to D7: back to G",
+          "from_key": "b",
+          "to_key": "G"
+        }
+      ]
+    },
+    {
+      "bar": 30,
+      "start_quarter": 87.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C",
+          "rn": "IV",
+          "function": "subdominant, root position"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Am/C",
+          "rn": "ii6",
+          "function": "pre-dominant; grace B–C–D into the next bar"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 31,
+      "start_quarter": 90.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; RH sixths E/C, D/B fall to C/A (chord tones)"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "RH E/C and D/B over the D7 bass fall to C/A across the bar"
+        }
+      ]
+    },
+    {
+      "bar": 32,
+      "start_quarter": 93.0,
+      "duration_quarters": 3.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G",
+          "rn": "I",
+          "function": "tonic arrival"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "PAC",
+          "text": "2nd ending: root-position V7–I, top voice A4 to G4; the piece ends on beat 2 with no coda"
+        }
+      ]
+    }
+  ]
+}
