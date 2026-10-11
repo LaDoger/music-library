@@ -274,7 +274,8 @@ h2::before { content: ""; display: inline-block; width: 14px; height: 1px; backg
 .results.list .c-cat { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .results.list .excerpt, .results.list .meta .mood, .results.list .sub-status, .results.list .meta .tag:not(.score):not(.rec) { display: none; }
 .results.list .meta { flex: none; }
-.results.list .badges { margin: 0; flex: none; }
+.results.list .badges { margin: 0; flex: 0 1 auto; min-width: 0; justify-content: flex-end; }
+.results.list .badge { max-width: 100%; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .results.list .play-btn { width: 34px; height: 34px; font-size: 12px; }
 
 .empty-state { grid-column: 1 / -1; text-align: center; padding: 48px 16px; color: var(--muted); border: 1px dashed var(--line2); border-radius: var(--radius); }
