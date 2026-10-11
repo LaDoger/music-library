@@ -19,9 +19,14 @@ for r in done:
         old=f'files/scores/{k}_reconstructed.mxl'
         if os.path.exists(old): rm.append(old)
 if add:
-    if rm: subprocess.run(['git','rm','-q']+rm)
-    subprocess.run(['git','add']+add+['logs/ly2mxl.jsonl'],check=True)
-    subprocess.run(['git','commit','-qm',f'MusicBot: {len(add)} scores converted from LilyPond source (replace MIDI reconstructions)'],check=True)
+    import time
+    for f in rm:
+        if subprocess.run(['git','ls-files','--error-unmatch',f],capture_output=True).returncode==0: subprocess.run(['git','rm','-q','--cached',f])
+        if os.path.exists(f): os.remove(f)
+    for _ in range(5):
+        if subprocess.run(['git','add']+add).returncode==0: break
+        time.sleep(5)
+    subprocess.run(['git','commit','-qm',f'MusicBot: {len(add)} scores converted from LilyPond source (replace MIDI reconstructions)','--']+add+rm)
     subprocess.run('flock /tmp/wt_ocr.lock scripts/midi2score/safe_push_wt.sh | tail -1',shell=True)
 print('pass',len(add))
 PY

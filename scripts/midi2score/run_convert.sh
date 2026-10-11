@@ -8,8 +8,10 @@ it={i['id']:i for i in json.load(open('data/library.json'))}
 log=open('logs/midi2score.jsonl','a'); batch=[]
 def push():
     if not batch: return
-    subprocess.run(['git','add']+batch+['logs/midi2score.jsonl'],check=True)
-    subprocess.run(['git','commit','-qm',f'MusicBot: {len(batch)} scores reconstructed from MIDI'],check=True)
+    for _ in range(5):
+        if subprocess.run(['git','add']+batch).returncode==0: break
+        time.sleep(5)
+    subprocess.run(['git','commit','-qm',f'MusicBot: {len(batch)} scores reconstructed from MIDI','--']+batch)
     subprocess.run('flock /tmp/wt_ocr.lock scripts/midi2score/safe_push_wt.sh | tail -1',shell=True)
     batch.clear()
 for k in open('scripts/midi2score/queue.txt').read().split():
