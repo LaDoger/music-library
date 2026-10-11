@@ -3,7 +3,7 @@
 cd "${1:-/workspace/music/wt_analysis}"; set -o pipefail
 for t in 1 2 3; do
   git fetch -q origin main
-  if ! git rebase -q origin/main; then
+  if ! git rebase -q --autostash origin/main; then
     for f in $(git diff --name-only --diff-filter=U); do case $f in data/*) git checkout --theirs -- "$f";; esac; git add "$f"; done
     GIT_EDITOR=true git rebase --continue || { git rebase --abort; echo SAFE_PUSH_CONFLICT; exit 1; }
   fi
