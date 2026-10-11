@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/chopin_op69_walzer_h_moll.mid",
  "score_files": [
-  "files/scores/chopin_op69_walzer_h_moll.mid"
+  "files/scores/chopin_op69_walzer_h_moll.mid",
+  "files/scores/chopin_op69_walzer_h_moll_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -62,6 +63,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op69_walzer_h_moll.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=chopin_op69_walzer_h_moll",
@@ -69,7 +71,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/chopin_op69_walzer_h_moll.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/chopin_op69_walzer_h_moll.mid"
+  "https://ladoger.github.io/music-library/files/scores/chopin_op69_walzer_h_moll.mid",
+  "https://ladoger.github.io/music-library/files/scores/chopin_op69_walzer_h_moll_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/chopin_op69_walzer_h_moll.mid",
  "render_midi": {
