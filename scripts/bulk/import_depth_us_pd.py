@@ -52,6 +52,7 @@ NAME_RX = {
     "falla": r"\bfalla\b",
     "granados": r"\benrique granados\b|\bgranados enrique\b",
     "albeniz": r"\balbeniz|\balbenez|\balbenis|\balbeniz isaac|\bisaac albeniz",  # PDMX spellings (accents folded by norm())
+    "chausson": r"\bchausson\b",  # PDMX/Mutopia: "Ernest Chausson", "E. Chausson"
     "chabrier": r"\bchabrier\b",  # PDMX/Mutopia: "Emmanuel Chabrier", "E. Chabrier", "ChabrierEA" (accents folded by norm())
     "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
     "lyadov": r"\blyadov\b|\bliadov\b",

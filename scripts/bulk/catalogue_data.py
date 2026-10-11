@@ -1066,6 +1066,28 @@ CHABRIER = [
     ("no opus", "Fête polonaise (Le roi malgré lui)", None, UNV, r"fete polonaise", "IMSLP page not reached (404 under this title); operatic extract; not confirmed"),
 ]
 
+CHAUSSON = [
+    # Piano and orchestral works first (LaDoger priority list 2026-10-11), then the chamber works and the 1879-80 piano set
+    ("Op.26", "Quelques danses", 1896, IN, r"quelques danses", "IMSLP: piano, E. Baudoux & Cie., Paris 1896; composed 1896"),
+    ("Op.38", "Paysage", 1910, IN, r"\bpaysage\b", "IMSLP: piano, Rouart, Lerolle & Cie., n.d. (ca.1910) (no dated First Publication field; year approximate); composed 1895"),
+    ("Op.25", "Poème for violin and orchestra", 1898, IN, r"^(?!.*amour).*\bpoeme\b", "IMSLP: violin and orchestra, Breitkopf und Härtel, Leipzig 1898; composed 1896"),
+    ("Op.21", "Concert in D major (violin, piano and string quartet)", 1894, IN, r"concert (?:in d|for violin|op 21)", "IMSLP: Librairie de l'Art indépendant, Paris 1894; composed 1889-91"),
+    ("Op.20", "Symphony in B-flat major", 1891, IN, r"symphony in b|symphony op 20|symphonie in b", "IMSLP: orchestra, First Publication 1891 (composed 1890); E. Baudoux & Cie. score undated"),
+    ("Op.5", "Viviane (symphonic poem)", 1888, IN, r"\bviviane\b", "IMSLP: orchestra, First Publication 1888 in a reduction by Vincent d'Indy; composed 1882, rev. 1887; full score Bornemann n.d.[1893]"),
+    ("Op.30", "Piano Quartet in A major", 1898, IN, r"piano quartet|quartet op 30", "IMSLP: violin, viola, cello and piano, E. Baudoux et Cie., Paris 1898; composed 1897"),
+    ("Op.35", "String Quartet in C minor", 1900, IN, r"string quartet|quartet in c minor|quartet op 35", "IMSLP: parts A. Durand & Fils 1900, score 1907; composed 1897-99"),
+    ("Op.39", "Pièce (cello or viola and piano)", 1917, IN, r"\bpiece\b", "IMSLP: Rouart, Lerolle & Cie., Paris 1917; composed 1897"),
+    ("Op.1", "5 Fantaisies (piano)", 1879, IN, r"fantaisies?\b", "IMSLP: piano, Durand, Schoenewerk & Cie, Paris 1879; movements Prélude, Pas vite, Très lent, Grave, Fièrement"),
+    # Not imported: no confirmed first-publication year (manuscripts or uncertain field)
+    ("no opus", "Piano Trio in G minor", 1919, UNV, r"piano trio|trio op 3\b", "IMSLP first-publication field reads '1919 ?' (uncertain); composed 1881; not imported"),
+    ("no opus", "Sonatine in G major (piano four hands)", None, UNV, r"sonatine in g", "IMSLP: manuscript 1878 only; not imported"),
+    ("no opus", "Sonatine in D minor (piano four hands)", None, UNV, r"sonatine in d", "IMSLP: manuscript 1879 only; not imported"),
+    ("no opus", "11 Fugues (piano)", None, UNV, r"\bfugues?\b", "IMSLP: manuscript 1880-81 only; not imported"),
+    ("no opus", "Marche militaire (piano)", None, UNV, r"marche militaire", "IMSLP: holograph manuscript 1884 only; not imported"),
+    ("no opus", "Andante and Allegro (clarinet and piano)", None, UNV, r"andante and allegro", "IMSLP: manuscript 1881 only; not imported"),
+    ("Op.32", "Soir de fête (symphonic poem)", None, UNV, r"soir de fete", "IMSLP: orchestral manuscript 1893 and piano four-hands manuscript 1898; no First Publication field; not imported"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1240,5 +1262,11 @@ COMPOSERS = {
         "catalogue": "P. (Pedarra catalogue numbers)", "rows": RESPIGHI,
         "prefix": "respighi", "genre": "classical", "era": "Early 20th century (Italian)",
         "scope_note": "US-PD-only (died 1936; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Orchestral works first (Fontane di Roma, Pini di Roma, Feste romane, Vetrate di chiesa, Trittico botticelliano, Gli uccelli, Antiche danze Suites No.1 and No.2, Ballata delle gnomidi, Sinfonia drammatica, Toccata, Concerto in modo misolidio, Concerto gregoriano, Poema autunnale), then the operas Belfagor and La campana sommersa, then chamber and piano works (Violin Sonata, Quartetto dorico, Tre preludi, Sei pezzi, Deita silvane, Il tramonto). Post-1930 works (Suite No.3 1932, Belkis 1935, Adagio con variazioni 1932, Metamorphoseon 1931, Impressioni brasiliane 1931?, Concerto a cinque 1934, Piano Concerto 1941) are excluded. Transcriptions and arrangements (La boutique fantasque, Rossini and Bach orchestrations, Ancient Airs piano versions, the Cimarosa and Paisiello revisions) are not on the checklist. Principal works for video; not the full P. catalogue (no songs beyond Deita silvane, no late works after 1934).",
+    },
+    "chausson": {
+        "name": "Ernest Chausson", "canon": "ernest chausson", "death": 1899, "birth": 1855,
+        "catalogue": "Op. (Chausson's opus numbers) and the no-opus titles", "rows": CHAUSSON,
+        "prefix": "chausson", "genre": "classical", "era": "Late Romantic (French)",
+        "scope_note": "Fully PD (died 1899): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: Quelques danses Op.26, Paysage Op.38, Poème Op.25 and Concert Op.21 first, then the Symphony Op.20, Viviane Op.5, Piano Quartet Op.30, String Quartet Op.35, Pièce Op.39 and 5 Fantaisies Op.1. Vocal works are not on the checklist (the mélodies Op.2/8/13/24/27/34/36, Poème de l'amour et de la mer Op.19, Chanson perpétuelle Op.37, the 2 Duos Op.11, Ballata Op.29, La légende de Sainte Cécile Op.22), nor the opera Le roi Arthus Op.23, La tempête Op.18 (incidental music) or the sketches. Paysage's publisher gives only n.d. (ca.1910), so its year is approximate. Works with no confirmed first-publication year (Piano Trio Op.3 with IMSLP '1919 ?', the early piano sonatinas and fugues, Marche militaire, Andante and Allegro, Soir de fête) are unverified and not imported.",
     },
 }
