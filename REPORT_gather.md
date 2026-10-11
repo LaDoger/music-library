@@ -571,3 +571,67 @@
 - **Checks:** `licence_audit.py`: 0 violations (9516 bulk rows). `sync_site_data.py` and `build_catalog.py --check` not run (no data change). `docs/catalogues/milhaud.csv` not written.
 - **AGENTS.md:** approval line updated (Darius Milhaud 2026-10-11).
 - **Models:** Haiku 5.5.
+
+## Heitor Villa-Lobos (d.1959), US-PD-only, piano first (CP-GATHER-villa_lobos, 2026-10-11)
+
+- **Scope:** LaDoger priority list 2026-10-11 approves Villa-Lobos for works first published 1930 or earlier (`approved_us_pd_only`; death ceiling 1959 in `schema.py`). Not PD in the EU (life+70 runs to 2029), so the EU warning applies.
+- **Checklist (`VILLA_LOBOS`, `scripts/bulk/catalogue_data.py`):** 26 rows. In scope: 17 (piano 9, chamber and orchestral 8). Excluded post-1930: Momoprecoce (1934), Bachianas Brasileiras No.1 (1948), Chôros No.9 (1987). Unpublished: orchestral A lenda do caboclo (W188). Unverified: Prole do Bebê No.1, Uirapuru, Amazonas, String Quartet No.1, Ciclo brasileiro.
+- **Brief corrections:** Cirandinhas is 1925 on IMSLP (with a question mark), not 1926. Suíte floral is 1920 ca. (Napoleão), so it is in scope. Simples coletânea is 1922 (Arthur Napoleão, not Max Eschig). Prole do Bebê No.1 has no readable IMSLP page, so its 1921 date is unconfirmed; the 1927 date for No.2 comes from a 2006 article, and IMSLP's composition year is 1921.
+- **Years:** IMSLP work pages (First Publication fields) for Cirandinhas, Cirandas, Chôros No.5, Lenda do caboclo (piano), Suíte floral, Danças africanas, Chôros No.8, No.10, Simples coletânea (WebFetch summaries). Wikipedia infobox for Rudepoêma, Chôros Nos.1-4, 7, 9. IMSLP search snippets only for Suite for voice and violin and Chôros No.10's plate.
+- **Importer changes (`import_depth_us_pd.py`):** `villa_lobos` name rule and set labels (W180, W210, W220, W134, W195, W117, W085).
+- **Imported: 0 new rows.** The PDMX pool has 9 Villa-Lobos files, none on the checklist: songs (Modinha, Estrella e lua nova, Amor y perfidia, Xangô, Fá M), arrangements (Melodia sentimental x2, Todo Mundo Passa), Bachianas No.5 Aria (composed 1938, after the gate) and Bachianas No.4 Prelude (not checked, not on the checklist). Mutopia and OpenScore have none.
+- **Not resolved:** Xangô (IMSLP's folk-song page gives 1930, Geuthner, for a voice-and-orchestra setting; the PDMX file's medium is unknown). Modinha and Improviso No.7 (1917 'Melodia', first publication '?') could not be dated.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/villa_lobos/WANTED.md`: 17 in-scope works; 12 IMSLP URLs curl-checked (HTTP 200). Chôros 2, 3, 4, 7 and Rudepoêma have no IMSLP page located; Wikipedia gives their years.
+- **Checks:** `licence_audit.py`: 0 violations (9516 bulk rows). `build_catalog.py --check`: pass (9787 items). `sync_site_data.py` not run (no library rows changed).
+- **Models:** Haiku 5.5.
+
+## Reynaldo Hahn (d.1947), US-PD-only, piano first (CP-GATHER-hahn, 2026-10-11)
+
+- **Scope:** LaDoger priority list 2026-10-11 approves Hahn for works first published 1930 or earlier (`approved_us_pd_only`). Death 1947 is inside the default ceiling (1955), so `schema.py` is unchanged. Hahn is life+70 PD in the EU, but the rows carry the US-PD-only flag, so the EU warning applies as for other 1930-1955 composers.
+- **Checklist (`HAHN`, `scripts/bulk/catalogue_data.py`):** 35 rows. In scope: 12 (piano 6, songs 4, chamber 2). Unverified: 18 (piano and two-piano pieces without a read publication year, songs and chamber works with no IMSLP page). Excluded post-1930: 5 (Divertissement pour une fête de nuit 1931, Concerto provençal 1945, String Quartets 1939 and 1939-43, Piano Quartet 1946).
+- **Years:** IMSLP 'First Publication' fields for Portraits de peintres, Premières valses, Le rossignol éperdu, Rêverie, 2 Études, 7 Chansons grises, À Chloris, Violin Sonata, Piano Quintet. Si mes vers (IMSLP 'Heugel 1895', plate 8315, no First Publication field), Quand je fus pris au pavillon (IMSLP search snippet) and Sonatine (BnF catalogue record) are the less certain dates. Wikipedia's list of compositions gave composition years only.
+- **Brief corrections:** none of the brief's catalogue numbers were used as opus numbers; Hahn has no opus numbers for most works, so IMSLP's IRH numbers are the catalogue column. Le rossignol éperdu is 1912 (Heugel), not 1902-1910 (that is composition).
+- **Imported: 2 new rows**, both OpenScore Lieder (CC0, flagged US-PD-only): `hahn_irh_16_7_chansons_grises_l_heure_exquise` (1891, L'heure exquise movement only) and `hahn_irh_94_a_chloris` (1913). The PDMX, Mutopia and OpenScore pools have no other matches for a checklist title; PDMX has none at all. `--dry-run --composer hahn` harvested 2.
+- **Importer changes (`import_depth_us_pd.py`):** `hahn` name rule; IRH set labels (IRH 71, 74, 84, 114, 31, 16, 89, 94, 102).
+- **Library data:** the two rows were appended to `library_bulk.csv` by hand, keeping CRLF line endings and the empty `score_method` column (the importer writes 34 columns, the file has 35). `build_bulk_layer.py` was run once by mistake, which rewrote `library_bulk.csv` down to 65 rows; the file was restored from HEAD before any commit. The worktree's `parts/` holds only P7, so do not rebuild from it.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/hahn/WANTED.md` (library checkout): 11 in-scope works still wanted; IMSLP URLs curl-checked (HTTP 200) except Sonatine (no IMSLP page located).
+- **Checks:** `licence_audit.py`: 0 violations (9518 bulk rows). `build_catalog.py --check`: pass (9787 items). `sync_site_data.py` not run (the worktree's `parts/` is partial; a sync would rewrite unrelated tracked data).
+- **Models:** Haiku 5.5.
+
+## Déodat de Séverac (d.1921), fully PD, piano first (CP-GATHER-severac, 2026-10-11)
+
+- **Scope:** fully PD (died 1921): no US-PD-only gate, no approval needed; years kept for the record. Not listed as excluded in AGENTS.md or `pdmx_composers_manual.json`, so no manual change.
+- **Checklist (`SEVERAC`, `scripts/bulk/catalogue_data.py`):** 14 rows. In scope: 7 (piano 6: En Languedoc 1904, Cerdaña 1911, Baigneuses au soleil 1909, En vacances 1911, Le chant de la terre 1903, Sous les lauriers roses 1920; chamber 1: Minyoneta 1919). Unverified: 7 (Les naïades et le faune indiscret, IMSLP 1952 flagged suspect; Piano Sonata, IMSLP 1990; Le soldat de plomb; Souvenirs de Céret; Élégie héroïque; Barcarolle; Trois Recuerdos / Cortège nuptial catalan).
+- **Not in the checklist:** the operas Le Cœur du moulin (1908), Héliogabale (1910), Le Roi Pinard (1919); the organ works (Petite Suite scholastique 1913, Suite pour orgue); the songs and choral works.
+- **Brief correction:** Wikipedia gives En vacances as 1912; IMSLP gives 1911 (used). Cerdaña: Wikipedia gives 1904-1911 as the composition span; IMSLP's first publication is 1911.
+- **Years:** IMSLP work pages (First Publication fields, WebFetch summaries, read 2026-10-11) for En Languedoc, Cerdaña, Baigneuses au soleil, En vacances, Le chant de la terre, Sous les lauriers roses, Minyoneta. Chamber works not on IMSLP (Souvenirs de Céret, Élégie héroïque, Barcarolle; IMSLP guessed URLs 404) rely on Wikipedia years.
+- **Importer changes (`import_depth_us_pd.py`):** `severac` name rule; set labels En Languedoc, Cerdana, En vacances.
+- **Imported: 0 rows.** `--dry-run --composer severac` harvested 0. PDMX has two Séverac files: Tantum ergo (cc-zero, sacred choral, not on the checklist) and O sacrum convivium (license conflict, excluded).
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/severac/WANTED.md`: 7 in-scope works, IMSLP URLs curl-checked (HTTP 200).
+- **Checks:** `licence_audit.py`: 0 violations (9518 bulk rows). `sync_site_data.py` and `build_catalog.py --check` not run (no library rows changed). `docs/catalogues/severac.csv` written.
+- **Models:** Haiku 5.5.
+
+## Mel Bonis (d.1937), US-PD-only, piano first (CP-GATHER-bonis, 2026-10-11)
+
+- **Approved:** `mel bonis` added to `approved_us_pd_only` (`scripts/bulk/pdmx_composers_manual.json`) and the AGENTS.md approval line, note "LaDoger priority list 2026-10-11". Death 1937 is inside the default `US_PD_ONLY_MAX_DEATH` ceiling (1955), so `schema.py` is unchanged. Scope: works first published 1930 or earlier.
+- **Checklist (`BONIS`, `scripts/bulk/catalogue_data.py`):** 44 rows. In scope: 26 (piano 23 incl. the Femmes de légende Mélisande 1925 and Salomé 1909, Omphale 1910, Scènes enfantines 1912, 17 Pièces enfantines 1926, Marionnettes 1899, Suite orientale 1900; chamber 3: Flute Sonata 1904, Cello Sonata 1905, Piano Quartet No.2 1927). Unverified: 18.
+- **Years:** IMSLP work pages (First Publication fields, read 2026-10-11). Pages that give only a composition year, a Bibliographie de la France note, or a modern-edition date (Soirs d'antan 2014) are unverified, not imported.
+- **Not in the checklist:** orchestral works (none on the IMSLP category page), most songs, organ and harmonium pieces, four-hand pieces (Op.130), Op.107, Op.113. Coverage is partial.
+- **Importer changes (`import_depth_us_pd.py`):** `bonis` name rule `\bbonis\b`.
+- **Imported: 1 row.** OpenScore Lieder "Le chat sur le toit, Op.93" (CC0, voice and piano, first published 1926, flagged US-PD-only). Appended to `library_bulk.csv` by hand (35 columns, CRLF, empty `score_method`). Its MIDI and MXL are in `files/scores`. The row is a song; the checklist gates on the opus number. Its IMSLP year is for Op.93, which is the same opus.
+- **PDMX:** no piano works. Its Bonis rows are Adoro te, Ave Verum, O salutaris, Tantum ergo (choral, cc-zero) and are off-checklist. OpenScore's "Allons prier!" (Op.73, song) is off-checklist and skipped.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/bonis/WANTED.md`: 25 in-scope works, IMSLP URLs HTTP 200, and a note to take only editions published before 1931.
+- **Checks:** `licence_audit.py`: 0 violations (9519 bulk rows). `build_catalog.py --check`: 9853 items, pass. `sync_site_data.py` run: it also rewrote tracked `data/` files because another session has an uncommitted `library_other_editions.json`; those `data/` changes are not committed.
+- **Shared-tree caveat:** `catalogue_report.py` regenerates every `docs/catalogues/*.csv`, not only the one composer. Its run rewrote the files already modified by other sessions (busoni, elgar, grieg, holst, rachmaninoff, ravel, satie, strauss_r, severac) and created untracked CSVs. Only `docs/catalogues/bonis.csv` is committed here.
+- **Models:** Haiku 5.5.
+
+## Gabriel Pierné (d.1937), US-PD-only, piano first (CP-GATHER-pierne, 2026-10-11)
+
+- **Approval:** LaDoger priority list 2026-10-11 (brief BRIEF_current.md). Added to `approved_us_pd_only` in `pdmx_composers_manual.json` with the note "LaDoger priority list 2026-10-11"; AGENTS.md approval line updated. Pierné was not in the `excluded` list, so nothing was removed. Death 1937 is inside the default `US_PD_ONLY_MAX_DEATH` ceiling (1955), so `schema.py` is unchanged.
+- **Checklist:** `PIERNE` in `scripts/bulk/catalogue_data.py` (36 rows), `COMPOSERS["pierne"]`. 21 in scope with IMSLP "First Publication" fields (or the publisher line where the field is blank, as for the Étude de concert and Scherzo-caprice): piano first (Album Op.14 with the Marche No.6, 15 Pièces Op.3, Variations Op.42, Étude de concert Op.13, Improvisata, Rêverie, Nocturne, Pastorale variée, Colombine, Bagatelle), then the Piano Concerto Op.12, Suite d'orchestre No.1, Scherzo-caprice, Konzertstück, Violin Sonata Op.36, Piano Quintet, Piano Trio, Paysages franciscains, Sonata da camera and Cydalise. 9 unverified (no first-publication year read; the Cello Sonata Op.46 and Poème symphonique Op.37 IMSLP URLs returned 404 on the guessed title, so they stay unverified). 6 excluded post-1930 (Op.49, 49bis, 51, 52, 53 and 6 pieces for piano).
+- **Importer:** `import_depth_us_pd.py` gets a `pierne` name rule (`\bpierne\b`).
+- **Imported: 0 rows.** `--dry-run --composer pierne` harvests 0. The PDMX Pierné rows are: Piano Concerto Op.12 as a two-piano arrangement (skipped as an arrangement), Canzonetta Op.19 (license conflict, excluded), Mignonne and Le moulin (songs, not on the checklist). Mutopia and OpenScore have no Pierné rows.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/pierne/WANTED.md`: 21 in-scope works (20 IMSLP pages, all HTTP 200 after redirects; the Marche has no page of its own and sits in the Album page), a note to take only editions published before 1931, and the unverified and post-1930 lists.
+- **Checks:** `licence_audit.py`: 0 violations (9519 bulk rows). `build_catalog.py --check`: 9853 items, pass. `sync_site_data.py` not run (no library rows changed).
+- **Shared-tree caveat:** `catalogue_report.py` regenerates every `docs/catalogues/*.csv`. To avoid rewriting other sessions' files, this run was made with the other composers removed from `COMPOSERS` in-process, so only `docs/catalogues/pierne.csv` was written.
+- **Models:** Haiku 5.5.

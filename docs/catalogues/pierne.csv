@@ -1,0 +1,37 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.14,Album pour mes petits amis (6 pieces),1887,in-scope,,0,,,"IMSLP: First Publication 1887 (Leduc, A.L. 8209); no composition year"
+Op.14 No.6,Marche des petits soldats de plomb,1887,in-scope,,0,,,Album Op.14 No.6; IMSLP album First Publication 1887 (Leduc)
+Op.3,15 Pieces (piano),1884,in-scope,,0,,,"IMSLP: First Publication 1884 (Leduc, A.L. 7730); composed 1883"
+Op.42,Variations (C minor),1919,in-scope,,0,,,"IMSLP: First Publication 1919 (Hamelle, J. 6965 H); no composition year"
+Op.13,Etude de concert in C minor,1887,in-scope,,0,,,"IMSLP: Leduc n.d.[1887] (bracketed, plate A.L. 7834); composed 1887; no First Publication field"
+Op.22,Improvisata,1889,in-scope,,0,,,"IMSLP: First Publication 1889 (Leduc, A.L. 8208); composed 1889"
+Op.20,Reverie,1889,in-scope,,0,,,"IMSLP: First Publication 1889 (Leduc, n.d.[1889]); composed 1888"
+Op.31,Nocturne,1897,in-scope,,0,,,IMSLP: First Publication 1897 (Enoch); no composition year
+Op.30,Pastorale variee,1894,in-scope,,0,,,"IMSLP: First Publication 1894 (Durand, D.&F. 4784); composed 1893"
+Op.32,Serenade a Colombine,1895,in-scope,,0,,,IMSLP: First Publication 1895 (Enoch Freres et Costallat); no composition year
+Op.33,Bagatelle,1898,in-scope,,0,,,"IMSLP: First Publication 1898 (Janin, J.F. 274); no composition year"
+Op.9,Impromptu-caprice (harp),,unverified-pub,n/a,0,,,IMSLP list year 1885 only; page not read; not imported
+Op.12,Piano Concerto (C minor),1887,in-scope,,0,,,"IMSLP: First Publication 1887 (Leduc, A.L. 7777)"
+Op.11,Suite d'orchestre No.1,1890,in-scope,,0,,,IMSLP: full score published by Leduc 1890; composed 1883
+Op.25,Scherzo-caprice (piano and orchestra),1890,in-scope,,0,,,"IMSLP: First Publication ca.1890 (Leduc, A.L. 8880); composed 1890"
+Op.39,Konzertstuck (harp and orchestra),1903,in-scope,,0,,,"IMSLP: First Publication 1903 ca. (Hamelle, J. 4787 H); composed 1901"
+Op.36,Violin Sonata (D minor),1901,in-scope,,0,,,"IMSLP: First Publication 1901 (Durand, D.&F. 5908); composed 1900; the same opus is also a flute sonata"
+Op.36,Flute Sonata (D minor),,unverified-pub,n/a,0,,,IMSLP list year 1900 only; page not read; not imported
+Op.41,Piano Quintet,1919,in-scope,,0,,,"IMSLP: First Publication 1919 (Hamelle, J. 6963 H); composed 1916-17"
+Op.45,Piano Trio (C minor),1922,in-scope,,0,,,"IMSLP: First Publication 1922 (Durand, D.&F. 10131); composed 1920-21"
+Op.43,Paysages franciscains,1920,in-scope,,0,,,IMSLP: First Publication 1920 (Hamelle); composed 1919
+Op.48,"Sonata da camera (flute, cello, piano)",1927,in-scope,,0,,,IMSLP: First Publication 1927 (Durand); composed 1926
+no opus,Cydalise et le chevre-pied (ballet),1923,in-scope,,0,,,IMSLP: First Publication 1923 (Heugel); composed 1914-15
+Op.46,Sonata in F sharp minor (cello and piano),,unverified-pub,n/a,0,,,Wikipedia works list 1922; IMSLP page not reached (guessed URL 404); not imported
+Op.37,Poeme symphonique (piano and orchestra),,unverified-pub,n/a,0,,,IMSLP list year 1901 only; page not reached; not imported
+Op.19,Canzonetta (clarinet and piano),,unverified-pub,n/a,0,,,Wikipedia works list 1888; IMSLP page not read; not imported
+Op.6,Fantaisie-Ballet (piano and orchestra),,unverified-pub,n/a,0,,,IMSLP list year 1885 only; not read; not imported
+Op.47,Impressions de music-hall (ballet),,unverified-pub,n/a,0,,,IMSLP list year 1927 only; not read; not imported
+no opus,La croisade des enfants (oratorio),,unverified-pub,n/a,0,,,IMSLP list year 1902 only; not read; not imported
+no opus,Ramuntcho (suites),,unverified-pub,n/a,0,,,IMSLP list year 1910 only; not read; not imported
+Op.49,Divertissement sur un theme pastoral,1931,excluded-post1930,n/a,0,,,"IMSLP list year 1931; after the 1930 gate, excluded"
+Op.49bis,Viennoise (suite de valses),1934,excluded-post1930,n/a,0,,,"IMSLP list year 1934; after the 1930 gate, excluded"
+Op.51,Variations libres et final,1933,excluded-post1930,n/a,0,,,"IMSLP list year 1933; after the 1930 gate, excluded"
+Op.52,Passacaille,1932,excluded-post1930,n/a,0,,,"IMSLP list year 1932; after the 1930 gate, excluded"
+Op.53,Prelude de concert sur un theme de Purcell,1933,excluded-post1930,n/a,0,,,"IMSLP list year 1933; after the 1930 gate, excluded"
+no opus,6 Pieces pour piano,1935,excluded-post1930,n/a,0,,,"IMSLP list year 1935; after the 1930 gate, excluded"

@@ -1871,6 +1871,120 @@ PIERNE = [
     ("no opus", "6 Pieces pour piano", 1935, POST, r"6 pieces pour piano|six pieces pour piano", "IMSLP list year 1935; after the 1930 gate, excluded"),
 ]
 
+# Charles Koechlin (d.1950). US-PD-only (LaDoger priority list 2026-10-11): in scope only when first published <= 1930.
+# Piano first, then chamber. Years: IMSLP 'Works first published in YYYY' (work pages fetched 2026-10-11) unless marked
+# otherwise. No pre-1931 orchestral work is on the IMSLP category page (Bandar-log, Seven Stars, Vers la voute are later).
+KOECHLIN = [
+    ("Op.63", "Paysages et marines (piano)", 1918, IN, r"paysages et marines", "IMSLP: First Publication 1918 (Mathot, Z. 816-817 M); composed 1915-16"),
+    ("Op.59", "5 Piano Sonatinas", 1918, IN, r"5 (piano )?sonatinas|5 sonatines|cinq sonatines|sonatines? op\.? ?59\b", "IMSLP: First Publication 1918 (Mathot, Z. 781-785 M); composed 1915-16"),
+    ("Op.61d", "12 Petites pieces", 1921, IN, r"12 petites pieces", "IMSLP: First Publication 1921 (E.M.S. 4345); composed 1915-16, 1919-20"),
+    ("Op.61c", "10 Petites pieces faciles", 1921, IN, r"10 petites pieces faciles", "IMSLP: First Publication 1921 (E.M.S. 4344); composed 1915-16, 1919-20"),
+    ("Op.61b", "Ecole du jeu lie", 1928, IN, r"ecole du jeu lie", "IMSLP: First Publication 1928; piano (pedagogical)"),
+    ("Op.41", "24 Esquisses", 1922, IN, r"24 esquisses|\besquisses\b", "IMSLP: First Publication 1922 (E.M.S. 4704-4705)"),
+    ("Op.77", "12 Pastorales", 1923, IN, r"12 pastorales|\bpastorales\b", "IMSLP: First Publication 1923 (Senart); piano"),
+    ("Op.87", "4 Nouvelles sonatines", 1926, IN, r"nouvelles sonatines|sonatines? op\.? ?87\b", "IMSLP: First Publication 1926 (E.M.S. 7058)"),
+    ("Op.6", "Suite for 2 pianos", 1899, IN, r"suite.*2 pianos|suite.*two pianos|suite.*deux pianos", "IMSLP: First Publication 1899 (Leduc, A.L. 10186); two-piano original, not an arrangement"),
+    ("Op.19", "Suite for piano four hands", 1901, IN, r"suite.*(4 hands|four hands|quatre mains|4 mains)", "IMSLP: First Publication 1901 (Durand, D.&F. 5938)"),
+    ("Op.73bis", "Choral sur le nom de Faure", 1922, IN, r"nom de faure", "IMSLP: First Publication 1922; piano"),
+    ("Op.64", "Violin Sonata", 1922, IN, r"violin sonata|sonata.*violin", "IMSLP: First Publication 1922 (E.M.S. 4706); composed 1915-16"),
+    ("Op.52", "Flute Sonata", 1922, IN, r"flute sonata|sonata.*flute\b", "IMSLP: First Publication 1922 (E.M.S. 4703)"),
+    ("Op.75", "Sonata for 2 flutes", 1922, IN, r"sonata.*2 flutes|sonata.*two flutes", "IMSLP: First Publication 1922 (E.M.S. 4807)"),
+    ("Op.66", "Cello Sonata", 1923, IN, r"cello sonata|sonata.*cello|sonata.*violoncelle", "IMSLP: First Publication 1923 (Senart); composed 1917"),
+    ("Op.53", "Viola Sonata", 1923, IN, r"viola sonata|sonata.*viola", "IMSLP: First Publication 1923 (Senart, E.M.S. 6036); composed 1915"),
+    ("Op.51", "String Quartet No.1", 1921, IN, r"string quartet no\.? ?1\b|quartet no\.? ?1\b", "IMSLP: First Publication 1921 (E.M.S. 4551 / 4716)"),
+    ("Op.72", "String Quartet No.3", 1924, IN, r"string quartet no\.? ?3\b|quartet no\.? ?3\b", "IMSLP: First Publication 1924"),
+    ("Op.92", "Trio for flute, clarinet and bassoon", 1927, IN, r"trio.*flute|flute.*clarinet", "IMSLP: First Publication 1927"),
+    ("Op.58", "Oboe Sonata", None, UNV, r"oboe sonata|sonata.*oboe", "IMSLP: only the 3rd movement appeared in a 1923 supplement; full work first published 1981 (Eschig M.E. 8401); not imported"),
+    ("no opus", "Etude sur les notes de passage", None, UNV, r"notes de passage", "IMSLP: no first-publication year read; not imported"),
+    ("Op.65", "Les heures persanes (piano, 16 pieces)", 1987, POST, r"heures persanes", "IMSLP: complete set published 1987 (Eschig M.E. 8574; 1989 M.E. 8713); the page's 1921 'first published' is No.15 alone; excluded post-1930"),
+    ("Op.84", "Shehérezade, Book II", 1931, POST, r"sheherezade.*(book )?ii\b|sheherezade.*book 2", "IMSLP: First Publication 1931; excluded post-1930"),
+    ("Op.56", "Shehérezade, Book I", 1990, POST, r"sheherezade", "IMSLP: First Publication 1990; songs; excluded post-1930"),
+    ("Op.80", "Piano Quintet", 1985, POST, r"piano quintet", "IMSLP: First Publication 1985 (Eschig M.E. 8154); excluded post-1930"),
+    ("Op.184", "3 Sonatines", 1951, POST, r"3 sonatines|trois sonatines|sonatines? op\.? ?184\b", "IMSLP: First Publication 1951 (E.A.S. 14084); excluded post-1930"),
+    ("Op.194", "2 Sonatines", 1989, POST, r"2 sonatines|deux sonatines|sonatines? op\.? ?194\b", "IMSLP: First Publication 1989; excluded post-1930"),
+    ("Op.155", "Sonatine Modale", 1970, POST, r"sonatine modale|\bmodale\b", "IMSLP: First Publication 1970 (M.E. 7783); excluded post-1930"),
+    ("Op.173", "4 Petites pieces", 1970, POST, r"4 petites pieces", "IMSLP: First Publication 1970 (M.E. 7782); excluded post-1930"),
+    ("Op.32a", "4 Petites pieces (Op.32a)", 1974, POST, r"4 petites pieces", "IMSLP: First Publication 1974 (M.E. 8142); excluded post-1930"),
+    ("Op.129", "Vers la voute etoilee", 1995, POST, r"vers la voute|voute etoilee", "IMSLP: First Publication 1995; excluded post-1930"),
+    ("Op.176", "Les Bandar-log", 1967, POST, r"bandar", "IMSLP: First Publication 1967 (Eschig M.E. 7755); excluded post-1930"),
+    ("Op.132", "The Seven Stars' Symphony", 1969, POST, r"seven stars|sept etoiles", "IMSLP: First Publication 1969 (Eschig M.E. 7811-7817); composed 1933; excluded post-1930"),
+    ("Op.175", "La Loi de la Jungle", 1986, POST, r"loi de la jungle", "IMSLP: First Publication 1986; excluded post-1930"),
+    ("Op.141", "Les Confidences d'un joueur de clarinette", 1988, POST, r"confidences", "IMSLP: First Publication 1988 (G. 3542 B.); excluded post-1930"),
+    ("Op.70", "Horn Sonata", 1970, POST, r"horn sonata|sonata.*horn", "IMSLP: First Publication 1970; excluded post-1930"),
+    ("Op.71", "Bassoon Sonata", 1990, POST, r"bassoon sonata|sonata.*bassoon", "IMSLP: First Publication 1990; excluded post-1930"),
+    ("Op.91", "Divertissement for 3 flutes", 1939, POST, r"divertissement.*flutes|3 flutes", "IMSLP: First Publication 1939 (E.M.M. 482); excluded post-1930"),
+    ("Op.165", "Septet for winds", 1947, POST, r"septet", "IMSLP: First Publication 1947; excluded post-1930"),
+    ("Op.221", "Sonate a sept", 1949, POST, r"sonate a sept|sonata a sept", "IMSLP: First Publication 1949; excluded post-1930"),
+    ("Op.206", "Trio d'anches", 1957, POST, r"trio d anches|op\.? ?206\b", "IMSLP: First Publication 1957; excluded post-1930"),
+]
+
+# Giovanni Sgambati (d.1914). Fully PD everywhere (no US-PD-only gate; brief 2026-10-11, BRIEF_current.md).
+# Opus numbers follow the IMSLP work-page titles, "composer's own or Schott", e.g. "Op.18 or Op.23" (Schott's
+# numbers are the ones the brief and Schott editions use). Years: IMSLP 'First Publication' where the page
+# gives one (in scope); Wikipedia's list where it says 'published' (in scope); otherwise the composition year
+# only (unverified, not imported). The composer's own opus numbering is confusing: check the IMSLP title first.
+SGAMBATI = [
+    ("Op.18 or Op.23", "Pieces lyriques (6 pieces)", 1891, IN, r"pieces lyriques|lyric pieces", "IMSLP: First Publication 1891 (Schott, Op.23); scan held in files/imslp_incoming/sgambati (IMSLP 211840)"),
+    ("Op.16 or Op.21", "Suite in B minor (piano)", 1888, IN, r"suite (in b minor|op 21|op 16)|suite.*b minor", "IMSLP: First Publication 1888 (Mainz: B. Schott's Sohne)"),
+    ("Op.13 or Op.18", "4 Pezzi di seguito (Quattro pezzi; includes the Vecchio minuetto as No.2)", 1885, IN, r"pezzi di seguito|quattro pezzi|vecchio minuetto", "IMSLP: First Publication 1885; the Vecchio minuetto (in D-flat) is movement 2 of this set, not a separate work"),
+    ("no opus", "Studio trionfale (Etude triomphale)", 1916, IN, r"studio trionfale|etude triomphale", "Wikipedia list: 'for piano (published 1916)' (posthumous opus; IMSLP page gives no year)"),
+    ("no opus", "Boite a musique (piano)", 1916, IN, r"boite a musique", "Wikipedia list: 'for piano (published 1916)'"),
+    ("Op.7 or Op.10", "2 Etudes de concert", None, UNV, r"etudes? de concert", "IMSLP composition year 1880; first publication not read; not imported"),
+    ("Op.8 or Op.12", "Fogli volanti (8 pieces for piano)", 1880, IN, r"fogli volanti", "IMSLP: Works first published in 1880 (category tag); composed 1879-80"),
+    ("Op.6", "Prelude and Fugue in E-flat minor", 1877, IN, r"prelude (and|et) fugue|prelude fugue", "IMSLP: Works first published in 1877 (category tag); composed 1876"),
+    ("Op.9 or Op.14", "Gavotte in A-flat minor", None, UNV, r"gavotte", "Composition 1880 (Wikipedia list); IMSLP page gives no first-publication year; not imported"),
+    ("Op.15 or Op.20", "3 Nocturnes (B minor, G, C minor)", None, UNV, r"3 nocturnes|nocturnes op 15|nocturnes op 20|three nocturnes", "Composition 1873-87 (Wikipedia list); IMSLP page gives no first-publication year; not imported"),
+    ("Op.31", "Nocturne in D-flat (Schott Op.31; composer's Op.24)", None, UNV, r"nocturne op 31|nocturne in d flat", "Composition 1897 (Wikipedia list); no first-publication year read; not imported"),
+    ("Op.33", "Nocturne in E (Schott Op.33; composer's Op.26)", None, UNV, r"nocturne op 33|nocturne in e\b", "Composition 1897 (Wikipedia list); no first-publication year read; not imported"),
+    ("Op.29 or Op.36", "Melodies poetiques (12 pieces for piano)", None, UNV, r"melodies poetiques|poetic melodies", "IMSLP composition 1903; first publication not read; not imported"),
+    ("Op.42", "3 Morceaux (Prelude, Berceuse-Reverie, Melodia campestre)", None, UNV, r"3 morceaux|trois morceaux|morceaux op 42", "Composition 1909-10 (Wikipedia list); IMSLP page gives no first-publication year; not imported"),
+    ("no opus", "Serenade valsee", 1916, IN, r"serenade valsee", "IMSLP: Works first published in 1916 (category tag; the page gives 1916?)"),
+    ("Op.4", "Piano Quintet No.1 in F minor", 1877, IN, r"piano quintet no 1|quintet no 1|quintet op 4\b", "IMSLP: Works first published in 1877 (category tag); composed 1866"),
+    ("Op.5", "Piano Quintet No.2 in B-flat", 1877, IN, r"piano quintet no 2|quintet no 2|quintet op 5\b", "IMSLP: Works first published in 1877 (category tag); composed 1867 (Wikipedia list: 1876?)"),
+    ("Op.12 or Op.17", "String Quartet in C-sharp minor", 1884, IN, r"string quartet|quartet.*c sharp", "IMSLP: Works first published in 1884 (category tag); composed 1882"),
+    ("Op.10 or Op.15", "Piano Concerto in G minor", 1883, IN, r"piano concerto|concerto.*g minor", "IMSLP: Works first published in 1883 (category tag); composed 1878-80"),
+    ("Op.11 or Op.16", "Symphony No.1 in D", 1883, IN, r"symphony no 1\b|symphony no 1 in d", "IMSLP: Works first published in 1883 (category tag); composed 1880-81"),
+    ("Op.38", "Requiem Mass", 1906, IN, r"requiem", "IMSLP: Works first published in 1906 (category tag); composed 1895 ca., revised 1901; baritone, chorus and orchestra (choral; kept for the record)"),
+    ("no opus", "Sinfonia epitalamio (Symphony No.2)", None, UNPUB, r"epitalamio|epithalamium|symphony no 2", "Wikipedia list: composed 1887, unpublished; not imported"),
+]
+
+# Moritz Moszkowski (d.1925). Fully PD everywhere (no US-PD-only gate; brief 2026-10-11, BRIEF_current.md).
+# Piano first. Years are IMSLP 'Works first published in YYYY' category tags (read 2026-10-11) or the first-publication
+# line on the work page. Opus numbers are the IMSLP titles'. Movement names checked against IMSLP track lists where given.
+MOSZKOWSKI = [
+    ("Op.12", "5 Spanish Dances (original piano four hands; solo arrangement not checked)", 1876, IN, r"spanish dance|spanische tanze|danzas espanolas|5 spanish|danses espagnoles op 12", "IMSLP: First Publication 1876 (Carl Simon, Berlin); 'For piano 4 hands'"),
+    ("Op.65", "3 Nouvelles danses espagnoles (piano four hands)", 1900, IN, r"nouvelles danses espagnoles|3 nouvelles danses", "IMSLP: First Publication 1900 (Peters)"),
+    ("Op.21", "Album espagnol (suite, piano four hands)", 1879, IN, r"album espagnol", "IMSLP: First Publication 1879 (Hainauer)"),
+    ("Op.37", "Caprice espagnol", 1885, IN, r"caprice espagnol", "IMSLP: First Publication 1885 (Peters)"),
+    ("Op.15", "6 Klavierstucke (No.1 Serenata)", 1877, IN, r"serenata|6 (klavierstucke|stucke|pieces) op 15|six pieces op 15", "IMSLP: First Publication 1877 (Hainauer); track list 'No.1, Serenata'"),
+    ("Op.36", "8 Morceaux caracteristiques (No.6 Etincelles)", 1886, IN, r"etincelles|8 morceaux caracteristiques", "IMSLP: First Publication 1886 (Hainauer); track list 'No.6. Etincelles'"),
+    ("Op.45", "2 Piano Pieces (No.2 Guitarre)", 1888, IN, r"guitarre|2 piano pieces op 45", "IMSLP: First Publication 1888 (Peters); track list 'Guitarre, Op.45 No.2'"),
+    ("Op.72", "15 Etudes de virtuosite", 1903, IN, r"15 etudes de virtuosite|etudes de virtuosite op 72", "IMSLP: First Publication 1903 (Enoch)"),
+    ("Op.91", "20 Petites etudes", 1913, IN, r"20 petites etudes|petites etudes op 91", "IMSLP: First Publication 1913 (Augener / Miran / Schmidt)"),
+    ("Op.92", "12 Etudes for the left hand", 1915, IN, r"left hand|main gauche|etudes for the left", "IMSLP: First Publication 1915 (Enoch)"),
+    ("Op.77", "10 Pieces mignonnes", 1907, IN, r"pieces mignonnes", "IMSLP: First Publication 1907 (Schott)"),
+    ("Op.94", "10 Petits morceaux", 1916, IN, r"petits morceaux", "IMSLP: First Publication 1916 (Schott / Schmidt)"),
+    ("Op.95", "5 Pieces breves", 1920, IN, r"pieces breves", "IMSLP: First Publication 1920 (Enoch)"),
+    ("Op.55", "4 Polish Folk Dances (piano four hands)", 1895, IN, r"polish folk dances|4 polish", "IMSLP: First Publication 1895 (Peters)"),
+    ("Op.60", "3 Mazurkas", 1898, IN, r"3 mazurkas|mazurkas op 60", "IMSLP: First Publication 1898 (Ries & Erler)"),
+    ("Op.84", "4 Moments musicaux", 1910, IN, r"4 moments musicaux|moments musicaux op 84", "IMSLP: First Publication 1910 (Eschig / Schott)"),
+    ("Op.88", "Grande valse de concert", 1912, IN, r"grande valse de concert", "IMSLP: First Publication 1912 (Presser / Enoch / Forberg)"),
+    ("Op.89", "Tanz-Momente (piano)", 1912, IN, r"tanz momente", "IMSLP: First Publication 1912 (Schmidt / Hainauer / Augener)"),
+    ("Op.41", "Gondoliera", 1886, IN, r"gondoliera", "IMSLP: First Publication 1886 (Peters)"),
+    ("Op.56", "6 Stucke aus Don Juan und Faust", 1896, IN, r"don juan und faust|don juan", "IMSLP: First Publication 1896 (Ries & Erler)"),
+    ("Op.39", "Suite d'orchestre No.1", 1886, IN, r"suite d orchestre no 1|orchestral suite no 1|suite no 1 op 39", "IMSLP: First Publication 1886 (Hainauer)"),
+    ("Op.47", "Suite d'orchestre No.2", 1890, IN, r"suite d orchestre no 2|orchestral suite no 2|suite no 2 op 47", "IMSLP: First Publication 1890 (Hainauer)"),
+    ("Op.79", "Suite d'orchestre No.3", 1908, IN, r"suite d orchestre no 3|orchestral suite no 3|suite no 3 op 79", "IMSLP: First Publication 1908 (Bote & Bock)"),
+    ("Op.30", "Violin Concerto", 1883, IN, r"violin concerto|concerto.*violin|violin.*concerto", "IMSLP: 'Works first published in 1883' category tag (composed 1881)"),
+    ("Op.19", "Johanna d'Arc (symphonic poem)", 1878, IN, r"johanna d arc|jeanne d arc", "IMSLP: 'Works first published in 1878' category tag (composed 1875-76)"),
+    ("Op.51", "Fackeltanz (torch dance, orchestra)", 1893, IN, r"fackeltanz", "IMSLP: First Publication 1893 (Peters)"),
+    ("Op.59", "Piano Concerto", None, UNV, r"piano concerto op 59|piano concerto", "Composition 1898; IMSLP page gives no first-publication year; not imported"),
+    ("Op.85", "Prelude and Fugue", None, UNV, r"prelude and fugue|prelude fugue", "IMSLP page gives no first-publication year; not imported"),
+    ("Op.69", "Valse de concert", None, UNV, r"valse de concert op 69", "IMSLP page gives no first-publication year; not imported"),
+    ("no opus", "Piano Quintet", None, UNV, r"piano quintet", "IMSLP page gives no first-publication year; not imported"),
+    ("no opus", "Symphony in D minor", None, UNV, r"symphony in d minor|symphony d minor", "Composition 1873; IMSLP page gives no first-publication year; not imported"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -2152,5 +2266,23 @@ COMPOSERS = {
         "catalogue": "Op. (Pierné's opus numbers; no-opus titles where IMSLP gives them)", "rows": PIERNE,
         "prefix": "pierne", "genre": "classical", "era": "Late Romantic / early 20th century (French)",
         "scope_note": "US-PD-only (died 1937; works first published 1930 or earlier only; LaDoger priority list 2026-10-11, brief BRIEF_current.md). Piano first (Album pour mes petits amis Op.14 with the Marche des petits soldats de plomb as No.6, 15 Pieces Op.3, Variations Op.42, Etude de concert Op.13, Improvisata, Reverie, Nocturne, Pastorale variee, Serenade a Colombine, Bagatelle), then the Piano Concerto Op.12, Suite d'orchestre No.1, Scherzo-caprice, Konzertstuck Op.39, the Violin Sonata Op.36, the Piano Quintet Op.41, the Piano Trio Op.45, Paysages franciscains Op.43, the Sonata da camera Op.48 and the ballet Cydalise. Post-1930 works (Passacaille Op.52, Variations libres Op.51, Prelude de concert Op.53, Divertissement Op.49, Viennoise Op.49bis, 6 Pieces) are excluded. Works with no verified first-publication year (Cello Sonata Op.46, Poeme symphonique Op.37, Canzonetta, Flute Sonata, Ramuntcho, La croisade des enfants) are unverified and not imported. Principal works for video; not the full catalogue (no operas, no songs, no band or choral works).",
+    },
+    "koechlin": {
+        "name": "Charles Koechlin", "canon": "charles koechlin", "death": 1950, "birth": 1867,
+        "catalogue": "Op. (Koechlin's opus numbers; no-opus titles where IMSLP gives them)", "rows": KOECHLIN,
+        "prefix": "koechlin", "genre": "classical", "era": "Late Romantic / early 20th century (French)",
+        "scope_note": "US-PD-only (died 1950; works first published 1930 or earlier only; LaDoger priority list 2026-10-11, brief BRIEF_current.md). Piano first (Paysages et marines Op.63, 5 Piano Sonatinas Op.59, 12 Petites pieces Op.61d, 10 Petites pieces faciles Op.61c, Ecole du jeu lie Op.61b, 24 Esquisses Op.41, 12 Pastorales Op.77, 4 Nouvelles sonatines Op.87, the two-piano Suite Op.6, the four-hand Suite Op.19, Choral sur le nom de Faure Op.73bis), then the chamber works (Violin, Flute, Cello and Viola Sonatas, Sonata for 2 flutes, String Quartets 1 and 3, the Trio for flute, clarinet and bassoon). Les heures persanes Op.65 (complete piano set 1987; the page's 1921 year is No.15 alone), the later sonatines, the Piano Quintet and the ballets and orchestral works (Bandar-log, Seven Stars, Vers la voute etoilee) are excluded post-1930. No pre-1931 orchestral work is on the IMSLP category page. Songs (Chansons de Bilitis Op.39 1923, Les clairs de lune Op.9, Villanelles, Rondels, Poemes du Livre de la Jungle) are not imported (vocal, outside the film checklist). The Oboe Sonata Op.58 (full work 1981) and the Etude sur les notes de passage are unverified.",
+    },
+    "sgambati": {
+        "name": "Giovanni Sgambati", "canon": "giovanni sgambati", "death": 1914, "birth": 1841,
+        "catalogue": "Op. (IMSLP titles give the composer's own and Schott numbers, e.g. 'Op.18 or Op.23'; no-opus titles where IMSLP gives them)", "rows": SGAMBATI,
+        "prefix": "sgambati", "genre": "classical", "era": "Late Romantic (Italian, Liszt pupil)",
+        "scope_note": "Fully PD (died 1914): no US-PD-only gate; years kept for the record. Brief 2026-10-11 (BRIEF_current.md): piano first. In scope (first-publication year verified on IMSLP, or Wikipedia where it says published): Pieces lyriques Op.18/23 (1891, scan held), Suite in B minor Op.16/21 (1888), 4 Pezzi di seguito Op.13/18 (1885; the Vecchio minuetto is its No.2), Fogli volanti Op.8/12 (1880), Prelude and Fugue Op.6 (1877), Studio trionfale (1916), Boite a musique (1916). Chamber and orchestral in scope: Piano Quintets Op.4 and Op.5 (1877), String Quartet Op.12/17 (1884), Piano Concerto Op.10/15 (1883), Symphony No.1 Op.11/16 (1883), Requiem Op.38 (1906, choral), Serenade valsee (1916). Unverified, not imported (no first-publication year on IMSLP or Wikipedia): 2 Etudes de concert, Gavotte, 3 Nocturnes, Nocturnes Op.31 and Op.33, Melodies poetiques Op.29/36, 3 Morceaux Op.42. The Sinfonia epitalamio is unpublished. Songs (Passiflore, Melodie liriche, Care luci, Il faut aimer, Tout bas, 4 Melodies Op.28/35, 4 Canti, 2 Canti) and the Te Deum and motets are not on the checklist (vocal and choral).",
+    },
+    "moszkowski": {
+        "name": "Moritz Moszkowski", "canon": "moritz moszkowski", "death": 1925, "birth": 1854,
+        "catalogue": "Op. (IMSLP titles; set and movement names where the opus is shared)", "rows": MOSZKOWSKI,
+        "prefix": "moszkowski", "genre": "classical", "era": "Late Romantic (German-Polish)",
+        "scope_note": "Fully PD (died 1925): no US-PD-only gate; years kept for the record. Brief 2026-10-11 (BRIEF_current.md): piano first. In scope (IMSLP first publication, from the category tag or the first-publication line): the Spanish set Op.12 (1876), 3 Nouvelles danses espagnoles Op.65 (1900), Album espagnol Op.21 (1879), Caprice espagnol Op.37 (1885), Serenata (6 Stucke Op.15, 1877), Etincelles (8 Morceaux Op.36, 1886), Guitarre (2 Piano Pieces Op.45, 1888), Etudes de virtuosite Op.72 (1903), Petites etudes Op.91 (1913), left-hand Etudes Op.92 (1915), Pieces mignonnes Op.77 (1907), Petits morceaux Op.94 (1916), Pieces breves Op.95 (1920), Polish Folk Dances Op.55 (1895), 3 Mazurkas Op.60 (1898), 4 Moments musicaux Op.84 (1910), Grande valse de concert Op.88 (1912), Tanz-Momente Op.89 (1912), Gondoliera Op.41 (1886), 6 Stucke aus Don Juan und Faust Op.56 (1896). Orchestral in scope: Suites Nos.1-3 Op.39 (1886), Op.47 (1890), Op.79 (1908); Violin Concerto Op.30 (1883); Johanna d'Arc Op.19 (1878); Fackeltanz Op.51 (1893). Unverified, not imported (no first-publication year on IMSLP): Piano Concerto Op.59, Prelude and Fugue Op.85, Valse de concert Op.69, Piano Quintet, Symphony in D minor. Opera Boabdil Op.49 and the Piano Concerto Op.3 (IMSLP category tag 2014 is not a publication year) are not on the checklist.",
     },
 }

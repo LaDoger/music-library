@@ -85,6 +85,9 @@ NAME_RX = {
     "milhaud": r"\bmilhaud\b",  # PDMX: "Darius Milhaud", "D. Milhaud", "Milhaud Darius"
     "pierne": r"\bpierne\b",  # PDMX/IMSLP: "Gabriel Pierné", "G. Pierne", "Pierne Gabriel" (accents folded by norm())
     "bonis": r"\bbonis\b",  # PDMX/Mutopia/IMSLP: "Mel Bonis", "M. Bonis", "Bonis Mel" (accents folded by norm())
+    "koechlin": r"\bkoechlin\b",  # PDMX/IMSLP: "Charles Koechlin", "C. Koechlin", "Koechlin Charles" (accents folded by norm())
+    "moszkowski": r"\bmoszkowsk|\bmoszkovsk",  # PDMX/IMSLP: "Moritz Moszkowski", "M. Moszkowski", "Moszkowsky" (accents folded by norm())
+    "sgambati": r"\bsgambat+i\b",  # PDMX/IMSLP: "Giovanni Sgambati", "G. Sgambati", "Sgambatti" (IMSLP and Naxos spelling)
     "severac": r"\bseverac\b",  # PDMX/Mutopia: "Déodat de Séverac", "D. de Severac" (accents folded by norm())
     "hahn": r"\breynaldo hahn\b|\bhahn reynaldo\b|\br\.? hahn\b",  # PDMX: "Reynaldo Hahn", "R. Hahn", "Hahn Reynaldo" (norm() folds accents)
     "villa_lobos": r"\bvilla\W?lobos\b",  # PDMX/Mutopia: "Heitor Villa-Lobos", "H. Villa Lobos", "Villa-Lobos Heitor" (norm() folds accents)
