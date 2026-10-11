@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 20,
-  "score_count": 20,
+  "piece_count": 22,
+  "score_count": 22,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2903,7 +2903,9 @@
    "bartok_sz71_15_hungarian_peasant_songs_2",
    "bartok_sz71_15_hungarian_peasant_songs_3",
    "bartok_sz71_15_hungarian_peasant_songs_4",
-   "bartok_sz71_15_hungarian_peasant_songs_7"
+   "bartok_sz71_15_hungarian_peasant_songs_7",
+   "bartok_sz71_15_hungarian_peasant_songs_8",
+   "bartok_sz71_15_hungarian_peasant_songs_9"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -8586,8 +8588,8 @@
    "classical"
   ],
   "featured_rank": 2,
-  "piece_count": 56,
-  "score_count": 55,
+  "piece_count": 61,
+  "score_count": 60,
   "recording_count": 2,
   "piece_ids": [
    "grieg_peer_gynt_morning_mood",
@@ -8645,7 +8647,12 @@
    "grieg_op7_grieg_sonata_in_e_minor_move",
    "grieg_d02_la_mort_d_ase",
    "grieg_l1901_til_ole_bull_ttbb_grieg",
-   "grieg_op74_4_i_himmelen_fra_fire_salmer"
+   "grieg_op74_4_i_himmelen_fra_fire_salmer",
+   "grieg_op_23_morgenstimmung",
+   "grieg_op_16_grieg_piano_concerto_in_a_minor_3rd_moveme",
+   "grieg_op_16_piano_concerto_in_a_minor_opus_16_grieg_2n",
+   "grieg_op_27_grieg_quartet_in_g_op_27_first_movement",
+   "grieg_op_46_ase_s_tod"
   ],
   "wikidata": "Q80621",
   "portrait_url": null,
@@ -17059,8 +17066,8 @@
    "classical"
   ],
   "featured_rank": 1,
-  "piece_count": 62,
-  "score_count": 62,
+  "piece_count": 69,
+  "score_count": 69,
   "recording_count": 1,
   "piece_ids": [
    "satie_gnossienne_1",
@@ -17124,7 +17131,14 @@
    "satie_s4_no_4_adieu",
    "satie_s4_no_3_chanson",
    "satie_s4_no_2_danseuse",
-   "satie_s4_no_1_elegie"
+   "satie_s4_no_1_elegie",
+   "satie_socrate_erik_satie_socrate",
+   "satie_3_gymnopedies_deuxieme_gymnopedie",
+   "satie_gnossiennes_1ere_gnossienne",
+   "satie_3_gymnopedies_troisieme_gymnopedie",
+   "satie_3_gymnopedies_gymnopedie_1",
+   "satie_3_gymnopedies_gymnopedie_1b2",
+   "satie_3_gymnopedies_gymnopedie_1b3"
   ],
   "wikidata": "Q187192",
   "portrait_url": null,
@@ -17642,8 +17656,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 202,
-  "score_count": 202,
+  "piece_count": 203,
+  "score_count": 203,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17847,7 +17861,8 @@
    "schumann_op9_carnaval_21",
    "schumann_op6_davidsbuendlertaenze_9",
    "schumann_op124_albumblaetter_17",
-   "schumann_op6_davidsbuendlertaenze_10"
+   "schumann_op6_davidsbuendlertaenze_10",
+   "schumann_op6_davidsbuendlertaenze_11"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
