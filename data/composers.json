@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 48,
-  "score_count": 48,
+  "piece_count": 61,
+  "score_count": 61,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2931,7 +2931,20 @@
    "bartok_sz42_for_children_original_version__12",
    "bartok_sz42_for_children_original_version__13",
    "bartok_sz42_for_children_original_version__14",
-   "bartok_sz42_for_children_original_version__15"
+   "bartok_sz42_for_children_original_version__15",
+   "bartok_sz42_for_children_original_version__16",
+   "bartok_sz42_for_children_original_version__17",
+   "bartok_sz42_for_children_original_version__18",
+   "bartok_sz42_for_children_original_version__19",
+   "bartok_sz42_for_children_original_version__20",
+   "bartok_sz42_for_children_original_version__21",
+   "bartok_sz42_for_children_original_version__22",
+   "bartok_sz42_for_children_original_version__23",
+   "bartok_sz42_for_children_original_version__24",
+   "bartok_sz42_for_children_original_version__25",
+   "bartok_sz42_for_children_original_version__26",
+   "bartok_sz42_for_children_original_version__27",
+   "bartok_sz84_three_rondos_on_slovak_folk_tu_1"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -3622,6 +3635,30 @@
   "recording_count": 0,
   "piece_ids": [
    "boellmann_choral_suite_gothique"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "mel-bonis",
+  "name": "Mel Bonis",
+  "short_name": "Bonis",
+  "sort_name": "Bonis, Mel",
+  "birth_year": null,
+  "death_year": 1937,
+  "era": "Late Romantic / early 20th century (French)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "bonis_op_93_le_chat_sur_le_toit_op_93"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -8904,6 +8941,31 @@
    "guyot_tel_en_mesdict_jean_guyot",
    "guyot_vous_estes_si_doulce_jean_gu",
    "guyot_vous_perdez_tamps_jean_guyot"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "reynaldo-hahn",
+  "name": "Reynaldo Hahn",
+  "short_name": "Hahn",
+  "sort_name": "Hahn, Reynaldo",
+  "birth_year": null,
+  "death_year": 1947,
+  "era": "20th century (French, Belle Époque, Fauré pupil)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "hahn_irh_16_7_chansons_grises_l_heure_exquise",
+   "hahn_irh_94_a_chloris"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17750,8 +17812,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 219,
-  "score_count": 219,
+  "piece_count": 220,
+  "score_count": 220,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17972,7 +18034,8 @@
    "schumann_op13_symphonic_etudes_5",
    "schumann_op6_davidsbuendlertaenze_16",
    "schumann_op13_symphonic_etudes_6",
-   "schumann_op13_symphonic_etudes_7"
+   "schumann_op13_symphonic_etudes_7",
+   "schumann_op13_symphonic_etudes_8"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
