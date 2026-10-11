@@ -499,18 +499,24 @@
       "chords": [
         {
           "beat": 1.0,
-          "symbol": "Bm7",
-          "rn": "iv7",
-          "function": "predominant"
+          "symbol": "Bm11",
+          "rn": "iv11",
+          "function": "predominant with sustained eleventh colour"
         },
         {
           "beat": 2.0,
-          "symbol": "E7",
-          "rn": "VII7",
-          "function": "colour / voice-leading"
+          "symbol": "E7add13",
+          "rn": "VII7(add13)",
+          "function": "relative-major dominant colour"
         }
       ],
-      "events": []
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "Accented E–D octave melody over B minor; sustain retains the eleventh colour"
+        }
+      ]
     },
     {
       "bar": 25,
@@ -1128,18 +1134,24 @@
       "chords": [
         {
           "beat": 1.0,
-          "symbol": "Em7",
-          "rn": "iv7",
-          "function": "predominant"
+          "symbol": "Em11",
+          "rn": "iv11",
+          "function": "predominant with sustained eleventh colour"
         },
         {
           "beat": 2.0,
-          "symbol": "A7",
-          "rn": "VII7",
-          "function": "colour / voice-leading"
+          "symbol": "A7add13",
+          "rn": "VII7(add13)",
+          "function": "relative-major dominant colour"
         }
       ],
-      "events": []
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "Accented A–G octave melody over E minor; sustain retains the eleventh colour"
+        }
+      ]
     },
     {
       "bar": 63,

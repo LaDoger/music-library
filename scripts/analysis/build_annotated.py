@@ -190,6 +190,7 @@ def build(spec,out_root=None):
     prior_tempos=[m for m in marks if m['type']=='set_tempo' and m['q']<=meta['quarter_range'][0]]
     if prior_tempos and not meta.get('tempo_override'):
         meta['suggested_arrangement_tempo']=meta['tempo'];meta['tempo']=round(60000000/prior_tempos[-1]['tempo'],3)
+    meta['sustain_events']=[{'quarter':m['q']-meta['quarter_range'][0],'channel':m['channel'],'value':m['value']} for m in marks if m['type']=='sustain' and meta['quarter_range'][0]<=m['q']<meta['quarter_range'][1]]
     bundle['verification']=verify(bundle)
     dst=Path(out_root or ROOT/'files/analysis')/meta['id'];dst.mkdir(parents=True,exist_ok=True)
     score=stream.Score();score.metadata=metadata.Metadata(title=meta['title'],composer=meta['composer'])
@@ -229,7 +230,7 @@ def write_summary(path,b):
     for typ in ('loop_candidates','hook_candidates'):
         for c in b.get(typ,[]):lines.append(f"- {typ.split('_')[0].title()} bars {c['start_bar']}–{c['end_bar']}: {c['why']}")
     for use in b.get('kpop_uses',[]):lines.append(f"- **{use['where']}**: {use['why']}")
-    lines+=['','## Verification and limits','',f"{v['matched_spans']}/{v['labelled_spans']} asserted chord spans pass ({v['chord_note_match_pct']}%); {v['unknown_spans']} spans are explicitly `?`. All original MIDI tracks are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.",'',m.get('notation_notes','MIDI phrasing/dynamics are not a critical edition; notes quantised to straight/triplet grids. Grace notes <0.10 quarter are omitted.'),'']
+    lines+=['','## Verification and limits','',f"{v['matched_spans']}/{v['labelled_spans']} asserted chord spans pass ({v['chord_note_match_pct']}%); {v['unknown_spans']} spans are explicitly `?`. All original MIDI tracks and CC64 sustain releases are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.",'',m.get('notation_notes','MIDI phrasing/dynamics are not a critical edition; notes quantised to straight/triplet grids. Grace notes <0.10 quarter are omitted.'),'']
     for f in b.get('review_flags',[]):lines.append(f"- Review bar {f['bar']}: {f['reason']}")
     unresolved=sorted({f['bar'] for f in v['flagged_bars'] if 'beat' in f})
     if unresolved:lines.append('- Unresolved chord spans in bars '+', '.join(map(str,unresolved))+'. Exact beats and note-support reasons are in the bundle JSON verification.')

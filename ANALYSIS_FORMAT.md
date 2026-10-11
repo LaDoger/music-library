@@ -97,8 +97,10 @@ uses `texture_dynamics`. This avoids a second set of synonymous event types.
 
 For each asserted span, root, third, fifth and seventh (if in the chord)
 must all occur, and the chord's pitch classes must explain at least 70%
-of the sum of note-duration weights. Doublings count as sounding note
-mass; velocity does not. Non-chord tones remain in the denominator.
+of the sum of note-duration weights. CC64 sustain releases are respected across tracks sharing a MIDI channel.
+`meta.sustain_events` preserves relative-quarter controller events in the
+self-contained carrier metadata. Doublings count as sounding note mass;
+velocity does not. Non-chord tones remain in the denominator.
 Extensions enter coverage but the root/third/fifth/seventh check remains
 explicit. `?` spans are reported separately, never counted as matches;
 100% asserted matches can coexist with substantial unresolved material.
@@ -130,7 +132,11 @@ as cursor/audio; seeking, tempo changes and unfolded repeats share one
 clock. A callout expires after its source position plus three measure
 entries (up to four displayed bars including its onset); fade is visual.
 The ribbon follows tempo-map seconds and its segments seek to sections.
-Layout remains a scrolling page, width fit with 16px score padding.
+Layout remains a scrolling page, width fit with 16px score padding. The
+current watch score-audio engine uses notated key-release durations; it
+does not replay CC64 pedal events. Source sustain contributes to chord
+verification and is retained in metadata, but the browser rendition is
+drier than the original MIDI performance.
 
 ## Build and review pipeline
 

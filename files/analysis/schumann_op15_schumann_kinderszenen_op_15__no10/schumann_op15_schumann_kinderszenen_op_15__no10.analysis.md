@@ -29,7 +29,7 @@ A displaced sixteenth-note song whose 13-bar span is part of the tension. The tu
 
 ## Verification and limits
 
-50/50 asserted chord spans pass (100.0%); 2 spans are explicitly `?`. All original MIDI tracks are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
+50/50 asserted chord spans pass (100.0%); 2 spans are explicitly `?`. All original MIDI tracks and CC64 sustain releases are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
 
 D#4 pickup checked at absolute quarter 867.75; bar 1 at 868. No. 11 starts at 928, in G. The supplied performance unfolds the 13-bar phrase twice (second statement starts at 894), followed by bars 27–28 and a 4/4 closing bar at 924. The MIDI key signature B is interpreted as G# minor, with E# and Fx spelled correctly. No score repeats are added. The empty end of the final 4/4 bar is retained.
 

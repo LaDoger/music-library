@@ -13,9 +13,14 @@ const SHOTS=process.env.ANALYSIS_SHOTS||'/tmp/music-analysis-shots';fs.mkdirSync
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
- const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));const results=[];
+ const errors=[];let page;
+ const fresh=async(viewport={width:1440,height:900})=>{if(page)await page.close();page=await browser.newPage({viewport});page.on('pageerror',e=>errors.push(e.message));};
+ await fresh();
+ const partial=path.join(SHOTS,'results.partial.json');
+ const results=process.env.ANALYSIS_SKIP_MATRIX&&fs.existsSync(partial)?JSON.parse(fs.readFileSync(partial)).results:[];
+ const progress=drifts=>fs.writeFileSync(partial,JSON.stringify({base:BASE,results,drifts,errors},null,2)+'\n');
  try{
-  for(const [width,height] of [[1440,900],[390,844]]){
+  if(!process.env.ANALYSIS_SKIP_MATRIX) for(const [width,height] of [[1440,900],[390,844]]){
    await page.setViewportSize({width,height});
    for(const id of IDS){
     await page.goto(BASE+'?watch='+id+'&analysis=1&sound=salamander');
@@ -70,7 +75,8 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
     await page.waitForFunction(()=>window.__watch?.ready,{},{timeout:150000});
     assert(!(await page.evaluate(()=>window.__watch.analysisOn)),'persisted off state');
     results.push({id,width,height,layout:first,offLayout:off});
-    console.log('PASS layout/toggle/playback',id,width+'x'+height);
+    progress([]);console.log('PASS layout/toggle/playback',id,width+'x'+height);
+    await fresh({width,height});
    }
   }
   // Debug/fallback MIDI must respect a sub-piece range rather than play the set.
@@ -83,10 +89,10 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   await page.waitForFunction(()=>window.__watch?.ready,{},{timeout:150000});
   assert(await page.evaluate(()=>window.__watch.analysisOn),'default on when bundle exists');
   await page.setViewportSize({width:1440,height:900});
-  const truths=truthFor(IDS);const drifts=[];
+  const truths=truthFor(IDS);const drifts=[];await fresh();
   for(const id of IDS){
    const d=await measureDrift(page,BASE,id,truths[id],{extra:'&analysis=1'});
-   assert(d.n>=6&&d.max<1,'independent drift <1 beat: '+id+' '+JSON.stringify(d));drifts.push(d);
+   assert(d.n>=6&&d.max<1,'independent drift <1 beat: '+id+' '+JSON.stringify(d));drifts.push(d);progress(drifts);console.log('PASS drift',id,d.max,d.n);await fresh();
   }
   assert.deepEqual(errors,[],'page errors');
   fs.writeFileSync(path.join(SHOTS,'results.json'),JSON.stringify({base:BASE,results,drifts,errors},null,2)+'\n');

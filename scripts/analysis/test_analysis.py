@@ -24,6 +24,20 @@ class VerificationTests(unittest.TestCase):
         v=self.check_notes([48,60,64,67,62,74,65,77]);self.assertEqual(v['chord_note_match_pct'],0);self.assertEqual(v['spans'][0]['coverage'],.5)
     def test_unknown_is_not_a_match(self):
         v=self.check_notes([60,64,67],extra_span=True);self.assertEqual(v['matched_spans'],1);self.assertEqual(v['unknown_spans'],1);self.assertEqual(v['labelled_span_pct'],50)
+    def test_sustain_crosses_tracks_and_excerpt_cut(self):
+        from common import read_midi,sliced_notes,weights
+        with tempfile.TemporaryDirectory(prefix='music-analysis-test-') as d:
+            path=Path(d)/'pedal.mid';m=mido.MidiFile(ticks_per_beat=480)
+            pedal=mido.MidiTrack();keys=mido.MidiTrack();m.tracks.extend([pedal,keys])
+            pedal.append(mido.Message('control_change',channel=0,control=64,value=127,time=0))
+            pedal.append(mido.Message('control_change',channel=0,control=64,value=0,time=480))
+            keys.append(mido.Message('note_on',channel=0,note=60,velocity=64,time=0))
+            keys.append(mido.Message('note_off',channel=0,note=60,time=240))
+            m.save(path);notes,_,_=read_midi(path)
+            self.assertEqual(notes[0]['end'],.5)
+            self.assertEqual(notes[0]['sounding_end'],1)
+            cut=sliced_notes(notes,.75,1)
+            self.assertAlmostEqual(weights(cut,0,.25)[0],.25)
     def test_double_sharp_leading_tone(self):
         self.assertEqual(spelling(67,'g#').name,'F##')
     def test_checked_meter_layout_wins(self):

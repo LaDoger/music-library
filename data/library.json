@@ -28358,6 +28358,7 @@
    "story:arrival",
    "story:start",
    "story:turn",
+   "tension_release:appoggiatura",
    "tension_release:delayed_resolution",
    "texture_dynamics:build_to_climax",
    "texture_dynamics:thickening",

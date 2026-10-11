@@ -33,7 +33,7 @@ A B-minor miniature with a triplet engine and a late, off-beat tune. Its stronge
 
 ## Verification and limits
 
-78/78 asserted chord spans pass (100.0%); 14 spans are explicitly `?`. All original MIDI tracks are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
+78/78 asserted chord spans pass (100.0%); 14 spans are explicitly `?`. All original MIDI tracks and CC64 sustain releases are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
 
 78 unfolded MIDI bars, numbered from absolute quarter 0. The source key signature says D major but the opening and close are B minor. This is a transcription of the supplied MIDI, including its already unfolded material, not an Urtext. Straight 16ths / triplet 8ths and 16ths; grace notes shorter than 0.10 quarter omitted. Sparse runs keep ? instead of asserting complete chords; repeated bass figuration retains separate voices.
 

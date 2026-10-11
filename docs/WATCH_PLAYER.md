@@ -100,3 +100,8 @@ scroll/overflow/header position, score timeline, playback and independent
 `watch_drift.cjs` drift (<1 quarter-note beat). The original watch checks
 remain applicable; set their screenshot output variables to this worktree
 or `/tmp` so they never touch another checkout.
+
+Source MIDI CC64 sustain is included in chord verification and retained
+in bundle metadata. The score-audio engine plays notated key durations
+and does not replay those pedal controllers; the browser rendition is
+drier. This does not add a second timeline or change onset/cursor sync.

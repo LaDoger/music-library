@@ -31,7 +31,7 @@ def verify(bundle):
             if not d['match']: flags.append({'bar':bar['bar'],'beat':c['beat'],'reason':d['reason']})
             details.append(d)
     labelled=[d for d in details if not d['unknown']];matched=sum(d['match'] for d in labelled)
-    return {'music21_version':music21.__version__,'method':'original MIDI; all tracks, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70',
+    return {'music21_version':music21.__version__,'method':'original MIDI; all tracks, CC64 sustain releases, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70',
             'chord_note_match_pct':round(100*matched/len(labelled),2) if labelled else 0,
             'labelled_spans':len(labelled),'matched_spans':matched,'unknown_spans':len(details)-len(labelled),
             'total_spans':len(details),'labelled_span_pct':round(100*len(labelled)/len(details),2) if details else 0,

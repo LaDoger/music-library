@@ -3,6 +3,7 @@ No audio renders or music21 MIDI disk cache. Offsets and beats are quarter notes
 """
 from pathlib import Path
 from collections import defaultdict
+from bisect import bisect_right
 import json
 import mido
 from music21 import key, pitch, stream, note, chord, meter, instrument, clef, tempo
@@ -16,10 +17,16 @@ PREFIXES = {'modulation':'mod','counterpoint':'cpt','voicing_orchestration':'voi
 def read_midi(path):
     midi = mido.MidiFile(path)
     notes, marks, tracks = [], [], []
+    pedals=defaultdict(list);last_quarter=0
     for ti, track in enumerate(midi.tracks):
         tick = 0; active = defaultdict(list); program = 0; name = ''
         for msg in track:
             tick += msg.time; q = tick / midi.ticks_per_beat
+            last_quarter=max(last_quarter,q)
+            if msg.type=='control_change' and msg.control==64:
+                marks.append({'q':q,'type':'sustain','channel':msg.channel,'value':msg.value})
+            if msg.type=='control_change' and msg.control in (64,121):
+                pedals[msg.channel].append((q,msg.value if msg.control==64 else 0))
             if msg.type == 'track_name': name = msg.name.rstrip('\x00')
             if msg.type == 'program_change': program = msg.program
             if msg.type in ('set_tempo','time_signature','key_signature'):
@@ -31,18 +38,28 @@ def read_midi(path):
                 if active[k]:
                     start, vel, prog = active[k].pop(0)
                     if q > start and msg.channel != 9:
-                        notes.append({'start':start,'end':q,'pitch':msg.note,'track':ti,'velocity':vel,'program':prog})
+                        notes.append({'start':start,'end':q,'pitch':msg.note,'track':ti,'velocity':vel,'program':prog,'channel':msg.channel})
         tracks.append(name)
+    # Sustain applies across tracks sharing a MIDI channel. Keep the physical
+    # sounding release separate from the key release used in notation.
+    for channel in pedals:pedals[channel].sort()
+    for n in notes:
+        seq=pedals.get(n['channel'],[])
+        i=bisect_right([q for q,value in seq],n['end']+1e-9)-1
+        n['sounding_end']=n['end']
+        if i>=0 and seq[i][1]>=64:
+            n['sounding_end']=next((q for q,value in seq[i+1:] if value<64),last_quarter)
     return notes, sorted(marks,key=lambda m:m['q']), tracks
 
 def sliced_notes(notes,start,end):
-    return [dict(n,start=max(n['start'],start)-start,end=min(n['end'],end)-start)
-            for n in notes if n['start'] < end-1e-8 and n['end'] > start+1e-8]
+    return [dict(n,start=max(n['start'],start)-start,end=max(0,min(n['end'],end)-start),
+                 sounding_end=min(n.get('sounding_end',n['end']),end)-start)
+            for n in notes if n['start'] < end-1e-8 and n.get('sounding_end',n['end']) > start+1e-8]
 
 def weights(notes,start,end):
     out=defaultdict(float)
     for n in notes:
-        overlap=min(end,n['end'])-max(start,n['start'])
+        overlap=min(end,n.get('sounding_end',n['end']))-max(start,n['start'])
         if overlap>1e-8: out[n['pitch']%12]+=overlap
     return dict(out)
 

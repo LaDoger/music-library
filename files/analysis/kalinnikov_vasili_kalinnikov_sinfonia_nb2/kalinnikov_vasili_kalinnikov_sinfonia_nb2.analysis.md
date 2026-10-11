@@ -31,7 +31,7 @@ A melody-first F#-minor opening with a one-quarter pickup and delayed accompanim
 
 ## Verification and limits
 
-18/18 asserted chord spans pass (100.0%); 1 spans are explicitly `?`. All original MIDI tracks are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
+18/18 asserted chord spans pass (100.0%); 1 spans are explicitly `?`. All original MIDI tracks and CC64 sustain releases are checked; non-chord tones remain in the ≥70% coverage denominator. This verifies pitch support, not harmonic function or the authority of the MIDI edition.
 
 Absolute quarter 0.5 begins C#4–E4 oboe-2 pickup; bar 1 is at 1.5. Ends before bar 19 at 55.5, on C# minor rather than a final tonic cadence. The incoming oboe-1 pickup at 54.5–55.5 is omitted to retain only the closing oboe-2 phrase. Piano reduction: oboe-2 melody; harp and strings collapsed to low bass plus at most four upper pitch classes. Original all-track MIDI is used for verification. Short oboe turn notes (<0.10 quarter) omitted; three-note triplet tails retained. The source demo_S01 chord list is an arrangement and is NOT used as the source harmony.
 

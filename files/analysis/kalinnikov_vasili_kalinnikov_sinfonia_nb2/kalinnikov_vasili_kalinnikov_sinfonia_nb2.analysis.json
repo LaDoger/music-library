@@ -41,7 +41,8 @@
       "title": "Vasili Kalinnikov: Sinfonía nº 2 2º. Mv.",
       "subset:no_license_conflict": "True"
     },
-    "suggested_arrangement_tempo": 70
+    "suggested_arrangement_tempo": 70,
+    "sustain_events": []
   },
   "draft": false,
   "reviewed_by": "MusicBot (Codex), note-level MIDI review, 2026-10-11",
@@ -645,7 +646,7 @@
   "modulations": [],
   "verification": {
     "music21_version": "10.5.0",
-    "method": "original MIDI; all tracks, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70",
+    "method": "original MIDI; all tracks, CC64 sustain releases, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70",
     "chord_note_match_pct": 100.0,
     "labelled_spans": 18,
     "matched_spans": 18,
