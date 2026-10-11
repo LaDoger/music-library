@@ -2731,7 +2731,8 @@
   "score_files": [
    "files/scores/mussorgsky_night_on_bald_mountain.ly",
    "files/scores/mussorgsky_night_on_bald_mountain.mid",
-   "files/scores/mussorgsky_night_on_bald_mountain.pdf"
+   "files/scores/mussorgsky_night_on_bald_mountain.pdf",
+   "files/scores/mussorgsky_night_on_bald_mountain_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -2754,7 +2755,8 @@
   "duration_s": 733.2,
   "midi_play_url": "files/scores/mussorgsky_night_on_bald_mountain.mid",
   "other_editions": [],
-  "search_text": "night on bald mountain modest mussorgsky (rimsky-korsakov orch. 1886) (rimsky-korsakov orch 1886) (rimsky-korsakov orch. 1886) (rimsky-korsakovorch1886)  mussorgsky night on bald mountain dark ominous dramatic chaotic classical romantic musopen (performer not named on page) mussorgsky, modest"
+  "search_text": "night on bald mountain modest mussorgsky (rimsky-korsakov orch. 1886) (rimsky-korsakov orch 1886) (rimsky-korsakov orch. 1886) (rimsky-korsakovorch1886)  mussorgsky night on bald mountain dark ominous dramatic chaotic classical romantic musopen (performer not named on page) mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mussorgsky_pictures_baba_yaga",
@@ -126766,7 +126768,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_40_holberg_suite_air.mid",
   "score_files": [
-   "files/scores/grieg_op_40_holberg_suite_air.mid"
+   "files/scores/grieg_op_40_holberg_suite_air.mid",
+   "files/scores/grieg_op_40_holberg_suite_air_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -126786,7 +126789,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_40_holberg_suite_air.mid",
   "other_editions": [],
-  "search_text": "holberg suite: air edvard grieg op. 40 op 40 op. 40 op40 no. 4 air grieg op 40 holberg suite air intimate classical late romantic / early 20th  grieg, edvard"
+  "search_text": "holberg suite: air edvard grieg op. 40 op 40 op. 40 op40 no. 4 air grieg op 40 holberg suite air intimate classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_40_holberg_suite_gavotte",
@@ -203722,7 +203726,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb10.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb10.mid"
+   "files/scores/handel_from_the_aylesford_piecesb10.mid",
+   "files/scores/handel_from_the_aylesford_piecesb10_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -203743,7 +203748,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb10.mid",
   "other_editions": [],
-  "search_text": "menuet ii (trio) george frideric handel   from the aylesford pieces handel from the aylesford piecesb10 moderate elegant classical baroque  handel, george frideric"
+  "search_text": "menuet ii (trio) george frideric handel   from the aylesford pieces handel from the aylesford piecesb10 moderate elegant classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_messiah_no_33_lift_up_your_h",
@@ -334466,7 +334472,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut.mid",
   "score_files": [
-   "files/scores/bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut.mid"
+   "files/scores/bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut.mid",
+   "files/scores/bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -334487,7 +334494,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut.mid",
   "other_editions": [],
-  "search_text": "gott, wie gross ist deine güte johann sebastian bach schmellis gesangbuch, no. 26 schmellis gesangbuch, no 26 schmellis gesangbuch, no. 26 schmellisgesangbuch,no26  bach schmellisgesangbuchno2 gott wie gross ist deine gut classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "gott, wie gross ist deine güte johann sebastian bach schmellis gesangbuch, no. 26 schmellis gesangbuch, no 26 schmellis gesangbuch, no. 26 schmellisgesangbuch,no26  bach schmellisgesangbuchno2 gott wie gross ist deine gut classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv992_bach_js_capriccio_bwv_992",
@@ -666380,7 +666388,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k153_completed_by_simon_sechter_1.mid",
   "score_files": [
-   "files/scores/mozart_k153_completed_by_simon_sechter_1.mid"
+   "files/scores/mozart_k153_completed_by_simon_sechter_1.mid",
+   "files/scores/mozart_k153_completed_by_simon_sechter_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "contrapuntal"
@@ -666400,7 +666409,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k153_completed_by_simon_sechter_1.mid",
   "other_editions": [],
-  "search_text": "fugue in e-flat major kv 153/375f wolfgang amadeus mozart k153 k 153 k153 (completed by simon sechter, 1788-1867) mozart k153 completed by simon sechter 1 contrapuntal classical classical  mozart, wolfgang amadeus"
+  "search_text": "fugue in e-flat major kv 153/375f wolfgang amadeus mozart k153 k 153 k153 (completed by simon sechter, 1788-1867) mozart k153 completed by simon sechter 1 contrapuntal classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k154_completed_by_simon_sechter_1",

@@ -38,7 +38,8 @@
  "score_files": [
   "files/scores/mussorgsky_night_on_bald_mountain.ly",
   "files/scores/mussorgsky_night_on_bald_mountain.mid",
-  "files/scores/mussorgsky_night_on_bald_mountain.pdf"
+  "files/scores/mussorgsky_night_on_bald_mountain.pdf",
+  "files/scores/mussorgsky_night_on_bald_mountain_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "dark",
@@ -61,6 +62,7 @@
  "duration_s": 733.2,
  "midi_play_url": "files/scores/mussorgsky_night_on_bald_mountain.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mussorgsky_night_on_bald_mountain",
@@ -70,7 +72,8 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain.ly",
   "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain.mid",
-  "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain.pdf"
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain.pdf",
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/mussorgsky_night_on_bald_mountain.mid",
  "render_midi": {
