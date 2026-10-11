@@ -68,6 +68,37 @@ def tidy(parts):
             m.quarterLength=l; P.insert(o,m)
         out.append(P)
     return out
+def fix_keys(sc,k=None):
+    """Key signature (+confident key changes), spelling against it, accidentals only where needed."""
+    if k is None:
+        k=sc.analyze('key'); k=key.Key(k.tonic.name,k.mode)
+    # Key regions: 8-bar windows; a change needs 2+ consecutive confident windows in the same new key.
+    regions=[(0,k)]
+    try:
+        p0=sc.parts[0]; nm=len(p0.getElementsByClass(stream.Measure)); W=8; wins=[]
+        for a in range(0,nm,W):
+            seg=stream.Score([pp.measures(a,a+W-1) for pp in sc.parts])
+            kk=seg.analyze('key'); wins.append((a,key.Key(kk.tonic.name,kk.mode),kk.correlationCoefficient))
+        cur=k
+        for i in range(len(wins)-1):
+            (a,ka,ca),(b,kb,cb)=wins[i],wins[i+1]
+            if ka.sharps!=cur.sharps and ka.sharps==kb.sharps and min(ca,cb)>0.8 and abs(ka.sharps)<=6:
+                cur=ka; regions.append((a,ka))
+    except Exception: regions=[(0,k)]
+    for p in sc.parts:
+        ms=list(p.getElementsByClass(stream.Measure))
+        for m in ms:
+            for ks in list(m.recurse().getElementsByClass(key.KeySignature)): ks.activeSite.remove(ks)
+        for i,(a,kk) in enumerate(regions):
+            end=regions[i+1][0] if i+1<len(regions) else len(ms)
+            seg=stream.Stream(); [seg.append(m) for m in ms[a:end]] if False else None
+            for m in ms[a:end]: respell(m,kk)
+            if a<len(ms): ms[a].insert(0,key.KeySignature(kk.sharps))
+        for m in ms:
+            for n in m.recurse().notes:
+                for pt in n.pitches:
+                    if pt.accidental: pt.accidental.displayStatus=None
+        p.makeAccidentals(inPlace=True,overrideStatus=True,cautionaryPitchClass=False,cautionaryNotImmediateRepeat=False)
 def convert(mid,out,title='',composer=''):
     s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3))
     parts=[p for p in s.parts if p.recurse().notes]
@@ -114,6 +145,7 @@ def convert(mid,out,title='',composer=''):
                     if c.elementOffset(r)+r.quarterLength<=shift+1e-6: c.remove(r)
                 for e in list(c.notesAndRests): c.setElementOffset(e,c.elementOffset(e)-shift)
             m.paddingLeft=shift; m.number=0
+    fix_keys(sc,k)
     for p in sc.parts:
         ms=list(p.getElementsByClass(stream.Measure))
         if shift:
@@ -138,5 +170,7 @@ def convert(mid,out,title='',composer=''):
     mn=midi_notes(mid)
     return dict(pickup=shift,key=str(k),ts=ts.ratioString,parts=len(back.parts),measures=len(back.parts[0].getElementsByClass(stream.Measure)),
                 midi_notes=mn,xml_notes=xn,note_match=round(xn/max(1,mn),3),bad_bars=bad)
+if __name__=='__main__' and sys.argv[1]=='--fix-keys':
+    sc=converter.parse(sys.argv[2]); fix_keys(sc); sc.write('mxl' if sys.argv[2].endswith('.mxl') else 'musicxml',fp=sys.argv[2]); sys.exit(0)
 if __name__=='__main__':
     print(json.dumps(convert(*sys.argv[1:3],*(sys.argv[3:5]))))
