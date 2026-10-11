@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 17",
  "catalog": "Op. 124",
  "movement": "No. 17",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;muted;reflective;key: Ab major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Ab major. Chord journey: I - v - i loop, IV - #vi - ii4 - bVII2 chromatic detour, returns to I - v - i and closes on I. Texture: two-part chordal texture with a clear melody line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "muted",
+  "reflective",
+  "key: Ab major"
  ],
  "has_editable_score": true,
  "has_recording": false,

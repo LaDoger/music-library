@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 21",
  "catalog": "Op. 9",
  "movement": "No. 21",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bold;marching;bright;key: Ab major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Ab major. Chord journey: I - IV64 - I64 - V - I, chromatic detour through bIII53 and bVII (I64 - bVII5 - I), returns via vi - vi7 - i4 - IV6 - V to a I6 close. Texture: march-like block chords with accented dotted rhythms.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bold",
+  "marching",
+  "bright",
+  "key: Ab major"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "14 Bagatelles - No. 7",
  "catalog": "Op. 6, Sz. 38",
  "movement": "No. 7",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;tense;unsettled;driving;key: A minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A minor. Chord journey: v7 - v#8 dominant shifts, ii#8 - v#8 loop, ii4#3 pedal, closes iv - v7 - vii - #iv with no tonic arrival. Texture: repeated dominant-seventh figures in a steady pulse.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "tense",
+  "unsettled",
+  "driving",
+  "key: A minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

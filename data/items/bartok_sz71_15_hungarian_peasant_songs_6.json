@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 6",
  "catalog": "Sz. 71",
  "movement": "No. 6",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;rustic;wry;bittersweet;key: G minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: v - iv - iii - i opening, v6 - vi - ii4 - i6 loop, ii2 - i2 - vi7 - III+6 - iii6 wander, closes viiø - vii - i5. Texture: folk-style open melody over light harmonic accompaniment.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "rustic",
+  "wry",
+  "bittersweet",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

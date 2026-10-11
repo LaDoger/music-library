@@ -673829,9 +673829,9 @@
   "title": "Carnaval - No. 21",
   "catalog": "Op. 9",
   "movement": "No. 21",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;bold;marching;bright;key: Ab major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: I - IV64 - I64 - V - I, chromatic detour through bIII53 and bVII (I64 - bVII5 - I), returns via vi - vi7 - i4 - IV6 - V to a I6 close. Texture: march-like block chords with accented dotted rhythms.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -673871,8 +673871,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "bold",
+   "marching",
+   "bright",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -673889,7 +673892,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op9_carnaval_21.mid",
   "other_editions": [],
-  "search_text": "carnaval - no. 21 robert schumann op. 9 op 9 op. 9 op9 no. 21 schumann op9 carnaval 21 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "carnaval - no. 21 robert schumann op. 9 op 9 op. 9 op9 no. 21 schumann op9 carnaval 21 classical piano bold marching bright key: ab major classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz38_14_bagatelles_9",
@@ -673898,9 +673901,9 @@
   "title": "14 Bagatelles - No. 9",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 9",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;restless;spiky;unsettled;key: G major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: iii - bVI - iii - bVI, #iv - vii, bI - iv - bI - ii - bII - bVII, then iii - bVI and v - iii - bII - v, no firm tonic arrival. Texture: terse angular motifs with dry repetition.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -673943,8 +673946,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "restless",
+   "spiky",
+   "unsettled",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -673963,7 +673969,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_9.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 9 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 9 bartok sz38 14 bagatelles 9 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 9 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 9 bartok sz38 14 bagatelles 9 classical piano restless spiky unsettled key: g major classical 20th century  bartók, béla"
  },
  {
   "id": "schumann_op6_davidsbuendlertaenze_9",
@@ -673972,9 +673978,9 @@
   "title": "Davidsbündlertänze - No. 9",
   "catalog": "Op. 6",
   "movement": "No. 9",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;searching;fanciful;chromatic;key: C major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: #i - iii6 - vi6 - iv7 cycle repeated, then i - IV - iii - vi - #ii6 - V6 - vii - V, closing v#7 - I. Texture: chordal melody with a rising chromatic inner voice.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674014,8 +674020,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "searching",
+   "fanciful",
+   "chromatic",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674032,7 +674041,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_9.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 9 robert schumann op. 6 op 6 op. 6 op6 no. 9 schumann op6 davidsbuendlertaenze 9 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 9 robert schumann op. 6 op 6 op. 6 op6 no. 9 schumann op6 davidsbuendlertaenze 9 classical piano searching fanciful chromatic key: c major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op124_albumblaetter_17",
@@ -674041,9 +674050,9 @@
   "title": "Albumblätter - No. 17",
   "catalog": "Op. 124",
   "movement": "No. 17",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;tender;muted;reflective;key: Ab major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: I - v - i loop, IV - #vi - ii4 - bVII2 chromatic detour, returns to I - v - i and closes on I. Texture: two-part chordal texture with a clear melody line.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674083,8 +674092,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "tender",
+   "muted",
+   "reflective",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674101,7 +674113,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op124_albumblaetter_17.mid",
   "other_editions": [],
-  "search_text": "albumblätter - no. 17 robert schumann op. 124 op 124 op. 124 op124 no. 17 schumann op124 albumblaetter 17 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "albumblätter - no. 17 robert schumann op. 124 op 124 op. 124 op124 no. 17 schumann op124 albumblaetter 17 classical piano tender muted reflective key: ab major classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz71_15_hungarian_peasant_songs_5",
@@ -674110,9 +674122,9 @@
   "title": "15 Hungarian Peasant Songs",
   "catalog": "Sz. 71",
   "movement": "",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;austere;rustic;modal;key: C minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C minor. Chord journey: #iv diminished - IV64 swing over a static IV, vii6 and III+ colour, V-based cadential figures, closes IV - vii6 - i6. Texture: open modal folk texture with drone-like bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674155,8 +674167,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "austere",
+   "rustic",
+   "modal",
+   "key: C minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674175,7 +674190,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz71_15_hungarian_peasant_songs_5.mid",
   "other_editions": [],
-  "search_text": "15 hungarian peasant songs béla bartók sz. 71 sz 71 sz. 71 sz71  bartok sz71 15 hungarian peasant songs 5 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "15 hungarian peasant songs béla bartók sz. 71 sz 71 sz. 71 sz71  bartok sz71 15 hungarian peasant songs 5 classical piano austere rustic modal key: c minor classical 20th century  bartók, béla"
  },
  {
   "id": "schumann_op6_davidsbuendlertaenze_10",
@@ -674184,9 +674199,9 @@
   "title": "Davidsbündlertänze - No. 10",
   "catalog": "Op. 6",
   "movement": "No. 10",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;urgent;agitated;restless;key: D minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D minor. Chord journey: v - i alternation with v5 and v7 pulls, sustained i pedal, I65 - i - I65 - iv5 cadence, ends on a major I (Picardy close). Texture: tense pulsing dominant-tonic alternation.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674226,8 +674241,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "urgent",
+   "agitated",
+   "restless",
+   "key: D minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674244,7 +674262,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op6_davidsbuendlertaenze_10.mid",
   "other_editions": [],
-  "search_text": "davidsbündlertänze - no. 10 robert schumann op. 6 op 6 op. 6 op6 no. 10 schumann op6 davidsbuendlertaenze 10 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "davidsbündlertänze - no. 10 robert schumann op. 6 op 6 op. 6 op6 no. 10 schumann op6 davidsbuendlertaenze 10 classical piano urgent agitated restless key: d minor classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz38_14_bagatelles_1",
@@ -674253,9 +674271,9 @@
   "title": "14 Bagatelles - No. 1",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 1",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;wistful;spare;hushed;key: C# minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C# minor. Chord journey: iii - bI oscillation, bVI pivot, bV - bVII chromatic slide, closes on bI. Texture: bare two-voice lines with long rests.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674298,8 +674316,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "wistful",
+   "spare",
+   "hushed",
+   "key: C# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674318,7 +674339,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_1.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 1 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 1 bartok sz38 14 bagatelles 1 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 1 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 1 bartok sz38 14 bagatelles 1 classical piano wistful spare hushed key: c# minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_2",
@@ -674327,9 +674348,9 @@
   "title": "14 Bagatelles - No. 2",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 2",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;uneasy;chromatic;spectral;key: G# minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G# minor. Chord journey: bIII pedal, bII - bI - bVI colour, bIV - bII+ - bII - bivø - bvø - bV7 cadence, returns to bIII. Texture: tangled chromatic chords with dense inner motion.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674372,8 +674393,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "uneasy",
+   "chromatic",
+   "spectral",
+   "key: G# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674392,7 +674416,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_2.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 2 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 2 bartok sz38 14 bagatelles 2 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 2 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 2 bartok sz38 14 bagatelles 2 classical piano uneasy chromatic spectral key: g# minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_3",
@@ -674401,9 +674425,9 @@
   "title": "14 Bagatelles - No. 3",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 3",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;wistful;static;ambiguous;key: E minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E minor. Chord journey: iii2 - i loop, bVI5 pedal chords with a turn, iii+4 augmented colour, ends unresolved on bVI5. Texture: two-bar ostinato of sustained chordal pairs.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674446,8 +674470,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "wistful",
+   "static",
+   "ambiguous",
+   "key: E minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674466,7 +674493,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_3.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 3 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 3 bartok sz38 14 bagatelles 3 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 3 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 3 bartok sz38 14 bagatelles 3 classical piano wistful static ambiguous key: e minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_4",
@@ -674475,9 +674502,9 @@
   "title": "14 Bagatelles - No. 4",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 4",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;brooding;terse;haunted;key: D minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D minor. Chord journey: i - i7 pedal, iv43 - bVI65 - iv65 - i7 loop, ends on i7 with no full cadence. Texture: sparse rocking chords over a short repeated cycle.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674520,8 +674547,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "brooding",
+   "terse",
+   "haunted",
+   "key: D minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674540,7 +674570,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_4.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 4 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 4 bartok sz38 14 bagatelles 4 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 4 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 4 bartok sz38 14 bagatelles 4 classical piano brooding terse haunted key: d minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz71_15_hungarian_peasant_songs_6",
@@ -674549,9 +674579,9 @@
   "title": "15 Hungarian Peasant Songs - No. 6",
   "catalog": "Sz. 71",
   "movement": "No. 6",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;rustic;wry;bittersweet;key: G minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: v - iv - iii - i opening, v6 - vi - ii4 - i6 loop, ii2 - i2 - vi7 - III+6 - iii6 wander, closes viiø - vii - i5. Texture: folk-style open melody over light harmonic accompaniment.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674594,8 +674624,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "rustic",
+   "wry",
+   "bittersweet",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674614,7 +674647,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz71_15_hungarian_peasant_songs_6.mid",
   "other_editions": [],
-  "search_text": "15 hungarian peasant songs - no. 6 béla bartók sz. 71 sz 71 sz. 71 sz71 no. 6 bartok sz71 15 hungarian peasant songs 6 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "15 hungarian peasant songs - no. 6 béla bartók sz. 71 sz 71 sz. 71 sz71 no. 6 bartok sz71 15 hungarian peasant songs 6 classical piano rustic wry bittersweet key: g minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_5",
@@ -674623,9 +674656,9 @@
   "title": "14 Bagatelles - No. 5",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 5",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;static;hypnotic;uneasy;key: G minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: i6/5 - i7 - i42 - i43 cycle held on the tonic, viø7 colour, bVII7 - i7 close. Texture: static block chords repeated over a sustained tonic.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674668,8 +674701,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "static",
+   "hypnotic",
+   "uneasy",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674688,7 +674724,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_5.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 5 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 5 bartok sz38 14 bagatelles 5 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 5 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 5 bartok sz38 14 bagatelles 5 classical piano static hypnotic uneasy key: g minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_6",
@@ -674697,9 +674733,9 @@
   "title": "14 Bagatelles - No. 6",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 6",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;restless;shadowy;unresolved;key: B minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: B minor. Chord journey: i - iii5 - v6/4 - bV chromatic turn, bVII and bIV colour, iiø - ii6/5 - bIV - iii6/4 - iv7, ends on #ivo6/5 with no tonic. Texture: sparse chords with sudden leaps.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -674742,8 +674778,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "restless",
+   "shadowy",
+   "unresolved",
+   "key: B minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -674762,7 +674801,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_6.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 6 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 6 bartok sz38 14 bagatelles 6 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 6 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 6 bartok sz38 14 bagatelles 6 classical piano restless shadowy unresolved key: b minor classical 20th century  bartók, béla"
  },
  {
   "id": "faure_op_7_no_1_apres_un_reve_song",
@@ -675330,9 +675369,9 @@
   "title": "14 Bagatelles - No. 7",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 7",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;tense;unsettled;driving;key: A minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: A minor. Chord journey: v7 - v#8 dominant shifts, ii#8 - v#8 loop, ii4#3 pedal, closes iv - v7 - vii - #iv with no tonic arrival. Texture: repeated dominant-seventh figures in a steady pulse.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -675375,8 +675414,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "tense",
+   "unsettled",
+   "driving",
+   "key: A minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -675395,7 +675437,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_7.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 7 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 7 bartok sz38 14 bagatelles 7 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 7 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 7 bartok sz38 14 bagatelles 7 classical piano tense unsettled driving key: a minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz38_14_bagatelles_8",
@@ -675404,9 +675446,9 @@
   "title": "14 Bagatelles - No. 8",
   "catalog": "Op. 6, Sz. 38",
   "movement": "No. 8",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;shimmering;chromatic;unresolved;key: Eb major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Eb major. Chord journey: #vi4/3 - vi6 - #v - #IV7 - #I, #V7 - bVI7 - iii shift, III+ and vii colour, ends on iv5/4 - iiø7 without resolution. Texture: chromatic chord stacks with shifting bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -675449,8 +675491,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "shimmering",
+   "chromatic",
+   "unresolved",
+   "key: Eb major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -675469,7 +675514,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz38_14_bagatelles_8.mid",
   "other_editions": [],
-  "search_text": "14 bagatelles - no. 8 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 8 bartok sz38 14 bagatelles 8 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "14 bagatelles - no. 8 béla bartók op. 6, sz. 38 op 6, sz 38 op. 6, sz. 38 op6,sz38 no. 8 bartok sz38 14 bagatelles 8 classical piano shimmering chromatic unresolved key: eb major classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz71_15_hungarian_peasant_songs_1",

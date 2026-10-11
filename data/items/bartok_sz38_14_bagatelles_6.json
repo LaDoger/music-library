@@ -5,9 +5,9 @@
  "title": "14 Bagatelles - No. 6",
  "catalog": "Op. 6, Sz. 38",
  "movement": "No. 6",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;restless;shadowy;unresolved;key: B minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B minor. Chord journey: i - iii5 - v6/4 - bV chromatic turn, bVII and bIV colour, iiø - ii6/5 - bIV - iii6/4 - iv7, ends on #ivo6/5 with no tonic. Texture: sparse chords with sudden leaps.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "restless",
+  "shadowy",
+  "unresolved",
+  "key: B minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

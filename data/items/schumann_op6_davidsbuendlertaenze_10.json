@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 10",
  "catalog": "Op. 6",
  "movement": "No. 10",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;urgent;agitated;restless;key: D minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: v - i alternation with v5 and v7 pulls, sustained i pedal, I65 - i - I65 - iv5 cadence, ends on a major I (Picardy close). Texture: tense pulsing dominant-tonic alternation.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "urgent",
+  "agitated",
+  "restless",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

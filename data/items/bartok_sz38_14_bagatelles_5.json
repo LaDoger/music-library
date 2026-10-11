@@ -5,9 +5,9 @@
  "title": "14 Bagatelles - No. 5",
  "catalog": "Op. 6, Sz. 38",
  "movement": "No. 5",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;static;hypnotic;uneasy;key: G minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: i6/5 - i7 - i42 - i43 cycle held on the tonic, viø7 colour, bVII7 - i7 close. Texture: static block chords repeated over a sustained tonic.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "static",
+  "hypnotic",
+  "uneasy",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

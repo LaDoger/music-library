@@ -5,9 +5,9 @@
  "title": "14 Bagatelles - No. 8",
  "catalog": "Op. 6, Sz. 38",
  "movement": "No. 8",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;shimmering;chromatic;unresolved;key: Eb major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Eb major. Chord journey: #vi4/3 - vi6 - #v - #IV7 - #I, #V7 - bVI7 - iii shift, III+ and vii colour, ends on iv5/4 - iiø7 without resolution. Texture: chromatic chord stacks with shifting bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "shimmering",
+  "chromatic",
+  "unresolved",
+  "key: Eb major"
  ],
  "has_editable_score": true,
  "has_recording": false,

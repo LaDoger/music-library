@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 9",
  "catalog": "Op. 6",
  "movement": "No. 9",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;searching;fanciful;chromatic;key: C major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: #i - iii6 - vi6 - iv7 cycle repeated, then i - IV - iii - vi - #ii6 - V6 - vii - V, closing v#7 - I. Texture: chordal melody with a rising chromatic inner voice.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "searching",
+  "fanciful",
+  "chromatic",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,

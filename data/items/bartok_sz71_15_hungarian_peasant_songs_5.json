@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs",
  "catalog": "Sz. 71",
  "movement": "",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;austere;rustic;modal;key: C minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C minor. Chord journey: #iv diminished - IV64 swing over a static IV, vii6 and III+ colour, V-based cadential figures, closes IV - vii6 - i6. Texture: open modal folk texture with drone-like bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "austere",
+  "rustic",
+  "modal",
+  "key: C minor"
  ],
  "has_editable_score": true,
  "has_recording": false,
