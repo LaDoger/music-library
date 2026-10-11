@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 30,
-  "score_count": 30,
+  "piece_count": 42,
+  "score_count": 42,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2913,7 +2913,19 @@
    "bartok_sz71_15_hungarian_peasant_songs_12",
    "bartok_sz71_15_hungarian_peasant_songs_13",
    "bartok_sz71_15_hungarian_peasant_songs_14",
-   "bartok_sz71_15_hungarian_peasant_songs_15"
+   "bartok_sz71_15_hungarian_peasant_songs_15",
+   "bartok_sz38_14_bagatelles_13",
+   "bartok_sz49_allegro_barbaro_1",
+   "bartok_sz42_for_children_original_version__1",
+   "bartok_sz42_for_children_original_version__2",
+   "bartok_sz42_for_children_original_version__3",
+   "bartok_sz42_for_children_original_version__4",
+   "bartok_sz42_for_children_original_version__5",
+   "bartok_sz42_for_children_original_version__6",
+   "bartok_sz42_for_children_original_version__7",
+   "bartok_sz42_for_children_original_version__8",
+   "bartok_sz42_for_children_original_version__9",
+   "bartok_sz42_for_children_original_version__10"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17707,8 +17719,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 212,
-  "score_count": 212,
+  "piece_count": 216,
+  "score_count": 216,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17922,7 +17934,11 @@
    "schumann_op6_davidsbuendlertaenze_13",
    "schumann_op6_davidsbuendlertaenze_14",
    "schumann_op6_davidsbuendlertaenze_15",
-   "schumann_op13_symphonic_etudes_2"
+   "schumann_op13_symphonic_etudes_2",
+   "schumann_op16_kreisleriana_8",
+   "schumann_op13_symphonic_etudes_3",
+   "schumann_op13_symphonic_etudes_4",
+   "schumann_op13_symphonic_etudes_5"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
