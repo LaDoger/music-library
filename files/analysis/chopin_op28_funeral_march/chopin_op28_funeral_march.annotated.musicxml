@@ -1,0 +1,4485 @@
+<?xml version='1.0' encoding='utf-8'?>
+<score-partwise version="4.0">
+  <work>
+    <work-title>Prelude: Op. 28, No. 20</work-title>
+  </work>
+  <movement-title>Prelude: Op. 28, No. 20</movement-title>
+  <identification>
+    <creator type="composer">Frédéric Chopin</creator>
+    <rights>Source MIDI: PD; new annotations: see parent item</rights>
+    <encoding>
+      <encoding-date>2026-10-11</encoding-date>
+      <software>music21 v.10.5.0</software>
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
+      <supports element="accidental" type="yes" />
+    </encoding>
+    <source>https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=472</source>
+    <miscellaneous>
+      <miscellaneous-field name="analysis-json">{"meta":{"id":"chopin_op28_funeral_march","parent_item_id":"chopin_op28_funeral_march","title":"Prelude: Op. 28, No. 20","composer":"Frédéric Chopin","source_file":"files/scores/chopin_op28_funeral_march.mid","quarter_range":[0,52.0],"bar_quarters":4.0,"time_signature":"4/4","key":"c","tempo":42.0,"midi_play_url":"files/scores/chopin_op28_funeral_march.mid","source_licence":"PD","notation_notes":"Mutopia MIDI (PD edition, piece 472): 13 bars of 4/4, no pickup, quarter range 0–52, quarter = 42 throughout. Bars 9–12 are written out (the printed repeat of bars 5–8); not doubled. Beat 3 of most bars is a dotted-eighth + sixteenth figure. Constant MIDI velocity: printed ff / p / pp and the crescendo in bar 12 are not in the source and are not inferred. Ab/Db/Gb sound as G#/C#/F# spellings in the MIDI-derived score. MIDI-derived score, not an Urtext.","source_page":"https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=472","suggested_arrangement_tempo":42,"sustain_events":[{"quarter":0.0,"channel":1,"value":127},{"quarter":1.0,"channel":1,"value":0},{"quarter":1.0,"channel":1,"value":127},{"quarter":2.0,"channel":1,"value":127},{"quarter":2.0,"channel":1,"value":0},{"quarter":3.0,"channel":1,"value":0},{"quarter":3.0,"channel":1,"value":127},{"quarter":4.0,"channel":1,"value":0},{"quarter":4.0,"channel":1,"value":127},{"quarter":5.0,"channel":1,"value":0},{"quarter":47.0,"channel":1,"value":127},{"quarter":48.0,"channel":1,"value":0}]},"draft":false,"reviewed_by":"claude-opus-5-5 (MusicBot) 2026-10-11","summary":"C minor throughout. Thirteen bars of block chords, one per beat. Phrase 1 (1–4) states the march: i–iv7–V7–i, a one-bar visit to Ab (VI, with Db), then C7→Fm and V/V→V, ending on a half cadence. Phrase 2 (5–8) moves the melody up an octave over a chromatic bass (C down to Eb) that passes a French sixth, then cadences: V65→i (bar 7) and the Neapolitan Db→V7→i PAC (bar 8). Bars 9–12 repeat 5–8 exactly; bar 13 is a held tonic chord.","sections":[{"name":"A (march)","start_bar":1,"end_bar":4,"mood":["solemn","grave","heavy"],"description":"Full chords with octave bass; i–iv7–V7–i, Ab tonicized in bar 2, HC on G in bar 4."},{"name":"B (lament)","start_bar":5,"end_bar":8,"mood":["mournful","tender"],"description":"Higher melody over a semitone-by-semitone falling bass; French sixth (bar 6), IAC (bar 7), Neapolitan → PAC (bar 8)."},{"name":"B′ (echo)","start_bar":9,"end_bar":12,"mood":["mournful","hushed"],"description":"Exact repeat of bars 5–8 (printed pp; dynamics not in the MIDI)."},{"name":"Coda","start_bar":13,"end_bar":13,"mood":["final","still"],"description":"Held C-minor chord."}],"mood":[{"start_bar":1,"end_bar":4,"labels":["solemn","grave","heavy"]},{"start_bar":5,"end_bar":8,"labels":["mournful","tender"]},{"start_bar":9,"end_bar":12,"labels":["mournful","hushed"]},{"start_bar":13,"end_bar":13,"labels":["final","still"]}],"tricks":["Every beat is a new full chord: the harmony changes four times per bar at quarter = 42, so the progression itself carries the melody.","Bar 2: a whole bar in Ab (VI) with Db (bII), the same chords that later set up the final cadence in bar 8.","Bars 5–7: the bass falls chromatically C–B–Bb–A–Ab–G, then F–Eb, under a nearly stepwise melody (lament bass).","Bar 6: French sixth Ab–C–D–F# opens out onto the G octave.","Beat-3 dotted rhythm with an appoggiatura (Eb→D, G→F, B→A) adds a sigh to most bars.","Bars 9–12 repeat 5–8 exactly; the contrast in editions is dynamic only."],"loop_candidates":[{"start_bar":5,"end_bar":8,"why":"Self-contained phrase ending on a PAC to C minor; bar 5 restarts on Cm, so the seam is a tonic-to-tonic join.","quarter_range":[16,32],"requires_audition":true},{"start_bar":1,"end_bar":4,"why":"Ends on V (G), which leads back to the Cm of bar 1.","quarter_range":[0,16],"requires_audition":true}],"hook_candidates":[{"start_bar":1,"end_bar":2,"why":"The recognisable opening chord march: i–iv7–V7–i, then Ab–Db–Eb7–Ab.","quarter_range":[0,8]},{"start_bar":5,"end_bar":6,"why":"High Eb5–D5–C5 line over the chromatic bass and the French sixth.","quarter_range":[16,24]},{"start_bar":7,"end_bar":8,"why":"Double cadence: V65→i, then Neapolitan → V7 → i.","quarter_range":[24,32]}],"kpop_uses":[{"where":"verse","why":"Bars 5–8 as a slow piano bed: one chord per beat, chromatic falling bass, and the melody moves little, leaving space for a vocal."},{"where":"chorus","why":"Bars 1–4 as a heavy ballad chorus progression (i–iv7–V7–i, VI–bII–V7/VI–VI) at half time with drums; ends on V for a turnaround."},{"where":"bridge","why":"Bars 6–8: French sixth and Neapolitan before V7–i give a dark pre-resolution moment."}],"review_flags":[{"bar":1,"reason":"Draft read bar 1 as one Cm chord and missed the per-beat harmony; every bar was relabelled per quarter."},{"bar":2,"reason":"Ab is tonicized for one bar (I–IV–V7–I in Ab), not modulated; kept key c with a modulation event marking the brief Ab region and Roman numerals relative to C minor."},{"bar":5,"reason":"Beat 3 (B–D–Ab + F# sixteenth) left as ?: incomplete viio7 without F. Same in bar 9."},{"bar":6,"reason":"Beat 1 (A–C–G) left as ?: passing sonority on the chromatic bass, no complete triad. Same in bar 10."},{"bar":6,"reason":"Beat 2 labelled A-7b5 as the enharmonic spelling of the French sixth Ab–C–D–F#."},{"bar":7,"reason":"Draft IAC in bar 7 kept (V65 → i, melody Eb); the draft had no PAC in bar 8, added (G7 root position → Cm, top voice C)."},{"bar":9,"reason":"Dynamics (ff, p, pp, crescendo) are printed in editions but absent from the constant-velocity MIDI; only the B′ section description mentions them."}],"schema_version":1,"bars":[{"bar":1,"start_quarter":0.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm","rn":"i","function":"tonic"},{"beat":2,"symbol":"Fm7","rn":"iv7","function":"Eb held over from beat 1"},{"beat":3,"symbol":"G7","rn":"V7","function":"Eb appoggiatura falls to D; F on the sixteenth"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic"}],"events":[{"type":"form","technique":"theme_1","text":"Phrase 1 (bars 1–4): ff chord march, one block chord per beat with octave bass"},{"type":"story","technique":"start","text":"A slow processional of full chords, each beat landing like a step"},{"type":"rhythm_phrase","technique":"phrase_length","text":"Same rhythm in every bar: three quarters and a dotted-eighth + sixteenth on beat 3, then a quarter"},{"type":"hook","technique":"harmonic_cell","text":"i – iv7 – V7 – i in one bar"}]},{"bar":2,"start_quarter":4.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"A-","rn":"VI","function":"Ab = I of the tonicized key"},{"beat":2,"symbol":"D-","rn":"bII","function":"IV in Ab / Neapolitan in C minor"},{"beat":3,"symbol":"E-7","rn":"V7/VI","function":"C appoggiatura falls to Bb; Db in the bass voice"},{"beat":4,"symbol":"A-","rn":"VI","function":"local arrival on Ab"}],"events":[{"type":"modulation","technique":"direct_phrase_modulation","text":"Tonicization of Ab (VI) for one bar: I – IV – V7 – I in Ab; not an established key (bar 3 returns to G7)","from_key":"c","to_key":"A-"},{"type":"colour_chord","technique":"neapolitan","text":"Db major on beat 2 is IV of Ab and also bII of C minor; it returns in bar 8 before V7","beat":2}]},{"bar":3,"start_quarter":8.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"G7","rn":"V7","function":"dominant again"},{"beat":2,"symbol":"C7","rn":"V7/iv","function":"major tonic with Bb: applied dominant"},{"beat":3,"symbol":"Fm","rn":"iv","function":"G4 appoggiatura falls to F"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic"}],"events":[{"type":"story","technique":"continuation","text":"Back to C minor through V7, then C7 → Fm (applied dominant of iv)"},{"type":"tension_release","technique":"appoggiatura","text":"G4 over Fm resolves to F on the sixteenth","beat":3}]},{"bar":4,"start_quarter":12.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"D7","rn":"V7/V","function":"applied dominant"},{"beat":2,"symbol":"G","rn":"V","function":"dominant"},{"beat":3,"symbol":"D7","rn":"V7/V","function":"B appoggiatura falls to A"},{"beat":4,"symbol":"G","rn":"V","function":"phrase ends on the dominant"}],"events":[{"type":"cadence","technique":"HC","text":"D7 → G twice; the phrase ends on V (G with octave bass)","beat":4},{"type":"tension_release","technique":"appoggiatura","text":"B4 over D7 falls to A4","beat":3}]},{"bar":5,"start_quarter":16.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm","rn":"i","function":"tonic"},{"beat":2,"symbol":"A-/C","rn":"VI6","function":"Ab over held C bass"},{"beat":3,"symbol":"?","rn":"?","function":"passing sonority on the chromatic bass","reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"beat":4,"symbol":"Gm/B-","rn":"v6","function":"minor dominant over Bb in the descending bass"}],"events":[{"type":"bass_line","technique":"chromatic","text":"Bass falls by semitone, one step per beat: C–B–Bb–A–Ab–G (to bar 6 beat 3), then F–Eb (bar 7)"},{"type":"bass_line","technique":"stepwise_descent","text":"Lament-type descending bass under a mostly stepwise top line Eb5–D5–C5"},{"type":"form","technique":"theme_2","text":"Phrase 2 (bars 5–8): new melody in the upper register over a chromatic bass"},{"type":"voicing_orchestration","technique":"register_high_shift","text":"Top voice moves up an octave to Eb5; the block-chord texture stays"}]},{"bar":6,"start_quarter":20.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"?","rn":"?","function":"passing sonority on the chromatic bass","reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"},{"beat":2,"symbol":"A-7b5","rn":"Fr+6","function":"French sixth: Ab bass and F# expand to the G octave"},{"beat":3,"symbol":"G","rn":"V","function":"dominant arrival"},{"beat":4,"symbol":"G7/F","rn":"V42","function":"seventh in the bass, falls to Eb"}],"events":[{"type":"colour_chord","technique":"aug6_french","text":"Ab–C–D–F#: Ab bass falls and F# rises to the G octave","beat":2}]},{"bar":7,"start_quarter":24.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm/E-","rn":"i6","function":"tonic in first inversion"},{"beat":2,"symbol":"Fm","rn":"iv","function":"predominant"},{"beat":3,"symbol":"G7/B","rn":"V65","function":"F enters on the sixteenth"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic, melody on Eb"}],"events":[{"type":"cadence","technique":"IAC","text":"V65 → i; bass B → C, melody ends on Eb","beat":4}]},{"bar":8,"start_quarter":28.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"A-","rn":"VI","function":"as bar 2"},{"beat":2,"symbol":"D-","rn":"bII","function":"Neapolitan in root position"},{"beat":3,"symbol":"G7","rn":"V7","function":"Eb appoggiatura falls to D"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic, melody on C"}],"events":[{"type":"colour_chord","technique":"neapolitan","text":"Db major (bII) in root position before V7","beat":2},{"type":"cadence","technique":"PAC","text":"Root-position G7 → Cm with the top voice falling Eb–D–C","beat":4},{"type":"motif","technique":"repetition","text":"Bar 8 reuses the bar-2 harmony VI – bII but now continues to V7 → i in C minor"}]},{"bar":9,"start_quarter":32.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm","rn":"i","function":"tonic"},{"beat":2,"symbol":"A-/C","rn":"VI6","function":"Ab over held C bass"},{"beat":3,"symbol":"?","rn":"?","function":"passing sonority on the chromatic bass","reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"beat":4,"symbol":"Gm/B-","rn":"v6","function":"minor dominant over Bb in the descending bass"}],"events":[{"type":"bass_line","technique":"chromatic","text":"Bass falls by semitone, one step per beat: C–B–Bb–A–Ab–G (to bar 6 beat 3), then F–Eb (bar 7)"},{"type":"bass_line","technique":"stepwise_descent","text":"Lament-type descending bass under a mostly stepwise top line Eb5–D5–C5"},{"type":"form","technique":"theme_2","text":"Phrase 3 (bars 9–12): note-for-note restatement of bars 5–8 (printed pp in editions; not in the MIDI)"},{"type":"motif","technique":"repetition","text":"Exact repetition of bars 5–8"},{"type":"story","technique":"turn","text":"The lament phrase is heard again, as an echo"}]},{"bar":10,"start_quarter":36.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"?","rn":"?","function":"passing sonority on the chromatic bass","reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"},{"beat":2,"symbol":"A-7b5","rn":"Fr+6","function":"French sixth: Ab bass and F# expand to the G octave"},{"beat":3,"symbol":"G","rn":"V","function":"dominant arrival"},{"beat":4,"symbol":"G7/F","rn":"V42","function":"seventh in the bass, falls to Eb"}],"events":[{"type":"colour_chord","technique":"aug6_french","text":"Ab–C–D–F#: Ab bass falls and F# rises to the G octave","beat":2}]},{"bar":11,"start_quarter":40.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm/E-","rn":"i6","function":"tonic in first inversion"},{"beat":2,"symbol":"Fm","rn":"iv","function":"predominant"},{"beat":3,"symbol":"G7/B","rn":"V65","function":"F enters on the sixteenth"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic, melody on Eb"}],"events":[{"type":"cadence","technique":"IAC","text":"V65 → i; bass B → C, melody ends on Eb","beat":4}]},{"bar":12,"start_quarter":44.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"A-","rn":"VI","function":"as bar 2"},{"beat":2,"symbol":"D-","rn":"bII","function":"Neapolitan in root position"},{"beat":3,"symbol":"G7","rn":"V7","function":"Eb appoggiatura falls to D"},{"beat":4,"symbol":"Cm","rn":"i","function":"tonic, melody on C"}],"events":[{"type":"colour_chord","technique":"neapolitan","text":"Db major (bII) in root position before V7","beat":2},{"type":"cadence","technique":"PAC","text":"Root-position G7 → Cm with the top voice falling Eb–D–C","beat":4},{"type":"story","technique":"arrival","text":"PAC to C minor, then the final tonic chord"}]},{"bar":13,"start_quarter":48.0,"duration_quarters":4.0,"key":"c","chords":[{"beat":1,"symbol":"Cm","rn":"i","function":"final tonic chord held for the whole bar"}],"events":[{"type":"form","technique":"coda","text":"Single held C-minor chord"},{"type":"cadence","technique":"tonic_close","text":"Whole-bar tonic after the bar-12 PAC"}]}],"tags":["bass_line:chromatic","bass_line:stepwise_descent","cadence:HC","cadence:IAC","cadence:PAC","cadence:tonic_close","colour_chord:aug6_french","colour_chord:neapolitan","form:coda","form:theme_1","form:theme_2","hook:harmonic_cell","modulation:direct_phrase_modulation","motif:repetition","rhythm_phrase:phrase_length","story:arrival","story:continuation","story:start","story:turn","tension_release:appoggiatura","voicing_orchestration:register_high_shift"],"modulations":[{"bar":2,"type":"modulation","technique":"direct_phrase_modulation","text":"Tonicization of Ab (VI) for one bar: I – IV – V7 – I in Ab; not an established key (bar 3 returns to G7)","from_key":"c","to_key":"A-"}],"verification":{"music21_version":"10.5.0","method":"original MIDI; all tracks, CC64 sustain releases, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage &gt;=0.70","chord_note_match_pct":100.0,"labelled_spans":45,"matched_spans":45,"unknown_spans":4,"total_spans":49,"labelled_span_pct":91.84,"flagged_bars":[{"bar":1,"reason":"Draft read bar 1 as one Cm chord and missed the per-beat harmony; every bar was relabelled per quarter."},{"bar":2,"reason":"Ab is tonicized for one bar (I–IV–V7–I in Ab), not modulated; kept key c with a modulation event marking the brief Ab region and Roman numerals relative to C minor."},{"bar":5,"reason":"Beat 3 (B–D–Ab + F# sixteenth) left as ?: incomplete viio7 without F. Same in bar 9."},{"bar":6,"reason":"Beat 1 (A–C–G) left as ?: passing sonority on the chromatic bass, no complete triad. Same in bar 10."},{"bar":6,"reason":"Beat 2 labelled A-7b5 as the enharmonic spelling of the French sixth Ab–C–D–F#."},{"bar":7,"reason":"Draft IAC in bar 7 kept (V65 → i, melody Eb); the draft had no PAC in bar 8, added (G7 root position → Cm, top voice C)."},{"bar":9,"reason":"Dynamics (ff, p, pp, crescendo) are printed in editions but absent from the constant-velocity MIDI; only the B′ section description mentions them."},{"bar":5,"beat":3,"reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"bar":6,"beat":1,"reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"},{"bar":9,"beat":3,"reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"bar":10,"beat":1,"reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"}],"spans":[{"bar":1,"beat":1,"symbol":"Cm","start_quarter":0.0,"end_quarter":1.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":2.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":1,"beat":2,"symbol":"Fm7","start_quarter":1.0,"end_quarter":2.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"5":2.0,"8":2.0},"match":true,"unknown":false,"required_pcs":[0,3,5,8],"missing_pcs":[],"coverage":1.0},{"bar":1,"beat":3,"symbol":"G7","start_quarter":2.0,"end_quarter":3.0,"sounding_pc_weights":{"2":0.25,"3":0.75,"5":2.25,"7":3.75,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":0.90625},{"bar":1,"beat":4,"symbol":"Cm","start_quarter":3.0,"end_quarter":4.0,"sounding_pc_weights":{"0":3.0,"3":2.0,"7":4.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":2,"beat":1,"symbol":"A-","start_quarter":4.0,"end_quarter":5.0,"sounding_pc_weights":{"0":3.0,"3":2.0,"7":1.0,"8":3.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":0.88889},{"bar":2,"beat":2,"symbol":"D-","start_quarter":5.0,"end_quarter":6.0,"sounding_pc_weights":{"1":3.0,"5":2.0,"8":1.0},"match":true,"unknown":false,"required_pcs":[1,5,8],"missing_pcs":[],"coverage":1.0},{"bar":2,"beat":3,"symbol":"E-7","start_quarter":6.0,"end_quarter":7.0,"sounding_pc_weights":{"0":0.75,"1":1.25,"3":3.75,"7":1.0,"10":0.25},"match":true,"unknown":false,"required_pcs":[1,3,7,10],"missing_pcs":[],"coverage":0.89286},{"bar":2,"beat":4,"symbol":"A-","start_quarter":7.0,"end_quarter":8.0,"sounding_pc_weights":{"0":2.0,"3":1.0,"8":3.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":1.0},{"bar":3,"beat":1,"symbol":"G7","start_quarter":8.0,"end_quarter":9.0,"sounding_pc_weights":{"2":2.0,"5":1.0,"7":2.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":1.0},{"bar":3,"beat":2,"symbol":"C7","start_quarter":9.0,"end_quarter":10.0,"sounding_pc_weights":{"0":3.0,"4":2.0,"7":1.0,"10":1.0},"match":true,"unknown":false,"required_pcs":[0,4,7,10],"missing_pcs":[],"coverage":1.0},{"bar":3,"beat":3,"symbol":"Fm","start_quarter":10.0,"end_quarter":11.0,"sounding_pc_weights":{"0":1.0,"5":2.25,"7":0.75,"8":1.0},"match":true,"unknown":false,"required_pcs":[0,5,8],"missing_pcs":[],"coverage":0.85},{"bar":3,"beat":4,"symbol":"Cm","start_quarter":11.0,"end_quarter":12.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":4,"beat":1,"symbol":"D7","start_quarter":12.0,"end_quarter":13.0,"sounding_pc_weights":{"0":1.0,"2":3.0,"6":1.0,"9":1.0},"match":true,"unknown":false,"required_pcs":[0,2,6,9],"missing_pcs":[],"coverage":1.0},{"bar":4,"beat":2,"symbol":"G","start_quarter":13.0,"end_quarter":14.0,"sounding_pc_weights":{"2":1.0,"7":4.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,7,11],"missing_pcs":[],"coverage":1.0},{"bar":4,"beat":3,"symbol":"D7","start_quarter":14.0,"end_quarter":15.0,"sounding_pc_weights":{"0":1.0,"2":3.0,"6":1.0,"9":0.25,"11":0.75},"match":true,"unknown":false,"required_pcs":[0,2,6,9],"missing_pcs":[],"coverage":0.875},{"bar":4,"beat":4,"symbol":"G","start_quarter":15.0,"end_quarter":16.0,"sounding_pc_weights":{"2":1.0,"7":3.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,7,11],"missing_pcs":[],"coverage":1.0},{"bar":5,"beat":1,"symbol":"Cm","start_quarter":16.0,"end_quarter":17.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":5,"beat":2,"symbol":"A-/C","start_quarter":17.0,"end_quarter":18.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"8":1.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":1.0},{"bar":5,"beat":3,"symbol":"?","start_quarter":18.0,"end_quarter":19.0,"sounding_pc_weights":{"2":2.0,"6":0.25,"8":0.75,"11":2.0},"match":false,"unknown":true,"reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"bar":5,"beat":4,"symbol":"Gm/B-","start_quarter":19.0,"end_quarter":20.0,"sounding_pc_weights":{"2":2.0,"7":1.0,"10":2.0},"match":true,"unknown":false,"required_pcs":[2,7,10],"missing_pcs":[],"coverage":1.0},{"bar":6,"beat":1,"symbol":"?","start_quarter":20.0,"end_quarter":21.0,"sounding_pc_weights":{"0":2.0,"7":1.0,"9":2.0},"match":false,"unknown":true,"reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"},{"bar":6,"beat":2,"symbol":"A-7b5","start_quarter":21.0,"end_quarter":22.0,"sounding_pc_weights":{"0":1.0,"2":2.0,"6":1.0,"8":2.0},"match":true,"unknown":false,"required_pcs":[0,2,6,8],"missing_pcs":[],"coverage":1.0},{"bar":6,"beat":3,"symbol":"G","start_quarter":22.0,"end_quarter":23.0,"sounding_pc_weights":{"0":0.25,"2":0.75,"7":2.75,"9":0.25,"11":0.75},"match":true,"unknown":false,"required_pcs":[2,7,11],"missing_pcs":[],"coverage":0.89474},{"bar":6,"beat":4,"symbol":"G7/F","start_quarter":23.0,"end_quarter":24.0,"sounding_pc_weights":{"2":1.0,"5":2.0,"7":1.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":1.0},{"bar":7,"beat":1,"symbol":"Cm/E-","start_quarter":24.0,"end_quarter":25.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":7,"beat":2,"symbol":"Fm","start_quarter":25.0,"end_quarter":26.0,"sounding_pc_weights":{"0":1.0,"5":2.0,"8":2.0},"match":true,"unknown":false,"required_pcs":[0,5,8],"missing_pcs":[],"coverage":1.0},{"bar":7,"beat":3,"symbol":"G7/B","start_quarter":26.0,"end_quarter":27.0,"sounding_pc_weights":{"2":1.0,"5":0.25,"7":1.75,"11":2.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":1.0},{"bar":7,"beat":4,"symbol":"Cm","start_quarter":27.0,"end_quarter":28.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":8,"beat":1,"symbol":"A-","start_quarter":28.0,"end_quarter":29.0,"sounding_pc_weights":{"0":1.0,"3":2.0,"8":3.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":1.0},{"bar":8,"beat":2,"symbol":"D-","start_quarter":29.0,"end_quarter":30.0,"sounding_pc_weights":{"1":3.0,"5":2.0,"8":1.0},"match":true,"unknown":false,"required_pcs":[1,5,8],"missing_pcs":[],"coverage":1.0},{"bar":8,"beat":3,"symbol":"G7","start_quarter":30.0,"end_quarter":31.0,"sounding_pc_weights":{"2":0.25,"3":0.75,"5":1.0,"7":3.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":0.875},{"bar":8,"beat":4,"symbol":"Cm","start_quarter":31.0,"end_quarter":32.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":9,"beat":1,"symbol":"Cm","start_quarter":32.0,"end_quarter":33.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":9,"beat":2,"symbol":"A-/C","start_quarter":33.0,"end_quarter":34.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"8":1.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":1.0},{"bar":9,"beat":3,"symbol":"?","start_quarter":34.0,"end_quarter":35.0,"sounding_pc_weights":{"2":2.0,"6":0.25,"8":0.75,"11":2.0},"match":false,"unknown":true,"reason":"B–D–Ab = viio7 lacking F; the F# sixteenth is a chromatic lower neighbour to G"},{"bar":9,"beat":4,"symbol":"Gm/B-","start_quarter":35.0,"end_quarter":36.0,"sounding_pc_weights":{"2":2.0,"7":1.0,"10":2.0},"match":true,"unknown":false,"required_pcs":[2,7,10],"missing_pcs":[],"coverage":1.0},{"bar":10,"beat":1,"symbol":"?","start_quarter":36.0,"end_quarter":37.0,"sounding_pc_weights":{"0":2.0,"7":1.0,"9":2.0},"match":false,"unknown":true,"reason":"A–C–G only: neither Am7 (no E) nor F/A (no F)"},{"bar":10,"beat":2,"symbol":"A-7b5","start_quarter":37.0,"end_quarter":38.0,"sounding_pc_weights":{"0":1.0,"2":2.0,"6":1.0,"8":2.0},"match":true,"unknown":false,"required_pcs":[0,2,6,8],"missing_pcs":[],"coverage":1.0},{"bar":10,"beat":3,"symbol":"G","start_quarter":38.0,"end_quarter":39.0,"sounding_pc_weights":{"0":0.25,"2":0.75,"7":2.75,"9":0.25,"11":0.75},"match":true,"unknown":false,"required_pcs":[2,7,11],"missing_pcs":[],"coverage":0.89474},{"bar":10,"beat":4,"symbol":"G7/F","start_quarter":39.0,"end_quarter":40.0,"sounding_pc_weights":{"2":1.0,"5":2.0,"7":1.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":1.0},{"bar":11,"beat":1,"symbol":"Cm/E-","start_quarter":40.0,"end_quarter":41.0,"sounding_pc_weights":{"0":2.0,"3":2.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":11,"beat":2,"symbol":"Fm","start_quarter":41.0,"end_quarter":42.0,"sounding_pc_weights":{"0":1.0,"5":2.0,"8":2.0},"match":true,"unknown":false,"required_pcs":[0,5,8],"missing_pcs":[],"coverage":1.0},{"bar":11,"beat":3,"symbol":"G7/B","start_quarter":42.0,"end_quarter":43.0,"sounding_pc_weights":{"2":1.0,"5":0.25,"7":1.75,"11":2.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":1.0},{"bar":11,"beat":4,"symbol":"Cm","start_quarter":43.0,"end_quarter":44.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":1.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":12,"beat":1,"symbol":"A-","start_quarter":44.0,"end_quarter":45.0,"sounding_pc_weights":{"0":1.0,"3":2.0,"8":3.0},"match":true,"unknown":false,"required_pcs":[0,3,8],"missing_pcs":[],"coverage":1.0},{"bar":12,"beat":2,"symbol":"D-","start_quarter":45.0,"end_quarter":46.0,"sounding_pc_weights":{"1":3.0,"5":2.0,"8":1.0},"match":true,"unknown":false,"required_pcs":[1,5,8],"missing_pcs":[],"coverage":1.0},{"bar":12,"beat":3,"symbol":"G7","start_quarter":46.0,"end_quarter":47.0,"sounding_pc_weights":{"2":0.25,"3":0.75,"5":1.0,"7":3.0,"11":1.0},"match":true,"unknown":false,"required_pcs":[2,5,7,11],"missing_pcs":[],"coverage":0.875},{"bar":12,"beat":4,"symbol":"Cm","start_quarter":47.0,"end_quarter":48.0,"sounding_pc_weights":{"0":3.0,"3":1.0,"7":3.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0},{"bar":13,"beat":1,"symbol":"Cm","start_quarter":48.0,"end_quarter":52.0,"sounding_pc_weights":{"0":12.0,"3":4.0,"7":8.0},"match":true,"unknown":false,"required_pcs":[0,3,7],"missing_pcs":[],"coverage":1.0}]}}</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+  </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Piano</part-name>
+      <part-abbreviation>Pno</part-abbreviation>
+      <score-instrument id="I2">
+        <instrument-name>Piano</instrument-name>
+        <instrument-abbreviation>Pno</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I2">
+        <midi-channel>1</midi-channel>
+        <midi-program>1</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure implicit="no" number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>-3</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staves>2</staves>
+        <clef number="1">
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+        <clef number="2">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>minor-seventh</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[form] Phrase 1 (bars 1–4): ff chord march, one block chord per beat with octave bass</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[story] A slow processional of full chords, each beat landing like a step</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[rhy] Same rhythm in every bar: three quarters and a dotted-eighth + sixteenth on beat 3, then a quarter</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[hook] i – iv7 – V7 – i in one bar</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>42</per-minute>
+          </metronome>
+        </direction-type>
+        <staff>1</staff>
+        <sound tempo="42" />
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>iv7</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="2">
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>D</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>E</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>dominant</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[mod] Tonicization of Ab (VI) for one bar: I – IV – V7 – I in Ab; not an established key (bar 3 returns to G7)</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[col] Db major on beat 2 is IV of Ab and also bII of C minor; it returns in bar 8 before V7</words>
+        </direction-type>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>bII</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7/VI</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="3">
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[story] Back to C minor through V7, then C7 → Fm (applied dominant of iv)</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[ten] G4 over Fm resolves to F on the sixteenth</words>
+        </direction-type>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7/iv</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>iv</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="4">
+      <harmony placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] D7 → G twice; the phrase ends on V (G with octave bass)</words>
+        </direction-type>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[ten] B4 over D7 falls to A4</words>
+        </direction-type>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7/V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7/V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="5">
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>C</bass-step>
+        </bass>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>minor</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>B</bass-step>
+          <bass-alter>-1</bass-alter>
+        </bass>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[bass] Bass falls by semitone, one step per beat: C–B–Bb–A–Ab–G (to bar 6 beat 3), then F–Eb (bar 7)</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[bass] Lament-type descending bass under a mostly stepwise top line Eb5–D5–C5</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[form] Phrase 2 (bars 5–8): new melody in the upper register over a chromatic bass</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[voi] Top voice moves up an octave to Eb5; the block-chord texture stays</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>?</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>v6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="6">
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>dominant</kind>
+        <degree>
+          <degree-value>5</degree-value>
+          <degree-alter>-1</degree-alter>
+          <degree-type>add</degree-type>
+        </degree>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <inversion>3</inversion>
+        <bass>
+          <bass-step>F</bass-step>
+        </bass>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[col] Ab–C–D–F#: Ab bass falls and F# rises to the G octave</words>
+        </direction-type>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-2</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat-flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-2</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat-flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+        <voice>2</voice>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>?</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>Fr+6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V42</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="7">
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>E</bass-step>
+          <bass-alter>-1</bass-alter>
+        </bass>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>B</bass-step>
+        </bass>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] V65 → i; bass B → C, melody ends on Eb</words>
+        </direction-type>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>iv</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V65</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="8">
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>D</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[col] Db major (bII) in root position before V7</words>
+        </direction-type>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] Root-position G7 → Cm with the top voice falling Eb–D–C</words>
+        </direction-type>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[mot] Bar 8 reuses the bar-2 harmony VI – bII but now continues to V7 → i in C minor</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>bII</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="9">
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>C</bass-step>
+        </bass>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>minor</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>B</bass-step>
+          <bass-alter>-1</bass-alter>
+        </bass>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[bass] Bass falls by semitone, one step per beat: C–B–Bb–A–Ab–G (to bar 6 beat 3), then F–Eb (bar 7)</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[bass] Lament-type descending bass under a mostly stepwise top line Eb5–D5–C5</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[form] Phrase 3 (bars 9–12): note-for-note restatement of bars 5–8 (printed pp in editions; not in the MIDI)</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[mot] Exact repetition of bars 5–8</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[story] The lament phrase is heard again, as an echo</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>?</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>v6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="10">
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>dominant</kind>
+        <degree>
+          <degree-value>5</degree-value>
+          <degree-alter>-1</degree-alter>
+          <degree-type>add</degree-type>
+        </degree>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <inversion>3</inversion>
+        <bass>
+          <bass-step>F</bass-step>
+        </bass>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[col] Ab–C–D–F#: Ab bass falls and F# rises to the G octave</words>
+        </direction-type>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-2</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat-flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-2</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat-flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+        <voice>2</voice>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>?</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>Fr+6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V42</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="11">
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>E</bass-step>
+          <bass-alter>-1</bass-alter>
+        </bass>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <inversion>1</inversion>
+        <bass>
+          <bass-step>B</bass-step>
+        </bass>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] V65 → i; bass B → C, melody ends on Eb</words>
+        </direction-type>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i6</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>iv</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V65</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="12">
+      <harmony placement="above">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>D</root-step>
+          <root-alter>-1</root-alter>
+        </root>
+        <kind>major</kind>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>dominant</kind>
+        <offset>20160</offset>
+        <staff>1</staff>
+      </harmony>
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[col] Db major (bII) in root position before V7</words>
+        </direction-type>
+        <offset>10080</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] Root-position G7 → Cm with the top voice falling Eb–D–C</words>
+        </direction-type>
+        <offset>30240</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[story] PAC to C minor, then the final tonic chord</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <staff>1</staff>
+      </note>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>VI</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>bII</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>G</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>V7</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>1</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>3</voice>
+        <type>quarter</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+    <measure implicit="no" number="13">
+      <harmony placement="above">
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>minor</kind>
+        <offset>0</offset>
+        <staff>1</staff>
+      </harmony>
+      <direction placement="above">
+        <direction-type>
+          <words>[form] Single held C-minor chord</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>[cad] Whole-bar tonic after the bar-12 PAC</words>
+        </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+      </direction>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+        <voice>2</voice>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>40320</duration>
+      </backup>
+      <note dynamics="100.00">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>3</voice>
+        <type>whole</type>
+        <staff>2</staff>
+        <lyric number="rn" name="rn" placement="below">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
+      </note>
+      <note dynamics="100.00">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>3</voice>
+        <type>whole</type>
+        <staff>2</staff>
+      </note>
+    </measure>
+  </part>
+</score-partwise>
