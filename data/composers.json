@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 6,
-  "score_count": 6,
+  "piece_count": 11,
+  "score_count": 11,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2889,7 +2889,12 @@
    "bartok_sz49_allegro_barbaro_orch_johnson",
    "bartok_sz81_out_of_doors_orch_johnson",
    "bartok_sz38_14_bagatelles_9",
-   "bartok_sz71_15_hungarian_peasant_songs_5"
+   "bartok_sz71_15_hungarian_peasant_songs_5",
+   "bartok_sz38_14_bagatelles_1",
+   "bartok_sz38_14_bagatelles_2",
+   "bartok_sz38_14_bagatelles_3",
+   "bartok_sz38_14_bagatelles_4",
+   "bartok_sz71_15_hungarian_peasant_songs_6"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17620,8 +17625,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 201,
-  "score_count": 201,
+  "piece_count": 202,
+  "score_count": 202,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17824,7 +17829,8 @@
    "schumann_op6_davidsbuendlertaenze_8",
    "schumann_op9_carnaval_21",
    "schumann_op6_davidsbuendlertaenze_9",
-   "schumann_op124_albumblaetter_17"
+   "schumann_op124_albumblaetter_17",
+   "schumann_op6_davidsbuendlertaenze_10"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
