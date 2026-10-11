@@ -226,7 +226,7 @@ US_PD_ONLY_CANONS = set()
 # Death-year ceiling for the US-PD-only gate (default 1955). Stravinsky (d.1971) is approved 2026-10-11 by LaDoger
 # for works first published 1930 or earlier only; the ceiling is raised for him alone. Grechaninov (d.1956) likewise
 # (LaDoger priority list 2026-10-11).
-US_PD_ONLY_MAX_DEATH = {"igor stravinsky": 1971, "alexander grechaninov": 1956}
+US_PD_ONLY_MAX_DEATH = {"igor stravinsky": 1971, "alexander grechaninov": 1956, "jean sibelius": 1957}
 US_PD_ONLY_FILE = MANUAL_FILE
 if US_PD_ONLY_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"):
     _known = {item[0] for item in _RAW}

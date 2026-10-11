@@ -454,3 +454,14 @@
 - **Checks:** `licence_audit.py` 0 violations (9512 bulk rows). `build_catalog.py --check` **not run**.
 - **Not run, and why:** `build_bulk_layer.py` and `sync_site_data.py`. This worktree's `parts/` holds only BULK_batchP7. My first attempt at both ran here and rewrote tracked `library_bulk.csv` (58 rows instead of about 9,500) and removed tracked `data/` files. I restored every tracked file to HEAD (`git checkout`), which also reverted my two script edits; I re-applied them and appended the 18 Liszt rows to `library_bulk.csv` by hand. The untracked `data/items/liszt_*.json` that sync wrote were deleted. `data/` is untouched, as in the Grieg run. The data regeneration needs the full `parts/` from the main checkout.
 - **Models:** Haiku 5.5.
+
+## CP-GATHER-chaminade (Cécile Chaminade, d.1944, US-PD-only)
+
+- **Approval and gate:** added to `approved_us_pd_only` (LaDoger priority list 2026-10-11). Works published 1930 or earlier only; the Wikipedia list has nothing dated after 1928, so the 1930 gate excludes nothing.
+- **Checklist:** `CHAMINADE` in `scripts/bulk/catalogue_data.py`: 35 rows, 32 in scope, 3 unverified (Op.35 set, songs without opus, Ritournelle Op.83 piano).
+- **Imported (2):** `chaminade_op_107_concertino_for_flute_and_orchestra_d_majo` (PDMX, CC0, no conflict, pub 1902), `chaminade_op_170_au_pays_bleu` (OpenScore Lieder CC0 song, pub 1928 per Wikipedia 'Air Italien (Au Pays Bleu)').
+- **Skipped:** about 30 PDMX rows, all `license_conflict` True (songs and piano pieces, e.g. Danse créole Op.94, Barcarolle Op.7, Berceuse, Alleluia, Madrigal); the OpenScore Ritournelle, a song with no opus or year source. Arrangements: 0 after the Concertino exemption.
+- **WANTED:** `files/imslp_incoming/chaminade/WANTED.md` (library checkout): 30 in-scope works; URLs curl-checked (HTTP 200) except Automne (Op.35 No.2) and Album des enfants (Op.123), which are not on IMSLP under the titles tried.
+- **Checks:** `licence_audit.py` 0 violations (9514 bulk rows); `build_catalog.py --check` passes.
+- **Not run, and why:** `build_bulk_layer.py`, `sync_site_data.py`: this worktree's `parts/` holds only P7 and a sync rewrites tracked data here. `data/` untouched.
+- **Models:** Haiku 5.5.

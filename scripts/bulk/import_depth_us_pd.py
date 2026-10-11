@@ -68,6 +68,7 @@ NAME_RX = {
     "medtner": r"\bmedtner|\bmedtnor",  # PDMX spellings
     "rebikov": r"\brebikov|\brebikoff|\brebikow|\brebikof|\brebicov",  # PDMX spellings (Rebikoff, Rebikow)
     "grechaninov": r"\bgrechan|\bgretchan|\bgretschan",  # PDMX spellings (Gretchaninoff, Gretschaninow)
+    "karg_elert": r"\bkarg\b",  # PDMX/Mutopia/OpenScore: "Sigfrid Karg-Elert", "S. Karg-Elert", "Karg-Elert Sigfrid" (norm() splits the hyphen)
     "szymanowski": r"\bszymanowsk|\bszimanowsk|\bszymanovsk|\bshymanovsk",  # PDMX spellings (Szymanowsky, Szimanowski)
     "roussel": r"\brouss[ea]l|\brousel",  # PDMX spellings (Rousel, Roussell)
     "respighi": r"\brespighi|\brepighi",  # PDMX spellings (Repighi)
@@ -76,12 +77,15 @@ NAME_RX = {
     "stravinsky": r"stravinsk|strawinsk",
     "busoni": r"\bbusoni\b",  # PDMX/OpenScore: "Ferruccio Busoni", "F. Busoni"
     "grieg": r"\bgrieg\b",  # PDMX/Mutopia/Commons: "Edvard Grieg", "E. Grieg", "Grieg Edvard" (accents folded by norm())
+    "chaminade": r"\bchaminade\b",  # PDMX: "Cécile Chaminade", "C. CHAMINADE", "Cécile CHAMINADE (1857-1944)"
+    "sibelius": r"\bsibelius\b",  # PDMX/OpenScore/Mutopia: "Jean Sibelius", "J. Sibelius", "Sibelius Jean"
     "liszt": r"\bliszt\b",  # PDMX/Commons/Mutopia: "Franz Liszt", "F. Liszt", "Liszt Franz"
+    "reger": r"\breger\b",  # PDMX/Mutopia: "Max Reger", "M. Reger", "Reger Max" (accents folded by norm())
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b|jean baptiste faure|j b faure")
-# "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.
-ORIGINAL_EASY = re.compile(r"\b(ten|10) easy pieces\b", re.I)
+# "Ten Easy Pieces" (Bartók Sz.39) and "Concertino for Flute" (Chaminade Op.107) are original titles, not arrangements: hide them from the arrangement tests.
+ORIGINAL_EASY = re.compile(r"\b(ten|10) easy pieces\b|\bconcertino for flute\b", re.I)
 ARRANGED = re.compile(
     r"\barr\b|arr\.|arranged|arrangement|transcri|for (woodwind|brass|tuba|trombone|viola|clarinet|guitar|"
     r"band|wind|flute|saxophone|choir|organ|jazz)|woodwind|\bbrass|\btuba|mellophone|\bjazz|\bswing\b|"
@@ -184,6 +188,7 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.38", "Op.40", "Op.20", "Op.26", "Op.51",  # Medtner multi-piece opus numbers (Op.25 is split into No.1 / No.2)
         "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
+        "Op.9", "Op.41", "Op.57",  # Lyadov piano sets (2 morceaux, 2 fugues, 3 morceaux; file titles kept)
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
         "3 Morceaux", "Clairières",  # Boulanger: the three piano pieces and the song cycle (file titles kept)
@@ -199,7 +204,8 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Chapitres tournés en tous sens", "Messe des pauvres",
         "Op.7", "Op.8", "Op.13", "Op.16", "Op.22", "Op.23", "Op.27", "Op.35", "Op.36", "Op.40", "Op.45", "Op.46",
         "Op.55", "Op.64", "Op.67", "Op.72",
-        "S.139", "S.140", "S.161", "S.163", "S.172"}  # Liszt multi-piece sets (file titles kept)  # Grieg multi-movement works (file titles kept); Lyric Pieces are one row per piece  # Satie multi-piece sets (file titles kept)
+        "S.139", "S.140", "S.161", "S.163", "S.172",
+        "Op.42", "Op.49", "Op.53", "Op.82", "Op.91", "Op.143", "WoO III/12"}  # Liszt multi-piece sets (file titles kept); Reger sonata and piece sets (one file per piece)  # Grieg multi-movement works (file titles kept); Lyric Pieces are one row per piece  # Satie multi-piece sets (file titles kept)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

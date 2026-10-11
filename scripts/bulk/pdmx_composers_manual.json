@@ -349,6 +349,20 @@
  ],
  "approved_us_pd_only": [
   {
+   "canon": "cecile chaminade",
+   "name": "Cécile Chaminade",
+   "birth": 1857,
+   "death": 1944,
+   "prefix": "chaminade",
+   "wikidata": null,
+   "aliases": [
+    "cecile chaminade",
+    "c chaminade",
+    "chaminade"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only for works published before 1931 (Concertino Op.107 1902, Trios Op.11/34, Callirhoë, Scarf Dance, Études, Album des enfants). Post-1930 works: none in the Wikipedia list (latest dated 1928)."
+  },
+  {
    "canon": "kerry mills",
    "name": "Kerry Mills",
    "birth": 1869,
@@ -636,6 +650,24 @@
      "repighi"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Fontane di Roma P.106, Pini di Roma P.141, Feste romane P.157, Vetrate di chiesa P.150, Trittico botticelliano P.151, Gli uccelli P.154, Antiche danze Suites No.1 P.109 and No.2 P.138, Ballata delle gnomidi P.124, Sinfonia drammatica P.102, Toccata P.156, Concerto in modo misolidio P.145, Concerto gregoriano P.135, Poema autunnale P.146, Belfagor P.137, La campana sommersa P.152, Violin Sonata P.110, Quartetto dorico P.144, Tre preludi P.131, Sei pezzi P.44, Deita silvane P.107, Il tramonto P.101). Post-1930 works (Antiche danze Suite No.3 P.172, Belkis P.177, Adagio con variazioni P.133, Metamorphoseon P.169, Impressioni brasiliane P.153, Concerto a cinque P.174, Piano Concerto P.40) excluded. Checklist: scripts/bulk/catalogue_data.py RESPIGHI."
+  },
+  {
+   "canon": "jean sibelius",
+   "name": "Jean Sibelius",
+   "birth": 1865,
+   "death": 1957,
+   "prefix": "sibelius",
+   "aliases": ["jean sibelius", "jan sibelius", "j sibelius", "sibelius jean", "sibelius j"],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (piano pieces Kyllikki Op.41, Impromptus Op.5, Sonatinas Op.67, Op.75, Op.76, Op.85, Op.94, Op.97, Op.99, Op.101, Op.103; Finlandia, Valse triste, Karelia Suite and Overture, En Saga, Swan of Tuonela, Symphonies 2 and 5, Violin Concerto Op.47). Death year 1957 is past the default 1955 ceiling, so US_PD_ONLY_MAX_DEATH in schema.py lists it. Checklist: scripts/bulk/catalogue_data.py SIBELIUS."
+  },
+  {
+   "canon": "sigfrid karg elert",
+   "name": "Sigfrid Karg-Elert",
+   "birth": 1877,
+   "death": 1933,
+   "prefix": "kargelert",
+   "aliases": ["sigfrid karg elert", "karg elert sigfrid", "s karg elert", "sigfrid karg", "karg elert"],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (harmonium Sonatas Op.36 and Op.46, Passacaglia Op.25, Partita Op.37, Impressions Op.102; organ Chorale Improvisations Op.65, Cathedral Windows Op.106, Pastels Op.96, Nearer My God Op.81, Impressions Op.72, Chaconne Op.73, Op.74, Funerale Op.75, Op.86, Op.108, Triptych Op.141 (1930); piano Sonatas Op.50 and Op.105, Sonatinas Op.67, Hexameron Op.97, Partita Op.113, Heidebilder Op.127; chamber Wind Quintet Op.30, Cello Sonata Op.71, Violin Sonata Op.68, Solo Violin Sonata Op.88, Solo Clarinet Op.110, Flute Caprices Op.107, Flute Sonata Op.121, Sinfonische Kanzone Op.114, Impressions exotiques Op.134). Post-1930 works (Op.142, 144, 145, 150) excluded. Checklist: scripts/bulk/catalogue_data.py KARG_ELERT."
   }
  ]
 }
