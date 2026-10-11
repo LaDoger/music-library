@@ -42,6 +42,7 @@
  "score_url": "files/scores/unknown_adeste_fideles.mid",
  "score_files": [
   "files/scores/unknown_adeste_fideles.mid",
+  "files/scores/unknown_adeste_fideles_hymntuneb51_reconstructed.mxl",
   "files/scores/unknown_adeste_fideles_reconstructed.mxl"
  ],
  "mood_tags_list": [
@@ -72,6 +73,7 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/unknown_adeste_fideles.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/unknown_adeste_fideles.mid",
+  "https://ladoger.github.io/music-library/files/scores/unknown_adeste_fideles_hymntuneb51_reconstructed.mxl",
   "https://ladoger.github.io/music-library/files/scores/unknown_adeste_fideles_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/unknown_adeste_fideles.mid",
