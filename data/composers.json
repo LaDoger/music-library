@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 29,
-  "score_count": 29,
+  "piece_count": 30,
+  "score_count": 30,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2912,7 +2912,8 @@
    "bartok_sz38_14_bagatelles_11",
    "bartok_sz71_15_hungarian_peasant_songs_12",
    "bartok_sz71_15_hungarian_peasant_songs_13",
-   "bartok_sz71_15_hungarian_peasant_songs_14"
+   "bartok_sz71_15_hungarian_peasant_songs_14",
+   "bartok_sz71_15_hungarian_peasant_songs_15"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17706,8 +17707,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 208,
-  "score_count": 208,
+  "piece_count": 212,
+  "score_count": 212,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17917,7 +17918,11 @@
    "schumann_op99_bunte_blaetter_14",
    "schumann_op124_albumblaetter_19",
    "schumann_op124_albumblaetter_20",
-   "schumann_op13_symphonic_etudes_1"
+   "schumann_op13_symphonic_etudes_1",
+   "schumann_op6_davidsbuendlertaenze_13",
+   "schumann_op6_davidsbuendlertaenze_14",
+   "schumann_op6_davidsbuendlertaenze_15",
+   "schumann_op13_symphonic_etudes_2"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
