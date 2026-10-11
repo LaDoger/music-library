@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 22,
-  "score_count": 22,
+  "piece_count": 25,
+  "score_count": 25,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2905,7 +2905,10 @@
    "bartok_sz71_15_hungarian_peasant_songs_4",
    "bartok_sz71_15_hungarian_peasant_songs_7",
    "bartok_sz71_15_hungarian_peasant_songs_8",
-   "bartok_sz71_15_hungarian_peasant_songs_9"
+   "bartok_sz71_15_hungarian_peasant_songs_9",
+   "bartok_sz38_14_bagatelles_10",
+   "bartok_sz71_15_hungarian_peasant_songs_10",
+   "bartok_sz71_15_hungarian_peasant_songs_11"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -11661,8 +11664,8 @@
    "classical"
   ],
   "featured_rank": 2,
-  "piece_count": 39,
-  "score_count": 36,
+  "piece_count": 57,
+  "score_count": 54,
   "recording_count": 3,
   "piece_ids": [
    "liszt_hungarian_rhapsody_2",
@@ -11703,7 +11706,25 @@
    "liszt_s442_overture_zu_tannhauser_r_wag",
    "liszt_s515_liszt_mephisto_waltz_no_2_ar",
    "liszt_s541_liebestraume_no_3",
-   "liszt_s66_salve_regina_liszt"
+   "liszt_s66_salve_regina_liszt",
+   "liszt_s_139_paysage_from_transcendental_etudes",
+   "liszt_s_139_preludio_from_transcendental_etudes",
+   "liszt_s_139_franz_liszt_s_140_etude_6_var_2_but_it_s_i",
+   "liszt_s_139_transcendental_etudes_after_paganini_no_4",
+   "liszt_s_139_franz_liszt_transcendental_etude_no_10_in",
+   "liszt_s_139_franz_liszt_transcendental_etude_no_11_in",
+   "liszt_s_139_franz_liszt_transcendental_etude_no_2_in_a",
+   "liszt_s_139_franz_liszt_transcendental_etude_no_8_in_c",
+   "liszt_s_139_vision_from_transcendental_etudes",
+   "liszt_s_139_etudes_d_execution_transcendante_s_139_2_m",
+   "liszt_s_140_liszt_grandes_etudes_no_4_mazeppa",
+   "liszt_s_140_franz_liszt_grandes_etudes_de_paganini_no",
+   "liszt_s_140_franz_liszt_grandes_etudes_de_paganini_nob2",
+   "liszt_s_172_franz_liszt_consolation_no_4_in_d_flat_maj",
+   "liszt_s_172_franz_liszt_consolations_i",
+   "liszt_s_199_nuages_gris_trube_wolken_s_199",
+   "liszt_s_244_2_hungarian_rhapsody_no_2_s_244_2b2",
+   "liszt_s_541_3_liebestraume_no_3_s_541_3"
   ],
   "wikidata": "Q41309",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/FLisztFXD.jpg/330px-FLisztFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
