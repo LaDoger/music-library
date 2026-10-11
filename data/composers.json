@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 25,
-  "score_count": 25,
+  "piece_count": 29,
+  "score_count": 29,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2908,7 +2908,11 @@
    "bartok_sz71_15_hungarian_peasant_songs_9",
    "bartok_sz38_14_bagatelles_10",
    "bartok_sz71_15_hungarian_peasant_songs_10",
-   "bartok_sz71_15_hungarian_peasant_songs_11"
+   "bartok_sz71_15_hungarian_peasant_songs_11",
+   "bartok_sz38_14_bagatelles_11",
+   "bartok_sz71_15_hungarian_peasant_songs_12",
+   "bartok_sz71_15_hungarian_peasant_songs_13",
+   "bartok_sz71_15_hungarian_peasant_songs_14"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -4828,6 +4832,31 @@
    "chabrier_chanson_pour_jeanne",
    "chabrier_l_invitation_au_voyage_emman",
    "chabrier_villanelle_des_petits_canard"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "cecile-chaminade",
+  "name": "Cécile Chaminade",
+  "short_name": "Chaminade",
+  "sort_name": "Chaminade, Cécile",
+  "birth_year": null,
+  "death_year": 1944,
+  "era": "Late Romantic (French)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "chaminade_op_170_au_pays_bleu",
+   "chaminade_op_107_concertino_for_flute_and_orchestra_d_majo"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17677,8 +17706,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 203,
-  "score_count": 203,
+  "piece_count": 208,
+  "score_count": 208,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17883,7 +17912,12 @@
    "schumann_op6_davidsbuendlertaenze_9",
    "schumann_op124_albumblaetter_17",
    "schumann_op6_davidsbuendlertaenze_10",
-   "schumann_op6_davidsbuendlertaenze_11"
+   "schumann_op6_davidsbuendlertaenze_11",
+   "schumann_op6_davidsbuendlertaenze_12",
+   "schumann_op99_bunte_blaetter_14",
+   "schumann_op124_albumblaetter_19",
+   "schumann_op124_albumblaetter_20",
+   "schumann_op13_symphonic_etudes_1"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
