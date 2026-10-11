@@ -54,6 +54,8 @@ NAME_RX = {
     "albeniz": r"\balbeniz|\balbenez|\balbenis|\balbeniz isaac|\bisaac albeniz",  # PDMX spellings (accents folded by norm())
     "boulanger": r"\blili boulanger\b|\bboulanger lili\b|\bl boulanger\b",  # Nadia Boulanger (1887-1979) is a different composer: never match "nadia"
     "chausson": r"\bchausson\b",  # PDMX/Mutopia: "Ernest Chausson", "E. Chausson"
+    "satie": r"\bsatie\b",  # PDMX/Mutopia/Commons: "Erik Satie", "E. Satie" (accents folded by norm())
+    "faure": r"\bfaure\b",  # PDMX/Mutopia: "Gabriel Fauré", "G. Faure" (accents folded by norm()); Jean-Baptiste Faure is excluded by NOT_NAME
     "chabrier": r"\bchabrier\b",  # PDMX/Mutopia: "Emmanuel Chabrier", "E. Chabrier", "ChabrierEA" (accents folded by norm())
     "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
     "lyadov": r"\blyadov\b|\bliadov\b",
@@ -75,7 +77,7 @@ NAME_RX = {
     "busoni": r"\bbusoni\b",  # PDMX/OpenScore: "Ferruccio Busoni", "F. Busoni"
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
-NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
+NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b|jean baptiste faure|j b faure")
 # "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.
 ORIGINAL_EASY = re.compile(r"\b(ten|10) easy pieces\b", re.I)
 ARRANGED = re.compile(
@@ -187,7 +189,12 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.5", "Op.14",  # Roussel piano sets (Rustiques, Suite)
         "BV 249", "BV 267",  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)
         "Iberia Bk.1", "Iberia Bk.2", "Iberia Bk.3", "Iberia Bk.4", "Op.47", "Op.71", "Op.92", "Op.165", "Op.232",
-        "Pièces pittoresques"}  # Chabrier Pièces pittoresques (10 pieces)
+        "Pièces pittoresques",  # Chabrier Pièces pittoresques (10 pieces)
+        "Op.56", "Op.61", "Op.113", "Op.118", "Op.21",  # Fauré Dolly, La bonne chanson, Mirages, L'horizon chimérique, Poème d'un jour (multi-piece sets)
+        "3 Gymnopédies", "Gnossiennes", "3 Sarabandes", "4 Ogives", "Pièces froides", "Avant-dernières pensées",
+        "Embryons desséchés", "Sports et divertissements", "5 Nocturnes", "Socrate", "3 Morceaux en forme de poire",
+        "3 Véritables préludes flasques", "Heures séculaires et instantanées", "Croquis et agaceries",
+        "Chapitres tournés en tous sens", "Messe des pauvres"}  # Satie multi-piece sets (file titles kept)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

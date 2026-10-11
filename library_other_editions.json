@@ -7836,6 +7836,31 @@
    "licence": "PD"
   }
  ],
+ "faure_op_50_pavane_chorus_and_orchestra_or_pianob3": [
+  {
+   "id": "faure_op_50_pavane_chorus_and_orchestra_or_pianob4",
+   "source": "pdmx",
+   "title": "Pavane (chorus and orchestra or piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "faure_op_50_pavane_chorus_and_orchestra_or_piano",
+   "source": "pdmx",
+   "title": "Pavane (chorus and orchestra or piano)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "PD"
+  }
+ ],
+ "faure_op_7_no_1_apres_un_reve_song": [
+  {
+   "id": "faure_op_7_no_1_apres_un_reve_songb2",
+   "source": "pdmx",
+   "title": "Après un rêve (song)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "faure_tu_es_petrus_gabriel_faure": [
   {
    "id": "faure_tu_es_petrus_gabriel_faureb2",

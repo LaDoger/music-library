@@ -1,0 +1,30 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.48,"Requiem (soprano, baritone, chorus and orchestra)",1900,in-scope,yes,6,faure_faure_requiem_1_cello_introi faure_faure_requiem_2_offertory faure_faure_requiem_3_sanctus faure_faure_requiem_6_libera_me faure_faure_requiem_i_introit_et_k faure_op48_requiem_in_d_minor_op_48_gab,pdmx,"IMSLP: Hamelle, Paris 1900-01; composed 1887-90"
+Op.50,Pavane (chorus and orchestra or piano),1888,in-scope,yes,3,faure_pavane faure_pavane_faureb51 faure_op_50_pavane_chorus_and_orchestra_or_pianob3,"curated,pdmx","IMSLP: vocal score Le Gaulois, Paris 1888; orch. 1889"
+Op.78,Sicilienne (cello and piano),1898,in-scope,yes,2,faure_sicilienne faure_o78_sicilienne,"curated,mutopia",IMSLP: 1898 (Bibliographie de la France)
+Op.80,Pelléas et Mélisande (incidental music suite),1900,in-scope,,0,,,"IMSLP: Hamelle, Paris 1900 (suite 1898); 1909 plates for later numbers"
+Op.24,Élégie (cello and piano),1883,in-scope,yes,2,faure_elegie_by_g_faure_for_two_ce faure_op24_gabriel_faure_elegie_op_24_f,pdmx,IMSLP: 1883; viola version also exists
+Op.56,Dolly (piano duet suite),1894,in-scope,yes,6,faure_op_56_faure_dolly_suite_no_1_berceuse faure_op_56_faure_dolly_suite_no_2_mi_a_ou faure_op_56_faure_dolly_suite_no_6_le_pas_espagnol faure_op_56_faure_dolly_suite_no_4_kitty_valse faure_op_56_faure_dolly_suite_no_5_tendresse faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly,pdmx,IMSLP 'First Publication' field reads 1892-94 (composition range); year kept at 1894; Hamelle
+Op.16,Berceuse (violin and piano),1879,in-scope,yes,2,faure_op56_berceuse faure_op16_berceuse_flute_and_guitar_du,"mutopia,pdmx",IMSLP: 1879; Hélène Depret dedication; flute and guitar version exists
+Op.19,Ballade (piano and orchestra),1880,in-scope,,0,,,IMSLP: 1880; dedication Saint-Saëns
+Op.13,Violin Sonata No.1,1877,in-scope,,0,,,"IMSLP: Breitkopf und Härtel, Leipzig 1877"
+Op.15,Piano Quartet No.1,1884,in-scope,,0,,,IMSLP: Hamelle 1884 (composed 1876-79)
+Op.109,Cello Sonata No.1,1918,in-scope,,0,,,"IMSLP: Durand, Paris 1918; composed 1917"
+Op.120,Piano Trio,1923,in-scope,,0,,,"IMSLP: Durand, Paris 1923"
+Op.121,String Quartet,1925,in-scope,yes,1,faure_op121_string_quartet_op_121,openscore-quartets,"IMSLP: Durand, Paris 1925 (posthumous; composed 1923-24)"
+Op.73,Thème et variations (piano),1897,in-scope,,0,,,"IMSLP: Hamelle, Paris 1897; Metzler, London"
+Op.26,Barcarolle No.1 (piano),1881,in-scope,,0,,,"IMSLP: J. Hamelle, Paris 1881"
+Op.119,Nocturne No.13 (piano),1922,in-scope,,0,,,IMSLP: 1922; dedication Mme Fernand Maillot
+Op.31,Impromptu No.2 (piano),1883,in-scope,,0,,,"IMSLP: Hamelle, Paris 1883"
+Op.61,"La bonne chanson (song cycle, Verlaine)",1894,in-scope,,0,,,IMSLP: 1894; composed 1892-94
+Op.113,Mirages (song cycle),1919,in-scope,,0,,,IMSLP: 1919; Baronne Renée de Brimont
+Op.118,L'horizon chimérique (song cycle),1922,in-scope,,0,,,IMSLP: 1922; Jean de La Ville de Mirmont
+Op.21,Poème d'un jour (song cycle),1880,in-scope,yes,3,faure_op21_no_3_adieu faure_op21_no_1_rencontre faure_op21_no_2_toujours,openscore-lieder,IMSLP: 1880 (Bibliographie de la France)
+Op.7 No.1,Après un rêve (song),1878,in-scope,yes,2,faure_apres_un_reve faure_op_7_no_1_apres_un_reve_song,"curated,pdmx",Trois Mélodies Op.7 published 1878 (Wikipedia 'Published 1878'); IMSLP page not parsed
+Op.103,"Préludes (9), piano",,unverified-pub,n/a,0,,,no IMSLP work page at the standard title (404); first-publication year not confirmed; not imported
+Op.63,Nocturne No.6 (piano),,unverified-pub,n/a,0,,,IMSLP entry live via PDMX; first-publication year not fetched; not imported
+Op.38,Valse-caprice No.1 (piano),,unverified-pub,n/a,0,,,no IMSLP work page at the standard title (404); not imported
+Op.17,Romances sans paroles (piano),,unverified-pub,n/a,0,,,no IMSLP work page at the standard title (404); not imported
+Op.112,Masques et bergamasques (suite),,unverified-pub,n/a,0,,,Wikipedia gives composition 1918-19 only; no IMSLP work page at the standard title (404); not imported
+Op.89,Quintet for piano and strings No.1,,unverified-pub,n/a,0,,,no IMSLP work page at the standard title (404); not imported
+Op.39 No.4,Les Roses d'Ispahan (song),,unverified-pub,n/a,0,,,Op.39 set first-publication year not fetched; not imported

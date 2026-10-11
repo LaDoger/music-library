@@ -1121,6 +1121,71 @@ BOULANGER = [
     ("no opus", "Le Retour (voice and piano)", None, UNV, r"le retour", "IMSLP: manuscript 1912 only; not imported"),
 ]
 
+FAURE = [
+    # Piano and chamber works first, then the songs and sets (fully PD: Fauré died 1924, no US-PD gate)
+    ("Op.48", "Requiem (soprano, baritone, chorus and orchestra)", 1900, IN, r"requiem", "IMSLP: Hamelle, Paris 1900-01; composed 1887-90"),
+    ("Op.50", "Pavane (chorus and orchestra or piano)", 1888, IN, r"pavane", "IMSLP: vocal score Le Gaulois, Paris 1888; orch. 1889"),
+    ("Op.78", "Sicilienne (cello and piano)", 1898, IN, r"sicilienne", "IMSLP: 1898 (Bibliographie de la France)"),
+    ("Op.80", "Pelléas et Mélisande (incidental music suite)", 1900, IN, r"pelleas", "IMSLP: Hamelle, Paris 1900 (suite 1898); 1909 plates for later numbers"),
+    ("Op.24", "Élégie (cello and piano)", 1883, IN, r"elegie|elegy", "IMSLP: 1883; viola version also exists"),
+    ("Op.56", "Dolly (piano duet suite)", 1894, IN, r"\bdolly\b|jardin de dolly|kitty valse|mi a ou|pas espagnol", "IMSLP 'First Publication' field reads 1892-94 (composition range); year kept at 1894; Hamelle"),
+    ("Op.16", "Berceuse (violin and piano)", 1879, IN, r"berceuse", "IMSLP: 1879; Hélène Depret dedication; flute and guitar version exists"),
+    ("Op.19", "Ballade (piano and orchestra)", 1880, IN, r"ballade", "IMSLP: 1880; dedication Saint-Saëns"),
+    ("Op.13", "Violin Sonata No.1", 1877, IN, r"violin sonata no 1|sonata no 1 op 13", "IMSLP: Breitkopf und Härtel, Leipzig 1877"),
+    ("Op.15", "Piano Quartet No.1", 1884, IN, r"piano quartet no 1|quartet no 1 op 15", "IMSLP: Hamelle 1884 (composed 1876-79)"),
+    ("Op.109", "Cello Sonata No.1", 1918, IN, r"cello sonata no 1|sonata no 1 op 109", "IMSLP: Durand, Paris 1918; composed 1917"),
+    ("Op.120", "Piano Trio", 1923, IN, r"piano trio|trio op 120", "IMSLP: Durand, Paris 1923"),
+    ("Op.121", "String Quartet", 1925, IN, r"string quartet|quatuor", "IMSLP: Durand, Paris 1925 (posthumous; composed 1923-24)"),
+    ("Op.73", "Thème et variations (piano)", 1897, IN, r"theme et variations|theme and variations", "IMSLP: Hamelle, Paris 1897; Metzler, London"),
+    ("Op.26", "Barcarolle No.1 (piano)", 1881, IN, r"barcarolle no 1\b|barcarolle op 26\b", "IMSLP: J. Hamelle, Paris 1881"),
+    ("Op.119", "Nocturne No.13 (piano)", 1922, IN, r"nocturne no 13|nocturne op 119", "IMSLP: 1922; dedication Mme Fernand Maillot"),
+    ("Op.31", "Impromptu No.2 (piano)", 1883, IN, r"impromptu no 2|impromptu op 31", "IMSLP: Hamelle, Paris 1883"),
+    ("Op.61", "La bonne chanson (song cycle, Verlaine)", 1894, IN, r"bonne chanson", "IMSLP: 1894; composed 1892-94"),
+    ("Op.113", "Mirages (song cycle)", 1919, IN, r"mirages", "IMSLP: 1919; Baronne Renée de Brimont"),
+    ("Op.118", "L'horizon chimérique (song cycle)", 1922, IN, r"horizon chimerique", "IMSLP: 1922; Jean de La Ville de Mirmont"),
+    ("Op.21", "Poème d'un jour (song cycle)", 1880, IN, r"poeme d un jour", "IMSLP: 1880 (Bibliographie de la France)"),
+    ("Op.7 No.1", "Après un rêve (song)", 1878, IN, r"apres un reve", "Trois Mélodies Op.7 published 1878 (Wikipedia 'Published 1878'); IMSLP page not parsed"),
+    # Not imported: no first-publication year confirmed (IMSLP page not parsed or no field)
+    ("Op.103", "Préludes (9), piano", None, UNV, r"preludes? op 103|neuf preludes|op 103", "no IMSLP work page at the standard title (404); first-publication year not confirmed; not imported"),
+    ("Op.63", "Nocturne No.6 (piano)", None, UNV, r"nocturne no 6|nocturne op 63", "IMSLP entry live via PDMX; first-publication year not fetched; not imported"),
+    ("Op.38", "Valse-caprice No.1 (piano)", None, UNV, r"valse caprice no 1|valse caprice op 38", "no IMSLP work page at the standard title (404); not imported"),
+    ("Op.17", "Romances sans paroles (piano)", None, UNV, r"romances? sans paroles", "no IMSLP work page at the standard title (404); not imported"),
+    ("Op.112", "Masques et bergamasques (suite)", None, UNV, r"masques", "Wikipedia gives composition 1918-19 only; no IMSLP work page at the standard title (404); not imported"),
+    ("Op.89", "Quintet for piano and strings No.1", None, UNV, r"quintet no 1|quintet op 89|piano quintet", "no IMSLP work page at the standard title (404); not imported"),
+    ("Op.39 No.4", "Les Roses d'Ispahan (song)", None, UNV, r"roses d ispahan", "Op.39 set first-publication year not fetched; not imported"),
+]
+
+SATIE = [
+    # Piano works first (fully PD: Satie died 1925, no US-PD gate). Years from IMSLP 'First Publication' fields (composition year in the note)
+    ("3 Gymnopédies", "Gymnopédies Nos 1-3 (piano)", 1888, IN, r"gymnopedie", "IMSLP: self-published, Paris, n.d. [1888-95]; composed 1888"),
+    ("Gnossiennes", "Gnossiennes Nos 1-6 (piano)", 1913, IN, r"gnossienne", "IMSLP: Rouart, Lerolle, Paris 1913 (earliest listed); composed 1889-97"),
+    ("3 Sarabandes", "3 Sarabandes (piano)", 1911, IN, r"saraband", "IMSLP: Rouart, Lerolle, Paris 1911; composed 1887"),
+    ("4 Ogives", "4 Ogives (piano)", 1889, IN, r"ogive", "IMSLP: self-published, Paris 1889; composed 1886"),
+    ("Pièces froides", "Pièces froides (piano)", 1913, IN, r"pieces froides", "IMSLP: first published 1913 (earliest listed Rouart, Lerolle 1912); composed 1897"),
+    ("Avant-dernières pensées", "Avant-dernières pensées (piano)", 1916, IN, r"avant dernieres pensees", "IMSLP: Rouart, Lerolle, Paris 1916; composed 1915"),
+    ("Embryons desséchés", "Embryons desséchés (piano)", 1913, IN, r"embryons dessech", "IMSLP: E. Demets, Paris 1913; composed 1913"),
+    ("Sports et divertissements", "Sports et divertissements (piano and drawings)", 1914, IN, r"sports et divertissements", "IMSLP: Lucien Vogel, Paris 1914; composed 1914"),
+    ("5 Nocturnes", "5 Nocturnes (piano)", 1919, IN, r"nocturne", "IMSLP: Rouart, Lerolle 1919 (Nos 1-3), E. Demets 1920 (No.5); composed 1919"),
+    ("Vexations", "Vexations (piano)", 1949, IN, r"vexations", "IMSLP: first published 1949 (publisher not stated); composed 1893"),
+    ("Je te veux", "Je te veux (waltz song)", 1902, IN, r"je te veux", "IMSLP 'First Publication' field 1902; Bellon, Ponscarme 1903 earliest listed"),
+    ("Parade", "Parade (ballet, vocal score)", 1917, IN, r"\bparade\b", "IMSLP: Rouart, Lerolle, Paris 1917; composed 1916-17"),
+    ("Socrate", "Socrate (drame symphonique, voice and piano)", 1919, IN, r"socrate", "IMSLP: Éditions de la Sirène, Paris 1919 (vocal score); composed 1917-18"),
+    ("Le Piccadilly", "Le Piccadilly (piano)", 1975, IN, r"piccadilly", "IMSLP: Salabert, Paris 1975 (first published); composed 1904"),
+    ("3 Morceaux en forme de poire", "3 Morceaux en forme de poire (piano duet)", 1911, IN, r"morceaux en forme de poire|forme de poire", "IMSLP: Rouart, Lerolle, Paris 1911; composed 1903"),
+    ("3 Véritables préludes flasques", "3 Véritables préludes flasques (pour un chien)", 1912, IN, r"prelude.* flasque|flasques", "IMSLP: E. Demets, Paris 1912; composed 1912"),
+    ("Heures séculaires et instantanées", "Heures séculaires et instantanées (piano and text)", 1916, IN, r"heures seculaires", "IMSLP: E. Demets, Paris 1916; composed 1914"),
+    ("Croquis et agaceries", "Croquis et agaceries d'un gros bonhomme en bois (piano)", 1913, IN, r"croquis et agaceries", "IMSLP: E. Demets, Paris 1913; composed 1913"),
+    ("Sonatine bureaucratique", "Sonatine bureaucratique (piano)", 1917, IN, r"sonatine bureaucratique", "IMSLP: S. Chapelier, Paris 1917; composed 1917"),
+    ("Chapitres tournés en tous sens", "Chapitres tournés en tous sens (piano)", 1913, IN, r"chapitres tournes", "IMSLP: E. Demets, Paris 1913; composed 1913"),
+    ("Messe des pauvres", "Messe des pauvres (voice and organ)", 1920, IN, r"messe des pauvres|priere pour le salut", "IMSLP: Rouart, Lerolle 1920 (extracts 1895); composed 1893-95"),
+    # Not imported: IMSLP first-publication field not fetched; no curl-checked work page under the standard title
+    ("Descriptions automatiques", "Descriptions automatiques (piano)", None, UNV, r"descriptions automatiques", "Wikipedia gives composition 1913 only; IMSLP first-publication field not fetched; not imported"),
+    ("Vieux sequins et vieilles cuirasses", "Vieux sequins et vieilles cuirasses (piano)", None, UNV, r"vieux sequins", "Wikipedia gives composition 1913 only; IMSLP first-publication field not fetched; not imported"),
+    ("Les Pantins dansent", "Les Pantins dansent (piano)", None, UNV, r"pantins dansent", "Wikipedia gives composition 1913 only; IMSLP page at the standard title (404); not imported"),
+    ("Rêverie de l'enfance de Pantagruel", "Rêverie de l'enfance de Pantagruel (piano)", None, UNV, r"reverie de l enfance", "Wikipedia gives composition 1919 only; IMSLP first-publication field not fetched; not imported"),
+    ("Relâche", "Relâche (ballet, Picabia)", None, UNV, r"relache", "Wikipedia gives composition 1924 only; IMSLP first-publication field not fetched; not imported"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1307,5 +1372,17 @@ COMPOSERS = {
         "catalogue": "LB numbers where IMSLP gives them, and the no-opus titles", "rows": BOULANGER,
         "prefix": "boulanger", "genre": "classical", "era": "Early 20th century (French)",
         "scope_note": "Fully PD (died 1918): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 is not a gate here. Vocal and orchestral works first (Faust et Hélène, the Psaumes XXIV, CXXIX and CXXX, Vieille prière bouddhique, Pie Jesu, Soir sur la plaine, Pour les funérailles d'un soldat, Hymne au soleil, Renouveau, Dans l'immense tristesse), then the piano and song pieces (3 Morceaux, Nocturne, Clairières dans le ciel, D'un matin de printemps, D'un soir triste, Les sirènes, Reflets, Attente, Thème et variations). Works with no first-publication field on IMSLP (Pièce LB 5, Pendant la tempête, Fugue LB 27, the preludes, Sous-bois, La Source, Le Retour) are unverified and not imported. Nadia Boulanger (1887-1979) is a different composer and is not matched. The violin versions of Nocturne and Cortège (2 Pieces, Schirmer 1918) are not a separate row.",
+    },
+    "faure": {
+        "name": "Gabriel Fauré", "canon": "gabriel faure", "death": 1924, "birth": 1845,
+        "catalogue": "Op. numbers (songs and sets by opus and number)", "rows": FAURE,
+        "prefix": "faure", "genre": "classical", "era": "Late Romantic (French)",
+        "scope_note": "Fully PD (died 1924): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: Requiem Op.48, Pavane Op.50, Sicilienne Op.78, Pelléas et Mélisande Op.80, Élégie Op.24 first, then the piano works (Dolly Op.56, Berceuse Op.16, Barcarolle No.1 Op.26, Nocturne No.13 Op.119, Impromptu No.2 Op.31, Thème et variations Op.73), the chamber works (Violin Sonata No.1 Op.13, Piano Quartet No.1 Op.15, Cello Sonata No.1 Op.109, Piano Trio Op.120, String Quartet Op.121), Ballade Op.19, and the songs (La bonne chanson Op.61, Mirages Op.113, L'horizon chimérique Op.118, Poème d'un jour Op.21, Après un rêve Op.7 No.1). Préludes Op.103, Nocturne No.6 Op.63, Valse-caprice Op.38, Romances sans paroles Op.17, Masques et bergamasques Op.112, Quintet No.1 Op.89 and Les Roses d'Ispahan Op.39 No.4 are unverified and not imported (no IMSLP work page at the standard title for the first five; Nocturne No.6 is live via PDMX, Les Roses d'Ispahan via OpenScore). Jean-Baptiste Faure (singer and composer, d.1914) is a different composer and is not matched.",
+    },
+    "satie": {
+        "name": "Erik Satie", "canon": "erik satie", "death": 1925, "birth": 1866,
+        "catalogue": "no standard catalogue (titles and IMSLP work pages)", "rows": SATIE,
+        "prefix": "satie", "genre": "classical", "era": "Early 20th century (French)",
+        "scope_note": "Fully PD (died 1925): no US-PD-only gate; publication years kept for the record. Piano works first (Gymnopédies, Gnossiennes, Sarabandes, Ogives, Pièces froides, Avant-dernières pensées, Embryons desséchés, Sports et divertissements, Nocturnes, Vexations, Le Piccadilly, Trois morceaux en forme de poire, Trois véritables préludes flasques, Heures séculaires, Croquis, Sonatine bureaucratique, Chapitres tournés en tous sens), then the vocal and stage works (Je te veux, Parade, Socrate, Messe des pauvres). Works with no IMSLP first-publication field fetched (Descriptions automatiques, Vieux sequins, Les Pantins dansent, Rêverie de l'enfance de Pantagruel, Relâche) are unverified and not imported. Live rows from earlier batches (Commons Ogives, Ludions, Socrate movements, the Gnossiennes and Gymnopédies arrangements) are matched by the live-title dedupe, not re-imported.",
     },
 }
