@@ -1914,8 +1914,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 14,
-  "score_count": 14,
+  "piece_count": 16,
+  "score_count": 16,
   "recording_count": 0,
   "piece_ids": [
    "arensky_3_4_n_n_1_2_n_lullaby_n_1_2n",
@@ -1931,7 +1931,9 @@
    "arensky_imslp6482_7",
    "arensky_imslp6482_8",
    "arensky_imslp6482_9",
-   "arensky_imslp6482_10"
+   "arensky_imslp6482_10",
+   "arensky_imslp64446_5",
+   "arensky_imslp6482_11"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -12056,8 +12058,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 12,
-  "score_count": 12,
+  "piece_count": 15,
+  "score_count": 15,
   "recording_count": 0,
   "piece_ids": [
    "lyadov_op40no3_anatoliy_lyadov_prelude_op_4",
@@ -12071,7 +12073,10 @@
    "lyadov_imslp462481_8",
    "lyadov_imslp462481_9",
    "lyadov_imslp462481_10",
-   "lyadov_imslp462481_11"
+   "lyadov_imslp462481_11",
+   "lyadov_imslp462481_12",
+   "lyadov_imslp462481_13",
+   "lyadov_imslp462481_14"
   ],
   "wikidata": null,
   "portrait_url": null,
