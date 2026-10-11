@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv508_bist_du_bei_mir.mid",
  "score_files": [
   "files/scores/bach_bwv508_bist_du_bei_mir.ly",
-  "files/scores/bach_bwv508_bist_du_bei_mir.mid"
+  "files/scores/bach_bwv508_bist_du_bei_mir.mid",
+  "files/scores/bach_bwv508_bist_du_bei_mir_fromly.mxl"
  ],
  "mood_tags_list": [
   "tender",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv508_bist_du_bei_mir.mid",
  "other_editions": [],
+ "score_method": "Converted from LilyPond source",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv508_bist_du_bei_mir",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir_fromly.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv508_bist_du_bei_mir.mid",
  "render_midi": {

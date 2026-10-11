@@ -1621,7 +1621,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_apres_un_reve.mid",
   "score_files": [
-   "files/scores/faure_apres_un_reve.mid"
+   "files/scores/faure_apres_un_reve.mid",
+   "files/scores/faure_apres_un_reve_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lyrical",
@@ -1658,7 +1659,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "après un rêve gabriel fauré op.7 no.1 op 7 no 1 op.7 no.1 op7no1  faure apres un reve lyrical tender calm classical late romantic / early 20th  fauré, gabriel"
+  "search_text": "après un rêve gabriel fauré op.7 no.1 op 7 no 1 op.7 no.1 op7no1  faure apres un reve lyrical tender calm classical late romantic / early 20th  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_pavane",
@@ -2792,6 +2794,7 @@
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
    "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
@@ -2858,6 +2861,7 @@
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
    "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
@@ -2926,7 +2930,9 @@
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
-   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
+   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl",
+   "files/scores/mussorgsky_pictures_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "stately",
@@ -5209,7 +5215,8 @@
   "score_url": "files/scores/bach_bwv508_bist_du_bei_mir.mid",
   "score_files": [
    "files/scores/bach_bwv508_bist_du_bei_mir.ly",
-   "files/scores/bach_bwv508_bist_du_bei_mir.mid"
+   "files/scores/bach_bwv508_bist_du_bei_mir.mid",
+   "files/scores/bach_bwv508_bist_du_bei_mir_fromly.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -5231,7 +5238,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv508_bist_du_bei_mir.mid",
   "other_editions": [],
-  "search_text": "bist du bei mir (aria), arr. for trumpet johann sebastian bach bwv 508 bwv 508 bwv508  bach bwv508 bist du bei mir tender calm noble classical baroque  bach, johann sebastian"
+  "search_text": "bist du bei mir (aria), arr. for trumpet johann sebastian bach bwv 508 bwv 508 bwv508  bach bwv508 bist du bei mir tender calm noble classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv528_trio_sonata4",
@@ -127016,7 +127024,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_40_holberg_suite_sarabande.mid",
   "score_files": [
-   "files/scores/grieg_op_40_holberg_suite_sarabande.mid"
+   "files/scores/grieg_op_40_holberg_suite_sarabande.mid",
+   "files/scores/grieg_op_40_holberg_suite_sarabande_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -127037,7 +127046,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_40_holberg_suite_sarabande.mid",
   "other_editions": [],
-  "search_text": "holberg suite: sarabande edvard grieg op. 40 op 40 op. 40 op40 no. 2 sarabande grieg op 40 holberg suite sarabande slow somber classical late romantic / early 20th  grieg, edvard"
+  "search_text": "holberg suite: sarabande edvard grieg op. 40 op 40 op. 40 op40 no. 2 sarabande grieg op 40 holberg suite sarabande slow somber classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_43_no_6_lyric_pieces_to_the_spring",
@@ -127435,7 +127445,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op73_the_mountaineer_s_song.mid",
   "score_files": [
-   "files/scores/grieg_op73_the_mountaineer_s_song.mid"
+   "files/scores/grieg_op73_the_mountaineer_s_song.mid",
+   "files/scores/grieg_op73_the_mountaineer_s_song_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -127456,7 +127467,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op73_the_mountaineer_s_song.mid",
   "other_editions": [],
-  "search_text": "lualåt (the mountaineer's song) edvard grieg op. 73 op 73 op. 73 op73 the mountaineer's song grieg op73 the mountaineer s song classical lyrical classical romantic  grieg, edvard"
+  "search_text": "lualåt (the mountaineer's song) edvard grieg op. 73 op 73 op. 73 op73 the mountaineer's song grieg op73 the mountaineer s song classical lyrical classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op16_grieg_piano_concerto_in_a_mi",
@@ -128014,7 +128026,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_d02_la_mort_d_ase.mid",
   "score_files": [
-   "files/scores/grieg_d02_la_mort_d_ase.mid"
+   "files/scores/grieg_d02_la_mort_d_ase.mid",
+   "files/scores/grieg_d02_la_mort_d_ase_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -128035,7 +128048,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_d02_la_mort_d_ase.mid",
   "other_editions": [],
-  "search_text": "ases tod edvard grieg d 02 d 02 d02 la mort d'ase grieg d02 la mort d ase slow somber classical romantic  grieg, edvard"
+  "search_text": "ases tod edvard grieg d 02 d 02 d02 la mort d'ase grieg d02 la mort d ase slow somber classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_l1901_til_ole_bull_ttbb_grieg",
@@ -141643,7 +141657,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_ogive_no_2.mid",
   "score_files": [
-   "files/scores/satie_ogive_no_2.mid"
+   "files/scores/satie_ogive_no_2.mid",
+   "files/scores/satie_ogive_no_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -141664,7 +141679,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_ogive_no_2.mid",
   "other_editions": [],
-  "search_text": "ogive no. 2 erik satie    satie ogive no 2 classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "ogive no. 2 erik satie    satie ogive no 2 classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_ogive_no_3",
@@ -141777,7 +141793,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_ogive_no_4.mid",
   "score_files": [
-   "files/scores/satie_ogive_no_4.mid"
+   "files/scores/satie_ogive_no_4.mid",
+   "files/scores/satie_ogive_no_4_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -141798,7 +141815,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_ogive_no_4.mid",
   "other_editions": [],
-  "search_text": "ogive no. 4 erik satie    satie ogive no 4 classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "ogive no. 4 erik satie    satie ogive no 4 classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_peio_09_2",
@@ -148293,7 +148311,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op16_scherzo_in_e_minor.mid",
   "score_files": [
-   "files/scores/mendelssohn_op16_scherzo_in_e_minor.mid"
+   "files/scores/mendelssohn_op16_scherzo_in_e_minor.mid",
+   "files/scores/mendelssohn_op16_scherzo_in_e_minor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -148315,7 +148334,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op16_scherzo_in_e_minor.mid",
   "other_editions": [],
-  "search_text": "scherzo in e minor felix mendelssohn op. 16 op 16 op. 16 op16  mendelssohn op16 scherzo in e minor fast bright playful classical romantic  mendelssohn, felix"
+  "search_text": "scherzo in e minor felix mendelssohn op. 16 op 16 op. 16 op16  mendelssohn op16 scherzo in e minor fast bright playful classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op19_5_inquietude",
@@ -152155,7 +152175,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_s53_lied_ohne_worte_opus_53_no_5.mid",
   "score_files": [
-   "files/scores/mendelssohn_s53_lied_ohne_worte_opus_53_no_5.mid"
+   "files/scores/mendelssohn_s53_lied_ohne_worte_opus_53_no_5.mid",
+   "files/scores/mendelssohn_s53_lied_ohne_worte_opus_53_no_5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -152176,7 +152197,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_s53_lied_ohne_worte_opus_53_no_5.mid",
   "other_editions": [],
-  "search_text": "lied ohne worte - opus 53 no. 5 - volkslied felix mendelssohn s 53 s 53 s53  mendelssohn s53 lied ohne worte opus 53 no 5 classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "lied ohne worte - opus 53 no. 5 - volkslied felix mendelssohn s 53 s 53 s53  mendelssohn s53 lied ohne worte opus 53 no 5 classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_wiegenliedb2",
@@ -175536,7 +175558,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d817_ungarische_melodie.mid",
   "score_files": [
-   "files/scores/schubert_d817_ungarische_melodie.mid"
+   "files/scores/schubert_d817_ungarische_melodie.mid",
+   "files/scores/schubert_d817_ungarische_melodie_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -175557,7 +175580,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d817_ungarische_melodie.mid",
   "other_editions": [],
-  "search_text": "ungarische melodie franz schubert d.817 d 817 d.817 d817  schubert d817 ungarische melodie classical lyrical classical romantic  schubert, franz"
+  "search_text": "ungarische melodie franz schubert d.817 d 817 d.817 d817  schubert d817 ungarische melodie classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d827_nacht_und_traume",
@@ -180552,7 +180576,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op51_trois_marches_militaires.mid",
   "score_files": [
-   "files/scores/schubert_op51_trois_marches_militaires.mid"
+   "files/scores/schubert_op51_trois_marches_militaires.mid",
+   "files/scores/schubert_op51_trois_marches_militaires_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -180573,7 +180598,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op51_trois_marches_militaires.mid",
   "other_editions": [],
-  "search_text": "trois marches militaires franz schubert op. 51 op 51 op. 51 op51  schubert op51 trois marches militaires march ceremonial classical romantic  schubert, franz"
+  "search_text": "trois marches militaires franz schubert op. 51 op 51 op. 51 op51  schubert op51 trois marches militaires march ceremonial classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op52_ave_maria_ellens_dritter_ges",
@@ -193262,7 +193288,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_o12_les_djinns.mid",
   "score_files": [
-   "files/scores/faure_o12_les_djinns.mid"
+   "files/scores/faure_o12_les_djinns.mid",
+   "files/scores/faure_o12_les_djinns_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -193283,7 +193310,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_o12_les_djinns.mid",
   "other_editions": [],
-  "search_text": "les djinns gabriel fauré o 12 o 12 o12  faure o12 les djinns classical lyrical classical 20th century  fauré, gabriel"
+  "search_text": "les djinns gabriel fauré o 12 o 12 o12  faure o12 les djinns classical lyrical classical 20th century  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_o2_les_matelots",
@@ -200674,7 +200702,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb5.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb5.mid"
+   "files/scores/handel_from_the_aylesford_piecesb5.mid",
+   "files/scores/handel_from_the_aylesford_piecesb5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -200695,7 +200724,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb5.mid",
   "other_editions": [],
-  "search_text": "fuga george frideric handel   from the aylesford pieces handel from the aylesford piecesb5 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "fuga george frideric handel   from the aylesford pieces handel from the aylesford piecesb5 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_george_frideric_handel_fughe",
@@ -201834,7 +201864,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb6.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb6.mid"
+   "files/scores/handel_from_the_aylesford_piecesb6.mid",
+   "files/scores/handel_from_the_aylesford_piecesb6_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -201855,7 +201886,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb6.mid",
   "other_editions": [],
-  "search_text": "impertinence george frideric handel   from the aylesford pieces handel from the aylesford piecesb6 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "impertinence george frideric handel   from the aylesford pieces handel from the aylesford piecesb6 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_impertinence",
@@ -334350,7 +334382,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_schmellisgesangbuchno1_ermuntre_dich_mein_schwacher.mid",
   "score_files": [
-   "files/scores/bach_schmellisgesangbuchno1_ermuntre_dich_mein_schwacher.mid"
+   "files/scores/bach_schmellisgesangbuchno1_ermuntre_dich_mein_schwacher.mid",
+   "files/scores/bach_schmellisgesangbuchno1_ermuntre_dich_mein_schwacher_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -334371,7 +334404,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_schmellisgesangbuchno1_ermuntre_dich_mein_schwacher.mid",
   "other_editions": [],
-  "search_text": "ermuntre dich, mein schwacher geist johann sebastian bach schmellis gesangbuch, no. 16 schmellis gesangbuch, no 16 schmellis gesangbuch, no. 16 schmellisgesangbuch,no16  bach schmellisgesangbuchno1 ermuntre dich mein schwacher classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "ermuntre dich, mein schwacher geist johann sebastian bach schmellis gesangbuch, no. 16 schmellis gesangbuch, no 16 schmellis gesangbuch, no. 16 schmellisgesangbuch,no16  bach schmellisgesangbuchno1 ermuntre dich mein schwacher classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_schmellisgesangbuchno2_gott_wie_gross_ist_deine_gut",
@@ -372877,7 +372911,8 @@
   "preview_url": "",
   "score_url": "files/scores/haydn_hobxvi27_6_sonate_1776.mid",
   "score_files": [
-   "files/scores/haydn_hobxvi27_6_sonate_1776.mid"
+   "files/scores/haydn_hobxvi27_6_sonate_1776.mid",
+   "files/scores/haydn_hobxvi27_6_sonate_1776_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -372898,7 +372933,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/haydn_hobxvi27_6_sonate_1776.mid",
   "other_editions": [],
-  "search_text": "sonate i, i - allegro con brio joseph haydn hob. xvi:27 hob xvi:27 hob. xvi:27 hobxvi:27 6 sonate 1776 haydn hobxvi27 6 sonate 1776 fast bright classical classical  haydn, joseph"
+  "search_text": "sonate i, i - allegro con brio joseph haydn hob. xvi:27 hob xvi:27 hob. xvi:27 hobxvi:27 6 sonate 1776 haydn hobxvi27 6 sonate 1776 fast bright classical classical  haydn, joseph",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "haydn_hobxvi28_6_sonate_1776",
@@ -372943,7 +372979,8 @@
   "preview_url": "",
   "score_url": "files/scores/haydn_hobxvi28_6_sonate_1776.mid",
   "score_files": [
-   "files/scores/haydn_hobxvi28_6_sonate_1776.mid"
+   "files/scores/haydn_hobxvi28_6_sonate_1776.mid",
+   "files/scores/haydn_hobxvi28_6_sonate_1776_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -372966,7 +373003,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/haydn_hobxvi28_6_sonate_1776.mid",
   "other_editions": [],
-  "search_text": "sonate ii, i - allegro moderato joseph haydn hob. xvi:28 hob xvi:28 hob. xvi:28 hobxvi:28 6 sonate 1776 haydn hobxvi28 6 sonate 1776 fast bright moderate elegant classical classical  haydn, joseph"
+  "search_text": "sonate ii, i - allegro moderato joseph haydn hob. xvi:28 hob xvi:28 hob. xvi:28 hobxvi:28 6 sonate 1776 haydn hobxvi28 6 sonate 1776 fast bright moderate elegant classical classical  haydn, joseph",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "haydn_hobi100_minuet_in_g_major_haydn",
@@ -415415,7 +415453,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op67_symphony_no_5_movement_1.mid",
   "score_files": [
-   "files/scores/beethoven_op67_symphony_no_5_movement_1.mid"
+   "files/scores/beethoven_op67_symphony_no_5_movement_1.mid",
+   "files/scores/beethoven_op67_symphony_no_5_movement_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -415436,7 +415475,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op67_symphony_no_5_movement_1.mid",
   "other_editions": [],
-  "search_text": "symphony no. 5 - movement 1 ludwig van beethoven op. 67 op 67 op. 67 op67  beethoven op67 symphony no 5 movement 1 classical lyrical classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "symphony no. 5 - movement 1 ludwig van beethoven op. 67 op 67 op. 67 op67  beethoven op67 symphony no 5 movement 1 classical lyrical classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op70no1_piano_trio_in_d_major",
@@ -421077,7 +421117,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_woo78_on_god_save_the_king.mid",
   "score_files": [
-   "files/scores/beethoven_woo78_on_god_save_the_king.mid"
+   "files/scores/beethoven_woo78_on_god_save_the_king.mid",
+   "files/scores/beethoven_woo78_on_god_save_the_king_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -421098,7 +421139,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_woo78_on_god_save_the_king.mid",
   "other_editions": [],
-  "search_text": "seven variations - opus woo 78 ludwig van beethoven woo 78 woo 78 woo78 on god save the king beethoven woo78 on god save the king classical lyrical classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "seven variations - opus woo 78 ludwig van beethoven woo 78 woo 78 woo78 on god save the king beethoven woo78 on god save the king classical lyrical classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_woo82_fur_das_pianoforte",
@@ -441434,7 +441476,8 @@
   "preview_url": "",
   "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello.mid",
   "score_files": [
-   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello.mid"
+   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello.mid",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -441455,7 +441498,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello.mid",
   "other_editions": [],
-  "search_text": "pictures at an exhibition: il vecchio castello modest mussorgsky   il vecchio castello mussorgsky pictures at an exhibition il vecchio castello classical lyrical classical romantic  mussorgsky, modest"
+  "search_text": "pictures at an exhibition: il vecchio castello modest mussorgsky   il vecchio castello mussorgsky pictures at an exhibition il vecchio castello classical lyrical classical romantic  mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mussorgsky_pictures_at_an_exhibition_promenade",
@@ -496755,7 +496799,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_op59_scene_rustique_russe.mid",
   "score_files": [
-   "files/scores/tchaikovsky_op59_scene_rustique_russe.mid"
+   "files/scores/tchaikovsky_op59_scene_rustique_russe.mid",
+   "files/scores/tchaikovsky_op59_scene_rustique_russe_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -496776,7 +496821,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_op59_scene_rustique_russe.mid",
   "other_editions": [],
-  "search_text": "doumka pyotr ilyich tchaikovsky op. 59 op 59 op. 59 op59 scène rustique russe tchaikovsky op59 scene rustique russe classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "doumka pyotr ilyich tchaikovsky op. 59 op 59 op. 59 op59 scène rustique russe tchaikovsky op59 scene rustique russe classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_op11_string_quartet_no_1_op_11",
@@ -653543,7 +653589,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_ave_verum_corpus.mid",
   "score_files": [
-   "files/scores/mozart_ave_verum_corpus.mid"
+   "files/scores/mozart_ave_verum_corpus.mid",
+   "files/scores/mozart_ave_verum_corpus_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -653579,7 +653626,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "ave, verum corpus wolfgang amadeus mozart    mozart ave verum corpus classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "ave, verum corpus wolfgang amadeus mozart    mozart ave verum corpus classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_mozart_bagatelle",
@@ -666651,7 +666699,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k574_gigue_in_g_major.mid",
   "score_files": [
-   "files/scores/mozart_k574_gigue_in_g_major.mid"
+   "files/scores/mozart_k574_gigue_in_g_major.mid",
+   "files/scores/mozart_k574_gigue_in_g_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -666680,7 +666729,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "gigue in g major wolfgang amadeus mozart k574 k 574 k574 gigue in g major mozart k574 gigue in g major fast bright classical classical  mozart, wolfgang amadeus"
+  "search_text": "gigue in g major wolfgang amadeus mozart k574 k 574 k574 gigue in g major mozart k574 gigue in g major fast bright classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_l3_quartet_no_2_in_c_moll_3_sat",
