@@ -41,7 +41,9 @@
  "preview_url": "",
  "score_url": "files/scores/humperdinck_madchenpreis.mid",
  "score_files": [
-  "files/scores/humperdinck_madchenpreis.mid"
+  "files/scores/humperdinck_madchenpreis.mid",
+  "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51_reconstructed.mxl",
+  "files/scores/humperdinck_madchenpreis_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -62,6 +64,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/humperdinck_madchenpreis.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=humperdinck_madchenpreis",
@@ -69,7 +72,9 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis.mid"
+  "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis.mid",
+  "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis_des_fahrenden_sb51_reconstructed.mxl",
+  "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/humperdinck_madchenpreis.mid",
  "render_midi": {

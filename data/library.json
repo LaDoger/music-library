@@ -21166,7 +21166,8 @@
   "score_url": "files/scores/bruckner_wab129_perger.mid",
   "score_files": [
    "files/scores/bruckner_wab129_perger.ly",
-   "files/scores/bruckner_wab129_perger.mid"
+   "files/scores/bruckner_wab129_perger.mid",
+   "files/scores/bruckner_wab129_perger_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -21190,7 +21191,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bruckner_wab129_perger.mid",
   "other_editions": [],
-  "search_text": "perger präludium anton bruckner wab 129 wab 129 wab129  bruckner wab129 perger solemn organ brief classical romantic  bruckner, anton"
+  "search_text": "perger präludium anton bruckner wab 129 wab 129 wab129  bruckner wab129 perger solemn organ brief classical romantic  bruckner, anton",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "reger_op42_1_i",
@@ -22013,7 +22015,8 @@
   "score_url": "files/scores/reger_untrene.mid",
   "score_files": [
    "files/scores/reger_untrene.ly",
-   "files/scores/reger_untrene.mid"
+   "files/scores/reger_untrene.mid",
+   "files/scores/reger_untrene_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "folkish",
@@ -22035,7 +22038,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/reger_untrene.mid",
   "other_editions": [],
-  "search_text": "untreue (das zerbrochene ringlein) max reger arr. 1913 arr 1913 arr. 1913 arr1913  reger untrene folkish wistful choral classical late romantic / early 20th  reger, max"
+  "search_text": "untreue (das zerbrochene ringlein) max reger arr. 1913 arr 1913 arr. 1913 arr1913  reger untrene folkish wistful choral classical late romantic / early 20th  reger, max",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "adam_o_holy_night",
@@ -104027,7 +104031,8 @@
   "preview_url": "",
   "score_url": "files/scores/monteverdi_o_tu_ch_innanzi_morte_l_orfe.mid",
   "score_files": [
-   "files/scores/monteverdi_o_tu_ch_innanzi_morte_l_orfe.mid"
+   "files/scores/monteverdi_o_tu_ch_innanzi_morte_l_orfe.mid",
+   "files/scores/monteverdi_o_tu_ch_innanzi_morte_l_orfe_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -104048,7 +104053,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/monteverdi_o_tu_ch_innanzi_morte_l_orfe.mid",
   "other_editions": [],
-  "search_text": "o tu ch'innanzi morte (l'orfeo) claudio monteverdi    monteverdi o tu ch innanzi morte l orfe classical lyrical classical baroque  monteverdi, claudio"
+  "search_text": "o tu ch'innanzi morte (l'orfeo) claudio monteverdi    monteverdi o tu ch innanzi morte l orfe classical lyrical classical baroque  monteverdi, claudio",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "monteverdi_ohime_se_tanto_amate_claudio",
@@ -130370,7 +130376,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_o_salutaris_hostia_no_1_in_e_flat_major.mid",
   "score_files": [
-   "files/scores/elgar_imslp_o_salutaris_hostia_no_1_in_e_flat_major.mid"
+   "files/scores/elgar_imslp_o_salutaris_hostia_no_1_in_e_flat_major.mid",
+   "files/scores/elgar_imslp_o_salutaris_hostia_no_1_in_e_flat_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130393,7 +130400,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_o_salutaris_hostia_no_1_in_e_flat_major.mid",
   "other_editions": [],
-  "search_text": "o salutaris hostia no.1 in e-flat major edward elgar    elgar imslp o salutaris hostia no 1 in e flat major classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "o salutaris hostia no.1 in e-flat major edward elgar    elgar imslp o salutaris hostia no 1 in e flat major classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_offertoire_arr_for_orchestra",
@@ -137566,7 +137574,8 @@
   "preview_url": "",
   "score_url": "files/scores/humperdinck_ein_geistlich_abendlied.mid",
   "score_files": [
-   "files/scores/humperdinck_ein_geistlich_abendlied.mid"
+   "files/scores/humperdinck_ein_geistlich_abendlied.mid",
+   "files/scores/humperdinck_ein_geistlich_abendlied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -137587,7 +137596,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/humperdinck_ein_geistlich_abendlied.mid",
   "other_editions": [],
-  "search_text": "ein geistlich abendlied engelbert humperdinck    humperdinck ein geistlich abendlied classical lyrical classical 20th century  humperdinck, engelbert"
+  "search_text": "ein geistlich abendlied engelbert humperdinck    humperdinck ein geistlich abendlied classical lyrical classical 20th century  humperdinck, engelbert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "humperdinck_evening_prayer_recorder_quar",
@@ -137706,7 +137716,9 @@
   "preview_url": "",
   "score_url": "files/scores/humperdinck_madchenpreis.mid",
   "score_files": [
-   "files/scores/humperdinck_madchenpreis.mid"
+   "files/scores/humperdinck_madchenpreis.mid",
+   "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51_reconstructed.mxl",
+   "files/scores/humperdinck_madchenpreis_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -137727,7 +137739,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/humperdinck_madchenpreis.mid",
   "other_editions": [],
-  "search_text": "mädchenpreis engelbert humperdinck    humperdinck madchenpreis classical lyrical classical 20th century  humperdinck, engelbert"
+  "search_text": "mädchenpreis engelbert humperdinck    humperdinck madchenpreis classical lyrical classical 20th century  humperdinck, engelbert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "humperdinck_madchenpreis_des_fahrenden_sb51",
@@ -137772,7 +137785,8 @@
   "preview_url": "",
   "score_url": "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51.mid",
   "score_files": [
-   "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51.mid"
+   "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51.mid",
+   "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -137793,7 +137807,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/humperdinck_madchenpreis_des_fahrenden_sb51.mid",
   "other_editions": [],
-  "search_text": "mädchenpreis des fahrenden sängers engelbert humperdinck    humperdinck madchenpreis des fahrenden sb51 classical lyrical classical 20th century  humperdinck, engelbert"
+  "search_text": "mädchenpreis des fahrenden sängers engelbert humperdinck    humperdinck madchenpreis des fahrenden sb51 classical lyrical classical 20th century  humperdinck, engelbert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "radesca_ah_traditor_enrico_radesca",
@@ -186003,7 +186018,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_untreue.mid",
   "score_files": [
-   "files/scores/unknown_untreue.mid"
+   "files/scores/unknown_untreue.mid",
+   "files/scores/unknown_untreue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -186024,7 +186040,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_untreue.mid",
   "other_editions": [],
-  "search_text": "untreue friedrich glück, 1814    unknown untreue classical lyrical classical romantic  1814, friedrich glück,"
+  "search_text": "untreue friedrich glück, 1814    unknown untreue classical lyrical classical romantic  1814, friedrich glück,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "kuhlau_o_du_nase_aller_nasen_friedr",
@@ -186399,7 +186416,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_die_soldatenbraut.mid",
   "score_files": [
-   "files/scores/unknown_die_soldatenbraut.mid"
+   "files/scores/unknown_die_soldatenbraut.mid",
+   "files/scores/unknown_die_soldatenbraut_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -186420,7 +186438,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_die_soldatenbraut.mid",
   "other_editions": [],
-  "search_text": "die soldatenbraut friedrich silcher, 1842    unknown die soldatenbraut classical lyrical classical romantic  1842, friedrich silcher,"
+  "search_text": "die soldatenbraut friedrich silcher, 1842    unknown die soldatenbraut classical lyrical classical romantic  1842, friedrich silcher,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_in_der_ferne",
@@ -186465,7 +186484,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_in_der_ferne.mid",
   "score_files": [
-   "files/scores/unknown_in_der_ferne.mid"
+   "files/scores/unknown_in_der_ferne.mid",
+   "files/scores/unknown_in_der_ferne_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -186494,7 +186514,8 @@
     "licence": "CC-BY"
    }
   ],
-  "search_text": "in der ferne friedrich silcher, 1855    unknown in der ferne classical lyrical classical romantic  1855, friedrich silcher,"
+  "search_text": "in der ferne friedrich silcher, 1855    unknown in der ferne classical lyrical classical romantic  1855, friedrich silcher,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_casta_diva",
@@ -196749,7 +196770,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wer_nur_den_lieben_gott_lass.mid",
   "score_files": [
-   "files/scores/unknown_wer_nur_den_lieben_gott_lass.mid"
+   "files/scores/unknown_wer_nur_den_lieben_gott_lass.mid",
+   "files/scores/unknown_wer_nur_den_lieben_gott_lass_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -196770,7 +196792,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wer_nur_den_lieben_gott_lass.mid",
   "other_editions": [],
-  "search_text": "wer nur den lieben gott läßt walten georg neumark, 1657    unknown wer nur den lieben gott lass classical lyrical classical baroque  1657, georg neumark,"
+  "search_text": "wer nur den lieben gott läßt walten georg neumark, 1657    unknown wer nur den lieben gott lass classical lyrical classical baroque  1657, georg neumark,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "telemann_arioso",
@@ -241376,7 +241399,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_ah_was_it_him_my_heart_foret.mid",
   "score_files": [
-   "files/scores/verdi_ah_was_it_him_my_heart_foret.mid"
+   "files/scores/verdi_ah_was_it_him_my_heart_foret.mid",
+   "files/scores/verdi_ah_was_it_him_my_heart_foret_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -241397,7 +241421,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_ah_was_it_him_my_heart_foret.mid",
   "other_editions": [],
-  "search_text": "ah! was it him my heart foretold. giuseppe verdi   ah! was it him my heart foretold. verdi ah was it him my heart foret classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "ah! was it him my heart foretold. giuseppe verdi   ah! was it him my heart foretold. verdi ah was it him my heart foret classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_aida_atto_ii_gran_finale_sec",
@@ -252648,7 +252673,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wv31_praeambulum_no_3_in_d.mid",
   "score_files": [
-   "files/scores/unknown_wv31_praeambulum_no_3_in_d.mid"
+   "files/scores/unknown_wv31_praeambulum_no_3_in_d.mid",
+   "files/scores/unknown_wv31_praeambulum_no_3_in_d_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -252669,7 +252695,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wv31_praeambulum_no_3_in_d.mid",
   "other_editions": [],
-  "search_text": "praeambulum no.3 in d heinrich scheidemann wv 31 wv 31 wv31  unknown wv31 praeambulum no 3 in d classical lyrical classical baroque  scheidemann, heinrich"
+  "search_text": "praeambulum no.3 in d heinrich scheidemann wv 31 wv 31 wv31  unknown wv31 praeambulum no 3 in d classical lyrical classical baroque  scheidemann, heinrich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_wv32_praeambulum_no_4_in_d",
@@ -252714,7 +252741,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wv32_praeambulum_no_4_in_d.mid",
   "score_files": [
-   "files/scores/unknown_wv32_praeambulum_no_4_in_d.mid"
+   "files/scores/unknown_wv32_praeambulum_no_4_in_d.mid",
+   "files/scores/unknown_wv32_praeambulum_no_4_in_d_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -252735,7 +252763,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wv32_praeambulum_no_4_in_d.mid",
   "other_editions": [],
-  "search_text": "praeambulum no. 4 in d heinrich scheidemann wv 32 wv 32 wv32  unknown wv32 praeambulum no 4 in d classical lyrical classical baroque  scheidemann, heinrich"
+  "search_text": "praeambulum no. 4 in d heinrich scheidemann wv 32 wv 32 wv32  unknown wv32 praeambulum no 4 in d classical lyrical classical baroque  scheidemann, heinrich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_wv33_praeambulum_no_5_in_d",
@@ -253506,7 +253535,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_heidenroslein.mid",
   "score_files": [
-   "files/scores/unknown_heidenroslein.mid"
+   "files/scores/unknown_heidenroslein.mid",
+   "files/scores/unknown_heidenroslein_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -253527,7 +253557,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_heidenroslein.mid",
   "other_editions": [],
-  "search_text": "heidenröslein heinrich werner, 1829    unknown heidenroslein classical lyrical classical romantic  1829, heinrich werner,"
+  "search_text": "heidenröslein heinrich werner, 1829    unknown heidenroslein classical lyrical classical romantic  1829, heinrich werner,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "ernst_polyphonic_etude_no_1_h_w_er",
@@ -360039,7 +360070,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_adeste_fideles.mid",
   "score_files": [
-   "files/scores/unknown_adeste_fideles.mid"
+   "files/scores/unknown_adeste_fideles.mid",
+   "files/scores/unknown_adeste_fideles_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -360060,7 +360092,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_adeste_fideles.mid",
   "other_editions": [],
-  "search_text": "adeste fideles john f. wade    unknown adeste fideles classical lyrical classical classical  wade, john f."
+  "search_text": "adeste fideles john f. wade    unknown adeste fideles classical lyrical classical classical  wade, john f.",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "jfarmer_fair_phyllis_i_saw_g_major",
@@ -431442,7 +431475,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_vom_himmel_hoch_da_komm_ich.mid",
   "score_files": [
-   "files/scores/unknown_vom_himmel_hoch_da_komm_ich.mid"
+   "files/scores/unknown_vom_himmel_hoch_da_komm_ich.mid",
+   "files/scores/unknown_vom_himmel_hoch_da_komm_ich_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -431463,7 +431497,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_vom_himmel_hoch_da_komm_ich.mid",
   "other_editions": [],
-  "search_text": "vom himmel hoch, da komm ich her martin luther, 1539    unknown vom himmel hoch da komm ich classical lyrical classical renaissance  1539, martin luther,"
+  "search_text": "vom himmel hoch, da komm ich her martin luther, 1539    unknown vom himmel hoch da komm ich classical lyrical classical renaissance  1539, martin luther,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_ein_feste_burg_hymntune",
@@ -436817,7 +436852,8 @@
   "preview_url": "",
   "score_url": "files/scores/reger_untreue.mid",
   "score_files": [
-   "files/scores/reger_untreue.mid"
+   "files/scores/reger_untreue.mid",
+   "files/scores/reger_untreue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -436838,7 +436874,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/reger_untreue.mid",
   "other_editions": [],
-  "search_text": "untreue max reger    reger untreue classical lyrical classical romantic  reger, max"
+  "search_text": "untreue max reger    reger untreue classical lyrical classical romantic  reger, max",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "reger_wiegenlied_max_reger",
@@ -452436,7 +452473,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_the_diatonic_scale.mid",
   "score_files": [
-   "files/scores/unknown_the_diatonic_scale.mid"
+   "files/scores/unknown_the_diatonic_scale.mid",
+   "files/scores/unknown_the_diatonic_scale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -452457,7 +452495,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_the_diatonic_scale.mid",
   "other_editions": [],
-  "search_text": "lesson i, the diatonic scale nicola vaccai   the diatonic scale unknown the diatonic scale classical lyrical classical romantic  vaccai, nicola"
+  "search_text": "lesson i, the diatonic scale nicola vaccai   the diatonic scale unknown the diatonic scale classical lyrical classical romantic  vaccai, nicola",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "gombert_a_traveil_suis_nicolas_gombe",
@@ -529387,7 +529426,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_i_ve_found_a_friend.mid",
   "score_files": [
-   "files/scores/unknown_i_ve_found_a_friend.mid"
+   "files/scores/unknown_i_ve_found_a_friend.mid",
+   "files/scores/unknown_i_ve_found_a_friend_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -529408,7 +529448,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_i_ve_found_a_friend.mid",
   "other_editions": [],
-  "search_text": "i've found a friend sir arthur sullivan    unknown i ve found a friend classical lyrical classical romantic  sullivan, sir arthur"
+  "search_text": "i've found a friend sir arthur sullivan    unknown i ve found a friend classical lyrical classical romantic  sullivan, sir arthur",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_o1411_heimat_susser_ort",
@@ -570654,7 +570695,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_asaku_tomo.mid",
   "score_files": [
-   "files/scores/traditional_asaku_tomo.mid"
+   "files/scores/traditional_asaku_tomo.mid",
+   "files/scores/traditional_asaku_tomo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -570675,7 +570717,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_asaku_tomo.mid",
   "other_editions": [],
-  "search_text": "asaku-tomo traditional    traditional asaku tomo classical lyrical classical traditional  traditional"
+  "search_text": "asaku-tomo traditional    traditional asaku tomo classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_ash_grove",
@@ -579126,7 +579169,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_doteo_toruwa.mid",
   "score_files": [
-   "files/scores/traditional_doteo_toruwa.mid"
+   "files/scores/traditional_doteo_toruwa.mid",
+   "files/scores/traditional_doteo_toruwa_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -579147,7 +579191,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_doteo_toruwa.mid",
   "other_editions": [],
-  "search_text": "doteo-toruwa traditional    traditional doteo toruwa classical lyrical classical traditional  traditional"
+  "search_text": "doteo-toruwa traditional    traditional doteo toruwa classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_doujan",
@@ -579804,7 +579849,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_echigo_jishi.mid",
   "score_files": [
-   "files/scores/traditional_echigo_jishi.mid"
+   "files/scores/traditional_echigo_jishi.mid",
+   "files/scores/traditional_echigo_jishi_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -579825,7 +579871,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_echigo_jishi.mid",
   "other_editions": [],
-  "search_text": "echigo jishi traditional   echigo jishi traditional echigo jishi classical lyrical classical traditional  traditional"
+  "search_text": "echigo jishi traditional   echigo jishi traditional echigo jishi classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_eh_la_bas",
@@ -581396,7 +581443,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_fuku_ju_so.mid",
   "score_files": [
-   "files/scores/traditional_fuku_ju_so.mid"
+   "files/scores/traditional_fuku_ju_so.mid",
+   "files/scores/traditional_fuku_ju_so_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -581417,7 +581465,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_fuku_ju_so.mid",
   "other_editions": [],
-  "search_text": "fuku-ju-so traditional    traditional fuku ju so classical lyrical classical traditional  traditional"
+  "search_text": "fuku-ju-so traditional    traditional fuku ju so classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_gallawa_hi",
@@ -582932,7 +582981,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_gosho_no_oniwa.mid",
   "score_files": [
-   "files/scores/traditional_gosho_no_oniwa.mid"
+   "files/scores/traditional_gosho_no_oniwa.mid",
+   "files/scores/traditional_gosho_no_oniwa_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -582953,7 +583003,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_gosho_no_oniwa.mid",
   "other_editions": [],
-  "search_text": "gosho no oniwa traditional    traditional gosho no oniwa classical lyrical classical traditional  traditional"
+  "search_text": "gosho no oniwa traditional    traditional gosho no oniwa classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_greensleaves",
@@ -584824,7 +584875,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_horete_kayouni.mid",
   "score_files": [
-   "files/scores/traditional_horete_kayouni.mid"
+   "files/scores/traditional_horete_kayouni.mid",
+   "files/scores/traditional_horete_kayouni_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -584845,7 +584897,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_horete_kayouni.mid",
   "other_editions": [],
-  "search_text": "horete-kayouni traditional    traditional horete kayouni classical lyrical classical traditional  traditional"
+  "search_text": "horete-kayouni traditional    traditional horete kayouni classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_housemix_rindu",
@@ -585956,7 +586009,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_iyo_bushi.mid",
   "score_files": [
-   "files/scores/traditional_iyo_bushi.mid"
+   "files/scores/traditional_iyo_bushi.mid",
+   "files/scores/traditional_iyo_bushi_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -585977,7 +586031,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_iyo_bushi.mid",
   "other_editions": [],
-  "search_text": "iyo-bushi traditional    traditional iyo bushi classical lyrical classical traditional  traditional"
+  "search_text": "iyo-bushi traditional    traditional iyo bushi classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_jacha_uru",
@@ -586946,7 +587001,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_k_honen.mid",
   "score_files": [
-   "files/scores/traditional_k_honen.mid"
+   "files/scores/traditional_k_honen.mid",
+   "files/scores/traditional_k_honen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -586967,7 +587023,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_k_honen.mid",
   "other_editions": [],
-  "search_text": "k honen traditional    traditional k honen classical lyrical classical traditional  traditional"
+  "search_text": "k honen traditional    traditional k honen classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_kadril_van",
@@ -587210,7 +587267,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_kappore.mid",
   "score_files": [
-   "files/scores/traditional_kappore.mid"
+   "files/scores/traditional_kappore.mid",
+   "files/scores/traditional_kappore_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -587231,7 +587289,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_kappore.mid",
   "other_editions": [],
-  "search_text": "kappore traditional    traditional kappore classical lyrical classical traditional  traditional"
+  "search_text": "kappore traditional    traditional kappore classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_kate_dalry",
@@ -587342,7 +587401,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_kayo_kami.mid",
   "score_files": [
-   "files/scores/traditional_kayo_kami.mid"
+   "files/scores/traditional_kayo_kami.mid",
+   "files/scores/traditional_kayo_kami_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -587363,7 +587423,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_kayo_kami.mid",
   "other_editions": [],
-  "search_text": "kayo-kami traditional    traditional kayo kami classical lyrical classical traditional  traditional"
+  "search_text": "kayo-kami traditional    traditional kayo kami classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_kemp_s_jig",
@@ -587819,7 +587880,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_kosunoto.mid",
   "score_files": [
-   "files/scores/traditional_kosunoto.mid"
+   "files/scores/traditional_kosunoto.mid",
+   "files/scores/traditional_kosunoto_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -587840,7 +587902,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_kosunoto.mid",
   "other_editions": [],
-  "search_text": "kosunoto traditional    traditional kosunoto classical lyrical classical traditional  traditional"
+  "search_text": "kosunoto traditional    traditional kosunoto classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_kragan",
@@ -593385,7 +593448,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_murasaki.mid",
   "score_files": [
-   "files/scores/traditional_murasaki.mid"
+   "files/scores/traditional_murasaki.mid",
+   "files/scores/traditional_murasaki_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -593406,7 +593470,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_murasaki.mid",
   "other_editions": [],
-  "search_text": "murasaki traditional    traditional murasaki classical lyrical classical traditional  traditional"
+  "search_text": "murasaki traditional    traditional murasaki classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_my_dream_of_you",
@@ -593781,7 +593846,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_na_no_ha.mid",
   "score_files": [
-   "files/scores/traditional_na_no_ha.mid"
+   "files/scores/traditional_na_no_ha.mid",
+   "files/scores/traditional_na_no_ha_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -593802,7 +593868,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_na_no_ha.mid",
   "other_editions": [],
-  "search_text": "na no ha traditional    traditional na no ha classical lyrical classical traditional  traditional"
+  "search_text": "na no ha traditional    traditional na no ha classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_na_vsliuka",
@@ -593979,7 +594046,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_nisshin_danpan.mid",
   "score_files": [
-   "files/scores/traditional_nisshin_danpan.mid"
+   "files/scores/traditional_nisshin_danpan.mid",
+   "files/scores/traditional_nisshin_danpan_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -594000,7 +594068,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_nisshin_danpan.mid",
   "other_editions": [],
-  "search_text": "nisshin danpan traditional    traditional nisshin danpan classical lyrical classical traditional  traditional"
+  "search_text": "nisshin danpan traditional    traditional nisshin danpan classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_no_alto_el",
@@ -595521,7 +595590,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_otsue_bushi.mid",
   "score_files": [
-   "files/scores/traditional_otsue_bushi.mid"
+   "files/scores/traditional_otsue_bushi.mid",
+   "files/scores/traditional_otsue_bushi_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -595542,7 +595612,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_otsue_bushi.mid",
   "other_editions": [],
-  "search_text": "otsue-bushi traditional    traditional otsue bushi classical lyrical classical traditional  traditional"
+  "search_text": "otsue-bushi traditional    traditional otsue bushi classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_out_on_the",
@@ -598320,7 +598391,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_sakura_miyotote.mid",
   "score_files": [
-   "files/scores/traditional_sakura_miyotote.mid"
+   "files/scores/traditional_sakura_miyotote.mid",
+   "files/scores/traditional_sakura_miyotote_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -598341,7 +598413,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_sakura_miyotote.mid",
   "other_editions": [],
-  "search_text": "sakura-miyotote traditional    traditional sakura miyotote classical lyrical classical traditional  traditional"
+  "search_text": "sakura-miyotote traditional    traditional sakura miyotote classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_sally_ann",
@@ -600800,7 +600873,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_schon_ist_die_jugend.mid",
   "score_files": [
-   "files/scores/traditional_schon_ist_die_jugend.mid"
+   "files/scores/traditional_schon_ist_die_jugend.mid",
+   "files/scores/traditional_schon_ist_die_jugend_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -600821,7 +600895,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_schon_ist_die_jugend.mid",
   "other_editions": [],
-  "search_text": "schön ist die jugend traditional    traditional schon ist die jugend classical lyrical classical traditional  traditional"
+  "search_text": "schön ist die jugend traditional    traditional schon ist die jugend classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_scotland_t",
@@ -601130,7 +601205,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_sedo_no_danbatake.mid",
   "score_files": [
-   "files/scores/traditional_sedo_no_danbatake.mid"
+   "files/scores/traditional_sedo_no_danbatake.mid",
+   "files/scores/traditional_sedo_no_danbatake_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -601151,7 +601227,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_sedo_no_danbatake.mid",
   "other_editions": [],
-  "search_text": "sedo no danbatake traditional    traditional sedo no danbatake classical lyrical classical traditional  traditional"
+  "search_text": "sedo no danbatake traditional    traditional sedo no danbatake classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_shana_gold",
@@ -612201,7 +612278,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_the_water_of_tyne.mid",
   "score_files": [
-   "files/scores/traditional_the_water_of_tyne.mid"
+   "files/scores/traditional_the_water_of_tyne.mid",
+   "files/scores/traditional_the_water_of_tyne_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -612222,7 +612300,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_the_water_of_tyne.mid",
   "other_editions": [],
-  "search_text": "the water of tyne traditional    traditional the water of tyne classical lyrical classical traditional  traditional"
+  "search_text": "the water of tyne traditional    traditional the water of tyne classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_the_waters",
@@ -626282,7 +626361,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_saltarello.mid",
   "score_files": [
-   "files/scores/unknown_saltarello.mid"
+   "files/scores/unknown_saltarello.mid",
+   "files/scores/unknown_saltarello_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -626303,7 +626383,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_saltarello.mid",
   "other_editions": [],
-  "search_text": "saltarello vincenzo galilei    unknown saltarello classical lyrical classical renaissance  galilei, vincenzo"
+  "search_text": "saltarello vincenzo galilei    unknown saltarello classical lyrical classical renaissance  galilei, vincenzo",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "gabriel_alone",
