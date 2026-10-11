@@ -62,6 +62,43 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/chopin_op28_suffocation.mid",
  "other_editions": [],
+ "analysis_url": "files/analysis/chopin_op28_suffocation/chopin_op28_suffocation.analysis.json",
+ "annotated_score_url": "files/analysis/chopin_op28_suffocation/chopin_op28_suffocation.annotated.musicxml",
+ "analysis_tags": [
+  "bass_line:chromatic",
+  "cadence:DC",
+  "cadence:HC",
+  "cadence:PAC",
+  "colour_chord:aug6_french",
+  "colour_chord:aug6_german",
+  "colour_chord:borrowed",
+  "form:theme_1",
+  "hook:melodic_cell",
+  "motif:repetition",
+  "rhythm_phrase:anticipation",
+  "rhythm_phrase:elision",
+  "rhythm_phrase:phrase_length",
+  "story:arrival",
+  "story:continuation",
+  "story:start",
+  "story:turn",
+  "tension_release:appoggiatura",
+  "tension_release:deceptive_resolution",
+  "tension_release:delayed_resolution",
+  "tension_release:suspension_4_3",
+  "tension_release:suspension_7_6",
+  "texture_dynamics:build_to_climax",
+  "texture_dynamics:climax",
+  "texture_dynamics:subito",
+  "texture_dynamics:thickening",
+  "texture_dynamics:thinning",
+  "voicing_orchestration:close_spacing",
+  "voicing_orchestration:register_high_shift"
+ ],
+ "analysis_quarter_range": [
+  0,
+  101.0
+ ],
  "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
@@ -80,5 +117,7 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Frédéric Chopin: Prelude: Op. 28, No. 4 ('Suffocation'), Op. 28 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=468. Licence: PD."
+ "credit_text": "Frédéric Chopin: Prelude: Op. 28, No. 4 ('Suffocation'), Op. 28 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=468. Licence: PD.",
+ "analysis_url_abs": "https://ladoger.github.io/music-library/files/analysis/chopin_op28_suffocation/chopin_op28_suffocation.analysis.json",
+ "annotated_score_url_abs": "https://ladoger.github.io/music-library/files/analysis/chopin_op28_suffocation/chopin_op28_suffocation.annotated.musicxml"
 }
