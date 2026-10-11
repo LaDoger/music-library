@@ -32,6 +32,11 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "library_bulk.csv"
 EDITIONS = ROOT / "library_other_editions.json"
 EXCLUDED = ("orff", "shostakovich", "sorabji")
+# 2026-10-11 quality trim (LaDoger approved): removed ids and fully removed composers never come back.
+_TRIM = Path(__file__).with_name("trim_removed_ids.txt")
+TRIM_IDS = {l.strip() for l in _TRIM.read_text().splitlines() if l.strip() and not l.startswith("#")} if _TRIM.exists() else set()
+_TRIMC = Path(__file__).with_name("trim_skip_composers.txt")
+TRIM_COMPOSERS = {l.strip() for l in _TRIMC.read_text().splitlines() if l.strip() and not l.startswith("#")} if _TRIMC.exists() else set()
 PREVIEW_NOTE = re.compile(r"Preview is an own (?:FluidSynth|MIDI)[^.]*\.", re.I)
 UNFINISHED = re.compile(r"\bwip\b|\bdraft\b|work in progress", re.I)
 NO_PREVIEW = ("No pre-rendered preview: the site plays the score MIDI with an in-browser "
@@ -86,6 +91,9 @@ def keep(row: dict, why: Counter) -> bool:
             return False
     if UNFINISHED.search(row.get("title") or ""):
         why["wip-title"] += 1
+        return False
+    if row.get("id") in TRIM_IDS or (row.get("composer") or "").strip() in TRIM_COMPOSERS:
+        why["trimmed"] += 1
         return False
     if any(name in (row.get("composer") or "").lower() for name in EXCLUDED):
         why["excluded"] += 1

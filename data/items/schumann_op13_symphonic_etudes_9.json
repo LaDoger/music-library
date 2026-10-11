@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 9",
  "catalog": "Op. 13",
  "movement": "No. 9",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;ardent;restless;stormy;key: c# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: c# minor. Chord journey: bVI - bVII - v5 - bVI7 - bVI - bVII - i7 - i4 - bVII4/2 - v - bii6 - #iiio - V6 - bVII - i - bVII, closing on I7. Texture: rising bass steps under thick chordal figuration.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "ardent",
+  "restless",
+  "stormy",
+  "key: c# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

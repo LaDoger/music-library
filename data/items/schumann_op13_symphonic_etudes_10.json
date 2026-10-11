@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 10",
  "catalog": "Op. 13",
  "movement": "No. 10",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tense;brooding;driving;key: f# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: f# minor. Chord journey: v - II6/4 - viiø6/4 - v - II6/4 - i6/4 - v - bVII - IV6/4 - iv7 - bVII - i6 - iv7 - bVII, arriving on i, ending bVII+6/4 - v - v. Texture: thick chordal ostinato over a rolling bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tense",
+  "brooding",
+  "driving",
+  "key: f# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

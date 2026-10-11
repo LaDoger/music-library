@@ -36,3 +36,5 @@ musiclib trim in.flac --start 1:42 --duration 30 | musiclib credit <id>
 
 ## Optional
 - [Human site](https://ladoger.github.io/music-library/): composer index, composer pages (?composer=<name>), all works (?view=works), search, filters, preview / full recording (real recordings) / in-browser MIDI synth playback; ?id=<id> opens one piece
+
+- 2026-10-11 quality trim: 5,929 works by 237 composers. Removed ids and composers are listed in scripts/bulk/trim_removed_ids.txt and trim_skip_composers.txt; do not re-import them.

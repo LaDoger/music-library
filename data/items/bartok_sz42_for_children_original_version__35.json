@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 35",
  "catalog": "Sz. 42",
  "movement": "No. 35",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;pensive;hushed;sombre;key: a minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: a minor. Chord journey: v6 - bVII6/4 - III6/4 - III6 - vi6 - III6 - bVI6 - v6 - III6 - V+ - i4 - bVI6 - bvi close. Texture: sustained chords over a sparse A-E bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "pensive",
+  "hushed",
+  "sombre",
+  "key: a minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

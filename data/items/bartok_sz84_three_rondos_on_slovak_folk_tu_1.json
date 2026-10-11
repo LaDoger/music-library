@@ -5,9 +5,9 @@
  "title": "Three Rondos on Slovak Folk Tunes",
  "catalog": "Sz. 84",
  "movement": "",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;folkish;wandering;unresolved;key: e minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: e minor. Chord journey: bVI - bvii7 - III6/4 - i - bII - iii - bVI - bvi6/3 - iv7 x3 - viio7 - I - iv - ii7 - bVI x2, ending on unresolved bVI. Texture: folk-tune rondo refrain over chordal accompaniment.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Rondos_on_Slovak_Folk_Tunes,_Sz.84_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "folkish",
+  "wandering",
+  "unresolved",
+  "key: e minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

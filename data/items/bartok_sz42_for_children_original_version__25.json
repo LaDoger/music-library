@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 25",
  "catalog": "Sz. 42",
  "movement": "No. 25",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;playful;open;folk-bright;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - iii - I - iii7 turning minor (i5) - I6 - sharpened-vi colour - v - I close. Texture: two-part folk texture with a repeated I/iii alternation.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "playful",
+  "open",
+  "folk-bright",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

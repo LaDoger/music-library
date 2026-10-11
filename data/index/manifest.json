@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "count": 10019,
+ "count": 5929,
  "fields": [
   "id",
   "composer",
@@ -32,59 +32,35 @@
  "parts": [
   {
    "file": "part-000.json",
-   "count": 726
+   "count": 709
   },
   {
    "file": "part-001.json",
-   "count": 780
+   "count": 755
   },
   {
    "file": "part-002.json",
-   "count": 765
+   "count": 746
   },
   {
    "file": "part-003.json",
-   "count": 745
+   "count": 792
   },
   {
    "file": "part-004.json",
-   "count": 796
+   "count": 727
   },
   {
    "file": "part-005.json",
-   "count": 800
+   "count": 725
   },
   {
    "file": "part-006.json",
-   "count": 720
-  },
-  {
-   "file": "part-007.json",
    "count": 745
   },
   {
-   "file": "part-008.json",
-   "count": 774
-  },
-  {
-   "file": "part-009.json",
-   "count": 743
-  },
-  {
-   "file": "part-010.json",
-   "count": 817
-  },
-  {
-   "file": "part-011.json",
-   "count": 823
-  },
-  {
-   "file": "part-012.json",
-   "count": 748
-  },
-  {
-   "file": "part-013.json",
-   "count": 37
+   "file": "part-007.json",
+   "count": 730
   }
  ],
  "item_json": "data/items/{id}.json"

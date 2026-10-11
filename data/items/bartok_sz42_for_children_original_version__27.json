@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 27",
  "catalog": "Sz. 42",
  "movement": "No. 27",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;bright;stomping;sly;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - ii6/4-5 alternation with I - V - v - bVII - viio6/4 - I7 - I, closing on I with 5-#4-3 suspension figures. Texture: stomping chordal dance with pedal-like I/ii alternation.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "bright",
+  "stomping",
+  "sly",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 17",
  "catalog": "Op. 6",
  "movement": "No. 17",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;dramatic;shifting;unsettled;key: B minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B minor. Chord journey: I (B major) - V7 (F# major) - i5 - I - V7 - I - I54 - vi6 - II7 - I74 - v - V, closing i64 - i7654 - i in B minor. Texture: thick chordal dance, with major-minor shifts and chromatic bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "dramatic",
+  "shifting",
+  "unsettled",
+  "key: B minor"
  ],
  "has_editable_score": true,
  "has_recording": false,
