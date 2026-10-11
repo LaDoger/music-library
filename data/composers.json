@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 61,
-  "score_count": 61,
+  "piece_count": 64,
+  "score_count": 64,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2944,7 +2944,10 @@
    "bartok_sz42_for_children_original_version__25",
    "bartok_sz42_for_children_original_version__26",
    "bartok_sz42_for_children_original_version__27",
-   "bartok_sz84_three_rondos_on_slovak_folk_tu_1"
+   "bartok_sz84_three_rondos_on_slovak_folk_tu_1",
+   "bartok_sz42_for_children_original_version__28",
+   "bartok_sz42_for_children_original_version__29",
+   "bartok_sz42_for_children_original_version__30"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -10840,6 +10843,30 @@
    "knapp_bring_unto_the_lord_o_ye_mig",
    "knapp_if_the_lord_himself_had_not",
    "knapp_let_all_the_lands_with_shout"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
+  "slug": "charles-koechlin",
+  "name": "Charles Koechlin",
+  "short_name": "Koechlin",
+  "sort_name": "Koechlin, Charles",
+  "birth_year": null,
+  "death_year": 1950,
+  "era": "Late Romantic / early 20th century (French)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 1,
+  "score_count": 1,
+  "recording_count": 0,
+  "piece_ids": [
+   "koechlin_op_51_string_quartet_no_1_op_51"
   ],
   "wikidata": null,
   "portrait_url": null,
