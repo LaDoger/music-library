@@ -1,0 +1,1117 @@
+{
+  "meta": {
+    "id": "bach_bwv773_invention2",
+    "parent_item_id": "bach_bwv773_invention2",
+    "title": "Two-Part Invention No. 2 in C minor",
+    "composer": "Johann Sebastian Bach",
+    "source_file": "files/scores/bach_bwv773_invention2.mid",
+    "quarter_range": [
+      0,
+      108.0
+    ],
+    "bar_quarters": 4.0,
+    "time_signature": "4/4",
+    "key": "c",
+    "tempo": 64,
+    "midi_play_url": "files/scores/bach_bwv773_invention2.mid",
+    "source_licence": "PD",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=58",
+    "notation_notes": "27 bars of 4/4 from quarter 0, no pickup (the subject starts after an eighth rest), no repeats. Score reconstructed from the Mutopia MIDI (Bach-Gesellschaft source, PD); notes checked against the Mutopia .ly. The .ly prall/downprall trill signs are not in the MIDI; bars 2, 4, 12, 14 and 24 carry only a written-out C–D (or G–A) turn. MIDI-derived score, not an Urtext. Two-voice counterpoint implies harmony; most half-bars carry neighbour and passing 16ths, so many spans are left as ? with the implied function in the reason."
+  },
+  "draft": false,
+  "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+  "summary": "A two-voice canon in two halves. Bars 1–11: the RH subject is followed two bars later by the LH an octave below, moving from C minor to E♭ major. Bars 11–20: the same canon transposed to G minor with the voices exchanged (LH leads), moving to B♭. A two-bar sequence (21–22) leads back to C minor, where the subject returns over its own counter-line (23) and is imitated in the bass (25) before a PAC on a bare C octave.",
+  "sections": [
+    {
+      "name": "Canon I (c → E♭)",
+      "start_bar": 1,
+      "end_bar": 10,
+      "mood": [
+        "brooding",
+        "restless"
+      ],
+      "description": "RH subject, LH canon at the lower octave from bar 3; ii–V7–I cadences settle in E♭."
+    },
+    {
+      "name": "Canon II, voices exchanged (g → B♭)",
+      "start_bar": 11,
+      "end_bar": 20,
+      "mood": [
+        "searching",
+        "darker"
+      ],
+      "description": "Bars 1–10 a fifth lower with LH leading; arrives in B♭ at bar 17."
+    },
+    {
+      "name": "Sequence back to C minor",
+      "start_bar": 21,
+      "end_bar": 22,
+      "mood": [
+        "tense",
+        "driving"
+      ],
+      "description": "D7 and a stepped sequence lead to G7/B; LH scale falls to the dominant."
+    },
+    {
+      "name": "Tonic return and close",
+      "start_bar": 23,
+      "end_bar": 27,
+      "mood": [
+        "resolute",
+        "sombre"
+      ],
+      "description": "Subject in RH, then in LH two octaves lower; vii°7–V–i and a bare final octave."
+    }
+  ],
+  "bars": [
+    {
+      "bar": 1,
+      "start_quarter": 0.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "Solo line C–B–C–D–E♭–G; B and D neighbours dilute the implied tonic"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm7",
+          "rn": "iv7",
+          "function": "predominant outlined by the falling line A♭–F–E♭–C"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Canon I: RH states the two-bar subject alone (r8 C–B–C–D–E♭–G–A♭–B♭–A♭–F–F–E♭–D–C)"
+        },
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a single anxious line in C minor"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "Subject head C–B–C–D–E♭ then the drop to G and the turn A♭–B♭–A♭–F",
+          "beat": 1.5
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 4.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vii°7–i",
+          "reason": "Solo line; B–A♭–G–F then E♭–D–C–B outline vii°7 → i but D/G are missing or brief"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "Single voice on C–D with written-out trill on D; no B or G sounds"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "start_quarter": 8.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "LH theme entry C–B–C–D–E♭ against RH E♭–D–C–D–E♭–F–G: two-voice 16ths: neighbour/passing notes keep chord tones under 70% of the span"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm7",
+          "rn": "iv7",
+          "function": "predominant; bass A♭3 → F3, RH G is a suspension/neighbour"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "canon",
+          "text": "Strict canon at the lower octave, two bars behind: LH bars 3–11 copy RH bars 1–9 note for note"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "thickening",
+          "text": "LH enters; two-voice texture from here to the end"
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "start_quarter": 12.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vii°7–i",
+          "reason": "B3 + F5/E♭5 imply vii°7 → i (Bo7, then Cm) but D and G are absent or too short"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "B-7/D",
+          "rn": "V65/III",
+          "function": "applied dominant of E♭; LH D4 bass with written-out trill"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 5,
+      "start_quarter": 16.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied I",
+          "reason": "G4 + E♭5 then E♭4 D C D E♭ F G: I is implied, D/F/C passing notes leave coverage at 69%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm7",
+          "rn": "ii7",
+          "function": "predominant in E♭"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "c → E♭: B♭7 (bar 4) is V7 of E♭; bars 5–10 repeat ii–V7–I in E♭, so E♭ is established, not just tonicized",
+          "from_key": "c",
+          "to_key": "E-"
+        },
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the canon drifts into the relative major"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 20.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V–I",
+          "reason": "B♭–D–G–F / F–E♭ in LH: V → I motion implied, coverage under 70%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm/A-",
+          "rn": "ii6",
+          "function": "predominant over A♭3"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "B-7/F",
+          "rn": "V43",
+          "function": "dominant over F3; RH written-out trill on D5"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "start_quarter": 24.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E-/G",
+          "rn": "I6",
+          "function": "tonic; RH holds G5 across beat 3"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied IV",
+          "reason": "RH B♭–C–B♭ against LH C–E♭–A♭–G: IV is implied but E♭/C passing tones dilute"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "Fm7",
+          "rn": "ii7",
+          "function": "RH A♭5 held over LH F–E♭–D–C"
+        }
+      ],
+      "events": [
+        {
+          "type": "rhythm_phrase",
+          "technique": "syncopation",
+          "text": "RH G5 and A♭5 enter on beats 2 and 4 and tie across the next beat; LH repeats it in bar 9",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "start_quarter": 28.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied I",
+          "reason": "B♭3–D4–G4 in LH, B♭–E♭–D–G–F–A♭ in RH: I/iii with passing tones, coverage 50%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm/A-",
+          "rn": "ii6",
+          "function": "predominant over A♭3; RH peaks on C6"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "B-7/D",
+          "rn": "V65",
+          "function": "dominant; LH D4 with trill figure"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "climax",
+          "text": "RH reaches C6, the highest note of the piece (again in bar 10)",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "start_quarter": 32.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E-",
+          "rn": "I",
+          "function": "tonic; LH holds G4 (canon of bar 7)"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied IV",
+          "reason": "RH scale C–D–E♭–F–D–E♭–F–G over LH B♭–C–B♭–A♭: scalar, no complete sonority"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 10,
+      "start_quarter": 36.0,
+      "duration_quarters": 4.0,
+      "key": "E-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied IV",
+          "reason": "Both voices run in 16ths (E♭–F–G–A♭–B♭ / B♭–E♭–D–G–F–A♭): A♭/IV implied, coverage 44%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "B-7",
+          "rn": "V7",
+          "function": "dominant; RH D5 held across the barline, LH outlines F–B♭–A♭ high (no true bass)"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "B♭7 → E♭ at bar 11 with G4 in the lower voice: arrival in E♭, not a root-position PAC",
+          "beat": 3.0,
+          "arrival_bar": 11
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "start_quarter": 40.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied I6 of E♭ = VI6 in g",
+          "reason": "Canon I arrives on E♭ with G4 in LH and only an off-beat E♭3; RH D–G–D neighbours (I6 implied)"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied iv",
+          "reason": "RH C5 held over LH E♭–F–E♭–C: iv in g implied, no G sounds"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V7",
+          "reason": "C–B♭–A–G + G–F♯–A: V7 of g implied but D is absent"
+        }
+      ],
+      "events": [
+        {
+          "type": "rhythm_phrase",
+          "technique": "elision",
+          "text": "Canon I lands on E♭ on beat 1 while LH starts Canon II on the next eighth"
+        },
+        {
+          "type": "form",
+          "technique": "theme_2",
+          "text": "Canon II: bars 1–10 transposed to G minor with the voices exchanged"
+        },
+        {
+          "type": "counterpoint",
+          "technique": "invertible",
+          "text": "LH now leads and RH follows an octave higher from bar 13: the canon works with the voices inverted"
+        },
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "E♭ → g: the E♭ arrival is I in E♭ and VI in g; F♯ appears on beat 4",
+          "from_key": "E-",
+          "to_key": "g"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the subject moves to the bass and to G minor"
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "start_quarter": 44.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vii°7",
+          "reason": "F♯3 + C5/B♭4 and LH E♭–D–C: vii°7 implied (F♯–A–C–E♭), A absent at the onset"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "B♭–A–G–F♯ / F♯–E–D: passing motion"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V/V",
+          "reason": "B♭5 + E5 over G3–A3: C7/G or E°-ish sonority incomplete; C♯/C missing"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "F♯5 + A3–G3–A3 trill: V implied but D does not sound"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 13,
+      "start_quarter": 48.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "G5 + RH G–F♯–G–A–B♭–D over LH B♭–A–G–A–B♭–C–D: i implied, coverage 69%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Cm7",
+          "rn": "iv7",
+          "function": "predominant in g; LH D4–C4 under RH E♭–F–E♭–C, C5–B♭–A–G"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "canon",
+          "text": "RH follower enters an octave above, two bars behind; strict until bar 20"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "start_quarter": 52.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vii°7",
+          "reason": "F♯4 + RH E♭5–D–C over LH C4–B♭3: vii°7 implied (no A at the onset)"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "B♭–A–G–F♯ over A3: passing motion with written-out trill"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "E-",
+          "rn": "VI",
+          "function": "LH B♭3 → E♭3 (canon of bar 4)"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "F7",
+          "rn": "V7/III",
+          "function": "applied dominant of B♭; RH A4 trill figure"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 15,
+      "start_quarter": 56.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied III6",
+          "reason": "D3 bass, RH B♭4–A4–G4–A4: B♭6 implied after F7, F missing"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "B-",
+          "rn": "III",
+          "function": "B♭ major in g"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Cm7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 60.0,
+      "duration_quarters": 4.0,
+      "key": "g",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V7/III",
+          "reason": "C5 + B♭4 over LH F–A–D–C: F7 implied but E♭ missing"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "A4–B♭3–G–F: passing motion"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "E-",
+          "rn": "VI",
+          "function": "pivot: VI in g = IV in B♭; LH E♭3–G3–C4"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "F7/A",
+          "rn": "V65/III",
+          "function": "LH A3 held; RH C4–F4–C4 + E♭ in LH"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "F7/A → B♭ with D on top of the arrival",
+          "beat": 4.0,
+          "arrival_bar": 17
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "start_quarter": 64.0,
+      "duration_quarters": 4.0,
+      "key": "B-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B-",
+          "rn": "I",
+          "function": "tonic B♭; LH holds D4 across beat 3"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vi–IV",
+          "reason": "RH G–B♭–E♭–D over LH F–G–F: passing, no complete sonority"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "E-",
+          "rn": "IV",
+          "function": "LH E♭4 held"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "g → B♭: E♭ (VI in g = IV in B♭) and F7 resolve to B♭, as bars 4–5 did for E♭",
+          "from_key": "g",
+          "to_key": "B-"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "start_quarter": 68.0,
+      "duration_quarters": 4.0,
+      "key": "B-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V–I",
+          "reason": "Both voices in 16ths (F–A–D–C / F–B♭–A–D–C–E♭–D): F/B♭ ambiguous, coverage 50%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Cm/E-",
+          "rn": "ii6",
+          "function": "predominant; RH E♭4 lowest"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "F7/C",
+          "rn": "V43",
+          "function": "LH C4–F4–E♭4–F4, RH A4 trill figure"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 19,
+      "start_quarter": 72.0,
+      "duration_quarters": 4.0,
+      "key": "B-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B-/D",
+          "rn": "I6",
+          "function": "tonic over D4; RH holds D5 across beat 3"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied IV",
+          "reason": "LH G3–A3–B♭3–C4 scale under RH F–G–F–E♭: passing"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 20,
+      "start_quarter": 76.0,
+      "duration_quarters": 4.0,
+      "key": "B-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied I",
+          "reason": "Parallel 16th runs (B♭–C–D–E♭–F / F–B♭–A–D–C–E♭): coverage 50%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied ii",
+          "reason": "RH G–F–E♭–D + LH E♭–D–C–E♭: ii/IV implied, coverage 62%"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "F7/A",
+          "rn": "V65",
+          "function": "LH A3 held; leads deceptively to D7 instead of B♭"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "deceptive_resolution",
+          "text": "F7/A (V65 of B♭) moves to D7 (V7 of g) instead of B♭",
+          "beat": 4.0
+        }
+      ]
+    },
+    {
+      "bar": 21,
+      "start_quarter": 80.0,
+      "duration_quarters": 4.0,
+      "key": "B-",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7",
+          "rn": "V7/vi",
+          "function": "applied dominant of g minor, LH D3–G3–F♯3"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vi",
+          "reason": "RH D–C–E♭–D over LH B♭–A–C–B♭: G minor implied but G missing"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "C5–B♭–A–C over E♭4–D4: passing"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied ii (raised 6̂)",
+          "reason": "RH F5 held over LH A3–D4–C4–D4: Dm/F sonority, function between g and c unclear"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "bridge",
+          "text": "The canon breaks off; free two-bar link back toward C minor"
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "start_quarter": 84.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7/B",
+          "rn": "V65",
+          "function": "dominant of c; LH B3 then a falling scale F4→C3"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "Falling scale against RH E♭–D–F–E♭: passing tones only"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied iv",
+          "reason": "RH A♭–G–F–E♭ over LH F3–E♭3–D3–C3: parallel descent"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "LH G3–G2 octave with RH D–G–F–G: V implied, B absent"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "sequence",
+          "text": "B♭ → c: RH bar 22 repeats RH bar 20 one step higher; G7/B confirms C minor",
+          "from_key": "B-",
+          "to_key": "c"
+        },
+        {
+          "type": "bass_line",
+          "technique": "stepwise_descent",
+          "text": "LH falls by step F4 → C3, then G3–G2 octave drop to the dominant"
+        },
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "V → i into the return; the upper voice lands on E♭ before the subject restarts",
+          "beat": 4.0,
+          "arrival_bar": 23
+        }
+      ]
+    },
+    {
+      "bar": 23,
+      "start_quarter": 88.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "Theme returns over C3: tonic implied, B/D/F neighbours keep coverage at 69%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm7",
+          "rn": "iv7",
+          "function": "predominant; LH G3–F3, RH A♭–B♭–A♭–F"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Subject returns in the tonic in RH"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: the opening subject comes home in C minor"
+        },
+        {
+          "type": "counterpoint",
+          "technique": "invertible",
+          "text": "LH plays the bar-3 RH counter-line two octaves lower under the subject"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "elision",
+          "text": "The cadence and the subject restart share the downbeat"
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "start_quarter": 92.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied vii°7",
+          "reason": "B4 + LH F3–E♭3: vii°7 implied but D is missing"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "E♭–D–C–B over a falling LH scale: passing"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied iv6",
+          "reason": "C–D–C–D over LH B♭2–A♭2–G2: descending bass under a neighbour figure"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "RH D5 trill over LH F2–E♭2–F2–G2: V implied, B absent"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "stepwise_descent",
+          "text": "LH runs E♭3 down to E♭2 then F2–G2 into C2"
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "start_quarter": 96.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "C2 + LH theme C3–B2–C3–D3–E♭3 under RH E♭–D–C–D–E♭–F–G: tonic implied, coverage 69%"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "Fm7",
+          "rn": "iv7",
+          "function": "predominant; bass A♭2 → F2"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "imitation",
+          "text": "LH restates the subject two octaves below while RH plays its counter-line; the canon idea closes the piece"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "register_low_shift",
+          "text": "LH reaches C2, the lowest register of the piece"
+        }
+      ]
+    },
+    {
+      "bar": 26,
+      "start_quarter": 100.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bo7",
+          "rn": "vii°7",
+          "function": "B2 bass under RH F5 and LH A♭3–G–F"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "E♭–D–C–B / D–C–B–C passing toward the cadence"
+        },
+        {
+          "beat": 3.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied iv–i64",
+          "reason": "RH G5 + A♭5 over LH C3–G2–A♭2–F2: cadential iv/i64 motion, no complete sonority"
+        },
+        {
+          "beat": 4.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied V",
+          "reason": "G2 bass and RH D5–C5 trill: V implied, B absent"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "PAC",
+          "text": "vii°7 – (iv–i64) – V → i: bass G2 → C2, upper voice D5–C5 → C5",
+          "beat": 4.0,
+          "arrival_bar": 27
+        }
+      ]
+    },
+    {
+      "bar": 27,
+      "start_quarter": 104.0,
+      "duration_quarters": 4.0,
+      "key": "c",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; implied i",
+          "reason": "Final bare octave C2/C5 with fermata; no third or fifth sounds"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 1,
+      "end_bar": 10,
+      "labels": [
+        "brooding",
+        "restless"
+      ]
+    },
+    {
+      "start_bar": 11,
+      "end_bar": 20,
+      "labels": [
+        "searching",
+        "darker"
+      ]
+    },
+    {
+      "start_bar": 21,
+      "end_bar": 22,
+      "labels": [
+        "tense",
+        "driving"
+      ]
+    },
+    {
+      "start_bar": 23,
+      "end_bar": 27,
+      "labels": [
+        "resolute",
+        "sombre"
+      ]
+    }
+  ],
+  "tricks": [
+    "Bars 1–11: a strict canon at the octave with a two-bar delay. One line is enough material for the whole first half.",
+    "Bar 11: the canon is restarted with the voices exchanged and transposed to G minor (invertible counterpoint); bars 11–20 mirror bars 1–10.",
+    "Bars 4–10 and 14–20: repeated ii–V7–I cells (Fm–B♭7–E♭, Cm–F7–B♭) make each relative-major key area sound settled.",
+    "Bars 22 and 24: long stepwise bass descents drive into the tonic arrivals.",
+    "Bar 27: ends on a bare C octave, leaving out the minor third."
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "Solo subject; the bar-2 D trill (V) leads back to the bar-1 C. The single line leaves room for added harmony.",
+      "quarter_range": [
+        0,
+        8
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 5,
+      "end_bar": 8,
+      "why": "Two ii–V7–I cycles in E♭; bar 8 ends on B♭7/D, which resolves to the E♭ at bar 5.",
+      "quarter_range": [
+        16,
+        32
+      ],
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "The subject: rising C–B–C–D–E♭, the drop to G, then the falling turn."
+    },
+    {
+      "start_bar": 22,
+      "end_bar": 23,
+      "why": "Falling LH scale into the tonic return of the subject."
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Bars 1–2 loop as a solo minor-key riff under a beat; add a bass on C–F–G."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 21–22: sequence and falling bass build into the downbeat of bar 23."
+    },
+    {
+      "where": "chorus",
+      "why": "Bars 23–26: subject in both hands with a full vii°7–V–i close. No key lift in the source."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 11–14: the same riff in G minor in the bass voice for a darker contrast."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 5,
+      "reason": "E♭ read as an established modulation (bars 5–11). It could also be read as a long tonicization of III within C minor."
+    },
+    {
+      "bar": 11,
+      "reason": "The arrival on beat 1 is E♭/G; G minor could be read from beat 1 (iii in E♭ = i in g). LH leader alters the subject head (E♭–F instead of G–F♯); RH follower from bar 13 is exact."
+    },
+    {
+      "bar": 21,
+      "reason": "Bar 21 kept in B♭ with D7 as V7/vi; it could equally be read in g or c. Beat 4 F5 over A–D–C is left unlabelled."
+    },
+    {
+      "bar": 26,
+      "reason": "Beats 3–4 contain no B♮; the cadence is labelled PAC from the bass G2–C2 and the D–C trill, not from a sounding V triad."
+    },
+    {
+      "bar": 27,
+      "reason": "Final chord is a bare octave; marked ? because no third sounds. The tonic is implied."
+    },
+    {
+      "bar": 1,
+      "reason": "Many spans are ? because two-voice 16th counterpoint leaves implied chords under the 70% coverage rule; each reason names the implied function."
+    }
+  ]
+}
