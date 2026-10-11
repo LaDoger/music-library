@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/grieg_op54_zuge_der_zwerge.mid",
  "score_files": [
-  "files/scores/grieg_op54_zuge_der_zwerge.mid"
+  "files/scores/grieg_op54_zuge_der_zwerge.mid",
+  "files/scores/grieg_op54_zuge_der_zwerge_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "march",
@@ -62,6 +63,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/grieg_op54_zuge_der_zwerge.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_op54_zuge_der_zwerge",
@@ -69,7 +71,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/grieg_op54_zuge_der_zwerge.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/grieg_op54_zuge_der_zwerge.mid"
+  "https://ladoger.github.io/music-library/files/scores/grieg_op54_zuge_der_zwerge.mid",
+  "https://ladoger.github.io/music-library/files/scores/grieg_op54_zuge_der_zwerge_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/grieg_op54_zuge_der_zwerge.mid",
  "render_midi": {

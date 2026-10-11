@@ -8279,7 +8279,8 @@
   "score_url": "files/scores/bach_bwv787_sinfonia1.mid",
   "score_files": [
    "files/scores/bach_bwv787_sinfonia1.ly",
-   "files/scores/bach_bwv787_sinfonia1.mid"
+   "files/scores/bach_bwv787_sinfonia1.mid",
+   "files/scores/bach_bwv787_sinfonia1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -8301,7 +8302,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv787_sinfonia1.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 1 in c major johann sebastian bach bwv 787 bwv 787 bwv787  bach bwv787 sinfonia1 bright clear flowing classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 1 in c major johann sebastian bach bwv 787 bwv 787 bwv787  bach bwv787 sinfonia1 bright clear flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv788_sinfonia2",
@@ -8468,7 +8470,8 @@
   "score_url": "files/scores/bach_bwv790_sinfonia4.mid",
   "score_files": [
    "files/scores/bach_bwv790_sinfonia4.ly",
-   "files/scores/bach_bwv790_sinfonia4.mid"
+   "files/scores/bach_bwv790_sinfonia4.mid",
+   "files/scores/bach_bwv790_sinfonia4_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -8490,7 +8493,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv790_sinfonia4.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 4 in d minor johann sebastian bach bwv 790 bwv 790 bwv790  bach bwv790 sinfonia4 solemn dark reflective classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 4 in d minor johann sebastian bach bwv 790 bwv 790 bwv790  bach bwv790 sinfonia4 solemn dark reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv791_sinfonia5",
@@ -8531,7 +8535,8 @@
   "score_url": "files/scores/bach_bwv791_sinfonia5.mid",
   "score_files": [
    "files/scores/bach_bwv791_sinfonia5.ly",
-   "files/scores/bach_bwv791_sinfonia5.mid"
+   "files/scores/bach_bwv791_sinfonia5.mid",
+   "files/scores/bach_bwv791_sinfonia5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -8553,7 +8558,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv791_sinfonia5.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 5 in e-flat major johann sebastian bach bwv 791 bwv 791 bwv791  bach bwv791 sinfonia5 tender elegant calm classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 5 in e-flat major johann sebastian bach bwv 791 bwv 791 bwv791  bach bwv791 sinfonia5 tender elegant calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv792_sinfonia6",
@@ -8594,7 +8600,8 @@
   "score_url": "files/scores/bach_bwv792_sinfonia6.mid",
   "score_files": [
    "files/scores/bach_bwv792_sinfonia6.ly",
-   "files/scores/bach_bwv792_sinfonia6.mid"
+   "files/scores/bach_bwv792_sinfonia6.mid",
+   "files/scores/bach_bwv792_sinfonia6_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -8616,7 +8623,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv792_sinfonia6.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 6 in e major johann sebastian bach bwv 792 bwv 792 bwv792  bach bwv792 sinfonia6 elegant flowing bright classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 6 in e major johann sebastian bach bwv 792 bwv 792 bwv792  bach bwv792 sinfonia6 elegant flowing bright classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv793_sinfonia7",
@@ -8720,7 +8728,8 @@
   "score_url": "files/scores/bach_bwv794_sinfonia8.mid",
   "score_files": [
    "files/scores/bach_bwv794_sinfonia8.ly",
-   "files/scores/bach_bwv794_sinfonia8.mid"
+   "files/scores/bach_bwv794_sinfonia8.mid",
+   "files/scores/bach_bwv794_sinfonia8_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -8742,7 +8751,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv794_sinfonia8.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 8 in f major johann sebastian bach bwv 794 bwv 794 bwv794  bach bwv794 sinfonia8 bright playful clear classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 8 in f major johann sebastian bach bwv 794 bwv 794 bwv794  bach bwv794 sinfonia8 bright playful clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv795_sinfonia9",
@@ -8909,7 +8919,8 @@
   "score_url": "files/scores/bach_bwv797_sinfonia11.mid",
   "score_files": [
    "files/scores/bach_bwv797_sinfonia11.ly",
-   "files/scores/bach_bwv797_sinfonia11.mid"
+   "files/scores/bach_bwv797_sinfonia11.mid",
+   "files/scores/bach_bwv797_sinfonia11_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -8931,7 +8942,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv797_sinfonia11.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 11 in g minor johann sebastian bach bwv 797 bwv 797 bwv797  bach bwv797 sinfonia11 elegant reflective flowing classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 11 in g minor johann sebastian bach bwv 797 bwv 797 bwv797  bach bwv797 sinfonia11 elegant reflective flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv798_sinfonia12",
@@ -9098,7 +9110,8 @@
   "score_url": "files/scores/bach_bwv800_sinfonia14.mid",
   "score_files": [
    "files/scores/bach_bwv800_sinfonia14.ly",
-   "files/scores/bach_bwv800_sinfonia14.mid"
+   "files/scores/bach_bwv800_sinfonia14.mid",
+   "files/scores/bach_bwv800_sinfonia14_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -9120,7 +9133,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv800_sinfonia14.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 14 in b-flat major johann sebastian bach bwv 800 bwv 800 bwv800  bach bwv800 sinfonia14 elegant calm clear classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 14 in b-flat major johann sebastian bach bwv 800 bwv 800 bwv800  bach bwv800 sinfonia14 elegant calm clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv801_sinfonia15",
@@ -9413,7 +9427,8 @@
   "score_url": "files/scores/bach_bwv806_bourree1.mid",
   "score_files": [
    "files/scores/bach_bwv806_bourree1.ly",
-   "files/scores/bach_bwv806_bourree1.mid"
+   "files/scores/bach_bwv806_bourree1.mid",
+   "files/scores/bach_bwv806_bourree1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -9435,7 +9450,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv806_bourree1.mid",
   "other_editions": [],
-  "search_text": "english suite no. 1 in a major: bourrée i johann sebastian bach bwv 806 bwv 806 bwv806 bourrée i bach bwv806 bourree1 bright dance energetic classical baroque  bach, johann sebastian"
+  "search_text": "english suite no. 1 in a major: bourrée i johann sebastian bach bwv 806 bwv 806 bwv806 bourrée i bach bwv806 bourree1 bright dance energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv806_bourree2",
@@ -9476,7 +9492,8 @@
   "score_url": "files/scores/bach_bwv806_bourree2.mid",
   "score_files": [
    "files/scores/bach_bwv806_bourree2.ly",
-   "files/scores/bach_bwv806_bourree2.mid"
+   "files/scores/bach_bwv806_bourree2.mid",
+   "files/scores/bach_bwv806_bourree2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -9498,7 +9515,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv806_bourree2.mid",
   "other_editions": [],
-  "search_text": "english suite no. 1 in a major: bourrée ii johann sebastian bach bwv 806 bwv 806 bwv806 bourrée ii bach bwv806 bourree2 elegant dance reflective classical baroque  bach, johann sebastian"
+  "search_text": "english suite no. 1 in a major: bourrée ii johann sebastian bach bwv 806 bwv 806 bwv806 bourrée ii bach bwv806 bourree2 elegant dance reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv807_bourree1",
@@ -9602,7 +9620,8 @@
   "score_url": "files/scores/bach_bwv807_bourree2.mid",
   "score_files": [
    "files/scores/bach_bwv807_bourree2.ly",
-   "files/scores/bach_bwv807_bourree2.mid"
+   "files/scores/bach_bwv807_bourree2.mid",
+   "files/scores/bach_bwv807_bourree2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -9624,7 +9643,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv807_bourree2.mid",
   "other_editions": [],
-  "search_text": "english suite no. 2 in a minor: bourrée ii johann sebastian bach bwv 807 bwv 807 bwv807 bourrée ii bach bwv807 bourree2 bright dance playful classical baroque  bach, johann sebastian"
+  "search_text": "english suite no. 2 in a minor: bourrée ii johann sebastian bach bwv 807 bwv 807 bwv807 bourrée ii bach bwv807 bourree2 bright dance playful classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv807_gigue",
@@ -12445,7 +12465,8 @@
   "score_url": "files/scores/bach_bwv996_bourree.mid",
   "score_files": [
    "files/scores/bach_bwv996_bourree.ly",
-   "files/scores/bach_bwv996_bourree.mid"
+   "files/scores/bach_bwv996_bourree.mid",
+   "files/scores/bach_bwv996_bourree_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -12467,7 +12488,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv996_bourree.mid",
   "other_editions": [],
-  "search_text": "lute suite in e minor: bourrée johann sebastian bach bwv 996 bwv 996 bwv996 bourrée bach bwv996 bourree elegant playful dance classical baroque  bach, johann sebastian"
+  "search_text": "lute suite in e minor: bourrée johann sebastian bach bwv 996 bwv 996 bwv996 bourrée bach bwv996 bourree elegant playful dance classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv997_prelude",
@@ -12824,7 +12846,8 @@
   "score_files": [
    "files/scores/bach_bwv1002_violin_partita1.mid",
    "files/scores/bach_bwv1002_violin_partita1_all_movements_midi.zip",
-   "files/scores/bach_bwv1002_violin_partita1_lilypond.zip"
+   "files/scores/bach_bwv1002_violin_partita1_lilypond.zip",
+   "files/scores/bach_bwv1002_violin_partita1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -12846,7 +12869,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1002_violin_partita1.mid",
   "other_editions": [],
-  "search_text": "violin partita no. 1 in b minor johann sebastian bach bwv 1002 bwv 1002 bwv1002 allemanda (render_midi); all eight movements in the score files bach bwv1002 violin partita1 dramatic solemn intense classical baroque  bach, johann sebastian"
+  "search_text": "violin partita no. 1 in b minor johann sebastian bach bwv 1002 bwv 1002 bwv1002 allemanda (render_midi); all eight movements in the score files bach bwv1002 violin partita1 dramatic solemn intense classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1009_prelude",
@@ -126258,7 +126282,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_o65_bryllupsdag_pa_troldhaugen.mid",
   "score_files": [
-   "files/scores/grieg_o65_bryllupsdag_pa_troldhaugen.mid"
+   "files/scores/grieg_o65_bryllupsdag_pa_troldhaugen.mid",
+   "files/scores/grieg_o65_bryllupsdag_pa_troldhaugen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -126279,7 +126304,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_o65_bryllupsdag_pa_troldhaugen.mid",
   "other_editions": [],
-  "search_text": "wedding-day at troldhaugen edvard grieg o 65 o 65 o65 (bryllupsdag på troldhaugen.) grieg o65 bryllupsdag pa troldhaugen classical lyrical classical romantic  grieg, edvard"
+  "search_text": "wedding-day at troldhaugen edvard grieg o 65 o 65 o65 (bryllupsdag på troldhaugen.) grieg o65 bryllupsdag pa troldhaugen classical lyrical classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op43no1_papillon_op_43_no_1",
@@ -126835,7 +126861,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_40_holberg_suite_gavotte.mid",
   "score_files": [
-   "files/scores/grieg_op_40_holberg_suite_gavotte.mid"
+   "files/scores/grieg_op_40_holberg_suite_gavotte.mid",
+   "files/scores/grieg_op_40_holberg_suite_gavotte_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -126856,7 +126883,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_40_holberg_suite_gavotte.mid",
   "other_editions": [],
-  "search_text": "holberg suite: gavotte edvard grieg op. 40 op 40 op. 40 op40 no. 3 gavotte grieg op 40 holberg suite gavotte classical lyrical classical late romantic / early 20th  grieg, edvard"
+  "search_text": "holberg suite: gavotte edvard grieg op. 40 op 40 op. 40 op40 no. 3 gavotte grieg op 40 holberg suite gavotte classical lyrical classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_40_holberg_suite_praeludium",
@@ -126901,7 +126929,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_40_holberg_suite_praeludium.mid",
   "score_files": [
-   "files/scores/grieg_op_40_holberg_suite_praeludium.mid"
+   "files/scores/grieg_op_40_holberg_suite_praeludium.mid",
+   "files/scores/grieg_op_40_holberg_suite_praeludium_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -126921,7 +126950,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_40_holberg_suite_praeludium.mid",
   "other_editions": [],
-  "search_text": "holberg suite: praeludium edvard grieg op. 40 op 40 op. 40 op40 no. 1 praeludium grieg op 40 holberg suite praeludium intimate classical late romantic / early 20th  grieg, edvard"
+  "search_text": "holberg suite: praeludium edvard grieg op. 40 op 40 op. 40 op40 no. 1 praeludium grieg op 40 holberg suite praeludium intimate classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_40_holberg_suite_rigaudon",
@@ -126966,7 +126996,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_40_holberg_suite_rigaudon.mid",
   "score_files": [
-   "files/scores/grieg_op_40_holberg_suite_rigaudon.mid"
+   "files/scores/grieg_op_40_holberg_suite_rigaudon.mid",
+   "files/scores/grieg_op_40_holberg_suite_rigaudon_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -126987,7 +127018,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_40_holberg_suite_rigaudon.mid",
   "other_editions": [],
-  "search_text": "holberg suite: rigaudon edvard grieg op. 40 op 40 op. 40 op40 no. 5 rigaudon grieg op 40 holberg suite rigaudon classical lyrical classical late romantic / early 20th  grieg, edvard"
+  "search_text": "holberg suite: rigaudon edvard grieg op. 40 op 40 op. 40 op40 no. 5 rigaudon grieg op 40 holberg suite rigaudon classical lyrical classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_40_holberg_suite_sarabande",
@@ -127100,7 +127132,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_43_no_6_lyric_pieces_to_the_spring.mid",
   "score_files": [
-   "files/scores/grieg_op_43_no_6_lyric_pieces_to_the_spring.mid"
+   "files/scores/grieg_op_43_no_6_lyric_pieces_to_the_spring.mid",
+   "files/scores/grieg_op_43_no_6_lyric_pieces_to_the_spring_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -127121,7 +127154,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_43_no_6_lyric_pieces_to_the_spring.mid",
   "other_editions": [],
-  "search_text": "lyric pieces: to the spring edvard grieg op. 43 no. 6 op 43 no 6 op. 43 no. 6 op43no6 to the spring grieg op 43 no 6 lyric pieces to the spring classical lyrical classical late romantic / early 20th  grieg, edvard"
+  "search_text": "lyric pieces: to the spring edvard grieg op. 43 no. 6 op 43 no 6 op. 43 no. 6 op43no6 to the spring grieg op 43 no 6 lyric pieces to the spring classical lyrical classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op46_in_der_halle_des_bergkonigs",
@@ -127249,7 +127283,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op54_zuge_der_zwerge.mid",
   "score_files": [
-   "files/scores/grieg_op54_zuge_der_zwerge.mid"
+   "files/scores/grieg_op54_zuge_der_zwerge.mid",
+   "files/scores/grieg_op54_zuge_der_zwerge_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -127270,7 +127305,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op54_zuge_der_zwerge.mid",
   "other_editions": [],
-  "search_text": "troldtog (march of the dwarfs) edvard grieg op. 54 op 54 op. 54 op54 zuge der zwerge grieg op54 zuge der zwerge march ceremonial classical romantic  grieg, edvard"
+  "search_text": "troldtog (march of the dwarfs) edvard grieg op. 54 op 54 op. 54 op54 zuge der zwerge grieg op54 zuge der zwerge march ceremonial classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op_54_no_3_lyric_pieces_march_of_the_trolls",
@@ -127315,7 +127351,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op_54_no_3_lyric_pieces_march_of_the_trolls.mid",
   "score_files": [
-   "files/scores/grieg_op_54_no_3_lyric_pieces_march_of_the_trolls.mid"
+   "files/scores/grieg_op_54_no_3_lyric_pieces_march_of_the_trolls.mid",
+   "files/scores/grieg_op_54_no_3_lyric_pieces_march_of_the_trolls_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -127336,7 +127373,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_op_54_no_3_lyric_pieces_march_of_the_trolls.mid",
   "other_editions": [],
-  "search_text": "lyric pieces: march of the trolls edvard grieg op. 54 no. 3 op 54 no 3 op. 54 no. 3 op54no3 march of the trolls grieg op 54 no 3 lyric pieces march of the trolls march ceremonial classical late romantic / early 20th  grieg, edvard"
+  "search_text": "lyric pieces: march of the trolls edvard grieg op. 54 no. 3 op 54 no 3 op. 54 no. 3 op54no3 march of the trolls grieg op 54 no 3 lyric pieces march of the trolls march ceremonial classical late romantic / early 20th  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op61_lokk_ssa",
@@ -199069,7 +199107,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb13.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb13.mid"
+   "files/scores/handel_from_the_aylesford_piecesb13.mid",
+   "files/scores/handel_from_the_aylesford_piecesb13_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -199089,7 +199128,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb13.mid",
   "other_editions": [],
-  "search_text": "air george frideric handel   from the aylesford pieces handel from the aylesford piecesb13 intimate classical baroque  handel, george frideric"
+  "search_text": "air george frideric handel   from the aylesford pieces handel from the aylesford piecesb13 intimate classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb11",
@@ -199134,7 +199174,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb11.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb11.mid"
+   "files/scores/handel_from_the_aylesford_piecesb11.mid",
+   "files/scores/handel_from_the_aylesford_piecesb11_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -199155,7 +199196,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb11.mid",
   "other_editions": [],
-  "search_text": "allegro george frideric handel   from the aylesford pieces handel from the aylesford piecesb11 fast bright classical baroque  handel, george frideric"
+  "search_text": "allegro george frideric handel   from the aylesford pieces handel from the aylesford piecesb11 fast bright classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb14",
@@ -199200,7 +199242,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb14.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb14.mid"
+   "files/scores/handel_from_the_aylesford_piecesb14.mid",
+   "files/scores/handel_from_the_aylesford_piecesb14_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -199221,7 +199264,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb14.mid",
   "other_editions": [],
-  "search_text": "allemande george frideric handel   from the aylesford pieces handel from the aylesford piecesb14 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "allemande george frideric handel   from the aylesford pieces handel from the aylesford piecesb14 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_antioch_hymntune",
@@ -200178,7 +200222,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb7.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb7.mid"
+   "files/scores/handel_from_the_aylesford_piecesb7.mid",
+   "files/scores/handel_from_the_aylesford_piecesb7_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -200199,7 +200244,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb7.mid",
   "other_editions": [],
-  "search_text": "concerto george frideric handel   from the aylesford pieces handel from the aylesford piecesb7 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "concerto george frideric handel   from the aylesford pieces handel from the aylesford piecesb7 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_dank_sei_dir_herr_siegfried",
@@ -200508,7 +200554,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb2.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb2.mid"
+   "files/scores/handel_from_the_aylesford_piecesb2.mid",
+   "files/scores/handel_from_the_aylesford_piecesb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -200529,7 +200576,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb2.mid",
   "other_editions": [],
-  "search_text": "entrée george frideric handel   from the aylesford pieces handel from the aylesford piecesb2 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "entrée george frideric handel   from the aylesford pieces handel from the aylesford piecesb2 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_fra_l_ombre_e_gl_orrori_from",
@@ -201052,7 +201100,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb3.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb3.mid"
+   "files/scores/handel_from_the_aylesford_piecesb3.mid",
+   "files/scores/handel_from_the_aylesford_piecesb3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -201073,7 +201122,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb3.mid",
   "other_editions": [],
-  "search_text": "gavotte george frideric handel   from the aylesford pieces handel from the aylesford piecesb3 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "gavotte george frideric handel   from the aylesford pieces handel from the aylesford piecesb3 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_glory_to_god_george_frideric",
@@ -203526,7 +203576,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb12.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb12.mid"
+   "files/scores/handel_from_the_aylesford_piecesb12.mid",
+   "files/scores/handel_from_the_aylesford_piecesb12_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -203547,7 +203598,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb12.mid",
   "other_editions": [],
-  "search_text": "menuet george frideric handel   from the aylesford pieces handel from the aylesford piecesb12 moderate elegant classical baroque  handel, george frideric"
+  "search_text": "menuet george frideric handel   from the aylesford pieces handel from the aylesford piecesb12 moderate elegant classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb16",
@@ -203660,7 +203712,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb9.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb9.mid"
+   "files/scores/handel_from_the_aylesford_piecesb9.mid",
+   "files/scores/handel_from_the_aylesford_piecesb9_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -203681,7 +203734,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb9.mid",
   "other_editions": [],
-  "search_text": "menuet i george frideric handel   from the aylesford pieces handel from the aylesford piecesb9 moderate elegant classical baroque  handel, george frideric"
+  "search_text": "menuet i george frideric handel   from the aylesford pieces handel from the aylesford piecesb9 moderate elegant classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb10",
@@ -203934,7 +203988,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_pieces.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_pieces.mid"
+   "files/scores/handel_from_the_aylesford_pieces.mid",
+   "files/scores/handel_from_the_aylesford_pieces_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -203955,7 +204010,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_pieces.mid",
   "other_editions": [],
-  "search_text": "ouvertüre george frideric handel   from the aylesford pieces handel from the aylesford pieces classical lyrical classical baroque  handel, george frideric"
+  "search_text": "ouvertüre george frideric handel   from the aylesford pieces handel from the aylesford pieces classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_passacaglia_handel_halvorsen",
@@ -204216,7 +204272,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb8.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb8.mid"
+   "files/scores/handel_from_the_aylesford_piecesb8.mid",
+   "files/scores/handel_from_the_aylesford_piecesb8_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -204237,7 +204294,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb8.mid",
   "other_editions": [],
-  "search_text": "preludio george frideric handel   from the aylesford pieces handel from the aylesford piecesb8 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "preludio george frideric handel   from the aylesford pieces handel from the aylesford piecesb8 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_psalm_1_that_man_hath_perfec",
@@ -204628,7 +204686,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb17.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb17.mid"
+   "files/scores/handel_from_the_aylesford_piecesb17.mid",
+   "files/scores/handel_from_the_aylesford_piecesb17_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -204649,7 +204708,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb17.mid",
   "other_editions": [],
-  "search_text": "sonatina george frideric handel   from the aylesford pieces handel from the aylesford piecesb17 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "sonatina george frideric handel   from the aylesford pieces handel from the aylesford piecesb17 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_sulla_ruota_di_fortuna_aria",
@@ -205288,7 +205348,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb4.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb4.mid"
+   "files/scores/handel_from_the_aylesford_piecesb4.mid",
+   "files/scores/handel_from_the_aylesford_piecesb4_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -205309,7 +205370,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb4.mid",
   "other_editions": [],
-  "search_text": "toccata george frideric handel   from the aylesford pieces handel from the aylesford piecesb4 classical lyrical classical baroque  handel, george frideric"
+  "search_text": "toccata george frideric handel   from the aylesford pieces handel from the aylesford piecesb4 classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_tochter_zionb2",
@@ -321722,7 +321784,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv269_bwv_269.mid",
   "score_files": [
-   "files/scores/bach_bwv269_bwv_269.mid"
+   "files/scores/bach_bwv269_bwv_269.mid",
+   "files/scores/bach_bwv269_bwv_269_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -321743,7 +321806,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv269_bwv_269.mid",
   "other_editions": [],
-  "search_text": "aus meines herzens grunde (chorale 1) johann sebastian bach bwv 269 bwv 269 bwv269 bwv 269 bach bwv269 bwv 269 classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "aus meines herzens grunde (chorale 1) johann sebastian bach bwv 269 bwv 269 bwv269 bwv 269 bach bwv269 bwv 269 classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv299_dir_dir_jehova_will_ich_sing",
@@ -321920,7 +321984,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv347_bwv_347.mid",
   "score_files": [
-   "files/scores/bach_bwv347_bwv_347.mid"
+   "files/scores/bach_bwv347_bwv_347.mid",
+   "files/scores/bach_bwv347_bwv_347_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -321941,7 +322006,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv347_bwv_347.mid",
   "other_editions": [],
-  "search_text": "ich dank dir, lieber herre johann sebastian bach bwv 347 bwv 347 bwv347 bwv 347 bach bwv347 bwv 347 classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "ich dank dir, lieber herre johann sebastian bach bwv 347 bwv 347 bwv347 bwv 347 bach bwv347 bwv 347 classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv36_schwingt_freudig_euch_empor",
@@ -330807,7 +330873,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv926_praeludium_2.mid",
   "score_files": [
-   "files/scores/bach_bwv926_praeludium_2.mid"
+   "files/scores/bach_bwv926_praeludium_2.mid",
+   "files/scores/bach_bwv926_praeludium_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -330827,7 +330894,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv926_praeludium_2.mid",
   "other_editions": [],
-  "search_text": "praeludium 2 johann sebastian bach bwv 926 bwv 926 bwv926 praeludium 2 bach bwv926 praeludium 2 intimate classical baroque  bach, johann sebastian"
+  "search_text": "praeludium 2 johann sebastian bach bwv 926 bwv 926 bwv926 praeludium 2 bach bwv926 praeludium 2 intimate classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv927_bwv_927_little_prelude_in_f",
@@ -332902,7 +332970,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh113_menuet.mid",
   "score_files": [
-   "files/scores/bach_bwvanh113_menuet.mid"
+   "files/scores/bach_bwvanh113_menuet.mid",
+   "files/scores/bach_bwvanh113_menuet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -332923,7 +332992,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh113_menuet.mid",
   "other_editions": [],
-  "search_text": "menuet johann sebastian bach bwv anh. 113 bwv anh 113 bwv anh. 113 bwvanh113  bach bwvanh113 menuet moderate elegant classical baroque  bach, johann sebastian"
+  "search_text": "menuet johann sebastian bach bwv anh. 113 bwv anh 113 bwv anh. 113 bwvanh113  bach bwvanh113 menuet moderate elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh114_bwv_anh_114",
@@ -332968,7 +333038,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh114_bwv_anh_114.mid",
   "score_files": [
-   "files/scores/bach_bwvanh114_bwv_anh_114.mid"
+   "files/scores/bach_bwvanh114_bwv_anh_114.mid",
+   "files/scores/bach_bwvanh114_bwv_anh_114_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -332989,7 +333060,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh114_bwv_anh_114.mid",
   "other_editions": [],
-  "search_text": "menuet johann sebastian bach bwv anh. 114 bwv anh 114 bwv anh. 114 bwvanh114 bwv anh. 114 bach bwvanh114 bwv anh 114 moderate elegant classical baroque  bach, johann sebastian"
+  "search_text": "menuet johann sebastian bach bwv anh. 114 bwv anh 114 bwv anh. 114 bwvanh114 bwv anh. 114 bach bwvanh114 bwv anh 114 moderate elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh114_menuet_in_g",
@@ -333034,7 +333106,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh114_menuet_in_g.mid",
   "score_files": [
-   "files/scores/bach_bwvanh114_menuet_in_g.mid"
+   "files/scores/bach_bwvanh114_menuet_in_g.mid",
+   "files/scores/bach_bwvanh114_menuet_in_g_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -333055,7 +333128,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh114_menuet_in_g.mid",
   "other_editions": [],
-  "search_text": "menuet in g johann sebastian bach bwv anh. 114 bwv anh 114 bwv anh. 114 bwvanh114  bach bwvanh114 menuet in g moderate elegant classical baroque  bach, johann sebastian"
+  "search_text": "menuet in g johann sebastian bach bwv anh. 114 bwv anh 114 bwv anh. 114 bwvanh114  bach bwvanh114 menuet in g moderate elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh115_menuet",
@@ -333100,7 +333174,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh115_menuet.mid",
   "score_files": [
-   "files/scores/bach_bwvanh115_menuet.mid"
+   "files/scores/bach_bwvanh115_menuet.mid",
+   "files/scores/bach_bwvanh115_menuet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -333121,7 +333196,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh115_menuet.mid",
   "other_editions": [],
-  "search_text": "menuet johann sebastian bach bwv anh. 115 bwv anh 115 bwv anh. 115 bwvanh115  bach bwvanh115 menuet moderate elegant classical baroque  bach, johann sebastian"
+  "search_text": "menuet johann sebastian bach bwv anh. 115 bwv anh 115 bwv anh. 115 bwvanh115  bach bwvanh115 menuet moderate elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh116_menuet",
@@ -333166,7 +333242,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh116_menuet.mid",
   "score_files": [
-   "files/scores/bach_bwvanh116_menuet.mid"
+   "files/scores/bach_bwvanh116_menuet.mid",
+   "files/scores/bach_bwvanh116_menuet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -333187,7 +333264,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh116_menuet.mid",
   "other_editions": [],
-  "search_text": "menuet johann sebastian bach bwv anh. 116 bwv anh 116 bwv anh. 116 bwvanh116  bach bwvanh116 menuet moderate elegant classical baroque  bach, johann sebastian"
+  "search_text": "menuet johann sebastian bach bwv anh. 116 bwv anh 116 bwv anh. 116 bwvanh116  bach bwvanh116 menuet moderate elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh120_johann_sebastian_bach_menuet",
@@ -665450,7 +665528,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k397_kv_397_385g.mid",
   "score_files": [
-   "files/scores/mozart_k397_kv_397_385g.mid"
+   "files/scores/mozart_k397_kv_397_385g.mid",
+   "files/scores/mozart_k397_kv_397_385g_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -665486,7 +665565,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "fantasy in d minor wolfgang amadeus mozart kv 397 kv 397 kv397 kv 397 (385g) mozart k397 kv 397 385g classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "fantasy in d minor wolfgang amadeus mozart kv 397 kv 397 kv397 kv 397 (385g) mozart k397 kv 397 385g classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k457_1st_movement",
