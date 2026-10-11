@@ -24438,7 +24438,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_st_margaret_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_st_margaret_hymntune.mid"
+   "files/scores/unknown_st_margaret_hymntune.mid",
+   "files/scores/unknown_st_margaret_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -24459,7 +24460,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_st_margaret_hymntune.mid",
   "other_editions": [],
-  "search_text": "st. margaret (hymntune) albert lister peace, 1884    unknown st margaret hymntune classical lyrical classical romantic  1884, albert lister peace,"
+  "search_text": "st. margaret (hymntune) albert lister peace, 1884    unknown st margaret hymntune classical lyrical classical romantic  1884, albert lister peace,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_deutsches_weihelied",
@@ -33842,7 +33844,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_dundee_hymntune.mid",
   "score_files": [
-   "files/scores/anonymous_dundee_hymntune.mid"
+   "files/scores/anonymous_dundee_hymntune.mid",
+   "files/scores/anonymous_dundee_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -33863,7 +33866,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_dundee_hymntune.mid",
   "other_editions": [],
-  "search_text": "dundee (hymntune) anonymous    anonymous dundee hymntune classical lyrical classical traditional  anonymous"
+  "search_text": "dundee (hymntune) anonymous    anonymous dundee hymntune classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_easter_hymn",
@@ -37574,7 +37578,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_new_britain_hymntune.mid",
   "score_files": [
-   "files/scores/anonymous_new_britain_hymntune.mid"
+   "files/scores/anonymous_new_britain_hymntune.mid",
+   "files/scores/anonymous_new_britain_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -37595,7 +37600,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_new_britain_hymntune.mid",
   "other_editions": [],
-  "search_text": "new britain (hymntune) anonymous    anonymous new britain hymntune classical lyrical classical traditional  anonymous"
+  "search_text": "new britain (hymntune) anonymous    anonymous new britain hymntune classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_noel_nouvelet_sah_musescore",
@@ -40153,7 +40159,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_von_himmel_hoch_hymntune.mid",
   "score_files": [
-   "files/scores/anonymous_von_himmel_hoch_hymntune.mid"
+   "files/scores/anonymous_von_himmel_hoch_hymntune.mid",
+   "files/scores/anonymous_von_himmel_hoch_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -40174,7 +40181,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_von_himmel_hoch_hymntune.mid",
   "other_editions": [],
-  "search_text": "von himmel hoch (hymntune) anonymous    anonymous von himmel hoch hymntune classical lyrical classical traditional  anonymous"
+  "search_text": "von himmel hoch (hymntune) anonymous    anonymous von himmel hoch hymntune classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_wol_auff_wol_auff",
@@ -52583,7 +52591,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_marion_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_marion_hymntune.mid"
+   "files/scores/unknown_marion_hymntune.mid",
+   "files/scores/unknown_marion_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -52604,7 +52613,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_marion_hymntune.mid",
   "other_editions": [],
-  "search_text": "marion (hymntune) arthur henry messiter, 1883    unknown marion hymntune classical lyrical classical romantic  1883, arthur henry messiter,"
+  "search_text": "marion (hymntune) arthur henry messiter, 1883    unknown marion hymntune classical lyrical classical romantic  1883, arthur henry messiter,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "sullivan_sullivan_arthur_the_lost_cho",
@@ -74167,7 +74177,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_azmon_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_azmon_hymntune.mid"
+   "files/scores/unknown_azmon_hymntune.mid",
+   "files/scores/unknown_azmon_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -74188,7 +74199,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_azmon_hymntune.mid",
   "other_editions": [],
-  "search_text": "azmon (hymntune) carl gotthelf glaser, arranged by lowell mason    unknown azmon hymntune classical lyrical classical classical  mason, carl gotthelf glaser, arranged by lowell"
+  "search_text": "azmon (hymntune) carl gotthelf glaser, arranged by lowell mason    unknown azmon hymntune classical lyrical classical classical  mason, carl gotthelf glaser, arranged by lowell",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "weber_fruhlingsahnung_carl_maria_v",
@@ -83937,7 +83949,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_agape_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_agape_hymntune.mid"
+   "files/scores/unknown_agape_hymntune.mid",
+   "files/scores/unknown_agape_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -83958,7 +83971,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_agape_hymntune.mid",
   "other_editions": [],
-  "search_text": "agape (hymntune) charles j. dickinson    unknown agape hymntune classical lyrical classical romantic  dickinson, charles j."
+  "search_text": "agape (hymntune) charles j. dickinson    unknown agape hymntune classical lyrical classical romantic  dickinson, charles j.",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "stanford_op117_no_5_fare_well",
@@ -86214,7 +86228,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_stuttgart_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_stuttgart_hymntune.mid"
+   "files/scores/unknown_stuttgart_hymntune.mid",
+   "files/scores/unknown_stuttgart_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -86235,7 +86250,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_stuttgart_hymntune.mid",
   "other_editions": [],
-  "search_text": "stuttgart (hymntune) christian friedrich witt    unknown stuttgart hymntune classical lyrical classical baroque  witt, christian friedrich"
+  "search_text": "stuttgart (hymntune) christian friedrich witt    unknown stuttgart hymntune classical lyrical classical baroque  witt, christian friedrich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "haslerud_anne_knudsdotter_haslerud_sa",
@@ -108569,7 +108585,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_dix_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_dix_hymntune.mid"
+   "files/scores/unknown_dix_hymntune.mid",
+   "files/scores/unknown_dix_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -108590,7 +108607,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_dix_hymntune.mid",
   "other_editions": [],
-  "search_text": "dix (hymntune) conrad kocher, 1838    unknown dix hymntune classical lyrical classical romantic  1838, conrad kocher,"
+  "search_text": "dix (hymntune) conrad kocher, 1838    unknown dix hymntune classical lyrical classical romantic  1838, conrad kocher,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "huygens_a_dispetto_de_venti_constant",
@@ -128993,7 +129011,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129016,7 +129035,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_as_i_laye_a_thynkynge_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "as i laye a-thynkynge (arr. for orchestra) edward elgar    elgar imslp as i laye a thynkynge arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "as i laye a-thynkynge (arr. for orchestra) edward elgar    elgar imslp as i laye a thynkynge arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_big_steamers_arr_for_orchestra",
@@ -129210,7 +129230,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_credo.mid",
   "score_files": [
-   "files/scores/elgar_imslp_credo.mid"
+   "files/scores/elgar_imslp_credo.mid",
+   "files/scores/elgar_imslp_credo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129233,7 +129254,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_credo.mid",
   "other_editions": [],
-  "search_text": "credo edward elgar    elgar imslp credo classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "credo edward elgar    elgar imslp credo classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_ecce_sacerdos_magnus",
@@ -129498,7 +129520,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_follow_the_colours_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_follow_the_colours_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_follow_the_colours_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_follow_the_colours_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129521,7 +129544,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_follow_the_colours_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "follow the colours (arr. for orchestra) edward elgar    elgar imslp follow the colours arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "follow the colours (arr. for orchestra) edward elgar    elgar imslp follow the colours arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_gloria_arr_for_orchestra",
@@ -129569,7 +129593,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_gloria_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_gloria_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_gloria_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_gloria_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129592,7 +129617,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_gloria_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "gloria (arr. for orchestra) edward elgar    elgar imslp gloria arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "gloria (arr. for orchestra) edward elgar    elgar imslp gloria arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_grete_malverne_on_a_rocke_arr_for_orchestr",
@@ -129713,7 +129739,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_harmony_music_no_6.mid",
   "score_files": [
-   "files/scores/elgar_imslp_harmony_music_no_6.mid"
+   "files/scores/elgar_imslp_harmony_music_no_6.mid",
+   "files/scores/elgar_imslp_harmony_music_no_6_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129736,7 +129763,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_harmony_music_no_6.mid",
   "other_editions": [],
-  "search_text": "harmony music no.6 edward elgar    elgar imslp harmony music no 6 classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "harmony music no.6 edward elgar    elgar imslp harmony music no 6 classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_harmony_music_no_7",
@@ -129784,7 +129812,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_harmony_music_no_7.mid",
   "score_files": [
-   "files/scores/elgar_imslp_harmony_music_no_7.mid"
+   "files/scores/elgar_imslp_harmony_music_no_7.mid",
+   "files/scores/elgar_imslp_harmony_music_no_7_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129807,7 +129836,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_harmony_music_no_7.mid",
   "other_editions": [],
-  "search_text": "harmony music no.7 edward elgar    elgar imslp harmony music no 7 classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "harmony music no.7 edward elgar    elgar imslp harmony music no 7 classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_in_moonlight_arr_for_orchestra",
@@ -131532,7 +131562,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version.mid"
+   "files/scores/elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version.mid",
+   "files/scores/elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131563,7 +131594,8 @@
     "licence": "CC BY 4.0"
    }
   ],
-  "search_text": "the pipes of pan (arr. for orchestra) [version a] edward elgar    elgar imslp the pipes of pan arr for orchestra version classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the pipes of pan (arr. for orchestra) [version a] edward elgar    elgar imslp the pipes of pan arr for orchestra version classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_self_banished_arr_for_orchestra",
@@ -131611,7 +131643,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_self_banished_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_self_banished_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_the_self_banished_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_the_self_banished_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131634,7 +131667,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_the_self_banished_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "the self banished (arr. for orchestra) edward elgar    elgar imslp the self banished arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the self banished (arr. for orchestra) edward elgar    elgar imslp the self banished arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_wind_at_dawn_arr_for_orchestra",
@@ -133997,7 +134031,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc.mid"
+   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc.mid",
+   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -134020,7 +134055,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc.mid",
   "other_editions": [],
-  "search_text": "o soft was the song (in e) (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 o soft was the song in e arr for orc classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "o soft was the song (in e) (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 o soft was the song in e arr for orc classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_59_twilight_arr_for_orchestra",
@@ -147516,7 +147552,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_mendelssohn_hymntune.mid",
   "score_files": [
-   "files/scores/mendelssohn_mendelssohn_hymntune.mid"
+   "files/scores/mendelssohn_mendelssohn_hymntune.mid",
+   "files/scores/mendelssohn_mendelssohn_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -147537,7 +147574,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_mendelssohn_hymntune.mid",
   "other_editions": [],
-  "search_text": "mendelssohn (hymntune) felix mendelssohn    mendelssohn mendelssohn hymntune classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "mendelssohn (hymntune) felix mendelssohn    mendelssohn mendelssohn hymntune classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_mendelssohn_dann_werden_die",
@@ -167556,7 +167594,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_stille_nacht_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_stille_nacht_hymntune.mid"
+   "files/scores/unknown_stille_nacht_hymntune.mid",
+   "files/scores/unknown_stille_nacht_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -167577,7 +167616,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_stille_nacht_hymntune.mid",
   "other_editions": [],
-  "search_text": "stille nacht (hymntune) franz gruber    unknown stille nacht hymntune nocturnal gentle classical romantic  gruber, franz"
+  "search_text": "stille nacht (hymntune) franz gruber    unknown stille nacht hymntune nocturnal gentle classical romantic  gruber, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "liszt_liszt_s_arrangement_of_hande",
@@ -200054,7 +200094,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_antioch_hymntune.mid",
   "score_files": [
-   "files/scores/handel_antioch_hymntune.mid"
+   "files/scores/handel_antioch_hymntune.mid",
+   "files/scores/handel_antioch_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -200075,7 +200116,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_antioch_hymntune.mid",
   "other_editions": [],
-  "search_text": "antioch (hymntune) george frideric handel    handel antioch hymntune classical lyrical classical baroque  handel, george frideric"
+  "search_text": "antioch (hymntune) george frideric handel    handel antioch hymntune classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_aria",
@@ -246269,7 +246311,8 @@
   "score_url": "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51.mid",
   "score_files": [
    "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51.mid",
-   "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51.mscz"
+   "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51.mscz",
+   "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -246292,7 +246335,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/holst_imslp_op_29_no_2_st_paul_s_suite_arr_for_stringb51.mid",
   "other_editions": [],
-  "search_text": "st paul's suite (arr. for string quintet) gustav holst op. 29 no. 2 op 29 no 2 op. 29 no. 2 op29no2  holst imslp op 29 no 2 st paul s suite arr for stringb51 classical lyrical classical late romantic / early 20th  holst, gustav"
+  "search_text": "st paul's suite (arr. for string quintet) gustav holst op. 29 no. 2 op 29 no 2 op. 29 no. 2 op29no2  holst imslp op 29 no 2 st paul s suite arr for stringb51 classical lyrical classical late romantic / early 20th  holst, gustav",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_op_29_no_2_st_paul_s_suite",
@@ -246776,7 +246820,8 @@
   "preview_url": "",
   "score_url": "files/scores/holst_no_op_cranham_hymntune.mid",
   "score_files": [
-   "files/scores/holst_no_op_cranham_hymntune.mid"
+   "files/scores/holst_no_op_cranham_hymntune.mid",
+   "files/scores/holst_no_op_cranham_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -246800,7 +246845,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/holst_no_op_cranham_hymntune.mid",
   "other_editions": [],
-  "search_text": "cranham (hymntune) gustav holst no op. no op  no op. noop  holst no op cranham hymntune classical lyrical classical 20th century  holst, gustav"
+  "search_text": "cranham (hymntune) gustav holst no op. no op  no op. noop  holst no op cranham hymntune classical lyrical classical 20th century  holst, gustav",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_no_op_in_the_bleak_midwinter_cranhamb3",
@@ -267555,7 +267601,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_gloria_patri_greatorex_hymnt.mid",
   "score_files": [
-   "files/scores/unknown_gloria_patri_greatorex_hymnt.mid"
+   "files/scores/unknown_gloria_patri_greatorex_hymnt.mid",
+   "files/scores/unknown_gloria_patri_greatorex_hymnt_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -267576,7 +267623,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_gloria_patri_greatorex_hymnt.mid",
   "other_editions": [],
-  "search_text": "gloria patri (greatorex) (hymntune) henry wellington greatorex, 1851    unknown gloria patri greatorex hymnt classical lyrical classical romantic  1851, henry wellington greatorex,"
+  "search_text": "gloria patri (greatorex) (hymntune) henry wellington greatorex, 1851    unknown gloria patri greatorex hymnt classical lyrical classical romantic  1851, henry wellington greatorex,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "wieniawski_dudziarz_le_menetrier",
@@ -281375,7 +281423,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_mueller_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_mueller_hymntune.mid"
+   "files/scores/unknown_mueller_hymntune.mid",
+   "files/scores/unknown_mueller_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -281396,7 +281445,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_mueller_hymntune.mid",
   "other_editions": [],
-  "search_text": "mueller (hymntune) james ramsey murray    unknown mueller hymntune classical lyrical classical romantic  murray, james ramsey"
+  "search_text": "mueller (hymntune) james ramsey murray    unknown mueller hymntune classical lyrical classical romantic  murray, james ramsey",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "skinner_bonnie_lass_of_bon_accord_va",
@@ -300390,7 +300440,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_franconia_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_franconia_hymntune.mid"
+   "files/scores/unknown_franconia_hymntune.mid",
+   "files/scores/unknown_franconia_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -300411,7 +300462,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_franconia_hymntune.mid",
   "other_editions": [],
-  "search_text": "franconia (hymntune) johann b. koenig, 1738, arr. william henry havergal, 1840    unknown franconia hymntune classical lyrical classical baroque  1840, johann b. koenig, 1738, arr. william henry havergal,"
+  "search_text": "franconia (hymntune) johann b. koenig, 1738, arr. william henry havergal, 1840    unknown franconia hymntune classical lyrical classical baroque  1840, johann b. koenig, 1738, arr. william henry havergal,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "jcbach_1_movimento_do_concerto_para",
@@ -305257,7 +305309,8 @@
   "preview_url": "",
   "score_url": "files/scores/mhaydn_lyons_hymntune.mid",
   "score_files": [
-   "files/scores/mhaydn_lyons_hymntune.mid"
+   "files/scores/mhaydn_lyons_hymntune.mid",
+   "files/scores/mhaydn_lyons_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -305278,7 +305331,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mhaydn_lyons_hymntune.mid",
   "other_editions": [],
-  "search_text": "lyons (hymntune) johann michael haydn    mhaydn lyons hymntune classical lyrical classical classical  haydn, johann michael"
+  "search_text": "lyons (hymntune) johann michael haydn    mhaydn lyons hymntune classical lyrical classical classical  haydn, johann michael",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mhaydn_tristis_est_anima_mea_all",
@@ -353256,7 +353310,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_st_agnes_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_st_agnes_hymntune.mid"
+   "files/scores/unknown_st_agnes_hymntune.mid",
+   "files/scores/unknown_st_agnes_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -353277,7 +353332,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_st_agnes_hymntune.mid",
   "other_editions": [],
-  "search_text": "st. agnes (hymntune) john bacchus dykes, 1866    unknown st agnes hymntune classical lyrical classical romantic  1866, john bacchus dykes,"
+  "search_text": "st. agnes (hymntune) john bacchus dykes, 1866    unknown st agnes hymntune classical lyrical classical romantic  1866, john bacchus dykes,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "blow_courante_c_dur",
@@ -396758,7 +396814,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wellesley_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_wellesley_hymntune.mid"
+   "files/scores/unknown_wellesley_hymntune.mid",
+   "files/scores/unknown_wellesley_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -396779,7 +396836,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wellesley_hymntune.mid",
   "other_editions": [],
-  "search_text": "wellesley (hymntune) lizzie e. tourjee,, 1878    unknown wellesley hymntune classical lyrical classical romantic  1878, lizzie e. tourjee,,"
+  "search_text": "wellesley (hymntune) lizzie e. tourjee,, 1878    unknown wellesley hymntune classical lyrical classical romantic  1878, lizzie e. tourjee,,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "agostini_a_quel_strano_apparire_lodov",
@@ -403756,7 +403814,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_olivet_mason_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_olivet_mason_hymntune.mid"
+   "files/scores/unknown_olivet_mason_hymntune.mid",
+   "files/scores/unknown_olivet_mason_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -403777,7 +403836,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_olivet_mason_hymntune.mid",
   "other_editions": [],
-  "search_text": "olivet (mason) (hymntune) lowell mason, 1830    unknown olivet mason hymntune classical lyrical classical romantic  1830, lowell mason,"
+  "search_text": "olivet (mason) (hymntune) lowell mason, 1830    unknown olivet mason hymntune classical lyrical classical romantic  1830, lowell mason,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_boylston_hymntune",
@@ -403822,7 +403882,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_boylston_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_boylston_hymntune.mid"
+   "files/scores/unknown_boylston_hymntune.mid",
+   "files/scores/unknown_boylston_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -403843,7 +403904,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_boylston_hymntune.mid",
   "other_editions": [],
-  "search_text": "boylston (hymntune) lowell mason, 1832    unknown boylston hymntune classical lyrical classical romantic  1832, lowell mason,"
+  "search_text": "boylston (hymntune) lowell mason, 1832    unknown boylston hymntune classical lyrical classical romantic  1832, lowell mason,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "puget_adieu_cousine",
@@ -429505,7 +429567,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_ibstone_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_ibstone_hymntune.mid"
+   "files/scores/unknown_ibstone_hymntune.mid",
+   "files/scores/unknown_ibstone_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -429526,7 +429589,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_ibstone_hymntune.mid",
   "other_editions": [],
-  "search_text": "ibstone (hymntune) maria tiddeman, 1875    unknown ibstone hymntune classical lyrical classical romantic  1875, maria tiddeman,"
+  "search_text": "ibstone (hymntune) maria tiddeman, 1875    unknown ibstone hymntune classical lyrical classical romantic  1875, maria tiddeman,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "jaell_no_4_baisers_perdus",
@@ -577380,7 +577444,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_crusader_s_hymn_hymntune.mid",
   "score_files": [
-   "files/scores/traditional_crusader_s_hymn_hymntune.mid"
+   "files/scores/traditional_crusader_s_hymn_hymntune.mid",
+   "files/scores/traditional_crusader_s_hymn_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -577401,7 +577466,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_crusader_s_hymn_hymntune.mid",
   "other_editions": [],
-  "search_text": "crusader's hymn (hymntune) traditional    traditional crusader s hymn hymntune classical lyrical classical traditional  traditional"
+  "search_text": "crusader's hymn (hymntune) traditional    traditional crusader s hymn hymntune classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_crete_de_coq",
@@ -603261,7 +603327,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_st_denio_hymntune.mid",
   "score_files": [
-   "files/scores/traditional_st_denio_hymntune.mid"
+   "files/scores/traditional_st_denio_hymntune.mid",
+   "files/scores/traditional_st_denio_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -603282,7 +603349,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_st_denio_hymntune.mid",
   "other_editions": [],
-  "search_text": "st. denio (hymntune) traditional    traditional st denio hymntune classical lyrical classical traditional  traditional"
+  "search_text": "st. denio (hymntune) traditional    traditional st denio hymntune classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_st_patrick",
@@ -617754,7 +617822,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_tryggare_kan_ingen_vara_hymn.mid",
   "score_files": [
-   "files/scores/traditional_tryggare_kan_ingen_vara_hymn.mid"
+   "files/scores/traditional_tryggare_kan_ingen_vara_hymn.mid",
+   "files/scores/traditional_tryggare_kan_ingen_vara_hymn_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -617775,7 +617844,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_tryggare_kan_ingen_vara_hymn.mid",
   "other_editions": [],
-  "search_text": "tryggare kan ingen vara (hymntune) traditional    traditional tryggare kan ingen vara hymn classical lyrical classical traditional  traditional"
+  "search_text": "tryggare kan ingen vara (hymntune) traditional    traditional tryggare kan ingen vara hymn classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_tshotsholoza_s_timela",
@@ -634188,7 +634258,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_st_anne_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_st_anne_hymntune.mid"
+   "files/scores/unknown_st_anne_hymntune.mid",
+   "files/scores/unknown_st_anne_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -634209,7 +634280,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_st_anne_hymntune.mid",
   "other_editions": [],
-  "search_text": "st. anne (hymntune) william croft, 1708    unknown st anne hymntune classical lyrical classical baroque  1708, william croft,"
+  "search_text": "st. anne (hymntune) william croft, 1708    unknown st anne hymntune classical lyrical classical baroque  1708, william croft,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_bread_of_life_hymntune",
@@ -634254,7 +634326,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_bread_of_life_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_bread_of_life_hymntune.mid"
+   "files/scores/unknown_bread_of_life_hymntune.mid",
+   "files/scores/unknown_bread_of_life_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -634275,7 +634348,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_bread_of_life_hymntune.mid",
   "other_editions": [],
-  "search_text": "bread of life (hymntune) william f. sherwin,1877    unknown bread of life hymntune classical lyrical classical romantic  sherwin,1877, william f."
+  "search_text": "bread of life (hymntune) william f. sherwin,1877    unknown bread of life hymntune classical lyrical classical romantic  sherwin,1877, william f.",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_more_love_to_thee_hymntune",
@@ -634320,7 +634394,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_more_love_to_thee_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_more_love_to_thee_hymntune.mid"
+   "files/scores/unknown_more_love_to_thee_hymntune.mid",
+   "files/scores/unknown_more_love_to_thee_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lyrical",
@@ -634341,7 +634416,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_more_love_to_thee_hymntune.mid",
   "other_editions": [],
-  "search_text": "more love to thee (hymntune) william h. doane, 1870    unknown more love to thee hymntune lyrical tender classical romantic  1870, william h. doane,"
+  "search_text": "more love to thee (hymntune) william h. doane, 1870    unknown more love to thee hymntune lyrical tender classical romantic  1870, william h. doane,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_galilee_hymntune",
@@ -634386,7 +634462,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_galilee_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_galilee_hymntune.mid"
+   "files/scores/unknown_galilee_hymntune.mid",
+   "files/scores/unknown_galilee_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -634407,7 +634484,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_galilee_hymntune.mid",
   "other_editions": [],
-  "search_text": "galilee (hymntune) william h. jude, 1874    unknown galilee hymntune classical lyrical classical 20th century  1874, william h. jude,"
+  "search_text": "galilee (hymntune) william h. jude, 1874    unknown galilee hymntune classical lyrical classical 20th century  1874, william h. jude,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_eventide_hymntune",
@@ -634452,7 +634530,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_eventide_hymntune.mid",
   "score_files": [
-   "files/scores/unknown_eventide_hymntune.mid"
+   "files/scores/unknown_eventide_hymntune.mid",
+   "files/scores/unknown_eventide_hymntune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -634473,7 +634552,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_eventide_hymntune.mid",
   "other_editions": [],
-  "search_text": "eventide (hymntune) william h. monk, 1861    unknown eventide hymntune classical lyrical classical romantic  1861, william h. monk,"
+  "search_text": "eventide (hymntune) william h. monk, 1861    unknown eventide hymntune classical lyrical classical romantic  1861, william h. monk,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_i_am_thine_hymntune",
