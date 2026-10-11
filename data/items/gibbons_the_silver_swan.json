@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/gibbons_the_silver_swan.mid",
  "score_files": [
-  "files/scores/gibbons_the_silver_swan.mid"
+  "files/scores/gibbons_the_silver_swan.mid",
+  "files/scores/gibbons_the_silver_swan_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -70,6 +71,7 @@
    "licence": "CC0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gibbons_the_silver_swan",
@@ -77,7 +79,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid"
+  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
+  "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gibbons_the_silver_swan.mid",
  "render_midi": {

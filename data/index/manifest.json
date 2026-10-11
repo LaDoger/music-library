@@ -32,7 +32,7 @@
  "parts": [
   {
    "file": "part-000.json",
-   "count": 726
+   "count": 725
   },
   {
    "file": "part-001.json",
@@ -40,11 +40,11 @@
   },
   {
    "file": "part-002.json",
-   "count": 768
+   "count": 767
   },
   {
    "file": "part-003.json",
-   "count": 744
+   "count": 745
   },
   {
    "file": "part-004.json",
@@ -52,7 +52,7 @@
   },
   {
    "file": "part-005.json",
-   "count": 800
+   "count": 799
   },
   {
    "file": "part-006.json",
@@ -72,7 +72,7 @@
   },
   {
    "file": "part-010.json",
-   "count": 818
+   "count": 817
   },
   {
    "file": "part-011.json",
@@ -84,7 +84,7 @@
   },
   {
    "file": "part-013.json",
-   "count": 27
+   "count": 30
   }
  ],
  "item_json": "data/items/{id}.json"

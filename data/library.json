@@ -20168,7 +20168,8 @@
   "score_url": "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv185_erhalt_uns.ly",
-   "files/scores/buxtehude_buxwv185_erhalt_uns.mid"
+   "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
+   "files/scores/buxtehude_buxwv185_erhalt_uns_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "stern",
@@ -20190,7 +20191,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv185_erhalt_uns.mid",
   "other_editions": [],
-  "search_text": "erhalt uns, herr, bei deinem wort dieterich buxtehude buxwv 185 buxwv 185 buxwv185  buxtehude buxwv185 erhalt uns stern chorale clear classical baroque  buxtehude, dieterich"
+  "search_text": "erhalt uns, herr, bei deinem wort dieterich buxtehude buxwv 185 buxwv 185 buxwv185  buxtehude buxwv185 erhalt uns stern chorale clear classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv208_nun_bitten",
@@ -20965,7 +20967,8 @@
   "score_url": "files/scores/gesualdo_dolcissima.mid",
   "score_files": [
    "files/scores/gesualdo_dolcissima.ly",
-   "files/scores/gesualdo_dolcissima.mid"
+   "files/scores/gesualdo_dolcissima.mid",
+   "files/scores/gesualdo_dolcissima_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "chromatic",
@@ -20997,7 +21000,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "dolcissima mia vita carlo gesualdo madrigali a 5 madrigali a 5 madrigalia5  gesualdo dolcissima chromatic aching renaissance classical renaissance  gesualdo, carlo"
+  "search_text": "dolcissima mia vita carlo gesualdo madrigali a 5 madrigali a 5 madrigalia5  gesualdo dolcissima chromatic aching renaissance classical renaissance  gesualdo, carlo",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "franck_fwv30_prelude",
@@ -71631,7 +71635,8 @@
   "preview_url": "",
   "score_url": "files/scores/saintsaens_o94_pour_cor.mid",
   "score_files": [
-   "files/scores/saintsaens_o94_pour_cor.mid"
+   "files/scores/saintsaens_o94_pour_cor.mid",
+   "files/scores/saintsaens_o94_pour_cor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -71652,7 +71657,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/saintsaens_o94_pour_cor.mid",
   "other_editions": [],
-  "search_text": "morceau de concert pour cor camille saint-saëns o94 o 94 o94 pour cor saintsaens o94 pour cor classical lyrical classical 20th century  saint-saëns, camille"
+  "search_text": "morceau de concert pour cor camille saint-saëns o94 o 94 o94 pour cor saintsaens o94 pour cor classical lyrical classical 20th century  saint-saëns, camille",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "saintsaens_op12_camille_saint_saens_tollite",
@@ -129235,7 +129241,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_ecce_sacerdos_magnus.mid",
   "score_files": [
-   "files/scores/elgar_imslp_ecce_sacerdos_magnus.mid"
+   "files/scores/elgar_imslp_ecce_sacerdos_magnus.mid",
+   "files/scores/elgar_imslp_ecce_sacerdos_magnus_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129258,7 +129265,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_ecce_sacerdos_magnus.mid",
   "other_editions": [],
-  "search_text": "ecce sacerdos magnus edward elgar    elgar imslp ecce sacerdos magnus classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "ecce sacerdos magnus edward elgar    elgar imslp ecce sacerdos magnus classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_fear_not_o_land_arr_for_orchestra",
@@ -130019,7 +130027,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp.mid",
   "score_files": [
-   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp.mid"
+   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp.mid",
+   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130042,7 +130051,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp.mid",
   "other_editions": [],
-  "search_text": "it isnae me (arr. for orchestra) [with harp] edward elgar    elgar imslp it isnae me arr for orchestra with harp classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "it isnae me (arr. for orchestra) [with harp] edward elgar    elgar imslp it isnae me arr for orchestra with harp classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp",
@@ -130090,7 +130100,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp.mid",
   "score_files": [
-   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp.mid"
+   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp.mid",
+   "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130113,7 +130124,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_it_isnae_me_arr_for_orchestra_without_harp.mid",
   "other_editions": [],
-  "search_text": "it isnae me (arr. for orchestra) [without harp] edward elgar    elgar imslp it isnae me arr for orchestra without harp classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "it isnae me (arr. for orchestra) [without harp] edward elgar    elgar imslp it isnae me arr for orchestra without harp classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_like_to_the_damask_rose_arr_for_orchestra",
@@ -131090,7 +131102,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_brook_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_brook_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_the_brook_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_the_brook_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131113,7 +131126,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_the_brook_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "the brook (arr. for orchestra) edward elgar    elgar imslp the brook arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the brook (arr. for orchestra) edward elgar    elgar imslp the brook arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_king_s_way_arr_for_orchestra",
@@ -131374,7 +131388,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_merry_go_round_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_merry_go_round_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_the_merry_go_round_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_the_merry_go_round_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131397,7 +131412,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_the_merry_go_round_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "the merry-go-round (arr. for orchestra) edward elgar    elgar imslp the merry go round arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the merry-go-round (arr. for orchestra) edward elgar    elgar imslp the merry go round arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_pipes_of_pan_arr_for_orchestra_version",
@@ -131666,7 +131682,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_they_are_at_rest.mid",
   "score_files": [
-   "files/scores/elgar_imslp_they_are_at_rest.mid"
+   "files/scores/elgar_imslp_they_are_at_rest.mid",
+   "files/scores/elgar_imslp_they_are_at_rest_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131689,7 +131706,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_they_are_at_rest.mid",
   "other_editions": [],
-  "search_text": "they are at rest edward elgar    elgar imslp they are at rest classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "they are at rest edward elgar    elgar imslp they are at rest classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_12_salut_d_amour",
@@ -131881,7 +131899,8 @@
   "score_url": "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus.mid",
   "score_files": [
    "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus.mid",
-   "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus.mscz"
+   "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus.mscz",
+   "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131904,7 +131923,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_2_no_1_ave_verum_corpus.mid",
   "other_editions": [],
-  "search_text": "ave verum corpus edward elgar op. 2 no. 1 op 2 no 1 op. 2 no. 1 op2no1  elgar imslp op 2 no 1 ave verum corpus classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "ave verum corpus edward elgar op. 2 no. 1 op 2 no 1 op. 2 no. 1 op2no1  elgar imslp op 2 no 1 ave verum corpus classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_22_no_1_very_easy_melodious_exercises_n",
@@ -133180,7 +133200,8 @@
   "score_url": "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
   "score_files": [
    "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
-   "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz"
+   "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz",
+   "files/scores/elgar_imslp_op_36_enigma_variations_nimrod_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133203,7 +133224,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
   "other_editions": [],
-  "search_text": "enigma variations: nimrod edward elgar op. 36 op 36 op. 36 op36 var. ix nimrod elgar imslp op 36 enigma variations nimrod classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "enigma variations: nimrod edward elgar op. 36 op 36 op. 36 op36 var. ix nimrod elgar imslp op 36 enigma variations nimrod classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_op_36_lux_aeterna_edward_elgar",
@@ -133961,7 +133983,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_59_twilight_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_59_twilight_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_59_twilight_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_59_twilight_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133984,7 +134007,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_59_twilight_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "twilight (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 twilight arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "twilight (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 twilight arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch",
@@ -186350,7 +186374,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_annchen_von_tharau.mid",
   "score_files": [
-   "files/scores/unknown_annchen_von_tharau.mid"
+   "files/scores/unknown_annchen_von_tharau.mid",
+   "files/scores/unknown_annchen_von_tharau_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -186371,7 +186396,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_annchen_von_tharau.mid",
   "other_editions": [],
-  "search_text": "ännchen von tharau friedrich silcher, 1825    unknown annchen von tharau classical lyrical classical romantic  1825, friedrich silcher,"
+  "search_text": "ännchen von tharau friedrich silcher, 1825    unknown annchen von tharau classical lyrical classical romantic  1825, friedrich silcher,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_die_soldatenbraut",
@@ -245811,7 +245837,8 @@
   "preview_url": "",
   "score_url": "files/scores/holst_h_148_thaxted.mid",
   "score_files": [
-   "files/scores/holst_h_148_thaxted.mid"
+   "files/scores/holst_h_148_thaxted.mid",
+   "files/scores/holst_h_148_thaxted_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -245835,7 +245862,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/holst_h_148_thaxted.mid",
   "other_editions": [],
-  "search_text": "thaxted gustav holst h. 148 h 148 h. 148 h148  holst h 148 thaxted classical lyrical classical 20th century  holst, gustav"
+  "search_text": "thaxted gustav holst h. 148 h 148 h. 148 h148  holst h 148 thaxted classical lyrical classical 20th century  holst, gustav",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_op_24_hymn_to_indra_gustav_holst",
@@ -252809,7 +252837,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wv33_praeambulum_no_5_in_d.mid",
   "score_files": [
-   "files/scores/unknown_wv33_praeambulum_no_5_in_d.mid"
+   "files/scores/unknown_wv33_praeambulum_no_5_in_d.mid",
+   "files/scores/unknown_wv33_praeambulum_no_5_in_d_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -252830,7 +252859,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wv33_praeambulum_no_5_in_d.mid",
   "other_editions": [],
-  "search_text": "praeambulum no.5 in d heinrich scheidemann wv 33 wv 33 wv33  unknown wv33 praeambulum no 5 in d classical lyrical classical baroque  scheidemann, heinrich"
+  "search_text": "praeambulum no.5 in d heinrich scheidemann wv 33 wv 33 wv33  unknown wv33 praeambulum no 5 in d classical lyrical classical baroque  scheidemann, heinrich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_wv73_praeambulum_no_13_in_g",
@@ -259886,7 +259916,8 @@
   "preview_url": "",
   "score_url": "files/scores/purcell_fairest_isle.mid",
   "score_files": [
-   "files/scores/purcell_fairest_isle.mid"
+   "files/scores/purcell_fairest_isle.mid",
+   "files/scores/purcell_fairest_isle_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -259907,7 +259938,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/purcell_fairest_isle.mid",
   "other_editions": [],
-  "search_text": "fairest isle henry purcell    purcell fairest isle classical lyrical classical baroque  purcell, henry"
+  "search_text": "fairest isle henry purcell    purcell fairest isle classical lyrical classical baroque  purcell, henry",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "purcell_fie_nay_prithee_john",
@@ -294212,7 +294244,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_2e_verset.mid",
   "score_files": [
-   "files/scores/unknown_2e_verset.mid"
+   "files/scores/unknown_2e_verset.mid",
+   "files/scores/unknown_2e_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294233,7 +294266,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_2e_verset.mid",
   "other_editions": [],
-  "search_text": "ad cœnam (2e verset) jean titelouze   2e verset unknown 2e verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "ad cœnam (2e verset) jean titelouze   2e verset unknown 2e verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_1er_verset",
@@ -294278,7 +294312,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_1er_verset.mid",
   "score_files": [
-   "files/scores/unknown_1er_verset.mid"
+   "files/scores/unknown_1er_verset.mid",
+   "files/scores/unknown_1er_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294299,7 +294334,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_1er_verset.mid",
   "other_editions": [],
-  "search_text": "ave maris stella (1er verset) jean titelouze   1er verset unknown 1er verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "ave maris stella (1er verset) jean titelouze   1er verset unknown 1er verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_ave_maris_stella_2e_verset",
@@ -294344,7 +294380,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_ave_maris_stella_2e_verset.mid",
   "score_files": [
-   "files/scores/unknown_ave_maris_stella_2e_verset.mid"
+   "files/scores/unknown_ave_maris_stella_2e_verset.mid",
+   "files/scores/unknown_ave_maris_stella_2e_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294365,7 +294402,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_ave_maris_stella_2e_verset.mid",
   "other_editions": [],
-  "search_text": "ave maris stella (2e verset) jean titelouze    unknown ave maris stella 2e verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "ave maris stella (2e verset) jean titelouze    unknown ave maris stella 2e verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_3e_verset",
@@ -294410,7 +294448,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_3e_verset.mid",
   "score_files": [
-   "files/scores/unknown_3e_verset.mid"
+   "files/scores/unknown_3e_verset.mid",
+   "files/scores/unknown_3e_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294431,7 +294470,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_3e_verset.mid",
   "other_editions": [],
-  "search_text": "ave maris stella (3e verset) jean titelouze   3e verset unknown 3e verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "ave maris stella (3e verset) jean titelouze   3e verset unknown 3e verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_ave_maris_stella_4e_verset",
@@ -294476,7 +294516,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_ave_maris_stella_4e_verset.mid",
   "score_files": [
-   "files/scores/unknown_ave_maris_stella_4e_verset.mid"
+   "files/scores/unknown_ave_maris_stella_4e_verset.mid",
+   "files/scores/unknown_ave_maris_stella_4e_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294497,7 +294538,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_ave_maris_stella_4e_verset.mid",
   "other_editions": [],
-  "search_text": "ave maris stella (4e verset) jean titelouze    unknown ave maris stella 4e verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "ave maris stella (4e verset) jean titelouze    unknown ave maris stella 4e verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_pange_lingua_2e_verset",
@@ -294542,7 +294584,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_pange_lingua_2e_verset.mid",
   "score_files": [
-   "files/scores/unknown_pange_lingua_2e_verset.mid"
+   "files/scores/unknown_pange_lingua_2e_verset.mid",
+   "files/scores/unknown_pange_lingua_2e_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294563,7 +294606,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_pange_lingua_2e_verset.mid",
   "other_editions": [],
-  "search_text": "pange lingua (2e verset) jean titelouze    unknown pange lingua 2e verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "pange lingua (2e verset) jean titelouze    unknown pange lingua 2e verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_veni_creator_1er_verset",
@@ -294608,7 +294652,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_veni_creator_1er_verset.mid",
   "score_files": [
-   "files/scores/unknown_veni_creator_1er_verset.mid"
+   "files/scores/unknown_veni_creator_1er_verset.mid",
+   "files/scores/unknown_veni_creator_1er_verset_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -294629,7 +294674,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_veni_creator_1er_verset.mid",
   "other_editions": [],
-  "search_text": "veni creator (1er verset) jean titelouze    unknown veni creator 1er verset classical lyrical classical baroque  titelouze, jean"
+  "search_text": "veni creator (1er verset) jean titelouze    unknown veni creator 1er verset classical lyrical classical baroque  titelouze, jean",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "castro_a_ce_matin_jean_de_castro",
@@ -359819,7 +359865,8 @@
   "preview_url": "",
   "score_url": "files/scores/dowland_ayresandlutesongsi_unquiet_thoughts.mid",
   "score_files": [
-   "files/scores/dowland_ayresandlutesongsi_unquiet_thoughts.mid"
+   "files/scores/dowland_ayresandlutesongsi_unquiet_thoughts.mid",
+   "files/scores/dowland_ayresandlutesongsi_unquiet_thoughts_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -359840,7 +359887,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/dowland_ayresandlutesongsi_unquiet_thoughts.mid",
   "other_editions": [],
-  "search_text": "unquiet thoughts john dowland ayres and lute songs i ayres and lute songs i ayresandlutesongsi  dowland ayresandlutesongsi unquiet thoughts classical lyrical classical renaissance  dowland, john"
+  "search_text": "unquiet thoughts john dowland ayres and lute songs i ayres and lute songs i ayresandlutesongsi  dowland ayresandlutesongsi unquiet thoughts classical lyrical classical renaissance  dowland, john",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "dowland_ayresandlutesongsxvii_come_again",
@@ -382979,7 +383027,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_el_grillo.mid",
   "score_files": [
-   "files/scores/unknown_el_grillo.mid"
+   "files/scores/unknown_el_grillo.mid",
+   "files/scores/unknown_el_grillo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -383000,7 +383049,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_el_grillo.mid",
   "other_editions": [],
-  "search_text": "el grillo josquin de pres    unknown el grillo classical lyrical classical renaissance  pres, josquin de"
+  "search_text": "el grillo josquin de pres    unknown el grillo classical lyrical classical renaissance  pres, josquin de",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "josquin_accordez_moy_josquin_baston",
@@ -478303,7 +478353,8 @@
   "preview_url": "",
   "score_url": "files/scores/gibbons_the_silver_swan.mid",
   "score_files": [
-   "files/scores/gibbons_the_silver_swan.mid"
+   "files/scores/gibbons_the_silver_swan.mid",
+   "files/scores/gibbons_the_silver_swan_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -478332,7 +478383,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "the silver swan orlando gibbons    gibbons the silver swan classical lyrical classical renaissance  gibbons, orlando"
+  "search_text": "the silver swan orlando gibbons    gibbons the silver swan classical lyrical classical renaissance  gibbons, orlando",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "gibbons_the_eyes_of_all_wait_upon_th",
@@ -485294,7 +485346,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_op9_grablied.mid",
   "score_files": [
-   "files/scores/unknown_op9_grablied.mid"
+   "files/scores/unknown_op9_grablied.mid",
+   "files/scores/unknown_op9_grablied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -485323,7 +485376,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "grablied peter cornelius, 1869 op. 9 op 9 op. 9 op9  unknown op9 grablied classical lyrical classical romantic  1869, peter cornelius,"
+  "search_text": "grablied peter cornelius, 1869 op. 9 op 9 op. 9 op9  unknown op9 grablied classical lyrical classical romantic  1869, peter cornelius,",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_gravsang_af_shakespeare_s_cy",
@@ -500619,7 +500673,8 @@
   "preview_url": "",
   "score_url": "files/scores/wagner_wwv_104_kaisermarsch_schlussgesang_heil_heil_dem.mid",
   "score_files": [
-   "files/scores/wagner_wwv_104_kaisermarsch_schlussgesang_heil_heil_dem.mid"
+   "files/scores/wagner_wwv_104_kaisermarsch_schlussgesang_heil_heil_dem.mid",
+   "files/scores/wagner_wwv_104_kaisermarsch_schlussgesang_heil_heil_dem_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -500640,7 +500695,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/wagner_wwv_104_kaisermarsch_schlussgesang_heil_heil_dem.mid",
   "other_editions": [],
-  "search_text": "kaisermarsch: schlussgesang (heil! heil dem kaiser!) richard wagner wwv 104 wwv 104 wwv104 schlussgesang wagner wwv 104 kaisermarsch schlussgesang heil heil dem classical lyrical classical romantic  wagner, richard"
+  "search_text": "kaisermarsch: schlussgesang (heil! heil dem kaiser!) richard wagner wwv 104 wwv 104 wwv104 schlussgesang wagner wwv 104 kaisermarsch schlussgesang heil heil dem classical lyrical classical romantic  wagner, richard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "wagner_wwv111_wagner_parsifal_vorspiel_to",
@@ -502621,7 +502677,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_op42_es_hat_die_rose_sich_beklagt.mid",
   "score_files": [
-   "files/scores/unknown_op42_es_hat_die_rose_sich_beklagt.mid"
+   "files/scores/unknown_op42_es_hat_die_rose_sich_beklagt.mid",
+   "files/scores/unknown_op42_es_hat_die_rose_sich_beklagt_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -502642,7 +502699,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_op42_es_hat_die_rose_sich_beklagt.mid",
   "other_editions": [],
-  "search_text": "es hat die rose sich beklagt robert franz op 42 op 42 op42  unknown op42 es hat die rose sich beklagt classical lyrical classical romantic  franz, robert"
+  "search_text": "es hat die rose sich beklagt robert franz op 42 op 42 op42  unknown op42 es hat die rose sich beklagt classical lyrical classical romantic  franz, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "franz_op1_no_03_die_lotosblume",
@@ -516705,7 +516763,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_abendlied.mid",
   "score_files": [
-   "files/scores/unknown_abendlied.mid"
+   "files/scores/unknown_abendlied.mid",
+   "files/scores/unknown_abendlied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -516734,7 +516793,8 @@
     "licence": "CC-BY"
    }
   ],
-  "search_text": "abendlied robert volkmann    unknown abendlied classical lyrical classical romantic  volkmann, robert"
+  "search_text": "abendlied robert volkmann    unknown abendlied classical lyrical classical romantic  volkmann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "whinham_robert_whinham_little_florri",
@@ -532261,7 +532321,8 @@
   "preview_url": "",
   "score_url": "files/scores/foster_slumber_my_darling.mid",
   "score_files": [
-   "files/scores/foster_slumber_my_darling.mid"
+   "files/scores/foster_slumber_my_darling.mid",
+   "files/scores/foster_slumber_my_darling_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -532282,7 +532343,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/foster_slumber_my_darling.mid",
   "other_editions": [],
-  "search_text": "slumber my darling stephen foster    foster slumber my darling classical lyrical classical romantic  foster, stephen"
+  "search_text": "slumber my darling stephen foster    foster slumber my darling classical lyrical classical romantic  foster, stephen",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "foster_waste",
@@ -546382,7 +546444,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_martha.mid",
   "score_files": [
-   "files/scores/unknown_martha.mid"
+   "files/scores/unknown_martha.mid",
+   "files/scores/unknown_martha_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -546403,7 +546466,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_martha.mid",
   "other_editions": [],
-  "search_text": "the last rose of summer (martha) thomas moore   (martha) unknown martha classical lyrical classical romantic  moore, thomas"
+  "search_text": "the last rose of summer (martha) thomas moore   (martha) unknown martha classical lyrical classical romantic  moore, thomas",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "morley_9_la_torella",
@@ -581047,7 +581111,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_flee_as_a_bird.mid",
   "score_files": [
-   "files/scores/traditional_flee_as_a_bird.mid"
+   "files/scores/traditional_flee_as_a_bird.mid",
+   "files/scores/traditional_flee_as_a_bird_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -581068,7 +581133,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_flee_as_a_bird.mid",
   "other_editions": [],
-  "search_text": "flee as a bird traditional    traditional flee as a bird classical lyrical classical traditional  traditional"
+  "search_text": "flee as a bird traditional    traditional flee as a bird classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_flower_of_edinburgh",
@@ -586539,7 +586605,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_john_barleycorn.mid",
   "score_files": [
-   "files/scores/traditional_john_barleycorn.mid"
+   "files/scores/traditional_john_barleycorn.mid",
+   "files/scores/traditional_john_barleycorn_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -586560,7 +586627,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_john_barleycorn.mid",
   "other_editions": [],
-  "search_text": "john barleycorn traditional    traditional john barleycorn classical lyrical classical traditional  traditional"
+  "search_text": "john barleycorn traditional    traditional john barleycorn classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_john_kelly",
@@ -588080,7 +588148,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_kuro_kami.mid",
   "score_files": [
-   "files/scores/traditional_kuro_kami.mid"
+   "files/scores/traditional_kuro_kami.mid",
+   "files/scores/traditional_kuro_kami_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -588101,7 +588170,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_kuro_kami.mid",
   "other_editions": [],
-  "search_text": "kuro-kami traditional    traditional kuro kami classical lyrical classical traditional  traditional"
+  "search_text": "kuro-kami traditional    traditional kuro kami classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_l_ageasse",
@@ -596993,7 +597063,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_red_apple_rag.mid",
   "score_files": [
-   "files/scores/traditional_red_apple_rag.mid"
+   "files/scores/traditional_red_apple_rag.mid",
+   "files/scores/traditional_red_apple_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -597022,7 +597093,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "red apple rag traditional    traditional red apple rag classical lyrical classical traditional  traditional"
+  "search_text": "red apple rag traditional    traditional red apple rag classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_regent_s_f",
@@ -602151,7 +602223,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_sing_ivy.mid",
   "score_files": [
-   "files/scores/traditional_sing_ivy.mid"
+   "files/scores/traditional_sing_ivy.mid",
+   "files/scores/traditional_sing_ivy_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -602172,7 +602245,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_sing_ivy.mid",
   "other_editions": [],
-  "search_text": "sing ivy traditional    traditional sing ivy classical lyrical classical traditional  traditional"
+  "search_text": "sing ivy traditional    traditional sing ivy classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditional_music_sir_john_m",
@@ -668215,7 +668289,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_gladsome_light.mid",
   "score_files": [
-   "files/scores/unknown_gladsome_light.mid"
+   "files/scores/unknown_gladsome_light.mid",
+   "files/scores/unknown_gladsome_light_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -668236,7 +668311,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_gladsome_light.mid",
   "other_editions": [],
-  "search_text": "gladsome light александр копылов    unknown gladsome light classical lyrical classical romantic  копылов, александр"
+  "search_text": "gladsome light александр копылов    unknown gladsome light classical lyrical classical romantic  копылов, александр",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_cherubic_hymn",
@@ -668347,7 +668423,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_to_the_mother_of_god_let_us.mid",
   "score_files": [
-   "files/scores/unknown_to_the_mother_of_god_let_us.mid"
+   "files/scores/unknown_to_the_mother_of_god_let_us.mid",
+   "files/scores/unknown_to_the_mother_of_god_let_us_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -668368,7 +668445,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_to_the_mother_of_god_let_us.mid",
   "other_editions": [],
-  "search_text": "to the mother of god let us earnestly hasten александръ а. архангельский    unknown to the mother of god let us classical lyrical classical 20th century  архангельский, александръ а."
+  "search_text": "to the mother of god let us earnestly hasten александръ а. архангельский    unknown to the mother of god let us classical lyrical classical 20th century  архангельский, александръ а.",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknownb2",
@@ -668413,7 +668491,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknownb2.mid",
   "score_files": [
-   "files/scores/unknownb2.mid"
+   "files/scores/unknownb2.mid",
+   "files/scores/unknownb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -668434,7 +668513,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknownb2.mid",
   "other_editions": [],
-  "search_text": "kontakion of christmas д. бортнянский   кондак рождеству христову unknownb2 classical lyrical classical classical  бортнянский, д."
+  "search_text": "kontakion of christmas д. бортнянский   кондак рождеству христову unknownb2 classical lyrical classical classical  бортнянский, д.",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "ravel_m61_valses_nobles_1",

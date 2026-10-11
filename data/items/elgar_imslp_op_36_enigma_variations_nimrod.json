@@ -45,7 +45,8 @@
  "score_url": "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
  "score_files": [
   "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
-  "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz"
+  "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz",
+  "files/scores/elgar_imslp_op_36_enigma_variations_nimrod_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -68,6 +69,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_imslp_op_36_enigma_variations_nimrod",
@@ -76,7 +78,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
-  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz"
+  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mscz",
+  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/elgar_imslp_op_36_enigma_variations_nimrod.mid",
  "render_midi": {
