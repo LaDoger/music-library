@@ -5,7 +5,8 @@ FAMOUS=r'elise|clair de lune|traumerei|träumerei|pathétique|pathetique|moonlig
 def rank(r):
   k,comp,title,cat,n=r
   ci=next((i for i,g in enumerate(G) if g.lower() in comp.lower()),99)
-  return (0 if cat=='piano/keyboard' else 1, ci, 0 if re.search(FAMOUS,title.lower()) else 1, n)
+  hymn=bool(re.search(r'hymn|chorale tune',(title+' '+k).lower()))
+  return (0 if cat=='piano/keyboard' else 1, ci, 0 if re.search(FAMOUS,title.lower()) and not hymn else 1, 1 if hymn else 0, n)
 done=set(open('/tmp/mb_pilot/ids.txt').read().split())
 q=[r[0] for r in sorted(rows,key=rank) if r[0] not in done]
 open('scripts/midi2score/queue.txt','w').write('\n'.join(q)+'\n'); print(len(q),q[:12])

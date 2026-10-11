@@ -519,7 +519,9 @@ def build():
 
     # Editable scores rebuilt from MIDI by scripts/midi2score (MusicBot).
     for item in out:
-        if not item.get("score_method") and any(f.endswith("_reconstructed.mxl") for f in item.get("score_files") or []):
+        if not item.get("score_method") and any(f.endswith("_fromly.mxl") for f in item.get("score_files") or []):
+            item["score_method"] = "Converted from LilyPond source"
+        elif not item.get("score_method") and any(f.endswith("_reconstructed.mxl") for f in item.get("score_files") or []):
             item["score_method"] = "Reconstructed from MIDI"
 
     missing_picks = sorted(set(picks) - {o["id"] for o in out})

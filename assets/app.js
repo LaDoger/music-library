@@ -241,6 +241,8 @@
   };
   const ocrBadge = (r) => ((r.score_method || "").startsWith("OCR")
     ? `<span class="badge b-ocr" title="Score read by optical music recognition from a public-domain scan and corrected: bar counts and rhythms checked, but it may contain wrong notes.">OCR draft · may contain wrong notes</span>`
+    : (r.score_method || "").startsWith("Converted from LilyPond")
+    ? `<span class="badge b-ocr" title="Editable score converted automatically from the Mutopia LilyPond source; checked against the MIDI note count. Layout details may differ from the original engraving.">Score converted from LilyPond</span>`
     : (r.score_method || "").startsWith("Reconstructed")
     ? `<span class="badge b-ocr" title="Editable score rebuilt automatically from the MIDI file: every note matches the MIDI, but spelling, voicing, pickups and beaming are machine guesses.">Score reconstructed from MIDI</span>` : "")
     + (r.analysis_url ? `<span class="badge b-ocr" title="Chord and form analysis drafted by script and checked by a model; not an expert edition.">analysis: draft</span>` : "");
