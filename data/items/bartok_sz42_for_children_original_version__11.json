@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 11",
  "catalog": "Sz. 42",
  "movement": "No. 11",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;pastoral;rustic;bright;key: D mixolydian",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D mixolydian. Chord journey: I32 - vi6 - ii6 - IV64 loop, minor turn i4 to bVII7 (C colour), ii62 - vi64 - ii42 - I, bare-D close. Texture: two-voice folk-style counterpoint over a drone-like D bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "pastoral",
+  "rustic",
+  "bright",
+  "key: D mixolydian"
  ],
  "has_editable_score": true,
  "has_recording": false,

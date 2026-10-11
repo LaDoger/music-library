@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 8",
  "catalog": "Op. 13",
  "movement": "No. 8",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tempestuous;yearning;defiant;key: E minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: i - i#7 loop - bVII7 - bVI pedal - Ger65 - i64 - bVII+7 - III42 - bii#7 - bVI - i6 - V6/4 - i6 - Picardy E-major close. Texture: dense virtuosic figuration over wide-leaping bass (E1-E6 range).",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tempestuous",
+  "yearning",
+  "defiant",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

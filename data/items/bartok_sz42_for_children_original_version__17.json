@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 17",
  "catalog": "Sz. 42",
  "movement": "No. 17",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;austere;gnawing;hollow;key: e minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: e minor. Chord journey: i5 pedal loop - flat-II colour (IIo#64 - II#3) - i5 - iv752 - III - bVI - II65#3 - bVI42 - i close. Texture: E pedal under sparse bass line, drone-like open fifths.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "austere",
+  "gnawing",
+  "hollow",
+  "key: e minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

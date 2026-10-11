@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 15",
  "catalog": "Sz. 42",
  "movement": "No. 15",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;bouncy;sly;ambiguous;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - ii42 - I7 - V7 - I65 - IV - ii743 - vi754 - IV6 - bVII-tinged IV64 colour - ii7 - iiø65 - iii - V7, bare-D close. Texture: sparse two-voice bounce with octave doublings.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "bouncy",
+  "sly",
+  "ambiguous",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

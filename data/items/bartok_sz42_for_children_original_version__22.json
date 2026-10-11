@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 22",
  "catalog": "Sz. 42",
  "movement": "No. 22",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;gentle;rustic;pensive;key: F major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F major. Chord journey: iii6 - ii - iii6 - V loop, iii - IV6 - I64 - iv4 - vi62 - #iv7 (B7) - I close. Texture: repeated-note upper line over a plain bass, two-part folk writing.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "gentle",
+  "rustic",
+  "pensive",
+  "key: F major"
  ],
  "has_editable_score": true,
  "has_recording": false,

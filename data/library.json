@@ -683233,9 +683233,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 11",
   "catalog": "Sz. 42",
   "movement": "No. 11",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;pastoral;rustic;bright;key: D mixolydian",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D mixolydian. Chord journey: I32 - vi6 - ii6 - IV64 loop, minor turn i4 to bVII7 (C colour), ii62 - vi64 - ii42 - I, bare-D close. Texture: two-voice folk-style counterpoint over a drone-like D bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683278,8 +683278,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "pastoral",
+   "rustic",
+   "bright",
+   "key: D mixolydian"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683298,7 +683301,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__11.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 11 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 11 bartok sz42 for children original version  11 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 11 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 11 bartok sz42 for children original version  11 classical piano pastoral rustic bright key: d mixolydian classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__12",
@@ -683307,9 +683310,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 12",
   "catalog": "Sz. 42",
   "movement": "No. 12",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;innocent;wry;static;key: C major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: I - vi6 - ii42 - I loop, iii - i4 minor turn, IV72 - viiø65 - iii6 - i, bare C-octave close. Texture: two-hand chordal cells with stepwise bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683352,8 +683355,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "innocent",
+   "wry",
+   "static",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683372,7 +683378,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__12.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 12 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 12 bartok sz42 for children original version  12 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 12 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 12 bartok sz42 for children original version  12 classical piano innocent wry static key: c major classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__13",
@@ -683381,9 +683387,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 13",
   "catalog": "Sz. 42",
   "movement": "No. 13",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;austere;restless;modal;key: d minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: d minor. Chord journey: III6 - i - III - bVI65 - bvi7 - viø7 - III+6 augmented-sixth turn - i62 - iiø43 - i43 - iv754 - i, bare-D close. Texture: two-voice modal lines with sparse open-fifth sonorities.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683426,8 +683432,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "austere",
+   "restless",
+   "modal",
+   "key: d minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683446,7 +683455,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__13.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 13 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 13 bartok sz42 for children original version  13 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 13 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 13 bartok sz42 for children original version  13 classical piano austere restless modal key: d minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__14",
@@ -683455,9 +683464,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 14",
   "catalog": "Sz. 42",
   "movement": "No. 14",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;stark;hollow;folkish;key: d minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: d minor. Chord journey: i - v - V - bVI - IV - i loop, bVI - vi4#2 - iv7 - i close. Texture: bare two-voice writing, octaves and open fifths.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683500,8 +683509,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "stark",
+   "hollow",
+   "folkish",
+   "key: d minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683520,7 +683532,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__14.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 14 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 14 bartok sz42 for children original version  14 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 14 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 14 bartok sz42 for children original version  14 classical piano stark hollow folkish key: d minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__15",
@@ -683529,9 +683541,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 15",
   "catalog": "Sz. 42",
   "movement": "No. 15",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;bouncy;sly;ambiguous;key: D major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D major. Chord journey: I - ii42 - I7 - V7 - I65 - IV - ii743 - vi754 - IV6 - bVII-tinged IV64 colour - ii7 - iiø65 - iii - V7, bare-D close. Texture: sparse two-voice bounce with octave doublings.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683574,8 +683586,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "bouncy",
+   "sly",
+   "ambiguous",
+   "key: D major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683594,7 +683609,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__15.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 15 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 15 bartok sz42 for children original version  15 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 15 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 15 bartok sz42 for children original version  15 classical piano bouncy sly ambiguous key: d major classical 20th century  bartók, béla"
  },
  {
   "id": "hahn_irh_16_7_chansons_grises_l_heure_exquise",
@@ -683828,9 +683843,9 @@
   "title": "Symphonic Études - No. 8",
   "catalog": "Op. 13",
   "movement": "No. 8",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;tempestuous;yearning;defiant;key: E minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E minor. Chord journey: i - i#7 loop - bVII7 - bVI pedal - Ger65 - i64 - bVII+7 - III42 - bii#7 - bVI - i6 - V6/4 - i6 - Picardy E-major close. Texture: dense virtuosic figuration over wide-leaping bass (E1-E6 range).",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683870,8 +683885,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "tempestuous",
+   "yearning",
+   "defiant",
+   "key: E minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683888,7 +683906,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op13_symphonic_etudes_8.mid",
   "other_editions": [],
-  "search_text": "symphonic études - no. 8 robert schumann op. 13 op 13 op. 13 op13 no. 8 schumann op13 symphonic etudes 8 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "symphonic études - no. 8 robert schumann op. 13 op 13 op. 13 op13 no. 8 schumann op13 symphonic etudes 8 classical piano tempestuous yearning defiant key: e minor classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz42_for_children_original_version__16",
@@ -683897,9 +683915,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 16",
   "catalog": "Sz. 42",
   "movement": "No. 16",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;brooding;stark;driving;key: g minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: g minor. Chord journey: i - bVII - V - IV - bVII7 - i532 loop, IV - bVII7 - i close. Texture: two-voice short cells, ostinato-like repeated figure.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -683942,8 +683960,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "brooding",
+   "stark",
+   "driving",
+   "key: g minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -683962,7 +683983,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__16.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 16 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 16 bartok sz42 for children original version  16 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 16 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 16 bartok sz42 for children original version  16 classical piano brooding stark driving key: g minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__17",
@@ -683971,9 +683992,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 17",
   "catalog": "Sz. 42",
   "movement": "No. 17",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;austere;gnawing;hollow;key: e minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: e minor. Chord journey: i5 pedal loop - flat-II colour (IIo#64 - II#3) - i5 - iv752 - III - bVI - II65#3 - bVI42 - i close. Texture: E pedal under sparse bass line, drone-like open fifths.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684016,8 +684037,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "austere",
+   "gnawing",
+   "hollow",
+   "key: e minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684036,7 +684060,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__17.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 17 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 17 bartok sz42 for children original version  17 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 17 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 17 bartok sz42 for children original version  17 classical piano austere gnawing hollow key: e minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__18",
@@ -684045,9 +684069,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 18",
   "catalog": "Sz. 42",
   "movement": "No. 18",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;fluid;unsettled;folk-tinted;key: D mixolydian",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D mixolydian. Chord journey: i - ii2 - bVII7 - vi6 - I42 - I64 loop, IV42 - viio7 - vi6 - chromatic bVII/iv wander, IV - bVII7 - I close. Texture: two-voice modal writing, sparse chords over a moving bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684090,8 +684114,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "fluid",
+   "unsettled",
+   "folk-tinted",
+   "key: D mixolydian"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684110,7 +684137,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__18.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 18 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 18 bartok sz42 for children original version  18 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 18 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 18 bartok sz42 for children original version  18 classical piano fluid unsettled folk-tinted key: d mixolydian classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__19",
@@ -684119,9 +684146,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 19",
   "catalog": "Sz. 42",
   "movement": "No. 19",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;sunny;simple;bright;key: D major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D major. Chord journey: I - vi6 - I6 - IV loop, i74 minor-seventh turn back to I, IV - I - IV - I, bVII colour into bare-D close. Texture: plain two-part folk writing, alternating-hand figures over a D bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684164,8 +684191,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "sunny",
+   "simple",
+   "bright",
+   "key: D major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684184,7 +684214,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__19.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 19 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 19 bartok sz42 for children original version  19 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 19 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 19 bartok sz42 for children original version  19 classical piano sunny simple bright key: d major classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__20",
@@ -684193,9 +684223,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 20",
   "catalog": "Sz. 42",
   "movement": "No. 20",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;brooding;tender;plaintive;key: g minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: g minor. Chord journey: i - i7 - i - i5 - I#3 Picardy turn - III64 - III6 - i - III64 - III loop, i64 - i43 - i close. Texture: two-part writing with sustained G bass and stepwise upper line.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684238,8 +684268,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "brooding",
+   "tender",
+   "plaintive",
+   "key: g minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684258,7 +684291,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__20.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 20 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 20 bartok sz42 for children original version  20 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 20 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 20 bartok sz42 for children original version  20 classical piano brooding tender plaintive key: g minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__21",
@@ -684267,9 +684300,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 21",
   "catalog": "Sz. 42",
   "movement": "No. 21",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;wistful;restless;shadowed;key: a minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: a minor. Chord journey: i7 - iv - bVI - iv - III - bVI - iv - IV loop, i - v - i, bvii5 - i - v - i close. Texture: two-voice modal lines with open-fifth cadential figures.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684312,8 +684345,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "wistful",
+   "restless",
+   "shadowed",
+   "key: a minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684332,7 +684368,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__21.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 21 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 21 bartok sz42 for children original version  21 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 21 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 21 bartok sz42 for children original version  21 classical piano wistful restless shadowed key: a minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__22",
@@ -684341,9 +684377,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 22",
   "catalog": "Sz. 42",
   "movement": "No. 22",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;gentle;rustic;pensive;key: F major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F major. Chord journey: iii6 - ii - iii6 - V loop, iii - IV6 - I64 - iv4 - vi62 - #iv7 (B7) - I close. Texture: repeated-note upper line over a plain bass, two-part folk writing.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684386,8 +684422,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "gentle",
+   "rustic",
+   "pensive",
+   "key: F major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684406,7 +684445,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__22.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 22 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 22 bartok sz42 for children original version  22 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 22 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 22 bartok sz42 for children original version  22 classical piano gentle rustic pensive key: f major classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__23",
@@ -684415,9 +684454,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 23",
   "catalog": "Sz. 42",
   "movement": "No. 23",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;playful;bouncy;clipped;key: C major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: I6 - iii - I6 - iii loop, viio5 - IV - ii4 - ii, i4 minor turn - V6 - ii7 - i5, iii - V7 - V7 - I close. Texture: two-voice dance-like counterpoint with repeated-note figures.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684460,8 +684499,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "playful",
+   "bouncy",
+   "clipped",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684480,7 +684522,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__23.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 23 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 23 bartok sz42 for children original version  23 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 23 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 23 bartok sz42 for children original version  23 classical piano playful bouncy clipped key: c major classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__24",
@@ -684489,9 +684531,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 24",
   "catalog": "Sz. 42",
   "movement": "No. 24",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;wistful;shadowed;tender;key: a minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: a minor. Chord journey: iio4 - III6 - IV6 - bVII - vii#2 - i4 - bVI6 - iv6 - III6 - ii6 - bVI - bvi4 - v7 - ii6 loop, III64 - III6 - i close. Texture: sparse two-part texture with rests and stepwise bass.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -684534,8 +684576,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "wistful",
+   "shadowed",
+   "tender",
+   "key: a minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -684554,7 +684599,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__24.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 24 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 24 bartok sz42 for children original version  24 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 24 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 24 bartok sz42 for children original version  24 classical piano wistful shadowed tender key: a minor classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz42_for_children_original_version__25",

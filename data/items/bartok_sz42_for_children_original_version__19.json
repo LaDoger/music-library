@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 19",
  "catalog": "Sz. 42",
  "movement": "No. 19",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;sunny;simple;bright;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - vi6 - I6 - IV loop, i74 minor-seventh turn back to I, IV - I - IV - I, bVII colour into bare-D close. Texture: plain two-part folk writing, alternating-hand figures over a D bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "sunny",
+  "simple",
+  "bright",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

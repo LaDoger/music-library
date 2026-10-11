@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 23",
  "catalog": "Sz. 42",
  "movement": "No. 23",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;playful;bouncy;clipped;key: C major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: I6 - iii - I6 - iii loop, viio5 - IV - ii4 - ii, i4 minor turn - V6 - ii7 - i5, iii - V7 - V7 - I close. Texture: two-voice dance-like counterpoint with repeated-note figures.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "playful",
+  "bouncy",
+  "clipped",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,
