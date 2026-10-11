@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/gounod_meditation_sur_le_premier_pr.mid",
  "score_files": [
-  "files/scores/gounod_meditation_sur_le_premier_pr.mid"
+  "files/scores/gounod_meditation_sur_le_premier_pr.mid",
+  "files/scores/gounod_meditation_sur_le_premier_pr_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "intimate"
@@ -61,6 +62,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_meditation_sur_le_premier_pr.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_meditation_sur_le_premier_pr",
@@ -68,7 +70,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gounod_meditation_sur_le_premier_pr.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_sur_le_premier_pr.mid"
+  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_sur_le_premier_pr.mid",
+  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_sur_le_premier_pr_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gounod_meditation_sur_le_premier_pr.mid",
  "render_midi": {
