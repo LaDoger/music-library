@@ -44,12 +44,12 @@ def main() -> int:
             hay = norm(f"{row.get('title','')} {row.get('movement','')} {row.get('catalog','')}")
             hit = chk.match(hay)
             if hit and hit[3] == IN:
-                hits.setdefault(hit[0], []).append(row)
+                hits.setdefault(hit[1], []).append(row)  # keyed by row title: several rows can share one catalogue label (Iberia books, Op.47)
             elif not hit:
                 unmatched.append(row)
         rows_out = []
         for cat, title, year, status, rx, note in info["rows"]:
-            got = hits.get(cat, []) if status == IN else []
+            got = hits.get(title, []) if status == IN else []
             rows_out.append({
                 "cat_no": cat, "title": title, "publication_year": year or "", "status": status,
                 "in_library": "yes" if got else ("" if status == IN else "n/a"),

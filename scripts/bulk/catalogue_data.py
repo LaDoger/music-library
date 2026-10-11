@@ -968,7 +968,117 @@ RESPIGHI = [
     ("P.166", "Lauda per la Natività del Signore, P.166", None, UNV, r"lauda per la natività|lauda per la nativita|p 166\b", "IMSLP: composed 1930; no First Publication field; not confirmed"),
 ]
 
+# Albéniz (d.1909, 18 May 1909): fully PD everywhere (died 1909), so no publication-year gate; years are kept for the record.
+# LaDoger priority list 2026-10-11: Iberia (all 4 books, 12 pieces), Suite española Op.47, España Op.165 first. Years from
+# IMSLP "First Publication" fields and dated editions, checked 2026-10-11; the Iberia books are dated by the IMSLP set range
+# (Edition Mutuelle, Paris 1906-08). Rows with no confirmed year, or with a two-piano or completed/arranged first edition,
+# are unverified and not imported. Operas (Pepita Jiménez, Henry Clifford, Merlin, Pepita) are not on this checklist.
+ALBENIZ = [
+    # Iberia, Book 1 (Edition Mutuelle, Paris 1906; premiered 9 May 1906)
+    ("Iberia Bk.1", "Evocación (Iberia Book 1 No.1)", 1906, IN, r"evocacion", "IMSLP: Iberia Book 1, Edition Mutuelle Paris 1906 (set range 1906-08, plate E.3083)"),
+    ("Iberia Bk.1", "El Puerto (Iberia Book 1 No.2)", 1906, IN, r"\bel puerto\b|\bpuerto\b", "IMSLP: Iberia Book 1, Edition Mutuelle Paris 1906"),
+    ("Iberia Bk.1", "Fête-Dieu à Séville (Iberia Book 1 No.3)", 1906, IN, r"fete dieu|fete-dieu|corpus christi", "IMSLP: Iberia Book 1, Edition Mutuelle Paris 1906"),
+    # Iberia, Book 2 (Edition Mutuelle 1907, plate E.3084; premiered 11 Sep 1907)
+    ("Iberia Bk.2", "Rondeña (Iberia Book 2 No.1)", 1907, IN, r"rondena", "IMSLP: Iberia Book 2, Edition Mutuelle Paris 1907 (plate E.3084)"),
+    ("Iberia Bk.2", "Almería (Iberia Book 2 No.2)", 1907, IN, r"almeria", "IMSLP: Iberia Book 2, Edition Mutuelle Paris 1907 (plate E.3084)"),
+    ("Iberia Bk.2", "Triana (Iberia Book 2 No.3)", 1907, IN, r"\btriana\b", "IMSLP: Iberia Book 2, Edition Mutuelle Paris 1907 (plate E.3084)"),
+    # Iberia, Book 3 (Edition Mutuelle 1908; premiered 2 Jan 1908)
+    ("Iberia Bk.3", "El Albaicín (Iberia Book 3 No.1)", 1908, IN, r"albaicin", "IMSLP: Iberia Book 3, Edition Mutuelle Paris 1908 (set range 1906-08)"),
+    ("Iberia Bk.3", "El Polo (Iberia Book 3 No.2)", 1908, IN, r"\bel polo\b|\bpolo\b", "IMSLP: Iberia Book 3, Edition Mutuelle Paris 1908 (set range 1906-08)"),
+    ("Iberia Bk.3", "Lavapiés (Iberia Book 3 No.3)", 1908, IN, r"lavapies", "IMSLP: Iberia Book 3, Edition Mutuelle Paris 1908 (set range 1906-08)"),
+    # Iberia, Book 4 (premiered 9 Feb 1909; the IMSLP set range ends 1908, Book 4 year not separately read)
+    ("Iberia Bk.4", "Málaga (Iberia Book 4 No.1)", 1908, IN, r"\bmalaga\b", "IMSLP: Iberia Book 4, Edition Mutuelle Paris, set range 1906-08; Book 4 year not separately read"),
+    ("Iberia Bk.4", "Jerez (Iberia Book 4 No.2)", 1908, IN, r"\bjerez\b", "IMSLP: Iberia Book 4, Edition Mutuelle Paris, set range 1906-08; Book 4 year not separately read"),
+    ("Iberia Bk.4", "Eritaña (Iberia Book 4 No.3)", 1908, IN, r"eritana", "IMSLP: Iberia Book 4, Edition Mutuelle Paris, set range 1906-08; Book 4 year not separately read"),
+    # Suite española Op.47 (composed 1886; eight-movement suite published 1901, Dotesio, per Wikipedia; IMSLP page not reached)
+    ("Op.47", "Granada (Suite española Op.47 No.1, Serenata)", 1901, IN, r"\bgranada\b", "Wikipedia: eight-movement Suite española Op.47, first published 1901 (Dotesio); composed 1886; IMSLP page not reached"),
+    ("Op.47", "Cataluña (Suite española Op.47 No.2, Courante)", 1901, IN, r"cataluna|catalonia|courante", "Wikipedia: Suite española Op.47 (1901, Dotesio); four-piece set (Granada, Cataluña, Sevilla, Cuba) first Zozaya, Madrid, undated"),
+    ("Op.47", "Sevilla (Suite española Op.47 No.3, Sevillanas)", 1901, IN, r"\bsevilla\b|sevillanas", "Wikipedia: Suite española Op.47 (1901, Dotesio)"),
+    ("Op.47", "Cádiz (Suite española Op.47 No.4, Canción)", 1901, IN, r"\bcadiz\b", "Wikipedia: Suite española Op.47 (1901, Dotesio)"),
+    ("Op.47", "Asturias (Suite española Op.47 No.5, Leyenda)", 1901, IN, r"asturias", "Wikipedia: Suite española Op.47 (1901, Dotesio); guitar version is an arrangement and is skipped by the importer"),
+    ("Op.47", "Aragón (Suite española Op.47 No.6, Fantasía)", 1901, IN, r"\baragon\b", "Wikipedia: Suite española Op.47 (1901, Dotesio)"),
+    ("Op.47", "Castilla (Suite española Op.47 No.7, Seguidillas)", 1901, IN, r"\bcastilla\b", "Wikipedia: Suite española Op.47 (1901, Dotesio)"),
+    ("Op.47", "Cuba (Suite española Op.47 No.8, Nocturno)", 1901, IN, r"\bcuba\b", "Wikipedia: Suite española Op.47 (1901, Dotesio)"),
+    ("Op.47", "Suite española Op.47 (second suite, Op.97)", None, UNV, r"suite espanola no 2|op 97", "Op.97 second suite: first publication not checked; not imported"),
+    # España Op.165 (H.B. Stevens, London, 1890 and 1892; only No.1 1890 and No.2 1892 are dated on IMSLP; No.4 unnamed on the page)
+    ("Op.165", "Preludio (España Op.165 No.1)", 1890, IN, r"\bpreludio\b", "IMSLP: España Op.165, London H.B. Stevens & Co. 1890 (plate 1711-16); composed 1889-90"),
+    ("Op.165", "Tango (España Op.165 No.2)", 1892, IN, r"\btango\b", "IMSLP: España Op.165, London H.B. Stevens & Co. 1892 (dated on the page)"),
+    ("Op.165", "Malagueña (España Op.165 No.3)", 1890, IN, r"^(?!.*caleta).*malaguena", "IMSLP: España Op.165, London H.B. Stevens & Co. 1890 (set plate 1711-16); Rumores de la Caleta Malagueña (Op.71 No.6) is a separate row"),
+    ("Op.165", "Capricho catalán (España Op.165 No.5)", 1890, IN, r"capricho catalan|catalan capricho", "IMSLP: España Op.165, London H.B. Stevens & Co. 1890 (set plate 1711-16)"),
+    ("Op.165", "Zortzico (España Op.165 No.6)", 1890, IN, r"zortzico", "IMSLP: España Op.165, London H.B. Stevens & Co. 1890 (set plate 1711-16)"),
+    ("Op.165", "España Op.165 No.4 (unnamed on IMSLP page)", None, UNV, r"(?!)", "IMSLP page names no No.4 title; not imported until identified"),
+    # Chants d'Espagne Op.232 (J.B. Pujol, Barcelona, 1892 / 1897, plate P.22 C; composed 1891 and 1894)
+    ("Op.232", "Prélude (Chants d'Espagne Op.232 No.1)", 1892, IN, r"\bprelude\b", "IMSLP: Chants d'Espagne Op.232, J.B. Pujol Barcelona 1892, 1897 (plate P.22 C)"),
+    ("Op.232", "Orientale (Chants d'Espagne Op.232 No.2)", 1892, IN, r"orientale|oriental", "IMSLP: Chants d'Espagne Op.232, J.B. Pujol Barcelona 1892, 1897 (plate P.22 C)"),
+    ("Op.232", "Sous le palmier (Chants d'Espagne Op.232 No.3)", 1892, IN, r"sous le palmier", "IMSLP: Chants d'Espagne Op.232, J.B. Pujol Barcelona 1892, 1897 (plate P.22 C)"),
+    ("Op.232", "Córdoba (Chants d'Espagne Op.232 No.4)", 1892, IN, r"cordoba", "IMSLP: Chants d'Espagne Op.232, J.B. Pujol Barcelona 1892, 1897 (plate P.22 C)"),
+    ("Op.232", "Seguidillas (Chants d'Espagne Op.232 No.5)", 1892, IN, r"seguidillas", "IMSLP: Chants d'Espagne Op.232, J.B. Pujol Barcelona 1892, 1897 (plate P.22 C)"),
+    # Mallorca Op.202 (Barcelona, J.B. Pujol; undated, IMSLP estimate [1898])
+    ("Op.202", "Mallorca (Barcarola) Op.202", 1898, IN, r"mallorca", "IMSLP: Mallorca Op.202, J.B. Pujol Barcelona, undated, estimate [1898] (plate P.97 C)"),
+    # Recuerdos de viaje Op.71 (composed 1886-87; Antonio Romero, Madrid, undated, individual numbers bracketed [1886] / [1887])
+    ("Op.71", "En el mar (Recuerdos de viaje Op.71 No.1)", 1887, IN, r"en el mar", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1886]-[1887]; composed 1886-87"),
+    ("Op.71", "Leyenda-Barcarola (Recuerdos de viaje Op.71 No.2)", 1887, IN, r"leyenda-barcarola|leyenda barcarola", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1887]"),
+    ("Op.71", "Alborada (Recuerdos de viaje Op.71 No.3)", 1887, IN, r"alborada", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1886]"),
+    ("Op.71", "En la Alhambra (Recuerdos de viaje Op.71 No.4)", 1887, IN, r"en la alhambra|alhambra", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1887]"),
+    ("Op.71", "Puerta de Tierra (Recuerdos de viaje Op.71 No.5, Bolero)", 1887, IN, r"puerta de tierra|bolero", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1887]"),
+    ("Op.71", "Rumores de la Caleta (Recuerdos de viaje Op.71 No.6, Malagueña)", 1887, IN, r"rumores de la caleta", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1887]"),
+    ("Op.71", "En la playa (Recuerdos de viaje Op.71 No.7)", 1887, IN, r"en la playa", "IMSLP: Recuerdos de viaje Op.71, Antonio Romero Madrid, bracketed [1887]"),
+    # 12 Piezas características Op.92 (earliest dated edition Casa Dotésio 1912; composed 1888; undated earlier editions may exist)
+    ("Op.92", "Torre Bermeja (12 Piezas Op.92 No.12, Serenata)", 1912, IN, r"torre bermeja", "IMSLP: 12 Piezas características Op.92, Casa Dotésio 1912 (earliest dated edition); composed 1888"),
+    ("Op.92", "Plegaria (12 Piezas Op.92 No.4)", 1912, IN, r"plegaria", "IMSLP: 12 Piezas características Op.92, Casa Dotésio 1912 (earliest dated edition); composed 1888"),
+    ("Op.92", "Conchita, polka (12 Piezas Op.92 No.5)", 1912, IN, r"conchita", "IMSLP: 12 Piezas características Op.92, Casa Dotésio 1912 (earliest dated edition); composed 1888"),
+    ("Op.92", "Barcarola, Ciel sans nuages (12 Piezas Op.92 No.3)", 1912, IN, r"ciel sans nuages", "IMSLP: 12 Piezas características Op.92, Casa Dotésio 1912 (earliest dated edition); composed 1888"),
+    # Pavana-capricho Op.12 (IMSLP First Publication field 1884, no publisher)
+    ("Op.12", "Pavana-capricho Op.12", 1884, IN, r"pavana capricho|pavana-capricho|pavana", "IMSLP: Pavana-capricho Op.12, First Publication 1884 (no publisher named)"),
+    # Not imported: unverified or completed/arranged first editions
+    ("Op.28", "Piano Sonata No.1 Op.28", None, UNV, r"sonata no 1\b|sonata op 28|piano sonata no 1", "IMSLP First Publication '1884??' (uncertain, no publisher); not imported"),
+    ("Op.47", "Navarra (completed by Déodat de Séverac)", 1912, UNV, r"navarra", "IMSLP: Edition Mutuelle 1912, but completed/arranged by Séverac: arrangement, not imported"),
+    ("Op.70", "Rapsodia española Op.70", None, UNV, r"rapsodia espanola|rhapsody espanola|rapsodia espanola", "IMSLP: Romero Madrid 1887 is a two-piano arrangement; piano-solo first publication not confirmed"),
+    ("Op.66", "Rapsodia cubana Op.66", None, UNV, r"rapsodia cubana|rhapsody cubana|cubana", "IMSLP: Almagro undated (about 1895); no first-publication year confirmed"),
+    ("Op.78", "Concierto fantástico Op.78", None, UNV, r"concierto fantastico|fantastic concerto", "Not checked on IMSLP; no first-publication year confirmed"),
+]
+# Chabrier (d.1894, 13 Sep 1894): fully PD everywhere (died 1894), so no publication-year gate; years are kept for the record.
+# LaDoger priority list 2026-10-11: 10 Pièces pittoresques (1881) first, then Bourrée fantasque, Habanera and España. Years
+# from IMSLP "First Publication" fields, checked 2026-10-11 (Enoch / Enoch Frères et Costallat). Operas (Gwendoline,
+# Le roi malgré lui, Briséïs) and the songs are not on this checklist. Two-piano and unverified originals are not imported.
+CHABRIER = [
+    # Pièces pittoresques (Enoch Frères et Costallat, n.d. ca.1881; composed 1880-81). Negative lookahead keeps the
+    # orchestral Suite pastorale movements (Idylle, Danse villageoise, Sous bois, Scherzo-valse) out of these rows.
+    ("Pièces pittoresques", "Paysage (Pièces pittoresques No.1)", 1881, IN, r"paysage", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881); composed 1880-81"),
+    ("Pièces pittoresques", "Mélancolie (Pièces pittoresques No.2)", 1881, IN, r"melancolie", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Tourbillon (Pièces pittoresques No.3)", 1881, IN, r"tourbillon", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Sous-bois (Pièces pittoresques No.4)", 1881, IN, r"^(?!.*pastorale).*sous bois", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Mauresque (Pièces pittoresques No.5)", 1881, IN, r"mauresque", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Idylle (Pièces pittoresques No.6)", 1881, IN, r"^(?!.*pastorale).*idylle", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Danse villageoise (Pièces pittoresques No.7)", 1881, IN, r"^(?!.*pastorale).*danse villageoise", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Improvisation (Pièces pittoresques No.8)", 1881, IN, r"improvisation", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Menuet pompeux (Pièces pittoresques No.9)", 1881, IN, r"menuet pompeux", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    ("Pièces pittoresques", "Scherzo-valse (Pièces pittoresques No.10)", 1881, IN, r"^(?!.*pastorale).*scherzo valse", "IMSLP: Pièces pittoresques, Enoch Frères et Costallat, n.d. (ca.1881)"),
+    # Piano and orchestral works without an opus number
+    ("no opus", "Bourrée fantasque", 1891, IN, r"bouree fantasque|bouree", "IMSLP: piano original, Enoch 1891 (dedicated to Édouard Risler); composed 1891; Mottl's orchestration (1898) is not the first edition"),
+    ("no opus", "Habanera (piano)", 1885, IN, r"habanera", "IMSLP: piano, Enoch Frères et Costallat, Paris 1885; composed 1885"),
+    ("no opus", "España (rhapsody)", 1884, IN, r"\bespana\b", "IMSLP: orchestra, Enoch 1884 (IMSLP page; composed 1883, premiered Nov 1883)"),
+    ("no opus", "Joyeuse marche", 1890, IN, r"joyeuse marche", "IMSLP: orchestra, Enoch Frères et Costallat, n.d.[1890] (bracketed estimate); orchestration 1888"),
+    ("no opus", "Suite pastorale", 1896, IN, r"suite pastorale", "IMSLP: orchestra, Enoch & Cie, Paris 1896; composed 1888; movements Idylle, Danse villageoise, Sous bois, Scherzo-valse"),
+    # Not imported: two-piano first edition, or IMSLP page not reached
+    ("no opus", "Trois valses romantiques (two pianos)", 1883, UNV, r"valses romantiques", "IMSLP: two-piano first edition, Enoch 1883 (dedicated to Mme G. Costallat); two-piano originals not imported"),
+    ("no opus", "Danse slave", None, UNV, r"danse slave", "IMSLP page not reached (404 under this title); not confirmed"),
+    ("no opus", "Fête polonaise (Le roi malgré lui)", None, UNV, r"fete polonaise", "IMSLP page not reached (404 under this title); operatic extract; not confirmed"),
+]
+
 COMPOSERS = {
+    "chabrier": {
+        "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
+        "catalogue": "no opus numbers (works by title); Pièces pittoresques set", "rows": CHABRIER,
+        "prefix": "chabrier", "genre": "classical", "era": "Late Romantic (French)",
+        "scope_note": "Fully PD (died 1894): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: 10 Pièces pittoresques (1881) first, then Bourrée fantasque, Habanera and España rhapsody, then Joyeuse marche and Suite pastorale. Operas, songs and the two-piano Trois valses romantiques are not imported; Danse slave and Fête polonaise are unverified.",
+    },
+    "albeniz": {
+        "name": "Isaac Albéniz", "canon": "isaac albeniz", "death": 1909, "birth": 1860,
+        "catalogue": "Op. (Albéniz's opus numbers) and the Iberia book labels", "rows": ALBENIZ,
+        "prefix": "albeniz", "genre": "classical", "era": "Late Romantic / early modern (Spanish)",
+        "scope_note": "Fully PD (died 1909): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: Iberia (all 4 books, 12 pieces) first, then Suite española Op.47 and España Op.165, then the Chants d'Espagne Op.232, Mallorca Op.202, Recuerdos de viaje Op.71, 12 Piezas característiques Op.92 and Pavana-capricho Op.12. Principal works for video; not the full catalogue (operas Pepita Jiménez, Henry Clifford and Merlin, the songs and the Rapsodia española, Concierto fantástico and Navarra are not imported). Works with no confirmed first-publication year or a completed/arranged first edition are unverified and not imported.",
+    },
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
         "catalogue": "Marnat M. (1-86, A-series arrangements)", "rows": RAVEL,

@@ -51,6 +51,8 @@ NAME_RX = {
     "bartok": r"bart[oó]k",
     "falla": r"\bfalla\b",
     "granados": r"\benrique granados\b|\bgranados enrique\b",
+    "albeniz": r"\balbeniz|\balbenez|\balbenis|\balbeniz isaac|\bisaac albeniz",  # PDMX spellings (accents folded by norm())
+    "chabrier": r"\bchabrier\b",  # PDMX/Mutopia: "Emmanuel Chabrier", "E. Chabrier", "ChabrierEA" (accents folded by norm())
     "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
     "lyadov": r"\blyadov\b|\bliadov\b",
     "lyapunov": r"\b(?:lyapunov|liapunov|liapounov|lyapounov|liapunow|lyapunow|liapounow)",  # PDMX: "Liapounow", "LiapounowOp.8"
@@ -180,7 +182,9 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
         "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34",
         "Op.5", "Op.14",  # Roussel piano sets (Rustiques, Suite)
-        "BV 249", "BV 267"}  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)  # Szymanowski piano sets (multi-piece opus numbers)
+        "BV 249", "BV 267",  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)
+        "Iberia Bk.1", "Iberia Bk.2", "Iberia Bk.3", "Iberia Bk.4", "Op.47", "Op.71", "Op.92", "Op.165", "Op.232",
+        "Pièces pittoresques"}  # Chabrier Pièces pittoresques (10 pieces)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"
