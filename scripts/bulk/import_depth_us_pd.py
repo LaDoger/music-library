@@ -83,6 +83,11 @@ NAME_RX = {
     "liszt": r"\bliszt\b",  # PDMX/Commons/Mutopia: "Franz Liszt", "F. Liszt", "Liszt Franz"
     "reger": r"\breger\b",  # PDMX/Mutopia: "Max Reger", "M. Reger", "Reger Max" (accents folded by norm())
     "milhaud": r"\bmilhaud\b",  # PDMX: "Darius Milhaud", "D. Milhaud", "Milhaud Darius"
+    "pierne": r"\bpierne\b",  # PDMX/IMSLP: "Gabriel Pierné", "G. Pierne", "Pierne Gabriel" (accents folded by norm())
+    "bonis": r"\bbonis\b",  # PDMX/Mutopia/IMSLP: "Mel Bonis", "M. Bonis", "Bonis Mel" (accents folded by norm())
+    "severac": r"\bseverac\b",  # PDMX/Mutopia: "Déodat de Séverac", "D. de Severac" (accents folded by norm())
+    "hahn": r"\breynaldo hahn\b|\bhahn reynaldo\b|\br\.? hahn\b",  # PDMX: "Reynaldo Hahn", "R. Hahn", "Hahn Reynaldo" (norm() folds accents)
+    "villa_lobos": r"\bvilla\W?lobos\b",  # PDMX/Mutopia: "Heitor Villa-Lobos", "H. Villa Lobos", "Villa-Lobos Heitor" (norm() folds accents)
     "nazareth": r"\bnazar[eé]th\b|\bnazare\b",  # PDMX: "Ernesto Nazareth", "E. Nazaré", "Nazareth Ernesto" (accents folded by norm())
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
@@ -192,6 +197,9 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
         "Op.25 / 66", "Op.67", "Op.78",  # Milhaud piano sets (Printemps, Saudades do Brasil, Rag-Caprices: file titles kept)
+        "En Languedoc", "Cerdana", "En vacances",  # Séverac piano sets (file titles kept)
+        "IRH 71", "IRH 74", "IRH 84", "IRH 114", "IRH 31", "IRH 16", "IRH 89", "IRH 94", "IRH 102",  # Hahn: IMSLP IRH numbers; sets kept as file titles
+        "W180", "W210", "W220", "W134", "W195", "W117", "W085",  # Villa-Lobos sets (Prole do Bebê No.2, Cirandinhas, Cirandas, Simples coletânea, Suite for voice and violin, Suíte floral, Danças africanas)
         "Op.9", "Op.41", "Op.57",  # Lyadov piano sets (2 morceaux, 2 fugues, 3 morceaux; file titles kept)
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)

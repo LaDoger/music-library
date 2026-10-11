@@ -696,6 +696,61 @@
     "milhaud darius"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Printemps 1920-21, Saudades do Brasil piano 1922, 3 Rag-Caprices 1923, Piano Sonata No.1 1920, Mazurka 1920, Le boeuf sur le toit 1920, Caramel mou 1921, Le printemps Op.18 1921, Cinema-fantaisie 1921, Sonata Op.47 1923, Sonatina Op.76 1923, String Quartets 4 and 6, Symphonie de chambre No.4, Les Choephores 1926, Machines agricoles 1926, La creation du monde 1923, Protee 1922, Suite symphonique No.1). Scaramouche (1937) and all 1931+ works excluded. Checklist: scripts/bulk/catalogue_data.py MILHAUD. Death ceiling 1974: schema.py US_PD_ONLY_MAX_DEATH."
+  },
+  {
+   "canon": "heitor villa lobos",
+   "name": "Heitor Villa-Lobos",
+   "birth": 1887,
+   "death": 1959,
+   "prefix": "villa_lobos",
+   "aliases": [
+    "heitor villa lobos",
+    "h villa lobos",
+    "villa lobos heitor",
+    "villa-lobos"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Danças características africanas c.1920, Suíte floral c.1920, Prole do Bebê No.2 1927, Cirandinhas 1925, Cirandas 1926, Simples coletânea 1922, A lenda do caboclo piano 1920, Chôros No.5 1925, Rudepoêma 1928, Chôros Nos.1-4, 7, 8, 10 1920-28, Suite for voice and violin 1925). Momoprecoce (1934), Bachianas Brasileiras No.1 (1948) and Chôros No.9 (1987) excluded. Checklist: scripts/bulk/catalogue_data.py VILLA_LOBOS. Death ceiling 1959: schema.py US_PD_ONLY_MAX_DEATH."
+  },
+  {
+   "canon": "reynaldo hahn",
+   "name": "Reynaldo Hahn",
+   "birth": 1874,
+   "death": 1947,
+   "prefix": "hahn",
+   "aliases": [
+    "reynaldo hahn",
+    "r hahn",
+    "hahn reynaldo"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Portraits de peintres 1896, Premieres valses 1898, Sonatine 1907, Le rossignol eperdu 1912, Reverie pour piano 1910, 2 Etudes 1927, 7 Chansons grises 1891, Si mes vers avaient des ailes 1895, A Chloris 1913, Quand je fus pris au pavillon 1899, Violin Sonata 1927, Piano Quintet 1923). Divertissement (1931), Concerto provencal (1945), String Quartets 1-2 and Piano Quartet (1939-46) excluded. Checklist: scripts/bulk/catalogue_data.py HAHN. Death 1947 is inside the default US_PD_ONLY_MAX_DEATH ceiling (1955)."
+  },
+  {
+   "canon": "mel bonis",
+   "name": "Mel Bonis",
+   "birth": 1858,
+   "death": 1937,
+   "prefix": "bonis",
+   "aliases": [
+    "mel bonis",
+    "m bonis",
+    "bonis mel",
+    "melanie helene bonis"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Femmes de legende: Melisande 1925, Salome 1909, Omphale 1910; Scenes enfantines 1912; 17 Pieces enfantines 1926; Marionnettes 1899; Pensees d'automne 1894; Tambours et clairons 1901; Suite orientale 1900; Ballade 1897; Carillon mystique 1898; Scherzo 1898; Serenade 1899; Viennoise 1893; Pres du ruisseau 1894; Bouree 1904; Largo attribue a Haendel 1904; Pavane 1909; Sarabande 1909; Variations 1901; Le chat sur le toit 1926; Boston-valse 1929; Suite en forme de valses 1898; Flute Sonata 1904; Cello Sonata 1905; Piano Quartet No.2 1927). Works without a verified first-publication year (Album pour les tout-petits, Narcisse, Viviane, Desdemona, Ariel, Violin Sonata, songs) and post-1930 works are not imported. Checklist: scripts/bulk/catalogue_data.py BONIS. Death 1937 is inside the default US_PD_ONLY_MAX_DEATH ceiling (1955)."
+  },
+  {
+   "canon": "gabriel pierne",
+   "name": "Gabriel Pierné",
+   "birth": 1863,
+   "death": 1937,
+   "prefix": "pierne",
+   "aliases": [
+    "gabriel pierne",
+    "g pierne",
+    "pierne gabriel",
+    "henri constant gabriel pierne"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Album pour mes petits amis Op.14 1887 incl. Marche des petits soldats de plomb; 15 Pieces Op.3 1884; Variations Op.42 1919; Etude de concert Op.13 1887; Improvisata Op.22 1889; Reverie Op.20 1889; Piano Concerto Op.12 1887; Suite d'orchestre No.1 Op.11 1890; Violin Sonata Op.36 1901; Piano Quintet Op.41 1919; Piano Trio Op.45 1922; Paysages franciscains Op.43 1920; Sonata da camera Op.48 1927; Cydalise 1923). Post-1930 works (Passacaille Op.52, Variations libres Op.51, Prelude de concert Op.53, Divertissement Op.49, Viennoise Op.49bis) and works without a verified first-publication year are not imported. Checklist: scripts/bulk/catalogue_data.py PIERNE. Death 1937 is inside the default US_PD_ONLY_MAX_DEATH ceiling (1955)."
   }
  ]
 }
