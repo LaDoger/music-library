@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+"""MIDI -> editable MusicXML reconstruction (MusicBot). Piano: hand split, key-aware spelling,
+quantize (16ths + triplets), pickup detection, makeNotation (beams/ties/tuplets), sanity checks."""
+import sys,json,copy,mido
+from music21 import converter,stream,instrument,clef,key,pitch,meter,note,chord,metadata
+def midi_notes(p):
+    mf=mido.MidiFile(p);n=0
+    for t in mf.tracks:
+        for m in t:
+            if m.type=='note_on' and m.velocity:n+=1
+    return n
+CHROM={'major':{1:'A1',3:'m3',6:'A4',8:'m6',10:'m7'},'minor':{1:'m2',4:'M3',6:'A4',9:'M6',11:'M7'}}
+def respell(s,k):
+    from music21 import interval
+    t=pitch.Pitch(k.tonic.name)
+    sc={p.name for p in k.getScale(k.mode).getPitches()}|{t.transpose(iv).name for iv in CHROM.get(k.mode,{}).values()}
+    for n in s.recurse().notes:
+        for p in n.pitches:
+            p.spellingIsInferred=False
+            if p.name in sc: continue
+            for e in (p.getEnharmonic(),p.getHigherEnharmonic(),p.getLowerEnharmonic()):
+                if e and e.name in sc and abs(e.alter)<=1: p.name=e.name;p.octave=e.octave;break
+            else:
+                if k.sharps<0 and p.accidental and p.accidental.name=='sharp': e=p.getEnharmonic();p.name=e.name;p.octave=e.octave
+def convert(mid,out,title='',composer=''):
+    s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3))
+    parts=[p for p in s.parts if p.recurse().notes]
+    if len(parts)==1:
+        flat=parts[0].flatten().notes; rh=stream.Part();lh=stream.Part()
+        for n in flat:
+            ps=[p.midi for p in n.pitches]; hi=[p for p in n.pitches if p.midi>=60]; lo=[p for p in n.pitches if p.midi<60]
+            for tgt,pl in ((rh,hi),(lh,lo)):
+                if pl:
+                    m=(note.Note(pl[0]) if len(pl)==1 else chord.Chord(pl)); m.duration=copy.deepcopy(n.duration); tgt.insert(n.offset,m)
+        parts=[rh,lh]
+    elif len(parts)>2:
+        parts=sorted(parts,key=lambda p:-sum(x.pitches[0].midi for x in p.recurse().notes)/max(1,len(p.recurse().notes)))
+    ts=s.recurse().getElementsByClass(meter.TimeSignature)
+    ts=ts[0] if ts else meter.TimeSignature('4/4')
+    k=s.analyze('key'); k=key.Key(k.tonic.name,k.mode)
+    if k.sharps>6 or (k.sharps==6 and k.mode=='major'): k=key.Key(k.tonic.getEnharmonic().name,k.mode)
+    if k.sharps<-6: k=key.Key(k.tonic.getEnharmonic().name,k.mode)
+    bar=ts.barDuration.quarterLength; allnotes=[n for p in parts for n in p.flatten().notes]
+    firsts=sorted(min((n.offset for n in p.flatten().notes),default=0) for p in parts)
+    shift=0.0
+    lag=firsts[-1]%bar if len(firsts)>=2 else 0
+    if len(firsts)>=2 and firsts[0]==0 and lag>=4/ts.denominator-1e-6 and firsts[-1]<2*bar: shift=(bar-lag)%bar
+    sc=stream.Score();sc.metadata=metadata.Metadata(title=title,composer=composer)
+    for i,p in enumerate(parts[:2] if len(parts)<=2 else parts):
+        np_=stream.Part();np_.insert(0,instrument.Piano() if len(parts)<=2 else instrument.Instrument())
+        np_.insert(0,copy.deepcopy(ts));np_.insert(0,key.KeySignature(k.sharps))
+        np_.insert(0,clef.TrebleClef() if i==0 else clef.BassClef())
+        for n in p.flatten().notesAndRests:
+            if n.isRest: continue
+            np_.insert(n.offset+shift,copy.deepcopy(n))
+        sc.insert(0,np_)
+    respell(sc,k)
+    sc=sc.makeNotation()
+    if shift:
+        for p in sc.parts:
+            m=p.getElementsByClass(stream.Measure)[0]
+            conts=[m]+list(m.voices)
+            for c in conts:
+                for r in list(c.getElementsByClass(note.Rest)):
+                    if c.elementOffset(r)+r.quarterLength<=shift+1e-6: c.remove(r)
+                for e in list(c.notesAndRests): c.setElementOffset(e,c.elementOffset(e)-shift)
+            m.paddingLeft=shift; m.number=0
+    for p in sc.parts:
+        for m in p.getElementsByClass(stream.Measure):
+            vs=list(m.voices)
+            for v in vs[1:]:
+                for r in v.getElementsByClass(note.Rest): r.style.hideObjectOnPrint=True
+    sc.write('mxl' if out.endswith('.mxl') else 'musicxml',fp=out)
+    # sanity
+    back=converter.parse(out); bad=0
+    for p in back.parts:
+        for m in p.getElementsByClass(stream.Measure):
+            if m.number>0 and abs(m.duration.quarterLength-m.barDuration.quarterLength)>1e-6 and m is not p.getElementsByClass(stream.Measure)[-1]: bad+=1
+    xn=sum(len(n.pitches) for n in back.recurse().notes if not (n.tie and n.tie.type in('stop','continue')))
+    mn=midi_notes(mid)
+    return dict(pickup=shift,key=str(k),ts=ts.ratioString,parts=len(back.parts),measures=len(back.parts[0].getElementsByClass(stream.Measure)),
+                midi_notes=mn,xml_notes=xn,note_match=round(xn/max(1,mn),3),bad_bars=bad)
+if __name__=='__main__':
+    print(json.dumps(convert(*sys.argv[1:3],*(sys.argv[3:5]))))

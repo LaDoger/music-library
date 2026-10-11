@@ -517,6 +517,11 @@ def build():
             item["analysis_tags"] = bundle.get("tags", [])
             item["analysis_quarter_range"] = meta["quarter_range"]
 
+    # Editable scores rebuilt from MIDI by scripts/midi2score (MusicBot).
+    for item in out:
+        if not item.get("score_method") and any(f.endswith("_reconstructed.mxl") for f in item.get("score_files") or []):
+            item["score_method"] = "Reconstructed from MIDI"
+
     missing_picks = sorted(set(picks) - {o["id"] for o in out})
     if missing_picks:
         problems.append(f"editor's picks not in CSV: {missing_picks}")

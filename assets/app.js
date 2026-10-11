@@ -239,8 +239,11 @@
     const tip = "US public domain only — may be copyrighted elsewhere, including EU/Poland. Work published before 1931.";
     return `<span class="badge b-us-pd" title="${esc(tip)}">US public domain only</span>`;
   };
-  const ocrBadge = (r) => (r.score_method || "").startsWith("OCR")
-    ? `<span class="badge b-ocr" title="Score read by optical music recognition from a public-domain scan and corrected: bar counts and rhythms checked, but it may contain wrong notes.">OCR draft · may contain wrong notes</span>` : "";
+  const ocrBadge = (r) => ((r.score_method || "").startsWith("OCR")
+    ? `<span class="badge b-ocr" title="Score read by optical music recognition from a public-domain scan and corrected: bar counts and rhythms checked, but it may contain wrong notes.">OCR draft · may contain wrong notes</span>`
+    : (r.score_method || "").startsWith("Reconstructed")
+    ? `<span class="badge b-ocr" title="Editable score rebuilt automatically from the MIDI file: every note matches the MIDI, but spelling, voicing, pickups and beaming are machine guesses.">Score reconstructed from MIDI</span>` : "")
+    + (r.analysis_url ? `<span class="badge b-ocr" title="Chord and form analysis drafted by script and checked by a model; not an expert edition.">analysis: draft</span>` : "");
   const subStatus = (r) => {
     const parts = [];
     if (r.recording_status) parts.push(`rec <b>${esc(LICENCE[r.recording_status][0])}</b>`);
