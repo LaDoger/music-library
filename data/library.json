@@ -6792,7 +6792,8 @@
   "score_url": "files/scores/bach_bwv649_ach_bleib_bei_uns.mid",
   "score_files": [
    "files/scores/bach_bwv649_ach_bleib_bei_uns.ly",
-   "files/scores/bach_bwv649_ach_bleib_bei_uns.mid"
+   "files/scores/bach_bwv649_ach_bleib_bei_uns.mid",
+   "files/scores/bach_bwv649_ach_bleib_bei_uns_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "flowing",
@@ -6814,7 +6815,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv649_ach_bleib_bei_uns.mid",
   "other_editions": [],
-  "search_text": "schübler chorale: ach bleib bei uns, herr jesu christ johann sebastian bach bwv 649 bwv 649 bwv649  bach bwv649 ach bleib bei uns flowing elegant warm classical baroque  bach, johann sebastian"
+  "search_text": "schübler chorale: ach bleib bei uns, herr jesu christ johann sebastian bach bwv 649 bwv 649 bwv649  bach bwv649 ach bleib bei uns flowing elegant warm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv650_kommst_du_nun",
@@ -7044,7 +7046,8 @@
   "score_url": "files/scores/bach_bwv654_schmucke_dich.mid",
   "score_files": [
    "files/scores/bach_bwv654_schmucke_dich.ly",
-   "files/scores/bach_bwv654_schmucke_dich.mid"
+   "files/scores/bach_bwv654_schmucke_dich.mid",
+   "files/scores/bach_bwv654_schmucke_dich_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -7066,7 +7069,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv654_schmucke_dich.mid",
   "other_editions": [],
-  "search_text": "leipzig chorale: schmücke dich, o liebe seele johann sebastian bach bwv 654 bwv 654 bwv654  bach bwv654 schmucke dich calm elegant romantic classical baroque  bach, johann sebastian"
+  "search_text": "leipzig chorale: schmücke dich, o liebe seele johann sebastian bach bwv 654 bwv 654 bwv654  bach bwv654 schmucke dich calm elegant romantic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv657_nun_danket",
@@ -14082,7 +14086,8 @@
   "score_url": "files/scores/bach_bwv1043_2_largo.mid",
   "score_files": [
    "files/scores/bach_bwv1043_2_largo.mid",
-   "files/scores/bach_bwv1043_2_largo_lilypond.zip"
+   "files/scores/bach_bwv1043_2_largo_lilypond.zip",
+   "files/scores/bach_bwv1043_2_largo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -14104,7 +14109,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1043_2_largo.mid",
   "other_editions": [],
-  "search_text": "concerto for two violins in d minor: ii. largo ma non tanto johann sebastian bach bwv 1043 bwv 1043 bwv1043 ii. largo ma non tanto bach bwv1043 2 largo tender calm romantic classical baroque  bach, johann sebastian"
+  "search_text": "concerto for two violins in d minor: ii. largo ma non tanto johann sebastian bach bwv 1043 bwv 1043 bwv1043 ii. largo ma non tanto bach bwv1043 2 largo tender calm romantic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1043_3_allegro",
@@ -324793,7 +324799,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv649_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv649_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv649_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv649_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -324814,7 +324821,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv649_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "ach bleib bei uns, herr jesu christ johann sebastian bach bwv 649 bwv 649 bwv649 à 2 clav. e pedale bach bwv649 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "ach bleib bei uns, herr jesu christ johann sebastian bach bwv 649 bwv 649 bwv649 à 2 clav. e pedale bach bwv649 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv653_a_2_clav_e_pedale",
@@ -324925,7 +324933,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv654_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv654_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv654_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv654_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -324946,7 +324955,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv654_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "schmücke dich, o liebe seele johann sebastian bach bwv 654 bwv 654 bwv654 a 2 clav. e pedale bach bwv654 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "schmücke dich, o liebe seele johann sebastian bach bwv 654 bwv 654 bwv654 a 2 clav. e pedale bach bwv654 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv659_j_s_bach_choralvorspiel_nun",
