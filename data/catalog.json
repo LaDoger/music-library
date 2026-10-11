@@ -84677,7 +84677,32 @@
    "release_audio_url": "",
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/chopin_op28_funeral_march.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/chopin_op28_funeral_march.json"
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/chopin_op28_funeral_march.json",
+   "analysis_url": "https://ladoger.github.io/music-library/files/analysis/chopin_op28_funeral_march/chopin_op28_funeral_march.analysis.json",
+   "annotated_score_url": "https://ladoger.github.io/music-library/files/analysis/chopin_op28_funeral_march/chopin_op28_funeral_march.annotated.musicxml",
+   "analysis_tags": [
+    "bass_line:chromatic",
+    "bass_line:stepwise_descent",
+    "cadence:HC",
+    "cadence:IAC",
+    "cadence:PAC",
+    "cadence:tonic_close",
+    "colour_chord:aug6_french",
+    "colour_chord:neapolitan",
+    "form:coda",
+    "form:theme_1",
+    "form:theme_2",
+    "hook:harmonic_cell",
+    "modulation:direct_phrase_modulation",
+    "motif:repetition",
+    "rhythm_phrase:phrase_length",
+    "story:arrival",
+    "story:continuation",
+    "story:start",
+    "story:turn",
+    "tension_release:appoggiatura",
+    "voicing_orchestration:register_high_shift"
+   ]
   },
   {
    "id": "chopin_op28_suffocation",
