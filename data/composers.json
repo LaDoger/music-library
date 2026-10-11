@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 13,
-  "score_count": 13,
+  "piece_count": 20,
+  "score_count": 20,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2896,7 +2896,14 @@
    "bartok_sz38_14_bagatelles_4",
    "bartok_sz71_15_hungarian_peasant_songs_6",
    "bartok_sz38_14_bagatelles_5",
-   "bartok_sz38_14_bagatelles_6"
+   "bartok_sz38_14_bagatelles_6",
+   "bartok_sz38_14_bagatelles_7",
+   "bartok_sz38_14_bagatelles_8",
+   "bartok_sz71_15_hungarian_peasant_songs_1",
+   "bartok_sz71_15_hungarian_peasant_songs_2",
+   "bartok_sz71_15_hungarian_peasant_songs_3",
+   "bartok_sz71_15_hungarian_peasant_songs_4",
+   "bartok_sz71_15_hungarian_peasant_songs_7"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -6724,8 +6731,8 @@
    "classical"
   ],
   "featured_rank": 2,
-  "piece_count": 42,
-  "score_count": 42,
+  "piece_count": 50,
+  "score_count": 50,
   "recording_count": 0,
   "piece_ids": [
    "faure_apres_un_reve",
@@ -6769,7 +6776,15 @@
    "faure_op7_no_3_barcarolle",
    "faure_op7_no_2_hymne",
    "faure_op83_no_1_prison",
-   "faure_op24_gabriel_faure_elegie_op_24_f"
+   "faure_op24_gabriel_faure_elegie_op_24_f",
+   "faure_op_7_no_1_apres_un_reve_song",
+   "faure_op_56_faure_dolly_suite_no_1_berceuse",
+   "faure_op_56_faure_dolly_suite_no_2_mi_a_ou",
+   "faure_op_56_faure_dolly_suite_no_6_le_pas_espagnol",
+   "faure_op_56_faure_dolly_suite_no_4_kitty_valse",
+   "faure_op_56_faure_dolly_suite_no_5_tendresse",
+   "faure_op_50_pavane_chorus_and_orchestra_or_pianob3",
+   "faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly"
   ],
   "wikidata": "Q104919",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Faur%C3%A9Pirou1905.jpg/330px-Faur%C3%A9Pirou1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
