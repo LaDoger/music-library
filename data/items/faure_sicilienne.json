@@ -36,7 +36,8 @@
  "preview_url": "",
  "score_url": "files/scores/faure_sicilienne.mid",
  "score_files": [
-  "files/scores/faure_sicilienne.mid"
+  "files/scores/faure_sicilienne.mid",
+  "files/scores/faure_sicilienne_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "elegant",
@@ -58,6 +59,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/faure_sicilienne.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_sicilienne",
@@ -65,7 +67,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid"
+  "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid",
+  "https://ladoger.github.io/music-library/files/scores/faure_sicilienne_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_sicilienne.mid",
  "render_midi": {

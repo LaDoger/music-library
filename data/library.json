@@ -1418,7 +1418,8 @@
   "score_url": "files/scores/dvorak_new_world-lys.zip",
   "score_files": [
    "files/scores/dvorak_new_world-lys.zip",
-   "files/scores/dvorak_new_world-mids.zip"
+   "files/scores/dvorak_new_world-mids.zip",
+   "files/scores/dvorak_new_world_largo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "epic",
@@ -1443,7 +1444,8 @@
   "duration_s": 702.89,
   "midi_play_url": "files/midi_play/dvorak_new_world_finale.mid",
   "other_editions": [],
-  "search_text": "symphony no. 9 'from the new world' - finale antonín dvořák op. 95 op 95 op. 95 op95 iv. allegro con fuoco dvorak new world finale epic driving heroic dramatic classical romantic musopen (performers not named) dvořák, antonín"
+  "search_text": "symphony no. 9 'from the new world' - finale antonín dvořák op. 95 op 95 op. 95 op95 iv. allegro con fuoco dvorak new world finale epic driving heroic dramatic classical romantic musopen (performers not named) dvořák, antonín",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "dvorak_new_world_largo",
@@ -1484,7 +1486,8 @@
   "score_url": "files/scores/dvorak_new_world-lys.zip",
   "score_files": [
    "files/scores/dvorak_new_world-lys.zip",
-   "files/scores/dvorak_new_world-mids.zip"
+   "files/scores/dvorak_new_world-mids.zip",
+   "files/scores/dvorak_new_world_largo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -1509,7 +1512,8 @@
   "duration_s": 694.46,
   "midi_play_url": "files/midi_play/dvorak_new_world_largo.mid",
   "other_editions": [],
-  "search_text": "symphony no. 9 'from the new world' - largo antonín dvořák op. 95 op 95 op. 95 op95 ii. largo dvorak new world largo calm nostalgic solemn homeward classical romantic musopen (performers not named) dvořák, antonín"
+  "search_text": "symphony no. 9 'from the new world' - largo antonín dvořák op. 95 op 95 op. 95 op95 ii. largo dvorak new world largo calm nostalgic solemn homeward classical romantic musopen (performers not named) dvořák, antonín",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_pomp_circumstance_1",
@@ -1710,7 +1714,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_pavane.mid",
   "score_files": [
-   "files/scores/faure_pavane.mid"
+   "files/scores/faure_pavane.mid",
+   "files/scores/faure_pavane_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -1734,7 +1739,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_pavane.mid",
   "other_editions": [],
-  "search_text": "pavane gabriel fauré op.50 op 50 op.50 op50  faure pavane elegant wistful processional classical late romantic / early 20th  fauré, gabriel"
+  "search_text": "pavane gabriel fauré op.50 op 50 op.50 op50  faure pavane elegant wistful processional classical late romantic / early 20th  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_sicilienne",
@@ -1774,7 +1780,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_sicilienne.mid",
   "score_files": [
-   "files/scores/faure_sicilienne.mid"
+   "files/scores/faure_sicilienne.mid",
+   "files/scores/faure_sicilienne_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -1796,7 +1803,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_sicilienne.mid",
   "other_editions": [],
-  "search_text": "sicilienne gabriel fauré op.78 op 78 op.78 op78  faure sicilienne elegant pastoral gentle classical late romantic / early 20th  fauré, gabriel"
+  "search_text": "sicilienne gabriel fauré op.78 op 78 op.78 op78  faure sicilienne elegant pastoral gentle classical late romantic / early 20th  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_peer_gynt_morning_mood",
@@ -2028,7 +2036,8 @@
   "score_files": [
    "files/scores/handel_hwv56_hallelujah.mid",
    "files/scores/handel_hwv56_hallelujah_lilypond.zip",
-   "files/scores/handel_hwv56_hallelujah_midi.zip"
+   "files/scores/handel_hwv56_hallelujah_midi.zip",
+   "files/scores/handel_hwv56_hallelujah_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "triumphant",
@@ -2052,7 +2061,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_hwv56_hallelujah.mid",
   "other_editions": [],
-  "search_text": "messiah: hallelujah chorus george frideric handel hwv 56 hwv 56 hwv56 hallelujah handel hwv56 hallelujah triumphant epic celebratory classical baroque  handel, george frideric"
+  "search_text": "messiah: hallelujah chorus george frideric handel hwv 56 hwv 56 hwv56 hallelujah handel hwv56 hallelujah triumphant epic celebratory classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_planets_jupiter",
@@ -3938,7 +3948,8 @@
   "score_url": "files/scores/schubert_d328_erlkonig.mid",
   "score_files": [
    "files/scores/schubert_d328_erlkonig.ly",
-   "files/scores/schubert_d328_erlkonig.mid"
+   "files/scores/schubert_d328_erlkonig.mid",
+   "files/scores/schubert_d328_erlkonig_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -3960,7 +3971,8 @@
   "duration_s": 247.04,
   "midi_play_url": "files/scores/schubert_d328_erlkonig.mid",
   "other_editions": [],
-  "search_text": "erlkönig franz schubert d. 328; op. 1 d 328; op 1 d. 328; op. 1 d328;op1 song schubert d328 erlkonig dramatic urgent dark classical romantic michael jackson (as credited on source page) schubert, franz"
+  "search_text": "erlkönig franz schubert d. 328; op. 1 d 328; op 1 d. 328; op. 1 d328;op1 song schubert d328 erlkonig dramatic urgent dark classical romantic michael jackson (as credited on source page) schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15_7_traumerei",
@@ -21471,7 +21483,8 @@
   "score_url": "files/scores/reger_op42_2_ii.mid",
   "score_files": [
    "files/scores/reger_op42_2_ii-lys.zip",
-   "files/scores/reger_op42_2_ii.mid"
+   "files/scores/reger_op42_2_ii.mid",
+   "files/scores/reger_op42_2_ii_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "inward",
@@ -21493,7 +21506,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/reger_op42_2_ii.mid",
   "other_editions": [],
-  "search_text": "sonata no. 2 for unaccompanied violin max reger op. 42 no. 2 op 42 no 2 op. 42 no. 2 op42no2 ii reger op42 2 ii inward solo swaying classical late romantic / early 20th  reger, max"
+  "search_text": "sonata no. 2 for unaccompanied violin max reger op. 42 no. 2 op 42 no 2 op. 42 no. 2 op42no2 ii reger op42 2 ii inward solo swaying classical late romantic / early 20th  reger, max",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "reger_op42_2_iii",
@@ -21660,7 +21674,8 @@
   "score_url": "files/scores/reger_op42_3_ii.mid",
   "score_files": [
    "files/scores/reger_op42_3_ii-lys.zip",
-   "files/scores/reger_op42_3_ii.mid"
+   "files/scores/reger_op42_3_ii.mid",
+   "files/scores/reger_op42_3_ii_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lyrical",
@@ -21682,7 +21697,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/reger_op42_3_ii.mid",
   "other_editions": [],
-  "search_text": "sonata no. 3 for unaccompanied violin max reger op. 42 no. 3 op 42 no 3 op. 42 no. 3 op42no3 ii reger op42 3 ii lyrical solo inward classical late romantic / early 20th  reger, max"
+  "search_text": "sonata no. 3 for unaccompanied violin max reger op. 42 no. 3 op 42 no 3 op. 42 no. 3 op42no3 ii reger op42 3 ii lyrical solo inward classical late romantic / early 20th  reger, max",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "reger_op42_3_iii",
@@ -95618,7 +95634,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_imslp_l_117_no_6_preludes_book_1_des_pas_sur_la.mid",
   "score_files": [
-   "files/scores/debussy_imslp_l_117_no_6_preludes_book_1_des_pas_sur_la.mid"
+   "files/scores/debussy_imslp_l_117_no_6_preludes_book_1_des_pas_sur_la.mid",
+   "files/scores/debussy_imslp_l_117_no_6_preludes_book_1_des_pas_sur_la_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -95638,7 +95655,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_imslp_l_117_no_6_preludes_book_1_des_pas_sur_la.mid",
   "other_editions": [],
-  "search_text": "préludes book 1: des pas sur la neige claude debussy l. 117 no. 6 l 117 no 6 l. 117 no. 6 l117no6 des pas sur la neige debussy imslp l 117 no 6 preludes book 1 des pas sur la intimate classical late romantic / early 20th  debussy, claude"
+  "search_text": "préludes book 1: des pas sur la neige claude debussy l. 117 no. 6 l 117 no 6 l. 117 no. 6 l117no6 des pas sur la neige debussy imslp l 117 no 6 preludes book 1 des pas sur la intimate classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_l66_debussy_premiere_arabesque_l",
@@ -95758,7 +95776,8 @@
   "score_url": "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
   "score_files": [
    "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
-   "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz"
+   "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz",
+   "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -95787,7 +95806,8 @@
     "licence": "CC BY 4.0"
    }
   ],
-  "search_text": "arabesque no. 2 claude debussy l. 66 no. 2 l 66 no 2 l. 66 no. 2 l66no2  debussy imslp l 66 no 2 arabesque no 2 classical lyrical classical late romantic / early 20th  debussy, claude"
+  "search_text": "arabesque no. 2 claude debussy l. 66 no. 2 l 66 no 2 l. 66 no. 2 l66no2  debussy imslp l 66 no 2 arabesque no 2 classical lyrical classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_imslp_l_99_d_un_cahier_d_esquisses",
@@ -95832,7 +95852,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_imslp_l_99_d_un_cahier_d_esquisses.mid",
   "score_files": [
-   "files/scores/debussy_imslp_l_99_d_un_cahier_d_esquisses.mid"
+   "files/scores/debussy_imslp_l_99_d_un_cahier_d_esquisses.mid",
+   "files/scores/debussy_imslp_l_99_d_un_cahier_d_esquisses_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -95853,7 +95874,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_imslp_l_99_d_un_cahier_d_esquisses.mid",
   "other_editions": [],
-  "search_text": "d'un cahier d'esquisses claude debussy l. 99 l 99 l. 99 l99  debussy imslp l 99 d un cahier d esquisses classical lyrical classical late romantic / early 20th  debussy, claude"
+  "search_text": "d'un cahier d'esquisses claude debussy l. 99 l 99 l. 99 l99  debussy imslp l 99 d un cahier d esquisses classical lyrical classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_l96_debussy_musique_de_scene_pou",
@@ -140116,7 +140138,8 @@
   "score_url": "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet.mid",
   "score_files": [
    "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet.mid",
-   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet.mscz"
+   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet.mscz",
+   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -140137,7 +140160,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_imslp_gnossienne_no_1_arr_for_quartet.mid",
   "other_editions": [],
-  "search_text": "gnossienne no. 1 (arr. for quartet) erik satie    satie imslp gnossienne no 1 arr for quartet classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "gnossienne no. 1 (arr. for quartet) erik satie    satie imslp gnossienne no 1 arr for quartet classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_imslp_gnossienne_no_1_arr_for_quintet",
@@ -140183,7 +140207,8 @@
   "score_url": "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet.mid",
   "score_files": [
    "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet.mid",
-   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet.mscz"
+   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet.mscz",
+   "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -140204,7 +140229,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_imslp_gnossienne_no_1_arr_for_quintet.mid",
   "other_editions": [],
-  "search_text": "gnossienne no. 1 (arr. for quintet) erik satie    satie imslp gnossienne no 1 arr for quintet classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "gnossienne no. 1 (arr. for quintet) erik satie    satie imslp gnossienne no 1 arr for quintet classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_erik_satie_gnossienne_no_4",
@@ -141986,7 +142012,8 @@
   "score_url": "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de.mid",
   "score_files": [
    "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de.mid",
-   "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de.mscz"
+   "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de.mscz",
+   "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -142007,7 +142034,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_imslp_messe_des_pauvres_priere_pour_le_salut_de.mid",
   "other_editions": [],
-  "search_text": "messe des pauvres: prière pour le salut de mon âme erik satie   no. 7 satie imslp messe des pauvres priere pour le salut de classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "messe des pauvres: prière pour le salut de mon âme erik satie   no. 7 satie imslp messe des pauvres priere pour le salut de classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_ogive_no_1",
@@ -148498,7 +148526,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_o36_allein_gott_in_der_hoh_sei_e.mid",
   "score_files": [
-   "files/scores/mendelssohn_o36_allein_gott_in_der_hoh_sei_e.mid"
+   "files/scores/mendelssohn_o36_allein_gott_in_der_hoh_sei_e.mid",
+   "files/scores/mendelssohn_o36_allein_gott_in_der_hoh_sei_e_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -148519,7 +148548,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_o36_allein_gott_in_der_hoh_sei_e.mid",
   "other_editions": [],
-  "search_text": "allein gott in der höh sei ehr felix mendelssohn o 36 o 36 o36  mendelssohn o36 allein gott in der hoh sei e classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "allein gott in der höh sei ehr felix mendelssohn o 36 o 36 o36  mendelssohn o36 allein gott in der hoh sei e classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_o36_textit_paulus_oratorio_nr_9",
@@ -148564,7 +148594,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_o36_textit_paulus_oratorio_nr_9.mid",
   "score_files": [
-   "files/scores/mendelssohn_o36_textit_paulus_oratorio_nr_9.mid"
+   "files/scores/mendelssohn_o36_textit_paulus_oratorio_nr_9.mid",
+   "files/scores/mendelssohn_o36_textit_paulus_oratorio_nr_9_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -148585,7 +148616,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_o36_textit_paulus_oratorio_nr_9.mid",
   "other_editions": [],
-  "search_text": "dir, herr, dir will ich mich ergeben felix mendelssohn o 36 o 36 o36 \\\\textit{paulus}, oratorio nr. 9: (recitativ und) choral mendelssohn o36 textit paulus oratorio nr 9 classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "dir, herr, dir will ich mich ergeben felix mendelssohn o 36 o 36 o36 \\\\textit{paulus}, oratorio nr. 9: (recitativ und) choral mendelssohn o36 textit paulus oratorio nr 9 classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op64_violin_concerto_in_e_minor_o",
@@ -149131,7 +149163,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op37_praeludium_und_fuge_c_moll.mid",
   "score_files": [
-   "files/scores/mendelssohn_op37_praeludium_und_fuge_c_moll.mid"
+   "files/scores/mendelssohn_op37_praeludium_und_fuge_c_moll.mid",
+   "files/scores/mendelssohn_op37_praeludium_und_fuge_c_moll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -149151,7 +149184,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op37_praeludium_und_fuge_c_moll.mid",
   "other_editions": [],
-  "search_text": "praeludium und fuge c-moll felix mendelssohn op. 37 op 37 op. 37 op37 praeludium und fuge c-moll mendelssohn op37 praeludium und fuge c moll intimate classical romantic  mendelssohn, felix"
+  "search_text": "praeludium und fuge c-moll felix mendelssohn op. 37 op 37 op. 37 op37 praeludium und fuge c-moll mendelssohn op37 praeludium und fuge c moll intimate classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op39no1_felix_mendelssohn_bartholdy",
@@ -149418,7 +149452,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op47_es_ist_bestimmt_in_gottes_ra.mid",
   "score_files": [
-   "files/scores/mendelssohn_op47_es_ist_bestimmt_in_gottes_ra.mid"
+   "files/scores/mendelssohn_op47_es_ist_bestimmt_in_gottes_ra.mid",
+   "files/scores/mendelssohn_op47_es_ist_bestimmt_in_gottes_ra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -149439,7 +149474,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op47_es_ist_bestimmt_in_gottes_ra.mid",
   "other_editions": [],
-  "search_text": "es ist bestimmt in gottes rat felix mendelssohn op. 47 op 47 op. 47 op47  mendelssohn op47 es ist bestimmt in gottes ra classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "es ist bestimmt in gottes rat felix mendelssohn op. 47 op 47 op. 47 op47  mendelssohn op47 es ist bestimmt in gottes ra classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op48no6_herbstlied_op_48_no_6_felix",
@@ -152508,7 +152544,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op65_final_de_la_sixieme_sonate.mid",
   "score_files": [
-   "files/scores/mendelssohn_op65_final_de_la_sixieme_sonate.mid"
+   "files/scores/mendelssohn_op65_final_de_la_sixieme_sonate.mid",
+   "files/scores/mendelssohn_op65_final_de_la_sixieme_sonate_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -152529,7 +152566,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op65_final_de_la_sixieme_sonate.mid",
   "other_editions": [],
-  "search_text": "final de la sixième sonate felix mendelssohn op65 op 65 op65  mendelssohn op65 final de la sixieme sonate classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "final de la sixième sonate felix mendelssohn op65 op 65 op65  mendelssohn op65 final de la sixieme sonate classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_s102_lied_ohne_worte_opus_102_no",
@@ -155764,7 +155802,8 @@
   "preview_url": "",
   "score_url": "files/scores/sor_s35_no_14_etude.mid",
   "score_files": [
-   "files/scores/sor_s35_no_14_etude.mid"
+   "files/scores/sor_s35_no_14_etude.mid",
+   "files/scores/sor_s35_no_14_etude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -155785,7 +155824,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/sor_s35_no_14_etude.mid",
   "other_editions": [],
-  "search_text": "no. 14: etude fernando sor s 35 s 35 s35  sor s35 no 14 etude classical lyrical classical romantic  sor, fernando"
+  "search_text": "no. 14: etude fernando sor s 35 s 35 s35  sor s35 no 14 etude classical lyrical classical romantic  sor, fernando",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "sor_s6_fernando_sor_opus_6_01_alleg",
@@ -174248,7 +174288,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d706_nach_einer_reinschrift_von_f.mid",
   "score_files": [
-   "files/scores/schubert_d706_nach_einer_reinschrift_von_f.mid"
+   "files/scores/schubert_d706_nach_einer_reinschrift_von_f.mid",
+   "files/scores/schubert_d706_nach_einer_reinschrift_von_f_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -174269,7 +174310,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d706_nach_einer_reinschrift_von_f.mid",
   "other_editions": [],
-  "search_text": "psalm 23 franz schubert d.706 d 706 d.706 d706 (nach einer reinschrift von franz schubert) schubert d706 nach einer reinschrift von f classical lyrical classical romantic  schubert, franz"
+  "search_text": "psalm 23 franz schubert d.706 d 706 d.706 d706 (nach einer reinschrift von franz schubert) schubert d706 nach einer reinschrift von f classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d710_im_gegenwartigen_vergangenes",
@@ -179660,7 +179702,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d962_tantum_ergo.mid",
   "score_files": [
-   "files/scores/schubert_d962_tantum_ergo.mid"
+   "files/scores/schubert_d962_tantum_ergo.mid",
+   "files/scores/schubert_d962_tantum_ergo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -179681,7 +179724,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d962_tantum_ergo.mid",
   "other_editions": [],
-  "search_text": "tantum ergo franz schubert d.962 d 962 d.962 d962  schubert d962 tantum ergo classical lyrical classical romantic  schubert, franz"
+  "search_text": "tantum ergo franz schubert d.962 d 962 d.962 d962  schubert d962 tantum ergo classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d338_an_der_fruhling_d338_franz_s",
@@ -180022,7 +180066,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op1_erlkonig.mid",
   "score_files": [
-   "files/scores/schubert_op1_erlkonig.mid"
+   "files/scores/schubert_op1_erlkonig.mid",
+   "files/scores/schubert_op1_erlkonig_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180043,7 +180088,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op1_erlkonig.mid",
   "other_editions": [],
-  "search_text": "erlkönig franz schubert op. 1 op 1 op. 1 op1  schubert op1 erlkonig classical lyrical classical romantic  schubert, franz"
+  "search_text": "erlkönig franz schubert op. 1 op 1 op. 1 op1  schubert op1 erlkonig classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op100_franz_schubert_piano_trio_in",
@@ -180162,7 +180208,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op14_suleika_1.mid",
   "score_files": [
-   "files/scores/schubert_op14_suleika_1.mid"
+   "files/scores/schubert_op14_suleika_1.mid",
+   "files/scores/schubert_op14_suleika_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180183,7 +180230,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op14_suleika_1.mid",
   "other_editions": [],
-  "search_text": "suleika 1 franz schubert op. 14 op 14 op. 14 op14  schubert op14 suleika 1 classical lyrical classical romantic  schubert, franz"
+  "search_text": "suleika 1 franz schubert op. 14 op 14 op. 14 op14  schubert op14 suleika 1 classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op142_impromptu_in_f_moll",
@@ -180722,7 +180770,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op31_suleika_2.mid",
   "score_files": [
-   "files/scores/schubert_op31_suleika_2.mid"
+   "files/scores/schubert_op31_suleika_2.mid",
+   "files/scores/schubert_op31_suleika_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180743,7 +180792,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op31_suleika_2.mid",
   "other_editions": [],
-  "search_text": "suleika 2 franz schubert op. 31 op 31 op. 31 op31  schubert op31 suleika 2 classical lyrical classical romantic  schubert, franz"
+  "search_text": "suleika 2 franz schubert op. 31 op 31 op. 31 op31  schubert op31 suleika 2 classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op4_der_wanderer",
@@ -181149,7 +181199,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op52_ave_maria_ellens_dritter_ges.mid",
   "score_files": [
-   "files/scores/schubert_op52_ave_maria_ellens_dritter_ges.mid"
+   "files/scores/schubert_op52_ave_maria_ellens_dritter_ges.mid",
+   "files/scores/schubert_op52_ave_maria_ellens_dritter_ges_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -181170,7 +181221,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op52_ave_maria_ellens_dritter_ges.mid",
   "other_editions": [],
-  "search_text": "ave maria (ellens dritter gesang) franz schubert op. 52 op 52 op. 52 op52  schubert op52 ave maria ellens dritter ges classical lyrical classical romantic  schubert, franz"
+  "search_text": "ave maria (ellens dritter gesang) franz schubert op. 52 op 52 op. 52 op52  schubert op52 ave maria ellens dritter ges classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op7_der_tod_und_das_madchen",
@@ -181283,7 +181335,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op72_auf_dem_wasser_zu_singen.mid",
   "score_files": [
-   "files/scores/schubert_op72_auf_dem_wasser_zu_singen.mid"
+   "files/scores/schubert_op72_auf_dem_wasser_zu_singen.mid",
+   "files/scores/schubert_op72_auf_dem_wasser_zu_singen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -181319,7 +181372,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "auf dem wasser zu singen franz schubert op. 72 op 72 op. 72 op72  schubert op72 auf dem wasser zu singen classical lyrical classical romantic  schubert, franz"
+  "search_text": "auf dem wasser zu singen franz schubert op. 72 op 72 op. 72 op72  schubert op72 auf dem wasser zu singen classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op88_an_die_musik",
@@ -181636,7 +181690,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op96_zweite_fassung.mid",
   "score_files": [
-   "files/scores/schubert_op96_zweite_fassung.mid"
+   "files/scores/schubert_op96_zweite_fassung.mid",
+   "files/scores/schubert_op96_zweite_fassung_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -181657,7 +181712,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op96_zweite_fassung.mid",
   "other_editions": [],
-  "search_text": "fischerweise franz schubert op. 96 op 96 op. 96 op96 zweite fassung schubert op96 zweite fassung classical lyrical classical romantic  schubert, franz"
+  "search_text": "fischerweise franz schubert op. 96 op 96 op. 96 op96 zweite fassung schubert op96 zweite fassung classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op96_wanderers_nachtlied_ii_uber",
@@ -193939,7 +193995,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_o78_sicilienne.mid",
   "score_files": [
-   "files/scores/faure_o78_sicilienne.mid"
+   "files/scores/faure_o78_sicilienne.mid",
+   "files/scores/faure_o78_sicilienne_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -193960,7 +194017,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_o78_sicilienne.mid",
   "other_editions": [],
-  "search_text": "sicilienne gabriel fauré o 78 o 78 o78  faure o78 sicilienne classical lyrical classical 20th century  fauré, gabriel"
+  "search_text": "sicilienne gabriel fauré o 78 o 78 o78  faure o78 sicilienne classical lyrical classical 20th century  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_op48_requiem_in_d_minor_op_48_gab",
@@ -194079,7 +194137,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_op56_berceuse.mid",
   "score_files": [
-   "files/scores/faure_op56_berceuse.mid"
+   "files/scores/faure_op56_berceuse.mid",
+   "files/scores/faure_op56_berceuse_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -194100,7 +194159,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_op56_berceuse.mid",
   "other_editions": [],
-  "search_text": "berceuse gabriel fauré op. 56 op 56 op. 56 op56  faure op56 berceuse nocturnal gentle classical 20th century  fauré, gabriel"
+  "search_text": "berceuse gabriel fauré op. 56 op 56 op. 56 op56  faure op56 berceuse nocturnal gentle classical 20th century  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_op65no2_tantum_ergo_op_65_no_2_gabri",
@@ -205013,7 +205073,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_signor_signor_lasciate_far_a.mid",
   "score_files": [
-   "files/scores/handel_signor_signor_lasciate_far_a.mid"
+   "files/scores/handel_signor_signor_lasciate_far_a.mid",
+   "files/scores/handel_signor_signor_lasciate_far_a_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -205034,7 +205095,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_signor_signor_lasciate_far_a.mid",
   "other_editions": [],
-  "search_text": "signor, signor, lasciate far a me (serse) george frideric handel    handel signor signor lasciate far a classical lyrical classical baroque  handel, george frideric"
+  "search_text": "signor, signor, lasciate far a me (serse) george frideric handel    handel signor signor lasciate far a classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_sonate_f_dur_fur_altblockflo",
@@ -207560,7 +207622,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_hwv351_des_feux_d_artifice_royaux.mid",
   "score_files": [
-   "files/scores/handel_hwv351_des_feux_d_artifice_royaux.mid"
+   "files/scores/handel_hwv351_des_feux_d_artifice_royaux.mid",
+   "files/scores/handel_hwv351_des_feux_d_artifice_royaux_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -207581,7 +207644,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_hwv351_des_feux_d_artifice_royaux.mid",
   "other_editions": [],
-  "search_text": "la réjouissance des feux d'artifice royaux (royal fireworks) george frideric handel hwv 351 hwv 351 hwv351 des feux d'artifice royaux handel hwv351 des feux d artifice royaux classical lyrical classical baroque  handel, george frideric"
+  "search_text": "la réjouissance des feux d'artifice royaux (royal fireworks) george frideric handel hwv 351 hwv 351 hwv351 des feux d'artifice royaux handel hwv351 des feux d artifice royaux classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_hwv351_music_for_the_royal_firework",
@@ -340775,7 +340839,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_in_stiller_nacht.mid",
   "score_files": [
-   "files/scores/brahms_in_stiller_nacht.mid"
+   "files/scores/brahms_in_stiller_nacht.mid",
+   "files/scores/brahms_in_stiller_nacht_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -340796,7 +340861,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_in_stiller_nacht.mid",
   "other_editions": [],
-  "search_text": "in stiller nacht johannes brahms    brahms in stiller nacht nocturnal gentle classical romantic  brahms, johannes"
+  "search_text": "in stiller nacht johannes brahms    brahms in stiller nacht nocturnal gentle classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_waldesnacht",
@@ -341427,7 +341493,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_op104_1_nachtwache_i.mid",
   "score_files": [
-   "files/scores/brahms_op104_1_nachtwache_i.mid"
+   "files/scores/brahms_op104_1_nachtwache_i.mid",
+   "files/scores/brahms_op104_1_nachtwache_i_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -341448,7 +341515,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_op104_1_nachtwache_i.mid",
   "other_editions": [],
-  "search_text": "nachtwache 1 johannes brahms op. 104 op 104 op. 104 op104 1 nachtwache i brahms op104 1 nachtwache i nocturnal gentle classical romantic  brahms, johannes"
+  "search_text": "nachtwache 1 johannes brahms op. 104 op 104 op. 104 op104 1 nachtwache i brahms op104 1 nachtwache i nocturnal gentle classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_op104no2_nachtwache_ii_op_104_no_2_jo",
@@ -351346,7 +351414,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_s3_vals_no_3.mid",
   "score_files": [
-   "files/scores/brahms_s3_vals_no_3.mid"
+   "files/scores/brahms_s3_vals_no_3.mid",
+   "files/scores/brahms_s3_vals_no_3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -351367,7 +351436,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_s3_vals_no_3.mid",
   "other_editions": [],
-  "search_text": "vals no. 3 johannes brahms s3 s 3 s3  brahms s3 vals no 3 classical lyrical classical romantic  brahms, johannes"
+  "search_text": "vals no. 3 johannes brahms s3 s 3 s3  brahms s3 vals no 3 classical lyrical classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_s9_vals_no_9",
@@ -351412,7 +351482,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_s9_vals_no_9.mid",
   "score_files": [
-   "files/scores/brahms_s9_vals_no_9.mid"
+   "files/scores/brahms_s9_vals_no_9.mid",
+   "files/scores/brahms_s9_vals_no_9_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -351433,7 +351504,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_s9_vals_no_9.mid",
   "other_editions": [],
-  "search_text": "vals no. 9 johannes brahms s9 s 9 s9  brahms s9 vals no 9 classical lyrical classical romantic  brahms, johannes"
+  "search_text": "vals no. 9 johannes brahms s9 s 9 s9  brahms s9 vals no 9 classical lyrical classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "galliculus_apparuit_benignitas_johannes",
@@ -368995,7 +369067,8 @@
   "preview_url": "",
   "score_url": "files/scores/haydn_das_lied_der_deutschen.mid",
   "score_files": [
-   "files/scores/haydn_das_lied_der_deutschen.mid"
+   "files/scores/haydn_das_lied_der_deutschen.mid",
+   "files/scores/haydn_das_lied_der_deutschen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -369016,7 +369089,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/haydn_das_lied_der_deutschen.mid",
   "other_editions": [],
-  "search_text": "das lied der deutschen joseph haydn    haydn das lied der deutschen classical lyrical classical classical  haydn, joseph"
+  "search_text": "das lied der deutschen joseph haydn    haydn das lied der deutschen classical lyrical classical classical  haydn, joseph",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "haydn_das_lied_der_deutschen_f_j_hb51",
@@ -369201,7 +369275,8 @@
   "preview_url": "",
   "score_url": "files/scores/haydn_der_greis.mid",
   "score_files": [
-   "files/scores/haydn_der_greis.mid"
+   "files/scores/haydn_der_greis.mid",
+   "files/scores/haydn_der_greis_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -369222,7 +369297,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/haydn_der_greis.mid",
   "other_editions": [],
-  "search_text": "der greis joseph haydn    haydn der greis classical lyrical classical classical  haydn, joseph"
+  "search_text": "der greis joseph haydn    haydn der greis classical lyrical classical classical  haydn, joseph",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "haydn_joseph_haydn_deutcher_tanz",
@@ -433261,7 +433337,8 @@
   "preview_url": "",
   "score_url": "files/scores/ravel_imslp_m_63_1_a_la_maniere_de_borodine.mid",
   "score_files": [
-   "files/scores/ravel_imslp_m_63_1_a_la_maniere_de_borodine.mid"
+   "files/scores/ravel_imslp_m_63_1_a_la_maniere_de_borodine.mid",
+   "files/scores/ravel_imslp_m_63_1_a_la_maniere_de_borodine_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -433284,7 +433361,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_imslp_m_63_1_a_la_maniere_de_borodine.mid",
   "other_editions": [],
-  "search_text": "à la manière de borodine maurice ravel m. 63/1 m 63/1 m. 63/1 m63/1  ravel imslp m 63 1 a la maniere de borodine classical lyrical classical late romantic / early 20th  ravel, maurice"
+  "search_text": "à la manière de borodine maurice ravel m. 63/1 m 63/1 m. 63/1 m63/1  ravel imslp m 63 1 a la maniere de borodine classical lyrical classical late romantic / early 20th  ravel, maurice",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "ravel_m_65_prelude",
@@ -523320,7 +523398,8 @@
   "preview_url": "",
   "score_url": "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
   "score_files": [
-   "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid"
+   "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
+   "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -523342,7 +523421,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
   "other_editions": [],
-  "search_text": "prelude in g-flat major sergei rachmaninoff op. 23 no. 10 op 23 no 10 op. 23 no. 10 op23no10  rachmaninoff imslp op 23 no 10 prelude in g flat major intimate classical late romantic / early 20th  rachmaninoff, sergei"
+  "search_text": "prelude in g-flat major sergei rachmaninoff op. 23 no. 10 op 23 no 10 op. 23 no. 10 op23no10  rachmaninoff imslp op 23 no 10 prelude in g flat major intimate classical late romantic / early 20th  rachmaninoff, sergei",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rachmaninoff_imslp_op_29_isle_of_the_dead",
@@ -523675,7 +523755,8 @@
   "preview_url": "",
   "score_url": "files/scores/rachmaninoff_imslp_op_32_no_4_prelude_in_e_minor.mid",
   "score_files": [
-   "files/scores/rachmaninoff_imslp_op_32_no_4_prelude_in_e_minor.mid"
+   "files/scores/rachmaninoff_imslp_op_32_no_4_prelude_in_e_minor.mid",
+   "files/scores/rachmaninoff_imslp_op_32_no_4_prelude_in_e_minor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -523697,7 +523778,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rachmaninoff_imslp_op_32_no_4_prelude_in_e_minor.mid",
   "other_editions": [],
-  "search_text": "prelude in e minor sergei rachmaninoff op. 32 no. 4 op 32 no 4 op. 32 no. 4 op32no4  rachmaninoff imslp op 32 no 4 prelude in e minor intimate classical late romantic / early 20th  rachmaninoff, sergei"
+  "search_text": "prelude in e minor sergei rachmaninoff op. 32 no. 4 op 32 no 4 op. 32 no. 4 op32no4  rachmaninoff imslp op 32 no 4 prelude in e minor intimate classical late romantic / early 20th  rachmaninoff, sergei",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rachmaninoff_op_34_no_14_rachmaninoff_vocalise_op_34_n_14",

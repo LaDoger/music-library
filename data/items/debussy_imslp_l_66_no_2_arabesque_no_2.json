@@ -42,7 +42,8 @@
  "score_url": "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
  "score_files": [
   "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
-  "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz"
+  "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz",
+  "files/scores/debussy_imslp_l_66_no_2_arabesque_no_2_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -71,6 +72,7 @@
    "licence": "CC BY 4.0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=debussy_imslp_l_66_no_2_arabesque_no_2",
@@ -79,7 +81,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
-  "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz"
+  "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mscz",
+  "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/debussy_imslp_l_66_no_2_arabesque_no_2.mid",
  "render_midi": {

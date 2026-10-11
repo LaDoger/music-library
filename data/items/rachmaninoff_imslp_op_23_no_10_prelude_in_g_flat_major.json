@@ -44,7 +44,8 @@
  "preview_url": "",
  "score_url": "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
  "score_files": [
-  "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid"
+  "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
+  "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "intimate"
@@ -66,6 +67,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major",
@@ -73,7 +75,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid"
+  "https://ladoger.github.io/music-library/files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
+  "https://ladoger.github.io/music-library/files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/rachmaninoff_imslp_op_23_no_10_prelude_in_g_flat_major.mid",
  "render_midi": {
