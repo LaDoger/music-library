@@ -22,14 +22,28 @@ def respell(s,k):
                 if e and e.name in sc and abs(e.alter)<=1: p.name=e.name;p.octave=e.octave;break
             else:
                 if k.sharps<0 and p.accidental and p.accidental.name=='sharp': e=p.getEnharmonic();p.name=e.name;p.octave=e.octave
+def midi_tracks(mid):
+    """Raw note lists per note-bearing track straight from mido (no tie artefacts), quantised to 16ths/8th-triplets."""
+    from fractions import Fraction
+    mf=mido.MidiFile(mid); tpb=mf.ticks_per_beat; out=[]
+    def q(x):
+        return float(min((Fraction(round(x*g),g) for g in (4,3)),key=lambda v:abs(float(v)-x)))
+    for t in mf.tracks:
+        T=0; on={}; ns=[]
+        for m in t:
+            T+=m.time
+            if m.type=='note_on' and m.velocity: on.setdefault(m.note,[]).append(T)
+            elif m.type in('note_off','note_on') and on.get(m.note):
+                st=on[m.note].pop(0); a=q(st/tpb); b=q(T/tpb)
+                if b<=a: b=a+0.25
+                ns.append([a,b-a,m.note,pitch.Pitch(midi=m.note)])
+        if ns: out.append(ns)
+    return out
 def tidy(parts):
     """Rule fixes for 2-hand piano: move far-out-of-range notes to the other staff, trim legato/pedal
     overlaps inside a hand (fewer phantom voices and stray rests), and regroup same-onset notes into chords."""
     from music21 import duration as d
-    hands=[[],[]]
-    for h,p in enumerate(parts[:2]):
-        for n in p.flatten().notes:
-            for pt in n.pitches: hands[h].append([float(n.offset),float(n.quarterLength),pt.midi,pt])
+    hands=parts
     move=[[],[]]
     for x in hands[1]:
         if x[2]>=69: move[0].append(x)
@@ -55,10 +69,10 @@ def tidy(parts):
         out.append(P)
     return out
 def convert(mid,out,title='',composer=''):
-    s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3,8))
+    s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3))
     parts=[p for p in s.parts if p.recurse().notes]
     if len(parts)==1:
-        flat=parts[0].flatten().notes; rh=stream.Part();lh=stream.Part()
+        flat=parts[0].flatten().stripTies().notes; rh=stream.Part();lh=stream.Part()
         for n in flat:
             ps=[p.midi for p in n.pitches]; hi=[p for p in n.pitches if p.midi>=60]; lo=[p for p in n.pitches if p.midi<60]
             for tgt,pl in ((rh,hi),(lh,lo)):
@@ -67,7 +81,9 @@ def convert(mid,out,title='',composer=''):
         parts=[rh,lh]
     elif len(parts)>2:
         parts=sorted(parts,key=lambda p:-sum(x.pitches[0].midi for x in p.recurse().notes)/max(1,len(p.recurse().notes)))
-    if len(parts)==2: parts=tidy(parts)
+    if len(parts)==2:
+        tr=midi_tracks(mid)
+        if len(tr)==2: parts=tidy(tr)
     ts=s.recurse().getElementsByClass(meter.TimeSignature)
     ts=ts[0] if ts else meter.TimeSignature('4/4')
     k=s.analyze('key'); k=key.Key(k.tonic.name,k.mode)
@@ -99,8 +115,17 @@ def convert(mid,out,title='',composer=''):
                 for e in list(c.notesAndRests): c.setElementOffset(e,c.elementOffset(e)-shift)
             m.paddingLeft=shift; m.number=0
     for p in sc.parts:
-        for m in p.getElementsByClass(stream.Measure):
+        ms=list(p.getElementsByClass(stream.Measure))
+        if shift:
+            for i,m in enumerate(ms): m.number=i   # pickup = bar 0, then 1..N
+        for m in ms:
             vs=list(m.voices)
+            for v in vs:   # drop rest-only voices (Opus review of Fur Elise)
+                if not v.notes and len(vs)>1: m.remove(v); vs.remove(v)
+            if len(vs)==1:
+                v=vs[0]; o=m.elementOffset(v)
+                for e in list(v.notesAndRests): m.insert(o+v.elementOffset(e),e)
+                m.remove(v); vs=[]
             for v in vs[1:]:
                 for r in v.getElementsByClass(note.Rest): r.style.hideObjectOnPrint=True
     sc.write('mxl' if out.endswith('.mxl') else 'musicxml',fp=out)
