@@ -1,0 +1,1402 @@
+{
+ "meta": {
+  "id": "chopin_op33_mazurka_op_33_no_1",
+  "parent_item_id": "chopin_op33_mazurka_op_33_no_1",
+  "title": "Mazurka: Op.33, No.1",
+  "composer": "Frédéric Chopin",
+  "source_file": "files/scores/chopin_op33_mazurka_op_33_no_1.mid",
+  "quarter_range": [
+   0,
+   145.0
+  ],
+  "bar_quarters": 3.0,
+  "pickup_quarters": 1.0,
+  "time_signature": "3/4",
+  "key": "g#",
+  "tempo": 60,
+  "midi_play_url": "files/scores/chopin_op33_mazurka_op_33_no_1.mid",
+  "source_licence": "CC-BY",
+  "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1682",
+  "quantisation_divisors": [
+   4,
+   8
+  ],
+  "notation_notes": "Mutopia MIDI (LilyPond 2.12.2 render, CC BY 3.0, Ryan Prince and the Mutopia Project): one-quarter D#4 pickup at quarter 0, bar 1 at quarter 1, 48 bars of 3/4 to quarter 145 (MIDI tempo 60 BPM). The A reprise (bars 37–48) and the repeat of the dance (29–36) are written out in the MIDI and are not doubled. Mordent (bar 11/47) and grace notes (bars 6, 10, 42, 46) sound as short notes before the beat. Sustain pedal (CC64) only in bars 17–36 and the last bar. MIDI-derived score, not an Urtext."
+ },
+ "draft": false,
+ "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+ "summary": "A short g# minor mazurka in ternary form. A (bars 1–12) is a sighing 12-bar theme over i, ii∅6/5, iv and V7 with two perfect cadences. A borrowed Em/G turns to B major, which is prepared by eight bars of dominant (F# pedal, then V7/V–V) before an 8-bar V7–I dance in B, played twice. D# links back to a literal return of A.",
+ "sections": [
+  {
+   "name": "Pickup",
+   "start_bar": 0,
+   "end_bar": 0,
+   "mood": [
+    "hesitant"
+   ],
+   "description": "Lone D# upbeat."
+  },
+  {
+   "name": "A",
+   "start_bar": 1,
+   "end_bar": 12,
+   "mood": [
+    "melancholy",
+    "wistful"
+   ],
+   "description": "g# minor, 4+4+4: opening phrase with an unaccompanied climb (3–4), then a ii∅6/5–i / iv–i / V7–i phrase stated twice, each ending with a PAC."
+  },
+  {
+   "name": "B (dominant preparation)",
+   "start_bar": 13,
+   "end_bar": 20,
+   "mood": [
+    "yearning",
+    "rising"
+   ],
+   "description": "F# pedal under V7 and a common-tone dim7 (13–16), then V7/V–V four times (17–20): B major is promised but not yet stated."
+  },
+  {
+   "name": "C (B-major dance)",
+   "start_bar": 21,
+   "end_bar": 36,
+   "mood": [
+    "bright",
+    "lilting"
+   ],
+   "description": "ii6–V7–I–V7–I–V7–I in B, 8 bars, repeated literally (29–36); octave-doubled melody from bar 25."
+  },
+  {
+   "name": "A′",
+   "start_bar": 37,
+   "end_bar": 48,
+   "mood": [
+    "melancholy",
+    "resigned"
+   ],
+   "description": "Literal return of bars 1–12; ends on the second PAC with no coda."
+  }
+ ],
+ "bars": [
+  {
+   "bar": 0,
+   "start_quarter": 0.0,
+   "duration_quarters": 1.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "dominant upbeat",
+     "reason": "Lone D#4 pickup; no third or fifth sounds."
+    }
+   ],
+   "events": [
+    {
+     "type": "story",
+     "technique": "start",
+     "text": "start: a lone D# upbeat, then a sighing E–D# neighbour"
+    },
+    {
+     "type": "hook",
+     "technique": "melodic_cell",
+     "text": "D#–E–D# neighbour sigh into viio7/V–V7–i: the opening cell, heard in bars 0–2, 6–8, 10–12 and at the return"
+    }
+   ]
+  },
+  {
+   "bar": 1,
+   "start_quarter": 1.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": [
+    {
+     "type": "form",
+     "technique": "theme_1",
+     "text": "A: g# minor theme, 12 bars as 4+4+4 (bars 1–4, 5–8, 9–12; the third phrase repeats the second)"
+    },
+    {
+     "type": "rhythm_phrase",
+     "technique": "phrase_length",
+     "text": "Three four-bar phrases make a 12-bar A section; the central B-major dance is 8+8"
+    }
+   ]
+  },
+  {
+   "bar": 2,
+   "start_quarter": 4.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic arrival"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 3,
+   "start_quarter": 7.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "unaccompanied melody",
+     "reason": "Single-line rising melody with no accompaniment; no third/fifth support for a chord."
+    }
+   ],
+   "events": [
+    {
+     "type": "texture_dynamics",
+     "technique": "thinning",
+     "text": "Bars 3–4: accompaniment drops out; the melody climbs alone from B4 to G#5"
+    }
+   ]
+  },
+  {
+   "bar": 4,
+   "start_quarter": 10.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "unaccompanied melody",
+     "reason": "Single-line rising melody with no accompaniment; no third/fifth support for a chord."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic; chord re-enters under D#5"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 5,
+   "start_quarter": 13.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic (held from bar 4)"
+    },
+    {
+     "beat": 2.0,
+     "symbol": "A#ø7/C#",
+     "rn": "iiø65",
+     "function": "half-diminished supertonic on the mazurka second beat"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": [
+    {
+     "type": "colour_chord",
+     "technique": "half_dim",
+     "text": "A#–C#–E–G# (iiø6/5) on beat 2 gives the melancholy colour of the phrase",
+     "beat": 2.0
+    },
+    {
+     "type": "rhythm_phrase",
+     "technique": "syncopation",
+     "text": "Accompaniment chords enter on beats 2–3, leaving the downbeat to the melody (bars 5–12)",
+     "beat": 2.0
+    }
+   ]
+  },
+  {
+   "bar": 6,
+   "start_quarter": 16.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "C#m",
+     "rn": "iv",
+     "function": "subdominant on beat 2"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 7,
+   "start_quarter": 19.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 8,
+   "start_quarter": 22.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic arrival (PAC)"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "PAC",
+     "text": "V7–i with the melody landing on G#4",
+     "beat": 1.0
+    },
+    {
+     "type": "story",
+     "technique": "continuation",
+     "text": "continuation: the same phrase comes again with a mordent"
+    }
+   ]
+  },
+  {
+   "bar": 9,
+   "start_quarter": 25.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "A#ø7/C#",
+     "rn": "iiø65",
+     "function": "half-diminished supertonic on the mazurka second beat"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": [
+    {
+     "type": "motif",
+     "technique": "repetition",
+     "text": "Bars 9–12 restate bars 5–8; bar 11 adds a mordent on E4"
+    }
+   ]
+  },
+  {
+   "bar": 10,
+   "start_quarter": 28.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "C#m",
+     "rn": "iv",
+     "function": "subdominant on beat 2"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 11,
+   "start_quarter": 31.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 12,
+   "start_quarter": 34.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic arrival (PAC)"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "Em/G",
+     "rn": "iv6/III",
+     "function": "borrowed minor iv6 of B (III) pointing to B"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "PAC",
+     "text": "Second PAC in g# closes the A section",
+     "beat": 1.0
+    },
+    {
+     "type": "colour_chord",
+     "technique": "borrowed",
+     "text": "Em/G (minor iv6 of B) swerves away from the tonic and points to B major",
+     "beat": 3.0
+    },
+    {
+     "type": "story",
+     "technique": "turn",
+     "text": "turn: E minor colour on beat 3 opens the way to B major",
+     "beat": 3.0
+    }
+   ]
+  },
+  {
+   "bar": 13,
+   "start_quarter": 37.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh over an F# pedal; beat 3 has D#–B appoggiaturas"
+    }
+   ],
+   "events": [
+    {
+     "type": "modulation",
+     "technique": "dominant_pedal_lift",
+     "text": "g# → B (relative major): Em/G leads to an F# dominant pedal (13–16) and V7/V–V (17–20); the B tonic first sounds in bar 24",
+     "from_key": "g#",
+     "to_key": "B"
+    },
+    {
+     "type": "form",
+     "technique": "bridge",
+     "text": "B: eight bars of dominant preparation for B major (13–20)"
+    },
+    {
+     "type": "tension_release",
+     "technique": "pedal_point_dominant",
+     "text": "F#3 held in the bass through bars 13–16 under F#7, F#o7 and F#"
+    },
+    {
+     "type": "tension_release",
+     "technique": "appoggiatura",
+     "text": "B4 and D#4 over F#–E on beat 3 fall by step to A#4 and C#4 on the next downbeat",
+     "beat": 3.0
+    }
+   ]
+  },
+  {
+   "bar": 14,
+   "start_quarter": 40.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh (G# and B neighbours on beat 3)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 15,
+   "start_quarter": 43.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "F#o7",
+     "rn": "cto7",
+     "function": "common-tone diminished seventh over the F# pedal"
+    }
+   ],
+   "events": [
+    {
+     "type": "colour_chord",
+     "technique": "dim7_colour",
+     "text": "F#–A–C–D# over the F# pedal: a darker neighbour chord to V",
+     "beat": 3.0
+    },
+    {
+     "type": "texture_dynamics",
+     "technique": "build_to_climax",
+     "text": "Melody climbs from A#4 to F#5 (bar 16) and B5 (bar 17); the source MIDI carries a volume swell over bars 15–16"
+    }
+   ]
+  },
+  {
+   "bar": 16,
+   "start_quarter": 46.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#",
+     "rn": "V",
+     "function": "dominant (16th-note E#o7 neighbour at beat 1.75)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 17,
+   "start_quarter": 49.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#7",
+     "rn": "V7/V",
+     "function": "applied dominant"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "F#",
+     "rn": "V",
+     "function": "dominant"
+    }
+   ],
+   "events": [
+    {
+     "type": "voicing_orchestration",
+     "technique": "register_high_shift",
+     "text": "Melody jumps to B5–A#5 (bars 17 and 19), answered an octave lower in bars 18 and 20"
+    },
+    {
+     "type": "motif",
+     "technique": "repetition",
+     "text": "Two-bar V7/V–V unit stated four times (bars 17–20), alternating high and low register"
+    },
+    {
+     "type": "hook",
+     "technique": "harmonic_cell",
+     "text": "V7/V–V swing under a falling F#–E# sigh"
+    }
+   ]
+  },
+  {
+   "bar": 18,
+   "start_quarter": 52.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#7",
+     "rn": "V7/V",
+     "function": "applied dominant with 4–3 (F#→E#) in the melody"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "F#",
+     "rn": "V",
+     "function": "dominant"
+    }
+   ],
+   "events": [
+    {
+     "type": "tension_release",
+     "technique": "suspension_4_3",
+     "text": "F#4, held over from the F# chord, falls to E#4 over the C#7 (repeated in bar 20)",
+     "beat": 1.0
+    }
+   ]
+  },
+  {
+   "bar": 19,
+   "start_quarter": 55.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#7",
+     "rn": "V7/V",
+     "function": "applied dominant with 4–3 (F#5→E#5)"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "F#",
+     "rn": "V",
+     "function": "dominant"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 20,
+   "start_quarter": 58.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#7",
+     "rn": "V7/V",
+     "function": "applied dominant with 4–3 (F#4→E#4)"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "F#",
+     "rn": "V",
+     "function": "dominant"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 21,
+   "start_quarter": 61.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#m/E",
+     "rn": "ii6",
+     "function": "predominant"
+    }
+   ],
+   "events": [
+    {
+     "type": "form",
+     "technique": "theme_2",
+     "text": "C: B-major dance tune, 8 bars (21–28), repeated literally as 29–36"
+    },
+    {
+     "type": "story",
+     "technique": "continuation",
+     "text": "continuation: the long-prepared B major finally dances"
+    }
+   ]
+  },
+  {
+   "bar": 22,
+   "start_quarter": 64.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#m/E",
+     "rn": "ii6",
+     "function": "predominant"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 23,
+   "start_quarter": 67.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": [
+    {
+     "type": "hook",
+     "technique": "harmonic_cell",
+     "text": "V7–I oscillation over a leaping F#2–B2 bass (bars 23–28)"
+    }
+   ]
+  },
+  {
+   "bar": 24,
+   "start_quarter": 70.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic (G# added sixth on beat 2)"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "IAC",
+     "text": "First B tonic of the piece, D# on top",
+     "beat": 1.0
+    },
+    {
+     "type": "colour_chord",
+     "technique": "added_note",
+     "text": "G#4 sixth over the B chord on beat 2",
+     "beat": 2.0
+    }
+   ]
+  },
+  {
+   "bar": 25,
+   "start_quarter": 73.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": [
+    {
+     "type": "voicing_orchestration",
+     "technique": "doubling",
+     "text": "Melody now doubled in octaves (bars 25–28)"
+    }
+   ]
+  },
+  {
+   "bar": 26,
+   "start_quarter": 76.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic (G# added sixth on beat 2)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 27,
+   "start_quarter": 79.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 28,
+   "start_quarter": 82.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "IAC",
+     "text": "V7–I with D# on top closes the dance phrase",
+     "beat": 1.0
+    }
+   ]
+  },
+  {
+   "bar": 29,
+   "start_quarter": 85.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#m/E",
+     "rn": "ii6",
+     "function": "predominant"
+    }
+   ],
+   "events": [
+    {
+     "type": "motif",
+     "technique": "repetition",
+     "text": "Bars 29–36 repeat 21–28 note for note"
+    }
+   ]
+  },
+  {
+   "bar": 30,
+   "start_quarter": 88.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "C#m/E",
+     "rn": "ii6",
+     "function": "predominant"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 31,
+   "start_quarter": 91.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 32,
+   "start_quarter": 94.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic (G# added sixth on beat 2)"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "IAC",
+     "text": "First B tonic of the piece, D# on top",
+     "beat": 1.0
+    }
+   ]
+  },
+  {
+   "bar": 33,
+   "start_quarter": 97.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 34,
+   "start_quarter": 100.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic (G# added sixth on beat 2)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 35,
+   "start_quarter": 103.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "F#7",
+     "rn": "V7",
+     "function": "dominant seventh"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 36,
+   "start_quarter": 106.0,
+   "duration_quarters": 3.0,
+   "key": "B",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "B",
+     "rn": "I",
+     "function": "tonic"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "IAC",
+     "text": "Dance phrase closes on B with D# on top; the D# carries over into the return",
+     "beat": 1.0
+    }
+   ]
+  },
+  {
+   "bar": 37,
+   "start_quarter": 109.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": [
+    {
+     "type": "modulation",
+     "technique": "common_tone",
+     "text": "B → g#: D#, the third of B in bar 36, becomes the dominant upbeat and the opening theme returns without transition",
+     "from_key": "B",
+     "to_key": "g#"
+    },
+    {
+     "type": "form",
+     "technique": "theme_1",
+     "text": "A′: bars 37–48 repeat bars 1–12"
+    },
+    {
+     "type": "story",
+     "technique": "turn",
+     "text": "turn: back to the minor-key lament"
+    }
+   ]
+  },
+  {
+   "bar": 38,
+   "start_quarter": 112.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic arrival"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 39,
+   "start_quarter": 115.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "unaccompanied melody",
+     "reason": "Single-line rising melody with no accompaniment; no third/fifth support for a chord."
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 40,
+   "start_quarter": 118.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "unaccompanied melody",
+     "reason": "Single-line rising melody with no accompaniment; no third/fifth support for a chord."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic; chord re-enters under D#5"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 41,
+   "start_quarter": 121.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic (held from bar 40)"
+    },
+    {
+     "beat": 2.0,
+     "symbol": "A#ø7/C#",
+     "rn": "iiø65",
+     "function": "half-diminished supertonic on the mazurka second beat"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 42,
+   "start_quarter": 124.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "C#m",
+     "rn": "iv",
+     "function": "subdominant on beat 2"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 43,
+   "start_quarter": 127.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 44,
+   "start_quarter": 130.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic arrival (PAC)"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "PAC",
+     "text": "V7–i, melody on G#4",
+     "beat": 1.0
+    }
+   ]
+  },
+  {
+   "bar": 45,
+   "start_quarter": 133.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "A#ø7/C#",
+     "rn": "iiø65",
+     "function": "half-diminished supertonic on the mazurka second beat"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 46,
+   "start_quarter": 136.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "tonic implied from the previous bar",
+     "reason": "Melody alone on beat 1 (accompaniment rests); tonic chord of the previous bar has already ended."
+    },
+    {
+     "beat": 2.0,
+     "symbol": "C#m",
+     "rn": "iv",
+     "function": "subdominant on beat 2"
+    },
+    {
+     "beat": 3.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "tonic"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 47,
+   "start_quarter": 139.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "?",
+     "rn": "?",
+     "function": "neighbour E4–D#4 then incomplete viio7/V",
+     "reason": "Beat 1 is the melody alone (E4–D#4); beat 2 G#4–B4–D4(=Cx) is a viio7/V without E#, so no complete chord is asserted."
+    },
+    {
+     "beat": 3.0,
+     "symbol": "D#7",
+     "rn": "V7",
+     "function": "dominant seventh (D#2 bass, Fx spelled G in MIDI)"
+    }
+   ],
+   "events": []
+  },
+  {
+   "bar": 48,
+   "start_quarter": 142.0,
+   "duration_quarters": 3.0,
+   "key": "g#",
+   "chords": [
+    {
+     "beat": 1.0,
+     "symbol": "G#m",
+     "rn": "i",
+     "function": "final tonic (PAC)"
+    }
+   ],
+   "events": [
+    {
+     "type": "cadence",
+     "technique": "PAC",
+     "text": "Final V7–i; the piece ends as it began, with no coda",
+     "beat": 1.0
+    },
+    {
+     "type": "story",
+     "technique": "arrival",
+     "text": "arrival: the lament closes quietly in g# minor"
+    }
+   ]
+  }
+ ],
+ "mood": [
+  {
+   "start_bar": 0,
+   "end_bar": 0,
+   "labels": [
+    "hesitant"
+   ]
+  },
+  {
+   "start_bar": 1,
+   "end_bar": 12,
+   "labels": [
+    "melancholy",
+    "wistful"
+   ]
+  },
+  {
+   "start_bar": 13,
+   "end_bar": 20,
+   "labels": [
+    "yearning",
+    "rising"
+   ]
+  },
+  {
+   "start_bar": 21,
+   "end_bar": 36,
+   "labels": [
+    "bright",
+    "lilting"
+   ]
+  },
+  {
+   "start_bar": 37,
+   "end_bar": 48,
+   "labels": [
+    "melancholy",
+    "resigned"
+   ]
+  }
+ ],
+ "tricks": [
+  "Bars 0–2: a single upbeat and neighbour-note sigh before any harmony, then viio7/V–V7–i.",
+  "Bars 3–4: the accompaniment drops out and the melody climbs alone.",
+  "Bars 5–6: accompaniment on beats 2–3 only (iiø6/5–i, iv–i): the mazurka weight sits off the downbeat.",
+  "Bar 12: a borrowed Em/G (minor iv of B) as the hinge into the relative major.",
+  "Bars 13–20: eight bars of dominant (F# pedal, common-tone dim7, V7/V–V with 4–3 sighs) delay the B tonic until bar 24.",
+  "Bars 21–28: two-chord V7–I dance with an added-sixth G#; octave doubling from bar 25 thickens the repeat.",
+  "Bar 36→37: D# held from the B chord becomes the upbeat of the returning g# theme."
+ ],
+ "loop_candidates": [
+  {
+   "start_bar": 5,
+   "end_bar": 8,
+   "why": "iiø6/5–i, iv–i, viio7/V–V7, i: ends on the tonic and Chopin himself follows bar 8 with the same phrase (bars 9–12).",
+   "quarter_range": [
+    13,
+    25
+   ],
+   "requires_audition": true
+  },
+  {
+   "start_bar": 21,
+   "end_bar": 28,
+   "why": "B-major dance; the score repeats it literally (29–36), so the seam bar 28→21 is the composer's own.",
+   "quarter_range": [
+    61,
+    85
+   ],
+   "requires_audition": false
+  },
+  {
+   "start_bar": 25,
+   "end_bar": 28,
+   "why": "Octave-doubled V7–I–V7–I; four-bar loop in B.",
+   "quarter_range": [
+    73,
+    85
+   ],
+   "requires_audition": true
+  }
+ ],
+ "hook_candidates": [
+  {
+   "start_bar": 0,
+   "end_bar": 2,
+   "why": "D# upbeat, E–D# sigh and viio7/V–V7–i: the opening gesture.",
+   "quarter_range": [
+    0,
+    7
+   ]
+  },
+  {
+   "start_bar": 17,
+   "end_bar": 20,
+   "why": "V7/V–V swing with high/low register answers."
+  },
+  {
+   "start_bar": 23,
+   "end_bar": 24,
+   "why": "V7–I with the leaping bass and added-sixth G#."
+  }
+ ],
+ "kpop_uses": [
+  {
+   "where": "verse",
+   "why": "Bars 5–8 as a minor-key piano bed: four bars, chords on beats 2–3, ending on the tonic (loopable)."
+  },
+  {
+   "where": "pre-chorus",
+   "why": "Bars 13–20: F# dominant pedal then V7/V–V; builds expectation for a B-major chorus."
+  },
+  {
+   "where": "chorus",
+   "why": "Bars 21–28: bright V7–I in B, the relative major of the verse; an 8-bar loop."
+  },
+  {
+   "where": "bridge",
+   "why": "Bars 0–4: sparse solo line with almost no harmony for a breakdown before returning to the minor verse."
+  }
+ ],
+ "review_flags": [
+  {
+   "bar": 0,
+   "reason": "Pickup confirmed from the MIDI (D#4 alone at quarter 0; the viio7/V and V7 fall on beats 2–3 only with a one-quarter offset). The draft had no pickup, so every bar label was one beat early, and its tempo (100) did not match the MIDI (60)."
+  },
+  {
+   "bar": 1,
+   "reason": "Beat 2 of bars 1/7/11/37/43/47 is read as viio7/V (Cx–E#–G#–B) without E#; left as ? rather than asserting Cx°7 or the draft's misspelled G#dim/D."
+  },
+  {
+   "bar": 6,
+   "reason": "Beat 1 of bars 6, 9, 10, 42, 45, 46 has only the melody; the tonic of the previous bar is implied but has stopped sounding, so these spans are ?."
+  },
+  {
+   "bar": 13,
+   "reason": "B major is entered at bar 13 for the dominant preparation, but the B tonic first sounds in bar 24. Bars 13–20 could also be read as V of III inside g#; the modulation is confirmed by the 16 bars of B in 21–36."
+  },
+  {
+   "bar": 15,
+   "reason": "F#o7 on beat 3 labelled as a common-tone diminished seventh (cto7) over the pedal; spelled F#–A–C–D# as in the MIDI."
+  },
+  {
+   "bar": 18,
+   "reason": "C#7 is labelled from beat 1 although the left hand enters on beat 2; the beat-1 F# is read as a prepared 4–3 suspension over C#7 (also in bars 19–20)."
+  },
+  {
+   "bar": 15,
+   "reason": "Volume swell is taken from MIDI CC7 data, not from pitch changes; other dynamics are not inferred."
+  }
+ ]
+}
