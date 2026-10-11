@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 6",
  "catalog": "Op. 13",
  "movement": "No. 6",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;luminous;lyric;key: E major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E major. Chord journey: vi-led opening - I54 and III#3 colour - III75#32 - I6 - iii5 - viio7 - back to vi-IV-vi-I close. Texture: bold chordal texture with a lyric upper line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "luminous",
+  "lyric",
+  "key: E major"
  ],
  "has_editable_score": true,
  "has_recording": false,
