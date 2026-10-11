@@ -43,7 +43,6 @@ CLASS_ORDER = ["clean", "attribution", "flagged", "sharealike", "unverified", "e
 
 # Named exclusions from the batch briefs. Death year also excludes life+70 failures.
 EXCLUDED_CANONS = {
-    "igor stravinsky",
     "dmitri shostakovich",
     "carl orff",
     "nikolai medtner",
@@ -117,7 +116,7 @@ _RAW = [
     ("bela bartok", "Béla Bartók", 1945, "bartok", 4, ["bartok", "bela bartok"]),
     ("george gershwin", "George Gershwin", 1937, "gershwin", 4, ["gershwin"]),
     ("scott joplin", "Scott Joplin", 1917, "joplin", 4, ["scott joplin", "joplin"]),
-    ("igor stravinsky", "Igor Stravinsky", 1971, "stravinsky", 9, ["stravinsky"]),
+    ("igor stravinsky", "Igor Stravinsky", 1971, "stravinsky", 4, ["stravinsky"]),
     ("sergei prokofiev", "Sergei Prokofiev", 1953, "prokofiev", 4, ["prokofiev"]),
     ("dmitri shostakovich", "Dmitri Shostakovich", 1975, "shostakovich", 9, ["shostakovich"]),
     ("carl orff", "Carl Orff", 1982, "orff", 9, ["carl orff"]),
@@ -224,11 +223,14 @@ if MANUAL_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"
 # LaDoger-approved US-PD-only composers (death 1930–1955). Full-name match only.
 # Works need a verified publication year ≤ 1930 and licence_scope=US-PD-only.
 US_PD_ONLY_CANONS = set()
+# Death-year ceiling for the US-PD-only gate (default 1955). Stravinsky (d.1971) is approved 2026-10-11 by LaDoger
+# for works first published 1930 or earlier only; the ceiling is raised for him alone.
+US_PD_ONLY_MAX_DEATH = {"igor stravinsky": 1971}
 US_PD_ONLY_FILE = MANUAL_FILE
 if US_PD_ONLY_FILE.exists() and not os.environ.get("MUSICLIB_NO_GENERATED_COMPOSERS"):
     _known = {item[0] for item in _RAW}
     for _entry in json.loads(US_PD_ONLY_FILE.read_text(encoding="utf-8")).get("approved_us_pd_only", []):
-        if _entry.get("death") is None or not (1930 <= int(_entry["death"]) <= 1955):
+        if _entry.get("death") is None or not (1930 <= int(_entry["death"]) <= US_PD_ONLY_MAX_DEATH.get(_entry["canon"], 1955)):
             continue
         if _entry["canon"] in _known:  # already in the table (e.g. Ravel, tier 4): only mark it approved
             US_PD_ONLY_CANONS.add(_entry["canon"])
@@ -456,7 +458,7 @@ def composition_status(canon: str, death: int | None, publication_year: int | No
         return "clean", "Source credits Traditional/Anonymous. The edition licence still has to be PD or CC0/CC-BY."
     if death is None:
         return "unverified", "Death year unknown; composition term not confirmed."
-    if death > 1955:
+    if death > US_PD_ONLY_MAX_DEATH.get(canon, 1955):
         return "excluded", f"Composer died {death}; not public domain under life+70 as of 2026."
     if death > 1929:
         # LaDoger may approve individual composers for pre-1931 US-PD works only.

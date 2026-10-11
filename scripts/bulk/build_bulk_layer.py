@@ -31,7 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "library_bulk.csv"
 EDITIONS = ROOT / "library_other_editions.json"
-EXCLUDED = ("orff", "shostakovich", "stravinsky", "medtner", "sorabji")
+EXCLUDED = ("orff", "shostakovich", "medtner", "sorabji")
 PREVIEW_NOTE = re.compile(r"Preview is an own (?:FluidSynth|MIDI)[^.]*\.", re.I)
 UNFINISHED = re.compile(r"\bwip\b|\bdraft\b|work in progress", re.I)
 NO_PREVIEW = ("No pre-rendered preview: the site plays the score MIDI with an in-browser "
@@ -59,7 +59,7 @@ def _us_pd_only_ok(row: dict) -> bool:
     if not str(pub).isdigit() or not (1 <= int(pub) <= 1930):
         return False
     death = row.get("death_year") or ""
-    if not death.isdigit() or not (1930 <= int(death) <= 1955):
+    if not death.isdigit() or not (1930 <= int(death) <= schema.US_PD_ONLY_MAX_DEATH.get(canon, 1955)):
         return False
     return True
 

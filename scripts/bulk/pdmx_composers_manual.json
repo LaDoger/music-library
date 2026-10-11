@@ -511,6 +511,19 @@
     "carl august nielsen"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Symphonies 1-5, Helios, Maskarade overture, Pan og Syrinx, Violin Concerto, Chaconne, Wind Quintet). Clarinet Concerto (1931), Flute Concerto (1952) and Commotio excluded. Checklist: scripts/bulk/catalogue_data.py NIELSEN."
+  },
+  {
+   "canon": "igor stravinsky",
+   "name": "Igor Stravinsky",
+   "birth": 1882,
+   "death": 1971,
+   "prefix": "stravinsky",
+   "aliases": [
+    "igor stravinsky",
+    "igor fyodorovich stravinsky",
+    "igor strawinsky"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Firebird ballet and 1911 suite, Petrushka 1912, Rite of Spring 1913, Histoire du soldat, Pulcinella, Les Noces, Octet, Piano Sonata, Serenade in A, Oedipus Rex, Apollon musagete, Capriccio 1930 ...). Later revisions (Firebird 1919/1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947) and all 1931+ publications (Symphony of Psalms, Violin Concerto, Persephone, Rake's Progress, Mass, Agon, Threni ...) excluded. Checklist: scripts/bulk/catalogue_data.py STRAVINSKY."
   }
  ]
 }

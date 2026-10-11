@@ -428,6 +428,65 @@ JANACEK = [
     ("Presto", "Presto for cello and piano", 1970, POST, r"presto for cello", "IMSLP first publication 1970; excluded post-1930"),
 ]
 
+# Stravinsky (d.1971): LaDoger priority list 2026-10-11. US-PD-only: in scope only when the first publication is
+# 1930 or earlier (IMSLP "first published in" field, checked 2026-10-11). Later revisions of in-scope works
+# (Firebird 1919 and 1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947) stay excluded.
+# Catalogue labels: Op. where Stravinsky numbered the work, otherwise the IMSLP K-number.
+STRAVINSKY = [
+    ("Op.1", "Symphony in E-flat major", 1914, IN, r"symphony in e flat", "IMSLP first publication 1914; composed 1905-07"),
+    ("Op.2", "The Faun and the Shepherdess", 1908, IN, r"faun and the shepherdess|faune et bergere|faun and shepherdess", "IMSLP first publication 1908"),
+    ("Op.3", "Scherzo fantastique", 1909, IN, r"scherzo fantastique", "IMSLP first publication 1909"),
+    ("Op.4", "Fireworks (Feu d'artifice)", 1910, IN, r"fireworks|feu d artifice", "IMSLP first publication 1910"),
+    ("K006", "Pastorale (voice and piano)", 1910, IN, r"pastorale", "IMSLP first publication 1910"),
+    ("K010 (1919 suite)", "The Firebird, 1919 suite", None, UNV, r"firebird.*1919|firebird.*1945|firebird suite 1919|1919 suite", "Later revision of the ballet: excluded per LaDoger rule (revisions stay excluded); not imported"),
+    ("K010", "The Firebird", 1910, IN, r"firebird|oiseau de feu", "Ballet: IMSLP first publication 1910; 1911 suite: IMSLP 1911. The 1919 and 1945 suites are excluded"),
+    ("K012", "Petrushka (1911 version)", 1912, IN, r"petrushka|petrouchka|petroushka", "IMSLP first publication 1912; the 1947 revision is excluded; titles do not show which version a file is"),
+    ("K015", "The Rite of Spring (Le Sacre du printemps)", 1913, IN, r"rite of spring|sacre du printemps|le sacre", "IMSLP first publication 1913"),
+    ("K026", "The Song of the Nightingale (Le chant du rossignol)", 1921, IN, r"chant du rossignol|song of the nightingale|nightingale", "IMSLP first publication 1921"),
+    ("K023", "Renard", 1917, IN, r"renard", "IMSLP first publication 1917"),
+    ("K029", "L'Histoire du soldat (The Soldier's Tale)", 1920, IN, r"histoire du soldat|soldier s tale", "IMSLP first publication 1920"),
+    ("K034", "Pulcinella", 1920, IN, r"pulcinella", "IMSLP first publication 1920 (ballet and suite)"),
+    ("K040", "Les Noces", 1922, IN, r"les noces|noces", "IMSLP first publication 1922"),
+    ("K041", "Octet for Wind Instruments", 1924, IN, r"octet", "IMSLP first publication 1924"),
+    ("K042", "Concerto for Piano and Wind Instruments", 1924, IN, r"piano and wind|concerto for piano and wind", "IMSLP first publication 1924"),
+    ("K043", "Piano Sonata", 1925, IN, r"piano sonata", "IMSLP first publication 1925; the 1974 Piano Sonata (K001) is not on this list"),
+    ("K044", "Serenade in A", 1926, IN, r"serenade in a", "IMSLP first publication 1926"),
+    ("K045", "Suite No. 1 for small orchestra", 1926, IN, r"suite no 1\b|suite 1 for small orchestra", "IMSLP first publication 1926"),
+    ("K038", "Suite No. 2 for small orchestra", None, UNV, r"suite no 2\b", "IMSLP page gives no first-publication year: not imported"),
+    ("K036", "Symphonies of Wind Instruments (1920 version)", 1920, IN, r"symphonies of wind|symphonies d instruments|symphonies for wind", "IMSLP first publication 1920; the 1947 revision is excluded"),
+    ("K030", "Ragtime", 1919, IN, r"ragtime", "IMSLP first publication 1919"),
+    ("K032", "Piano-Rag-Music", 1920, IN, r"piano rag", "IMSLP first publication 1920"),
+    ("K020", "Pribaoutki", 1917, IN, r"pribaoutki", "IMSLP first publication 1917"),
+    ("K022", "Berceuses du chat", 1917, IN, r"berceuses du chat|cat lullab", "IMSLP first publication 1917"),
+    ("K035", "Concertino (string quartet)", 1923, IN, r"concertino", "IMSLP first publication 1923"),
+    ("K037", "Les cinq doigts (piano)", 1922, IN, r"cinq doigts|five fingers", "IMSLP first publication 1922"),
+    ("K039", "Mavra", 1925, IN, r"mavra", "IMSLP first publication 1925"),
+    ("K047", "Oedipus Rex", 1927, IN, r"oedipus", "IMSLP first publication 1927"),
+    ("K048", "Apollon musagète", 1928, IN, r"apollo", "IMSLP first publication 1928"),
+    ("K050", "Capriccio for piano and orchestra", 1930, IN, r"capriccio", "IMSLP first publication 1930 (last year in scope)"),
+    ("K051", "Four Études for Orchestra", None, UNV, r"etudes for orchestra|four etudes", "IMSLP page gives no first-publication year: not imported"),
+    ("K019", "Three Pieces for String Quartet", None, UNV, r"three pieces for string quartet|3 pieces for string quartet", "No first-publication year on IMSLP: not imported"),
+    ("K052", "Symphony of Psalms", 1931, POST, r"psalms", "IMSLP first publication 1931: excluded (US copyright runs)"),
+    ("K053", "Violin Concerto", 1931, POST, r"violin concerto", "IMSLP first publication 1931: excluded"),
+    ("K054", "Duo concertant", 1933, POST, r"duo concertant", "IMSLP first publication 1933: excluded"),
+    ("K056", "Perséphone", 1934, POST, r"perseph", "IMSLP first publication 1934: excluded"),
+    ("K058", "Concerto for Two Pianos", 1936, POST, r"concerto for 2 pianos|concerto for two pianos", "IMSLP first publication 1936: excluded"),
+    ("K059", "Jeu de cartes", 1937, POST, r"jeu de cartes", "IMSLP first publication 1937: excluded"),
+    ("K060", "Concerto in E-flat (Dumbarton Oaks)", 1938, POST, r"dumbarton|concerto in e flat", "IMSLP first publication 1938: excluded"),
+    ("K062", "Tango", 1941, POST, r"\btango\b", "IMSLP first publication 1941: excluded"),
+    ("K063", "Danses concertantes", 1942, POST, r"danses concertantes", "IMSLP first publication 1942: excluded"),
+    ("K064", "Circus Polka", 1943, POST, r"circus polka", "IMSLP first publication 1943: excluded"),
+    ("K066", "Ode", 1947, POST, r"\bode\b", "IMSLP first publication 1947: excluded"),
+    ("K067", "Sonata for Two Pianos", 1945, POST, r"sonata for 2 pianos|sonata for two pianos", "IMSLP first publication 1945: excluded"),
+    ("K061", "Symphony in C", 1946, POST, r"symphony in c\b", "IMSLP first publication 1946: excluded"),
+    ("K073", "Symphony in Three Movements", 1946, POST, r"symphony in 3 movements|symphony in three movements", "IMSLP first publication 1946: excluded"),
+    ("K076", "Orpheus", 1948, POST, r"orpheus", "IMSLP first publication 1948: excluded"),
+    ("K077", "Mass", 1948, POST, r"\bmass\b", "IMSLP first publication 1948: excluded"),
+    ("K078", "The Rake's Progress", 1951, POST, r"rake s progress", "IMSLP first publication 1951: excluded"),
+    ("K088", "Agon", 1957, POST, r"\bagon\b", "IMSLP first publication 1957: excluded"),
+    ("K089", "Threni", 1958, POST, r"threni", "IMSLP first publication 1958: excluded"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -495,5 +554,10 @@ COMPOSERS = {
         "prefix": "janacek", "genre": "classical", "era": "Late Romantic / Modernist (Czech)",
         "scope_note": "Fully PD (died 1928): no US-PD-only gate, but works first published 1931 or later are excluded because US copyright still runs on them (1930 is PD in the US from 2026). Principal operas (vocal scores), orchestral, piano and chamber works for video; not the full JW catalogue. String Quartet No. 2 (1938), Capriccio (1953), Romance (1938) and Presto (1970) are excluded.",
     },
-
+    "stravinsky": {
+        "name": "Igor Stravinsky", "canon": "igor stravinsky", "death": 1971, "birth": 1882,
+        "catalogue": "Op. (where Stravinsky numbered the work) / IMSLP K-number", "rows": STRAVINSKY,
+        "prefix": "stravinsky", "genre": "classical", "era": "20th century",
+        "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Principal ballets, orchestral and chamber works for video; not the full catalogue. Later revisions (Firebird 1919/1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947) and all 1931+ publications are excluded. Works with no first-publication year on IMSLP are unverified and not imported.",
+    },
 }

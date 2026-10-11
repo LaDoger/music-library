@@ -115,3 +115,15 @@
 - **Coverage:** `docs/catalogues/janacek.csv`: 2 of 16 in-scope entries covered (12.5%).
 - **WANTED:** `/workspace/music/library/files/imslp_incoming/janacek/WANTED.md`: 15 in-scope works still wanted, 2 unverified, 4 excluded. All IMSLP URLs curl-checked (HTTP 200).
 - **Models:** Haiku 5.5.
+
+## Igor Stravinsky (CP-GATHER-stravinsky, 2026-10-11)
+
+- **Approval (US-PD-only, not fully PD).** Stravinsky died 1971, so the composer is approved as US-PD-only, the same as Prokofiev and Nielsen. Only works first published 1930 or earlier are in scope. Added to `approved_us_pd_only` with the note "LaDoger priority list 2026-10-11". AGENTS.md and SCHEMA.md now say Stravinsky is excluded except for those works.
+- **Death ceiling.** The US-PD-only window was 1930-1955 in four places (`schema.py` loader and composition status, `build_bulk_layer.py`, `licence_audit.py`). A 1971 death fell outside it, so `schema.py` now has `US_PD_ONLY_MAX_DEATH = {"igor stravinsky": 1971}`, with the default 1955 for everyone else. No other composer's gate changed.
+- **Checklist:** `STRAVINSKY` in `scripts/bulk/catalogue_data.py`, 52 rows: 29 in scope (IMSLP "first published" year, all verified from the work pages), 4 unverified (Suite No. 2, Four Études for Orchestra, Three Pieces for String Quartet: no year on IMSLP; plus the Firebird 1919 suite, a later revision, kept as a row so title matches do not fall through to the 1910 ballet), 19 post-1930 excluded (for example Symphony of Psalms and Violin Concerto, both 1931). The brief asked for about 15-25 works; the list is longer because the post-1930 rows let the audit flag a match. Checklist size is the only deviation.
+- **Revisions excluded by rule:** Firebird 1919 and 1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947. The importer matches by title, so a PDMX file titled only "Firebird Suite" would land on the 1910/1911 row. Check the publication before using any such file.
+- **Imported: 0 rows.** PDMX has no Stravinsky `composer_name` (0 hits, any licence). Mutopia and OpenScore raw CSVs have no Stravinsky rows. `import_depth_us_pd.py --dry-run --composer stravinsky` harvested 0 candidates.
+- **Checks:** `licence_audit.py`: 0 violations (9468 bulk rows). `docs/catalogues/stravinsky.csv` written (0 of 29 covered). `catalogue_report.py` also rewrote five other composers' CSVs without content changes from this gather; restored with `git checkout`.
+- **Not done:** `sync_site_data.py` and `build_catalog.py --check` were not run, because no library rows changed. `library_other_editions.json` was already modified in the worktree before this run and is not part of this commit.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/stravinsky/WANTED.md`: 29 in-scope works, 3 unverified, 20 excluded listed for reference. IMSLP URLs curl-checked (HTTP 200).
+- **Models:** Haiku 5.5.

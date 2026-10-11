@@ -25,7 +25,7 @@ License policy (strict):
 - Safe for commercial/social video without attribution: PD composition + PD/CC0 recording, or own render from PD/CC0 editable file.
 - Safe with attribution: CC BY (note required credit in legal_notes).
 - Flag only, do not treat as clean: CC BY-SA (share-alike may infect remixes), disputed works.
-- Exclude: CC BY-NC, all-rights-reserved recordings, Orff, Shostakovich (not PD). Prokofiev and Stravinsky: excluded except works first published before 1931 (US-PD-only, LaDoger 2026-10-11).
+- Exclude: CC BY-NC, all-rights-reserved recordings, Orff, Shostakovich (not PD). Prokofiev and Stravinsky: excluded except LaDoger-approved US-PD-only works first published 1930 or earlier (2026-10-11).
 - A PD score ≠ a PD recording. Verify each recording's own page.
 
 Preview policy (required):

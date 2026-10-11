@@ -25,7 +25,7 @@ for r in csv.DictReader((ROOT / "library_bulk.csv").open(newline="", encoding="u
     scope = r.get("licence_scope") or ""
     if death.isdigit() and int(death) > 1929:
         pub = r.get("publication_year") or ""
-        if not (scope == "US-PD-only" and canon in schema.US_PD_ONLY_CANONS and pub.isdigit() and int(pub) <= 1930 and int(death) <= 1955):
+        if not (scope == "US-PD-only" and canon in schema.US_PD_ONLY_CANONS and pub.isdigit() and int(pub) <= 1930 and int(death) <= schema.US_PD_ONLY_MAX_DEATH.get(canon, 1955)):
             bad.append((rid, "death>1929 without valid US-PD-only scope"))
     lic = (r.get("editable_license") or "").lower()
     if re.search(r"-sa|sharealike|-nc|-nd|noncommercial|noderiv", lic):
@@ -40,7 +40,7 @@ for r in csv.DictReader((ROOT / "library_bulk.csv").open(newline="", encoding="u
                 hit = c.match(norm(f"{r['title']} {r.get('movement','')} {r.get('catalog','')}"))
                 if hit and hit[3] != "in-scope":
                     bad.append((rid, f"matches excluded/unverified checklist row {hit[0]} {hit[1]} ({hit[3]})"))
-    if canon in {"igor stravinsky", "dmitri shostakovich", "carl orff"}:
+    if canon in {"dmitri shostakovich", "carl orff"}:
         bad.append((rid, "excluded composer"))
     if canon == "maurice ravel" and re.search(r"\bbol[eé]ro\b", r["title"], re.I):
         bad.append((rid, "Boléro present"))
