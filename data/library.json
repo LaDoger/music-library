@@ -102,7 +102,8 @@
   "score_url": "files/scores/bach_bwv1068_air.mid",
   "score_files": [
    "files/scores/bach_bwv1068_air.ly",
-   "files/scores/bach_bwv1068_air.mid"
+   "files/scores/bach_bwv1068_air.mid",
+   "files/scores/bach_bwv1068_air_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -124,7 +125,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1068_air.mid",
   "other_editions": [],
-  "search_text": "air on the g string johann sebastian bach bwv 1068 bwv 1068 bwv1068 ii. air bach bwv1068 air calm elegant reflective classical baroque  bach, johann sebastian"
+  "search_text": "air on the g string johann sebastian bach bwv 1068 bwv 1068 bwv1068 ii. air bach bwv1068 air calm elegant reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv565_toccata",
@@ -5750,7 +5752,8 @@
   "score_url": "files/scores/bach_bwv600_gott_durch_deine_gute.mid",
   "score_files": [
    "files/scores/bach_bwv600_gott_durch_deine_gute.ly",
-   "files/scores/bach_bwv600_gott_durch_deine_gute.mid"
+   "files/scores/bach_bwv600_gott_durch_deine_gute.mid",
+   "files/scores/bach_bwv600_gott_durch_deine_gute_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -5772,7 +5775,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv600_gott_durch_deine_gute.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: gott, durch deine güte johann sebastian bach bwv 600 bwv 600 bwv600  bach bwv600 gott durch deine gute bright flowing confident classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: gott, durch deine güte johann sebastian bach bwv 600 bwv 600 bwv600  bach bwv600 gott durch deine gute bright flowing confident classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv601_herr_christ",
@@ -5813,7 +5817,8 @@
   "score_url": "files/scores/bach_bwv601_herr_christ.mid",
   "score_files": [
    "files/scores/bach_bwv601_herr_christ.ly",
-   "files/scores/bach_bwv601_herr_christ.mid"
+   "files/scores/bach_bwv601_herr_christ.mid",
+   "files/scores/bach_bwv601_herr_christ_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -5835,7 +5840,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv601_herr_christ.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: herr christ, der einge gottessohn johann sebastian bach bwv 601 bwv 601 bwv601  bach bwv601 herr christ bright flowing hopeful classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: herr christ, der einge gottessohn johann sebastian bach bwv 601 bwv 601 bwv601  bach bwv601 herr christ bright flowing hopeful classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv602_lob_sei_dem_allmachtigen",
@@ -5876,7 +5882,8 @@
   "score_url": "files/scores/bach_bwv602_lob_sei_dem_allmachtigen.mid",
   "score_files": [
    "files/scores/bach_bwv602_lob_sei_dem_allmachtigen.ly",
-   "files/scores/bach_bwv602_lob_sei_dem_allmachtigen.mid"
+   "files/scores/bach_bwv602_lob_sei_dem_allmachtigen.mid",
+   "files/scores/bach_bwv602_lob_sei_dem_allmachtigen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -5898,7 +5905,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv602_lob_sei_dem_allmachtigen.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: lob sei dem allmächtigen gott johann sebastian bach bwv 602 bwv 602 bwv602  bach bwv602 lob sei dem allmachtigen bright playful clear classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: lob sei dem allmächtigen gott johann sebastian bach bwv 602 bwv 602 bwv602  bach bwv602 lob sei dem allmachtigen bright playful clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv604_gelobet_seist_du",
@@ -5939,7 +5947,8 @@
   "score_url": "files/scores/bach_bwv604_gelobet_seist_du.mid",
   "score_files": [
    "files/scores/bach_bwv604_gelobet_seist_du.ly",
-   "files/scores/bach_bwv604_gelobet_seist_du.mid"
+   "files/scores/bach_bwv604_gelobet_seist_du.mid",
+   "files/scores/bach_bwv604_gelobet_seist_du_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "warm",
@@ -5961,7 +5970,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv604_gelobet_seist_du.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: gelobet seist du, jesu christ johann sebastian bach bwv 604 bwv 604 bwv604  bach bwv604 gelobet seist du warm flowing calm classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: gelobet seist du, jesu christ johann sebastian bach bwv 604 bwv 604 bwv604  bach bwv604 gelobet seist du warm flowing calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv605_der_tag_der_ist",
@@ -6002,7 +6012,8 @@
   "score_url": "files/scores/bach_bwv605_der_tag_der_ist.mid",
   "score_files": [
    "files/scores/bach_bwv605_der_tag_der_ist.ly",
-   "files/scores/bach_bwv605_der_tag_der_ist.mid"
+   "files/scores/bach_bwv605_der_tag_der_ist.mid",
+   "files/scores/bach_bwv605_der_tag_der_ist_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "festive",
@@ -6024,7 +6035,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv605_der_tag_der_ist.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: der tag, der ist so freudenreich johann sebastian bach bwv 605 bwv 605 bwv605  bach bwv605 der tag der ist festive warm flowing classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: der tag, der ist so freudenreich johann sebastian bach bwv 605 bwv 605 bwv605  bach bwv605 der tag der ist festive warm flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv606_vom_himmel_hoch",
@@ -6195,7 +6207,8 @@
   "score_url": "files/scores/bach_bwv610_jesu_meine_freude.mid",
   "score_files": [
    "files/scores/bach_bwv610_jesu_meine_freude.ly",
-   "files/scores/bach_bwv610_jesu_meine_freude.mid"
+   "files/scores/bach_bwv610_jesu_meine_freude.mid",
+   "files/scores/bach_bwv610_jesu_meine_freude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -6217,7 +6230,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv610_jesu_meine_freude.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: jesu, meine freude johann sebastian bach bwv 610 bwv 610 bwv610  bach bwv610 jesu meine freude solemn reflective dark classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: jesu, meine freude johann sebastian bach bwv 610 bwv 610 bwv610  bach bwv610 jesu meine freude solemn reflective dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv618_o_lamm_gottes",
@@ -6258,7 +6272,8 @@
   "score_url": "files/scores/bach_bwv618_o_lamm_gottes.mid",
   "score_files": [
    "files/scores/bach_bwv618_o_lamm_gottes.ly",
-   "files/scores/bach_bwv618_o_lamm_gottes.mid"
+   "files/scores/bach_bwv618_o_lamm_gottes.mid",
+   "files/scores/bach_bwv618_o_lamm_gottes_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -6280,7 +6295,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv618_o_lamm_gottes.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: o lamm gottes, unschuldig johann sebastian bach bwv 618 bwv 618 bwv618  bach bwv618 o lamm gottes solemn tender reflective classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: o lamm gottes, unschuldig johann sebastian bach bwv 618 bwv 618 bwv618  bach bwv618 o lamm gottes solemn tender reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv619_christe_du_lamm",
@@ -6386,7 +6402,8 @@
   "score_url": "files/scores/bach_bwv622_o_mensch_bewein.mid",
   "score_files": [
    "files/scores/bach_bwv622_o_mensch_bewein.ly",
-   "files/scores/bach_bwv622_o_mensch_bewein.mid"
+   "files/scores/bach_bwv622_o_mensch_bewein.mid",
+   "files/scores/bach_bwv622_o_mensch_bewein_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -6408,7 +6425,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv622_o_mensch_bewein.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: o mensch, bewein dein sünde groß johann sebastian bach bwv 622 bwv 622 bwv622  bach bwv622 o mensch bewein tender reflective solemn classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: o mensch, bewein dein sünde groß johann sebastian bach bwv 622 bwv 622 bwv622  bach bwv622 o mensch bewein tender reflective solemn classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv636_vater_unser",
@@ -6449,7 +6467,8 @@
   "score_url": "files/scores/bach_bwv636_vater_unser.mid",
   "score_files": [
    "files/scores/bach_bwv636_vater_unser.ly",
-   "files/scores/bach_bwv636_vater_unser.mid"
+   "files/scores/bach_bwv636_vater_unser.mid",
+   "files/scores/bach_bwv636_vater_unser_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -6471,7 +6490,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv636_vater_unser.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: vater unser im himmelreich johann sebastian bach bwv 636 bwv 636 bwv636  bach bwv636 vater unser calm solemn warm classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: vater unser im himmelreich johann sebastian bach bwv 636 bwv 636 bwv636  bach bwv636 vater unser calm solemn warm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv643_alle_menschen",
@@ -6512,7 +6532,8 @@
   "score_url": "files/scores/bach_bwv643_alle_menschen.mid",
   "score_files": [
    "files/scores/bach_bwv643_alle_menschen.ly",
-   "files/scores/bach_bwv643_alle_menschen.mid"
+   "files/scores/bach_bwv643_alle_menschen.mid",
+   "files/scores/bach_bwv643_alle_menschen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -6534,7 +6555,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv643_alle_menschen.mid",
   "other_editions": [],
-  "search_text": "orgelbüchlein: alle menschen müssen sterben johann sebastian bach bwv 643 bwv 643 bwv643  bach bwv643 alle menschen calm reflective warm classical baroque  bach, johann sebastian"
+  "search_text": "orgelbüchlein: alle menschen müssen sterben johann sebastian bach bwv 643 bwv 643 bwv643  bach bwv643 alle menschen calm reflective warm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv646_wo_soll_ich_fliehen",
@@ -6575,7 +6597,8 @@
   "score_url": "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
   "score_files": [
    "files/scores/bach_bwv646_wo_soll_ich_fliehen.ly",
-   "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid"
+   "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
+   "files/scores/bach_bwv646_wo_soll_ich_fliehen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "flowing",
@@ -6597,7 +6620,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
   "other_editions": [],
-  "search_text": "schübler chorale: wo soll ich fliehen hin johann sebastian bach bwv 646 bwv 646 bwv646  bach bwv646 wo soll ich fliehen flowing driving mysterious classical baroque  bach, johann sebastian"
+  "search_text": "schübler chorale: wo soll ich fliehen hin johann sebastian bach bwv 646 bwv 646 bwv646  bach bwv646 wo soll ich fliehen flowing driving mysterious classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv647_wer_nur_den_lieben_gott",
@@ -6638,7 +6662,8 @@
   "score_url": "files/scores/bach_bwv647_wer_nur_den_lieben_gott.mid",
   "score_files": [
    "files/scores/bach_bwv647_wer_nur_den_lieben_gott.ly",
-   "files/scores/bach_bwv647_wer_nur_den_lieben_gott.mid"
+   "files/scores/bach_bwv647_wer_nur_den_lieben_gott.mid",
+   "files/scores/bach_bwv647_wer_nur_den_lieben_gott_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -6660,7 +6685,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv647_wer_nur_den_lieben_gott.mid",
   "other_editions": [],
-  "search_text": "schübler chorale: wer nur den lieben gott lässt walten johann sebastian bach bwv 647 bwv 647 bwv647  bach bwv647 wer nur den lieben gott calm elegant reflective classical baroque  bach, johann sebastian"
+  "search_text": "schübler chorale: wer nur den lieben gott lässt walten johann sebastian bach bwv 647 bwv 647 bwv647  bach bwv647 wer nur den lieben gott calm elegant reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv648_meine_seele",
@@ -6701,7 +6727,8 @@
   "score_url": "files/scores/bach_bwv648_meine_seele.mid",
   "score_files": [
    "files/scores/bach_bwv648_meine_seele.ly",
-   "files/scores/bach_bwv648_meine_seele.mid"
+   "files/scores/bach_bwv648_meine_seele.mid",
+   "files/scores/bach_bwv648_meine_seele_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -6723,7 +6750,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv648_meine_seele.mid",
   "other_editions": [],
-  "search_text": "schübler chorale: meine seele erhebt den herren johann sebastian bach bwv 648 bwv 648 bwv648  bach bwv648 meine seele calm elegant flowing classical baroque  bach, johann sebastian"
+  "search_text": "schübler chorale: meine seele erhebt den herren johann sebastian bach bwv 648 bwv 648 bwv648  bach bwv648 meine seele calm elegant flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv649_ach_bleib_bei_uns",
@@ -7142,7 +7170,8 @@
   "score_url": "files/scores/bach_bwv687_aus_tiefer_not.mid",
   "score_files": [
    "files/scores/bach_bwv687_aus_tiefer_not.ly",
-   "files/scores/bach_bwv687_aus_tiefer_not.mid"
+   "files/scores/bach_bwv687_aus_tiefer_not.mid",
+   "files/scores/bach_bwv687_aus_tiefer_not_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -7164,7 +7193,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv687_aus_tiefer_not.mid",
   "other_editions": [],
-  "search_text": "clavier-übung iii: aus tiefer not schrei ich zu dir (manualiter) johann sebastian bach bwv 687 bwv 687 bwv687  bach bwv687 aus tiefer not dark solemn intense classical baroque  bach, johann sebastian"
+  "search_text": "clavier-übung iii: aus tiefer not schrei ich zu dir (manualiter) johann sebastian bach bwv 687 bwv 687 bwv687  bach bwv687 aus tiefer not dark solemn intense classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv720_ein_feste_burg",
@@ -7529,7 +7559,8 @@
   "score_files": [
    "files/scores/bach_bwv769_canonic_variations.mid",
    "files/scores/bach_bwv769_canonic_variations_all_movements_midi.zip",
-   "files/scores/bach_bwv769_canonic_variations_lilypond.zip"
+   "files/scores/bach_bwv769_canonic_variations_lilypond.zip",
+   "files/scores/bach_bwv769_canonic_variations_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -7551,7 +7582,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv769_canonic_variations.mid",
   "other_editions": [],
-  "search_text": "canonic variations on vom himmel hoch johann sebastian bach bwv 769 bwv 769 bwv769 variation i (render_midi); variations ii–v in the score files bach bwv769 canonic variations bright clear flowing classical baroque  bach, johann sebastian"
+  "search_text": "canonic variations on vom himmel hoch johann sebastian bach bwv 769 bwv 769 bwv769 variation i (render_midi); variations ii–v in the score files bach bwv769 canonic variations bright clear flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv773_invention2",
@@ -12671,7 +12703,8 @@
   "score_url": "files/scores/bach_bwv997_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv997_fugue.ly",
-   "files/scores/bach_bwv997_fugue.mid"
+   "files/scores/bach_bwv997_fugue.mid",
+   "files/scores/bach_bwv997_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -12693,7 +12726,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv997_fugue.mid",
   "other_editions": [],
-  "search_text": "lute suite in c minor: fuga (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 fuga bach bwv997 fugue reflective flowing dark classical baroque  bach, johann sebastian"
+  "search_text": "lute suite in c minor: fuga (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 fuga bach bwv997 fugue reflective flowing dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv997_sarabande",
@@ -12734,7 +12768,8 @@
   "score_url": "files/scores/bach_bwv997_sarabande.mid",
   "score_files": [
    "files/scores/bach_bwv997_sarabande.ly",
-   "files/scores/bach_bwv997_sarabande.mid"
+   "files/scores/bach_bwv997_sarabande.mid",
+   "files/scores/bach_bwv997_sarabande_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -12756,7 +12791,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv997_sarabande.mid",
   "other_editions": [],
-  "search_text": "lute suite in c minor: sarabande (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 sarabande bach bwv997 sarabande tender solemn calm classical baroque  bach, johann sebastian"
+  "search_text": "lute suite in c minor: sarabande (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 sarabande bach bwv997 sarabande tender solemn calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv997_gigue",
@@ -12797,7 +12833,8 @@
   "score_url": "files/scores/bach_bwv997_gigue.mid",
   "score_files": [
    "files/scores/bach_bwv997_gigue.ly",
-   "files/scores/bach_bwv997_gigue.mid"
+   "files/scores/bach_bwv997_gigue.mid",
+   "files/scores/bach_bwv997_gigue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -12819,7 +12856,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv997_gigue.mid",
   "other_editions": [],
-  "search_text": "lute suite in c minor: gigue (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 gigue bach bwv997 gigue driving dance dark classical baroque  bach, johann sebastian"
+  "search_text": "lute suite in c minor: gigue (guitar) johann sebastian bach bwv 997 bwv 997 bwv997 gigue bach bwv997 gigue driving dance dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv999_prelude",
@@ -12861,8 +12899,8 @@
   "score_files": [
    "files/scores/bach_bwv999_prelude.ly",
    "files/scores/bach_bwv999_prelude.mid",
-   "files/scores/bach_bwv999_prelude_in_d_minorb51_reconstructed.mxl",
-   "files/scores/bach_bwv999_prelude_reconstructed.mxl"
+   "files/scores/bach_bwv999_prelude_fromly.mxl",
+   "files/scores/bach_bwv999_prelude_in_d_minorb51_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "flowing",
@@ -12885,7 +12923,7 @@
   "midi_play_url": "files/scores/bach_bwv999_prelude.mid",
   "other_editions": [],
   "search_text": "prelude in c minor for lute (guitar) johann sebastian bach bwv 999 bwv 999 bwv999  bach bwv999 prelude flowing reflective calm classical baroque  bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv1002_violin_partita1",
@@ -12992,7 +13030,8 @@
   "score_url": "files/scores/bach_bwv1009_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv1009_prelude.mid",
-   "files/scores/bach_bwv1009_prelude_lilypond.zip"
+   "files/scores/bach_bwv1009_prelude_lilypond.zip",
+   "files/scores/bach_bwv1009_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bold",
@@ -13014,7 +13053,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1009_prelude.mid",
   "other_editions": [],
-  "search_text": "cello suite no. 3 in c major: prélude johann sebastian bach bwv 1009 bwv 1009 bwv1009 prélude bach bwv1009 prelude bold confident flowing classical baroque  bach, johann sebastian"
+  "search_text": "cello suite no. 3 in c major: prélude johann sebastian bach bwv 1009 bwv 1009 bwv1009 prélude bach bwv1009 prelude bold confident flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1009_bourree",
@@ -13135,7 +13175,8 @@
   "score_url": "files/scores/bach_bwv1009_gigue.mid",
   "score_files": [
    "files/scores/bach_bwv1009_gigue.mid",
-   "files/scores/bach_bwv1009_gigue_lilypond.zip"
+   "files/scores/bach_bwv1009_gigue_lilypond.zip",
+   "files/scores/bach_bwv1009_gigue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "energetic",
@@ -13157,7 +13198,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1009_gigue.mid",
   "other_editions": [],
-  "search_text": "cello suite no. 3 in c major: gigue johann sebastian bach bwv 1009 bwv 1009 bwv1009 gigue bach bwv1009 gigue energetic driving bright classical baroque  bach, johann sebastian"
+  "search_text": "cello suite no. 3 in c major: gigue johann sebastian bach bwv 1009 bwv 1009 bwv1009 gigue bach bwv1009 gigue energetic driving bright classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1010_prelude",
@@ -13198,7 +13240,8 @@
   "score_url": "files/scores/bach_bwv1010_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv1010_prelude.mid",
-   "files/scores/bach_bwv1010_prelude_lilypond.zip"
+   "files/scores/bach_bwv1010_prelude_lilypond.zip",
+   "files/scores/bach_bwv1010_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "majestic",
@@ -13220,7 +13263,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1010_prelude.mid",
   "other_editions": [],
-  "search_text": "cello suite no. 4 in e-flat major: prélude johann sebastian bach bwv 1010 bwv 1010 bwv1010 prélude bach bwv1010 prelude majestic flowing calm classical baroque  bach, johann sebastian"
+  "search_text": "cello suite no. 4 in e-flat major: prélude johann sebastian bach bwv 1010 bwv 1010 bwv1010 prélude bach bwv1010 prelude majestic flowing calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1010_bourree",
@@ -13326,7 +13370,8 @@
   "score_url": "files/scores/bach_bwv1011_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv1011_prelude.mid",
-   "files/scores/bach_bwv1011_prelude_lilypond.zip"
+   "files/scores/bach_bwv1011_prelude_lilypond.zip",
+   "files/scores/bach_bwv1011_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -13348,7 +13393,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1011_prelude.mid",
   "other_editions": [],
-  "search_text": "cello suite no. 5 in c minor: prélude johann sebastian bach bwv 1011 bwv 1011 bwv1011 prélude (with fugue) bach bwv1011 prelude dark solemn dramatic classical baroque  bach, johann sebastian"
+  "search_text": "cello suite no. 5 in c minor: prélude johann sebastian bach bwv 1011 bwv 1011 bwv1011 prélude (with fugue) bach bwv1011 prelude dark solemn dramatic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1011_sarabande",
@@ -13845,7 +13891,8 @@
   "score_url": "files/scores/bach_bwv1042_2_adagio.mid",
   "score_files": [
    "files/scores/bach_bwv1042_2_adagio.mid",
-   "files/scores/bach_bwv1042_2_adagio_lilypond.zip"
+   "files/scores/bach_bwv1042_2_adagio_lilypond.zip",
+   "files/scores/bach_bwv1042_2_adagio_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -13867,7 +13914,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1042_2_adagio.mid",
   "other_editions": [],
-  "search_text": "violin concerto in e major: ii. adagio johann sebastian bach bwv 1042 bwv 1042 bwv1042 ii. adagio bach bwv1042 2 adagio tender solemn reflective classical baroque  bach, johann sebastian"
+  "search_text": "violin concerto in e major: ii. adagio johann sebastian bach bwv 1042 bwv 1042 bwv1042 ii. adagio bach bwv1042 2 adagio tender solemn reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1042_3_allegro_assai",
@@ -14223,7 +14271,8 @@
   "score_url": "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
   "score_files": [
    "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
-   "files/scores/bach_bwv1046_brandenburg1_2_adagio_lilypond.zip"
+   "files/scores/bach_bwv1046_brandenburg1_2_adagio_lilypond.zip",
+   "files/scores/bach_bwv1046_brandenburg1_2_adagio_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -14245,7 +14294,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1046_brandenburg1_2_adagio.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 1 in f major: ii. adagio johann sebastian bach bwv 1046 bwv 1046 bwv1046 ii. adagio bach bwv1046 brandenburg1 2 adagio solemn tender reflective classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 1 in f major: ii. adagio johann sebastian bach bwv 1046 bwv 1046 bwv1046 ii. adagio bach bwv1046 brandenburg1 2 adagio solemn tender reflective classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1047_brandenburg2_1_allegro",
@@ -14349,7 +14399,8 @@
   "score_url": "files/scores/bach_bwv1047_brandenburg2_2_andante.mid",
   "score_files": [
    "files/scores/bach_bwv1047_brandenburg2_2_andante.mid",
-   "files/scores/bach_bwv1047_brandenburg2_2_andante_lilypond.zip"
+   "files/scores/bach_bwv1047_brandenburg2_2_andante_lilypond.zip",
+   "files/scores/bach_bwv1047_brandenburg2_2_andante_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -14371,7 +14422,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1047_brandenburg2_2_andante.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 2 in f major: ii. andante johann sebastian bach bwv 1047 bwv 1047 bwv1047 ii. andante bach bwv1047 brandenburg2 2 andante reflective elegant calm classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 2 in f major: ii. andante johann sebastian bach bwv 1047 bwv 1047 bwv1047 ii. andante bach bwv1047 brandenburg2 2 andante reflective elegant calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1047_brandenburg2_3_allegro_assai",
@@ -14538,7 +14590,8 @@
   "score_url": "files/scores/bach_bwv1056r_largo.mid",
   "score_files": [
    "files/scores/bach_bwv1056r_largo.mid",
-   "files/scores/bach_bwv1056r_largo_lilypond.zip"
+   "files/scores/bach_bwv1056r_largo_lilypond.zip",
+   "files/scores/bach_bwv1056r_largo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -14560,7 +14613,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1056r_largo.mid",
   "other_editions": [],
-  "search_text": "violin concerto in g minor (reconstr. of bwv 1056): largo ('arioso') johann sebastian bach bwv 1056r bwv 1056r bwv1056r ii. largo bach bwv1056r largo tender calm romantic classical baroque  bach, johann sebastian"
+  "search_text": "violin concerto in g minor (reconstr. of bwv 1056): largo ('arioso') johann sebastian bach bwv 1056r bwv 1056r bwv1056r ii. largo bach bwv1056r largo tender calm romantic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1079_ricercar_a3",
@@ -14731,7 +14785,8 @@
   "score_url": "files/scores/bach_bwv1080_contrapunctus1.mid",
   "score_files": [
    "files/scores/bach_bwv1080_contrapunctus1.mid",
-   "files/scores/bach_bwv1080_contrapunctus1_lilypond.zip"
+   "files/scores/bach_bwv1080_contrapunctus1_lilypond.zip",
+   "files/scores/bach_bwv1080_contrapunctus1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -14753,7 +14808,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1080_contrapunctus1.mid",
   "other_editions": [],
-  "search_text": "the art of fugue: contrapunctus 1 johann sebastian bach bwv 1080 bwv 1080 bwv1080 contrapunctus 1 bach bwv1080 contrapunctus1 calm solemn clear classical baroque  bach, johann sebastian"
+  "search_text": "the art of fugue: contrapunctus 1 johann sebastian bach bwv 1080 bwv 1080 bwv1080 contrapunctus 1 bach bwv1080 contrapunctus1 calm solemn clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1080_contrapunctus2",
@@ -319387,7 +319443,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv1056_arioso.mid",
   "score_files": [
-   "files/scores/bach_bwv1056_arioso.mid"
+   "files/scores/bach_bwv1056_arioso.mid",
+   "files/scores/bach_bwv1056_arioso_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -319408,7 +319465,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1056_arioso.mid",
   "other_editions": [],
-  "search_text": "arioso johann sebastian bach bwv 1056 bwv 1056 bwv1056  bach bwv1056 arioso classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "arioso johann sebastian bach bwv 1056 bwv 1056 bwv1056  bach bwv1056 arioso classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1058_bwv_1058_harpsichord_concert",
@@ -320185,7 +320243,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv1068_from_suite_no_3_in_d_bwv_106.mid",
   "score_files": [
-   "files/scores/bach_bwv1068_from_suite_no_3_in_d_bwv_106.mid"
+   "files/scores/bach_bwv1068_from_suite_no_3_in_d_bwv_106.mid",
+   "files/scores/bach_bwv1068_from_suite_no_3_in_d_bwv_106_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -320205,7 +320264,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1068_from_suite_no_3_in_d_bwv_106.mid",
   "other_editions": [],
-  "search_text": "air, from suite no.3 in d johann sebastian bach bwv 1068 bwv 1068 bwv1068 from suite no.3 in d, bwv 1068 bach bwv1068 from suite no 3 in d bwv 106 intimate classical baroque  bach, johann sebastian"
+  "search_text": "air, from suite no.3 in d johann sebastian bach bwv 1068 bwv 1068 bwv1068 from suite no.3 in d, bwv 1068 bach bwv1068 from suite no 3 in d bwv 106 intimate classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1068_orchestal_suite_no_3_ii_aria",
@@ -323325,7 +323385,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv533_prelude_en_mi_mineur.mid",
   "score_files": [
-   "files/scores/bach_bwv533_prelude_en_mi_mineur.mid"
+   "files/scores/bach_bwv533_prelude_en_mi_mineur.mid",
+   "files/scores/bach_bwv533_prelude_en_mi_mineur_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -323345,7 +323406,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv533_prelude_en_mi_mineur.mid",
   "other_editions": [],
-  "search_text": "prélude en mi mineur johann sebastian bach bwv 533 bwv 533 bwv533  bach bwv533 prelude en mi mineur intimate classical baroque  bach, johann sebastian"
+  "search_text": "prélude en mi mineur johann sebastian bach bwv 533 bwv 533 bwv533  bach bwv533 prelude en mi mineur intimate classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv537_fantasia_and_fugue_in_c_mino",
@@ -324663,7 +324725,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv648_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv648_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv648_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv648_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -324684,7 +324747,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv648_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "meine seele erhebt den herren johann sebastian bach bwv 648 bwv 648 bwv648 a 2 clav. e pedale bach bwv648 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "meine seele erhebt den herren johann sebastian bach bwv 648 bwv 648 bwv648 a 2 clav. e pedale bach bwv648 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv649_a_2_clav_e_pedale",
@@ -325352,7 +325416,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv693_ach_gott_und_herr.mid",
   "score_files": [
-   "files/scores/bach_bwv693_ach_gott_und_herr.mid"
+   "files/scores/bach_bwv693_ach_gott_und_herr.mid",
+   "files/scores/bach_bwv693_ach_gott_und_herr_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -325373,7 +325438,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv693_ach_gott_und_herr.mid",
   "other_editions": [],
-  "search_text": "ach gott und herr johann sebastian bach bwv 693 bwv 693 bwv693  bach bwv693 ach gott und herr classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "ach gott und herr johann sebastian bach bwv 693 bwv 693 bwv693  bach bwv693 ach gott und herr classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv694_wo_soll_ich_fliehen_hin_chor",
@@ -325902,7 +325968,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv723_gelobet_seist_du_jesu_christ.mid",
   "score_files": [
-   "files/scores/bach_bwv723_gelobet_seist_du_jesu_christ.mid"
+   "files/scores/bach_bwv723_gelobet_seist_du_jesu_christ.mid",
+   "files/scores/bach_bwv723_gelobet_seist_du_jesu_christ_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -325923,7 +325990,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv723_gelobet_seist_du_jesu_christ.mid",
   "other_editions": [],
-  "search_text": "gelobet seist du, jesu christ johann sebastian bach bwv 723 bwv 723 bwv723  bach bwv723 gelobet seist du jesu christ classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "gelobet seist du, jesu christ johann sebastian bach bwv 723 bwv 723 bwv723  bach bwv723 gelobet seist du jesu christ classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv724_gottes_sohn_ist_kommen",
@@ -333164,7 +333232,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv997_5_double.mid",
   "score_files": [
-   "files/scores/bach_bwv997_5_double.mid"
+   "files/scores/bach_bwv997_5_double.mid",
+   "files/scores/bach_bwv997_5_double_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -333185,7 +333254,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv997_5_double.mid",
   "other_editions": [],
-  "search_text": "lute suite bwv 997: 5. double johann sebastian bach bwv 997 bwv 997 bwv997 5. double bach bwv997 5 double classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "lute suite bwv 997: 5. double johann sebastian bach bwv 997 bwv 997 bwv997 5. double bach bwv997 5 double classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv998_bwv_998_prelude_fugue_and_al",

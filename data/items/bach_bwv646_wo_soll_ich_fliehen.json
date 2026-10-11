@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
  "score_files": [
   "files/scores/bach_bwv646_wo_soll_ich_fliehen.ly",
-  "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid"
+  "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
+  "files/scores/bach_bwv646_wo_soll_ich_fliehen_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "flowing",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv646_wo_soll_ich_fliehen",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv646_wo_soll_ich_fliehen.mid",
  "render_midi": {
