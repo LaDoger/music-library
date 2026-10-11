@@ -51,6 +51,8 @@ NAME_RX = {
     "bartok": r"bart[oó]k",
     "falla": r"\bfalla\b",
     "granados": r"\benrique granados\b|\bgranados enrique\b",
+    "lyadov": r"\blyadov\b|\bliadov\b",
+    "lyapunov": r"\b(?:lyapunov|liapunov|liapounov|lyapounov|liapunow|lyapunow|liapounow)",  # PDMX: "Liapounow", "LiapounowOp.8"
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
@@ -156,7 +158,7 @@ class Checklist:
 SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", "Op.16", "Op.23", "Op.27 / TrV 170",
         "Op.30", "Op.31", "Op.34 No.14", "Op.36", "Op.37", "Op.39", "Op.42", "Op.60", "Op.32 / H.125", "Op.24 / H.90",
         "Siete canciones", "Cuatro piezas", "3 Melodies", "Goyescas", "Danzas", "Valses",
-        "Op.2", "Op.17", "Op.22", "Op.31", "Op.33 / Op.33bis", "Op.35"}
+        "Op.2", "Op.17", "Op.22", "Op.31", "Op.33 / Op.33bis", "Op.35", "Op.40", "Op.58", "Op.6"}
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

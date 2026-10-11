@@ -487,6 +487,54 @@ STRAVINSKY = [
     ("K089", "Threni", 1958, POST, r"threni", "IMSLP first publication 1958: excluded"),
 ]
 
+LYADOV = [
+    # Fully PD (died 1914): no publication-year gate. Years from IMSLP work pages and Wikipedia (2026-10-11).
+    ("Op.32", "Musical Snuffbox (Muzikalnaya tabakerka) Op.32", 1897, IN, r"musical snuff|muzikalnaya tabakerka|tabakerka|tabatiere|snuffbox", "Belaieff, Leipzig: earliest dated edition found (1897, IMSLP mirror); composed 1893; original first printing not confirmed"),
+    ("Op.2", "Biryulki Op.2 (14 pieces)", 1876, IN, r"biryulki|birioulki|birjulki", "IMSLP: composed and first published 1876; 14 pieces, a set"),
+    ("Op.44", "Barcarolle Op.44", 1898, IN, r"barcarolle|barcarole", "Belaieff, Leipzig 1898 (IMSLP, plate 1874 noted); earliest edition found, first printing not confirmed"),
+    ("Op.40", "Etude et 3 Preludes Op.40", 1897, IN, r"etude et 3 preludes|etude and 3 preludes|op 40", "Belaieff 1897 (IMSLP reprint); composed 1897"),
+    ("Op.11", "3 Morceaux Op.11 (incl. Prelude in B minor)", None, UNV, r"3 morceaux|three pieces op 11|prelude in b minor op 11", "Composed 1885; first publication year not confirmed"),
+    ("Op.57", "Three Preludes Op.57 (incl. Prelude in D flat)", None, UNV, r"op 57", "Composed 1900-05; first publication year not confirmed"),
+    ("Op.58", "8 Russian Folksongs Op.58 (orchestra)", 1906, IN, r"8 russian folk ?songs|eight russian folk ?songs|russian folksongs op 58|op 58", "M.P. Belaieff, Leipzig 1906, plate 2604 (IMSLP); composed 1906, premiere 1905"),
+    ("Op.56", "Baba Yaga Op.56 (tone poem)", None, UNV, r"baba yaga|baba-yaga", "Composed 1891-1904 (St. Louis programme); first publication year not confirmed"),
+    ("Op.63", "Kikimora Op.63 (tone poem)", None, UNV, r"kikimora", "Composed 1909; first publication year not confirmed"),
+    ("Op.62", "The Enchanted Lake (Volshebnoye ozero) Op.62", 1909, IN, r"enchanted lake|volshebnoye ozero|magic lake", "M.P. Belaieff, Leipzig 1909, plate 2847 (IMSLP); composed 1908; premiere St. Petersburg 21 Feb 1909"),
+    ("Op.42", "Mazurka on Polish Themes Op.42", None, UNV, r"polish themes|mazurka op 42", "Composed 1898; first publication year not confirmed"),
+    ("Op.51", "Variations on a Polish Folk Theme Op.51", None, UNV, r"polish folk theme|variations op 51", "Composed 1901; first publication year not confirmed"),
+    ("Op.49", "Polonaise Op.49 'In memory of Pushkin' (orchestra)", None, UNV, r"polonaise.*pushkin|in memory of pushkin|op 49", "Composed 1899; first publication year not confirmed"),
+    ("Op.28", "Final scene from Die Braut von Messina Op.28", 1891, IN, r"braut von messina|bride of messina", "Published 1891 (Wikipedia); composed 1878; orchestral"),
+    ("Op.19", "Village Scene by the Inn Op.19", None, UNV, r"village scene|by the inn", "Composed 1887; first publication year not confirmed"),
+    ("Op.65", "Dance of the Amazon Op.65", None, UNV, r"dance of the amazon", "Composed 1910; first publication year not confirmed"),
+    ("Op.66", "From the Apocalypse Op.66", None, UNV, r"from the apocalypse|apocalypse", "Composed 1910-12; first publication year not confirmed"),
+    ("Op.67", "Nenie Op.67", None, UNV, r"nenie|nenia", "Composed 1914; first publication year not confirmed"),
+]
+
+LYAPUNOV = [
+    # Fully PD (died 1924): no publication-year gate. Years from IMSLP work pages and Wikipedia (2026-10-11); "uncertain" where IMSLP says so.
+    ("Op.11", "12 Transcendental Etudes Op.11", 1906, IN, r"transcendan|execution transcendante|op 11\b", "IMSLP: composed 1897-1905, first publication 'n.d. (ca. 1906)', Zimmermann, Leipzig, plates Z.3067-3078 (uncertain date)"),
+    ("Op.26", "Chant d'automne Op.26", 1906, IN, r"chant d automne|op 26\b", "IMSLP: first publication 1906, Zimmermann, Leipzig, plate Z.4314"),
+    ("Op.6", "7 Preludes Op.6", 1896, IN, r"7 preludes|seven preludes|op 6\b", "IMSLP: composed 1895, first publication 1896 (scan is a later Muzgiz edition)"),
+    ("Op.27", "Piano Sonata in F minor Op.27", 1908, IN, r"piano sonata|sonata in f minor|op 27\b", "IMSLP: composed 1906-08, Zimmermann, Leipzig 1908 (plate Z.4633)"),
+    ("Op.40", "3 Pieces of Moderate Difficulty Op.40", 1910, IN, r"moderate difficulty|op 40\b", "IMSLP: J.H. Zimmermann, Leipzig 1910 (plate Z.4682)"),
+    ("Op.46", "Barcarolle Op.46", 1911, IN, r"barcarol", "IMSLP: composed and first published 1911, Zimmermann"),
+    ("Op.23", "Valse-Impromptu No.1 Op.23", 1905, IN, r"valse impromptu no 1|valse-impromptu no 1|op 23\b", "IMSLP: first publication 'ca. 1905' (uncertain), Zimmermann plate Z.4256"),
+    ("Op.58", "Prelude and Fugue Op.58", 1914, IN, r"prelude and fugue|op 58\b", "Composed 1913; first publication 1914 (Hofmeister Monatsbericht, cited on IMSLP)"),
+    ("Op.65", "Sonatina Op.65", 1922, IN, r"sonatina|op 65\b", "IMSLP: composed 1917; earliest listed scan Muzgiz 1922 (first printing not confirmed)"),
+    ("Op.49", "Variations and Fugue on a Russian Theme Op.49", 1912, IN, r"variations and fugue|op 49\b", "IMSLP: first publication ca. 1912 (scan is a Muzgiz edition, ca. 1952)"),
+    ("Op.53", "Hashish Op.53 (Oriental symphonic poem)", 1914, IN, r"hashish|hachish", "IMSLP: first publication 1914, Zimmermann plate Z.10033"),
+    ("Op.63", "Piano Sextet Op.63", 1924, IN, r"sextet|op 63\b", "Composed 1916, rev. 1921 (lost original); IMSLP 'n.d. [1924]' Zimmermann Z.11164 (uncertain)"),
+    ("Op.57", "3 Pieces Op.57", None, UNV, r"op 57\b", "Composed 1913; IMSLP gives only a Muzgiz scan (ca. 1952); no first-publication year"),
+    ("Op.12", "Symphony No.1 in B minor Op.12", 1902, IN, r"symphony no 1\b|op 12\b", "IMSLP: composed 1887, first publication 1902, Zimmermann St Petersburg (plate Z.3379)"),
+    ("Op.66", "Symphony No.2 in B flat minor Op.66", 1958, IN, r"symphony no 2\b|op 66\b", "Composed 1917; IMSLP gives Muzgiz 1958 as the earliest listed edition (first printing not confirmed)"),
+    ("Op.4", "Piano Concerto No.1 in E flat minor Op.4", 1892, IN, r"piano concerto no 1|concerto no 1\b|op 4\b", "IMSLP: composed 1890, Bote & Bock, Berlin 1892 (plate 13645)"),
+    ("Op.38", "Piano Concerto No.2 in E major Op.38", 1910, IN, r"piano concerto no 2|concerto no 2\b|op 38\b", "IMSLP: composed 1909, Zimmermann 1910 (plate Z.4813)"),
+    ("Op.28", "Rhapsody on Ukrainian Themes Op.28", 1908, IN, r"rhapsody on ukrainian|ukrainian themes|op 28\b", "IMSLP: composed 1907, Zimmermann, Leipzig 1908 (plate Z.4571)"),
+    ("Op.16", "Polonaise for Grand Orchestra Op.16", 1902, IN, r"polonaise.*orchestra|op 16\b", "Wikipedia only: 1902; IMSLP page not checked"),
+    ("Op.61", "Violin Concerto Op.61", None, UNV, r"violin concerto|op 61\b", "Composed 1915, rev. 1921; IMSLP lists only Muzgiz 1964; first publication not confirmed"),
+    ("Op.7", "Triumphal Overture on Russian Themes Op.7", None, UNV, r"triumphal overture|op 7\b", "Wikipedia gives 1886 (Solemn Overture); no first-publication year verified"),
+    ("Op.2", "Ballade Op.2", None, UNV, r"ballade|op 2\b", "Composed 1883 (Wikipedia); no first-publication year verified"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -559,5 +607,17 @@ COMPOSERS = {
         "catalogue": "Op. (where Stravinsky numbered the work) / IMSLP K-number", "rows": STRAVINSKY,
         "prefix": "stravinsky", "genre": "classical", "era": "20th century",
         "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Principal ballets, orchestral and chamber works for video; not the full catalogue. Later revisions (Firebird 1919/1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947) and all 1931+ publications are excluded. Works with no first-publication year on IMSLP are unverified and not imported.",
+    },
+    "lyadov": {
+        "name": "Anatoly Lyadov", "canon": "anatoly lyadov", "death": 1914, "birth": 1855,
+        "catalogue": "Op. (Lyadov's opus numbers)", "rows": LYADOV,
+        "prefix": "lyadov", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "Fully PD (died 1914): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (piano miniatures first, then Baba Yaga, Kikimora, The Enchanted Lake). Sets: Biryulki, Preludes, Op.58 folksongs (movement titles kept). Years from IMSLP/Wikipedia; works with no confirmed year are unverified and not imported.",
+    },
+    "lyapunov": {
+        "name": "Sergei Lyapunov", "canon": "sergei lyapunov", "death": 1924, "birth": 1859,
+        "catalogue": "Op. (Lyapunov's opus numbers)", "rows": LYAPUNOV,
+        "prefix": "lyapunov", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "Fully PD (died 1924): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (12 Transcendental Etudes Op.11 and the preludes first, then the Piano Sonata, then orchestral). Principal works for video; not the full catalogue (no folksong sets Op.10/13, songs or organ works). Op.11 and Op.57 have no first-publication year found and are unverified (not imported).",
     },
 }

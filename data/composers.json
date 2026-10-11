@@ -11829,6 +11829,34 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "sergei-lyapunov",
+  "name": "Sergei Lyapunov",
+  "short_name": "Lyapunov",
+  "sort_name": "Lyapunov, Sergei",
+  "birth_year": null,
+  "death_year": 1924,
+  "era": "Late Romantic (Russian)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 5,
+  "score_count": 5,
+  "recording_count": 0,
+  "piece_ids": [
+   "lyapunov_op_11_12_transcendental_etudes_op_11",
+   "lyapunov_op_6_prelude_s_liapounow_op_6_no_1",
+   "lyapunov_op_6_prelude_s_liapounow_op_6_no_6",
+   "lyapunov_op_26_chant_d_automne_op_26",
+   "lyapunov_op_27_piano_sonata_in_f_minor_op_27"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "edward-macdowell",
   "name": "Edward MacDowell",
   "short_name": "MacDowell",
@@ -17566,8 +17594,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 187,
-  "score_count": 187,
+  "piece_count": 189,
+  "score_count": 189,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17756,7 +17784,9 @@
    "schumann_op9_carnaval_19",
    "schumann_op2_papillons_12",
    "schumann_op124_albumblaetter_12",
-   "schumann_op124_albumblaetter_13"
+   "schumann_op124_albumblaetter_13",
+   "schumann_op124_albumblaetter_14",
+   "schumann_op124_albumblaetter_15"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

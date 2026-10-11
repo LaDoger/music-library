@@ -127,3 +127,35 @@
 - **Not done:** `sync_site_data.py` and `build_catalog.py --check` were not run, because no library rows changed. `library_other_editions.json` was already modified in the worktree before this run and is not part of this commit.
 - **WANTED:** `/workspace/music/library/files/imslp_incoming/stravinsky/WANTED.md`: 29 in-scope works, 3 unverified, 20 excluded listed for reference. IMSLP URLs curl-checked (HTTP 200).
 - **Models:** Haiku 5.5.
+
+## CP-GATHER-lyadov: Anatoly Lyadov (d. 1914), 2026-10-11
+
+- **Scope:** fully PD (died 1914), so there is no US-PD-only approval and no publication-year gate. `licence_class` clean, no `licence_scope`. Publication years are kept in `publication_year` for the record. `AGENTS.md` and `pdmx_composers_manual.json` do not list Lyadov as excluded, so nothing changed there.
+- **Checklist:** `LYADOV` in `scripts/bulk/catalogue_data.py`, 18 rows (LaDoger priority first: Musical Snuffbox Op.32, Biryulki Op.2, Barcarolle Op.44, the Preludes, then Baba Yaga, Kikimora, The Enchanted Lake).
+  - In scope (7): Musical Snuffbox Op.32 (1897 earliest edition found, composed 1893; first printing not confirmed), Biryulki Op.2 (1876), Barcarolle Op.44 (1898 earliest edition found), Etude et 3 Preludes Op.40 (1897), 8 Russian Folksongs Op.58 (1906), The Enchanted Lake Op.62 (1909), Die Braut von Messina Op.28 (1891, Wikipedia only).
+  - Unverified, not imported (11): 3 Morceaux Op.11 (composed 1885), Three Preludes Op.57, Baba Yaga Op.56, Kikimora Op.63, Mazurka Op.42, Variations Op.51, Polonaise Op.49, Village Scene Op.19, Dance of the Amazon Op.65, From the Apocalypse Op.66, Nénie Op.67.
+  - Caveat: the Op.32, Op.44 and Op.40 years are the earliest dated editions found, not confirmed first printings. This does not block import (fully PD), but the years should be corrected if IMSLP shows otherwise.
+- **Imported:** 0 new rows. PDMX has only two Lyadov files, both already live: `lyadov_op11no1_prelude_op_11_no_1_anatoly_l` and `lyadov_op40no3_anatoliy_lyadov_prelude_op_4` (both cc-zero, no_license_conflict).
+- **Skipped:** nothing else. Mutopia and OpenScore raw pools have no Lyadov match.
+- **Importer changes (`scripts/bulk/import_depth_us_pd.py`):** `lyadov` name rule (`lyadov` / `liadov`); Op.40 and Op.58 added to `SETS` so each movement keeps its own title.
+- **Checks:** `licence_audit.py`: 0 violations (9468 bulk rows). `build_catalog.py --check`: pass.
+- **Not done:** `sync_site_data.py` not run (no rows added).
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/lyadov/WANTED.md`: 7 in-scope works still wanted, 11 unverified. The Braut von Messina IMSLP page was not found, and neither were the Op.42, Op.51, Op.57 and Op.66 pages.
+- **Models:** Haiku 5.5.
+
+## CP-GATHER-lyapunov: Sergei Lyapunov (d. 1924), 2026-10-11
+
+- **Scope:** fully PD (died 1924), so there is no US-PD-only approval and no publication-year gate. `licence_class` clean, no `licence_scope`. `AGENTS.md` and `pdmx_composers_manual.json` do not list Lyapunov as excluded, so nothing changed there.
+- **Checklist:** `LYAPUNOV` in `scripts/bulk/catalogue_data.py`, 22 rows (LaDoger priority first: Op.11 Etudes, Op.6 Preludes, then the Piano Sonata, then orchestral).
+  - In scope (18): Op.11 (ca. 1906), Op.26 Chant d'automne (1906), Op.6 Preludes (1896), Op.27 Piano Sonata (1908), Op.40 (1910), Op.46 Barcarolle (1911), Op.23 (ca. 1905, uncertain), Op.58 (1914), Op.65 (1922), Op.49 (ca. 1912), Op.53 (1914), Op.63 (n.d. 1924, uncertain), Op.12 Symphony 1 (1902), Op.66 Symphony 2 (1958 Muzgiz edition), Op.4 Concerto 1 (1892), Op.38 Concerto 2 (1910), Op.28 Rhapsody (1908), Op.16 Polonaise (Wikipedia only).
+  - Unverified, not imported (4): Op.57 (composed 1913, no first-publication year), Op.61 Violin Concerto (IMSLP lists only Muzgiz 1964), Op.7 (Wikipedia 1886 only), Op.2 Ballade (composed 1883 only).
+  - Not on the checklist: Op.8 Nocturne (in PDMX, cc-zero, no year found), folksong sets (Op.10, Op.13), songs, organ.
+- **Importer changes (`scripts/bulk/import_depth_us_pd.py`):** `lyapunov` name rule widened to the PDMX spellings (`Liapounow`, `LiapounowOp.8`, which have no word boundary after the name); `Op.6` added to `SETS` so each prelude keeps its own title.
+- **Imported: 5 new rows** (PDMX, cc-zero, no_license_conflict): `lyapunov_op_11_12_transcendental_etudes_op_11` (Berceuse), `lyapunov_op_6_prelude_s_liapounow_op_6_no_1`, `..._op_6_no_6`, `lyapunov_op_26_chant_d_automne_op_26`, `lyapunov_op_27_piano_sonata_in_f_minor_op_27`. Score MIDIs in `files/scores/`.
+- **Appended to `library_bulk.csv`** by column name (5 lines; the batch file's extra columns left blank). `score_method` is the only column not in the batch file.
+- **Did not use `build_bulk_layer.py` to write `library_bulk.csv`.** I ran it once; it rebuilt the file from `parts/BULK_batchP7_rows.csv` alone and dropped the other 9,474 rows. I restored `library_bulk.csv` from HEAD with `git checkout` before doing anything else, then appended the 5 rows directly. This worktree does not have the other batch files, so the script is unsafe to run here. Run it only in a checkout that has all `parts/BULK_batch*_rows.csv`.
+- **Checks:** `licence_audit.py`: 0 violations (9473 bulk rows). `build_catalog.py --check`: pass (9787 items).
+- **Sync:** `sync_site_data.py` ran, and the tracked `data/` files were restored with `git checkout -- data/`, as in the Nielsen run. The new `data/items/lyapunov_*.json` files are untracked and not committed.
+- **Shared file:** `parts/BULK_batchP7_rows.csv` is shared by all composers in this worktree. My run kept the existing rows and added only Lyapunov rows.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/lyapunov/WANTED.md`: 14 in-scope works still wanted, plus the other 5 Op.6 Preludes and 11 Op.11 Etudes; 4 unverified. IMSLP URLs curl-checked (21 of 21 HTTP 200).
+- **Models:** Haiku 5.5.
