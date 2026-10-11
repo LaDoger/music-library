@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "count": 9992,
+ "count": 9971,
  "fields": [
   "id",
   "composer",
@@ -80,7 +80,7 @@
   },
   {
    "file": "part-012.json",
-   "count": 702
+   "count": 681
   }
  ],
  "item_json": "data/items/{id}.json"

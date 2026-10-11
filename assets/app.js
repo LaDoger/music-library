@@ -37,7 +37,7 @@
 
   // Filter keys <-> URL params. Facet filters are single-value selects.
   const FACETS = ["genre", "composer", "mood", "era", "energy", "licence", "scope", "rec", "verified"];
-  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id", "watch", "sound", "zoom", "audio"];
+  const PARAMS = ["q", ...FACETS, "score", "featured", "picks", "sort", "view", "layout", "page", "id", "watch", "sound", "zoom", "audio", "analysis"];
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -713,6 +713,8 @@
         setSound: (v) => { state.sound = v; writeState(false); },
         zoom: () => state.zoom,
         audio: () => state.audio,
+        analysis: () => state.analysis,
+        setAnalysis: (v) => { state.analysis = v; writeState(false); },
         setZoom: (v) => { state.zoom = v; writeState(false); },
       });
     } catch (err) {

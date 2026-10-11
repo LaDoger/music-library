@@ -477,6 +477,46 @@ def build():
         ]).lower()
         out.append(item)
 
+    # Analysis is derived from complete, reviewed on-disk bundles; never from CSV.
+    # A sub-piece inherits score rights/provenance, but no parent recording/preview.
+    by_id = {item["id"]: item for item in out}
+    analysis_dir = os.path.join(ROOT, "files", "analysis")
+    if os.path.isdir(analysis_dir):
+        for bundle_id in sorted(os.listdir(analysis_dir)):
+            rel = f"files/analysis/{bundle_id}/{bundle_id}"
+            json_path = os.path.join(ROOT, rel + ".analysis.json")
+            if not os.path.isfile(json_path) or not os.path.isfile(os.path.join(ROOT, rel + ".annotated.musicxml")):
+                continue
+            bundle = json.load(open(json_path, encoding="utf-8"))
+            if bundle.get("draft") or not bundle.get("reviewed_by"):
+                continue
+            meta = bundle["meta"]
+            if meta["id"] != bundle_id:
+                problems.append(f"analysis bundle id mismatch: {bundle_id}")
+                continue
+            parent = by_id.get(meta.get("parent_item_id", bundle_id))
+            if not parent:
+                problems.append(f"analysis parent missing: {bundle_id}")
+                continue
+            if bundle_id in by_id:
+                item = by_id[bundle_id]
+            else:
+                item = dict(parent)
+                item.update(id=bundle_id, title=meta["title"], movement="",
+                            analysis_parent_id=parent["id"], editors_pick=False, editors_pick_rank=0,
+                            recording_status="", has_recording=False, preview_url="", preview_path="",
+                            local_audio_path="", release_audio_name="", release_audio_url="", release_audio_bytes=0,
+                            stream_audio_url="", stream_audio_mime="", recording_license="", recording_performer="",
+                            recording_source_url="", recording_quality="", other_editions=[], duration_s=0)
+                item["licence_status"] = worst(item["score_status"], "flagged" if item.get("licence_scope") == "US-PD-only" else "") if item.get("verified") == "yes" else "unverified"
+                item["search_text"] = (item["search_text"] + " " + meta["title"]).lower()
+                out.append(item)
+                by_id[bundle_id] = item
+            item["analysis_url"] = rel + ".analysis.json"
+            item["annotated_score_url"] = rel + ".annotated.musicxml"
+            item["analysis_tags"] = bundle.get("tags", [])
+            item["analysis_quarter_range"] = meta["quarter_range"]
+
     missing_picks = sorted(set(picks) - {o["id"] for o in out})
     if missing_picks:
         problems.append(f"editor's picks not in CSV: {missing_picks}")

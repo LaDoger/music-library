@@ -144,6 +144,10 @@ def build():
             "midi_play_url": url(r.get("midi_play_url", "")),
             "item_json_url": url(item_rel),
         })
+        # Optional analysis URLs in the agent catalogue are absolute.
+        if r.get("analysis_url"):
+            index[-1].update(analysis_url=url(r["analysis_url"]), annotated_score_url=url(r["annotated_score_url"]),
+                             analysis_tags=r.get("analysis_tags", []))
         full = dict(r)
         full.pop("search_text", None)
         full.update({
@@ -159,6 +163,9 @@ def build():
             "licence_meaning": LICENCE_MEANING.get(r["licence_status"], ""),
             "credit_text": credit_text(r),
         })
+        if r.get("analysis_url"):
+            full["analysis_url_abs"] = url(r["analysis_url"])
+            full["annotated_score_url_abs"] = url(r["annotated_score_url"])
         items[rid] = full
     catalog = {
         "schema_version": SCHEMA_VERSION,

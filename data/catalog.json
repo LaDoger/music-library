@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9992,
+ "count": 9971,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -13897,7 +13897,40 @@
    "release_audio_url": "",
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.json"
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.json",
+   "analysis_url": "https://ladoger.github.io/music-library/files/analysis/lyadov_op11no1_prelude_op_11_no_1_anatoly_l/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.analysis.json",
+   "annotated_score_url": "https://ladoger.github.io/music-library/files/analysis/lyadov_op11no1_prelude_op_11_no_1_anatoly_l/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.annotated.musicxml",
+   "analysis_tags": [
+    "bass_line:arpeggiated",
+    "bass_line:chromatic",
+    "cadence:IAC",
+    "cadence:tonic_close",
+    "colour_chord:added_note",
+    "colour_chord:borrowed",
+    "colour_chord:dim7_colour",
+    "colour_chord:neapolitan",
+    "counterpoint:oblique_motion",
+    "form:bridge",
+    "form:coda",
+    "form:intro",
+    "form:theme_1",
+    "form:theme_2",
+    "hook:melodic_cell",
+    "modulation:direct_phrase_modulation",
+    "modulation:pivot_chord",
+    "modulation:sequence",
+    "motif:sequence",
+    "rhythm_phrase:syncopation",
+    "story:arrival",
+    "story:start",
+    "story:turn",
+    "tension_release:delayed_resolution",
+    "texture_dynamics:build_to_climax",
+    "texture_dynamics:thickening",
+    "texture_dynamics:thinning",
+    "voicing_orchestration:doubling",
+    "voicing_orchestration:register_low_shift"
+   ]
   },
   {
    "id": "andreagabrieli_alleluia_al_vangelo_andrea_g",
@@ -283209,7 +283242,34 @@
    "release_audio_url": "",
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/kalinnikov_vasili_kalinnikov_sinfonia_nb2.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/kalinnikov_vasili_kalinnikov_sinfonia_nb2.json"
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/kalinnikov_vasili_kalinnikov_sinfonia_nb2.json",
+   "analysis_url": "https://ladoger.github.io/music-library/files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.analysis.json",
+   "annotated_score_url": "https://ladoger.github.io/music-library/files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.annotated.musicxml",
+   "analysis_tags": [
+    "bass_line:chromatic",
+    "bass_line:stepwise_descent",
+    "cadence:HC",
+    "cadence:open_phrase",
+    "colour_chord:added_note",
+    "colour_chord:borrowed",
+    "colour_chord:half_dim",
+    "counterpoint:contrary_motion",
+    "counterpoint:oblique_motion",
+    "form:bridge",
+    "form:theme_1",
+    "form:theme_tail",
+    "hook:melodic_cell",
+    "motif:fragmentation",
+    "rhythm_phrase:anticipation",
+    "story:arrival",
+    "story:start",
+    "story:turn",
+    "tension_release:delayed_resolution",
+    "texture_dynamics:thinning",
+    "voicing_orchestration:doubling",
+    "voicing_orchestration:open_spacing",
+    "voicing_orchestration:register_high_shift"
+   ]
   },
   {
    "id": "kalinnikov_vasili_kalinnikov_sinfonia_n",
@@ -302803,11 +302863,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "wistful",
-    "yearning",
-    "hushed",
-    "key: A minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -302838,11 +302895,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "pensive",
-    "bare",
-    "hesitant",
-    "key: E minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -302873,11 +302927,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "sunny",
-    "lilting",
-    "gentle",
-    "key: G major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -302908,11 +302959,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "airy",
-    "tender",
-    "dreamy",
-    "key: C major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -302943,11 +302991,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bustling",
-    "teasing",
-    "lilting",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -302978,11 +303023,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "restless",
-    "searching",
-    "unresolved",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303013,11 +303055,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "sunlit",
-    "reflective",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303048,11 +303087,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "turbulent",
-    "tormented",
-    "frenzied",
-    "key: D minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303083,11 +303119,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "questioning",
-    "tender",
-    "wistful",
-    "key: D-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303118,11 +303151,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "nocturnal",
-    "dreaming",
-    "tender",
-    "key: F major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303153,11 +303183,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "glowing",
-    "restless",
-    "key: D-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303188,11 +303215,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "impetuous",
-    "ardent",
-    "tender",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303223,11 +303247,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "muted",
-    "shadowed",
-    "key: G minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303258,11 +303279,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "wistful",
-    "restless",
-    "moonlit",
-    "key: F-sharp minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303293,11 +303311,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "playful",
-    "capricious",
-    "bright",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303328,11 +303343,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "buoyant",
-    "dance-like",
-    "key: G major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303363,11 +303375,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "agitated",
-    "playful",
-    "dramatic",
-    "key: D minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303398,11 +303407,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "capricious",
-    "lilting",
-    "key: Ab major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303433,11 +303439,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "restless",
-    "searching",
-    "brooding",
-    "key: B minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303468,11 +303471,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "chromatic",
-    "unsettled",
-    "key: C# minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303503,11 +303503,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "dreamy",
-    "suspended",
-    "unsettled",
-    "key: D-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303538,11 +303535,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "nocturnal",
-    "wistful",
-    "tender",
-    "key: F major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303573,11 +303567,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "ardent",
-    "rhythmic",
-    "bright",
-    "key: F major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303608,11 +303599,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "yearning",
-    "restless",
-    "unresolved",
-    "key: G major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303643,11 +303631,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "sunny",
-    "buoyant",
-    "bright",
-    "key: G major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303678,11 +303663,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "playful",
-    "coy",
-    "brisk",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303713,11 +303695,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "stark",
-    "dotted",
-    "restless",
-    "key: G minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303748,11 +303727,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "nostalgic",
-    "gentle",
-    "key: A major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303845,11 +303821,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "turbulent",
-    "brooding",
-    "dark",
-    "key: B minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303880,11 +303853,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "sunny",
-    "tranquil",
-    "lyrical",
-    "key: E major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303915,11 +303885,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "lilting",
-    "sunlit",
-    "key: A major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -303950,11 +303917,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "agitated",
-    "dark-hued",
-    "key: f minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304297,11 +304261,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "hushed",
-    "pastoral",
-    "entering",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304332,11 +304293,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "solitary",
-    "melancholy",
-    "pensive",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304367,11 +304325,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "eerie",
-    "restless",
-    "shadowed",
-    "key: d minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304402,11 +304357,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "open",
-    "cheerful",
-    "pastoral",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304437,11 +304389,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "rustic",
-    "warm",
-    "restful",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304472,11 +304421,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "eerie",
-    "fluttering",
-    "uncanny",
-    "key: g minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304507,11 +304453,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "playful",
-    "restless",
-    "brilliant",
-    "key: a minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304542,11 +304485,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bustling",
-    "bright",
-    "dance-like",
-    "key: D major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304577,11 +304517,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "wistful",
-    "tender",
-    "hushed",
-    "key: A-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304612,11 +304549,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "anxious",
-    "suspended",
-    "unresolved",
-    "key: E-flat minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304804,11 +304738,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "playful",
-    "quick",
-    "key: A-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304839,11 +304770,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "restless",
-    "hushed",
-    "key: B-flat minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304874,11 +304802,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "fiery",
-    "stern",
-    "contrapuntal",
-    "key: d minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304909,11 +304834,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "restless",
-    "wistful",
-    "key: D-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304944,11 +304866,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "playful",
-    "eager",
-    "key: D major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -304979,11 +304898,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "elegiac",
-    "hushed",
-    "tender",
-    "key: F minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305014,11 +304930,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "sombre",
-    "brooding",
-    "tender",
-    "key: F minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305202,11 +305115,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "serene",
-    "lyrical",
-    "pastoral",
-    "key: F major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305237,11 +305147,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "lilting",
-    "quiet",
-    "key: A-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305303,11 +305210,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "intimate",
-    "yearning",
-    "sombre",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305338,11 +305242,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "fierce",
-    "stern",
-    "urgent",
-    "key: G minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305373,11 +305274,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "bouncy",
-    "lively",
-    "key: B-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305408,11 +305306,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "dreamy",
-    "hushed",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305443,11 +305338,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "light",
-    "impish",
-    "restless",
-    "key: E-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305478,11 +305370,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "passionate",
-    "agitated",
-    "defiant",
-    "key: C minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305513,11 +305402,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "agitated",
-    "urgent",
-    "clenched",
-    "key: A-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305548,11 +305434,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "playful",
-    "quick",
-    "sly",
-    "key: A-flat major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305583,11 +305466,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bright",
-    "forthright",
-    "restless",
-    "key: C minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305618,11 +305498,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "bold",
-    "marching",
-    "bright",
-    "key: Ab major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305653,11 +305530,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "restless",
-    "spiky",
-    "unsettled",
-    "key: G major"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305688,11 +305562,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "searching",
-    "fanciful",
-    "chromatic",
-    "key: C major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305723,11 +305594,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "tender",
-    "muted",
-    "reflective",
-    "key: Ab major"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305758,11 +305626,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "austere",
-    "rustic",
-    "modal",
-    "key: C minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305793,11 +305658,8 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "urgent",
-    "agitated",
-    "restless",
-    "key: D minor"
+    "romantic",
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -305828,11 +305690,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "wistful",
-    "spare",
-    "hushed",
-    "key: C# minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305863,11 +305722,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "uneasy",
-    "chromatic",
-    "spectral",
-    "key: G# minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305898,11 +305754,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "wistful",
-    "static",
-    "ambiguous",
-    "key: E minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305933,11 +305786,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "brooding",
-    "terse",
-    "haunted",
-    "key: D minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -305968,11 +305818,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "rustic",
-    "wry",
-    "bittersweet",
-    "key: G minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -306003,11 +305850,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "static",
-    "hypnotic",
-    "uneasy",
-    "key: G minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -306038,11 +305882,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "restless",
-    "shadowy",
-    "unresolved",
-    "key: B minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -306321,11 +306162,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "tense",
-    "unsettled",
-    "driving",
-    "key: A minor"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -306356,11 +306194,8 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "piano",
-    "shimmering",
-    "chromatic",
-    "unresolved",
-    "key: Eb major"
+    "modern",
+    "folk"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -309704,595 +309539,18 @@
    "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__30.json"
   },
   {
-   "id": "schumann_op6_davidsbuendlertaenze_17",
+   "id": "schumann_op15_schumann_kinderszenen_op_15__no10",
    "composer": "Robert Schumann",
    "composer_slug": "robert-schumann",
    "composer_sort": "Schumann, Robert",
-   "title": "Davidsbündlertänze - No. 17",
-   "catalog": "Op. 6",
-   "movement": "No. 17",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "romantic",
-    "lyrical"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 3,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op6_davidsbuendlertaenze_17.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op6_davidsbuendlertaenze_17.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op6_davidsbuendlertaenze_17.json"
-  },
-  {
-   "id": "schumann_op13_symphonic_etudes_9",
-   "composer": "Robert Schumann",
-   "composer_slug": "robert-schumann",
-   "composer_sort": "Schumann, Robert",
-   "title": "Symphonic Études - No. 9",
-   "catalog": "Op. 13",
-   "movement": "No. 9",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "romantic",
-    "lyrical"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 3,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op13_symphonic_etudes_9.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op13_symphonic_etudes_9.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op13_symphonic_etudes_9.json"
-  },
-  {
-   "id": "schumann_op13_symphonic_etudes_10",
-   "composer": "Robert Schumann",
-   "composer_slug": "robert-schumann",
-   "composer_sort": "Schumann, Robert",
-   "title": "Symphonic Études - No. 10",
-   "catalog": "Op. 13",
-   "movement": "No. 10",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "romantic",
-    "lyrical"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 3,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op13_symphonic_etudes_10.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op13_symphonic_etudes_10.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op13_symphonic_etudes_10.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__31",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 31",
-   "catalog": "Sz. 42",
-   "movement": "No. 31",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__31.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__31.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__31.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__32",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 32",
-   "catalog": "Sz. 42",
-   "movement": "No. 32",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__32.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__32.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__32.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__33",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 33",
-   "catalog": "Sz. 42",
-   "movement": "No. 33",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__33.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__33.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__33.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__34",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 34",
-   "catalog": "Sz. 42",
-   "movement": "No. 34",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__34.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__34.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__34.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__35",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 35",
-   "catalog": "Sz. 42",
-   "movement": "No. 35",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__35.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__35.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__35.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__36",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 36",
-   "catalog": "Sz. 42",
-   "movement": "No. 36",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__36.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__36.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__36.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__37",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 37",
-   "catalog": "Sz. 42",
-   "movement": "No. 37",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__37.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__37.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__37.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__38",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 38",
-   "catalog": "Sz. 42",
-   "movement": "No. 38",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__38.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__38.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__38.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__39",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 39",
-   "catalog": "Sz. 42",
-   "movement": "No. 39",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__39.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__39.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__39.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__40",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 40",
-   "catalog": "Sz. 42",
-   "movement": "No. 40",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__40.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__40.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__40.json"
-  },
-  {
-   "id": "bartok_sz42_for_children_original_version__41",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "For Children (original version), vols. 1-2 - No. 41",
-   "catalog": "Sz. 42",
-   "movement": "No. 41",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__41.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz42_for_children_original_version__41.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz42_for_children_original_version__41.json"
-  },
-  {
-   "id": "bartok_sz84_three_rondos_on_slovak_folk_tu_2",
-   "composer": "Béla Bartók",
-   "composer_slug": "bela-bartok",
-   "composer_sort": "Bartók, Béla",
-   "title": "Three Rondos on Slovak Folk Tunes - No. 2",
-   "catalog": "Sz. 84",
-   "movement": "No. 2",
-   "genre": "classical",
-   "era": "20th century",
-   "mood": [
-    "classical",
-    "modern",
-    "folk"
-   ],
-   "energy": "moderate",
-   "licence_status": "flagged",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz84_three_rondos_on_slovak_folk_tu_2.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz84_three_rondos_on_slovak_folk_tu_2.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz84_three_rondos_on_slovak_folk_tu_2.json"
-  },
-  {
-   "id": "lyadov_imslp462481_1",
-   "composer": "Anatoly Lyadov",
-   "composer_slug": "anatoly-lyadov",
-   "composer_sort": "Lyadov, Anatoly",
-   "title": "Biryulki Op. 2 - No. 1",
-   "catalog": "",
-   "movement": "No. 1",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_1.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_1.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/lyadov_imslp462481_1.json"
-  },
-  {
-   "id": "lyadov_imslp462481_2",
-   "composer": "Anatoly Lyadov",
-   "composer_slug": "anatoly-lyadov",
-   "composer_sort": "Lyadov, Anatoly",
-   "title": "Biryulki Op. 2 - No. 2",
-   "catalog": "",
-   "movement": "No. 2",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_2.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_2.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/lyadov_imslp462481_2.json"
-  },
-  {
-   "id": "lyadov_imslp462481_4",
-   "composer": "Anatoly Lyadov",
-   "composer_slug": "anatoly-lyadov",
-   "composer_sort": "Lyadov, Anatoly",
-   "title": "Biryulki Op. 2 - No. 4",
-   "catalog": "",
-   "movement": "No. 4",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_4.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/lyadov_imslp462481_4.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/lyadov_imslp462481_4.json"
-  },
-  {
-   "id": "arensky_imslp64446_1",
-   "composer": "Anton Arensky",
-   "composer_slug": "anton-arensky",
-   "composer_sort": "Arensky, Anton",
-   "title": "12 Etudes, Op.74",
-   "catalog": "",
+   "title": "Kinderszenen Op. 15 No. 10 'Fast zu ernst' (annotated)",
+   "catalog": "Op. 15",
    "movement": "",
    "genre": "classical",
    "era": "Romantic",
    "mood": [
     "classical",
-    "piano",
-    "miniature"
+    "lyrical"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -310303,109 +309561,37 @@
    "has_recording": false,
    "renderable_midi": true,
    "editors_pick_rank": 0,
-   "featured_rank": 0,
+   "featured_rank": 3,
    "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp64446_1.mid",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op15_schumann_kinderszenen_op_15.mid",
    "release_audio_url": "",
    "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp64446_1.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/arensky_imslp64446_1.json"
-  },
-  {
-   "id": "arensky_imslp6482_1",
-   "composer": "Anton Arensky",
-   "composer_slug": "anton-arensky",
-   "composer_sort": "Arensky, Anton",
-   "title": "12 Preludes, Op.63 - No. 1",
-   "catalog": "",
-   "movement": "No. 1",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_1.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_1.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/arensky_imslp6482_1.json"
-  },
-  {
-   "id": "arensky_imslp6482_2",
-   "composer": "Anton Arensky",
-   "composer_slug": "anton-arensky",
-   "composer_sort": "Arensky, Anton",
-   "title": "12 Preludes, Op.63 - No. 2",
-   "catalog": "",
-   "movement": "No. 2",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_2.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_2.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/arensky_imslp6482_2.json"
-  },
-  {
-   "id": "arensky_imslp6482_3",
-   "composer": "Anton Arensky",
-   "composer_slug": "anton-arensky",
-   "composer_sort": "Arensky, Anton",
-   "title": "12 Preludes, Op.63 - No. 3",
-   "catalog": "",
-   "movement": "No. 3",
-   "genre": "classical",
-   "era": "Romantic",
-   "mood": [
-    "classical",
-    "piano",
-    "miniature"
-   ],
-   "energy": "moderate",
-   "licence_status": "clean",
-   "recording_status": "",
-   "score_status": "clean",
-   "verified": "yes",
-   "has_editable_score": true,
-   "has_recording": false,
-   "renderable_midi": true,
-   "editors_pick_rank": 0,
-   "featured_rank": 0,
-   "preview_url": "",
-   "score_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_3.mid",
-   "release_audio_url": "",
-   "stream_audio_url": "",
-   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/arensky_imslp6482_3.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/arensky_imslp6482_3.json"
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op15_schumann_kinderszenen_op_15.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op15_schumann_kinderszenen_op_15__no10.json",
+   "analysis_url": "https://ladoger.github.io/music-library/files/analysis/schumann_op15_schumann_kinderszenen_op_15__no10/schumann_op15_schumann_kinderszenen_op_15__no10.analysis.json",
+   "annotated_score_url": "https://ladoger.github.io/music-library/files/analysis/schumann_op15_schumann_kinderszenen_op_15__no10/schumann_op15_schumann_kinderszenen_op_15__no10.annotated.musicxml",
+   "analysis_tags": [
+    "bass_line:chromatic",
+    "cadence:PAC",
+    "cadence:tonic_close",
+    "colour_chord:dim7_colour",
+    "form:coda",
+    "form:theme_1",
+    "hook:melodic_cell",
+    "modulation:direct_phrase_modulation",
+    "modulation:pivot_chord",
+    "motif:repetition",
+    "motif:sequence",
+    "rhythm_phrase:phrase_length",
+    "rhythm_phrase:syncopation",
+    "story:arrival",
+    "story:start",
+    "story:turn",
+    "tension_release:delayed_resolution",
+    "tension_release:pedal_point_dominant",
+    "texture_dynamics:thinning",
+    "voicing_orchestration:open_spacing"
+   ]
   }
  ]
 }

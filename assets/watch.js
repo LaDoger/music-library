@@ -172,6 +172,20 @@
     return s;
   }
 
+  function excerptMidi(seq, range) {
+    if (!range || range.length !== 2) return seq;
+    const map = tempoMap(seq), a = map.tOf(range[0]), z = map.tOf(range[1]);
+    const s = window.core.sequences.clone(seq);
+    s.notes = s.notes.filter((n) => n.startTime < z && n.endTime > a).map((n) => ({ ...n, startTime: Math.max(a, n.startTime) - a, endTime: Math.min(z, n.endTime) - a }));
+    const prior = [...(s.tempos || [])].filter((t) => t.time <= a).pop();
+    s.tempos = [{ time: 0, qpm: prior?.qpm || 120 }, ...(s.tempos || []).filter((t) => t.time > a && t.time < z).map((t) => ({ ...t, time: t.time - a }))];
+    for (const field of ["controlChanges", "pitchBends", "timeSignatures", "keySignatures"]) {
+      if (s[field]) s[field] = s[field].filter((x) => x.time >= a && x.time < z).map((x) => ({ ...x, time: x.time - a }));
+    }
+    s.totalTime = z - a;
+    return s;
+  }
+
   /* ---------- score timeline: MusicXML -> unrolled measures, tempo map, notes ----------
      Audio and cursor share one clock: the score is unrolled in playback order (repeats, voltas,
      D.C./D.S./Fine/To Coda; repeats are not replayed after a jump, the last volta is taken),
@@ -470,6 +484,7 @@
   const toBinary = (buf) => { const u = new Uint8Array(buf); let s = ""; for (let i = 0; i < u.length; i += 8192) s += String.fromCharCode.apply(null, u.subarray(i, i + 8192)); return s; };
   async function loadScore(w, data) {
     await loadOSMD();
+    w.osmdEl.replaceChildren(); // a new OSMD instance must replace the previous engraving
     const o = new window.opensheetmusicdisplay.OpenSheetMusicDisplay(w.osmdEl, {
       backend: "svg", autoResize: false, drawTitle: false, drawSubtitle: false, drawComposer: false, drawLyricist: false,
       drawCredits: false, drawPartNames: true, followCursor: false, drawingParameters: "default", pageFormat: "Endless",
@@ -530,6 +545,90 @@
     w.svgW = width;
   }
 
+  /* ---------- analysis (same unrolled measure clock as the cursor) ---------- */
+  const ANALYSIS_PREFIX = { modulation: "mod", counterpoint: "cpt", voicing_orchestration: "voi", tension_release: "ten", rhythm_phrase: "rhy", motif: "mot", texture_dynamics: "tex", bass_line: "bass", colour_chord: "col", cadence: "cad", form: "form", story: "story", hook: "hook", mood: "mood" };
+  const ANALYSIS_WORDS = /^\[(mod|cpt|voi|ten|rhy|mot|tex|bass|col|cad|form|story|hook|mood|ped|rn)\]/;
+  function scoreForAnalysis(w) {
+    if (!w.analysisXml) return w.analysisXml;
+    const doc = new DOMParser().parseFromString(w.analysisXml, "application/xml");
+    if (!w.analysisOn) doc.querySelectorAll("harmony, lyric[name='rn'], lyric[number='rn']").forEach((e) => e.remove());
+    doc.querySelectorAll("direction").forEach((d) => {
+      if ([...d.querySelectorAll("words")].some((e) => ANALYSIS_WORDS.test(e.textContent.trim()) && (!w.analysisOn || !/^\[rn\]/.test(e.textContent.trim())))) d.remove();
+    });
+    return new XMLSerializer().serializeToString(doc);
+  }
+  function analysisUI(w) {
+    const button = w.q("#wAnalysis");
+    button.hidden = !w.analysis;
+    button.setAttribute("aria-pressed", String(!!w.analysisOn));
+    w.q("#wAnalysisHeader").hidden = !w.analysis || !w.analysisOn;
+    w.q("#wSections").hidden = !w.analysis || !w.analysisOn;
+  }
+  async function setAnalysis(w, on) {
+    if (!w.analysis || !w.analysisXml || w.analysisBusy) return;
+    w.analysisOn = !!on;
+    localStorage.setItem("watchAnalysis", on ? "1" : "0");
+    if (ctx.setAnalysis) ctx.setAnalysis(on ? "1" : "0");
+    w.analysisBusy = true; w.q("#wAnalysis").disabled = true;
+    try {
+      analysisUI(w);
+      // Engraving changes only: the existing audio/measure-time map stays intact.
+      await loadScore(w, scoreForAnalysis(w));
+      if (W !== w) return;
+      w.curMeasure = -1; w.curSys = -1; w.analysisSignature = null; sync(w, true); fitStage(w);
+    } catch (err) { w.setStatus("Analysis engraving failed: " + err.message); }
+    finally { if (W === w) { w.analysisBusy = false; w.q("#wAnalysis").disabled = false; } }
+  }
+  function analysisTimeline(w) {
+    if (!w.analysis || !w.clock) return;
+    const rows = w.analysis.bars, E = w.clock.entries;
+    w.analysisEvents = [];
+    for (const e of E) for (const event of rows[e.m]?.events || []) {
+      const beat = event.beat || 1;
+      // Fade measured in score quarters, so seeks, tempo and repeats use one clock.
+      const end = E[Math.min(E.indexOf(e) + 3, E.length - 1)];
+      w.analysisEvents.push({ ...event, at: e.u0 + beat - 1, until: end.u0 + end.len, measure: e.m });
+    }
+    w.analysisEvents.sort((a, b) => a.at - b.at);
+    const ribbon = w.q("#wSections"); ribbon.replaceChildren();
+    for (const section of w.analysis.sections || []) {
+      const first = rows.findIndex((b) => b.bar === section.start_bar);
+      const last = rows.findIndex((b) => b.bar === section.end_bar);
+      // Section blocks follow playback time, including every unfolded occurrence.
+      for (let i = 0; i < E.length; i++) {
+        if (E[i].m !== first) continue;
+        let j = i; while (j + 1 < E.length && E[j].m !== last) j++;
+        const a = w.clock.tOf ? w.clock.tOf(E[i].u0) : E[i].u0 / (w.clock.U || 1) * w.total;
+        const z = w.clock.tOf ? w.clock.tOf(E[j].u0 + E[j].len) : (E[j].u0 + E[j].len) / (w.clock.U || 1) * w.total;
+        const el = document.createElement("button"); el.type = "button"; el.className = "w-section";
+        el.style.left = (100 * a / w.total) + "%"; el.style.width = (100 * (z - a) / w.total) + "%";
+        el.textContent = section.name; el.title = section.name + " · bars " + section.start_bar + "–" + section.end_bar;
+        el.setAttribute("aria-label", "Seek to " + el.title); el.onclick = () => seek(w, a);
+        ribbon.append(el);
+      }
+    }
+    analysisUI(w);
+  }
+  function syncAnalysis(w, p) {
+    if (!w.analysis || !w.analysisOn) return;
+    const row = w.analysis.bars[p.m]; if (!row) return;
+    const e = w.clock.entries.find((e) => e.m === p.m && p.u >= e.u0 - 1e-6 && p.u < e.u0 + e.len + 1e-6);
+    const offset = e ? p.u - e.u0 : 0;
+    const chord = [...(row.chords || [])].reverse().find((c) => c.beat - 1 <= offset + 1e-6);
+    const section = (w.analysis.sections || []).find((s) => row.bar >= s.start_bar && row.bar <= s.end_bar);
+    const active = (w.analysisEvents || []).filter((e) => e.at <= p.u + 1e-6 && e.until > p.u);
+    const latest = active.length ? active[active.length - 1].at : -1;
+    const events = active.filter((e) => e.at === latest);
+    const signature = p.m + "|" + chord?.symbol + "|" + latest;
+    if (signature === w.analysisSignature) return;
+    w.analysisSignature = signature;
+    w.q("#wHarmony").textContent = `Bar ${row.bar} · ${section?.name || row.key}` + (chord ? ` · ${chord.symbol} (${chord.rn})` : "");
+    const card = w.q("#wCallout");
+    card.textContent = events.map((e) => `[${ANALYSIS_PREFIX[e.type] || e.type}] ${e.text}`).join(" · ");
+    card.title = card.textContent;
+    card.classList.toggle("is-empty", !events.length);
+  }
+
   /* ---------- session ---------- */
   function shell() {
     const root = $("#watch");
@@ -546,10 +645,14 @@
               <button type="button" data-view="roll" aria-pressed="false">Piano roll</button>
               <button type="button" data-view="both" aria-pressed="false">Both</button>
             </div>
+            <button class="w-chip" id="wAnalysis" type="button" data-w="analysis" aria-pressed="false" title="Analysis (A)" hidden>Analysis</button>
             <button class="w-chip" type="button" data-w="paper" aria-pressed="false"></button>
             <button class="w-icon" type="button" data-w="full" aria-label="Fullscreen" title="Fullscreen (F)">⛶</button>
           </div>
         </header>
+        <div class="w-analysis-header" id="wAnalysisHeader" hidden>
+          <div class="w-harmony" id="wHarmony"></div><div class="w-callout" id="wCallout" aria-live="polite" aria-atomic="true"></div>
+        </div>
         <div class="w-stage" id="wStage" data-vmode="score">
           <div class="w-paper" id="wPaper" role="region" aria-label="Sheet music" tabindex="-1">
             <div class="w-slide" id="wSlide">
@@ -564,6 +667,7 @@
           <div class="w-status" id="wStatus" role="status" aria-live="polite">Loading…</div>
         </div>
         <div class="w-controls">
+          <div class="w-sections" id="wSections" role="group" aria-label="Form sections" hidden></div>
           <div class="w-seek" id="wSeek" role="slider" tabindex="0" aria-label="Position" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="wProg"></span></div>
           <div class="w-row">
             <button class="w-icon" type="button" data-w="prev" aria-label="Previous movement" disabled>⏮</button>
@@ -610,7 +714,21 @@
       if (W !== w) return;
       renderCredits(w, full);
       fillHeading(w, full);
-      const xml = (full.score_files || []).find((f) => XML_RE.test(f));
+      let xml = (full.score_files || []).find((f) => XML_RE.test(f));
+      if (full.analysis_url && full.annotated_score_url) {
+        try {
+          const res = await fetch(full.analysis_url);
+          if (!res.ok) throw new Error("analysis " + res.status);
+          const analysis = await res.json(); if (W !== w) return;
+          if (!analysis.draft && analysis.meta?.id === id) {
+            w.analysis = analysis; xml = full.annotated_score_url;
+            const param = ctx.analysis ? ctx.analysis() : "";
+            const stored = localStorage.getItem("watchAnalysis");
+            w.analysisOn = ["0", "1"].includes(param) ? param === "1" : stored !== "0";
+            analysisUI(w);
+          }
+        } catch (err) { console.warn("analysis unavailable", err); }
+      }
       w.hasXml = !!xml;
       w.view = xml ? (prefs.view || "score") : "roll";
       for (const b of root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]')) b.disabled = !xml;
@@ -627,7 +745,8 @@
           const src = await fetchScore(xml);
           if (W !== w) return;
           if (src.text) { try { tl = scoreTimeline(parseMusicXML(src.text)); } catch (err) { console.warn("score timeline failed", err); } }
-          await loadScore(w, src.text || src.raw); w.hasScore = true;
+          if (w.analysis && src.text) w.analysisXml = src.text;
+          await loadScore(w, w.analysisXml ? scoreForAnalysis(w) : src.text || src.raw); w.hasScore = true;
           if (tl && tl.measures !== w.osmd.Sheet.SourceMeasures.length) { console.warn("measure count differs from OSMD; using the MIDI"); tl = null; }
         } catch (err) { console.warn("score failed", err); w.hasScore = false; if (w.view !== "roll") setView(w, "roll", true); root.querySelectorAll('.w-seg [data-view="score"], .w-seg [data-view="both"]').forEach((b) => { b.disabled = true; }); setStatus("Score could not be drawn; showing the piano roll."); }
         if (W !== w) return;
@@ -636,7 +755,7 @@
       const loadMidi = async () => {
         const res = await fetch(full.midi_play_url);
         if (!res.ok) throw new Error("MIDI " + res.status);
-        return window.core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer()));
+        return excerptMidi(window.core.midiToSequenceProto(new Uint8Array(await res.arrayBuffer())), full.analysis_quarter_range);
       };
       if (tl && !tl.marked && !forceMidi) {
         // No tempo mark in the score: borrow the MIDI's tempo map when it has the same length in quarters.
@@ -659,6 +778,7 @@
         }
       }
       w.base = base; w.total = base.totalTime;
+      analysisTimeline(w);
       w.sound = resolveSound(base);
       w.kind = w.sound === "gm" ? "sf" : "piano";
       w.rollNotes = base.notes.filter((n) => !n.isDrum);
@@ -768,6 +888,8 @@
       w.u = p.u;
       if (p.step !== w.stepIdx || force) moveCursor(w, p.step);
       if (p.m !== w.curMeasure || force) highlight(w, p.m, force);
+      if (force) w.analysisSignature = null;
+      syncAnalysis(w, p);
     }
     exposeState(w);
   }
@@ -904,6 +1026,7 @@
         case "play": return w.engine && w.engine.playing ? pause(w) : play(w);
         case "paper": return setPaper(w, prefs.paper === "dark" ? "light" : "dark");
         case "full": return toggleFull(w);
+        case "analysis": return setAnalysis(w, !w.analysisOn);
         case "zin": return setZoom(w, w.zoom + 0.1);
         case "zout": return setZoom(w, w.zoom - 0.1);
         case "zfit": return setZoom(w, 1);
@@ -932,6 +1055,7 @@
       if (t.matches && t.matches("input[type=range], [role=slider]")) { if (e.key !== " ") return; }
       if (e.key === " " || e.code === "Space") { if (t.matches && t.matches("button, a")) return; e.preventDefault(); w.q("#wPlay").click(); }
       else if (e.key === "f" || e.key === "F") toggleFull(w);
+      else if ((e.key === "a" || e.key === "A") && !t.matches("input, select, textarea, [contenteditable]")) { e.preventDefault(); setAnalysis(w, !w.analysisOn); }
     };
     document.addEventListener("keydown", w.keys);
     w.trap = (e) => {
@@ -974,7 +1098,7 @@
   }
   // Stage height = viewport minus header bar and controls, so bar + stage + controls fit on screen.
   function fitStage(w) {
-    const h = (w.q(".w-bar").offsetHeight || 0) + (w.q(".w-controls").offsetHeight || 0);
+    const h = (w.q(".w-bar").offsetHeight || 0) + (w.q("#wAnalysisHeader").offsetHeight || 0) + (w.q(".w-controls").offsetHeight || 0);
     w.root.style.setProperty("--w-bars", h + "px");
   }
   function relayout(w) {
@@ -1020,6 +1144,7 @@
       measure: w.curMeasure, measures: w.meas ? w.meas.length : 0, system: w.curSys, systems: w.sys ? w.sys.length : 0,
       turns: w.turns, hasScore: !!w.hasScore, tempo: w.tempo || 1, steps: w.steps ? w.steps.length : 0,
       cursor: w.steps && w.steps[w.stepIdx] ? { m: w.steps[w.stepIdx].m, off: w.steps[w.stepIdx].o } : null, u: w.u || 0, audioSrc: w.audioSrc || "",
+      hasAnalysis: !!w.analysis, analysisOn: !!w.analysisOn, analysisBusy: !!w.analysisBusy, analysisBar: w.analysis?.bars[w.curMeasure]?.bar,
       seek: (t) => seek(w, t), play: () => play(w),
     };
   }

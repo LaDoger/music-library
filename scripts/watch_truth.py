@@ -195,7 +195,7 @@ def main(ids):
     res = []
     for id_ in ids:
         item = json.loads((ROOT / "data/items" / (id_ + ".json")).read_text())
-        xml = next(f for f in item["score_files"] if re.search(r"\.(mxl|musicxml|xml)$", f, re.I))
+        xml = item.get("annotated_score_url") or next(f for f in item["score_files"] if re.search(r"\.(mxl|musicxml|xml)$", f, re.I))
         meas = parse(read_xml(ROOT / xml))
         order = unroll(meas)
         score_start = []; q = F(0)
@@ -212,6 +212,9 @@ def main(ids):
         res.append(out)
         try:
             notes, tempos, tpq = midi_notes(ROOT / item["midi_play_url"])
+            if item.get("analysis_quarter_range"):
+                a, z = item["analysis_quarter_range"]
+                notes = [(q - F(str(a)), p) for q, p in notes if F(str(a)) <= q < F(str(z))]
         except ImportError:   # mido missing: unrolled score only, no MIDI cross-check
             continue
         # MIDI onsets may start after a leading offset (pickup / count-in): align on the first onset

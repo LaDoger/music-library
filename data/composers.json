@@ -1914,15 +1914,11 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 5,
-  "score_count": 5,
+  "piece_count": 1,
+  "score_count": 1,
   "recording_count": 0,
   "piece_ids": [
-   "arensky_3_4_n_n_1_2_n_lullaby_n_1_2n",
-   "arensky_imslp64446_1",
-   "arensky_imslp6482_1",
-   "arensky_imslp6482_2",
-   "arensky_imslp6482_3"
+   "arensky_3_4_n_n_1_2_n_lullaby_n_1_2n"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -2884,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 76,
-  "score_count": 76,
+  "piece_count": 64,
+  "score_count": 64,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2951,19 +2947,7 @@
    "bartok_sz84_three_rondos_on_slovak_folk_tu_1",
    "bartok_sz42_for_children_original_version__28",
    "bartok_sz42_for_children_original_version__29",
-   "bartok_sz42_for_children_original_version__30",
-   "bartok_sz42_for_children_original_version__31",
-   "bartok_sz42_for_children_original_version__32",
-   "bartok_sz42_for_children_original_version__33",
-   "bartok_sz42_for_children_original_version__34",
-   "bartok_sz42_for_children_original_version__35",
-   "bartok_sz42_for_children_original_version__36",
-   "bartok_sz42_for_children_original_version__37",
-   "bartok_sz42_for_children_original_version__38",
-   "bartok_sz42_for_children_original_version__39",
-   "bartok_sz42_for_children_original_version__40",
-   "bartok_sz42_for_children_original_version__41",
-   "bartok_sz84_three_rondos_on_slovak_folk_tu_2"
+   "bartok_sz42_for_children_original_version__30"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -12044,15 +12028,12 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 5,
-  "score_count": 5,
+  "piece_count": 2,
+  "score_count": 2,
   "recording_count": 0,
   "piece_ids": [
    "lyadov_op40no3_anatoliy_lyadov_prelude_op_4",
-   "lyadov_op11no1_prelude_op_11_no_1_anatoly_l",
-   "lyadov_imslp462481_1",
-   "lyadov_imslp462481_2",
-   "lyadov_imslp462481_4"
+   "lyadov_op11no1_prelude_op_11_no_1_anatoly_l"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17858,8 +17839,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 223,
-  "score_count": 223,
+  "piece_count": 221,
+  "score_count": 221,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -18082,9 +18063,7 @@
    "schumann_op13_symphonic_etudes_6",
    "schumann_op13_symphonic_etudes_7",
    "schumann_op13_symphonic_etudes_8",
-   "schumann_op6_davidsbuendlertaenze_17",
-   "schumann_op13_symphonic_etudes_9",
-   "schumann_op13_symphonic_etudes_10"
+   "schumann_op15_schumann_kinderszenen_op_15__no10"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

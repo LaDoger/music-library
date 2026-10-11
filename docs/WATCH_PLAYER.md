@@ -67,3 +67,36 @@ Deviation from the brief: MIDI is parsed with Magenta's `midiToSequenceProto` (a
 
 ## Tests
 `NODE_PATH=/tmp/music-ui-review/node_modules node scripts/check_watch.cjs` (network needed). Covers piano MusicXML, MIDI-only, orchestral-style MusicXML, set autoplay; also a layout matrix (1280x800, 1440x900, 1920x1080, 1366x768, 390x844, 820x1180 in chromium; webkit/firefox when installed): library and watch pages scroll, no horizontal overflow, stage + controls fit the viewport, zoom; screenshots to `.tmp/watch/shots_fix/`. Asserts the audio context runs, time advances, measure highlight and system turns, axe, mobile screenshot, a static composer / title / catalogue heading above the stage with no overlay on the score, and sync drift < 1 beat on the three drift pieces (plus one at 150 % tempo and one with `&audio=midi`, DTW-aligned). The drift test needs `python3`; `mido` is optional (MIDI cross-check of the ground truth).
+
+
+## Annotated score analysis
+
+Reviewed bundles discovered by `sync_site_data.py` add `analysis_url` and
+`annotated_score_url`; the annotated score wins over ordinary MIDI/XML.
+Schumann No. 10 is a generated sub-piece reachable at
+`?watch=schumann_op15_schumann_kinderszenen_op_15__no10`. Source MIDI is
+referenced, while playback uses the excerpt's own score timeline.
+
+The Analysis button and A key toggle harmony/RN and the header callouts.
+`&analysis=0/1` overrides persisted `localStorage.watchAnalysis`; default
+is on. Toggling filters a copy of the XML and re-engraves; it preserves
+live audio, source notes, tempo map and playback position. Long prefixed
+words remain in the downloadable XML but are rendered only in the header
+card, outside the current system. The header reserves height so changing
+callouts cannot shift the stage. Unknown harmony displays `?`.
+
+Callouts use the cursor's unrolled measure map and expire after a few
+bars. The form ribbon above the seek bar uses that map's tempo-adjusted
+seconds; its segments seek to section starts. It has no independent clock.
+The score still fits width with 16px side padding, the title stays static
+above it, and the page scrolls. Full format and technique ids are in
+[ANALYSIS_FORMAT.md](../ANALYSIS_FORMAT.md).
+
+Targeted check: `NODE_PATH=/tmp/music-ui-review/node_modules node
+scripts/analysis/check_analysis.cjs`; set `ANALYSIS_BASE` for live Pages
+and `ANALYSIS_SHOTS` for screenshots (defaults to `/tmp/music-analysis-shots`).
+Checks all three prototypes at 1440×900 / 390×844, on/off + A, URL/storage,
+scroll/overflow/header position, score timeline, playback and independent
+`watch_drift.cjs` drift (<1 quarter-note beat). The original watch checks
+remain applicable; set their screenshot output variables to this worktree
+or `/tmp` so they never touch another checkout.

@@ -62,6 +62,37 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/kalinnikov_vasili_kalinnikov_sinfonia_nb2.mid",
  "other_editions": [],
+ "analysis_url": "files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.analysis.json",
+ "annotated_score_url": "files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.annotated.musicxml",
+ "analysis_tags": [
+  "bass_line:chromatic",
+  "bass_line:stepwise_descent",
+  "cadence:HC",
+  "cadence:open_phrase",
+  "colour_chord:added_note",
+  "colour_chord:borrowed",
+  "colour_chord:half_dim",
+  "counterpoint:contrary_motion",
+  "counterpoint:oblique_motion",
+  "form:bridge",
+  "form:theme_1",
+  "form:theme_tail",
+  "hook:melodic_cell",
+  "motif:fragmentation",
+  "rhythm_phrase:anticipation",
+  "story:arrival",
+  "story:start",
+  "story:turn",
+  "tension_release:delayed_resolution",
+  "texture_dynamics:thinning",
+  "voicing_orchestration:doubling",
+  "voicing_orchestration:open_spacing",
+  "voicing_orchestration:register_high_shift"
+ ],
+ "analysis_quarter_range": [
+  0.5,
+  55.5
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=kalinnikov_vasili_kalinnikov_sinfonia_nb2",
@@ -78,5 +109,7 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Vasily Kalinnikov: Vasili Kalinnikov: Sinfonía nº 2 2º. Mv. (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Vasily Kalinnikov: Vasili Kalinnikov: Sinfonía nº 2 2º. Mv. (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0.",
+ "analysis_url_abs": "https://ladoger.github.io/music-library/files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.analysis.json",
+ "annotated_score_url_abs": "https://ladoger.github.io/music-library/files/analysis/kalinnikov_vasili_kalinnikov_sinfonia_nb2/kalinnikov_vasili_kalinnikov_sinfonia_nb2.annotated.musicxml"
 }

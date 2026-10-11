@@ -97,3 +97,17 @@ body.watching { overflow-x: hidden; }
 @media (max-width: 720px) { .w-sound { width: 100%; margin-left: 0; } .w-sound + .w-tempo { margin-left: 0; } .w-sound select { flex: 1; max-width: none; } }
 .watch:fullscreen .w-stage { height: calc(100% - var(--w-bars, 80px)); }
 .w-bar { flex-wrap: wrap; }
+
+/* Analysis lives above the stage; reserved height prevents callouts shifting the score. */
+.w-analysis-header { padding: 6px 16px; height: 80px; box-sizing: border-box; border-bottom: 1px solid #34312a; background: #181710; min-width: 0; }
+.w-analysis-header[hidden], .w-sections[hidden], #wAnalysis[hidden] { display: none; }
+#wAnalysis[aria-pressed="true"] { background: var(--accent); color: #1a1710; }
+.w-harmony { font-size: .8rem; font-weight: 600; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.w-callout { margin-top: 4px; font-size: .78rem; line-height: 1.35; color: #e9e6df; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; transition: opacity .4s ease; }
+.w-callout.is-empty { opacity: 0; }
+.w-sections { position: relative; height: 24px; overflow: hidden; margin-bottom: 2px; }
+.watch .w-section { position: absolute; height: 24px; padding: 2px 4px; border: 0; border-right: 2px solid #0b0b0d; background: #383021; font-size: .64rem; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.watch .w-section:nth-child(even) { background: #282a31; }
+.watch .w-section:hover { background: #50432d; }
+@media (max-width: 860px) { .w-opts { flex-wrap: wrap; gap: 6px; } .w-analysis-header { height: 88px; } }
+@media (prefers-reduced-motion: reduce) { .w-callout { transition: none; } }
