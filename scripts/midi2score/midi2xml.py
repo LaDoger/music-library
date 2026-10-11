@@ -22,8 +22,40 @@ def respell(s,k):
                 if e and e.name in sc and abs(e.alter)<=1: p.name=e.name;p.octave=e.octave;break
             else:
                 if k.sharps<0 and p.accidental and p.accidental.name=='sharp': e=p.getEnharmonic();p.name=e.name;p.octave=e.octave
+def tidy(parts):
+    """Rule fixes for 2-hand piano: move far-out-of-range notes to the other staff, trim legato/pedal
+    overlaps inside a hand (fewer phantom voices and stray rests), and regroup same-onset notes into chords."""
+    from music21 import duration as d
+    hands=[[],[]]
+    for h,p in enumerate(parts[:2]):
+        for n in p.flatten().notes:
+            for pt in n.pitches: hands[h].append([float(n.offset),float(n.quarterLength),pt.midi,pt])
+    move=[[],[]]
+    for x in hands[1]:
+        if x[2]>=69: move[0].append(x)
+    for x in hands[0]:
+        if x[2]<=48: move[1].append(x)
+    for h in (0,1):
+        for x in move[h]: hands[1-h].remove(x); hands[h].append(x)
+    out=[]
+    for h in (0,1):
+        ns=sorted(hands[h]); onsets=sorted({x[0] for x in ns})
+        for x in ns:
+            nxt=next((o for o in onsets if o>x[0]+1e-6),None)
+            if nxt is not None and x[0]+x[1]>nxt+1e-6:
+                ov=x[0]+x[1]-nxt
+                if ov<=0.5 or ov<=0.34*x[1]: x[1]=nxt-x[0]
+        groups={}
+        for x in ns: groups.setdefault((x[0],x[1]),[]).append(x[3])
+        P=stream.Part()
+        for (o,l),pl in sorted(groups.items()):
+            if l<=0: continue
+            m=note.Note(pl[0]) if len(pl)==1 else chord.Chord(sorted(pl,key=lambda q:q.midi))
+            m.quarterLength=l; P.insert(o,m)
+        out.append(P)
+    return out
 def convert(mid,out,title='',composer=''):
-    s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3))
+    s=converter.parse(mid,quantizePost=True,quarterLengthDivisors=(4,3,8))
     parts=[p for p in s.parts if p.recurse().notes]
     if len(parts)==1:
         flat=parts[0].flatten().notes; rh=stream.Part();lh=stream.Part()
@@ -35,6 +67,7 @@ def convert(mid,out,title='',composer=''):
         parts=[rh,lh]
     elif len(parts)>2:
         parts=sorted(parts,key=lambda p:-sum(x.pitches[0].midi for x in p.recurse().notes)/max(1,len(p.recurse().notes)))
+    if len(parts)==2: parts=tidy(parts)
     ts=s.recurse().getElementsByClass(meter.TimeSignature)
     ts=ts[0] if ts else meter.TimeSignature('4/4')
     k=s.analyze('key'); k=key.Key(k.tonic.name,k.mode)
