@@ -666714,9 +666714,9 @@
   "title": "Valses nobles et sentimentales - Valse I (Modéré, très franc)",
   "catalog": "M. 61",
   "movement": "Valse 1",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;bright;bustling;sparkling;key: G major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: I - ii(+) - vi - ii - vi lilting opening, I7 tonicizes iii, VI-vi pivot shifts to minor, IV7 - ii7 - IV7 - I close. Texture: oom-pah waltz bass under busy eighth-note right-hand figuration.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -666759,8 +666759,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "bright",
+   "bustling",
+   "sparkling",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -666779,7 +666782,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_1.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse i (modéré, très franc) maurice ravel m. 61 m 61 m. 61 m61 valse 1 ravel m61 valses nobles 1 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse i (modéré, très franc) maurice ravel m. 61 m 61 m. 61 m61 valse 1 ravel m61 valses nobles 1 classical piano bright bustling sparkling key: g major classical impressionist  ravel, maurice"
  },
  {
   "id": "ravel_m61_valses_nobles_2",
@@ -666788,9 +666791,9 @@
   "title": "Valses nobles et sentimentales - Valse II (Assez lent)",
   "catalog": "M. 61",
   "movement": "Valse 2",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;melancholy;brooding;hushed;key: G minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: i - bVII - i - bVII, augmented III+ colouring, v - ii half-cadence - v, close on i with bVII-tinged bass. Texture: sparse waltz, sustained half-note harmonies over a slow walking bass.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -666833,8 +666836,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "melancholy",
+   "brooding",
+   "hushed",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -666853,7 +666859,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_2.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse ii (assez lent) maurice ravel m. 61 m 61 m. 61 m61 valse 2 ravel m61 valses nobles 2 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse ii (assez lent) maurice ravel m. 61 m 61 m. 61 m61 valse 2 ravel m61 valses nobles 2 classical piano melancholy brooding hushed key: g minor classical impressionist  ravel, maurice"
  },
  {
   "id": "ravel_m61_valses_nobles_3",
@@ -666862,9 +666868,9 @@
   "title": "Valses nobles et sentimentales - Valse III (Modéré)",
   "catalog": "M. 61",
   "movement": "Valse 3",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;wistful;sinuous;shadowed;key: E minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E minor. Chord journey: i - bVII - i - bVII rocking, ii/iii alternation, brief major-I flicker, bVII - v - i with i6 cadence. Texture: waltz with dense right-hand chord figuration over a light bass.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -666907,8 +666913,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "wistful",
+   "sinuous",
+   "shadowed",
+   "key: E minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -666927,7 +666936,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_3.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse iii (modéré) maurice ravel m. 61 m 61 m. 61 m61 valse 3 ravel m61 valses nobles 3 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse iii (modéré) maurice ravel m. 61 m 61 m. 61 m61 valse 3 ravel m61 valses nobles 3 classical piano wistful sinuous shadowed key: e minor classical impressionist  ravel, maurice"
  },
  {
   "id": "ravel_m61_valses_nobles_4",
@@ -666936,9 +666945,9 @@
   "title": "Valses nobles et sentimentales - Valse IV (Assez animé)",
   "catalog": "M. 61",
   "movement": "Valse 4",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;restless;flushed;glittering;key: Ab major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: I - vi - flat-side sequence (bVI7 - bIII - bII+7 - bII7) over IV6, cycles back to I, ends on bVI6 with chromatic colour left hanging. Texture: chromatic waltz, dense chords in right hand with quick chromatic inner eighths.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -666981,8 +666990,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "restless",
+   "flushed",
+   "glittering",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667001,7 +667013,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_4.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse iv (assez animé) maurice ravel m. 61 m 61 m. 61 m61 valse 4 ravel m61 valses nobles 4 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse iv (assez animé) maurice ravel m. 61 m 61 m. 61 m61 valse 4 ravel m61 valses nobles 4 classical piano restless flushed glittering key: ab major classical impressionist  ravel, maurice"
  },
  {
   "id": "ravel_m61_valses_nobles_5",
@@ -667010,9 +667022,9 @@
   "title": "Valses nobles et sentimentales - Valse V (Presque lent)",
   "catalog": "M. 61",
   "movement": "Valse 5",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;languid;ominous;dark-sweet;key: C# minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C# minor. Chord journey: bVI7 - iiø - ii7 - II7(#2) - bVI, chromatic iv and diminished iii°7 pivot, returns via v6 - i, ends on a major III6 Picardy-style close. Texture: slow waltz with arpeggiated chords and eighth-note inner motion.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667055,8 +667067,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "languid",
+   "ominous",
+   "dark-sweet",
+   "key: C# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667075,7 +667090,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_5.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse v (presque lent) maurice ravel m. 61 m 61 m. 61 m61 valse 5 ravel m61 valses nobles 5 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse v (presque lent) maurice ravel m. 61 m 61 m. 61 m61 valse 5 ravel m61 valses nobles 5 classical piano languid ominous dark-sweet key: c# minor classical impressionist  ravel, maurice"
  },
  {
   "id": "ravel_m61_valses_nobles_6",
@@ -667084,9 +667099,9 @@
   "title": "Valses nobles et sentimentales - Valse VI (Assez vif)",
   "catalog": "M. 61",
   "movement": "Valse 6",
-  "mood_tags": "classical;elegant;lyrical",
+  "mood_tags": "classical;piano;sly;bright;capricious;key: C major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: I - iv - II(2) - V7 - vi - vii°7 - II42 - vi - I, repeated tonic-to-V cycle closing on I6. Texture: light quick waltz, bouncing staccato bass under a single-line melody.",
   "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
   "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667129,8 +667144,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "elegant",
-   "lyrical"
+   "piano",
+   "sly",
+   "bright",
+   "capricious",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667149,7 +667167,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/ravel_m61_valses_nobles_6.mid",
   "other_editions": [],
-  "search_text": "valses nobles et sentimentales - valse vi (assez vif) maurice ravel m. 61 m 61 m. 61 m61 valse 6 ravel m61 valses nobles 6 classical elegant lyrical classical impressionist  ravel, maurice"
+  "search_text": "valses nobles et sentimentales - valse vi (assez vif) maurice ravel m. 61 m 61 m. 61 m61 valse 6 ravel m61 valses nobles 6 classical piano sly bright capricious key: c major classical impressionist  ravel, maurice"
  },
  {
   "id": "schumann_op68_12_knecht_ruprecht_orch_marigo",
@@ -667226,9 +667244,9 @@
   "title": "Waldszenen - No. 2 Jäger auf der Lauer",
   "catalog": "Op. 82",
   "movement": "No. 2",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;stalking;tense;hunted;key: D minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D minor. Chord journey: i - v - ii - i cycle, Neapolitan bII6 and III6 detour, bVI - iv tension, final i6 - v - i close. Texture: pulsing staccato eighth-note ostinato in both hands with hunting-call figures.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667268,8 +667286,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "stalking",
+   "tense",
+   "hunted",
+   "key: D minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667286,7 +667307,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op82_waldszenen_2.mid",
   "other_editions": [],
-  "search_text": "waldszenen - no. 2 jäger auf der lauer robert schumann op. 82 op 82 op. 82 op82 no. 2 schumann op82 waldszenen 2 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "waldszenen - no. 2 jäger auf der lauer robert schumann op. 82 op 82 op. 82 op82 no. 2 schumann op82 waldszenen 2 classical piano stalking tense hunted key: d minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_1",
@@ -667295,9 +667316,9 @@
   "title": "Papillons - No. 1",
   "catalog": "Op. 2",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;playful;flitting;bright;key: D major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D major. Chord journey: I - #iv - V - #iv - V, flicker to vi and iii, IV - V - I6, brief bVII4 - vi - V7 - I64 close. Texture: light two-voice dance texture with bouncing staccato eighths.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667337,8 +667358,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "playful",
+   "flitting",
+   "bright",
+   "key: D major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667355,7 +667379,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_1.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 1 robert schumann op. 2 op 2 op. 2 op2 no. 1 schumann op2 papillons 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 1 robert schumann op. 2 op 2 op. 2 op2 no. 1 schumann op2 papillons 1 classical piano playful flitting bright key: d major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_2",
@@ -667364,9 +667388,9 @@
   "title": "Papillons - No. 2",
   "catalog": "Op. 2",
   "movement": "No. 2",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;giddy;fluttering;whirling;key: Eb major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Eb major. Chord journey: V - I - V - vi - V - ii, looping bVII - iii6 - #v2 - ii cycle that never fully returns to I. Texture: fast sixteenth-note flutter with leaping two-voice figures.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667406,8 +667430,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "giddy",
+   "fluttering",
+   "whirling",
+   "key: Eb major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667424,7 +667451,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_2.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 2 robert schumann op. 2 op 2 op. 2 op2 no. 2 schumann op2 papillons 2 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 2 robert schumann op. 2 op 2 op. 2 op2 no. 2 schumann op2 papillons 2 classical piano giddy fluttering whirling key: eb major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op2_papillons_3",
@@ -667433,9 +667460,9 @@
   "title": "Papillons - No. 3",
   "catalog": "Op. 2",
   "movement": "No. 3",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;wistful;restless;fleeting;key: F# minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F# minor. Chord journey: v - i - ii - iii - bVII - v rocking phrases, i-iii oscillation, then III6 - ii7 - i6 close. Texture: two-part counterpoint with dotted-rhythm melody over a steady quarter-note bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667475,8 +667502,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "wistful",
+   "restless",
+   "fleeting",
+   "key: F# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667493,7 +667523,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op2_papillons_3.mid",
   "other_editions": [],
-  "search_text": "papillons - no. 3 robert schumann op. 2 op 2 op. 2 op2 no. 3 schumann op2 papillons 3 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "papillons - no. 3 robert schumann op. 2 op 2 op. 2 op2 no. 3 schumann op2 papillons 3 classical piano wistful restless fleeting key: f# minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op12_fantasiestuecke_1",
@@ -667502,9 +667532,9 @@
   "title": "Fantasiestücke - No. 1 Des Abends",
   "catalog": "Op. 12",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;tender;dusky;reverie;key: Ab major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: I - ii - V - ii7 - V ii-V loops throughout, vi and bVI colour mid-piece, closes on ii5 with a lingering half-cadence. Texture: sixteenth-note arpeggiated accompaniment under a singing melody.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29770",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667544,8 +667574,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "tender",
+   "dusky",
+   "reverie",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667562,7 +667595,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op12_fantasiestuecke_1.mid",
   "other_editions": [],
-  "search_text": "fantasiestücke - no. 1 des abends robert schumann op. 12 op 12 op. 12 op12 no. 1 schumann op12 fantasiestuecke 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "fantasiestücke - no. 1 des abends robert schumann op. 12 op 12 op. 12 op12 no. 1 schumann op12 fantasiestuecke 1 classical piano tender dusky reverie key: ab major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op23_nachtstuecke_1",
@@ -667571,9 +667604,9 @@
   "title": "Nachtstücke - No. 1",
   "catalog": "Op. 23",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;solemn;floating;nocturnal;key: C major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: VI - ii - I6 - V6 loop, I - V - iii6/5 - I32 detour, iv6 and vi colour, ends on ii - V64 - V half-cadence. Texture: dense two-staff chordal texture with murmuring eighth-note inner voices.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667613,8 +667646,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "solemn",
+   "floating",
+   "nocturnal",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667631,7 +667667,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op23_nachtstuecke_1.mid",
   "other_editions": [],
-  "search_text": "nachtstücke - no. 1 robert schumann op. 23 op 23 op. 23 op23 no. 1 schumann op23 nachtstuecke 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "nachtstücke - no. 1 robert schumann op. 23 op 23 op. 23 op23 no. 1 schumann op23 nachtstuecke 1 classical piano solemn floating nocturnal key: c major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op124_albumblaetter_1",
@@ -667640,9 +667676,9 @@
   "title": "Albumblätter - No. 1",
   "catalog": "Op. 124",
   "movement": "No. 1",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;placid;hymnlike;still;key: D minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D minor. Chord journey: i - viio6 - iv6 - i loop over a sustained tonic pedal, closing on i64. Texture: hymnlike chords with sixteenth-note upper filigree over a sustained bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667682,8 +667718,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "placid",
+   "hymnlike",
+   "still",
+   "key: D minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667700,7 +667739,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op124_albumblaetter_1.mid",
   "other_editions": [],
-  "search_text": "albumblätter - no. 1 robert schumann op. 124 op 124 op. 124 op124 no. 1 schumann op124 albumblaetter 1 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "albumblätter - no. 1 robert schumann op. 124 op 124 op. 124 op124 no. 1 schumann op124 albumblaetter 1 classical piano placid hymnlike still key: d minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op124_albumblaetter_2",
@@ -667709,9 +667748,9 @@
   "title": "Albumblätter - No. 2",
   "catalog": "Op. 124",
   "movement": "No. 2",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;yearning;tender;muted;key: A minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: A minor. Chord journey: V7 - iii - i - i64 loop, iv - bVII - III (Picardy-like major) - bVI - iii, returns to i and closes on v. Texture: eighth-note melody over a warm chordal accompaniment.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667751,8 +667790,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "yearning",
+   "tender",
+   "muted",
+   "key: A minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667769,7 +667811,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op124_albumblaetter_2.mid",
   "other_editions": [],
-  "search_text": "albumblätter - no. 2 robert schumann op. 124 op 124 op. 124 op124 no. 2 schumann op124 albumblaetter 2 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "albumblätter - no. 2 robert schumann op. 124 op 124 op. 124 op124 no. 2 schumann op124 albumblaetter 2 classical piano yearning tender muted key: a minor classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op124_albumblaetter_3",
@@ -667778,9 +667820,9 @@
   "title": "Albumblätter - No. 3",
   "catalog": "Op. 124",
   "movement": "No. 3",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;lilting;warm;pastoral;key: F major",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F major. Chord journey: ii4 - V - I, ii - V - v - i minor flicker, #ivb3 - I6 - bVI - V chromatic detour, then ii - V to I6 close. Texture: eighth-note chordal accompaniment with a clear inner voice and sixteenth ornaments.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -667820,8 +667862,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "lilting",
+   "warm",
+   "pastoral",
+   "key: F major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -667838,7 +667883,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op124_albumblaetter_3.mid",
   "other_editions": [],
-  "search_text": "albumblätter - no. 3 robert schumann op. 124 op 124 op. 124 op124 no. 3 schumann op124 albumblaetter 3 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "albumblätter - no. 3 robert schumann op. 124 op 124 op. 124 op124 no. 3 schumann op124 albumblaetter 3 classical piano lilting warm pastoral key: f major classical romantic  schumann, robert"
  },
  {
   "id": "schumann_op124_albumblaetter_4",

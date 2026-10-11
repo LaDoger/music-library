@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse IV (Assez animé)",
  "catalog": "M. 61",
  "movement": "Valse 4",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;restless;flushed;glittering;key: Ab major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Ab major. Chord journey: I - vi - flat-side sequence (bVI7 - bIII - bII+7 - bII7) over IV6, cycles back to I, ends on bVI6 with chromatic colour left hanging. Texture: chromatic waltz, dense chords in right hand with quick chromatic inner eighths.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "restless",
+  "flushed",
+  "glittering",
+  "key: Ab major"
  ],
  "has_editable_score": true,
  "has_recording": false,

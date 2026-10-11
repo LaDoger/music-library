@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse I (Modéré, très franc)",
  "catalog": "M. 61",
  "movement": "Valse 1",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;bright;bustling;sparkling;key: G major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G major. Chord journey: I - ii(+) - vi - ii - vi lilting opening, I7 tonicizes iii, VI-vi pivot shifts to minor, IV7 - ii7 - IV7 - I close. Texture: oom-pah waltz bass under busy eighth-note right-hand figuration.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "bright",
+  "bustling",
+  "sparkling",
+  "key: G major"
  ],
  "has_editable_score": true,
  "has_recording": false,

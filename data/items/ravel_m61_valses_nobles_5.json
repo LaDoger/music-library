@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse V (Presque lent)",
  "catalog": "M. 61",
  "movement": "Valse 5",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;languid;ominous;dark-sweet;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: bVI7 - iiø - ii7 - II7(#2) - bVI, chromatic iv and diminished iii°7 pivot, returns via v6 - i, ends on a major III6 Picardy-style close. Texture: slow waltz with arpeggiated chords and eighth-note inner motion.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "languid",
+  "ominous",
+  "dark-sweet",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

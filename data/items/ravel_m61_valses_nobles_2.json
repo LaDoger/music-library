@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse II (Assez lent)",
  "catalog": "M. 61",
  "movement": "Valse 2",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;melancholy;brooding;hushed;key: G minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: i - bVII - i - bVII, augmented III+ colouring, v - ii half-cadence - v, close on i with bVII-tinged bass. Texture: sparse waltz, sustained half-note harmonies over a slow walking bass.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "melancholy",
+  "brooding",
+  "hushed",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

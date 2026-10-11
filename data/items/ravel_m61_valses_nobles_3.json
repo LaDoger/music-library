@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse III (Modéré)",
  "catalog": "M. 61",
  "movement": "Valse 3",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;wistful;sinuous;shadowed;key: E minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: i - bVII - i - bVII rocking, ii/iii alternation, brief major-I flicker, bVII - v - i with i6 cadence. Texture: waltz with dense right-hand chord figuration over a light bass.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "wistful",
+  "sinuous",
+  "shadowed",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

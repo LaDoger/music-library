@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 1",
  "catalog": "Op. 124",
  "movement": "No. 1",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;placid;hymnlike;still;key: D minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: i - viio6 - iv6 - i loop over a sustained tonic pedal, closing on i64. Texture: hymnlike chords with sixteenth-note upper filigree over a sustained bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "placid",
+  "hymnlike",
+  "still",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

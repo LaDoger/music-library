@@ -5,9 +5,9 @@
  "title": "Papillons - No. 2",
  "catalog": "Op. 2",
  "movement": "No. 2",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;giddy;fluttering;whirling;key: Eb major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Eb major. Chord journey: V - I - V - vi - V - ii, looping bVII - iii6 - #v2 - ii cycle that never fully returns to I. Texture: fast sixteenth-note flutter with leaping two-voice figures.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "giddy",
+  "fluttering",
+  "whirling",
+  "key: Eb major"
  ],
  "has_editable_score": true,
  "has_recording": false,

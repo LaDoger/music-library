@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 2",
  "catalog": "Op. 124",
  "movement": "No. 2",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;yearning;tender;muted;key: A minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A minor. Chord journey: V7 - iii - i - i64 loop, iv - bVII - III (Picardy-like major) - bVI - iii, returns to i and closes on v. Texture: eighth-note melody over a warm chordal accompaniment.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "yearning",
+  "tender",
+  "muted",
+  "key: A minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

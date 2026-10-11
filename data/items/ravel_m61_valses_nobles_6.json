@@ -5,9 +5,9 @@
  "title": "Valses nobles et sentimentales - Valse VI (Assez vif)",
  "catalog": "M. 61",
  "movement": "Valse 6",
- "mood_tags": "classical;elegant;lyrical",
+ "mood_tags": "classical;piano;sly;bright;capricious;key: C major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: I - iv - II(2) - V7 - vi - vii°7 - II42 - vi - I, repeated tonic-to-V cycle closing on I6. Texture: light quick waltz, bouncing staccato bass under a single-line melody.",
  "video_use_ideas": "Elegant, slightly off-kilter waltz colour for a film-score sketch.",
  "editable_source_url": "https://archive.org/details/imslp-nobles-et-sentimentales-ravel-maurice",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "elegant",
-  "lyrical"
+  "piano",
+  "sly",
+  "bright",
+  "capricious",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,

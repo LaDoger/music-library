@@ -5,9 +5,9 @@
  "title": "Nachtstücke - No. 1",
  "catalog": "Op. 23",
  "movement": "No. 1",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;solemn;floating;nocturnal;key: C major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: VI - ii - I6 - V6 loop, I - V - iii6/5 - I32 detour, iv6 and vi colour, ends on ii - V64 - V half-cadence. Texture: dense two-staff chordal texture with murmuring eighth-note inner voices.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "solemn",
+  "floating",
+  "nocturnal",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,
