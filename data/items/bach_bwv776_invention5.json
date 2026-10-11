@@ -37,7 +37,9 @@
  "score_url": "files/scores/bach_bwv776_invention5.mid",
  "score_files": [
   "files/scores/bach_bwv776_invention5.ly",
-  "files/scores/bach_bwv776_invention5.mid"
+  "files/scores/bach_bwv776_invention5.mid",
+  "files/scores/bach_bwv776_invention5_fromly.mxl",
+  "files/scores/bach_bwv776_invention5_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "confident",
@@ -59,6 +61,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv776_invention5.mid",
  "other_editions": [],
+ "score_method": "Converted from LilyPond source",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv776_invention5",
@@ -67,7 +70,9 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5_fromly.mxl",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv776_invention5.mid",
  "render_midi": {

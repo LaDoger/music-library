@@ -38,7 +38,7 @@
  "score_files": [
   "files/scores/bach_bwv846_prelude.ly",
   "files/scores/bach_bwv846_prelude.mid",
-  "files/scores/bach_bwv846_prelude_reconstructed.mxl"
+  "files/scores/bach_bwv846_prelude_fromly.mxl"
  ],
  "mood_tags_list": [
   "calm",
@@ -68,7 +68,7 @@
    "licence": "CC0"
   }
  ],
- "score_method": "Reconstructed from MIDI",
+ "score_method": "Converted from LilyPond source",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv846_prelude",
@@ -78,7 +78,7 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude.ly",
   "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude_fromly.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude.mid",
  "render_midi": {

@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv851_prelude.mid",
  "score_files": [
   "files/scores/bach_bwv851_prelude.ly",
-  "files/scores/bach_bwv851_prelude.mid"
+  "files/scores/bach_bwv851_prelude.mid",
+  "files/scores/bach_bwv851_prelude_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "urgent",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv851_prelude.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv851_prelude",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv851_prelude.mid",
  "render_midi": {

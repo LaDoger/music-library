@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/schumann_op15_bittendes_kind.mid",
  "score_files": [
-  "files/scores/schumann_op15_bittendes_kind.mid"
+  "files/scores/schumann_op15_bittendes_kind.mid",
+  "files/scores/schumann_op15_bittendes_kind_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -70,6 +71,7 @@
    "licence": "CC-BY"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op15_bittendes_kind",
@@ -77,7 +79,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/schumann_op15_bittendes_kind.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/schumann_op15_bittendes_kind.mid"
+  "https://ladoger.github.io/music-library/files/scores/schumann_op15_bittendes_kind.mid",
+  "https://ladoger.github.io/music-library/files/scores/schumann_op15_bittendes_kind_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/schumann_op15_bittendes_kind.mid",
  "render_midi": {

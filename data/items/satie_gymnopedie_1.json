@@ -36,7 +36,8 @@
  "preview_url": "previews/satie_gymnopedie_1.mp3",
  "score_url": "files/scores/satie_gymnopedie_1.mid",
  "score_files": [
-  "files/scores/satie_gymnopedie_1.mid"
+  "files/scores/satie_gymnopedie_1.mid",
+  "files/scores/satie_gymnopedie_1_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "calm",
@@ -66,6 +67,7 @@
    "licence": "CC BY 4.0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_gymnopedie_1",
@@ -73,7 +75,8 @@
  "preview_url_abs": "https://ladoger.github.io/music-library/previews/satie_gymnopedie_1.mp3",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/satie_gymnopedie_1.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/satie_gymnopedie_1.mid"
+  "https://ladoger.github.io/music-library/files/scores/satie_gymnopedie_1.mid",
+  "https://ladoger.github.io/music-library/files/scores/satie_gymnopedie_1_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/satie_gymnopedie_1.mid",
  "render_midi": {

@@ -242,7 +242,7 @@
   "score_files": [
    "files/scores/bach_bwv846_prelude.ly",
    "files/scores/bach_bwv846_prelude.mid",
-   "files/scores/bach_bwv846_prelude_reconstructed.mxl"
+   "files/scores/bach_bwv846_prelude_fromly.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -273,7 +273,7 @@
    }
   ],
   "search_text": "well-tempered clavier: prelude in c major johann sebastian bach bwv 846 bwv 846 bwv846 prelude bach bwv846 prelude calm clear elegant classical baroque musopen (performer not named on source page) bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "beethoven_op27_2_moonlight1",
@@ -970,7 +970,8 @@
   "score_url": "files/scores/chopin_op10_12_revolutionary.mid",
   "score_files": [
    "files/scores/chopin_op10_12_revolutionary.ly",
-   "files/scores/chopin_op10_12_revolutionary.mid"
+   "files/scores/chopin_op10_12_revolutionary.mid",
+   "files/scores/chopin_op10_12_revolutionary_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intense",
@@ -992,7 +993,8 @@
   "duration_s": 164.79,
   "midi_play_url": "files/scores/chopin_op10_12_revolutionary.mid",
   "other_editions": [],
-  "search_text": "revolutionary étude frédéric chopin op. 10 no. 12 op 10 no 12 op. 10 no. 12 op10no12 étude chopin op10 12 revolutionary intense defiant dramatic classical romantic edward neeman (piano) chopin, frédéric"
+  "search_text": "revolutionary étude frédéric chopin op. 10 no. 12 op 10 no 12 op. 10 no. 12 op10no12 étude chopin op10 12 revolutionary intense defiant dramatic classical romantic edward neeman (piano) chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op28_15_raindrop",
@@ -1033,7 +1035,8 @@
   "score_url": "files/scores/chopin_op28_15_raindrop.mid",
   "score_files": [
    "files/scores/chopin_op28_15_raindrop.mid",
-   "files/scores/chopin_op28_15_raindrop_lilypond.zip"
+   "files/scores/chopin_op28_15_raindrop_lilypond.zip",
+   "files/scores/chopin_op28_15_raindrop_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -1070,7 +1073,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "raindrop prelude frédéric chopin op. 28 no. 15 op 28 no 15 op. 28 no. 15 op28no15 prelude chopin op28 15 raindrop calm dark reflective classical romantic musopen (performer not named on source page or file) chopin, frédéric"
+  "search_text": "raindrop prelude frédéric chopin op. 28 no. 15 op 28 no 15 op. 28 no. 15 op28no15 prelude chopin op28 15 raindrop calm dark reflective classical romantic musopen (performer not named on source page or file) chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op9_2_nocturne",
@@ -1185,7 +1189,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_arabesque_1.mid",
   "score_files": [
-   "files/scores/debussy_arabesque_1.mid"
+   "files/scores/debussy_arabesque_1.mid",
+   "files/scores/debussy_arabesque_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -1207,7 +1212,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_arabesque_1.mid",
   "other_editions": [],
-  "search_text": "deux arabesques: première arabesque claude debussy l.66 no.1 l 66 no 1 l.66 no.1 l66no1  debussy arabesque 1 elegant flowing bright classical late romantic / early 20th  debussy, claude"
+  "search_text": "deux arabesques: première arabesque claude debussy l.66 no.1 l 66 no 1 l.66 no.1 l66no1  debussy arabesque 1 elegant flowing bright classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_clair_de_lune",
@@ -3686,7 +3692,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_gnossienne_1.mid",
   "score_files": [
-   "files/scores/satie_gnossienne_1.mid"
+   "files/scores/satie_gnossienne_1.mid",
+   "files/scores/satie_gnossienne_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "mysterious",
@@ -3725,7 +3732,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "gnossienne no. 1 erik satie gnossienne no.1 gnossienne no 1 gnossienne no.1 gnossienneno1  satie gnossienne 1 mysterious spare hypnotic classical late romantic / early 20th  satie, erik"
+  "search_text": "gnossienne no. 1 erik satie gnossienne no.1 gnossienne no 1 gnossienne no.1 gnossienneno1  satie gnossienne 1 mysterious spare hypnotic classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_gymnopedie_1",
@@ -3765,7 +3773,8 @@
   "preview_url": "previews/satie_gymnopedie_1.mp3",
   "score_url": "files/scores/satie_gymnopedie_1.mid",
   "score_files": [
-   "files/scores/satie_gymnopedie_1.mid"
+   "files/scores/satie_gymnopedie_1.mid",
+   "files/scores/satie_gymnopedie_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -3795,7 +3804,8 @@
     "licence": "CC BY 4.0"
    }
   ],
-  "search_text": "gymnopédie no. 1 erik satie trois gymnopédies no.1 trois gymnopédies no 1 trois gymnopédies no.1 troisgymnopédiesno1  satie gymnopedie 1 calm spare melancholy classical late romantic / early 20th user:teknopazzo (own recording, dedicated cc0) satie, erik"
+  "search_text": "gymnopédie no. 1 erik satie trois gymnopédies no.1 trois gymnopédies no 1 trois gymnopédies no.1 troisgymnopédiesno1  satie gymnopedie 1 calm spare melancholy classical late romantic / early 20th user:teknopazzo (own recording, dedicated cc0) satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d328_erlkonig",
@@ -7428,7 +7438,7 @@
   "score_files": [
    "files/scores/bach_bwv773_invention2.ly",
    "files/scores/bach_bwv773_invention2.mid",
-   "files/scores/bach_bwv773_invention2_reconstructed.mxl"
+   "files/scores/bach_bwv773_invention2_fromly.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -7451,7 +7461,7 @@
   "midi_play_url": "files/scores/bach_bwv773_invention2.mid",
   "other_editions": [],
   "search_text": "two-part invention no. 2 in c minor johann sebastian bach bwv 773 bwv 773 bwv773  bach bwv773 invention2 dark urgent clear classical baroque  bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv774_invention3",
@@ -7492,7 +7502,8 @@
   "score_url": "files/scores/bach_bwv774_invention3.mid",
   "score_files": [
    "files/scores/bach_bwv774_invention3.ly",
-   "files/scores/bach_bwv774_invention3.mid"
+   "files/scores/bach_bwv774_invention3.mid",
+   "files/scores/bach_bwv774_invention3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -7514,7 +7525,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv774_invention3.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 3 in d major johann sebastian bach bwv 774 bwv 774 bwv774  bach bwv774 invention3 bright playful dance classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 3 in d major johann sebastian bach bwv 774 bwv 774 bwv774  bach bwv774 invention3 bright playful dance classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv775_invention4",
@@ -7555,7 +7567,8 @@
   "score_url": "files/scores/bach_bwv775_invention4.mid",
   "score_files": [
    "files/scores/bach_bwv775_invention4.ly",
-   "files/scores/bach_bwv775_invention4.mid"
+   "files/scores/bach_bwv775_invention4.mid",
+   "files/scores/bach_bwv775_invention4_fromly.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -7577,7 +7590,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv775_invention4.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 4 in d minor johann sebastian bach bwv 775 bwv 775 bwv775  bach bwv775 invention4 urgent driving dark classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 4 in d minor johann sebastian bach bwv 775 bwv 775 bwv775  bach bwv775 invention4 urgent driving dark classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv776_invention5",
@@ -7618,7 +7632,9 @@
   "score_url": "files/scores/bach_bwv776_invention5.mid",
   "score_files": [
    "files/scores/bach_bwv776_invention5.ly",
-   "files/scores/bach_bwv776_invention5.mid"
+   "files/scores/bach_bwv776_invention5.mid",
+   "files/scores/bach_bwv776_invention5_fromly.mxl",
+   "files/scores/bach_bwv776_invention5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "confident",
@@ -7640,7 +7656,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv776_invention5.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 5 in e-flat major johann sebastian bach bwv 776 bwv 776 bwv776  bach bwv776 invention5 confident clear elegant classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 5 in e-flat major johann sebastian bach bwv 776 bwv 776 bwv776  bach bwv776 invention5 confident clear elegant classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv778_invention7",
@@ -7681,7 +7698,8 @@
   "score_url": "files/scores/bach_bwv778_invention7.mid",
   "score_files": [
    "files/scores/bach_bwv778_invention7.ly",
-   "files/scores/bach_bwv778_invention7.mid"
+   "files/scores/bach_bwv778_invention7.mid",
+   "files/scores/bach_bwv778_invention7_fromly.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -7703,7 +7721,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv778_invention7.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 7 in e minor johann sebastian bach bwv 778 bwv 778 bwv778  bach bwv778 invention7 reflective flowing dark classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 7 in e minor johann sebastian bach bwv 778 bwv 778 bwv778  bach bwv778 invention7 reflective flowing dark classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv779_invention8",
@@ -7744,7 +7763,9 @@
   "score_url": "files/scores/bach_bwv779_invention8.mid",
   "score_files": [
    "files/scores/bach_bwv779_invention8.ly",
-   "files/scores/bach_bwv779_invention8.mid"
+   "files/scores/bach_bwv779_invention8.mid",
+   "files/scores/bach_bwv779_invention8_fromly.mxl",
+   "files/scores/bach_bwv779_invention8_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -7766,7 +7787,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv779_invention8.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 8 in f major johann sebastian bach bwv 779 bwv 779 bwv779  bach bwv779 invention8 bright playful energetic classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 8 in f major johann sebastian bach bwv 779 bwv 779 bwv779  bach bwv779 invention8 bright playful energetic classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv781_invention10",
@@ -7807,7 +7829,8 @@
   "score_url": "files/scores/bach_bwv781_invention10.mid",
   "score_files": [
    "files/scores/bach_bwv781_invention10.ly",
-   "files/scores/bach_bwv781_invention10.mid"
+   "files/scores/bach_bwv781_invention10.mid",
+   "files/scores/bach_bwv781_invention10_fromly.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -7829,7 +7852,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv781_invention10.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 10 in g major johann sebastian bach bwv 781 bwv 781 bwv781  bach bwv781 invention10 bright playful dance classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 10 in g major johann sebastian bach bwv 781 bwv 781 bwv781  bach bwv781 invention10 bright playful dance classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv782_invention11",
@@ -7870,7 +7894,9 @@
   "score_url": "files/scores/bach_bwv782_invention11.mid",
   "score_files": [
    "files/scores/bach_bwv782_invention11.ly",
-   "files/scores/bach_bwv782_invention11.mid"
+   "files/scores/bach_bwv782_invention11.mid",
+   "files/scores/bach_bwv782_invention11_fromly.mxl",
+   "files/scores/bach_bwv782_invention11_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -7892,7 +7918,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv782_invention11.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 11 in g minor johann sebastian bach bwv 782 bwv 782 bwv782  bach bwv782 invention11 reflective flowing mysterious classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 11 in g minor johann sebastian bach bwv 782 bwv 782 bwv782  bach bwv782 invention11 reflective flowing mysterious classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv784_invention13",
@@ -7933,7 +7960,8 @@
   "score_url": "files/scores/bach_bwv784_invention13.mid",
   "score_files": [
    "files/scores/bach_bwv784_invention13.ly",
-   "files/scores/bach_bwv784_invention13.mid"
+   "files/scores/bach_bwv784_invention13.mid",
+   "files/scores/bach_bwv784_invention13_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -7955,7 +7983,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv784_invention13.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 13 in a minor johann sebastian bach bwv 784 bwv 784 bwv784  bach bwv784 invention13 urgent dark driving classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 13 in a minor johann sebastian bach bwv 784 bwv 784 bwv784  bach bwv784 invention13 urgent dark driving classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv785_invention14",
@@ -7996,7 +8025,9 @@
   "score_url": "files/scores/bach_bwv785_invention14.mid",
   "score_files": [
    "files/scores/bach_bwv785_invention14.ly",
-   "files/scores/bach_bwv785_invention14.mid"
+   "files/scores/bach_bwv785_invention14.mid",
+   "files/scores/bach_bwv785_invention14_fromly.mxl",
+   "files/scores/bach_bwv785_invention14_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -8018,7 +8049,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv785_invention14.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 14 in b-flat major johann sebastian bach bwv 785 bwv 785 bwv785  bach bwv785 invention14 elegant confident clear classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 14 in b-flat major johann sebastian bach bwv 785 bwv 785 bwv785  bach bwv785 invention14 elegant confident clear classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv786_invention15",
@@ -8059,7 +8091,8 @@
   "score_url": "files/scores/bach_bwv786_invention15.mid",
   "score_files": [
    "files/scores/bach_bwv786_invention15.ly",
-   "files/scores/bach_bwv786_invention15.mid"
+   "files/scores/bach_bwv786_invention15.mid",
+   "files/scores/bach_bwv786_invention15_fromly.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -8081,7 +8114,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv786_invention15.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 15 in b minor johann sebastian bach bwv 786 bwv 786 bwv786  bach bwv786 invention15 urgent dark clear classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 15 in b minor johann sebastian bach bwv 786 bwv 786 bwv786  bach bwv786 invention15 urgent dark clear classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv787_sinfonia1",
@@ -9954,7 +9988,8 @@
   "score_url": "files/scores/bach_bwv846_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv846_fugue.ly",
-   "files/scores/bach_bwv846_fugue.mid"
+   "files/scores/bach_bwv846_fugue.mid",
+   "files/scores/bach_bwv846_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -9976,7 +10011,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv846_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 1 in c major johann sebastian bach bwv 846 bwv 846 bwv846 fugue bach bwv846 fugue calm clear elegant classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 1 in c major johann sebastian bach bwv 846 bwv 846 bwv846 fugue bach bwv846 fugue calm clear elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv847_prelude",
@@ -10080,7 +10116,8 @@
   "score_url": "files/scores/bach_bwv848_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv848_prelude.ly",
-   "files/scores/bach_bwv848_prelude.mid"
+   "files/scores/bach_bwv848_prelude.mid",
+   "files/scores/bach_bwv848_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10102,7 +10139,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv848_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 3 in c-sharp major johann sebastian bach bwv 848 bwv 848 bwv848 prelude bach bwv848 prelude bright energetic playful classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 3 in c-sharp major johann sebastian bach bwv 848 bwv 848 bwv848 prelude bach bwv848 prelude bright energetic playful classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv848_fugue",
@@ -10206,7 +10244,8 @@
   "score_url": "files/scores/bach_bwv849_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv849_prelude.ly",
-   "files/scores/bach_bwv849_prelude.mid"
+   "files/scores/bach_bwv849_prelude.mid",
+   "files/scores/bach_bwv849_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -10228,7 +10267,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv849_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 4 in c-sharp minor johann sebastian bach bwv 849 bwv 849 bwv849 prelude bach bwv849 prelude reflective tender calm classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 4 in c-sharp minor johann sebastian bach bwv 849 bwv 849 bwv849 prelude bach bwv849 prelude reflective tender calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv849_fugue",
@@ -10332,7 +10372,8 @@
   "score_url": "files/scores/bach_bwv850_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv850_prelude.mid",
-   "files/scores/bach_bwv850_prelude_lilypond.zip"
+   "files/scores/bach_bwv850_prelude_lilypond.zip",
+   "files/scores/bach_bwv850_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10354,7 +10395,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv850_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 5 in d major johann sebastian bach bwv 850 bwv 850 bwv850 prelude bach bwv850 prelude bright driving energetic classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 5 in d major johann sebastian bach bwv 850 bwv 850 bwv850 prelude bach bwv850 prelude bright driving energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv851_prelude",
@@ -10395,7 +10437,8 @@
   "score_url": "files/scores/bach_bwv851_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv851_prelude.ly",
-   "files/scores/bach_bwv851_prelude.mid"
+   "files/scores/bach_bwv851_prelude.mid",
+   "files/scores/bach_bwv851_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -10417,7 +10460,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv851_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 6 in d minor johann sebastian bach bwv 851 bwv 851 bwv851 prelude bach bwv851 prelude urgent driving dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 6 in d minor johann sebastian bach bwv 851 bwv 851 bwv851 prelude bach bwv851 prelude urgent driving dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv851_fugue",
@@ -10458,7 +10502,8 @@
   "score_url": "files/scores/bach_bwv851_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv851_fugue.ly",
-   "files/scores/bach_bwv851_fugue.mid"
+   "files/scores/bach_bwv851_fugue.mid",
+   "files/scores/bach_bwv851_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -10480,7 +10525,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv851_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 6 in d minor johann sebastian bach bwv 851 bwv 851 bwv851 fugue bach bwv851 fugue dark determined clear classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 6 in d minor johann sebastian bach bwv 851 bwv 851 bwv851 fugue bach bwv851 fugue dark determined clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv853_prelude",
@@ -10647,7 +10693,8 @@
   "score_url": "files/scores/bach_bwv854_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv854_prelude.ly",
-   "files/scores/bach_bwv854_prelude.mid"
+   "files/scores/bach_bwv854_prelude.mid",
+   "files/scores/bach_bwv854_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -10669,7 +10716,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv854_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 9 in e major johann sebastian bach bwv 854 bwv 854 bwv854 prelude bach bwv854 prelude calm pastoral elegant classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 9 in e major johann sebastian bach bwv 854 bwv 854 bwv854 prelude bach bwv854 prelude calm pastoral elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv855_prelude",
@@ -10773,7 +10821,9 @@
   "score_url": "files/scores/bach_bwv855_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv855_fugue.ly",
-   "files/scores/bach_bwv855_fugue.mid"
+   "files/scores/bach_bwv855_fugue.mid",
+   "files/scores/bach_bwv855_fugue_fromly.mxl",
+   "files/scores/bach_bwv855_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -10795,7 +10845,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv855_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 10 in e minor johann sebastian bach bwv 855 bwv 855 bwv855 fugue bach bwv855 fugue urgent driving dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 10 in e minor johann sebastian bach bwv 855 bwv 855 bwv855 fugue bach bwv855 fugue urgent driving dark classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv856_prelude",
@@ -10836,7 +10887,8 @@
   "score_url": "files/scores/bach_bwv856_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv856_prelude.ly",
-   "files/scores/bach_bwv856_prelude.mid"
+   "files/scores/bach_bwv856_prelude.mid",
+   "files/scores/bach_bwv856_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10858,7 +10910,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv856_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 11 in f major johann sebastian bach bwv 856 bwv 856 bwv856 prelude bach bwv856 prelude bright playful flowing classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 11 in f major johann sebastian bach bwv 856 bwv 856 bwv856 prelude bach bwv856 prelude bright playful flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv856_fugue",
@@ -10899,7 +10952,8 @@
   "score_url": "files/scores/bach_bwv856_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv856_fugue.ly",
-   "files/scores/bach_bwv856_fugue.mid"
+   "files/scores/bach_bwv856_fugue.mid",
+   "files/scores/bach_bwv856_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10921,7 +10975,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv856_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 11 in f major johann sebastian bach bwv 856 bwv 856 bwv856 fugue bach bwv856 fugue bright playful dance classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 11 in f major johann sebastian bach bwv 856 bwv 856 bwv856 fugue bach bwv856 fugue bright playful dance classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv860_prelude",
@@ -10962,7 +11017,8 @@
   "score_url": "files/scores/bach_bwv860_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv860_prelude.ly",
-   "files/scores/bach_bwv860_prelude.mid"
+   "files/scores/bach_bwv860_prelude.mid",
+   "files/scores/bach_bwv860_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10984,7 +11040,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv860_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 15 in g major johann sebastian bach bwv 860 bwv 860 bwv860 prelude bach bwv860 prelude bright energetic playful classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 15 in g major johann sebastian bach bwv 860 bwv 860 bwv860 prelude bach bwv860 prelude bright energetic playful classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv860_fugue",
@@ -11088,7 +11145,8 @@
   "score_url": "files/scores/bach_bwv861_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv861_prelude.ly",
-   "files/scores/bach_bwv861_prelude.mid"
+   "files/scores/bach_bwv861_prelude.mid",
+   "files/scores/bach_bwv861_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "mysterious",
@@ -11110,7 +11168,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv861_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 16 in g minor johann sebastian bach bwv 861 bwv 861 bwv861 prelude bach bwv861 prelude mysterious reflective dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 16 in g minor johann sebastian bach bwv 861 bwv 861 bwv861 prelude bach bwv861 prelude mysterious reflective dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv861_fugue",
@@ -11151,7 +11210,8 @@
   "score_url": "files/scores/bach_bwv861_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv861_fugue.ly",
-   "files/scores/bach_bwv861_fugue.mid"
+   "files/scores/bach_bwv861_fugue.mid",
+   "files/scores/bach_bwv861_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -11173,7 +11233,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv861_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 16 in g minor johann sebastian bach bwv 861 bwv 861 bwv861 fugue bach bwv861 fugue dark determined dramatic classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 16 in g minor johann sebastian bach bwv 861 bwv 861 bwv861 fugue bach bwv861 fugue dark determined dramatic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv862_prelude",
@@ -11214,7 +11275,8 @@
   "score_url": "files/scores/bach_bwv862_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv862_prelude.ly",
-   "files/scores/bach_bwv862_prelude.mid"
+   "files/scores/bach_bwv862_prelude.mid",
+   "files/scores/bach_bwv862_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -11236,7 +11298,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv862_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 17 in a-flat major johann sebastian bach bwv 862 bwv 862 bwv862 prelude bach bwv862 prelude bright confident elegant classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 17 in a-flat major johann sebastian bach bwv 862 bwv 862 bwv862 prelude bach bwv862 prelude bright confident elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv862_fugue",
@@ -11340,7 +11403,8 @@
   "score_url": "files/scores/bach_bwv865_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv865_prelude.ly",
-   "files/scores/bach_bwv865_prelude.mid"
+   "files/scores/bach_bwv865_prelude.mid",
+   "files/scores/bach_bwv865_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -11362,7 +11426,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv865_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 20 in a minor johann sebastian bach bwv 865 bwv 865 bwv865 prelude bach bwv865 prelude driving dramatic dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 20 in a minor johann sebastian bach bwv 865 bwv 865 bwv865 prelude bach bwv865 prelude driving dramatic dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv865_fugue",
@@ -11655,7 +11720,8 @@
   "score_url": "files/scores/bach_bwv871_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv871_prelude.ly",
-   "files/scores/bach_bwv871_prelude.mid"
+   "files/scores/bach_bwv871_prelude.mid",
+   "files/scores/bach_bwv871_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -11677,7 +11743,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv871_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier ii: prelude no. 2 in c minor johann sebastian bach bwv 871 bwv 871 bwv871 prelude bach bwv871 prelude reflective flowing dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier ii: prelude no. 2 in c minor johann sebastian bach bwv 871 bwv 871 bwv871 prelude bach bwv871 prelude reflective flowing dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv871_fugue",
@@ -11718,7 +11785,8 @@
   "score_url": "files/scores/bach_bwv871_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv871_fugue.ly",
-   "files/scores/bach_bwv871_fugue.mid"
+   "files/scores/bach_bwv871_fugue.mid",
+   "files/scores/bach_bwv871_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -11740,7 +11808,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv871_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier ii: fugue no. 2 in c minor johann sebastian bach bwv 871 bwv 871 bwv871 fugue bach bwv871 fugue dark determined clear classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier ii: fugue no. 2 in c minor johann sebastian bach bwv 871 bwv 871 bwv871 fugue bach bwv871 fugue dark determined clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv875_prelude",
@@ -11845,7 +11914,8 @@
   "score_files": [
    "files/scores/bach_bwv895_prelude_fugue.mid",
    "files/scores/bach_bwv895_prelude_fugue_all_movements_midi.zip",
-   "files/scores/bach_bwv895_prelude_fugue_lilypond.zip"
+   "files/scores/bach_bwv895_prelude_fugue_lilypond.zip",
+   "files/scores/bach_bwv895_prelude_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -11867,7 +11937,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv895_prelude_fugue.mid",
   "other_editions": [],
-  "search_text": "prelude and fugue in a minor johann sebastian bach bwv 895 bwv 895 bwv895 fugue (render_midi); prelude in the score files bach bwv895 prelude fugue driving dark clear classical baroque  bach, johann sebastian"
+  "search_text": "prelude and fugue in a minor johann sebastian bach bwv 895 bwv 895 bwv895 fugue (render_midi); prelude in the score files bach bwv895 prelude fugue driving dark clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv903_chromatic_fantasia",
@@ -12097,7 +12168,8 @@
   "score_url": "files/scores/bach_bwv926_little_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv926_little_prelude.ly",
-   "files/scores/bach_bwv926_little_prelude.mid"
+   "files/scores/bach_bwv926_little_prelude.mid",
+   "files/scores/bach_bwv926_little_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -12119,7 +12191,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv926_little_prelude.mid",
   "other_editions": [],
-  "search_text": "little prelude in d minor johann sebastian bach bwv 926 bwv 926 bwv926  bach bwv926 little prelude urgent flowing dark classical baroque  bach, johann sebastian"
+  "search_text": "little prelude in d minor johann sebastian bach bwv 926 bwv 926 bwv926  bach bwv926 little prelude urgent flowing dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv928_little_prelude",
@@ -12160,7 +12233,8 @@
   "score_url": "files/scores/bach_bwv928_little_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv928_little_prelude.ly",
-   "files/scores/bach_bwv928_little_prelude.mid"
+   "files/scores/bach_bwv928_little_prelude.mid",
+   "files/scores/bach_bwv928_little_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -12182,7 +12256,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv928_little_prelude.mid",
   "other_editions": [],
-  "search_text": "little prelude in f major johann sebastian bach bwv 928 bwv 928 bwv928  bach bwv928 little prelude bright playful flowing classical baroque  bach, johann sebastian"
+  "search_text": "little prelude in f major johann sebastian bach bwv 928 bwv 928 bwv928  bach bwv928 little prelude bright playful flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv996_bourree",
@@ -95331,7 +95406,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_l66_des_deux_arabesques.mid",
   "score_files": [
-   "files/scores/debussy_l66_des_deux_arabesques.mid"
+   "files/scores/debussy_l66_des_deux_arabesques.mid",
+   "files/scores/debussy_l66_des_deux_arabesques_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -95352,7 +95428,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_l66_des_deux_arabesques.mid",
   "other_editions": [],
-  "search_text": "première arabesque claude debussy l66 l 66 l66 des deux arabesques debussy l66 des deux arabesques classical lyrical classical romantic  debussy, claude"
+  "search_text": "première arabesque claude debussy l66 l 66 l66 des deux arabesques debussy l66 des deux arabesques classical lyrical classical romantic  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_l75_suite_bergamasque_clair_de_l",
@@ -95397,7 +95474,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_l75_suite_bergamasque_clair_de_l.mid",
   "score_files": [
-   "files/scores/debussy_l75_suite_bergamasque_clair_de_l.mid"
+   "files/scores/debussy_l75_suite_bergamasque_clair_de_l.mid",
+   "files/scores/debussy_l75_suite_bergamasque_clair_de_l_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -95434,7 +95512,8 @@
     "licence": "CC BY 4.0"
    }
   ],
-  "search_text": "suite bergamasque: clair de lune claude debussy l75 l 75 l75  debussy l75 suite bergamasque clair de l nocturnal gentle intimate classical romantic  debussy, claude"
+  "search_text": "suite bergamasque: clair de lune claude debussy l75 l 75 l75  debussy l75 suite bergamasque clair de l nocturnal gentle intimate classical romantic  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_op10_string_quartet_in_g_minor_op",
@@ -121716,7 +121795,8 @@
   "preview_url": "",
   "score_url": "files/scores/scarlatti_sonata_in_c_major.mid",
   "score_files": [
-   "files/scores/scarlatti_sonata_in_c_major.mid"
+   "files/scores/scarlatti_sonata_in_c_major.mid",
+   "files/scores/scarlatti_sonata_in_c_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -121737,7 +121817,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/scarlatti_sonata_in_c_major.mid",
   "other_editions": [],
-  "search_text": "sonata in c major domenico scarlatti    scarlatti sonata in c major classical lyrical classical baroque  scarlatti, domenico"
+  "search_text": "sonata in c major domenico scarlatti    scarlatti sonata in c major classical lyrical classical baroque  scarlatti, domenico",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "scarlatti_k11_joh_kuhnau_s_neue_klavierubu",
@@ -121782,7 +121863,8 @@
   "preview_url": "",
   "score_url": "files/scores/scarlatti_k11_joh_kuhnau_s_neue_klavierubu.mid",
   "score_files": [
-   "files/scores/scarlatti_k11_joh_kuhnau_s_neue_klavierubu.mid"
+   "files/scores/scarlatti_k11_joh_kuhnau_s_neue_klavierubu.mid",
+   "files/scores/scarlatti_k11_joh_kuhnau_s_neue_klavierubu_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -121803,7 +121885,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/scarlatti_k11_joh_kuhnau_s_neue_klavierubu.mid",
   "other_editions": [],
-  "search_text": "sonata xi from the essercizi per gravicembalo domenico scarlatti k 11 k 11 k11 joh. kuhnau's neue klavierübung benebst einer sonata, denen liebhaberen zu besönderem vergnügen aufgesetzt. scarlatti k11 joh kuhnau s neue klavierubu classical lyrical classical baroque  scarlatti, domenico"
+  "search_text": "sonata xi from the essercizi per gravicembalo domenico scarlatti k 11 k 11 k11 joh. kuhnau's neue klavierübung benebst einer sonata, denen liebhaberen zu besönderem vergnügen aufgesetzt. scarlatti k11 joh kuhnau s neue klavierubu classical lyrical classical baroque  scarlatti, domenico",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "scarlatti_k208_scarlatti_sonata_k_208",
@@ -139934,7 +140017,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_gymnopedie_no_2.mid",
   "score_files": [
-   "files/scores/satie_gymnopedie_no_2.mid"
+   "files/scores/satie_gymnopedie_no_2.mid",
+   "files/scores/satie_gymnopedie_no_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -139955,7 +140039,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_gymnopedie_no_2.mid",
   "other_editions": [],
-  "search_text": "gymnopédie no. 2 erik satie    satie gymnopedie no 2 classical lyrical classical 20th century  satie, erik"
+  "search_text": "gymnopédie no. 2 erik satie    satie gymnopedie no 2 classical lyrical classical 20th century  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_gymnopedie_no_3",
@@ -140000,7 +140085,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_gymnopedie_no_3.mid",
   "score_files": [
-   "files/scores/satie_gymnopedie_no_3.mid"
+   "files/scores/satie_gymnopedie_no_3.mid",
+   "files/scores/satie_gymnopedie_no_3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -140021,7 +140107,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_gymnopedie_no_3.mid",
   "other_editions": [],
-  "search_text": "gymnopédie no. 3 erik satie    satie gymnopedie no 3 classical lyrical classical 20th century  satie, erik"
+  "search_text": "gymnopédie no. 3 erik satie    satie gymnopedie no 3 classical lyrical classical 20th century  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_ii_danseuse_erik_satie",
@@ -145341,7 +145428,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_consolation_mendelssohn_hymn.mid",
   "score_files": [
-   "files/scores/mendelssohn_consolation_mendelssohn_hymn.mid"
+   "files/scores/mendelssohn_consolation_mendelssohn_hymn.mid",
+   "files/scores/mendelssohn_consolation_mendelssohn_hymn_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -145362,7 +145450,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_consolation_mendelssohn_hymn.mid",
   "other_editions": [],
-  "search_text": "consolation (hymntune) felix mendelssohn    mendelssohn consolation mendelssohn hymn classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "consolation (hymntune) felix mendelssohn    mendelssohn consolation mendelssohn hymn classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_daughters_of_zion_felix_mend",
@@ -148268,7 +148357,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op30_venetianisches_gondellied.mid",
   "score_files": [
-   "files/scores/mendelssohn_op30_venetianisches_gondellied.mid"
+   "files/scores/mendelssohn_op30_venetianisches_gondellied.mid",
+   "files/scores/mendelssohn_op30_venetianisches_gondellied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -148289,7 +148379,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op30_venetianisches_gondellied.mid",
   "other_editions": [],
-  "search_text": "lieder ohne worte: venetianisches gondellied, op.30 no.6 felix mendelssohn op. 30 op 30 op. 30 op30 venetianisches gondellied. mendelssohn op30 venetianisches gondellied classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "lieder ohne worte: venetianisches gondellied, op.30 no.6 felix mendelssohn op. 30 op 30 op. 30 op30 venetianisches gondellied. mendelssohn op30 venetianisches gondellied classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op36_st_paul_op_36_paulus",
@@ -149501,7 +149592,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op85_lieder_ohne_worte_op_85_no_1.mid",
   "score_files": [
-   "files/scores/mendelssohn_op85_lieder_ohne_worte_op_85_no_1.mid"
+   "files/scores/mendelssohn_op85_lieder_ohne_worte_op_85_no_1.mid",
+   "files/scores/mendelssohn_op85_lieder_ohne_worte_op_85_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -149522,7 +149614,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op85_lieder_ohne_worte_op_85_no_1.mid",
   "other_editions": [],
-  "search_text": "lieder ohne worte, op.85 no.1 felix mendelssohn op. 85 op 85 op. 85 op85  mendelssohn op85 lieder ohne worte op 85 no 1 classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "lieder ohne worte, op.85 no.1 felix mendelssohn op. 85 op 85 op. 85 op85  mendelssohn op85 lieder ohne worte op 85 no 1 classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op88no1_neujahrslied",
@@ -150001,7 +150094,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op19_venetianisches_gondellied.mid",
   "score_files": [
-   "files/scores/mendelssohn_op19_venetianisches_gondellied.mid"
+   "files/scores/mendelssohn_op19_venetianisches_gondellied.mid",
+   "files/scores/mendelssohn_op19_venetianisches_gondellied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -150022,7 +150116,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op19_venetianisches_gondellied.mid",
   "other_editions": [],
-  "search_text": "lieder ohne worte: venetianisches gondellied, op.19 no.6 felix mendelssohn op.19 op 19 op.19 op19 venetianisches gondellied mendelssohn op19 venetianisches gondellied classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "lieder ohne worte: venetianisches gondellied, op.19 no.6 felix mendelssohn op.19 op 19 op.19 op19 venetianisches gondellied mendelssohn op19 venetianisches gondellied classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op19_mendelssohn_songs_without_wo",
@@ -167457,7 +167552,8 @@
   "preview_url": "",
   "score_url": "files/scores/liszt_s_213_valse_impromptu.mid",
   "score_files": [
-   "files/scores/liszt_s_213_valse_impromptu.mid"
+   "files/scores/liszt_s_213_valse_impromptu.mid",
+   "files/scores/liszt_s_213_valse_impromptu_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -167478,7 +167574,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/liszt_s_213_valse_impromptu.mid",
   "other_editions": [],
-  "search_text": "valse-impromptu franz liszt s. 213 s 213 s. 213 s213  liszt s 213 valse impromptu classical lyrical classical romantic  liszt, franz"
+  "search_text": "valse-impromptu franz liszt s. 213 s 213 s. 213 s213  liszt s 213 valse impromptu classical lyrical classical romantic  liszt, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "liszt_s215_premiere_valse_oubliee",
@@ -168344,7 +168441,8 @@
   "preview_url": "",
   "score_url": "files/scores/liszt_s172_consolation_s_172_no_1.mid",
   "score_files": [
-   "files/scores/liszt_s172_consolation_s_172_no_1.mid"
+   "files/scores/liszt_s172_consolation_s_172_no_1.mid",
+   "files/scores/liszt_s172_consolation_s_172_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -168365,7 +168463,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/liszt_s172_consolation_s_172_no_1.mid",
   "other_editions": [],
-  "search_text": "consolation, s.172 no.1 franz liszt s.172 s 172 s.172 s172  liszt s172 consolation s 172 no 1 classical lyrical classical romantic  liszt, franz"
+  "search_text": "consolation, s.172 no.1 franz liszt s.172 s 172 s.172 s172  liszt s172 consolation s 172 no 1 classical lyrical classical romantic  liszt, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "liszt_s172c_invocation_from_liszt_s_harm",
@@ -179465,7 +179564,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op142_impromptu_in_f_moll.mid",
   "score_files": [
-   "files/scores/schubert_op142_impromptu_in_f_moll.mid"
+   "files/scores/schubert_op142_impromptu_in_f_moll.mid",
+   "files/scores/schubert_op142_impromptu_in_f_moll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -179486,7 +179586,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op142_impromptu_in_f_moll.mid",
   "other_editions": [],
-  "search_text": "impromptu in f-moll franz schubert op. 142 op 142 op. 142 op142  schubert op142 impromptu in f moll classical lyrical classical romantic  schubert, franz"
+  "search_text": "impromptu in f-moll franz schubert op. 142 op 142 op. 142 op142  schubert op142 impromptu in f moll classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op142no2_schubert_impromptu_op_142_no",
@@ -180715,7 +180816,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op90_impromptu_in_c_moll.mid",
   "score_files": [
-   "files/scores/schubert_op90_impromptu_in_c_moll.mid"
+   "files/scores/schubert_op90_impromptu_in_c_moll.mid",
+   "files/scores/schubert_op90_impromptu_in_c_moll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180736,7 +180838,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op90_impromptu_in_c_moll.mid",
   "other_editions": [],
-  "search_text": "impromptu in c-moll franz schubert op. 90 op 90 op. 90 op90  schubert op90 impromptu in c moll classical lyrical classical romantic  schubert, franz"
+  "search_text": "impromptu in c-moll franz schubert op. 90 op 90 op. 90 op90  schubert op90 impromptu in c moll classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op94_moments_musicaux_no_3_in_f_m",
@@ -186384,7 +186487,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_b130_etudes_de_perfection_de_la_m.mid",
   "score_files": [
-   "files/scores/chopin_b130_etudes_de_perfection_de_la_m.mid"
+   "files/scores/chopin_b130_etudes_de_perfection_de_la_m.mid",
+   "files/scores/chopin_b130_etudes_de_perfection_de_la_m_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -186405,7 +186509,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_b130_etudes_de_perfection_de_la_m.mid",
   "other_editions": [],
-  "search_text": "trois nouvelles etudes, no. 1 f minor frédéric chopin b.130 b 130 b.130 b130 etudes de perfection de la méthode des méthodes de moscheles et fétis chopin b130 etudes de perfection de la m classical lyrical classical romantic  chopin, frédéric"
+  "search_text": "trois nouvelles etudes, no. 1 f minor frédéric chopin b.130 b 130 b.130 b130 etudes de perfection de la méthode des méthodes de moscheles et fétis chopin b130 etudes de perfection de la m classical lyrical classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_b144_chopin_fugue_in_a_minor_b_14",
@@ -187255,7 +187360,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op28_funeral_march.mid",
   "score_files": [
-   "files/scores/chopin_op28_funeral_march.mid"
+   "files/scores/chopin_op28_funeral_march.mid",
+   "files/scores/chopin_op28_funeral_march_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -187292,7 +187398,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "prelude: op. 28, no. 20 frédéric chopin op. 28 op 28 op. 28 op28 'funeral march' chopin op28 funeral march march ceremonial intimate classical romantic  chopin, frédéric"
+  "search_text": "prelude: op. 28, no. 20 frédéric chopin op. 28 op 28 op. 28 op28 'funeral march' chopin op28 funeral march march ceremonial intimate classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op28_suffocation",
@@ -187624,7 +187731,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op33_mazurka_op_33_no_1.mid",
   "score_files": [
-   "files/scores/chopin_op33_mazurka_op_33_no_1.mid"
+   "files/scores/chopin_op33_mazurka_op_33_no_1.mid",
+   "files/scores/chopin_op33_mazurka_op_33_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -187645,7 +187753,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_op33_mazurka_op_33_no_1.mid",
   "other_editions": [],
-  "search_text": "mazurka: op.33, no.1 frédéric chopin op. 33 op 33 op. 33 op33  chopin op33 mazurka op 33 no 1 classical lyrical classical romantic  chopin, frédéric"
+  "search_text": "mazurka: op.33, no.1 frédéric chopin op. 33 op 33 op. 33 op33  chopin op33 mazurka op 33 no 1 classical lyrical classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op45_prelude",
@@ -187690,7 +187799,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op45_prelude.mid",
   "score_files": [
-   "files/scores/chopin_op45_prelude.mid"
+   "files/scores/chopin_op45_prelude.mid",
+   "files/scores/chopin_op45_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -187710,7 +187820,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_op45_prelude.mid",
   "other_editions": [],
-  "search_text": "prelude frédéric chopin op. 45 op 45 op. 45 op45 prelude chopin op45 prelude intimate classical romantic  chopin, frédéric"
+  "search_text": "prelude frédéric chopin op. 45 op 45 op. 45 op45 prelude chopin op45 prelude intimate classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op6_mazurka_op_6_no_1",
@@ -187755,7 +187866,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op6_mazurka_op_6_no_1.mid",
   "score_files": [
-   "files/scores/chopin_op6_mazurka_op_6_no_1.mid"
+   "files/scores/chopin_op6_mazurka_op_6_no_1.mid",
+   "files/scores/chopin_op6_mazurka_op_6_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -187776,7 +187888,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_op6_mazurka_op_6_no_1.mid",
   "other_editions": [],
-  "search_text": "mazurka: op.6, no.1 frédéric chopin op. 6 op 6 op. 6 op6  chopin op6 mazurka op 6 no 1 classical lyrical classical romantic  chopin, frédéric"
+  "search_text": "mazurka: op.6, no.1 frédéric chopin op. 6 op 6 op. 6 op6  chopin op6 mazurka op 6 no 1 classical lyrical classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op64no1_minute_waltz_in_da_major_op",
@@ -340823,7 +340936,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_op39_waltz_no_10.mid",
   "score_files": [
-   "files/scores/brahms_op39_waltz_no_10.mid"
+   "files/scores/brahms_op39_waltz_no_10.mid",
+   "files/scores/brahms_op39_waltz_no_10_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -340844,7 +340958,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_op39_waltz_no_10.mid",
   "other_editions": [],
-  "search_text": "waltz no. 10 johannes brahms op. 39 op 39 op. 39 op39  brahms op39 waltz no 10 classical lyrical classical romantic  brahms, johannes"
+  "search_text": "waltz no. 10 johannes brahms op. 39 op 39 op. 39 op39  brahms op39 waltz no 10 classical lyrical classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_op48_der_gang_zum_lieben_johannes",
@@ -413819,7 +413934,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op10_sonata_no_5_1st_movement_all.mid",
   "score_files": [
-   "files/scores/beethoven_op10_sonata_no_5_1st_movement_all.mid"
+   "files/scores/beethoven_op10_sonata_no_5_1st_movement_all.mid",
+   "files/scores/beethoven_op10_sonata_no_5_1st_movement_all_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -413840,7 +413956,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op10_sonata_no_5_1st_movement_all.mid",
   "other_editions": [],
-  "search_text": "sonata no. 5 (1st movement: allegro molto e con brio) ludwig van beethoven op. 10 op 10 op. 10 op10 sonata no. 5 (1st movement: allegro molto e con brio) beethoven op10 sonata no 5 1st movement all fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 5 (1st movement: allegro molto e con brio) ludwig van beethoven op. 10 op 10 op. 10 op10 sonata no. 5 (1st movement: allegro molto e con brio) beethoven op10 sonata no 5 1st movement all fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op10_sonata_no_5_3rd_movement_pre",
@@ -413885,7 +414002,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op10_sonata_no_5_3rd_movement_pre.mid",
   "score_files": [
-   "files/scores/beethoven_op10_sonata_no_5_3rd_movement_pre.mid"
+   "files/scores/beethoven_op10_sonata_no_5_3rd_movement_pre.mid",
+   "files/scores/beethoven_op10_sonata_no_5_3rd_movement_pre_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -413906,7 +414024,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op10_sonata_no_5_3rd_movement_pre.mid",
   "other_editions": [],
-  "search_text": "sonata no. 5 (3rd movement: prestissimo) ludwig van beethoven op. 10 op 10 op. 10 op10  beethoven op10 sonata no 5 3rd movement pre classical lyrical classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 5 (3rd movement: prestissimo) ludwig van beethoven op. 10 op 10 op. 10 op10  beethoven op10 sonata no 5 3rd movement pre classical lyrical classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op10_for_the_pianoforte",
@@ -413951,7 +414070,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op10_for_the_pianoforte.mid",
   "score_files": [
-   "files/scores/beethoven_op10_for_the_pianoforte.mid"
+   "files/scores/beethoven_op10_for_the_pianoforte.mid",
+   "files/scores/beethoven_op10_for_the_pianoforte_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -413972,7 +414092,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op10_for_the_pianoforte.mid",
   "other_editions": [],
-  "search_text": "sonata no. 6 (1st movement: allegro) ludwig van beethoven op. 10 op 10 op. 10 op10 for the pianoforte beethoven op10 for the pianoforte fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 6 (1st movement: allegro) ludwig van beethoven op. 10 op 10 op. 10 op10 for the pianoforte beethoven op10 for the pianoforte fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op118_elegischer_gesang_op_118",
@@ -414091,7 +414212,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op13_1st_movement.mid",
   "score_files": [
-   "files/scores/beethoven_op13_1st_movement.mid"
+   "files/scores/beethoven_op13_1st_movement.mid",
+   "files/scores/beethoven_op13_1st_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -414114,7 +414236,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op13_1st_movement.mid",
   "other_editions": [],
-  "search_text": "sonata no. 8 “pathétique” (1st movement: grave, allegro molto e con brio) ludwig van beethoven op. 13 op 13 op. 13 op13 1st movement beethoven op13 1st movement slow somber fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 8 “pathétique” (1st movement: grave, allegro molto e con brio) ludwig van beethoven op. 13 op 13 op. 13 op13 1st movement beethoven op13 1st movement slow somber fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op13_2nd_movement",
@@ -414159,7 +414282,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op13_2nd_movement.mid",
   "score_files": [
-   "files/scores/beethoven_op13_2nd_movement.mid"
+   "files/scores/beethoven_op13_2nd_movement.mid",
+   "files/scores/beethoven_op13_2nd_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -414180,7 +414304,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op13_2nd_movement.mid",
   "other_editions": [],
-  "search_text": "sonata no. 8 “pathétique” (2nd movement: adagio cantabile) ludwig van beethoven op. 13 op 13 op. 13 op13 2nd movement beethoven op13 2nd movement slow somber classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 8 “pathétique” (2nd movement: adagio cantabile) ludwig van beethoven op. 13 op 13 op. 13 op13 2nd movement beethoven op13 2nd movement slow somber classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op13_3rd_movement",
@@ -414225,7 +414350,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op13_3rd_movement.mid",
   "score_files": [
-   "files/scores/beethoven_op13_3rd_movement.mid"
+   "files/scores/beethoven_op13_3rd_movement.mid",
+   "files/scores/beethoven_op13_3rd_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "playful"
@@ -414245,7 +414371,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op13_3rd_movement.mid",
   "other_editions": [],
-  "search_text": "sonata no. 8 “pathétique” (3rd movement: rondo) ludwig van beethoven op. 13 op 13 op. 13 op13 3rd movement beethoven op13 3rd movement playful classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 8 “pathétique” (3rd movement: rondo) ludwig van beethoven op. 13 op 13 op. 13 op13 3rd movement beethoven op13 3rd movement playful classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op2_sonata_no_1_1st_movement_all",
@@ -414290,7 +414417,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op2_sonata_no_1_1st_movement_all.mid",
   "score_files": [
-   "files/scores/beethoven_op2_sonata_no_1_1st_movement_all.mid"
+   "files/scores/beethoven_op2_sonata_no_1_1st_movement_all.mid",
+   "files/scores/beethoven_op2_sonata_no_1_1st_movement_all_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -414311,7 +414439,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op2_sonata_no_1_1st_movement_all.mid",
   "other_editions": [],
-  "search_text": "sonata no. 1 (1st movement: allegro) ludwig van beethoven op. 2 op 2 op. 2 op2 sonata no. 1 (1st movement: allegro) beethoven op2 sonata no 1 1st movement all fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 1 (1st movement: allegro) ludwig van beethoven op. 2 op 2 op. 2 op2 sonata no. 1 (1st movement: allegro) beethoven op2 sonata no 1 1st movement all fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op2_sonata_no_1_3rd_movement_all",
@@ -414356,7 +414485,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op2_sonata_no_1_3rd_movement_all.mid",
   "score_files": [
-   "files/scores/beethoven_op2_sonata_no_1_3rd_movement_all.mid"
+   "files/scores/beethoven_op2_sonata_no_1_3rd_movement_all.mid",
+   "files/scores/beethoven_op2_sonata_no_1_3rd_movement_all_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -414377,7 +414507,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op2_sonata_no_1_3rd_movement_all.mid",
   "other_editions": [],
-  "search_text": "sonata no. 1 (3rd movement: allegretto) ludwig van beethoven op. 2 op 2 op. 2 op2  beethoven op2 sonata no 1 3rd movement all classical lyrical classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 1 (3rd movement: allegretto) ludwig van beethoven op. 2 op 2 op. 2 op2  beethoven op2 sonata no 1 3rd movement all classical lyrical classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op31_sonata_no_17_1st_movement_la",
@@ -414422,7 +414553,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op31_sonata_no_17_1st_movement_la.mid",
   "score_files": [
-   "files/scores/beethoven_op31_sonata_no_17_1st_movement_la.mid"
+   "files/scores/beethoven_op31_sonata_no_17_1st_movement_la.mid",
+   "files/scores/beethoven_op31_sonata_no_17_1st_movement_la_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -414445,7 +414577,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op31_sonata_no_17_1st_movement_la.mid",
   "other_editions": [],
-  "search_text": "sonata no. 17 (1st movement: largo - allegro) ludwig van beethoven op. 31 op 31 op. 31 op31 sonata no. 17 (1st movement: largo - allegro) beethoven op31 sonata no 17 1st movement la slow somber fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 17 (1st movement: largo - allegro) ludwig van beethoven op. 31 op 31 op. 31 op31 sonata no. 17 (1st movement: largo - allegro) beethoven op31 sonata no 17 1st movement la slow somber fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op31_sonata_no_17_2nd_movement_ad",
@@ -414490,7 +414623,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op31_sonata_no_17_2nd_movement_ad.mid",
   "score_files": [
-   "files/scores/beethoven_op31_sonata_no_17_2nd_movement_ad.mid"
+   "files/scores/beethoven_op31_sonata_no_17_2nd_movement_ad.mid",
+   "files/scores/beethoven_op31_sonata_no_17_2nd_movement_ad_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -414511,7 +414645,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op31_sonata_no_17_2nd_movement_ad.mid",
   "other_editions": [],
-  "search_text": "sonata no. 17 (2nd movement: adagio) ludwig van beethoven op. 31 op 31 op. 31 op31 sonata no. 17 (2nd movement: adagio) beethoven op31 sonata no 17 2nd movement ad slow somber classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 17 (2nd movement: adagio) ludwig van beethoven op. 31 op 31 op. 31 op31 sonata no. 17 (2nd movement: adagio) beethoven op31 sonata no 17 2nd movement ad slow somber classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op31no17_beethoven_sonata_op_31_no_17",
@@ -414629,7 +414764,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op49_fur_das_pianoforte.mid",
   "score_files": [
-   "files/scores/beethoven_op49_fur_das_pianoforte.mid"
+   "files/scores/beethoven_op49_fur_das_pianoforte.mid",
+   "files/scores/beethoven_op49_fur_das_pianoforte_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -414650,7 +414786,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op49_fur_das_pianoforte.mid",
   "other_editions": [],
-  "search_text": "sonata no. 19 (1st movement: andante) ludwig van beethoven op. 49 op 49 op. 49 op49 fur das pianoforte beethoven op49 fur das pianoforte moderate elegant classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 19 (1st movement: andante) ludwig van beethoven op. 49 op 49 op. 49 op49 fur das pianoforte beethoven op49 fur das pianoforte moderate elegant classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op49_sonata_no_20_1st_movement_al",
@@ -414695,7 +414832,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op49_sonata_no_20_1st_movement_al.mid",
   "score_files": [
-   "files/scores/beethoven_op49_sonata_no_20_1st_movement_al.mid"
+   "files/scores/beethoven_op49_sonata_no_20_1st_movement_al.mid",
+   "files/scores/beethoven_op49_sonata_no_20_1st_movement_al_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -414716,7 +414854,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op49_sonata_no_20_1st_movement_al.mid",
   "other_editions": [],
-  "search_text": "sonata no. 20 (1st movement: allegro, ma non troppo) ludwig van beethoven op. 49 op 49 op. 49 op49 sonata no. 20 (1st movement: allegro, ma non troppo) beethoven op49 sonata no 20 1st movement al fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 20 (1st movement: allegro, ma non troppo) ludwig van beethoven op. 49 op 49 op. 49 op49 sonata no. 20 (1st movement: allegro, ma non troppo) beethoven op49 sonata no 20 1st movement al fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op49_sonata_no_20_2nd_movement_te",
@@ -414761,7 +414900,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op49_sonata_no_20_2nd_movement_te.mid",
   "score_files": [
-   "files/scores/beethoven_op49_sonata_no_20_2nd_movement_te.mid"
+   "files/scores/beethoven_op49_sonata_no_20_2nd_movement_te.mid",
+   "files/scores/beethoven_op49_sonata_no_20_2nd_movement_te_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -414782,7 +414922,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op49_sonata_no_20_2nd_movement_te.mid",
   "other_editions": [],
-  "search_text": "sonata no. 20 (2nd movement: tempo di menuetto) ludwig van beethoven op. 49 op 49 op. 49 op49  beethoven op49 sonata no 20 2nd movement te moderate elegant classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 20 (2nd movement: tempo di menuetto) ludwig van beethoven op. 49 op 49 op. 49 op49  beethoven op49 sonata no 20 2nd movement te moderate elegant classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op49no2_sonata_op_49_no_2_for_alto_s",
@@ -414901,7 +415042,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op57_sonata_no_23_appassionata_2n.mid",
   "score_files": [
-   "files/scores/beethoven_op57_sonata_no_23_appassionata_2n.mid"
+   "files/scores/beethoven_op57_sonata_no_23_appassionata_2n.mid",
+   "files/scores/beethoven_op57_sonata_no_23_appassionata_2n_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -414922,7 +415064,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op57_sonata_no_23_appassionata_2n.mid",
   "other_editions": [],
-  "search_text": "sonata no. 23 “appassionata” (2nd movement: andante con moto) ludwig van beethoven op. 57 op 57 op. 57 op57  beethoven op57 sonata no 23 appassionata 2n moderate elegant classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 23 “appassionata” (2nd movement: andante con moto) ludwig van beethoven op. 57 op 57 op. 57 op57  beethoven op57 sonata no 23 appassionata 2n moderate elegant classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op61_violin_concerto_in_d_major_l",
@@ -415247,7 +415390,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op78_sonata_no_24_1st_movement_ad.mid",
   "score_files": [
-   "files/scores/beethoven_op78_sonata_no_24_1st_movement_ad.mid"
+   "files/scores/beethoven_op78_sonata_no_24_1st_movement_ad.mid",
+   "files/scores/beethoven_op78_sonata_no_24_1st_movement_ad_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -415268,7 +415412,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op78_sonata_no_24_1st_movement_ad.mid",
   "other_editions": [],
-  "search_text": "sonata no. 24 (1st movement: adagio cantabile) ludwig van beethoven op. 78 op 78 op. 78 op78 sonata no. 24 (1st movement: adagio cantabile) beethoven op78 sonata no 24 1st movement ad slow somber classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 24 (1st movement: adagio cantabile) ludwig van beethoven op. 78 op 78 op. 78 op78 sonata no. 24 (1st movement: adagio cantabile) beethoven op78 sonata no 24 1st movement ad slow somber classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op78_sonata_no_24_2nd_movement_al",
@@ -415313,7 +415458,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op78_sonata_no_24_2nd_movement_al.mid",
   "score_files": [
-   "files/scores/beethoven_op78_sonata_no_24_2nd_movement_al.mid"
+   "files/scores/beethoven_op78_sonata_no_24_2nd_movement_al.mid",
+   "files/scores/beethoven_op78_sonata_no_24_2nd_movement_al_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -415334,7 +415480,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op78_sonata_no_24_2nd_movement_al.mid",
   "other_editions": [],
-  "search_text": "sonata no. 24 (2nd movement: allegro vivace) ludwig van beethoven op. 78 op 78 op. 78 op78 sonata no. 24 (2nd movement: allegro vivace) beethoven op78 sonata no 24 2nd movement al fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 24 (2nd movement: allegro vivace) ludwig van beethoven op. 78 op 78 op. 78 op78 sonata no. 24 (2nd movement: allegro vivace) beethoven op78 sonata no 24 2nd movement al fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op79_sonata_no_25_1st_movement_pr",
@@ -415379,7 +415526,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op79_sonata_no_25_1st_movement_pr.mid",
   "score_files": [
-   "files/scores/beethoven_op79_sonata_no_25_1st_movement_pr.mid"
+   "files/scores/beethoven_op79_sonata_no_25_1st_movement_pr.mid",
+   "files/scores/beethoven_op79_sonata_no_25_1st_movement_pr_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -415400,7 +415548,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op79_sonata_no_25_1st_movement_pr.mid",
   "other_editions": [],
-  "search_text": "sonata no. 25 (1st movement: presto alla tedesca) ludwig van beethoven op. 79 op 79 op. 79 op79  beethoven op79 sonata no 25 1st movement pr fast bright classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 25 (1st movement: presto alla tedesca) ludwig van beethoven op. 79 op 79 op. 79 op79  beethoven op79 sonata no 25 1st movement pr fast bright classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op8_beethovern_string_trio_op_8",
@@ -415667,7 +415816,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_op90_dem_grafen_lichnowsky_gewidm.mid",
   "score_files": [
-   "files/scores/beethoven_op90_dem_grafen_lichnowsky_gewidm.mid"
+   "files/scores/beethoven_op90_dem_grafen_lichnowsky_gewidm.mid",
+   "files/scores/beethoven_op90_dem_grafen_lichnowsky_gewidm_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -415688,7 +415838,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_op90_dem_grafen_lichnowsky_gewidm.mid",
   "other_editions": [],
-  "search_text": "sonata no. 27 (1st movement: mit lebhaftigkeit) ludwig van beethoven op. 90 op 90 op. 90 op90 dem grafen lichnowsky gewidmet beethoven op90 dem grafen lichnowsky gewidm classical lyrical classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "sonata no. 27 (1st movement: mit lebhaftigkeit) ludwig van beethoven op. 90 op 90 op. 90 op90 dem grafen lichnowsky gewidmet beethoven op90 dem grafen lichnowsky gewidm classical lyrical classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op1no1_pianotrio_no_1_ii_adagio_can",
@@ -496227,7 +496378,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_ps_the_seasons_february.mid",
   "score_files": [
-   "files/scores/tchaikovsky_ps_the_seasons_february.mid"
+   "files/scores/tchaikovsky_ps_the_seasons_february.mid",
+   "files/scores/tchaikovsky_ps_the_seasons_february_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -496248,7 +496400,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_ps_the_seasons_february.mid",
   "other_editions": [],
-  "search_text": "the seasons: february pyotr ilyich tchaikovsky op. 37a no. 2 op 37a no 2 op. 37a no. 2 op37ano2 february: carnival tchaikovsky ps the seasons february classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "the seasons: february pyotr ilyich tchaikovsky op. 37a no. 2 op 37a no 2 op. 37a no. 2 op37ano2 february: carnival tchaikovsky ps the seasons february classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_op39_march_of_the_wooden_soldiers",
@@ -497308,7 +497461,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_op37_august_harvest_time.mid",
   "score_files": [
-   "files/scores/tchaikovsky_op37_august_harvest_time.mid"
+   "files/scores/tchaikovsky_op37_august_harvest_time.mid",
+   "files/scores/tchaikovsky_op37_august_harvest_time_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -497329,7 +497483,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_op37_august_harvest_time.mid",
   "other_editions": [],
-  "search_text": "the seasons: august pyotr ilyich tchaikovsky op37 op 37 op37 august: harvest time tchaikovsky op37 august harvest time classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "the seasons: august pyotr ilyich tchaikovsky op37 op 37 op37 august: harvest time tchaikovsky op37 august harvest time classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_op37_februar_carneval",
@@ -497374,7 +497529,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_op37_februar_carneval.mid",
   "score_files": [
-   "files/scores/tchaikovsky_op37_februar_carneval.mid"
+   "files/scores/tchaikovsky_op37_februar_carneval.mid",
+   "files/scores/tchaikovsky_op37_februar_carneval_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -497395,7 +497551,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_op37_februar_carneval.mid",
   "other_editions": [],
-  "search_text": "the seasons: february pyotr ilyich tchaikovsky op37 op 37 op37 februar: carneval tchaikovsky op37 februar carneval classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "the seasons: february pyotr ilyich tchaikovsky op37 op 37 op37 februar: carneval tchaikovsky op37 februar carneval classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_op37_january_before_the_chimney",
@@ -497440,7 +497597,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_op37_january_before_the_chimney.mid",
   "score_files": [
-   "files/scores/tchaikovsky_op37_january_before_the_chimney.mid"
+   "files/scores/tchaikovsky_op37_january_before_the_chimney.mid",
+   "files/scores/tchaikovsky_op37_january_before_the_chimney_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -497461,7 +497619,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_op37_january_before_the_chimney.mid",
   "other_editions": [],
-  "search_text": "the seasons: january pyotr ilyich tchaikovsky op37 op 37 op37 january. before the chimney. tchaikovsky op37 january before the chimney classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "the seasons: january pyotr ilyich tchaikovsky op37 op 37 op37 january. before the chimney. tchaikovsky op37 january before the chimney classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_s16_romance_opus_16_no_1",
@@ -507239,7 +507398,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15_bittendes_kind.mid",
   "score_files": [
-   "files/scores/schumann_op15_bittendes_kind.mid"
+   "files/scores/schumann_op15_bittendes_kind.mid",
+   "files/scores/schumann_op15_bittendes_kind_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -507268,7 +507428,8 @@
     "licence": "CC-BY"
    }
   ],
-  "search_text": "kinderscenen - bittendes kind robert schumann op. 15 op 15 op. 15 op15 bittendes kind schumann op15 bittendes kind classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - bittendes kind robert schumann op. 15 op 15 op. 15 op15 bittendes kind schumann op15 bittendes kind classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15_curiose_geschichte",
@@ -507313,7 +507474,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15_curiose_geschichte.mid",
   "score_files": [
-   "files/scores/schumann_op15_curiose_geschichte.mid"
+   "files/scores/schumann_op15_curiose_geschichte.mid",
+   "files/scores/schumann_op15_curiose_geschichte_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -507334,7 +507496,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op15_curiose_geschichte.mid",
   "other_editions": [],
-  "search_text": "kinderscenen - curiose geschichte robert schumann op. 15 op 15 op. 15 op15 curiose geschichte schumann op15 curiose geschichte classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - curiose geschichte robert schumann op. 15 op 15 op. 15 op15 curiose geschichte schumann op15 curiose geschichte classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15_hasche_mann",
@@ -507379,7 +507542,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15_hasche_mann.mid",
   "score_files": [
-   "files/scores/schumann_op15_hasche_mann.mid"
+   "files/scores/schumann_op15_hasche_mann.mid",
+   "files/scores/schumann_op15_hasche_mann_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -507408,7 +507572,8 @@
     "licence": "CC-BY"
    }
   ],
-  "search_text": "kinderscenen - hasche-mann robert schumann op. 15 op 15 op. 15 op15 hasche-mann schumann op15 hasche mann classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - hasche-mann robert schumann op. 15 op 15 op. 15 op15 hasche-mann schumann op15 hasche mann classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15_wichtige_begebenheit",
@@ -507453,7 +507618,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15_wichtige_begebenheit.mid",
   "score_files": [
-   "files/scores/schumann_op15_wichtige_begebenheit.mid"
+   "files/scores/schumann_op15_wichtige_begebenheit.mid",
+   "files/scores/schumann_op15_wichtige_begebenheit_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -507482,7 +507648,8 @@
     "licence": "CC-BY"
    }
   ],
-  "search_text": "kinderscenen - wichtige begebenheit robert schumann op. 15 op 15 op. 15 op15 wichtige begebenheit schumann op15 wichtige begebenheit classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - wichtige begebenheit robert schumann op. 15 op 15 op. 15 op15 wichtige begebenheit schumann op15 wichtige begebenheit classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15_schumann_kinderszenen_op_15",
@@ -514993,7 +515160,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15no01_von_fremden_landern_und_mens.mid",
   "score_files": [
-   "files/scores/schumann_op15no01_von_fremden_landern_und_mens.mid"
+   "files/scores/schumann_op15no01_von_fremden_landern_und_mens.mid",
+   "files/scores/schumann_op15no01_von_fremden_landern_und_mens_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -515014,7 +515182,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op15no01_von_fremden_landern_und_mens.mid",
   "other_editions": [],
-  "search_text": "kinderscenen - von fremden ländern und menschen robert schumann op15no01 op 15no 01 op15no01 von fremden ländern und menschen schumann op15no01 von fremden landern und mens classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - von fremden ländern und menschen robert schumann op15no01 op 15no 01 op15no01 von fremden ländern und menschen schumann op15no01 von fremden landern und mens classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15no05_gluckes_genug",
@@ -515059,7 +515228,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15no05_gluckes_genug.mid",
   "score_files": [
-   "files/scores/schumann_op15no05_gluckes_genug.mid"
+   "files/scores/schumann_op15no05_gluckes_genug.mid",
+   "files/scores/schumann_op15no05_gluckes_genug_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -515080,7 +515250,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op15no05_gluckes_genug.mid",
   "other_editions": [],
-  "search_text": "kinderscenen - glückes genug robert schumann op15no05 op 15no 05 op15no05 glückes genug schumann op15no05 gluckes genug classical lyrical classical romantic  schumann, robert"
+  "search_text": "kinderscenen - glückes genug robert schumann op15no05 op 15no 05 op15no05 glückes genug schumann op15no05 gluckes genug classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op15no07_traumerei",
@@ -515125,7 +515296,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op15no07_traumerei.mid",
   "score_files": [
-   "files/scores/schumann_op15no07_traumerei.mid"
+   "files/scores/schumann_op15no07_traumerei.mid",
+   "files/scores/schumann_op15no07_traumerei_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -515146,7 +515318,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op15no07_traumerei.mid",
   "other_editions": [],
-  "search_text": "kinderscenen - traümerei robert schumann op15no07 op 15no 07 op15no07 traümerei schumann op15no07 traumerei nocturnal gentle classical romantic  schumann, robert"
+  "search_text": "kinderscenen - traümerei robert schumann op15no07 op 15no 07 op15no07 traümerei schumann op15no07 traumerei nocturnal gentle classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op69_klosterfraulein_op_69_3_robe",
@@ -664306,7 +664479,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k6_fragment.mid",
   "score_files": [
-   "files/scores/mozart_k6_fragment.mid"
+   "files/scores/mozart_k6_fragment.mid",
+   "files/scores/mozart_k6_fragment_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -664327,7 +664501,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k6_fragment.mid",
   "other_editions": [],
-  "search_text": "sonata in c major (fragment) wolfgang amadeus mozart k6 k 6 k6 (fragment) mozart k6 fragment classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "sonata in c major (fragment) wolfgang amadeus mozart k6 k 6 k6 (fragment) mozart k6 fragment classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k6_w_a_mozart_sonata_in_c_major",
@@ -664594,7 +664769,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k309_piano_sonata_in_c_major_kv_3.mid",
   "score_files": [
-   "files/scores/mozart_k309_piano_sonata_in_c_major_kv_3.mid"
+   "files/scores/mozart_k309_piano_sonata_in_c_major_kv_3.mid",
+   "files/scores/mozart_k309_piano_sonata_in_c_major_kv_3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -664615,7 +664791,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k309_piano_sonata_in_c_major_kv_3.mid",
   "other_editions": [],
-  "search_text": "piano sonata in c major - kv 309 (1st part) wolfgang amadeus mozart kv 309 kv 309 kv309  mozart k309 piano sonata in c major kv 3 classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "piano sonata in c major - kv 309 (1st part) wolfgang amadeus mozart kv 309 kv 309 kv309  mozart k309 piano sonata in c major kv 3 classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k31_sonata_kv_31",
@@ -665029,7 +665206,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k457_1st_movement.mid",
   "score_files": [
-   "files/scores/mozart_k457_1st_movement.mid"
+   "files/scores/mozart_k457_1st_movement.mid",
+   "files/scores/mozart_k457_1st_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -665050,7 +665228,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k457_1st_movement.mid",
   "other_editions": [],
-  "search_text": "piano sonata in c minor - kv. 457 (1st movement) wolfgang amadeus mozart kv 457 kv 457 kv457 1st movement mozart k457 1st movement classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "piano sonata in c minor - kv. 457 (1st movement) wolfgang amadeus mozart kv 457 kv 457 kv457 1st movement mozart k457 1st movement classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k457_2nd_movement",
@@ -665095,7 +665274,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k457_2nd_movement.mid",
   "score_files": [
-   "files/scores/mozart_k457_2nd_movement.mid"
+   "files/scores/mozart_k457_2nd_movement.mid",
+   "files/scores/mozart_k457_2nd_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -665116,7 +665296,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k457_2nd_movement.mid",
   "other_editions": [],
-  "search_text": "piano sonata in c minor - kv. 457 (2nd movement) wolfgang amadeus mozart kv 457 kv 457 kv457 2nd movement mozart k457 2nd movement classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "piano sonata in c minor - kv. 457 (2nd movement) wolfgang amadeus mozart kv 457 kv 457 kv457 2nd movement mozart k457 2nd movement classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k457_3rd_movement",
@@ -665161,7 +665342,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k457_3rd_movement.mid",
   "score_files": [
-   "files/scores/mozart_k457_3rd_movement.mid"
+   "files/scores/mozart_k457_3rd_movement.mid",
+   "files/scores/mozart_k457_3rd_movement_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -665182,7 +665364,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k457_3rd_movement.mid",
   "other_editions": [],
-  "search_text": "piano sonata in c minor - kv. 457 (3rd movement) wolfgang amadeus mozart kv 457 kv 457 kv457 3rd movement mozart k457 3rd movement classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "piano sonata in c minor - kv. 457 (3rd movement) wolfgang amadeus mozart kv 457 kv 457 kv457 3rd movement mozart k457 3rd movement classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k524_kv_524_an_chloe_klangtest",
