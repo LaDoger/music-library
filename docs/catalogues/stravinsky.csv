@@ -1,0 +1,53 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.1,Symphony in E-flat major,1914,in-scope,,0,,,IMSLP first publication 1914; composed 1905-07
+Op.2,The Faun and the Shepherdess,1908,in-scope,,0,,,IMSLP first publication 1908
+Op.3,Scherzo fantastique,1909,in-scope,,0,,,IMSLP first publication 1909
+Op.4,Fireworks (Feu d'artifice),1910,in-scope,,0,,,IMSLP first publication 1910
+K006,Pastorale (voice and piano),1910,in-scope,,0,,,IMSLP first publication 1910
+K010 (1919 suite),"The Firebird, 1919 suite",,unverified-pub,n/a,0,,,Later revision of the ballet: excluded per LaDoger rule (revisions stay excluded); not imported
+K010,The Firebird,1910,in-scope,,0,,,Ballet: IMSLP first publication 1910; 1911 suite: IMSLP 1911. The 1919 and 1945 suites are excluded
+K012,Petrushka (1911 version),1912,in-scope,,0,,,IMSLP first publication 1912; the 1947 revision is excluded; titles do not show which version a file is
+K015,The Rite of Spring (Le Sacre du printemps),1913,in-scope,,0,,,IMSLP first publication 1913
+K026,The Song of the Nightingale (Le chant du rossignol),1921,in-scope,,0,,,IMSLP first publication 1921
+K023,Renard,1917,in-scope,,0,,,IMSLP first publication 1917
+K029,L'Histoire du soldat (The Soldier's Tale),1920,in-scope,,0,,,IMSLP first publication 1920
+K034,Pulcinella,1920,in-scope,,0,,,IMSLP first publication 1920 (ballet and suite)
+K040,Les Noces,1922,in-scope,,0,,,IMSLP first publication 1922
+K041,Octet for Wind Instruments,1924,in-scope,,0,,,IMSLP first publication 1924
+K042,Concerto for Piano and Wind Instruments,1924,in-scope,,0,,,IMSLP first publication 1924
+K043,Piano Sonata,1925,in-scope,,0,,,IMSLP first publication 1925; the 1974 Piano Sonata (K001) is not on this list
+K044,Serenade in A,1926,in-scope,,0,,,IMSLP first publication 1926
+K045,Suite No. 1 for small orchestra,1926,in-scope,,0,,,IMSLP first publication 1926
+K038,Suite No. 2 for small orchestra,,unverified-pub,n/a,0,,,IMSLP page gives no first-publication year: not imported
+K036,Symphonies of Wind Instruments (1920 version),1920,in-scope,,0,,,IMSLP first publication 1920; the 1947 revision is excluded
+K030,Ragtime,1919,in-scope,,0,,,IMSLP first publication 1919
+K032,Piano-Rag-Music,1920,in-scope,,0,,,IMSLP first publication 1920
+K020,Pribaoutki,1917,in-scope,,0,,,IMSLP first publication 1917
+K022,Berceuses du chat,1917,in-scope,,0,,,IMSLP first publication 1917
+K035,Concertino (string quartet),1923,in-scope,,0,,,IMSLP first publication 1923
+K037,Les cinq doigts (piano),1922,in-scope,,0,,,IMSLP first publication 1922
+K039,Mavra,1925,in-scope,,0,,,IMSLP first publication 1925
+K047,Oedipus Rex,1927,in-scope,,0,,,IMSLP first publication 1927
+K048,Apollon musagète,1928,in-scope,,0,,,IMSLP first publication 1928
+K050,Capriccio for piano and orchestra,1930,in-scope,,0,,,IMSLP first publication 1930 (last year in scope)
+K051,Four Études for Orchestra,,unverified-pub,n/a,0,,,IMSLP page gives no first-publication year: not imported
+K019,Three Pieces for String Quartet,,unverified-pub,n/a,0,,,No first-publication year on IMSLP: not imported
+K052,Symphony of Psalms,1931,excluded-post1930,n/a,0,,,IMSLP first publication 1931: excluded (US copyright runs)
+K053,Violin Concerto,1931,excluded-post1930,n/a,0,,,IMSLP first publication 1931: excluded
+K054,Duo concertant,1933,excluded-post1930,n/a,0,,,IMSLP first publication 1933: excluded
+K056,Perséphone,1934,excluded-post1930,n/a,0,,,IMSLP first publication 1934: excluded
+K058,Concerto for Two Pianos,1936,excluded-post1930,n/a,0,,,IMSLP first publication 1936: excluded
+K059,Jeu de cartes,1937,excluded-post1930,n/a,0,,,IMSLP first publication 1937: excluded
+K060,Concerto in E-flat (Dumbarton Oaks),1938,excluded-post1930,n/a,0,,,IMSLP first publication 1938: excluded
+K062,Tango,1941,excluded-post1930,n/a,0,,,IMSLP first publication 1941: excluded
+K063,Danses concertantes,1942,excluded-post1930,n/a,0,,,IMSLP first publication 1942: excluded
+K064,Circus Polka,1943,excluded-post1930,n/a,0,,,IMSLP first publication 1943: excluded
+K066,Ode,1947,excluded-post1930,n/a,0,,,IMSLP first publication 1947: excluded
+K067,Sonata for Two Pianos,1945,excluded-post1930,n/a,0,,,IMSLP first publication 1945: excluded
+K061,Symphony in C,1946,excluded-post1930,n/a,0,,,IMSLP first publication 1946: excluded
+K073,Symphony in Three Movements,1946,excluded-post1930,n/a,0,,,IMSLP first publication 1946: excluded
+K076,Orpheus,1948,excluded-post1930,n/a,0,,,IMSLP first publication 1948: excluded
+K077,Mass,1948,excluded-post1930,n/a,0,,,IMSLP first publication 1948: excluded
+K078,The Rake's Progress,1951,excluded-post1930,n/a,0,,,IMSLP first publication 1951: excluded
+K088,Agon,1957,excluded-post1930,n/a,0,,,IMSLP first publication 1957: excluded
+K089,Threni,1958,excluded-post1930,n/a,0,,,IMSLP first publication 1958: excluded

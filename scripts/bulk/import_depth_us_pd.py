@@ -53,6 +53,9 @@ NAME_RX = {
     "granados": r"\benrique granados\b|\bgranados enrique\b",
     "lyadov": r"\blyadov\b|\bliadov\b",
     "lyapunov": r"\b(?:lyapunov|liapunov|liapounov|lyapounov|liapunow|lyapunow|liapounow)",  # PDMX: "Liapounow", "LiapounowOp.8"
+    "arensky": r"\barensk",  # PDMX also credits "Arenskij" / "Arenski"
+    "kalinnikov": r"\bkalinnikov|\bkalinnikoff|\bkalinnikow|\bkalinnikof",  # PDMX also credits "Kalinnikoff"
+    "taneyev": r"\btaneyev|\btaneev|\btanejev|\btaneiev|\btaneyeff|\btaneieff|\btanejew",  # PDMX spellings
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",

@@ -1,0 +1,23 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Sinfonietta,Sinfonietta,1926,in-scope,yes,2,janacek_fanfare_from_janaaek_s_sinfo janacek_janaaek_fanfare_from_sinfoni,pdmx,"Universal Edition, Vienna, Dec. 1926 (IMSLP publication history); composed 1926"
+Taras Bulba,Taras Bulba (rhapsody),1925,in-scope,,0,,,"Hudebni Matice, Prague, plate H.M. 411 (1927 print); IMSLP work category 1925; composed 1915-18"
+Jenufa,"Jenufa (opera, vocal score)",1908,in-scope,,0,,,"Klub pratel umeni, Brno 1908 (IMSLP first edition); composed 1894-1903"
+Katya Kabanova,"Katya Kabanova (opera, vocal score)",1922,in-scope,,0,,,Universal Edition 1922 (IMSLP work category); composed 1920-21
+Vixen,"The Cunning Little Vixen (opera, vocal score)",1924,in-scope,,0,,,Universal Edition 1924 (IMSLP work category); composed 1922-23
+Makropulos,"The Makropulos Affair (opera, vocal score)",1926,in-scope,,0,,,Universal Edition 1926 (IMSLP work category); composed 1923-25
+From the House of the Dead,"From the House of the Dead (opera, vocal score)",1930,in-scope,,0,,,Universal Edition 1930 (IMSLP work category; 1930 is PD in the US from 2026); composed 1927-28
+Glagolitic Mass,Glagolitic Mass (Msa glagolskaja),1928,in-scope,,0,,,"Universal Edition 1928 (IMSLP work category); composed 1926-27, revised 1928"
+Concertino,Concertino for piano and ensemble,1926,in-scope,,0,,,"Hudebni Matice, Prague 1926 (IMSLP plate H.M. 371)"
+String Quartet No.1,String Quartet No. 1 'Kreutzer Sonata',1925,in-scope,yes,1,janacek_string_quartet_no_1_kreutzer,openscore-quartets,"Hudebni Matice, Prague 1925 (IMSLP plate H.M. 340); composed 1923"
+V mlhach,"V mlhach (In the Mists), piano",1913,in-scope,,0,,,Hudebni Matice 1913 (IMSLP 'First Publication 1913')
+Mladi,"Mladi (Youth), wind sextet",1925,in-scope,,0,,,"Hudebni Matice, Prague 1925 (plates H.M. 341, 347, 348)"
+Pohadka,"Pohadka (Fairy Tale), cello and piano",1924,in-scope,,0,,,"Hudebni Matice, Prague, n.d. [1924] (IMSLP plate H.M. 295); composed 1910"
+Violin Sonata,Violin Sonata,1922,in-scope,,0,,,"Hudebni Matice, Prague 1922 (plates H.M. 230 P/V); composed 1914-15, rev. 1916-22"
+Lasske tance,"Lasske tance (Lachian Dances), piano",1928,in-scope,,0,,,"Hudebni Matice 1928 (IMSLP plate H.M. 412); composed 1888-90, rev. 1927 (IMSLP work category says 1890)"
+1.X.1905,Sonata 1.X.1905 ('From the Street'),1924,in-scope,,0,,,Hudebni Matice (1924) (IMSLP plate H.M. 339); composed 1905
+Zapisnik zmizeleho,Diary of One Who Disappeared,,unverified-pub,n/a,0,,,"IMSLP work category 1921, but the only IMSLP print is Hudebni Matice 1945 (plate HM 935): first publication not confirmed; not imported"
+Po zarostlem chodnicku,"On an Overgrown Path, piano",,unverified-pub,n/a,0,,,"IMSLP work category 1911, but the only IMSLP print is Hudebni Matice 1942: first publication not confirmed; not imported"
+String Quartet No.2,String Quartet No. 2 'Intimate Letters',1938,excluded-post1930,n/a,0,,,"IMSLP work category 1938 (composed 1928): post-1930, US term still running; see CP-GATHER-janacek report for the live OpenScore row"
+Capriccio,Capriccio for piano left hand and winds,1953,excluded-post1930,n/a,0,,,Prague: SNKHLU 1953 (IMSLP first edition); composed 1926; excluded post-1930
+Romance,Romance for violin and piano,1938,excluded-post1930,n/a,0,,,IMSLP 1938; composed 1879; excluded post-1930
+Presto,Presto for cello and piano,1970,excluded-post1930,n/a,0,,,IMSLP first publication 1970; excluded post-1930

@@ -535,6 +535,84 @@ LYAPUNOV = [
     ("Op.2", "Ballade Op.2", None, UNV, r"ballade|op 2\b", "Composed 1883 (Wikipedia); no first-publication year verified"),
 ]
 
+ARENSKY = [
+    # Fully PD (died 1906): no publication-year gate. Years from IMSLP "First Publication" / "n.d. [year]" (checked 2026-10-11); "uncertain" where IMSLP gives only a plate year or composition year.
+    ("Op.36", "24 Morceaux caracteristiques Op.36", 1894, IN, r"24 morceaux|24 characteristic|op 36\b", "IMSLP: first publication 1894, Jurgenson, plates 19599-19624 (LaDoger priority)"),
+    ("Op.28", "Essais sur des rythmes oublies Op.28", 1897, IN, r"essais|rythmes oublies|op 28\b", "IMSLP: Fritzsch, Leipzig, 1897, plate E.W.F. 644 (Wikipedia gives c.1893) (LaDoger priority)"),
+    ("Op.15", "Suite No.1 for two pianos Op.15", 1890, IN, r"two pianos|suite no 1 for piano|op 15\b", "IMSLP: Gutheil, Moscow, n.d. (ca.1890), uncertain; Wikipedia gives composition 1888 (LaDoger priority)"),
+    ("Op.23", "Suite No.2 'Silhouettes' for two pianos Op.23", 1892, IN, r"silhouette|op 23\b", "IMSLP: Jurgenson, Moscow, n.d. [1892], plate 17674 (LaDoger priority)"),
+    ("Op.33", "Suite No.3 'Variations' for two pianos Op.33", 1894, IN, r"op 33\b|suite no 3\b", "IMSLP: first publication 1894, Jurgenson, plate 19238 (LaDoger priority)"),
+    ("Op.62", "Suite No.4 for two pianos Op.62", 1903, IN, r"op 62\b|suite no 4\b", "IMSLP: first publication 1903, Jurgenson, plate 27756 (LaDoger priority)"),
+    ("Op.32", "Piano Trio No.1 in D minor Op.32", 1894, IN, r"piano trio no 1|trio no 1\b|op 32\b", "IMSLP: first publication 1894, Jurgenson, plate 19242 (LaDoger priority)"),
+    ("Op.35a", "Variations on a Theme of Tchaikovsky Op.35a", 1904, IN, r"tchaikovsk|tschaikovsk|chaikovsk|op 35a\b", "IMSLP: Jurgenson, n.d. [1904], plate 29821 (uncertain; Wikipedia gives composition 1894) (LaDoger priority)"),
+    ("Op.73", "Piano Trio No.2 in F minor Op.73", 1905, IN, r"trio no 2\b|op 73\b", "IMSLP: Jurgenson, plate 29912, Monatsbericht 1905 (ca.; uncertain)"),
+    ("Op.25", "4 Morceaux Op.25", 1893, IN, r"4 morceaux|four morceaux|op 25\b", "IMSLP: first publication 1893, Jurgenson, plates 18916-18919"),
+    ("Op.41", "4 Etudes Op.41", 1897, IN, r"4 etudes|four etudes|op 41\b", "IMSLP: first publication 1897, Jurgenson, plate 20780"),
+    ("Op.42", "3 Morceaux Op.42", 1898, IN, r"3 morceaux|three morceaux|op 42\b", "IMSLP: first publication 1898, Jurgenson, plate 21077"),
+    ("Op.43", "6 Caprices Op.43", 1898, IN, r"caprice|op 43\b", "IMSLP: first publication 1898, Jurgenson, plates 22076-22081"),
+    ("Op.52", "Pres de la mer Op.52", 1901, IN, r"pres de la mer|near the sea|op 52\b", "IMSLP: first publication 1901, Jurgenson, plate 25940"),
+    ("Op.63", "12 Preludes Op.63", 1903, IN, r"12 preludes|twelve preludes|op 63\b", "IMSLP: first publication 1903, Jurgenson, plates 28466-28477"),
+    ("Op.67", "Arabesques Op.67", 1903, IN, r"arabesque|op 67\b", "IMSLP: first publication 1903, Jurgenson, plates 28789-28794"),
+    ("Op.74", "12 Etudes Op.74", 1906, IN, r"12 etudes|twelve etudes|op 74\b", "IMSLP: first publication 1906, Jurgenson, plates 30922 and 30931"),
+    ("Op.11", "String Quartet No.1 in G major Op.11", 1888, IN, r"string quartet no 1|quartet no 1\b|op 11\b", "IMSLP: first publication 1888, Jurgenson, plate 14095"),
+    ("Op.35", "String Quartet No.2 in A minor Op.35", 1894, IN, r"string quartet no 2|quartet no 2\b|op 35\b", "IMSLP: Jurgenson, n.d. [1894], plate 19311"),
+    ("Op.51", "Piano Quintet in D major Op.51", 1900, IN, r"quintet|op 51\b", "IMSLP: Jurgenson, n.d. [1900], plate 25819"),
+    ("Op.22", "Symphony No.2 in A major Op.22", 1889, IN, r"symphony no 2\b|op 22\b", "IMSLP: first publication 1889, Gutheil, plate A.4761"),
+    ("Op.7", "Suite in G minor Op.7 (orchestra)", 1909, IN, r"suite in g minor|op 7\b", "IMSLP: Jurgenson, n.d. [1909], plate 31478 (composed 1885; first printing uncertain)"),
+    ("Op.48", "Fantasia on Russian Themes Op.48", 1900, IN, r"fantasia|ryabinin|riabinin|op 48\b", "IMSLP: Jurgenson, n.d. [1900], plate 24982 (composed 1892)"),
+    ("Op.54", "Violin Concerto in A minor Op.54", 1901, IN, r"violin concerto|op 54\b", "IMSLP: Jurgenson, n.d. [1901], plate 25739"),
+    ("Op.2", "Piano Concerto in F minor Op.2", 1897, IN, r"piano concerto|op 2\b", "IMSLP: Rahter, Leipzig, n.d. [1897], plate 918 (composed 1881; first printing uncertain)"),
+]
+
+KALINNIKOV = [
+    # Fully PD (died 1901): no publication-year gate. Years from IMSLP "First Publication" / "n.d. [year]" fields (checked 2026-10-11); no opus numbers, so cat_no is a short label. Piano pieces first (LaDoger priority), then the symphonies.
+    ("Pf.1", "Chanson triste", 1901, IN, r"chanson triste|grustnaya", "IMSLP: Jurgenson, n.d.[1901], plate 26077 (4 Compositions for Piano); composed 1892-93 (LaDoger priority)"),
+    ("Pf.2", "Nocturne in F sharp minor", 1901, IN, r"nocturne", "IMSLP: first publication 1901 in 4 Compositions for Piano (No.3), Jurgenson plate 26079; composed 1892-93 (LaDoger priority)"),
+    ("Pf.3", "Elegie in B flat minor", 1901, IN, r"elegie|elegy|elegiya", "IMSLP: first publication 1901 in 4 Compositions for Piano (No.2), Jurgenson plate 26078; composed 1894 (LaDoger priority)"),
+    ("Sym.1", "Symphony No.1 in G minor", 1900, IN, r"symphony no 1\b|sym(?:phony)? no 1\b", "IMSLP: first publication 1900, Jurgenson, plates 25540-25542; composed 1894-95 (LaDoger priority)"),
+    ("Sym.2", "Symphony No.2 in A major", 1901, IN, r"symphony no 2\b|sym(?:phony)? no 2\b", "IMSLP: first publication 1901, Jurgenson, plates 25543-25545; composed 1895-97 (LaDoger priority)"),
+    ("Suite", "Suite for Orchestra in B minor", 1902, IN, r"suite for orchestra|suite in b minor", "IMSLP: Jurgenson, n.d.[1902], plates 26093-26095; composed 1891-92"),
+    ("Cedre", "The Cedar and the Palm (Le cedre et le palmier)", 1901, IN, r"cedar and the palm|cedre|cedar", "IMSLP: Jurgenson, n.d.[1901], plate 26090 (first publication 1901); composed 1897-98"),
+    ("Int.1", "Intermezzo No.1 in F sharp minor", 1902, IN, r"intermezzo no 1\b|intermezzo 1\b", "IMSLP: Jurgenson, n.d.[1902], plate 26096; composed 1896"),
+    ("Int.2", "Intermezzo No.2 in G major", 1902, IN, r"intermezzo no 2\b|intermezzo 2\b", "IMSLP: Jurgenson, n.d.[1902], plate 26099; composed 1897"),
+    ("Boris", "Tsar Boris (incidental music)", 1902, IN, r"tsar boris|zaar boris|czar boris", "IMSLP: Jurgenson, n.d.[1902], plates 26105-26107; composed 1899"),
+    ("1812", "In 1812 (opera, incomplete)", 1901, IN, r"in 1812|1812", "IMSLP: Jurgenson 1901, plate 26087; composed 1899-1900 (incomplete per Wikipedia); low priority for video"),
+    ("Pf.4", "Russian Intermezzo in F minor", None, UNV, r"russian intermezzo", "Composed 1894; IMSLP gives only Muzgiz 1950 and Sobranie 1980 editions; first publication not confirmed"),
+    ("Pf.5", "Waltz in A major", None, UNV, r"waltz|valse", "Composed 1894 (Wikipedia); IMSLP gives only a Sovyetsky Kompozitor 1960 edition; first publication not confirmed"),
+    ("Pf.6", "Moderato in E flat minor", None, UNV, r"moderato", "IMSLP: Muzgiz n.d.[1950] only; composition year on IMSLP is a typo (1980); first publication not confirmed"),
+    ("Ser", "Serenade for Strings in G minor", None, UNV, r"serenade", "Composed 1891; IMSLP first publication given as '1950?' (Muzgiz), uncertain"),
+    ("Bylina", "Bylina (epic poem, overture)", None, UNV, r"bylina", "Composed c.1892 (Wikipedia); no first-publication year verified"),
+    ("Pol.4h", "Polonaise on a theme from Symphony No.1 (piano 4 hands)", None, UNV, r"polonaise", "Wikipedia lists it; no IMSLP first-publication year checked"),
+]
+
+TANEYEV = [
+    # Fully PD (died 1915): no publication-year gate. Years from IMSLP "First Publication" fields (checked 2026-10-11, Belaieff / Russischer Musikverlag / Jurgenson). Piano Prelude and Fugue first (LaDoger priority), then chamber, orchestral and vocal.
+    ("Op.29", "Prelude and Fugue, Op.29 (piano)", 1914, IN, r"prelude and fugue|prelude fugue|prelude & fugue", "IMSLP: Russischer Musikverlag 1914 (2-piano arr. also 1914); composed 1910 (LaDoger priority)"),
+    ("Op.30", "Piano Quintet in G minor, Op.30", 1911, IN, r"piano quintet|quintet in g minor|quintet op 30", "IMSLP: Russischer Musikverlag 1911 (plate R.M.V. 115); composed 1910-11 (LaDoger priority)"),
+    ("Op.22", "Piano Trio in D major, Op.22", 1908, IN, r"piano trio|trio in d major|trio op 22", "IMSLP: Jurgenson 1908 (plate 32579); composed 1906-08 (LaDoger priority)"),
+    ("Op.20", "Piano Quartet in E major, Op.20", 1904, IN, r"piano quartet|quartet in e major|quartet op 20", "IMSLP: Belaieff 1904 (score plate 2478; parts 2479); composed 1900-01"),
+    ("Op.4", "String Quartet No.1, Op.4", 1892, IN, r"quartet no 1\b|quartet op 4\b", "IMSLP: Jurgenson 1892 (plates 14336-14337); composed 1890"),
+    ("Op.5", "String Quartet No.2, Op.5", 1896, IN, r"quartet no 2\b|quartet op 5\b", "IMSLP: Belaieff 1896 (plates 1329-1330); composed 1894-95"),
+    ("Op.7", "String Quartet No.3, Op.7", 1898, IN, r"quartet no 3\b|quartet op 7\b", "IMSLP: Belaieff 1898 (plates 1535-1536); composed 1886, revised 1896"),
+    ("Op.11", "String Quartet No.4, Op.11", 1900, IN, r"quartet no 4\b|quartet op 11\b", "IMSLP: Belaieff 1900; composed 1898-99"),
+    ("Op.13", "String Quartet No.5, Op.13", 1903, IN, r"quartet no 5\b|quartet op 13\b", "IMSLP: Belaieff 1903 (plates 2457-2458); composed 1902-03"),
+    ("Op.19", "String Quartet No.6, Op.19", 1906, IN, r"quartet no 6\b|quartet op 19\b", "IMSLP: Belaieff 1906 (plates 2678-2679); composed 1903-05"),
+    ("Op.12", "Symphony No.4, Op.12", 1901, IN, r"symphony no 4\b|sym(?:phony)? no 4\b", "IMSLP: Belaieff 1901 (IMSLP 'Sergey' title); composed 1896-98"),
+    ("Op.28", "Concert Suite for Violin and Orchestra, Op.28", 1910, IN, r"concert suite|suite for violin|violin suite", "IMSLP: Russischer Musikverlag 1910-11; composed 1908-09"),
+    ("Op.6", "Oresteia (opera), vocal score", 1900, IN, r"oresteia", "IMSLP: vocal score Belaieff 1900 (plate 2104); composed 1882-94, revised 1900. Opera: low priority for video"),
+    ("Op.14", "String Quintet No.1, Op.14", None, UNV, r"quintet no 1\b|quintet op 14\b", "Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified"),
+    ("Op.16", "String Quintet No.2, Op.16", None, UNV, r"quintet no 2\b|quintet op 16\b", "Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified"),
+    ("Op.31", "Trio in E flat major, Op.31", None, UNV, r"trio.*e flat|trio op 31\b", "Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified"),
+    ("Op.1", "Cantata 'St. John of Damascus', Op.1", 1886, IN, r"damascus|damaskin", "IMSLP 'John of Damascus, Op.1': vocal score Jurgenson 1886 (full score 1904); composed 1883-84; PDMX movements carry a mojibake composer name, so the name rule does not match them"),
+    ("Op.36", "At the Reading of a Psalm, Op.36 (cantata)", None, UNV, r"reading of a psalm|psalm", "Completed early 1915 (Wikipedia); no publication year verified"),
+    ("Op.27", "12 Choruses a cappella, Op.27", None, UNV, r"choruses? a cappella|12 choruses", "Listed on IMSLP; no first-publication year verified"),
+    ("Op.26", "10 Poems, Op.26 (songs)", None, UNV, r"10 poems|ten poems", "Listed on IMSLP; no first-publication year verified"),
+    ("Sym.1", "Symphony No.1 (no opus)", None, UNV, r"symphony no 1\b", "Listed on IMSLP without opus; no first-publication year verified"),
+    ("Sym.3", "Symphony No.3 (no opus)", None, UNV, r"symphony no 3\b", "Listed on IMSLP without opus; no first-publication year verified"),
+    ("Ov.", "Overture on a Russian Theme", None, UNV, r"overture on a russian theme|russian theme", "Listed on IMSLP; no first-publication year verified"),
+    ("Pf.Sch", "Scherzo in E flat minor (piano)", None, UNV, r"scherzo", "Listed on IMSLP (piano, from titles); no first-publication year verified"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -619,5 +697,23 @@ COMPOSERS = {
         "catalogue": "Op. (Lyapunov's opus numbers)", "rows": LYAPUNOV,
         "prefix": "lyapunov", "genre": "classical", "era": "Late Romantic (Russian)",
         "scope_note": "Fully PD (died 1924): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (12 Transcendental Etudes Op.11 and the preludes first, then the Piano Sonata, then orchestral). Principal works for video; not the full catalogue (no folksong sets Op.10/13, songs or organ works). Op.11 and Op.57 have no first-publication year found and are unverified (not imported).",
+    },
+    "arensky": {
+        "name": "Anton Arensky", "canon": "anton arensky", "death": 1906, "birth": 1861,
+        "catalogue": "Op. (Arensky's opus numbers)", "rows": ARENSKY,
+        "prefix": "arensky", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "Fully PD (died 1906): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (24 Characteristic Pieces Op.36, Essais Op.28 and the two-piano suites first, then Piano Trio No.1 and the Tchaikovsky Variations Op.35a, then the other piano sets, chamber, orchestral and concerto works). Years from IMSLP first-publication fields; 'uncertain' where IMSLP gives only a plate year or composition year. Op.4 Symphony No.1, Op.65 Children's Suite and Op.66 four-hand pieces are not on the checklist.",
+    },
+    "kalinnikov": {
+        "name": "Vasily Kalinnikov", "canon": "vasily kalinnikov", "death": 1901, "birth": 1866,
+        "catalogue": "Kalinnikov (no opus numbers; short labels)", "rows": KALINNIKOV,
+        "prefix": "kalinnikov", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "Fully PD (died 1901): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Chanson triste, Nocturne and Elegie for piano first, then Symphonies 1-2). Principal works for video; not the full catalogue (no songs, choruses, Bylina-type scores or the Viktor Kalinnikov works). Works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "taneyev": {
+        "name": "Sergei Taneyev", "canon": "sergei taneyev", "death": 1915, "birth": 1856,
+        "catalogue": "Op. (Taneyev's opus numbers)", "rows": TANEYEV,
+        "prefix": "taneyev", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "Fully PD (died 1915): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Prelude and Fugue Op.29 for piano first, then Piano Quintet Op.30, Piano Trio Op.22 and Piano Quartet Op.20, the string quartets, then Symphony No.4 and the Concert Suite Op.28). Principal works for video; not the full catalogue (no songs, the unopused piano pieces beyond the Scherzo, or the treatises). Works with no confirmed first-publication year are unverified and not imported.",
     },
 }
