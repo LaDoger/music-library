@@ -167,7 +167,8 @@
   "score_url": "files/scores/bach_bwv565_toccata.mid",
   "score_files": [
    "files/scores/bach_bwv565_toccata.ly",
-   "files/scores/bach_bwv565_toccata.mid"
+   "files/scores/bach_bwv565_toccata.mid",
+   "files/scores/bach_bwv565_toccata_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -204,7 +205,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "toccata and fugue in d minor johann sebastian bach bwv 565 bwv 565 bwv565 toccata bach bwv565 toccata dramatic dark epic classical baroque norbert schenk (organ) bach, johann sebastian"
+  "search_text": "toccata and fugue in d minor johann sebastian bach bwv 565 bwv 565 bwv565 toccata bach bwv565 toccata dramatic dark epic classical baroque norbert schenk (organ) bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv846_prelude",
@@ -471,7 +473,8 @@
   "score_url": "files/scores/beethoven_op67_symphony5.mid",
   "score_files": [
    "files/scores/beethoven_op67_symphony5.mid",
-   "files/scores/beethoven_op67_symphony5_lilypond.zip"
+   "files/scores/beethoven_op67_symphony5_lilypond.zip",
+   "files/scores/beethoven_op67_symphony5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -495,7 +498,8 @@
   "duration_s": 500.09,
   "midi_play_url": "files/scores/beethoven_op67_symphony5.mid",
   "other_editions": [],
-  "search_text": "symphony no. 5 in c minor ludwig van beethoven op. 67 op 67 op. 67 op67 i. allegro con brio beethoven op67 symphony5 dramatic epic determined classical classical / early romantic skidmore college orchestra beethoven, ludwig van"
+  "search_text": "symphony no. 5 in c minor ludwig van beethoven op. 67 op 67 op. 67 op67 i. allegro con brio beethoven op67 symphony5 dramatic epic determined classical classical / early romantic skidmore college orchestra beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op84_egmont",
@@ -2598,7 +2602,8 @@
   "score_url": "files/scores/mozart_k525_nachtmusik.mid",
   "score_files": [
    "files/scores/mozart_k525_nachtmusik.mid",
-   "files/scores/mozart_k525_nachtmusik_lilypond.zip"
+   "files/scores/mozart_k525_nachtmusik_lilypond.zip",
+   "files/scores/mozart_k525_nachtmusik_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -2620,7 +2625,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k525_nachtmusik.mid",
   "other_editions": [],
-  "search_text": "eine kleine nachtmusik wolfgang amadeus mozart k. 525 k 525 k. 525 k525 i. allegro mozart k525 nachtmusik elegant playful confident classical classical  mozart, wolfgang amadeus"
+  "search_text": "eine kleine nachtmusik wolfgang amadeus mozart k. 525 k 525 k. 525 k525 i. allegro mozart k525 nachtmusik elegant playful confident classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k550_symphony40",
@@ -5496,7 +5502,8 @@
   "score_files": [
    "files/scores/bach_bwv542_fantasia_fugue.ly",
    "files/scores/bach_bwv542_fantasia_fugue.mid",
-   "files/scores/bach_bwv542_fantasia_fugue_all_movements_midi.zip"
+   "files/scores/bach_bwv542_fantasia_fugue_all_movements_midi.zip",
+   "files/scores/bach_bwv542_fantasia_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -5518,7 +5525,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv542_fantasia_fugue.mid",
   "other_editions": [],
-  "search_text": "fantasia and fugue in g minor ('great') johann sebastian bach bwv 542 bwv 542 bwv542 fugue (render_midi); fantasia in the score files bach bwv542 fantasia fugue dramatic driving epic classical baroque  bach, johann sebastian"
+  "search_text": "fantasia and fugue in g minor ('great') johann sebastian bach bwv 542 bwv 542 bwv542 fugue (render_midi); fantasia in the score files bach bwv542 fantasia fugue dramatic driving epic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv549_prelude_c_minor",
@@ -5624,7 +5632,8 @@
   "score_url": "files/scores/bach_bwv582_passacaglia.mid",
   "score_files": [
    "files/scores/bach_bwv582_passacaglia.ly",
-   "files/scores/bach_bwv582_passacaglia.mid"
+   "files/scores/bach_bwv582_passacaglia.mid",
+   "files/scores/bach_bwv582_passacaglia_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -5646,7 +5655,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv582_passacaglia.mid",
   "other_editions": [],
-  "search_text": "passacaglia and fugue in c minor johann sebastian bach bwv 582 bwv 582 bwv582 passacaglia and fugue (complete) bach bwv582 passacaglia dark epic majestic classical baroque  bach, johann sebastian"
+  "search_text": "passacaglia and fugue in c minor johann sebastian bach bwv 582 bwv 582 bwv582 passacaglia and fugue (complete) bach bwv582 passacaglia dark epic majestic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv599_nun_komm",
@@ -6857,7 +6867,8 @@
   "score_url": "files/scores/bach_bwv650_kommst_du_nun.mid",
   "score_files": [
    "files/scores/bach_bwv650_kommst_du_nun.ly",
-   "files/scores/bach_bwv650_kommst_du_nun.mid"
+   "files/scores/bach_bwv650_kommst_du_nun.mid",
+   "files/scores/bach_bwv650_kommst_du_nun_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -6879,7 +6890,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv650_kommst_du_nun.mid",
   "other_editions": [],
-  "search_text": "schübler chorale: kommst du nun, jesu, vom himmel herunter johann sebastian bach bwv 650 bwv 650 bwv650  bach bwv650 kommst du nun bright playful energetic classical baroque  bach, johann sebastian"
+  "search_text": "schübler chorale: kommst du nun, jesu, vom himmel herunter johann sebastian bach bwv 650 bwv 650 bwv650  bach bwv650 kommst du nun bright playful energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv651_fantasia_komm_heiliger_geist",
@@ -6920,7 +6932,8 @@
   "score_url": "files/scores/bach_bwv651_fantasia_komm_heiliger_geist.mid",
   "score_files": [
    "files/scores/bach_bwv651_fantasia_komm_heiliger_geist.ly",
-   "files/scores/bach_bwv651_fantasia_komm_heiliger_geist.mid"
+   "files/scores/bach_bwv651_fantasia_komm_heiliger_geist.mid",
+   "files/scores/bach_bwv651_fantasia_komm_heiliger_geist_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "majestic",
@@ -6942,7 +6955,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv651_fantasia_komm_heiliger_geist.mid",
   "other_editions": [],
-  "search_text": "leipzig chorale: fantasia super komm, heiliger geist johann sebastian bach bwv 651 bwv 651 bwv651  bach bwv651 fantasia komm heiliger geist majestic driving epic classical baroque  bach, johann sebastian"
+  "search_text": "leipzig chorale: fantasia super komm, heiliger geist johann sebastian bach bwv 651 bwv 651 bwv651  bach bwv651 fantasia komm heiliger geist majestic driving epic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv653_an_wasserflussen",
@@ -6983,7 +6997,8 @@
   "score_url": "files/scores/bach_bwv653_an_wasserflussen.mid",
   "score_files": [
    "files/scores/bach_bwv653_an_wasserflussen.ly",
-   "files/scores/bach_bwv653_an_wasserflussen.mid"
+   "files/scores/bach_bwv653_an_wasserflussen.mid",
+   "files/scores/bach_bwv653_an_wasserflussen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -7005,7 +7020,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv653_an_wasserflussen.mid",
   "other_editions": [],
-  "search_text": "leipzig chorale: an wasserflüssen babylon johann sebastian bach bwv 653 bwv 653 bwv653  bach bwv653 an wasserflussen calm nostalgic tender classical baroque  bach, johann sebastian"
+  "search_text": "leipzig chorale: an wasserflüssen babylon johann sebastian bach bwv 653 bwv 653 bwv653  bach bwv653 an wasserflussen calm nostalgic tender classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv654_schmucke_dich",
@@ -7111,7 +7127,8 @@
   "score_url": "files/scores/bach_bwv657_nun_danket.mid",
   "score_files": [
    "files/scores/bach_bwv657_nun_danket.ly",
-   "files/scores/bach_bwv657_nun_danket.mid"
+   "files/scores/bach_bwv657_nun_danket.mid",
+   "files/scores/bach_bwv657_nun_danket_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "warm",
@@ -7133,7 +7150,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv657_nun_danket.mid",
   "other_editions": [],
-  "search_text": "leipzig chorale: nun danket alle gott johann sebastian bach bwv 657 bwv 657 bwv657  bach bwv657 nun danket warm noble calm classical baroque  bach, johann sebastian"
+  "search_text": "leipzig chorale: nun danket alle gott johann sebastian bach bwv 657 bwv 657 bwv657  bach bwv657 nun danket warm noble calm classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv687_aus_tiefer_not",
@@ -7434,7 +7452,8 @@
   "score_url": "files/scores/bach_bwv735_valet_will_ich.mid",
   "score_files": [
    "files/scores/bach_bwv735_valet_will_ich.ly",
-   "files/scores/bach_bwv735_valet_will_ich.mid"
+   "files/scores/bach_bwv735_valet_will_ich.mid",
+   "files/scores/bach_bwv735_valet_will_ich_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "confident",
@@ -7456,7 +7475,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv735_valet_will_ich.mid",
   "other_editions": [],
-  "search_text": "chorale fantasia: valet will ich dir geben johann sebastian bach bwv 735 bwv 735 bwv735  bach bwv735 valet will ich confident flowing bright classical baroque  bach, johann sebastian"
+  "search_text": "chorale fantasia: valet will ich dir geben johann sebastian bach bwv 735 bwv 735 bwv735  bach bwv735 valet will ich confident flowing bright classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv751_in_dulci_jubilo",
@@ -13832,7 +13852,8 @@
   "score_url": "files/scores/bach_bwv1042_1_allegro.mid",
   "score_files": [
    "files/scores/bach_bwv1042_1_allegro.mid",
-   "files/scores/bach_bwv1042_1_allegro_lilypond.zip"
+   "files/scores/bach_bwv1042_1_allegro_lilypond.zip",
+   "files/scores/bach_bwv1042_1_allegro_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -13854,7 +13875,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1042_1_allegro.mid",
   "other_editions": [],
-  "search_text": "violin concerto in e major: i. allegro johann sebastian bach bwv 1042 bwv 1042 bwv1042 i. allegro bach bwv1042 1 allegro bright confident energetic classical baroque  bach, johann sebastian"
+  "search_text": "violin concerto in e major: i. allegro johann sebastian bach bwv 1042 bwv 1042 bwv1042 i. allegro bach bwv1042 1 allegro bright confident energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1042_2_adagio",
@@ -13960,7 +13982,8 @@
   "score_url": "files/scores/bach_bwv1042_3_allegro_assai.mid",
   "score_files": [
    "files/scores/bach_bwv1042_3_allegro_assai.mid",
-   "files/scores/bach_bwv1042_3_allegro_assai_lilypond.zip"
+   "files/scores/bach_bwv1042_3_allegro_assai_lilypond.zip",
+   "files/scores/bach_bwv1042_3_allegro_assai_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -13982,7 +14005,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1042_3_allegro_assai.mid",
   "other_editions": [],
-  "search_text": "violin concerto in e major: iii. allegro assai johann sebastian bach bwv 1042 bwv 1042 bwv1042 iii. allegro assai bach bwv1042 3 allegro assai bright dance energetic classical baroque  bach, johann sebastian"
+  "search_text": "violin concerto in e major: iii. allegro assai johann sebastian bach bwv 1042 bwv 1042 bwv1042 iii. allegro assai bach bwv1042 3 allegro assai bright dance energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1043_1_vivace",
@@ -14023,7 +14047,8 @@
   "score_url": "files/scores/bach_bwv1043_1_vivace.mid",
   "score_files": [
    "files/scores/bach_bwv1043_1_vivace.mid",
-   "files/scores/bach_bwv1043_1_vivace_lilypond.zip"
+   "files/scores/bach_bwv1043_1_vivace_lilypond.zip",
+   "files/scores/bach_bwv1043_1_vivace_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -14045,7 +14070,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1043_1_vivace.mid",
   "other_editions": [],
-  "search_text": "concerto for two violins in d minor: i. vivace johann sebastian bach bwv 1043 bwv 1043 bwv1043 i. vivace bach bwv1043 1 vivace driving dramatic determined classical baroque  bach, johann sebastian"
+  "search_text": "concerto for two violins in d minor: i. vivace johann sebastian bach bwv 1043 bwv 1043 bwv1043 i. vivace bach bwv1043 1 vivace driving dramatic determined classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1043_2_largo",
@@ -14151,7 +14177,8 @@
   "score_url": "files/scores/bach_bwv1043_3_allegro.mid",
   "score_files": [
    "files/scores/bach_bwv1043_3_allegro.mid",
-   "files/scores/bach_bwv1043_3_allegro_lilypond.zip"
+   "files/scores/bach_bwv1043_3_allegro_lilypond.zip",
+   "files/scores/bach_bwv1043_3_allegro_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -14173,7 +14200,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1043_3_allegro.mid",
   "other_editions": [],
-  "search_text": "concerto for two violins in d minor: iii. allegro johann sebastian bach bwv 1043 bwv 1043 bwv1043 iii. allegro bach bwv1043 3 allegro urgent driving intense classical baroque  bach, johann sebastian"
+  "search_text": "concerto for two violins in d minor: iii. allegro johann sebastian bach bwv 1043 bwv 1043 bwv1043 iii. allegro bach bwv1043 3 allegro urgent driving intense classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1046_brandenburg1_1_allegro",
@@ -14214,7 +14242,8 @@
   "score_url": "files/scores/bach_bwv1046_brandenburg1_1_allegro.mid",
   "score_files": [
    "files/scores/bach_bwv1046_brandenburg1_1_allegro.mid",
-   "files/scores/bach_bwv1046_brandenburg1_1_allegro_lilypond.zip"
+   "files/scores/bach_bwv1046_brandenburg1_1_allegro_lilypond.zip",
+   "files/scores/bach_bwv1046_brandenburg1_1_allegro_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "festive",
@@ -14236,7 +14265,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1046_brandenburg1_1_allegro.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 1 in f major: i. (allegro) johann sebastian bach bwv 1046 bwv 1046 bwv1046 i. (allegro) bach bwv1046 brandenburg1 1 allegro festive bright energetic classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 1 in f major: i. (allegro) johann sebastian bach bwv 1046 bwv 1046 bwv1046 i. (allegro) bach bwv1046 brandenburg1 1 allegro festive bright energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1046_brandenburg1_2_adagio",
@@ -14342,7 +14372,8 @@
   "score_url": "files/scores/bach_bwv1047_brandenburg2_1_allegro.mid",
   "score_files": [
    "files/scores/bach_bwv1047_brandenburg2_1_allegro.mid",
-   "files/scores/bach_bwv1047_brandenburg2_1_allegro_lilypond.zip"
+   "files/scores/bach_bwv1047_brandenburg2_1_allegro_lilypond.zip",
+   "files/scores/bach_bwv1047_brandenburg2_1_allegro_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "triumphant",
@@ -14364,7 +14395,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1047_brandenburg2_1_allegro.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 2 in f major: i. (allegro) johann sebastian bach bwv 1047 bwv 1047 bwv1047 i. (allegro) bach bwv1047 brandenburg2 1 allegro triumphant bright energetic classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 2 in f major: i. (allegro) johann sebastian bach bwv 1047 bwv 1047 bwv1047 i. (allegro) bach bwv1047 brandenburg2 1 allegro triumphant bright energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1047_brandenburg2_2_andante",
@@ -14470,7 +14502,8 @@
   "score_url": "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai.mid",
   "score_files": [
    "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai.mid",
-   "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai_lilypond.zip"
+   "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai_lilypond.zip",
+   "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "triumphant",
@@ -14492,7 +14525,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1047_brandenburg2_3_allegro_assai.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 2 in f major: iii. allegro assai johann sebastian bach bwv 1047 bwv 1047 bwv1047 iii. allegro assai bach bwv1047 brandenburg2 3 allegro assai triumphant driving bright classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 2 in f major: iii. allegro assai johann sebastian bach bwv 1047 bwv 1047 bwv1047 iii. allegro assai bach bwv1047 brandenburg2 3 allegro assai triumphant driving bright classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1050_brandenburg5_allegro",
@@ -14533,7 +14567,8 @@
   "score_url": "files/scores/bach_bwv1050_brandenburg5_allegro.mid",
   "score_files": [
    "files/scores/bach_bwv1050_brandenburg5_allegro.mid",
-   "files/scores/bach_bwv1050_brandenburg5_allegro_lilypond.zip"
+   "files/scores/bach_bwv1050_brandenburg5_allegro_lilypond.zip",
+   "files/scores/bach_bwv1050_brandenburg5_allegro_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -14555,7 +14590,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1050_brandenburg5_allegro.mid",
   "other_editions": [],
-  "search_text": "brandenburg concerto no. 5 in d major: iii. allegro johann sebastian bach bwv 1050 bwv 1050 bwv1050 iii. allegro bach bwv1050 brandenburg5 allegro bright dance energetic classical baroque  bach, johann sebastian"
+  "search_text": "brandenburg concerto no. 5 in d major: iii. allegro johann sebastian bach bwv 1050 bwv 1050 bwv1050 iii. allegro bach bwv1050 brandenburg5 allegro bright dance energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1056r_largo",
@@ -172528,7 +172564,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d891_who_is_sylvia.mid",
   "score_files": [
-   "files/scores/schubert_d891_who_is_sylvia.mid"
+   "files/scores/schubert_d891_who_is_sylvia.mid",
+   "files/scores/schubert_d891_who_is_sylvia_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -172549,7 +172586,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d891_who_is_sylvia.mid",
   "other_editions": [],
-  "search_text": "an sylvia (who is sylvia) franz schubert d. 891 d 891 d. 891 d891 (who is sylvia) schubert d891 who is sylvia classical lyrical classical romantic  schubert, franz"
+  "search_text": "an sylvia (who is sylvia) franz schubert d. 891 d 891 d. 891 d891 (who is sylvia) schubert d891 who is sylvia classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d969_vals_no_9_d_969",
@@ -172737,7 +172775,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d120_trost_in_thranen.mid",
   "score_files": [
-   "files/scores/schubert_d120_trost_in_thranen.mid"
+   "files/scores/schubert_d120_trost_in_thranen.mid",
+   "files/scores/schubert_d120_trost_in_thranen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -172758,7 +172797,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d120_trost_in_thranen.mid",
   "other_editions": [],
-  "search_text": "trost in thränen franz schubert d.120 d 120 d.120 d120  schubert d120 trost in thranen classical lyrical classical romantic  schubert, franz"
+  "search_text": "trost in thränen franz schubert d.120 d 120 d.120 d120  schubert d120 trost in thranen classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d162_nahe_des_geliebten",
@@ -172803,7 +172843,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d162_nahe_des_geliebten.mid",
   "score_files": [
-   "files/scores/schubert_d162_nahe_des_geliebten.mid"
+   "files/scores/schubert_d162_nahe_des_geliebten.mid",
+   "files/scores/schubert_d162_nahe_des_geliebten_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -172824,7 +172865,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d162_nahe_des_geliebten.mid",
   "other_editions": [],
-  "search_text": "nähe des geliebten franz schubert d.162 d 162 d.162 d162  schubert d162 nahe des geliebten classical lyrical classical romantic  schubert, franz"
+  "search_text": "nähe des geliebten franz schubert d.162 d 162 d.162 d162  schubert d162 nahe des geliebten classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d163_sangers_morgenlied",
@@ -172869,7 +172911,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d163_sangers_morgenlied.mid",
   "score_files": [
-   "files/scores/schubert_d163_sangers_morgenlied.mid"
+   "files/scores/schubert_d163_sangers_morgenlied.mid",
+   "files/scores/schubert_d163_sangers_morgenlied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -172890,7 +172933,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d163_sangers_morgenlied.mid",
   "other_editions": [],
-  "search_text": "sängers morgenlied franz schubert d.163 d 163 d.163 d163  schubert d163 sangers morgenlied classical lyrical classical romantic  schubert, franz"
+  "search_text": "sängers morgenlied franz schubert d.163 d 163 d.163 d163  schubert d163 sangers morgenlied classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d179_liebesrausch_d_179",
@@ -173147,7 +173191,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d210_die_liebe.mid",
   "score_files": [
-   "files/scores/schubert_d210_die_liebe.mid"
+   "files/scores/schubert_d210_die_liebe.mid",
+   "files/scores/schubert_d210_die_liebe_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -173168,7 +173213,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d210_die_liebe.mid",
   "other_editions": [],
-  "search_text": "die liebe franz schubert d.210 d 210 d.210 d210  schubert d210 die liebe classical lyrical classical romantic  schubert, franz"
+  "search_text": "die liebe franz schubert d.210 d 210 d.210 d210  schubert d210 die liebe classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d259_an_den_mond",
@@ -173213,7 +173259,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d259_an_den_mond.mid",
   "score_files": [
-   "files/scores/schubert_d259_an_den_mond.mid"
+   "files/scores/schubert_d259_an_den_mond.mid",
+   "files/scores/schubert_d259_an_den_mond_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -173234,7 +173281,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d259_an_den_mond.mid",
   "other_editions": [],
-  "search_text": "an den mond franz schubert d.259 d 259 d.259 d259  schubert d259 an den mond classical lyrical classical romantic  schubert, franz"
+  "search_text": "an den mond franz schubert d.259 d 259 d.259 d259  schubert d259 an den mond classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d280_das_rosenband_d_280",
@@ -173348,7 +173396,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d296_an_den_mond.mid",
   "score_files": [
-   "files/scores/schubert_d296_an_den_mond.mid"
+   "files/scores/schubert_d296_an_den_mond.mid",
+   "files/scores/schubert_d296_an_den_mond_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -173369,7 +173418,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d296_an_den_mond.mid",
   "other_editions": [],
-  "search_text": "an den mond franz schubert d.296 d 296 d.296 d296  schubert d296 an den mond classical lyrical classical romantic  schubert, franz"
+  "search_text": "an den mond franz schubert d.296 d 296 d.296 d296  schubert d296 an den mond classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d328_der_erlkonig_d_328",
@@ -176634,7 +176684,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_d882_im_fruhling.mid",
   "score_files": [
-   "files/scores/schubert_d882_im_fruhling.mid"
+   "files/scores/schubert_d882_im_fruhling.mid",
+   "files/scores/schubert_d882_im_fruhling_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -176655,7 +176706,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_d882_im_fruhling.mid",
   "other_editions": [],
-  "search_text": "im frühling franz schubert d.882 d 882 d.882 d882  schubert d882 im fruhling classical lyrical classical romantic  schubert, franz"
+  "search_text": "im frühling franz schubert d.882 d 882 d.882 d882  schubert d882 im fruhling classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_d887_string_quartet_in_g_major_d",
@@ -180318,7 +180370,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op17_liebe.mid",
   "score_files": [
-   "files/scores/schubert_op17_liebe.mid"
+   "files/scores/schubert_op17_liebe.mid",
+   "files/scores/schubert_op17_liebe_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180339,7 +180392,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op17_liebe.mid",
   "other_editions": [],
-  "search_text": "liebe franz schubert op. 17 op 17 op. 17 op17  schubert op17 liebe classical lyrical classical romantic  schubert, franz"
+  "search_text": "liebe franz schubert op. 17 op 17 op. 17 op17  schubert op17 liebe classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op17no3_zum_rundetanz_op_17_no_3_fra",
@@ -180458,7 +180512,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op172_die_vogel.mid",
   "score_files": [
-   "files/scores/schubert_op172_die_vogel.mid"
+   "files/scores/schubert_op172_die_vogel.mid",
+   "files/scores/schubert_op172_die_vogel_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180479,7 +180534,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op172_die_vogel.mid",
   "other_editions": [],
-  "search_text": "die vögel franz schubert op. 172 op 172 op. 172 op172  schubert op172 die vogel classical lyrical classical romantic  schubert, franz"
+  "search_text": "die vögel franz schubert op. 172 op 172 op. 172 op172  schubert op172 die vogel classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op18no4_franz_schubert_ecossaise",
@@ -180598,7 +180654,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op23_selige_welt.mid",
   "score_files": [
-   "files/scores/schubert_op23_selige_welt.mid"
+   "files/scores/schubert_op23_selige_welt.mid",
+   "files/scores/schubert_op23_selige_welt_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180619,7 +180676,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op23_selige_welt.mid",
   "other_editions": [],
-  "search_text": "selige welt franz schubert op. 23 op 23 op. 23 op23  schubert op23 selige welt classical lyrical classical romantic  schubert, franz"
+  "search_text": "selige welt franz schubert op. 23 op 23 op. 23 op23  schubert op23 selige welt classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op31_suleika_2",
@@ -180730,7 +180788,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op4_der_wanderer.mid",
   "score_files": [
-   "files/scores/schubert_op4_der_wanderer.mid"
+   "files/scores/schubert_op4_der_wanderer.mid",
+   "files/scores/schubert_op4_der_wanderer_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180751,7 +180810,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op4_der_wanderer.mid",
   "other_editions": [],
-  "search_text": "der wanderer franz schubert op. 4 op 4 op. 4 op4  schubert op4 der wanderer classical lyrical classical romantic  schubert, franz"
+  "search_text": "der wanderer franz schubert op. 4 op 4 op. 4 op4  schubert op4 der wanderer classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op4_zweite_fassung",
@@ -180796,7 +180856,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op4_zweite_fassung.mid",
   "score_files": [
-   "files/scores/schubert_op4_zweite_fassung.mid"
+   "files/scores/schubert_op4_zweite_fassung.mid",
+   "files/scores/schubert_op4_zweite_fassung_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180817,7 +180878,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op4_zweite_fassung.mid",
   "other_editions": [],
-  "search_text": "frühlingsglaube franz schubert op. 4 op 4 op. 4 op4 zweite fassung schubert op4 zweite fassung classical lyrical classical romantic  schubert, franz"
+  "search_text": "frühlingsglaube franz schubert op. 4 op 4 op. 4 op4 zweite fassung schubert op4 zweite fassung classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op43_nacht_und_traume",
@@ -180862,7 +180924,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op43_nacht_und_traume.mid",
   "score_files": [
-   "files/scores/schubert_op43_nacht_und_traume.mid"
+   "files/scores/schubert_op43_nacht_und_traume.mid",
+   "files/scores/schubert_op43_nacht_und_traume_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -180898,7 +180961,8 @@
     "licence": "PD"
    }
   ],
-  "search_text": "nacht und träume franz schubert op. 43 op 43 op. 43 op43  schubert op43 nacht und traume nocturnal gentle classical romantic  schubert, franz"
+  "search_text": "nacht und träume franz schubert op. 43 op 43 op. 43 op43  schubert op43 nacht und traume nocturnal gentle classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op50no13_vals_no_13",
@@ -181151,7 +181215,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op7_der_tod_und_das_madchen.mid",
   "score_files": [
-   "files/scores/schubert_op7_der_tod_und_das_madchen.mid"
+   "files/scores/schubert_op7_der_tod_und_das_madchen.mid",
+   "files/scores/schubert_op7_der_tod_und_das_madchen_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "slow",
@@ -181172,7 +181237,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op7_der_tod_und_das_madchen.mid",
   "other_editions": [],
-  "search_text": "der tod und das mädchen franz schubert op. 7 op 7 op. 7 op7  schubert op7 der tod und das madchen slow somber classical romantic  schubert, franz"
+  "search_text": "der tod und das mädchen franz schubert op. 7 op 7 op. 7 op7  schubert op7 der tod und das madchen slow somber classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op72_auf_dem_wasser_zu_singen",
@@ -181298,7 +181364,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op88_an_die_musik.mid",
   "score_files": [
-   "files/scores/schubert_op88_an_die_musik.mid"
+   "files/scores/schubert_op88_an_die_musik.mid",
+   "files/scores/schubert_op88_an_die_musik_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -181319,7 +181386,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op88_an_die_musik.mid",
   "other_editions": [],
-  "search_text": "an die musik franz schubert op. 88 op 88 op. 88 op88  schubert op88 an die musik classical lyrical classical romantic  schubert, franz"
+  "search_text": "an die musik franz schubert op. 88 op 88 op. 88 op88  schubert op88 an die musik classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op89_einsamkeit",
@@ -324867,7 +324935,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv653_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv653_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv653_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv653_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -324888,7 +324957,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv653_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "an wasserflüssen babylon johann sebastian bach bwv 653 bwv 653 bwv653 a 2 clav. e pedale bach bwv653 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "an wasserflüssen babylon johann sebastian bach bwv 653 bwv 653 bwv653 a 2 clav. e pedale bach bwv653 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv654_a_2_clav_e_pedale",
@@ -325912,7 +325982,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv720_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv720_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv720_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv720_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -325933,7 +326004,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv720_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "ein' feste burg ist unser gott johann sebastian bach bwv 720 bwv 720 bwv720 a 2 clav. e pedale bach bwv720 a 2 clav e pedale march ceremonial classical baroque  bach, johann sebastian"
+  "search_text": "ein' feste burg ist unser gott johann sebastian bach bwv 720 bwv 720 bwv720 a 2 clav. e pedale bach bwv720 a 2 clav e pedale march ceremonial classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv723_gelobet_seist_du_jesu_christ",
@@ -326188,7 +326260,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv734_a_2_clav_e_pedale.mid",
   "score_files": [
-   "files/scores/bach_bwv734_a_2_clav_e_pedale.mid"
+   "files/scores/bach_bwv734_a_2_clav_e_pedale.mid",
+   "files/scores/bach_bwv734_a_2_clav_e_pedale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -326209,7 +326282,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv734_a_2_clav_e_pedale.mid",
   "other_editions": [],
-  "search_text": "nun freut euch, lieben christen g'mein johann sebastian bach bwv 734 bwv 734 bwv734 a 2 clav. e pedale bach bwv734 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "nun freut euch, lieben christen g'mein johann sebastian bach bwv 734 bwv 734 bwv734 a 2 clav. e pedale bach bwv734 a 2 clav e pedale classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv736_j_s_bach_valet_will_ich_dir",
@@ -657839,7 +657913,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_notte_e_giorno_don_giovanni.mid",
   "score_files": [
-   "files/scores/mozart_notte_e_giorno_don_giovanni.mid"
+   "files/scores/mozart_notte_e_giorno_don_giovanni.mid",
+   "files/scores/mozart_notte_e_giorno_don_giovanni_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -657860,7 +657935,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_notte_e_giorno_don_giovanni.mid",
   "other_editions": [],
-  "search_text": "notte e giorno (don giovanni) wolfgang amadeus mozart    mozart notte e giorno don giovanni classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "notte e giorno (don giovanni) wolfgang amadeus mozart    mozart notte e giorno don giovanni classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_queen_of_the_night_aria_satb",
@@ -666832,7 +666908,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_kanhc910_abendruhe.mid",
   "score_files": [
-   "files/scores/mozart_kanhc910_abendruhe.mid"
+   "files/scores/mozart_kanhc910_abendruhe.mid",
+   "files/scores/mozart_kanhc910_abendruhe_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -666853,7 +666930,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_kanhc910_abendruhe.mid",
   "other_editions": [],
-  "search_text": "abendruhe wolfgang amadeus mozart kv anh c 9.10 kv anh c 9 10 kv anh c 9.10 kvanhc910  mozart kanhc910 abendruhe classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "abendruhe wolfgang amadeus mozart kv anh c 9.10 kv anh c 9 10 kv anh c 9.10 kvanhc910  mozart kanhc910 abendruhe classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_op10_string_quartet_no_14_in_g_ma",
@@ -667465,7 +667543,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k522_movement_i.mid",
   "score_files": [
-   "files/scores/mozart_k522_movement_i.mid"
+   "files/scores/mozart_k522_movement_i.mid",
+   "files/scores/mozart_k522_movement_i_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "playful"
@@ -667485,7 +667564,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k522_movement_i.mid",
   "other_editions": [],
-  "search_text": "ein musikalischer spass (a musical joke) mv 1 wolfgang amadeus mozart k522 k 522 k522 movement i mozart k522 movement i playful classical classical  mozart, wolfgang amadeus"
+  "search_text": "ein musikalischer spass (a musical joke) mv 1 wolfgang amadeus mozart k522 k 522 k522 movement i mozart k522 movement i playful classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k574_gigue_in_g_major",

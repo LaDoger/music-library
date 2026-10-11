@@ -37,7 +37,8 @@
  "score_url": "files/scores/beethoven_op67_symphony5.mid",
  "score_files": [
   "files/scores/beethoven_op67_symphony5.mid",
-  "files/scores/beethoven_op67_symphony5_lilypond.zip"
+  "files/scores/beethoven_op67_symphony5_lilypond.zip",
+  "files/scores/beethoven_op67_symphony5_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "dramatic",
@@ -61,6 +62,7 @@
  "duration_s": 500.09,
  "midi_play_url": "files/scores/beethoven_op67_symphony5.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_op67_symphony5",
@@ -69,7 +71,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5.mid",
-  "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5_lilypond.zip"
+  "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5_lilypond.zip",
+  "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_op67_symphony5.mid",
  "render_midi": {
