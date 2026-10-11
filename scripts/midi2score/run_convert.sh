@@ -14,7 +14,7 @@ def push():
     batch.clear()
 for k in open('scripts/midi2score/queue.txt').read().split():
     out=f'files/scores/{k}_reconstructed.mxl'
-    if os.path.exists(out) or k not in it: continue
+    if os.path.exists(out) or os.path.exists(f'files/scores/{k}_fromly.mxl') or k not in it: continue
     t=time.time()
     try:
         r=subprocess.run(['timeout','180','python3','-c',f'import sys,json;sys.path.insert(0,"scripts/midi2score");from midi2xml import convert;print(json.dumps(convert({it[k]["midi_play_url"]!r},{out!r},{it[k]["title"]!r},{it[k]["composer"]!r})))'],capture_output=True,text=True)

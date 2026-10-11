@@ -2,7 +2,7 @@
 # MusicBot: swap in LilyPond-converted scores for items the MIDI job has already processed. Loops until the MIDI job ends, then one final pass.
 cd /workspace/music/wt_analysis
 while :; do
-  alive=0; kill -0 3934968 2>/dev/null && alive=1
+  alive=0; pgrep -f run_convert.sh >/dev/null && alive=1
   python3 - <<'PY'
 import json,os,sys,subprocess
 sys.path.insert(0,'scripts/midi2score'); from ly2mxl import convert
