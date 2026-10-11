@@ -1,0 +1,33 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+P.106,"Fontane di Roma, P.106 (symphonic poem)",1918,in-scope,,0,,,IMSLP: First Publication 1918; composed 1916; premiered 1918-03-11 Rome
+P.141,"Pini di Roma, P.141 (symphonic poem)",1925,in-scope,,0,,,IMSLP: First Publication 1925; composed 1924
+P.157,"Feste romane, P.157 (symphonic poem)",1929,in-scope,,0,,,IMSLP: First Publication 1929; composed 1928 (within the 1930 gate)
+P.150,"Vetrate di chiesa, P.150 (Church Windows)",1927,in-scope,,0,,,IMSLP: First Publication 1927; composed 1925-26
+P.151,"Trittico botticelliano, P.151",1928,in-scope,,0,,,"IMSLP: First Publication 1928 (Ricordi, Milan); composed 1927"
+P.154,"Gli uccelli (The Birds), P.154 (suite for small orchestra)",1928,in-scope,,0,,,"IMSLP: First Publication 1928 (Ricordi, Milan); composed 1928 (February)"
+P.109,"Antiche danze ed arie per liuto, Suite No.1, P.109",1920,in-scope,,0,,,"IMSLP: First Publication 1920 (Ricordi, Milan); composed 1917"
+P.138,"Antiche danze ed arie per liuto, Suite No.2, P.138",1924,in-scope,,0,,,IMSLP: First Publication 1924; composed 1923
+P.124,"Ballata delle gnomidi, P.124 (symphonic poem)",1920,in-scope,,0,,,IMSLP: First Publication 1920; composed 1919-20
+P.102,"Sinfonia drammatica, P.102",1922,in-scope,,0,,,"IMSLP: First Publication 1922 (Universal Edition, Vienna); composed 1914-15"
+P.156,"Toccata, P.156 (piano and orchestra)",1929,in-scope,,0,,,IMSLP: First Publication 1929; composed 1928
+P.145,"Concerto in modo misolidio, P.145 (piano and orchestra)",1926,in-scope,,0,,,"IMSLP: First Publication 1926 (Bote & Bock, Berlin); composed 1924"
+P.135,"Concerto gregoriano, P.135 (violin and orchestra)",1922,in-scope,,0,,,IMSLP: First Publication 1922; composed 1920; premiered 1922-02-05 Rome
+P.146,"Poema autunnale, P.146 (violin and orchestra)",1926,in-scope,,0,,,IMSLP: First Publication 1926; composed 1925; premiered 1926-12-01 Berlin
+P.137,"Belfagor, P.137 (opera)",1924,in-scope,,0,,,IMSLP: First Publication 1924; composed 1923; libretto Claudio Guastalla
+P.152,"La campana sommersa, P.152 (opera)",1927,in-scope,,0,,,IMSLP: First Publication 1927; libretto Claudio Guastalla after Hauptmann
+P.110,"Violin Sonata in B minor, P.110",1919,in-scope,,0,,,IMSLP: First Publication 1919; composed 1916-17
+P.144,"Quartetto dorico, P.144 (string quartet)",1925,in-scope,,0,,,IMSLP: First Publication 1925 (dedicated to the Léner Quartet); composed 1924
+P.131,"Tre preludi sopra melodie gregoriane, P.131 (piano)",1922,in-scope,,0,,,IMSLP: First Publication 1922 (dedicated to Alfredo Casella); composed 1919
+P.44,"Sei pezzi, P.44 (piano; 6 Pieces for Piano)",1904,in-scope,,0,,,IMSLP: First Publication 1904-05; composed 1903-05
+P.107,"Deità silvane, P.107 (song cycle, voice and piano)",1917,in-scope,,0,,,"IMSLP: First Publication 1917 (Ricordi, Milan); composed 1917. The orchestral version P.147 (1925) is not checked separately"
+P.101,"Il tramonto, P.101 (mezzo-soprano and string quartet)",1918,in-scope,,0,,,IMSLP: First Publication 1918; composed 1914
+P.172,"Antiche danze ed arie per liuto, Suite No.3, P.172",1932,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1932; composed 1931 (post-1930, excluded)"
+P.177,"Belkis, regina di Saba, P.177 (orchestral suite from the ballet P.171)",1935,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1935 (suite); ballet P.171 composed 1930-31 (post-1930, excluded)"
+P.133,"Adagio con variazioni, P.133 (cello and orchestra)",1932,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1932; composed 1902, revised 1920-21 (post-1930, excluded)"
+P.169,"Metamorphoseon modi XII, P.169 (orchestra)",1931,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1931; composed 1930; dedicated to the Boston Symphony (post-1930, excluded)"
+P.153,"Impressioni brasiliane (Suite brasiliana), P.153",1931,excluded-post1930,n/a,0,,,"IMSLP: First Publication '1931?' (uncertain); composed 1928 (post-1930, excluded)"
+P.174,"Concerto a cinque, P.174",1934,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1934; composed 1933 (post-1930, excluded)"
+P.40,"Piano Concerto in A minor, P.40",1941,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1941; composed 1902 (post-1930, excluded)"
+P.140,"Belfagor Overture, P.140",,unverified-pub,n/a,0,,,IMSLP: composed 1925; no First Publication field on the work page; not confirmed
+P.148,"Rossiniana, P.148 (suite after Rossini)",,unverified-pub,n/a,0,,,"IMSLP: composed 1925; no First Publication field; not confirmed. Arrangement of Rossini (Les riens), so it would be skipped as an arrangement anyway"
+P.166,"Lauda per la Natività del Signore, P.166",,unverified-pub,n/a,0,,,IMSLP: composed 1930; no First Publication field; not confirmed

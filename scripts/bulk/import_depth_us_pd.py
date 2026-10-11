@@ -64,6 +64,7 @@ NAME_RX = {
     "grechaninov": r"\bgrechan|\bgretchan|\bgretschan",  # PDMX spellings (Gretchaninoff, Gretschaninow)
     "szymanowski": r"\bszymanowsk|\bszimanowsk|\bszymanovsk|\bshymanovsk",  # PDMX spellings (Szymanowsky, Szimanowski)
     "roussel": r"\brouss[ea]l|\brousel",  # PDMX spellings (Rousel, Roussell)
+    "respighi": r"\brespighi|\brepighi",  # PDMX spellings (Repighi)
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",

@@ -928,6 +928,46 @@ ROUSSEL = [
     ("Op.53", "Symphony No.4, Op.53", 1935, POST, r"symphony no 4\b|symphonie no 4\b|op 53\b", "IMSLP: First Publication 1935 (Durand, Paris); composed 1934 (post-1930, excluded)"),
 ]
 
+# Respighi (d.1936, 18 Apr 1936): US-PD-only (LaDoger priority list 2026-10-11). Death year is inside the default
+# 1930-1955 band, so no ceiling change in schema.py. In scope only when the first publication is 1930 or earlier (IMSLP
+# "First Publication" field, checked 2026-10-11; Wikipedia list of works for catalogue numbers). Orchestral works first,
+# then the stage and chamber/piano works. Works first published 1931 or later are excluded (Metamorphoseon 1931,
+# Belkis 1935, Adagio con variazioni 1932, Suite No.3 1932, Concerto a cinque 1934, Piano Concerto 1941).
+RESPIGHI = [
+    ("P.106", "Fontane di Roma, P.106 (symphonic poem)", 1918, IN, r"fontane di roma|fountains of rome|p 106\b", "IMSLP: First Publication 1918; composed 1916; premiered 1918-03-11 Rome"),
+    ("P.141", "Pini di Roma, P.141 (symphonic poem)", 1925, IN, r"pini di roma|pines of rome|p 141\b", "IMSLP: First Publication 1925; composed 1924"),
+    ("P.157", "Feste romane, P.157 (symphonic poem)", 1929, IN, r"feste romane|roman festivals|p 157\b", "IMSLP: First Publication 1929; composed 1928 (within the 1930 gate)"),
+    ("P.150", "Vetrate di chiesa, P.150 (Church Windows)", 1927, IN, r"vetrate di chiesa|church windows|p 150\b", "IMSLP: First Publication 1927; composed 1925-26"),
+    ("P.151", "Trittico botticelliano, P.151", 1928, IN, r"trittico botticelliano|botticelli triptych|p 151\b", "IMSLP: First Publication 1928 (Ricordi, Milan); composed 1927"),
+    ("P.154", "Gli uccelli (The Birds), P.154 (suite for small orchestra)", 1928, IN, r"gli uccelli|the birds|p 154\b", "IMSLP: First Publication 1928 (Ricordi, Milan); composed 1928 (February)"),
+    ("P.109", "Antiche danze ed arie per liuto, Suite No.1, P.109", 1920, IN, r"antiche danze.*(prima suite|suite no ?1\b|suite 1\b)|ancient (airs|dances).*(suite no ?1\b|suite 1\b|first suite)|p 109\b", "IMSLP: First Publication 1920 (Ricordi, Milan); composed 1917"),
+    ("P.138", "Antiche danze ed arie per liuto, Suite No.2, P.138", 1924, IN, r"antiche danze.*(seconda suite|suite no ?2\b|suite 2\b)|ancient (airs|dances).*(suite no ?2\b|suite 2\b|second suite)|p 138\b", "IMSLP: First Publication 1924; composed 1923"),
+    ("P.124", "Ballata delle gnomidi, P.124 (symphonic poem)", 1920, IN, r"ballata delle gnomidi|gnomidi|p 124\b", "IMSLP: First Publication 1920; composed 1919-20"),
+    ("P.102", "Sinfonia drammatica, P.102", 1922, IN, r"sinfonia drammatica|dramatic symphony|p 102\b", "IMSLP: First Publication 1922 (Universal Edition, Vienna); composed 1914-15"),
+    ("P.156", "Toccata, P.156 (piano and orchestra)", 1929, IN, r"\btoccata\b(?! e fuga| in d)|p 156\b", "IMSLP: First Publication 1929; composed 1928"),
+    ("P.145", "Concerto in modo misolidio, P.145 (piano and orchestra)", 1926, IN, r"modo misolidio|mixolydian concerto|p 145\b", "IMSLP: First Publication 1926 (Bote & Bock, Berlin); composed 1924"),
+    ("P.135", "Concerto gregoriano, P.135 (violin and orchestra)", 1922, IN, r"concerto gregoriano|gregorian concerto|p 135\b", "IMSLP: First Publication 1922; composed 1920; premiered 1922-02-05 Rome"),
+    ("P.146", "Poema autunnale, P.146 (violin and orchestra)", 1926, IN, r"poema autunnale|autumnal poem|p 146\b", "IMSLP: First Publication 1926; composed 1925; premiered 1926-12-01 Berlin"),
+    ("P.137", "Belfagor, P.137 (opera)", 1924, IN, r"belfagor(?! overture| ouverture)|p 137\b", "IMSLP: First Publication 1924; composed 1923; libretto Claudio Guastalla"),
+    ("P.152", "La campana sommersa, P.152 (opera)", 1927, IN, r"campana sommersa|sunken bell|p 152\b", "IMSLP: First Publication 1927; libretto Claudio Guastalla after Hauptmann"),
+    ("P.110", "Violin Sonata in B minor, P.110", 1919, IN, r"violin sonata|sonata in b minor|p 110\b", "IMSLP: First Publication 1919; composed 1916-17"),
+    ("P.144", "Quartetto dorico, P.144 (string quartet)", 1925, IN, r"quartetto dorico|dorian quartet|p 144\b", "IMSLP: First Publication 1925 (dedicated to the Léner Quartet); composed 1924"),
+    ("P.131", "Tre preludi sopra melodie gregoriane, P.131 (piano)", 1922, IN, r"preludi sopra melodie|gregorian melodies|3 preludes|three preludes|p 131\b", "IMSLP: First Publication 1922 (dedicated to Alfredo Casella); composed 1919"),
+    ("P.44", "Sei pezzi, P.44 (piano; 6 Pieces for Piano)", 1904, IN, r"6 pieces for piano|sei pezzi per pianoforte|p 44\b", "IMSLP: First Publication 1904-05; composed 1903-05"),
+    ("P.107", "Deità silvane, P.107 (song cycle, voice and piano)", 1917, IN, r"deita silvane|deità silvane|silvan deities|p 107\b", "IMSLP: First Publication 1917 (Ricordi, Milan); composed 1917. The orchestral version P.147 (1925) is not checked separately"),
+    ("P.101", "Il tramonto, P.101 (mezzo-soprano and string quartet)", 1918, IN, r"il tramonto|the sunset|p 101\b", "IMSLP: First Publication 1918; composed 1914"),
+    ("P.172", "Antiche danze ed arie per liuto, Suite No.3, P.172", 1932, POST, r"antiche danze.*(terza|suite no ?3\b|suite 3\b)|p 172\b", "IMSLP: First Publication 1932; composed 1931 (post-1930, excluded)"),
+    ("P.177", "Belkis, regina di Saba, P.177 (orchestral suite from the ballet P.171)", 1935, POST, r"belkis|queen of sheba|p 177\b|p 171\b", "IMSLP: First Publication 1935 (suite); ballet P.171 composed 1930-31 (post-1930, excluded)"),
+    ("P.133", "Adagio con variazioni, P.133 (cello and orchestra)", 1932, POST, r"adagio con variazioni|p 133\b", "IMSLP: First Publication 1932; composed 1902, revised 1920-21 (post-1930, excluded)"),
+    ("P.169", "Metamorphoseon modi XII, P.169 (orchestra)", 1931, POST, r"metamorphoseon|p 169\b", "IMSLP: First Publication 1931; composed 1930; dedicated to the Boston Symphony (post-1930, excluded)"),
+    ("P.153", "Impressioni brasiliane (Suite brasiliana), P.153", 1931, POST, r"impressioni brasiliane|suite brasiliana|brazilian impressions|p 153\b", "IMSLP: First Publication '1931?' (uncertain); composed 1928 (post-1930, excluded)"),
+    ("P.174", "Concerto a cinque, P.174", 1934, POST, r"concerto a cinque|p 174\b", "IMSLP: First Publication 1934; composed 1933 (post-1930, excluded)"),
+    ("P.40", "Piano Concerto in A minor, P.40", 1941, POST, r"concerto in a minor|p 40\b", "IMSLP: First Publication 1941; composed 1902 (post-1930, excluded)"),
+    ("P.140", "Belfagor Overture, P.140", None, UNV, r"belfagor overture|belfagor ouverture|overture from belfagor|p 140\b", "IMSLP: composed 1925; no First Publication field on the work page; not confirmed"),
+    ("P.148", "Rossiniana, P.148 (suite after Rossini)", None, UNV, r"rossiniana|p 148\b", "IMSLP: composed 1925; no First Publication field; not confirmed. Arrangement of Rossini (Les riens), so it would be skipped as an arrangement anyway"),
+    ("P.166", "Lauda per la Natività del Signore, P.166", None, UNV, r"lauda per la natività|lauda per la nativita|p 166\b", "IMSLP: composed 1930; no First Publication field; not confirmed"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -1084,5 +1124,11 @@ COMPOSERS = {
         "catalogue": "Op. (Roussel's opus numbers)", "rows": ROUSSEL,
         "prefix": "roussel", "genre": "classical", "era": "Late Romantic / early modern (French)",
         "scope_note": "US-PD-only (died 1937; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano and chamber works first (Rustiques Op.5, Sonatine Op.16, Suite Op.14, Impromptu Op.21, Prelude et fughetta Op.41, Piano Trio Op.2, Violin Sonatas Op.11 and Op.28, Trio Op.40, Serenade Op.30), then the orchestral and stage works (Symphony No.1 Op.7, Symphony No.2 Op.23, Padmavati Op.18, Le festin de l'araignee Op.17, Evocations Op.15, Suite in F Op.33, Concert pour petit orchestre Op.34, Piano Concerto Op.36, Petite suite Op.39). Post-1930 works (Symphony No.3 Op.42 and Bacchus et Ariane Op.43 both 1931, String Quartet Op.45, Prelude et fugue Op.46, 3 Pieces Op.49, Andante et scherzo Op.51, Sinfonietta Op.52, Symphony No.4 Op.53) are excluded. Principal works for video; not the full catalogue (no songs, no operas beyond Padmavati, no late works after 1934).",
+    },
+    "respighi": {
+        "name": "Ottorino Respighi", "canon": "ottorino respighi", "death": 1936, "birth": 1879,
+        "catalogue": "P. (Pedarra catalogue numbers)", "rows": RESPIGHI,
+        "prefix": "respighi", "genre": "classical", "era": "Early 20th century (Italian)",
+        "scope_note": "US-PD-only (died 1936; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Orchestral works first (Fontane di Roma, Pini di Roma, Feste romane, Vetrate di chiesa, Trittico botticelliano, Gli uccelli, Antiche danze Suites No.1 and No.2, Ballata delle gnomidi, Sinfonia drammatica, Toccata, Concerto in modo misolidio, Concerto gregoriano, Poema autunnale), then the operas Belfagor and La campana sommersa, then chamber and piano works (Violin Sonata, Quartetto dorico, Tre preludi, Sei pezzi, Deita silvane, Il tramonto). Post-1930 works (Suite No.3 1932, Belkis 1935, Adagio con variazioni 1932, Metamorphoseon 1931, Impressioni brasiliane 1931?, Concerto a cinque 1934, Piano Concerto 1941) are excluded. Transcriptions and arrangements (La boutique fantasque, Rossini and Bach orchestrations, Ancient Airs piano versions, the Cimarosa and Paisiello revisions) are not on the checklist. Principal works for video; not the full P. catalogue (no songs beyond Deita silvane, no late works after 1934).",
     },
 }

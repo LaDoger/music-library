@@ -621,6 +621,21 @@
      "albert rousel"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Rustiques Op.5, Sonatine Op.16, Suite Op.14, Impromptu Op.21, Prelude et fughetta Op.41, Piano Trio Op.2, Violin Sonatas Op.11 and Op.28, Trio Op.40, Serenade Op.30, Segovia Op.29, Divertissement Op.6, Flammes Op.10, Evocations Op.15, Le festin de l'araignee Op.17, Symphony No.1 Op.7, Symphony No.2 Op.23, Padmavati Op.18, Pour une fete de printemps Op.22, Joueurs de flute Op.27, Suite in F Op.33, Concert pour petit orchestre Op.34, Piano Concerto Op.36, Petite suite Op.39). Post-1930 works (Symphony No.3 Op.42 and Bacchus et Ariane Op.43 published 1931, String Quartet Op.45, Prelude et fugue Op.46, 3 Pieces Op.49, Andante et scherzo Op.51, Sinfonietta Op.52, Symphony No.4 Op.53) excluded. Checklist: scripts/bulk/catalogue_data.py ROUSSEL."
+  },
+  {
+   "canon": "ottorino respighi",
+   "name": "Ottorino Respighi",
+   "birth": 1879,
+   "death": 1936,
+   "prefix": "respighi",
+   "aliases": [
+     "ottorino respighi",
+     "respighi ottorino",
+     "o. respighi",
+     "respighi",
+     "repighi"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Fontane di Roma P.106, Pini di Roma P.141, Feste romane P.157, Vetrate di chiesa P.150, Trittico botticelliano P.151, Gli uccelli P.154, Antiche danze Suites No.1 P.109 and No.2 P.138, Ballata delle gnomidi P.124, Sinfonia drammatica P.102, Toccata P.156, Concerto in modo misolidio P.145, Concerto gregoriano P.135, Poema autunnale P.146, Belfagor P.137, La campana sommersa P.152, Violin Sonata P.110, Quartetto dorico P.144, Tre preludi P.131, Sei pezzi P.44, Deita silvane P.107, Il tramonto P.101). Post-1930 works (Antiche danze Suite No.3 P.172, Belkis P.177, Adagio con variazioni P.133, Metamorphoseon P.169, Impressioni brasiliane P.153, Concerto a cinque P.174, Piano Concerto P.40) excluded. Checklist: scripts/bulk/catalogue_data.py RESPIGHI."
   }
  ]
 }
