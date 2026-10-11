@@ -749,6 +749,79 @@ REBIKOV = [
     ("Op.49", "Arakhne, Op.49 (piano)", None, UNV, r"arakhne|op 49\b", "IMSLP: composed 1915 (no First Publication field); no year verified"),
 ]
 
+# Grechaninov (d.1956, 3 Jan 1956): US-PD-only (LaDoger priority list 2026-10-11). The death year is after the
+# default 1930-1955 band, so the ceiling is raised for him alone in schema.py (US_PD_ONLY_MAX_DEATH). In scope only when
+# the first publication is 1930 or earlier (IMSLP "First Publication" field, checked 2026-10-11). Piano miniatures for
+# children first (Livre d'enfants Op.98, Glass Beads Op.123), then the other piano albums, the chamber works, the
+# orchestral works and the choral pieces. Works with no IMSLP work page or no First Publication field are unverified;
+# works composed in 1931 or later cannot have been published by 1930 and are excluded.
+GRECHANINOV = [
+    ("Op.98", "Livre d'enfants (Children's Book), Op.98 (15 pieces, piano)", 1924, IN, r"livre d enfants|children s book|childrens book|op 98\b", "IMSLP: First Publication 1924; composed 1923 (LaDoger priority)"),
+    ("Op.123", "Glass Beads, Op.123 (piano)", 1930, IN, r"glass beads|perles de verre|op 123\b", "IMSLP: First Publication 1930 (Zimmermann, Leipzig); composed 1929 (LaDoger priority)"),
+    ("Op.99", "On the Green Meadow, Op.99 (piano)", 1926, IN, r"green meadow|op 99\b", "IMSLP: First Publication 1926 (Monatsbericht)"),
+    ("Op.109", "The Day of the Child, Op.109 (piano)", 1927, IN, r"day of the child|op 109\b", "IMSLP: First Publication 1927 (Schott, Mainz)"),
+    ("Op.110", "2 Sonatinas, Op.110 (piano)", 1927, IN, r"sonatinas?|op 110\b", "IMSLP: First Publication 1927"),
+    ("Op.119", "Grandfather's Album, Op.119 (piano)", 1929, IN, r"grandfather|op 119\b", "IMSLP: First Publication 1929 (Schott)"),
+    ("Op.118", "Historiettes, Op.118 (piano)", 1930, IN, r"historiettes|op 118\b", "IMSLP: First Publication 1930 (Leduc, Paris)"),
+    ("Op.3", "5 Pastels (Pastelles), Op.3 (piano)", 1894, IN, r"5 pastels|5 pastelles|op 3\b", "IMSLP: First Publication 1894"),
+    ("Op.61", "Pastelle No.2, Op.61 (piano, 8 pieces)", 1913, IN, r"pastelle no 2|pastels? no 2|op 61\b", "IMSLP: First Publication 1913 (ca.)"),
+    ("Op.53", "4 Mazurkas, Op.53 (piano)", 1911, IN, r"4 mazurkas|op 53\b", "IMSLP: First Publication 1911 (Zimmermann)"),
+    ("Op.115", "Pensees fugitives (Fleeting Thoughts), Op.115 (piano)", 1928, IN, r"pensees fugitives|fleeting thoughts|op 115\b", "IMSLP: First Publication 1928"),
+    ("Op.116", "3 Pieces, Op.116 (piano)", 1928, IN, r"3 pieces op 116\b|op 116\b", "IMSLP: First Publication 1928 (Schott; Monatsbericht 1928)"),
+    ("Op.37", "2 Pieces (Impromptu, Prelude), Op.37 (piano)", 1905, IN, r"impromptu prelude|2 pieces op 37\b|op 37\b", "IMSLP: First Publication 1905 (Gutheil, Moscow)"),
+    ("Op.112", "Bagatelles, Op.112 (piano)", None, UNV, r"bagatelles|op 112\b", "IMSLP: First Publication '1928 ?' (query mark, Zimmermann); not confirmed, not imported"),
+    ("Op.129", "Piano Sonata No.1 in G minor, Op.129", 1931, POST, r"piano sonata no 1\b|op 129\b", "IMSLP: First Publication 1931 (post-1930, excluded)"),
+    ("Op.174", "Piano Sonata No.2 in G major, Op.174", 1947, POST, r"piano sonata no 2\b|op 174\b", "IMSLP: First Publication 1947 (post-1930, excluded)"),
+    ("Op.130", "Russian Folk Dances, Op.130 (piano)", 1931, POST, r"russian folk dances|op 130\b", "IMSLP: First Publication 1931 (Schott, Mainz) (post-1930, excluded)"),
+    ("Op.2", "String Quartet No.1 in G major, Op.2", 1894, IN, r"string quartet no 1\b|quartet no 1\b|op 2\b", "IMSLP: First Publication 1894 (prize-winning)"),
+    ("Op.70", "String Quartet No.2 in D minor, Op.70", 1915, IN, r"string quartet no 2\b|quartet no 2\b|op 70\b", "IMSLP: First Publication 1915"),
+    ("Op.75", "String Quartet No.3 in C minor, Op.75", None, UNV, r"string quartet no 3\b|quartet no 3\b|op 75\b", "IMSLP: no work page found; first publication not verified, not imported"),
+    ("Op.124", "String Quartet No.4 in F major, Op.124", None, UNV, r"string quartet no 4\b|quartet no 4\b|op 124\b", "IMSLP: no work page found; composed 1929 (Wikipedia list); publication not verified, not imported"),
+    ("Op.38", "Piano Trio No.1 in C minor, Op.38", 1907, IN, r"piano trio no 1\b|trio no 1\b|op 38\b", "IMSLP: First Publication 1907"),
+    ("Op.128", "Piano Trio No.2 in G major, Op.128", 1931, POST, r"piano trio no 2\b|trio no 2\b|op 128\b", "composed 1931 (Wikipedia list), so not published by 1930 (post-1930, excluded)"),
+    ("Op.87", "Violin Sonata No.1 in D major, Op.87", 1923, IN, r"violin sonata no 1\b|violin sonata op 87\b|op 87\b", "IMSLP: First Publication 1923"),
+    ("Op.113", "Cello Sonata in E minor, Op.113", None, UNV, r"cello sonata|op 113\b", "IMSLP: no work page found; composed 1927 (Wikipedia list); publication not verified, not imported"),
+    ("Op.137", "Violin Sonata No.2 in C minor, Op.137", 1933, POST, r"violin sonata no 2\b|op 137\b", "composed 1933 (Wikipedia list) (post-1930, excluded)"),
+    ("Op.172", "Clarinet Sonata No.2, Op.172(a)", 1949, POST, r"clarinet sonata no 2\b|op 172\b", "IMSLP: First Publication 1949 (post-1930, excluded)"),
+    ("Op.126", "In aller Fruhe, Op.126 (violin and piano)", 1921, IN, r"in aller fr|op 126\b", "IMSLP: First Publication 1921"),
+    ("Op.9", "Wish, Op.9 (violin and piano)", 1895, IN, r"\bwish\b|op 9\b", "IMSLP: First Publication 1895 (Belaieff, Leipzig)"),
+    ("Op.6", "Symphony No.1 in B minor, Op.6", 1905, IN, r"symphony no 1\b|op 6\b", "IMSLP: First Publication '1905 or earlier' (Monatsbericht 1905); on or before 1905, inside the window"),
+    ("Op.27", "Symphony No.2 in A major, 'Pastoral', Op.27", 1910, IN, r"symphony no 2\b|pastoral|op 27\b", "IMSLP: First Publication 1910"),
+    ("Op.100", "Symphony No.3 in E major, Op.100", None, UNV, r"symphony no 3\b|op 100\b", "IMSLP: no work page found; composed 1923 (Wikipedia list); publication not verified, not imported"),
+    ("Op.102", "Symphony No.4 in C major, Op.102", None, UNV, r"symphony no 4\b|op 102\b", "IMSLP: no work page found; composed 1927 (Wikipedia list); publication not verified, not imported"),
+    ("Op.153", "Symphony No.5 in G minor, Op.153", 1936, POST, r"symphony no 5\b|op 153\b", "composed 1936 (Wikipedia list) (post-1930, excluded)"),
+    ("Op.81", "In modo antico, Op.81 (violin and orchestra)", 1920, IN, r"in modo antico|op 81\b", "IMSLP: First Publication 1920"),
+    ("Op.132", "Violin Concerto, Op.132", 1932, POST, r"violin concerto|op 132\b", "composed 1932 (Wikipedia list) (post-1930, excluded)"),
+    ("Op.8", "Cello Concerto, Op.8", None, UNV, r"cello concerto|op 8\b", "IMSLP: no work page found; composed 1895 (Wikipedia list); publication not verified, not imported"),
+    ("Op.22", "Dobrynya Nikitich (opera), Op.22", None, UNV, r"dobrynya|op 22\b", "IMSLP: composed 1895-1901, no First Publication field; not imported"),
+    ("Op.13", "Liturgy of St John Chrysostom No.1, Op.13 (mixed chorus)", 1898, IN, r"liturgy of st john chrysostom no 1\b|liturgy no 1\b|op 13\b", "IMSLP: First Publication 1898"),
+    ("Op.59", "All-Night Vigil, Op.59", None, UNV, r"all night vigil|op 59\b", "IMSLP: no work page at the obvious URL; not imported"),
+]
+
+# Borodin (d.1887): fully PD everywhere (died 1887), so no publication-year gate; years are kept for the record.
+# Years from IMSLP "First Publication" fields and the Wikipedia work list (checked 2026-10-11). Piano pieces first
+# (LaDoger priority: Petite Suite, Scherzo in A-flat), then the symphonies, In the Steppes, the quartets and the
+# unverified larger works. Rows with no confirmed first-publication year are unverified and not imported.
+BORODIN = [
+    ("Petite Suite", "Petite Suite (piano, 7 pieces)", 1885, IN, r"petite suite|petite suit|au couvent|petite mazurka", "IMSLP: First Publication 1885 (W. Bessel, St Petersburg, plates 1860-66); composed c.1870-85 (LaDoger priority)"),
+    ("Scherzo in A-flat", "Scherzo in A-flat major (piano)", 1885, IN, r"scherzo in a flat|scherzo in a major|scherzo", "IMSLP: First Publication 1885; composed for piano c.1885 (LaDoger priority)"),
+    ("Symphony No.2", "Symphony No.2 in B minor", 1878, IN, r"symphony no 2\b|sym 2\b", "IMSLP: First Publication 1878 (piano four hands), full score 1887; composed 1869-76"),
+    ("Symphony No.1", "Symphony No.1 in E-flat major", 1875, IN, r"symphony no 1\b|sym 1\b", "IMSLP: First Publication 1875 (piano four hands), full score 1882; composed 1862-67"),
+    ("In the Steppes", "In the Steppes of Central Asia", 1882, IN, r"in the steppes|steppes of central asia|steppes", "Wikipedia work list: composed 1880, published 1882; IMSLP First Publication field not read"),
+    ("String Quartet No.1", "String Quartet No.1 in A major", 1884, IN, r"string quartet no 1\b|quartet no 1\b", "IMSLP: First Publication 1884; composed 1874-79"),
+    ("String Quartet No.2", "String Quartet No.2 in D major", 1888, IN, r"string quartet no 2\b|quartet no 2\b|notturno|nocturne", "IMSLP: First Publication 1888 (M.P. Belaieff, Leipzig); composed 1881"),
+    ("Polovtsian Dances", "Polovtsian Dances (Prince Igor, Act II)", None, UNV, r"polovtsian|polovtsi|polovets|danse polovtsienne", "IMSLP work page read (orchestral): no First Publication year confirmed; live rows already cover the dances"),
+    ("Prince Igor", "Prince Igor (opera)", None, UNV, r"prince igor|knyaz igor|igor", "IMSLP: composed 1869-87; Belaieff plate 115 (1888) on the full score; first publication not confirmed"),
+    ("Symphony No.3", "Symphony No.3 in A minor (2 movements, completed by Glazunov)", None, UNV, r"symphony no 3\b|sym 3\b", "IMSLP work page exists; composed 1886-87; no first-publication year confirmed"),
+    ("Piano Quintet", "Piano Quintet in C minor", None, UNV, r"piano quintet|quintet in c minor|quintet", "IMSLP work page exists; composed 1862; the page's First Publication field was not confirmed (the 1938 Moscow edition was read, mapping not re-checked)"),
+    ("Piano Trio", "Piano Trio in D major (3 movements)", None, UNV, r"piano trio|trio in d", "IMSLP work page exists; composed 1860-61; no first-publication year confirmed"),
+    ("Tarantella", "Tarantella in D major (piano four hands)", None, UNV, r"tarantella", "IMSLP work page exists; composed 1862; no first-publication year confirmed"),
+    ("String Sextet", "String Sextet in D minor (2 movements)", None, UNV, r"string sextet|sextet in d minor", "IMSLP work page exists; composed 1860-61; no first-publication year confirmed"),
+    ("String Trio", "String Trio in G major", None, UNV, r"string trio|trio in g major", "IMSLP work page exists; composed 1852-56; no first-publication year confirmed"),
+    ("Serenade", "Serenade in Honour of One Lady by Four Cavaliers (male quartet and piano)", None, UNV, r"serenade in honou?r|four cavaliers|serenade of four", "IMSLP work page exists; composed 1870; no first-publication year confirmed"),
+    ("Flute Concerto", "Concerto in D for flute and piano", None, UNPUB, r"concerto in d.*flute|flute.*concerto", "Lost work (composed 1847, Wikipedia list); excluded"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -875,5 +948,17 @@ COMPOSERS = {
         "catalogue": "Op. (Rebikov's opus numbers; short labels for the rest)", "rows": REBIKOV,
         "prefix": "rebikov", "genre": "classical", "era": "Late Romantic / early modern (Russian)",
         "scope_note": "Fully PD (died 1920): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Les Reves Op.15, Autumn Dreams Op.8 and The Christmas Tree first, then the piano albums Op.2/5/7/9/10/11/14 and Chansons du coeur, Chansons blanches). Melomimiques and albums are sets (movement titles kept). Principal works for video; not the full catalogue (no songs, the vocal works Op.1/4/12/16/18/20, the operas beyond Op.21, the choral works, or the Op.6/17/19/33/36 piano sets with no confirmed year). Works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "borodin": {
+        "name": "Alexander Borodin", "canon": "alexander borodin", "death": 1887, "birth": 1833,
+        "catalogue": "No opus numbers (short labels for the works)", "rows": BORODIN,
+        "prefix": "borodin", "genre": "classical", "era": "Romantic (Russian)",
+        "scope_note": "Fully PD (died 1887): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Petite Suite and Scherzo in A-flat first, then the symphonies, In the Steppes of Central Asia and the quartets). Larger works with no confirmed first-publication year are unverified and not imported. Polovtsian Dances and the quartets are already live from other sources.",
+    },
+    "grechaninov": {
+        "name": "Alexander Grechaninov", "canon": "alexander grechaninov", "death": 1956, "birth": 1864,
+        "catalogue": "Op. (Grechaninov's opus numbers)", "rows": GRECHANINOV,
+        "prefix": "grechaninov", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "US-PD-only (died 1956; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano miniatures for children first (Livre d'enfants Op.98, Glass Beads Op.123, On the Green Meadow Op.99), then the other piano albums, the Violin Sonata No.1 Op.87, the quartets and piano trio, the Symphony No.2 Op.27 and In modo antico Op.81. Principal works for video; not the full catalogue (no songs, the liturgical cycles beyond Op.13, the operas beyond Op.22). Post-1930 works (Piano Sonatas Op.129/174, Russian Folk Dances Op.130, Piano Trio No.2 Op.128, Violin Sonata No.2 Op.137, Clarinet Sonata No.2 Op.172, Symphony No.5 Op.153, Violin Concerto Op.132) are excluded; works with no confirmed first-publication year are unverified and not imported.",
     },
 }

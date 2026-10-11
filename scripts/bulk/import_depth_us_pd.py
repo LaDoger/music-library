@@ -51,6 +51,7 @@ NAME_RX = {
     "bartok": r"bart[oó]k",
     "falla": r"\bfalla\b",
     "granados": r"\benrique granados\b|\bgranados enrique\b",
+    "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
     "lyadov": r"\blyadov\b|\bliadov\b",
     "lyapunov": r"\b(?:lyapunov|liapunov|liapounov|lyapounov|liapunow|lyapunow|liapounow)",  # PDMX: "Liapounow", "LiapounowOp.8"
     "arensky": r"\barensk",  # PDMX also credits "Arenskij" / "Arenski"
@@ -60,6 +61,7 @@ NAME_RX = {
     "glazunov": r"\bglazun|\bglazoun|\bglasun|\bglazunow|\bglasunow",  # PDMX also credits "Glazounov", "Glasunov"
     "medtner": r"\bmedtner|\bmedtnor",  # PDMX spellings
     "rebikov": r"\brebikov|\brebikoff|\brebikow|\brebikof|\brebicov",  # PDMX spellings (Rebikoff, Rebikow)
+    "grechaninov": r"\bgrechan|\bgretchan|\bgretschan",  # PDMX spellings (Gretchaninoff, Gretschaninow)
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
@@ -169,7 +171,9 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.52", "Op.74", "Op.101", "Op.85", "Op.49", "Op.54", "Op.15",  # Glazunov multi-piece opus numbers
         "Op.38", "Op.40", "Op.20", "Op.26", "Op.51",  # Medtner multi-piece opus numbers (Op.25 is split into No.1 / No.2)
         "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
-        "Fleurs", "Children's Rest"}  # Rebikov albums without an opus number
+        "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
+        "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
+        "Op.119", "Op.123"}  # Grechaninov piano albums (multi-piece opus numbers)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

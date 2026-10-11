@@ -572,6 +572,24 @@
     "medtner"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Forgotten Melodies Op.38/39/40, Fairy Tales Op.20/26/51, Sonatas Op.5/22/25, Piano Concertos Op.33 and Op.50, Violin Sonatas Op.21/44, Nocturnes Op.16). Post-1930 publications excluded (Piano Concerto No.3 Op.60, Violin Sonata No.3 Op.57, Sonata-Idyll Op.56, Sonata minacciosa Op.53 No.2, Piano Quintet). Checklist: scripts/bulk/catalogue_data.py MEDTNER."
+  },
+  {
+   "canon": "alexander grechaninov",
+   "name": "Alexander Grechaninov",
+   "birth": 1864,
+   "death": 1956,
+   "prefix": "grechaninov",
+   "aliases": [
+     "alexander grechaninov",
+     "alexander gretchaninov",
+     "alexander gretchaninoff",
+     "alexandr grechaninov",
+     "aleksandr grechaninov",
+     "alexander tikhonovich grechaninov",
+     "grechaninov alexander",
+     "gretchaninoff"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Livre d'enfants Op.98, Glass Beads Op.123, On the Green Meadow Op.99, the piano albums Op.3/37/53/61/109/110/115/116/118/119, Violin Sonata No.1 Op.87, String Quartets No.1 Op.2 and No.2 Op.70, Piano Trio No.1 Op.38, Symphony No.1 Op.6, Symphony No.2 Op.27, In modo antico Op.81, Liturgy No.1 Op.13). Post-1930 works (Piano Sonatas Op.129/174, Piano Trio No.2 Op.128, Violin Sonata No.2 Op.137, Clarinet Sonata No.2 Op.172, Symphony No.5 Op.153, Violin Concerto Op.132) excluded. Checklist: scripts/bulk/catalogue_data.py GRECHANINOV."
   }
  ]
 }
