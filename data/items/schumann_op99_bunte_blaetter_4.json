@@ -5,9 +5,9 @@
  "title": "Bunte Blätter - No. 4",
  "catalog": "Op. 99",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;lilting;sunlit;key: A major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A major. Chord journey: vi - IV7 - vi64 drifts through II#6/4 and an I - iii6 alternation, V+7 pivot back to vi, closes vi - IV7 - vi64 - vi. Texture: singing melody over block chords with a steady inner-voice pulse.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "lilting",
+  "sunlit",
+  "key: A major"
  ],
  "has_editable_score": true,
  "has_recording": false,

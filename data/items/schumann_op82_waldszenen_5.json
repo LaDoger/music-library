@@ -5,9 +5,9 @@
  "title": "Waldszenen - No. 5 Freundliche Landschaft",
  "catalog": "Op. 82",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;open;cheerful;pastoral;key: B-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B-flat major. Chord journey: IV+ - ii6 - ii7 - V7 - v - i64 - viio4 - IV - ii7 - v - bVII - IV - v, IV7 - #iv - i minor-tinged close, ending on I. Texture: bright dotted rhythms over a steady bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "open",
+  "cheerful",
+  "pastoral",
+  "key: B-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

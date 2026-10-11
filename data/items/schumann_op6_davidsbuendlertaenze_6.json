@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 6",
  "catalog": "Op. 6",
  "movement": "No. 6",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;fiery;stern;contrapuntal;key: d minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: d minor. Chord journey: i - i4 - bVII54 - III6 - i - vii o4/3 - bVII54 - iv4 - bVI - iv7/2 - #iii - #iv4/2 - #iv o6/4 - v - V#3 - i5 - III - i. Texture: stern march-like chordal writing with dotted rhythms.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "fiery",
+  "stern",
+  "contrapuntal",
+  "key: d minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

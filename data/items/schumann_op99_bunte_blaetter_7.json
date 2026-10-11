@@ -5,9 +5,9 @@
  "title": "Bunte Blätter - No. 7",
  "catalog": "Op. 99",
  "movement": "No. 7",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;anxious;suspended;unresolved;key: E-flat minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat minor. Chord journey: v - repeated vii o6/4#3 vamp in shifting inversions, ii6/5 - iv6 - bVI7 - i6/4 - III - #iii o6/4#2, returns to the repeated vii o6/4 vamp ending on vii o6/4#2. Texture: repeated diminished-seventh chord pulse.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "anxious",
+  "suspended",
+  "unresolved",
+  "key: E-flat minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 5",
  "catalog": "Op. 6",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bustling;bright;dance-like;key: D major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: ii2 - vii7 - v4 - v5 sequence, vi6 - v4 - v5 repeat, iii6 - vb3 - ii - ii7 - V - IV6 - I6 - vii43 closing figure. Texture: two-voice imitative dance with a bright melodic line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bustling",
+  "bright",
+  "dance-like",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

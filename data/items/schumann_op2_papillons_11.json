@@ -5,9 +5,9 @@
  "title": "Papillons - No. 11",
  "catalog": "Op. 2",
  "movement": "No. 11",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;playful;restless;brilliant;key: a minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: a minor. Chord journey: i - i7 - IV5/3 - i4 - I6 colour shift to major - IV6 - #iii - i4 - I6 - IV6 sequence - #iv o4 - iii4-3 - I6 - I7 - i6/5 - V7/3 close. Texture: rapid staccato figuration with a leaping melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "playful",
+  "restless",
+  "brilliant",
+  "key: a minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

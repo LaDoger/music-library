@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 18",
  "catalog": "Op. 9",
  "movement": "No. 18",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;playful;quick;key: A-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A-flat major. Chord journey: vii o2 - iii - #ii6 - I6/4 - i - VII6 - vi7 - vi5 - vii o2 - iii - II6 - I6/4 close. Texture: quick rhythmic answers with crisp chordal attacks.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "playful",
+  "quick",
+  "key: A-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

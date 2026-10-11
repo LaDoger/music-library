@@ -5,9 +5,9 @@
  "title": "Waldszenen - No. 3 Einsame Blumen",
  "catalog": "Op. 82",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;solitary;melancholy;pensive;key: B-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B-flat major. Chord journey: I - IV7 - ii - II6 - i54 - iv4 - viio4 - iii6 - I32 - IV32 - ii - V, closes viio7 - I with a #ii42 - I tag. Texture: sparse single melodic line over light chordal support.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "solitary",
+  "melancholy",
+  "pensive",
+  "key: B-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

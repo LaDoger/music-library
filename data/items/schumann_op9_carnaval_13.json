@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 13",
  "catalog": "Op. 9",
  "movement": "No. 13",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;brooding;agitated;dark-hued;key: f minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: f minor. Chord journey: i - #iv o4 - vii - iv4 - i, chromatic passing via iv+#5 and II6, v+#5 - #v - vi - #iv6 - v7 - v43 close through bII6 - v - i. Texture: dotted rhythms with octave doublings in the bass and dense chordal attacks.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "brooding",
+  "agitated",
+  "dark-hued",
+  "key: f minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

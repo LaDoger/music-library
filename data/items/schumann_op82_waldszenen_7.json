@@ -5,9 +5,9 @@
  "title": "Waldszenen - No. 7 Vogel als Prophet",
  "catalog": "Op. 82",
  "movement": "No. 7",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;eerie;fluttering;uncanny;key: g minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: g minor. Chord journey: #ivo4 - i+ - #iv2 - #iio4 (diminished) - bVII - v6 - III6 - vii7 - iv - viio7 - III+ - vii#4, returns to i via #ivo4 pedal. Texture: high-register trills and staccato bird-call figuration over diminished harmony.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "eerie",
+  "fluttering",
+  "uncanny",
+  "key: g minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

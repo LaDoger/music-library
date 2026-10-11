@@ -5,9 +5,9 @@
  "title": "Waldszenen - No. 4 Verrufene Stelle",
  "catalog": "Op. 82",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;eerie;restless;shadowed;key: d minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: d minor. Chord journey: ii o - v7 - iv - ii o - i - VI7 - i - v - iv - i, Neapolitan lunge (bII) - bVII - vi - iii - iv7 - closes I - iv76 - I - i. Texture: chromatic low-register lines with a sparse upper voice.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "eerie",
+  "restless",
+  "shadowed",
+  "key: d minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Waldszenen - No. 6 Herberge",
  "catalog": "Op. 82",
  "movement": "No. 6",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;rustic;warm;restful;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: iii - iii6 - IV7 - v4 - iii - II65 - vi6 - vii6 - I6 - vi - VI65 - #iv7 - V - vii - V7 - I - I64 cadence. Texture: homophonic inn-hall chords over a drone-like bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51559",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "rustic",
+  "warm",
+  "restful",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,
