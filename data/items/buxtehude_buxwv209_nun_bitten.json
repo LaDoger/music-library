@@ -37,7 +37,8 @@
  "score_url": "files/scores/buxtehude_buxwv209_nun_bitten.mid",
  "score_files": [
   "files/scores/buxtehude_buxwv209_nun_bitten.ly",
-  "files/scores/buxtehude_buxwv209_nun_bitten.mid"
+  "files/scores/buxtehude_buxwv209_nun_bitten.mid",
+  "files/scores/buxtehude_buxwv209_nun_bitten_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "gentle",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/buxtehude_buxwv209_nun_bitten.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv209_nun_bitten",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten.ly",
-  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten.mid"
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten.mid",
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv209_nun_bitten.mid",
  "render_midi": {
