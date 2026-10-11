@@ -66,6 +66,7 @@ NAME_RX = {
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
+    "busoni": r"\bbusoni\b",  # PDMX/OpenScore: "Ferruccio Busoni", "F. Busoni"
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
@@ -175,7 +176,8 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
-        "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34"}  # Szymanowski piano sets (multi-piece opus numbers)
+        "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34",
+        "BV 249", "BV 267"}  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)  # Szymanowski piano sets (multi-piece opus numbers)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

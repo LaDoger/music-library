@@ -858,6 +858,37 @@ SZYMANOWSKI = [
     ("Op.18", "Penthesilea, Op.18 (symphonic poem)", 1977, POST, r"penthesilea|op 18\b", "IMSLP: First Publication 1977 (PWM); composed 1908 (not published by 1930, excluded)"),
 ]
 
+BUSONI = [
+    # Fully PD (died 1924): no publication-year gate. Years from IMSLP work pages (checked 2026-10-11: "First Publication" / publisher line); BV numbers as on IMSLP and Wikipedia.
+    ("BV 256", "Fantasia contrappuntistica BV 256", 1912, IN, r"fantasia contrappuntistica|contrappuntistica|bv 256\b", "IMSLP: First Publication 1912 ('1912 and later'), Breitkopf & Hartel; composed 1910 (uncertain first printing)"),
+    ("BV 287", "Toccata BV 287", 1922, IN, r"toccata|bv 287\b", "IMSLP: first publication 1922, Breitkopf & Hartel No. 5187, plate 28667 (dedicated to Isidor Philipp)"),
+    ("BV 257", "Sonatina No.1 BV 257", 1910, IN, r"sonatina (no ?1|prima)\b|bv 257\b", "IMSLP: first publication 1910, Zimmermann, plate Z. 4951 (dedicated to Rudolph Ganz)"),
+    ("BV 259", "Sonatina seconda BV 259", 1912, IN, r"sonatina (no ?2|seconda)\b|bv 259\b", "IMSLP: first publication 1912, Breitkopf & Hartel, plate E.B. 3828"),
+    ("BV 268", "Sonatina ad usum infantis BV 268", 1916, IN, r"ad usum infantis|sonatina (no ?3)\b|bv 268\b", "IMSLP: first publication 1916, Breitkopf & Hartel No. 4836 (composed 1915)"),
+    ("BV 274", "Sonatina in diem nativitatis Christi MCMXVII BV 274", 1918, IN, r"in diem nativitatis|sonatina (no ?4)\b|bv 274\b", "IMSLP: first publication 1918, Breitkopf & Hartel No. 5071, plate 27744"),
+    ("BV 280", "Sonatina brevis in signo Joannis Sebastiani Magni BV 280", 1919, IN, r"sonatina brevis|in signo joannis|sonatina (no ?5)\b|bv 280\b", "IMSLP: first publication 1919, Breitkopf & Hartel No. 5093, plate 28396"),
+    ("BV 284", "Kammer-Fantasie uber Bizet's Carmen (Sonatina No.6) BV 284", 1920, IN, r"kammer fantasie|fantasie uber .*carmen|carmen|sonatina (no ?6)\b|bv 284\b", "IMSLP: first publication 1920, Breitkopf & Hartel No. 5186, plate 28666 (IMSLP 'First Publication' field says 1921)"),
+    ("BV 267", "Indianisches Tagebuch I BV 267 (4 piano studies)", 1916, IN, r"indianisches tagebuch|indian diary|bv 267\b", "IMSLP: first publication 1916, Breitkopf & Hartel, plate 27881; composed 1915"),
+    ("BV 249", "Elegien (6 piano pieces) BV 249", 1909, IN, r"elegien|bv 249\b", "IMSLP: first publication 1908-09 (n.d.), Breitkopf & Hartel No. 5214, plates 26042-46; composed 1907"),
+    ("BV 253", "Fantasia nach J.S. Bach BV 253", 1909, IN, r"fantasia nach|fantasia after bach|bach fantasia|bv 253\b", "IMSLP: first publication 1909, Breitkopf & Hartel, plate V.A. 3054"),
+    ("BV 251", "Nuit de Noel BV 251", 1909, IN, r"nuit de noel|bv 251\b", "IMSLP: first publication 1909, Durand, Paris, plate D. & F. 7298; composed 1908"),
+    ("BV 297", "Prelude et etude en arpeges BV 297", 1923, IN, r"prelude et etude en arpeges|etude en arpeges|arpeges|bv 297\b", "IMSLP: first publication 1923, Heugel, Paris, plate H. 28.336"),
+    ("BV 247", "Piano Concerto in C major, Op.39 BV 247", 1906, IN, r"piano concerto|concerto in c|op 39\b|bv 247\b", "IMSLP: first publication 1906 (full score and parts), Breitkopf & Hartel, plate Part.B. 1949; composed 1903-04"),
+    ("BV 243", "Violin Concerto in D major, Op.35a BV 243", 1899, IN, r"violin concerto|op 35a?\b|bv 243\b", "IMSLP: first publication 1899, Breitkopf & Hartel, plate Part.B. 1407; composed 1896"),
+    ("BV 248", "Turandot Suite, Op.41 BV 248", 1906, IN, r"turandot suite|turandot.*suite|op 41\b|bv 248\b", "IMSLP: first publication 1906, Breitkopf & Hartel, plate Part.B. 1976; composed 1904"),
+    ("BV 252a", "Berceuse elegiaque, Op.42 BV 252a (orchestra)", 1910, IN, r"berceuse elegiaque|elegiaque|op 42\b|bv 252", "IMSLP: first publication 1910, Breitkopf & Hartel, plate Part.B. 2147; composed 1909"),
+    ("BV 245", "Eine Lustspielouverture (Comedy Overture), Op.38 BV 245", 1904, IN, r"lustspiel|comedy overture|op 38\b|bv 245\b", "IMSLP: first publication 1904, Breitkopf & Hartel, plate Part.B. 1691; composed 1897"),
+    ("BV 266", "Rondo arlecchinesco, Op.46 BV 266", 1917, IN, r"rondo arlecchinesco|arlecchinesco|op 46\b|bv 266\b", "IMSLP: first publication 1917, Breitkopf & Hartel, plate Part.B. 2449; composed 1915"),
+    ("BV 270", "Arlecchino, Op.50 BV 270 (opera)", 1917, IN, r"arlecchino\b(?! ?esco)|op 50\b|bv 270\b", "IMSLP: first publication 1917 (IMSLP field; Breitkopf & Hartel score dated 1918); composed 1914"),
+    ("BV 303", "Doktor Faust BV 303 (opera)", 1926, IN, r"doktor faust|doctor faust|bv 303\b", "IMSLP: first publication 1926, Breitkopf & Hartel No. 5289, plate 29212; composed 1916 (Busoni's last opera, completed by Jarnach, not finished)"),
+    ("BV 208", "String Quartet No.1, Op.19 BV 208", 1886, IN, r"string quartet no ?1\b|quartet no 1\b|op 19\b|bv 208\b", "IMSLP: Kistner, Leipzig, n.d.[1886], plates 6638-9 (uncertain year); composed 1880 (live rows already exist)"),
+    ("BV 225", "String Quartet No.2, Op.26 BV 225", 1889, IN, r"string quartet no ?2\b|quartet no 2\b|op 26\b|bv 225\b", "IMSLP: first publication 1889, Breitkopf & Hartel, plate 18014; composed 1887 (live rows already exist)"),
+    ("BV 244", "Violin Sonata No.2, Op.36a BV 244", 1901, IN, r"violin sonata no ?2|violin.*sonata.*no ?2|op 36a\b|bv 244\b", "IMSLP: first publication 1901, Breitkopf & Hartel No. 5189, plate 22515; composed 1898"),
+    ("BV 181", "24 Preludes, Op.37 BV 181", None, UNV, r"24 preludes|twenty four preludes|op 37\b|bv 181\b", "IMSLP: composed 1879-81 (dedication 1881); the only scan is Ricordi n.d.(1927); first publication not confirmed"),
+    ("BV 215", "Kleine Suite, Op.23 BV 215", None, UNV, r"kleine suite|op 23\b|bv 215\b", "IMSLP: composed 1885; Breitkopf & Hartel No. 5169, n.d.; first publication not confirmed"),
+    ("BV 273", "Turandot (opera) BV 273", None, UNV, r"turandot opera|bv 273\b", "IMSLP: Breitkopf & Hartel 1918 scan; composed 1916; no First Publication field; not confirmed"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -1002,5 +1033,11 @@ COMPOSERS = {
         "catalogue": "Op. (Szymanowski's opus numbers)", "rows": SZYMANOWSKI,
         "prefix": "szymanowski", "genre": "classical", "era": "Late Romantic / early modern (Polish)",
         "scope_note": "US-PD-only (died 1937; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano works first (Preludes Op.1, Etudes Op.4 and Op.33, Sonatas Op.8/21/36, Metopes Op.29, Masques Op.34, Mythes Op.30, Nocturne and Tarantella Op.28), then the Violin Sonata Op.9, the Violin Concerto No.1 Op.35, the String Quartet No.1 Op.37, Symphony No.3 Op.27, King Roger Op.46 and Stabat Mater Op.53. Post-1930 works (Symphony No.2 Op.19 published 1954, Symphony No.4 Op.60, Harnasie Op.55, Concert Overture Op.12, Penthesilea Op.18) are excluded. Principal works for video; not the full catalogue (no songs, the Mazurkas Op.50 with a 1926-31 publication span, the Violin Concerto No.2 or the Caprices).",
+    },
+    "busoni": {
+        "name": "Ferruccio Busoni", "canon": "ferruccio busoni", "death": 1924, "birth": 1866,
+        "catalogue": "BV (Busoni-Verzeichnis, Kindermann/Roberge numbers) and Op.", "rows": BUSONI,
+        "prefix": "busoni", "genre": "classical", "era": "Late Romantic / early 20th century",
+        "scope_note": "Fully PD (died 1924): no US-PD-only gate; publication years kept for the record. Piano works first (Toccata, Fantasia contrappuntistica, the Sonatinas, Elegien, Nuit de Noel, Carmen Sonatina), then orchestral (Piano and Violin Concertos, Turandot Suite, Berceuse elegiaque, Comedy Overture, Rondo arlecchinesco), then the operas Arlecchino and Doktor Faust and the two string quartets and the Violin Sonata No.2. Principal works for video; not the full BV catalogue (no transcriptions, songs or the Indian Diary book II). Opera and orchestral entries with no confirmed first-publication year are unverified and not imported.",
     },
 }
