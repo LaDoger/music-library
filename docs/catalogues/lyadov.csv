@@ -1,0 +1,62 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.2,Biryulki Op.2 (14 pieces),1876,in-scope,,0,,,"IMSLP: composed and first published 1876; 14 pieces, a set"
+Op.3,6 Morceaux Op.3,1876,in-scope,,0,,,IMSLP: composed and first published 1876; 2 books
+Op.4,Arabesques Op.4 (4 pieces),1878,in-scope,,0,,,IMSLP: composed and first published 1878 (Bessel)
+Op.5,Etude Op.5,1881,in-scope,,0,,,IMSLP: first publication 1881 (Bessel)
+Op.6,Impromptu Op.6,,unverified-pub,n/a,0,,,Composed 1881; IMSLP gives no first-publication year
+Op.7,2 Intermezzos Op.7,1882,in-scope,,0,,,IMSLP: first publication 1882 (Bessel)
+Op.8,2 Intermezzos Op.8,1883,in-scope,,0,,,IMSLP: first publication 1883 (Bessel)
+Op.9,2 Morceaux Op.9,1885,in-scope,,0,,,IMSLP: first publication 1885 (Monatsbericht); composed 1884
+Op.10,3 Morceaux Op.10,1885,in-scope,,0,,,IMSLP: first publication 1885; composed 1885
+Op.11,3 Morceaux Op.11 (incl. Prelude in B minor),1886,in-scope,yes,1,lyadov_op11no1_prelude_op_11_no_1_anatoly_l,pdmx,IMSLP: first publication 1886; composed 1886
+Op.12,Etude Op.12,1886,in-scope,,0,,,IMSLP: first publication 1886 (Bessel)
+Op.13,4 Preludes Op.13,1888,in-scope,,0,,,IMSLP: first publication 1888 (Monatsbericht); composed 1887
+Op.15,2 Mazurkas Op.15,1887,in-scope,,0,,,IMSLP: first publication 1887; composed 1887
+Op.17,2 Bagatelles Op.17,1887,in-scope,,0,,,IMSLP: first publication 1887
+Op.20,Novellette Op.20,1889,in-scope,,0,,,IMSLP: first publication 1889
+Op.21,From Bygone Days Op.21,1890,in-scope,,0,,,IMSLP: first publication 1890; composed 1889
+Op.23,Sur la prairie Op.23,1890,in-scope,,0,,,IMSLP: first publication 1890
+Op.24,2 Morceaux Op.24,1890,in-scope,,0,,,IMSLP: first publication 1890
+Op.25,Idylle Op.25,1891,in-scope,,0,,,IMSLP: first publication 1891
+Op.26,Petite valse Op.26,1891,in-scope,,0,,,IMSLP: first publication 1891
+Op.27,3 Preludes Op.27,1891,in-scope,,0,,,IMSLP: first publication 1891 (Monatsbericht)
+Op.29,Marionettes Op.29,1892,in-scope,,0,,,"IMSLP: first publication 1892, Belaieff, plate 48"
+Op.30,Bagatelle Op.30,1892,in-scope,,0,,,IMSLP: first publication 1892; composed 1889
+Op.31,2 Morceaux Op.31,1893,in-scope,,0,,,IMSLP: first publication 1893
+Op.32,Musical Snuffbox (The Music Box) Op.32,1893,in-scope,,0,,,"IMSLP: first publication 1893, Belaieff, Leipzig (Monatsbericht); composed 1893"
+Op.33,3 Morceaux Op.33,1889,in-scope,,0,,,IMSLP: first publication 1889
+Op.34,3 Canons Op.34,1894,in-scope,,0,,,IMSLP: first publication 1894
+Op.35,Variations on a Theme of Glinka Op.35,1895,in-scope,,0,,,IMSLP: first publication 1895; composed 1894
+Op.36,3 Preludes Op.36,1895,in-scope,,0,,,IMSLP: first publication 1895
+Op.37,Etude Op.37,1895,in-scope,,0,,,IMSLP: first publication 1895
+Op.38,Mazurka Op.38,1896,in-scope,,0,,,"IMSLP: first publication 1896, Belaieff, plate 1350"
+Op.39,4 Preludes Op.39,1895,in-scope,,0,,,IMSLP: first publication 1895
+Op.40,Etude et 3 Preludes Op.40,1897,in-scope,yes,1,lyadov_op40no3_anatoliy_lyadov_prelude_op_4,pdmx,IMSLP: first publication 1897 (Belaieff reprint); composed 1897
+Op.41,2 Fugues Op.41,1896,in-scope,,0,,,IMSLP: first publication 1896
+Op.42,2 Preludes and Mazurka on Polish Themes Op.42,1898,in-scope,,0,,,IMSLP: first publication 1898; composed 1898
+Op.44,Barcarolle Op.44,1898,in-scope,,0,,,"IMSLP: first publication 1898 (Belaieff, plate 1874 noted); earliest edition found"
+Op.46,4 Preludes Op.46,1899,in-scope,,0,,,IMSLP: first publication 1899
+Op.48,Etude and Canzonetta Op.48,1899,in-scope,,0,,,IMSLP: first publication 1899
+Op.51,Variations on a Polish Folk Theme Op.51,1901,in-scope,,0,,,IMSLP: first publication 1901
+Op.52,3 Morceaux de ballet Op.52,1901,in-scope,,0,,,IMSLP: first publication 1901
+Op.53,3 Bagatelles Op.53,1903,in-scope,,0,,,IMSLP: first publication 1903 (Monatsbericht)
+Op.57,"3 Morceaux Op.57 (3 Preludes, incl. Prelude in D flat)",1905,in-scope,,0,,,IMSLP: first publication 1905; composed 1900-05
+Op.64,4 Morceaux Op.64,1910,in-scope,,0,,,IMSLP: first publication 1910; composed 1909-10
+Fugue La Do Fa,"Fugue on the Theme 'La, Do, Fa' (no opus)",1916,in-scope,,0,,,IMSLP: first publication 1916; composed 1913; piano
+12 Canons,12 Canons on a Cantus Firmus (no opus),1914,in-scope,,0,,,IMSLP: first publication 1914; piano
+Prelude-Pastorale,Prelude-Pastorale (no opus),,unverified-pub,n/a,0,,,Composed 1894; IMSLP gives no first-publication year
+Sarabande,Sarabande (no opus),,unverified-pub,n/a,0,,,Composed 1895; IMSLP gives only 1947 'at latest'
+The Procession,The Procession (no opus),,unverified-pub,n/a,0,,,"Piano, composed 1889; no first-publication year"
+Dance of the Mosquito,Dance of the Mosquito (no opus),,unverified-pub,n/a,0,,,IMSLP: first publication 1911 but instrumentation unclear (piano?); not checked further
+Op.16,Scherzo for Orchestra Op.16,1887,in-scope,,0,,,IMSLP: first publication 1887; composed 1879
+Op.19,Village Scene by the Inn Op.19,1888,in-scope,,0,,,IMSLP: first publication 1888; composed 1887
+Op.28,Final scene from Die Braut von Messina Op.28,1891,in-scope,,0,,,Published 1891 (Wikipedia); composed 1878; IMSLP page not found
+Op.49,Polonaise Op.49 'In memory of Pushkin' (orchestra),1900,in-scope,,0,,,"IMSLP: first publication 1900, Belaieff, plate 20; composed 1899"
+Op.55,Polonaise for Orchestra Op.55,1903,in-scope,,0,,,IMSLP: first publication 1903; composed 1902
+Op.56,Baba Yaga Op.56 (tone poem),1905,in-scope,,0,,,"IMSLP: first publication 1905, Belaieff; composed 1904"
+Op.58,8 Russian Folksongs Op.58 (orchestra),1906,in-scope,,0,,,"IMSLP: first publication 1906, Belaieff, Leipzig; composed 1905"
+Op.62,The Enchanted Lake (Volshebnoye ozero) Op.62,1909,in-scope,,0,,,"IMSLP: first publication 1909, Belaieff, plate 2847; composed 1908"
+Op.63,Kikimora Op.63 (tone poem),1910,in-scope,,0,,,IMSLP: first publication 1910; composed 1909
+Op.65,Dance of the Amazon Op.65,,unverified-pub,n/a,0,,,IMSLP: composed 1910; no first-publication year
+Op.66,A Fragment from the Apocalypse Op.66,1913,in-scope,,0,,,IMSLP: first publication 1913; composed 1910-12
+Op.67,Nenie Op.67,1914,in-scope,,0,,,"IMSLP: first publication 1914, Belaieff; composed 1910"
