@@ -18494,7 +18494,8 @@
   "score_url": "files/scores/rameau_tambourin.mid",
   "score_files": [
    "files/scores/rameau_tambourin.ly",
-   "files/scores/rameau_tambourin.mid"
+   "files/scores/rameau_tambourin.mid",
+   "files/scores/rameau_tambourin_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "festive",
@@ -18516,7 +18517,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rameau_tambourin.mid",
   "other_editions": [],
-  "search_text": "tambourin jean-philippe rameau pièces de clavecin pièces de clavecin piècesdeclavecin  rameau tambourin festive bright dance classical baroque  rameau, jean-philippe"
+  "search_text": "tambourin jean-philippe rameau pièces de clavecin pièces de clavecin piècesdeclavecin  rameau tambourin festive bright dance classical baroque  rameau, jean-philippe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rameau_rct43_ouverture_1",
@@ -19459,7 +19461,8 @@
   "score_url": "files/scores/couperin_art_prelude_8.mid",
   "score_files": [
    "files/scores/couperin_art_prelude_8-lys.zip",
-   "files/scores/couperin_art_prelude_8.mid"
+   "files/scores/couperin_art_prelude_8.mid",
+   "files/scores/couperin_art_prelude_8_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -19481,7 +19484,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/couperin_art_prelude_8.mid",
   "other_editions": [],
-  "search_text": "prélude françois couperin l'art de toucher le clavecin l'art de toucher le clavecin l'artdetoucherleclavecin prélude 8 couperin art prelude 8 elegant free harpsichord classical baroque  couperin, françois"
+  "search_text": "prélude françois couperin l'art de toucher le clavecin l'art de toucher le clavecin l'artdetoucherleclavecin prélude 8 couperin art prelude 8 elegant free harpsichord classical baroque  couperin, françois",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "couperin_aspiratio",
@@ -19787,7 +19791,8 @@
   "score_files": [
    "files/scores/couperin_salvum_me_fac-lys.zip",
    "files/scores/couperin_salvum_me_fac-mids.zip",
-   "files/scores/couperin_salvum_me_fac.mid"
+   "files/scores/couperin_salvum_me_fac.mid",
+   "files/scores/couperin_salvum_me_fac_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -19809,7 +19814,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/couperin_salvum_me_fac.mid",
   "other_editions": [],
-  "search_text": "salvum me fac deus françois couperin motet (philidor, c.1705) motet (philidor, c 1705) motet (philidor, c.1705) motet(philidor,c1705)  couperin salvum me fac urgent devotional dark classical baroque  couperin, françois"
+  "search_text": "salvum me fac deus françois couperin motet (philidor, c.1705) motet (philidor, c 1705) motet (philidor, c.1705) motet(philidor,c1705)  couperin salvum me fac urgent devotional dark classical baroque  couperin, françois",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "couperin_usquequo",
@@ -20048,7 +20054,8 @@
   "score_url": "files/scores/buxtehude_buxwv208_nun_bitten.mid",
   "score_files": [
    "files/scores/buxtehude_buxwv208_nun_bitten.ly",
-   "files/scores/buxtehude_buxwv208_nun_bitten.mid"
+   "files/scores/buxtehude_buxwv208_nun_bitten.mid",
+   "files/scores/buxtehude_buxwv208_nun_bitten_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -20070,7 +20077,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/buxtehude_buxwv208_nun_bitten.mid",
   "other_editions": [],
-  "search_text": "nun bitten wir den heiligen geist dieterich buxtehude buxwv 208 buxwv 208 buxwv208  buxtehude buxwv208 nun bitten bright chorale flowing classical baroque  buxtehude, dieterich"
+  "search_text": "nun bitten wir den heiligen geist dieterich buxtehude buxwv 208 buxwv 208 buxwv208  buxtehude buxwv208 nun bitten bright chorale flowing classical baroque  buxtehude, dieterich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv209_nun_bitten",
@@ -20112,7 +20120,7 @@
   "score_files": [
    "files/scores/buxtehude_buxwv209_nun_bitten.ly",
    "files/scores/buxtehude_buxwv209_nun_bitten.mid",
-   "files/scores/buxtehude_buxwv209_nun_bitten_reconstructed.mxl"
+   "files/scores/buxtehude_buxwv209_nun_bitten_fromly.mxl"
   ],
   "mood_tags_list": [
    "gentle",
@@ -20135,7 +20143,7 @@
   "midi_play_url": "files/scores/buxtehude_buxwv209_nun_bitten.mid",
   "other_editions": [],
   "search_text": "nun bitten wir den heiligen geist dieterich buxtehude buxwv 209 buxwv 209 buxwv209  buxtehude buxwv209 nun bitten gentle chorale clear classical baroque  buxtehude, dieterich",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "buxtehude_buxwv69_laudate",
@@ -132052,7 +132060,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_22_no_6_very_easy_melodious_exercises_n.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_22_no_6_very_easy_melodious_exercises_n.mid"
+   "files/scores/elgar_imslp_op_22_no_6_very_easy_melodious_exercises_n.mid",
+   "files/scores/elgar_imslp_op_22_no_6_very_easy_melodious_exercises_n_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -132075,7 +132084,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_22_no_6_very_easy_melodious_exercises_n.mid",
   "other_editions": [],
-  "search_text": "very easy melodious exercises: no. 6 allegro edward elgar op. 22 no. 6 op 22 no 6 op. 22 no. 6 op22no6  elgar imslp op 22 no 6 very easy melodious exercises n fast bright classical late romantic / early 20th  elgar, edward"
+  "search_text": "very easy melodious exercises: no. 6 allegro edward elgar op. 22 no. 6 op 22 no 6 op. 22 no. 6 op22no6  elgar imslp op 22 no 6 very easy melodious exercises n fast bright classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_28_organ_sonata_no_1_movement_1_arr_for",
@@ -299712,7 +299722,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_s34_sonatine.mid",
   "score_files": [
-   "files/scores/unknown_s34_sonatine.mid"
+   "files/scores/unknown_s34_sonatine.mid",
+   "files/scores/unknown_s34_sonatine_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -299733,7 +299744,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_s34_sonatine.mid",
   "other_editions": [],
-  "search_text": "sonatine johann andré s 34 s 34 s34  unknown s34 sonatine classical lyrical classical classical  andré, johann"
+  "search_text": "sonatine johann andré s 34 s 34 s34  unknown s34 sonatine classical lyrical classical classical  andré, johann",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_franconia_hymntune",
@@ -300480,7 +300492,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_s100_abschied_farewell.mid",
   "score_files": [
-   "files/scores/unknown_s100_abschied_farewell.mid"
+   "files/scores/unknown_s100_abschied_farewell.mid",
+   "files/scores/unknown_s100_abschied_farewell_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -300501,7 +300514,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_s100_abschied_farewell.mid",
   "other_editions": [],
-  "search_text": "l'adieu johann friedrich franz burgmüller s 100 s 100 s100 abschied  *  farewell unknown s100 abschied farewell classical lyrical classical romantic  burgmüller, johann friedrich franz"
+  "search_text": "l'adieu johann friedrich franz burgmüller s 100 s 100 s100 abschied  *  farewell unknown s100 abschied farewell classical lyrical classical romantic  burgmüller, johann friedrich franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_s100_arabeske",
@@ -300818,7 +300832,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_s100_die_jagd_the_chase.mid",
   "score_files": [
-   "files/scores/unknown_s100_die_jagd_the_chase.mid"
+   "files/scores/unknown_s100_die_jagd_the_chase.mid",
+   "files/scores/unknown_s100_die_jagd_the_chase_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -300839,7 +300854,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_s100_die_jagd_the_chase.mid",
   "other_editions": [],
-  "search_text": "la chasse johann friedrich franz burgmüller s 100 s 100 s100 die jagd  *  the chase unknown s100 die jagd the chase classical lyrical classical romantic  burgmüller, johann friedrich franz"
+  "search_text": "la chasse johann friedrich franz burgmüller s 100 s 100 s100 die jagd  *  the chase unknown s100 die jagd the chase classical lyrical classical romantic  burgmüller, johann friedrich franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_s100_anmut_gracefulness",
@@ -461932,7 +461948,8 @@
   "preview_url": "",
   "score_url": "files/scores/rimskykorsakov_extraite_de_fugues_op_17.mid",
   "score_files": [
-   "files/scores/rimskykorsakov_extraite_de_fugues_op_17.mid"
+   "files/scores/rimskykorsakov_extraite_de_fugues_op_17.mid",
+   "files/scores/rimskykorsakov_extraite_de_fugues_op_17_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "contrapuntal"
@@ -461952,7 +461969,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rimskykorsakov_extraite_de_fugues_op_17.mid",
   "other_editions": [],
-  "search_text": "fugue sur le nom de bach nikolai rimsky-korsakov   extraite de fugues op.17 rimskykorsakov extraite de fugues op 17 contrapuntal classical romantic  rimsky-korsakov, nikolai"
+  "search_text": "fugue sur le nom de bach nikolai rimsky-korsakov   extraite de fugues op.17 rimskykorsakov extraite de fugues op 17 contrapuntal classical romantic  rimsky-korsakov, nikolai",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rimskykorsakov_rimsky_korsakov_harmonic_exe",
@@ -482387,7 +482405,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_the_monotone.mid",
   "score_files": [
-   "files/scores/unknown_the_monotone.mid"
+   "files/scores/unknown_the_monotone.mid",
+   "files/scores/unknown_the_monotone_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -482408,7 +482427,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_the_monotone.mid",
   "other_editions": [],
-  "search_text": "ein ton peter cornelius   the monotone unknown the monotone classical lyrical classical romantic  cornelius, peter"
+  "search_text": "ein ton peter cornelius   the monotone unknown the monotone classical lyrical classical romantic  cornelius, peter",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "cornelius_liebeslied",
@@ -614754,7 +614774,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb22.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb22.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb22.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb22_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -614775,7 +614796,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb22.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 33 traditional    traditional traditioner af swenska folkb22 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 33 traditional    traditional traditioner af swenska folkb22 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb23",
@@ -615496,7 +615518,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb33.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb33.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb33.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb33_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -615517,7 +615540,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb33.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 2nd part, nr 31 traditional    traditional traditioner af swenska folkb33 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 2nd part, nr 31 traditional    traditional traditioner af swenska folkb33 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb34",
@@ -616308,7 +616332,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb45.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb45.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb45.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb45_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -616329,7 +616354,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb45.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 2 traditional    traditional traditioner af swenska folkb45 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 2 traditional    traditional traditioner af swenska folkb45 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb46",
@@ -616374,7 +616400,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb46.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb46.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb46.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb46_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -616395,7 +616422,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb46.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 21 traditional    traditional traditioner af swenska folkb46 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 21 traditional    traditional traditioner af swenska folkb46 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb47",
@@ -616440,7 +616468,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb47.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb47.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb47.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb47_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -616461,7 +616490,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb47.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 22 traditional    traditional traditioner af swenska folkb47 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 22 traditional    traditional traditioner af swenska folkb47 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb48",

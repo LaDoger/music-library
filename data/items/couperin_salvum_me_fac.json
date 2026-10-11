@@ -38,7 +38,8 @@
  "score_files": [
   "files/scores/couperin_salvum_me_fac-lys.zip",
   "files/scores/couperin_salvum_me_fac-mids.zip",
-  "files/scores/couperin_salvum_me_fac.mid"
+  "files/scores/couperin_salvum_me_fac.mid",
+  "files/scores/couperin_salvum_me_fac_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "urgent",
@@ -60,6 +61,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/couperin_salvum_me_fac.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=couperin_salvum_me_fac",
@@ -69,7 +71,8 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac-lys.zip",
   "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac-mids.zip",
-  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid"
+  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid",
+  "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/couperin_salvum_me_fac.mid",
  "render_midi": {
