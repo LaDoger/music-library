@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/dowland_ayresandlutesongsxvii_come_again.mid",
  "score_files": [
-  "files/scores/dowland_ayresandlutesongsxvii_come_again.mid"
+  "files/scores/dowland_ayresandlutesongsxvii_come_again.mid",
+  "files/scores/dowland_ayresandlutesongsxvii_come_again_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -105,6 +106,7 @@
    "licence": "CC0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=dowland_ayresandlutesongsxvii_come_again",
@@ -112,7 +114,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/dowland_ayresandlutesongsxvii_come_again.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/dowland_ayresandlutesongsxvii_come_again.mid"
+  "https://ladoger.github.io/music-library/files/scores/dowland_ayresandlutesongsxvii_come_again.mid",
+  "https://ladoger.github.io/music-library/files/scores/dowland_ayresandlutesongsxvii_come_again_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/dowland_ayresandlutesongsxvii_come_again.mid",
  "render_midi": {

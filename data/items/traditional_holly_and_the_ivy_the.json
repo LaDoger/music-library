@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/traditional_holly_and_the_ivy_the.mid",
  "score_files": [
-  "files/scores/traditional_holly_and_the_ivy_the.mid"
+  "files/scores/traditional_holly_and_the_ivy_the.mid",
+  "files/scores/traditional_holly_and_the_ivy_the_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -84,6 +85,7 @@
    "licence": "CC0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=traditional_holly_and_the_ivy_the",
@@ -91,7 +93,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/traditional_holly_and_the_ivy_the.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/traditional_holly_and_the_ivy_the.mid"
+  "https://ladoger.github.io/music-library/files/scores/traditional_holly_and_the_ivy_the.mid",
+  "https://ladoger.github.io/music-library/files/scores/traditional_holly_and_the_ivy_the_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/traditional_holly_and_the_ivy_the.mid",
  "render_midi": {

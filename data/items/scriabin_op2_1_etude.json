@@ -37,7 +37,8 @@
  "score_url": "files/scores/scriabin_op2_1_etude.mid",
  "score_files": [
   "files/scores/scriabin_op2_1_etude.ly",
-  "files/scores/scriabin_op2_1_etude.mid"
+  "files/scores/scriabin_op2_1_etude.mid",
+  "files/scores/scriabin_op2_1_etude_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "yearning",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/scriabin_op2_1_etude.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op2_1_etude",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude.ly",
-  "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude.mid"
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude.mid",
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op2_1_etude.mid",
  "render_midi": {

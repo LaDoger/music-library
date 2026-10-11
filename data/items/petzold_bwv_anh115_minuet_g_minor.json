@@ -37,7 +37,8 @@
  "score_url": "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
  "score_files": [
   "files/scores/petzold_bwv_anh115_minuet_g_minor.ly",
-  "files/scores/petzold_bwv_anh115_minuet_g_minor.mid"
+  "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+  "files/scores/petzold_bwv_anh115_minuet_g_minor_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "elegant",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=petzold_bwv_anh115_minuet_g_minor",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.ly",
-  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid"
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
+  "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/petzold_bwv_anh115_minuet_g_minor.mid",
  "render_midi": {
