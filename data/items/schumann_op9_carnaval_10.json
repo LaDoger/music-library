@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 10",
  "catalog": "Op. 9",
  "movement": "No. 10",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;light;impish;restless;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: IV7 - v7 - i6/4 - v+ - IV7 - v7 - i6/4 - v+ - IV7 - v7 - ii6 - iv6 - viiº6/5 - iv6 - bII6 - iv6, ending on V7 over an open Bb pedal. Texture: very fast light right-hand figuration alternating with bass chord hits.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "light",
+  "impish",
+  "restless",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

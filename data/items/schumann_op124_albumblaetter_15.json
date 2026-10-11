@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 15",
  "catalog": "Op. 124",
  "movement": "No. 15",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;lilting;quiet;key: A-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A-flat major. Chord journey: I7 - IV6/5 - I - ii4/2 - I7 - IV6/5 - I - ii4/2 - V - V6 - I6 - vi6 - II5/3 - V6 - I. Texture: eighth-note broken-chord right hand over a moving bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "lilting",
+  "quiet",
+  "key: A-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

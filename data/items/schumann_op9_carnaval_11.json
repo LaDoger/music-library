@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 11",
  "catalog": "Op. 9",
  "movement": "No. 11",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;passionate;agitated;defiant;key: C minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C minor. Chord journey: i - iv - III7 - ii6/5 - iv6/4 - bVII6/4 - bVI6/4 - V - iv - iii7 ... bVII - bVI - III6 - viiº - i on bare tonic octaves. Texture: heavy chordal writing with octave-doubled bass and a dense right-hand melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "passionate",
+  "agitated",
+  "defiant",
+  "key: C minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

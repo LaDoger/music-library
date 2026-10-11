@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 3",
  "catalog": "Op. 9",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;bouncy;lively;key: B-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B-flat major. Chord journey: V7 - V7 - I6/4 - I6/4 - v - iii, V7 bounce repeated, closing on I6/4 - v - iii with no full tonic arrival. Texture: oom-pah block chords in the left hand under a bright, tuneful melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "bouncy",
+  "lively",
+  "key: B-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

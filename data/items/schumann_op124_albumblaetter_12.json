@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 12",
  "catalog": "Op. 124",
  "movement": "No. 12",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;elegiac;hushed;tender;key: F minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F minor. Chord journey: V6/4 (of iv) - iiib7/5 - III6/4 - I7 - I6/4 - i6/4 - Fr43 augmented sixth - V - i. Texture: sustained-chord hymn: melody over block harmony in the right hand, light inner voice.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "elegiac",
+  "hushed",
+  "tender",
+  "key: F minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 12",
  "catalog": "Op. 9",
  "movement": "No. 12",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;agitated;urgent;clenched;key: A-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A-flat major. Chord journey: IV - iv6 - bVI6/4 - I - V6 - V - bVII - vi - bVI - II6 - V - bVII - IV5 - bVII, turning back to a tonic Ab close. Texture: two-voice single-line counterpoint with no block chords, fast motion in both hands.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "agitated",
+  "urgent",
+  "clenched",
+  "key: A-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

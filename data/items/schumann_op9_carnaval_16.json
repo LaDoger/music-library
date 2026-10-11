@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 16",
  "catalog": "Op. 9",
  "movement": "No. 16",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;playful;quick;sly;key: A-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A-flat major. Chord journey: I - #ivº6 - V7 - I4/3 - II7 - II7 - II7 - V - v - vi7 - viiº - iii5 - I - iiiø - VIIø6/5 - III - IV6 - It6 - V - I. Texture: staccato chordal stabs in the right hand over a bouncy block bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "playful",
+  "quick",
+  "sly",
+  "key: A-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

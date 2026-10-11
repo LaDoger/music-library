@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 14",
  "catalog": "Op. 124",
  "movement": "No. 14",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;serene;lyrical;pastoral;key: F major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F major. Chord journey: I - #ivø7 - V - iiº7 - V - I - vi - iii - iii - V - I6 - I6 - I, cadence on a full F major close. Texture: dense steady chordal accompaniment under a lyrical top line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "serene",
+  "lyrical",
+  "pastoral",
+  "key: F major"
  ],
  "has_editable_score": true,
  "has_recording": false,

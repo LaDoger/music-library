@@ -5,9 +5,9 @@
  "title": "Papillons - No. 12",
  "catalog": "Op. 2",
  "movement": "No. 12",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;playful;eager;key: D major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: v - I6 - I - V - I - iii - I7 - V - I6 - I, bright dominant-tonic shuffle closing on I. Texture: chordal bass with bright single-line melody, sforzando accents.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "playful",
+  "eager",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

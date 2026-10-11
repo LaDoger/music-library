@@ -5,9 +5,9 @@
  "title": "Carnaval - No. 5",
  "catalog": "Op. 9",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;dreamy;hushed;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: I6 - IV - iv7/4 - iv7/4 - I6 - ii6 - iv7/4 - iiiø4/3 - III6/5 - ii4/3 - V4/2 - I6 - ii6 - IV7/2 - iv7. Texture: fast triplet-flurry ornaments in the right hand over a slow, sustained bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289796",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "dreamy",
+  "hushed",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,
