@@ -374,6 +374,33 @@ PROKOFIEV = [
     ("Op.30", "Seven, They Are Seven", None, UNV, r"seven they are seven", "IMSLP gives 1922, but the 1933 revision cannot be told apart in files: not imported"),
 ]
 
+NIELSEN = [
+    ("Op.7", "Symphony No. 1 in G minor", 1894, IN, r"symphony (no )?1\b", "Hansen, Copenhagen (IMSLP plate 11486; undated, bracketed c.1894, premiere 1894); composed 1891-92"),
+    ("Op.16", "Symphony No. 2 'The Four Temperaments'", 1903, IN, r"symphony (no )?2\b|four temperaments", "Hansen, Copenhagen (IMSLP plate 13308; n.d. [1903] estimate); composed 1901-02"),
+    ("Op.27", "Symphony No. 3 'Sinfonia espansiva'", 1913, IN, r"symphony (no )?3\b|espansiva", "Kahnt, Leipzig (IMSLP plate 7039, 1913); composed 1910-11"),
+    ("Op.29", "Symphony No. 4 'The Inextinguishable'", 1916, IN, r"symphony (no )?4\b|inextinguishable|uudslukkelige", "Hansen, Copenhagen (IMSLP plate 16557, 1916); composed 1914-16"),
+    ("Op.50", "Symphony No. 5", 1926, IN, r"symphony (no )?5\b", "IMSLP first publication 1926 (modern Skandinavisk 1950 edition is not the first print); composed 1920-22"),
+    ("Sinfonia semplice", "Symphony No. 6 'Sinfonia semplice'", None, UNPUB, r"symphony (no )?6\b|sinfonia semplice", "Composed 1924-25; not published in Nielsen's lifetime; not imported"),
+    ("Op.17", "Helios Overture", 1905, IN, r"helios", "Hansen, Copenhagen (IMSLP plate 13669; n.d. [1905] estimate); composed 1903"),
+    ("CNW 2", "Maskarade Overture", 1929, IN, r"maskarade overture|overture.*maskarade", "Samfundet til Udgivelse af dansk Musik, Copenhagen (IMSLP n.d. [1929] estimate); Hansen reprint 1930; opera composed 1904-06"),
+    ("Op.49", "Pan og Syrinx", 1926, IN, r"pan (og|and) syrinx", "Hansen, Copenhagen 1926 (IMSLP, Wikipedia); composed 1918"),
+    ("Op.33", "Violin Concerto", 1919, IN, r"violin concerto", "Hansen, Copenhagen 1919 (IMSLP plate 16967; Royal Library record c1919); composed 1911"),
+    ("Op.32", "Chaconne (piano)", 1917, IN, r"chaconne", "Hansen, Copenhagen 1917 (IMSLP plate 16743); composed 1916"),
+    ("Op.43", "Wind Quintet", 1923, IN, r"wind quintet", "Hansen, Copenhagen 1923 (Wikipedia; IMSLP page not read); composed and premiered 1922, so 1922 or 1923 both in scope"),
+    ("Op.2", "Fantasy Pieces for Oboe and Piano", 1891, IN, r"fantasy pieces|fantasistykker", "Hansen, Copenhagen 1891 (IMSLP n.d. [1891]; Wikipedia premiere 16 Mar 1891); opus said to be 1890"),
+    ("Op.13", "String Quartet No. 1 in G minor", 1902, IN, r"string quartet (no )?1\b|quartet.*op 13", "Hansen, Copenhagen (IMSLP No. 638, n.d. [1902], first publication 1902); many sources say 1900; composed 1887-88"),
+    ("CNW 42", "Flute Concerto", 1952, POST, r"flute concerto", "First published 1952, Samfundet til Udgivelse af dansk Musik (Telmanyi ed.); composed 1926; excluded post-1930"),
+    ("Op.57", "Clarinet Concerto", 1931, POST, r"clarinet concerto", "First published 1931, Samfundet til Udgivelse af dansk Musik (IMSLP); composed 1928; excluded post-1930"),
+    ("Op.58", "Commotio (organ)", None, UNV, r"commotio", "Composed 1930-31; publication date not verified: not imported"),
+    ("Op.40", "Theme and Variations (piano)", None, UNV, r"theme (and|with) variations", "Composed 1917; publication date not verified: not imported"),
+    ("Op.45", "Suite for piano 'Den Luciferiske'", None, UNV, r"luciferan|lucifer", "Composed 1919-20; publication date not verified: not imported"),
+    ("Op.59", "Three Piano Pieces (posthumous)", None, UNV, r"three piano pieces|3 piano pieces", "Composed 1928; publication date not verified: not imported"),
+    ("Op.39", "Saga-Drøm", None, UNV, r"saga dr", "Composed 1907-08; publication date not verified: not imported"),
+    ("Op.35", "Violin Sonata No. 3", None, UNV, r"violin sonata (no )?3\b|sonata for violin and piano op 35", "Composed 1912; publication date not verified: not imported"),
+    ("Op.42", "Fynsk Foraar (Springtime on Funen)", None, UNV, r"fynsk|springtime on funen", "Composed 1921; publication date not verified: not imported"),
+    ("Op.34", "Aladdin (suite)", None, UNV, r"aladdin", "Composed 1918-19; publication date not verified: not imported"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -428,5 +455,11 @@ COMPOSERS = {
         "catalogue": "Op. (Prokofiev opus numbers)", "rows": PROKOFIEV,
         "prefix": "prokofiev", "genre": "classical", "era": "20th century",
         "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only. Principal works for video; not the full opus list. Piano Sonata No. 5 (1923/1952-53 versions), Symphony No. 4 (1930/1947), Seven They Are Seven (1922/1933) and Chout are unverified and not imported.",
+    },
+    "nielsen": {
+        "name": "Carl Nielsen", "canon": "carl nielsen", "death": 1931, "birth": 1865,
+        "catalogue": "Op. / FS / CNW (Nielsen opus numbers; FS and CNW for works without one)", "rows": NIELSEN,
+        "prefix": "nielsen", "genre": "classical", "era": "Late Romantic / early 20th century",
+        "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only. Principal orchestral and chamber works for video; not the full catalogue. Clarinet Concerto (1931), Flute Concerto (1952), Commotio and Symphony No. 6 are excluded. Opus works without a verified publication year are unverified and not imported.",
     },
 }

@@ -498,6 +498,19 @@
     "serguei prokofiev"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Toccata Op.11, Piano Sonatas 1-4, Sarcasms, Visions fugitives, Piano Concertos 1-3, Symphonies 1-2, Scythian Suite, Love for Three Oranges, Overture on Hebrew Themes, Quintet Op.39 ...). Post-1930 publications (Lieutenant Kije, Peter and the Wolf, Romeo and Juliet, Cinderella, Piano Sonatas 6-8, Symphonies 3-5 ...) excluded. Checklist: scripts/bulk/catalogue_data.py PROKOFIEV."
+  },
+  {
+   "canon": "carl nielsen",
+   "name": "Carl Nielsen",
+   "birth": 1865,
+   "death": 1931,
+   "prefix": "nielsen",
+   "wikidata": "Q205139",
+   "aliases": [
+    "carl nielsen",
+    "carl august nielsen"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Symphonies 1-5, Helios, Maskarade overture, Pan og Syrinx, Violin Concerto, Chaconne, Wind Quintet). Clarinet Concerto (1931), Flute Concerto (1952) and Commotio excluded. Checklist: scripts/bulk/catalogue_data.py NIELSEN."
   }
  ]
 }

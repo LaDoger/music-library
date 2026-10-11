@@ -14204,6 +14204,32 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "carl-nielsen",
+  "name": "Carl Nielsen",
+  "short_name": "Nielsen",
+  "sort_name": "Nielsen, Carl",
+  "birth_year": null,
+  "death_year": 1931,
+  "era": "Late Romantic / early 20th century",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 3,
+  "score_count": 3,
+  "recording_count": 0,
+  "piece_ids": [
+   "nielsen_op_13_string_quartet_no_1_op_13",
+   "nielsen_op_2_two_fantasy_pieces_for_oboe_and_piano_roman",
+   "nielsen_op_43_wind_quintet"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "rikard-nordraak",
   "name": "Rikard Nordraak",
   "short_name": "Nordraak",
@@ -17540,8 +17566,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 180,
-  "score_count": 180,
+  "piece_count": 182,
+  "score_count": 182,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17723,7 +17749,9 @@
    "schumann_op2_papillons_11",
    "schumann_op6_davidsbuendlertaenze_5",
    "schumann_op99_bunte_blaetter_6",
-   "schumann_op99_bunte_blaetter_7"
+   "schumann_op99_bunte_blaetter_7",
+   "schumann_op9_carnaval_18",
+   "schumann_op99_bunte_blaetter_10"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

@@ -79,3 +79,22 @@
   - Piano Sonata No. 5 (1923 / 1952-53), Symphony No. 4 (1930 / 1947), Seven They Are Seven (1922 / 1933) and Chout (no publication date found) are unverified and not imported.
 - **WANTED:** `/workspace/music/library/files/imslp_incoming/prokofiev/WANTED.md`. 22 in-scope works in the table (Symphony No. 1 partly imported), plus the rest of Visions fugitives and the Love for Three Oranges suite; 4 unverified; 23 post-1930 excluded (22 in the checklist plus Sinfonietta Op.5/48, not in the checklist). All 46 IMSLP work-page URLs checked with curl (HTTP 200).
 - **Models:** Haiku 5.5.
+
+## Carl Nielsen (CP-GATHER-nielsen, 2026-10-11)
+
+- **Approval (US-PD-only, not fully PD).** The brief said "PD everywhere", but Nielsen died 3 Oct 1931. Works published 1931 or later are still in copyright in the US, so the composer is approved as US-PD-only, the same as Prokofiev and Falla. Only works first published 1930 or earlier are in scope. Added to `approved_us_pd_only` with the note "LaDoger priority list 2026-10-11". EU / life+70 PD is not the test here. **Please confirm this reading with LaDoger.**
+- **Checklist:** `NIELSEN` in `scripts/bulk/catalogue_data.py`, 22 rows. In scope with an IMSLP / Wikipedia year: Symphonies 1-5, Helios, Maskarade overture, Pan og Syrinx, Violin Concerto, Chaconne, Wind Quintet, String Quartet No. 1, Fantasy Pieces Op. 2. Unverified: Op. 40, 45, 59, 39, 35, 42, 34 (no first-publication year found). Excluded: Clarinet Concerto (1931), Flute Concerto CNW 42 (1952), Commotio (composed 1930-31), Symphony No. 6 (unpublished).
+- **Imported (3 rows, licence_scope US-PD-only, licence_class flagged):**
+  - `nielsen_op_13_string_quartet_no_1_op_13`: OpenScore StringQuartets, CC0; pub. 1902 (IMSLP). Other sources give 1900, still in scope.
+  - `nielsen_op_43_wind_quintet`: PDMX, CC0, `no_license_conflict`; the full quintet from the PDMX row credited to "Karl Nielsen" (the importer now also matches that spelling). Pub. 1923 (Wikipedia; the premiere was 1922, so in scope either way).
+  - `nielsen_op_2_two_fantasy_pieces_for_oboe_and_piano_roman`: PDMX, CC0; the Romance only (the second of the two pieces). Pub. 1891. Retitled by hand to "Fantasy Pieces for Oboe and Piano (Romance)".
+- **Skipped:**
+  - PDMX `Allegretto ben marcato from Nielsen's Wind Quintet` (a movement excerpt of the same work): dropped in favour of the full quintet (the import left only one row per checklist entry).
+  - PDMX hymn settings (titles credited "Carl Nielsen (FS83/n)", e.g. "Der er en Vej", "Dig vil jeg elske"): not on the checklist. These are hymn and song settings, not video cues, and their publication dates were not checked.
+  - PDMX `license_conflict` rows (several FS 83 hymns and "Canto Serioso" CC0): not used.
+  - "Jeg ved en lærkerede" and "Af Flamme blev du avlet" (Karl/Carl Nielsen, CC0 hymns): not on the checklist.
+  - Mutopia: no Nielsen rows in `parts/bulk_raw/`.
+- **Importer changes (`scripts/bulk/import_depth_us_pd.py`):** `nielsen` name rule `\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b`.
+- **Checks:** `licence_audit.py` 0 violations; `build_catalog.py --check` passes. `sync_site_data.py` rewrote tracked data files (the uncommitted `library_other_editions.json` feeds into them); restored with `git checkout -- data/`. The three `data/items/nielsen_*.json` are untracked, like the other gather rows.
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/nielsen/WANTED.md`: 10 in-scope works (Symphonies 1-5, Helios, Maskarade overture, Pan og Syrinx, Violin Concerto, Chaconne), 9 unverified, 4 excluded. All IMSLP URLs curl-checked (HTTP 200).
+- **Models:** Haiku 5.5.
