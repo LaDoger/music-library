@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 11",
  "catalog": "Op. 13",
  "movement": "No. 11",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;stormy;heroic;brilliant;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: i - iiø65 - iv742 - V64 - i, bVI and III64 colour, V75#32 - i64 drive to a pedalled i with bVI - i64 - i tags. Texture: dense sixteenth-note sweeps with pedalled chordal accents.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "stormy",
+  "heroic",
+  "brilliant",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

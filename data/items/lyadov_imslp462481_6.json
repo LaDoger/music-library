@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 6",
  "catalog": "",
  "movement": "No. 6",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;wistful;restrained;yearning;key: E minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: v5 - III - II#3 figures, i - v - iv - bVII - bVI - v chromatic sag, returns to v5 - III and closes i. Texture: chordal quarter-note accompaniment under a half-note bass and melodic top line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "wistful",
+  "restrained",
+  "yearning",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

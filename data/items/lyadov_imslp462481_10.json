@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 10",
  "catalog": "",
  "movement": "No. 10",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;restless;agitated;dark;key: G minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: v - III - i6 - bVI#54 - III - i - iv7 - IV53#3 - bVII64 - viio6#4 - iv52, ends ii43 - bVII52 - III64 - ii72 with no tonic close. Texture: Allegro; driving eighth-note chordal motion with broken-chord figures.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "restless",
+  "agitated",
+  "dark",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 8",
  "catalog": "",
  "movement": "No. 8",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;mercurial;airy;restless;key: A major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A major. Chord journey: i - v+ - iii - #iv opening colour, i - v+ - iii - vi, IV7 - V6/5 - vi6 cycle, closes on the vi turn. Texture: eighth-note two-voice figuration over a steady bass, crescendo build.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "mercurial",
+  "airy",
+  "restless",
+  "key: A major"
  ],
  "has_editable_score": true,
  "has_recording": false,

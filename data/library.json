@@ -413788,9 +413788,9 @@
   "title": "Symphonic Études - No. 11",
   "catalog": "Op. 13",
   "movement": "No. 11",
-  "mood_tags": "classical;romantic;lyrical",
+  "mood_tags": "classical;piano;stormy;heroic;brilliant;key: C# minor",
   "tempo_energy": "moderate / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C# minor. Chord journey: i - iiø65 - iv742 - V64 - i, bVI and III64 colour, V75#32 - i64 drive to a pedalled i with bVI - i64 - i tags. Texture: dense sixteenth-note sweeps with pedalled chordal accents.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -413830,8 +413830,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "romantic",
-   "lyrical"
+   "piano",
+   "stormy",
+   "heroic",
+   "brilliant",
+   "key: C# minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -413848,7 +413851,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op13_symphonic_etudes_11.mid",
   "other_editions": [],
-  "search_text": "symphonic études - no. 11 robert schumann op. 13 op 13 op. 13 op13 no. 11 schumann op13 symphonic etudes 11 classical romantic lyrical classical romantic  schumann, robert"
+  "search_text": "symphonic études - no. 11 robert schumann op. 13 op 13 op. 13 op13 no. 11 schumann op13 symphonic etudes 11 classical piano stormy heroic brilliant key: c# minor classical romantic  schumann, robert"
  },
  {
   "id": "bartok_sz42_for_children_original_version__42",
@@ -413857,9 +413860,9 @@
   "title": "For Children (original version), vols. 1-2 - No. 42",
   "catalog": "Sz. 42",
   "movement": "No. 42",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;rustic;buoyant;insistent;key: G mixolydian (C major key signature)",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G mixolydian (C major key signature). Chord journey: v5 pedal on G throughout with a single vii6 touch, ends on an open G-D fifth. Texture: Allegro vivace; drone-like G bass under bouncing eighth-note figures.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -413902,8 +413905,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "rustic",
+   "buoyant",
+   "insistent",
+   "key: G mixolydian (C major key signature)"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -413922,7 +413928,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz42_for_children_original_version__42.mid",
   "other_editions": [],
-  "search_text": "for children (original version), vols. 1-2 - no. 42 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 42 bartok sz42 for children original version  42 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "for children (original version), vols. 1-2 - no. 42 béla bartók sz. 42 sz 42 sz. 42 sz42 no. 42 bartok sz42 for children original version  42 classical piano rustic buoyant insistent key: g mixolydian (c major key signature) classical 20th century  bartók, béla"
  },
  {
   "id": "bartok_sz84_three_rondos_on_slovak_folk_tu_3",
@@ -413931,9 +413937,9 @@
   "title": "Three Rondos on Slovak Folk Tunes - No. 3",
   "catalog": "Sz. 84",
   "movement": "No. 3",
-  "mood_tags": "classical;modern;folk",
+  "mood_tags": "classical;piano;rustic;restless;wry;key: C major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: viio52 opening loop, I6 - IV - ii7 - I6 - VI6 wander, iv and #iio colour, returns to viio52 and closes on viio54 with no tonic arrival. Texture: sparse folk tune in eighths with quarter-note chordal punctuation.",
   "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Rondos_on_Slovak_Folk_Tunes,_Sz.84_(Bartók,_Béla)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -413976,8 +413982,11 @@
   ],
   "mood_tags_list": [
    "classical",
-   "modern",
-   "folk"
+   "piano",
+   "rustic",
+   "restless",
+   "wry",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -413996,7 +414005,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bartok_sz84_three_rondos_on_slovak_folk_tu_3.mid",
   "other_editions": [],
-  "search_text": "three rondos on slovak folk tunes - no. 3 béla bartók sz. 84 sz 84 sz. 84 sz84 no. 3 bartok sz84 three rondos on slovak folk tu 3 classical modern folk classical 20th century  bartók, béla"
+  "search_text": "three rondos on slovak folk tunes - no. 3 béla bartók sz. 84 sz 84 sz. 84 sz84 no. 3 bartok sz84 three rondos on slovak folk tu 3 classical piano rustic restless wry key: c major classical 20th century  bartók, béla"
  },
  {
   "id": "lyadov_imslp462481_5",
@@ -414005,9 +414014,9 @@
   "title": "Biryulki Op. 2 - No. 5",
   "catalog": "",
   "movement": "No. 5",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;brisk;playful;sprightly;key: B major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: B major. Chord journey: v - i - iii - i rocking, vi - i54 - ii42 detour, closes hovering on ii42 over a B pedal. Texture: Vivace; quarter-note chords with eighth-note bass figuration.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414048,7 +414057,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "brisk",
+   "playful",
+   "sprightly",
+   "key: B major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414065,7 +414077,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_5.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 5 anatoly lyadov   no. 5 lyadov imslp462481 5 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 5 anatoly lyadov   no. 5 lyadov imslp462481 5 classical piano brisk playful sprightly key: b major classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_6",
@@ -414074,9 +414086,9 @@
   "title": "Biryulki Op. 2 - No. 6",
   "catalog": "",
   "movement": "No. 6",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;wistful;restrained;yearning;key: E minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: E minor. Chord journey: v5 - III - II#3 figures, i - v - iv - bVII - bVI - v chromatic sag, returns to v5 - III and closes i. Texture: chordal quarter-note accompaniment under a half-note bass and melodic top line.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414117,7 +414129,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "wistful",
+   "restrained",
+   "yearning",
+   "key: E minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414134,7 +414149,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_6.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 6 anatoly lyadov   no. 6 lyadov imslp462481 6 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 6 anatoly lyadov   no. 6 lyadov imslp462481 6 classical piano wistful restrained yearning key: e minor classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_7",
@@ -414143,9 +414158,9 @@
   "title": "Biryulki Op. 2 - No. 7",
   "catalog": "",
   "movement": "No. 7",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;playful;capricious;light;key: F major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: F major. Chord journey: V-led opening with V42 - #io7 - V65#53 - V6 turns, II#3 and bVI#3 detours, v - vii6 - v, ends V42 - #io7 - I. Texture: fast staccato sixteenth figuration under a moving line.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414186,7 +414201,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "playful",
+   "capricious",
+   "light",
+   "key: F major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414203,7 +414221,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_7.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 7 anatoly lyadov   no. 7 lyadov imslp462481 7 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 7 anatoly lyadov   no. 7 lyadov imslp462481 7 classical piano playful capricious light key: f major classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_8",
@@ -414212,9 +414230,9 @@
   "title": "Biryulki Op. 2 - No. 8",
   "catalog": "",
   "movement": "No. 8",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;mercurial;airy;restless;key: A major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: A major. Chord journey: i - v+ - iii - #iv opening colour, i - v+ - iii - vi, IV7 - V6/5 - vi6 cycle, closes on the vi turn. Texture: eighth-note two-voice figuration over a steady bass, crescendo build.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414255,7 +414273,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "mercurial",
+   "airy",
+   "restless",
+   "key: A major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414272,7 +414293,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_8.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 8 anatoly lyadov   no. 8 lyadov imslp462481 8 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 8 anatoly lyadov   no. 8 lyadov imslp462481 8 classical piano mercurial airy restless key: a major classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_9",
@@ -414281,9 +414302,9 @@
   "title": "Biryulki Op. 2 - No. 9",
   "catalog": "",
   "movement": "No. 9",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;tranquil;lilting;wistful;key: G major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: v4 - #iv2 - I6 - v54 - ii6 - III#7#3 - iv54 cycle, ends on i52#2 with a minor-shaded, unsettled close. Texture: Allegretto tranquillo; flowing eighth-note lines with sparse chord support.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414324,7 +414345,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "tranquil",
+   "lilting",
+   "wistful",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414341,7 +414365,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_9.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 9 anatoly lyadov   no. 9 lyadov imslp462481 9 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 9 anatoly lyadov   no. 9 lyadov imslp462481 9 classical piano tranquil lilting wistful key: g major classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_10",
@@ -414350,9 +414374,9 @@
   "title": "Biryulki Op. 2 - No. 10",
   "catalog": "",
   "movement": "No. 10",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;restless;agitated;dark;key: G minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: v - III - i6 - bVI#54 - III - i - iv7 - IV53#3 - bVII64 - viio6#4 - iv52, ends ii43 - bVII52 - III64 - ii72 with no tonic close. Texture: Allegro; driving eighth-note chordal motion with broken-chord figures.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414393,7 +414417,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "restless",
+   "agitated",
+   "dark",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414410,7 +414437,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_10.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 10 anatoly lyadov   no. 10 lyadov imslp462481 10 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 10 anatoly lyadov   no. 10 lyadov imslp462481 10 classical piano restless agitated dark key: g minor classical romantic  lyadov, anatoly"
  },
  {
   "id": "lyadov_imslp462481_11",
@@ -414419,9 +414446,9 @@
   "title": "Biryulki Op. 2 - No. 11",
   "catalog": "",
   "movement": "No. 11",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;lilting;wistful;sly;key: C major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C major. Chord journey: IV - IV7 - v - iiiø7b5 loop, ii6 - vi52 turn, bVII6 - iv52 chromatic sag, arrives on C. Texture: Tempo di Valse; bouncing sixteenth figuration over a sparse bass.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414462,7 +414489,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "lilting",
+   "wistful",
+   "sly",
+   "key: C major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414479,7 +414509,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lyadov_imslp462481_11.mid",
   "other_editions": [],
-  "search_text": "biryulki op. 2 - no. 11 anatoly lyadov   no. 11 lyadov imslp462481 11 classical piano miniature classical romantic  lyadov, anatoly"
+  "search_text": "biryulki op. 2 - no. 11 anatoly lyadov   no. 11 lyadov imslp462481 11 classical piano lilting wistful sly key: c major classical romantic  lyadov, anatoly"
  },
  {
   "id": "arensky_imslp64446_2",
@@ -414488,9 +414518,9 @@
   "title": "12 Etudes, Op.74 - No. 2",
   "catalog": "",
   "movement": "No. 2",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;agitated;shadowed;propulsive;key: C minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: C minor. Chord journey: bVII6 - i - bVII - i - ii6 - #iii2 - i7 - iv - i, bII#3 Neapolitan sweep, closes on a v5 half-cadence. Texture: dense sixteenth-note running figuration over a moving bass, few block chords.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414531,7 +414561,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "agitated",
+   "shadowed",
+   "propulsive",
+   "key: C minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414548,7 +414581,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/arensky_imslp64446_2.mid",
   "other_editions": [],
-  "search_text": "12 etudes, op.74 - no. 2 anton arensky   no. 2 arensky imslp64446 2 classical piano miniature classical romantic  arensky, anton"
+  "search_text": "12 etudes, op.74 - no. 2 anton arensky   no. 2 arensky imslp64446 2 classical piano agitated shadowed propulsive key: c minor classical romantic  arensky, anton"
  },
  {
   "id": "arensky_imslp64446_3",
@@ -414557,9 +414590,9 @@
   "title": "12 Etudes, Op.74 - No. 3",
   "catalog": "",
   "movement": "No. 3",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;lush;rhapsodic;sweeping;key: D-flat major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: D-flat major. Chord journey: chromatic sequence of flat-side chords (ii - iv - iii - V42 - ii+7), rapid II6 - II cadence with no firm tonic close. Texture: dense eighth-note chord figuration with sixteenth flourishes.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414600,7 +414633,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "lush",
+   "rhapsodic",
+   "sweeping",
+   "key: D-flat major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414617,7 +414653,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/arensky_imslp64446_3.mid",
   "other_editions": [],
-  "search_text": "12 etudes, op.74 - no. 3 anton arensky   no. 3 arensky imslp64446 3 classical piano miniature classical romantic  arensky, anton"
+  "search_text": "12 etudes, op.74 - no. 3 anton arensky   no. 3 arensky imslp64446 3 classical piano lush rhapsodic sweeping key: d-flat major classical romantic  arensky, anton"
  },
  {
   "id": "arensky_imslp6482_4",
@@ -414626,9 +414662,9 @@
   "title": "12 Preludes, Op.63 - No. 4",
   "catalog": "",
   "movement": "No. 4",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;uneasy;wistful;ruminant;key: Ab major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: Ab major. Chord journey: biø7 - bbii7 - bvi - bv - iii - bII#3 - bbVI42 - bv+7 colour, closes on a flat-side bIII7 chord rather than I. Texture: five-voice texture with eighth-note inner counterpoint under a sparse melody.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414669,7 +414705,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "uneasy",
+   "wistful",
+   "ruminant",
+   "key: Ab major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414686,7 +414725,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/arensky_imslp6482_4.mid",
   "other_editions": [],
-  "search_text": "12 preludes, op.63 - no. 4 anton arensky   no. 4 arensky imslp6482 4 classical piano miniature classical romantic  arensky, anton"
+  "search_text": "12 preludes, op.63 - no. 4 anton arensky   no. 4 arensky imslp6482 4 classical piano uneasy wistful ruminant key: ab major classical romantic  arensky, anton"
  },
  {
   "id": "arensky_imslp6482_5",
@@ -414695,9 +414734,9 @@
   "title": "12 Preludes, Op.63 - No. 5",
   "catalog": "",
   "movement": "No. 5",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;brooding;yearning;chordal;key: G minor",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G minor. Chord journey: v - ii - bVII - III - ii - vi - v cycle, then bVII54 - v5 - vi6#4, closes without a tonic arrival. Texture: broken-chord eighth-note accompaniment under a moving line.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414738,7 +414777,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "brooding",
+   "yearning",
+   "chordal",
+   "key: G minor"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414755,7 +414797,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/arensky_imslp6482_5.mid",
   "other_editions": [],
-  "search_text": "12 preludes, op.63 - no. 5 anton arensky   no. 5 arensky imslp6482 5 classical piano miniature classical romantic  arensky, anton"
+  "search_text": "12 preludes, op.63 - no. 5 anton arensky   no. 5 arensky imslp6482 5 classical piano brooding yearning chordal key: g minor classical romantic  arensky, anton"
  },
  {
   "id": "arensky_imslp6482_6",
@@ -414764,9 +414806,9 @@
   "title": "12 Preludes, Op.63 - No. 6",
   "catalog": "",
   "movement": "No. 6",
-  "mood_tags": "classical;piano;miniature",
+  "mood_tags": "classical;piano;languid;lush;dreamy;key: G major",
   "tempo_energy": "varied / opening",
-  "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+  "notable_excerpt": "Key: G major. Chord journey: I7 - viio74 - iii7 - ii7 - V742 - VI7#32 - I742 - IV742 - vi62 - ii752 - v7, returns via I7 - I64 to I. Texture: Andantino; seventh-chord-saturated sixteenth arpeggiation over a sustained inner voice.",
   "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
   "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
   "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -414807,7 +414849,10 @@
   "mood_tags_list": [
    "classical",
    "piano",
-   "miniature"
+   "languid",
+   "lush",
+   "dreamy",
+   "key: G major"
   ],
   "has_editable_score": true,
   "has_recording": false,
@@ -414824,7 +414869,7 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/arensky_imslp6482_6.mid",
   "other_editions": [],
-  "search_text": "12 preludes, op.63 - no. 6 anton arensky   no. 6 arensky imslp6482 6 classical piano miniature classical romantic  arensky, anton"
+  "search_text": "12 preludes, op.63 - no. 6 anton arensky   no. 6 arensky imslp6482 6 classical piano languid lush dreamy key: g major classical romantic  arensky, anton"
  },
  {
   "id": "arensky_imslp6482_7",

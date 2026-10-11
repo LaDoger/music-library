@@ -5,9 +5,9 @@
  "title": "12 Etudes, Op.74 - No. 2",
  "catalog": "",
  "movement": "No. 2",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;agitated;shadowed;propulsive;key: C minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C minor. Chord journey: bVII6 - i - bVII - i - ii6 - #iii2 - i7 - iv - i, bII#3 Neapolitan sweep, closes on a v5 half-cadence. Texture: dense sixteenth-note running figuration over a moving bass, few block chords.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "agitated",
+  "shadowed",
+  "propulsive",
+  "key: C minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 9",
  "catalog": "",
  "movement": "No. 9",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;tranquil;lilting;wistful;key: G major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G major. Chord journey: v4 - #iv2 - I6 - v54 - ii6 - III#7#3 - iv54 cycle, ends on i52#2 with a minor-shaded, unsettled close. Texture: Allegretto tranquillo; flowing eighth-note lines with sparse chord support.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "tranquil",
+  "lilting",
+  "wistful",
+  "key: G major"
  ],
  "has_editable_score": true,
  "has_recording": false,

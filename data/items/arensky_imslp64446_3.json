@@ -5,9 +5,9 @@
  "title": "12 Etudes, Op.74 - No. 3",
  "catalog": "",
  "movement": "No. 3",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;lush;rhapsodic;sweeping;key: D-flat major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D-flat major. Chord journey: chromatic sequence of flat-side chords (ii - iv - iii - V42 - ii+7), rapid II6 - II cadence with no firm tonic close. Texture: dense eighth-note chord figuration with sixteenth flourishes.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "lush",
+  "rhapsodic",
+  "sweeping",
+  "key: D-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,
