@@ -161,6 +161,7 @@ _RAW = [
     ("bedrich smetana", "Bedřich Smetana", 1884, "smetana", 4, ["smetana"]),
     ("zdenek fibich", "Zdeněk Fibich", 1900, "fibich", 4, ["fibich"]),
     ("ernest chausson", "Ernest Chausson", 1899, "chausson", 4, ["chausson"]),
+    ("lili boulanger", "Lili Boulanger", 1918, "boulanger", 4, []),
     ("mikhail glinka", "Mikhail Glinka", 1857, "glinka", 4, ["glinka"]),
     ("henri vieuxtemps", "Henri Vieuxtemps", 1881, "vieuxtemps", 4, ["vieuxtemps"]),
     ("pablo de sarasate", "Pablo de Sarasate", 1908, "sarasate", 4, ["sarasate"]),

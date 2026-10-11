@@ -1088,6 +1088,39 @@ CHAUSSON = [
     ("Op.32", "Soir de fête (symphonic poem)", None, UNV, r"soir de fete", "IMSLP: orchestral manuscript 1893 and piano four-hands manuscript 1898; no First Publication field; not imported"),
 ]
 
+BOULANGER = [
+    # Vocal and orchestral works first, then the piano and song pieces (fully PD: Lili Boulanger died 1918, no US-PD gate)
+    ("no opus", "Faust et Hélène (cantata, mezzo, tenor, baritone and orchestra)", 1913, IN, r"faust et helene", "IMSLP: Ricordi, Paris 1913 (R.1); composed 1913, Prix de Rome cantata"),
+    ("no opus", "Psaume XXIV (chorus and orchestra)", 1924, IN, r"psaume xxiv|psaume 24\b|psalm 24\b", "IMSLP: Durand, Paris 1924 (D. & F. 10488); composed 1916, Rome"),
+    ("no opus", "Psaume CXXIX (chorus and orchestra)", 1921, IN, r"psaume cxxix|psaume 129\b|psalm 129\b", "IMSLP: Durand, Paris 1921 (D. & F. 10084); composed 1916"),
+    ("no opus", "Psaume CXXX (chorus and orchestra)", 1924, IN, r"psaume cxxx|psaume 130\b|psalm 130\b", "IMSLP: Durand, Paris 1924 (vocal score), 1925 (full score); composed 1914-17"),
+    ("no opus", "Vieille prière bouddhique (tenor, chorus and orchestra)", 1921, IN, r"vieille priere", "IMSLP: Durand, Paris 1921 (D. & F. 10090); composed 1914-17"),
+    ("no opus", "Pie Jesu (voice and orchestra or organ)", 1922, IN, r"pie jesu", "IMSLP: Durand, Paris 1922 (D. & F. 10086); composed January-March 1918"),
+    ("no opus", "Soir sur la plaine (soprano, tenor, two choruses and orchestra)", 1918, IN, r"soir sur la plaine", "IMSLP: Ricordi, Paris 1918 (R. 530); composed 1913"),
+    ("no opus", "Pour les funérailles d'un soldat (baritone, chorus and orchestra)", 1918, IN, r"funerailles d un soldat|pour les funerailles", "IMSLP: Ricordi, Paris 1918 (R. 111); composed 1912"),
+    ("no opus", "Hymne au soleil (contralto, chorus and piano)", 1919, IN, r"hymne au soleil", "IMSLP: Ricordi, Paris 1919 (R. 33); composed 1912"),
+    ("no opus", "Renouveau (chorus and piano)", 1919, IN, r"renouveau", "IMSLP: Ricordi, Paris 1919 (R. 35); composed 1911"),
+    ("no opus", "Dans l'immense tristesse (voice and piano)", 1919, IN, r"immense tristesse", "IMSLP: Ricordi, Paris 1919 (R. 484); composed 1916"),
+    ("3 Morceaux", "3 Morceaux (piano): D'un vieux jardin, D'un jardin clair, Cortège", 1918, IN, r"vieux jardin|jardin clair|cortege|trois morceaux|3 morceaux", "IMSLP: Ricordi, Paris 1918 (R. 531) and Schirmer, New York 1918; composed 1914; Cortège violin version 1918"),
+    ("no opus", "Nocturne (piano)", 1918, IN, r"nocturne", "IMSLP: Ricordi, Paris 1918 (R. 532); composed 1911"),
+    ("Clairières", "Clairières dans le ciel (song cycle)", 1919, IN, r"clairieres", "IMSLP: Ricordi, Paris 1919 (R. 428); composed 1913-14"),
+    ("no opus", "D'un matin de printemps (flute or violin and piano)", 1922, IN, r"matin de printemps", "IMSLP: Durand, Paris 1922 (D. & F. 10095); composed 1917-18"),
+    ("no opus", "D'un soir triste (piano trio)", 1993, IN, r"soir triste", "IMSLP: trio version first published 1993 (other versions later); composed 1917-18; the duo version is not separately checked"),
+    ("no opus", "Les sirènes (mezzo-soprano and female chorus)", 1918, IN, r"sirenes", "IMSLP: Ricordi, Paris 1918 (R 32); composed 1911"),
+    ("no opus", "Reflets (voice and piano)", 1919, IN, r"reflets", "IMSLP: Ricordi, Paris 1919 (R. 563); composed 1911"),
+    ("no opus", "Attente (voice and piano)", 1918, IN, r"attente", "IMSLP: Ricordi, Paris 1918 (R. 535); composed 1910 or earlier"),
+    ("no opus", "Thème et variations (piano)", 1993, IN, r"theme et variations|theme and variations", "IMSLP: Chromatica Press (ed. Selma Epstein), 1993; composed 1911-14"),
+    # Not imported: no first-publication year on IMSLP (manuscripts or sketches)
+    ("LB 5", "Pièce (violin or flute and piano)", None, UNV, r"\bpiece\b", "IMSLP: manuscript 1910 only; no first-publication field; not imported"),
+    ("no opus", "Pendant la tempête (male chorus and piano)", None, UNV, r"pendant la tempete", "IMSLP: manuscript 1912 only; no first-publication field; not imported"),
+    ("LB 27", "Fugue (four voices)", None, UNV, r"fugue", "IMSLP: manuscript 1913 only; no first-publication field; not imported"),
+    ("no opus", "Prelude in B major (piano)", None, UNV, r"prelude in b major|prelude b major", "IMSLP: manuscript 1911 only; not imported"),
+    ("no opus", "Prelude in D-flat major (piano)", None, UNV, r"prelude in d flat|prelude d flat", "IMSLP: manuscript 1911 only; not imported"),
+    ("no opus", "Sous-bois (chorus)", None, UNV, r"sous bois", "IMSLP: manuscript 1911 only; not imported"),
+    ("no opus", "La Source (chorus and orchestra)", None, UNV, r"\bla source\b", "IMSLP: manuscript 1912 only; not imported"),
+    ("no opus", "Le Retour (voice and piano)", None, UNV, r"le retour", "IMSLP: manuscript 1912 only; not imported"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1268,5 +1301,11 @@ COMPOSERS = {
         "catalogue": "Op. (Chausson's opus numbers) and the no-opus titles", "rows": CHAUSSON,
         "prefix": "chausson", "genre": "classical", "era": "Late Romantic (French)",
         "scope_note": "Fully PD (died 1899): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: Quelques danses Op.26, Paysage Op.38, Poème Op.25 and Concert Op.21 first, then the Symphony Op.20, Viviane Op.5, Piano Quartet Op.30, String Quartet Op.35, Pièce Op.39 and 5 Fantaisies Op.1. Vocal works are not on the checklist (the mélodies Op.2/8/13/24/27/34/36, Poème de l'amour et de la mer Op.19, Chanson perpétuelle Op.37, the 2 Duos Op.11, Ballata Op.29, La légende de Sainte Cécile Op.22), nor the opera Le roi Arthus Op.23, La tempête Op.18 (incidental music) or the sketches. Paysage's publisher gives only n.d. (ca.1910), so its year is approximate. Works with no confirmed first-publication year (Piano Trio Op.3 with IMSLP '1919 ?', the early piano sonatinas and fugues, Marche militaire, Andante and Allegro, Soir de fête) are unverified and not imported.",
+    },
+    "boulanger": {
+        "name": "Lili Boulanger", "canon": "lili boulanger", "death": 1918, "birth": 1893,
+        "catalogue": "LB numbers where IMSLP gives them, and the no-opus titles", "rows": BOULANGER,
+        "prefix": "boulanger", "genre": "classical", "era": "Early 20th century (French)",
+        "scope_note": "Fully PD (died 1918): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 is not a gate here. Vocal and orchestral works first (Faust et Hélène, the Psaumes XXIV, CXXIX and CXXX, Vieille prière bouddhique, Pie Jesu, Soir sur la plaine, Pour les funérailles d'un soldat, Hymne au soleil, Renouveau, Dans l'immense tristesse), then the piano and song pieces (3 Morceaux, Nocturne, Clairières dans le ciel, D'un matin de printemps, D'un soir triste, Les sirènes, Reflets, Attente, Thème et variations). Works with no first-publication field on IMSLP (Pièce LB 5, Pendant la tempête, Fugue LB 27, the preludes, Sous-bois, La Source, Le Retour) are unverified and not imported. Nadia Boulanger (1887-1979) is a different composer and is not matched. The violin versions of Nocturne and Cortège (2 Pieces, Schirmer 1918) are not a separate row.",
     },
 }

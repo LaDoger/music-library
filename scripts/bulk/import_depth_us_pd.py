@@ -52,6 +52,7 @@ NAME_RX = {
     "falla": r"\bfalla\b",
     "granados": r"\benrique granados\b|\bgranados enrique\b",
     "albeniz": r"\balbeniz|\balbenez|\balbenis|\balbeniz isaac|\bisaac albeniz",  # PDMX spellings (accents folded by norm())
+    "boulanger": r"\blili boulanger\b|\bboulanger lili\b|\bl boulanger\b",  # Nadia Boulanger (1887-1979) is a different composer: never match "nadia"
     "chausson": r"\bchausson\b",  # PDMX/Mutopia: "Ernest Chausson", "E. Chausson"
     "chabrier": r"\bchabrier\b",  # PDMX/Mutopia: "Emmanuel Chabrier", "E. Chabrier", "ChabrierEA" (accents folded by norm())
     "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
@@ -181,6 +182,7 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
+        "3 Morceaux", "Clairières",  # Boulanger: the three piano pieces and the song cycle (file titles kept)
         "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34",
         "Op.5", "Op.14",  # Roussel piano sets (Rustiques, Suite)
         "BV 249", "BV 267",  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)

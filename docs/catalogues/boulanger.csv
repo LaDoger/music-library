@@ -1,0 +1,29 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+no opus,"Faust et Hélène (cantata, mezzo, tenor, baritone and orchestra)",1913,in-scope,,0,,,"IMSLP: Ricordi, Paris 1913 (R.1); composed 1913, Prix de Rome cantata"
+no opus,Psaume XXIV (chorus and orchestra),1924,in-scope,,0,,,"IMSLP: Durand, Paris 1924 (D. & F. 10488); composed 1916, Rome"
+no opus,Psaume CXXIX (chorus and orchestra),1921,in-scope,,0,,,"IMSLP: Durand, Paris 1921 (D. & F. 10084); composed 1916"
+no opus,Psaume CXXX (chorus and orchestra),1924,in-scope,,0,,,"IMSLP: Durand, Paris 1924 (vocal score), 1925 (full score); composed 1914-17"
+no opus,"Vieille prière bouddhique (tenor, chorus and orchestra)",1921,in-scope,,0,,,"IMSLP: Durand, Paris 1921 (D. & F. 10090); composed 1914-17"
+no opus,Pie Jesu (voice and orchestra or organ),1922,in-scope,yes,1,boulanger_pie_jesu_by_lili_boulanger,pdmx,"IMSLP: Durand, Paris 1922 (D. & F. 10086); composed January-March 1918"
+no opus,"Soir sur la plaine (soprano, tenor, two choruses and orchestra)",1918,in-scope,yes,1,boulanger_soir_sur_la_plaine_by_lili_b,pdmx,"IMSLP: Ricordi, Paris 1918 (R. 530); composed 1913"
+no opus,"Pour les funérailles d'un soldat (baritone, chorus and orchestra)",1918,in-scope,,0,,,"IMSLP: Ricordi, Paris 1918 (R. 111); composed 1912"
+no opus,"Hymne au soleil (contralto, chorus and piano)",1919,in-scope,,0,,,"IMSLP: Ricordi, Paris 1919 (R. 33); composed 1912"
+no opus,Renouveau (chorus and piano),1919,in-scope,,0,,,"IMSLP: Ricordi, Paris 1919 (R. 35); composed 1911"
+no opus,Dans l'immense tristesse (voice and piano),1919,in-scope,yes,1,boulanger_dans_l_immense_tristesse,openscore-lieder,"IMSLP: Ricordi, Paris 1919 (R. 484); composed 1916"
+3 Morceaux,"3 Morceaux (piano): D'un vieux jardin, D'un jardin clair, Cortège",1918,in-scope,yes,2,boulanger_cortege_for_piano_lili_boula boulanger_d_un_vieux_jardin_lili_boula,pdmx,"IMSLP: Ricordi, Paris 1918 (R. 531) and Schirmer, New York 1918; composed 1914; Cortège violin version 1918"
+no opus,Nocturne (piano),1918,in-scope,yes,1,boulanger_nocturne_from_two_pieces_for,pdmx,"IMSLP: Ricordi, Paris 1918 (R. 532); composed 1911"
+Clairières,Clairières dans le ciel (song cycle),1919,in-scope,yes,13,boulanger_no_05_au_pied_de_mon_lit boulanger_no_13_demain_fera_un_an boulanger_no_10_deux_ancolies boulanger_no_02_elle_est_gravement_gai boulanger_no_01_elle_etait_descendue_a boulanger_no_12_je_garde_une_medaille,openscore-lieder,"IMSLP: Ricordi, Paris 1919 (R. 428); composed 1913-14"
+no opus,D'un matin de printemps (flute or violin and piano),1922,in-scope,,0,,,"IMSLP: Durand, Paris 1922 (D. & F. 10095); composed 1917-18"
+no opus,D'un soir triste (piano trio),1993,in-scope,,0,,,IMSLP: trio version first published 1993 (other versions later); composed 1917-18; the duo version is not separately checked
+no opus,Les sirènes (mezzo-soprano and female chorus),1918,in-scope,,0,,,"IMSLP: Ricordi, Paris 1918 (R 32); composed 1911"
+no opus,Reflets (voice and piano),1919,in-scope,yes,1,boulanger_reflets,openscore-lieder,"IMSLP: Ricordi, Paris 1919 (R. 563); composed 1911"
+no opus,Attente (voice and piano),1918,in-scope,yes,1,boulanger_attente,openscore-lieder,"IMSLP: Ricordi, Paris 1918 (R. 535); composed 1910 or earlier"
+no opus,Thème et variations (piano),1993,in-scope,,0,,,"IMSLP: Chromatica Press (ed. Selma Epstein), 1993; composed 1911-14"
+LB 5,Pièce (violin or flute and piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1910 only; no first-publication field; not imported
+no opus,Pendant la tempête (male chorus and piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1912 only; no first-publication field; not imported
+LB 27,Fugue (four voices),,unverified-pub,n/a,0,,,IMSLP: manuscript 1913 only; no first-publication field; not imported
+no opus,Prelude in B major (piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1911 only; not imported
+no opus,Prelude in D-flat major (piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1911 only; not imported
+no opus,Sous-bois (chorus),,unverified-pub,n/a,0,,,IMSLP: manuscript 1911 only; not imported
+no opus,La Source (chorus and orchestra),,unverified-pub,n/a,0,,,IMSLP: manuscript 1912 only; not imported
+no opus,Le Retour (voice and piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1912 only; not imported
