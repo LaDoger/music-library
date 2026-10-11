@@ -1,0 +1,2342 @@
+{
+  "meta": {
+    "id": "satie_gymnopedie_1",
+    "parent_item_id": "satie_gymnopedie_1",
+    "title": "Gymnopédie No. 1",
+    "composer": "Erik Satie",
+    "source_file": "files/scores/satie_gymnopedie_1.mid",
+    "quarter_range": [
+      0,
+      141.0
+    ],
+    "bar_quarters": 3.0,
+    "time_signature": "3/4",
+    "key": "D",
+    "tempo": 60.0,
+    "midi_play_url": "files/scores/satie_gymnopedie_1.mid",
+    "source_licence": "PD",
+    "notation_notes": "Mutopia MIDI (PD edition, piece 37): 47 bars of 3/4 from quarter 0, no pickup, MIDI tempo 60 per quarter, key signature 2 sharps. The MIDI does NOT unfold the repeat: bars 1–39 are the first half with its first ending (bars 32–39, closing on D major), and bars 40–47 follow directly as the second ending (printed bars 71–78 in a written-out edition, closing on D minor). The repeated bars 1–31 are not played a second time. Bars 9–12 carry an F#4 quarter on beat 1 in the treble track (doubling the chord's F#4); not checked against a printed edition. Texture throughout: bass dotted half on beat 1, chord on beats 2–3, melody above. MIDI-derived score, not an Urtext.",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37",
+    "suggested_arrangement_tempo": 60,
+    "sustain_events": []
+  },
+  "draft": false,
+  "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+  "summary": "D major, 3/4, slow (quarter = 60). Every bar is bass on beat 1 and a chord on beats 2–3, one harmony per bar. A four-bar Gmaj7–Dmaj7 sway (IVmaj7–Imaj7, F#4 common in both) carries the theme (bars 5–12, restated 13–21). The bass then steps out (iii–vi–ii) to a borrowed D minor (bar 21). A second melody (22–31) sits over a nine-bar D pedal that alternates Em7, Am (minor v), D7 and Dm7. The first ending (32–39) closes with Mixolydian v7 → I. In this MIDI the repeat is not unfolded: the second ending (40–47) follows straight away and turns to D minor over an E pedal, ending v7 → i.",
+  "sections": [
+    {
+      "name": "Intro",
+      "start_bar": 1,
+      "end_bar": 4,
+      "mood": [
+        "still",
+        "hypnotic"
+      ],
+      "description": "Gmaj7–Dmaj7 sway alone."
+    },
+    {
+      "name": "A: theme",
+      "start_bar": 5,
+      "end_bar": 12,
+      "mood": [
+        "wistful",
+        "gentle"
+      ],
+      "description": "Melody F#–A–G–F#–C#–B–C#–D–A over the sway, held A4 to bar 12; plagal close at bar 8."
+    },
+    {
+      "name": "A': theme and continuation",
+      "start_bar": 13,
+      "end_bar": 21,
+      "mood": [
+        "wistful",
+        "searching"
+      ],
+      "description": "Bars 13–16 repeat the theme; bass moves F#–B–E–E–D (iii–vi–ii–ii7–borrowed i). Nine-bar phrase ending on held E4 over Dm(add9)."
+    },
+    {
+      "name": "B: second melody over D pedal",
+      "start_bar": 22,
+      "end_bar": 31,
+      "mood": [
+        "melancholy",
+        "floating"
+      ],
+      "description": "Two five-bar phrases (22–26, 27–31) over a tonic pedal from bar 23; Em7/D, Am/D, D7 and Dm7 mix major and minor tonic colour."
+    },
+    {
+      "name": "Close (first ending)",
+      "start_bar": 32,
+      "end_bar": 39,
+      "mood": [
+        "lifting",
+        "resolved"
+      ],
+      "description": "Bass E–F#–B–E pedal, melody rises to E5, ii9 → v7 → I in D major."
+    },
+    {
+      "name": "Close (second ending)",
+      "start_bar": 40,
+      "end_bar": 47,
+      "mood": [
+        "darkening",
+        "resigned"
+      ],
+      "description": "Same start as bar 32, then F natural, E pedal under Dm/E, Fmaj7/E, Am/E; Em7(b9) → Am7 → Dm."
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "labels": [
+        "still",
+        "hypnotic"
+      ]
+    },
+    {
+      "start_bar": 5,
+      "end_bar": 21,
+      "labels": [
+        "wistful",
+        "gentle"
+      ]
+    },
+    {
+      "start_bar": 22,
+      "end_bar": 31,
+      "labels": [
+        "melancholy",
+        "floating"
+      ]
+    },
+    {
+      "start_bar": 32,
+      "end_bar": 39,
+      "labels": [
+        "lifting",
+        "resolved"
+      ]
+    },
+    {
+      "start_bar": 40,
+      "end_bar": 47,
+      "labels": [
+        "darkening",
+        "resigned"
+      ]
+    }
+  ],
+  "tricks": [
+    "Bars 1–16: only two chords, Gmaj7 and Dmaj7, one per bar. They share F#4, so the right-hand chord barely changes while the bass swings G2–D2.",
+    "Bass on beat 1, chord on beats 2–3: the whole piece uses this slow waltz texture with about two octaves of empty space between bass and chord.",
+    "Bar 6: melody C#5 over Dmaj7 puts the major seventh on top, the piece's signature colour.",
+    "No leading note at the cadences: minor v (Am, Am7) replaces V in bars 22, 25, 28, 30, 38 and 46.",
+    "Bars 21 and 27: D minor appears right next to D major (borrowed i, i7), so the mode keeps shifting under the same bass.",
+    "Bars 23–31: nine bars of tonic pedal D2 under Em7, Am, D7 and Dm7.",
+    "Bars 40–47: the second ending replays the first-ending shape with F natural over an E pedal and closes in D minor."
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "why": "Gmaj7–Dmaj7 ×2 with no melody; bar 4 Dmaj7 returns to bar 1 Gmaj7 exactly as in the piece.",
+      "quarter_range": [
+        0,
+        12
+      ]
+    },
+    {
+      "start_bar": 5,
+      "end_bar": 12,
+      "why": "Full theme over the sway; bar 12 Dmaj7 → bar 5 Gmaj7 is the written return (bars 12 → 13).",
+      "quarter_range": [
+        12,
+        36
+      ]
+    },
+    {
+      "start_bar": 23,
+      "end_bar": 26,
+      "why": "Em7/D–Em7/D–Am/D–D7 over the D pedal; D7 back to Em7/D keeps the pedal, but the melody seam needs listening.",
+      "quarter_range": [
+        66,
+        78
+      ],
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 5,
+      "end_bar": 8,
+      "why": "The famous opening melody F#–A | G–F#–C# | B–C#–D | A over IVmaj7–Imaj7.",
+      "quarter_range": [
+        12,
+        24
+      ]
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "Gmaj7 → Dmaj7 bass-and-chord cell; recognisable without the melody.",
+      "quarter_range": [
+        0,
+        6
+      ]
+    },
+    {
+      "start_bar": 38,
+      "end_bar": 39,
+      "why": "Am7 → D modal cadence (first ending close).",
+      "quarter_range": [
+        111,
+        117
+      ]
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Bars 1–4 / 5–12: the Gmaj7–Dmaj7 sway at quarter = 60 (or double-time feel at 120) gives a soft bed with a lot of room for a vocal."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 17–21: bass steps F#m–Bm–Em–Em7 to borrowed Dm(add9) under one held note; the shift to minor builds tension before a chorus."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 22–31: D pedal with Em7, Am, D7 and Dm7 mixing major and minor; suits a hazy, floating bridge."
+    },
+    {
+      "where": "chorus",
+      "why": "Bars 32–39 as an outro or final line: rising melody and Am7 → D close without a leading note. Bars 40–47 give a darker minor ending. There is no key lift in the source."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 1,
+      "reason": "Draft split each bar into a \"?\" bass beat and a beats-2–3 chord. The bass dotted half sounds under the chord, so one chord per bar from beat 1 is used."
+    },
+    {
+      "bar": 1,
+      "reason": "Tempo set to the MIDI value (quarter = 60); the draft said 100."
+    },
+    {
+      "bar": 33,
+      "reason": "Draft key change D → A at bar 33 removed: no G# and no E–A cadence; A/E (bar 35) moves to iii42, not I. Read as D major through bar 39."
+    },
+    {
+      "bar": 40,
+      "reason": "The MIDI does not unfold the repeat: bars 40–47 (second ending) follow bar 39 directly, and the repeat of bars 1–31 is missing. Bar numbers 40–47 here = printed 71–78 in a written-out edition."
+    },
+    {
+      "bar": 40,
+      "reason": "D → d treated as a modulation for the second ending, since the piece ends in D minor. Bar 40 itself has no F; the F natural arrives at bar 41. A modal-mixture reading (D Dorian/Aeolian close) is also possible."
+    },
+    {
+      "bar": 25,
+      "reason": "Am/D (bars 25, 28, 30) could also be named D7sus2 (D–E–A–C); music21 has no 7sus2 symbol, so it is labelled as minor v over the tonic pedal."
+    },
+    {
+      "bar": 9,
+      "reason": "Bars 9–12: treble F#4 quarter on beat 1 doubles the chord F#4; source detail not checked against print."
+    },
+    {
+      "bar": 39,
+      "reason": "Cadences in bars 39 and 47 are v7 → I/i with no leading note, so they are labelled tonic_close, not PAC/IAC. Draft IAC/HC candidates in bars 26, 28, 31, 38, 40 and 46 removed (no V present)."
+    }
+  ],
+  "schema_version": 1,
+  "bars": [
+    {
+      "bar": 1,
+      "start_quarter": 0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "intro",
+          "text": "Intro bars 1–4: Gmaj7–Dmaj7 alternation alone"
+        },
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a slow two-chord sway with no melody"
+        },
+        {
+          "type": "hook",
+          "technique": "harmonic_cell",
+          "text": "Gmaj7 ↔ Dmaj7 (IVmaj7–Imaj7) one chord per bar: the signature two-bar cell"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "open_spacing",
+          "text": "Low bass on beat 1 (G2/D2), close chord B3–D4–F#4 / A3–C#4–F#4 on beats 2–3: about two octaves of space between them"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_inner",
+          "text": "F#4 sits in every beat-2 chord from bar 1 to bar 18 (Gmaj7, Dmaj7, F#m, Bm)"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 3.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "start_quarter": 6.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 4,
+      "start_quarter": 9.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 5,
+      "start_quarter": 12.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant; melody A5 on beat 3 is an added ninth"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Theme bars 5–12: melody enters on beat 2"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "F#5–A5 | G5–F#5–C#5 | B4–C#5–D5 | A4: the falling-and-rising melody over the IV–I sway",
+          "beat": 2
+        },
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "Melody A5 adds the ninth to Gmaj7",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 15.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "Melody C#5 on beat 3 over Dmaj7 doubles the major seventh, the piece's signature colour",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 7,
+      "start_quarter": 18.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 8,
+      "start_quarter": 21.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "plagal",
+          "text": "IVmaj7 → Imaj7 with the melody held on A4 (5̂): soft plagal phrase close"
+        },
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the sway continues under the held note (bars 8–12)"
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "start_quarter": 24.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 10,
+      "start_quarter": 27.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 11,
+      "start_quarter": 30.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 12,
+      "start_quarter": 33.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 13,
+      "start_quarter": 36.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant; melody A5 on beat 3 is an added ninth"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Theme restated (bars 13–21) exactly as bars 5–8, then it continues"
+        },
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bars 13–16 repeat bars 5–8 note for note"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "start_quarter": 39.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 15,
+      "start_quarter": 42.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Gmaj7",
+          "rn": "IVmaj7",
+          "function": "subdominant major seventh; F#4 common tone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 45.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmaj7",
+          "rn": "Imaj7",
+          "function": "tonic major seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 17,
+      "start_quarter": 48.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#m",
+          "rn": "iii",
+          "function": "mediant; melody C#5"
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the IV–I sway breaks; the bass steps out to F#, B, E"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "phrase_length",
+          "text": "Phrase 13–21 is nine bars: four-bar melody plus a five-bar continuation ending on the held E4"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "start_quarter": 51.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Bm",
+          "rn": "vi",
+          "function": "submediant; melody F#5, phrase high point"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "climax",
+          "text": "Melody F#5 over Bm, highest note of this phrase; held a full bar"
+        }
+      ]
+    },
+    {
+      "bar": 19,
+      "start_quarter": 54.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em",
+          "rn": "ii",
+          "function": "supertonic; melody E4 held"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "oblique_motion",
+          "text": "E4 held for three bars (19–21) while the harmony moves Em → Em7 → Dm(add9)"
+        }
+      ]
+    },
+    {
+      "bar": 20,
+      "start_quarter": 57.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7",
+          "rn": "ii7",
+          "function": "supertonic seventh; E4 still held"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 21,
+      "start_quarter": 60.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dmadd9",
+          "rn": "i(add9) (mixture)",
+          "function": "borrowed tonic minor; held E4 becomes the ninth"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "D minor (F natural) borrowed from the parallel minor; held E4 becomes its ninth"
+        },
+        {
+          "type": "cadence",
+          "technique": "open_phrase",
+          "text": "Phrase ends on borrowed i(add9) with melody on 2̂; harmony left open"
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "start_quarter": 63.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am",
+          "rn": "v",
+          "function": "minor dominant (Mixolydian colour, no C#)"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_2",
+          "text": "Second melody bars 22–31 (A–B–C, E–D–B…) in the middle register"
+        },
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "Minor v (A–C–E, no C#): Mixolydian dominant used here and in bars 25, 28, 30, 38"
+        }
+      ]
+    },
+    {
+      "bar": 23,
+      "start_quarter": 66.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7/D",
+          "rn": "ii42 / I pedal",
+          "function": "supertonic seventh over tonic pedal"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_tonic",
+          "text": "D2 bass on every downbeat bars 23–31 under Em7, Am, D7 and Dm7"
+        },
+        {
+          "type": "bass_line",
+          "technique": "pedal",
+          "text": "Tonic pedal D2, bars 23–31"
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "start_quarter": 69.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7/D",
+          "rn": "ii42 / I pedal",
+          "function": "same; melody D–C–B"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 25,
+      "start_quarter": 72.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am/D",
+          "rn": "v / I pedal",
+          "function": "minor dominant triad over tonic pedal (sounds D7sus2)"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 26,
+      "start_quarter": 75.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "D7",
+          "rn": "I7",
+          "function": "tonic with flat seventh; V7/IV implied, not resolved"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "open_phrase",
+          "text": "Phrase 22–26 ends on D7 (melody D5): tonic with flat seventh, no resolution to IV"
+        }
+      ]
+    },
+    {
+      "bar": 27,
+      "start_quarter": 78.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dm7",
+          "rn": "i7 (mixture)",
+          "function": "borrowed minor tonic seventh; melody E–F–G passing"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "Dm7 (F natural) directly after D7: major/minor tonic exchange over the pedal"
+        },
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "Bars 27–28 restate the bar 22–23 melodic shape a step higher (E–F–G, A–C–D)"
+        }
+      ]
+    },
+    {
+      "bar": 28,
+      "start_quarter": 81.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am/D",
+          "rn": "v / I pedal",
+          "function": "minor dominant over tonic pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 29,
+      "start_quarter": 84.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7/D",
+          "rn": "ii42 / I pedal",
+          "function": "supertonic seventh over tonic pedal"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bars 29–31 repeat bars 24–26 (Em7/D, Am/D, D7)"
+        }
+      ]
+    },
+    {
+      "bar": 30,
+      "start_quarter": 87.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am/D",
+          "rn": "v / I pedal",
+          "function": "minor dominant over tonic pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 31,
+      "start_quarter": 90.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "D7",
+          "rn": "I7",
+          "function": "tonic with flat seventh; moves to ii, not IV"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "open_phrase",
+          "text": "Phrase 27–31 ends on D7 again, then moves to ii"
+        }
+      ]
+    },
+    {
+      "bar": 32,
+      "start_quarter": 93.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em",
+          "rn": "ii",
+          "function": "supertonic; first ending begins, melody G5"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_tail",
+          "text": "First ending bars 32–39: rising scale melody to the close"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: the bass leaves the pedal and steps E–F#–B; melody climbs C#–D–E toward the cadence"
+        }
+      ]
+    },
+    {
+      "bar": 33,
+      "start_quarter": 96.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#m",
+          "rn": "iii",
+          "function": "mediant; melody F#5"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 34,
+      "start_quarter": 99.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Bm",
+          "rn": "vi",
+          "function": "submediant; melody B–A–B"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 35,
+      "start_quarter": 102.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "A/E",
+          "rn": "V64",
+          "function": "dominant 6/4 over E bass; passes on to iii42, not cadential"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "pedal",
+          "text": "E2 bass in bars 35–37 under A/E, F#m7/E, Em9"
+        }
+      ]
+    },
+    {
+      "bar": 36,
+      "start_quarter": 105.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#m7/E",
+          "rn": "iii42",
+          "function": "mediant seventh over E bass"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 37,
+      "start_quarter": 108.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em9",
+          "rn": "ii9",
+          "function": "supertonic ninth over E pedal; F#4 held above, inner voices move on beats 2–3"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "F#4 held over the Em7 inner voices: ninth"
+        }
+      ]
+    },
+    {
+      "bar": 38,
+      "start_quarter": 111.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am7",
+          "rn": "v7",
+          "function": "minor dominant seventh (no C#)"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 39,
+      "start_quarter": 114.0,
+      "duration_quarters": 3.0,
+      "key": "D",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "D",
+          "rn": "I",
+          "function": "tonic, end of first ending"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "Am7 (v7) → D (I): modal cadence without leading note; melody ends D5"
+        }
+      ]
+    },
+    {
+      "bar": 40,
+      "start_quarter": 117.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em",
+          "rn": "ii",
+          "function": "second ending: same opening as bar 32"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "coda",
+          "text": "Second ending bars 40–47 (follows bar 39 directly in this MIDI): same start as bar 32, then turns to D minor"
+        },
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "Second ending moves from D major to D minor; F natural enters at bar 41 and the piece ends on Dm",
+          "from_key": "D",
+          "to_key": "d"
+        },
+        {
+          "type": "bass_line",
+          "technique": "pedal",
+          "text": "E2 bass held on every downbeat bars 40–45"
+        }
+      ]
+    },
+    {
+      "bar": 41,
+      "start_quarter": 120.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dm/E",
+          "rn": "i / E pedal",
+          "function": "tonic minor over E pedal; F natural enters (melody F5)"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 42,
+      "start_quarter": 123.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Fmaj7/E",
+          "rn": "III42",
+          "function": "mediant major seventh over E pedal"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bars 42–44 repeat the bar 34–36 melodic shape (B–C–F, E–D–C ×2) recoloured with F natural"
+        }
+      ]
+    },
+    {
+      "bar": 43,
+      "start_quarter": 126.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am/E",
+          "rn": "v64",
+          "function": "minor dominant 6/4 over E pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 44,
+      "start_quarter": 129.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Fmaj7/E",
+          "rn": "III42",
+          "function": "mediant major seventh over E pedal"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 45,
+      "start_quarter": 132.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7b9",
+          "rn": "ii7(b9)",
+          "function": "Dorian ii7 (B natural) with held F4 as flat ninth; E pedal ends"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "Held F4 over Em7: flat ninth, the D-minor version of bar 37's F#"
+        }
+      ]
+    },
+    {
+      "bar": 46,
+      "start_quarter": 135.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am7",
+          "rn": "v7",
+          "function": "minor dominant seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 47,
+      "start_quarter": 138.0,
+      "duration_quarters": 3.0,
+      "key": "d",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dm",
+          "rn": "i",
+          "function": "final tonic, D minor"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "Am7 (v7) → Dm (i): modal close in D minor, melody D5"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: the same close now in minor; the piece ends darker than it began"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "bass_line:pedal",
+    "cadence:open_phrase",
+    "cadence:plagal",
+    "cadence:tonic_close",
+    "colour_chord:added_note",
+    "colour_chord:borrowed",
+    "counterpoint:oblique_motion",
+    "form:coda",
+    "form:intro",
+    "form:theme_1",
+    "form:theme_2",
+    "form:theme_tail",
+    "hook:harmonic_cell",
+    "hook:melodic_cell",
+    "modulation:direct_phrase_modulation",
+    "motif:repetition",
+    "motif:sequence",
+    "rhythm_phrase:phrase_length",
+    "story:arrival",
+    "story:continuation",
+    "story:start",
+    "story:turn",
+    "tension_release:pedal_point_inner",
+    "tension_release:pedal_point_tonic",
+    "texture_dynamics:climax",
+    "voicing_orchestration:open_spacing"
+  ],
+  "modulations": [
+    {
+      "bar": 40,
+      "type": "modulation",
+      "technique": "direct_phrase_modulation",
+      "text": "Second ending moves from D major to D minor; F natural enters at bar 41 and the piece ends on Dm",
+      "from_key": "D",
+      "to_key": "d"
+    }
+  ],
+  "verification": {
+    "music21_version": "10.5.0",
+    "method": "original MIDI; all tracks, CC64 sustain releases, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70",
+    "chord_note_match_pct": 100.0,
+    "labelled_spans": 47,
+    "matched_spans": 47,
+    "unknown_spans": 0,
+    "total_spans": 47,
+    "labelled_span_pct": 100.0,
+    "flagged_bars": [
+      {
+        "bar": 1,
+        "reason": "Draft split each bar into a \"?\" bass beat and a beats-2–3 chord. The bass dotted half sounds under the chord, so one chord per bar from beat 1 is used."
+      },
+      {
+        "bar": 1,
+        "reason": "Tempo set to the MIDI value (quarter = 60); the draft said 100."
+      },
+      {
+        "bar": 33,
+        "reason": "Draft key change D → A at bar 33 removed: no G# and no E–A cadence; A/E (bar 35) moves to iii42, not I. Read as D major through bar 39."
+      },
+      {
+        "bar": 40,
+        "reason": "The MIDI does not unfold the repeat: bars 40–47 (second ending) follow bar 39 directly, and the repeat of bars 1–31 is missing. Bar numbers 40–47 here = printed 71–78 in a written-out edition."
+      },
+      {
+        "bar": 40,
+        "reason": "D → d treated as a modulation for the second ending, since the piece ends in D minor. Bar 40 itself has no F; the F natural arrives at bar 41. A modal-mixture reading (D Dorian/Aeolian close) is also possible."
+      },
+      {
+        "bar": 25,
+        "reason": "Am/D (bars 25, 28, 30) could also be named D7sus2 (D–E–A–C); music21 has no 7sus2 symbol, so it is labelled as minor v over the tonic pedal."
+      },
+      {
+        "bar": 9,
+        "reason": "Bars 9–12: treble F#4 quarter on beat 1 doubles the chord F#4; source detail not checked against print."
+      },
+      {
+        "bar": 39,
+        "reason": "Cadences in bars 39 and 47 are v7 → I/i with no leading note, so they are labelled tonic_close, not PAC/IAC. Draft IAC/HC candidates in bars 26, 28, 31, 38, 40 and 46 removed (no V present)."
+      }
+    ],
+    "spans": [
+      {
+        "bar": 1,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 0,
+        "end_quarter": 3.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 2.0,
+          "7": 3.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 2,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 3.0,
+        "end_quarter": 6.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 3,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 6.0,
+        "end_quarter": 9.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 2.0,
+          "7": 3.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 4,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 9.0,
+        "end_quarter": 12.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 5,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 12.0,
+        "end_quarter": 15.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 3.0,
+          "7": 3.0,
+          "9": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.90909
+      },
+      {
+        "bar": 6,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 15.0,
+        "end_quarter": 18.0,
+        "sounding_pc_weights": {
+          "1": 3.0,
+          "2": 3.0,
+          "6": 3.0,
+          "7": 1.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 7,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 18.0,
+        "end_quarter": 21.0,
+        "sounding_pc_weights": {
+          "1": 1.0,
+          "2": 3.0,
+          "6": 2.0,
+          "7": 3.0,
+          "11": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 8,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 21.0,
+        "end_quarter": 24.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 2.0,
+          "9": 5.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 9,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 24.0,
+        "end_quarter": 27.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 3.0,
+          "7": 3.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 10,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 27.0,
+        "end_quarter": 30.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 3.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 11,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 30.0,
+        "end_quarter": 33.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 3.0,
+          "7": 3.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 12,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 33.0,
+        "end_quarter": 36.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 3.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 13,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 36.0,
+        "end_quarter": 39.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 3.0,
+          "7": 3.0,
+          "9": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.90909
+      },
+      {
+        "bar": 14,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 39.0,
+        "end_quarter": 42.0,
+        "sounding_pc_weights": {
+          "1": 3.0,
+          "2": 3.0,
+          "6": 3.0,
+          "7": 1.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 15,
+        "beat": 1,
+        "symbol": "Gmaj7",
+        "start_quarter": 42.0,
+        "end_quarter": 45.0,
+        "sounding_pc_weights": {
+          "1": 1.0,
+          "2": 3.0,
+          "6": 2.0,
+          "7": 3.0,
+          "11": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 16,
+        "beat": 1,
+        "symbol": "Dmaj7",
+        "start_quarter": 45.0,
+        "end_quarter": 48.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "2": 3.0,
+          "6": 2.0,
+          "9": 5.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 17,
+        "beat": 1,
+        "symbol": "F#m",
+        "start_quarter": 48.0,
+        "end_quarter": 51.0,
+        "sounding_pc_weights": {
+          "1": 5.0,
+          "6": 5.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 1,
+        "symbol": "Bm",
+        "start_quarter": 51.0,
+        "end_quarter": 54.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 5.0,
+          "11": 5.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 19,
+        "beat": 1,
+        "symbol": "Em",
+        "start_quarter": 54.0,
+        "end_quarter": 57.0,
+        "sounding_pc_weights": {
+          "4": 6.0,
+          "7": 2.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 20,
+        "beat": 1,
+        "symbol": "Em7",
+        "start_quarter": 57.0,
+        "end_quarter": 60.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "4": 6.0,
+          "7": 2.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 21,
+        "beat": 1,
+        "symbol": "Dmadd9",
+        "start_quarter": 60.0,
+        "end_quarter": 63.0,
+        "sounding_pc_weights": {
+          "2": 5.0,
+          "4": 3.0,
+          "5": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 1,
+        "symbol": "Am",
+        "start_quarter": 63.0,
+        "end_quarter": 66.0,
+        "sounding_pc_weights": {
+          "0": 3.0,
+          "4": 2.0,
+          "9": 6.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 23,
+        "beat": 1,
+        "symbol": "Em7/D",
+        "start_quarter": 66.0,
+        "end_quarter": 69.0,
+        "sounding_pc_weights": {
+          "2": 4.0,
+          "4": 3.0,
+          "7": 2.0,
+          "11": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 24,
+        "beat": 1,
+        "symbol": "Em7/D",
+        "start_quarter": 69.0,
+        "end_quarter": 72.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "2": 6.0,
+          "4": 2.0,
+          "7": 2.0,
+          "11": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92857
+      },
+      {
+        "bar": 25,
+        "beat": 1,
+        "symbol": "Am/D",
+        "start_quarter": 72.0,
+        "end_quarter": 75.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 8.0,
+          "4": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 26,
+        "beat": 1,
+        "symbol": "D7",
+        "start_quarter": 75.0,
+        "end_quarter": 78.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 8.0,
+          "6": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 27,
+        "beat": 1,
+        "symbol": "Dm7",
+        "start_quarter": 78.0,
+        "end_quarter": 81.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 3.0,
+          "4": 1.0,
+          "5": 3.0,
+          "7": 1.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          2,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.83333
+      },
+      {
+        "bar": 28,
+        "beat": 1,
+        "symbol": "Am/D",
+        "start_quarter": 81.0,
+        "end_quarter": 84.0,
+        "sounding_pc_weights": {
+          "0": 3.0,
+          "2": 4.0,
+          "4": 2.0,
+          "9": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 29,
+        "beat": 1,
+        "symbol": "Em7/D",
+        "start_quarter": 84.0,
+        "end_quarter": 87.0,
+        "sounding_pc_weights": {
+          "2": 6.0,
+          "4": 3.0,
+          "7": 2.0,
+          "11": 3.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 30,
+        "beat": 1,
+        "symbol": "Am/D",
+        "start_quarter": 87.0,
+        "end_quarter": 90.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 8.0,
+          "4": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 31,
+        "beat": 1,
+        "symbol": "D7",
+        "start_quarter": 90.0,
+        "end_quarter": 93.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 8.0,
+          "6": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 32,
+        "beat": 1,
+        "symbol": "Em",
+        "start_quarter": 93.0,
+        "end_quarter": 96.0,
+        "sounding_pc_weights": {
+          "4": 5.0,
+          "7": 5.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 33,
+        "beat": 1,
+        "symbol": "F#m",
+        "start_quarter": 96.0,
+        "end_quarter": 99.0,
+        "sounding_pc_weights": {
+          "1": 2.0,
+          "6": 8.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 34,
+        "beat": 1,
+        "symbol": "Bm",
+        "start_quarter": 99.0,
+        "end_quarter": 102.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "6": 2.0,
+          "9": 1.0,
+          "11": 7.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 35,
+        "beat": 1,
+        "symbol": "A/E",
+        "start_quarter": 102.0,
+        "end_quarter": 105.0,
+        "sounding_pc_weights": {
+          "1": 3.0,
+          "2": 1.0,
+          "4": 6.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 36,
+        "beat": 1,
+        "symbol": "F#m7/E",
+        "start_quarter": 105.0,
+        "end_quarter": 108.0,
+        "sounding_pc_weights": {
+          "1": 3.0,
+          "2": 1.0,
+          "4": 4.0,
+          "6": 2.0,
+          "9": 4.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92857
+      },
+      {
+        "bar": 37,
+        "beat": 1,
+        "symbol": "Em9",
+        "start_quarter": 108.0,
+        "end_quarter": 111.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "4": 4.0,
+          "6": 3.0,
+          "7": 1.0,
+          "9": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92308
+      },
+      {
+        "bar": 38,
+        "beat": 1,
+        "symbol": "Am7",
+        "start_quarter": 111.0,
+        "end_quarter": 114.0,
+        "sounding_pc_weights": {
+          "0": 6.0,
+          "4": 3.0,
+          "7": 3.0,
+          "9": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 39,
+        "beat": 1,
+        "symbol": "D",
+        "start_quarter": 114.0,
+        "end_quarter": 117.0,
+        "sounding_pc_weights": {
+          "2": 12.0,
+          "6": 3.0,
+          "9": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 40,
+        "beat": 1,
+        "symbol": "Em",
+        "start_quarter": 117.0,
+        "end_quarter": 120.0,
+        "sounding_pc_weights": {
+          "4": 5.0,
+          "7": 5.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 41,
+        "beat": 1,
+        "symbol": "Dm/E",
+        "start_quarter": 120.0,
+        "end_quarter": 123.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "4": 3.0,
+          "5": 5.0,
+          "9": 4.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 42,
+        "beat": 1,
+        "symbol": "Fmaj7/E",
+        "start_quarter": 123.0,
+        "end_quarter": 126.0,
+        "sounding_pc_weights": {
+          "0": 3.0,
+          "4": 3.0,
+          "5": 3.0,
+          "9": 2.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 43,
+        "beat": 1,
+        "symbol": "Am/E",
+        "start_quarter": 126.0,
+        "end_quarter": 129.0,
+        "sounding_pc_weights": {
+          "0": 3.0,
+          "2": 1.0,
+          "4": 6.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91667
+      },
+      {
+        "bar": 44,
+        "beat": 1,
+        "symbol": "Fmaj7/E",
+        "start_quarter": 129.0,
+        "end_quarter": 132.0,
+        "sounding_pc_weights": {
+          "0": 3.0,
+          "2": 1.0,
+          "4": 4.0,
+          "5": 2.0,
+          "9": 4.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92857
+      },
+      {
+        "bar": 45,
+        "beat": 1,
+        "symbol": "Em7b9",
+        "start_quarter": 132.0,
+        "end_quarter": 135.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "4": 4.0,
+          "5": 3.0,
+          "7": 1.0,
+          "9": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92308
+      },
+      {
+        "bar": 46,
+        "beat": 1,
+        "symbol": "Am7",
+        "start_quarter": 135.0,
+        "end_quarter": 138.0,
+        "sounding_pc_weights": {
+          "0": 6.0,
+          "4": 3.0,
+          "7": 3.0,
+          "9": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 47,
+        "beat": 1,
+        "symbol": "Dm",
+        "start_quarter": 138.0,
+        "end_quarter": 141.0,
+        "sounding_pc_weights": {
+          "2": 12.0,
+          "5": 3.0,
+          "9": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      }
+    ]
+  }
+}
