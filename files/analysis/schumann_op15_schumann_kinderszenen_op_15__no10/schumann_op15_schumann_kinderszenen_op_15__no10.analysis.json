@@ -1,0 +1,2379 @@
+{
+  "meta": {
+    "id": "schumann_op15_schumann_kinderszenen_op_15__no10",
+    "parent_item_id": "schumann_op15_schumann_kinderszenen_op_15",
+    "title": "Kinderszenen Op. 15 No. 10 'Fast zu ernst' (annotated)",
+    "composer": "Robert Schumann",
+    "source_file": "files/scores/schumann_op15_schumann_kinderszenen_op_15.mid",
+    "quarter_range": [
+      867.75,
+      928
+    ],
+    "key": "g#",
+    "time_signature": "2/4",
+    "bar_quarters": 2,
+    "pickup_quarters": 0.25,
+    "tempo": 48.0,
+    "midi_play_url": "files/scores/schumann_op15_schumann_kinderszenen_op_15.mid",
+    "source_licence": "CC0",
+    "analysis_licence": "CC0",
+    "source_page": "https://zenodo.org/records/15571083",
+    "bar_layout": [
+      {
+        "bar": 0,
+        "start_quarter": 0,
+        "duration_quarters": 0.25
+      },
+      {
+        "bar": 1,
+        "start_quarter": 0.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 2,
+        "start_quarter": 2.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 3,
+        "start_quarter": 4.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 4,
+        "start_quarter": 6.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 5,
+        "start_quarter": 8.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 6,
+        "start_quarter": 10.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 7,
+        "start_quarter": 12.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 8,
+        "start_quarter": 14.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 9,
+        "start_quarter": 16.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 10,
+        "start_quarter": 18.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 11,
+        "start_quarter": 20.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 12,
+        "start_quarter": 22.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 13,
+        "start_quarter": 24.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 14,
+        "start_quarter": 26.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 15,
+        "start_quarter": 28.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 16,
+        "start_quarter": 30.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 17,
+        "start_quarter": 32.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 18,
+        "start_quarter": 34.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 19,
+        "start_quarter": 36.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 20,
+        "start_quarter": 38.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 21,
+        "start_quarter": 40.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 22,
+        "start_quarter": 42.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 23,
+        "start_quarter": 44.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 24,
+        "start_quarter": 46.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 25,
+        "start_quarter": 48.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 26,
+        "start_quarter": 50.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 27,
+        "start_quarter": 52.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 28,
+        "start_quarter": 54.25,
+        "duration_quarters": 2
+      },
+      {
+        "bar": 29,
+        "start_quarter": 56.25,
+        "duration_quarters": 4,
+        "time_signature": "4/4"
+      }
+    ],
+    "notation_notes": "D#4 pickup checked at absolute quarter 867.75; bar 1 at 868. No. 11 starts at 928, in G. The supplied performance unfolds the 13-bar phrase twice (second statement starts at 894), followed by bars 27–28 and a 4/4 closing bar at 924. The MIDI key signature B is interpreted as G# minor, with E# and Fx spelled correctly. No score repeats are added. The empty end of the final 4/4 bar is retained.",
+    "source_licence_verification": {
+      "checked_on": "2026-10-11",
+      "source_url": "https://zenodo.org/api/records/15571083/files/PDMX.csv/content",
+      "path": "./data/1/45/QmbT7X3bFmM9tEJYaRAoRP1Gr2B2RSttYS6LU3avyVPYcy.json",
+      "metadata": "./metadata/9/4778176.json",
+      "mid": "./mid/1/45/QmbT7X3bFmM9tEJYaRAoRP1Gr2B2RSttYS6LU3avyVPYcy.mid",
+      "license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": "False",
+      "title": "Schumann - Kinderszenen Op. 15",
+      "subset:no_license_conflict": "True"
+    },
+    "quantisation_divisors": [
+      4,
+      8
+    ],
+    "suggested_arrangement_tempo": 69
+  },
+  "draft": false,
+  "reviewed_by": "MusicBot (Codex), note-level MIDI review, 2026-10-11",
+  "sections": [
+    {
+      "name": "Pickup / start",
+      "start_bar": 0,
+      "end_bar": 0,
+      "mood": [
+        "hesitant"
+      ],
+      "description": "A lone D#4 pickup, not a complete chord."
+    },
+    {
+      "name": "Theme 1",
+      "start_bar": 1,
+      "end_bar": 13,
+      "mood": [
+        "grave",
+        "unsettled"
+      ],
+      "description": "Thirteen bars, with melody and bass displaced and relative-major/dominant-minor detours."
+    },
+    {
+      "name": "Theme 1 restated",
+      "start_bar": 14,
+      "end_bar": 26,
+      "mood": [
+        "insistent",
+        "reflective"
+      ],
+      "description": "The supplied MIDI repeats the same 13-bar structure."
+    },
+    {
+      "name": "Coda / arrival",
+      "start_bar": 27,
+      "end_bar": 29,
+      "mood": [
+        "quiet",
+        "resolved"
+      ],
+      "description": "G# minor settles, then ends on an open tonic fifth in a 4/4 bar."
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 0,
+      "end_bar": 0,
+      "labels": [
+        "hesitant"
+      ]
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 13,
+      "labels": [
+        "grave",
+        "unsettled"
+      ]
+    },
+    {
+      "start_bar": 14,
+      "end_bar": 26,
+      "labels": [
+        "insistent",
+        "reflective"
+      ]
+    },
+    {
+      "start_bar": 27,
+      "end_bar": 29,
+      "labels": [
+        "quiet",
+        "resolved"
+      ]
+    }
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 0,
+      "end_bar": 13,
+      "why": "D# pickup plus 13-bar loop, per note recurrence; end at 893.75, moving the returning pickup to the seam.",
+      "quarter_range": [
+        867.75,
+        893.75
+      ],
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "Delayed upper G#–B–A# against G# and Fx bass motion."
+    },
+    {
+      "start_bar": 7,
+      "end_bar": 11,
+      "why": "A#7 → D#m, then D#7 → G#m creates the dark turn and return."
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "The displaced melody and broad bass leave a restrained narrative groove."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "A#7 → D# minor detour can build tension before a return to G# minor."
+    },
+    {
+      "where": "bridge",
+      "why": "Use the full asymmetric phrase as an instrumental bridge; keep its 13-bar length."
+    },
+    {
+      "where": "chorus",
+      "why": "Revoice the closing G# minor arrival as a sustained refrain; no literal final-chorus step-up occurs."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 10,
+      "reason": "Bar 10 diminished colour retains D-natural; interpretation above the D# pedal is uncertain. Check against a critical edition."
+    },
+    {
+      "bar": 13,
+      "reason": "Loop seam uses abs 893.75 (26 quarters), not full downbeat 894; move the pickup deliberately when arranging."
+    }
+  ],
+  "summary": "A displaced sixteenth-note song whose 13-bar span is part of the tension. The tune moves through B major and D# minor without losing the gravity of G# minor. The repeat is already written out in this MIDI; the final open fifth is a tonic ending but cannot pass a full triad check.",
+  "tricks": [
+    "The melody begins at beat 1.25 while the low bass attacks on beat 1: preserve this built-in hesitation.",
+    "The 13-bar phrase closes through the relative major and a D# dominant; a conventional 12-bar crop loses its own restart.",
+    "Low bass, broken inner notes and upper tune form distinct layers; the source MIDI is insufficient to claim canon or invertible counterpoint."
+  ],
+  "schema_version": 1,
+  "bars": [
+    {
+      "bar": 0,
+      "start_quarter": 0,
+      "duration_quarters": 0.25,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Lone D#4 pickup; third/fifth are absent."
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a solitary D# pickup"
+        }
+      ]
+    },
+    {
+      "bar": 1,
+      "start_quarter": 0.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7/G#",
+          "rn": "V7 / i pedal",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Theme 1: the 13-bar phrase"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "syncopation",
+          "text": "Melody arrives one sixteenth after the bass beat"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "phrase_length",
+          "text": "13-bar phrase; avoid rounding it to 12"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "open_spacing",
+          "text": "Low G#2 and delayed G#4 frame the inner voices"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 2.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#m7b5/G",
+          "rn": "ivø43",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "chromatic",
+          "text": "G# bass lowers to Fx (MIDI G) in the diminished sonority",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 3,
+      "start_quarter": 4.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/F#",
+          "rn": "I64",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "G# minor (i / vi) turns toward its relative major B",
+          "from_key": "g#",
+          "to_key": "B"
+        },
+        {
+          "type": "cadence",
+          "technique": "PAC",
+          "text": "F#7 → B at bar 4, root-position bass and tonic B in the melody",
+          "arrival_bar": 4,
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "start_quarter": 6.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 5,
+      "start_quarter": 8.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7/B",
+          "rn": "V7/vi / I pedal",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "B supports D#7 colour before the C#7–A#7 detour"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 10.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#9/G#",
+          "rn": "V9/V",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "start_quarter": 12.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#m/A#",
+          "rn": "i64",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "A#7b9",
+          "rn": "V7(♭9)",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "D#m/A# and A#7b9 establish D# minor at bar 8",
+          "from_key": "B",
+          "to_key": "d#"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the dominant minor darkens the relative-major stop"
+        },
+        {
+          "type": "cadence",
+          "technique": "PAC",
+          "text": "A#7b9 → D# minor at bar 8, tonic in bass and melody",
+          "beat": 2,
+          "arrival_bar": 8
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "start_quarter": 14.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 9,
+      "start_quarter": 16.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F##dim7/D#",
+          "rn": "vii°7/iv / V pedal",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "G#m/D#",
+          "rn": "iv64",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "dim7_colour",
+          "text": "Fx–A#–C#–E diminished seventh above a D# pedal"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_dominant",
+          "text": "D# bass persists while upper harmony changes, bars 8–10"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "start_quarter": 18.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E#dim7/D#",
+          "rn": "°7 / V pedal (?)",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#",
+          "rn": "V of G#",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "dim7_colour",
+          "text": "E#–G#–B–D diminished seventh above D#; enharmonic function remains uncertain"
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "start_quarter": 20.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#",
+          "rn": "V",
+          "function": "dominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "D# minor is v of G# minor; raised-third D# major returns to i",
+          "from_key": "d#",
+          "to_key": "g#"
+        },
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "D# major returns to G# minor inside the phrase; phrase-end status is uncertain",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "start_quarter": 22.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m7/E",
+          "rn": "iv65",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7",
+          "rn": "V7/III",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "Cadential C#m7–F#7–B recalls the relative-major route"
+        }
+      ]
+    },
+    {
+      "bar": 13,
+      "start_quarter": 24.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "III",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7b13",
+          "rn": "V7(♭13)",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "B upper note colours D#7 with flat 13 before the returning pickup"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "start_quarter": 26.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7/G#",
+          "rn": "V7 / i pedal",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Second unfolded statement of the 13-bar phrase"
+        },
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Opening returns with the same timing and bass"
+        }
+      ]
+    },
+    {
+      "bar": 15,
+      "start_quarter": 28.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#m7b5/G",
+          "rn": "ivø43",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 30.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B/F#",
+          "rn": "I64",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "G# minor (i / vi) turns toward its relative major B",
+          "from_key": "g#",
+          "to_key": "B"
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "start_quarter": 32.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 18,
+      "start_quarter": 34.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7/B",
+          "rn": "V7/vi / I pedal",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 19,
+      "start_quarter": 36.25,
+      "duration_quarters": 2,
+      "key": "B",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#9/G#",
+          "rn": "V9/V",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 20,
+      "start_quarter": 38.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#m/A#",
+          "rn": "i64",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "A#7b9",
+          "rn": "V7(♭9)",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "D#m/A# and A#7b9 establish D# minor at bar 8",
+          "from_key": "B",
+          "to_key": "d#"
+        }
+      ]
+    },
+    {
+      "bar": 21,
+      "start_quarter": 40.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 22,
+      "start_quarter": 42.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F##dim7/D#",
+          "rn": "vii°7/iv / V pedal",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "G#m/D#",
+          "rn": "iv64",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 23,
+      "start_quarter": 44.25,
+      "duration_quarters": 2,
+      "key": "d#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E#dim7/D#",
+          "rn": "°7 / V pedal (?)",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#",
+          "rn": "V of G#",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 24,
+      "start_quarter": 46.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D#",
+          "rn": "V",
+          "function": "dominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "D# minor is v of G# minor; raised-third D# major returns to i",
+          "from_key": "d#",
+          "to_key": "g#"
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "start_quarter": 48.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m7/E",
+          "rn": "iv65",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7",
+          "rn": "V7/III",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 26,
+      "start_quarter": 50.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B",
+          "rn": "III",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "D#7b13",
+          "rn": "V7(♭13)",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 27,
+      "start_quarter": 52.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "coda",
+          "text": "Coda: two tonic bars and a 4/4 closing bar"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: G#-minor sonority finally persists"
+        }
+      ]
+    },
+    {
+      "bar": 28,
+      "start_quarter": 54.25,
+      "duration_quarters": 2,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "Inner motion subsides into the closing open fifth"
+        }
+      ]
+    },
+    {
+      "bar": 29,
+      "start_quarter": 56.25,
+      "duration_quarters": 4,
+      "time_signature": "4/4",
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Final G#–D# open fifth; tonic third B is absent, and the remaining 4/4 time is silence."
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "G#–D# open fifth closes; third absent, so chord remains ?"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "open_spacing",
+          "text": "G#1 to G#4 with D#4: deliberately bare final spacing"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "bass_line:chromatic",
+    "cadence:PAC",
+    "cadence:tonic_close",
+    "colour_chord:dim7_colour",
+    "form:coda",
+    "form:theme_1",
+    "hook:melodic_cell",
+    "modulation:direct_phrase_modulation",
+    "modulation:pivot_chord",
+    "motif:repetition",
+    "motif:sequence",
+    "rhythm_phrase:phrase_length",
+    "rhythm_phrase:syncopation",
+    "story:arrival",
+    "story:start",
+    "story:turn",
+    "tension_release:delayed_resolution",
+    "tension_release:pedal_point_dominant",
+    "texture_dynamics:thinning",
+    "voicing_orchestration:open_spacing"
+  ],
+  "modulations": [
+    {
+      "bar": 3,
+      "type": "modulation",
+      "technique": "pivot_chord",
+      "text": "G# minor (i / vi) turns toward its relative major B",
+      "from_key": "g#",
+      "to_key": "B"
+    },
+    {
+      "bar": 7,
+      "type": "modulation",
+      "technique": "direct_phrase_modulation",
+      "text": "D#m/A# and A#7b9 establish D# minor at bar 8",
+      "from_key": "B",
+      "to_key": "d#"
+    },
+    {
+      "bar": 11,
+      "type": "modulation",
+      "technique": "pivot_chord",
+      "text": "D# minor is v of G# minor; raised-third D# major returns to i",
+      "from_key": "d#",
+      "to_key": "g#"
+    },
+    {
+      "bar": 16,
+      "type": "modulation",
+      "technique": "pivot_chord",
+      "text": "G# minor (i / vi) turns toward its relative major B",
+      "from_key": "g#",
+      "to_key": "B"
+    },
+    {
+      "bar": 20,
+      "type": "modulation",
+      "technique": "direct_phrase_modulation",
+      "text": "D#m/A# and A#7b9 establish D# minor at bar 8",
+      "from_key": "B",
+      "to_key": "d#"
+    },
+    {
+      "bar": 24,
+      "type": "modulation",
+      "technique": "pivot_chord",
+      "text": "D# minor is v of G# minor; raised-third D# major returns to i",
+      "from_key": "d#",
+      "to_key": "g#"
+    }
+  ],
+  "verification": {
+    "music21_version": "10.5.0",
+    "method": "original MIDI; all tracks, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70",
+    "chord_note_match_pct": 100.0,
+    "labelled_spans": 50,
+    "matched_spans": 50,
+    "unknown_spans": 2,
+    "total_spans": 52,
+    "labelled_span_pct": 96.15,
+    "flagged_bars": [
+      {
+        "bar": 10,
+        "reason": "Bar 10 diminished colour retains D-natural; interpretation above the D# pedal is uncertain. Check against a critical edition."
+      },
+      {
+        "bar": 13,
+        "reason": "Loop seam uses abs 893.75 (26 quarters), not full downbeat 894; move the pickup deliberately when arranging."
+      },
+      {
+        "bar": 0,
+        "beat": 1.0,
+        "reason": "Lone D#4 pickup; third/fifth are absent."
+      },
+      {
+        "bar": 29,
+        "beat": 1.0,
+        "reason": "Final G#–D# open fifth; tonic third B is absent, and the remaining 4/4 time is silence."
+      }
+    ],
+    "spans": [
+      {
+        "bar": 0,
+        "beat": 1.0,
+        "symbol": "?",
+        "start_quarter": 0.0,
+        "end_quarter": 0.25,
+        "sounding_pc_weights": {
+          "3": 0.25
+        },
+        "match": false,
+        "unknown": true,
+        "reason": "Lone D#4 pickup; third/fifth are absent."
+      },
+      {
+        "bar": 1,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 0.25,
+        "end_quarter": 1.25,
+        "sounding_pc_weights": {
+          "3": 0.73125,
+          "8": 0.98125,
+          "11": 0.25
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 1,
+        "beat": 2.0,
+        "symbol": "D#7/G#",
+        "start_quarter": 1.25,
+        "end_quarter": 2.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "3": 0.48333,
+          "7": 0.49792,
+          "8": 0.23542,
+          "10": 0.49792,
+          "11": 0.24792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89924
+      },
+      {
+        "bar": 2,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 2.25,
+        "end_quarter": 3.25,
+        "sounding_pc_weights": {
+          "3": 0.48333,
+          "7": 0.24792,
+          "8": 0.98125,
+          "10": 0.25,
+          "11": 0.49792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79763
+      },
+      {
+        "bar": 2,
+        "beat": 2.0,
+        "symbol": "C#m7b5/G",
+        "start_quarter": 3.25,
+        "end_quarter": 4.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "4": 0.48333,
+          "7": 0.23542,
+          "10": 0.24792,
+          "11": 0.99583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89924
+      },
+      {
+        "bar": 3,
+        "beat": 1.0,
+        "symbol": "B/F#",
+        "start_quarter": 4.25,
+        "end_quarter": 5.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.99583,
+          "4": 0.25,
+          "6": 0.71875,
+          "11": 0.24792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79763
+      },
+      {
+        "bar": 3,
+        "beat": 2.0,
+        "symbol": "F#7",
+        "start_quarter": 5.25,
+        "end_quarter": 6.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "3": 0.25,
+          "4": 0.74583,
+          "6": 0.71875,
+          "10": 0.24792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89839
+      },
+      {
+        "bar": 4,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 6.25,
+        "end_quarter": 8.25,
+        "sounding_pc_weights": {
+          "3": 1.22083,
+          "6": 2.14583,
+          "11": 2.40625
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 5,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 8.25,
+        "end_quarter": 9.25,
+        "sounding_pc_weights": {
+          "3": 0.74792,
+          "6": 0.71875,
+          "11": 0.96875
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 5,
+        "beat": 2.0,
+        "symbol": "D#7/B",
+        "start_quarter": 9.25,
+        "end_quarter": 10.25,
+        "sounding_pc_weights": {
+          "1": 0.73333,
+          "3": 0.24792,
+          "4": 0.49792,
+          "6": 0.23542,
+          "7": 0.71042,
+          "10": 0.25,
+          "11": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.74803
+      },
+      {
+        "bar": 6,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 10.25,
+        "end_quarter": 11.25,
+        "sounding_pc_weights": {
+          "1": 0.25,
+          "3": 0.49792,
+          "6": 0.47083,
+          "10": 0.24792,
+          "11": 0.96875
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79555
+      },
+      {
+        "bar": 6,
+        "beat": 2.0,
+        "symbol": "C#9/G#",
+        "start_quarter": 11.25,
+        "end_quarter": 12.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.99583,
+          "5": 0.72083,
+          "8": 0.23542,
+          "11": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 7,
+        "beat": 1.0,
+        "symbol": "D#m/A#",
+        "start_quarter": 12.25,
+        "end_quarter": 13.25,
+        "sounding_pc_weights": {
+          "3": 0.23542,
+          "5": 0.24792,
+          "6": 0.99583,
+          "8": 0.25,
+          "10": 0.70625
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79555
+      },
+      {
+        "bar": 7,
+        "beat": 2.0,
+        "symbol": "A#7b9",
+        "start_quarter": 13.25,
+        "end_quarter": 14.25,
+        "sounding_pc_weights": {
+          "2": 0.23542,
+          "5": 0.49792,
+          "6": 0.25,
+          "8": 0.74583,
+          "10": 0.47083,
+          "11": 0.71042
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          8,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.9141
+      },
+      {
+        "bar": 8,
+        "beat": 1.0,
+        "symbol": "D#m",
+        "start_quarter": 14.25,
+        "end_quarter": 16.25,
+        "sounding_pc_weights": {
+          "3": 2.65625,
+          "6": 1.22083,
+          "10": 1.89583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 9,
+        "beat": 1.0,
+        "symbol": "F##dim7/D#",
+        "start_quarter": 16.25,
+        "end_quarter": 17.25,
+        "sounding_pc_weights": {
+          "1": 0.48542,
+          "3": 0.48333,
+          "4": 0.73333,
+          "7": 0.49792,
+          "10": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 9,
+        "beat": 2.0,
+        "symbol": "G#m/D#",
+        "start_quarter": 17.25,
+        "end_quarter": 18.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.96875,
+          "8": 0.49792,
+          "11": 0.72083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.8982
+      },
+      {
+        "bar": 10,
+        "beat": 1.0,
+        "symbol": "E#dim7/D#",
+        "start_quarter": 18.25,
+        "end_quarter": 19.25,
+        "sounding_pc_weights": {
+          "2": 0.49792,
+          "3": 0.23542,
+          "5": 0.23542,
+          "8": 0.48542,
+          "11": 0.98125
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 10,
+        "beat": 2.0,
+        "symbol": "D#",
+        "start_quarter": 19.25,
+        "end_quarter": 20.25,
+        "sounding_pc_weights": {
+          "3": 0.73542,
+          "7": 0.75,
+          "8": 0.24792,
+          "10": 0.75
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.90017
+      },
+      {
+        "bar": 11,
+        "beat": 1.0,
+        "symbol": "D#",
+        "start_quarter": 20.25,
+        "end_quarter": 21.25,
+        "sounding_pc_weights": {
+          "3": 0.72292,
+          "7": 0.43542,
+          "10": 0.92083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 11,
+        "beat": 2.0,
+        "symbol": "G#m",
+        "start_quarter": 21.25,
+        "end_quarter": 22.25,
+        "sounding_pc_weights": {
+          "3": 0.71875,
+          "8": 0.96875,
+          "10": 0.25,
+          "11": 0.49792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89735
+      },
+      {
+        "bar": 12,
+        "beat": 1.0,
+        "symbol": "C#m7/E",
+        "start_quarter": 22.25,
+        "end_quarter": 23.25,
+        "sounding_pc_weights": {
+          "1": 0.74792,
+          "4": 0.94583,
+          "7": 0.23542,
+          "8": 0.23542,
+          "10": 0.24792,
+          "11": 0.97083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85714
+      },
+      {
+        "bar": 12,
+        "beat": 2.0,
+        "symbol": "F#7",
+        "start_quarter": 23.25,
+        "end_quarter": 24.25,
+        "sounding_pc_weights": {
+          "1": 0.99583,
+          "3": 0.49792,
+          "4": 0.94583,
+          "6": 0.47083,
+          "10": 0.47292
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85283
+      },
+      {
+        "bar": 13,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 24.25,
+        "end_quarter": 25.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.47083,
+          "6": 0.23542,
+          "11": 1.19375
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.88458
+      },
+      {
+        "bar": 13,
+        "beat": 2.0,
+        "symbol": "D#7b13",
+        "start_quarter": 25.25,
+        "end_quarter": 26.25,
+        "sounding_pc_weights": {
+          "1": 0.37292,
+          "3": 0.83125,
+          "7": 0.23542,
+          "10": 0.25,
+          "11": 0.74583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 14,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 26.25,
+        "end_quarter": 27.25,
+        "sounding_pc_weights": {
+          "3": 0.73125,
+          "8": 0.98125,
+          "10": 0.24792,
+          "11": 0.74583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.90839
+      },
+      {
+        "bar": 14,
+        "beat": 2.0,
+        "symbol": "D#7/G#",
+        "start_quarter": 27.25,
+        "end_quarter": 28.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "3": 0.48333,
+          "7": 0.49792,
+          "8": 0.23542,
+          "10": 0.49792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 15,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 28.25,
+        "end_quarter": 29.25,
+        "sounding_pc_weights": {
+          "3": 0.48333,
+          "7": 0.24792,
+          "8": 0.98125,
+          "10": 0.25,
+          "11": 0.49792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79763
+      },
+      {
+        "bar": 15,
+        "beat": 2.0,
+        "symbol": "C#m7b5/G",
+        "start_quarter": 29.25,
+        "end_quarter": 30.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "4": 0.48333,
+          "7": 0.23542,
+          "10": 0.24792,
+          "11": 0.99583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89924
+      },
+      {
+        "bar": 16,
+        "beat": 1.0,
+        "symbol": "B/F#",
+        "start_quarter": 30.25,
+        "end_quarter": 31.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.99583,
+          "4": 0.25,
+          "6": 0.71875,
+          "11": 0.24792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79763
+      },
+      {
+        "bar": 16,
+        "beat": 2.0,
+        "symbol": "F#7",
+        "start_quarter": 31.25,
+        "end_quarter": 32.25,
+        "sounding_pc_weights": {
+          "1": 0.49792,
+          "3": 0.25,
+          "4": 0.74583,
+          "6": 0.71875,
+          "10": 0.24792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89839
+      },
+      {
+        "bar": 17,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 32.25,
+        "end_quarter": 34.25,
+        "sounding_pc_weights": {
+          "3": 1.22083,
+          "6": 2.14583,
+          "11": 2.40625
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 34.25,
+        "end_quarter": 35.25,
+        "sounding_pc_weights": {
+          "3": 0.74792,
+          "6": 0.71875,
+          "11": 0.96875
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 2.0,
+        "symbol": "D#7/B",
+        "start_quarter": 35.25,
+        "end_quarter": 36.25,
+        "sounding_pc_weights": {
+          "1": 0.73333,
+          "3": 0.24792,
+          "4": 0.49792,
+          "6": 0.23542,
+          "7": 0.71042,
+          "10": 0.25,
+          "11": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.74803
+      },
+      {
+        "bar": 19,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 36.25,
+        "end_quarter": 37.25,
+        "sounding_pc_weights": {
+          "1": 0.25,
+          "3": 0.49792,
+          "6": 0.47083,
+          "10": 0.24792,
+          "11": 0.96875
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79555
+      },
+      {
+        "bar": 19,
+        "beat": 2.0,
+        "symbol": "C#9/G#",
+        "start_quarter": 37.25,
+        "end_quarter": 38.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.99583,
+          "5": 0.72083,
+          "8": 0.23542,
+          "11": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 20,
+        "beat": 1.0,
+        "symbol": "D#m/A#",
+        "start_quarter": 38.25,
+        "end_quarter": 39.25,
+        "sounding_pc_weights": {
+          "3": 0.23542,
+          "5": 0.24792,
+          "6": 0.99583,
+          "8": 0.25,
+          "10": 0.70625
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.79555
+      },
+      {
+        "bar": 20,
+        "beat": 2.0,
+        "symbol": "A#7b9",
+        "start_quarter": 39.25,
+        "end_quarter": 40.25,
+        "sounding_pc_weights": {
+          "2": 0.23542,
+          "5": 0.49792,
+          "6": 0.25,
+          "8": 0.74583,
+          "10": 0.47083,
+          "11": 0.71042
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          8,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.9141
+      },
+      {
+        "bar": 21,
+        "beat": 1.0,
+        "symbol": "D#m",
+        "start_quarter": 40.25,
+        "end_quarter": 42.25,
+        "sounding_pc_weights": {
+          "3": 2.65625,
+          "6": 1.22083,
+          "10": 1.89583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 1.0,
+        "symbol": "F##dim7/D#",
+        "start_quarter": 42.25,
+        "end_quarter": 43.25,
+        "sounding_pc_weights": {
+          "1": 0.48542,
+          "3": 0.48333,
+          "4": 0.73333,
+          "7": 0.49792,
+          "10": 0.23542
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 2.0,
+        "symbol": "G#m/D#",
+        "start_quarter": 43.25,
+        "end_quarter": 44.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.96875,
+          "8": 0.49792,
+          "11": 0.72083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.8982
+      },
+      {
+        "bar": 23,
+        "beat": 1.0,
+        "symbol": "E#dim7/D#",
+        "start_quarter": 44.25,
+        "end_quarter": 45.25,
+        "sounding_pc_weights": {
+          "2": 0.49792,
+          "3": 0.23542,
+          "5": 0.23542,
+          "8": 0.48542,
+          "11": 0.98125
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 23,
+        "beat": 2.0,
+        "symbol": "D#",
+        "start_quarter": 45.25,
+        "end_quarter": 46.25,
+        "sounding_pc_weights": {
+          "3": 0.73542,
+          "7": 0.75,
+          "8": 0.24792,
+          "10": 0.75
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.90017
+      },
+      {
+        "bar": 24,
+        "beat": 1.0,
+        "symbol": "D#",
+        "start_quarter": 46.25,
+        "end_quarter": 47.25,
+        "sounding_pc_weights": {
+          "3": 0.72292,
+          "7": 0.43542,
+          "10": 0.92083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 24,
+        "beat": 2.0,
+        "symbol": "G#m",
+        "start_quarter": 47.25,
+        "end_quarter": 48.25,
+        "sounding_pc_weights": {
+          "3": 0.71875,
+          "8": 0.96875,
+          "10": 0.25,
+          "11": 0.49792
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.89735
+      },
+      {
+        "bar": 25,
+        "beat": 1.0,
+        "symbol": "C#m7/E",
+        "start_quarter": 48.25,
+        "end_quarter": 49.25,
+        "sounding_pc_weights": {
+          "1": 0.74792,
+          "4": 0.94583,
+          "7": 0.23542,
+          "8": 0.23542,
+          "10": 0.24792,
+          "11": 0.97083
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85714
+      },
+      {
+        "bar": 25,
+        "beat": 2.0,
+        "symbol": "F#7",
+        "start_quarter": 49.25,
+        "end_quarter": 50.25,
+        "sounding_pc_weights": {
+          "1": 0.99583,
+          "3": 0.49792,
+          "4": 0.94583,
+          "6": 0.47083,
+          "10": 0.47292
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85283
+      },
+      {
+        "bar": 26,
+        "beat": 1.0,
+        "symbol": "B",
+        "start_quarter": 50.25,
+        "end_quarter": 51.25,
+        "sounding_pc_weights": {
+          "1": 0.24792,
+          "3": 0.47083,
+          "6": 0.23542,
+          "11": 1.19375
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.88458
+      },
+      {
+        "bar": 26,
+        "beat": 2.0,
+        "symbol": "D#7b13",
+        "start_quarter": 51.25,
+        "end_quarter": 52.25,
+        "sounding_pc_weights": {
+          "1": 0.37292,
+          "3": 0.83125,
+          "7": 0.23542,
+          "10": 0.25,
+          "11": 0.74583
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 27,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 52.25,
+        "end_quarter": 54.25,
+        "sounding_pc_weights": {
+          "3": 1.45208,
+          "8": 1.43958,
+          "10": 0.74583,
+          "11": 1.49375
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85465
+      },
+      {
+        "bar": 28,
+        "beat": 1.0,
+        "symbol": "G#m",
+        "start_quarter": 54.25,
+        "end_quarter": 56.25,
+        "sounding_pc_weights": {
+          "3": 1.47708,
+          "8": 1.46458,
+          "10": 0.49792,
+          "11": 0.47292
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.87274
+      },
+      {
+        "bar": 29,
+        "beat": 1.0,
+        "symbol": "?",
+        "start_quarter": 56.25,
+        "end_quarter": 60.25,
+        "sounding_pc_weights": {
+          "3": 1.88542,
+          "8": 3.79583
+        },
+        "match": false,
+        "unknown": true,
+        "reason": "Final G#–D# open fifth; tonic third B is absent, and the remaining 4/4 time is silence."
+      }
+    ]
+  }
+}

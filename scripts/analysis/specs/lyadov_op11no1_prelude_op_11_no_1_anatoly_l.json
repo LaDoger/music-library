@@ -1,0 +1,1549 @@
+{
+  "meta": {
+    "id": "lyadov_op11no1_prelude_op_11_no_1_anatoly_l",
+    "parent_item_id": "lyadov_op11no1_prelude_op_11_no_1_anatoly_l",
+    "title": "Prelude Op. 11 No. 1 — whole MIDI performance",
+    "composer": "Anatoly Lyadov",
+    "source_file": "files/scores/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.mid",
+    "quarter_range": [
+      0,
+      156
+    ],
+    "key": "b",
+    "time_signature": "2/4",
+    "bar_quarters": 2,
+    "pickup_quarters": 0,
+    "tempo": 70,
+    "midi_play_url": "files/scores/lyadov_op11no1_prelude_op_11_no_1_anatoly_l.mid",
+    "source_licence": "CC0",
+    "analysis_licence": "CC0",
+    "source_page": "https://zenodo.org/records/15571083",
+    "notation_notes": "78 unfolded MIDI bars, numbered from absolute quarter 0. The source key signature says D major but the opening and close are B minor. This is a transcription of the supplied MIDI, including its already unfolded material, not an Urtext. Straight 16ths / triplet 8ths and 16ths; grace notes shorter than 0.10 quarter omitted. Sparse runs keep ? instead of asserting complete chords; repeated bass figuration retains separate voices.",
+    "source_licence_verification": {
+      "checked_on": "2026-10-11",
+      "source_url": "https://zenodo.org/api/records/15571083/files/PDMX.csv/content",
+      "path": "./data/2/27/QmcJnpCN6cz8sgQEbEPawNrDd9UTKV3GsdshVVQB3HSjEE.json",
+      "metadata": "./metadata/0/6297970.json",
+      "mid": "./mid/2/27/QmcJnpCN6cz8sgQEbEPawNrDd9UTKV3GsdshVVQB3HSjEE.mid",
+      "license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": "False",
+      "title": "Prelude op.11 no. 1 (Anatoly Lyadov)",
+      "subset:no_license_conflict": "True"
+    }
+  },
+  "draft": false,
+  "reviewed_by": "MusicBot (Codex), note-level MIDI review, 2026-10-11",
+  "sections": [
+    {
+      "name": "Intro",
+      "start_bar": 1,
+      "end_bar": 2,
+      "mood": [
+        "intimate",
+        "suspended"
+      ],
+      "description": "B-minor triplet figuration before the tune."
+    },
+    {
+      "name": "Theme 1 / start",
+      "start_bar": 3,
+      "end_bar": 10,
+      "mood": [
+        "wistful",
+        "restless"
+      ],
+      "description": "Bass B–A–G#–G–F#–E# supports the delayed song."
+    },
+    {
+      "name": "Theme 2 / turn",
+      "start_bar": 11,
+      "end_bar": 26,
+      "mood": [
+        "yearning",
+        "growing"
+      ],
+      "description": "Related F# minor restates the material; octaves widen at bar 23."
+    },
+    {
+      "name": "Bridge",
+      "start_bar": 27,
+      "end_bar": 40,
+      "mood": [
+        "dramatic",
+        "uncertain"
+      ],
+      "description": "Chromatic bass and unaccompanied cascades postpone the return."
+    },
+    {
+      "name": "Returning sequence",
+      "start_bar": 41,
+      "end_bar": 56,
+      "mood": [
+        "wandering",
+        "uneasy"
+      ],
+      "description": "B minor → A minor → G major; sequential descent recolours the tune."
+    },
+    {
+      "name": "Arrival and coda",
+      "start_bar": 57,
+      "end_bar": 78,
+      "mood": [
+        "tender",
+        "resolved"
+      ],
+      "description": "B-minor theme returns, passes through C-major colour and closes in the tonic."
+    }
+  ],
+  "bars": [
+    {
+      "bar": 1,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "intro",
+          "text": "Intro: two bars of B-minor figuration"
+        },
+        {
+          "type": "bass_line",
+          "technique": "arpeggiated",
+          "text": "Repeated B–D–F# figuration"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Theme 1: delayed melody entrance"
+        },
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a melody grows from the triplet bed"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "syncopation",
+          "text": "Melody enters on the second eighth while triplets continue"
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7/A",
+          "rn": "i42",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 5,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E7/G#",
+          "rn": "V65/VII",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "chromatic",
+          "text": "Bass falls B–A–G#–G–F#–E# over bars 3–10"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m7/G#",
+          "rn": "ii43",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m7b5/G",
+          "rn": "iiø43",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.3333333333333335,
+          "symbol": "F#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 8,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7/F#",
+          "rn": "i43",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 9,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm6/F#",
+          "rn": "i64(add6)",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "dim7_colour",
+          "text": "G# adds a sixth above B minor"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E#dim7",
+          "rn": "vii°7/v",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "dim7_colour",
+          "text": "E#–G#–B–D leads by semitone to F#"
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "E#dim7 reinterprets the leading-note seventh into F# minor",
+          "from_key": "b",
+          "to_key": "f#"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the same gesture moves into F# minor"
+        },
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "Theme transposed down a fourth into F# minor"
+        },
+        {
+          "type": "form",
+          "technique": "theme_2",
+          "text": "Theme 2: F#-minor restatement"
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m7/E",
+          "rn": "i42",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 13,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "B7/D#",
+          "rn": "V65/VII",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 14,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m7/D#",
+          "rn": "ii43",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 15,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m7b5/D",
+          "rn": "iiø43",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.3333333333333335,
+          "symbol": "C#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m7/C#",
+          "rn": "i43",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 17,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m6/C#",
+          "rn": "i64(add6)",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 18,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7/C",
+          "rn": "VI42",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 19,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m/C#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "thickening",
+          "text": "Melodic octaves enter at bar 20; more doubled chords follow"
+        }
+      ]
+    },
+    {
+      "bar": 20,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7/D",
+          "rn": "iv65",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 21,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m/C#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 22,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7/D",
+          "rn": "iv65",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 23,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m/C#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "voicing_orchestration",
+          "technique": "doubling",
+          "text": "Melody doubled in octaves; bass descends to C#2"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "build_to_climax",
+          "text": "Wider octaves intensify the phrase"
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7",
+          "rn": "iv7",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "E7",
+          "rn": "VII7",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 25,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "A",
+          "rn": "III",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 26,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m/A",
+          "rn": "i6",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7/A#",
+          "rn": "V65/iv",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "F# major dominant of B minor replaces F# minor"
+        }
+      ]
+    },
+    {
+      "bar": 27,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "iv",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "bridge",
+          "text": "Bridge: B minor, bass motion, then exposed runs"
+        }
+      ]
+    },
+    {
+      "bar": 28,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "E/G#/D colour before the final E#dim7 attack; B (the E7 fifth) is absent in this span."
+        },
+        {
+          "beat": 2.5,
+          "symbol": "E#dim7",
+          "rn": "viio7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 29,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 30,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D7/C",
+          "rn": "VI42",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "D7/C leads to G, deferring B-minor arrival"
+        }
+      ]
+    },
+    {
+      "bar": 31,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G/B",
+          "rn": "N6",
+          "function": "Neapolitan-coloured tonicization of G, first inversion"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "Chord releases into an unaccompanied triplet descent"
+        }
+      ]
+    },
+    {
+      "bar": 32,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Unaccompanied descending line; no complete vertical harmony and G-triad pitch mass is below 70%."
+        }
+      ],
+      "events": [
+        {
+          "type": "voicing_orchestration",
+          "technique": "register_low_shift",
+          "text": "Descending line migrates through three octaves, bars 31–34"
+        }
+      ]
+    },
+    {
+      "bar": 33,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "The unaccompanied descending line continues in a lower register; a full chord is not asserted."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 34,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "E–D bass fragment before G/B; third and fifth of an E-minor triad are absent."
+        },
+        {
+          "beat": 2.0,
+          "symbol": "G/B",
+          "rn": "N6",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 35,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#7b9",
+          "rn": "V7(♭9)",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 36,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "iv64",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C#7/E#",
+          "rn": "V65",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 37,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#7b9",
+          "rn": "V7/iv(♭9)",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "F# dominant with G, the flat ninth"
+        }
+      ]
+    },
+    {
+      "bar": 38,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Exposed dominant-coloured arpeggio lacks an E seventh for F#7; function may prolong V but a full symbol is unsupported."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 39,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Same unaccompanied dominant-coloured figure in a higher register; seventh remains absent."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 40,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "C#–F#–E–D line lacks a stable third; do not assert a complete F# chord."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 41,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Returning theme and descending harmonic sequence"
+        },
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "Dominant-coloured cascade returns to B minor",
+          "from_key": "f#",
+          "to_key": "b"
+        }
+      ]
+    },
+    {
+      "bar": 42,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 43,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "E/B/D with passing tones; G, the proposed Em7 third, is absent."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 44,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 45,
+      "key": "a",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Am",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "sequence",
+          "text": "B-minor theme restated a whole tone lower in A minor",
+          "from_key": "b",
+          "to_key": "a"
+        }
+      ]
+    },
+    {
+      "bar": 46,
+      "key": "a",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Am",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 47,
+      "key": "a",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "D/A/C with passing tones; F, the proposed Dm7 third, is absent."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 48,
+      "key": "a",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Dm7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 49,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G",
+          "rn": "I",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "sequence",
+          "text": "Sequence descends again to G major",
+          "from_key": "a",
+          "to_key": "G"
+        }
+      ]
+    },
+    {
+      "bar": 50,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G",
+          "rn": "I",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 51,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bdim/F",
+          "rn": "iii°64",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "B–D–F tension alternates with E7 rather than closing in G"
+        }
+      ]
+    },
+    {
+      "bar": 52,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E7",
+          "rn": "V7/ii",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 53,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bdim/F",
+          "rn": "iii°64",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 54,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E7",
+          "rn": "V7/ii",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 55,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7/F",
+          "rn": "I42",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 56,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7/F",
+          "rn": "I42",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 57,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "direct_phrase_modulation",
+          "text": "Sequential detour gives way to the B-minor theme",
+          "from_key": "G",
+          "to_key": "b"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: the B-minor melody regains its home register"
+        }
+      ]
+    },
+    {
+      "bar": 58,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em7/G",
+          "rn": "iv65",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 59,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 60,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em7/G",
+          "rn": "iv65",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 61,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/F#",
+          "rn": "i64",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "voicing_orchestration",
+          "technique": "doubling",
+          "text": "Tune expands into octaves again"
+        }
+      ]
+    },
+    {
+      "bar": 62,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em7",
+          "rn": "iv7",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "A7",
+          "rn": "VII7",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 63,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "D",
+          "rn": "III",
+          "function": "colour / voice-leading"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 64,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm/D",
+          "rn": "i6",
+          "function": "tonic"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "B7/D#",
+          "rn": "V65/iv",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 65,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em",
+          "rn": "iv",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "oblique_motion",
+          "text": "Sustained low E supports the moving upper triplet chords"
+        }
+      ]
+    },
+    {
+      "bar": 66,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "A/C#/G colour before A#dim7; E, the proposed A7 fifth, is absent in this span."
+        },
+        {
+          "beat": 2.5,
+          "symbol": "A#dim7",
+          "rn": "viio7",
+          "function": "dominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 67,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 68,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G7/F",
+          "rn": "VI42",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "chromatic",
+          "text": "F-natural bass in G7/F leads down to E in C/E"
+        }
+      ]
+    },
+    {
+      "bar": 69,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C/E",
+          "rn": "N6",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "neapolitan",
+          "text": "C/E is the flat-II first-inversion colour in B minor"
+        }
+      ]
+    },
+    {
+      "bar": 70,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Unaccompanied C-related descent; complete triad/seventh interpretation would cover less than 70% of pitch-duration mass."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 71,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Continuation of the exposed C-related descent, without accompaniment or a supported complete chord."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 72,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "A–G fragment before C/E; an A-minor third and fifth are absent in this first span."
+        },
+        {
+          "beat": 2.0,
+          "symbol": "C/E",
+          "rn": "N6",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 73,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#7b9",
+          "rn": "V7(♭9)",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "coda",
+          "text": "Coda: dominant-flat-nine tension, then tonic arpeggio"
+        }
+      ]
+    },
+    {
+      "bar": 74,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em/B",
+          "rn": "iv64",
+          "function": "predominant"
+        },
+        {
+          "beat": 2.0,
+          "symbol": "F#7/A#",
+          "rn": "V65",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "F#7/A# resolves to B minor at bar 75; inverted dominant, not PAC",
+          "arrival_bar": 75,
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 75,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "F#–D–C# returns over the closing B-minor arpeggio"
+        }
+      ]
+    },
+    {
+      "bar": 76,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 77,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "Only the high B remains; no third or fifth is available to verify a triad."
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 78,
+      "key": "b",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "Final B-minor chord after the exposed high B; no immediate V–i here"
+        }
+      ]
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "labels": [
+        "intimate",
+        "suspended"
+      ]
+    },
+    {
+      "start_bar": 3,
+      "end_bar": 10,
+      "labels": [
+        "wistful",
+        "restless"
+      ]
+    },
+    {
+      "start_bar": 11,
+      "end_bar": 26,
+      "labels": [
+        "yearning",
+        "growing"
+      ]
+    },
+    {
+      "start_bar": 27,
+      "end_bar": 40,
+      "labels": [
+        "dramatic",
+        "uncertain"
+      ]
+    },
+    {
+      "start_bar": 41,
+      "end_bar": 56,
+      "labels": [
+        "wandering",
+        "uneasy"
+      ]
+    },
+    {
+      "start_bar": 57,
+      "end_bar": 78,
+      "labels": [
+        "tender",
+        "resolved"
+      ]
+    }
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 2,
+      "why": "A clean static triplet bed; cut on the B-minor downbeat.",
+      "quarter_range": [
+        0,
+        4
+      ]
+    },
+    {
+      "start_bar": 57,
+      "end_bar": 60,
+      "why": "Alternating Bm/F# and Em7/G, with an exact two-bar melodic restatement; audition the bass seam.",
+      "quarter_range": [
+        112,
+        120
+      ]
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 3,
+      "end_bar": 6,
+      "why": "The late F#–C#–D–C# tune against a falling bass."
+    },
+    {
+      "start_bar": 61,
+      "end_bar": 64,
+      "why": "Octave melody over a descending bass, suited to a larger refrain."
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Two-bar opening bed leaves space for voice; retain the off-beat melody as an answer."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 19–26 gradually widen into octaves; use that expansion to prepare the chorus."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 31–40 expose unaccompanied cascades for a vocal or instrumental reset."
+    },
+    {
+      "where": "chorus",
+      "why": "Bars 57–64 give a returning tonic theme with octave growth. This is a related-key return, not a step-up final-chorus lift."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 11,
+      "reason": "Functional pivot reading is interpretive: E#dim7 → F#m is note-supported but the previous B-minor context is chromatically extended."
+    },
+    {
+      "bar": 41,
+      "reason": "Key-area boundaries at 41/45/49/57 describe local theme regions; distinguish sequence and tonicization from large-scale modulation by ear."
+    }
+  ],
+  "summary": "A B-minor miniature with a triplet engine and a late, off-beat tune. Its strongest turn is a related-key F#-minor restatement; the later whole-tone descent through A minor and G major is more unsettled. The final return is a story arrival, followed by a chromatic coda rather than a single uninterrupted cadence.",
+  "tricks": [
+    "Bars 3–10: a descending chromatic/stepwise bass under a slower song; the triplets make the two layers breathe differently.",
+    "Bars 11–18: the earlier idea shifts to F# minor, including its own applied dominants.",
+    "Bars 41–56: related phrase models descend through B minor, A minor and G major.",
+    "Bars 69 and 73–75: C/E (Neapolitan colour) contrasts with an explicit F#7b9 and a tonic return."
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "id": "kalinnikov_vasili_kalinnikov_sinfonia_nb2",
+    "parent_item_id": "kalinnikov_vasili_kalinnikov_sinfonia_nb2",
+    "title": "Symphony No. 2, II Andante cantabile — opening piano reduction",
+    "composer": "Vasily Kalinnikov",
+    "source_file": "files/scores/kalinnikov_vasili_kalinnikov_sinfonia_nb2.mid",
+    "quarter_range": [
+      0.5,
+      55.5
+    ],
+    "key": "f#",
+    "time_signature": "3/4",
+    "bar_quarters": 3,
+    "pickup_quarters": 1,
+    "tempo": 70,
+    "midi_play_url": "files/scores/kalinnikov_vasili_kalinnikov_sinfonia_nb2.mid",
+    "source_licence": "CC0",
+    "analysis_licence": "CC0",
+    "source_page": "https://zenodo.org/records/15571083",
+    "reduction": true,
+    "melody_track": 3,
+    "accompaniment_tracks": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "notation_notes": "Absolute quarter 0.5 begins C#4–E4 oboe-2 pickup; bar 1 is at 1.5. Ends before bar 19 at 55.5, on C# minor rather than a final tonic cadence. The incoming oboe-1 pickup at 54.5–55.5 is omitted to retain only the closing oboe-2 phrase. Piano reduction: oboe-2 melody; harp and strings collapsed to low bass plus at most four upper pitch classes. Original all-track MIDI is used for verification. Short oboe turn notes (<0.10 quarter) omitted; three-note triplet tails retained. The source demo_S01 chord list is an arrangement and is NOT used as the source harmony.",
+    "source_licence_verification": {
+      "checked_on": "2026-10-11",
+      "source_url": "https://zenodo.org/api/records/15571083/files/PDMX.csv/content",
+      "path": "./data/11/42/QmTsfAPNmLLnFz729Lxf4ZkScG9UJ9S1GFJr2wxgEPLkgL.json",
+      "metadata": "./metadata/9/5052731.json",
+      "mid": "./mid/11/42/QmTsfAPNmLLnFz729Lxf4ZkScG9UJ9S1GFJr2wxgEPLkgL.mid",
+      "license": "cc-zero",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_conflict": "False",
+      "title": "Vasili Kalinnikov: Sinfonía nº 2 2º. Mv.",
+      "subset:no_license_conflict": "True"
+    }
+  },
+  "draft": false,
+  "reviewed_by": "MusicBot (Codex), note-level MIDI review, 2026-10-11",
+  "sections": [
+    {
+      "name": "Pickup",
+      "start_bar": 0,
+      "end_bar": 0,
+      "mood": [
+        "gentle"
+      ],
+      "description": "Two-note oboe pickup."
+    },
+    {
+      "name": "Theme 1 / start",
+      "start_bar": 1,
+      "end_bar": 8,
+      "mood": [
+        "lyrical",
+        "yearning"
+      ],
+      "description": "F#-minor melody above after-beat harp and string responses; C# major marks a half close."
+    },
+    {
+      "name": "Chromatic bridge / turn",
+      "start_bar": 9,
+      "end_bar": 14,
+      "mood": [
+        "uneasy",
+        "darkening"
+      ],
+      "description": "A#–A–G#–G–F–E bass descent and the D-minor surprise."
+    },
+    {
+      "name": "Theme tail / arrival",
+      "start_bar": 15,
+      "end_bar": 18,
+      "mood": [
+        "open",
+        "expectant"
+      ],
+      "description": "Dmaj7 colour and descending accompaniment lead to a soft C#-minor phrase end, awaiting the next phrase."
+    }
+  ],
+  "bars": [
+    {
+      "bar": 0,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved",
+          "reason": "C#4–E4 oboe pickup without accompaniment; no complete triad."
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: C#–E pickup into the oboe lament"
+        }
+      ]
+    },
+    {
+      "bar": 1,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Theme 1: oboe melody, after-beat harp/string reply"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "anticipation",
+          "text": "Melody on the downbeat, accompaniment enters on beat 2"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "open_spacing",
+          "text": "Low F#2 and oboe F#4 enclose the answer"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "doubling",
+          "text": "Harp and strings share chord tones; reduction removes duplicate pitches"
+        },
+        {
+          "type": "counterpoint",
+          "technique": "oblique_motion",
+          "text": "Melody sustains while accompaniment enters on beats 2–3"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "C#–E pickup, F#–A–G#–E: vocal-sized opening cell"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E7/D",
+          "rn": "VII42",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "stepwise_descent",
+          "text": "Opening bass B–D–C# supports inversions after the tonic"
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m7/C#",
+          "rn": "i43",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 5,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "G#m7b5/B",
+          "rn": "iiø65",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "half_dim",
+          "text": "G#–B–D–F# half-diminished colour, with A in the melody"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#m",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 8,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#",
+          "rn": "V",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "HC",
+          "text": "C# major half close; the source has no B seventh here"
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "F#7/A#",
+          "rn": "V65/iv",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "bridge",
+          "text": "Bridge: chromatic descending bass"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: F#7/A# launches the A#–A–G#–G–F–E descent"
+        },
+        {
+          "type": "bass_line",
+          "technique": "chromatic",
+          "text": "Bass descent through bars 9–14: A# A G# G F E"
+        },
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "Major F# dominant of B minor replaces the opening minor tonic"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7/A",
+          "rn": "iv42",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "Bm7/A continues the descent instead of a root-position arrival"
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "E7/G#",
+          "rn": "VII65",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 12,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Em7b5/G",
+          "rn": "♭viiø65 (colour)",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "half_dim",
+          "text": "E–G–Bb–D over G is E half-diminished, not C#7b9/G"
+        }
+      ]
+    },
+    {
+      "bar": 13,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Dm/F",
+          "rn": "♭vi6 (mixture)",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "Dm/F introduces F-natural into the F#-minor context"
+        },
+        {
+          "type": "motif",
+          "technique": "fragmentation",
+          "text": "Melody narrows to D–A–B–A before the C# leap"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m/E",
+          "rn": "v6",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "voicing_orchestration",
+          "technique": "register_high_shift",
+          "text": "Oboe C#4 leaps to C#5 at beat 3"
+        }
+      ]
+    },
+    {
+      "bar": 15,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Dmaj7",
+          "rn": "VImaj7",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_tail",
+          "text": "Theme tail: major-seventh colour over D"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: Dmaj7 warmth; phrase remains harmonically open"
+        },
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "D major receives C# (major seventh); passing G# is not a sustained #11 chord"
+        }
+      ]
+    },
+    {
+      "bar": 16,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Aadd9/C#",
+          "rn": "III6(add9)",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "added_note",
+          "text": "A–C#–E plus B gives added ninth over C#"
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "Bm7",
+          "rn": "iv7",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "counterpoint",
+          "technique": "contrary_motion",
+          "text": "Melody rises D–E–F# while inner A moves down to G# on beat 3"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "key": "f#",
+      "chords": [
+        {
+          "beat": 1.0,
+          "symbol": "C#m",
+          "rn": "v",
+          "function": "colour / voice-leading"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "open_phrase",
+          "text": "C# minor closes the melody; no PAC and no modulation claimed"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "Oboe 2 ends; the incoming oboe-1 pickup in the last beat is omitted from this reduction"
+        }
+      ]
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 0,
+      "end_bar": 0,
+      "labels": [
+        "gentle"
+      ]
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 8,
+      "labels": [
+        "lyrical",
+        "yearning"
+      ]
+    },
+    {
+      "start_bar": 9,
+      "end_bar": 14,
+      "labels": [
+        "uneasy",
+        "darkening"
+      ]
+    },
+    {
+      "start_bar": 15,
+      "end_bar": 18,
+      "labels": [
+        "open",
+        "expectant"
+      ]
+    }
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 0,
+      "end_bar": 18,
+      "why": "Pickup and 18-bar phrase: C#m can return into the F#m opening via its C#–E pickup. Audition the open seam; not an exact full-note repeat.",
+      "quarter_range": [
+        0.5,
+        55.5
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "why": "Lyrical four-bar bed; bass inversion makes the restart smoother than a hard dominant close.",
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 0,
+      "end_bar": 2,
+      "why": "Short, singable oboe cell and after-beat response."
+    },
+    {
+      "start_bar": 9,
+      "end_bar": 14,
+      "why": "Descending chromatic bass supplies a strong instrumental hook."
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Keep melody and after-beat responses as a sparse R&B verse."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bass descent in bars 9–14 carries tension without a truck-driver lift."
+    },
+    {
+      "where": "bridge",
+      "why": "E half-diminished and D minor provide a darker harmonic detour."
+    },
+    {
+      "where": "chorus",
+      "why": "Use the opening melodic cell over a fuller F#-minor voicing; Dmaj7 tail offers contrast."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 15,
+      "reason": "Dmaj7 label relies on the short A in the oboe line; accompaniment by itself omits the fifth. Passing G# does not establish a new key."
+    },
+    {
+      "bar": 18,
+      "reason": "Phrase-end selection is editorial: C# minor is open, not a final cadence of the movement."
+    }
+  ],
+  "summary": "A melody-first F#-minor opening with a one-quarter pickup and delayed accompaniment. The central trick is the bass descent A#–A–G#–G–F–E, including actual E half-diminished and D-minor colours. The tail warms through Dmaj7 and Aadd9/C# but ends open on C# minor. This excerpt does not establish a new key.",
+  "tricks": [
+    "Melody downbeat / accompaniment beat 2: a built-in call-and-response rather than constant block chords.",
+    "Bars 9–14: six bass steps bind otherwise surprising sonorities into one continuous line.",
+    "Bars 12–13 are Em7b5/G → Dm/F in the source; the earlier R&B demo reharmonised them.",
+    "The C#4→C#5 leap at bar 14 opens register just before the D-major-seven warmth."
+  ]
+}

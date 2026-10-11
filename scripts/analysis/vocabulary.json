@@ -1,0 +1,122 @@
+{
+  "modulation": {
+    "pivot_chord": "A chord is reinterpreted in the destination key.",
+    "common_tone": "A sustained common pitch connects distinct key areas.",
+    "chromatic_slide": "Semitone voice-leading connects adjacent harmonic regions.",
+    "direct_phrase_modulation": "A new key begins directly at a phrase boundary.",
+    "chromatic_mediant": "Key centres a third apart are connected chromatically.",
+    "enharmonic_dim7": "A diminished seventh is respelled to target another tonic.",
+    "enharmonic_aug6": "An augmented-sixth sonority is enharmonically reinterpreted.",
+    "sequence": "A repeated harmonic/melodic model moves the tonal centre.",
+    "dominant_pedal_lift": "A dominant pedal prepares arrival in a new key.",
+    "truck_driver": "A direct upward step raises a repeated refrain."
+  },
+  "counterpoint": {
+    "imitation": "A voice restates another voice's idea.",
+    "canon": "Strict imitation continues at a fixed delay.",
+    "contrary_motion": "Two independent voices move in opposite directions.",
+    "parallel_3rds_6ths": "Voices move together in thirds or sixths.",
+    "oblique_motion": "One voice holds while another moves.",
+    "voice_exchange": "Two voices exchange their pitches or roles.",
+    "countermelody": "A distinct second melody accompanies the main line.",
+    "invertible": "Counterpoint remains valid when the voices exchange registers.",
+    "stretto": "Imitative entries overlap before the preceding idea finishes.",
+    "suspension_chain": "Successive prepared dissonances resolve in a chain."
+  },
+  "voicing_orchestration": {
+    "open_spacing": "Chord tones are spread across a wide register.",
+    "close_spacing": "Chord tones sit close together.",
+    "doubling": "A note or line is reinforced in unison or octaves.",
+    "parallel_chords": "A chord shape moves in parallel (planing).",
+    "register_high_shift": "Material moves into a higher register.",
+    "register_low_shift": "Material moves into a lower register.",
+    "cross_voicing": "Voice registers cross or interlock."
+  },
+  "tension_release": {
+    "suspension_4_3": "A prepared fourth resolves down to a third.",
+    "suspension_9_8": "A prepared ninth resolves down to an octave.",
+    "suspension_7_6": "A prepared seventh resolves down to a sixth.",
+    "appoggiatura": "An accented dissonance resolves by step.",
+    "pedal_point_tonic": "A tonic pitch persists under changing harmony.",
+    "pedal_point_dominant": "A dominant pitch persists under changing harmony.",
+    "pedal_point_inner": "An inner voice persists under changing harmony.",
+    "delayed_resolution": "Expected harmonic release is postponed.",
+    "deceptive_resolution": "A dominant resolves to an unexpected substitute."
+  },
+  "rhythm_phrase": {
+    "phrase_length": "A notable phrase length, including asymmetry, shapes the music.",
+    "hemiola": "A temporary regrouping swaps two and three accents.",
+    "syncopation": "An accent or entrance displaces the expected strong beat.",
+    "anticipation": "A voice anticipates the supporting arrival.",
+    "elision": "A phrase end doubles as the next phrase's beginning.",
+    "extension": "Additional material lengthens an expected phrase."
+  },
+  "motif": {
+    "inversion": "A motif reverses interval directions.",
+    "augmentation": "A motif returns with longer durations.",
+    "diminution": "A motif returns with shorter durations.",
+    "fragmentation": "A small part of a motif is isolated.",
+    "sequence": "A motif repeats at another pitch level.",
+    "retrograde": "A motif reverses note order.",
+    "liquidation": "A motif progressively loses its identifying details.",
+    "repetition": "A motif returns without structural transformation."
+  },
+  "texture_dynamics": {
+    "thinning": "The number or activity of voices decreases.",
+    "thickening": "The number or activity of voices increases.",
+    "build_to_climax": "Register or texture grows toward a peak.",
+    "climax": "A local high point of intensity or register.",
+    "subito": "A sudden marked contrast changes the texture or dynamics.",
+    "fade": "A marked or audible gradual reduction closes the texture."
+  },
+  "bass_line": {
+    "walking": "A regularly moving bass links chord changes.",
+    "stepwise_descent": "A bass falls mainly by step (including lament patterns).",
+    "pedal": "A repeated or held bass pitch anchors changing harmony.",
+    "contrary": "Bass moves opposite another identified voice.",
+    "arpeggiated": "Bass figuration outlines chord tones.",
+    "chromatic": "Semitone movement is structurally prominent in the bass."
+  },
+  "colour_chord": {
+    "borrowed": "Modal mixture imports a chord from another mode.",
+    "neapolitan": "The flattened second-degree major chord colours the approach to a dominant.",
+    "aug6_italian": "Italian augmented sixth contains flat 6, tonic and sharp 4.",
+    "aug6_french": "French augmented sixth adds scale degree 2.",
+    "aug6_german": "German augmented sixth adds flat 3.",
+    "added_note": "An added or extended chord tone supplies colour; text names it.",
+    "half_dim": "A minor-third/diminished-fifth/minor-seventh sonority supplies colour.",
+    "dim7_colour": "A fully diminished seventh supplies colour or ambiguous function.",
+    "chromatic_mediant": "Chromatic third-related chords supply colour without established modulation."
+  },
+  "cadence": {
+    "PAC": "Root-position dominant to tonic, melody ending on tonic.",
+    "IAC": "Authentic cadence with inversion or non-tonic melodic ending.",
+    "HC": "Phrase ends on the dominant.",
+    "DC": "Dominant cadence resolves deceptively.",
+    "plagal": "Subdominant to tonic phrase close.",
+    "tonic_close": "Tonic ending without an immediately asserted authentic cadence.",
+    "open_phrase": "Melodic phrase boundary leaves harmony open."
+  },
+  "form": {
+    "intro": "Preparatory opening material.",
+    "theme_1": "Main thematic statement or return.",
+    "theme_2": "Contrasting or related second thematic region.",
+    "bridge": "Connecting or contrasting passage.",
+    "theme_tail": "Closing continuation of the theme.",
+    "coda": "Closing material after the principal thematic span."
+  },
+  "story": {
+    "start": "Opening situation or emotional premise (起).",
+    "continuation": "Development of the opening situation (承).",
+    "turn": "A change redirects the emotional or musical journey (转).",
+    "arrival": "A resulting state or return completes the local story (合)."
+  },
+  "hook": {
+    "melodic_cell": "A compact identifiable melodic figure.",
+    "harmonic_cell": "A compact identifiable progression.",
+    "rhythmic_cell": "A compact identifiable rhythmic figure."
+  },
+  "mood": {
+    "section_mood": "Editorial mood labels for a named section."
+  }
+}

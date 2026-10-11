@@ -44,6 +44,9 @@ Additional JSON fields (CSV may lag; sync script fills JSON):
 Scope: any legally usable good music for commercial/social video. Quality bar: no filler. Verify every licence per file.
 
 Site-only JSON fields (all derived by `scripts/sync_site_data.py`; do not hand-edit the JSON):
+- analysis_url, annotated_score_url: optional relative bundle JSON and annotated MusicXML paths, derived from complete reviewed `files/analysis/<id>/` bundles; drafts are excluded. Agent catalogue URLs are absolute; full items additionally have analysis_url_abs and annotated_score_url_abs.
+- analysis_tags: deduplicated type:technique strings for searching musical devices; analysis_quarter_range: absolute source MIDI quarters [start, end), used for excerpt provenance and independent watch checks.
+- analysis_parent_id: present on generated analysis sub-piece rows. These inherit the parent's score licence, source files and MIDI reference, but clear recordings/previews/streams. They appear in library/catalog/slim index/composer data, without a new CSV row. `?watch=<bundle id>` plays the annotated excerpt. See [ANALYSIS_FORMAT.md](ANALYSIS_FORMAT.md).
 - recording_status, score_status: licence class of each part (blank when the part is absent)
 - licence_status: most restrictive of the two (clean < attribution < flagged < sharealike < unverified); `flagged` comes from the FLAGGED list in the script; verified != yes forces unverified
 - legal_flags: short caveat chips derived from legal_notes (informational, do not change the badge)
