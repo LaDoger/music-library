@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 12",
  "catalog": "",
  "movement": "No. 12",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;playful;rustic;lively;key: Bb major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Bb major. Chord journey: IV6/3 - V - i4 minor turn - #ivo6 - bVII - viio5, IV6/3 - V returns, iii colour, closes on tonic Bb. Texture: sparse opening, then bright dance-like chords with rests.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "playful",
+  "rustic",
+  "lively",
+  "key: Bb major"
  ],
  "has_editable_score": true,
  "has_recording": false,

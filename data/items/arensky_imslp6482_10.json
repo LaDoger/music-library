@@ -5,9 +5,9 @@
  "title": "12 Preludes, Op.63 - No. 10",
  "catalog": "",
  "movement": "No. 10",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;restless;dark;chromatic;key: D minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: III6 - iii6 - bVI - bII - bVII chromatic ascent, bVII7 - iii - vo6 - iii7 - bVI - iv7, IV#3 - v7 - ivø - bVI6 - v+ - i43 close. Texture: heavy chromatic chordal figuration over a rising bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "restless",
+  "dark",
+  "chromatic",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

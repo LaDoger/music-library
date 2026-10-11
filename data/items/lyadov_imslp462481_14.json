@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 14",
  "catalog": "",
  "movement": "No. 14",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;bright;rustic;capricious;key: F major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F major. Chord journey: vii - v6 - IV6 - bVI#3 - V43 - bVI+ - V43 - bVI+ - i4 hold, v42 - IV - I - i close with minor shading. Texture: sparse texture of sustained chords and held rests.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "bright",
+  "rustic",
+  "capricious",
+  "key: F major"
  ],
  "has_editable_score": true,
  "has_recording": false,

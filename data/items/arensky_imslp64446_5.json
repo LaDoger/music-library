@@ -5,9 +5,9 @@
  "title": "12 Etudes, Op.74 - No. 5",
  "catalog": "",
  "movement": "No. 5",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;driving;restless;sinuous;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: iii - iv5 - iii5 - ii5 - i5 descending sequence, I - #ii2 - iii - iv5 - iii5 - ii5, vii - II#3 - V - vii4 sequence, i+4 - I, closes iii6 - i. Texture: fast etude figuration with repeated 5-4 sequence chords.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "driving",
+  "restless",
+  "sinuous",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

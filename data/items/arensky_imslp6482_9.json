@@ -5,9 +5,9 @@
  "title": "12 Preludes, Op.63 - No. 9",
  "catalog": "",
  "movement": "No. 9",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;stately;pensive;lucid;key: Eb major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Eb major. Chord journey: I - v7 - vi - vii7 - I, v7 - i5 minor shadow, bVII7 - vii6 - vi42 sequence, iii6 - ii64 - viio64 - I close. Texture: steady chordal accompaniment with a stepwise inner line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "stately",
+  "pensive",
+  "lucid",
+  "key: Eb major"
  ],
  "has_editable_score": true,
  "has_recording": false,

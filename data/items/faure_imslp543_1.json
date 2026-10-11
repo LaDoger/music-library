@@ -5,9 +5,9 @@
  "title": "Impromptu No.2, Op.31",
  "catalog": "",
  "movement": "",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;flowing;yearning;capricious;key: F minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F minor. Chord journey: i - v2 - III (Picardy-like major) - i - bVI7 - bVII2 - v, III - i7 - v - bVII6 - v6 sequence, vi - I53#3, closes on F major. Texture: rippling sixteenth-note figuration over a sustained melodic line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Impromptu_No.2,_Op.31_(Faur%C3%A9,_Gabriel)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "flowing",
+  "yearning",
+  "capricious",
+  "key: F minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

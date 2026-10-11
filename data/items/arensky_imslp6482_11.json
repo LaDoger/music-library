@@ -5,9 +5,9 @@
  "title": "12 Preludes, Op.63 - No. 11",
  "catalog": "",
  "movement": "No. 11",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;stormy;striding;darkened;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - ii - i minor shadow - vi - III - iv - iii, bVII - III colour, v7 pivot - I close. Texture: striding bass under dense chromatic inner voices.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "stormy",
+  "striding",
+  "darkened",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,
