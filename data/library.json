@@ -7684,6 +7684,36 @@
   "midi_play_url": "files/scores/bach_bwv773_invention2.mid",
   "other_editions": [],
   "search_text": "two-part invention no. 2 in c minor johann sebastian bach bwv 773 bwv 773 bwv773  bach bwv773 invention2 dark urgent clear classical baroque  bach, johann sebastian",
+  "analysis_url": "files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.analysis.json",
+  "annotated_score_url": "files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.annotated.musicxml",
+  "analysis_tags": [
+   "bass_line:stepwise_descent",
+   "cadence:IAC",
+   "cadence:PAC",
+   "counterpoint:canon",
+   "counterpoint:imitation",
+   "counterpoint:invertible",
+   "form:bridge",
+   "form:theme_1",
+   "form:theme_2",
+   "hook:melodic_cell",
+   "modulation:pivot_chord",
+   "modulation:sequence",
+   "rhythm_phrase:elision",
+   "rhythm_phrase:syncopation",
+   "story:arrival",
+   "story:continuation",
+   "story:start",
+   "story:turn",
+   "tension_release:deceptive_resolution",
+   "texture_dynamics:climax",
+   "texture_dynamics:thickening",
+   "voicing_orchestration:register_low_shift"
+  ],
+  "analysis_quarter_range": [
+   0,
+   108.0
+  ],
   "score_method": "Converted from LilyPond source"
  },
  {

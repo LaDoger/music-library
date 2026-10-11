@@ -60,6 +60,36 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv773_invention2.mid",
  "other_editions": [],
+ "analysis_url": "files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.analysis.json",
+ "annotated_score_url": "files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.annotated.musicxml",
+ "analysis_tags": [
+  "bass_line:stepwise_descent",
+  "cadence:IAC",
+  "cadence:PAC",
+  "counterpoint:canon",
+  "counterpoint:imitation",
+  "counterpoint:invertible",
+  "form:bridge",
+  "form:theme_1",
+  "form:theme_2",
+  "hook:melodic_cell",
+  "modulation:pivot_chord",
+  "modulation:sequence",
+  "rhythm_phrase:elision",
+  "rhythm_phrase:syncopation",
+  "story:arrival",
+  "story:continuation",
+  "story:start",
+  "story:turn",
+  "tension_release:deceptive_resolution",
+  "texture_dynamics:climax",
+  "texture_dynamics:thickening",
+  "voicing_orchestration:register_low_shift"
+ ],
+ "analysis_quarter_range": [
+  0,
+  108.0
+ ],
  "score_method": "Converted from LilyPond source",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
@@ -79,5 +109,7 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Two-Part Invention No. 2 in C minor, BWV 773 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=58. Licence: PD."
+ "credit_text": "Johann Sebastian Bach: Two-Part Invention No. 2 in C minor, BWV 773 (composition public domain).\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=58. Licence: PD.",
+ "analysis_url_abs": "https://ladoger.github.io/music-library/files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.analysis.json",
+ "annotated_score_url_abs": "https://ladoger.github.io/music-library/files/analysis/bach_bwv773_invention2/bach_bwv773_invention2.annotated.musicxml"
 }
