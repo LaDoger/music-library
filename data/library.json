@@ -241,7 +241,8 @@
   "score_url": "files/scores/bach_bwv846_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv846_prelude.ly",
-   "files/scores/bach_bwv846_prelude.mid"
+   "files/scores/bach_bwv846_prelude.mid",
+   "files/scores/bach_bwv846_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -271,7 +272,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "well-tempered clavier: prelude in c major johann sebastian bach bwv 846 bwv 846 bwv846 prelude bach bwv846 prelude calm clear elegant classical baroque musopen (performer not named on source page) bach, johann sebastian"
+  "search_text": "well-tempered clavier: prelude in c major johann sebastian bach bwv 846 bwv 846 bwv846 prelude bach bwv846 prelude calm clear elegant classical baroque musopen (performer not named on source page) bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_op27_2_moonlight1",
@@ -562,7 +564,8 @@
   "score_url": "files/scores/beethoven_woo59_fur_elise.mid",
   "score_files": [
    "files/scores/beethoven_woo59_fur_elise.ly",
-   "files/scores/beethoven_woo59_fur_elise.mid"
+   "files/scores/beethoven_woo59_fur_elise.mid",
+   "files/scores/beethoven_woo59_fur_elise_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -584,7 +587,8 @@
   "duration_s": 176.59,
   "midi_play_url": "files/scores/beethoven_woo59_fur_elise.mid",
   "other_editions": [],
-  "search_text": "für elise ludwig van beethoven woo 59 woo 59 woo59 bagatelle beethoven woo59 fur elise elegant intimate reflective classical classical / early romantic v gao / gaodifan (piano) beethoven, ludwig van"
+  "search_text": "für elise ludwig van beethoven woo 59 woo 59 woo59 bagatelle beethoven woo59 fur elise elegant intimate reflective classical classical / early romantic v gao / gaodifan (piano) beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "berlioz_fantastique_witches_sabbath",
@@ -1243,7 +1247,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_clair_de_lune.mid",
   "score_files": [
-   "files/scores/debussy_clair_de_lune.mid"
+   "files/scores/debussy_clair_de_lune.mid",
+   "files/scores/debussy_clair_de_lune_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -1265,7 +1270,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_clair_de_lune.mid",
   "other_editions": [],
-  "search_text": "suite bergamasque: clair de lune claude debussy l.75 no.3 l 75 no 3 l.75 no.3 l75no3  debussy clair de lune calm elegant nocturnal classical late romantic / early 20th  debussy, claude"
+  "search_text": "suite bergamasque: clair de lune claude debussy l.75 no.3 l 75 no 3 l.75 no.3 l75no3  debussy clair de lune calm elegant nocturnal classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_danse_sacree",
@@ -2481,7 +2487,8 @@
   "score_url": "files/scores/mozart_k331_rondo_turca.mid",
   "score_files": [
    "files/scores/mozart_k331_rondo_turca.mid",
-   "files/scores/mozart_k331_rondo_turca_lilypond.zip"
+   "files/scores/mozart_k331_rondo_turca_lilypond.zip",
+   "files/scores/mozart_k331_rondo_turca_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "playful",
@@ -2505,7 +2512,8 @@
   "duration_s": 181.6,
   "midi_play_url": "files/scores/mozart_k331_rondo_turca.mid",
   "other_editions": [],
-  "search_text": "rondo alla turca wolfgang amadeus mozart k. 331 k 331 k. 331 k331 iii. allegretto mozart k331 rondo turca playful energetic elegant classical classical romuald greiss (piano) mozart, wolfgang amadeus"
+  "search_text": "rondo alla turca wolfgang amadeus mozart k. 331 k 331 k. 331 k331 iii. allegretto mozart k331 rondo turca playful energetic elegant classical classical romuald greiss (piano) mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k525_nachtmusik",
@@ -3891,7 +3899,8 @@
   "score_url": "files/scores/schumann_op15_7_traumerei.mid",
   "score_files": [
    "files/scores/schumann_op15_7_traumerei.ly",
-   "files/scores/schumann_op15_7_traumerei.mid"
+   "files/scores/schumann_op15_7_traumerei.mid",
+   "files/scores/schumann_op15_7_traumerei_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "calm",
@@ -3915,7 +3924,8 @@
   "duration_s": 203.0,
   "midi_play_url": "files/scores/schumann_op15_7_traumerei.mid",
   "other_editions": [],
-  "search_text": "träumerei robert schumann op. 15 no. 7 op 15 no 7 op. 15 no. 7 op15no7 kinderszenen: dreaming schumann op15 7 traumerei calm nostalgic gentle classical romantic musopen (performer not named on source page) schumann, robert"
+  "search_text": "träumerei robert schumann op. 15 no. 7 op 15 no 7 op. 15 no. 7 op15no7 kinderszenen: dreaming schumann op15 7 traumerei calm nostalgic gentle classical romantic musopen (performer not named on source page) schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "smetana_vltava",
@@ -7417,7 +7427,8 @@
   "score_url": "files/scores/bach_bwv773_invention2.mid",
   "score_files": [
    "files/scores/bach_bwv773_invention2.ly",
-   "files/scores/bach_bwv773_invention2.mid"
+   "files/scores/bach_bwv773_invention2.mid",
+   "files/scores/bach_bwv773_invention2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -7439,7 +7450,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv773_invention2.mid",
   "other_editions": [],
-  "search_text": "two-part invention no. 2 in c minor johann sebastian bach bwv 773 bwv 773 bwv773  bach bwv773 invention2 dark urgent clear classical baroque  bach, johann sebastian"
+  "search_text": "two-part invention no. 2 in c minor johann sebastian bach bwv 773 bwv 773 bwv773  bach bwv773 invention2 dark urgent clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv774_invention3",
@@ -180769,7 +180781,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op94_moments_musicaux_no_3_in_f_m.mid",
   "score_files": [
-   "files/scores/schubert_op94_moments_musicaux_no_3_in_f_m.mid"
+   "files/scores/schubert_op94_moments_musicaux_no_3_in_f_m.mid",
+   "files/scores/schubert_op94_moments_musicaux_no_3_in_f_m_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -180790,7 +180803,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op94_moments_musicaux_no_3_in_f_m.mid",
   "other_editions": [],
-  "search_text": "moments musicaux no. 3 in f minor franz schubert op. 94 op 94 op. 94 op94  schubert op94 moments musicaux no 3 in f m classical lyrical classical romantic  schubert, franz"
+  "search_text": "moments musicaux no. 3 in f minor franz schubert op. 94 op 94 op. 94 op94  schubert op94 moments musicaux no 3 in f m classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op96_zweite_fassung",
@@ -187323,7 +187337,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op28_suffocation.mid",
   "score_files": [
-   "files/scores/chopin_op28_suffocation.mid"
+   "files/scores/chopin_op28_suffocation.mid",
+   "files/scores/chopin_op28_suffocation_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -187343,7 +187358,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_op28_suffocation.mid",
   "other_editions": [],
-  "search_text": "prelude: op. 28, no. 4 ('suffocation') frédéric chopin op. 28 op 28 op. 28 op28 ‘suffocation’ chopin op28 suffocation intimate classical romantic  chopin, frédéric"
+  "search_text": "prelude: op. 28, no. 4 ('suffocation') frédéric chopin op. 28 op 28 op. 28 op28 ‘suffocation’ chopin op28 suffocation intimate classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op28no1_chopin_prelude_in_c_major_op",
@@ -340576,7 +340592,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_op118_2_intermezzo.mid",
   "score_files": [
-   "files/scores/brahms_op118_2_intermezzo.mid"
+   "files/scores/brahms_op118_2_intermezzo.mid",
+   "files/scores/brahms_op118_2_intermezzo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -340612,7 +340629,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "2. intermezzo johannes brahms op. 118 op 118 op. 118 op118  brahms op118 2 intermezzo classical lyrical classical romantic  brahms, johannes"
+  "search_text": "2. intermezzo johannes brahms op. 118 op 118 op. 118 op118  brahms op118 2 intermezzo classical lyrical classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_op29no2_brahms_schaffe_in_mir_gott",
@@ -496141,7 +496159,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_ps_the_seasons_january.mid",
   "score_files": [
-   "files/scores/tchaikovsky_ps_the_seasons_january.mid"
+   "files/scores/tchaikovsky_ps_the_seasons_january.mid",
+   "files/scores/tchaikovsky_ps_the_seasons_january_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -496162,7 +496181,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_ps_the_seasons_january.mid",
   "other_editions": [],
-  "search_text": "the seasons: january pyotr ilyich tchaikovsky op. 37a no. 1 op 37a no 1 op. 37a no. 1 op37ano1 january: at the fireside tchaikovsky ps the seasons january classical lyrical classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "the seasons: january pyotr ilyich tchaikovsky op. 37a no. 1 op 37a no 1 op. 37a no. 1 op37ano1 january: at the fireside tchaikovsky ps the seasons january classical lyrical classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_ps_the_seasons_february",
