@@ -68,6 +68,34 @@
    "licence": "CC0"
   }
  ],
+ "analysis_url": "files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.analysis.json",
+ "annotated_score_url": "files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.annotated.musicxml",
+ "analysis_tags": [
+  "bass_line:chromatic",
+  "bass_line:pedal",
+  "bass_line:stepwise_descent",
+  "cadence:HC",
+  "cadence:IAC",
+  "cadence:tonic_close",
+  "colour_chord:dim7_colour",
+  "form:bridge",
+  "form:coda",
+  "form:theme_1",
+  "hook:harmonic_cell",
+  "motif:repetition",
+  "rhythm_phrase:extension",
+  "story:arrival",
+  "story:continuation",
+  "story:start",
+  "story:turn",
+  "tension_release:delayed_resolution",
+  "tension_release:pedal_point_dominant",
+  "tension_release:pedal_point_tonic"
+ ],
+ "analysis_quarter_range": [
+  0,
+  140.0
+ ],
  "score_method": "Converted from LilyPond source",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
@@ -87,5 +115,7 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier: Prelude in C major, BWV 846 (composition public domain).\nRecording: Musopen (performer not named on source page). Licence: CC0. Source: https://commons.wikimedia.org/wiki/File:JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5. Licence: PD."
+ "credit_text": "Johann Sebastian Bach: Well-Tempered Clavier: Prelude in C major, BWV 846 (composition public domain).\nRecording: Musopen (performer not named on source page). Licence: CC0. Source: https://commons.wikimedia.org/wiki/File:JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5. Licence: PD.",
+ "analysis_url_abs": "https://ladoger.github.io/music-library/files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.analysis.json",
+ "annotated_score_url_abs": "https://ladoger.github.io/music-library/files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.annotated.musicxml"
 }

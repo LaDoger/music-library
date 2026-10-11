@@ -273,6 +273,34 @@
    }
   ],
   "search_text": "well-tempered clavier: prelude in c major johann sebastian bach bwv 846 bwv 846 bwv846 prelude bach bwv846 prelude calm clear elegant classical baroque musopen (performer not named on source page) bach, johann sebastian",
+  "analysis_url": "files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.analysis.json",
+  "annotated_score_url": "files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.annotated.musicxml",
+  "analysis_tags": [
+   "bass_line:chromatic",
+   "bass_line:pedal",
+   "bass_line:stepwise_descent",
+   "cadence:HC",
+   "cadence:IAC",
+   "cadence:tonic_close",
+   "colour_chord:dim7_colour",
+   "form:bridge",
+   "form:coda",
+   "form:theme_1",
+   "hook:harmonic_cell",
+   "motif:repetition",
+   "rhythm_phrase:extension",
+   "story:arrival",
+   "story:continuation",
+   "story:start",
+   "story:turn",
+   "tension_release:delayed_resolution",
+   "tension_release:pedal_point_dominant",
+   "tension_release:pedal_point_tonic"
+  ],
+  "analysis_quarter_range": [
+   0,
+   140.0
+  ],
   "score_method": "Converted from LilyPond source"
  },
  {

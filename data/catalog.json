@@ -144,7 +144,31 @@
    "release_audio_url": "https://github.com/LaDoger/music-library/releases/download/audio-v1/bach_bwv846_prelude.ogg",
    "stream_audio_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg/JS_Bach_-_Well_Tempered_Clavier_-_Prelude_in_Fugue_No.1_in_C_major.ogg.mp3",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bach_bwv846_prelude.mid",
-   "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv846_prelude.json"
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/bach_bwv846_prelude.json",
+   "analysis_url": "https://ladoger.github.io/music-library/files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.analysis.json",
+   "annotated_score_url": "https://ladoger.github.io/music-library/files/analysis/bach_bwv846_prelude/bach_bwv846_prelude.annotated.musicxml",
+   "analysis_tags": [
+    "bass_line:chromatic",
+    "bass_line:pedal",
+    "bass_line:stepwise_descent",
+    "cadence:HC",
+    "cadence:IAC",
+    "cadence:tonic_close",
+    "colour_chord:dim7_colour",
+    "form:bridge",
+    "form:coda",
+    "form:theme_1",
+    "hook:harmonic_cell",
+    "motif:repetition",
+    "rhythm_phrase:extension",
+    "story:arrival",
+    "story:continuation",
+    "story:start",
+    "story:turn",
+    "tension_release:delayed_resolution",
+    "tension_release:pedal_point_dominant",
+    "tension_release:pedal_point_tonic"
+   ]
   },
   {
    "id": "beethoven_op27_2_moonlight1",
