@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9843,
+ "count": 9844,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -305412,6 +305412,38 @@
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op9_carnaval_21.mid",
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op9_carnaval_21.json"
+  },
+  {
+   "id": "bartok_sz38_14_bagatelles_9",
+   "composer": "Béla Bartók",
+   "composer_slug": "bela-bartok",
+   "composer_sort": "Bartók, Béla",
+   "title": "14 Bagatelles - No. 9",
+   "catalog": "Op. 6, Sz. 38",
+   "movement": "No. 9",
+   "genre": "classical",
+   "era": "20th century",
+   "mood": [
+    "classical",
+    "modern",
+    "folk"
+   ],
+   "energy": "moderate",
+   "licence_status": "flagged",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 0,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz38_14_bagatelles_9.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/bartok_sz38_14_bagatelles_9.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/bartok_sz38_14_bagatelles_9.json"
   }
  ]
 }

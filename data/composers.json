@@ -2880,14 +2880,15 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 4,
-  "score_count": 4,
+  "piece_count": 5,
+  "score_count": 5,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
    "bartok_sz_56_romanian_folk_dances_piano",
    "bartok_sz49_allegro_barbaro_orch_johnson",
-   "bartok_sz81_out_of_doors_orch_johnson"
+   "bartok_sz81_out_of_doors_orch_johnson",
+   "bartok_sz38_14_bagatelles_9"
   ],
   "wikidata": null,
   "portrait_url": null,
