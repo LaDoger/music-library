@@ -822,6 +822,42 @@ BORODIN = [
     ("Flute Concerto", "Concerto in D for flute and piano", None, UNPUB, r"concerto in d.*flute|flute.*concerto", "Lost work (composed 1847, Wikipedia list); excluded"),
 ]
 
+# Szymanowski (d.1937, 29 Mar 1937): US-PD-only (LaDoger priority list 2026-10-11). Death year is inside the default
+# 1930-1955 band, so no ceiling change in schema.py. In scope only when the first publication is 1930 or earlier (IMSLP
+# "First Publication" field, checked 2026-10-11). Piano works first (Preludes Op.1, Etudes Op.4 and Op.33, Sonatas
+# Op.8/21/36, Metopes Op.29, Masques Op.34), then the violin and chamber works, the orchestral works and the stage/choral
+# works. Works with no IMSLP work page or no First Publication field are unverified; works first published after 1930 are excluded.
+SZYMANOWSKI = [
+    ("Op.1", "9 Preludes, Op.1 (piano)", 1906, IN, r"9 preludes|nine preludes|preludes op 1\b|op 1\b", "IMSLP: First Publication 1906 (Spolka Nakladowa, Berlin / Albert Stahl); composed 1899-1900 (LaDoger priority)"),
+    ("Op.4", "4 Etudes, Op.4 (piano)", 1906, IN, r"4 etudes|four etudes|etudes op 4\b|op 4\b", "IMSLP: First Publication 1906 (Spolka Nakladowa, Berlin; Gebethner and Wolff, Warsaw); composed 1900-02 (LaDoger priority)"),
+    ("Op.8", "Piano Sonata No.1 in C minor, Op.8", 1910, IN, r"piano sonata no 1\b|sonata no 1\b|op 8\b", "IMSLP: First Publication 1910 (A. Piwarski, Krakow); composed 1905"),
+    ("Op.10", "Variations on a Polish Folk Theme in B minor, Op.10 (piano)", 1906, IN, r"variations on a polish|polish folk theme|op 10\b", "IMSLP: First Publication 1906 (ca.); composed 1904"),
+    ("Op.14", "Fantasy in C major, Op.14 (piano)", 1911, IN, r"fantasy|fantazja|op 14\b", "IMSLP: First Publication 1911 (A. Piwarski, Krakow); composed 1905"),
+    ("Op.21", "Piano Sonata No.2 in A major, Op.21", 1912, IN, r"piano sonata no 2\b|sonata no 2\b|op 21\b", "IMSLP: First Publication 1912 (Universal Edition, Vienna); composed 1910"),
+    ("Op.28", "Nocturne and Tarantella, Op.28 (piano)", 1921, IN, r"nocturne and tarantella|nocturne tarantella|op 28\b|tarantella", "IMSLP: First Publication 1921 (Universal Edition, Vienna); composed 1915"),
+    ("Op.29", "Metopes (Metopy), Op.29 (piano, 3 poems)", 1922, IN, r"metopes|metopy|op 29\b", "IMSLP: First Publication 1922 (Universal Edition, Vienna); composed 1915"),
+    ("Op.30", "Mythes, Op.30 (piano, 3 pieces)", 1921, IN, r"mythes|myths|op 30\b", "IMSLP: First Publication 1921 (Universal Edition, Vienna); composed 1915"),
+    ("Op.33", "12 Etudes, Op.33 (piano)", 1922, IN, r"12 etudes|twelve etudes|etudes op 33\b|op 33\b", "IMSLP: First Publication 1922 (Universal Edition, Vienna); composed 1916"),
+    ("Op.34", "Masques, Op.34 (piano, 3 pieces)", 1919, IN, r"masques|maski|op 34\b", "IMSLP: First Publication 1919 (Universal Edition, Vienna); composed 1915-16"),
+    ("Op.36", "Piano Sonata No.3 in C-sharp minor, Op.36", 1919, IN, r"piano sonata no 3\b|sonata no 3\b|op 36\b", "IMSLP: First Publication 1919 (Universal Edition, Vienna); composed 1917"),
+    ("Op.50", "20 Mazurkas, Op.50 (piano)", None, UNV, r"mazurkas|op 50\b", "IMSLP: First Publication '1926-31' (five brochures of four, Universal Edition); not a single confirmed year, not imported"),
+    ("Op.9", "Violin Sonata in D minor, Op.9", 1911, IN, r"violin sonata|sonata for violin|op 9\b", "IMSLP: First Publication 1911 (Gebethner and Wolff, Warsaw); composed 1904"),
+    ("Op.23", "Romance in D major, Op.23 (violin and piano)", None, UNV, r"romance|op 23\b", "IMSLP: no First Publication field (closest UE 1912); composed 1910; not confirmed, not imported"),
+    ("Op.35", "Violin Concerto No.1, Op.35", 1921, IN, r"violin concerto no 1\b|concerto no 1\b|op 35\b", "IMSLP: First Publication 1921 (violin and piano), full score 1923 (Universal Edition, Vienna); composed 1916"),
+    ("Op.37", "String Quartet No.1 in C major, Op.37", 1925, IN, r"string quartet no 1\b|quartet no 1\b|op 37\b", "IMSLP: First Publication 1925 (Universal Edition, Vienna); composed 1917"),
+    ("Op.56", "String Quartet No.2, Op.56", None, UNV, r"string quartet no 2\b|quartet no 2\b|op 56\b", "IMSLP work page not read; first publication not confirmed, not imported"),
+    ("Op.16", "Piano Trio, Op.16", None, UNPUB, r"piano trio|trio op 16\b|op 16\b", "Withdrawn / destroyed by the composer (Wikipedia list); excluded"),
+    ("Op.27", "Symphony No.3 'Song of the Night', Op.27 (tenor, chorus, orchestra)", 1925, IN, r"symphony no 3\b|song of the night|op 27\b", "IMSLP: First Publication 1925 (Universal Edition, Vienna, vocal score); composed 1914-16"),
+    ("Op.19", "Symphony No.2 in B-flat major, Op.19", 1954, POST, r"symphony no 2\b|op 19\b", "IMSLP: First Publication 1954 (PWM, Krakow); composed 1909-10, revised 1927-36 (post-1930 publication, excluded)"),
+    ("Op.12", "Concert Overture in E major, Op.12", 1937, POST, r"concert overture|overture|op 12\b", "IMSLP: First Publication 1937 (?) (Universal Edition, Vienna); composed 1904-05, revised 1910-13 (post-1930, excluded)"),
+    ("Op.60", "Symphony No.4 'Symphonie concertante', Op.60", 1932, POST, r"symphony no 4\b|symphonie concertante|op 60\b", "composed 1932 (Wikipedia list) (post-1930, excluded)"),
+    ("Op.55", "Harnasie, Op.55 (ballet-pantomime)", 1932, POST, r"harnasie|op 55\b", "IMSLP: First Publication 1932 (arrangement); composed 1923-31 (post-1930, excluded)"),
+    ("Op.46", "King Roger (Krol Roger), Op.46 (opera)", 1925, IN, r"king roger|krol roger|op 46\b", "IMSLP: First Publication 1925 (Universal Edition, Vienna, vocal score); composed 1918-24"),
+    ("Op.53", "Stabat Mater, Op.53 (soloists, chorus, orchestra)", 1928, IN, r"stabat mater|op 53\b", "IMSLP: First Publication 1928 (Universal Edition, Vienna, vocal score); composed 1925-26"),
+    ("Op.25", "Hagith, Op.25 (opera)", None, UNV, r"hagith|op 25\b", "IMSLP: no First Publication field (closest UE 1920); composed 1912-13; not confirmed, not imported"),
+    ("Op.18", "Penthesilea, Op.18 (symphonic poem)", 1977, POST, r"penthesilea|op 18\b", "IMSLP: First Publication 1977 (PWM); composed 1908 (not published by 1930, excluded)"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -960,5 +996,11 @@ COMPOSERS = {
         "catalogue": "Op. (Grechaninov's opus numbers)", "rows": GRECHANINOV,
         "prefix": "grechaninov", "genre": "classical", "era": "Late Romantic (Russian)",
         "scope_note": "US-PD-only (died 1956; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano miniatures for children first (Livre d'enfants Op.98, Glass Beads Op.123, On the Green Meadow Op.99), then the other piano albums, the Violin Sonata No.1 Op.87, the quartets and piano trio, the Symphony No.2 Op.27 and In modo antico Op.81. Principal works for video; not the full catalogue (no songs, the liturgical cycles beyond Op.13, the operas beyond Op.22). Post-1930 works (Piano Sonatas Op.129/174, Russian Folk Dances Op.130, Piano Trio No.2 Op.128, Violin Sonata No.2 Op.137, Clarinet Sonata No.2 Op.172, Symphony No.5 Op.153, Violin Concerto Op.132) are excluded; works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "szymanowski": {
+        "name": "Karol Szymanowski", "canon": "karol szymanowski", "death": 1937, "birth": 1882,
+        "catalogue": "Op. (Szymanowski's opus numbers)", "rows": SZYMANOWSKI,
+        "prefix": "szymanowski", "genre": "classical", "era": "Late Romantic / early modern (Polish)",
+        "scope_note": "US-PD-only (died 1937; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano works first (Preludes Op.1, Etudes Op.4 and Op.33, Sonatas Op.8/21/36, Metopes Op.29, Masques Op.34, Mythes Op.30, Nocturne and Tarantella Op.28), then the Violin Sonata Op.9, the Violin Concerto No.1 Op.35, the String Quartet No.1 Op.37, Symphony No.3 Op.27, King Roger Op.46 and Stabat Mater Op.53. Post-1930 works (Symphony No.2 Op.19 published 1954, Symphony No.4 Op.60, Harnasie Op.55, Concert Overture Op.12, Penthesilea Op.18) are excluded. Principal works for video; not the full catalogue (no songs, the Mazurkas Op.50 with a 1926-31 publication span, the Violin Concerto No.2 or the Caprices).",
     },
 }

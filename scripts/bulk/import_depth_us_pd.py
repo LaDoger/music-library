@@ -62,6 +62,7 @@ NAME_RX = {
     "medtner": r"\bmedtner|\bmedtnor",  # PDMX spellings
     "rebikov": r"\brebikov|\brebikoff|\brebikow|\brebikof|\brebicov",  # PDMX spellings (Rebikoff, Rebikow)
     "grechaninov": r"\bgrechan|\bgretchan|\bgretschan",  # PDMX spellings (Gretchaninoff, Gretschaninow)
+    "szymanowski": r"\bszymanowsk|\bszimanowsk|\bszymanovsk|\bshymanovsk",  # PDMX spellings (Szymanowsky, Szimanowski)
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
@@ -173,7 +174,8 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
-        "Op.119", "Op.123"}  # Grechaninov piano albums (multi-piece opus numbers)
+        "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
+        "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34"}  # Szymanowski piano sets (multi-piece opus numbers)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

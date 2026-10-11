@@ -590,6 +590,21 @@
      "gretchaninoff"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Livre d'enfants Op.98, Glass Beads Op.123, On the Green Meadow Op.99, the piano albums Op.3/37/53/61/109/110/115/116/118/119, Violin Sonata No.1 Op.87, String Quartets No.1 Op.2 and No.2 Op.70, Piano Trio No.1 Op.38, Symphony No.1 Op.6, Symphony No.2 Op.27, In modo antico Op.81, Liturgy No.1 Op.13). Post-1930 works (Piano Sonatas Op.129/174, Piano Trio No.2 Op.128, Violin Sonata No.2 Op.137, Clarinet Sonata No.2 Op.172, Symphony No.5 Op.153, Violin Concerto Op.132) excluded. Checklist: scripts/bulk/catalogue_data.py GRECHANINOV."
+  },
+  {
+   "canon": "karol szymanowski",
+   "name": "Karol Szymanowski",
+   "birth": 1882,
+   "death": 1937,
+   "prefix": "szymanowski",
+   "aliases": [
+     "karol szymanowski",
+     "karol szymanowsky",
+     "szymanowski karol",
+     "szymanowski",
+     "szymanowsky"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Nine Preludes Op.1, Etudes Op.4 and Op.33, Piano Sonatas Op.8/21/36, Metopes Op.29, Masques Op.34, Mythes Op.30, Nocturne and Tarantella Op.28, Violin Sonata Op.9, Violin Concerto No.1 Op.35, String Quartet No.1 Op.37, Symphony No.3 Op.27, King Roger Op.46, Stabat Mater Op.53). Post-1930 works (Symphony No.2 Op.19 published 1954, Symphony No.4 Op.60, Harnasie Op.55, Concert Overture Op.12, Penthesilea Op.18) excluded. Checklist: scripts/bulk/catalogue_data.py SZYMANOWSKI."
   }
  ]
 }
