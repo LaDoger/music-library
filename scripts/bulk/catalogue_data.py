@@ -613,6 +613,142 @@ TANEYEV = [
     ("Pf.Sch", "Scherzo in E flat minor (piano)", None, UNV, r"scherzo", "Listed on IMSLP (piano, from titles); no first-publication year verified"),
 ]
 
+# Blumenfeld (d.1931, 21 Jan 1931): US-PD-only (died 1930-1955). LaDoger priority list 2026-10-11: in scope only when the
+# first publication is 1930 or earlier (IMSLP "First Publication" field, checked 2026-10-11). Piano first (Etude for the
+# left hand Op.36 and the Preludes Op.17 lead), then the other piano sets, then chamber and orchestral works.
+BLUMENFELD = [
+    ("Op.36", "Etude for the Left-Hand, Op.36 (piano)", 1905, IN, r"left hand|left handed|etude for the left|etude op 36\b", "IMSLP: First Publication 1905 (LaDoger priority)"),
+    ("Op.17", "24 Preludes for Piano, Op.17", 1892, IN, r"24 preludes|preludes? op 17\b", "IMSLP: First Publication 1892 (Nos.1-12), 1893 (Nos.13-18), 1894 (Nos.19-24), Belaieff (LaDoger priority)"),
+    ("Op.24", "Etude de Concert, Op.24", 1897, IN, r"etude de concert|concert etude|etude op 24\b", "IMSLP: First Publication 1897"),
+    ("Op.25", "2 Etude-Fantasies for Piano, Op.25", 1898, IN, r"etude fantas|etude-fantas|etude fantasies", "IMSLP: First Publication 1898"),
+    ("Op.29", "2 Etudes for Piano, Op.29", 1898, IN, r"2 etudes op 29\b|etudes? op 29\b", "IMSLP: First Publication 1898"),
+    ("Op.48", "Etude-Fantasy No.3, Op.48", 1916, IN, r"etude fantasy (no )?3\b|etude fantasy op 48\b", "IMSLP: First Publication 1916"),
+    ("Op.20", "Nocturne-Fantasie for Piano, Op.20", 1895, IN, r"nocturne fantasie|nocturne op 20\b", "IMSLP: First Publication 1895"),
+    ("Op.21", "3 Pieces for Piano, Op.21", 1895, IN, r"3 pieces op 21\b", "IMSLP: First Publication 1895"),
+    ("Op.40", "Cloches, Op.40 (piano)", 1909, IN, r"cloches", "IMSLP: First Publication 1909"),
+    ("Op.41", "Printemps, Op.41 (piano)", 1910, IN, r"printemps", "IMSLP: First Publication 1910"),
+    ("Op.34", "Ballade in the Form of Variations, Op.34", 1903, IN, r"ballade in the form of variations|ballade.*variations|ballade op 34\b", "IMSLP: First Publication 1903"),
+    ("Op.8", "Variations caracteristiques, Op.8", 1888, IN, r"variations caracteristiques|variations caract|variations op 8\b", "IMSLP: First Publication 1888"),
+    ("Op.39", "Symphony, Op.39", 1909, IN, r"symphony", "IMSLP: First Publication 1909"),
+    ("Op.32", "Lyrical Suite, Op.32 (piano)", 1902, IN, r"lyrical suite|lyric suite|suite op 32\b", "IMSLP: First Publication 1902"),
+    ("Op.31", "Suite Polonaise No.2, Op.31", 1901, IN, r"suite polonaise (no )?2\b|polonaise no 2\b|polonaise op 31\b", "IMSLP: First Publication 1901"),
+    ("Op.26", "String Quartet, Op.26", 1898, IN, r"string quartet|quartet op 26\b", "IMSLP: Belaieff, Leipzig 1898"),
+    ("Op.52", "Episodes dans la Vie d'une Danseuse, Op.52", 1926, IN, r"episodes dans la vie|danseuse", "IMSLP: First Publication 1926"),
+    ("Op.33", "Fragments caracteristiques, Op.33", 1902, IN, r"fragments caracteristiques|fragments caract|fragments op 33\b", "IMSLP: First Publication 1902"),
+    ("Op.38", "6 Pieces, Op.38 (piano)", 1906, IN, r"6 pieces op 38\b", "IMSLP: First Publication 1906"),
+    ("Op.22", "2 Pieces, Op.22 (piano)", 1896, IN, r"2 pieces op 22\b", "IMSLP: M.P. Belaieff, Monatsbericht 1896"),
+    ("Op.12", "4 Preludes for Piano, Op.12", None, UNV, r"4 preludes|preludes? op 12\b", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.3", "3 Etudes for Piano, Op.3", None, UNV, r"3 etudes op 3\b|etudes? op 3\b", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.44", "4 Etudes for Piano, Op.44", None, UNV, r"4 etudes op 44\b|etudes? op 44\b", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.54", "Etude, Op.54 (piano)", None, UNV, r"etude op 54\b", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.7", "Allegro de concert, Op.7 (piano and orchestra)", None, UNV, r"allegro de concert", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.23", "Suite Polonaise No.1, Op.23", None, UNV, r"suite polonaise (no )?1\b|polonaise no 1\b|polonaise op 23\b", "IMSLP work page has no First Publication field; not imported"),
+    ("Op.46", "Sonate-Fantaisie, Op.46", None, UNV, r"sonate fantaisie|sonata fantasy|sonate-fantaisie|sonate op 46\b", "IMSLP work page has no First Publication field; not imported"),
+]
+
+# Glazunov (d.1936, 21 Mar 1936): US-PD-only (died 1930-1955). LaDoger priority list 2026-10-11: in scope only when the
+# first publication is 1930 or earlier (IMSLP "First Publication" field / "Works first published in" category, checked
+# 2026-10-11). Piano first (Preludes and Fugues, etudes, Theme and Variations), then The Seasons, Raymonda and the
+# Violin Concerto, then the piano concertos, symphonies and string quartets.
+GLAZUNOV = [
+    ("Op.101", "4 Preludes and Fugues, Op.101 (piano)", 1925, IN, r"4 preludes and fugues|preludes and fugues op 101\b|op 101\b", "IMSLP: First Publication 1925"),
+    ("Op.62", "Prelude and Fugue, Op.62 (piano)", 1899, IN, r"prelude et fugue op 62\b|prelude and fugue op 62\b|op 62\b", "IMSLP: Belaieff, Leipzig 1899"),
+    ("Op.93", "Prelude and Fugue, Op.93 (piano)", 1913, IN, r"prelude et fugue op 93\b|prelude and fugue op 93\b|op 93\b", "IMSLP: First Publication 1913"),
+    ("Op.98", "Prelude and Fugue, Op.98 (piano)", 1916, IN, r"prelude et fugue op 98\b|prelude and fugue op 98\b|op 98\b", "IMSLP: First Publication 1916"),
+    ("Op.85", "2 Preludes, Op.85 (piano)", 1911, IN, r"2 preludes op 85\b|preludes? op 85\b|op 85\b", "IMSLP: First Publication 1911"),
+    ("Op.25", "Prelude and 2 Mazurkas, Op.25 (piano)", 1890, IN, r"prelude and 2 mazurkas|op 25\b", "IMSLP: First Publication 1890"),
+    ("Op.31", "3 Etudes, Op.31 (piano)", 1892, IN, r"3 etudes op 31\b|etudes? op 31\b", "IMSLP: Belaieff, Leipzig 1892"),
+    ("Op.72", "Theme and Variations, Op.72 (piano)", 1901, IN, r"theme et variations op 72\b|theme and variations op 72\b|op 72\b", "IMSLP: First Publication 1901"),
+    ("Op.74", "Piano Sonata No.1, Op.74", 1901, IN, r"piano sonata no 1\b|sonata no 1 op 74\b|op 74\b", "IMSLP: First Publication 1901"),
+    ("Op.75", "Piano Sonata No.2, Op.75", 1902, IN, r"piano sonata no 2\b|sonata no 2 op 75\b|op 75\b", "IMSLP: First Publication 1902"),
+    ("Op.37", "Nocturne pour piano, Op.37", 1892, IN, r"nocturne.*op 37\b|op 37\b", "IMSLP: First Publication 1892"),
+    ("Op.36", "Petite valse, Op.36 (piano)", 1892, IN, r"petite valse|op 36\b", "IMSLP: Belaieff Monatsbericht 1892"),
+    ("Op.42", "3 Miniatures, Op.42 (piano)", 1893, IN, r"3 miniatures|op 42\b", "IMSLP: First Publication 1893"),
+    ("Op.49", "3 Pieces for Piano, Op.49", 1895, IN, r"3 pieces for piano op 49\b|op 49\b", "IMSLP: Belaieff, Leipzig 1895"),
+    ("Op.54", "2 Impromptus, Op.54 (piano)", 1896, IN, r"2 impromptus|op 54\b", "IMSLP: First Publication 1896"),
+    ("Op.15", "5 Novelettes, Op.15 (piano)", 1889, IN, r"5 novelettes|novelettes op 15\b|op 15\b", "IMSLP: First Publication 1889"),
+    ("Op.67", "The Seasons, Op.67 (ballet)", 1901, IN, r"the seasons|les saisons|op 67\b", "IMSLP: First Publication 1901"),
+    ("Op.57", "Raymonda, Op.57 (ballet)", 1898, IN, r"raymonda(?! suite)|op 57\b", "IMSLP: First Publication 1898"),
+    ("Op.57a", "Raymonda Suite, Op.57a", 1898, IN, r"raymonda suite|op 57a\b", "IMSLP: First Publication 1898"),
+    ("Op.82", "Violin Concerto in A minor, Op.82", 1905, IN, r"violin concerto|op 82\b", "IMSLP: Belaieff, Leipzig 1905"),
+    ("Op.92", "Piano Concerto No.1 in F minor, Op.92", 1912, IN, r"piano concerto no 1\b|op 92\b", "IMSLP: First Publication 1912"),
+    ("Op.100", "Piano Concerto No.2 in B major, Op.100", None, UNV, r"piano concerto no 2\b|op 100\b", "IMSLP shows 1922 with a query mark; not confirmed, not imported"),
+    ("Op.97", "Theme and Variations for String Orchestra, Op.97", None, UNV, r"theme and variations for string orchestra|op 97\b", "IMSLP work page has no First Publication field (composition year 1895 shown); not imported"),
+    ("Op.5", "Symphony No.1 in E major, Op.5", 1886, IN, r"symphony no 1\b|op 5\b", "IMSLP: First Publication 1886"),
+    ("Op.55", "Symphony No.5 in B flat major, Op.55", 1896, IN, r"symphony no 5\b|op 55\b", "IMSLP: Belaieff, Leipzig 1896"),
+    ("Op.58", "Symphony No.6 in C minor, Op.58", 1898, IN, r"symphony no 6\b|op 58\b", "IMSLP: First Publication 1898"),
+    ("Op.77", "Symphony No.7 in F major, Op.77", 1903, IN, r"symphony no 7\b|op 77\b", "IMSLP: First Publication 1903"),
+    ("Op.83", "Symphony No.8 in E flat major, Op.83", 1907, IN, r"symphony no 8\b|op 83\b", "IMSLP: First Publication 1907"),
+    ("Op.1", "String Quartet No.1 in D major, Op.1", 1887, IN, r"string quartet no 1\b|op 1\b", "IMSLP: First Publication 1887; OpenScore StringQuartets CC0 score"),
+    ("Op.64", "String Quartet No.4, Op.64", 1899, IN, r"string quartet no 4\b|op 64\b", "IMSLP: First Publication 1899"),
+    ("Op.70", "String Quartet No.5, Op.70", 1900, IN, r"string quartet no 5\b|op 70\b", "IMSLP: First Publication 1900"),
+    ("Op.107", "String Quartet No.7, Op.107", 1931, POST, r"string quartet no 7\b|op 107\b", "IMSLP: Belaieff 1931 (post-1930, excluded)"),
+    ("Op.109", "Saxophone Concerto, Op.109", 1936, POST, r"saxophone|op 109\b", "IMSLP: Leduc, Paris 1936 (post-1930, excluded)"),
+]
+
+# Medtner (d.1951, 13 Nov 1951): US-PD-only (died 1930-1955). LaDoger priority list 2026-10-11: in scope only when the
+# first publication is 1930 or earlier (IMSLP "First Publication" field, checked 2026-10-11). Piano first (Forgotten
+# Melodies, Fairy Tales, the sonatas), then the concertos, then the violin sonatas and the Nocturnes.
+MEDTNER = [
+    ("Op.38", "Forgotten Melodies I (First Cycle), Op.38 (piano; incl. Sonata reminiscenza Op.38 No.1)", 1922, IN, r"forgotten melodies i\b|forgotten melodies 1\b|sonata reminiscenza|op 38\b", "IMSLP: First Publication 1922 (Zimmermann, Leipzig)"),
+    ("Op.39", "Forgotten Melodies II (Second Cycle), Op.39 (piano; incl. Sonata tragica Op.39 No.5)", 1922, IN, r"forgotten melodies ii\b|forgotten melodies 2\b|sonata tragica|op 39\b", "IMSLP: First Publication 1922 (Zimmermann; Wikipedia says 1923)"),
+    ("Op.40", "Forgotten Melodies III (Third Cycle), Op.40 (piano)", 1922, IN, r"forgotten melodies iii\b|forgotten melodies 3\b|op 40\b", "IMSLP: First Publication 1922"),
+    ("Op.5", "Piano Sonata No.1 in F minor, Op.5", 1904, IN, r"piano sonata no 1\b|sonata no 1 op 5\b|op 5\b", "IMSLP: First Publication 1904"),
+    ("Op.20", "2 Tales (Skazki), Op.20 (piano)", 1910, IN, r"2 tales op 20\b|2 skazki|op 20\b", "IMSLP: First Publication 1910 (Russischer Musikverlag)"),
+    ("Op.26", "4 Tales (Skazki), Op.26 (piano)", 1913, IN, r"4 tales op 26\b|4 skazki|op 26\b", "IMSLP: First Publication 1913 (Edition Russe de Musique, 'apparently')"),
+    ("Op.51", "6 Tales (Skazki), Op.51 (piano)", 1928, IN, r"6 tales op 51\b|6 skazki|op 51\b", "IMSLP: First Publication 1928"),
+    ("Op.25 No.1", "Sonata-Skazka, Op.25 No.1 (piano)", 1911, IN, r"sonata skazka|sonata-skazka|op 25 no 1\b|op 25/1\b", "IMSLP: First Publication 1911 ? (Russischer Musikverlag RMV 126)"),
+    ("Op.25 No.2", "Piano Sonata No.7 'Night Wind', Op.25 No.2", 1912, IN, r"night wind|op 25 no 2\b|op 25/2\b", "IMSLP: First Publication 1912"),
+    ("Op.22", "Piano Sonata No.5 in G minor, Op.22", 1911, IN, r"piano sonata no 5\b|sonata no 5 op 22\b|op 22\b", "IMSLP: First Publication '1911?' (Russischer Musikverlag Berlin, query mark; composed 1909-10)"),
+    ("Op.33", "Piano Concerto No.1 in C minor, Op.33", 1921, IN, r"piano concerto no 1\b|op 33\b", "IMSLP: First Publication 1921 (Muzgiz, Moscow)"),
+    ("Op.50", "Piano Concerto No.2 in C minor, Op.50", 1928, IN, r"piano concerto no 2\b|op 50\b", "IMSLP: First Publication 1928 (Zimmermann)"),
+    ("Op.16", "3 Nocturnes for violin and piano, Op.16", 1910, IN, r"3 nocturnes|nocturnes? op 16\b|op 16\b", "IMSLP: First Publication 1910 (Edition Russe de Musique); IMSLP summary, work page not fetched"),
+    ("Op.21", "Violin Sonata No.1 in B minor, Op.21", 1911, IN, r"violin sonata no 1\b|violin sonata op 21\b|op 21\b", "IMSLP: First Publication 1911 (Russischer Musikverlag)"),
+    ("Op.44", "Violin Sonata No.2 in G major, Op.44", 1928, IN, r"violin sonata no 2\b|violin sonata op 44\b|op 44\b", "IMSLP: First Publication 1928"),
+    ("Op.27", "Sonata-Ballade, Op.27 (piano)", 1913, IN, r"sonata ballade|sonata-ballade|op 27\b", "IMSLP: First Publication 1913 (version A)"),
+    ("Op.11", "Sonata-Triad (Sonatas 2-4), Op.11 (piano)", None, UNV, r"sonata triad|sonata-triad|sonatas? op 11\b|op 11\b", "IMSLP page not found at the obvious URLs (404); first publication not confirmed (composed 1904-07), not imported"),
+    ("Op.30", "Piano Sonata No.9 in A minor, Op.30 ('War Sonata')", 1917, IN, r"piano sonata no 9\b|war sonata|op 30\b", "IMSLP: First Publication 1917 (Editions Russes de Musique, Petrograd)"),
+    ("Op.42", "3 Tales, Op.42 (piano)", 1924, IN, r"3 tales op 42\b|3 skazki|op 42\b", "IMSLP: First Publication 1924 (Monatsbericht)"),
+    ("Op.48", "2 Tales, Op.48 (piano)", 1927, IN, r"2 tales op 48\b|op 48\b", "IMSLP: First Publication '1927 or earlier' (composed 1925)"),
+    ("Op.49", "3 Hymns in Praise of Toil, Op.49 (piano)", 1929, IN, r"3 hymns|hymns in praise|op 49\b", "IMSLP: First Publication 1929 (Zimmermann)"),
+    ("Op.43", "2 Canzonas with Dances, Op.43 (violin and piano)", 1924, IN, r"canzona|op 43\b", "IMSLP: First Publication 1924"),
+    ("Op.53 No.1", "Sonata romantica, Op.53 No.1 (piano)", 1932, POST, r"sonata romantica|romantica|op 53 no 1\b", "IMSLP: First Publication 1932 (composed 1929-30) (post-1930, excluded)"),
+    ("Op.53 No.2", "Sonata minacciosa, Op.53 No.2 (piano)", 1933, POST, r"sonata minacciosa|minacciosa|op 53 no 2\b", "IMSLP: Zimmermann issued it at the start of 1933 (post-1930, excluded)"),
+    ("Op.56", "Sonata-Idyll, Op.56 (piano)", 1937, POST, r"sonata idyll|sonata-idyll|op 56\b", "Composed 1935-37; post-1930 publication (excluded)"),
+    ("Op.60", "Piano Concerto No.3 'Ballade', Op.60", 1951, POST, r"piano concerto no 3\b|ballade|op 60\b", "IMSLP: First Publication 1951 (Zimmermann) (post-1930, excluded)"),
+    ("Op.57", "Violin Sonata No.3 in E minor, Op.57", 1939, POST, r"violin sonata no 3\b|op 57\b", "IMSLP: First Publication 1939 or 1940 (Novello) (post-1930, excluded)"),
+    ("Piano Quintet", "Piano Quintet in C major (no opus)", 1949, POST, r"piano quintet|quintet", "Completed 1949 (post-1930, excluded)"),
+]
+
+REBIKOV = [
+    # Fully PD (died 1920): no publication-year gate. Years from IMSLP "First Publication" fields and the IMSLP list of works (checked 2026-10-11). Piano miniatures first (LaDoger priority: Les Reves, Autumn Dreams, the Christmas Tree), then the other piano albums, the violin piece, the opera-derived Christmas Tree. Rows with no confirmed first-publication year are unverified and not imported.
+    ("Op.15", "Les reves (Dreams), Op.15 (5 melomimiques, incl. Les demons s'amusent)", 1900, IN, r"les reves|les demons s amusent|demons s amusent|naiade|la nereide|dans la foret", "IMSLP: First Publication 1900 (P. Jurgenson, Moscow); composed 1899 (LaDoger priority)"),
+    ("Op.8", "Autumn Dreams (Reveries d'automne), Op.8 (album of 16 miniatures)", 1900, IN, r"autumn dreams|reveries d automne|reveries d'automne|op 8\b", "IMSLP list: Stuttgart, Grüninger 1900 (Beilage zur Neuen Musik-Zeitung 1900 No.3); the IMSLP work page has no First Publication field; composed 1895 (LaDoger priority)"),
+    ("Op.21", "The Christmas Tree (Yolka), Op.21 (children's fairy-tale opera, vocal score; Christmas tree waltz)", 1902, IN, r"christmas tree|yolka|elka|tree waltz|op 21\b", "IMSLP list: Moscow, P. Jurgenson [1902] (bracketed, estimated); composed 1900 (LaDoger priority)"),
+    ("Op.21a", "The Christmas Tree (suite), Op.21a (orchestra)", None, UNV, r"christmas tree suite|op 21a\b", "IMSLP lists it (for orchestra); no first-publication year verified"),
+    ("Op.2", "6 Morceaux, Op.2 (piano)", 1896, IN, r"op 2\b|6 morceaux", "IMSLP: First Publication 1896"),
+    ("Op.5", "7 Morceaux, Op.5 (piano)", 1899, IN, r"op 5\b|7 morceaux", "IMSLP: First Publication 1899"),
+    ("Op.7", "3 Morceaux, Op.7 (violin and piano)", 1899, IN, r"op 7\b|3 morceaux", "IMSLP list: Leipzig, Jurgenson 1899 (for violin and piano)"),
+    ("Op.9", "Autour du monde (Around the World), Op.9 (18 pieces, album for youth)", 1898, IN, r"autour du monde|around the world|op 9\b", "IMSLP: First Publication 1898 (P. Jurgenson, Moscow)"),
+    ("Op.10", "Stimmungs-Skizzen (Mood Sketches), Op.10 (10 pieces)", 1898, IN, r"stimmungs|mood sketch|op 10\b", "IMSLP: First Publication 1898 (N. Simrock, Berlin)"),
+    ("Op.11", "Melomimiques, Op.11 (6 pieces; Mila and Nolli scenes)", 1898, IN, r"op 11\b|mila|declaration d amour", "IMSLP: First Publication 1898"),
+    ("Op.14", "Suite de ballet (Mila and Nolli), Op.14 (8 dances)", 1899, IN, r"suite de ballet|op 14\b|danse des (sorcieres|lotos|dryades|singes|sorciers|fees|diables|clochettes)", "IMSLP: Leipzig, Jurgenson 1899 (Mila et Nolli)"),
+    ("Op.24", "Chansons du coeur (Songs of the Heart), Op.24 (piano)", 1900, IN, r"chansons du c|songs of the heart|op 24\b", "IMSLP: First Publication 'ca.1900' (approximate)"),
+    ("Op.48", "Chansons blanches (White Songs), Op.48 (4 pieces, piano)", 1913, IN, r"chansons blanches|white songs|op 48\b", "IMSLP: First Publication 1913"),
+    ("Fleurs", "Fleurs d'automne (Autumn Flowers), 3 pieces (no opus)", 1910, IN, r"fleurs d automne|autumn flowers", "IMSLP: First Publication 1910"),
+    ("Children's Rest", "Children's Rest (25 pieces, album, no opus)", 1901, IN, r"children s rest|childrens rest|detskiy otdyh|otdykh", "IMSLP: First Publication 1901"),
+    ("Op.13", "Tondichtungen (10 tone poems), Op.13 (piano)", None, UNV, r"tondichtungen|tone poem|op 13\b", "IMSLP: Seywang, Moscow, n.d.; composed 1897; no first-publication year verified"),
+    ("Op.22", "Esclavage et liberte (Slavery and Freedom), Op.22 (piano)", None, UNV, r"esclavage|slavery and freedom|op 22\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.23", "A la brume (In the Mist), Op.23 (piano, 9 pieces)", None, UNV, r"a la brume|in the mist|op 23\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.27", "Dans leur pays (In Their Country), Op.27 (8 pieces, piano)", None, UNV, r"dans leur pays|op 27\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.28", "Scenes bucoliques (Pastoral Scenes), Op.28 (5 pieces, piano)", None, UNV, r"scenes bucoliques|pastoral scenes|op 28\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.31", "Silhouettes (9 childhood pictures), Op.31 (piano)", None, UNV, r"silhouettes|op 31\b", "IMSLP list: Moscow, State Music Publishing 1929 (a later edition); first publication not verified"),
+    ("Op.37", "Tableaux pour enfants (Pictures for Children), Op.37 (7 pieces, piano)", None, UNV, r"tableaux pour enfants|pictures for children|op 37\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.38", "Une fete (A Festival), Op.38 (suite, 7 pieces, piano)", None, UNV, r"une fete|a festival|op 38\b", "IMSLP: composed 1907 (no First Publication field); no year verified"),
+    ("Op.47", "Au-dela (Beyond), Op.47 (6 pieces, piano)", None, UNV, r"au dela|beyond|op 47\b", "IMSLP: no First Publication field; no year verified"),
+    ("Op.49", "Arakhne, Op.49 (piano)", None, UNV, r"arakhne|op 49\b", "IMSLP: composed 1915 (no First Publication field); no year verified"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -715,5 +851,29 @@ COMPOSERS = {
         "catalogue": "Op. (Taneyev's opus numbers)", "rows": TANEYEV,
         "prefix": "taneyev", "genre": "classical", "era": "Late Romantic (Russian)",
         "scope_note": "Fully PD (died 1915): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Prelude and Fugue Op.29 for piano first, then Piano Quintet Op.30, Piano Trio Op.22 and Piano Quartet Op.20, the string quartets, then Symphony No.4 and the Concert Suite Op.28). Principal works for video; not the full catalogue (no songs, the unopused piano pieces beyond the Scherzo, or the treatises). Works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "blumenfeld": {
+        "name": "Felix Blumenfeld", "canon": "felix blumenfeld", "death": 1931, "birth": 1863,
+        "catalogue": "Op. (Blumenfeld's opus numbers)", "rows": BLUMENFELD,
+        "prefix": "blumenfeld", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "US-PD-only (died 1931; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano works first (Etude for the left hand Op.36, Preludes Op.17, the etude sets), then the Symphony Op.39, the String Quartet Op.26 and the Lyrical and Polonaise suites. Principal works for video; not the full catalogue (about 50 opus numbers). Works with no First Publication field on IMSLP are unverified and not imported.",
+    },
+    "glazunov": {
+        "name": "Alexander Glazunov", "canon": "alexander glazunov", "death": 1936, "birth": 1865,
+        "catalogue": "Op. (Glazunov's opus numbers)", "rows": GLAZUNOV,
+        "prefix": "glazunov", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "US-PD-only (died 1936; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano first (Preludes and Fugues Op.101, 62, 93, 98, the Theme and Variations Op.72, the sonatas, the etudes and miniatures), then The Seasons Op.67, Raymonda Op.57 and Op.57a and the Violin Concerto Op.82, then the piano concertos, symphonies and quartets. Principal works for video; not the full catalogue (about 70 opus numbers). Post-1930 works (String Quartet No.7 Op.107, Saxophone Concerto Op.109) are excluded; works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "medtner": {
+        "name": "Nikolai Medtner", "canon": "nikolai medtner", "death": 1951, "birth": 1880,
+        "catalogue": "Op. (Medtner's opus numbers)", "rows": MEDTNER,
+        "prefix": "medtner", "genre": "classical", "era": "Late Romantic (Russian)",
+        "scope_note": "US-PD-only (died 1951; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano first (Forgotten Melodies Op.38/39/40, Fairy Tales Op.20/26/51, the sonatas Op.5/22/25), then Piano Concerto No.1 Op.33 and No.2 Op.50, then the violin works Op.16/21/44. Post-1930 works (Piano Concerto No.3 Op.60, Violin Sonata No.3 Op.57, Sonata-Idyll Op.56, Sonata minacciosa Op.53 No.2, Piano Quintet) are excluded; works with no confirmed first-publication year are unverified and not imported.",
+    },
+    "rebikov": {
+        "name": "Vladimir Rebikov", "canon": "vladimir rebikov", "death": 1920, "birth": 1866,
+        "catalogue": "Op. (Rebikov's opus numbers; short labels for the rest)", "rows": REBIKOV,
+        "prefix": "rebikov", "genre": "classical", "era": "Late Romantic / early modern (Russian)",
+        "scope_note": "Fully PD (died 1920): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (Les Reves Op.15, Autumn Dreams Op.8 and The Christmas Tree first, then the piano albums Op.2/5/7/9/10/11/14 and Chansons du coeur, Chansons blanches). Melomimiques and albums are sets (movement titles kept). Principal works for video; not the full catalogue (no songs, the vocal works Op.1/4/12/16/18/20, the operas beyond Op.21, the choral works, or the Op.6/17/19/33/36 piano sets with no confirmed year). Works with no confirmed first-publication year are unverified and not imported.",
     },
 }

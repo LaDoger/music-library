@@ -524,6 +524,54 @@
     "igor strawinsky"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Firebird ballet and 1911 suite, Petrushka 1912, Rite of Spring 1913, Histoire du soldat, Pulcinella, Les Noces, Octet, Piano Sonata, Serenade in A, Oedipus Rex, Apollon musagete, Capriccio 1930 ...). Later revisions (Firebird 1919/1945 suites, Petrushka 1947, Symphonies of Wind Instruments 1947) and all 1931+ publications (Symphony of Psalms, Violin Concerto, Persephone, Rake's Progress, Mass, Agon, Threni ...) excluded. Checklist: scripts/bulk/catalogue_data.py STRAVINSKY."
+  },
+  {
+   "canon": "felix blumenfeld",
+   "name": "Felix Blumenfeld",
+   "birth": 1863,
+   "death": 1931,
+   "prefix": "blumenfeld",
+   "aliases": [
+    "felix blumenfeld",
+    "felix mikhailovich blumenfeld",
+    "felix blumenfield",
+    "blumenfeld felix"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Etude for the left hand Op.36, 24 Preludes Op.17, Etudes Op.24/25/29/48, Nocturne-Fantasie Op.20, Symphony Op.39, String Quartet Op.26, Lyrical Suite Op.32, Polonaise Suite No.2 Op.31 ...). Post-1930 publications excluded. Checklist: scripts/bulk/catalogue_data.py BLUMENFELD."
+  },
+  {
+   "canon": "alexander glazunov",
+   "name": "Alexander Glazunov",
+   "birth": 1865,
+   "death": 1936,
+   "prefix": "glazunov",
+   "aliases": [
+    "alexander glazunov",
+    "aleksandr glazunov",
+    "alexandr glazunov",
+    "alexander konstantinovich glazunov",
+    "glazunov alexander",
+    "glazounov",
+    "glasunov"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Preludes and Fugues Op.101 (1925), Op.62, Op.93, Op.98; Theme and Variations Op.72; Piano Sonatas Op.74/75; 3 Etudes Op.31; The Seasons Op.67; Raymonda Op.57; Violin Concerto Op.82; Symphonies 1, 5-8; String Quartets 4-5 ...). Post-1930 publications excluded (String Quartet No.7 Op.107, Saxophone Concerto Op.109). Checklist: scripts/bulk/catalogue_data.py GLAZUNOV."
+  },
+  {
+   "canon": "nikolai medtner",
+   "name": "Nikolai Medtner",
+   "birth": 1880,
+   "death": 1951,
+   "prefix": "medtner",
+   "wikidata": null,
+   "aliases": [
+    "nikolai medtner",
+    "nikolay medtner",
+    "nikolai karlovich medtner",
+    "medtner nikolai",
+    "medtner nikolay",
+    "medtner"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Forgotten Melodies Op.38/39/40, Fairy Tales Op.20/26/51, Sonatas Op.5/22/25, Piano Concertos Op.33 and Op.50, Violin Sonatas Op.21/44, Nocturnes Op.16). Post-1930 publications excluded (Piano Concerto No.3 Op.60, Violin Sonata No.3 Op.57, Sonata-Idyll Op.56, Sonata minacciosa Op.53 No.2, Piano Quintet). Checklist: scripts/bulk/catalogue_data.py MEDTNER."
   }
  ]
 }

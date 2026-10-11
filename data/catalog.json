@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9832,
+ "count": 9833,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -305061,6 +305061,37 @@
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op124_albumblaetter_15.mid",
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op124_albumblaetter_15.json"
+  },
+  {
+   "id": "glazunov_op_1_string_quartet_no_1_op_1",
+   "composer": "Alexander Glazunov",
+   "composer_slug": "alexander-glazunov",
+   "composer_sort": "Glazunov, Alexander",
+   "title": "String Quartet No.1, Op.1",
+   "catalog": "Op. 1",
+   "movement": "",
+   "genre": "classical",
+   "era": "Late Romantic (Russian)",
+   "mood": [
+    "classical",
+    "lyrical"
+   ],
+   "energy": "moderate",
+   "licence_status": "flagged",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 0,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/glazunov_op_1_string_quartet_no_1_op_1.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/glazunov_op_1_string_quartet_no_1_op_1.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/glazunov_op_1_string_quartet_no_1_op_1.json"
   }
  ]
 }

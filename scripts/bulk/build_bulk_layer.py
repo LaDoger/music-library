@@ -31,7 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "library_bulk.csv"
 EDITIONS = ROOT / "library_other_editions.json"
-EXCLUDED = ("orff", "shostakovich", "medtner", "sorabji")
+EXCLUDED = ("orff", "shostakovich", "sorabji")
 PREVIEW_NOTE = re.compile(r"Preview is an own (?:FluidSynth|MIDI)[^.]*\.", re.I)
 UNFINISHED = re.compile(r"\bwip\b|\bdraft\b|work in progress", re.I)
 NO_PREVIEW = ("No pre-rendered preview: the site plays the score MIDI with an in-browser "

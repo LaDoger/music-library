@@ -45,7 +45,6 @@ CLASS_ORDER = ["clean", "attribution", "flagged", "sharealike", "unverified", "e
 EXCLUDED_CANONS = {
     "dmitri shostakovich",
     "carl orff",
-    "nikolai medtner",
     "kaikhosru shapurji sorabji",
     "kaikhosru sorabji",
 }
@@ -120,7 +119,7 @@ _RAW = [
     ("sergei prokofiev", "Sergei Prokofiev", 1953, "prokofiev", 4, ["prokofiev"]),
     ("dmitri shostakovich", "Dmitri Shostakovich", 1975, "shostakovich", 9, ["shostakovich"]),
     ("carl orff", "Carl Orff", 1982, "orff", 9, ["carl orff"]),
-    ("nikolai medtner", "Nikolai Medtner", 1951, "medtner", 9, ["medtner"]),
+    ("nikolai medtner", "Nikolai Medtner", 1951, "medtner", 6, ["medtner"]),
     ("john dowland", "John Dowland", 1626, "dowland", 4, ["dowland"]),
     ("orlando gibbons", "Orlando Gibbons", 1625, "gibbons", 4, ["gibbons"]),
     ("thomas tallis", "Thomas Tallis", 1585, "tallis", 4, ["tallis"]),

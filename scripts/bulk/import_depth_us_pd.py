@@ -56,6 +56,10 @@ NAME_RX = {
     "arensky": r"\barensk",  # PDMX also credits "Arenskij" / "Arenski"
     "kalinnikov": r"\bkalinnikov|\bkalinnikoff|\bkalinnikow|\bkalinnikof",  # PDMX also credits "Kalinnikoff"
     "taneyev": r"\btaneyev|\btaneev|\btanejev|\btaneiev|\btaneyeff|\btaneieff|\btanejew",  # PDMX spellings
+    "blumenfeld": r"\bblumenfel|\bblumenfield",
+    "glazunov": r"\bglazun|\bglazoun|\bglasun|\bglazunow|\bglasunow",  # PDMX also credits "Glazounov", "Glasunov"
+    "medtner": r"\bmedtner|\bmedtnor",  # PDMX spellings
+    "rebikov": r"\brebikov|\brebikoff|\brebikow|\brebikof|\brebicov",  # PDMX spellings (Rebikoff, Rebikow)
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
@@ -161,7 +165,11 @@ class Checklist:
 SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", "Op.16", "Op.23", "Op.27 / TrV 170",
         "Op.30", "Op.31", "Op.34 No.14", "Op.36", "Op.37", "Op.39", "Op.42", "Op.60", "Op.32 / H.125", "Op.24 / H.90",
         "Siete canciones", "Cuatro piezas", "3 Melodies", "Goyescas", "Danzas", "Valses",
-        "Op.2", "Op.17", "Op.22", "Op.31", "Op.33 / Op.33bis", "Op.35", "Op.40", "Op.58", "Op.6"}
+        "Op.2", "Op.17", "Op.22", "Op.31", "Op.33 / Op.33bis", "Op.35", "Op.40", "Op.58", "Op.6",
+        "Op.52", "Op.74", "Op.101", "Op.85", "Op.49", "Op.54", "Op.15",  # Glazunov multi-piece opus numbers
+        "Op.38", "Op.40", "Op.20", "Op.26", "Op.51",  # Medtner multi-piece opus numbers (Op.25 is split into No.1 / No.2)
+        "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
+        "Fleurs", "Children's Rest"}  # Rebikov albums without an opus number
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"
