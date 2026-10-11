@@ -5,9 +5,9 @@
  "title": "Papillons - No. 5",
  "catalog": "Op. 2",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;playful;capricious;bright;key: B-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B-flat major. Chord journey: I - i - I - ii - I - IV - vi532 - V43 - iv6 - ii6 - I76b53 - i - vii7 - vi - i74 - I - vi - I, quick modal shifts before a tonic close. Texture: bouncy staccato figuration with sudden dynamic contrasts.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "playful",
+  "capricious",
+  "bright",
+  "key: B-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

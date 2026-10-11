@@ -5,9 +5,9 @@
  "title": "Nachtstücke - No. 3",
  "catalog": "Op. 23",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;brooding;glowing;restless;key: D-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D-flat major. Chord journey: bII64 - bbvii - bbvii64 - bV - biv - bii6 - bVI4 - bII - bVI - bII - bVI - bVI64 - bVI#3, long pedal-like harmonies with a half-cadence close on bII64. Texture: heavy chordal texture with long held bass notes.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "brooding",
+  "glowing",
+  "restless",
+  "key: D-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

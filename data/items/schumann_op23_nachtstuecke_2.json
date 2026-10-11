@@ -5,9 +5,9 @@
  "title": "Nachtstücke - No. 2",
  "catalog": "Op. 23",
  "movement": "No. 2",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;nocturnal;dreaming;tender;key: F major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F major. Chord journey: #ivo6 - III - vii6 - III - VI#3 - iii - #i2 - vii6 - VI+6 - #vo6 - #IV6 - vi7 - II6 - #i6 - VI6#42 - vii64 - vii - II#3, chromatic wandering that lands on a major-triad close. Texture: sustained chordal texture with murmuring inner voices.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/71966",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "nocturnal",
+  "dreaming",
+  "tender",
+  "key: F major"
  ],
  "has_editable_score": true,
  "has_recording": false,

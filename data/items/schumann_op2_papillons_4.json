@@ -5,9 +5,9 @@
  "title": "Papillons - No. 4",
  "catalog": "Op. 2",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;wistful;restless;moonlit;key: F-sharp minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: F-sharp minor. Chord journey: III - III - i6 - i6 - I75#3b2 - iv64 - bVII7 - III - i6 - III - v2 - i752 - v6 - I6, Picardy I6 close after a v2-i752 cadence. Texture: light two-voice dance figures with crisp staccato.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29776",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "wistful",
+  "restless",
+  "moonlit",
+  "key: F-sharp minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

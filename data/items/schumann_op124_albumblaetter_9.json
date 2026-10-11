@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 9",
  "catalog": "Op. 124",
  "movement": "No. 9",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;restless;searching;unresolved;key: B-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B-flat major. Chord journey: V - V7 - VI6#42 - v7 - V - IV7 - I64 - V7 - II64 - VI6#42 - v7 - V, dominant-centred loop that avoids settling on tonic. Texture: two-voice imitative eighth-note figures in both hands with rests.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "restless",
+  "searching",
+  "unresolved",
+  "key: B-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

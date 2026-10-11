@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 11",
  "catalog": "Op. 124",
  "movement": "No. 11",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;brooding;muted;shadowed;key: G minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: bVI - bII - vi - bVII - bII - i - III - iv - bVI - i - V53 - V6 - V#3 - I6 - V53, closes on bVI with a Picardy I6 turn. Texture: sparse chordal texture under a dotted melody with a sustained pedal.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "brooding",
+  "muted",
+  "shadowed",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

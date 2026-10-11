@@ -5,9 +5,9 @@
  "title": "Kreisleriana - No. 1",
  "catalog": "Op. 16",
  "movement": "No. 1",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;turbulent;tormented;frenzied;key: D minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: i - v5 - i#7 - #iii - #iv - V - i#7 - #iii - i - i - bVI7 - iv7 - bII6 - bvi - vii#6 - bII6 - i, outbursts over a dark chromatic bass. Texture: fast chordal outbursts alternating with dense sixteenth-note inner motion.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51540",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "turbulent",
+  "tormented",
+  "frenzied",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

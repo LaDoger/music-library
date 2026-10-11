@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 5",
  "catalog": "Op. 124",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;pensive;bare;hesitant;key: E minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: i64 - i - iv7 - iv - iv2 - i7 - bvi7 - III6, sparse opening, cadence returns to a major-third close. Texture: triplet sixteenths in the left hand under a sparse, broken right-hand line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "pensive",
+  "bare",
+  "hesitant",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

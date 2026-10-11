@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 10",
  "catalog": "Op. 124",
  "movement": "No. 10",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;sunlit;reflective;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: bVII - IV - ii65 - V7 - I42 - IV6 - ii - iii - VI - vi - iii - viio43 - VI - i - v - IV6 - ii - I - IV, sequential chromatic drift back toward I. Texture: chordal accompaniment with a singing upper line and a sustained bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "sunlit",
+  "reflective",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

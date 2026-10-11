@@ -5,9 +5,9 @@
  "title": "Arabeske",
  "catalog": "Op. 18",
  "movement": "",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;airy;tender;dreamy;key: C major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: v54 - i5 - ii6 - ii - V6 - i5 - IV - i54 - I - i5 - IV - i54, IV+ and v7 colour before a clean I close. Texture: singing melody with delicate sixteenth filigree over a light accompaniment.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/51542",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "airy",
+  "tender",
+  "dreamy",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,
