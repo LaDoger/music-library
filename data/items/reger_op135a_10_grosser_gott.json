@@ -37,7 +37,8 @@
  "score_url": "files/scores/reger_op135a_10_grosser_gott.mid",
  "score_files": [
   "files/scores/reger_op135a_10_grosser_gott.ly",
-  "files/scores/reger_op135a_10_grosser_gott.mid"
+  "files/scores/reger_op135a_10_grosser_gott.mid",
+  "files/scores/reger_op135a_10_grosser_gott_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "hymnic",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/reger_op135a_10_grosser_gott.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=reger_op135a_10_grosser_gott",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott.ly",
-  "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott.mid"
+  "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott.mid",
+  "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/reger_op135a_10_grosser_gott.mid",
  "render_midi": {
