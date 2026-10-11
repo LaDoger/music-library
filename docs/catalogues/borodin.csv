@@ -1,0 +1,18 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Petite Suite,"Petite Suite (piano, 7 pieces)",1885,in-scope,,0,,,"IMSLP: First Publication 1885 (W. Bessel, St Petersburg, plates 1860-66); composed c.1870-85 (LaDoger priority)"
+Scherzo in A-flat,Scherzo in A-flat major (piano),1885,in-scope,,0,,,IMSLP: First Publication 1885; composed for piano c.1885 (LaDoger priority)
+Symphony No.2,Symphony No.2 in B minor,1878,in-scope,,0,,,"IMSLP: First Publication 1878 (piano four hands), full score 1887; composed 1869-76"
+Symphony No.1,Symphony No.1 in E-flat major,1875,in-scope,,0,,,"IMSLP: First Publication 1875 (piano four hands), full score 1882; composed 1862-67"
+In the Steppes,In the Steppes of Central Asia,1882,in-scope,yes,1,borodin_steppes,curated,"Wikipedia work list: composed 1880, published 1882; IMSLP First Publication field not read"
+String Quartet No.1,String Quartet No.1 in A major,1884,in-scope,yes,1,borodin_string_quartet_no_1,openscore-quartets,IMSLP: First Publication 1884; composed 1874-79
+String Quartet No.2,String Quartet No.2 in D major,1888,in-scope,yes,3,borodin_quartet2_nocturne borodin_notturno_from_string_quartet borodin_string_quartet_no_2,"curated,openscore-quartets,pdmx","IMSLP: First Publication 1888 (M.P. Belaieff, Leipzig); composed 1881"
+Polovtsian Dances,"Polovtsian Dances (Prince Igor, Act II)",,unverified-pub,n/a,0,,,IMSLP work page read (orchestral): no First Publication year confirmed; live rows already cover the dances
+Prince Igor,Prince Igor (opera),,unverified-pub,n/a,0,,,IMSLP: composed 1869-87; Belaieff plate 115 (1888) on the full score; first publication not confirmed
+Symphony No.3,"Symphony No.3 in A minor (2 movements, completed by Glazunov)",,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1886-87; no first-publication year confirmed
+Piano Quintet,Piano Quintet in C minor,,unverified-pub,n/a,0,,,"IMSLP work page exists; composed 1862; the page's First Publication field was not confirmed (the 1938 Moscow edition was read, mapping not re-checked)"
+Piano Trio,Piano Trio in D major (3 movements),,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1860-61; no first-publication year confirmed
+Tarantella,Tarantella in D major (piano four hands),,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1862; no first-publication year confirmed
+String Sextet,String Sextet in D minor (2 movements),,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1860-61; no first-publication year confirmed
+String Trio,String Trio in G major,,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1852-56; no first-publication year confirmed
+Serenade,Serenade in Honour of One Lady by Four Cavaliers (male quartet and piano),,unverified-pub,n/a,0,,,IMSLP work page exists; composed 1870; no first-publication year confirmed
+Flute Concerto,Concerto in D for flute and piano,,excluded-unpublished,n/a,0,,,"Lost work (composed 1847, Wikipedia list); excluded"
