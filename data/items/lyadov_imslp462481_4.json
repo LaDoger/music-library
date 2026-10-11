@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 4",
  "catalog": "",
  "movement": "No. 4",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;lyrical;pensive;tender;key: Ab major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: Ab major. Chord journey: I - ii - iii - v - iii - I - ii - iii - iv - I, closes on I after a iv - I plagal turn. Texture: block chords in both hands with the melody in the top voice.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "lyrical",
+  "pensive",
+  "tender",
+  "key: Ab major"
  ],
  "has_editable_score": true,
  "has_recording": false,

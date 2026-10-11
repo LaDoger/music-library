@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 38",
  "catalog": "Sz. 42",
  "movement": "No. 38",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;restless;ominous;playful;key: G minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: i pedal - bVII65 - bVI763 - bVII7 - viio - i532 - i42 - vio - I (Picardy turn) - bII#7 - V - i, closes on a repeated i5 tonic pedal. Texture: dense rapid chords with sixteenth turns in both hands over a repeated tonic bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "restless",
+  "ominous",
+  "playful",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

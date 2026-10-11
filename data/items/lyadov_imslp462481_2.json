@@ -5,9 +5,9 @@
  "title": "Biryulki Op. 2 - No. 2",
  "catalog": "",
  "movement": "No. 2",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;restless;capricious;sly;key: A minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A minor. Chord journey: i - ii - i - ii - III - iv - III6 - v - i, ii-i ostinato cycle, bVII+54 - bVI - v - i close. Texture: fast single-line sixteenth figuration with brief chordal punctuation.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "restless",
+  "capricious",
+  "sly",
+  "key: A minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

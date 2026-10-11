@@ -5,9 +5,9 @@
  "title": "Three Rondos on Slovak Folk Tunes - No. 2",
  "catalog": "Sz. 84",
  "movement": "No. 2",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;rustic;ringing;restless;key: D major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: open D-A drone with v6 - I6 colour, chromatic chords (#ivø - i5 - V6 - bVII+7), I+ augmented tonic, ends on an A-major dominant (II#75#42) with no tonic close. Texture: folk-like drone with dense chromatic chords in both hands.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Rondos_on_Slovak_Folk_Tunes,_Sz.84_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "rustic",
+  "ringing",
+  "restless",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

@@ -5,9 +5,9 @@
  "title": "For Children (original version), vols. 1-2 - No. 41",
  "catalog": "Sz. 42",
  "movement": "No. 41",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;uneasy;questing;unresolved;key: D minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D minor. Chord journey: i - v4 - i5 - v4 - i - iii4 - iii2 - III6 - vii - V - V - III+7 (F-A-C#-E), ends on the augmented III+7 with no tonic return. Texture: block chords in the right hand moving in parallel over an open-fifth bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/For_Children,_Sz.42_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "uneasy",
+  "questing",
+  "unresolved",
+  "key: D minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

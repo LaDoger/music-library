@@ -5,9 +5,9 @@
  "title": "12 Etudes, Op.74",
  "catalog": "",
  "movement": "",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;brisk;restless;virtuosic;key: C major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: i - IV - iiio6 - v - #v - III - #iv - bv - ii - vii42 - vi - iv - bVII - ii - IV, closes i - IV - ii - I. Texture: fast right-hand figuration in continuous motion over a running bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "brisk",
+  "restless",
+  "virtuosic",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,

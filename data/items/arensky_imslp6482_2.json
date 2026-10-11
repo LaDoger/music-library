@@ -5,9 +5,9 @@
  "title": "12 Preludes, Op.63 - No. 2",
  "catalog": "",
  "movement": "No. 2",
- "mood_tags": "classical;piano;miniature",
+ "mood_tags": "classical;piano;bright;airy;lilting;key: A major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A major. Chord journey: I - iii - III - bVI - i - v - V53 - I, then I - iii - III - iii6 - V64 - ii7(4) - I, closes V7 - I. Texture: rapid broken chords in both hands, bright and continuous.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/12_Preludes,_Op.63_(Arensky,_Anton)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -48,7 +48,10 @@
  "mood_tags_list": [
   "classical",
   "piano",
-  "miniature"
+  "bright",
+  "airy",
+  "lilting",
+  "key: A major"
  ],
  "has_editable_score": true,
  "has_recording": false,

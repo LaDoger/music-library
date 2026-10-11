@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 18",
  "catalog": "Op. 6",
  "movement": "No. 18",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;gentle;reflective;key: C major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: I7 - V7 - V6 - I - vi6 - #iio b5 - ii5 - III6 - vi32 - iii42 - iv74 - bVI2 - ivb3 - viio b64 - iib55 - bIII#3, closes I6 - I - I - I. Texture: chordal texture in both hands with the melody in the top voice over a light bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "gentle",
+  "reflective",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,
