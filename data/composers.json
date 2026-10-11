@@ -2880,8 +2880,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 42,
-  "score_count": 42,
+  "piece_count": 48,
+  "score_count": 48,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2925,7 +2925,13 @@
    "bartok_sz42_for_children_original_version__7",
    "bartok_sz42_for_children_original_version__8",
    "bartok_sz42_for_children_original_version__9",
-   "bartok_sz42_for_children_original_version__10"
+   "bartok_sz42_for_children_original_version__10",
+   "bartok_sz38_14_bagatelles_12",
+   "bartok_sz42_for_children_original_version__11",
+   "bartok_sz42_for_children_original_version__12",
+   "bartok_sz42_for_children_original_version__13",
+   "bartok_sz42_for_children_original_version__14",
+   "bartok_sz42_for_children_original_version__15"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -14273,6 +14279,31 @@
   "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
  },
  {
+  "slug": "ernesto-nazareth",
+  "name": "Ernesto Nazareth",
+  "short_name": "Nazareth",
+  "sort_name": "Nazareth, Ernesto",
+  "birth_year": null,
+  "death_year": 1934,
+  "era": "Late Romantic / Brazilian popular piano (choro, tango brasileiro, maxixe)",
+  "genres": [
+   "classical"
+  ],
+  "featured_rank": 0,
+  "piece_count": 2,
+  "score_count": 2,
+  "recording_count": 0,
+  "piece_ids": [
+   "nazareth_tango_brasileiro_odeon",
+   "nazareth_piano_batuque"
+  ],
+  "wikidata": null,
+  "portrait_url": null,
+  "portrait_licence": null,
+  "portrait_source": null,
+  "portrait_note": "No verified PD/CC0 portrait; the site shows a monogram"
+ },
+ {
   "slug": "pomponio-nenna",
   "name": "Pomponio Nenna",
   "short_name": "Nenna",
@@ -17719,8 +17750,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 216,
-  "score_count": 216,
+  "piece_count": 219,
+  "score_count": 219,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17938,7 +17969,10 @@
    "schumann_op16_kreisleriana_8",
    "schumann_op13_symphonic_etudes_3",
    "schumann_op13_symphonic_etudes_4",
-   "schumann_op13_symphonic_etudes_5"
+   "schumann_op13_symphonic_etudes_5",
+   "schumann_op6_davidsbuendlertaenze_16",
+   "schumann_op13_symphonic_etudes_6",
+   "schumann_op13_symphonic_etudes_7"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
