@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 15",
  "catalog": "Op. 6",
  "movement": "No. 15",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;playful;wry;restless;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: vii - iii6 - ii - V - v - I - vi6/5 - v - I - ii7 - I - iii - vi6 - ii6 - iv5 - I - I6 - i5 - I6 close. Texture: bright two-staff chordal dance with a staccato bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "playful",
+  "wry",
+  "restless",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

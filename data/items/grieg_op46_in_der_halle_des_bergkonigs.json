@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
  "score_files": [
-  "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
-  "files/scores/grieg_op46_in_der_halle_des_bergkonigs_reconstructed.mxl"
+  "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -78,7 +77,6 @@
    "licence": "CC0"
   }
  ],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=grieg_op46_in_der_halle_des_bergkonigs",
@@ -86,8 +84,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
-  "https://ladoger.github.io/music-library/files/scores/grieg_op46_in_der_halle_des_bergkonigs_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
  "render_midi": {

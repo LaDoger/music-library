@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 1",
  "catalog": "Op. 13",
  "movement": "No. 1",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;solemn;stately;brooding;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: i - iv - V7 - V - i - bVI - i - bVII7 - V6 - i64 - i, bVI colour recurs, closes i with V6 - i. Texture: chordal theme in block harmony over a steady bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "solemn",
+  "stately",
+  "brooding",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

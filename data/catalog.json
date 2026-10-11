@@ -308238,8 +308238,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "solemn",
+    "stately",
+    "brooding",
+    "key: C# minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308270,8 +308273,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "austere",
+    "unsettled",
+    "chromatic",
+    "key: E major"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -308302,8 +308308,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "solemn",
+    "archaic",
+    "open",
+    "key: A minor"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -308334,8 +308343,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "restless",
+    "rustic",
+    "hovering",
+    "key: D minor"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -308366,8 +308378,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "mournful",
+    "stark",
+    "wide-eyed",
+    "key: F# minor"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -308398,8 +308413,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "wistful",
+    "searching",
+    "hushed",
+    "key: B minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308430,8 +308448,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "tender",
+    "pensive",
+    "sunlit",
+    "key: E-flat major"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308462,8 +308483,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "playful",
+    "wry",
+    "restless",
+    "key: E-flat major"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308494,8 +308518,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "stormy",
+    "restless",
+    "insistent",
+    "key: C# minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308526,8 +308553,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "obstinate",
+    "drone-like",
+    "rustic",
+    "key: B-flat major"
    ],
    "energy": "moderate",
    "licence_status": "flagged",
@@ -308558,8 +308588,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "restless",
+    "aching",
+    "turbulent",
+    "key: G minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308590,8 +308623,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "pensive",
+    "dark",
+    "searching",
+    "key: C# minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308622,8 +308658,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "bright",
+    "buoyant",
+    "clear-eyed",
+    "key: E major"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308654,8 +308693,11 @@
    "era": "Romantic",
    "mood": [
     "classical",
-    "romantic",
-    "lyrical"
+    "piano",
+    "ominous",
+    "restless",
+    "dark-sweet",
+    "key: C# minor"
    ],
    "energy": "moderate",
    "licence_status": "clean",
@@ -308686,8 +308728,11 @@
    "era": "20th century",
    "mood": [
     "classical",
-    "modern",
-    "folk"
+    "piano",
+    "hushed",
+    "eerie",
+    "unresolved",
+    "key: B-flat minor"
    ],
    "energy": "moderate",
    "licence_status": "flagged",

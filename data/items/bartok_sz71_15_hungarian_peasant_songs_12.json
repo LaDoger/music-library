@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 12",
  "catalog": "Sz. 71",
  "movement": "No. 12",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;solemn;archaic;open;key: A minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A minor. Chord journey: i - i6 - iiø65 - V - bVII - bVI - bII7 - IIIb7 - I - V6 - III+ - V - I, closes on an open-fifth I. Texture: folk melody over light chordal accompaniment, open fifths in the cadence.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "solemn",
+  "archaic",
+  "open",
+  "key: A minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

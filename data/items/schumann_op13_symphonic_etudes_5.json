@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 5",
  "catalog": "Op. 13",
  "movement": "No. 5",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;ominous;restless;dark-sweet;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: i - bVI6/5 - i6/4 - bVI6/4 - IV#6/4/3 - bVII - i6/4 - bVII - V7 - i7 - viio7 - III+ - V - i6/4 - V7 - i6/4 close. Texture: bass-led chordal theme with rolling broken figures.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "ominous",
+  "restless",
+  "dark-sweet",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

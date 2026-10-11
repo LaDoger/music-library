@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 3",
  "catalog": "Op. 13",
  "movement": "No. 3",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;pensive;dark;searching;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: i - iv6 - ii6 - vii#6 - i7 - bvi - iii - III - v7 - ii6 - i#7 - i4 - bvi - i, closes on repeated i. Texture: sparse chordal texture with a moving inner voice.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "pensive",
+  "dark",
+  "searching",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

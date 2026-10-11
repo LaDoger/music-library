@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 4",
  "catalog": "Op. 13",
  "movement": "No. 4",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;bright;buoyant;clear-eyed;key: E major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E major. Chord journey: iii - ii6/5 - I - II#3 - v5 - ii6/4 - V - vii#5 - iii - #IV - #ii6 - iii - ii6/5 - I - II#3 - v5 - ii6/4 - V - I, bass arrives on E. Texture: arpeggiated treble figuration over a stepwise descending bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "bright",
+  "buoyant",
+  "clear-eyed",
+  "key: E major"
  ],
  "has_editable_score": true,
  "has_recording": false,

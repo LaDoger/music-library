@@ -38,8 +38,7 @@
  "score_files": [
   "files/scores/bach_bwv1080_contrapunctus13.mid",
   "files/scores/bach_bwv1080_contrapunctus13_inversus.mid",
-  "files/scores/bach_bwv1080_contrapunctus13_lilypond.zip",
-  "files/scores/bach_bwv1080_contrapunctus13_reconstructed.mxl"
+  "files/scores/bach_bwv1080_contrapunctus13_lilypond.zip"
  ],
  "mood_tags_list": [
   "playful",
@@ -61,7 +60,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv1080_contrapunctus13.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv1080_contrapunctus13",
@@ -71,8 +69,7 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13.mid",
   "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13_inversus.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13_lilypond.zip",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13_lilypond.zip"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv1080_contrapunctus13.mid",
  "render_midi": {

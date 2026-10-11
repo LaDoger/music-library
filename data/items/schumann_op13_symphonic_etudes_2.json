@@ -5,9 +5,9 @@
  "title": "Symphonic Études - No. 2",
  "catalog": "Op. 13",
  "movement": "No. 2",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;stormy;restless;insistent;key: C# minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C# minor. Chord journey: v7 - V6/5 - V - i - bVI - bVI6/4 - i - V#3 - i - iii4/3 - bVI - i - bVI - bVI6/4 - i close. Texture: virtuosic chordal figuration over a steady bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/289811",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "stormy",
+  "restless",
+  "insistent",
+  "key: C# minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

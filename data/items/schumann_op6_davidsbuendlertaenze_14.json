@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 14",
  "catalog": "Op. 6",
  "movement": "No. 14",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;pensive;sunlit;key: E-flat major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E-flat major. Chord journey: I - V6 - I - V6/3 - vi7 - iv6 - iv7/4 - V - I - vii7 - iii - IV - vii6 - VI6/4 - I - v7 - ii - i - I6/4 close. Texture: dance-like chordal accompaniment under a clear melody.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "pensive",
+  "sunlit",
+  "key: E-flat major"
  ],
  "has_editable_score": true,
  "has_recording": false,

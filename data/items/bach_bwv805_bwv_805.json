@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/bach_bwv805_bwv_805.mid",
  "score_files": [
-  "files/scores/bach_bwv805_bwv_805.mid",
-  "files/scores/bach_bwv805_bwv_805_reconstructed.mxl"
+  "files/scores/bach_bwv805_bwv_805.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -63,7 +62,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv805_bwv_805.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv805_bwv_805",
@@ -71,8 +69,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv805_bwv_805.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv805_bwv_805.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv805_bwv_805_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv805_bwv_805.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv805_bwv_805.mid",
  "render_midi": {

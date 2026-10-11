@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/bach_bwv952_fugue_in_c_major.mid",
  "score_files": [
-  "files/scores/bach_bwv952_fugue_in_c_major.mid",
-  "files/scores/bach_bwv952_fugue_in_c_major_reconstructed.mxl"
+  "files/scores/bach_bwv952_fugue_in_c_major.mid"
  ],
  "mood_tags_list": [
   "contrapuntal"
@@ -62,7 +61,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv952_fugue_in_c_major.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv952_fugue_in_c_major",
@@ -70,8 +68,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv952_fugue_in_c_major.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv952_fugue_in_c_major.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv952_fugue_in_c_major_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv952_fugue_in_c_major.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv952_fugue_in_c_major.mid",
  "render_midi": {

@@ -37,8 +37,7 @@
  "score_url": "files/scores/bach_bwv796_sinfonia10.mid",
  "score_files": [
   "files/scores/bach_bwv796_sinfonia10.ly",
-  "files/scores/bach_bwv796_sinfonia10.mid",
-  "files/scores/bach_bwv796_sinfonia10_reconstructed.mxl"
+  "files/scores/bach_bwv796_sinfonia10.mid"
  ],
  "mood_tags_list": [
   "bright",
@@ -60,7 +59,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv796_sinfonia10.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv796_sinfonia10",
@@ -69,8 +67,7 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv796_sinfonia10.mid",
  "render_midi": {

@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 13",
  "catalog": "Op. 6",
  "movement": "No. 13",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;wistful;searching;hushed;key: B minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B minor. Chord journey: i - i6 - v7 - iv7 - bIII - II7 - V - I6/4 - bVI - bII - bVII - iii, closes on Picardy I64 - vi65 - I. Texture: dense two-staff chordal texture with a moving inner line.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "wistful",
+  "searching",
+  "hushed",
+  "key: B minor"
  ],
  "has_editable_score": true,
  "has_recording": false,
