@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "id": "liszt_s172_consolation_s_172_no_1",
+    "parent_item_id": "liszt_s172_consolation_s_172_no_1",
+    "title": "Consolation, S.172 No.1",
+    "composer": "Franz Liszt",
+    "source_file": "files/scores/liszt_s172_consolation_s_172_no_1.mid",
+    "quarter_range": [
+      0,
+      100.0
+    ],
+    "bar_quarters": 4.0,
+    "time_signature": "4/4",
+    "key": "E",
+    "tempo": 60,
+    "midi_play_url": "files/scores/liszt_s172_consolation_s_172_no_1.mid",
+    "source_licence": "CC-BY",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1654",
+    "source_credit": "Score edition: Ryan Prince and the Mutopia Project (piece 1654), CC BY 3.0. Composition public domain.",
+    "notation_notes": "25 bars of 4/4 from quarter 0, no pickup: bars 1–3, 5–7, 17–19, 21–23 begin with a quarter rest in the chord layer (off-beat chords). Final bar sounds three quarters (held chord). Score reconstructed from the Mutopia MIDI render (CC BY 3.0, Ryan Prince / Mutopia Project); no CC64 in the source. Single tempo 60 from the MIDI (the draft value 100 was wrong). Bar 12 beat 4.5–5: D♯5/F♯5 grace-length notes into bar 13. MIDI pitches are enharmonically neutral; F𝄪 (MIDI G) and A♯ (MIDI B♭) spellings are editorial. MIDI-derived edition, not a critical edition."
+  },
+  "draft": false,
+  "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+  "summary": "A 25-bar hymn in E major. A chorale of off-beat chords over a held inner B (bars 1–4) is repeated under a tolling top B (5–8) and turned by an A♯ø7 pivot toward G♯ minor. The middle (9–16) is a two-bar sighing figure, i6/4–VI6–V7, stated twice in G♯ minor and then slid a semitone down into G major; a C7 heard as a German sixth leads back to E in 6/4 position (17). The closing phrase leans on IV over a falling bass and ends with a V11–V7–I cadence with G♯ on top.",
+  "sections": [
+    {
+      "name": "Chorale statement (E)",
+      "start_bar": 1,
+      "end_bar": 4,
+      "mood": [
+        "calm",
+        "devotional"
+      ],
+      "description": "Off-beat chords over an inner B pedal; I–ii–I6–vi7–V/V–V7."
+    },
+    {
+      "name": "Theme over tolling B",
+      "start_bar": 5,
+      "end_bar": 8,
+      "mood": [
+        "tender",
+        "hushed"
+      ],
+      "description": "Bars 1–3 repeated with B4 on every strong beat; A♯ø7 turns to D♯7 (V of G♯ minor)."
+    },
+    {
+      "name": "Middle: G♯ minor → G major",
+      "start_bar": 9,
+      "end_bar": 16,
+      "mood": [
+        "yearning",
+        "bittersweet"
+      ],
+      "description": "Two-bar sigh (i6/4–VI6–V7) stated twice in G♯ minor, then a semitone lower in G major; German sixth returns to E."
+    },
+    {
+      "name": "Return",
+      "start_bar": 17,
+      "end_bar": 20,
+      "mood": [
+        "consoling",
+        "warm"
+      ],
+      "description": "Bars 5–8 return over B bass (I6/4); V9/V–V7 cadence into bar 21."
+    },
+    {
+      "name": "Closing phrase",
+      "start_bar": 21,
+      "end_bar": 25,
+      "mood": [
+        "peaceful",
+        "resolved"
+      ],
+      "description": "E7/D–A/C♯ tonicizes IV; bass descends to B1; V11–V7–I with G♯ on top."
+    }
+  ],
+  "bars": [
+    {
+      "bar": 1,
+      "start_quarter": 0.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E",
+          "rn": "I",
+          "function": "tonic; chords enter on beat 2 after a rest, inner B2/B3 held"
+        },
+        {
+          "beat": 4,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic, bass rises to G♯"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Chorale statement: off-beat chords, top line G♯4–B4–A4–F♯4–…–G♯4"
+        },
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a quiet hymn-like chord progression in E major"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_dominant",
+          "text": "B2/B3 repeat in every chord of bars 1–3 (inner dominant pedal) under a moving bass E–G♯–F♯–A–G♯–E"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "syncopation",
+          "text": "Bars 1–3: each bar begins with a rest; chords sound on beats 2 and 4"
+        },
+        {
+          "type": "hook",
+          "technique": "harmonic_cell",
+          "text": "I–I6–V7sus4/F♯–ii6(add11)–I6–vi7–V9/V–V7 over the held B"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 4.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4/F#",
+          "rn": "V43sus4",
+          "function": "dominant-sus colour (or ii7 with added 11th: F♯–A–E + B); F♯ bass"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#madd11/A",
+          "rn": "ii6(add11)",
+          "function": "predominant ii6 with the held B as added 11th"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 3,
+      "start_quarter": 8.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; continuation of ii6",
+          "reason": "Only A2–B2–B3–C♯4 sound: continuation of the bar-before ii6 voicing without F♯; no complete triad"
+        },
+        {
+          "beat": 3,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic"
+        },
+        {
+          "beat": 4,
+          "symbol": "C#m7/E",
+          "rn": "vi65",
+          "function": "tonic-substitute leading to V/V"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 4,
+      "start_quarter": 12.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#9",
+          "rn": "V9/V",
+          "function": "applied dominant; B3 suspension resolves to A♯3 on beat 2"
+        },
+        {
+          "beat": 3,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant; RH run F♯–A–A♯ leads into bar 5"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "B3 over F♯ resolves to A♯3 (4–3) on beat 2"
+        },
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "V7–I into bar 5 with melody A♯→B (fifth); elided with the next phrase",
+          "beat": 3,
+          "arrival_bar": 5
+        }
+      ]
+    },
+    {
+      "bar": 5,
+      "start_quarter": 16.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 4,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Bars 1–4 harmony repeated with a tolling B4 on beats 1 and 3 above the off-beat chords"
+        },
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the same chords, now under a held, bell-like B"
+        },
+        {
+          "type": "tension_release",
+          "technique": "pedal_point_tonic",
+          "text": "Top B4 restruck on every strong beat of bars 5–6 (with the inner B: double dominant pedal)"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "Repeated top B4 on beats 1 and 3 against off-beat chords"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 20.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4/F#",
+          "rn": "V43sus4",
+          "function": "as bar 2"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#madd11/A",
+          "rn": "ii6(add11)",
+          "function": "as bar 2"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "start_quarter": 24.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; continuation of ii6",
+          "reason": "Only A2–B2–B3–C♯4 sound: continuation of the bar-before ii6 voicing without F♯; no complete triad; B4 tied over"
+        },
+        {
+          "beat": 3,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic"
+        },
+        {
+          "beat": 4,
+          "symbol": "A#m7b5/E",
+          "rn": "viiø43/V",
+          "function": "pivot: viiø7/V in E = iiø7 of G♯ minor (A♯ replaces bar 3's B)"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "half_dim",
+          "text": "A♯ø7 over E replaces bar 3's C♯m7: first chromatic note of the piece",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "start_quarter": 28.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "A#m7b5/D#",
+          "rn": "iiø7/iii",
+          "function": "A♯ø7 held over a low D♯ bass (predominant over the new dominant)"
+        },
+        {
+          "beat": 3,
+          "symbol": "D#7",
+          "rn": "V7/iii",
+          "function": "dominant of G♯ minor; melody F𝄪–A♯–C♯ rises to E5"
+        }
+      ],
+      "events": [
+        {
+          "type": "bass_line",
+          "technique": "pedal",
+          "text": "Low D♯2 held three beats: dominant of G♯ minor"
+        },
+        {
+          "type": "cadence",
+          "technique": "open_phrase",
+          "text": "Phrase ends on V7 of G♯ minor; no arrival on E",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "start_quarter": 32.0,
+      "duration_quarters": 4.0,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "G#m/D#",
+          "rn": "i64",
+          "function": "G♯-minor tonic in 6/4 position; E5 appoggiatura falls to D♯5 on beat 3"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "pivot_chord",
+          "text": "A♯ø7 (bar 7) pivots from viiø7/V in E to iiø7 in G♯ minor; D♯7 → G♯m. The new tonic only appears as i6/4, so this is a weakly established key (iii)",
+          "from_key": "E",
+          "to_key": "g#"
+        },
+        {
+          "type": "form",
+          "technique": "bridge",
+          "text": "Middle section: melody moves up to E5–D♯5 and LH leaves the low register"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the hymn becomes a sighing minor-key aria"
+        },
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "E5 on the downbeat over G♯m/D♯ resolves to D♯5"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "Bars 9–16: three-note LH chords in the middle register replace the off-beat chorale"
+        },
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "E5–D♯5 sigh, B4, then chromatic run F𝄪4–A♯4–B4–C♯5 back to E5"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "start_quarter": 36.0,
+      "duration_quarters": 4.0,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E/G#",
+          "rn": "VI6",
+          "function": "submediant"
+        },
+        {
+          "beat": 3,
+          "symbol": "D#7",
+          "rn": "V7",
+          "function": "dominant; RH run F𝄪–A♯–B–C♯ returns to E5"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 11,
+      "start_quarter": 40.0,
+      "duration_quarters": 4.0,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "G#m/D#",
+          "rn": "i64",
+          "function": "as bar 9"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bars 11–12 repeat bars 9–10"
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "start_quarter": 44.0,
+      "duration_quarters": 4.0,
+      "key": "g#",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E/G#",
+          "rn": "VI6",
+          "function": "submediant"
+        },
+        {
+          "beat": 3,
+          "symbol": "D#7",
+          "rn": "V7",
+          "function": "dominant; run now climbs C♯5–D♯5–F♯5 and slides to G major"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 13,
+      "start_quarter": 48.0,
+      "duration_quarters": 4.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "G-major tonic in 6/4 position; E5 appoggiatura falls to D5"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "chromatic_slide",
+          "text": "D♯7 slides down a semitone to G/D (bass D♯→D, D♯5→D5): bars 9–12 transposed down a semitone into G major (♭III of E)",
+          "from_key": "g#",
+          "to_key": "G"
+        },
+        {
+          "type": "colour_chord",
+          "technique": "chromatic_mediant",
+          "text": "G major is a chromatic mediant of the home key E"
+        },
+        {
+          "type": "motif",
+          "technique": "sequence",
+          "text": "Bars 13–16 restate bars 9–12 a semitone lower, major instead of minor"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "start_quarter": 52.0,
+      "duration_quarters": 4.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em/G",
+          "rn": "vi6",
+          "function": "submediant"
+        },
+        {
+          "beat": 3,
+          "symbol": "D7",
+          "rn": "V7",
+          "function": "dominant; G♯4 chromatic passing note in the run"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 15,
+      "start_quarter": 56.0,
+      "duration_quarters": 4.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "G/D",
+          "rn": "I64",
+          "function": "as bar 13"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 60.0,
+      "duration_quarters": 4.0,
+      "key": "G",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em/G",
+          "rn": "vi6",
+          "function": "submediant"
+        },
+        {
+          "beat": 3,
+          "symbol": "C/E",
+          "rn": "IV6",
+          "function": "subdominant"
+        },
+        {
+          "beat": 4,
+          "symbol": "C7",
+          "rn": "Ger+6 (E)",
+          "function": "C–E–G–A♯: IV7 of G respelt as German augmented sixth of E; melody G–A–A♯–B"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "aug6_german",
+          "text": "C–E–G–A♯ (sounding as C7) resolves to E/B: ♭6 in the bass falls to 5",
+          "beat": 4
+        },
+        {
+          "type": "bass_line",
+          "technique": "stepwise_descent",
+          "text": "Bass falls G3–E3–C3 then semitone to B2 (bar 17)",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "start_quarter": 64.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E/B",
+          "rn": "I64",
+          "function": "tonic return in 6/4 position; not followed by V"
+        },
+        {
+          "beat": 4,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "modulation",
+          "technique": "enharmonic_aug6",
+          "text": "C7 in G is reinterpreted as the German sixth of E; home key returns at bar 17",
+          "from_key": "G",
+          "to_key": "E"
+        },
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Return of bars 5–6 (B4 above off-beat chords) over B bass instead of E"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: the opening hymn returns, softened by the 6/4 entry"
+        },
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "German sixth reaches I6/4 but no dominant follows; root-position tonic is postponed to bar 21"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "start_quarter": 68.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4/F#",
+          "rn": "V43sus4",
+          "function": "as bar 2"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#madd11/A",
+          "rn": "ii6(add11)",
+          "function": "as bar 2"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 19,
+      "start_quarter": 72.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; continuation of ii6",
+          "reason": "Only A2–B2–B3–C♯4 sound: continuation of the bar-before ii6 voicing without F♯; no complete triad"
+        },
+        {
+          "beat": 3,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic"
+        },
+        {
+          "beat": 4,
+          "symbol": "C#m7/E",
+          "rn": "vi65",
+          "function": "as bar 3"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 20,
+      "start_quarter": 76.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#9",
+          "rn": "V9/V",
+          "function": "as bar 4"
+        },
+        {
+          "beat": 3,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "V7–I into bar 21, melody A♯→B",
+          "beat": 3,
+          "arrival_bar": 21
+        }
+      ]
+    },
+    {
+      "bar": 21,
+      "start_quarter": 80.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E",
+          "rn": "I",
+          "function": "tonic"
+        },
+        {
+          "beat": 4,
+          "symbol": "E7/D",
+          "rn": "V42/IV",
+          "function": "applied dominant: D♮ in the bass turns the tonic toward IV"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "coda",
+          "text": "Closing phrase: bars 5–8 restated over a descending bass"
+        },
+        {
+          "type": "bass_line",
+          "technique": "stepwise_descent",
+          "text": "Bass E2–D2–C♯2 then A1 (bars 21–22) and G♯2–E2–D♯2–C♯2 (bar 23)",
+          "beat": 2
+        },
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "D♮ (♭7) in the bass: tonicization of IV, not a modulation",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "start_quarter": 84.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Aadd9/C#",
+          "rn": "IV6(add9)",
+          "function": "subdominant, the held B as added 9th"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#madd11/A",
+          "rn": "ii6(add11)",
+          "function": "predominant; bass drops to A1"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 23,
+      "start_quarter": 88.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "?",
+          "rn": "?",
+          "function": "unresolved; continuation of ii6",
+          "reason": "Only A2–B2–B3–C♯4 sound: continuation of the bar-before ii6 voicing without F♯; no complete triad"
+        },
+        {
+          "beat": 3,
+          "symbol": "E/G#",
+          "rn": "I6",
+          "function": "tonic; bass runs G♯2–E2"
+        },
+        {
+          "beat": 4,
+          "symbol": "C#m7",
+          "rn": "vi7",
+          "function": "bass D♯2–C♯2 passing to F♯2"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 24,
+      "start_quarter": 92.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#9",
+          "rn": "V9/V",
+          "function": "as bar 4 (B3→A♯3 suspension)"
+        },
+        {
+          "beat": 3,
+          "symbol": "A/B",
+          "rn": "V11",
+          "function": "dominant with A–C♯–E above low B1 (V11 / IV over 5)"
+        },
+        {
+          "beat": 4,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "E4 resolves to D♯4"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "E4 over the B1/B2 bass resolves to D♯4 on beat 4",
+          "beat": 4
+        },
+        {
+          "type": "bass_line",
+          "technique": "pedal",
+          "text": "B1–B2 octave held through beats 3–4",
+          "beat": 3
+        },
+        {
+          "type": "cadence",
+          "technique": "IAC",
+          "text": "B7–E root-position authentic cadence; top voice ends on G♯4 (third), so imperfect",
+          "beat": 4,
+          "arrival_bar": 25
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "start_quarter": 96.0,
+      "duration_quarters": 4.0,
+      "key": "E",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E",
+          "rn": "I",
+          "function": "final tonic, held"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "tonic_close",
+          "text": "Final E chord held three beats (fermata length in the MIDI)"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "extension",
+          "text": "Single closing bar makes the last section 4+5 bars (25 bars in all)"
+        }
+      ]
+    }
+  ],
+  "mood": [
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "labels": [
+        "calm",
+        "devotional"
+      ]
+    },
+    {
+      "start_bar": 5,
+      "end_bar": 8,
+      "labels": [
+        "tender",
+        "hushed"
+      ]
+    },
+    {
+      "start_bar": 9,
+      "end_bar": 16,
+      "labels": [
+        "yearning",
+        "bittersweet"
+      ]
+    },
+    {
+      "start_bar": 17,
+      "end_bar": 20,
+      "labels": [
+        "consoling",
+        "warm"
+      ]
+    },
+    {
+      "start_bar": 21,
+      "end_bar": 25,
+      "labels": [
+        "peaceful",
+        "resolved"
+      ]
+    }
+  ],
+  "tricks": [
+    "Bars 1–7: inner B2/B3 sounds in every chord while the bass moves; the dominant pedal makes ii and I6 blur into one calm sound.",
+    "Bars 5–8: the same chords with only a repeated top B4 added on the strong beats; a melody made from one note.",
+    "Bar 7: one altered note (A♯ for B) turns vi7 into A♯ø7 and pivots to G♯ minor.",
+    "Bars 9–16: a two-bar figure moved down a semitone (G♯ minor → G major) by sliding D♯7 to G/D.",
+    "Bar 16: C7 respelt as a German sixth (C–E–G–A♯) brings E back in 6/4 position, so the return arrives softly.",
+    "Bar 21: D♮ in the bass (E7/D) tilts the close toward IV before the final cadence."
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "why": "V7 at the end of bar 4 resolves to E at bar 1; off-beat chords leave the downbeat free for a kick.",
+      "quarter_range": [
+        0,
+        16
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 9,
+      "end_bar": 10,
+      "why": "i6/4–VI6–V7 in G♯ minor; D♯7 returns to G♯m/D♯ as in bar 11.",
+      "quarter_range": [
+        32,
+        40
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 13,
+      "end_bar": 14,
+      "why": "Same figure in G major (I6/4–vi6–V7), returning as in bar 15.",
+      "quarter_range": [
+        48,
+        56
+      ],
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 5,
+      "end_bar": 6,
+      "why": "Tolling B4 on beats 1 and 3 over off-beat chords."
+    },
+    {
+      "start_bar": 9,
+      "end_bar": 10,
+      "why": "E5–D♯5 sigh with the chromatic run back up."
+    },
+    {
+      "start_bar": 16,
+      "end_bar": 17,
+      "why": "German sixth sliding into E in 6/4 position."
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Bars 1–4 loop as a soft off-beat piano bed for a ballad verse."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 7–8: A♯ø7–D♯7 lifts toward the relative minor key area."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 9–16: the minor sigh and its semitone drop into G give a bridge a key change downward."
+    },
+    {
+      "where": "chorus",
+      "why": "Bars 17–21: return with the German-sixth approach; there is no key lift in the source, the release comes from the cadence."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 1,
+      "reason": "Draft key B rejected: the B is an inner dominant pedal in E; key signature and cadences are E major."
+    },
+    {
+      "bar": 2,
+      "reason": "F♯–A–E + B labelled B7sus4/F♯ (V4/3 sus); it can equally be read as ii7(add11) without the fifth. The B pedal makes both readings possible."
+    },
+    {
+      "bar": 3,
+      "reason": "Beats 1–2 of bars 3, 7, 19, 23: A2–B2–B3–C♯4 only; left as ? (ii6 continuation)."
+    },
+    {
+      "bar": 9,
+      "reason": "G♯ minor (9–12) and G major (13–16) are labelled as key areas but their tonics only appear as 6/4 chords over the dominant bass; they can also be read as long tonicizations of iii and ♭III within E."
+    },
+    {
+      "bar": 16,
+      "reason": "Beat 4 sounds C–E–G–B♭/A♯; the German-sixth reading rests on the A♯→B melody and C→B bass."
+    },
+    {
+      "bar": 24,
+      "reason": "Beat 3 B–A–C♯–E–G♯ with no F♯: labelled A/B (V11); E4→D♯4 resolves it on beat 4."
+    }
+  ]
+}
