@@ -1914,15 +1914,24 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 5,
-  "score_count": 5,
+  "piece_count": 14,
+  "score_count": 14,
   "recording_count": 0,
   "piece_ids": [
    "arensky_3_4_n_n_1_2_n_lullaby_n_1_2n",
    "arensky_imslp64446_1",
    "arensky_imslp6482_1",
    "arensky_imslp6482_2",
-   "arensky_imslp6482_3"
+   "arensky_imslp6482_3",
+   "arensky_imslp64446_2",
+   "arensky_imslp64446_3",
+   "arensky_imslp6482_4",
+   "arensky_imslp6482_5",
+   "arensky_imslp6482_6",
+   "arensky_imslp6482_7",
+   "arensky_imslp6482_8",
+   "arensky_imslp6482_9",
+   "arensky_imslp6482_10"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -2884,8 +2893,8 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 76,
-  "score_count": 76,
+  "piece_count": 78,
+  "score_count": 78,
   "recording_count": 0,
   "piece_ids": [
    "bartok_sz_39_ten_easy_pieces",
@@ -2963,7 +2972,9 @@
    "bartok_sz42_for_children_original_version__39",
    "bartok_sz42_for_children_original_version__40",
    "bartok_sz42_for_children_original_version__41",
-   "bartok_sz84_three_rondos_on_slovak_folk_tu_2"
+   "bartok_sz84_three_rondos_on_slovak_folk_tu_2",
+   "bartok_sz42_for_children_original_version__42",
+   "bartok_sz84_three_rondos_on_slovak_folk_tu_3"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -6840,8 +6851,8 @@
    "classical"
   ],
   "featured_rank": 2,
-  "piece_count": 50,
-  "score_count": 50,
+  "piece_count": 51,
+  "score_count": 51,
   "recording_count": 0,
   "piece_ids": [
    "faure_apres_un_reve",
@@ -6893,7 +6904,8 @@
    "faure_op_56_faure_dolly_suite_no_4_kitty_valse",
    "faure_op_56_faure_dolly_suite_no_5_tendresse",
    "faure_op_50_pavane_chorus_and_orchestra_or_pianob3",
-   "faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly"
+   "faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly",
+   "faure_imslp543_1"
   ],
   "wikidata": "Q104919",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Faur%C3%A9Pirou1905.jpg/330px-Faur%C3%A9Pirou1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -12044,15 +12056,22 @@
    "classical"
   ],
   "featured_rank": 0,
-  "piece_count": 5,
-  "score_count": 5,
+  "piece_count": 12,
+  "score_count": 12,
   "recording_count": 0,
   "piece_ids": [
    "lyadov_op40no3_anatoliy_lyadov_prelude_op_4",
    "lyadov_op11no1_prelude_op_11_no_1_anatoly_l",
    "lyadov_imslp462481_1",
    "lyadov_imslp462481_2",
-   "lyadov_imslp462481_4"
+   "lyadov_imslp462481_4",
+   "lyadov_imslp462481_5",
+   "lyadov_imslp462481_6",
+   "lyadov_imslp462481_7",
+   "lyadov_imslp462481_8",
+   "lyadov_imslp462481_9",
+   "lyadov_imslp462481_10",
+   "lyadov_imslp462481_11"
   ],
   "wikidata": null,
   "portrait_url": null,
@@ -17858,8 +17877,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 224,
-  "score_count": 224,
+  "piece_count": 226,
+  "score_count": 226,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -18085,6 +18104,8 @@
    "schumann_op6_davidsbuendlertaenze_17",
    "schumann_op13_symphonic_etudes_9",
    "schumann_op13_symphonic_etudes_10",
+   "schumann_op6_davidsbuendlertaenze_18",
+   "schumann_op13_symphonic_etudes_11",
    "schumann_op15_schumann_kinderszenen_op_15__no10"
   ],
   "wikidata": "Q7351",
