@@ -17618,8 +17618,8 @@
    "classical"
   ],
   "featured_rank": 3,
-  "piece_count": 189,
-  "score_count": 189,
+  "piece_count": 197,
+  "score_count": 197,
   "recording_count": 1,
   "piece_ids": [
    "schumann_op15_7_traumerei",
@@ -17810,7 +17810,15 @@
    "schumann_op124_albumblaetter_12",
    "schumann_op124_albumblaetter_13",
    "schumann_op124_albumblaetter_14",
-   "schumann_op124_albumblaetter_15"
+   "schumann_op124_albumblaetter_15",
+   "schumann_op16_kreisleriana_4",
+   "schumann_op6_davidsbuendlertaenze_7",
+   "schumann_op9_carnaval_3",
+   "schumann_op9_carnaval_5",
+   "schumann_op9_carnaval_10",
+   "schumann_op9_carnaval_11",
+   "schumann_op9_carnaval_12",
+   "schumann_op9_carnaval_16"
   ],
   "wikidata": "Q7351",
   "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robert-schumann.jpg/330px-Robert-schumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
