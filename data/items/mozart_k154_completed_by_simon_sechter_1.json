@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
  "score_files": [
-  "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
-  "files/scores/mozart_k154_completed_by_simon_sechter_1_reconstructed.mxl"
+  "files/scores/mozart_k154_completed_by_simon_sechter_1.mid"
  ],
  "mood_tags_list": [
   "contrapuntal"
@@ -62,7 +61,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_k154_completed_by_simon_sechter_1",
@@ -70,8 +68,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
-  "https://ladoger.github.io/music-library/files/scores/mozart_k154_completed_by_simon_sechter_1_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/mozart_k154_completed_by_simon_sechter_1.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
  "render_midi": {

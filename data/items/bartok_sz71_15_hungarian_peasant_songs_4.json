@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 4",
  "catalog": "Sz. 71",
  "movement": "No. 4",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;bright;sly;modal;key: B major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: B major. Chord journey: I - ii - iii754 - i - I752 - ii7 - vi - v - ii64 - iv - v64 - vi4#42 - i52 - i5, major and minor tonic alternating. Texture: short bright dance tune over chordal accompaniment with modal inflection.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "bright",
+  "sly",
+  "modal",
+  "key: B major"
  ],
  "has_editable_score": true,
  "has_recording": false,

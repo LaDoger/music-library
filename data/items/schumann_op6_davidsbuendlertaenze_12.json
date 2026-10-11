@@ -5,9 +5,9 @@
  "title": "Davidsbündlertänze - No. 12",
  "catalog": "Op. 6",
  "movement": "No. 12",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;tender;restless;wistful;key: E minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: #iv - iii7 - vi#6 - ii - i2 - bVI chromatic descent through bVII7 and vii° to v6, ii - v - iv5 - i#7, closes #iii6 - III765 with a Picardy major. Texture: two-voice melodic lines over arpeggiated chords.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/29785",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "tender",
+  "restless",
+  "wistful",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

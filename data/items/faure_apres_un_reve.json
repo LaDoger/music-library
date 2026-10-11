@@ -36,8 +36,7 @@
  "preview_url": "",
  "score_url": "files/scores/faure_apres_un_reve.mid",
  "score_files": [
-  "files/scores/faure_apres_un_reve.mid",
-  "files/scores/faure_apres_un_reve_reconstructed.mxl"
+  "files/scores/faure_apres_un_reve.mid"
  ],
  "mood_tags_list": [
   "lyrical",
@@ -74,7 +73,6 @@
    "licence": "PD"
   }
  ],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=faure_apres_un_reve",
@@ -82,8 +80,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid",
-  "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/faure_apres_un_reve.mid",
  "render_midi": {

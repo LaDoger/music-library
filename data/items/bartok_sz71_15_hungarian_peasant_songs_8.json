@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 8",
  "catalog": "Sz. 71",
  "movement": "No. 8",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;rustic;restless;dark;key: G minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: i - ii#6/4/3 - v - i - v - bVI - v - iii - bVI6/4 - v - iii - i, then III7 chromatic lift and bII colour before returning to i. Texture: pulsing open-fifth ostinato under a folk-tune melody.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "rustic",
+  "restless",
+  "dark",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

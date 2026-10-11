@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 11",
  "catalog": "Sz. 71",
  "movement": "No. 11",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;mournful;austere;plaintive;key: A minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: A minor. Chord journey: i - viio6/3 - i - iv7 - vi#6/5 - i - ii6/3#3 - i7 - IV5/3#3 - i pedal, then bVI - III7 - bVI - iv54 close. Texture: unison-like melody over static tonic harmony.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "mournful",
+  "austere",
+  "plaintive",
+  "key: A minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

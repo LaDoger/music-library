@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/mozart_ave_verum_corpus.mid",
  "score_files": [
-  "files/scores/mozart_ave_verum_corpus.mid",
-  "files/scores/mozart_ave_verum_corpus_reconstructed.mxl"
+  "files/scores/mozart_ave_verum_corpus.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -78,7 +77,6 @@
    "licence": "CC0"
   }
  ],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mozart_ave_verum_corpus",
@@ -86,8 +84,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_ave_verum_corpus.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/mozart_ave_verum_corpus.mid",
-  "https://ladoger.github.io/music-library/files/scores/mozart_ave_verum_corpus_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/mozart_ave_verum_corpus.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/mozart_ave_verum_corpus.mid",
  "render_midi": {

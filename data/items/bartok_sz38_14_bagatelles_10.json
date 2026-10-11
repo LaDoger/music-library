@@ -5,9 +5,9 @@
  "title": "14 Bagatelles - No. 10",
  "catalog": "Op. 6, Sz. 38",
  "movement": "No. 10",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;angular;hazy;capricious;key: C major",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C major. Chord journey: IV - II - V - i+ augmented chord, chromatic ascent through bI, bIII+7 and bVI+ to bVII+, then iv - i and ii7 - v43 - ii7 with no firm tonic close. Texture: parallel chromatic chords in block texture over a sparse lower line.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "angular",
+  "hazy",
+  "capricious",
+  "key: C major"
  ],
  "has_editable_score": true,
  "has_recording": false,

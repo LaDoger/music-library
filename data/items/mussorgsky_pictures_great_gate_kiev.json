@@ -38,9 +38,7 @@
  "score_files": [
   "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
-  "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
-  "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl",
-  "files/scores/mussorgsky_pictures_great_gate_kiev_reconstructed.mxl"
+  "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "epic",
@@ -75,9 +73,7 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
   "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
-  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
-  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl",
-  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_great_gate_kiev_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/midi_play/mussorgsky_pictures_great_gate_kiev.mid",
  "render_midi": {

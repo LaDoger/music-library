@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 10",
  "catalog": "Sz. 71",
  "movement": "No. 10",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;uneasy;haunting;wistful;key: E minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: E minor. Chord journey: v - ii6 - I6 - bVII6 - v loop, bVII - I#7 - III7 - bVII763 - v, then bVI7 - III4/2 - i. Texture: bare melody over a repeated v-chord pedal.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "uneasy",
+  "haunting",
+  "wistful",
+  "key: E minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

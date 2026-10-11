@@ -41,8 +41,7 @@
  "preview_url": "",
  "score_url": "files/scores/beethoven_woo78_on_god_save_the_king.mid",
  "score_files": [
-  "files/scores/beethoven_woo78_on_god_save_the_king.mid",
-  "files/scores/beethoven_woo78_on_god_save_the_king_reconstructed.mxl"
+  "files/scores/beethoven_woo78_on_god_save_the_king.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -63,7 +62,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/beethoven_woo78_on_god_save_the_king.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=beethoven_woo78_on_god_save_the_king",
@@ -71,8 +69,7 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_woo78_on_god_save_the_king.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/beethoven_woo78_on_god_save_the_king.mid",
-  "https://ladoger.github.io/music-library/files/scores/beethoven_woo78_on_god_save_the_king_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/beethoven_woo78_on_god_save_the_king.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/beethoven_woo78_on_god_save_the_king.mid",
  "render_midi": {

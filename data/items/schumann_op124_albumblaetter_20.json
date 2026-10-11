@@ -5,9 +5,9 @@
  "title": "Albumblätter - No. 20",
  "catalog": "Op. 124",
  "movement": "No. 20",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;warm;pastoral;gentle;key: D major",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: D major. Chord journey: I - I6 - vi7 - i6/4 - V6 - V - I, IV6/5 - I4/2 - IV7 - I64 minor-inflected detour that returns to tonic. Texture: simple chordal texture with a clear melody on top.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277064",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "warm",
+  "pastoral",
+  "gentle",
+  "key: D major"
  ],
  "has_editable_score": true,
  "has_recording": false,

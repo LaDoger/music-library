@@ -37,8 +37,7 @@
  "score_url": "files/scores/bach_bwv208_sheep_may_safely_graze.mid",
  "score_files": [
   "files/scores/bach_bwv208_sheep_may_safely_graze.ly",
-  "files/scores/bach_bwv208_sheep_may_safely_graze.mid",
-  "files/scores/bach_bwv208_sheep_may_safely_graze_reconstructed.mxl"
+  "files/scores/bach_bwv208_sheep_may_safely_graze.mid"
  ],
  "mood_tags_list": [
   "calm",
@@ -60,7 +59,6 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv208_sheep_may_safely_graze.mid",
  "other_editions": [],
- "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv208_sheep_may_safely_graze",
@@ -69,8 +67,7 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze.mid",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze_reconstructed.mxl"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv208_sheep_may_safely_graze.mid",
  "render_midi": {

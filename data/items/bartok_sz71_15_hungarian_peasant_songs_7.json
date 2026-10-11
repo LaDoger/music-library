@@ -5,9 +5,9 @@
  "title": "15 Hungarian Peasant Songs - No. 7",
  "catalog": "Sz. 71",
  "movement": "No. 7",
- "mood_tags": "classical;modern;folk",
+ "mood_tags": "classical;piano;wild;stomping;hard-edged;key: C minor",
  "tempo_energy": "varied / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: C minor. Chord journey: i - i2 - i4 - bVII - iv5 - i - iv - bVII54 - bVII76 - v542 - i7 - bVII32 - v, closes I64 - III6 - V75#3 - I64 after a bVII42 turn. Texture: stomping modal dance with a stiff melody over a repeated bass.",
  "video_use_ideas": "Sketch material for a film-score cue: folk-modal colour, take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/15_Hungarian_Peasant_Songs,_Sz.71_(Bartók,_Béla)",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -50,8 +50,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "modern",
-  "folk"
+  "piano",
+  "wild",
+  "stomping",
+  "hard-edged",
+  "key: C minor"
  ],
  "has_editable_score": true,
  "has_recording": false,

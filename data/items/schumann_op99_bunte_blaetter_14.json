@@ -5,9 +5,9 @@
  "title": "Bunte Blätter - No. 14",
  "catalog": "Op. 99",
  "movement": "No. 14",
- "mood_tags": "classical;romantic;lyrical",
+ "mood_tags": "classical;piano;stirring;bold;resolute;key: G minor",
  "tempo_energy": "moderate / opening",
- "notable_excerpt": "Opening (00:00); play the score MIDI in the browser to audition.",
+ "notable_excerpt": "Key: G minor. Chord journey: i - V - bVII chromatic chain - v - ii - iv - IV75#3 - i, bVI-tinged turn into a major tonic, closes on I. Texture: broad block chords with a sustained bass.",
  "video_use_ideas": "Sketch material for a film-score cue: take the opening bars and re-orchestrate.",
  "editable_source_url": "https://imslp.org/wiki/Special:ReverseLookup/277060",
  "editable_format": "MIDI; MusicXML (OCR, corrected)",
@@ -47,8 +47,11 @@
  ],
  "mood_tags_list": [
   "classical",
-  "romantic",
-  "lyrical"
+  "piano",
+  "stirring",
+  "bold",
+  "resolute",
+  "key: G minor"
  ],
  "has_editable_score": true,
  "has_recording": false,
