@@ -37,7 +37,8 @@
  "score_url": "files/scores/scriabin_op11_1_prelude.mid",
  "score_files": [
   "files/scores/scriabin_op11_1_prelude.ly",
-  "files/scores/scriabin_op11_1_prelude.mid"
+  "files/scores/scriabin_op11_1_prelude.mid",
+  "files/scores/scriabin_op11_1_prelude_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "bright",
@@ -74,6 +75,7 @@
    "licence": "CC0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=scriabin_op11_1_prelude",
@@ -82,7 +84,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.ly",
-  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid"
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid",
+  "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/scriabin_op11_1_prelude.mid",
  "render_midi": {

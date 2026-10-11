@@ -41,7 +41,8 @@
  "preview_url": "",
  "score_url": "files/scores/gounod_meditation_on_the_first_prel.mid",
  "score_files": [
-  "files/scores/gounod_meditation_on_the_first_prel.mid"
+  "files/scores/gounod_meditation_on_the_first_prel.mid",
+  "files/scores/gounod_meditation_on_the_first_prel_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "intimate"
@@ -61,6 +62,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/gounod_meditation_on_the_first_prel.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=gounod_meditation_on_the_first_prel",
@@ -68,7 +70,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/gounod_meditation_on_the_first_prel.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_on_the_first_prel.mid"
+  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_on_the_first_prel.mid",
+  "https://ladoger.github.io/music-library/files/scores/gounod_meditation_on_the_first_prel_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/gounod_meditation_on_the_first_prel.mid",
  "render_midi": {

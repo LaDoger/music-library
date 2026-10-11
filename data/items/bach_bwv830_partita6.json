@@ -38,7 +38,8 @@
  "score_files": [
   "files/scores/bach_bwv830_partita6.mid",
   "files/scores/bach_bwv830_partita6_all_movements_midi.zip",
-  "files/scores/bach_bwv830_partita6_lilypond.zip"
+  "files/scores/bach_bwv830_partita6_lilypond.zip",
+  "files/scores/bach_bwv830_partita6_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "dramatic",
@@ -60,6 +61,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv830_partita6.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv830_partita6",
@@ -69,7 +71,8 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6.mid",
   "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6_all_movements_midi.zip",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6_lilypond.zip"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6_lilypond.zip",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv830_partita6.mid",
  "render_midi": {

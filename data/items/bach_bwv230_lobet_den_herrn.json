@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv230_lobet_den_herrn.mid",
  "score_files": [
   "files/scores/bach_bwv230_lobet_den_herrn.ly",
-  "files/scores/bach_bwv230_lobet_den_herrn.mid"
+  "files/scores/bach_bwv230_lobet_den_herrn.mid",
+  "files/scores/bach_bwv230_lobet_den_herrn_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "jubilant",
@@ -67,6 +68,7 @@
    "licence": "CC0"
   }
  ],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv230_lobet_den_herrn",
@@ -75,7 +77,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv230_lobet_den_herrn.mid",
  "render_midi": {
