@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv619_christe_du_lamm.mid",
  "score_files": [
   "files/scores/bach_bwv619_christe_du_lamm.ly",
-  "files/scores/bach_bwv619_christe_du_lamm.mid"
+  "files/scores/bach_bwv619_christe_du_lamm.mid",
+  "files/scores/bach_bwv619_christe_du_lamm_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "solemn",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv619_christe_du_lamm.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv619_christe_du_lamm",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv619_christe_du_lamm.mid",
  "render_midi": {

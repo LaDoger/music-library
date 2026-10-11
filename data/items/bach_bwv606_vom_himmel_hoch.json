@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv606_vom_himmel_hoch.mid",
  "score_files": [
   "files/scores/bach_bwv606_vom_himmel_hoch.ly",
-  "files/scores/bach_bwv606_vom_himmel_hoch.mid"
+  "files/scores/bach_bwv606_vom_himmel_hoch.mid",
+  "files/scores/bach_bwv606_vom_himmel_hoch_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "bright",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv606_vom_himmel_hoch.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv606_vom_himmel_hoch",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv606_vom_himmel_hoch.mid",
  "render_midi": {

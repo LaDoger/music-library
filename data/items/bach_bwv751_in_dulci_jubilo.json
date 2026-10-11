@@ -37,7 +37,8 @@
  "score_url": "files/scores/bach_bwv751_in_dulci_jubilo.mid",
  "score_files": [
   "files/scores/bach_bwv751_in_dulci_jubilo.ly",
-  "files/scores/bach_bwv751_in_dulci_jubilo.mid"
+  "files/scores/bach_bwv751_in_dulci_jubilo.mid",
+  "files/scores/bach_bwv751_in_dulci_jubilo_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "festive",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/bach_bwv751_in_dulci_jubilo.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=bach_bwv751_in_dulci_jubilo",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo.ly",
-  "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo.mid"
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo.mid",
+  "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/bach_bwv751_in_dulci_jubilo.mid",
  "render_midi": {

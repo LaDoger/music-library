@@ -37,7 +37,8 @@
  "score_url": "files/scores/buxtehude_buxwv69_laudate.mid",
  "score_files": [
   "files/scores/buxtehude_buxwv69_laudate-lys.zip",
-  "files/scores/buxtehude_buxwv69_laudate.mid"
+  "files/scores/buxtehude_buxwv69_laudate.mid",
+  "files/scores/buxtehude_buxwv69_laudate_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "festive",
@@ -61,6 +62,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/buxtehude_buxwv69_laudate.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=buxtehude_buxwv69_laudate",
@@ -69,7 +71,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate.mid"
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate.mid",
+  "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/buxtehude_buxwv69_laudate.mid",
  "render_midi": {

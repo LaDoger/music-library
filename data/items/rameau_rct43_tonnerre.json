@@ -37,7 +37,8 @@
  "score_url": "files/scores/rameau_rct43_tonnerre.mid",
  "score_files": [
   "files/scores/rameau_rct43_tonnerre-lys.zip",
-  "files/scores/rameau_rct43_tonnerre.mid"
+  "files/scores/rameau_rct43_tonnerre.mid",
+  "files/scores/rameau_rct43_tonnerre_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "stormy",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/rameau_rct43_tonnerre.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=rameau_rct43_tonnerre",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre.mid"
+  "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre.mid",
+  "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/rameau_rct43_tonnerre.mid",
  "render_midi": {
