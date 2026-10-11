@@ -17620,7 +17620,8 @@
   "score_url": "files/scores/alkan_op31_2_prelude.mid",
   "score_files": [
    "files/scores/alkan_op31_2_prelude.ly",
-   "files/scores/alkan_op31_2_prelude.mid"
+   "files/scores/alkan_op31_2_prelude.mid",
+   "files/scores/alkan_op31_2_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "restless",
@@ -17644,7 +17645,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/alkan_op31_2_prelude.mid",
   "other_editions": [],
-  "search_text": "prélude charles-valentin alkan op. 31 no. 2 op 31 no 2 op. 31 no. 2 op31no2 no. 2 alkan op31 2 prelude restless dark driving classical romantic  alkan, charles-valentin"
+  "search_text": "prélude charles-valentin alkan op. 31 no. 2 op 31 no 2 op. 31 no. 2 op31no2 no. 2 alkan op31 2 prelude restless dark driving classical romantic  alkan, charles-valentin",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "alkan_op31_8_folle",
@@ -17685,7 +17687,8 @@
   "score_url": "files/scores/alkan_op31_8_folle.mid",
   "score_files": [
    "files/scores/alkan_op31_8_folle.ly",
-   "files/scores/alkan_op31_8_folle.mid"
+   "files/scores/alkan_op31_8_folle.mid",
+   "files/scores/alkan_op31_8_folle_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "eerie",
@@ -17709,7 +17712,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/alkan_op31_8_folle.mid",
   "other_editions": [],
-  "search_text": "chanson de la folle au bord de la mer charles-valentin alkan op. 31 no. 8 op 31 no 8 op. 31 no. 8 op31no8 no. 8 alkan op31 8 folle eerie desolate hypnotic classical romantic  alkan, charles-valentin"
+  "search_text": "chanson de la folle au bord de la mer charles-valentin alkan op. 31 no. 8 op 31 no 8 op. 31 no. 8 op31no8 no. 8 alkan op31 8 folle eerie desolate hypnotic classical romantic  alkan, charles-valentin",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "alkan_op75_toccatina",
@@ -18368,7 +18372,8 @@
   "score_url": "files/scores/rameau_tendres_plaintes.mid",
   "score_files": [
    "files/scores/rameau_tendres_plaintes.ly",
-   "files/scores/rameau_tendres_plaintes.mid"
+   "files/scores/rameau_tendres_plaintes.mid",
+   "files/scores/rameau_tendres_plaintes_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -18390,7 +18395,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rameau_tendres_plaintes.mid",
   "other_editions": [],
-  "search_text": "les tendres plaintes jean-philippe rameau pièces de clavecin (1724) pièces de clavecin (1724) piècesdeclavecin(1724)  rameau tendres plaintes tender elegant wistful classical baroque  rameau, jean-philippe"
+  "search_text": "les tendres plaintes jean-philippe rameau pièces de clavecin (1724) pièces de clavecin (1724) piècesdeclavecin(1724)  rameau tendres plaintes tender elegant wistful classical baroque  rameau, jean-philippe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rameau_sauvages",
@@ -18431,7 +18437,8 @@
   "score_url": "files/scores/rameau_sauvages.mid",
   "score_files": [
    "files/scores/rameau_sauvages.ly",
-   "files/scores/rameau_sauvages.mid"
+   "files/scores/rameau_sauvages.mid",
+   "files/scores/rameau_sauvages_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bold",
@@ -18453,7 +18460,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rameau_sauvages.mid",
   "other_editions": [],
-  "search_text": "les sauvages jean-philippe rameau nouvelles suites de pièces de clavecin nouvelles suites de pièces de clavecin nouvellessuitesdepiècesdeclavecin  rameau sauvages bold rhythmic ceremonial classical baroque  rameau, jean-philippe"
+  "search_text": "les sauvages jean-philippe rameau nouvelles suites de pièces de clavecin nouvelles suites de pièces de clavecin nouvellessuitesdepiècesdeclavecin  rameau sauvages bold rhythmic ceremonial classical baroque  rameau, jean-philippe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rameau_tambourin",
@@ -18624,7 +18632,8 @@
   "score_url": "files/scores/rameau_rct43_ouverture_2.mid",
   "score_files": [
    "files/scores/rameau_rct43_ouverture_2-lys.zip",
-   "files/scores/rameau_rct43_ouverture_2.mid"
+   "files/scores/rameau_rct43_ouverture_2.mid",
+   "files/scores/rameau_rct43_ouverture_2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -18646,7 +18655,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rameau_rct43_ouverture_2.mid",
   "other_editions": [],
-  "search_text": "hippolyte et aricie: ouverture jean-philippe rameau rct 43 rct 43 rct43 ouverture, second section rameau rct43 ouverture 2 bright driving baroque classical baroque  rameau, jean-philippe"
+  "search_text": "hippolyte et aricie: ouverture jean-philippe rameau rct 43 rct 43 rct43 ouverture, second section rameau rct43 ouverture 2 bright driving baroque classical baroque  rameau, jean-philippe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rameau_rct43_marche",
@@ -18815,7 +18825,8 @@
   "score_url": "files/scores/rameau_rct43_rossignols.mid",
   "score_files": [
    "files/scores/rameau_rct43_rossignols-lys.zip",
-   "files/scores/rameau_rct43_rossignols.mid"
+   "files/scores/rameau_rct43_rossignols.mid",
+   "files/scores/rameau_rct43_rossignols_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "pastoral",
@@ -18837,7 +18848,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rameau_rct43_rossignols.mid",
   "other_editions": [],
-  "search_text": "rossignols amoureux jean-philippe rameau rct 43 rct 43 rct43 act 5 ariette rameau rct43 rossignols pastoral elegant lyrical classical baroque  rameau, jean-philippe"
+  "search_text": "rossignols amoureux jean-philippe rameau rct 43 rct 43 rct43 act 5 ariette rameau rct43 rossignols pastoral elegant lyrical classical baroque  rameau, jean-philippe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rameau_rct43_chaconne",
@@ -19857,7 +19869,8 @@
   "score_files": [
    "files/scores/couperin_usquequo-lys.zip",
    "files/scores/couperin_usquequo-mids.zip",
-   "files/scores/couperin_usquequo.mid"
+   "files/scores/couperin_usquequo.mid",
+   "files/scores/couperin_usquequo_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lamenting",
@@ -19879,7 +19892,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/couperin_usquequo.mid",
   "other_editions": [],
-  "search_text": "usquequo domine françois couperin motet (philidor, c.1705) motet (philidor, c 1705) motet (philidor, c.1705) motet(philidor,c1705)  couperin usquequo lamenting devotional searching classical baroque  couperin, françois"
+  "search_text": "usquequo domine françois couperin motet (philidor, c.1705) motet (philidor, c 1705) motet (philidor, c.1705) motet(philidor,c1705)  couperin usquequo lamenting devotional searching classical baroque  couperin, françois",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "buxtehude_buxwv155_toccata",
@@ -20908,7 +20922,8 @@
   "score_url": "files/scores/franck_fwv62_ave_maria.mid",
   "score_files": [
    "files/scores/franck_fwv62_ave_maria-lys.zip",
-   "files/scores/franck_fwv62_ave_maria.mid"
+   "files/scores/franck_fwv62_ave_maria.mid",
+   "files/scores/franck_fwv62_ave_maria_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "devotional",
@@ -20930,7 +20945,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/franck_fwv62_ave_maria.mid",
   "other_editions": [],
-  "search_text": "ave maria césar franck fwv 62 fwv 62 fwv62  franck fwv62 ave maria devotional lyrical tender classical romantic  franck, césar"
+  "search_text": "ave maria césar franck fwv 62 fwv 62 fwv62  franck fwv62 ave maria devotional lyrical tender classical romantic  franck, césar",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bruckner_wab129_perger",
@@ -21731,7 +21747,8 @@
   "score_url": "files/scores/reger_op138_3_nachtlied.mid",
   "score_files": [
    "files/scores/reger_op138_3_nachtlied.ly",
-   "files/scores/reger_op138_3_nachtlied.mid"
+   "files/scores/reger_op138_3_nachtlied.mid",
+   "files/scores/reger_op138_3_nachtlied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "nocturnal",
@@ -21755,7 +21772,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/reger_op138_3_nachtlied.mid",
   "other_editions": [],
-  "search_text": "nachtlied max reger op. 138 no. 3 op 138 no 3 op. 138 no. 3 op138no3  reger op138 3 nachtlied nocturnal choral hushed classical late romantic / early 20th  reger, max"
+  "search_text": "nachtlied max reger op. 138 no. 3 op 138 no 3 op. 138 no. 3 op138no3  reger op138 3 nachtlied nocturnal choral hushed classical late romantic / early 20th  reger, max",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "reger_untrene",
@@ -25695,7 +25713,8 @@
   "preview_url": "",
   "score_url": "files/scores/scriabin_op_32_no_1_poeme_op_32_no_1.mid",
   "score_files": [
-   "files/scores/scriabin_op_32_no_1_poeme_op_32_no_1.mid"
+   "files/scores/scriabin_op_32_no_1_poeme_op_32_no_1.mid",
+   "files/scores/scriabin_op_32_no_1_poeme_op_32_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -25716,7 +25735,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/scriabin_op_32_no_1_poeme_op_32_no_1.mid",
   "other_editions": [],
-  "search_text": "poème op. 32 no. 1 alexander scriabin op. 32 no. 1 op 32 no 1 op. 32 no. 1 op32no1  scriabin op 32 no 1 poeme op 32 no 1 classical lyrical classical late romantic / early 20th  scriabin, alexander"
+  "search_text": "poème op. 32 no. 1 alexander scriabin op. 32 no. 1 op 32 no 1 op. 32 no. 1 op32no1  scriabin op 32 no 1 poeme op 32 no 1 classical lyrical classical late romantic / early 20th  scriabin, alexander",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "scriabin_op_40_no_2_mazurka_op_40_no_2",
@@ -31511,7 +31531,8 @@
   "preview_url": "",
   "score_url": "files/scores/anonymous_the_second_part_of_the_divis.mid",
   "score_files": [
-   "files/scores/anonymous_the_second_part_of_the_divis.mid"
+   "files/scores/anonymous_the_second_part_of_the_divis.mid",
+   "files/scores/anonymous_the_second_part_of_the_divis_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -31532,7 +31553,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/anonymous_the_second_part_of_the_divis.mid",
   "other_editions": [],
-  "search_text": "27. greensleeves to a ground with division anonymous   the second part of the division-violin anonymous the second part of the divis classical lyrical classical traditional  anonymous"
+  "search_text": "27. greensleeves to a ground with division anonymous   the second part of the division-violin anonymous the second part of the divis classical lyrical classical traditional  anonymous",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "anonymous_alleluia_the_bridegroom_come",
@@ -124225,7 +124247,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_the_captive.mid",
   "score_files": [
-   "files/scores/unknown_the_captive.mid"
+   "files/scores/unknown_the_captive.mid",
+   "files/scores/unknown_the_captive_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -124246,7 +124269,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_the_captive.mid",
   "other_editions": [],
-  "search_text": "l'esclave edouard lalo   the captive unknown the captive classical lyrical classical romantic  lalo, edouard"
+  "search_text": "l'esclave edouard lalo   the captive unknown the captive classical lyrical classical romantic  lalo, edouard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "lalo_op19_string_quartet_op_19",
@@ -152507,7 +152531,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wiegenliedb2.mid",
   "score_files": [
-   "files/scores/unknown_wiegenliedb2.mid"
+   "files/scores/unknown_wiegenliedb2.mid",
+   "files/scores/unknown_wiegenliedb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -152528,7 +152553,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wiegenliedb2.mid",
   "other_editions": [],
-  "search_text": "wiegenlied ferdinand ries    unknown wiegenliedb2 classical lyrical classical romantic  ries, ferdinand"
+  "search_text": "wiegenlied ferdinand ries    unknown wiegenliedb2 classical lyrical classical romantic  ries, ferdinand",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "carulli_la_sautillante_ferdinando_ca",
@@ -185143,7 +185169,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_o20no11_drei_sonatines.mid",
   "score_files": [
-   "files/scores/unknown_o20no11_drei_sonatines.mid"
+   "files/scores/unknown_o20no11_drei_sonatines.mid",
+   "files/scores/unknown_o20no11_drei_sonatines_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "fast",
@@ -185164,7 +185191,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_o20no11_drei_sonatines.mid",
   "other_editions": [],
-  "search_text": "sonatine i - allegro frederik kuhlau o 20, no. 1: 1 o 20, no 1: 1 o 20, no. 1: 1 o20,no1:1 drei sonatines unknown o20no11 drei sonatines fast bright classical romantic  kuhlau, frederik"
+  "search_text": "sonatine i - allegro frederik kuhlau o 20, no. 1: 1 o 20, no 1: 1 o 20, no. 1: 1 o20,no1:1 drei sonatines unknown o20no11 drei sonatines fast bright classical romantic  kuhlau, frederik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_o20no12_drei_sonatines",
@@ -242749,7 +242777,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_coro_baccanale.mid",
   "score_files": [
-   "files/scores/verdi_coro_baccanale.mid"
+   "files/scores/verdi_coro_baccanale.mid",
+   "files/scores/verdi_coro_baccanale_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -242770,7 +242799,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_coro_baccanale.mid",
   "other_editions": [],
-  "search_text": "la traviata - n16 coro baccanale giuseppe verdi   coro baccanale verdi coro baccanale classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - n16 coro baccanale giuseppe verdi   coro baccanale verdi coro baccanale classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_scena_e_duettob2",
@@ -243549,7 +243579,8 @@
   "preview_url": "",
   "score_url": "files/scores/verdi_preludio.mid",
   "score_files": [
-   "files/scores/verdi_preludio.mid"
+   "files/scores/verdi_preludio.mid",
+   "files/scores/verdi_preludio_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -243570,7 +243601,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/verdi_preludio.mid",
   "other_editions": [],
-  "search_text": "la traviata - preludio giuseppe verdi   preludio verdi preludio classical lyrical classical romantic  verdi, giuseppe"
+  "search_text": "la traviata - preludio giuseppe verdi   preludio verdi preludio classical lyrical classical romantic  verdi, giuseppe",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "verdi_la_traviata_preludio_per_ens",
@@ -519834,7 +519866,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_fromoperaandronico1821_notturno.mid",
   "score_files": [
-   "files/scores/unknown_fromoperaandronico1821_notturno.mid"
+   "files/scores/unknown_fromoperaandronico1821_notturno.mid",
+   "files/scores/unknown_fromoperaandronico1821_notturno_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -519855,7 +519888,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_fromoperaandronico1821_notturno.mid",
   "other_editions": [],
-  "search_text": "nel seggio placido saverio mercadante from opera andronico (1821) from opera andronico (1821) fromoperaandronico(1821) notturno unknown fromoperaandronico1821 notturno classical lyrical classical romantic  mercadante, saverio"
+  "search_text": "nel seggio placido saverio mercadante from opera andronico (1821) from opera andronico (1821) fromoperaandronico(1821) notturno unknown fromoperaandronico1821 notturno classical lyrical classical romantic  mercadante, saverio",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "joplin_march_and_two_step",
@@ -566515,7 +566549,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_1903_the_st_louis_rag.mid",
   "score_files": [
-   "files/scores/unknown_1903_the_st_louis_rag.mid"
+   "files/scores/unknown_1903_the_st_louis_rag.mid",
+   "files/scores/unknown_1903_the_st_louis_rag_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -566536,7 +566571,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_1903_the_st_louis_rag.mid",
   "other_editions": [],
-  "search_text": "the st. louis rag tom turpin 1903 1903  unknown 1903 the st louis rag classical lyrical classical 20th century  turpin, tom"
+  "search_text": "the st. louis rag tom turpin 1903 1903  unknown 1903 the st louis rag classical lyrical classical 20th century  turpin, tom",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "victoria_deus_tuorum_militum_tomas_lu",
@@ -613896,7 +613932,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb9.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb9.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb9.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb9_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -613917,7 +613954,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb9.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 17 traditional    traditional traditioner af swenska folkb9 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 17 traditional    traditional traditioner af swenska folkb9 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb10",
@@ -614302,7 +614340,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb15.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb15.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb15.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb15_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -614323,7 +614362,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb15.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 23 traditional    traditional traditioner af swenska folkb15 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 23 traditional    traditional traditioner af swenska folkb15 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb16",
@@ -614708,7 +614748,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb21.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb21.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb21.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb21_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -614729,7 +614770,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb21.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 31 traditional    traditional traditioner af swenska folkb21 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 31 traditional    traditional traditioner af swenska folkb21 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb22",
@@ -615250,7 +615292,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb29.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb29.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb29.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb29_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -615271,7 +615314,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb29.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 9 traditional    traditional traditioner af swenska folkb29 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 1st part, nr 9 traditional    traditional traditioner af swenska folkb29 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb30",
@@ -615452,7 +615496,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb32.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb32.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb32.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb32_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -615473,7 +615518,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb32.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 2nd part, nr 30 traditional    traditional traditioner af swenska folkb32 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 2nd part, nr 30 traditional    traditional traditioner af swenska folkb32 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb33",
@@ -616198,7 +616244,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb43.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb43.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb43.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb43_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -616219,7 +616266,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb43.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 18 traditional    traditional traditioner af swenska folkb43 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 18 traditional    traditional traditioner af swenska folkb43 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb44",
@@ -616604,7 +616652,8 @@
   "preview_url": "",
   "score_url": "files/scores/traditional_traditioner_af_swenska_folkb49.mid",
   "score_files": [
-   "files/scores/traditional_traditioner_af_swenska_folkb49.mid"
+   "files/scores/traditional_traditioner_af_swenska_folkb49.mid",
+   "files/scores/traditional_traditioner_af_swenska_folkb49_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -616625,7 +616674,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/traditional_traditioner_af_swenska_folkb49.mid",
   "other_editions": [],
-  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 24 traditional    traditional traditioner af swenska folkb49 classical lyrical classical traditional  traditional"
+  "search_text": "traditioner af swenska folk-dansar, 3rd part, nr 24 traditional    traditional traditioner af swenska folkb49 classical lyrical classical traditional  traditional",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "traditional_traditioner_af_swenska_folkb51",

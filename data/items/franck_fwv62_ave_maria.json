@@ -37,7 +37,8 @@
  "score_url": "files/scores/franck_fwv62_ave_maria.mid",
  "score_files": [
   "files/scores/franck_fwv62_ave_maria-lys.zip",
-  "files/scores/franck_fwv62_ave_maria.mid"
+  "files/scores/franck_fwv62_ave_maria.mid",
+  "files/scores/franck_fwv62_ave_maria_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "devotional",
@@ -59,6 +60,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/franck_fwv62_ave_maria.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=franck_fwv62_ave_maria",
@@ -67,7 +69,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria.mid",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria.mid"
+  "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria.mid",
+  "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/franck_fwv62_ave_maria.mid",
  "render_midi": {
