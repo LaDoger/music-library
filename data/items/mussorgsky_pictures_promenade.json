@@ -37,7 +37,8 @@
  "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
  "score_files": [
   "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
-  "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+  "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+  "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "stately",
@@ -62,6 +63,7 @@
  "duration_s": 100.58,
  "midi_play_url": "files/midi_play/mussorgsky_pictures_promenade.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=mussorgsky_pictures_promenade",
@@ -70,7 +72,8 @@
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
-  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+  "https://ladoger.github.io/music-library/files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/midi_play/mussorgsky_pictures_promenade.mid",
  "render_midi": {

@@ -2791,7 +2791,8 @@
   "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
-   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "aggressive",
@@ -2814,7 +2815,8 @@
   "duration_s": 441.53,
   "midi_play_url": "files/midi_play/mussorgsky_pictures_baba_yaga.mid",
   "other_editions": [],
-  "search_text": "pictures at an exhibition - the hut on fowl's legs (baba yaga) modest mussorgsky   ix. baba yaga (+ great gate, part 8 of cycle) mussorgsky pictures baba yaga aggressive dark percussive wild classical romantic bernd krueger (piano-midi.de; midi played on digital piano) mussorgsky, modest"
+  "search_text": "pictures at an exhibition - the hut on fowl's legs (baba yaga) modest mussorgsky   ix. baba yaga (+ great gate, part 8 of cycle) mussorgsky pictures baba yaga aggressive dark percussive wild classical romantic bernd krueger (piano-midi.de; midi played on digital piano) mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mussorgsky_pictures_great_gate_kiev",
@@ -2855,7 +2857,8 @@
   "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
-   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "epic",
@@ -2880,7 +2883,8 @@
   "duration_s": 328.2,
   "midi_play_url": "files/midi_play/mussorgsky_pictures_great_gate_kiev.mid",
   "other_editions": [],
-  "search_text": "pictures at an exhibition - the great gate of kiev modest mussorgsky   x. la grande porte de kiev mussorgsky pictures great gate kiev epic triumphant majestic grand classical romantic musopen (piano; performer not named) mussorgsky, modest"
+  "search_text": "pictures at an exhibition - the great gate of kiev modest mussorgsky   x. la grande porte de kiev mussorgsky pictures great gate kiev epic triumphant majestic grand classical romantic musopen (piano; performer not named) mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mussorgsky_pictures_promenade",
@@ -2921,7 +2925,8 @@
   "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
   "score_files": [
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
-   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip"
+   "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "stately",
@@ -2946,7 +2951,8 @@
   "duration_s": 100.58,
   "midi_play_url": "files/midi_play/mussorgsky_pictures_promenade.mid",
   "other_editions": [],
-  "search_text": "pictures at an exhibition - promenade modest mussorgsky   promenade i (allegro giusto) mussorgsky pictures promenade stately noble walking confident classical romantic musopen (piano; performer not named) mussorgsky, modest"
+  "search_text": "pictures at an exhibition - promenade modest mussorgsky   promenade i (allegro giusto) mussorgsky pictures promenade stately noble walking confident classical romantic musopen (piano; performer not named) mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "offenbach_orpheus_cancan",
@@ -49118,7 +49124,8 @@
   "preview_url": "",
   "score_url": "files/scores/dvorak_o55_als_die_alte_mutter.mid",
   "score_files": [
-   "files/scores/dvorak_o55_als_die_alte_mutter.mid"
+   "files/scores/dvorak_o55_als_die_alte_mutter.mid",
+   "files/scores/dvorak_o55_als_die_alte_mutter_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -49139,7 +49146,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/dvorak_o55_als_die_alte_mutter.mid",
   "other_editions": [],
-  "search_text": "als die alte mutter antonín dvořák o 55 o 55 o55  dvorak o55 als die alte mutter classical lyrical classical romantic  dvořák, antonín"
+  "search_text": "als die alte mutter antonín dvořák o 55 o 55 o55  dvorak o55 als die alte mutter classical lyrical classical romantic  dvořák, antonín",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "dvorak_op100_sonatina_op_100_by_antonin_d",
@@ -94982,7 +94990,8 @@
   "preview_url": "",
   "score_url": "files/scores/debussy_l_113_children_s_corner_serenade_for_the_doll.mid",
   "score_files": [
-   "files/scores/debussy_l_113_children_s_corner_serenade_for_the_doll.mid"
+   "files/scores/debussy_l_113_children_s_corner_serenade_for_the_doll.mid",
+   "files/scores/debussy_l_113_children_s_corner_serenade_for_the_doll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -95003,7 +95012,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/debussy_l_113_children_s_corner_serenade_for_the_doll.mid",
   "other_editions": [],
-  "search_text": "children's corner: serenade for the doll claude debussy l. 113 l 113 l. 113 l113 no. 3 serenade for the doll debussy l 113 children s corner serenade for the doll classical lyrical classical late romantic / early 20th  debussy, claude"
+  "search_text": "children's corner: serenade for the doll claude debussy l. 113 l 113 l. 113 l113 no. 3 serenade for the doll debussy l 113 children s corner serenade for the doll classical lyrical classical late romantic / early 20th  debussy, claude",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "debussy_l_113_children_s_corner_the_snow_is_dancing",
@@ -126164,7 +126174,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_o5_ich_liebe_dich.mid",
   "score_files": [
-   "files/scores/grieg_o5_ich_liebe_dich.mid"
+   "files/scores/grieg_o5_ich_liebe_dich.mid",
+   "files/scores/grieg_o5_ich_liebe_dich_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -126185,7 +126196,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/grieg_o5_ich_liebe_dich.mid",
   "other_editions": [],
-  "search_text": "ich liebe dich edvard grieg o 5 o 5 o5  grieg o5 ich liebe dich classical lyrical classical romantic  grieg, edvard"
+  "search_text": "ich liebe dich edvard grieg o 5 o 5 o5  grieg o5 ich liebe dich classical lyrical classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_o65_bryllupsdag_pa_troldhaugen",
@@ -141695,7 +141707,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_ogive_no_3.mid",
   "score_files": [
-   "files/scores/satie_ogive_no_3.mid"
+   "files/scores/satie_ogive_no_3.mid",
+   "files/scores/satie_ogive_no_3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -141716,7 +141729,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_ogive_no_3.mid",
   "other_editions": [],
-  "search_text": "ogive no. 3 erik satie    satie ogive no 3 classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "ogive no. 3 erik satie    satie ogive no 3 classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_ogive_no_4",
@@ -193306,7 +193320,8 @@
   "preview_url": "",
   "score_url": "files/scores/faure_o2_les_matelots.mid",
   "score_files": [
-   "files/scores/faure_o2_les_matelots.mid"
+   "files/scores/faure_o2_les_matelots.mid",
+   "files/scores/faure_o2_les_matelots_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -193327,7 +193342,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/faure_o2_les_matelots.mid",
   "other_editions": [],
-  "search_text": "les matelots gabriel fauré o 2 o 2 o2  faure o2 les matelots classical lyrical classical 20th century  fauré, gabriel"
+  "search_text": "les matelots gabriel fauré o 2 o 2 o2  faure o2 les matelots classical lyrical classical 20th century  fauré, gabriel",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "faure_o78_sicilienne",
@@ -204076,7 +204092,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb15.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb15.mid"
+   "files/scores/handel_from_the_aylesford_piecesb15.mid",
+   "files/scores/handel_from_the_aylesford_piecesb15_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -204097,7 +204114,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb15.mid",
   "other_editions": [],
-  "search_text": "passepied (et menuet) george frideric handel   from the aylesford pieces handel from the aylesford piecesb15 moderate elegant classical baroque  handel, george frideric"
+  "search_text": "passepied (et menuet) george frideric handel   from the aylesford pieces handel from the aylesford piecesb15 moderate elegant classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb8",
@@ -332409,7 +332427,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv994_applicatio.mid",
   "score_files": [
-   "files/scores/bach_bwv994_applicatio.mid"
+   "files/scores/bach_bwv994_applicatio.mid",
+   "files/scores/bach_bwv994_applicatio_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -332430,7 +332449,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv994_applicatio.mid",
   "other_editions": [],
-  "search_text": "applicatio johann sebastian bach bwv 994 bwv 994 bwv994  bach bwv994 applicatio classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "applicatio johann sebastian bach bwv 994 bwv 994 bwv994  bach bwv994 applicatio classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv996_j_s_bach_bourree_in_e_minor",
@@ -340346,7 +340366,8 @@
   "preview_url": "",
   "score_url": "files/scores/brahms_o94_sapphische_ode.mid",
   "score_files": [
-   "files/scores/brahms_o94_sapphische_ode.mid"
+   "files/scores/brahms_o94_sapphische_ode.mid",
+   "files/scores/brahms_o94_sapphische_ode_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -340367,7 +340388,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/brahms_o94_sapphische_ode.mid",
   "other_editions": [],
-  "search_text": "sapphische ode johannes brahms o 94 o 94 o94  brahms o94 sapphische ode classical lyrical classical romantic  brahms, johannes"
+  "search_text": "sapphische ode johannes brahms o 94 o 94 o94  brahms o94 sapphische ode classical lyrical classical romantic  brahms, johannes",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "brahms_op10no1_brahms_ballade_op_10_no_1",
@@ -441468,7 +441490,8 @@
   "preview_url": "",
   "score_url": "files/scores/mussorgsky_pictures_at_an_exhibition_promenade.mid",
   "score_files": [
-   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade.mid"
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade.mid",
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -441489,7 +441512,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mussorgsky_pictures_at_an_exhibition_promenade.mid",
   "other_editions": [],
-  "search_text": "pictures at an exhibition: promenade modest mussorgsky   promenade mussorgsky pictures at an exhibition promenade classical lyrical classical romantic  mussorgsky, modest"
+  "search_text": "pictures at an exhibition: promenade modest mussorgsky   promenade mussorgsky pictures at an exhibition promenade classical lyrical classical romantic  mussorgsky, modest",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mussorgsky_testing_the_share_option",
@@ -496651,7 +496675,8 @@
   "preview_url": "",
   "score_url": "files/scores/tchaikovsky_op39_march_of_the_wooden_soldiers.mid",
   "score_files": [
-   "files/scores/tchaikovsky_op39_march_of_the_wooden_soldiers.mid"
+   "files/scores/tchaikovsky_op39_march_of_the_wooden_soldiers.mid",
+   "files/scores/tchaikovsky_op39_march_of_the_wooden_soldiers_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -496672,7 +496697,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/tchaikovsky_op39_march_of_the_wooden_soldiers.mid",
   "other_editions": [],
-  "search_text": "march of the wooden soldiers pyotr ilyich tchaikovsky op. 39 op 39 op. 39 op39  tchaikovsky op39 march of the wooden soldiers march ceremonial classical romantic  tchaikovsky, pyotr ilyich"
+  "search_text": "march of the wooden soldiers pyotr ilyich tchaikovsky op. 39 op 39 op. 39 op39  tchaikovsky op39 march of the wooden soldiers march ceremonial classical romantic  tchaikovsky, pyotr ilyich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "tchaikovsky_op59_scene_rustique_russe",
@@ -522022,7 +522048,8 @@
   "preview_url": "",
   "score_url": "files/scores/rachmaninoff_imslp_op_17_suite_no_2_romance.mid",
   "score_files": [
-   "files/scores/rachmaninoff_imslp_op_17_suite_no_2_romance.mid"
+   "files/scores/rachmaninoff_imslp_op_17_suite_no_2_romance.mid",
+   "files/scores/rachmaninoff_imslp_op_17_suite_no_2_romance_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lyrical",
@@ -522045,7 +522072,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/rachmaninoff_imslp_op_17_suite_no_2_romance.mid",
   "other_editions": [],
-  "search_text": "suite no. 2: romance sergei rachmaninoff op. 17 op 17 op. 17 op17 no. 3 romance rachmaninoff imslp op 17 suite no 2 romance lyrical tender classical late romantic / early 20th  rachmaninoff, sergei"
+  "search_text": "suite no. 2: romance sergei rachmaninoff op. 17 op 17 op. 17 op17 no. 3 romance rachmaninoff imslp op 17 suite no 2 romance lyrical tender classical late romantic / early 20th  rachmaninoff, sergei",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rachmaninoff_op_18_piano_concerto_no_2_in_c_minor",
@@ -666402,7 +666430,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k2_menuett_n_2_fur_das_pianofor.mid",
   "score_files": [
-   "files/scores/mozart_k2_menuett_n_2_fur_das_pianofor.mid"
+   "files/scores/mozart_k2_menuett_n_2_fur_das_pianofor.mid",
+   "files/scores/mozart_k2_menuett_n_2_fur_das_pianofor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -666423,7 +666452,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k2_menuett_n_2_fur_das_pianofor.mid",
   "other_editions": [],
-  "search_text": "menuett n°2 fûr das pianoforte kôch verz n°2 wolfgang amadeus mozart k2 k 2 k2  mozart k2 menuett n 2 fur das pianofor moderate elegant classical classical  mozart, wolfgang amadeus"
+  "search_text": "menuett n°2 fûr das pianoforte kôch verz n°2 wolfgang amadeus mozart k2 k 2 k2  mozart k2 menuett n 2 fur das pianofor moderate elegant classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k439b_wolfgang_amadeus_mozart_polo",
