@@ -401,6 +401,33 @@ NIELSEN = [
     ("Op.34", "Aladdin (suite)", None, UNV, r"aladdin", "Composed 1918-19; publication date not verified: not imported"),
 ]
 
+JANACEK = [
+    # Fully PD (died 1928), but US copyright still runs on posthumous or post-1930 publications: those are excluded.
+    # Years: IMSLP 'Publication history' / 'Works first published in' (checked 2026-10-11); plates as noted.
+    ("Sinfonietta", "Sinfonietta", 1926, IN, r"sinfonietta", "Universal Edition, Vienna, Dec. 1926 (IMSLP publication history); composed 1926"),
+    ("Taras Bulba", "Taras Bulba (rhapsody)", 1925, IN, r"taras bulba", "Hudebni Matice, Prague, plate H.M. 411 (1927 print); IMSLP work category 1925; composed 1915-18"),
+    ("Jenufa", "Jenufa (opera, vocal score)", 1908, IN, r"jenufa", "Klub pratel umeni, Brno 1908 (IMSLP first edition); composed 1894-1903"),
+    ("Katya Kabanova", "Katya Kabanova (opera, vocal score)", 1922, IN, r"katya|kata kabanova|kabanova", "Universal Edition 1922 (IMSLP work category); composed 1920-21"),
+    ("Vixen", "The Cunning Little Vixen (opera, vocal score)", 1924, IN, r"vixen|lisky bystrousky|bystrousky", "Universal Edition 1924 (IMSLP work category); composed 1922-23"),
+    ("Makropulos", "The Makropulos Affair (opera, vocal score)", 1926, IN, r"makropulos", "Universal Edition 1926 (IMSLP work category); composed 1923-25"),
+    ("From the House of the Dead", "From the House of the Dead (opera, vocal score)", 1930, IN, r"house of the dead|from the house|mrtveho domu", "Universal Edition 1930 (IMSLP work category; 1930 is PD in the US from 2026); composed 1927-28"),
+    ("Glagolitic Mass", "Glagolitic Mass (Msa glagolskaja)", 1928, IN, r"glagol", "Universal Edition 1928 (IMSLP work category); composed 1926-27, revised 1928"),
+    ("Concertino", "Concertino for piano and ensemble", 1926, IN, r"concertino", "Hudebni Matice, Prague 1926 (IMSLP plate H.M. 371)"),
+    ("String Quartet No.1", "String Quartet No. 1 'Kreutzer Sonata'", 1925, IN, r"string quartet (no )?1\b|kreutzer", "Hudebni Matice, Prague 1925 (IMSLP plate H.M. 340); composed 1923"),
+    ("V mlhach", "V mlhach (In the Mists), piano", 1913, IN, r"in the mists|v mlhach", "Hudebni Matice 1913 (IMSLP 'First Publication 1913')"),
+    ("Mladi", "Mladi (Youth), wind sextet", 1925, IN, r"mladi\b|youth", "Hudebni Matice, Prague 1925 (plates H.M. 341, 347, 348)"),
+    ("Pohadka", "Pohadka (Fairy Tale), cello and piano", 1924, IN, r"pohadka|fairy tale", "Hudebni Matice, Prague, n.d. [1924] (IMSLP plate H.M. 295); composed 1910"),
+    ("Violin Sonata", "Violin Sonata", 1922, IN, r"violin sonata", "Hudebni Matice, Prague 1922 (plates H.M. 230 P/V); composed 1914-15, rev. 1916-22"),
+    ("Lasske tance", "Lasske tance (Lachian Dances), piano", 1928, IN, r"lasske|lachian", "Hudebni Matice 1928 (IMSLP plate H.M. 412); composed 1888-90, rev. 1927 (IMSLP work category says 1890)"),
+    ("1.X.1905", "Sonata 1.X.1905 ('From the Street')", 1924, IN, r"1 x 1905|1\.x\.1905|from the street", "Hudebni Matice (1924) (IMSLP plate H.M. 339); composed 1905"),
+    ("Zapisnik zmizeleho", "Diary of One Who Disappeared", None, UNV, r"diary of one who|zmizeleho", "IMSLP work category 1921, but the only IMSLP print is Hudebni Matice 1945 (plate HM 935): first publication not confirmed; not imported"),
+    ("Po zarostlem chodnicku", "On an Overgrown Path, piano", None, UNV, r"overgrown|zarostl", "IMSLP work category 1911, but the only IMSLP print is Hudebni Matice 1942: first publication not confirmed; not imported"),
+    ("String Quartet No.2", "String Quartet No. 2 'Intimate Letters'", 1938, POST, r"string quartet (no )?2\b|intimate letters|listy duverne", "IMSLP work category 1938 (composed 1928): post-1930, US term still running; see CP-GATHER-janacek report for the live OpenScore row"),
+    ("Capriccio", "Capriccio for piano left hand and winds", 1953, POST, r"capriccio", "Prague: SNKHLU 1953 (IMSLP first edition); composed 1926; excluded post-1930"),
+    ("Romance", "Romance for violin and piano", 1938, POST, r"romance for violin", "IMSLP 1938; composed 1879; excluded post-1930"),
+    ("Presto", "Presto for cello and piano", 1970, POST, r"presto for cello", "IMSLP first publication 1970; excluded post-1930"),
+]
+
 COMPOSERS = {
     "ravel": {
         "name": "Maurice Ravel", "canon": "maurice ravel", "death": 1937, "birth": 1875,
@@ -462,4 +489,11 @@ COMPOSERS = {
         "prefix": "nielsen", "genre": "classical", "era": "Late Romantic / early 20th century",
         "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only. Principal orchestral and chamber works for video; not the full catalogue. Clarinet Concerto (1931), Flute Concerto (1952), Commotio and Symphony No. 6 are excluded. Opus works without a verified publication year are unverified and not imported.",
     },
+    "janacek": {
+        "name": "Leoš Janáček", "canon": "leos janacek", "death": 1928, "birth": 1854,
+        "catalogue": "JW (Janáček Work numbers, partial) / title", "rows": JANACEK,
+        "prefix": "janacek", "genre": "classical", "era": "Late Romantic / Modernist (Czech)",
+        "scope_note": "Fully PD (died 1928): no US-PD-only gate, but works first published 1931 or later are excluded because US copyright still runs on them (1930 is PD in the US from 2026). Principal operas (vocal scores), orchestral, piano and chamber works for video; not the full JW catalogue. String Quartet No. 2 (1938), Capriccio (1953), Romance (1938) and Presto (1970) are excluded.",
+    },
+
 }

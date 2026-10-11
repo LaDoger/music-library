@@ -16,7 +16,7 @@
   "flagged": "Known caveat (territorial term, US-PD-only scope, arrangement, retired PD dedication). Read legal_notes before publishing.",
   "unverified": "Rights not confirmed from the source page. Do not publish without checking."
  },
- "count": 9820,
+ "count": 9822,
  "items": [
   {
    "id": "bach_bwv1007_prelude",
@@ -304684,6 +304684,70 @@
    "stream_audio_url": "",
    "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op99_bunte_blaetter_10.mid",
    "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op99_bunte_blaetter_10.json"
+  },
+  {
+   "id": "schumann_op6_davidsbuendlertaenze_6",
+   "composer": "Robert Schumann",
+   "composer_slug": "robert-schumann",
+   "composer_sort": "Schumann, Robert",
+   "title": "Davidsbündlertänze - No. 6",
+   "catalog": "Op. 6",
+   "movement": "No. 6",
+   "genre": "classical",
+   "era": "Romantic",
+   "mood": [
+    "classical",
+    "romantic",
+    "lyrical"
+   ],
+   "energy": "moderate",
+   "licence_status": "clean",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 3,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op6_davidsbuendlertaenze_6.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op6_davidsbuendlertaenze_6.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op6_davidsbuendlertaenze_6.json"
+  },
+  {
+   "id": "schumann_op9_carnaval_19",
+   "composer": "Robert Schumann",
+   "composer_slug": "robert-schumann",
+   "composer_sort": "Schumann, Robert",
+   "title": "Carnaval - No. 19",
+   "catalog": "Op. 9",
+   "movement": "No. 19",
+   "genre": "classical",
+   "era": "Romantic",
+   "mood": [
+    "classical",
+    "romantic",
+    "lyrical"
+   ],
+   "energy": "moderate",
+   "licence_status": "clean",
+   "recording_status": "",
+   "score_status": "clean",
+   "verified": "yes",
+   "has_editable_score": true,
+   "has_recording": false,
+   "renderable_midi": true,
+   "editors_pick_rank": 0,
+   "featured_rank": 3,
+   "preview_url": "",
+   "score_url": "https://ladoger.github.io/music-library/files/scores/schumann_op9_carnaval_19.mid",
+   "release_audio_url": "",
+   "stream_audio_url": "",
+   "midi_play_url": "https://ladoger.github.io/music-library/files/scores/schumann_op9_carnaval_19.mid",
+   "item_json_url": "https://ladoger.github.io/music-library/data/items/schumann_op9_carnaval_19.json"
   }
  ]
 }

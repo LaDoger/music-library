@@ -53,6 +53,7 @@ NAME_RX = {
     "granados": r"\benrique granados\b|\bgranados enrique\b",
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
+    "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b")
 # "Ten Easy Pieces" (Bartók Sz.39) is an original title, not an easy arrangement: hide it from the \beasy\b test.

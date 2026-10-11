@@ -98,3 +98,20 @@
 - **Checks:** `licence_audit.py` 0 violations; `build_catalog.py --check` passes. `sync_site_data.py` rewrote tracked data files (the uncommitted `library_other_editions.json` feeds into them); restored with `git checkout -- data/`. The three `data/items/nielsen_*.json` are untracked, like the other gather rows.
 - **WANTED:** `/workspace/music/library/files/imslp_incoming/nielsen/WANTED.md`: 10 in-scope works (Symphonies 1-5, Helios, Maskarade overture, Pan og Syrinx, Violin Concerto, Chaconne), 9 unverified, 4 excluded. All IMSLP URLs curl-checked (HTTP 200).
 - **Models:** Haiku 5.5.
+
+## Leoš Janáček (d. 1928) — gather, 2026-10-11 (CP-GATHER-janacek)
+
+- **Rights:** died 1928, so PD in life+70 countries. Janáček is not on `approved_us_pd_only` and needs no approval. The brief said "PD everywhere", but US copyright still runs on works first published 1931 or later, so those are excluded from the checklist (see below). 1930 publications are PD in the US from 2026.
+- **Checklist:** `JANACEK` in `scripts/bulk/catalogue_data.py` (21 rows: 16 in scope, 2 unverified, 4 excluded post-1930). Publication years from IMSLP work categories and "First edition" fields, fetched 2026-10-11. Importer: `import_depth_us_pd.py` `janacek` name rule (`\bjana\w{0,3}ek\b|\bleos janacek\b`, which also matches the mojibake credits in the live rows).
+- **Imported:** none. The PDMX/OpenScore pool holds 3 candidates, and all are already live:
+  - String Quartet No. 1 "Kreutzer Sonata" (OpenScore, CC0): `janacek_string_quartet_no_1_kreutzer`, already live.
+  - Sinfonietta Fanfare (PDMX, CC0, two files `mid/12/49/QmUVZ…` and `mid/13/7/QmV8y…`): both already in `library_bulk.csv`.
+- **Skipped / flagged:**
+  - `janacek_string_quartet_no_2_intimate` (live, OpenScore CC0): IMSLP work category **1938** (composed 1928). US copyright still runs on it. It is clean in the EU and most life+70 countries, but this row is not PD in the US. **Not changed here; LaDoger to decide** (keep with a US note, or drop).
+  - Duplicate live rows: `janacek_fanfare_from_janaaek_s_sinfo` and `janacek_janaaek_fanfare_from_sinfoni` are the same PDMX Fanfare (both titles carry mojibake, "JanáÄek"). Left as they are; one should be removed in a library data pass.
+  - Post-1930 excluded: Capriccio (1953), Romance for violin (1938), Presto for cello (1970).
+  - Unverified: *Zápisník zmizelého* (IMSLP category 1921, only print Hudební Matice 1945) and *Po zarostlém chodníčku* (category 1911, only print Hudební Matice 1942). Their first publication is not confirmed, so they are not imported.
+- **Checks:** `licence_audit.py`: 0 violations (9468 bulk rows). `build_catalog.py --check`: passes (9787 items). `sync_site_data.py` not run, because no library rows changed.
+- **Coverage:** `docs/catalogues/janacek.csv`: 2 of 16 in-scope entries covered (12.5%).
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/janacek/WANTED.md`: 15 in-scope works still wanted, 2 unverified, 4 excluded. All IMSLP URLs curl-checked (HTTP 200).
+- **Models:** Haiku 5.5.
