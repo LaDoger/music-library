@@ -60,6 +60,7 @@ NAME_RX = {
     "borodin": r"\bborodin",  # PDMX spellings: "Borodine", "A.Borodine", "Aleksandr Borodin"
     "lyadov": r"\blyadov\b|\bliadov\b",
     "lyapunov": r"\b(?:lyapunov|liapunov|liapounov|lyapounov|liapunow|lyapunow|liapounow)",  # PDMX: "Liapounow", "LiapounowOp.8"
+    "gottschalk": r"\bgottschalk\b",  # PDMX/Mutopia: "Louis Moreau Gottschalk", "L.M. Gottschalk"
     "arensky": r"\barensk",  # PDMX also credits "Arenskij" / "Arenski"
     "kalinnikov": r"\bkalinnikov|\bkalinnikoff|\bkalinnikow|\bkalinnikof",  # PDMX also credits "Kalinnikoff"
     "taneyev": r"\btaneyev|\btaneev|\btanejev|\btaneiev|\btaneyeff|\btaneieff|\btanejew",  # PDMX spellings
@@ -81,6 +82,8 @@ NAME_RX = {
     "sibelius": r"\bsibelius\b",  # PDMX/OpenScore/Mutopia: "Jean Sibelius", "J. Sibelius", "Sibelius Jean"
     "liszt": r"\bliszt\b",  # PDMX/Commons/Mutopia: "Franz Liszt", "F. Liszt", "Liszt Franz"
     "reger": r"\breger\b",  # PDMX/Mutopia: "Max Reger", "M. Reger", "Reger Max" (accents folded by norm())
+    "milhaud": r"\bmilhaud\b",  # PDMX: "Darius Milhaud", "D. Milhaud", "Milhaud Darius"
+    "nazareth": r"\bnazar[eé]th\b|\bnazare\b",  # PDMX: "Ernesto Nazareth", "E. Nazaré", "Nazareth Ernesto" (accents folded by norm())
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b|jean baptiste faure|j b faure")
@@ -188,6 +191,7 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.38", "Op.40", "Op.20", "Op.26", "Op.51",  # Medtner multi-piece opus numbers (Op.25 is split into No.1 / No.2)
         "Op.15", "Op.8", "Op.2", "Op.5", "Op.7", "Op.9", "Op.10", "Op.11", "Op.14", "Op.24", "Op.48",  # Rebikov piano albums
         "Fleurs", "Children's Rest",  # Rebikov albums without an opus number
+        "Op.25 / 66", "Op.67", "Op.78",  # Milhaud piano sets (Printemps, Saudades do Brasil, Rag-Caprices: file titles kept)
         "Op.9", "Op.41", "Op.57",  # Lyadov piano sets (2 morceaux, 2 fugues, 3 morceaux; file titles kept)
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)

@@ -668,6 +668,34 @@
    "prefix": "kargelert",
    "aliases": ["sigfrid karg elert", "karg elert sigfrid", "s karg elert", "sigfrid karg", "karg elert"],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (harmonium Sonatas Op.36 and Op.46, Passacaglia Op.25, Partita Op.37, Impressions Op.102; organ Chorale Improvisations Op.65, Cathedral Windows Op.106, Pastels Op.96, Nearer My God Op.81, Impressions Op.72, Chaconne Op.73, Op.74, Funerale Op.75, Op.86, Op.108, Triptych Op.141 (1930); piano Sonatas Op.50 and Op.105, Sonatinas Op.67, Hexameron Op.97, Partita Op.113, Heidebilder Op.127; chamber Wind Quintet Op.30, Cello Sonata Op.71, Violin Sonata Op.68, Solo Violin Sonata Op.88, Solo Clarinet Op.110, Flute Caprices Op.107, Flute Sonata Op.121, Sinfonische Kanzone Op.114, Impressions exotiques Op.134). Post-1930 works (Op.142, 144, 145, 150) excluded. Checklist: scripts/bulk/catalogue_data.py KARG_ELERT."
+  },
+  {
+   "canon": "ernesto nazareth",
+   "name": "Ernesto Nazareth",
+   "birth": 1863,
+   "death": 1934,
+   "prefix": "nazareth",
+   "wikidata": "Q1356808",
+   "aliases": [
+    "ernesto nazareth",
+    "ernesto nazare",
+    "e nazareth",
+    "nazareth ernesto"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Brejeiro 1893, Odeon 1910, Apanhei-te cavaquinho 1914, Ameno Resedá 1913, Cruz perigo 1879, Gotas de ouro 1916); Improviso (1931) excluded. Checklist: scripts/bulk/catalogue_data.py NAZARETH."
+  },
+  {
+   "canon": "darius milhaud",
+   "name": "Darius Milhaud",
+   "birth": 1892,
+   "death": 1974,
+   "prefix": "milhaud",
+   "aliases": [
+    "darius milhaud",
+    "d milhaud",
+    "milhaud darius"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Printemps 1920-21, Saudades do Brasil piano 1922, 3 Rag-Caprices 1923, Piano Sonata No.1 1920, Mazurka 1920, Le boeuf sur le toit 1920, Caramel mou 1921, Le printemps Op.18 1921, Cinema-fantaisie 1921, Sonata Op.47 1923, Sonatina Op.76 1923, String Quartets 4 and 6, Symphonie de chambre No.4, Les Choephores 1926, Machines agricoles 1926, La creation du monde 1923, Protee 1922, Suite symphonique No.1). Scaramouche (1937) and all 1931+ works excluded. Checklist: scripts/bulk/catalogue_data.py MILHAUD. Death ceiling 1974: schema.py US_PD_ONLY_MAX_DEATH."
   }
  ]
 }

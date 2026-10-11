@@ -1,0 +1,17 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.2,"Bamboula, Op.2",1846,in-scope,,0,,,IMSLP: first publication 1846? (uncertain; Morgan Library early Paris edition [1849?])
+Op.3,"La savane, Op.3",1846,in-scope,,0,,,Wikipedia: 1846 (composition/publication year not checked on IMSLP)
+Op.5,"Le bananier, Op.5",1850,in-scope,yes,1,gottschalk_le_bananier_chiptune,pdmx,"IMSLP: first publication 1850? (Escudier, Paris; uncertain). Live chiptune arrangement is a different row"
+Op.11,"Le mancenillier, Op.11",1851,in-scope,,0,,,"IMSLP: first publication 1851, B. Schott's Sohne, Mainz, plate 11183"
+Op.15,"Le banjo (The Banjo), Op.15",1855,in-scope,,0,,,"IMSLP: first publication 1855, William Hall & Son, New York (submitted 1854)"
+Op.16,"The Last Hope (Dernier espoir), Op.16",1856,in-scope,,0,,,"IMSLP: earliest dated edition 1856, William Hall & Son, plate 3515 (first publication not stated; uncertain)"
+Op.22,"Souvenirs d'Andalousie, Op.22",1855,in-scope,,0,,,"IMSLP: earliest dated edition 1855, William Hall & Son (composed 1851; first publication not stated; uncertain)"
+Op.31,"Souvenir de Porto Rico, Op.31",1857,in-scope,,0,,,Wikipedia: 1857 (Op.31); IMSLP not checked
+Op.37,"Ojos criollos, Op.37",1860,in-scope,,0,,,"IMSLP: first publication 1860, William Hall & Son, plate 4592"
+Op.38,"Manchega, Op.38",1860,in-scope,,0,,,"IMSLP: first publication 1860, William Hall & Son"
+Op.39,"Souvenir de la Havane, Op.39",1860,in-scope,,0,,,"IMSLP: first publication 1860, William Hall & Son, New York"
+Op.46,"Murmures eoliens, Op.46",1862,in-scope,,0,,,"IMSLP: first publication 1862, William Hall & Son"
+Op.48,"Union, Op.48",1863,in-scope,,0,,,"IMSLP: first publication 1863, William Hall & Son"
+Op.58,"Tremolo, Op.58",1871,in-scope,,0,,,"IMSLP: first publication 1871, William Hall & Son, plate 6591 (posthumous)"
+Op.59,"Pasquinade, Op.59",1870,in-scope,,0,,,"IMSLP: first publication 1870, Oliver Ditson, Boston (posthumous)"
+Op.67,"Grande tarantelle, Op.67",1872,in-scope,,0,,,"IMSLP: first publication 1872 (Monatsbericht 1872, p.126; publisher not named; composed 1858-64)"

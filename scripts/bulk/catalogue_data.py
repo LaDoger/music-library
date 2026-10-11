@@ -680,6 +680,26 @@ ARENSKY = [
     ("Op.2", "Piano Concerto in F minor Op.2", 1897, IN, r"piano concerto|op 2\b", "IMSLP: Rahter, Leipzig, n.d. [1897], plate 918 (composed 1881; first printing uncertain)"),
 ]
 
+GOTTSCHALK = [
+    # Fully PD (died 1869): no publication-year gate. Piano works first (LaDoger priority list 2026-10-11). Years from IMSLP "First Publication" fields (checked 2026-10-11) or Wikipedia; "uncertain" where IMSLP shows a question mark or only an earliest dated edition. Live rows (Le Bananier chiptune, Battle Cry of Freedom, Grande fantaisie triomphale, The Dying Swan, The Dying Poet) are not listed.
+    ("Op.2", "Bamboula, Op.2", 1846, IN, r"bamboula", "IMSLP: first publication 1846? (uncertain; Morgan Library early Paris edition [1849?])"),
+    ("Op.3", "La savane, Op.3", 1846, IN, r"\bsavane\b", "Wikipedia: 1846 (composition/publication year not checked on IMSLP)"),
+    ("Op.5", "Le bananier, Op.5", 1850, IN, r"bananier", "IMSLP: first publication 1850? (Escudier, Paris; uncertain). Live chiptune arrangement is a different row"),
+    ("Op.11", "Le mancenillier, Op.11", 1851, IN, r"mancenillier", "IMSLP: first publication 1851, B. Schott's Sohne, Mainz, plate 11183"),
+    ("Op.15", "Le banjo (The Banjo), Op.15", 1855, IN, r"\bbanjo\b", "IMSLP: first publication 1855, William Hall & Son, New York (submitted 1854)"),
+    ("Op.16", "The Last Hope (Dernier espoir), Op.16", 1856, IN, r"last hope|dern\w* (espoir|esperance)|ultima esperanza|religious meditation", "IMSLP: earliest dated edition 1856, William Hall & Son, plate 3515 (first publication not stated; uncertain)"),
+    ("Op.22", "Souvenirs d'Andalousie, Op.22", 1855, IN, r"andalousie|andalusia", "IMSLP: earliest dated edition 1855, William Hall & Son (composed 1851; first publication not stated; uncertain)"),
+    ("Op.31", "Souvenir de Porto Rico, Op.31", 1857, IN, r"porto rico|lapiroises", "Wikipedia: 1857 (Op.31); IMSLP not checked"),
+    ("Op.37", "Ojos criollos, Op.37", 1860, IN, r"ojos criollos|\bojos\b", "IMSLP: first publication 1860, William Hall & Son, plate 4592"),
+    ("Op.38", "Manchega, Op.38", 1860, IN, r"manchega", "IMSLP: first publication 1860, William Hall & Son"),
+    ("Op.39", "Souvenir de la Havane, Op.39", 1860, IN, r"havane|havana", "IMSLP: first publication 1860, William Hall & Son, New York"),
+    ("Op.46", "Murmures eoliens, Op.46", 1862, IN, r"murmures|eoliens", "IMSLP: first publication 1862, William Hall & Son"),
+    ("Op.48", "Union, Op.48", 1863, IN, r"\bunion\b", "IMSLP: first publication 1863, William Hall & Son"),
+    ("Op.58", "Tremolo, Op.58", 1871, IN, r"tremolo", "IMSLP: first publication 1871, William Hall & Son, plate 6591 (posthumous)"),
+    ("Op.59", "Pasquinade, Op.59", 1870, IN, r"pasquinade", "IMSLP: first publication 1870, Oliver Ditson, Boston (posthumous)"),
+    ("Op.67", "Grande tarantelle, Op.67", 1872, IN, r"tarantelle", "IMSLP: first publication 1872 (Monatsbericht 1872, p.126; publisher not named; composed 1858-64)"),
+]
+
 KALINNIKOV = [
     # Fully PD (died 1901): no publication-year gate. Years from IMSLP "First Publication" / "n.d. [year]" fields (checked 2026-10-11); no opus numbers, so cat_no is a short label. Piano pieces first (LaDoger priority), then the symphonies.
     ("Pf.1", "Chanson triste", 1901, IN, r"chanson triste|grustnaya", "IMSLP: Jurgenson, n.d.[1901], plate 26077 (4 Compositions for Piano); composed 1892-93 (LaDoger priority)"),
@@ -1601,6 +1621,71 @@ KARG_ELERT = [
     ("Op.134", "Impressions exotiques for Flute and Piano, Op.134", 1920, IN, r"impressions exotiques|\bop 134\b", "IMSLP First Publication 1920 (composed 1919)"),
 ]
 
+# Piano first (LaDoger priority list 2026-10-11). US-PD-only: in scope only when first published <= 1930.
+# Years: IMSLP 'First Publication' field, read 2026-10-11 (Brejeiro, Odeon, Apanhei-te, Ameno Resedá, Confidências, Batuque,
+# Escorregando, Fon-Fon, Cruz perigo, Não caio n'outra, Floraux, Eponina, Expansiva, Escovado, Improviso). Gotas de ouro and Famoso
+# from the IMSLP work-page snippets (search, 2026-10-11). No standard catalogue; IEN numbers only where IMSLP gives one.
+NAZARETH = [
+    ("tango brasileiro", "Brejeiro", 1893, IN, r"\bbrejeiro\b", "IMSLP: composed 1893 ca., first publication 1893 (Fontes & Cia, Rio, plate F 128 C)"),
+    ("tango brasileiro", "Odeon", 1910, IN, r"\bodeon\b", "IMSLP: composed 1910, first publication 1910 (Casa Mozart / E. Bevilacqua)"),
+    ("polca", "Apanhei-te, cavaquinho!", 1914, IN, r"apanhei te cavaquinho", "IMSLP: composed 1914 ca., first publication 1914 (Casa Mozart, plate 7417)"),
+    ("polca", "Ameno Resedá", 1913, IN, r"ameno resed", "IMSLP: composed 1913 ca., first publication 1913 (Arthur Napoleão, plate 7427)"),
+    ("piano", "Confidências", 1913, IN, r"confidencias", "IMSLP: first publication 1913 (Arthur Napoleão, plate 7031); no composition year on the page"),
+    ("piano", "Batuque", 1913, IN, r"\bbatuque\b", "IMSLP: composed 1901, first publication 1913 (Arthur Napoleão, plate 7397)"),
+    ("piano", "Escorregando", 1923, IN, r"\bescorregando\b", "IMSLP: composed 1923 ca., first publication 1923 (unidentified publisher, plate 1818)"),
+    ("piano", "Fon-Fon", 1913, IN, r"\bfon fon\b", "IMSLP: first publication 1913 (Arthur Napoleão, plate 6862); no composition year on the page"),
+    ("polca", "Cruz, perigo!!!", 1879, IN, r"cruz perigo", "IMSLP: composed 1879 ca., first publication 1879 (Arthur Napoleão & Miguez, plate 5791)"),
+    ("tango", "Não caio n'outra", 1881, IN, r"nao caio n outra", "IMSLP: composed 1881 ca., first publication 1881 (Viúva Filippone, plate 5792)"),
+    ("piano", "Floraux", 1909, IN, r"\bfloraux\b", "IMSLP: composed 1908 ca., first publication 1909 (E. Bevilacqua / Casa Mozart, plate 6414)"),
+    ("piano", "Eponina", 1913, IN, r"\beponina\b", "IMSLP: composed 1913 ca., first publication 1913 (Vieira Machado, plate V.M.&C. 1492)"),
+    ("piano", "Expansiva", 1903, IN, r"\bexpansiva\b", "IMSLP: composed 1903 ca., first publication 1903 (Gomes Guimarães, plate 4872)"),
+    ("piano", "Escovado", 1904, IN, r"\bescovado\b", "IMSLP: composed 1904, first publication 1904 (Vieira Machado, plate V.M.&C. 1254)"),
+    ("IEN 185", "Gotas de ouro", 1916, IN, r"gotas de ouro", "IMSLP: first publication 1916 (Vieira Machado & Cia, n.d.[1916]); IEN 185 per IMSLP"),
+    ("IEN 124", "Famoso", 1917, IN, r"\bfamoso\b", "IMSLP: composed about 1917, first publication 1917 (E. Bevilacqua & Cia); IEN 124 per IMSLP"),
+    ("piano", "Improviso", 1931, POST, r"\bimproviso\b", "IMSLP: first publication 1931 (Sampaio Araujo, plate 8992); after the 1930 US-PD-only gate, excluded"),
+    ("tango", "Tango-habanera", None, UNV, r"tango habanera", "IMSLP: composed 1925 ca.; typeset score first published 2008 (Musica Brasilis); no pre-1931 publication found, not imported"),
+    ("polca", "Polka para mão esquerda", None, UNV, r"polka para mao esquerda", "IMSLP: composed 1910 ca.; typeset score first published 2008 (Musica Brasilis); no pre-1931 publication found, not imported"),
+    ("IEN 120", "Nocturno, Op.1", None, UNV, r"nocturno", "IMSLP: composed 1920; typeset score first published 2008 (Musica Brasilis); no pre-1931 publication found, not imported"),
+]
+
+# Darius Milhaud (d.1974). US-PD-only (LaDoger priority list 2026-10-11): in scope only when first published <= 1930.
+# Piano first. Years: IMSLP 'First Publication' fields (work pages fetched 2026-10-11) unless marked otherwise. Publication
+# is never earlier than composition, so works composed 1931 or later are excluded by composition date when no page was read.
+MILHAUD = [
+    ("Op.25 / 66", "Printemps, Opp.25, 66", 1920, IN, r"^printemps\b", "IMSLP: Vol.1 Op.25 first publication 1920, Vol.2 Op.66 1921 (both Paris, La Sirène musicale); composed 1915-20"),
+    ("Op.67", "Saudades do Brasil, Op.67", 1922, IN, r"saudades do brasil", "IMSLP: piano first publication 1922 (E. Demets, Paris, plate E. 2039-2050 D.); composed 1920-21. The orchestral Op.67b is 1921 (IMSLP search snippet, not fetched)"),
+    ("Op.78", "3 Rag-Caprices, Op.78", 1923, IN, r"rag caprice", "IMSLP: first publication 1923 (Universal Edition, Vienna; piano score U.E. 6562); composed 1922"),
+    ("Op.33", "Piano Sonata No.1, Op.33", 1920, IN, r"piano sonata (no ?)?1\b", "IMSLP: first publication 1920 (A.Z. Mathot, Paris); composed 1916"),
+    ("no opus", "Mazurka (no opus)", 1920, IN, r"\bmazurka\b", "IMSLP: piano, composed 1914; first publication 1920 (E. Demets, Album des six No.4)"),
+    ("Op.58", "Le bœuf sur le toit, Op.58 (piano four hands)", 1920, IN, r"boeuf sur le toit", "IMSLP: first publication 1920 (Éditions de la Sirène, Paris), composed 1920; piano four-hand version by the composer"),
+    ("Op.96", "Polka for L'éventail de Jeanne, Op.96", 1929, IN, r"eventail de jeanne|polka for l eventail", "IMSLP: first publication 1929 (Heugel, Paris, in the L'éventail de Jeanne album); composition year not stated"),
+    ("Op.59a", "Enfantines, Op.59a (piano four hands)", None, UNV, r"\benfantines\b", "No IMSLP work page found 2026-10-11 (search and category list); publication year unverified, not imported"),
+    ("Op.111", "Choral, Op.111 (piano)", None, UNV, r"\bchoral\b", "IMSLP category: composed 1930; first publication not checked; not imported"),
+    ("Op.58c", "Tango des Fratellini, Op.58c (piano arrangement by Hubert Mouton)", 1921, UNV, r"tango des fratellini", "IMSLP: piano arrangement by Mouton, 1921 (Sirène). An arrangement, not a Milhaud piano work; not imported"),
+    ("Op.293", "Piano Sonata No.2, Op.293", 1949, POST, r"piano sonata (no ?)?2\b", "Composed 1949; after the 1930 gate"),
+    ("Op.129", "4 Romances sans paroles, Op.129", 1933, POST, r"romances sans paroles", "Composed 1933; after the 1930 gate"),
+    ("Op.68", "Caramel mou, Op.68 (voice and jazz band)", 1921, IN, r"caramel mou", "IMSLP: first publication 1921 (La Sirène musicale); composed 1920; voice, clarinet, trumpet, trombone, piano, percussion, not solo piano"),
+    ("Op.18", "Le printemps, Op.18 (violin and piano)", 1921, IN, r"^le printemps\b", "IMSLP: first publication 1921 (Durand, Paris); composed 1914"),
+    ("Op.58b", "Cinéma-fantaisie, Op.58b (violin and piano)", 1921, IN, r"cinema fantaisie", "IMSLP: first publication 1921 (La Sirène musicale); composed 1919"),
+    ("Op.47", "Sonata for flute, clarinet, oboe and piano, Op.47", 1923, IN, r"flute clarinet oboe", "IMSLP: first publication 1923 (Durand, Paris); composed 1918"),
+    ("Op.76", "Sonatina for flute and piano, Op.76", 1923, IN, r"flute sonatina|sonatina for flute", "IMSLP: first publication 1923 (Durand, Paris); composed 1922"),
+    ("Op.46", "String Quartet No.4, Op.46", 1922, IN, r"string quartet no ?4\b", "IMSLP: first publication 1922 (Maurice Senart, Paris); composed 1918"),
+    ("Op.77", "String Quartet No.6, Op.77", 1925, IN, r"string quartet no ?6\b", "IMSLP: first publication 1925 (Universal Edition, Vienna); composed 1922"),
+    ("Op.74", "Symphonie de chambre No.4 'Dixtour', Op.74", 1922, IN, r"symphonie de chambre (no ?)?4|dixtour", "IMSLP: first publication 1922 (Universal Edition, Vienna); composed 1921"),
+    ("Op.24", "Les Choéphores, Op.24", 1926, IN, r"choephores", "IMSLP: first publication 1926 (Heugel, Paris; vocal score); composed 1915-16"),
+    ("Op.48", "L'homme et son désir, Op.48", 1923, IN, r"homme et son desir", "IMSLP: first publication 1923 (Universal Edition score); composed 1917-18"),
+    ("Op.92", "Le pauvre matelot, Op.92", 1927, IN, r"pauvre matelot", "IMSLP: first publication 1927 (Heugel, Paris); composed 1926"),
+    ("Op.62", "Sérénade en trois parties, Op.62", 1923, IN, r"serenade en trois parties|serenade op 62", "IMSLP: first publication 1923 (Universal Edition, Vienna); composed 1920-21"),
+    ("Op.81a", "La création du monde, Op.81a", 1923, IN, r"creation du monde", "IMSLP: first publication 1923 (Max Eschig, Paris); composed 1922-23. Piano quintet version Op.81b not separately checked"),
+    ("Op.17", "Protée, Op.17", 1922, IN, r"^protee\b", "IMSLP: first publication 1922 (Durand, Paris); composed 1913-19"),
+    ("Op.12", "Suite symphonique No.1, Op.12", 1923, IN, r"suite symphonique (no ?)?1\b", "IMSLP: first publication 1923 (Max Eschig, Paris); composed 1913-14"),
+    ("Op.56", "Machines agricoles, Op.56", 1926, IN, r"machines agricoles", "IMSLP: first publication 1926 (Universal Edition, Vienna); composed 1919"),
+    ("Op.165", "Scaramouche, Op.165", 1937, POST, r"scaramouche", "Published 1937 (brief); after the 1930 gate, excluded"),
+    ("Op.152c", "Suite provençale, Op.152c", 1936, POST, r"suite proven", "Composed 1936; after the 1930 gate"),
+    ("Op.136", "Cello Concerto No.1, Op.136", 1934, POST, r"cello concerto no ?1\b", "Composed 1934; after the 1930 gate"),
+    ("Op.135", "Concertino de printemps, Op.135", 1934, POST, r"concertino de printemps", "Composed 1934; after the 1930 gate"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1674,6 +1759,18 @@ COMPOSERS = {
         "prefix": "nielsen", "genre": "classical", "era": "Late Romantic / early 20th century",
         "scope_note": "US-PD-only (LaDoger priority list 2026-10-11): works first published 1930 or earlier only. Principal orchestral and chamber works for video; not the full catalogue. Clarinet Concerto (1931), Flute Concerto (1952), Commotio and Symphony No. 6 are excluded. Opus works without a verified publication year are unverified and not imported.",
     },
+    "nazareth": {
+        "name": "Ernesto Nazareth", "canon": "ernesto nazareth", "death": 1934, "birth": 1863,
+        "catalogue": "IEN numbers (Instituto Ernesto Nazareth) where IMSLP gives one; otherwise title", "rows": NAZARETH,
+        "prefix": "nazareth", "genre": "classical", "era": "Late Romantic / Brazilian popular piano (choro, tango brasileiro, maxixe)",
+        "scope_note": "US-PD-only (died 1934; works first published 1930 or earlier only, LaDoger priority list 2026-10-11). Piano tangos, polkas and waltzes first (Brejeiro, Odeon, Apanhei-te cavaquinho, Ameno Resedá, Confidências, Batuque, Escorregando, Fon-Fon and the rest of the 16 in-scope rows). Improviso (1931) is excluded by the gate; Tango-habanera, Polka para mão esquerda and Nocturno Op.1 have only 2008 typeset first editions and are unverified. No orchestral or chamber work was verified in this pass; not the full catalogue (about 200 IMSLP works).",
+    },
+    "milhaud": {
+        "name": "Darius Milhaud", "canon": "darius milhaud", "death": 1974, "birth": 1892,
+        "catalogue": "Op. (Milhaud opus numbers; Op.25/66 Printemps and Op.67 Saudades as published)", "rows": MILHAUD,
+        "prefix": "milhaud", "genre": "classical", "era": "20th century (Les Six, French)",
+        "scope_note": "US-PD-only (died 1974; LaDoger priority list 2026-10-11: works first published 1930 or earlier only, death ceiling 1974 in schema.py). Piano first: Printemps, Saudades do Brasil, Rag-Caprices, Sonata No.1, Le boeuf sur le toit (four hands), Mazurka, Polka Op.96. Ensemble and orchestral works with a verified 1930-or-earlier date follow. Post-1930 works (Scaramouche 1937, Suite provençale, Cello Concerto No.1, Concertino de printemps, Piano Sonata No.2, Romances Op.129) are excluded. Not the full catalogue (about 430 opus numbers).",
+    },
     "janacek": {
         "name": "Leoš Janáček", "canon": "leos janacek", "death": 1928, "birth": 1854,
         "catalogue": "JW (Janáček Work numbers, partial) / title", "rows": JANACEK,
@@ -1703,6 +1800,12 @@ COMPOSERS = {
         "catalogue": "Op. (Arensky's opus numbers)", "rows": ARENSKY,
         "prefix": "arensky", "genre": "classical", "era": "Late Romantic (Russian)",
         "scope_note": "Fully PD (died 1906): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11 (24 Characteristic Pieces Op.36, Essais Op.28 and the two-piano suites first, then Piano Trio No.1 and the Tchaikovsky Variations Op.35a, then the other piano sets, chamber, orchestral and concerto works). Years from IMSLP first-publication fields; 'uncertain' where IMSLP gives only a plate year or composition year. Op.4 Symphony No.1, Op.65 Children's Suite and Op.66 four-hand pieces are not on the checklist.",
+    },
+    "gottschalk": {
+        "name": "Louis Moreau Gottschalk", "canon": "louis moreau gottschalk", "death": 1869, "birth": 1829,
+        "catalogue": "Op. (Gottschalk's opus numbers)", "rows": GOTTSCHALK,
+        "prefix": "gottschalk", "genre": "classical", "era": "Romantic (American)",
+        "scope_note": "Fully PD (died 1869): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11, piano miniatures and the Souvenir pieces first (Bamboula, La savane, Le bananier, Le mancenillier, The Banjo, The Last Hope, Souvenir de Porto Rico, Ojos criollos, Manchega, Murmures eoliens, Union, Tremolo, Pasquinade, Grande tarantelle). Not the full catalogue (111 works on IMSLP). Left out: the orchestral Symphony No.1 'A Night in the Tropics' (RO255; only reconstructed editions) and works with no confirmed first-publication year (Ossian Op.4, Colliers d'or Op.6, Berceuse Op.47, the Ballades Op.85-90). Live rows are not repeated.",
     },
     "kalinnikov": {
         "name": "Vasily Kalinnikov", "canon": "vasily kalinnikov", "death": 1901, "birth": 1866,

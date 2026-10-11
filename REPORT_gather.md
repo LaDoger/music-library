@@ -516,3 +516,31 @@
 - **Not done:** `sync_site_data.py` not run (no rows added). No push.
 - **WANTED:** `/workspace/music/library/files/imslp_incoming/lyadov/WANTED.md`: 55 in-scope rows (Op.11 and Op.40 partly live), 6 unverified rows listed. IMSLP URLs checked (HTTP 200) except Die Braut von Messina (Op.28), which has no IMSLP page.
 - **Models:** Haiku 5.5.
+
+## CP-GATHER-arensky-p2: Anton Arensky (d. 1906), second pass, 2026-10-11
+
+- **Scope:** fully PD (died 1906): no US-PD-only approval and no publication-year gate; `licence_status` would be `clean`. No change to `AGENTS.md` or `pdmx_composers_manual.json`.
+- **Checklist:** the piano sets are split one row per piece, with catalogue numbers like `Op.36 No.7`: Op.25 (4), Op.28 Essais (6), Op.36 (24), Op.41 (4), Op.42 (3), Op.52 Pres de la mer (6), Op.53 (6, new), Op.63 (12), Op.74 (12). That is 77 piano rows. Titles and keys come from the IMSLP movement lists (checked 2026-10-11). Op.52 pieces have no titles on IMSLP, so they are keyed only. Op.43 and Op.67 stay set-level. The other 17 rows are unchanged. Piece years are the set's first-publication year (Op.74: IMSLP 1906, Wikipedia 1905; Op.28: IMSLP Fritzsch 1897, Wikipedia c.1893).
+- **Not on the checklist (left out):** Op.66 Twelve Pieces (four hands, 1903), Op.65 and the other items listed in the WANTED file.
+- **Importer:** no code change. Per-piece cat numbers are unique and not in `SETS`, so the checklist title is used and each piece has its own cap. Regexes checked by hand against sample titles (for example "Op. 36 No. 7 Valse" matches Op.36 No.7, and "Op.53 Etude" matches Op.53 No.6).
+- **Imported: 0 rows.** `import_depth_us_pd.py --dry-run --composer arensky`: harvested 0 matching rows (1 unmatched: the Lullaby, already live). Candidates checked by hand in PDMX:
+  - "Otche nash" Op.40 No.3: `license_conflict` True, excluded.
+  - PDMX cc-zero opera-tagged number by Arensky, 84 s, 4 tracks, composer name mojibake ("Ð.ÐÑÐµÐ½ÑÐºÐÐ¹ (1861-1906)"). Not on the checklist and not a piano work. The importer's name rule does not match the mojibake. Left for LaDoger to decide.
+  - Four Improvisations (cc-zero anthology of Arensky, Rachmaninoff, Glazunov, Taneyev): not an Arensky work, skipped.
+  - Mutopia and OpenScore raw pools have no Arensky rows.
+- **Checks:** `licence_audit.py`: 0 violations (9514 bulk rows). `build_catalog.py --check`: pass (9787 items). `docs/catalogues/arensky.csv` regenerated. The other composers' CSVs were regenerated too; the tracked ones were restored with `git checkout`, and the untracked ones (chaminade, falla, granados, kalinnikov, lyapunov, nielsen, prokofiev, sibelius, taneyev) were rewritten by the same run and were not committed.
+- **Not run:** `sync_site_data.py` (no library rows changed).
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/arensky/WANTED.md`: 94 works (77 piano pieces + 17 others), all still wanted. One IMSLP set page per work (IMSLP has no piece-level pages); 26 URLs curl-checked (HTTP 200, following redirects).
+- **Models:** Haiku 5.5.
+
+## CP-GATHER-gottschalk: Louis Moreau Gottschalk (d. 1869), 2026-10-11
+
+- **Scope:** fully PD (died 1869), so no US-PD-only approval and no publication-year gate. Piano works first, per LaDoger priority list 2026-10-11 (brief BRIEF_current.md).
+- **Checklist:** `GOTTSCHALK` in `scripts/bulk/catalogue_data.py`, 16 works, all in scope: Bamboula Op.2, La Savane Op.3, Le bananier Op.5, Le mancenillier Op.11, The Banjo Op.15, The Last Hope Op.16, Souvenirs d'Andalousie Op.22, Souvenir de Porto Rico Op.31, Ojos criollos Op.37, Manchega Op.38, Souvenir de la Havane Op.39, Murmures eoliens Op.46, Union Op.48, Tremolo Op.58, Pasquinade Op.59, Grande tarantelle Op.67. Years from IMSLP "First Publication" fields (checked 2026-10-11) and Wikipedia; "uncertain" where IMSLP gives a question mark or only an earliest dated edition. Live works (Dying Swan, Battle Cry, Grande fantaisie, Dying Poet, Le Bananier chiptune) are not on the checklist.
+- **Left out for now:** Symphony No.1 'A Night in the Tropics' (RO255; reconstructed editions only) and works with no confirmed first-publication year (Ossian Op.4, Colliers d'or Op.6, Berceuse Op.47, Ballades Op.85-90, La gitanella Op.35, Jota aragonesa Op.14).
+- **Importer changes (`scripts/bulk/import_depth_us_pd.py`):** `gottschalk` name rule (`\bgottschalk\b`).
+- **Imported: 0 rows.** Dry run (`--composer gottschalk`): 1 matching source row, already live (Le Bananier chiptune). PDMX has 21 lines containing "gottschalk" in its file index; none adds a new checklist work.
+- **Checks:** `licence_audit.py`: 0 violations (9514 bulk rows). `build_catalog.py --check`: pass (9787 items). `docs/catalogues/gottschalk.csv` written; other composers' tracked CSVs restored with `git checkout`.
+- **Not run:** `sync_site_data.py` (no library rows changed).
+- **WANTED:** `/workspace/music/library/files/imslp_incoming/gottschalk/WANTED.md`: 16 works, all still wanted. IMSLP URLs curl-checked (16/16 HTTP 200). Years for Bamboula, Le bananier, The Last Hope, Souvenirs d'Andalousie and Grande tarantelle are uncertain.
+- **Models:** Haiku 5.5.
