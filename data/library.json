@@ -5331,7 +5331,8 @@
   "score_files": [
    "files/scores/bach_bwv529_trio_sonata5.ly",
    "files/scores/bach_bwv529_trio_sonata5.mid",
-   "files/scores/bach_bwv529_trio_sonata5_all_movements_midi.zip"
+   "files/scores/bach_bwv529_trio_sonata5_all_movements_midi.zip",
+   "files/scores/bach_bwv529_trio_sonata5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -5353,7 +5354,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv529_trio_sonata5.mid",
   "other_editions": [],
-  "search_text": "organ trio sonata no. 5 in c major johann sebastian bach bwv 529 bwv 529 bwv529 i. allegro (render_midi); largo and final allegro in the score files bach bwv529 trio sonata5 bright playful flowing classical baroque  bach, johann sebastian"
+  "search_text": "organ trio sonata no. 5 in c major johann sebastian bach bwv 529 bwv 529 bwv529 i. allegro (render_midi); largo and final allegro in the score files bach bwv529 trio sonata5 bright playful flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv533_prelude_e_minor",
@@ -10154,7 +10156,8 @@
   "score_url": "files/scores/bach_bwv847_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv847_prelude.ly",
-   "files/scores/bach_bwv847_prelude.mid"
+   "files/scores/bach_bwv847_prelude.mid",
+   "files/scores/bach_bwv847_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -10176,7 +10179,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv847_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 2 in c minor johann sebastian bach bwv 847 bwv 847 bwv847 prelude bach bwv847 prelude urgent driving dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 2 in c minor johann sebastian bach bwv 847 bwv 847 bwv847 prelude bach bwv847 prelude urgent driving dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv848_prelude",
@@ -10282,7 +10286,8 @@
   "score_url": "files/scores/bach_bwv848_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv848_fugue.ly",
-   "files/scores/bach_bwv848_fugue.mid"
+   "files/scores/bach_bwv848_fugue.mid",
+   "files/scores/bach_bwv848_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -10304,7 +10309,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv848_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 3 in c-sharp major johann sebastian bach bwv 848 bwv 848 bwv848 fugue bach bwv848 fugue bright playful clear classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 3 in c-sharp major johann sebastian bach bwv 848 bwv 848 bwv848 fugue bach bwv848 fugue bright playful clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv849_prelude",
@@ -10410,7 +10416,8 @@
   "score_url": "files/scores/bach_bwv849_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv849_fugue.ly",
-   "files/scores/bach_bwv849_fugue.mid"
+   "files/scores/bach_bwv849_fugue.mid",
+   "files/scores/bach_bwv849_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -10432,7 +10439,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv849_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 4 in c-sharp minor johann sebastian bach bwv 849 bwv 849 bwv849 fugue bach bwv849 fugue solemn dark epic classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 4 in c-sharp minor johann sebastian bach bwv 849 bwv 849 bwv849 fugue bach bwv849 fugue solemn dark epic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv850_prelude",
@@ -10731,7 +10739,8 @@
   "score_url": "files/scores/bach_bwv853_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv853_fugue.ly",
-   "files/scores/bach_bwv853_fugue.mid"
+   "files/scores/bach_bwv853_fugue.mid",
+   "files/scores/bach_bwv853_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -10753,7 +10762,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv853_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 8 in d-sharp minor johann sebastian bach bwv 853 bwv 853 bwv853 fugue bach bwv853 fugue solemn reflective dark classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 8 in d-sharp minor johann sebastian bach bwv 853 bwv 853 bwv853 fugue bach bwv853 fugue solemn reflective dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv854_prelude",
@@ -10859,7 +10869,8 @@
   "score_url": "files/scores/bach_bwv855_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv855_prelude.ly",
-   "files/scores/bach_bwv855_prelude.mid"
+   "files/scores/bach_bwv855_prelude.mid",
+   "files/scores/bach_bwv855_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -10881,7 +10892,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv855_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: prelude no. 10 in e minor johann sebastian bach bwv 855 bwv 855 bwv855 prelude bach bwv855 prelude reflective dramatic urgent classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: prelude no. 10 in e minor johann sebastian bach bwv 855 bwv 855 bwv855 prelude bach bwv855 prelude reflective dramatic urgent classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv855_fugue",
@@ -11183,7 +11195,8 @@
   "score_url": "files/scores/bach_bwv860_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv860_fugue.ly",
-   "files/scores/bach_bwv860_fugue.mid"
+   "files/scores/bach_bwv860_fugue.mid",
+   "files/scores/bach_bwv860_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -11205,7 +11218,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv860_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 15 in g major johann sebastian bach bwv 860 bwv 860 bwv860 fugue bach bwv860 fugue bright energetic confident classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 15 in g major johann sebastian bach bwv 860 bwv 860 bwv860 fugue bach bwv860 fugue bright energetic confident classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv861_prelude",
@@ -11441,7 +11455,8 @@
   "score_url": "files/scores/bach_bwv862_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv862_fugue.ly",
-   "files/scores/bach_bwv862_fugue.mid"
+   "files/scores/bach_bwv862_fugue.mid",
+   "files/scores/bach_bwv862_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "noble",
@@ -11463,7 +11478,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv862_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 17 in a-flat major johann sebastian bach bwv 862 bwv 862 bwv862 fugue bach bwv862 fugue noble calm clear classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 17 in a-flat major johann sebastian bach bwv 862 bwv 862 bwv862 fugue bach bwv862 fugue noble calm clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv865_prelude",
@@ -11569,7 +11585,8 @@
   "score_url": "files/scores/bach_bwv865_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv865_fugue.ly",
-   "files/scores/bach_bwv865_fugue.mid"
+   "files/scores/bach_bwv865_fugue.mid",
+   "files/scores/bach_bwv865_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -11591,7 +11608,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv865_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 20 in a minor johann sebastian bach bwv 865 bwv 865 bwv865 fugue bach bwv865 fugue dramatic determined epic classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 20 in a minor johann sebastian bach bwv 865 bwv 865 bwv865 fugue bach bwv865 fugue dramatic determined epic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv869_fugue",
@@ -11632,7 +11650,8 @@
   "score_url": "files/scores/bach_bwv869_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv869_fugue.mid",
-   "files/scores/bach_bwv869_fugue_lilypond.zip"
+   "files/scores/bach_bwv869_fugue_lilypond.zip",
+   "files/scores/bach_bwv869_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -11654,7 +11673,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv869_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier i: fugue no. 24 in b minor johann sebastian bach bwv 869 bwv 869 bwv869 fugue bach bwv869 fugue dark mysterious solemn classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier i: fugue no. 24 in b minor johann sebastian bach bwv 869 bwv 869 bwv869 fugue bach bwv869 fugue dark mysterious solemn classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv870_prelude",
@@ -11695,7 +11715,8 @@
   "score_url": "files/scores/bach_bwv870_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv870_prelude.ly",
-   "files/scores/bach_bwv870_prelude.mid"
+   "files/scores/bach_bwv870_prelude.mid",
+   "files/scores/bach_bwv870_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "majestic",
@@ -11717,7 +11738,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv870_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier ii: prelude no. 1 in c major johann sebastian bach bwv 870 bwv 870 bwv870 prelude bach bwv870 prelude majestic calm elegant classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier ii: prelude no. 1 in c major johann sebastian bach bwv 870 bwv 870 bwv870 prelude bach bwv870 prelude majestic calm elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv870_fugue",
@@ -11758,7 +11780,8 @@
   "score_url": "files/scores/bach_bwv870_fugue.mid",
   "score_files": [
    "files/scores/bach_bwv870_fugue.ly",
-   "files/scores/bach_bwv870_fugue.mid"
+   "files/scores/bach_bwv870_fugue.mid",
+   "files/scores/bach_bwv870_fugue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -11780,7 +11803,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv870_fugue.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier ii: fugue no. 1 in c major johann sebastian bach bwv 870 bwv 870 bwv870 fugue bach bwv870 fugue bright playful clear classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier ii: fugue no. 1 in c major johann sebastian bach bwv 870 bwv 870 bwv870 fugue bach bwv870 fugue bright playful clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv871_prelude",
@@ -11951,7 +11975,8 @@
   "score_url": "files/scores/bach_bwv875_prelude.mid",
   "score_files": [
    "files/scores/bach_bwv875_prelude.ly",
-   "files/scores/bach_bwv875_prelude.mid"
+   "files/scores/bach_bwv875_prelude.mid",
+   "files/scores/bach_bwv875_prelude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "urgent",
@@ -11973,7 +11998,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv875_prelude.mid",
   "other_editions": [],
-  "search_text": "well-tempered clavier ii: prelude no. 6 in d minor johann sebastian bach bwv 875 bwv 875 bwv875 prelude bach bwv875 prelude urgent driving dramatic classical baroque  bach, johann sebastian"
+  "search_text": "well-tempered clavier ii: prelude no. 6 in d minor johann sebastian bach bwv 875 bwv 875 bwv875 prelude bach bwv875 prelude urgent driving dramatic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv895_prelude_fugue",
@@ -148318,7 +148344,8 @@
   "preview_url": "",
   "score_url": "files/scores/mendelssohn_op19_5_inquietude.mid",
   "score_files": [
-   "files/scores/mendelssohn_op19_5_inquietude.mid"
+   "files/scores/mendelssohn_op19_5_inquietude.mid",
+   "files/scores/mendelssohn_op19_5_inquietude_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -148339,7 +148366,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mendelssohn_op19_5_inquietude.mid",
   "other_editions": [],
-  "search_text": "inquiétude felix mendelssohn op. 19 op 19 op. 19 op19 5. inquiétude mendelssohn op19 5 inquietude classical lyrical classical romantic  mendelssohn, felix"
+  "search_text": "inquiétude felix mendelssohn op. 19 op 19 op. 19 op19 5. inquiétude mendelssohn op19 5 inquietude classical lyrical classical romantic  mendelssohn, felix",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mendelssohn_op2_intermezzo_from_piano_quarte",
@@ -181193,7 +181221,8 @@
   "preview_url": "",
   "score_url": "files/scores/schubert_op98_wiegenlied.mid",
   "score_files": [
-   "files/scores/schubert_op98_wiegenlied.mid"
+   "files/scores/schubert_op98_wiegenlied.mid",
+   "files/scores/schubert_op98_wiegenlied_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -181214,7 +181243,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schubert_op98_wiegenlied.mid",
   "other_editions": [],
-  "search_text": "wiegenlied franz schubert op. 98 op 98 op. 98 op98  schubert op98 wiegenlied classical lyrical classical romantic  schubert, franz"
+  "search_text": "wiegenlied franz schubert op. 98 op 98 op. 98 op98  schubert op98 wiegenlied classical lyrical classical romantic  schubert, franz",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schubert_op120_schubert_sonata_in_a_op_120",
@@ -187099,7 +187129,8 @@
   "preview_url": "",
   "score_url": "files/scores/chopin_op10_etude_a_moll.mid",
   "score_files": [
-   "files/scores/chopin_op10_etude_a_moll.mid"
+   "files/scores/chopin_op10_etude_a_moll.mid",
+   "files/scores/chopin_op10_etude_a_moll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -187120,7 +187151,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/chopin_op10_etude_a_moll.mid",
   "other_editions": [],
-  "search_text": "etüde a-moll frédéric chopin op. 10 op 10 op. 10 op10  chopin op10 etude a moll classical lyrical classical romantic  chopin, frédéric"
+  "search_text": "etüde a-moll frédéric chopin op. 10 op 10 op. 10 op10  chopin op10 etude a moll classical lyrical classical romantic  chopin, frédéric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "chopin_op10no3_chopin_etude_op_10_no_3",
@@ -322504,7 +322536,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv515_aria.mid",
   "score_files": [
-   "files/scores/bach_bwv515_aria.mid"
+   "files/scores/bach_bwv515_aria.mid",
+   "files/scores/bach_bwv515_aria_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -322525,7 +322558,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv515_aria.mid",
   "other_editions": [],
-  "search_text": "aria johann sebastian bach bwv 515 bwv 515 bwv515  bach bwv515 aria classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "aria johann sebastian bach bwv 515 bwv 515 bwv515  bach bwv515 aria classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv525_organ_sonata_n1_in_e_flat_ma",
@@ -420804,7 +420838,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_woo55_for_the_piano.mid",
   "score_files": [
-   "files/scores/beethoven_woo55_for_the_piano.mid"
+   "files/scores/beethoven_woo55_for_the_piano.mid",
+   "files/scores/beethoven_woo55_for_the_piano_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -420824,7 +420859,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_woo55_for_the_piano.mid",
   "other_editions": [],
-  "search_text": "prelude op. woo 55 ludwig van beethoven woo 55 woo 55 woo55 for the piano beethoven woo55 for the piano intimate classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "prelude op. woo 55 ludwig van beethoven woo 55 woo 55 woo55 for the piano beethoven woo55 for the piano intimate classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_woo59_fur_elise_bagatelle_fur_klavb51",
@@ -421075,7 +421111,8 @@
   "preview_url": "",
   "score_url": "files/scores/beethoven_woo82_fur_das_pianoforte.mid",
   "score_files": [
-   "files/scores/beethoven_woo82_fur_das_pianoforte.mid"
+   "files/scores/beethoven_woo82_fur_das_pianoforte.mid",
+   "files/scores/beethoven_woo82_fur_das_pianoforte_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -421096,7 +421133,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/beethoven_woo82_fur_das_pianoforte.mid",
   "other_editions": [],
-  "search_text": "menuett op. woo 82 ludwig van beethoven woo 82 woo 82 woo82 fur das pianoforte beethoven woo82 fur das pianoforte moderate elegant classical classical / early romantic  beethoven, ludwig van"
+  "search_text": "menuett op. woo 82 ludwig van beethoven woo 82 woo 82 woo82 fur das pianoforte beethoven woo82 fur das pianoforte moderate elegant classical classical / early romantic  beethoven, ludwig van",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "beethoven_woo86_ludwig_van_beethoven_ecossai",
@@ -508379,7 +508417,8 @@
   "preview_url": "",
   "score_url": "files/scores/schumann_op48_excerpt_from_dichterliebe_op.mid",
   "score_files": [
-   "files/scores/schumann_op48_excerpt_from_dichterliebe_op.mid"
+   "files/scores/schumann_op48_excerpt_from_dichterliebe_op.mid",
+   "files/scores/schumann_op48_excerpt_from_dichterliebe_op_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -508400,7 +508439,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/schumann_op48_excerpt_from_dichterliebe_op.mid",
   "other_editions": [],
-  "search_text": "ich grolle nicht robert schumann op. 48 op 48 op. 48 op48 excerpt from dichterliebe, opus 48 schumann op48 excerpt from dichterliebe op classical lyrical classical romantic  schumann, robert"
+  "search_text": "ich grolle nicht robert schumann op. 48 op 48 op. 48 op48 excerpt from dichterliebe, opus 48 schumann op48 excerpt from dichterliebe op classical lyrical classical romantic  schumann, robert",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schumann_op48no15_fruhlingsgesang_op_48_no_15",
@@ -652892,7 +652932,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_ah_vous_dirai_je_maman_var_vb51.mid",
   "score_files": [
-   "files/scores/mozart_ah_vous_dirai_je_maman_var_vb51.mid"
+   "files/scores/mozart_ah_vous_dirai_je_maman_var_vb51.mid",
+   "files/scores/mozart_ah_vous_dirai_je_maman_var_vb51_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -652913,7 +652954,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_ah_vous_dirai_je_maman_var_vb51.mid",
   "other_editions": [],
-  "search_text": "ah vous dirai-je maman var. v wolfgang amadeus mozart    mozart ah vous dirai je maman var vb51 classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "ah vous dirai-je maman var. v wolfgang amadeus mozart    mozart ah vous dirai je maman var vb51 classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_air_de_zarastro",
