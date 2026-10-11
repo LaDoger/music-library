@@ -8344,7 +8344,8 @@
   "score_url": "files/scores/bach_bwv788_sinfonia2.mid",
   "score_files": [
    "files/scores/bach_bwv788_sinfonia2.ly",
-   "files/scores/bach_bwv788_sinfonia2.mid"
+   "files/scores/bach_bwv788_sinfonia2.mid",
+   "files/scores/bach_bwv788_sinfonia2_fromly.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -8366,7 +8367,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv788_sinfonia2.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 2 in c minor johann sebastian bach bwv 788 bwv 788 bwv788  bach bwv788 sinfonia2 reflective flowing dark classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 2 in c minor johann sebastian bach bwv 788 bwv 788 bwv788  bach bwv788 sinfonia2 reflective flowing dark classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv789_sinfonia3",
@@ -8407,7 +8409,8 @@
   "score_url": "files/scores/bach_bwv789_sinfonia3.mid",
   "score_files": [
    "files/scores/bach_bwv789_sinfonia3.ly",
-   "files/scores/bach_bwv789_sinfonia3.mid"
+   "files/scores/bach_bwv789_sinfonia3.mid",
+   "files/scores/bach_bwv789_sinfonia3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -8429,7 +8432,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv789_sinfonia3.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 3 in d major johann sebastian bach bwv 789 bwv 789 bwv789  bach bwv789 sinfonia3 bright confident flowing classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 3 in d major johann sebastian bach bwv 789 bwv 789 bwv789  bach bwv789 sinfonia3 bright confident flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv790_sinfonia4",
@@ -8471,7 +8475,7 @@
   "score_files": [
    "files/scores/bach_bwv790_sinfonia4.ly",
    "files/scores/bach_bwv790_sinfonia4.mid",
-   "files/scores/bach_bwv790_sinfonia4_reconstructed.mxl"
+   "files/scores/bach_bwv790_sinfonia4_fromly.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -8494,7 +8498,7 @@
   "midi_play_url": "files/scores/bach_bwv790_sinfonia4.mid",
   "other_editions": [],
   "search_text": "three-part sinfonia no. 4 in d minor johann sebastian bach bwv 790 bwv 790 bwv790  bach bwv790 sinfonia4 solemn dark reflective classical baroque  bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv791_sinfonia5",
@@ -8536,7 +8540,7 @@
   "score_files": [
    "files/scores/bach_bwv791_sinfonia5.ly",
    "files/scores/bach_bwv791_sinfonia5.mid",
-   "files/scores/bach_bwv791_sinfonia5_reconstructed.mxl"
+   "files/scores/bach_bwv791_sinfonia5_fromly.mxl"
   ],
   "mood_tags_list": [
    "tender",
@@ -8559,7 +8563,7 @@
   "midi_play_url": "files/scores/bach_bwv791_sinfonia5.mid",
   "other_editions": [],
   "search_text": "three-part sinfonia no. 5 in e-flat major johann sebastian bach bwv 791 bwv 791 bwv791  bach bwv791 sinfonia5 tender elegant calm classical baroque  bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv792_sinfonia6",
@@ -8665,7 +8669,8 @@
   "score_url": "files/scores/bach_bwv793_sinfonia7.mid",
   "score_files": [
    "files/scores/bach_bwv793_sinfonia7.ly",
-   "files/scores/bach_bwv793_sinfonia7.mid"
+   "files/scores/bach_bwv793_sinfonia7.mid",
+   "files/scores/bach_bwv793_sinfonia7_fromly.mxl"
   ],
   "mood_tags_list": [
    "reflective",
@@ -8687,7 +8692,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv793_sinfonia7.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 7 in e minor johann sebastian bach bwv 793 bwv 793 bwv793  bach bwv793 sinfonia7 reflective solemn dark classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 7 in e minor johann sebastian bach bwv 793 bwv 793 bwv793  bach bwv793 sinfonia7 reflective solemn dark classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv794_sinfonia8",
@@ -8793,7 +8799,8 @@
   "score_url": "files/scores/bach_bwv795_sinfonia9.mid",
   "score_files": [
    "files/scores/bach_bwv795_sinfonia9.ly",
-   "files/scores/bach_bwv795_sinfonia9.mid"
+   "files/scores/bach_bwv795_sinfonia9.mid",
+   "files/scores/bach_bwv795_sinfonia9_fromly.mxl"
   ],
   "mood_tags_list": [
    "dark",
@@ -8815,7 +8822,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv795_sinfonia9.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 9 in f minor johann sebastian bach bwv 795 bwv 795 bwv795  bach bwv795 sinfonia9 dark solemn intense classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 9 in f minor johann sebastian bach bwv 795 bwv 795 bwv795  bach bwv795 sinfonia9 dark solemn intense classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv796_sinfonia10",
@@ -8856,7 +8864,8 @@
   "score_url": "files/scores/bach_bwv796_sinfonia10.mid",
   "score_files": [
    "files/scores/bach_bwv796_sinfonia10.ly",
-   "files/scores/bach_bwv796_sinfonia10.mid"
+   "files/scores/bach_bwv796_sinfonia10.mid",
+   "files/scores/bach_bwv796_sinfonia10_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -8878,7 +8887,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv796_sinfonia10.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 10 in g major johann sebastian bach bwv 796 bwv 796 bwv796  bach bwv796 sinfonia10 bright confident energetic classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 10 in g major johann sebastian bach bwv 796 bwv 796 bwv796  bach bwv796 sinfonia10 bright confident energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv797_sinfonia11",
@@ -8984,7 +8994,8 @@
   "score_url": "files/scores/bach_bwv798_sinfonia12.mid",
   "score_files": [
    "files/scores/bach_bwv798_sinfonia12.ly",
-   "files/scores/bach_bwv798_sinfonia12.mid"
+   "files/scores/bach_bwv798_sinfonia12.mid",
+   "files/scores/bach_bwv798_sinfonia12_fromly.mxl"
   ],
   "mood_tags_list": [
    "bright",
@@ -9006,7 +9017,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv798_sinfonia12.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 12 in a major johann sebastian bach bwv 798 bwv 798 bwv798  bach bwv798 sinfonia12 bright flowing confident classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 12 in a major johann sebastian bach bwv 798 bwv 798 bwv798  bach bwv798 sinfonia12 bright flowing confident classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv799_sinfonia13",
@@ -9047,7 +9059,8 @@
   "score_url": "files/scores/bach_bwv799_sinfonia13.mid",
   "score_files": [
    "files/scores/bach_bwv799_sinfonia13.ly",
-   "files/scores/bach_bwv799_sinfonia13.mid"
+   "files/scores/bach_bwv799_sinfonia13.mid",
+   "files/scores/bach_bwv799_sinfonia13_fromly.mxl"
   ],
   "mood_tags_list": [
    "mysterious",
@@ -9069,7 +9082,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv799_sinfonia13.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 13 in a minor johann sebastian bach bwv 799 bwv 799 bwv799  bach bwv799 sinfonia13 mysterious flowing reflective classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 13 in a minor johann sebastian bach bwv 799 bwv 799 bwv799  bach bwv799 sinfonia13 mysterious flowing reflective classical baroque  bach, johann sebastian",
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv800_sinfonia14",
@@ -9111,7 +9125,7 @@
   "score_files": [
    "files/scores/bach_bwv800_sinfonia14.ly",
    "files/scores/bach_bwv800_sinfonia14.mid",
-   "files/scores/bach_bwv800_sinfonia14_reconstructed.mxl"
+   "files/scores/bach_bwv800_sinfonia14_fromly.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -9134,7 +9148,7 @@
   "midi_play_url": "files/scores/bach_bwv800_sinfonia14.mid",
   "other_editions": [],
   "search_text": "three-part sinfonia no. 14 in b-flat major johann sebastian bach bwv 800 bwv 800 bwv800  bach bwv800 sinfonia14 elegant calm clear classical baroque  bach, johann sebastian",
-  "score_method": "Reconstructed from MIDI"
+  "score_method": "Converted from LilyPond source"
  },
  {
   "id": "bach_bwv801_sinfonia15",
@@ -9175,7 +9189,8 @@
   "score_url": "files/scores/bach_bwv801_sinfonia15.mid",
   "score_files": [
    "files/scores/bach_bwv801_sinfonia15.ly",
-   "files/scores/bach_bwv801_sinfonia15.mid"
+   "files/scores/bach_bwv801_sinfonia15.mid",
+   "files/scores/bach_bwv801_sinfonia15_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -9197,7 +9212,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv801_sinfonia15.mid",
   "other_editions": [],
-  "search_text": "three-part sinfonia no. 15 in b minor johann sebastian bach bwv 801 bwv 801 bwv801  bach bwv801 sinfonia15 driving urgent dark classical baroque  bach, johann sebastian"
+  "search_text": "three-part sinfonia no. 15 in b minor johann sebastian bach bwv 801 bwv 801 bwv801  bach bwv801 sinfonia15 driving urgent dark classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv803_duetto2",
@@ -9557,7 +9573,8 @@
   "score_url": "files/scores/bach_bwv807_bourree1.mid",
   "score_files": [
    "files/scores/bach_bwv807_bourree1.ly",
-   "files/scores/bach_bwv807_bourree1.mid"
+   "files/scores/bach_bwv807_bourree1.mid",
+   "files/scores/bach_bwv807_bourree1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -9579,7 +9596,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv807_bourree1.mid",
   "other_editions": [],
-  "search_text": "english suite no. 2 in a minor: bourrée i johann sebastian bach bwv 807 bwv 807 bwv807 bourrée i bach bwv807 bourree1 driving dance determined classical baroque  bach, johann sebastian"
+  "search_text": "english suite no. 2 in a minor: bourrée i johann sebastian bach bwv 807 bwv 807 bwv807 bourrée i bach bwv807 bourree1 driving dance determined classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv807_bourree2",
@@ -9685,7 +9703,8 @@
   "score_url": "files/scores/bach_bwv807_gigue.mid",
   "score_files": [
    "files/scores/bach_bwv807_gigue.ly",
-   "files/scores/bach_bwv807_gigue.mid"
+   "files/scores/bach_bwv807_gigue.mid",
+   "files/scores/bach_bwv807_gigue_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "driving",
@@ -9707,7 +9726,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv807_gigue.mid",
   "other_editions": [],
-  "search_text": "english suite no. 2 in a minor: gigue johann sebastian bach bwv 807 bwv 807 bwv807 gigue bach bwv807 gigue driving urgent energetic classical baroque  bach, johann sebastian"
+  "search_text": "english suite no. 2 in a minor: gigue johann sebastian bach bwv 807 bwv 807 bwv807 gigue bach bwv807 gigue driving urgent energetic classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv816_french_suite5",
@@ -9813,7 +9833,8 @@
   "score_files": [
    "files/scores/bach_bwv825_partita1.mid",
    "files/scores/bach_bwv825_partita1_all_movements_midi.zip",
-   "files/scores/bach_bwv825_partita1_lilypond.zip"
+   "files/scores/bach_bwv825_partita1_lilypond.zip",
+   "files/scores/bach_bwv825_partita1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -9835,7 +9856,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv825_partita1.mid",
   "other_editions": [],
-  "search_text": "keyboard partita no. 1 in b-flat major johann sebastian bach bwv 825 bwv 825 bwv825 praeludium (render_midi); all movements in the score files bach bwv825 partita1 elegant calm flowing classical baroque  bach, johann sebastian"
+  "search_text": "keyboard partita no. 1 in b-flat major johann sebastian bach bwv 825 bwv 825 bwv825 praeludium (render_midi); all movements in the score files bach bwv825 partita1 elegant calm flowing classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv826_partita2_sinfonia",
@@ -9940,7 +9962,8 @@
   "score_files": [
    "files/scores/bach_bwv827_partita3.mid",
    "files/scores/bach_bwv827_partita3_all_movements_midi.zip",
-   "files/scores/bach_bwv827_partita3_lilypond.zip"
+   "files/scores/bach_bwv827_partita3_lilypond.zip",
+   "files/scores/bach_bwv827_partita3_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "flowing",
@@ -9962,7 +9985,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv827_partita3.mid",
   "other_editions": [],
-  "search_text": "keyboard partita no. 3 in a minor johann sebastian bach bwv 827 bwv 827 bwv827 fantasia (render_midi); all movements in the score files bach bwv827 partita3 flowing reflective clear classical baroque  bach, johann sebastian"
+  "search_text": "keyboard partita no. 3 in a minor johann sebastian bach bwv 827 bwv 827 bwv827 fantasia (render_midi); all movements in the score files bach bwv827 partita3 flowing reflective clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv829_partita5",
@@ -13431,7 +13455,8 @@
   "score_files": [
    "files/scores/bach_bwv1013_flute_partita.ly",
    "files/scores/bach_bwv1013_flute_partita.mid",
-   "files/scores/bach_bwv1013_flute_partita_all_movements_midi.zip"
+   "files/scores/bach_bwv1013_flute_partita_all_movements_midi.zip",
+   "files/scores/bach_bwv1013_flute_partita_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "flowing",
@@ -13453,7 +13478,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1013_flute_partita.mid",
   "other_editions": [],
-  "search_text": "partita in a minor for solo flute johann sebastian bach bwv 1013 bwv 1013 bwv1013 allemande (render_midi); corrente, sarabande, bourrée angloise in the score files bach bwv1013 flute partita flowing reflective elegant classical baroque  bach, johann sebastian"
+  "search_text": "partita in a minor for solo flute johann sebastian bach bwv 1013 bwv 1013 bwv1013 allemande (render_midi); corrente, sarabande, bourrée angloise in the score files bach bwv1013 flute partita flowing reflective elegant classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1017_siciliano",
@@ -15576,7 +15602,8 @@
   "score_files": [
    "files/scores/bach_bwv1080_contrapunctus12.mid",
    "files/scores/bach_bwv1080_contrapunctus12_inversus.mid",
-   "files/scores/bach_bwv1080_contrapunctus12_lilypond.zip"
+   "files/scores/bach_bwv1080_contrapunctus12_lilypond.zip",
+   "files/scores/bach_bwv1080_contrapunctus12_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "solemn",
@@ -15598,7 +15625,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv1080_contrapunctus12.mid",
   "other_editions": [],
-  "search_text": "the art of fugue: contrapunctus 12 (a 4, mirror fugue) johann sebastian bach bwv 1080 bwv 1080 bwv1080 contrapunctus 12 (rectus; inversus also included) bach bwv1080 contrapunctus12 solemn mysterious clear classical baroque  bach, johann sebastian"
+  "search_text": "the art of fugue: contrapunctus 12 (a 4, mirror fugue) johann sebastian bach bwv 1080 bwv 1080 bwv1080 contrapunctus 12 (rectus; inversus also included) bach bwv1080 contrapunctus12 solemn mysterious clear classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv1080_contrapunctus13",
@@ -327897,7 +327925,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv846_das_wohltemperierte_clavier.mid",
   "score_files": [
-   "files/scores/bach_bwv846_das_wohltemperierte_clavier.mid"
+   "files/scores/bach_bwv846_das_wohltemperierte_clavier.mid",
+   "files/scores/bach_bwv846_das_wohltemperierte_clavier_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -327918,7 +327947,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv846_das_wohltemperierte_clavier.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga i johann sebastian bach bwv 846 bwv 846 bwv846  bach bwv846 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga i johann sebastian bach bwv 846 bwv 846 bwv846  bach bwv846 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv846a_johann_sebastian_bach_prelud",
@@ -328448,7 +328478,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv851_das_wohltemperierte_clavier.mid",
   "score_files": [
-   "files/scores/bach_bwv851_das_wohltemperierte_clavier.mid"
+   "files/scores/bach_bwv851_das_wohltemperierte_clavier.mid",
+   "files/scores/bach_bwv851_das_wohltemperierte_clavier_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -328469,7 +328500,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv851_das_wohltemperierte_clavier.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga vi johann sebastian bach bwv 851 bwv 851 bwv851  bach bwv851 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga vi johann sebastian bach bwv 851 bwv 851 bwv851  bach bwv851 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv853_a_3_voci",
@@ -328720,7 +328752,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv855_a_2_voci.mid",
   "score_files": [
-   "files/scores/bach_bwv855_a_2_voci.mid"
+   "files/scores/bach_bwv855_a_2_voci.mid",
+   "files/scores/bach_bwv855_a_2_voci_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -328741,7 +328774,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv855_a_2_voci.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga x johann sebastian bach bwv 855 bwv 855 bwv855 a 2 voci bach bwv855 a 2 voci classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga x johann sebastian bach bwv 855 bwv 855 bwv855 a 2 voci bach bwv855 a 2 voci classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv856_das_wohltemperierte_clavier",
@@ -328786,7 +328820,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv856_das_wohltemperierte_clavier.mid",
   "score_files": [
-   "files/scores/bach_bwv856_das_wohltemperierte_clavier.mid"
+   "files/scores/bach_bwv856_das_wohltemperierte_clavier.mid",
+   "files/scores/bach_bwv856_das_wohltemperierte_clavier_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -328807,7 +328842,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv856_das_wohltemperierte_clavier.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga xi johann sebastian bach bwv 856 bwv 856 bwv856  bach bwv856 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga xi johann sebastian bach bwv 856 bwv 856 bwv856  bach bwv856 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv857_bwv_857_the_well_tempered_cl",
@@ -329116,7 +329152,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv861_das_wohltemperierte_clavier.mid",
   "score_files": [
-   "files/scores/bach_bwv861_das_wohltemperierte_clavier.mid"
+   "files/scores/bach_bwv861_das_wohltemperierte_clavier.mid",
+   "files/scores/bach_bwv861_das_wohltemperierte_clavier_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -329137,7 +329174,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv861_das_wohltemperierte_clavier.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga xvi johann sebastian bach bwv 861 bwv 861 bwv861  bach bwv861 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga xvi johann sebastian bach bwv 861 bwv 861 bwv861  bach bwv861 das wohltemperierte clavier classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv862_bwv_862_the_well_tempered_clb51",
@@ -329247,7 +329285,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv862_bwv_862.mid",
   "score_files": [
-   "files/scores/bach_bwv862_bwv_862.mid"
+   "files/scores/bach_bwv862_bwv_862.mid",
+   "files/scores/bach_bwv862_bwv_862_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -329268,7 +329307,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv862_bwv_862.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier i, fuga xvii johann sebastian bach bwv 862 bwv 862 bwv862 bwv 862 bach bwv862 bwv 862 classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier i, fuga xvii johann sebastian bach bwv 862 bwv 862 bwv862 bwv 862 bach bwv862 bwv 862 classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv864_bwv_864_the_well_tempered_cl",
@@ -329510,7 +329550,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv870_a_3_voci.mid",
   "score_files": [
-   "files/scores/bach_bwv870_a_3_voci.mid"
+   "files/scores/bach_bwv870_a_3_voci.mid",
+   "files/scores/bach_bwv870_a_3_voci_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -329531,7 +329572,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv870_a_3_voci.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier ii, fuga i johann sebastian bach bwv 870 bwv 870 bwv870 a 3 voci bach bwv870 a 3 voci classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier ii, fuga i johann sebastian bach bwv 870 bwv 870 bwv870 a 3 voci bach bwv870 a 3 voci classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv871_a_4_voci",
@@ -329576,7 +329618,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv871_a_4_voci.mid",
   "score_files": [
-   "files/scores/bach_bwv871_a_4_voci.mid"
+   "files/scores/bach_bwv871_a_4_voci.mid",
+   "files/scores/bach_bwv871_a_4_voci_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -329597,7 +329640,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv871_a_4_voci.mid",
   "other_editions": [],
-  "search_text": "das wohltemperierte clavier ii, fuga ii johann sebastian bach bwv 871 bwv 871 bwv871 a 4 voci bach bwv871 a 4 voci classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "das wohltemperierte clavier ii, fuga ii johann sebastian bach bwv 871 bwv 871 bwv871 a 4 voci bach bwv871 a 4 voci classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv871_fuge_c_moll_bwv_871_subject",
@@ -331013,7 +331057,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv928_praeludium_10.mid",
   "score_files": [
-   "files/scores/bach_bwv928_praeludium_10.mid"
+   "files/scores/bach_bwv928_praeludium_10.mid",
+   "files/scores/bach_bwv928_praeludium_10_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -331033,7 +331078,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv928_praeludium_10.mid",
   "other_editions": [],
-  "search_text": "praeludium 10 johann sebastian bach bwv 928 bwv 928 bwv928 praeludium 10 bach bwv928 praeludium 10 intimate classical baroque  bach, johann sebastian"
+  "search_text": "praeludium 10 johann sebastian bach bwv 928 bwv 928 bwv928 praeludium 10 bach bwv928 praeludium 10 intimate classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv930_johann_sebastian_bach_praeam",
@@ -332070,7 +332116,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv952_fugue_in_c_major.mid",
   "score_files": [
-   "files/scores/bach_bwv952_fugue_in_c_major.mid"
+   "files/scores/bach_bwv952_fugue_in_c_major.mid",
+   "files/scores/bach_bwv952_fugue_in_c_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "contrapuntal"
@@ -332090,7 +332137,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv952_fugue_in_c_major.mid",
   "other_editions": [],
-  "search_text": "fugue in c major johann sebastian bach bwv 952 bwv 952 bwv952 fugue in c major bach bwv952 fugue in c major contrapuntal classical baroque  bach, johann sebastian"
+  "search_text": "fugue in c major johann sebastian bach bwv 952 bwv 952 bwv952 fugue in c major bach bwv952 fugue in c major contrapuntal classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv961_fughetta_in_c_minor_bwv_961",
