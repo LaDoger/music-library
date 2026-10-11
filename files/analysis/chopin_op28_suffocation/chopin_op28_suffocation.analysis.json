@@ -1,0 +1,2720 @@
+{
+  "meta": {
+    "id": "chopin_op28_suffocation",
+    "parent_item_id": "chopin_op28_suffocation",
+    "title": "Prelude: Op. 28, No. 4 ('Suffocation')",
+    "composer": "Frédéric Chopin",
+    "source_file": "files/scores/chopin_op28_suffocation.mid",
+    "quarter_range": [
+      0,
+      101.0
+    ],
+    "bar_quarters": 4.0,
+    "pickup_quarters": 1.0,
+    "time_signature": "2/2",
+    "key": "e",
+    "tempo": 56.0,
+    "midi_play_url": "files/scores/chopin_op28_suffocation.mid",
+    "source_licence": "PD",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=468",
+    "quantisation_divisors": [
+      4,
+      8,
+      3
+    ],
+    "notation_notes": "Mutopia MIDI (PD edition, piece 468): one-quarter pickup at quarter 0, bar 1 at quarter 1, 25 bars of 2/2 (4 quarters each) to quarter 101. No repeats. MIDI tempo 56 per quarter throughout. Pickup sounds B3 (dotted eighth) then B4 (sixteenth); printed editions show a B4 upbeat, so the B3 may be a source octave error. Bars 12 and 18 contain RH eighth-note triplets. Bar 23 has two quarters of sound then silence (the printed fermata rest). A# / D# are spelled Bb / Eb in the MIDI-derived score. The LH repeated chords and the final three chords are merged in places by the MIDI; the final bar is a single whole-bar chord. MIDI-derived score, not an Urtext.",
+    "suggested_arrangement_tempo": 56,
+    "sustain_events": [
+      {
+        "quarter": 1.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 4.0,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 5.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 6.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 7.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 8.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 9.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 10.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 13.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 14.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 17.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 18.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 21.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 22.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 23.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 24.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 25.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 28.0,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 29.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 30.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 39.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 40.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 41.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 42.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 43.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 44.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 49.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 52.0,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 53.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 54.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 55.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 56.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 59.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 60.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 65.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 66.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 70.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 70.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 73.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 74.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 77.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 78.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 79.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 80.5,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 81.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 84.0,
+        "channel": 1,
+        "value": 0
+      },
+      {
+        "quarter": 87.0,
+        "channel": 1,
+        "value": 127
+      },
+      {
+        "quarter": 88.5,
+        "channel": 1,
+        "value": 0
+      }
+    ]
+  },
+  "draft": false,
+  "reviewed_by": "claude-opus-5-5 (MusicBot) 2026-10-11",
+  "summary": "E minor throughout, in two parallel halves (1–12, 13–25). Over a static B–C sigh in the melody, the LH repeated chords slide down one semitone at a time through dominant, half-diminished and diminished sevenths, reaching iv (A minor) by bar 9 and ending the first half on V7 (bar 12). The second half repeats the opening with a faster slide, breaks into the only climax (C6 over B7♭9, bar 17), dodges the cadence with V7 → VI (bars 20–21), and closes with an augmented sixth (bar 23) and V → i (bars 24–25). There are no real modulations; A minor is only tonicized.",
+  "sections": [
+    {
+      "name": "Upbeat",
+      "start_bar": 0,
+      "end_bar": 0,
+      "mood": [
+        "hushed"
+      ],
+      "description": "Lone B upbeat."
+    },
+    {
+      "name": "A (first half)",
+      "start_bar": 1,
+      "end_bar": 12,
+      "mood": [
+        "desolate",
+        "numb",
+        "sighing"
+      ],
+      "description": "Melody holds B–C for four bars, then A–B, while the LH descends chromatically from i6 to iv6 (bar 9). Bars 9–12: the melody starts moving; B7 ↔ iv6 alternation; HC on V7 in bar 12."
+    },
+    {
+      "name": "A′ (second half)",
+      "start_bar": 13,
+      "end_bar": 16,
+      "mood": [
+        "desolate",
+        "restless"
+      ],
+      "description": "Restatement of bar 1 with a compressed chromatic slide (bars 14–15), then the melody breaks upward in bar 16."
+    },
+    {
+      "name": "Climax and collapse",
+      "start_bar": 17,
+      "end_bar": 20,
+      "mood": [
+        "anguished",
+        "exhausted"
+      ],
+      "description": "C6 over B7(b9) in bar 17, falling back at once; suspended dominants (bars 18–20) end on B7."
+    },
+    {
+      "name": "Coda",
+      "start_bar": 21,
+      "end_bar": 25,
+      "mood": [
+        "resigned",
+        "grave",
+        "still"
+      ],
+      "description": "Deceptive V7 → VI (bar 21), cadential 6/4 (bar 22), augmented sixth then silence (bar 23), V with 4–3 (bar 24), tonic close (bar 25)."
+    }
+  ],
+  "tricks": [
+    "Bars 1–8: the melody barely moves (B–C, then A–B); all the motion is in the LH chords, where one voice at a time slips down a semitone.",
+    "Bars 2–8: the chromatic slide passes through V43, a French-sixth-sounding B7♭5, iiø7 and viio7 colours before landing on iv6 at bar 9.",
+    "Bar 12: the LH drops out and the RH alone spells V7, ending the first half on the dominant.",
+    "Bar 17: the only climax, C6 over B7♭9 with an octave B bass, gone within a bar.",
+    "Bars 20–21: V7 → VI deceptive resolution delays the ending.",
+    "Bar 23: augmented sixth with A# in the bass, followed by silence, before V (with 4–3) → i."
+  ],
+  "loop_candidates": [
+    {
+      "start_bar": 1,
+      "end_bar": 8,
+      "why": "Static B–C / A–B melody over a slowly descending chord bed; bar 8 G#o7 moves to A minor, so the seam back to bar 1 Em/G is audible.",
+      "quarter_range": [
+        1,
+        33
+      ],
+      "requires_audition": true
+    },
+    {
+      "start_bar": 1,
+      "end_bar": 4,
+      "why": "i6 → V43 → chromatic → E7 four-bar cell with a constant melody note; loops on a single held B.",
+      "quarter_range": [
+        1,
+        17
+      ],
+      "requires_audition": true
+    }
+  ],
+  "hook_candidates": [
+    {
+      "start_bar": 0,
+      "end_bar": 4,
+      "why": "B upbeat, held B with C neighbour, LH chords sliding down: the recognisable opening.",
+      "quarter_range": [
+        0,
+        17
+      ]
+    },
+    {
+      "start_bar": 16,
+      "end_bar": 17,
+      "why": "Melody leaps to A5 and peaks on C6 over B7♭9.",
+      "quarter_range": [
+        61,
+        69
+      ]
+    },
+    {
+      "start_bar": 20,
+      "end_bar": 25,
+      "why": "Deceptive cadence, augmented sixth, silence and the final cadence.",
+      "quarter_range": [
+        77,
+        101
+      ]
+    }
+  ],
+  "kpop_uses": [
+    {
+      "where": "verse",
+      "why": "Bars 1–8 as a sparse piano bed; the near-static melody leaves room for a vocal line, and the LH chord slide gives slow harmonic motion."
+    },
+    {
+      "where": "bridge",
+      "why": "Bars 16–17: the sudden upward break to C6 suits a short emotional peak before a drop-out."
+    },
+    {
+      "where": "pre-chorus",
+      "why": "Bars 9–12: moving melody over B7 ↔ iv6, ending on V7 to set up a chorus in E minor."
+    },
+    {
+      "where": "chorus",
+      "why": "Bars 20–25 as an outro: deceptive V7 → VI, a silent beat, then V → i. Slow (quarter = 56); no key change exists in the source."
+    }
+  ],
+  "review_flags": [
+    {
+      "bar": 0,
+      "reason": "Draft had no pickup, so all its bars were one quarter early and it showed 26 bars; corrected to a 1-quarter pickup + 25 bars (quarter range 0–101)."
+    },
+    {
+      "bar": 0,
+      "reason": "Pickup B3 dotted-eighth + B4 sixteenth in the MIDI; editions print a B4 upbeat. Not corrected (MIDI kept as source)."
+    },
+    {
+      "bar": 1,
+      "reason": "Draft key changes e → a (bar 1), a → E (bar 9), E → e (bar 17) removed: no cadence confirms either key. A minor is tonicized in bars 3–9; the piece stays in E minor."
+    },
+    {
+      "bar": 3,
+      "reason": "Many LH sonorities in bars 2–8 and 14–16 are voice-leading products of the chromatic descent; the seventh-chord labels describe the sound, and the Roman numerals are approximate."
+    },
+    {
+      "bar": 3,
+      "reason": "Beat 4 G#o7/F fails the check: B4 stops at beat 4 and the melody C5 is the recurring upper neighbour, so B is absent for one quarter (F–G#–D–C). Kept as G#o7; not relabelled Dø7."
+    },
+    {
+      "bar": 16,
+      "reason": "Beat 3 left as ?: C#–E–Bb with A5 in the melody and no G; incomplete A7(b9)/C# or C#o7 with an appoggiatura."
+    },
+    {
+      "bar": 17,
+      "reason": "Beat 3 (D#/F#/G/B for one eighth) is treated as the B7 resolving late; Em/G is labelled from beat 3.5."
+    },
+    {
+      "bar": 18,
+      "reason": "Bsus4 in bars 18–20 has no D# until bar 20 beat 3; it could also be read as an Em/B 6/4 without G."
+    },
+    {
+      "bar": 21,
+      "reason": "C7 on beat 3 has Bb moving down to A, so it is read as a chromatic VI7, not an augmented sixth; only bar 23 is labelled Ger+6."
+    },
+    {
+      "bar": 21,
+      "reason": "Beat 1 C fails on coverage (66.7%): the MIDI pedal goes down on the same tick (q 81) as the bar-20 B7 chord releases, so the verifier holds B, D# and A into bar 21. The attacks are C3–G3–E4 only; C is kept."
+    },
+    {
+      "bar": 22,
+      "reason": "Beat 1 B–E–A is read as Esus4/B (cadential 6/4 with suspended A), not B7sus4: no F# sounds."
+    },
+    {
+      "bar": 22,
+      "reason": "G# on beat 2 is read as a passing major-mode colour in the A–G#–G inner line, not a real E-major arrival."
+    },
+    {
+      "bar": 25,
+      "reason": "Printed editions have three separate final chords; the MIDI sounds one whole-bar chord. Dynamics (smorzando / pp) are not inferred."
+    }
+  ],
+  "schema_version": 1,
+  "bars": [
+    {
+      "bar": 0,
+      "start_quarter": 0,
+      "duration_quarters": 1.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "?",
+          "rn": "?",
+          "function": "melodic upbeat",
+          "reason": "Lone B3 then B4; no harmony sounds."
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "start",
+          "text": "start: a lone B upbeat over silence; the long sigh begins"
+        }
+      ]
+    },
+    {
+      "bar": 1,
+      "start_quarter": 1,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em/G",
+          "rn": "i6",
+          "function": "tonic, first inversion"
+        }
+      ],
+      "events": [
+        {
+          "type": "hook",
+          "technique": "melodic_cell",
+          "text": "B4 held, then C5 neighbour on beat 4: the two-note sigh that runs through bars 1–8"
+        },
+        {
+          "type": "bass_line",
+          "technique": "chromatic",
+          "text": "Repeated-chord LH starts a slow chromatic descent: bass G3 (b1) → F#3 (b2) → F3 (b3) → E3 (b4) → Eb3 (b6) → D3 (b7)"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "close_spacing",
+          "text": "LH eighth-note chords in close position; one voice slips by a semitone at a time"
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "start_quarter": 5,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4/F#",
+          "rn": "V43sus4",
+          "function": "dominant with E suspended"
+        },
+        {
+          "beat": 3,
+          "symbol": "B7/F#",
+          "rn": "V43",
+          "function": "dominant seventh"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "Inner E4 (held from bar 1) resolves to D#4",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 3,
+      "start_quarter": 9,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7b5/F",
+          "rn": "V43(b5)",
+          "function": "chromatic passing sonority (French-sixth sound; Fr+6 of A minor)"
+        },
+        {
+          "beat": 3,
+          "symbol": "Bm7b5/F",
+          "rn": "iiø7/iv",
+          "function": "passing; A minor colour"
+        },
+        {
+          "beat": 4,
+          "symbol": "G#o7/F",
+          "rn": "viio7/iv",
+          "function": "leading-tone seventh of A minor"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "aug6_french",
+          "text": "F–A–B–D# under B4: French-sixth sound created by the chromatic LH descent, not a functional aug6 in E minor"
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "start_quarter": 13,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "E7",
+          "rn": "V7/iv",
+          "function": "applied dominant of A minor"
+        },
+        {
+          "beat": 3,
+          "symbol": "Em7",
+          "rn": "i7",
+          "function": "tonic seventh"
+        },
+        {
+          "beat": 4,
+          "symbol": "C#o7/E",
+          "rn": "viio7/V (A#=Bb)",
+          "function": "common-tone diminished; melody Bb4 = A#"
+        }
+      ],
+      "events": [
+        {
+          "type": "rhythm_phrase",
+          "technique": "phrase_length",
+          "text": "Melody stays on B for four bars; the first change of note (Bb4 → A4) comes only at bar 4–5",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "bar": 5,
+      "start_quarter": 17,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am7/E",
+          "rn": "iv43",
+          "function": "subdominant seventh"
+        },
+        {
+          "beat": 3,
+          "symbol": "F#ø7/E",
+          "rn": "iiø42",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the melody sinks a step to A while the harmony keeps sliding down"
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "start_quarter": 21,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "F#ø7/E",
+          "rn": "iiø42",
+          "function": "predominant"
+        },
+        {
+          "beat": 3,
+          "symbol": "D#o7",
+          "rn": "viio7",
+          "function": "leading-tone seventh"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 7,
+      "start_quarter": 25,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "D7",
+          "rn": "V7/III",
+          "function": "applied dominant of G; not resolved"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "delayed_resolution",
+          "text": "D7 (V7 of G major) slides to Dm7 instead of resolving"
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "start_quarter": 29,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Dm7",
+          "rn": "iv7/iv",
+          "function": "chromatic passing"
+        },
+        {
+          "beat": 3,
+          "symbol": "G#o7/D",
+          "rn": "viio7/iv",
+          "function": "leading-tone seventh of A minor"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 9,
+      "start_quarter": 33,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am/C",
+          "rn": "iv6",
+          "function": "subdominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_7_6",
+          "text": "LH B3 over C3 (a 7th) falls to A3 on beat 2"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "thickening",
+          "text": "Melody turns from held notes to a moving eighth-note line (A–B–D–C–E–A)",
+          "beat": 2
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the frozen melody starts moving for the first time"
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "start_quarter": 37,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4",
+          "rn": "V7sus4",
+          "function": "dominant with E suspended"
+        },
+        {
+          "beat": 2,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant seventh"
+        },
+        {
+          "beat": 3,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        },
+        {
+          "beat": 4,
+          "symbol": "Am/C",
+          "rn": "iv6",
+          "function": "subdominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "LH E3 resolves to D#3",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "start_quarter": 41,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant seventh"
+        },
+        {
+          "beat": 3,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        },
+        {
+          "beat": 4,
+          "symbol": "Am/C",
+          "rn": "iv6",
+          "function": "subdominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bars 10–11 repeat the F#4 held note and B7 → iv6 alternation"
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "start_quarter": 45,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant; arpeggiated by the RH alone after beat 1"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "LH drops out after beat 1; the RH alone outlines B7 with C and G neighbours"
+        },
+        {
+          "type": "cadence",
+          "technique": "HC",
+          "text": "First half ends on V7 (bars 1–12)"
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "elision",
+          "text": "The triplet D5–C5–B4 on beat 4 is the upbeat into the return at bar 13",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "bar": 13,
+      "start_quarter": 49,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em/G",
+          "rn": "i6",
+          "function": "tonic, first inversion"
+        }
+      ],
+      "events": [
+        {
+          "type": "form",
+          "technique": "theme_1",
+          "text": "Bar 13 restates bar 1 (melody and LH)"
+        },
+        {
+          "type": "story",
+          "technique": "continuation",
+          "text": "continuation: the opening sigh returns, but its chromatic slide moves faster"
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "start_quarter": 53,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7sus4/F#",
+          "rn": "V43sus4",
+          "function": "dominant with E suspended"
+        },
+        {
+          "beat": 3,
+          "symbol": "B7b5/F",
+          "rn": "V43(b5)",
+          "function": "chromatic passing sonority (French-sixth sound)"
+        }
+      ],
+      "events": [
+        {
+          "type": "rhythm_phrase",
+          "technique": "phrase_length",
+          "text": "The descent of bars 2–4 is compressed: the bar-3 sonority now arrives on beat 3 of bar 14"
+        }
+      ]
+    },
+    {
+      "bar": 15,
+      "start_quarter": 57,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Fø7",
+          "rn": "passing",
+          "function": "chromatic passing sonority (E#ø7 enharmonic)"
+        },
+        {
+          "beat": 2,
+          "symbol": "G#o7/F",
+          "rn": "viio7/iv",
+          "function": "leading-tone seventh of A minor"
+        },
+        {
+          "beat": 3,
+          "symbol": "E7",
+          "rn": "V7/iv",
+          "function": "applied dominant of A minor"
+        }
+      ],
+      "events": []
+    },
+    {
+      "bar": 16,
+      "start_quarter": 61,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em7",
+          "rn": "i7",
+          "function": "tonic seventh"
+        },
+        {
+          "beat": 2,
+          "symbol": "C#o7/E",
+          "rn": "viio7/V",
+          "function": "common-tone diminished"
+        },
+        {
+          "beat": 3,
+          "symbol": "?",
+          "rn": "?",
+          "function": "chromatic passing",
+          "reason": "C#3–E3–Bb3 under A5: A(b9)/C# or C#o7 with A appoggiatura; no G or A in the LH, so neither reading is complete."
+        },
+        {
+          "beat": 4,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "build_to_climax",
+          "text": "RH breaks out of the B–C sigh: Bb4 then a leap to A5 and F#5–E5"
+        },
+        {
+          "type": "voicing_orchestration",
+          "technique": "register_high_shift",
+          "text": "Melody jumps from B4 to A5, the highest point so far",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "start_quarter": 65,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "B7b9",
+          "rn": "V7(b9)",
+          "function": "dominant with flat ninth; B octave bass held by pedal"
+        },
+        {
+          "beat": 3.5,
+          "symbol": "Em/G",
+          "rn": "i6",
+          "function": "tonic, first inversion"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "climax",
+          "text": "C6 over B7(b9) is the melodic peak; octave B1–B2 is the lowest bass so far",
+          "beat": 2
+        },
+        {
+          "type": "tension_release",
+          "technique": "appoggiatura",
+          "text": "E5 over B7 falls to D#5 (Eb5 in the MIDI)"
+        },
+        {
+          "type": "story",
+          "technique": "turn",
+          "text": "turn: the only outburst; the line peaks at C6 and falls straight back"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "start_quarter": 69,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Am",
+          "rn": "iv",
+          "function": "subdominant"
+        },
+        {
+          "beat": 2.5,
+          "symbol": "F#ø7/A",
+          "rn": "iiø65",
+          "function": "predominant"
+        },
+        {
+          "beat": 3,
+          "symbol": "Bsus4",
+          "rn": "Vsus4",
+          "function": "dominant with unresolved 4th"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "texture_dynamics",
+          "technique": "thinning",
+          "text": "Climax collapses: melody falls through E5–E4–A4 to a held F#4"
+        }
+      ]
+    },
+    {
+      "bar": 19,
+      "start_quarter": 73,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Bsus4",
+          "rn": "Vsus4",
+          "function": "dominant with unresolved 4th"
+        },
+        {
+          "beat": 3,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        },
+        {
+          "beat": 4,
+          "symbol": "Am/C",
+          "rn": "iv6",
+          "function": "subdominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "motif",
+          "technique": "repetition",
+          "text": "Bar 19 = bar 11 melody over a suspended dominant"
+        }
+      ]
+    },
+    {
+      "bar": 20,
+      "start_quarter": 77,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Bsus4",
+          "rn": "Vsus4",
+          "function": "dominant with 4th"
+        },
+        {
+          "beat": 3,
+          "symbol": "B",
+          "rn": "V",
+          "function": "dominant"
+        },
+        {
+          "beat": 4,
+          "symbol": "B7",
+          "rn": "V7",
+          "function": "dominant seventh"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "LH E3 resolves to D#3 only on beat 3",
+          "beat": 3
+        },
+        {
+          "type": "rhythm_phrase",
+          "technique": "anticipation",
+          "text": "Melody E4 on the last sixteenth anticipates the bar-21 E4",
+          "beat": 4.75
+        }
+      ]
+    },
+    {
+      "bar": 21,
+      "start_quarter": 81,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "C",
+          "rn": "VI",
+          "function": "deceptive arrival"
+        },
+        {
+          "beat": 3,
+          "symbol": "C7",
+          "rn": "VI7",
+          "function": "chromatic seventh; Bb slides to A"
+        },
+        {
+          "beat": 4,
+          "symbol": "F#ø7/C",
+          "rn": "iiø43",
+          "function": "predominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "cadence",
+          "technique": "DC",
+          "text": "B7 (bar 20) resolves to C instead of E minor"
+        },
+        {
+          "type": "tension_release",
+          "technique": "deceptive_resolution",
+          "text": "V7 → VI: the expected tonic is withheld"
+        },
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival delayed: the cadence is dodged, the descent begins again in the low register"
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "start_quarter": 85,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Esus4/B",
+          "rn": "i64(sus4)",
+          "function": "cadential 6/4 with suspended A; the A–G#–G inner line follows"
+        },
+        {
+          "beat": 2,
+          "symbol": "E/B",
+          "rn": "I64",
+          "function": "major-mode flicker (G#)"
+        },
+        {
+          "beat": 3,
+          "symbol": "Em/B",
+          "rn": "i64",
+          "function": "cadential 6/4"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "borrowed",
+          "text": "Beat 2 G#3 gives a brief E-major 6/4 before G natural returns (A–G#–G inner chromatic line)",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "bar": 23,
+      "start_quarter": 89,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "C7/B-",
+          "rn": "Ger+6 (A# bass)",
+          "function": "augmented sixth with the A# in the bass (diminished-third position); A#/C converge on B"
+        }
+      ],
+      "events": [
+        {
+          "type": "colour_chord",
+          "technique": "aug6_german",
+          "text": "Bb2 (=A#) below C3 with G3 and E4: C and A# close in on the B octave of bar 24"
+        },
+        {
+          "type": "texture_dynamics",
+          "technique": "subito",
+          "text": "Chord stops after two beats; the MIDI leaves the second half of the bar silent (the printed fermata rest)",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "start_quarter": 93,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Bsus4",
+          "rn": "Vsus4",
+          "function": "dominant with E suspended"
+        },
+        {
+          "beat": 3,
+          "symbol": "B",
+          "rn": "V",
+          "function": "dominant"
+        }
+      ],
+      "events": [
+        {
+          "type": "tension_release",
+          "technique": "suspension_4_3",
+          "text": "Melody E4 (held from bar 23) resolves to D#4 (Eb4 in the MIDI)",
+          "beat": 3
+        },
+        {
+          "type": "cadence",
+          "technique": "PAC",
+          "text": "V (bar 24) → i (bar 25), root-position bass B → E, melody E4",
+          "arrival_bar": 25
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "start_quarter": 97,
+      "duration_quarters": 4.0,
+      "key": "e",
+      "chords": [
+        {
+          "beat": 1,
+          "symbol": "Em",
+          "rn": "i",
+          "function": "tonic"
+        }
+      ],
+      "events": [
+        {
+          "type": "story",
+          "technique": "arrival",
+          "text": "arrival: three soft E-minor chords close the piece (single whole-bar chord in this MIDI)"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "bass_line:chromatic",
+    "cadence:DC",
+    "cadence:HC",
+    "cadence:PAC",
+    "colour_chord:aug6_french",
+    "colour_chord:aug6_german",
+    "colour_chord:borrowed",
+    "form:theme_1",
+    "hook:melodic_cell",
+    "motif:repetition",
+    "rhythm_phrase:anticipation",
+    "rhythm_phrase:elision",
+    "rhythm_phrase:phrase_length",
+    "story:arrival",
+    "story:continuation",
+    "story:start",
+    "story:turn",
+    "tension_release:appoggiatura",
+    "tension_release:deceptive_resolution",
+    "tension_release:delayed_resolution",
+    "tension_release:suspension_4_3",
+    "tension_release:suspension_7_6",
+    "texture_dynamics:build_to_climax",
+    "texture_dynamics:climax",
+    "texture_dynamics:subito",
+    "texture_dynamics:thickening",
+    "texture_dynamics:thinning",
+    "voicing_orchestration:close_spacing",
+    "voicing_orchestration:register_high_shift"
+  ],
+  "modulations": [],
+  "verification": {
+    "music21_version": "10.5.0",
+    "method": "original MIDI; all tracks, CC64 sustain releases, no NCT removal; root+third+fifth+seventh present; duration-weighted coverage >=0.70",
+    "chord_note_match_pct": 96.43,
+    "labelled_spans": 56,
+    "matched_spans": 54,
+    "unknown_spans": 2,
+    "total_spans": 58,
+    "labelled_span_pct": 96.55,
+    "flagged_bars": [
+      {
+        "bar": 0,
+        "reason": "Draft had no pickup, so all its bars were one quarter early and it showed 26 bars; corrected to a 1-quarter pickup + 25 bars (quarter range 0–101)."
+      },
+      {
+        "bar": 0,
+        "reason": "Pickup B3 dotted-eighth + B4 sixteenth in the MIDI; editions print a B4 upbeat. Not corrected (MIDI kept as source)."
+      },
+      {
+        "bar": 1,
+        "reason": "Draft key changes e → a (bar 1), a → E (bar 9), E → e (bar 17) removed: no cadence confirms either key. A minor is tonicized in bars 3–9; the piece stays in E minor."
+      },
+      {
+        "bar": 3,
+        "reason": "Many LH sonorities in bars 2–8 and 14–16 are voice-leading products of the chromatic descent; the seventh-chord labels describe the sound, and the Roman numerals are approximate."
+      },
+      {
+        "bar": 3,
+        "reason": "Beat 4 G#o7/F fails the check: B4 stops at beat 4 and the melody C5 is the recurring upper neighbour, so B is absent for one quarter (F–G#–D–C). Kept as G#o7; not relabelled Dø7."
+      },
+      {
+        "bar": 16,
+        "reason": "Beat 3 left as ?: C#–E–Bb with A5 in the melody and no G; incomplete A7(b9)/C# or C#o7 with an appoggiatura."
+      },
+      {
+        "bar": 17,
+        "reason": "Beat 3 (D#/F#/G/B for one eighth) is treated as the B7 resolving late; Em/G is labelled from beat 3.5."
+      },
+      {
+        "bar": 18,
+        "reason": "Bsus4 in bars 18–20 has no D# until bar 20 beat 3; it could also be read as an Em/B 6/4 without G."
+      },
+      {
+        "bar": 21,
+        "reason": "C7 on beat 3 has Bb moving down to A, so it is read as a chromatic VI7, not an augmented sixth; only bar 23 is labelled Ger+6."
+      },
+      {
+        "bar": 21,
+        "reason": "Beat 1 C fails on coverage (66.7%): the MIDI pedal goes down on the same tick (q 81) as the bar-20 B7 chord releases, so the verifier holds B, D# and A into bar 21. The attacks are C3–G3–E4 only; C is kept."
+      },
+      {
+        "bar": 22,
+        "reason": "Beat 1 B–E–A is read as Esus4/B (cadential 6/4 with suspended A), not B7sus4: no F# sounds."
+      },
+      {
+        "bar": 22,
+        "reason": "G# on beat 2 is read as a passing major-mode colour in the A–G#–G inner line, not a real E-major arrival."
+      },
+      {
+        "bar": 25,
+        "reason": "Printed editions have three separate final chords; the MIDI sounds one whole-bar chord. Dynamics (smorzando / pp) are not inferred."
+      },
+      {
+        "bar": 0,
+        "beat": 1,
+        "reason": "Lone B3 then B4; no harmony sounds."
+      },
+      {
+        "bar": 3,
+        "beat": 4,
+        "reason": "Missing chord PCs [11]; duration-weighted coverage 75.0% (requires 70%)"
+      },
+      {
+        "bar": 16,
+        "beat": 3,
+        "reason": "C#3–E3–Bb3 under A5: A(b9)/C# or C#o7 with A appoggiatura; no G or A in the LH, so neither reading is complete."
+      },
+      {
+        "bar": 21,
+        "beat": 1,
+        "reason": "Missing chord PCs []; duration-weighted coverage 66.7% (requires 70%)"
+      }
+    ],
+    "spans": [
+      {
+        "bar": 0,
+        "beat": 1,
+        "symbol": "?",
+        "start_quarter": 0,
+        "end_quarter": 1.0,
+        "sounding_pc_weights": {
+          "11": 1.0
+        },
+        "match": false,
+        "unknown": true,
+        "reason": "Lone B3 then B4; no harmony sounds."
+      },
+      {
+        "bar": 1,
+        "beat": 1,
+        "symbol": "Em/G",
+        "start_quarter": 1,
+        "end_quarter": 5.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 11.5,
+          "7": 11.5,
+          "11": 14.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.97403
+      },
+      {
+        "bar": 2,
+        "beat": 1,
+        "symbol": "B7sus4/F#",
+        "start_quarter": 5,
+        "end_quarter": 7,
+        "sounding_pc_weights": {
+          "4": 5.0,
+          "6": 3.5,
+          "7": 1.5,
+          "9": 3.5,
+          "11": 3.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 2,
+        "beat": 3,
+        "symbol": "B7/F#",
+        "start_quarter": 7,
+        "end_quarter": 9.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "3": 3.5,
+          "4": 1.5,
+          "6": 5.0,
+          "9": 5.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85294
+      },
+      {
+        "bar": 3,
+        "beat": 1,
+        "symbol": "B7b5/F",
+        "start_quarter": 9,
+        "end_quarter": 11,
+        "sounding_pc_weights": {
+          "3": 5.0,
+          "5": 3.5,
+          "6": 1.5,
+          "9": 5.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          5,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 3,
+        "beat": 3,
+        "symbol": "Bm7b5/F",
+        "start_quarter": 11,
+        "end_quarter": 12,
+        "sounding_pc_weights": {
+          "2": 1.0,
+          "5": 1.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 3,
+        "beat": 4,
+        "symbol": "G#o7/F",
+        "start_quarter": 12,
+        "end_quarter": 13.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "8": 1.0
+        },
+        "match": false,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [
+          11
+        ],
+        "coverage": 0.75,
+        "reason": "Missing chord PCs [11]; duration-weighted coverage 75.0% (requires 70%)"
+      },
+      {
+        "bar": 4,
+        "beat": 1,
+        "symbol": "E7",
+        "start_quarter": 13,
+        "end_quarter": 15,
+        "sounding_pc_weights": {
+          "2": 5.0,
+          "4": 3.5,
+          "5": 1.5,
+          "8": 5.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 4,
+        "beat": 3,
+        "symbol": "Em7",
+        "start_quarter": 15,
+        "end_quarter": 16,
+        "sounding_pc_weights": {
+          "2": 1.0,
+          "4": 1.0,
+          "7": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 4,
+        "beat": 4,
+        "symbol": "C#o7/E",
+        "start_quarter": 16,
+        "end_quarter": 17.0,
+        "sounding_pc_weights": {
+          "1": 1.0,
+          "4": 1.0,
+          "7": 1.0,
+          "10": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 5,
+        "beat": 1,
+        "symbol": "Am7/E",
+        "start_quarter": 17,
+        "end_quarter": 19,
+        "sounding_pc_weights": {
+          "0": 3.5,
+          "1": 1.5,
+          "4": 5.0,
+          "7": 5.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 5,
+        "beat": 3,
+        "symbol": "F#ø7/E",
+        "start_quarter": 19,
+        "end_quarter": 21.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "4": 2.0,
+          "6": 2.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.875
+      },
+      {
+        "bar": 6,
+        "beat": 1,
+        "symbol": "F#ø7/E",
+        "start_quarter": 21,
+        "end_quarter": 23,
+        "sounding_pc_weights": {
+          "0": 5.0,
+          "4": 5.0,
+          "6": 5.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 6,
+        "beat": 3,
+        "symbol": "D#o7",
+        "start_quarter": 23,
+        "end_quarter": 25.0,
+        "sounding_pc_weights": {
+          "0": 5.0,
+          "3": 3.5,
+          "4": 1.5,
+          "6": 5.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          3,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85294
+      },
+      {
+        "bar": 7,
+        "beat": 1,
+        "symbol": "D7",
+        "start_quarter": 25,
+        "end_quarter": 29.0,
+        "sounding_pc_weights": {
+          "0": 14.5,
+          "2": 11.5,
+          "3": 3.0,
+          "6": 14.5,
+          "9": 3.25,
+          "11": 0.75
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92105
+      },
+      {
+        "bar": 8,
+        "beat": 1,
+        "symbol": "Dm7",
+        "start_quarter": 29,
+        "end_quarter": 31,
+        "sounding_pc_weights": {
+          "0": 5.0,
+          "2": 5.0,
+          "5": 3.5,
+          "6": 1.5,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          2,
+          5,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 8,
+        "beat": 3,
+        "symbol": "G#o7/D",
+        "start_quarter": 31,
+        "end_quarter": 33.0,
+        "sounding_pc_weights": {
+          "2": 2.0,
+          "5": 2.0,
+          "8": 1.0,
+          "9": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.875
+      },
+      {
+        "bar": 9,
+        "beat": 1,
+        "symbol": "Am/C",
+        "start_quarter": 33,
+        "end_quarter": 37.0,
+        "sounding_pc_weights": {
+          "0": 4.5,
+          "2": 0.5,
+          "4": 4.5,
+          "8": 1.0,
+          "9": 4.0,
+          "11": 1.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.8125
+      },
+      {
+        "bar": 10,
+        "beat": 1,
+        "symbol": "B7sus4",
+        "start_quarter": 37,
+        "end_quarter": 38,
+        "sounding_pc_weights": {
+          "4": 1.0,
+          "6": 1.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 10,
+        "beat": 2,
+        "symbol": "B7",
+        "start_quarter": 38,
+        "end_quarter": 39,
+        "sounding_pc_weights": {
+          "3": 1.0,
+          "6": 1.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 10,
+        "beat": 3,
+        "symbol": "F#ø7/C",
+        "start_quarter": 39,
+        "end_quarter": 40,
+        "sounding_pc_weights": {
+          "0": 1.5,
+          "3": 1.0,
+          "4": 1.5,
+          "6": 1.0,
+          "9": 2.5,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.76471
+      },
+      {
+        "bar": 10,
+        "beat": 4,
+        "symbol": "Am/C",
+        "start_quarter": 40,
+        "end_quarter": 41.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "3": 0.5,
+          "4": 2.0,
+          "9": 3.5,
+          "11": 0.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.88235
+      },
+      {
+        "bar": 11,
+        "beat": 1,
+        "symbol": "B7",
+        "start_quarter": 41,
+        "end_quarter": 43,
+        "sounding_pc_weights": {
+          "0": 1.5,
+          "3": 3.5,
+          "4": 1.5,
+          "6": 2.0,
+          "9": 5.0,
+          "11": 3.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.82353
+      },
+      {
+        "bar": 11,
+        "beat": 3,
+        "symbol": "F#ø7/C",
+        "start_quarter": 43,
+        "end_quarter": 44,
+        "sounding_pc_weights": {
+          "0": 1.5,
+          "3": 1.0,
+          "4": 1.5,
+          "6": 0.88542,
+          "9": 2.5,
+          "11": 1.11198
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.75146
+      },
+      {
+        "bar": 11,
+        "beat": 4,
+        "symbol": "Am/C",
+        "start_quarter": 44,
+        "end_quarter": 45.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "3": 0.5,
+          "4": 2.0,
+          "9": 3.5,
+          "11": 0.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.88235
+      },
+      {
+        "bar": 12,
+        "beat": 1,
+        "symbol": "B7",
+        "start_quarter": 45,
+        "end_quarter": 49.0,
+        "sounding_pc_weights": {
+          "0": 0.83333,
+          "2": 0.33333,
+          "3": 1.5,
+          "6": 1.0,
+          "7": 0.5,
+          "9": 1.0,
+          "11": 1.83333
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.7619
+      },
+      {
+        "bar": 13,
+        "beat": 1,
+        "symbol": "Em/G",
+        "start_quarter": 49,
+        "end_quarter": 53.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 11.5,
+          "7": 11.5,
+          "11": 14.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.97403
+      },
+      {
+        "bar": 14,
+        "beat": 1,
+        "symbol": "B7sus4/F#",
+        "start_quarter": 53,
+        "end_quarter": 55,
+        "sounding_pc_weights": {
+          "4": 5.0,
+          "6": 3.5,
+          "7": 1.5,
+          "9": 3.5,
+          "11": 3.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 14,
+        "beat": 3,
+        "symbol": "B7b5/F",
+        "start_quarter": 55,
+        "end_quarter": 57.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "3": 3.5,
+          "4": 1.5,
+          "5": 3.5,
+          "6": 1.5,
+          "9": 5.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          5,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.76471
+      },
+      {
+        "bar": 15,
+        "beat": 1,
+        "symbol": "Fø7",
+        "start_quarter": 57,
+        "end_quarter": 58,
+        "sounding_pc_weights": {
+          "3": 1.0,
+          "5": 1.0,
+          "8": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 15,
+        "beat": 2,
+        "symbol": "G#o7/F",
+        "start_quarter": 58,
+        "end_quarter": 59,
+        "sounding_pc_weights": {
+          "2": 1.0,
+          "5": 1.0,
+          "8": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 15,
+        "beat": 3,
+        "symbol": "E7",
+        "start_quarter": 59,
+        "end_quarter": 61.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "2": 5.0,
+          "4": 3.5,
+          "5": 1.5,
+          "8": 5.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85294
+      },
+      {
+        "bar": 16,
+        "beat": 1,
+        "symbol": "Em7",
+        "start_quarter": 61,
+        "end_quarter": 62,
+        "sounding_pc_weights": {
+          "2": 1.0,
+          "4": 1.0,
+          "7": 1.0,
+          "10": 0.25,
+          "11": 0.75
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.9375
+      },
+      {
+        "bar": 16,
+        "beat": 2,
+        "symbol": "C#o7/E",
+        "start_quarter": 62,
+        "end_quarter": 63,
+        "sounding_pc_weights": {
+          "1": 1.0,
+          "4": 1.0,
+          "7": 1.0,
+          "10": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 16,
+        "beat": 3,
+        "symbol": "?",
+        "start_quarter": 63,
+        "end_quarter": 64,
+        "sounding_pc_weights": {
+          "1": 1.0,
+          "4": 1.0,
+          "9": 1.0,
+          "10": 1.0
+        },
+        "match": false,
+        "unknown": true,
+        "reason": "C#3–E3–Bb3 under A5: A(b9)/C# or C#o7 with A appoggiatura; no G or A in the LH, so neither reading is complete."
+      },
+      {
+        "bar": 16,
+        "beat": 4,
+        "symbol": "F#ø7/C",
+        "start_quarter": 64,
+        "end_quarter": 65.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 1.25,
+          "6": 0.75,
+          "9": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 17,
+        "beat": 1,
+        "symbol": "B7b9",
+        "start_quarter": 65,
+        "end_quarter": 67.5,
+        "sounding_pc_weights": {
+          "0": 4.0,
+          "3": 2.0,
+          "4": 2.0,
+          "6": 2.5,
+          "7": 0.5,
+          "9": 5.5,
+          "11": 3.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.875
+      },
+      {
+        "bar": 17,
+        "beat": 3.5,
+        "symbol": "Em/G",
+        "start_quarter": 67.5,
+        "end_quarter": 69.0,
+        "sounding_pc_weights": {
+          "4": 2.0,
+          "7": 2.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 1,
+        "symbol": "Am",
+        "start_quarter": 69,
+        "end_quarter": 70.5,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "2": 0.5,
+          "4": 2.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.92308
+      },
+      {
+        "bar": 18,
+        "beat": 2.5,
+        "symbol": "F#ø7/A",
+        "start_quarter": 70.5,
+        "end_quarter": 71,
+        "sounding_pc_weights": {
+          "0": 0.5,
+          "4": 0.66667,
+          "6": 0.5,
+          "9": 0.33333
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 3,
+        "symbol": "Bsus4",
+        "start_quarter": 71,
+        "end_quarter": 72,
+        "sounding_pc_weights": {
+          "4": 1.0,
+          "6": 1.0,
+          "11": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 18,
+        "beat": 4,
+        "symbol": "F#ø7/C",
+        "start_quarter": 72,
+        "end_quarter": 73.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 1.0,
+          "6": 0.5,
+          "9": 1.5
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 19,
+        "beat": 1,
+        "symbol": "Bsus4",
+        "start_quarter": 73,
+        "end_quarter": 75,
+        "sounding_pc_weights": {
+          "0": 1.5,
+          "4": 5.0,
+          "6": 2.0,
+          "9": 1.5,
+          "11": 7.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.82353
+      },
+      {
+        "bar": 19,
+        "beat": 3,
+        "symbol": "F#ø7/C",
+        "start_quarter": 75,
+        "end_quarter": 76,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 1.0,
+          "6": 0.88542,
+          "9": 1.0,
+          "11": 0.11198
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 0.97199
+      },
+      {
+        "bar": 19,
+        "beat": 4,
+        "symbol": "Am/C",
+        "start_quarter": 76,
+        "end_quarter": 77.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 1.0,
+          "9": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 20,
+        "beat": 1,
+        "symbol": "Bsus4",
+        "start_quarter": 77,
+        "end_quarter": 79,
+        "sounding_pc_weights": {
+          "0": 1.5,
+          "4": 5.0,
+          "6": 2.0,
+          "9": 1.5,
+          "11": 7.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.82353
+      },
+      {
+        "bar": 20,
+        "beat": 3,
+        "symbol": "B",
+        "start_quarter": 79,
+        "end_quarter": 80,
+        "sounding_pc_weights": {
+          "3": 1.5,
+          "4": 1.0,
+          "6": 1.0,
+          "11": 5.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.88235
+      },
+      {
+        "bar": 20,
+        "beat": 4,
+        "symbol": "B7",
+        "start_quarter": 80,
+        "end_quarter": 81.0,
+        "sounding_pc_weights": {
+          "3": 2.0,
+          "4": 0.75,
+          "6": 0.75,
+          "9": 1.0,
+          "11": 4.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.91176
+      },
+      {
+        "bar": 21,
+        "beat": 1,
+        "symbol": "C",
+        "start_quarter": 81,
+        "end_quarter": 83,
+        "sounding_pc_weights": {
+          "0": 5.0,
+          "3": 2.0,
+          "4": 2.0,
+          "7": 5.0,
+          "9": 2.0,
+          "11": 2.0
+        },
+        "match": false,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7
+        ],
+        "missing_pcs": [],
+        "coverage": 0.66667,
+        "reason": "Missing chord PCs []; duration-weighted coverage 66.7% (requires 70%)"
+      },
+      {
+        "bar": 21,
+        "beat": 3,
+        "symbol": "C7",
+        "start_quarter": 83,
+        "end_quarter": 84,
+        "sounding_pc_weights": {
+          "0": 5.5,
+          "3": 1.0,
+          "4": 1.0,
+          "7": 4.0,
+          "9": 1.0,
+          "10": 1.5,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 0.8
+      },
+      {
+        "bar": 21,
+        "beat": 4,
+        "symbol": "F#ø7/C",
+        "start_quarter": 84,
+        "end_quarter": 85.0,
+        "sounding_pc_weights": {
+          "0": 1.0,
+          "4": 1.0,
+          "6": 1.0,
+          "9": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 1,
+        "symbol": "Esus4/B",
+        "start_quarter": 85,
+        "end_quarter": 86,
+        "sounding_pc_weights": {
+          "4": 2.0,
+          "9": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 2,
+        "symbol": "E/B",
+        "start_quarter": 86,
+        "end_quarter": 87,
+        "sounding_pc_weights": {
+          "4": 2.0,
+          "8": 1.0,
+          "11": 1.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          8,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 22,
+        "beat": 3,
+        "symbol": "Em/B",
+        "start_quarter": 87,
+        "end_quarter": 89.0,
+        "sounding_pc_weights": {
+          "4": 6.0,
+          "6": 1.0,
+          "7": 3.5,
+          "8": 1.5,
+          "11": 5.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 0.85294
+      },
+      {
+        "bar": 23,
+        "beat": 1,
+        "symbol": "C7/B-",
+        "start_quarter": 89,
+        "end_quarter": 93.0,
+        "sounding_pc_weights": {
+          "0": 2.0,
+          "4": 2.0,
+          "7": 2.0,
+          "10": 2.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 24,
+        "beat": 1,
+        "symbol": "Bsus4",
+        "start_quarter": 93,
+        "end_quarter": 95,
+        "sounding_pc_weights": {
+          "4": 4.0,
+          "6": 2.0,
+          "11": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 24,
+        "beat": 3,
+        "symbol": "B",
+        "start_quarter": 95,
+        "end_quarter": 97.0,
+        "sounding_pc_weights": {
+          "3": 4.0,
+          "6": 4.0,
+          "11": 6.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          3,
+          6,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      },
+      {
+        "bar": 25,
+        "beat": 1,
+        "symbol": "Em",
+        "start_quarter": 97,
+        "end_quarter": 101.0,
+        "sounding_pc_weights": {
+          "4": 16.0,
+          "7": 4.0,
+          "11": 4.0
+        },
+        "match": true,
+        "unknown": false,
+        "required_pcs": [
+          4,
+          7,
+          11
+        ],
+        "missing_pcs": [],
+        "coverage": 1.0
+      }
+    ]
+  }
+}
