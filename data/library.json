@@ -1889,7 +1889,8 @@
   "score_files": [
    "files/scores/grieg_peer_gynt_mountain_king.ly",
    "files/scores/grieg_peer_gynt_mountain_king.mid",
-   "files/scores/grieg_peer_gynt_mountain_king.pdf"
+   "files/scores/grieg_peer_gynt_mountain_king.pdf",
+   "files/scores/grieg_peer_gynt_mountain_king_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "dramatic",
@@ -1912,7 +1913,8 @@
   "duration_s": 154.09,
   "midi_play_url": "files/scores/grieg_peer_gynt_mountain_king.mid",
   "other_editions": [],
-  "search_text": "in the hall of the mountain king edvard grieg op. 46 no. 4 op 46 no 4 op. 46 no. 4 op46no4 peer gynt suite no. 1 - iv grieg peer gynt mountain king dramatic building menacing driving classical late romantic / early 20th musopen symphony orchestra (2012) grieg, edvard"
+  "search_text": "in the hall of the mountain king edvard grieg op. 46 no. 4 op 46 no 4 op. 46 no. 4 op46no4 peer gynt suite no. 1 - iv grieg peer gynt mountain king dramatic building menacing driving classical late romantic / early 20th musopen symphony orchestra (2012) grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_hwv349_hornpipe",
@@ -2795,7 +2797,8 @@
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
-   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl",
+   "files/scores/mussorgsky_pictures_baba_yaga_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "aggressive",
@@ -2862,7 +2865,8 @@
    "files/scores/mussorgsky_pictures_at_an_exhibition-lys.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition-mids.zip",
    "files/scores/mussorgsky_pictures_at_an_exhibition_il_vecchio_castello_reconstructed.mxl",
-   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl"
+   "files/scores/mussorgsky_pictures_at_an_exhibition_promenade_reconstructed.mxl",
+   "files/scores/mussorgsky_pictures_great_gate_kiev_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "epic",
@@ -127158,7 +127162,8 @@
   "preview_url": "",
   "score_url": "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
   "score_files": [
-   "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid"
+   "files/scores/grieg_op46_in_der_halle_des_bergkonigs.mid",
+   "files/scores/grieg_op46_in_der_halle_des_bergkonigs_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -127194,7 +127199,8 @@
     "licence": "CC0"
    }
   ],
-  "search_text": "in the hall of the mountain king edvard grieg op. 46 op 46 op. 46 op46 in der halle des bergkönigs grieg op46 in der halle des bergkonigs classical lyrical classical romantic  grieg, edvard"
+  "search_text": "in the hall of the mountain king edvard grieg op. 46 op 46 op. 46 op46 in der halle des bergkönigs grieg op46 in der halle des bergkonigs classical lyrical classical romantic  grieg, edvard",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "grieg_op54_zuge_der_zwerge",
@@ -141591,7 +141597,8 @@
   "preview_url": "",
   "score_url": "files/scores/satie_ogive_no_1.mid",
   "score_files": [
-   "files/scores/satie_ogive_no_1.mid"
+   "files/scores/satie_ogive_no_1.mid",
+   "files/scores/satie_ogive_no_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -141612,7 +141619,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/satie_ogive_no_1.mid",
   "other_editions": [],
-  "search_text": "ogive no. 1 erik satie    satie ogive no 1 classical lyrical classical late romantic / early 20th  satie, erik"
+  "search_text": "ogive no. 1 erik satie    satie ogive no 1 classical lyrical classical late romantic / early 20th  satie, erik",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "satie_ogive_no_2",
@@ -203580,7 +203588,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_from_the_aylesford_piecesb16.mid",
   "score_files": [
-   "files/scores/handel_from_the_aylesford_piecesb16.mid"
+   "files/scores/handel_from_the_aylesford_piecesb16.mid",
+   "files/scores/handel_from_the_aylesford_piecesb16_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "moderate",
@@ -203601,7 +203610,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_from_the_aylesford_piecesb16.mid",
   "other_editions": [],
-  "search_text": "menuet (trio) george frideric handel   from the aylesford pieces handel from the aylesford piecesb16 moderate elegant classical baroque  handel, george frideric"
+  "search_text": "menuet (trio) george frideric handel   from the aylesford pieces handel from the aylesford piecesb16 moderate elegant classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_from_the_aylesford_piecesb9",
@@ -208101,7 +208111,8 @@
   "preview_url": "",
   "score_url": "files/scores/handel_hwv585_sonatina_in_b_flat_major.mid",
   "score_files": [
-   "files/scores/handel_hwv585_sonatina_in_b_flat_major.mid"
+   "files/scores/handel_hwv585_sonatina_in_b_flat_major.mid",
+   "files/scores/handel_hwv585_sonatina_in_b_flat_major_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -208122,7 +208133,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/handel_hwv585_sonatina_in_b_flat_major.mid",
   "other_editions": [],
-  "search_text": "sonatina in b-flat major george frideric handel hwv 585 hwv 585 hwv585  handel hwv585 sonatina in b flat major classical lyrical classical baroque  handel, george frideric"
+  "search_text": "sonatina in b-flat major george frideric handel hwv 585 hwv 585 hwv585  handel hwv585 sonatina in b flat major classical lyrical classical baroque  handel, george frideric",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "handel_hwv607_fugue_in_ba_major",
@@ -322322,7 +322334,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwv508_bist_du_bei_mirb2.mid",
   "score_files": [
-   "files/scores/bach_bwv508_bist_du_bei_mirb2.mid"
+   "files/scores/bach_bwv508_bist_du_bei_mirb2.mid",
+   "files/scores/bach_bwv508_bist_du_bei_mirb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -322343,7 +322356,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwv508_bist_du_bei_mirb2.mid",
   "other_editions": [],
-  "search_text": "aria bist du bei mir johann sebastian bach bwv 508 bwv 508 bwv508 bist du bei mir bach bwv508 bist du bei mirb2 classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "aria bist du bei mir johann sebastian bach bwv 508 bwv 508 bwv508 bist du bei mir bach bwv508 bist du bei mirb2 classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwv51_cantata_bwv_51",
@@ -333352,7 +333366,8 @@
   "preview_url": "",
   "score_url": "files/scores/bach_bwvanh126_musette.mid",
   "score_files": [
-   "files/scores/bach_bwvanh126_musette.mid"
+   "files/scores/bach_bwvanh126_musette.mid",
+   "files/scores/bach_bwvanh126_musette_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -333373,7 +333388,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/bach_bwvanh126_musette.mid",
   "other_editions": [],
-  "search_text": "musette johann sebastian bach bwv anh. 126 bwv anh 126 bwv anh. 126 bwvanh126  bach bwvanh126 musette classical lyrical classical baroque  bach, johann sebastian"
+  "search_text": "musette johann sebastian bach bwv anh. 126 bwv anh 126 bwv anh. 126 bwvanh126  bach bwvanh126 musette classical lyrical classical baroque  bach, johann sebastian",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "bach_bwvanh131_johann_sebastian_bach_untitl",
@@ -665210,7 +665226,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k331_sonate_opus_kv_331_tema.mid",
   "score_files": [
-   "files/scores/mozart_k331_sonate_opus_kv_331_tema.mid"
+   "files/scores/mozart_k331_sonate_opus_kv_331_tema.mid",
+   "files/scores/mozart_k331_sonate_opus_kv_331_tema_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -665231,7 +665248,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k331_sonate_opus_kv_331_tema.mid",
   "other_editions": [],
-  "search_text": "sonate opus kv 331 - tema wolfgang amadeus mozart kv 331 kv 331 kv331  mozart k331 sonate opus kv 331 tema classical lyrical classical classical  mozart, wolfgang amadeus"
+  "search_text": "sonate opus kv 331 - tema wolfgang amadeus mozart kv 331 kv 331 kv331  mozart k331 sonate opus kv 331 tema classical lyrical classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k336_wolfgang_amadeus_mozart_chur",
@@ -666427,7 +666445,8 @@
   "preview_url": "",
   "score_url": "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
   "score_files": [
-   "files/scores/mozart_k154_completed_by_simon_sechter_1.mid"
+   "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
+   "files/scores/mozart_k154_completed_by_simon_sechter_1_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "contrapuntal"
@@ -666447,7 +666466,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/mozart_k154_completed_by_simon_sechter_1.mid",
   "other_editions": [],
-  "search_text": "fugue in g minor kv 154/385k wolfgang amadeus mozart k154 k 154 k154 (completed by simon sechter, 1788-1867) mozart k154 completed by simon sechter 1 contrapuntal classical classical  mozart, wolfgang amadeus"
+  "search_text": "fugue in g minor kv 154/385k wolfgang amadeus mozart k154 k 154 k154 (completed by simon sechter, 1788-1867) mozart k154 completed by simon sechter 1 contrapuntal classical classical  mozart, wolfgang amadeus",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "mozart_k2_menuett_n_2_fur_das_pianofor",
