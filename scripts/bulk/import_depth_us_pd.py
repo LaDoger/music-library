@@ -63,6 +63,7 @@ NAME_RX = {
     "rebikov": r"\brebikov|\brebikoff|\brebikow|\brebikof|\brebicov",  # PDMX spellings (Rebikoff, Rebikow)
     "grechaninov": r"\bgrechan|\bgretchan|\bgretschan",  # PDMX spellings (Gretchaninoff, Gretschaninow)
     "szymanowski": r"\bszymanowsk|\bszimanowsk|\bszymanovsk|\bshymanovsk",  # PDMX spellings (Szymanowsky, Szimanowski)
+    "roussel": r"\brouss[ea]l|\brousel",  # PDMX spellings (Rousel, Roussell)
     "prokofiev": r"prokof",
     "nielsen": r"\bcarl nielsen\b|\bnielsen carl\b|\bkarl nielsen\b",  # PDMX also credits "Karl Nielsen"
     "stravinsky": r"stravinsk|strawinsk",
@@ -177,6 +178,7 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "Op.3", "Op.37", "Op.53", "Op.61", "Op.98", "Op.99", "Op.109", "Op.110", "Op.115", "Op.116", "Op.118",
         "Op.119", "Op.123",  # Grechaninov piano albums (multi-piece opus numbers)
         "Op.1", "Op.4", "Op.28", "Op.29", "Op.30", "Op.33", "Op.34",
+        "Op.5", "Op.14",  # Roussel piano sets (Rustiques, Suite)
         "BV 249", "BV 267"}  # Busoni multi-piece sets (Elegien, Indianisches Tagebuch I)  # Szymanowski piano sets (multi-piece opus numbers)
 
 

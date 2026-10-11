@@ -880,13 +880,52 @@ BUSONI = [
     ("BV 245", "Eine Lustspielouverture (Comedy Overture), Op.38 BV 245", 1904, IN, r"lustspiel|comedy overture|op 38\b|bv 245\b", "IMSLP: first publication 1904, Breitkopf & Hartel, plate Part.B. 1691; composed 1897"),
     ("BV 266", "Rondo arlecchinesco, Op.46 BV 266", 1917, IN, r"rondo arlecchinesco|arlecchinesco|op 46\b|bv 266\b", "IMSLP: first publication 1917, Breitkopf & Hartel, plate Part.B. 2449; composed 1915"),
     ("BV 270", "Arlecchino, Op.50 BV 270 (opera)", 1917, IN, r"arlecchino\b(?! ?esco)|op 50\b|bv 270\b", "IMSLP: first publication 1917 (IMSLP field; Breitkopf & Hartel score dated 1918); composed 1914"),
-    ("BV 303", "Doktor Faust BV 303 (opera)", 1926, IN, r"doktor faust|doctor faust|bv 303\b", "IMSLP: first publication 1926, Breitkopf & Hartel No. 5289, plate 29212; composed 1916 (Busoni's last opera, completed by Jarnach, not finished)"),
+    ("BV 303", "Doktor Faust BV 303 (opera)", 1926, IN, r"doktor faust|doctor faust|bv 303\b", "IMSLP: first publication 1926, Breitkopf & Hartel No. 5289, plate 29212; composed 1916-24 (unfinished at Busoni's death; completed by Philipp Jarnach)"),
     ("BV 208", "String Quartet No.1, Op.19 BV 208", 1886, IN, r"string quartet no ?1\b|quartet no 1\b|op 19\b|bv 208\b", "IMSLP: Kistner, Leipzig, n.d.[1886], plates 6638-9 (uncertain year); composed 1880 (live rows already exist)"),
     ("BV 225", "String Quartet No.2, Op.26 BV 225", 1889, IN, r"string quartet no ?2\b|quartet no 2\b|op 26\b|bv 225\b", "IMSLP: first publication 1889, Breitkopf & Hartel, plate 18014; composed 1887 (live rows already exist)"),
     ("BV 244", "Violin Sonata No.2, Op.36a BV 244", 1901, IN, r"violin sonata no ?2|violin.*sonata.*no ?2|op 36a\b|bv 244\b", "IMSLP: first publication 1901, Breitkopf & Hartel No. 5189, plate 22515; composed 1898"),
     ("BV 181", "24 Preludes, Op.37 BV 181", None, UNV, r"24 preludes|twenty four preludes|op 37\b|bv 181\b", "IMSLP: composed 1879-81 (dedication 1881); the only scan is Ricordi n.d.(1927); first publication not confirmed"),
     ("BV 215", "Kleine Suite, Op.23 BV 215", None, UNV, r"kleine suite|op 23\b|bv 215\b", "IMSLP: composed 1885; Breitkopf & Hartel No. 5169, n.d.; first publication not confirmed"),
     ("BV 273", "Turandot (opera) BV 273", None, UNV, r"turandot opera|bv 273\b", "IMSLP: Breitkopf & Hartel 1918 scan; composed 1916; no First Publication field; not confirmed"),
+]
+
+# Roussel (d.1937, 23 Aug 1937): US-PD-only (LaDoger priority list 2026-10-11). Death year is inside the default
+# 1930-1955 band, so no ceiling change in schema.py. In scope only when the first publication is 1930 or earlier (IMSLP
+# "First Publication" field, checked 2026-10-11). Piano and chamber works first, then the orchestral and stage works.
+# Works first published 1931 or later are excluded (Symphony No.3 1931, Bacchus et Ariane 1931, Symphony No.4 1935).
+ROUSSEL = [
+    ("Op.5", "Rustiques, Op.5 (piano)", 1906, IN, r"rustiques|op 5\b", "IMSLP: First Publication 1906 (Durand, Paris); composed 1904-06 for piano"),
+    ("Op.16", "Sonatine, Op.16 (piano)", 1912, IN, r"sonatine|op 16\b", "IMSLP: First Publication 1912 (Durand, Paris); composed 1912"),
+    ("Op.14", "Suite, Op.14 (piano)", 1910, IN, r"suite op 14\b|op 14\b", "IMSLP: First Publication 1910 (Rouart, Lerolle, Paris); composed 1909-10 for piano"),
+    ("Op.21", "Impromptu, Op.21 (piano)", 1919, IN, r"impromptu|op 21\b", "IMSLP: First Publication 1919 (Durand, Paris); composed 1919"),
+    ("Op.41", "Prelude et fughetta, Op.41 (piano)", 1930, IN, r"prelude et fughetta|fughetta|op 41\b", "IMSLP: First Publication 1930 (Durand, Paris); composed 1929"),
+    ("Op.2", "Piano Trio, Op.2", 1904, IN, r"piano trio|trio op 2\b", "IMSLP: First Publication 1904 (Bellon, Ponscarme, Paris; 1st version); 2nd version 1927 (Rouart, Lerolle); composed 1902"),
+    ("Op.11", "Violin Sonata No.1, Op.11", 1909, IN, r"violin sonata no 1\b|sonata no 1\b|op 11\b", "IMSLP: First Publication 1909 (Rouart, Lerolle, Paris); composed 1907-08 (revised 1931)"),
+    ("Op.28", "Violin Sonata No.2, Op.28", 1925, IN, r"violin sonata no 2\b|sonata no 2\b|op 28\b", "IMSLP: First Publication 1925 (Durand, Paris); composed 1924"),
+    ("Op.40", "Trio for flute, viola and cello, Op.40", 1930, IN, r"trio for flute|flute viola and cello|op 40\b", "IMSLP: First Publication 1930 (Durand, Paris); composed 1929"),
+    ("Op.30", "Serenade, Op.30 (flute, violin, viola, cello, harp)", 1926, IN, r"serenade|op 30\b", "IMSLP: First Publication 1926 (Durand, Paris); composed 1925"),
+    ("Op.29", "Segovia, Op.29", 1925, IN, r"segovia|op 29\b", "IMSLP: First Publication 1925 (Durand, Paris); composed 1925"),
+    ("Op.6", "Divertissement, Op.6", 1911, IN, r"divertissement|op 6\b", "IMSLP: First Publication 1911 (Rouart, Lerolle, Paris); composed 1906"),
+    ("Op.10", "Flammes, Op.10", 1910, IN, r"flammes|op 10\b", "IMSLP: First Publication 1910 (Rouart, Lerolle, Paris, plate 9617); composed 1908"),
+    ("Op.15", "Evocations, Op.15", 1912, IN, r"evocations|evocation|op 15\b", "IMSLP: First Publication 1912 (Durand, Paris); composed 1910-11"),
+    ("Op.17", "Le festin de l'araignee, Op.17 (ballet)", 1913, IN, r"festin de l araignee|spider s feast|op 17\b", "IMSLP: First Publication 1913 (Durand, Paris, plate D.&F. 8841); composed 1912-13"),
+    ("Op.7", "Symphony No.1 in D minor, Op.7", 1909, IN, r"symphony no 1\b|symphonie no 1\b|op 7\b", "IMSLP: First Publication 1909 (Rouart, Lerolle, Paris); composed 1904-06"),
+    ("Op.23", "Symphony No.2 in B-flat major, Op.23", 1923, IN, r"symphony no 2\b|symphonie no 2\b|op 23\b", "IMSLP: First Publication 1923 (Durand, Paris); composed 1919-21"),
+    ("Op.18", "Padmavati, Op.18 (opera-ballet)", 1919, IN, r"padmavati|op 18\b", "IMSLP: First Publication 1919 (vocal score) and 1924 (full score), Durand, Paris; composed 1913-18"),
+    ("Op.22", "Pour une fete de printemps, Op.22", 1921, IN, r"fete de printemps|pour une fete|op 22\b", "IMSLP: First Publication 1921 (Durand, Paris); composed 1920"),
+    ("Op.27", "Joueurs de flute (The Flute Players), Op.27", 1925, IN, r"joueurs de flute|flute players|op 27\b", "IMSLP: First Publication 1925 (Durand, Paris); composed 1924"),
+    ("Op.33", "Suite in F major, Op.33", 1927, IN, r"suite in f|suite en fa|op 33\b", "IMSLP: First Publication 1927 (Durand, Paris); composed 1926"),
+    ("Op.34", "Concert pour petit orchestre, Op.34", 1927, IN, r"concert pour petit orchestre|petit orchestre|op 34\b", "IMSLP: First Publication 1927 (Durand, Paris); composed 1926-27"),
+    ("Op.36", "Piano Concerto, Op.36", 1928, IN, r"piano concerto|op 36\b", "IMSLP: First Publication 1928 (Durand, Paris); composed 1927"),
+    ("Op.39", "Petite suite, Op.39", 1929, IN, r"petite suite|op 39\b", "IMSLP: First Publication 1929 (Durand, Paris); composed 1929"),
+    ("Op.42", "Symphony No.3, Op.42", 1931, POST, r"symphony no 3\b|symphonie no 3\b|op 42\b", "IMSLP: First Publication 1931 (Durand, Paris); composed 1929-30 (post-1930, excluded)"),
+    ("Op.43", "Bacchus et Ariane, Op.43 (ballet)", 1931, POST, r"bacchus|ariane|op 43\b", "IMSLP: First Publication 1931 (Durand, Paris); composed 1930 (post-1930, excluded)"),
+    ("Op.45", "String Quartet, Op.45", 1932, POST, r"string quartet|quatuor|op 45\b", "IMSLP: First Publication 1932 (Durand, Paris); composed 1931-32 (post-1930, excluded)"),
+    ("Op.46", "Prelude et fugue, Op.46", 1932, POST, r"prelude et fugue|op 46\b", "IMSLP: First Publication 1932 (La revue musicale, Hommage a Bach No.2; Durand 1934 complete); composed 1932-34 (post-1930, excluded)"),
+    ("Op.49", "3 Pieces, Op.49 (piano)", 1934, POST, r"3 pieces|three pieces|op 49\b", "IMSLP: First Publication 1934 (Durand, Paris); composed 1933 (post-1930, excluded)"),
+    ("Op.51", "Andante et scherzo, Op.51 (flute and piano)", 1934, POST, r"andante et scherzo|op 51\b", "IMSLP: First Publication 1934 (Durand, Paris); composed 1934 (post-1930, excluded)"),
+    ("Op.52", "Sinfonietta, Op.52", 1934, POST, r"sinfonietta|op 52\b", "IMSLP: First Publication 1934 (Durand, Paris); composed 1934 (post-1930, excluded)"),
+    ("Op.53", "Symphony No.4, Op.53", 1935, POST, r"symphony no 4\b|symphonie no 4\b|op 53\b", "IMSLP: First Publication 1935 (Durand, Paris); composed 1934 (post-1930, excluded)"),
 ]
 
 COMPOSERS = {
@@ -1039,5 +1078,11 @@ COMPOSERS = {
         "catalogue": "BV (Busoni-Verzeichnis, Kindermann/Roberge numbers) and Op.", "rows": BUSONI,
         "prefix": "busoni", "genre": "classical", "era": "Late Romantic / early 20th century",
         "scope_note": "Fully PD (died 1924): no US-PD-only gate; publication years kept for the record. Piano works first (Toccata, Fantasia contrappuntistica, the Sonatinas, Elegien, Nuit de Noel, Carmen Sonatina), then orchestral (Piano and Violin Concertos, Turandot Suite, Berceuse elegiaque, Comedy Overture, Rondo arlecchinesco), then the operas Arlecchino and Doktor Faust and the two string quartets and the Violin Sonata No.2. Principal works for video; not the full BV catalogue (no transcriptions, songs or the Indian Diary book II). Opera and orchestral entries with no confirmed first-publication year are unverified and not imported.",
+    },
+    "roussel": {
+        "name": "Albert Roussel", "canon": "albert roussel", "death": 1937, "birth": 1869,
+        "catalogue": "Op. (Roussel's opus numbers)", "rows": ROUSSEL,
+        "prefix": "roussel", "genre": "classical", "era": "Late Romantic / early modern (French)",
+        "scope_note": "US-PD-only (died 1937; LaDoger priority list 2026-10-11): works first published 1930 or earlier only, by IMSLP first-publication year. Piano and chamber works first (Rustiques Op.5, Sonatine Op.16, Suite Op.14, Impromptu Op.21, Prelude et fughetta Op.41, Piano Trio Op.2, Violin Sonatas Op.11 and Op.28, Trio Op.40, Serenade Op.30), then the orchestral and stage works (Symphony No.1 Op.7, Symphony No.2 Op.23, Padmavati Op.18, Le festin de l'araignee Op.17, Evocations Op.15, Suite in F Op.33, Concert pour petit orchestre Op.34, Piano Concerto Op.36, Petite suite Op.39). Post-1930 works (Symphony No.3 Op.42 and Bacchus et Ariane Op.43 both 1931, String Quartet Op.45, Prelude et fugue Op.46, 3 Pieces Op.49, Andante et scherzo Op.51, Sinfonietta Op.52, Symphony No.4 Op.53) are excluded. Principal works for video; not the full catalogue (no songs, no operas beyond Padmavati, no late works after 1934).",
     },
 }

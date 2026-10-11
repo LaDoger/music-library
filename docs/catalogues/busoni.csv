@@ -1,0 +1,28 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+BV 256,Fantasia contrappuntistica BV 256,1912,in-scope,,0,,,"IMSLP: First Publication 1912 ('1912 and later'), Breitkopf & Hartel; composed 1910 (uncertain first printing)"
+BV 287,Toccata BV 287,1922,in-scope,,0,,,"IMSLP: first publication 1922, Breitkopf & Hartel No. 5187, plate 28667 (dedicated to Isidor Philipp)"
+BV 257,Sonatina No.1 BV 257,1910,in-scope,,0,,,"IMSLP: first publication 1910, Zimmermann, plate Z. 4951 (dedicated to Rudolph Ganz)"
+BV 259,Sonatina seconda BV 259,1912,in-scope,,0,,,"IMSLP: first publication 1912, Breitkopf & Hartel, plate E.B. 3828"
+BV 268,Sonatina ad usum infantis BV 268,1916,in-scope,,0,,,"IMSLP: first publication 1916, Breitkopf & Hartel No. 4836 (composed 1915)"
+BV 274,Sonatina in diem nativitatis Christi MCMXVII BV 274,1918,in-scope,,0,,,"IMSLP: first publication 1918, Breitkopf & Hartel No. 5071, plate 27744"
+BV 280,Sonatina brevis in signo Joannis Sebastiani Magni BV 280,1919,in-scope,,0,,,"IMSLP: first publication 1919, Breitkopf & Hartel No. 5093, plate 28396"
+BV 284,Kammer-Fantasie uber Bizet's Carmen (Sonatina No.6) BV 284,1920,in-scope,,0,,,"IMSLP: first publication 1920, Breitkopf & Hartel No. 5186, plate 28666 (IMSLP 'First Publication' field says 1921)"
+BV 267,Indianisches Tagebuch I BV 267 (4 piano studies),1916,in-scope,,0,,,"IMSLP: first publication 1916, Breitkopf & Hartel, plate 27881; composed 1915"
+BV 249,Elegien (6 piano pieces) BV 249,1909,in-scope,,0,,,"IMSLP: first publication 1908-09 (n.d.), Breitkopf & Hartel No. 5214, plates 26042-46; composed 1907"
+BV 253,Fantasia nach J.S. Bach BV 253,1909,in-scope,,0,,,"IMSLP: first publication 1909, Breitkopf & Hartel, plate V.A. 3054"
+BV 251,Nuit de Noel BV 251,1909,in-scope,,0,,,"IMSLP: first publication 1909, Durand, Paris, plate D. & F. 7298; composed 1908"
+BV 297,Prelude et etude en arpeges BV 297,1923,in-scope,,0,,,"IMSLP: first publication 1923, Heugel, Paris, plate H. 28.336"
+BV 247,"Piano Concerto in C major, Op.39 BV 247",1906,in-scope,,0,,,"IMSLP: first publication 1906 (full score and parts), Breitkopf & Hartel, plate Part.B. 1949; composed 1903-04"
+BV 243,"Violin Concerto in D major, Op.35a BV 243",1899,in-scope,,0,,,"IMSLP: first publication 1899, Breitkopf & Hartel, plate Part.B. 1407; composed 1896"
+BV 248,"Turandot Suite, Op.41 BV 248",1906,in-scope,,0,,,"IMSLP: first publication 1906, Breitkopf & Hartel, plate Part.B. 1976; composed 1904"
+BV 252a,"Berceuse elegiaque, Op.42 BV 252a (orchestra)",1910,in-scope,,0,,,"IMSLP: first publication 1910, Breitkopf & Hartel, plate Part.B. 2147; composed 1909"
+BV 245,"Eine Lustspielouverture (Comedy Overture), Op.38 BV 245",1904,in-scope,,0,,,"IMSLP: first publication 1904, Breitkopf & Hartel, plate Part.B. 1691; composed 1897"
+BV 266,"Rondo arlecchinesco, Op.46 BV 266",1917,in-scope,,0,,,"IMSLP: first publication 1917, Breitkopf & Hartel, plate Part.B. 2449; composed 1915"
+BV 270,"Arlecchino, Op.50 BV 270 (opera)",1917,in-scope,,0,,,IMSLP: first publication 1917 (IMSLP field; Breitkopf & Hartel score dated 1918); composed 1914
+BV 303,Doktor Faust BV 303 (opera),1926,in-scope,,0,,,"IMSLP: first publication 1926, Breitkopf & Hartel No. 5289, plate 29212; composed 1916 (Busoni's last opera, completed by Jarnach, not finished)"
+BV 208,"String Quartet No.1, Op.19 BV 208",1886,in-scope,yes,1,busoni_op19_string_quartet_no_1_op_19_bv,openscore-quartets,"IMSLP: Kistner, Leipzig, n.d.[1886], plates 6638-9 (uncertain year); composed 1880 (live rows already exist)"
+BV 225,"String Quartet No.2, Op.26 BV 225",1889,in-scope,yes,1,busoni_op26_string_quartet_no_2_op_26_bv,openscore-quartets,"IMSLP: first publication 1889, Breitkopf & Hartel, plate 18014; composed 1887 (live rows already exist)"
+BV 244,"Violin Sonata No.2, Op.36a BV 244",1901,in-scope,,0,,,"IMSLP: first publication 1901, Breitkopf & Hartel No. 5189, plate 22515; composed 1898"
+BV 181,"24 Preludes, Op.37 BV 181",,unverified-pub,n/a,0,,,IMSLP: composed 1879-81 (dedication 1881); the only scan is Ricordi n.d.(1927); first publication not confirmed
+BV 215,"Kleine Suite, Op.23 BV 215",,unverified-pub,n/a,0,,,"IMSLP: composed 1885; Breitkopf & Hartel No. 5169, n.d.; first publication not confirmed"
+BV 273,Turandot (opera) BV 273,,unverified-pub,n/a,0,,,IMSLP: Breitkopf & Hartel 1918 scan; composed 1916; no First Publication field; not confirmed

@@ -605,6 +605,22 @@
      "szymanowsky"
    ],
    "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Nine Preludes Op.1, Etudes Op.4 and Op.33, Piano Sonatas Op.8/21/36, Metopes Op.29, Masques Op.34, Mythes Op.30, Nocturne and Tarantella Op.28, Violin Sonata Op.9, Violin Concerto No.1 Op.35, String Quartet No.1 Op.37, Symphony No.3 Op.27, King Roger Op.46, Stabat Mater Op.53). Post-1930 works (Symphony No.2 Op.19 published 1954, Symphony No.4 Op.60, Harnasie Op.55, Concert Overture Op.12, Penthesilea Op.18) excluded. Checklist: scripts/bulk/catalogue_data.py SZYMANOWSKI."
+  },
+  {
+   "canon": "albert roussel",
+   "name": "Albert Roussel",
+   "birth": 1869,
+   "death": 1937,
+   "prefix": "roussel",
+   "aliases": [
+     "albert roussel",
+     "roussel albert",
+     "a. roussel",
+     "roussel",
+     "rousel",
+     "albert rousel"
+   ],
+   "note": "LaDoger priority list 2026-10-11: US-PD-only, works first published 1930 or earlier only (Rustiques Op.5, Sonatine Op.16, Suite Op.14, Impromptu Op.21, Prelude et fughetta Op.41, Piano Trio Op.2, Violin Sonatas Op.11 and Op.28, Trio Op.40, Serenade Op.30, Segovia Op.29, Divertissement Op.6, Flammes Op.10, Evocations Op.15, Le festin de l'araignee Op.17, Symphony No.1 Op.7, Symphony No.2 Op.23, Padmavati Op.18, Pour une fete de printemps Op.22, Joueurs de flute Op.27, Suite in F Op.33, Concert pour petit orchestre Op.34, Piano Concerto Op.36, Petite suite Op.39). Post-1930 works (Symphony No.3 Op.42 and Bacchus et Ariane Op.43 published 1931, String Quartet Op.45, Prelude et fugue Op.46, 3 Pieces Op.49, Andante et scherzo Op.51, Sinfonietta Op.52, Symphony No.4 Op.53) excluded. Checklist: scripts/bulk/catalogue_data.py ROUSSEL."
   }
  ]
 }
