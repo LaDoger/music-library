@@ -1186,6 +1186,105 @@ SATIE = [
     ("Relâche", "Relâche (ballet, Picabia)", None, UNV, r"relache", "Wikipedia gives composition 1924 only; IMSLP first-publication field not fetched; not imported"),
 ]
 
+GRIEG = [
+    # Lyric Pieces: one row per piece (66 pieces, 10 books). Years are the book publication dates in the Wikipedia 'Lyric Pieces' article.
+    # Fully PD (died 1907): no US-PD-only gate. Piece matching is by title word, or by opus number plus the title word for common titles.
+    # Book I, Op.12 (1867)
+    ("Op.12 No.1", "Arietta (Lyric Pieces Op.12 No.1)", 1867, IN, r"\b(?:arietta)\b|\bop 12 no 1\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.2", "Waltz (Vals) (Lyric Pieces Op.12 No.2)", 1867, IN, r"\bop 12 no 2\b|\bop 12\b.*\b(?:vals|waltz)\b|\b(?:vals|waltz)\b.*\bop 12\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.3", "Watchman's Song (Vektersang) (Lyric Pieces Op.12 No.3)", 1867, IN, r"\b(?:v gtersang|vektersang|vaegtersang|watchman)\b|\bop 12 no 3\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.4", "Elves' Dance (Alfedans) (Lyric Pieces Op.12 No.4)", 1867, IN, r"\b(?:alfedans|elves dance|elfin dance|elvedans)\b|\bop 12 no 4\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.5", "Folk Song (Folkevise) (Lyric Pieces Op.12 No.5)", 1867, IN, r"\bop 12 no 5\b|\bop 12\b.*\b(?:folkevise|folk song|folk melody)\b|\b(?:folkevise|folk song|folk melody)\b.*\bop 12\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.6", "Norwegian Melody (Norsk) (Lyric Pieces Op.12 No.6)", 1867, IN, r"\bop 12 no 6\b|\bop 12\b.*\b(?:norsk|norwegian melody|norwegian dance)\b|\b(?:norsk|norwegian melody|norwegian dance)\b.*\bop 12\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.7", "Albumleaf (Albumblad) (Lyric Pieces Op.12 No.7)", 1867, IN, r"\bop 12 no 7\b|\bop 12\b.*\b(?:albumblad|album leaf|albumleaf)\b|\b(?:albumblad|album leaf|albumleaf)\b.*\bop 12\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    ("Op.12 No.8", "National Song (Fedrelandssang) (Lyric Pieces Op.12 No.8)", 1867, IN, r"\b(?:fedrelandssang|national song)\b|\bop 12 no 8\b", "Lyric Pieces Book I, Wikipedia publication year 1867"),
+    # Book II, Op.38 (1883)
+    ("Op.38 No.1", "Berceuse (Lyric Pieces Op.38 No.1)", 1883, IN, r"\b(?:berceuse|lullaby)\b|\bop 38 no 1\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.2", "Folk Song (Folkevise) (Lyric Pieces Op.38 No.2)", 1883, IN, r"\bop 38 no 2\b|\bop 38\b.*\b(?:folkevise|folk song|folk melody)\b|\b(?:folkevise|folk song|folk melody)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.3", "Melody (Melodi) (Lyric Pieces Op.38 No.3)", 1883, IN, r"\bop 38 no 3\b|\bop 38\b.*\b(?:melodi|melody)\b|\b(?:melodi|melody)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.4", "Dance (Halling) (Lyric Pieces Op.38 No.4)", 1883, IN, r"\bop 38 no 4\b|\bop 38\b.*\b(?:halling)\b|\b(?:halling)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.5", "Spring Dance (Springdans) (Lyric Pieces Op.38 No.5)", 1883, IN, r"\bop 38 no 5\b|\bop 38\b.*\b(?:springdans|spring dance)\b|\b(?:springdans|spring dance)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.6", "Elegy (Elegi) (Lyric Pieces Op.38 No.6)", 1883, IN, r"\bop 38 no 6\b|\bop 38\b.*\b(?:elegi|elegy)\b|\b(?:elegi|elegy)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.7", "Waltz (Vals) (Lyric Pieces Op.38 No.7)", 1883, IN, r"\bop 38 no 7\b|\bop 38\b.*\b(?:vals|waltz)\b|\b(?:vals|waltz)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    ("Op.38 No.8", "Canon (Kanon) (Lyric Pieces Op.38 No.8)", 1883, IN, r"\bop 38 no 8\b|\bop 38\b.*\b(?:kanon|canon)\b|\b(?:kanon|canon)\b.*\bop 38\b", "Lyric Pieces Book II, Wikipedia publication year 1883"),
+    # Book III, Op.43 (1886)
+    ("Op.43 No.1", "Butterfly (Sommerfugl) (Lyric Pieces Op.43 No.1)", 1886, IN, r"\b(?:sommerfugl|butterfly|papillon)\b|\bop 43 no 1\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    ("Op.43 No.2", "Lonely Wanderer (Ensom vandrer) (Lyric Pieces Op.43 No.2)", 1886, IN, r"\b(?:ensom vandrer|lonely wanderer|solitary)\b|\bop 43 no 2\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    ("Op.43 No.3", "In My Homeland (I hjemmet) (Lyric Pieces Op.43 No.3)", 1886, IN, r"\b(?:i hjemmet|in my homeland|native country|homeland)\b|\bop 43 no 3\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    ("Op.43 No.4", "Little Bird (Småfugl) (Lyric Pieces Op.43 No.4)", 1886, IN, r"\b(?:smafugl|little bird)\b|\bop 43 no 4\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    ("Op.43 No.5", "Erotikon (Lyric Pieces Op.43 No.5)", 1886, IN, r"\b(?:erotikon|erotikk|erotik)\b|\bop 43 no 5\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    ("Op.43 No.6", "To Spring (Til våren) (Lyric Pieces Op.43 No.6)", 1886, IN, r"\b(?:til varen|to spring|to the spring)\b|\bop 43 no 6\b", "Lyric Pieces Book III, Wikipedia publication year 1886"),
+    # Book IV, Op.47 (1888)
+    ("Op.47 No.1", "Valse-Impromptu (Lyric Pieces Op.47 No.1)", 1888, IN, r"\b(?:valse impromptu|valse-impromptu)\b|\bop 47 no 1\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.2", "Albumleaf (Albumblad) (Lyric Pieces Op.47 No.2)", 1888, IN, r"\bop 47 no 2\b|\bop 47\b.*\b(?:albumblad|album leaf|albumleaf)\b|\b(?:albumblad|album leaf|albumleaf)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.3", "Melody (Melodi) (Lyric Pieces Op.47 No.3)", 1888, IN, r"\bop 47 no 3\b|\bop 47\b.*\b(?:melodi|melody)\b|\b(?:melodi|melody)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.4", "Halling (Dance) (Lyric Pieces Op.47 No.4)", 1888, IN, r"\bop 47 no 4\b|\bop 47\b.*\b(?:halling)\b|\b(?:halling)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.5", "Melancholy (Melankoli) (Lyric Pieces Op.47 No.5)", 1888, IN, r"\bop 47 no 5\b|\bop 47\b.*\b(?:melankoli|melancholy)\b|\b(?:melankoli|melancholy)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.6", "Spring Dance (Springtanz) (Lyric Pieces Op.47 No.6)", 1888, IN, r"\bop 47 no 6\b|\bop 47\b.*\b(?:springtanz|spring dance)\b|\b(?:springtanz|spring dance)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    ("Op.47 No.7", "Elegy (Elegi) (Lyric Pieces Op.47 No.7)", 1888, IN, r"\bop 47 no 7\b|\bop 47\b.*\b(?:elegi|elegy)\b|\b(?:elegi|elegy)\b.*\bop 47\b", "Lyric Pieces Book IV, Wikipedia publication year 1888"),
+    # Book V, Op.54 (1891)
+    ("Op.54 No.1", "Shepherd's Boy (Gjetergutt) (Lyric Pieces Op.54 No.1)", 1891, IN, r"\b(?:gjetergutt|shepherd s boy)\b|\bop 54 no 1\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    ("Op.54 No.2", "Norwegian March (Gangar) (Lyric Pieces Op.54 No.2)", 1891, IN, r"\b(?:gangar|norwegian march)\b|\bop 54 no 2\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    ("Op.54 No.3", "March of the Trolls (Trolltog) (Lyric Pieces Op.54 No.3)", 1891, IN, r"\b(?:trolltog|march of the trolls|troldtog|zuge der zwerge)\b|\bop 54 no 3\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    ("Op.54 No.4", "Notturno (Lyric Pieces Op.54 No.4)", 1891, IN, r"\bop 54 no 4\b|\bop 54\b.*\b(?:notturno|nocturne)\b|\b(?:notturno|nocturne)\b.*\bop 54\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    ("Op.54 No.5", "Scherzo (Lyric Pieces Op.54 No.5)", 1891, IN, r"\bop 54 no 5\b|\bop 54\b.*\b(?:scherzo)\b|\b(?:scherzo)\b.*\bop 54\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    ("Op.54 No.6", "Bell Sound (Klokkeklang) (Lyric Pieces Op.54 No.6)", 1891, IN, r"\b(?:klokkeklang|bell sound)\b|\bop 54 no 6\b", "Lyric Pieces Book V, Wikipedia publication year 1891"),
+    # Book VI, Op.57 (1893)
+    ("Op.57 No.1", "Vanished Days (Svundne dager) (Lyric Pieces Op.57 No.1)", 1893, IN, r"\b(?:svundne dager|vanished days|svundne)\b|\bop 57 no 1\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    ("Op.57 No.2", "Gade (Street) (Lyric Pieces Op.57 No.2)", 1893, IN, r"\bop 57 no 2\b|\bop 57\b.*\b(?:gade)\b|\b(?:gade)\b.*\bop 57\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    ("Op.57 No.3", "Illusion (Illusjon) (Lyric Pieces Op.57 No.3)", 1893, IN, r"\b(?:illusjon|illusion)\b|\bop 57 no 3\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    ("Op.57 No.4", "Secret (Geheimniss) (Lyric Pieces Op.57 No.4)", 1893, IN, r"\bop 57 no 4\b|\bop 57\b.*\b(?:geheimniss|geheimnis|secret)\b|\b(?:geheimniss|geheimnis|secret)\b.*\bop 57\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    ("Op.57 No.5", "She Dances (Sie tanzt) (Lyric Pieces Op.57 No.5)", 1893, IN, r"\b(?:sie tanzt|she dances)\b|\bop 57 no 5\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    ("Op.57 No.6", "Homesickness (Heimweh) (Lyric Pieces Op.57 No.6)", 1893, IN, r"\b(?:heimweh|homesickness)\b|\bop 57 no 6\b", "Lyric Pieces Book VI, Wikipedia publication year 1893"),
+    # Book VII, Op.62 (1895)
+    ("Op.62 No.1", "Sylph (Sylfide) (Lyric Pieces Op.62 No.1)", 1895, IN, r"\b(?:sylfide|sylph)\b|\bop 62 no 1\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    ("Op.62 No.2", "Gratitude (Takk) (Lyric Pieces Op.62 No.2)", 1895, IN, r"\b(?:takk|gratitude)\b|\bop 62 no 2\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    ("Op.62 No.3", "French Serenade (Lyric Pieces Op.62 No.3)", 1895, IN, r"\b(?:fransk serenade|french serenade)\b|\bop 62 no 3\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    ("Op.62 No.4", "Brooklet (Bekken) (Lyric Pieces Op.62 No.4)", 1895, IN, r"\b(?:bekken|brooklet)\b|\bop 62 no 4\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    ("Op.62 No.5", "Phantom (Drømmesyn) (Lyric Pieces Op.62 No.5)", 1895, IN, r"\b(?:phantom|dr mmesyn|drommesyn)\b|\bop 62 no 5\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    ("Op.62 No.6", "Homeward (Hjemad) (Lyric Pieces Op.62 No.6)", 1895, IN, r"\b(?:hjemad|homeward)\b|\bop 62 no 6\b", "Lyric Pieces Book VII, Wikipedia publication year 1895"),
+    # Book VIII, Op.65 (1897)
+    ("Op.65 No.1", "From My Youth (Fra ungdomsdagene) (Lyric Pieces Op.65 No.1)", 1897, IN, r"\b(?:ungdomsdagene|from my youth)\b|\bop 65 no 1\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    ("Op.65 No.2", "Peasant's Song (Bondens sang) (Lyric Pieces Op.65 No.2)", 1897, IN, r"\b(?:bondens sang|peasant s song|peasant song)\b|\bop 65 no 2\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    ("Op.65 No.3", "Melancholy (Tungsinn) (Lyric Pieces Op.65 No.3)", 1897, IN, r"\bop 65 no 3\b|\bop 65\b.*\b(?:tungsinn|melancholy)\b|\b(?:tungsinn|melancholy)\b.*\bop 65\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    ("Op.65 No.4", "Salon (Lyric Pieces Op.65 No.4)", 1897, IN, r"\bop 65 no 4\b|\bop 65\b.*\b(?:salon)\b|\b(?:salon)\b.*\bop 65\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    ("Op.65 No.5", "Ballad (I balladetone) (Lyric Pieces Op.65 No.5)", 1897, IN, r"\bop 65 no 5\b|\bop 65\b.*\b(?:balladetone|in ballad tone|ballad)\b|\b(?:balladetone|in ballad tone|ballad)\b.*\bop 65\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    ("Op.65 No.6", "Wedding Day at Troldhaugen (Lyric Pieces Op.65 No.6)", 1897, IN, r"\b(?:wedding day|bryllupsdag|troldhaugen)\b|\bop 65 no 6\b", "Lyric Pieces Book VIII, Wikipedia publication year 1897"),
+    # Book IX, Op.68 (1899)
+    ("Op.68 No.1", "Sailors' Song (Matrosenes oppsang) (Lyric Pieces Op.68 No.1)", 1899, IN, r"\b(?:matrosenes|sailor s song)\b|\bop 68 no 1\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    ("Op.68 No.2", "Grandmother's Minuet (Bestemors menuet) (Lyric Pieces Op.68 No.2)", 1899, IN, r"\b(?:bestemors|grandmother s minuet|grandmother)\b|\bop 68 no 2\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    ("Op.68 No.3", "At Your Feet (For dine føtter) (Lyric Pieces Op.68 No.3)", 1899, IN, r"\b(?:at your feet|for dine f)\b|\bop 68 no 3\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    ("Op.68 No.4", "Evening in the Mountains (Aften på højfjellet) (Lyric Pieces Op.68 No.4)", 1899, IN, r"\b(?:evening in the mountains|aften pa|h jfjell)\b|\bop 68 no 4\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    ("Op.68 No.5", "At the Cradle (Bådnlåt) (Lyric Pieces Op.68 No.5)", 1899, IN, r"\b(?:at the cradle|badn lat)\b|\bop 68 no 5\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    ("Op.68 No.6", "Melancholy Waltz (Valse mélancolique) (Lyric Pieces Op.68 No.6)", 1899, IN, r"\b(?:valse melancolique|melancholy waltz)\b|\bop 68 no 6\b", "Lyric Pieces Book IX, Wikipedia publication year 1899"),
+    # Book X, Op.71 (1901)
+    ("Op.71 No.1", "Once upon a Time (Det var engang) (Lyric Pieces Op.71 No.1)", 1901, IN, r"\b(?:det var engang|once upon a time)\b|\bop 71 no 1\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.2", "Summer's Eve (Sommeraften) (Lyric Pieces Op.71 No.2)", 1901, IN, r"\b(?:sommeraften|summer s eve)\b|\bop 71 no 2\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.3", "Puck (Småtroll) (Lyric Pieces Op.71 No.3)", 1901, IN, r"\b(?:puck|smatroll)\b|\bop 71 no 3\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.4", "Peace in the Woods (Skogstillhet) (Lyric Pieces Op.71 No.4)", 1901, IN, r"\b(?:skogstillhet|peace in the woods)\b|\bop 71 no 4\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.5", "Halling (Lyric Pieces Op.71 No.5)", 1901, IN, r"\bop 71 no 5\b|\bop 71\b.*\b(?:halling)\b|\b(?:halling)\b.*\bop 71\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.6", "Gone (Forbi) (Lyric Pieces Op.71 No.6)", 1901, IN, r"\bop 71 no 6\b|\bop 71\b.*\b(?:forbi|gone)\b|\b(?:forbi|gone)\b.*\bop 71\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    ("Op.71 No.7", "Remembrances (Efterklang) (Lyric Pieces Op.71 No.7)", 1901, IN, r"\b(?:efterklang|remembrances)\b|\bop 71 no 7\b", "Lyric Pieces Book X, Wikipedia publication year 1901"),
+    # Other works (fully PD). Years are general-reference dates, NOT checked against IMSLP; they are for the record only (no gate).
+    ("Op.7", "Piano Sonata in E minor (Op.7)", 1865, IN, r"\bop 7\b", "Piano Sonata, composed 1865"),
+    ("Op.8", "Violin Sonata No.1 in F major (Op.8)", 1867, IN, r"\bop 8\b", "Violin Sonata No.1"),
+    ("Op.13", "Violin Sonata No.2 in G major (Op.13)", 1867, IN, r"\bop 13\b", "Violin Sonata No.2"),
+    ("Op.16", "Piano Concerto in A minor (Op.16)", 1868, IN, r"\bop 16\b", "Piano Concerto, composed 1868"),
+    ("Op.22", "Sigurd Jorsalfar (Op.22)", 1872, IN, r"\bop 22\b", "Incidental music to Bjørnson's play"),
+    ("Op.23", "Peer Gynt incidental music (Op.23)", 1876, IN, r"\bop 23\b", "Incidental music to Ibsen's play; Solveig's Song is No.4"),
+    ("Op.24", "Ballade in G minor (Op.24)", 1877, IN, r"\bop 24\b", "Piano Ballade (Ballade in the variation form)"),
+    ("Op.27", "String Quartet No.1 in G minor (Op.27)", 1878, IN, r"\bop 27\b", "String Quartet No.1"),
+    ("Op.35", "Norwegian Dances (Op.35)", None, UNV, r"\bop 35\b", "Piano four hands; IMSLP work page at the standard title (404); not imported"),
+    ("Op.36", "Cello Sonata in A minor (Op.36)", 1883, IN, r"\bop 36\b", "Cello Sonata"),
+    ("Op.40", "Holberg Suite (Op.40)", 1884, IN, r"\bop 40\b", "Originally piano; string orchestra version"),
+    ("Op.45", "Violin Sonata No.3 in C minor (Op.45)", 1887, IN, r"\bop 45\b", "Violin Sonata No.3"),
+    ("Op.46", "Peer Gynt Suite No.1 (Op.46)", 1888, IN, r"\bop 46\b", "Orchestral suite; Morning Mood and Mountain King are live"),
+    ("Op.55", "Peer Gynt Suite No.2 (Op.55)", 1893, IN, r"\bop 55\b", "Orchestral suite"),
+    ("Op.64", "Symphonic Dances (Op.64)", 1898, IN, r"\bop 64\b", "Orchestral dances"),
+    ("Op.67", "Haugtussa (Op.67)", 1896, IN, r"\bop 67\b", "Song cycle (eight songs)"),
+    ("Op.72", "Slåtter (Op.72)", None, UNV, r"\bop 72\b", "IMSLP work page at the standard title (404); not imported"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1384,5 +1483,11 @@ COMPOSERS = {
         "catalogue": "no standard catalogue (titles and IMSLP work pages)", "rows": SATIE,
         "prefix": "satie", "genre": "classical", "era": "Early 20th century (French)",
         "scope_note": "Fully PD (died 1925): no US-PD-only gate; publication years kept for the record. Piano works first (Gymnopédies, Gnossiennes, Sarabandes, Ogives, Pièces froides, Avant-dernières pensées, Embryons desséchés, Sports et divertissements, Nocturnes, Vexations, Le Piccadilly, Trois morceaux en forme de poire, Trois véritables préludes flasques, Heures séculaires, Croquis, Sonatine bureaucratique, Chapitres tournés en tous sens), then the vocal and stage works (Je te veux, Parade, Socrate, Messe des pauvres). Works with no IMSLP first-publication field fetched (Descriptions automatiques, Vieux sequins, Les Pantins dansent, Rêverie de l'enfance de Pantagruel, Relâche) are unverified and not imported. Live rows from earlier batches (Commons Ogives, Ludions, Socrate movements, the Gnossiennes and Gymnopédies arrangements) are matched by the live-title dedupe, not re-imported.",
+    },
+    "grieg": {
+        "name": "Edvard Grieg", "canon": "edvard grieg", "death": 1907, "birth": 1843,
+        "catalogue": "Op. (EG for the songs)", "rows": GRIEG,
+        "prefix": "grieg", "genre": "classical", "era": "Late Romantic (Norwegian)",
+        "scope_note": "Fully PD (died 1907): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: all 66 Lyric Pieces (10 books, Op.12/38/43/47/54/57/62/65/68/71), one row per piece, then the main works (Piano Sonata Op.7, Violin Sonatas Op.8/13/45, Piano Concerto Op.16, Sigurd Jorsalfar Op.22, Peer Gynt Op.23/46/55, Ballade Op.24, String Quartet Op.27, Norwegian Dances Op.35, Cello Sonata Op.36, Holberg Suite Op.40, Symphonic Dances Op.64, Haugtussa Op.67, Slåtter Op.72). Work-level years are general-reference dates, not IMSLP-checked.",
     },
 }

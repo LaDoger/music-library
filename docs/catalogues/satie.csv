@@ -1,0 +1,27 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+3 Gymnopédies,Gymnopédies Nos 1-3 (piano),1888,in-scope,yes,10,satie_gymnopedie_1 satie_gymnopedie_no_1_guitar satie_gymnopedie_no_1_by_satie_tra satie_gymnopedie_no_2 satie_gymnopedie_no_3 satie_3_gymnopedies_deuxieme_gymnopedie satie_3_gymnopedies_troisieme_gymnopedie satie_3_gymnopedies_gymnopedie_1 satie_3_gymnopedies_gymnopedie_1b2 satie_3_gymnopedies_gymnopedie_1b3,,"IMSLP: self-published, Paris, n.d. [1888-95]; composed 1888"
+Gnossiennes,Gnossiennes Nos 1-6 (piano),1913,in-scope,yes,10,satie_gnossienne_1 satie_satie_gnossienne_4_arrangeme satie_gnossienne_n2_solo satie_imslp_gnossienne_no_1_arr_for_quartet satie_imslp_gnossienne_no_1_arr_for_quintet satie_erik_satie_gnossienne_no_4 satie_erik_satie_gnossienne_no_3 satie_gnossienne_no_1_for_flute_an satie_s2_satie_gnossienne_6_arrangeme satie_gnossiennes_1ere_gnossienne,,"IMSLP: Rouart, Lerolle, Paris 1913 (earliest listed); composed 1889-97"
+3 Sarabandes,3 Sarabandes (piano),1911,in-scope,no,0,,,"IMSLP: Rouart, Lerolle, Paris 1911; composed 1887"
+4 Ogives,4 Ogives (piano),1889,in-scope,yes,5,satie_four_ogives_erik_satie satie_ogive_no_1 satie_ogive_no_2 satie_ogive_no_3 satie_ogive_no_4,,"IMSLP: self-published, Paris 1889; composed 1886"
+Pièces froides,Pièces froides (piano),1913,in-scope,no,0,,,"IMSLP: first published 1913 (earliest listed Rouart, Lerolle 1912); composed 1897"
+Avant-dernières pensées,Avant-dernières pensées (piano),1916,in-scope,no,0,,,"IMSLP: Rouart, Lerolle, Paris 1916; composed 1915"
+Embryons desséchés,Embryons desséchés (piano),1913,in-scope,no,0,,,"IMSLP: E. Demets, Paris 1913; composed 1913"
+Sports et divertissements,Sports et divertissements (piano and drawings),1914,in-scope,no,0,,,"IMSLP: Lucien Vogel, Paris 1914; composed 1914"
+5 Nocturnes,5 Nocturnes (piano),1919,in-scope,no,0,,,"IMSLP: Rouart, Lerolle 1919 (Nos 1-3), E. Demets 1920 (No.5); composed 1919"
+Vexations,Vexations (piano),1949,in-scope,yes,1,satie_vexations_erik_satie,,IMSLP: first published 1949 (publisher not stated); composed 1893
+Je te veux,Je te veux (waltz song),1902,in-scope,yes,2,satie_je_te_veux_for_cello_triob51 satie_je_te_veux,,"IMSLP 'First Publication' field 1902; Bellon, Ponscarme 1903 earliest listed"
+Parade,"Parade (ballet, vocal score)",1917,in-scope,no,0,,,"IMSLP: Rouart, Lerolle, Paris 1917; composed 1916-17"
+Socrate,"Socrate (drame symphonique, voice and piano)",1919,in-scope,yes,4,satie_no_2_bords_de_l_ilissus satie_no_3_mort_de_socrate satie_no_1_portrait_de_socrate satie_socrate_erik_satie_socrate,,"IMSLP: Éditions de la Sirène, Paris 1919 (vocal score); composed 1917-18"
+Le Piccadilly,Le Piccadilly (piano),1975,in-scope,no,0,,,"IMSLP: Salabert, Paris 1975 (first published); composed 1904"
+3 Morceaux en forme de poire,3 Morceaux en forme de poire (piano duet),1911,in-scope,yes,1,satie_3_morceaux_en_forme_de_poire,,"IMSLP: Rouart, Lerolle, Paris 1911; composed 1903"
+3 Véritables préludes flasques,3 Véritables préludes flasques (pour un chien),1912,in-scope,no,0,,,"IMSLP: E. Demets, Paris 1912; composed 1912"
+Heures séculaires et instantanées,Heures séculaires et instantanées (piano and text),1916,in-scope,no,0,,,"IMSLP: E. Demets, Paris 1916; composed 1914"
+Croquis et agaceries,Croquis et agaceries d'un gros bonhomme en bois (piano),1913,in-scope,no,0,,,"IMSLP: E. Demets, Paris 1913; composed 1913"
+Sonatine bureaucratique,Sonatine bureaucratique (piano),1917,in-scope,no,0,,,"IMSLP: S. Chapelier, Paris 1917; composed 1917"
+Chapitres tournés en tous sens,Chapitres tournés en tous sens (piano),1913,in-scope,no,0,,,"IMSLP: E. Demets, Paris 1913; composed 1913"
+Messe des pauvres,Messe des pauvres (voice and organ),1920,in-scope,yes,1,satie_imslp_messe_des_pauvres_priere_pour_le_salut_de,,"IMSLP: Rouart, Lerolle 1920 (extracts 1895); composed 1893-95"
+Descriptions automatiques,Descriptions automatiques (piano),,unverified-pub,no,0,,,Wikipedia gives composition 1913 only; IMSLP first-publication field not fetched; not imported
+Vieux sequins et vieilles cuirasses,Vieux sequins et vieilles cuirasses (piano),,unverified-pub,no,0,,,Wikipedia gives composition 1913 only; IMSLP first-publication field not fetched; not imported
+Les Pantins dansent,Les Pantins dansent (piano),,unverified-pub,no,0,,,Wikipedia gives composition 1913 only; IMSLP page at the standard title (404); not imported
+Rêverie de l'enfance de Pantagruel,Rêverie de l'enfance de Pantagruel (piano),,unverified-pub,no,0,,,Wikipedia gives composition 1919 only; IMSLP first-publication field not fetched; not imported
+Relâche,"Relâche (ballet, Picabia)",,unverified-pub,no,0,,,Wikipedia gives composition 1924 only; IMSLP first-publication field not fetched; not imported
