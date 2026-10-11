@@ -3833,6 +3833,40 @@
    }
   ],
   "search_text": "gymnopédie no. 1 erik satie trois gymnopédies no.1 trois gymnopédies no 1 trois gymnopédies no.1 troisgymnopédiesno1  satie gymnopedie 1 calm spare melancholy classical late romantic / early 20th user:teknopazzo (own recording, dedicated cc0) satie, erik",
+  "analysis_url": "files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.analysis.json",
+  "annotated_score_url": "files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.annotated.musicxml",
+  "analysis_tags": [
+   "bass_line:pedal",
+   "cadence:open_phrase",
+   "cadence:plagal",
+   "cadence:tonic_close",
+   "colour_chord:added_note",
+   "colour_chord:borrowed",
+   "counterpoint:oblique_motion",
+   "form:coda",
+   "form:intro",
+   "form:theme_1",
+   "form:theme_2",
+   "form:theme_tail",
+   "hook:harmonic_cell",
+   "hook:melodic_cell",
+   "modulation:direct_phrase_modulation",
+   "motif:repetition",
+   "motif:sequence",
+   "rhythm_phrase:phrase_length",
+   "story:arrival",
+   "story:continuation",
+   "story:start",
+   "story:turn",
+   "tension_release:pedal_point_inner",
+   "tension_release:pedal_point_tonic",
+   "texture_dynamics:climax",
+   "voicing_orchestration:open_spacing"
+  ],
+  "analysis_quarter_range": [
+   0,
+   141.0
+  ],
   "score_method": "Reconstructed from MIDI"
  },
  {

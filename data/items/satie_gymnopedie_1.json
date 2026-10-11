@@ -67,6 +67,40 @@
    "licence": "CC BY 4.0"
   }
  ],
+ "analysis_url": "files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.analysis.json",
+ "annotated_score_url": "files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.annotated.musicxml",
+ "analysis_tags": [
+  "bass_line:pedal",
+  "cadence:open_phrase",
+  "cadence:plagal",
+  "cadence:tonic_close",
+  "colour_chord:added_note",
+  "colour_chord:borrowed",
+  "counterpoint:oblique_motion",
+  "form:coda",
+  "form:intro",
+  "form:theme_1",
+  "form:theme_2",
+  "form:theme_tail",
+  "hook:harmonic_cell",
+  "hook:melodic_cell",
+  "modulation:direct_phrase_modulation",
+  "motif:repetition",
+  "motif:sequence",
+  "rhythm_phrase:phrase_length",
+  "story:arrival",
+  "story:continuation",
+  "story:start",
+  "story:turn",
+  "tension_release:pedal_point_inner",
+  "tension_release:pedal_point_tonic",
+  "texture_dynamics:climax",
+  "voicing_orchestration:open_spacing"
+ ],
+ "analysis_quarter_range": [
+  0,
+  141.0
+ ],
  "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
@@ -85,5 +119,7 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Erik Satie: Gymnopédie No. 1, Trois Gymnopédies No.1 (composition public domain).\nRecording: User:Teknopazzo (own recording, dedicated CC0). Licence: CC0. Source: https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37. Licence: PD."
+ "credit_text": "Erik Satie: Gymnopédie No. 1, Trois Gymnopédies No.1 (composition public domain).\nRecording: User:Teknopazzo (own recording, dedicated CC0). Licence: CC0. Source: https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg\nScore edition: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37. Licence: PD.",
+ "analysis_url_abs": "https://ladoger.github.io/music-library/files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.analysis.json",
+ "annotated_score_url_abs": "https://ladoger.github.io/music-library/files/analysis/satie_gymnopedie_1/satie_gymnopedie_1.annotated.musicxml"
 }
