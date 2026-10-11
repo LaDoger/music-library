@@ -3091,7 +3091,8 @@
   "score_files": [
    "files/scores/pachelbel_canon_d.mid",
    "files/scores/pachelbel_canon_d_lilypond.zip",
-   "files/scores/pachelbel_canon_d_midi.zip"
+   "files/scores/pachelbel_canon_d_midi.zip",
+   "files/scores/pachelbel_canon_d_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "elegant",
@@ -3115,7 +3116,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/pachelbel_canon_d.mid",
   "other_editions": [],
-  "search_text": "canon in d major johann pachelbel p. 37 p 37 p. 37 p37 canon pachelbel canon d elegant calm uplifting classical baroque  pachelbel, johann"
+  "search_text": "canon in d major johann pachelbel p. 37 p 37 p. 37 p37 canon pachelbel canon d elegant calm uplifting classical baroque  pachelbel, johann",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "rachmaninoff_piano_concerto_2",
@@ -128774,7 +128776,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_a_child_asleep_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_a_child_asleep_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_a_child_asleep_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_a_child_asleep_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -128797,7 +128800,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_a_child_asleep_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "a child asleep (arr. for orchestra) edward elgar    elgar imslp a child asleep arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "a child asleep (arr. for orchestra) edward elgar    elgar imslp a child asleep arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_always_and_everywhere_arr_for_orchestra",
@@ -128845,7 +128849,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_always_and_everywhere_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_always_and_everywhere_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_always_and_everywhere_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_always_and_everywhere_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -128868,7 +128873,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_always_and_everywhere_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "always and everywhere (arr. for orchestra) edward elgar    elgar imslp always and everywhere arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "always and everywhere (arr. for orchestra) edward elgar    elgar imslp always and everywhere arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_arabian_serenade_arr_for_orchestra",
@@ -129058,7 +129064,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_big_steamers_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_big_steamers_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_big_steamers_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_big_steamers_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129081,7 +129088,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_big_steamers_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "big steamers (arr. for orchestra) edward elgar    elgar imslp big steamers arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "big steamers (arr. for orchestra) edward elgar    elgar imslp big steamers arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_come_gentle_night_arr_for_orchestra",
@@ -129129,7 +129137,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_come_gentle_night_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_come_gentle_night_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_come_gentle_night_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_come_gentle_night_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129152,7 +129161,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_come_gentle_night_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "come, gentle night! (arr. for orchestra) edward elgar    elgar imslp come gentle night arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "come, gentle night! (arr. for orchestra) edward elgar    elgar imslp come gentle night arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_credo",
@@ -129344,7 +129354,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_fear_not_o_land_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_fear_not_o_land_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_fear_not_o_land_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_fear_not_o_land_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129367,7 +129378,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_fear_not_o_land_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "fear not, o land (arr. for orchestra) edward elgar    elgar imslp fear not o land arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "fear not, o land (arr. for orchestra) edward elgar    elgar imslp fear not o land arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_fight_for_right_arr_for_orchestra",
@@ -129916,7 +129928,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_inside_the_bar_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_inside_the_bar_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_inside_the_bar_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_inside_the_bar_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -129939,7 +129952,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_inside_the_bar_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "inside the bar (arr. for orchestra) edward elgar    elgar imslp inside the bar arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "inside the bar (arr. for orchestra) edward elgar    elgar imslp inside the bar arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_is_she_not_passing_fair_arr_for_orchestra",
@@ -129987,7 +130001,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_is_she_not_passing_fair_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_is_she_not_passing_fair_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_is_she_not_passing_fair_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_is_she_not_passing_fair_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "intimate"
@@ -130009,7 +130024,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_is_she_not_passing_fair_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "is she not passing fair? (arr. for orchestra) edward elgar    elgar imslp is she not passing fair arr for orchestra intimate classical late romantic / early 20th  elgar, edward"
+  "search_text": "is she not passing fair? (arr. for orchestra) edward elgar    elgar imslp is she not passing fair arr for orchestra intimate classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_it_isnae_me_arr_for_orchestra_with_harp",
@@ -130203,7 +130219,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_like_to_the_damask_rose_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_like_to_the_damask_rose_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_like_to_the_damask_rose_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_like_to_the_damask_rose_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130226,7 +130243,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_like_to_the_damask_rose_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "like to the damask rose (arr. for orchestra) edward elgar    elgar imslp like to the damask rose arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "like to the damask rose (arr. for orchestra) edward elgar    elgar imslp like to the damask rose arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_memorial_chimes",
@@ -130274,7 +130292,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_memorial_chimes.mid",
   "score_files": [
-   "files/scores/elgar_imslp_memorial_chimes.mid"
+   "files/scores/elgar_imslp_memorial_chimes.mid",
+   "files/scores/elgar_imslp_memorial_chimes_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130297,7 +130316,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_memorial_chimes.mid",
   "other_editions": [],
-  "search_text": "memorial chimes edward elgar    elgar imslp memorial chimes classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "memorial chimes edward elgar    elgar imslp memorial chimes classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_now_with_the_fast_departing_light",
@@ -130491,7 +130511,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_offertoire_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_offertoire_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_offertoire_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_offertoire_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130514,7 +130535,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_offertoire_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "offertoire (arr. for orchestra) edward elgar    elgar imslp offertoire arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "offertoire (arr. for orchestra) edward elgar    elgar imslp offertoire arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_peckham_march",
@@ -130562,7 +130584,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_peckham_march.mid",
   "score_files": [
-   "files/scores/elgar_imslp_peckham_march.mid"
+   "files/scores/elgar_imslp_peckham_march.mid",
+   "files/scores/elgar_imslp_peckham_march_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "march",
@@ -130585,7 +130608,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_peckham_march.mid",
   "other_editions": [],
-  "search_text": "peckham march edward elgar    elgar imslp peckham march march ceremonial classical late romantic / early 20th  elgar, edward"
+  "search_text": "peckham march edward elgar    elgar imslp peckham march march ceremonial classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_presto",
@@ -130706,7 +130730,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_queen_mary_s_song_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_queen_mary_s_song_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_queen_mary_s_song_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_queen_mary_s_song_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130729,7 +130754,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_queen_mary_s_song_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "queen mary's song (arr. for orchestra) edward elgar    elgar imslp queen mary s song arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "queen mary's song (arr. for orchestra) edward elgar    elgar imslp queen mary s song arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_reminiscences",
@@ -130777,7 +130803,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_reminiscences.mid",
   "score_files": [
-   "files/scores/elgar_imslp_reminiscences.mid"
+   "files/scores/elgar_imslp_reminiscences.mid",
+   "files/scores/elgar_imslp_reminiscences_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130800,7 +130827,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_reminiscences.mid",
   "other_editions": [],
-  "search_text": "reminiscences edward elgar    elgar imslp reminiscences classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "reminiscences edward elgar    elgar imslp reminiscences classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_roundel",
@@ -130848,7 +130876,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_roundel.mid",
   "score_files": [
-   "files/scores/elgar_imslp_roundel.mid"
+   "files/scores/elgar_imslp_roundel.mid",
+   "files/scores/elgar_imslp_roundel_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130871,7 +130900,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_roundel.mid",
   "other_editions": [],
-  "search_text": "roundel edward elgar    elgar imslp roundel classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "roundel edward elgar    elgar imslp roundel classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_salve_regina_satb_and_organ",
@@ -130919,7 +130949,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_salve_regina_satb_and_organ.mid",
   "score_files": [
-   "files/scores/elgar_imslp_salve_regina_satb_and_organ.mid"
+   "files/scores/elgar_imslp_salve_regina_satb_and_organ.mid",
+   "files/scores/elgar_imslp_salve_regina_satb_and_organ_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -130942,7 +130973,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_salve_regina_satb_and_organ.mid",
   "other_editions": [],
-  "search_text": "salve regina [satb and organ] edward elgar    elgar imslp salve regina satb and organ classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "salve regina [satb and organ] edward elgar    elgar imslp salve regina satb and organ classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_salve_regina_satbb2",
@@ -130990,7 +131022,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_salve_regina_satbb2.mid",
   "score_files": [
-   "files/scores/elgar_imslp_salve_regina_satbb2.mid"
+   "files/scores/elgar_imslp_salve_regina_satbb2.mid",
+   "files/scores/elgar_imslp_salve_regina_satbb2_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131013,7 +131046,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_salve_regina_satbb2.mid",
   "other_editions": [],
-  "search_text": "salve regina [satb] edward elgar    elgar imslp salve regina satbb2 classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "salve regina [satb] edward elgar    elgar imslp salve regina satbb2 classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_speak_my_heart_arr_for_orchestra",
@@ -131061,7 +131095,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_speak_my_heart_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_speak_my_heart_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_speak_my_heart_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_speak_my_heart_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131084,7 +131119,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_speak_my_heart_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "speak, my heart! (arr. for orchestra) edward elgar    elgar imslp speak my heart arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "speak, my heart! (arr. for orchestra) edward elgar    elgar imslp speak my heart arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_brook_arr_for_orchestra",
@@ -131276,7 +131312,9 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_language_of_flowers.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_language_of_flowers.mid"
+   "files/scores/elgar_imslp_the_language_of_flowers.mid",
+   "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51_reconstructed.mxl",
+   "files/scores/elgar_imslp_the_language_of_flowers_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131299,7 +131337,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_the_language_of_flowers.mid",
   "other_editions": [],
-  "search_text": "the language of flowers edward elgar    elgar imslp the language of flowers classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the language of flowers edward elgar    elgar imslp the language of flowers classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_language_of_flowers_arr_for_orchestrab51",
@@ -131347,7 +131386,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51.mid",
   "score_files": [
-   "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51.mid"
+   "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51.mid",
+   "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -131370,7 +131410,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51.mid",
   "other_editions": [],
-  "search_text": "the language of flowers (arr. for orchestra) edward elgar    elgar imslp the language of flowers arr for orchestrab51 classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the language of flowers (arr. for orchestra) edward elgar    elgar imslp the language of flowers arr for orchestrab51 classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_the_merry_go_round_arr_for_orchestra",
@@ -131786,7 +131827,8 @@
   "score_url": "files/scores/elgar_imslp_op_12_salut_d_amour.mid",
   "score_files": [
    "files/scores/elgar_imslp_op_12_salut_d_amour.mid",
-   "files/scores/elgar_imslp_op_12_salut_d_amour.mscz"
+   "files/scores/elgar_imslp_op_12_salut_d_amour.mscz",
+   "files/scores/elgar_imslp_op_12_salut_d_amour_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "lyrical",
@@ -131809,7 +131851,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_12_salut_d_amour.mid",
   "other_editions": [],
-  "search_text": "salut d'amour edward elgar op. 12 op 12 op. 12 op12  elgar imslp op 12 salut d amour lyrical tender classical late romantic / early 20th  elgar, edward"
+  "search_text": "salut d'amour edward elgar op. 12 op 12 op. 12 op12  elgar imslp op 12 salut d amour lyrical tender classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_op_12_salut_d_amour_liebesgruss",
@@ -132803,7 +132846,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -132826,7 +132870,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_31_a_song_of_flight_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "a song of flight (arr. for orchestra) edward elgar op. 31 op 31 op. 31 op31  elgar imslp op 31 a song of flight arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "a song of flight (arr. for orchestra) edward elgar op. 31 op 31 op. 31 op31  elgar imslp op 31 a song of flight arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_31_after_arr_for_orchestra",
@@ -132874,7 +132919,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_31_after_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_31_after_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_31_after_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_31_after_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -132897,7 +132943,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_31_after_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "after (arr. for orchestra) edward elgar op. 31 op 31 op. 31 op31  elgar imslp op 31 after arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "after (arr. for orchestra) edward elgar op. 31 op 31 op. 31 op31  elgar imslp op 31 after arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_op_36_enigma_variations_op_36_variation_10_dorab",
@@ -133445,7 +133492,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133468,7 +133516,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_41_in_the_dawn_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "in the dawn (arr. for orchestra) edward elgar op. 41 op 41 op. 41 op41  elgar imslp op 41 in the dawn arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "in the dawn (arr. for orchestra) edward elgar op. 41 op 41 op. 41 op41  elgar imslp op 41 in the dawn arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_41_speak_music_arr_for_orchestra",
@@ -133516,7 +133565,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_41_speak_music_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_41_speak_music_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_41_speak_music_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_41_speak_music_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133539,7 +133589,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_41_speak_music_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "speak music (arr. for orchestra) edward elgar op. 41 op 41 op. 41 op41  elgar imslp op 41 speak music arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "speak music (arr. for orchestra) edward elgar op. 41 op 41 op. 41 op41  elgar imslp op 41 speak music arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_op_42_there_are_seven_that_pull_the_thread_edwar",
@@ -133658,7 +133709,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_48_pleading_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_48_pleading_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_48_pleading_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_48_pleading_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133681,7 +133733,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_48_pleading_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "pleading (arr. for orchestra) edward elgar op. 48 op 48 op. 48 op48  elgar imslp op 48 pleading arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "pleading (arr. for orchestra) edward elgar op. 48 op 48 op. 48 op48  elgar imslp op 48 pleading arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_5_a_war_song_arr_for_orchestra",
@@ -133871,7 +133924,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc.mid"
+   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc.mid",
+   "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -133894,7 +133948,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_59_o_soft_was_the_song_in_d_arr_for_orc.mid",
   "other_editions": [],
-  "search_text": "o soft was the song (in d) (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 o soft was the song in d arr for orc classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "o soft was the song (in d) (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 o soft was the song in d arr for orc classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_59_o_soft_was_the_song_in_e_arr_for_orc",
@@ -134086,7 +134141,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch.mid"
+   "files/scores/elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch.mid",
+   "files/scores/elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -134109,7 +134165,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_59_was_it_some_golden_star_arr_for_orch.mid",
   "other_editions": [],
-  "search_text": "was it some golden star? (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 was it some golden star arr for orch classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "was it some golden star? (arr. for orchestra) edward elgar op. 59 op 59 op. 59 op59  elgar imslp op 59 was it some golden star arr for orch classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_op_60_2_songs_op_60_the_river",
@@ -134305,7 +134362,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_60_the_river_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_60_the_river_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_60_the_river_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_60_the_river_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -134328,7 +134386,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_60_the_river_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "the river (arr. for orchestra) edward elgar op. 60 op 60 op. 60 op60  elgar imslp op 60 the river arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the river (arr. for orchestra) edward elgar op. 60 op 60 op. 60 op60  elgar imslp op 60 the river arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_60_the_torch_arr_for_orchestra",
@@ -134376,7 +134435,8 @@
   "preview_url": "",
   "score_url": "files/scores/elgar_imslp_op_60_the_torch_arr_for_orchestra.mid",
   "score_files": [
-   "files/scores/elgar_imslp_op_60_the_torch_arr_for_orchestra.mid"
+   "files/scores/elgar_imslp_op_60_the_torch_arr_for_orchestra.mid",
+   "files/scores/elgar_imslp_op_60_the_torch_arr_for_orchestra_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -134399,7 +134459,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_60_the_torch_arr_for_orchestra.mid",
   "other_editions": [],
-  "search_text": "the torch (arr. for orchestra) edward elgar op. 60 op 60 op. 60 op60  elgar imslp op 60 the torch arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "the torch (arr. for orchestra) edward elgar op. 60 op 60 op. 60 op60  elgar imslp op 60 the torch arr for orchestra classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "elgar_imslp_op_65_coronation_march_arr_for_band",
@@ -134807,7 +134868,8 @@
   "score_url": "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor.mid",
   "score_files": [
    "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor.mid",
-   "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor.mscz"
+   "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor.mscz",
+   "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -134830,7 +134892,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/elgar_imslp_op_85_cello_concerto_in_e_minor.mid",
   "other_editions": [],
-  "search_text": "cello concerto in e minor edward elgar op. 85 op 85 op. 85 op85  elgar imslp op 85 cello concerto in e minor classical lyrical classical late romantic / early 20th  elgar, edward"
+  "search_text": "cello concerto in e minor edward elgar op. 85 op 85 op. 85 op85  elgar imslp op 85 cello concerto in e minor classical lyrical classical late romantic / early 20th  elgar, edward",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "macdowell_edward_macdowell_to_a_wild_r",
@@ -169253,6 +169316,45 @@
   "midi_play_url": "files/scores/liszt_s172_consolation_s_172_no_1.mid",
   "other_editions": [],
   "search_text": "consolation, s.172 no.1 franz liszt s.172 s 172 s.172 s172  liszt s172 consolation s 172 no 1 classical lyrical classical romantic  liszt, franz",
+  "analysis_url": "files/analysis/liszt_s172_consolation_s_172_no_1/liszt_s172_consolation_s_172_no_1.analysis.json",
+  "annotated_score_url": "files/analysis/liszt_s172_consolation_s_172_no_1/liszt_s172_consolation_s_172_no_1.annotated.musicxml",
+  "analysis_tags": [
+   "bass_line:pedal",
+   "bass_line:stepwise_descent",
+   "cadence:IAC",
+   "cadence:open_phrase",
+   "cadence:tonic_close",
+   "colour_chord:aug6_german",
+   "colour_chord:borrowed",
+   "colour_chord:chromatic_mediant",
+   "colour_chord:half_dim",
+   "form:bridge",
+   "form:coda",
+   "form:theme_1",
+   "hook:harmonic_cell",
+   "hook:melodic_cell",
+   "modulation:chromatic_slide",
+   "modulation:enharmonic_aug6",
+   "modulation:pivot_chord",
+   "motif:repetition",
+   "motif:sequence",
+   "rhythm_phrase:extension",
+   "rhythm_phrase:syncopation",
+   "story:arrival",
+   "story:continuation",
+   "story:start",
+   "story:turn",
+   "tension_release:appoggiatura",
+   "tension_release:delayed_resolution",
+   "tension_release:pedal_point_dominant",
+   "tension_release:pedal_point_tonic",
+   "tension_release:suspension_4_3",
+   "texture_dynamics:thinning"
+  ],
+  "analysis_quarter_range": [
+   0,
+   100.0
+  ],
   "score_method": "Reconstructed from MIDI"
  },
  {
@@ -196760,7 +196862,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_toccata_prima.mid",
   "score_files": [
-   "files/scores/unknown_toccata_prima.mid"
+   "files/scores/unknown_toccata_prima.mid",
+   "files/scores/unknown_toccata_prima_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -196781,7 +196884,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_toccata_prima.mid",
   "other_editions": [],
-  "search_text": "toccata prima georg muffat    unknown toccata prima classical lyrical classical baroque  muffat, georg"
+  "search_text": "toccata prima georg muffat    unknown toccata prima classical lyrical classical baroque  muffat, georg",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_wer_nur_den_lieben_gott_lass",
@@ -245796,7 +245900,8 @@
   "preview_url": "",
   "score_url": "files/scores/holst_imslp_h_148_i_vow_to_thee_my_country.mid",
   "score_files": [
-   "files/scores/holst_imslp_h_148_i_vow_to_thee_my_country.mid"
+   "files/scores/holst_imslp_h_148_i_vow_to_thee_my_country.mid",
+   "files/scores/holst_imslp_h_148_i_vow_to_thee_my_country_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -245819,7 +245924,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/holst_imslp_h_148_i_vow_to_thee_my_country.mid",
   "other_editions": [],
-  "search_text": "i vow to thee, my country gustav holst h. 148 h 148 h. 148 h148  holst imslp h 148 i vow to thee my country classical lyrical classical late romantic / early 20th  holst, gustav"
+  "search_text": "i vow to thee, my country gustav holst h. 148 h 148 h. 148 h148  holst imslp h 148 i vow to thee my country classical lyrical classical late romantic / early 20th  holst, gustav",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_h_148_thaxted",
@@ -246597,7 +246703,8 @@
   "preview_url": "",
   "score_url": "files/scores/holst_imslp_op_9b_ave_maria.mid",
   "score_files": [
-   "files/scores/holst_imslp_op_9b_ave_maria.mid"
+   "files/scores/holst_imslp_op_9b_ave_maria.mid",
+   "files/scores/holst_imslp_op_9b_ave_maria_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -246620,7 +246727,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/holst_imslp_op_9b_ave_maria.mid",
   "other_editions": [],
-  "search_text": "ave maria gustav holst op. 9b op 9b op. 9b op9b  holst imslp op 9b ave maria classical lyrical classical late romantic / early 20th  holst, gustav"
+  "search_text": "ave maria gustav holst op. 9b op 9b op. 9b op9b  holst imslp op 9b ave maria classical lyrical classical late romantic / early 20th  holst, gustav",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "holst_no_op_cranham_hymntune",
@@ -252935,7 +253043,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_wv73_praeambulum_no_13_in_g.mid",
   "score_files": [
-   "files/scores/unknown_wv73_praeambulum_no_13_in_g.mid"
+   "files/scores/unknown_wv73_praeambulum_no_13_in_g.mid",
+   "files/scores/unknown_wv73_praeambulum_no_13_in_g_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -252956,7 +253065,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_wv73_praeambulum_no_13_in_g.mid",
   "other_editions": [],
-  "search_text": "praeambulum no. 13 in g heinrich scheidemann wv 73 wv 73 wv73  unknown wv73 praeambulum no 13 in g classical lyrical classical baroque  scheidemann, heinrich"
+  "search_text": "praeambulum no. 13 in g heinrich scheidemann wv 73 wv 73 wv73  unknown wv73 praeambulum no 13 in g classical lyrical classical baroque  scheidemann, heinrich",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "schutz_aller_augen_warten_auf_dich",
@@ -266554,7 +266664,8 @@
   "preview_url": "",
   "score_url": "files/scores/purcell_what_power_art_thou_king_art.mid",
   "score_files": [
-   "files/scores/purcell_what_power_art_thou_king_art.mid"
+   "files/scores/purcell_what_power_art_thou_king_art.mid",
+   "files/scores/purcell_what_power_art_thou_king_art_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -266575,7 +266686,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/purcell_what_power_art_thou_king_art.mid",
   "other_editions": [],
-  "search_text": "what power art thou (king arthur) henry purcell    purcell what power art thou king art classical lyrical classical baroque  purcell, henry"
+  "search_text": "what power art thou (king arthur) henry purcell    purcell what power art thou king art classical lyrical classical baroque  purcell, henry",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "purcell_what_power_art_thou_purcell",
@@ -297149,7 +297261,8 @@
   "preview_url": "",
   "score_url": "files/scores/lully_lwv77_petit_motet.mid",
   "score_files": [
-   "files/scores/lully_lwv77_petit_motet.mid"
+   "files/scores/lully_lwv77_petit_motet.mid",
+   "files/scores/lully_lwv77_petit_motet_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -297170,7 +297283,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/lully_lwv77_petit_motet.mid",
   "other_editions": [],
-  "search_text": "salve regina jean-baptiste lully lwv 77 lwv 77 lwv77 petit motet lully lwv77 petit motet classical lyrical classical baroque  lully, jean-baptiste"
+  "search_text": "salve regina jean-baptiste lully lwv 77 lwv 77 lwv77 petit motet lully lwv77 petit motet classical lyrical classical baroque  lully, jean-baptiste",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "leclair_op3no1_sonata_for_two_violins_in_g",
@@ -432416,7 +432530,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_fantasia_d_moll.mid",
   "score_files": [
-   "files/scores/unknown_fantasia_d_moll.mid"
+   "files/scores/unknown_fantasia_d_moll.mid",
+   "files/scores/unknown_fantasia_d_moll_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -432437,7 +432552,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_fantasia_d_moll.mid",
   "other_editions": [],
-  "search_text": "fantasia d moll matthias weckmann    unknown fantasia d moll classical lyrical classical baroque  weckmann, matthias"
+  "search_text": "fantasia d moll matthias weckmann    unknown fantasia d moll classical lyrical classical baroque  weckmann, matthias",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_praeambulum_a_5_vocum",
@@ -432482,7 +432598,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_praeambulum_a_5_vocum.mid",
   "score_files": [
-   "files/scores/unknown_praeambulum_a_5_vocum.mid"
+   "files/scores/unknown_praeambulum_a_5_vocum.mid",
+   "files/scores/unknown_praeambulum_a_5_vocum_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -432503,7 +432620,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_praeambulum_a_5_vocum.mid",
   "other_editions": [],
-  "search_text": "praeambulum a. 5. vocum matthias weckmann    unknown praeambulum a 5 vocum classical lyrical classical baroque  weckmann, matthias"
+  "search_text": "praeambulum a. 5. vocum matthias weckmann    unknown praeambulum a 5 vocum classical lyrical classical baroque  weckmann, matthias",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "unknown_praeambulum_primi_toni_a_5",
@@ -432548,7 +432666,8 @@
   "preview_url": "",
   "score_url": "files/scores/unknown_praeambulum_primi_toni_a_5.mid",
   "score_files": [
-   "files/scores/unknown_praeambulum_primi_toni_a_5.mid"
+   "files/scores/unknown_praeambulum_primi_toni_a_5.mid",
+   "files/scores/unknown_praeambulum_primi_toni_a_5_reconstructed.mxl"
   ],
   "mood_tags_list": [
    "classical",
@@ -432569,7 +432688,8 @@
   "duration_s": 0,
   "midi_play_url": "files/scores/unknown_praeambulum_primi_toni_a_5.mid",
   "other_editions": [],
-  "search_text": "praeambulum primi toni a 5 matthias weckmann    unknown praeambulum primi toni a 5 classical lyrical classical baroque  weckmann, matthias"
+  "search_text": "praeambulum primi toni a 5 matthias weckmann    unknown praeambulum primi toni a 5 classical lyrical classical baroque  weckmann, matthias",
+  "score_method": "Reconstructed from MIDI"
  },
  {
   "id": "ravel_m_30_jeux_d_eau",

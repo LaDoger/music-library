@@ -44,7 +44,9 @@
  "preview_url": "",
  "score_url": "files/scores/elgar_imslp_the_language_of_flowers.mid",
  "score_files": [
-  "files/scores/elgar_imslp_the_language_of_flowers.mid"
+  "files/scores/elgar_imslp_the_language_of_flowers.mid",
+  "files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51_reconstructed.mxl",
+  "files/scores/elgar_imslp_the_language_of_flowers_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "classical",
@@ -67,6 +69,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/elgar_imslp_the_language_of_flowers.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=elgar_imslp_the_language_of_flowers",
@@ -74,7 +77,9 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers.mid"
+  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers.mid",
+  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers_arr_for_orchestrab51_reconstructed.mxl",
+  "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/elgar_imslp_the_language_of_flowers.mid",
  "render_midi": {

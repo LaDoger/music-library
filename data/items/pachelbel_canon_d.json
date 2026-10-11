@@ -38,7 +38,8 @@
  "score_files": [
   "files/scores/pachelbel_canon_d.mid",
   "files/scores/pachelbel_canon_d_lilypond.zip",
-  "files/scores/pachelbel_canon_d_midi.zip"
+  "files/scores/pachelbel_canon_d_midi.zip",
+  "files/scores/pachelbel_canon_d_reconstructed.mxl"
  ],
  "mood_tags_list": [
   "elegant",
@@ -62,6 +63,7 @@
  "duration_s": 0,
  "midi_play_url": "files/scores/pachelbel_canon_d.mid",
  "other_editions": [],
+ "score_method": "Reconstructed from MIDI",
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=pachelbel_canon_d",
@@ -71,7 +73,8 @@
  "score_files_abs": [
   "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d.mid",
   "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_lilypond.zip",
-  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_midi.zip"
+  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_midi.zip",
+  "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d_reconstructed.mxl"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/pachelbel_canon_d.mid",
  "render_midi": {
