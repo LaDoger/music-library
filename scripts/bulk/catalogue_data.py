@@ -1285,6 +1285,44 @@ GRIEG = [
     ("Op.72", "Slåtter (Op.72)", None, UNV, r"\bop 72\b", "IMSLP work page at the standard title (404); not imported"),
 ]
 
+LISZT = [
+    # Fully PD (died 1886): no US-PD-only gate. Years are IMSLP "First Publication" fields (curl-read 2026-10-11) unless marked.
+    # Set-level rows (S.139, S.140, S.161, S.163, S.172) keep their file titles: several pieces per row.
+    ("S.541/3", "Liebesträume No.3, S.541/3", 1850, IN, r"liebestraume.*\b(?:no 3|3)\b", "IMSLP Liebesträume S.541 (3 nocturnes), First Publication 1850; row = No.3"),
+    ("S.172", "Consolations, S.172 (six pieces)", 1850, IN, r"consolation", "IMSLP Consolations S.172, First Publication 1850 (2nd version); 1992 for the 1st version"),
+    ("S.244/2", "Hungarian Rhapsody No.2, S.244/2", 1851, IN, r"rhaps\w* (?:no |nr )?2\b", "IMSLP S.244/2, First Publication 1851"),
+    ("S.244/9", "Hungarian Rhapsody No.9 (Pesther Carneval), S.244/9", 1853, IN, r"rhaps\w* (?:no |nr )?9\b|pesther carneval", "IMSLP S.244/9, First Publication 1853"),
+    ("S.244/12", "Hungarian Rhapsody No.12, S.244/12", 1853, IN, r"rhaps\w* (?:no |nr )?12\b", "IMSLP S.244/12, First Publication 1853"),
+    ("S.97", "Les préludes, S.97", 1856, IN, r"\bles preludes\b", "IMSLP S.97, First Publication 1856 (Breitkopf)"),
+    ("S.124", "Piano Concerto No.1 in E-flat, S.124", 1857, IN, r"concerto (?:no |n |nr )?1\b", "IMSLP S.124, First Publication 1857 (Haslinger)"),
+    ("S.178", "Piano Sonata in B minor, S.178", 1854, IN, r"\bsonata\b.*\bb minor\b|\bb minor sonata\b", "IMSLP S.178, First Publication 1854 (June), Breitkopf & Härtel"),
+    ("S.126", "Totentanz, S.126", 1865, IN, r"\btotentanz\b", "IMSLP S.126, First Publication 1865 (2nd version); 1919 for the 1st version"),
+    ("S.514", "Mephisto Waltz No.1, S.514", 1862, IN, r"mephisto (?:waltz|walzer|valse)\b(?! (?:no |nr )?[234]\b)", "IMSLP S.514, First Publication 1862"),
+    ("S.515", "Mephisto Waltz No.2, S.515", 1881, IN, r"mephisto (?:waltz|walzer|valse) (?:no |nr )?2\b", "IMSLP S.515, First Publication 1881"),
+    ("S.217", "Mephisto Polka, S.217", 1883, IN, r"mephisto polka", "IMSLP S.217, First Publication 1883 (Fürstner)"),
+    ("S.199", "Nuages gris (Trübe Wolken), S.199", 1927, IN, r"nuages gris|trube wolken", "IMSLP S.199 (title Trübe Wolken), First Publication 1927"),
+    ("S.203", "Schlaflos! Frage und Antwort, S.203", 1927, IN, r"schlaflos|frage und antwort", "IMSLP S.203, First Publication 1927"),
+    ("S.53", "Via Crucis, S.53", 1936, IN, r"\bvia crucis\b", "IMSLP S.53, First Publication 1936"),
+    ("S.224", "Csárdás macabre, S.224", 1951, IN, r"csardas macabre|czardas macabre|csarda macabre", "IMSLP S.224, First Publication 1951 (Schott, London)"),
+    ("S.216a", "Bagatelle sans tonalité, S.216a", 1956, IN, r"bagatelle sans tonalite", "IMSLP S.216a, First Publication 1956"),
+    ("S.207", "En rêve, S.207", 1888, IN, r"\ben reve\b", "IMSLP S.207, First Publication 1888"),
+    ("S.135", "Am Grabe Richard Wagners, S.135", 1951, IN, r"am grabe richard wagners|grabe richard wagners", "IMSLP S.135, First Publication 1951"),
+    ("S.201", "R.W.-Venezia, S.201", 1927, IN, r"\brw venezia\b|\br w venezia\b|\brw venedig\b", "IMSLP S.201 (title R.W. - Venezia), First Publication 1927"),
+    ("S.161", "Années de pèlerinage II, S.161 (set)", 1858, IN, r"pelerinage (?:ii|2)\b|deuxieme annee|2eme annee", "IMSLP S.161, First Publication 1858; the 'Supplément' S.162 is not in this row"),
+    ("S.163", "Années de pèlerinage III, S.163 (set)", 1883, IN, r"pelerinage (?:iii|3)\b|troisieme annee|3eme annee", "IMSLP S.163, First Publication 1883 (Breitkopf)"),
+    ("S.109", "Dante Symphony, S.109", 1859, IN, r"dante symphon|dante sinfonie", "IMSLP S.109, First Publication 1859 (Breitkopf)"),
+    ("S.108", "Faust Symphony, S.108", 1861, IN, r"faust symphon|faust sinfonie", "IMSLP S.108, First Publication 1861"),
+    ("S.139", "Études d'exécution transcendante, S.139 (set)", 1852, IN, r"transcendan", "IMSLP S.139, First Publication 1852 (Breitkopf & Härtel), dedicated to Czerny"),
+    ("S.140", "Études d'exécution transcendante d'après Paganini, S.140 (set)", 1840, IN, r"paganini", "IMSLP S.140, First Publication 1840 (dedicated to Clara Schumann)"),
+    ("S.171", "Ballade No.2 in B minor, S.171", 1854, IN, r"ballade (?:no |nr )?2\b|ballade in b minor", "IMSLP S.171 (2nd version), First Publication 1854 (Kistner)"),
+    # Not imported: IMSLP page not found under the titles tried (2026-10-11); not confirmed
+    ("S.134", "La lugubre gondola I and II, S.134", None, UNV, r"lugubre gondola", "IMSLP 'La lugubre gondola' and 'Die Trauergondel' both 404; not confirmed"),
+    ("S.208", "Unstern! Sinistre, disastro, S.208", None, UNV, r"unstern|sinistre disastro", "IMSLP 'Unstern!' 404; not confirmed"),
+    ("S.514/3", "Mephisto Waltz No.3, S.514/3", None, UNV, r"mephisto (?:waltz|walzer|valse) (?:no |nr )?3\b", "IMSLP 'Mephisto Waltz No.3' 404 under S.516 and S.514/3; not confirmed"),
+    ("S.162/3", "Venezia e Napoli, S.162/3", None, UNV, r"venezia e napoli", "IMSLP 404 under S.162 and S.162/3; already live via BULK_batchP9 (PDMX gap row)"),
+    ("S.?", "Historische ungarische Bildnisse", None, UNV, r"historische ungarische bildnisse|ungarische bildnisse", "IMSLP 404 under the title tried; S. number not checked"),
+]
+
 COMPOSERS = {
     "chabrier": {
         "name": "Emmanuel Chabrier", "canon": "emmanuel chabrier", "death": 1894, "birth": 1841,
@@ -1489,5 +1527,10 @@ COMPOSERS = {
         "catalogue": "Op. (EG for the songs)", "rows": GRIEG,
         "prefix": "grieg", "genre": "classical", "era": "Late Romantic (Norwegian)",
         "scope_note": "Fully PD (died 1907): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: all 66 Lyric Pieces (10 books, Op.12/38/43/47/54/57/62/65/68/71), one row per piece, then the main works (Piano Sonata Op.7, Violin Sonatas Op.8/13/45, Piano Concerto Op.16, Sigurd Jorsalfar Op.22, Peer Gynt Op.23/46/55, Ballade Op.24, String Quartet Op.27, Norwegian Dances Op.35, Cello Sonata Op.36, Holberg Suite Op.40, Symphonic Dances Op.64, Haugtussa Op.67, Slåtter Op.72). Work-level years are general-reference dates, not IMSLP-checked.",
+    },    "liszt": {
+        "name": "Franz Liszt", "canon": "franz liszt", "death": 1886, "birth": 1811,
+        "catalogue": "S. (Searle numbers)", "rows": LISZT,
+        "prefix": "liszt", "genre": "classical", "era": "Romantic (Hungarian)",
+        "scope_note": "Fully PD (died 1886): no US-PD-only gate; publication years kept for the record. LaDoger priority list 2026-10-11: the late works first (Nuages gris, Bagatelle sans tonalité, R.W.-Venezia, Am Grabe Richard Wagners, Csárdás macabre, Mephisto waltzes 2 and 3, Mephisto polka, Années III, Via Crucis, En rêve, Schlaflos), then the core cinematic and piano works (Liebesträume 3, Consolations, Hungarian Rhapsodies 2/9/12, Les préludes, Piano Concerto 1, Piano Sonata B minor, Totentanz, Dante and Faust symphonies, Transcendental and Paganini Études, Ballade 2). La lugubre gondola I/II, Unstern!, Mephisto Waltz 3, Venezia e Napoli and Historische ungarische Bildnisse are unverified (IMSLP titles not found) and not imported. Set rows (S.139, S.140, S.161, S.163, S.172) keep file titles. Not the full S. catalogue: operas, songs, the Hungarian Coronation Mass and the oratorios are not imported.",
     },
 }

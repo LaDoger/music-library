@@ -76,6 +76,7 @@ NAME_RX = {
     "stravinsky": r"stravinsk|strawinsk",
     "busoni": r"\bbusoni\b",  # PDMX/OpenScore: "Ferruccio Busoni", "F. Busoni"
     "grieg": r"\bgrieg\b",  # PDMX/Mutopia/Commons: "Edvard Grieg", "E. Grieg", "Grieg Edvard" (accents folded by norm())
+    "liszt": r"\bliszt\b",  # PDMX/Commons/Mutopia: "Franz Liszt", "F. Liszt", "Liszt Franz"
     "janacek": r"\bjana\w{0,3}ek\b|\bleos janacek\b",  # norm() folds accents; live rows carry a mojibake "JanáÄek"
 }
 NOT_NAME = re.compile(r"belue|after ravel|johann|julio melgar|strauss i\b|jean baptiste faure|j b faure")
@@ -197,7 +198,8 @@ SETS = {"M.A24", "M.60", "M.69", "M.A4-11", "M.A17", "Op.3", "Op.10 / TrV 141", 
         "3 Véritables préludes flasques", "Heures séculaires et instantanées", "Croquis et agaceries",
         "Chapitres tournés en tous sens", "Messe des pauvres",
         "Op.7", "Op.8", "Op.13", "Op.16", "Op.22", "Op.23", "Op.27", "Op.35", "Op.36", "Op.40", "Op.45", "Op.46",
-        "Op.55", "Op.64", "Op.67", "Op.72"}  # Grieg multi-movement works (file titles kept); Lyric Pieces are one row per piece  # Satie multi-piece sets (file titles kept)
+        "Op.55", "Op.64", "Op.67", "Op.72",
+        "S.139", "S.140", "S.161", "S.163", "S.172"}  # Liszt multi-piece sets (file titles kept)  # Grieg multi-movement works (file titles kept); Lyric Pieces are one row per piece  # Satie multi-piece sets (file titles kept)
 
 
 _NAMES = r"(?:Maurice Ravel|M\.\s?Ravel|Ravel|Edward Elgar|Elgar|Richard Strauss|R\. ?Strauss|Gustav Holst|Holst|Sergei Rachmaninoff|S\.\s?Rachmaninoff?|Rachmaninoff|Rachmaninov)"

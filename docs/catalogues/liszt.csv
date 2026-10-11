@@ -1,0 +1,33 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+S.541/3,"Liebesträume No.3, S.541/3",1850,in-scope,yes,2,liszt_s541_liebestraume_no_3 liszt_s_541_3_liebestraume_no_3_s_541_3,pdmx,"IMSLP Liebesträume S.541 (3 nocturnes), First Publication 1850; row = No.3"
+S.172,"Consolations, S.172 (six pieces)",1850,in-scope,yes,4,liszt_ps_franz_liszt_consolation_no_4_in_d_flat_major liszt_s172_consolation_s_172_no_1 liszt_s_172_franz_liszt_consolation_no_4_in_d_flat_maj liszt_s_172_franz_liszt_consolations_i,"mutopia,pdmx","IMSLP Consolations S.172, First Publication 1850 (2nd version); 1992 for the 1st version"
+S.244/2,"Hungarian Rhapsody No.2, S.244/2",1851,in-scope,yes,3,liszt_hungarian_rhapsody_2 liszt_s244_liszt_hungarian_rhapsody_no liszt_s_244_2_hungarian_rhapsody_no_2_s_244_2b2,"curated,pdmx","IMSLP S.244/2, First Publication 1851"
+S.244/9,"Hungarian Rhapsody No.9 (Pesther Carneval), S.244/9",1853,in-scope,,0,,,"IMSLP S.244/9, First Publication 1853"
+S.244/12,"Hungarian Rhapsody No.12, S.244/12",1853,in-scope,,0,,,"IMSLP S.244/12, First Publication 1853"
+S.97,"Les préludes, S.97",1856,in-scope,,0,,,"IMSLP S.97, First Publication 1856 (Breitkopf)"
+S.124,"Piano Concerto No.1 in E-flat, S.124",1857,in-scope,yes,1,liszt_s124_liszt_piano_concerto_no_1_1s,pdmx,"IMSLP S.124, First Publication 1857 (Haslinger)"
+S.178,"Piano Sonata in B minor, S.178",1854,in-scope,,0,,,"IMSLP S.178, First Publication 1854 (June), Breitkopf & Härtel"
+S.126,"Totentanz, S.126",1865,in-scope,,0,,,"IMSLP S.126, First Publication 1865 (2nd version); 1919 for the 1st version"
+S.514,"Mephisto Waltz No.1, S.514",1862,in-scope,,0,,,"IMSLP S.514, First Publication 1862"
+S.515,"Mephisto Waltz No.2, S.515",1881,in-scope,yes,1,liszt_s515_liszt_mephisto_waltz_no_2_ar,pdmx,"IMSLP S.515, First Publication 1881"
+S.217,"Mephisto Polka, S.217",1883,in-scope,,0,,,"IMSLP S.217, First Publication 1883 (Fürstner)"
+S.199,"Nuages gris (Trübe Wolken), S.199",1927,in-scope,yes,2,liszt_s199_nuages_gris_extra_pedal liszt_s_199_nuages_gris_trube_wolken_s_199,pdmx,"IMSLP S.199 (title Trübe Wolken), First Publication 1927"
+S.203,"Schlaflos! Frage und Antwort, S.203",1927,in-scope,,0,,,"IMSLP S.203, First Publication 1927"
+S.53,"Via Crucis, S.53",1936,in-scope,,0,,,"IMSLP S.53, First Publication 1936"
+S.224,"Csárdás macabre, S.224",1951,in-scope,,0,,,"IMSLP S.224, First Publication 1951 (Schott, London)"
+S.216a,"Bagatelle sans tonalité, S.216a",1956,in-scope,,0,,,"IMSLP S.216a, First Publication 1956"
+S.207,"En rêve, S.207",1888,in-scope,,0,,,"IMSLP S.207, First Publication 1888"
+S.135,"Am Grabe Richard Wagners, S.135",1951,in-scope,,0,,,"IMSLP S.135, First Publication 1951"
+S.201,"R.W.-Venezia, S.201",1927,in-scope,,0,,,"IMSLP S.201 (title R.W. - Venezia), First Publication 1927"
+S.161,"Années de pèlerinage II, S.161 (set)",1858,in-scope,,0,,,"IMSLP S.161, First Publication 1858; the 'Supplément' S.162 is not in this row"
+S.163,"Années de pèlerinage III, S.163 (set)",1883,in-scope,,0,,,"IMSLP S.163, First Publication 1883 (Breitkopf)"
+S.109,"Dante Symphony, S.109",1859,in-scope,,0,,,"IMSLP S.109, First Publication 1859 (Breitkopf)"
+S.108,"Faust Symphony, S.108",1861,in-scope,,0,,,"IMSLP S.108, First Publication 1861"
+S.139,"Études d'exécution transcendante, S.139 (set)",1852,in-scope,yes,1,liszt_s_139_etudes_d_execution_transcendante_s_139_2_m,pdmx,"IMSLP S.139, First Publication 1852 (Breitkopf & Härtel), dedicated to Czerny"
+S.140,"Études d'exécution transcendante d'après Paganini, S.140 (set)",1840,in-scope,yes,4,liszt_la_campanella liszt_s_139_transcendental_etudes_after_paganini_no_4 liszt_s_140_franz_liszt_grandes_etudes_de_paganini_no liszt_s_140_franz_liszt_grandes_etudes_de_paganini_nob2,"curated,pdmx","IMSLP S.140, First Publication 1840 (dedicated to Clara Schumann)"
+S.171,"Ballade No.2 in B minor, S.171",1854,in-scope,,0,,,"IMSLP S.171 (2nd version), First Publication 1854 (Kistner)"
+S.134,"La lugubre gondola I and II, S.134",,unverified-pub,n/a,0,,,IMSLP 'La lugubre gondola' and 'Die Trauergondel' both 404; not confirmed
+S.208,"Unstern! Sinistre, disastro, S.208",,unverified-pub,n/a,0,,,IMSLP 'Unstern!' 404; not confirmed
+S.514/3,"Mephisto Waltz No.3, S.514/3",,unverified-pub,n/a,0,,,IMSLP 'Mephisto Waltz No.3' 404 under S.516 and S.514/3; not confirmed
+S.162/3,"Venezia e Napoli, S.162/3",,unverified-pub,n/a,0,,,IMSLP 404 under S.162 and S.162/3; already live via BULK_batchP9 (PDMX gap row)
+S.?,Historische ungarische Bildnisse,,unverified-pub,n/a,0,,,IMSLP 404 under the title tried; S. number not checked
