@@ -14,7 +14,7 @@ Detailed decisions: [source audit](../docs/nightly/SOURCE_AUDIT_2026-10-12.md). 
 
 Validation: build_bulk_layer, sync_site_data, build_catalog --check (5,925), independent licence audit (5,590 bulk rows, zero violations), check_pages_ui and check_player PASS; six targeted matcher regression assertions PASS; public-content brand scan zero hits; diff check PASS with CRLF CSV line endings recognised.
 
-Live URL: https://ladoger.github.io/music-library/ . Deployment verification pending this commit; final results will be recorded below.
+Live URL: https://ladoger.github.io/music-library/ . Deployment **bbb8e8a7**, Pages run **38210728451**, succeeded. Live catalogue and manifest were verified at 5,925 items; composers at 237. **36 URLs** returned HTTP 200 (catalogue/manifest/composers, three index shards, 15 item JSONs and 15 MIDIs); all sampled MIDIs have valid MThd headers. Live and local item-id sets match.
 
 Token/quota note: Codex primary and Python/Node scripts only; no subagents or additional model jobs. Exact token totals and weekly quota are not exposed in this session; no quota percentage is inferred. No model rate limit encountered; Zenodo HTTP 429 is a source-access limit.
 
