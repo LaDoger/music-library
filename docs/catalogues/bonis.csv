@@ -1,0 +1,45 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.109,Mélisande (Femmes de légende),1925,in-scope,,0,,,IMSLP: First Publication 1925
+Op.100,Salomé (Femmes de légende),1909,in-scope,,0,,,IMSLP: First Publication 1909
+Op.101,Desdémona (Femmes de légende),,unverified-pub,n/a,0,,,"IMSLP: composition year 1913 only, no first publication field; not imported"
+Op.86,Omphale,1910,in-scope,,0,,,IMSLP: First Publication 1910 (Berlin)
+Op.90,Narcisse,,unverified-pub,n/a,0,,,IMSLP: composition year 1910 only; not imported
+Op.80,Viviane,,unverified-pub,n/a,0,,,IMSLP: composition year 1909 only; not imported
+Op.92,Scènes enfantines,1912,in-scope,,0,,,IMSLP: First Publication 1912
+Op.116,17 Pièces enfantines,1926,in-scope,,0,,,IMSLP: First Publication 1926
+Op.103,Album pour les tout-petits,,unverified-pub,n/a,0,,,IMSLP: composition year 1913 only; not imported
+Op.42,Marionnettes,1899,in-scope,,0,,,IMSLP: First Publication 1899
+Op.19,Pensées d'automne,1894,in-scope,,0,,,IMSLP: First Publication 1894
+Op.25,Tambours et clairons,1901,in-scope,,0,,,IMSLP: First Publication 1901 (Baudoux)
+Op.48,Suite orientale,1900,in-scope,,0,,,IMSLP: First Publication 1900 (Durand)
+Op.1,Impromptu,,unverified-pub,n/a,0,,,IMSLP: composition year 1881 only; not imported
+Op.14,Menuet,,unverified-pub,n/a,0,,,"IMSLP: composed 1889; Bibliographie de la France note only, no year; not imported"
+Op.29 / 56,Romance sans paroles,,unverified-pub,n/a,0,,,"IMSLP Op.29: composed 1897, Bibliographie note only; not imported"
+Op.15,Les Gitanos,,unverified-pub,n/a,0,,,"IMSLP: composed 1891, Bibliographie note only; not imported"
+Op.21,Le Ruisseau,,unverified-pub,n/a,0,,,IMSLP: composition year 1894 only; not imported
+Op.123,Scènes de la forêt,,unverified-pub,n/a,0,,,IMSLP: composition year c.1927 only; not imported
+Op.129,Ariel,,unverified-pub,n/a,0,,,"IMSLP: composition 1925-28, no first publication field; not imported"
+Op.27,Ballade,1897,in-scope,,0,,,IMSLP: First Publication 1897 (Paris)
+Op.31,Carillon mystique,1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.40,Scherzo,1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.46,Sérénade,1899,in-scope,,0,,,IMSLP: First Publication 1899 (Paris)
+Op.8,Viennoise,1893,in-scope,,0,,,IMSLP: First Publication 1893
+Op.9,Près du ruisseau,1894,in-scope,,0,,,IMSLP: First Publication 1894
+Op.62,Bourrée,1904,in-scope,,0,,,IMSLP: First Publication 1904
+Op.63,Largo attribué à Haendel,1904,in-scope,,0,,,IMSLP: First Publication 1904
+Op.81,Pavane,1909,in-scope,,0,,,IMSLP: First Publication 1909
+Op.82,Sarabande,1909,in-scope,,0,,,IMSLP: First Publication 1909
+Op.85,Variations,1901,in-scope,,0,,,IMSLP: First Publication 1901
+Op.93,Le chat sur le toit,1926,in-scope,yes,1,bonis_op_93_le_chat_sur_le_toit_op_93,openscore-lieder,IMSLP: First Publication 1926 (Paris)
+Op.119,Boston-valse,1929,in-scope,,0,,,IMSLP: First Publication 1929
+no opus,Suite en forme de valses,1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.34,Soirs d'antan,,unverified-pub,n/a,0,,,IMSLP first-publication field reads 2014 (modern edition); original not established; not imported
+Op.126,Miocheries,,unverified-pub,n/a,0,,,IMSLP work page gave no year field; not imported
+Op.191,Le moulin,,unverified-pub,n/a,0,,,IMSLP work page gave no year field; not imported
+Op.87,6 Valses-Caprices,,unverified-pub,n/a,0,,,IMSLP work page gave no year field; not imported
+Op.7,Rondo dans le genre ancien,,unverified-pub,n/a,0,,,IMSLP work page gave no year field; not imported
+Op.64,Flute Sonata,1904,in-scope,,0,,,IMSLP: First Publication 1904 (flute and piano)
+Op.67,Cello Sonata,1905,in-scope,,0,,,IMSLP: First Publication 1905 (Paris)
+Op.112,Violin Sonata,,unverified-pub,n/a,0,,,IMSLP: composition year 1914 only; not imported
+Op.124,Piano Quartet No.2,1927,in-scope,,0,,,IMSLP: First Publication 1927
+Op.59,Suite en trio,,unverified-pub,n/a,0,,,IMSLP: composition year 1902 only; not imported

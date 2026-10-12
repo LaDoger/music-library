@@ -8,85 +8,85 @@ Obscurity cutoff: Godowsky and Scriabin fame level. Below that, no new composers
 
 | composer | tier | catalogue | est. total | live items | catalogued works | no-cat items | coverage | signature works | notes / gaps |
 |---|---|---|---:|---:|---:|---:|---:|---|---|
-| Maurice Ravel | A | Marnat M. | 86 | 36 | 16 | 18 | 18.6% | – | d.1937 US-PD-only (pub ≤1930). Boléro, Left Hand, G concerto, Don Quichotte excluded. Checklist: ravel.csv |
-| Claude Debussy | A | Lesure L. | 145 | 71 | 5 | 65 | 3.4% | 9/18 | d.1918, fully PD. missing: La mer, Prélude à l'après-midi d'un faune, Nocturnes, Golliwogg's Cakewalk, Estampes (Pagodes, Jardins sous la pluie), Des pas sur la neige, Syrinx, Images (Reflets dans l'eau)… |
-| Erik Satie | A | no standard catalogue | ? | 48 | – | 48 | – | 9/19 | d.1925, fully PD. ~160 works; Gymnopédies/Gnossiennes/Sarabandes core. missing: Sarabandes, Parade, Embryons desséchés, Le Piccadilly, Sports et divertissements, Véritables préludes flasques, Messe des pauvres, Avant-dernières pensées… |
-| Gustav Mahler | A | no standard (GMW ~ 60 works) | 60 | 28 | – | 28 | – | 8/16 | d.1911, fully PD. Few clean encodings; IMSLP Mahler 4 CC0 (manual download). missing: Symphony 1, Symphony 4, Symphony 6, Symphony 7, Symphony 8, Symphony 10 Adagio, Das Lied von der Erde, Piano Quartet |
-| Anton Bruckner | A | WAB | 149 | 18 | 13 | 5 | 8.7% | 6/16 | d.1896, fully PD. Most IMSLP files NC/SA. missing: Symphony 4 Romantic, Symphony 7, Symphony 9, Symphony 3, Symphony 5, Te Deum, Mass in E minor, Mass No. 3 in F minor… |
-| Richard Wagner | A | WWV | 113 | 48 | 17 | 9 | 15.0% | 12/12 | d.1883, fully PD. |
-| Richard Strauss | A | Op. / TrV | 90 | 10 | 7 | 0 | 7.8% | – | d.1949 US-PD-only (pub ≤1930). Checklist: strauss_r.csv |
-| Edward Elgar | A | Op. | 91 | 12 | 8 | 0 | 8.8% | – | d.1934 US-PD-only (pub ≤1930). Checklist: elgar.csv |
-| Gustav Holst | B | Op. / H. | 60 | 11 | 4 | 3 | 6.7% | – | d.1934 US-PD-only (pub ≤1930). Checklist: holst.csv |
-| Sergei Rachmaninoff | A | Op. | 45 | 18 | 11 | 0 | 24.4% | – | d.1943 US-PD-only (pub ≤1930). Op.42-45 etc. published later: excluded. Checklist: rachmaninoff.csv |
-| Alexander Scriabin | A | Op. | 74 | 29 | 16 | 3 | 21.6% | 8/15 | d.1915, fully PD. missing: Poème de l'extase, Prometheus, Piano Sonata 4, Vers la flamme, Poème satanique, Piano Concerto, Symphony 3 Divine Poem |
+| Maurice Ravel | A | Marnat M. | 86 | 44 | 17 | 17 | 19.8% | – | d.1937 US-PD-only (pub ≤1930). Boléro, Left Hand, G concerto, Don Quichotte excluded. Checklist: ravel.csv |
+| Claude Debussy | A | Lesure L. | 145 | 96 | 7 | 83 | 4.8% | 11/18 | d.1918, fully PD. missing: La mer, Prélude à l'après-midi d'un faune, Nocturnes, Estampes (Pagodes, Jardins sous la pluie), Syrinx, Images (Reflets dans l'eau), Pelléas et Mélisande |
+| Erik Satie | A | no standard catalogue | ? | 67 | – | 67 | – | 10/19 | d.1925, fully PD. ~160 works; Gymnopédies/Gnossiennes/Sarabandes core. missing: Sarabandes, Parade, Embryons desséchés, Le Piccadilly, Sports et divertissements, Véritables préludes flasques, Avant-dernières pensées, Danses gothiques… |
+| Gustav Mahler | A | no standard (GMW ~ 60 works) | 60 | 32 | – | 32 | – | 10/16 | d.1911, fully PD. Few clean encodings; IMSLP Mahler 4 CC0 (manual download). missing: Symphony 6, Symphony 7, Symphony 8, Symphony 10 Adagio, Das Lied von der Erde, Piano Quartet |
+| Anton Bruckner | A | WAB | 149 | 19 | 14 | 5 | 9.4% | 6/16 | d.1896, fully PD. Most IMSLP files NC/SA. missing: Symphony 4 Romantic, Symphony 7, Symphony 9, Symphony 3, Symphony 5, Te Deum, Mass in E minor, Mass No. 3 in F minor… |
+| Richard Wagner | A | WWV | 113 | 50 | 17 | 9 | 15.0% | 12/12 | d.1883, fully PD. |
+| Richard Strauss | A | Op. / TrV | 90 | 13 | 7 | 0 | 7.8% | – | d.1949 US-PD-only (pub ≤1930). Checklist: strauss_r.csv |
+| Edward Elgar | A | Op. | 91 | 86 | 21 | 42 | 23.1% | – | d.1934 US-PD-only (pub ≤1930). Checklist: elgar.csv |
+| Gustav Holst | B | Op. / H. | 60 | 15 | 5 | 4 | 8.3% | – | d.1934 US-PD-only (pub ≤1930). Checklist: holst.csv |
+| Sergei Rachmaninoff | A | Op. | 45 | 24 | 14 | 0 | 31.1% | – | d.1943 US-PD-only (pub ≤1930). Op.42-45 etc. published later: excluded. Checklist: rachmaninoff.csv |
+| Alexander Scriabin | A | Op. | 74 | 31 | 18 | 3 | 24.3% | 9/15 | d.1915, fully PD. missing: Poème de l'extase, Prometheus, Piano Sonata 4, Poème satanique, Piano Concerto, Symphony 3 Divine Poem |
 
 ## Rank 2: next cinematic tier (fully PD)
 
 | composer | tier | catalogue | est. total | live items | catalogued works | no-cat items | coverage | signature works | notes / gaps |
 |---|---|---|---:|---:|---:|---:|---:|---|---|
-| Pyotr Ilyich Tchaikovsky | A | Op. (TH Poznansky ~ 300) | 125 | 42 | 20 | 19 | 16.0% | 12/17 | missing: Capriccio italien, Eugene Onegin, Souvenir de Florence, Serenade for Strings, Variations on a Rococo Theme |
-| Antonín Dvořák | A | B. Burghauser / Op. | 200 | 37 | 16 | 17 | 8.0% | 7/14 | missing: Cello Concerto, Carnival Overture, Symphony 7, Dumky Trio, Stabat Mater / Requiem, Legends, Piano Quintet in A |
+| Pyotr Ilyich Tchaikovsky | A | Op. (TH Poznansky ~ 300) | 125 | 48 | 20 | 21 | 16.0% | 12/17 | missing: Capriccio italien, Eugene Onegin, Souvenir de Florence, Serenade for Strings, Variations on a Rococo Theme |
+| Antonín Dvořák | A | B. Burghauser / Op. | 200 | 36 | 16 | 17 | 8.0% | 7/14 | missing: Cello Concerto, Carnival Overture, Symphony 7, Dumky Trio, Stabat Mater / Requiem, Legends, Piano Quintet in A |
 | Modest Mussorgsky | A | no standard (~ 70 works) | 70 | 19 | – | 19 | – | 3/8 | missing: Songs and Dances of Death, Khovanshchina Dawn, Sunless, The Nursery, Sorochintsy Fair |
-| Nikolai Rimsky-Korsakov | A | Op. | 70 | 15 | 3 | 11 | 4.3% | 4/11 | missing: Russian Easter Festival Overture, Sadko, The Golden Cockerel (Hymn to the Sun), Snow Maiden, Antar, Dance of the Tumblers, Spanish Capriccio |
-| Hector Berlioz | A | H. Holoman / Op. | 150 | 9 | 3 | 4 | 2.0% | 3/10 | missing: Roman Carnival, Harold in Italy, Rákóczy March / Damnation of Faust, Les Troyens, Le Corsaire, Béatrice et Bénédict, Benvenuto Cellini |
-| Edvard Grieg | A | Op. (EG) | 74 | 52 | 16 | 26 | 21.6% | 10/12 | missing: Sigurd Jorsalfar, Violin Sonatas |
-| Camille Saint-Saëns | A | Op. | 169 | 34 | 10 | 23 | 5.9% | 7/13 | missing: Havanaise, Piano Concerto 5 Egyptian, Cello Concerto 1, Violin Concerto 3, Africa, Le Rouet d'Omphale |
-| Giuseppe Verdi | A | no standard (28 operas + ~ 80 other) | 110 | 53 | – | 53 | – | 8/14 | missing: Otello, Falstaff, Macbeth, La forza del destino overture, Don Carlos, Un ballo in maschera |
-| Gabriel Fauré | A | Op. | 121 | 42 | 17 | 13 | 14.0% | 10/16 | missing: Clair de lune (op. 46), Pelléas et Mélisande suite, Piano Quartet 1, Romances sans paroles, Masques et bergamasques, Violin Sonata 1 |
-| Franz Liszt | A | S. Searle / Raabe | 800 | 36 | 25 | 7 | 3.1% | 8/16 | Searle numbers run to ~ 800+; catalog-less items not counted. missing: Les préludes, Totentanz, Piano Sonata in B minor, Années de pèlerinage, Faust Symphony, Orpheus / Tasso / Prometheus (tone poems), Rhapsodie espagnole, Isolde's Liebestod (transcription) |
+| Nikolai Rimsky-Korsakov | A | Op. | 70 | 16 | 3 | 12 | 4.3% | 4/11 | missing: Russian Easter Festival Overture, Sadko, The Golden Cockerel (Hymn to the Sun), Snow Maiden, Antar, Dance of the Tumblers, Spanish Capriccio |
+| Hector Berlioz | A | H. Holoman / Op. | 150 | 8 | 3 | 3 | 2.0% | 3/10 | missing: Roman Carnival, Harold in Italy, Rákóczy March / Damnation of Faust, Les Troyens, Le Corsaire, Béatrice et Bénédict, Benvenuto Cellini |
+| Edvard Grieg | A | Op. (EG) | 74 | 60 | 16 | 29 | 21.6% | 10/12 | missing: Sigurd Jorsalfar, Violin Sonatas |
+| Camille Saint-Saëns | A | Op. | 169 | 35 | 10 | 24 | 5.9% | 7/13 | missing: Havanaise, Piano Concerto 5 Egyptian, Cello Concerto 1, Violin Concerto 3, Africa, Le Rouet d'Omphale |
+| Giuseppe Verdi | A | no standard (28 operas + ~ 80 other) | 110 | 54 | – | 54 | – | 8/14 | missing: Otello, Falstaff, Macbeth, La forza del destino overture, Don Carlos, Un ballo in maschera |
+| Gabriel Fauré | A | Op. | 121 | 51 | 18 | 14 | 14.9% | 10/16 | missing: Clair de lune (op. 46), Pelléas et Mélisande suite, Piano Quartet 1, Romances sans paroles, Masques et bergamasques, Violin Sonata 1 |
+| Franz Liszt | A | S. Searle / Raabe | 800 | 56 | 25 | 10 | 3.1% | 8/16 | Searle numbers run to ~ 800+; catalog-less items not counted. missing: Les préludes, Totentanz, Piano Sonata in B minor, Années de pèlerinage, Faust Symphony, Orpheus / Tasso / Prometheus (tone poems), Rhapsodie espagnole, Isolde's Liebestod (transcription) |
 
 ## Rank 3: tier A/B core
 
 | composer | tier | catalogue | est. total | live items | catalogued works | no-cat items | coverage | signature works | notes / gaps |
 |---|---|---|---:|---:|---:|---:|---:|---|---|
-| Johann Sebastian Bach | A | BWV | 1128 | 506 | 299 | 122 | 26.5% | – |  |
-| George Frideric Handel | A | HWV | 610 | 147 | 34 | 107 | 5.6% | – |  |
-| Antonio Vivaldi | A | RV | 800 | 71 | 33 | 37 | 4.1% | – |  |
+| Johann Sebastian Bach | A | BWV | 1128 | 552 | 312 | 143 | 27.7% | – |  |
+| George Frideric Handel | A | HWV | 610 | 156 | 35 | 115 | 5.7% | – |  |
+| Antonio Vivaldi | A | RV | 800 | 78 | 33 | 44 | 4.1% | – |  |
 | Georg Philipp Telemann | B | TWV | 3000 | 21 | 4 | 14 | 0.1% | – | TWV runs to ~ 3,000+; coverage figure is a floor. |
 | Domenico Scarlatti | A | K. Kirkpatrick | 555 | 36 | 26 | 9 | 4.7% | – |  |
-| Joseph Haydn | A | Hob. | 750 | 122 | 41 | 77 | 5.5% | – |  |
-| Wolfgang Amadeus Mozart | A | K. Köchel | 626 | 189 | 77 | 96 | 12.3% | – |  |
-| Ludwig van Beethoven | A | Op. 1-138 + WoO 1-205 | 343 | 177 | 67 | 71 | 19.5% | – |  |
-| Franz Schubert | A | D. Deutsch | 998 | 191 | 71 | 58 | 7.1% | – |  |
-| Robert Schumann | A | Op. | 148 | 123 | 21 | 2 | 14.2% | – |  |
-| Felix Mendelssohn | A | Op. (MWV) | 121 | 98 | 40 | 40 | 33.1% | – |  |
-| Frédéric Chopin | A | Op. 1-74 + posth. | 112 | 92 | 31 | 13 | 27.7% | – |  |
-| Johannes Brahms | A | Op. 1-122 + WoO | 160 | 166 | 42 | 21 | 26.2% | – |  |
+| Joseph Haydn | A | Hob. | 750 | 128 | 41 | 83 | 5.5% | – |  |
+| Wolfgang Amadeus Mozart | A | K. Köchel | 626 | 194 | 79 | 98 | 12.6% | – |  |
+| Ludwig van Beethoven | A | Op. 1-138 + WoO 1-205 | 343 | 194 | 68 | 82 | 19.8% | – |  |
+| Franz Schubert | A | D. Deutsch | 998 | 193 | 71 | 60 | 7.1% | – |  |
+| Robert Schumann | A | Op. | 148 | 224 | 28 | 5 | 18.9% | – |  |
+| Felix Mendelssohn | A | Op. (MWV) | 121 | 98 | 40 | 42 | 33.1% | – |  |
+| Frédéric Chopin | A | Op. 1-74 + posth. | 112 | 91 | 31 | 14 | 27.7% | – |  |
+| Johannes Brahms | A | Op. 1-122 + WoO | 160 | 166 | 42 | 22 | 26.2% | – |  |
 | César Franck | B | FWV | 100 | 19 | 2 | 17 | 2.0% | – |  |
 | Charles-Valentin Alkan | B | Op. | 76 | 8 | 5 | 1 | 6.6% | – |  |
-| Scott Joplin | A | no catalogue (~ 53 works) | 53 | 28 | – | 28 | – | – | d.1917, fully PD. |
+| Scott Joplin | A | no catalogue (~ 53 works) | 53 | 33 | – | 33 | – | – | d.1917, fully PD. |
 | Leopold Godowsky | B | no catalogue (~ 400 works) | 400 | 0 | – | 0 | – | – | d.1938: needs LaDoger approval (1930–55 rule); nothing imported. |
 
 ## Rank 4: other major composers
 
 | composer | tier | catalogue | est. total | live items | catalogued works | no-cat items | coverage | signature works | notes / gaps |
 |---|---|---|---:|---:|---:|---:|---:|---|---|
-| Henry Purcell | B | Z. Zimmerman | 900 | 126 | 15 | 105 | 1.7% | – |  |
-| Claudio Monteverdi | B | SV | 337 | 52 | 1 | 51 | 0.3% | – |  |
-| Giovanni Pierluigi da Palestrina | B | no catalogue (~ 105 masses + motets) | ? | 115 | – | 115 | – | – |  |
+| Henry Purcell | B | Z. Zimmerman | 900 | 130 | 15 | 109 | 1.7% | – |  |
+| Claudio Monteverdi | B | SV | 337 | 54 | 1 | 53 | 0.3% | – |  |
+| Giovanni Pierluigi da Palestrina | B | no catalogue (~ 105 masses + motets) | ? | 117 | – | 117 | – | – |  |
 | Arcangelo Corelli | B | Op. 1-6 (72 works) | 72 | 18 | 2 | 10 | 2.8% | – |  |
-| Johann Pachelbel | B | P. / PWV | 500 | 29 | 1 | 27 | 0.2% | – |  |
+| Johann Pachelbel | B | P. / PWV | 500 | 32 | 1 | 30 | 0.2% | – |  |
 | Jean-Philippe Rameau | B | RCT | 300 | 27 | 1 | 21 | 0.3% | – |  |
 | François Couperin | B | no standard (~ 27 ordres, 220 pieces) | 220 | 21 | – | 21 | – | – |  |
 | Christoph Willibald Gluck | B | Wq. | 120 | 2 | 0 | 2 | 0.0% | – |  |
 | Niccolò Paganini | B | MS / Op. | 100 | 29 | 2 | 6 | 2.0% | – |  |
-| Gioachino Rossini | B | no standard (39 operas + ~ 200) | ? | 34 | – | 34 | – | – |  |
-| Georges Bizet | B | WD / Op. | 100 | 45 | 1 | 24 | 1.0% | – |  |
-| Giacomo Puccini | B | SC (operas) | 12 | 12 | – | 12 | – | – | d.1924, fully PD; 12 operas + ~ 60 small works. |
+| Gioachino Rossini | B | no standard (39 operas + ~ 200) | ? | 35 | – | 35 | – | – |  |
+| Georges Bizet | B | WD / Op. | 100 | 44 | 1 | 25 | 1.0% | – |  |
+| Giacomo Puccini | B | SC (operas) | 12 | 14 | – | 14 | – | – | d.1924, fully PD; 12 operas + ~ 60 small works. |
 | Jean Sibelius | X | Op. | 116 | 0 | 0 | 0 | 0.0% | – | d.1957: EXCLUDED (life+70 not yet; outside the 1930–55 window). Do not import. |
 | Leoš Janáček | B | JW | 100 | 4 | – | 4 | – | – | d.1928, fully PD. |
 | Bedřich Smetana | B | JB | 80 | 5 | – | 5 | – | – | d.1884. |
 | Alexander Borodin | B | no catalogue (~ 40 works) | 40 | 7 | – | 7 | – | – |  |
 | Isaac Albéniz | B | Op. / K. | 100 | 21 | 6 | 7 | 6.0% | – | d.1909. |
-| Enrique Granados | B | Op. | 60 | 5 | 0 | 5 | 0.0% | – | d.1916. |
+| Enrique Granados | B | Op. | 60 | 8 | 0 | 8 | 0.0% | – | d.1916. |
 | Carl Maria von Weber | B | J. Jähns | 300 | 13 | 1 | 12 | 0.3% | – |  |
 | Jacques Offenbach | B | no standard (~ 100 stage works) | 100 | 9 | – | 9 | – | – |  |
 | Johann Strauss II | B | Op. 1-479 | 479 | 10 | 3 | 7 | 0.6% | – |  |
 | John Field | B | H. Hopkinson | 80 | 9 | 0 | 9 | 0.0% | – |  |
-| Muzio Clementi | B | Op. / WO | 100 | 4 | 1 | 3 | 1.0% | – |  |
-| Carl Czerny | C | Op. 1-861 | 861 | 22 | 10 | 5 | 1.2% | – | Mostly études; keep to signature sets. |
+| Muzio Clementi | B | Op. / WO | 100 | 5 | 1 | 4 | 1.0% | – |  |
+| Carl Czerny | C | Op. 1-861 | 861 | 0 | 0 | 0 | 0.0% | – | Mostly études; keep to signature sets. |
 | Ferruccio Busoni | B | BV | 300 | 3 | 2 | 1 | 0.7% | – | d.1924. |
-| Max Reger | B | Op. 1-147 | 147 | 33 | 9 | 8 | 6.1% | – | d.1916. |
+| Max Reger | B | Op. 1-147 | 147 | 32 | 9 | 8 | 6.1% | – | d.1916. |
 
 ## Reading the table
 

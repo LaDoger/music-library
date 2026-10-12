@@ -1,0 +1,34 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.101,"4 Preludes and Fugues, Op.101 (piano)",1925,in-scope,,0,,,IMSLP: First Publication 1925
+Op.62,"Prelude and Fugue, Op.62 (piano)",1899,in-scope,,0,,,"IMSLP: Belaieff, Leipzig 1899"
+Op.93,"Prelude and Fugue, Op.93 (piano)",1913,in-scope,,0,,,IMSLP: First Publication 1913
+Op.98,"Prelude and Fugue, Op.98 (piano)",1916,in-scope,,0,,,IMSLP: First Publication 1916
+Op.85,"2 Preludes, Op.85 (piano)",1911,in-scope,,0,,,IMSLP: First Publication 1911
+Op.25,"Prelude and 2 Mazurkas, Op.25 (piano)",1890,in-scope,,0,,,IMSLP: First Publication 1890
+Op.31,"3 Etudes, Op.31 (piano)",1892,in-scope,,0,,,"IMSLP: Belaieff, Leipzig 1892"
+Op.72,"Theme and Variations, Op.72 (piano)",1901,in-scope,,0,,,IMSLP: First Publication 1901
+Op.74,"Piano Sonata No.1, Op.74",1901,in-scope,,0,,,IMSLP: First Publication 1901
+Op.75,"Piano Sonata No.2, Op.75",1902,in-scope,,0,,,IMSLP: First Publication 1902
+Op.37,"Nocturne pour piano, Op.37",1892,in-scope,,0,,,IMSLP: First Publication 1892
+Op.36,"Petite valse, Op.36 (piano)",1892,in-scope,,0,,,IMSLP: Belaieff Monatsbericht 1892
+Op.42,"3 Miniatures, Op.42 (piano)",1893,in-scope,,0,,,IMSLP: First Publication 1893
+Op.49,"3 Pieces for Piano, Op.49",1895,in-scope,,0,,,"IMSLP: Belaieff, Leipzig 1895"
+Op.54,"2 Impromptus, Op.54 (piano)",1896,in-scope,,0,,,IMSLP: First Publication 1896
+Op.15,"5 Novelettes, Op.15 (piano)",1889,in-scope,,0,,,IMSLP: First Publication 1889
+Op.67,"The Seasons, Op.67 (ballet)",1901,in-scope,,0,,,IMSLP: First Publication 1901
+Op.57,"Raymonda, Op.57 (ballet)",1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.57a,"Raymonda Suite, Op.57a",1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.82,"Violin Concerto in A minor, Op.82",1905,in-scope,,0,,,"IMSLP: Belaieff, Leipzig 1905"
+Op.92,"Piano Concerto No.1 in F minor, Op.92",1912,in-scope,,0,,,IMSLP: First Publication 1912
+Op.100,"Piano Concerto No.2 in B major, Op.100",,unverified-pub,n/a,0,,,"IMSLP shows 1922 with a query mark; not confirmed, not imported"
+Op.97,"Theme and Variations for String Orchestra, Op.97",,unverified-pub,n/a,0,,,IMSLP work page has no First Publication field (composition year 1895 shown); not imported
+Op.5,"Symphony No.1 in E major, Op.5",1886,in-scope,,0,,,IMSLP: First Publication 1886
+Op.55,"Symphony No.5 in B flat major, Op.55",1896,in-scope,,0,,,"IMSLP: Belaieff, Leipzig 1896"
+Op.58,"Symphony No.6 in C minor, Op.58",1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.77,"Symphony No.7 in F major, Op.77",1903,in-scope,,0,,,IMSLP: First Publication 1903
+Op.83,"Symphony No.8 in E flat major, Op.83",1907,in-scope,,0,,,IMSLP: First Publication 1907
+Op.1,"String Quartet No.1 in D major, Op.1",1887,in-scope,yes,1,glazunov_op_1_string_quartet_no_1_op_1,openscore-quartets,IMSLP: First Publication 1887; OpenScore StringQuartets CC0 score
+Op.64,"String Quartet No.4, Op.64",1899,in-scope,,0,,,IMSLP: First Publication 1899
+Op.70,"String Quartet No.5, Op.70",1900,in-scope,,0,,,IMSLP: First Publication 1900
+Op.107,"String Quartet No.7, Op.107",1931,excluded-post1930,n/a,0,,,"IMSLP: Belaieff 1931 (post-1930, excluded)"
+Op.109,"Saxophone Concerto, Op.109",1936,excluded-post1930,n/a,0,,,"IMSLP: Leduc, Paris 1936 (post-1930, excluded)"

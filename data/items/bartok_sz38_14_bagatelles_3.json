@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composition: Béla Bartók (d. 1945), 14 Bagatelles first published 1909 (Rozsnyai, Budapest 1909): public domain in the US (published before 1931) and in the EU / life+70 countries. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain Rozsnyai, Budapest 1909 scan from IMSLP (https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~99%, pitch ~99% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/bartok_sz38_14_bagatelles_3.musicxml.",
+ "legal_notes": "Composition: Béla Bartók (d. 1945), 14 Bagatelles first published 1909 (Rozsnyai, Budapest 1909): public domain in the US (published before 1931) and in the EU / life+70 countries. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain Rozsnyai, Budapest 1909 scan from IMSLP (https://imslp.org/wiki/14_Bagatelles,_Op.6_(Bartók,_Béla)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~99%, pitch ~99% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/bartok_sz38_14_bagatelles_3.musicxml. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/bartok_sz38_14_bagatelles_3.mid",
  "local_audio_path": "",
  "preview_path": "",

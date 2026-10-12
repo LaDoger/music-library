@@ -1,0 +1,84 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.12 No.1,Arietta (Lyric Pieces Op.12 No.1),1867,in-scope,yes,1,grieg_op12no1_arietta_from_lyric_pieces_op,pdmx,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.2,Waltz (Vals) (Lyric Pieces Op.12 No.2),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.3,Watchman's Song (Vektersang) (Lyric Pieces Op.12 No.3),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.4,Elves' Dance (Alfedans) (Lyric Pieces Op.12 No.4),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.5,Folk Song (Folkevise) (Lyric Pieces Op.12 No.5),1867,in-scope,yes,1,grieg_op12no5_grieg_lyric_pieces_book_1_op,pdmx,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.6,Norwegian Melody (Norsk) (Lyric Pieces Op.12 No.6),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.7,Albumleaf (Albumblad) (Lyric Pieces Op.12 No.7),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.12 No.8,National Song (Fedrelandssang) (Lyric Pieces Op.12 No.8),1867,in-scope,,0,,,"Lyric Pieces Book I, Wikipedia publication year 1867"
+Op.38 No.1,Berceuse (Lyric Pieces Op.38 No.1),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.2,Folk Song (Folkevise) (Lyric Pieces Op.38 No.2),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.3,Melody (Melodi) (Lyric Pieces Op.38 No.3),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.4,Dance (Halling) (Lyric Pieces Op.38 No.4),1883,in-scope,yes,1,grieg_op38no4_edvard_grieg_lyric_pieces_op,pdmx,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.5,Spring Dance (Springdans) (Lyric Pieces Op.38 No.5),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.6,Elegy (Elegi) (Lyric Pieces Op.38 No.6),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.7,Waltz (Vals) (Lyric Pieces Op.38 No.7),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.38 No.8,Canon (Kanon) (Lyric Pieces Op.38 No.8),1883,in-scope,,0,,,"Lyric Pieces Book II, Wikipedia publication year 1883"
+Op.43 No.1,Butterfly (Sommerfugl) (Lyric Pieces Op.43 No.1),1886,in-scope,yes,1,grieg_op43no1_papillon_op_43_no_1,pdmx,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.43 No.2,Lonely Wanderer (Ensom vandrer) (Lyric Pieces Op.43 No.2),1886,in-scope,,0,,,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.43 No.3,In My Homeland (I hjemmet) (Lyric Pieces Op.43 No.3),1886,in-scope,,0,,,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.43 No.4,Little Bird (Småfugl) (Lyric Pieces Op.43 No.4),1886,in-scope,,0,,,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.43 No.5,Erotikon (Lyric Pieces Op.43 No.5),1886,in-scope,,0,,,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.43 No.6,To Spring (Til våren) (Lyric Pieces Op.43 No.6),1886,in-scope,yes,1,grieg_op_43_no_6_lyric_pieces_to_the_spring,commons,"Lyric Pieces Book III, Wikipedia publication year 1886"
+Op.47 No.1,Valse-Impromptu (Lyric Pieces Op.47 No.1),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.2,Albumleaf (Albumblad) (Lyric Pieces Op.47 No.2),1888,in-scope,yes,1,grieg_op47_lyric_piece_book_iv_no_2_alb,pdmx,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.3,Melody (Melodi) (Lyric Pieces Op.47 No.3),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.4,Halling (Dance) (Lyric Pieces Op.47 No.4),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.5,Melancholy (Melankoli) (Lyric Pieces Op.47 No.5),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.6,Spring Dance (Springtanz) (Lyric Pieces Op.47 No.6),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.47 No.7,Elegy (Elegi) (Lyric Pieces Op.47 No.7),1888,in-scope,,0,,,"Lyric Pieces Book IV, Wikipedia publication year 1888"
+Op.54 No.1,Shepherd's Boy (Gjetergutt) (Lyric Pieces Op.54 No.1),1891,in-scope,,0,,,"Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.54 No.2,Norwegian March (Gangar) (Lyric Pieces Op.54 No.2),1891,in-scope,,0,,,"Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.54 No.3,March of the Trolls (Trolltog) (Lyric Pieces Op.54 No.3),1891,in-scope,yes,2,grieg_op54_zuge_der_zwerge grieg_op_54_no_3_lyric_pieces_march_of_the_trolls,"commons,mutopia","Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.54 No.4,Notturno (Lyric Pieces Op.54 No.4),1891,in-scope,,0,,,"Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.54 No.5,Scherzo (Lyric Pieces Op.54 No.5),1891,in-scope,,0,,,"Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.54 No.6,Bell Sound (Klokkeklang) (Lyric Pieces Op.54 No.6),1891,in-scope,,0,,,"Lyric Pieces Book V, Wikipedia publication year 1891"
+Op.57 No.1,Vanished Days (Svundne dager) (Lyric Pieces Op.57 No.1),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.57 No.2,Gade (Street) (Lyric Pieces Op.57 No.2),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.57 No.3,Illusion (Illusjon) (Lyric Pieces Op.57 No.3),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.57 No.4,Secret (Geheimniss) (Lyric Pieces Op.57 No.4),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.57 No.5,She Dances (Sie tanzt) (Lyric Pieces Op.57 No.5),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.57 No.6,Homesickness (Heimweh) (Lyric Pieces Op.57 No.6),1893,in-scope,,0,,,"Lyric Pieces Book VI, Wikipedia publication year 1893"
+Op.62 No.1,Sylph (Sylfide) (Lyric Pieces Op.62 No.1),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.62 No.2,Gratitude (Takk) (Lyric Pieces Op.62 No.2),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.62 No.3,French Serenade (Lyric Pieces Op.62 No.3),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.62 No.4,Brooklet (Bekken) (Lyric Pieces Op.62 No.4),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.62 No.5,Phantom (Drømmesyn) (Lyric Pieces Op.62 No.5),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.62 No.6,Homeward (Hjemad) (Lyric Pieces Op.62 No.6),1895,in-scope,,0,,,"Lyric Pieces Book VII, Wikipedia publication year 1895"
+Op.65 No.1,From My Youth (Fra ungdomsdagene) (Lyric Pieces Op.65 No.1),1897,in-scope,,0,,,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.65 No.2,Peasant's Song (Bondens sang) (Lyric Pieces Op.65 No.2),1897,in-scope,,0,,,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.65 No.3,Melancholy (Tungsinn) (Lyric Pieces Op.65 No.3),1897,in-scope,,0,,,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.65 No.4,Salon (Lyric Pieces Op.65 No.4),1897,in-scope,,0,,,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.65 No.5,Ballad (I balladetone) (Lyric Pieces Op.65 No.5),1897,in-scope,,0,,,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.65 No.6,Wedding Day at Troldhaugen (Lyric Pieces Op.65 No.6),1897,in-scope,yes,1,grieg_o65_bryllupsdag_pa_troldhaugen,mutopia,"Lyric Pieces Book VIII, Wikipedia publication year 1897"
+Op.68 No.1,Sailors' Song (Matrosenes oppsang) (Lyric Pieces Op.68 No.1),1899,in-scope,,0,,,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.68 No.2,Grandmother's Minuet (Bestemors menuet) (Lyric Pieces Op.68 No.2),1899,in-scope,,0,,,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.68 No.3,At Your Feet (For dine føtter) (Lyric Pieces Op.68 No.3),1899,in-scope,,0,,,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.68 No.4,Evening in the Mountains (Aften på højfjellet) (Lyric Pieces Op.68 No.4),1899,in-scope,,0,,,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.68 No.5,At the Cradle (Bådnlåt) (Lyric Pieces Op.68 No.5),1899,in-scope,yes,1,grieg_badn_lat,pdmx,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.68 No.6,Melancholy Waltz (Valse mélancolique) (Lyric Pieces Op.68 No.6),1899,in-scope,,0,,,"Lyric Pieces Book IX, Wikipedia publication year 1899"
+Op.71 No.1,Once upon a Time (Det var engang) (Lyric Pieces Op.71 No.1),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.2,Summer's Eve (Sommeraften) (Lyric Pieces Op.71 No.2),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.3,Puck (Småtroll) (Lyric Pieces Op.71 No.3),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.4,Peace in the Woods (Skogstillhet) (Lyric Pieces Op.71 No.4),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.5,Halling (Lyric Pieces Op.71 No.5),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.6,Gone (Forbi) (Lyric Pieces Op.71 No.6),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.71 No.7,Remembrances (Efterklang) (Lyric Pieces Op.71 No.7),1901,in-scope,,0,,,"Lyric Pieces Book X, Wikipedia publication year 1901"
+Op.7,Piano Sonata in E minor (Op.7),1865,in-scope,yes,1,grieg_op7_grieg_sonata_in_e_minor_move,pdmx,"Piano Sonata, composed 1865"
+Op.8,Violin Sonata No.1 in F major (Op.8),1867,in-scope,,0,,,Violin Sonata No.1
+Op.13,Violin Sonata No.2 in G major (Op.13),1867,in-scope,,0,,,Violin Sonata No.2
+Op.16,Piano Concerto in A minor (Op.16),1868,in-scope,yes,3,grieg_op_16_grieg_piano_concerto_in_a_minor_3rd_moveme grieg_op_16_piano_concerto_in_a_minor_opus_16_grieg_2n grieg_op16_grieg_piano_concerto_in_a_mi,pdmx,"Piano Concerto, composed 1868"
+Op.22,Sigurd Jorsalfar (Op.22),1872,in-scope,,0,,,Incidental music to Bjørnson's play
+Op.23,Peer Gynt incidental music (Op.23),1876,in-scope,yes,2,grieg_op23_grieg_anitra_s_dance_piano_s grieg_op_23_morgenstimmung,pdmx,Incidental music to Ibsen's play; Solveig's Song is No.4
+Op.24,Ballade in G minor (Op.24),1877,in-scope,,0,,,Piano Ballade (Ballade in the variation form)
+Op.27,String Quartet No.1 in G minor (Op.27),1878,in-scope,yes,2,grieg_op_27_grieg_quartet_in_g_op_27_first_movement grieg_op27_string_quartet_no_1_op_27,"openscore-quartets,pdmx",String Quartet No.1
+Op.35,Norwegian Dances (Op.35),,unverified-pub,n/a,0,,,Piano four hands; IMSLP work page at the standard title (404); not imported
+Op.36,Cello Sonata in A minor (Op.36),1883,in-scope,,0,,,Cello Sonata
+Op.40,Holberg Suite (Op.40),1884,in-scope,yes,6,grieg_op_40_holberg_suite_air grieg_op_40_holberg_suite_gavotte grieg_op_40_holberg_suite_praeludium grieg_op_40_holberg_suite_rigaudon grieg_op_40_holberg_suite_sarabande grieg_op40_grieg_holberg_suite_v_rigaud,"commons,pdmx",Originally piano; string orchestra version
+Op.45,Violin Sonata No.3 in C minor (Op.45),1887,in-scope,,0,,,Violin Sonata No.3
+Op.46,Peer Gynt Suite No.1 (Op.46),1888,in-scope,yes,4,grieg_peer_gynt_morning_mood grieg_peer_gynt_mountain_king grieg_op_46_ase_s_tod grieg_op46_peer_gynt_morning_mood,"curated,pdmx",Orchestral suite; Morning Mood and Mountain King are live
+Op.55,Peer Gynt Suite No.2 (Op.55),1893,in-scope,,0,,,Orchestral suite
+Op.64,Symphonic Dances (Op.64),1898,in-scope,,0,,,Orchestral dances
+Op.67,Haugtussa (Op.67),1896,in-scope,,0,,,Song cycle (eight songs)
+Op.72,Slåtter (Op.72),,unverified-pub,n/a,0,,,IMSLP work page at the standard title (404); not imported

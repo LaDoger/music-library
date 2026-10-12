@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1944; work published 1928, before 1931). Also public domain in the EU / life+70 countries (composer died 1944); only this pre-1931 publication is US-PD, later works by the composer are not. FLAG composer term: composer died 1944. Public domain in life+70 countries. Not a blanket PD-US claim, because works published from 1930 may remain protected. OpenScore Lieder score CC0 1.0 (repository LICENSE.txt checked). Instrumentation: Voice, Piano. Courtesy credit requested by the project: OpenScore and https://github.com/OpenScore/Lieder. Preview is an own FluidSynth (FluidR3_GM) render of a MuseScore MIDI export, 15 seconds, fades, loudness-normalised; no third-party recording. Vocal lines sound as General MIDI instruments, not sung. source_rank=9.",
+ "legal_notes": "US public domain only (composer died 1944; work published 1928, before 1931). Also public domain in the EU / life+70 countries (composer died 1944); only this pre-1931 publication is US-PD, later works by the composer are not. FLAG composer term: composer died 1944. Public domain in life+70 countries. Not a blanket PD-US claim, because works published from 1930 may remain protected. OpenScore Lieder score CC0 1.0 (repository LICENSE.txt checked). Instrumentation: Voice, Piano. Courtesy credit requested by the project: OpenScore and https://github.com/OpenScore/Lieder. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording. Vocal lines sound as General MIDI instruments, not sung. source_rank=9.",
  "local_score_path": "files/scores/chaminade_op_170_au_pays_bleu.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -59,7 +59,6 @@
  "legal_flags": [
   "Pre-1931 publication: public domain in the US (published 1928) and in the EU / life+70 countries (composer d.1944); later works by this composer are not US-PD",
   "Composer-term caveat",
-  "Own MIDI render",
   "Courtesy credit"
  ],
  "energy": "moderate",

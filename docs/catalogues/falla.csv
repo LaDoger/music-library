@@ -1,0 +1,22 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Noches,Nights in the Gardens of Spain,1922,in-scope,,0,,,"Max Eschig, Paris 1922 (two-piano reduction; full score 1923); composed 1909-15"
+Amor brujo,El amor brujo (incl. Ritual Fire Dance),1921,in-scope,,0,,,"Piano reduction 1921, full score J. & W. Chester 1924 (plate J.W.C. 41); composed 1914-15, rev. 1916-20"
+Tres picos Suite 1,"The Three-Cornered Hat, Suite No.1",1921,in-scope,,0,,,"J. & W. Chester, London 1921 (IMSLP); ballet premiered London 1919. Listed before the ballet row so suite titles match here"
+Tres picos Suite 2,"The Three-Cornered Hat, Suite No.2",1921,in-scope,,0,,,"IMSLP first publication 1921; publisher not named in the excerpt read (Chester assumed, to confirm)"
+Tres picos,"El sombrero de tres picos (The Three-Cornered Hat), ballet",1921,in-scope,,0,,,"J. & W. Chester, London c1921 (complete score, IMSLP / Morgan Library); premiered London 1919"
+Vida breve,La vida breve (Danza espanola No.1),1913,in-scope,,0,,,"Max Eschig, Paris 1913 (vocal score, plate M.E. 400); Danza espanola No.1 full score Eschig 1925"
+Siete canciones,Siete canciones populares espanolas,1922,in-scope,yes,4,falla_siete_canciones_jota_manuel_de_falla falla_siete_canciones_nana_berceuse_de_manuel_de_falla falla_siete_canciones_polo_manuel_de_falla falla_siete_canciones_seguidilla_murciana_manuel_de_fa,pdmx,"Max Eschig, Paris 1922 (IMSLP first publication); composed 1914"
+Fantasia betica,Fantasia betica (piano),1922,in-scope,,0,,,J. & W. Chester 1922 (IMSLP); composed 1919
+Retablo,El retablo de maese Pedro,1924,in-scope,,0,,,J. & W. Chester 1924 (IMSLP); composed 1919-23
+Harpsichord,Harpsichord Concerto,1928,in-scope,,0,,,"Max Eschig, Paris 1928 (plate M.E. 1787); composed 1926"
+Cuatro piezas,Cuatro piezas espanolas (Pieces espagnoles),1909,in-scope,,0,,,"Durand & Fils, Paris 1909 (plate D. & F. 7217; IMSLP); premiered 1908 by Viñes"
+Psyche,"Psyche (3 poems, voice and ensemble)",1927,in-scope,,0,,,"J. & W. Chester 1927 (plate J.W.C. 55, IMSLP); composed 1924"
+3 Melodies,3 Melodies (Trois melodies),1910,in-scope,yes,1,falla_3_melodies_2_chinoiserie_de_falla,pdmx,"Rouart, Lerolle & Cie, Paris 1910 (IMSLP); 'Chinoiserie' file assumed to be from this set, to confirm"
+Serenata,Serenata andaluza (piano),1902,in-scope,,0,,,"Faustino Fuentes, Madrid, n.d. (ca.1902, plate 18355); early salon piece"
+Nocturno,Nocturno (piano),1902,in-scope,,0,,,"Faustino Fuentes, Madrid, n.d. (ca.1902, IMSLP); other sources give 1903; both pre-1931"
+Homenaje,Homenaje: Le tombeau de Paul Dukas,1935,excluded-post1930,n/a,0,,,Composed 1935 (Dukas memorial); post-1930 publication: excluded
+Balada,Balada de Mallorca,1933,excluded-post1930,n/a,0,,,IMSLP first publication 1975 (Ricordi); post-1930: excluded
+Soneto,Soneto a Cordoba,1927,excluded-post1930,n/a,0,,,"Premiered 1927; Wikipedia gives OUP / Chester 1932, a Greek archive 1956: post-1930 either way, excluded"
+Atlantida,Atlantida (orchestral cantata),1962,excluded-post1930,n/a,0,,,"Unfinished at death (1946); completed by Halffter, published 1962: excluded"
+Fanfare,Fanfare pour une fete,,unverified-pub,n/a,0,,,Publication year not checked: not imported until verified
+Gran teatro,El gran teatro del mundo,,unverified-pub,n/a,0,,,Publication year not checked: not imported until verified

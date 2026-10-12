@@ -1,0 +1,29 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.38,"Forgotten Melodies I (First Cycle), Op.38 (piano; incl. Sonata reminiscenza Op.38 No.1)",1922,in-scope,,0,,,"IMSLP: First Publication 1922 (Zimmermann, Leipzig)"
+Op.39,"Forgotten Melodies II (Second Cycle), Op.39 (piano; incl. Sonata tragica Op.39 No.5)",1922,in-scope,,0,,,IMSLP: First Publication 1922 (Zimmermann; Wikipedia says 1923)
+Op.40,"Forgotten Melodies III (Third Cycle), Op.40 (piano)",1922,in-scope,,0,,,IMSLP: First Publication 1922
+Op.5,"Piano Sonata No.1 in F minor, Op.5",1904,in-scope,,0,,,IMSLP: First Publication 1904
+Op.20,"2 Tales (Skazki), Op.20 (piano)",1910,in-scope,,0,,,IMSLP: First Publication 1910 (Russischer Musikverlag)
+Op.26,"4 Tales (Skazki), Op.26 (piano)",1913,in-scope,,0,,,"IMSLP: First Publication 1913 (Edition Russe de Musique, 'apparently')"
+Op.51,"6 Tales (Skazki), Op.51 (piano)",1928,in-scope,,0,,,IMSLP: First Publication 1928
+Op.25 No.1,"Sonata-Skazka, Op.25 No.1 (piano)",1911,in-scope,,0,,,IMSLP: First Publication 1911 ? (Russischer Musikverlag RMV 126)
+Op.25 No.2,"Piano Sonata No.7 'Night Wind', Op.25 No.2",1912,in-scope,,0,,,IMSLP: First Publication 1912
+Op.22,"Piano Sonata No.5 in G minor, Op.22",1911,in-scope,,0,,,"IMSLP: First Publication '1911?' (Russischer Musikverlag Berlin, query mark; composed 1909-10)"
+Op.33,"Piano Concerto No.1 in C minor, Op.33",1921,in-scope,,0,,,"IMSLP: First Publication 1921 (Muzgiz, Moscow)"
+Op.50,"Piano Concerto No.2 in C minor, Op.50",1928,in-scope,,0,,,IMSLP: First Publication 1928 (Zimmermann)
+Op.16,"3 Nocturnes for violin and piano, Op.16",1910,in-scope,,0,,,"IMSLP: First Publication 1910 (Edition Russe de Musique); IMSLP summary, work page not fetched"
+Op.21,"Violin Sonata No.1 in B minor, Op.21",1911,in-scope,,0,,,IMSLP: First Publication 1911 (Russischer Musikverlag)
+Op.44,"Violin Sonata No.2 in G major, Op.44",1928,in-scope,,0,,,IMSLP: First Publication 1928
+Op.27,"Sonata-Ballade, Op.27 (piano)",1913,in-scope,,0,,,IMSLP: First Publication 1913 (version A)
+Op.11,"Sonata-Triad (Sonatas 2-4), Op.11 (piano)",,unverified-pub,n/a,0,,,"IMSLP page not found at the obvious URLs (404); first publication not confirmed (composed 1904-07), not imported"
+Op.30,"Piano Sonata No.9 in A minor, Op.30 ('War Sonata')",1917,in-scope,,0,,,"IMSLP: First Publication 1917 (Editions Russes de Musique, Petrograd)"
+Op.42,"3 Tales, Op.42 (piano)",1924,in-scope,,0,,,IMSLP: First Publication 1924 (Monatsbericht)
+Op.48,"2 Tales, Op.48 (piano)",1927,in-scope,,0,,,IMSLP: First Publication '1927 or earlier' (composed 1925)
+Op.49,"3 Hymns in Praise of Toil, Op.49 (piano)",1929,in-scope,,0,,,IMSLP: First Publication 1929 (Zimmermann)
+Op.43,"2 Canzonas with Dances, Op.43 (violin and piano)",1924,in-scope,,0,,,IMSLP: First Publication 1924
+Op.53 No.1,"Sonata romantica, Op.53 No.1 (piano)",1932,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1932 (composed 1929-30) (post-1930, excluded)"
+Op.53 No.2,"Sonata minacciosa, Op.53 No.2 (piano)",1933,excluded-post1930,n/a,0,,,"IMSLP: Zimmermann issued it at the start of 1933 (post-1930, excluded)"
+Op.56,"Sonata-Idyll, Op.56 (piano)",1937,excluded-post1930,n/a,0,,,Composed 1935-37; post-1930 publication (excluded)
+Op.60,"Piano Concerto No.3 'Ballade', Op.60",1951,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1951 (Zimmermann) (post-1930, excluded)"
+Op.57,"Violin Sonata No.3 in E minor, Op.57",1939,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1939 or 1940 (Novello) (post-1930, excluded)"
+Piano Quintet,Piano Quintet in C major (no opus),1949,excluded-post1930,n/a,0,,,"Completed 1949 (post-1930, excluded)"

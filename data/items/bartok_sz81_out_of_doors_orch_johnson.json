@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composition: Béla Bartók (d. 1945), first published 1927 (Universal Edition), so public domain in the US (published before 1931) and in the EU / life+70 countries. File: orchestral arrangement/MIDI by Johnson (2022), IMSLP file #867633, licence CC BY 4.0 as labelled on IMSLP: credit 'Arrangement: Johnson (2022), CC BY 4.0, via IMSLP #867633'. Not Bartók's own piano original. Length ~13:40 (all 5 movements).",
+ "legal_notes": "Composition: Béla Bartók (d. 1945), first published 1927 (Universal Edition), so public domain in the US (published before 1931) and in the EU / life+70 countries. File: orchestral arrangement/MIDI by Johnson (2022), IMSLP file #867633, licence CC BY 4.0 as labelled on IMSLP: credit 'Arrangement: Johnson (2022), CC BY 4.0, via IMSLP #867633'. Not Bartók's own piano original. Length ~13:40 (all 5 movements). No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/bartok_sz81_out_of_doors_orch_johnson.mid",
  "local_audio_path": "",
  "preview_path": "",

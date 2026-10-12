@@ -1,0 +1,23 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.11,12 Transcendental Etudes Op.11,1906,in-scope,yes,1,lyapunov_op_11_12_transcendental_etudes_op_11,pdmx,"IMSLP: composed 1897-1905, first publication 'n.d. (ca. 1906)', Zimmermann, Leipzig, plates Z.3067-3078 (uncertain date)"
+Op.26,Chant d'automne Op.26,1906,in-scope,yes,1,lyapunov_op_26_chant_d_automne_op_26,pdmx,"IMSLP: first publication 1906, Zimmermann, Leipzig, plate Z.4314"
+Op.6,7 Preludes Op.6,1896,in-scope,yes,2,lyapunov_op_6_prelude_s_liapounow_op_6_no_1 lyapunov_op_6_prelude_s_liapounow_op_6_no_6,pdmx,"IMSLP: composed 1895, first publication 1896 (scan is a later Muzgiz edition)"
+Op.27,Piano Sonata in F minor Op.27,1908,in-scope,yes,1,lyapunov_op_27_piano_sonata_in_f_minor_op_27,pdmx,"IMSLP: composed 1906-08, Zimmermann, Leipzig 1908 (plate Z.4633)"
+Op.40,3 Pieces of Moderate Difficulty Op.40,1910,in-scope,,0,,,"IMSLP: J.H. Zimmermann, Leipzig 1910 (plate Z.4682)"
+Op.46,Barcarolle Op.46,1911,in-scope,,0,,,"IMSLP: composed and first published 1911, Zimmermann"
+Op.23,Valse-Impromptu No.1 Op.23,1905,in-scope,,0,,,"IMSLP: first publication 'ca. 1905' (uncertain), Zimmermann plate Z.4256"
+Op.58,Prelude and Fugue Op.58,1914,in-scope,,0,,,"Composed 1913; first publication 1914 (Hofmeister Monatsbericht, cited on IMSLP)"
+Op.65,Sonatina Op.65,1922,in-scope,,0,,,IMSLP: composed 1917; earliest listed scan Muzgiz 1922 (first printing not confirmed)
+Op.49,Variations and Fugue on a Russian Theme Op.49,1912,in-scope,,0,,,"IMSLP: first publication ca. 1912 (scan is a Muzgiz edition, ca. 1952)"
+Op.53,Hashish Op.53 (Oriental symphonic poem),1914,in-scope,,0,,,"IMSLP: first publication 1914, Zimmermann plate Z.10033"
+Op.63,Piano Sextet Op.63,1924,in-scope,,0,,,"Composed 1916, rev. 1921 (lost original); IMSLP 'n.d. [1924]' Zimmermann Z.11164 (uncertain)"
+Op.57,3 Pieces Op.57,,unverified-pub,n/a,0,,,Composed 1913; IMSLP gives only a Muzgiz scan (ca. 1952); no first-publication year
+Op.12,Symphony No.1 in B minor Op.12,1902,in-scope,,0,,,"IMSLP: composed 1887, first publication 1902, Zimmermann St Petersburg (plate Z.3379)"
+Op.66,Symphony No.2 in B flat minor Op.66,1958,in-scope,,0,,,Composed 1917; IMSLP gives Muzgiz 1958 as the earliest listed edition (first printing not confirmed)
+Op.4,Piano Concerto No.1 in E flat minor Op.4,1892,in-scope,,0,,,"IMSLP: composed 1890, Bote & Bock, Berlin 1892 (plate 13645)"
+Op.38,Piano Concerto No.2 in E major Op.38,1910,in-scope,,0,,,"IMSLP: composed 1909, Zimmermann 1910 (plate Z.4813)"
+Op.28,Rhapsody on Ukrainian Themes Op.28,1908,in-scope,,0,,,"IMSLP: composed 1907, Zimmermann, Leipzig 1908 (plate Z.4571)"
+Op.16,Polonaise for Grand Orchestra Op.16,1902,in-scope,,0,,,Wikipedia only: 1902; IMSLP page not checked
+Op.61,Violin Concerto Op.61,,unverified-pub,n/a,0,,,"Composed 1915, rev. 1921; IMSLP lists only Muzgiz 1964; first publication not confirmed"
+Op.7,Triumphal Overture on Russian Themes Op.7,,unverified-pub,n/a,0,,,Wikipedia gives 1886 (Solemn Overture); no first-publication year verified
+Op.2,Ballade Op.2,,unverified-pub,n/a,0,,,Composed 1883 (Wikipedia); no first-publication year verified

@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1856 (PD). OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #289796 (Clara Schumann ed., Breitkopf & Härtel 1879), corrected against the page images by an AI model (see tools/omr REPORT). Bar count matches the scan, 0 wrong-length bars, model self-estimate rhythm ~98%, pitch ~95% (an independent spot check of a GPT-6.1 Sol piece found pitch ~85% against a claimed 98%, so treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Slurs, pedal and most ornaments not encoded. Transcription released CC0. MusicXML: files/scores/schumann_op9_carnaval_12.musicxml. Fills complete-set gap: Schumann Carnaval Op. 9.",
+ "legal_notes": "Composer died 1856 (PD). OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #289796 (Clara Schumann ed., Breitkopf & Härtel 1879), corrected against the page images by an AI model (see tools/omr REPORT). Bar count matches the scan, 0 wrong-length bars, model self-estimate rhythm ~98%, pitch ~95% (an independent spot check of a GPT-6.1 Sol piece found pitch ~85% against a claimed 98%, so treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Slurs, pedal and most ornaments not encoded. Transcription released CC0. MusicXML: files/scores/schumann_op9_carnaval_12.musicxml. Fills complete-set gap: Schumann Carnaval Op. 9. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/schumann_op9_carnaval_12.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -67,7 +67,15 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/schumann_op9_carnaval_12.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "schumann_op9_schumann_carnaval_no_12_chop",
+   "source": "pdmx",
+   "title": "Carnaval - No. 12 Chopin (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=schumann_op9_carnaval_12",

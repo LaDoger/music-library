@@ -1,0 +1,28 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Greger,"Luise Greger songs (OpenScore Lieder, mis-credited to Max Reger)",,excluded-disputed,n/a,0,,,"Not Reger: OpenScore path is Greger, Luise"
+Op.53,"Sieben Silhouetten (Seven Silhouettes), Op.53",1900,in-scope,,0,,,IMSLP 7 Silhouettes Op.53 (Wikipedia year 1900); IMSLP page carries no First Publication field
+Op.82,"Aus meinem Tagebuch, Op.82",1904,in-scope,,0,,,Four volumes 1904-1912 (Wikipedia year 1904); IMSLP page carries no First Publication field
+WoO III/12,"Blätter und Blüten, WoO III/12",1900,in-scope,,0,,,Wikipedia year 1900-02; IMSLP page carries no First Publication field
+Op.143,"Träume am Kamin (12 Kleine Klavierstücke), Op.143",1916,in-scope,,0,,,IMSLP First Publication 1916 (composed 1915)
+Op.81,"Variationen und Fuge über ein Thema von Bach, Op.81",1904,in-scope,,0,,,Wikipedia year 1904; IMSLP page carries no First Publication field
+Op.134,"Variationen und Fuge über ein Thema von Telemann, Op.134",1914,in-scope,,0,,,Wikipedia year 1914; piano version
+Op.27,"Choralfantasie über 'Ein feste Burg ist unser Gott', Op.27",1898,in-scope,,0,,,Wikipedia year 1898
+Op.46,"Fantasie und Fuge über B-A-C-H, Op.46",1900,in-scope,,0,,,Wikipedia year 1900
+Op.33,"Orgelsonate Nr.1 in F-sharp minor, Op.33",1899,in-scope,,0,,,IMSLP First Publication 1899
+Op.60,"Orgelsonate Nr.2 in D minor, Op.60",1901,in-scope,,0,,,Wikipedia year 1901
+Op.67,"52 Choralvorspiele, Op.67",1902,in-scope,,0,,,"Wikipedia year 1902; 52 short chorale preludes, one row per file"
+Op.127,"Introduction, Passacaglia und Fuge, Op.127",1913,in-scope,,0,,,Wikipedia year 1913; organ version
+Op.100,"Variationen und Fuge über ein Thema von Hiller, Op.100",1907,in-scope,,0,,,Wikipedia year 1907; orchestral
+Op.132,"Variationen und Fuge über ein Thema von Mozart, Op.132",1914,in-scope,,0,,,Wikipedia year 1914; orchestral (two-piano version Op.132a)
+Op.90,"Sinfonietta in A major, Op.90",1905,in-scope,,0,,,Wikipedia year 1904-05
+Op.123,"Konzert im alten Stil, Op.123",1912,in-scope,,0,,,Wikipedia year 1912
+Op.125,"Eine romantische Suite, Op.125",1912,in-scope,,0,,,Wikipedia year 1912
+Op.130,"Eine Ballett-Suite, Op.130",1913,in-scope,,0,,,IMSLP First Publication 1913
+Op.101,"Violinkonzert in A major, Op.101",1907,in-scope,,0,,,Wikipedia year 1907-08
+Op.114,"Klavierkonzert in F minor, Op.114",1910,in-scope,,0,,,Wikipedia year 1910
+Op.146,"Klarinettenquintett in A major, Op.146",1915,in-scope,,0,,,Wikipedia year 1915-16
+Op.49,"Zwei Klarinettensonaten, Op.49",1900,in-scope,,0,,,"Wikipedia year 1900; two sonatas, one row per file"
+Op.42,"Vier Sonaten für Violine allein, Op.42",1900,in-scope,yes,10,reger_op42_1_i reger_op42_1_ii reger_op42_1_iii reger_op42_2_i reger_op42_2_ii reger_op42_2_iii,curated,"Wikipedia year 1900; four sonatas, one row per file (Mutopia rows already live)"
+Op.91,"Sieben Sonaten für Violine allein, Op.91",1905,in-scope,,0,,,"Wikipedia year 1905; seven sonatas, one row per file"
+Op.109,"Streichquartett Nr.4 in E-flat major, Op.109",1909,in-scope,yes,1,reger_op109_string_quartet_no_4_op_109,openscore-quartets,Wikipedia year 1909
+Op.64,"Klavierquintett Nr.2 in C minor, Op.64",1901,in-scope,,0,,,Wikipedia year 1901-02

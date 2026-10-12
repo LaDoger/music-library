@@ -1,0 +1,42 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.63,Paysages et marines (piano),1918,in-scope,,0,,,"IMSLP: First Publication 1918 (Mathot, Z. 816-817 M); composed 1915-16"
+Op.59,5 Piano Sonatinas,1918,in-scope,,0,,,"IMSLP: First Publication 1918 (Mathot, Z. 781-785 M); composed 1915-16"
+Op.61d,12 Petites pieces,1921,in-scope,,0,,,"IMSLP: First Publication 1921 (E.M.S. 4345); composed 1915-16, 1919-20"
+Op.61c,10 Petites pieces faciles,1921,in-scope,,0,,,"IMSLP: First Publication 1921 (E.M.S. 4344); composed 1915-16, 1919-20"
+Op.61b,Ecole du jeu lie,1928,in-scope,,0,,,IMSLP: First Publication 1928; piano (pedagogical)
+Op.41,24 Esquisses,1922,in-scope,,0,,,IMSLP: First Publication 1922 (E.M.S. 4704-4705)
+Op.77,12 Pastorales,1923,in-scope,,0,,,IMSLP: First Publication 1923 (Senart); piano
+Op.87,4 Nouvelles sonatines,1926,in-scope,,0,,,IMSLP: First Publication 1926 (E.M.S. 7058)
+Op.6,Suite for 2 pianos,1899,in-scope,,0,,,"IMSLP: First Publication 1899 (Leduc, A.L. 10186); two-piano original, not an arrangement"
+Op.19,Suite for piano four hands,1901,in-scope,,0,,,"IMSLP: First Publication 1901 (Durand, D.&F. 5938)"
+Op.73bis,Choral sur le nom de Faure,1922,in-scope,,0,,,IMSLP: First Publication 1922; piano
+Op.64,Violin Sonata,1922,in-scope,,0,,,IMSLP: First Publication 1922 (E.M.S. 4706); composed 1915-16
+Op.52,Flute Sonata,1922,in-scope,,0,,,IMSLP: First Publication 1922 (E.M.S. 4703)
+Op.75,Sonata for 2 flutes,1922,in-scope,,0,,,IMSLP: First Publication 1922 (E.M.S. 4807)
+Op.66,Cello Sonata,1923,in-scope,,0,,,IMSLP: First Publication 1923 (Senart); composed 1917
+Op.53,Viola Sonata,1923,in-scope,,0,,,"IMSLP: First Publication 1923 (Senart, E.M.S. 6036); composed 1915"
+Op.51,String Quartet No.1,1921,in-scope,yes,1,koechlin_op_51_string_quartet_no_1_op_51,openscore-quartets,IMSLP: First Publication 1921 (E.M.S. 4551 / 4716)
+Op.72,String Quartet No.3,1924,in-scope,,0,,,IMSLP: First Publication 1924
+Op.92,"Trio for flute, clarinet and bassoon",1927,in-scope,,0,,,IMSLP: First Publication 1927
+Op.58,Oboe Sonata,,unverified-pub,n/a,0,,,IMSLP: only the 3rd movement appeared in a 1923 supplement; full work first published 1981 (Eschig M.E. 8401); not imported
+no opus,Etude sur les notes de passage,,unverified-pub,n/a,0,,,IMSLP: no first-publication year read; not imported
+Op.65,"Les heures persanes (piano, 16 pieces)",1987,excluded-post1930,n/a,0,,,IMSLP: complete set published 1987 (Eschig M.E. 8574; 1989 M.E. 8713); the page's 1921 'first published' is No.15 alone; excluded post-1930
+Op.84,"Shehérezade, Book II",1931,excluded-post1930,n/a,0,,,IMSLP: First Publication 1931; excluded post-1930
+Op.56,"Shehérezade, Book I",1990,excluded-post1930,n/a,0,,,IMSLP: First Publication 1990; songs; excluded post-1930
+Op.80,Piano Quintet,1985,excluded-post1930,n/a,0,,,IMSLP: First Publication 1985 (Eschig M.E. 8154); excluded post-1930
+Op.184,3 Sonatines,1951,excluded-post1930,n/a,0,,,IMSLP: First Publication 1951 (E.A.S. 14084); excluded post-1930
+Op.194,2 Sonatines,1989,excluded-post1930,n/a,0,,,IMSLP: First Publication 1989; excluded post-1930
+Op.155,Sonatine Modale,1970,excluded-post1930,n/a,0,,,IMSLP: First Publication 1970 (M.E. 7783); excluded post-1930
+Op.173,4 Petites pieces,1970,excluded-post1930,n/a,0,,,IMSLP: First Publication 1970 (M.E. 7782); excluded post-1930
+Op.32a,4 Petites pieces (Op.32a),1974,excluded-post1930,n/a,0,,,IMSLP: First Publication 1974 (M.E. 8142); excluded post-1930
+Op.129,Vers la voute etoilee,1995,excluded-post1930,n/a,0,,,IMSLP: First Publication 1995; excluded post-1930
+Op.176,Les Bandar-log,1967,excluded-post1930,n/a,0,,,IMSLP: First Publication 1967 (Eschig M.E. 7755); excluded post-1930
+Op.132,The Seven Stars' Symphony,1969,excluded-post1930,n/a,0,,,IMSLP: First Publication 1969 (Eschig M.E. 7811-7817); composed 1933; excluded post-1930
+Op.175,La Loi de la Jungle,1986,excluded-post1930,n/a,0,,,IMSLP: First Publication 1986; excluded post-1930
+Op.141,Les Confidences d'un joueur de clarinette,1988,excluded-post1930,n/a,0,,,IMSLP: First Publication 1988 (G. 3542 B.); excluded post-1930
+Op.70,Horn Sonata,1970,excluded-post1930,n/a,0,,,IMSLP: First Publication 1970; excluded post-1930
+Op.71,Bassoon Sonata,1990,excluded-post1930,n/a,0,,,IMSLP: First Publication 1990; excluded post-1930
+Op.91,Divertissement for 3 flutes,1939,excluded-post1930,n/a,0,,,IMSLP: First Publication 1939 (E.M.M. 482); excluded post-1930
+Op.165,Septet for winds,1947,excluded-post1930,n/a,0,,,IMSLP: First Publication 1947; excluded post-1930
+Op.221,Sonate a sept,1949,excluded-post1930,n/a,0,,,IMSLP: First Publication 1949; excluded post-1930
+Op.206,Trio d'anches,1957,excluded-post1930,n/a,0,,,IMSLP: First Publication 1957; excluded post-1930

@@ -1,0 +1,33 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.25 / 66,"Printemps, Opp.25, 66",1920,in-scope,,0,,,"IMSLP: Vol.1 Op.25 first publication 1920, Vol.2 Op.66 1921 (both Paris, La Sirène musicale); composed 1915-20"
+Op.67,"Saudades do Brasil, Op.67",1922,in-scope,,0,,,"IMSLP: piano first publication 1922 (E. Demets, Paris, plate E. 2039-2050 D.); composed 1920-21. The orchestral Op.67b is 1921 (IMSLP search snippet, not fetched)"
+Op.78,"3 Rag-Caprices, Op.78",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Universal Edition, Vienna; piano score U.E. 6562); composed 1922"
+Op.33,"Piano Sonata No.1, Op.33",1920,in-scope,,0,,,"IMSLP: first publication 1920 (A.Z. Mathot, Paris); composed 1916"
+no opus,Mazurka (no opus),1920,in-scope,,0,,,"IMSLP: piano, composed 1914; first publication 1920 (E. Demets, Album des six No.4)"
+Op.58,"Le bœuf sur le toit, Op.58 (piano four hands)",1920,in-scope,,0,,,"IMSLP: first publication 1920 (Éditions de la Sirène, Paris), composed 1920; piano four-hand version by the composer"
+Op.96,"Polka for L'éventail de Jeanne, Op.96",1929,in-scope,,0,,,"IMSLP: first publication 1929 (Heugel, Paris, in the L'éventail de Jeanne album); composition year not stated"
+Op.59a,"Enfantines, Op.59a (piano four hands)",,unverified-pub,n/a,0,,,"No IMSLP work page found 2026-10-11 (search and category list); publication year unverified, not imported"
+Op.111,"Choral, Op.111 (piano)",,unverified-pub,n/a,0,,,IMSLP category: composed 1930; first publication not checked; not imported
+Op.58c,"Tango des Fratellini, Op.58c (piano arrangement by Hubert Mouton)",1921,unverified-pub,n/a,0,,,"IMSLP: piano arrangement by Mouton, 1921 (Sirène). An arrangement, not a Milhaud piano work; not imported"
+Op.293,"Piano Sonata No.2, Op.293",1949,excluded-post1930,n/a,0,,,Composed 1949; after the 1930 gate
+Op.129,"4 Romances sans paroles, Op.129",1933,excluded-post1930,n/a,0,,,Composed 1933; after the 1930 gate
+Op.68,"Caramel mou, Op.68 (voice and jazz band)",1921,in-scope,,0,,,"IMSLP: first publication 1921 (La Sirène musicale); composed 1920; voice, clarinet, trumpet, trombone, piano, percussion, not solo piano"
+Op.18,"Le printemps, Op.18 (violin and piano)",1921,in-scope,,0,,,"IMSLP: first publication 1921 (Durand, Paris); composed 1914"
+Op.58b,"Cinéma-fantaisie, Op.58b (violin and piano)",1921,in-scope,,0,,,IMSLP: first publication 1921 (La Sirène musicale); composed 1919
+Op.47,"Sonata for flute, clarinet, oboe and piano, Op.47",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Durand, Paris); composed 1918"
+Op.76,"Sonatina for flute and piano, Op.76",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Durand, Paris); composed 1922"
+Op.46,"String Quartet No.4, Op.46",1922,in-scope,,0,,,"IMSLP: first publication 1922 (Maurice Senart, Paris); composed 1918"
+Op.77,"String Quartet No.6, Op.77",1925,in-scope,,0,,,"IMSLP: first publication 1925 (Universal Edition, Vienna); composed 1922"
+Op.74,"Symphonie de chambre No.4 'Dixtour', Op.74",1922,in-scope,,0,,,"IMSLP: first publication 1922 (Universal Edition, Vienna); composed 1921"
+Op.24,"Les Choéphores, Op.24",1926,in-scope,,0,,,"IMSLP: first publication 1926 (Heugel, Paris; vocal score); composed 1915-16"
+Op.48,"L'homme et son désir, Op.48",1923,in-scope,,0,,,IMSLP: first publication 1923 (Universal Edition score); composed 1917-18
+Op.92,"Le pauvre matelot, Op.92",1927,in-scope,,0,,,"IMSLP: first publication 1927 (Heugel, Paris); composed 1926"
+Op.62,"Sérénade en trois parties, Op.62",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Universal Edition, Vienna); composed 1920-21"
+Op.81a,"La création du monde, Op.81a",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Max Eschig, Paris); composed 1922-23. Piano quintet version Op.81b not separately checked"
+Op.17,"Protée, Op.17",1922,in-scope,,0,,,"IMSLP: first publication 1922 (Durand, Paris); composed 1913-19"
+Op.12,"Suite symphonique No.1, Op.12",1923,in-scope,,0,,,"IMSLP: first publication 1923 (Max Eschig, Paris); composed 1913-14"
+Op.56,"Machines agricoles, Op.56",1926,in-scope,,0,,,"IMSLP: first publication 1926 (Universal Edition, Vienna); composed 1919"
+Op.165,"Scaramouche, Op.165",1937,excluded-post1930,n/a,0,,,"Published 1937 (brief); after the 1930 gate, excluded"
+Op.152c,"Suite provençale, Op.152c",1936,excluded-post1930,n/a,0,,,Composed 1936; after the 1930 gate
+Op.136,"Cello Concerto No.1, Op.136",1934,excluded-post1930,n/a,0,,,Composed 1934; after the 1930 gate
+Op.135,"Concertino de printemps, Op.135",1934,excluded-post1930,n/a,0,,,Composed 1934; after the 1930 gate

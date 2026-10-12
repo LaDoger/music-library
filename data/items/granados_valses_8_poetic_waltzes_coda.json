@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/9/33/QmRnzqPkJaib1ZtHMFssqhG9c5SpSJwbwU3Qr1Ny1eYRuA.mid.",
+ "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/9/33/QmRnzqPkJaib1ZtHMFssqhG9c5SpSJwbwU3Qr1Ny1eYRuA.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/granados_valses_8_poetic_waltzes_coda.mid",
  "local_audio_path": "",
  "preview_path": "",

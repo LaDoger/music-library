@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composition: Béla Bartók (d. 1945), first published 1918 (Universal Edition), so public domain in the US (published before 1931) and in the EU / life+70 countries. File: orchestral arrangement/MIDI by Johnson (2021), IMSLP file #867623, licence CC BY 4.0 as labelled on IMSLP: credit 'Arrangement: Johnson (2021), CC BY 4.0, via IMSLP #867623'. Not Bartók's own piano original. Length ~2:55.",
+ "legal_notes": "Composition: Béla Bartók (d. 1945), first published 1918 (Universal Edition), so public domain in the US (published before 1931) and in the EU / life+70 countries. File: orchestral arrangement/MIDI by Johnson (2021), IMSLP file #867623, licence CC BY 4.0 as labelled on IMSLP: credit 'Arrangement: Johnson (2021), CC BY 4.0, via IMSLP #867623'. Not Bartók's own piano original. Length ~2:55. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/bartok_sz49_allegro_barbaro_orch_johnson.mid",
  "local_audio_path": "",
  "preview_path": "",

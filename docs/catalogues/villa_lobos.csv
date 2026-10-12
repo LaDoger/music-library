@@ -1,0 +1,27 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+W180,"A Prole do Bebê No.2, W180",1927,in-scope,,0,,,1927 Max Eschig (permusi 2006 article on Prole nº 1 and 2); composed 1921 (IMSLP). Set of pieces
+W210,"Cirandinhas, W210 (12 pieces)",1925,in-scope,,0,,,"IMSLP: first publication '1925?' (question mark), composed 1925; Arthur Napoleão ca.1926. In scope either way (both <= 1930). Set of pieces"
+W220,"Cirandas, W220 (16 pieces)",1926,in-scope,,0,,,"IMSLP: first publication 1926, composed 1926; Arthur Napoleão (publisher named in the score). Set of pieces"
+W134,"Simples coletânea, W134",1922,in-scope,,0,,,"IMSLP: first publication 1922 (Casa Arthur Napoleão, Rio); composed 1917-19. Three pieces"
+W117,"Suíte floral, W117 (piano; Idílio na rede, Uma camponesa cantadeira, Alegria na horta)",1920,in-scope,,0,,,"IMSLP: first publication '1920 ca.' (Rio de Janeiro, Napoleão); composed 1916-18. Set of three pieces"
+W085,"Danças características africanas, W085 (piano; Farrapós, Kankukus, Kankikis)",1920,in-scope,,0,,,"IMSLP: first publication 1920 (Casa Arthur Napoleão, Rio, plate 7977, n.d. ca.1920); composed 1914-15. Set of three pieces"
+W166,"A lenda do caboclo, W166 (piano)",1920,in-scope,,0,,,"IMSLP: piano, composed 1920, first publication 1920 (Araujo, Rio, n.d.[1920])"
+W207,"Chôros No.5 'Alma brasileira' (piano), W207",1925,in-scope,,0,,,"IMSLP: first publication 1925 (Casa Arthur Napoleão, Rio, n.d.[1925]); composed 1925"
+no opus,Rudepoêma (piano),1928,in-scope,,0,,,"Wikipedia infobox: published 1928, Paris, Max Eschig (dedicatee Rubinstein); composed 1921-26. IMSLP work page not found, so the year is Wikipedia's"
+no opus,"Chôros No.1 (guitar), W161",1920,in-scope,,0,,,"IMSLP W161 page; Wikipedia infobox: composed 1920 Rio, published 1920 Rio (Arthur Napoleão), Max Eschig later. Guitar solo, not piano"
+no opus,Chôros No.2 (flute and clarinet),1927,in-scope,,0,,,"Wikipedia infobox: composed 1924 Rio; published 1927 Paris, Max Eschig"
+no opus,Chôros No.3 (male choir or septet),1928,in-scope,,0,,,"Wikipedia infobox: published 1928 Paris, Max Eschig; composed 1924-25 (infobox and text disagree on place)"
+no opus,Chôros No.4 (three horns and trombone),1928,in-scope,,0,,,"Wikipedia infobox: composed 1926 Rio; published 1928 Paris, Max Eschig"
+no opus,Chôros No.7 (instrumental septet),1928,in-scope,,0,,,"Wikipedia infobox: composed 1924 Rio; published 1928 Paris, Max Eschig"
+W208,"Chôros No.8, W208 (orchestra)",1928,in-scope,,0,,,"IMSLP scan: Paris, Max Eschig 1928; composed 1925; premiere Paris 1927"
+W209,"Chôros No.10 'Rasga o coração', W209 (choir and orchestra)",1928,in-scope,,0,,,"IMSLP: first publication 1928, Paris, Max Eschig; composed 1926. Two IMSLP listings differ on plate (M.E. 2017 vs 2305); year consistent"
+W195,"Suite for Voice and Violin, W195",1925,in-scope,,0,,,"IMSLP search snippet: 'Paris: Max Eschig, 1925' (work page not fetched). Multi-movement set"
+no opus,Momoprecoce (piano and orchestra),1934,excluded-post1930,n/a,0,,,"Max Eschig, Paris 1934 (Wikipedia and IMSLP snippet); after the 1930 gate, excluded"
+W246,"Bachianas Brasileiras No.1, W246",1948,excluded-post1930,n/a,0,,,"IMSLP: first publication 1948 (Associated Music Publishers, New York); composed 1930-38; after the gate, excluded"
+no opus,Chôros No.9 (orchestra),1987,excluded-post1930,n/a,0,,,"Wikipedia infobox: composed 1929-42 Rio, published 1987 Paris, Max Eschig; excluded"
+W179?,A Prole do Bebê No.1 (W179 unconfirmed),,unverified-pub,n/a,0,,,Composed 1918 (IMSLP series description); IMSLP work page 404 when fetched and no first publication found; not imported
+W133,"Uirapuru, W133 (orchestra)",,unverified-pub,n/a,0,,,"IMSLP search: 1948 score (Associated Music Publishers) shown, first publication field not read; composed 1917; not imported"
+no opus,Amazonas (symphonic poem),,unverified-pub,n/a,0,,,Wikipedia guessed URL returned 404; no IMSLP page read; year unknown; not imported
+no opus,String Quartet No.1,,unverified-pub,n/a,0,,,"Composed 1915 Nova Friburgo, revised 1946 (Wikipedia); first publication not stated; not imported"
+W374,"Ciclo brasileiro, W374",,unverified-pub,n/a,0,,,IMSLP W374 page seen in search results only (not fetched); year not read; not imported
+W188,"A lenda do caboclo, W188 (orchestra)",,excluded-unpublished,n/a,0,,,IMSLP W188: first publication 'never published' (composed 1920-22); excluded unpublished

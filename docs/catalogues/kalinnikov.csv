@@ -1,0 +1,18 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Pf.1,Chanson triste,1901,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1901], plate 26077 (4 Compositions for Piano); composed 1892-93 (LaDoger priority)"
+Pf.2,Nocturne in F sharp minor,1901,in-scope,,0,,,"IMSLP: first publication 1901 in 4 Compositions for Piano (No.3), Jurgenson plate 26079; composed 1892-93 (LaDoger priority)"
+Pf.3,Elegie in B flat minor,1901,in-scope,,0,,,"IMSLP: first publication 1901 in 4 Compositions for Piano (No.2), Jurgenson plate 26078; composed 1894 (LaDoger priority)"
+Sym.1,Symphony No.1 in G minor,1900,in-scope,,0,,,"IMSLP: first publication 1900, Jurgenson, plates 25540-25542; composed 1894-95 (LaDoger priority)"
+Sym.2,Symphony No.2 in A major,1901,in-scope,yes,1,kalinnikov_vasili_kalinnikov_sinfonia_s,pdmx,"IMSLP: first publication 1901, Jurgenson, plates 25543-25545; composed 1895-97 (LaDoger priority)"
+Suite,Suite for Orchestra in B minor,1902,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1902], plates 26093-26095; composed 1891-92"
+Cedre,The Cedar and the Palm (Le cedre et le palmier),1901,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1901], plate 26090 (first publication 1901); composed 1897-98"
+Int.1,Intermezzo No.1 in F sharp minor,1902,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1902], plate 26096; composed 1896"
+Int.2,Intermezzo No.2 in G major,1902,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1902], plate 26099; composed 1897"
+Boris,Tsar Boris (incidental music),1902,in-scope,,0,,,"IMSLP: Jurgenson, n.d.[1902], plates 26105-26107; composed 1899"
+1812,"In 1812 (opera, incomplete)",1901,in-scope,,0,,,"IMSLP: Jurgenson 1901, plate 26087; composed 1899-1900 (incomplete per Wikipedia); low priority for video"
+Pf.4,Russian Intermezzo in F minor,,unverified-pub,n/a,0,,,Composed 1894; IMSLP gives only Muzgiz 1950 and Sobranie 1980 editions; first publication not confirmed
+Pf.5,Waltz in A major,,unverified-pub,n/a,0,,,Composed 1894 (Wikipedia); IMSLP gives only a Sovyetsky Kompozitor 1960 edition; first publication not confirmed
+Pf.6,Moderato in E flat minor,,unverified-pub,n/a,0,,,IMSLP: Muzgiz n.d.[1950] only; composition year on IMSLP is a typo (1980); first publication not confirmed
+Ser,Serenade for Strings in G minor,,unverified-pub,n/a,0,,,"Composed 1891; IMSLP first publication given as '1950?' (Muzgiz), uncertain"
+Bylina,"Bylina (epic poem, overture)",,unverified-pub,n/a,0,,,Composed c.1892 (Wikipedia); no first-publication year verified
+Pol.4h,Polonaise on a theme from Symphony No.1 (piano 4 hands),,unverified-pub,n/a,0,,,Wikipedia lists it; no IMSLP first-publication year checked

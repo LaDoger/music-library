@@ -44,7 +44,8 @@
  "preview_url": "",
  "score_url": "files/scores/holst_op_32_mars.mid",
  "score_files": [
-  "files/scores/holst_op_32_mars.mid"
+  "files/scores/holst_op_32_mars.mid",
+  "files/scores/holst_op_32_mars_bringer_of_warb51.mid"
  ],
  "mood_tags_list": [
   "classical",
@@ -74,7 +75,8 @@
  "preview_url_abs": "",
  "score_url_abs": "https://ladoger.github.io/music-library/files/scores/holst_op_32_mars.mid",
  "score_files_abs": [
-  "https://ladoger.github.io/music-library/files/scores/holst_op_32_mars.mid"
+  "https://ladoger.github.io/music-library/files/scores/holst_op_32_mars.mid",
+  "https://ladoger.github.io/music-library/files/scores/holst_op_32_mars_bringer_of_warb51.mid"
  ],
  "midi_play_url_abs": "https://ladoger.github.io/music-library/files/scores/holst_op_32_mars.mid",
  "render_midi": {

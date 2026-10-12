@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1856 (PD). Arrangement for orchestra (21 parts) by Miguel Marigo, MusicXML from IMSLP file #905321 (Album für die Jugend Op.68, 2.2.12.1 For Orchestra (Marigo)), licence CC BY 4.0 as stated on IMSLP (per the fetching agent; https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend,_Op.68_(Schumann,_Robert)). Credit required. This is an orchestral arrangement, not Schumann's piano original; does not fill the piano-set gap. File is a compressed MusicXML (.mxl) saved as files/scores/schumann_op68_12_knecht_ruprecht_orch_marigo.musicxml; MIDI rendered with music21.",
+ "legal_notes": "Composer died 1856 (PD). Arrangement for orchestra (21 parts) by Miguel Marigo, MusicXML from IMSLP file #905321 (Album für die Jugend Op.68, 2.2.12.1 For Orchestra (Marigo)), licence CC BY 4.0 as stated on IMSLP (per the fetching agent; https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend,_Op.68_(Schumann,_Robert)). Credit required. This is an orchestral arrangement, not Schumann's piano original; does not fill the piano-set gap. File is a compressed MusicXML (.mxl) saved as files/scores/schumann_op68_12_knecht_ruprecht_orch_marigo.musicxml; MIDI rendered with music21. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/schumann_op68_12_knecht_ruprecht_orch_marigo.mid",
  "local_audio_path": "",
  "preview_path": "",

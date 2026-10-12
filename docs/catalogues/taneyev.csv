@@ -1,0 +1,25 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.29,"Prelude and Fugue, Op.29 (piano)",1914,in-scope,,0,,,IMSLP: Russischer Musikverlag 1914 (2-piano arr. also 1914); composed 1910 (LaDoger priority)
+Op.30,"Piano Quintet in G minor, Op.30",1911,in-scope,,0,,,IMSLP: Russischer Musikverlag 1911 (plate R.M.V. 115); composed 1910-11 (LaDoger priority)
+Op.22,"Piano Trio in D major, Op.22",1908,in-scope,,0,,,IMSLP: Jurgenson 1908 (plate 32579); composed 1906-08 (LaDoger priority)
+Op.20,"Piano Quartet in E major, Op.20",1904,in-scope,,0,,,IMSLP: Belaieff 1904 (score plate 2478; parts 2479); composed 1900-01
+Op.4,"String Quartet No.1, Op.4",1892,in-scope,,0,,,IMSLP: Jurgenson 1892 (plates 14336-14337); composed 1890
+Op.5,"String Quartet No.2, Op.5",1896,in-scope,,0,,,IMSLP: Belaieff 1896 (plates 1329-1330); composed 1894-95
+Op.7,"String Quartet No.3, Op.7",1898,in-scope,,0,,,"IMSLP: Belaieff 1898 (plates 1535-1536); composed 1886, revised 1896"
+Op.11,"String Quartet No.4, Op.11",1900,in-scope,,0,,,IMSLP: Belaieff 1900; composed 1898-99
+Op.13,"String Quartet No.5, Op.13",1903,in-scope,,0,,,IMSLP: Belaieff 1903 (plates 2457-2458); composed 1902-03
+Op.19,"String Quartet No.6, Op.19",1906,in-scope,,0,,,IMSLP: Belaieff 1906 (plates 2678-2679); composed 1903-05
+Op.12,"Symphony No.4, Op.12",1901,in-scope,,0,,,IMSLP: Belaieff 1901 (IMSLP 'Sergey' title); composed 1896-98
+Op.28,"Concert Suite for Violin and Orchestra, Op.28",1910,in-scope,,0,,,IMSLP: Russischer Musikverlag 1910-11; composed 1908-09
+Op.6,"Oresteia (opera), vocal score",1900,in-scope,,0,,,"IMSLP: vocal score Belaieff 1900 (plate 2104); composed 1882-94, revised 1900. Opera: low priority for video"
+Op.14,"String Quintet No.1, Op.14",,unverified-pub,n/a,0,,,Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified
+Op.16,"String Quintet No.2, Op.16",,unverified-pub,n/a,0,,,Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified
+Op.31,"Trio in E flat major, Op.31",,unverified-pub,n/a,0,,,Wikipedia lists it; IMSLP page not found under the standard title; first publication not verified
+Op.1,"Cantata 'St. John of Damascus', Op.1",1886,in-scope,,0,,,"IMSLP 'John of Damascus, Op.1': vocal score Jurgenson 1886 (full score 1904); composed 1883-84; PDMX movements carry a mojibake composer name, so the name rule does not match them"
+Op.36,"At the Reading of a Psalm, Op.36 (cantata)",,unverified-pub,n/a,0,,,Completed early 1915 (Wikipedia); no publication year verified
+Op.27,"12 Choruses a cappella, Op.27",,unverified-pub,n/a,0,,,Listed on IMSLP; no first-publication year verified
+Op.26,"10 Poems, Op.26 (songs)",,unverified-pub,n/a,0,,,Listed on IMSLP; no first-publication year verified
+Sym.1,Symphony No.1 (no opus),,unverified-pub,n/a,0,,,Listed on IMSLP without opus; no first-publication year verified
+Sym.3,Symphony No.3 (no opus),,unverified-pub,n/a,0,,,Listed on IMSLP without opus; no first-publication year verified
+Ov.,Overture on a Russian Theme,,unverified-pub,n/a,0,,,Listed on IMSLP; no first-publication year verified
+Pf.Sch,Scherzo in E flat minor (piano),,unverified-pub,n/a,0,,,"Listed on IMSLP (piano, from titles); no first-publication year verified"

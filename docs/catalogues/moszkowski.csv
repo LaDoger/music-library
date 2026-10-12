@@ -1,0 +1,32 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.12,5 Spanish Dances (original piano four hands; solo arrangement not checked),1876,in-scope,yes,1,moszkowski_op12_spanish_dance_2,pdmx,"IMSLP: First Publication 1876 (Carl Simon, Berlin); 'For piano 4 hands'"
+Op.65,3 Nouvelles danses espagnoles (piano four hands),1900,in-scope,,0,,,IMSLP: First Publication 1900 (Peters)
+Op.21,"Album espagnol (suite, piano four hands)",1879,in-scope,,0,,,IMSLP: First Publication 1879 (Hainauer)
+Op.37,Caprice espagnol,1885,in-scope,,0,,,IMSLP: First Publication 1885 (Peters)
+Op.15,6 Klavierstucke (No.1 Serenata),1877,in-scope,,0,,,"IMSLP: First Publication 1877 (Hainauer); track list 'No.1, Serenata'"
+Op.36,8 Morceaux caracteristiques (No.6 Etincelles),1886,in-scope,,0,,,IMSLP: First Publication 1886 (Hainauer); track list 'No.6. Etincelles'
+Op.45,2 Piano Pieces (No.2 Guitarre),1888,in-scope,,0,,,"IMSLP: First Publication 1888 (Peters); track list 'Guitarre, Op.45 No.2'"
+Op.72,15 Etudes de virtuosite,1903,in-scope,,0,,,IMSLP: First Publication 1903 (Enoch)
+Op.91,20 Petites etudes,1913,in-scope,,0,,,IMSLP: First Publication 1913 (Augener / Miran / Schmidt)
+Op.92,12 Etudes for the left hand,1915,in-scope,,0,,,IMSLP: First Publication 1915 (Enoch)
+Op.77,10 Pieces mignonnes,1907,in-scope,,0,,,IMSLP: First Publication 1907 (Schott)
+Op.94,10 Petits morceaux,1916,in-scope,,0,,,IMSLP: First Publication 1916 (Schott / Schmidt)
+Op.95,5 Pieces breves,1920,in-scope,,0,,,IMSLP: First Publication 1920 (Enoch)
+Op.55,4 Polish Folk Dances (piano four hands),1895,in-scope,,0,,,IMSLP: First Publication 1895 (Peters)
+Op.60,3 Mazurkas,1898,in-scope,,0,,,IMSLP: First Publication 1898 (Ries & Erler)
+Op.84,4 Moments musicaux,1910,in-scope,,0,,,IMSLP: First Publication 1910 (Eschig / Schott)
+Op.88,Grande valse de concert,1912,in-scope,,0,,,IMSLP: First Publication 1912 (Presser / Enoch / Forberg)
+Op.89,Tanz-Momente (piano),1912,in-scope,,0,,,IMSLP: First Publication 1912 (Schmidt / Hainauer / Augener)
+Op.41,Gondoliera,1886,in-scope,,0,,,IMSLP: First Publication 1886 (Peters)
+Op.56,6 Stucke aus Don Juan und Faust,1896,in-scope,,0,,,IMSLP: First Publication 1896 (Ries & Erler)
+Op.39,Suite d'orchestre No.1,1886,in-scope,,0,,,IMSLP: First Publication 1886 (Hainauer)
+Op.47,Suite d'orchestre No.2,1890,in-scope,,0,,,IMSLP: First Publication 1890 (Hainauer)
+Op.79,Suite d'orchestre No.3,1908,in-scope,,0,,,IMSLP: First Publication 1908 (Bote & Bock)
+Op.30,Violin Concerto,1883,in-scope,,0,,,IMSLP: 'Works first published in 1883' category tag (composed 1881)
+Op.19,Johanna d'Arc (symphonic poem),1878,in-scope,,0,,,IMSLP: 'Works first published in 1878' category tag (composed 1875-76)
+Op.51,"Fackeltanz (torch dance, orchestra)",1893,in-scope,,0,,,IMSLP: First Publication 1893 (Peters)
+Op.59,Piano Concerto,,unverified-pub,n/a,0,,,Composition 1898; IMSLP page gives no first-publication year; not imported
+Op.85,Prelude and Fugue,,unverified-pub,n/a,0,,,IMSLP page gives no first-publication year; not imported
+Op.69,Valse de concert,,unverified-pub,n/a,0,,,IMSLP page gives no first-publication year; not imported
+no opus,Piano Quintet,,unverified-pub,n/a,0,,,IMSLP page gives no first-publication year; not imported
+no opus,Symphony in D minor,,unverified-pub,n/a,0,,,Composition 1873; IMSLP page gives no first-publication year; not imported

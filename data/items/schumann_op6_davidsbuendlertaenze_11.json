@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1856 (PD). OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #29785 (Clara Schumann ed., Breitkopf & Härtel 1887), corrected against the page images by an AI model (see tools/omr REPORT). Bar count matches the scan, 0 wrong-length bars, model self-estimate rhythm ~97%, pitch ~90% (an independent spot check of a GPT-6.1 Sol piece found pitch ~85% against a claimed 98%, so treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Slurs, pedal and most ornaments not encoded. Transcription released CC0. MusicXML: files/scores/schumann_op6_davidsbuendlertaenze_11.musicxml. Fills complete-set gap: Schumann Davidsbündlertänze Op. 6.",
+ "legal_notes": "Composer died 1856 (PD). OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #29785 (Clara Schumann ed., Breitkopf & Härtel 1887), corrected against the page images by an AI model (see tools/omr REPORT). Bar count matches the scan, 0 wrong-length bars, model self-estimate rhythm ~97%, pitch ~90% (an independent spot check of a GPT-6.1 Sol piece found pitch ~85% against a claimed 98%, so treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Slurs, pedal and most ornaments not encoded. Transcription released CC0. MusicXML: files/scores/schumann_op6_davidsbuendlertaenze_11.musicxml. Fills complete-set gap: Schumann Davidsbündlertänze Op. 6. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/schumann_op6_davidsbuendlertaenze_11.mid",
  "local_audio_path": "",
  "preview_path": "",

@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1906: public domain. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #64446 (first edition, Moscow: P. Jurgenson, Leipzig: Robert Forberg, n.d. [1906] (1906); https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~98%, pitch ~94% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/arensky_imslp64446_3.musicxml.",
+ "legal_notes": "Composer died 1906: public domain. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #64446 (first edition, Moscow: P. Jurgenson, Leipzig: Robert Forberg, n.d. [1906] (1906); https://imslp.org/wiki/12_Etudes,_Op.74_(Arensky,_Anton)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~98%, pitch ~94% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/arensky_imslp64446_3.musicxml. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/arensky_imslp64446_3.mid",
  "local_audio_path": "",
  "preview_path": "",

@@ -1,0 +1,37 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.65,"66 Choral-Improvisationen für Orgel (Chorale Improvisations), Op.65",1909,in-scope,,0,,,IMSLP First Publication 1909 (composed 1906-08)
+Op.106,"Cathedral Windows (Kathedralfenster), Op.106",1923,in-scope,,0,,,IMSLP First Publication 1923
+Op.96,"7 Pastels from the Lake of Constance (Pastelle vom Bodensee), Op.96",1923,in-scope,,0,,,"IMSLP First Publication 1923 (Novello, London)"
+Op.81,"Nearer, My God, to Thee (Näher, mein Gott, zu dir), Op.81",1912,in-scope,,0,,,IMSLP First Publication 1912 (Carl Simon)
+Op.72,"3 Impressions for Organ, Op.72",1909,in-scope,,0,,,IMSLP First Publication 1909
+Op.73,"Chaconne and Fugue Trilogy, Op.73",1910,in-scope,,0,,,IMSLP First Publication 1910
+Op.74,"Organ Sonatina No.1 in A minor, Op.74",1911,in-scope,,0,,,IMSLP First Publication 1911 (composed 1909?)
+Op.75,"Funerale and 3 Chorale Improvisations, Op.75",1912,in-scope,,0,,,"IMSLP First Publication 1912 (Novello, London)"
+Op.86,"10 Charakteristische Tonstücke (organ), Op.86",1911,in-scope,,0,,,IMSLP First Publication 1911
+Op.108,"3 Compositions for Organ, Op.108",1925,in-scope,,0,,,IMSLP First Publication 1925 (composed 1923)
+Op.141,"Triptych for organ, Op.141",1930,in-scope,,0,,,"Elkin & Co., London, 1930 (publisher line; no First Publication field). Exactly 1930: in scope by the date gate"
+Op.142,"Sempre semplice and 3 Orgelstücke, Op.142",1932,excluded-post1930,n/a,0,,,"IMSLP publisher line 1932-36; post-1930, excluded"
+Op.144,"Kaleidoscope for organ, Op.144",1932,excluded-post1930,n/a,0,,,"Oxford University Press 1932; post-1930, excluded"
+Op.145,"Music for Organ, Op.145",1932,excluded-post1930,n/a,0,,,"Oxford University Press 1932; post-1930, excluded"
+Op.150,"Passacaglia and Fugue on B-A-C-H, Op.150",1938,excluded-post1930,n/a,0,,,"IMSLP First Publication 1938 (composed 1932); post-1930, excluded"
+Op.143,"Symphony in F-sharp minor for organ, Op.143",,unverified-pub,n/a,0,,,Composed 1930 (Wikipedia); no IMSLP publication year read; not imported until dated
+Op.36,"Harmonium Sonata No.1 in B minor, Op.36",1905,in-scope,,0,,,IMSLP First Publication 1905 (Carl Simon)
+Op.46,"Harmonium Sonata No.2 in B-flat minor, Op.46",1911,in-scope,,0,,,IMSLP First Publication 1911 (in part; composed 1909-11)
+Op.25,"Passacaglia for Harmonium in E-flat minor, Op.25",1905,in-scope,,0,,,IMSLP First Publication 1905 (Carl Simon)
+Op.37,"Partita for Harmonium, Op.37",1905,in-scope,,0,,,IMSLP First Publication 1905 (Carl Simon)
+Op.102,"12 Impressions for Harmonium, Op.102",1914,in-scope,,0,,,IMSLP First Publication 1914
+Op.50,"Piano Sonata No.1 in F-sharp minor, Op.50",1907,in-scope,,0,,,IMSLP First Publication 1907 (Carl Simon; composed 1904?)
+Op.105,"Piano Sonata No.3 'Patetica', Op.105",1922,in-scope,,0,,,"IMSLP First Publication 1922 (composed 1914, rev. 1920)"
+Op.67,"3 Sonatinas for Piano, Op.67",1909,in-scope,,0,,,"IMSLP First Publication 1909 (Carl Simon); set, one row per file"
+Op.97,"Hexameron, 6 Piano Pieces, Op.97",1922,in-scope,,0,,,IMSLP publisher line 1922 (Year of First Publication blank)
+Op.113,"Partita for piano, Op.113",1927,in-scope,,0,,,IMSLP First Publication 1927 (C. F. Peters)
+Op.127,"Heidebilder (10 kleine Impressionen), Op.127",1921,in-scope,,0,,,IMSLP First Publication 1921
+Op.30,"Wind Quintet, Op.30",1913,in-scope,,0,,,IMSLP First Publication 1913
+Op.71,"Cello Sonata No.1 in A major, Op.71",1909,in-scope,,0,,,IMSLP First Publication 1909 (Carl Simon)
+Op.68,"Violin Sonata in C major, Op.68",1925,in-scope,,0,,,IMSLP First Publication 1925 (composed 1914)
+Op.88,"Sonata No.1 for Solo Violin, Op.88",1911,in-scope,,0,,,IMSLP First Publication 1911 (Carl Simon)
+Op.110,"Sonata for Solo Clarinet, Op.110",1925,in-scope,,0,,,IMSLP First Publication 1925
+Op.107,"30 Caprices for Flute Solo, Op.107",1919,in-scope,,0,,,IMSLP First Publication 1918/9 (Steingräber 1919; the date carries a '?' on IMSLP); composed 1918-19
+Op.121,"Flute Sonata in B-flat major, Op.121",1921,in-scope,,0,,,IMSLP First Publication 1921 (with '?'); composed 1918
+Op.114,"Sinfonische Kanzone for Flute and Piano, Op.114",1921,in-scope,,0,,,IMSLP First Publication 1921; composed 1917
+Op.134,"Impressions exotiques for Flute and Piano, Op.134",1920,in-scope,,0,,,IMSLP First Publication 1920 (composed 1919)

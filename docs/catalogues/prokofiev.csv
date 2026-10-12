@@ -1,0 +1,51 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.11,Toccata in D minor,1913,in-scope,,0,,,"Jurgenson, Moscow 1913 (IMSLP plate 36603); composed 1912"
+Op.1,Piano Sonata No. 1 in F minor,1911,in-scope,,0,,,"Jurgenson, Moscow 1911 (IMSLP plate 35098); composed 1907, rev. 1909"
+Op.14,Piano Sonata No. 2 in D minor,1913,in-scope,,0,,,"Jurgenson, Moscow 1913 (IMSLP plate 36673); composed 1912"
+Op.28,Piano Sonata No. 3 in A minor,1918,in-scope,,0,,,"Gutheil, Moscow 1918 (IMSLP plate A.G. 10082); composed 1907, rev. 1917"
+Op.29,Piano Sonata No. 4 in C minor,1918,in-scope,,0,,,"Gutheil / Editions Russes, Moscow 1918 (IMSLP plate A. 10313 G.); composed 1908-17"
+Op.38,Piano Sonata No. 5 in C major,,unverified-pub,n/a,0,,,Gutheil 1925 is the 1923 version; the 1952-53 revision (Op.135) cannot be told apart in files: not imported
+Op.17,Sarcasms,1916,in-scope,,0,,,"Jurgenson, Moscow 1916 (IMSLP); composed 1912-14"
+Op.22,Visions fugitives,1917,in-scope,yes,1,prokofiev_op_22_ridicolosamente,pdmx,"Gutheil, Moscow 1917 (IMSLP); 20 pieces, composed 1915-17"
+Op.31,Tales of an Old Grandmother,1922,in-scope,,0,,,"Gutheil, Moscow 1922 (IMSLP plate A. 10303 G.); composed 1918"
+Op.2,4 Etudes,1912,in-scope,,0,,,"Jurgenson, Moscow 1912 (IMSLP); composed 1909"
+Op.15,Ballade for cello and piano,1915,in-scope,,0,,,"Jurgenson, St Petersburg 1915 (IMSLP); composed 1912"
+Op.10,Piano Concerto No. 1 in D-flat major,1912,in-scope,,0,,,"Jurgenson, Moscow 1912 (IMSLP); composed 1911-12"
+Op.16,Piano Concerto No. 2 in G minor,1925,in-scope,,0,,,"Gutheil, Moscow 1925 (IMSLP); composed 1912-13, rev. 1923"
+Op.26,Piano Concerto No. 3 in C major,1923,in-scope,,0,,,"Gutheil, Paris 1923 (IMSLP); composed 1917-21"
+Op.19,Violin Concerto No. 1 in D major,1921,in-scope,,0,,,"Gutheil, Moscow 1921 (IMSLP); composed 1916-17"
+Op.25,Symphony No. 1 in D major (Classical),1921,in-scope,yes,1,prokofiev_op_25_gavotta,pdmx,"Editions Russes de Musique, Paris: piano reduction c.1921-22, full score 1925 (IMSLP); composed 1916-17"
+Op.40,Symphony No. 2 in D minor,1927,in-scope,,0,,,"Editions Russes de Musique, Paris/Berlin 1927 (IMSLP plates R.M.V. 445-446); composed 1924-25"
+Op.20,Scythian Suite (Ala and Lolly),1923,in-scope,,0,,,"Gutheil, Moscow 1923 (IMSLP); composed 1914-15"
+Op.33 / Op.33bis,The Love for Three Oranges (opera and suite; March),1922,in-scope,yes,1,prokofiev_op_33_march_from_the_love_of_three_oranges,pdmx,"Gutheil, Paris 1922 (IMSLP, plate A 10921 G.); composed 1919, suite rev. 1924"
+Op.21,Chout (ballet),,unverified-pub,n/a,0,,,IMSLP work page gives no first-publication date; not imported until verified
+Op.34,Overture on Hebrew Themes,1922,in-scope,,0,,,"Gutheil, Paris 1922 (IMSLP); composed 1919 (clarinet, string quartet, piano)"
+Op.39,Quintet in G minor,1927,in-scope,,0,,,"Gutheil, Leipzig 1927 (IMSLP plate A. 10392 G.); composed 1924"
+Op.35,"5 Melodies, voice and piano",1922,in-scope,,0,,,"Gutheil, Paris 1922 (IMSLP, original version); composed 1920"
+Op.41,"Le pas d'acier (The Steel Step), ballet",1928,in-scope,,0,,,"Piano reduction, Paris 1928 (IMSLP; full score by rental); composed 1925-26"
+Op.43,Divertissement,1930,in-scope,,0,,,"Editions Russes de Musique, Paris 1930 (IMSLP plate R.M.V. 489); composed 1925-29. Published in 1930: at the cut-off"
+Op.45,Things in Themselves (piano),1928,in-scope,,0,,,"Editions Russes de Musique, Paris 1928 (IMSLP); composed 1928"
+Op.44,Symphony No. 3,1931,excluded-post1930,n/a,0,,,Editions Russes de Musique 1931 (IMSLP); composed 1928
+Op.47 / Op.112,Symphony No. 4,,unverified-pub,n/a,0,,,1930 version (IMSLP) and 1947 revision cannot be told apart in files: not imported
+Op.100,Symphony No. 5,1946,excluded-post1930,n/a,0,,,"Muzgiz, Moscow 1946 (IMSLP); composed 1944"
+Op.55,Piano Concerto No. 5 in G major,1932,excluded-post1930,n/a,0,,,"Editions Russes de Musique, Berlin 1932 (IMSLP)"
+Op.53,Piano Concerto No. 4 (left hand),1961,excluded-post1930,n/a,0,,,IMSLP first publication 1961
+Op.63,Violin Concerto No. 2,1937,excluded-post1930,n/a,0,,,"Editions Russes de Musique, Berlin 1937 (IMSLP)"
+Op.56,Sonata for two violins,1932,excluded-post1930,n/a,0,,,"Editions Russes de Musique, Berlin 1932 (IMSLP)"
+Op.80,Violin Sonata No. 1,1947,excluded-post1930,n/a,0,,,"Muzfond, Moscow 1947 (IMSLP)"
+Op.82,Piano Sonata No. 6,1941,excluded-post1930,n/a,0,,,"Muzgiz, Moscow 1941 (IMSLP)"
+Op.83,Piano Sonata No. 7,1943,excluded-post1930,n/a,0,,,"Muzgiz, Moscow 1943 (IMSLP)"
+Op.84,Piano Sonata No. 8,1946,excluded-post1930,n/a,0,,,"Muzgiz, Moscow 1946 (IMSLP)"
+Op.60,Lieutenant Kije (suite),1935,excluded-post1930,n/a,0,,,"Gutheil, Paris 1935 (IMSLP)"
+Op.62,Pensees,1935,excluded-post1930,n/a,0,,,"Editions Russes de Musique, Paris 1935 (IMSLP)"
+Op.49,4 Portraits,1932,excluded-post1930,n/a,0,,,IMSLP first publication 1932
+Op.51,Sur le Borysthene (suite),1932,excluded-post1930,n/a,0,,,IMSLP first publication 1932
+Op.57,Symphonic Song,1933,excluded-post1930,n/a,0,,,IMSLP first publication 1933
+Op.64,Romeo and Juliet (ballet and suites),1938,excluded-post1930,n/a,0,,,"Suite Op.64bis 1938, ballet 1944 (IMSLP): post-1930, excluded"
+Op.65,Music for Children,1935,excluded-post1930,n/a,0,,,"Editions Russes de Musique, Berlin 1935 (IMSLP)"
+Op.67,Peter and the Wolf,1937,excluded-post1930,n/a,0,,,Muzgiz 1937 (IMSLP)
+Op.78,Alexander Nevsky (cantata),1941,excluded-post1930,n/a,0,,,Muzgiz 1941 (IMSLP)
+Op.87,Cinderella (ballet),1954,excluded-post1930,n/a,0,,,Muzgiz 1954 (IMSLP); suites Op.107-109 also post-1930
+Op.72,Ouverture russe,1937,excluded-post1930,n/a,0,,,IMSLP first publication 1937
+Op.125,Sinfonia concertante (cello),1951,excluded-post1930,n/a,0,,,Boosey & Hawkes 1951 (IMSLP)
+Op.30,"Seven, They Are Seven",,unverified-pub,n/a,0,,,"IMSLP gives 1922, but the 1933 revision cannot be told apart in files: not imported"

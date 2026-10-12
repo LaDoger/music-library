@@ -1,0 +1,23 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.18 or Op.23,Pieces lyriques (6 pieces),1891,in-scope,,0,,,"IMSLP: First Publication 1891 (Schott, Op.23); scan held in files/imslp_incoming/sgambati (IMSLP 211840)"
+Op.16 or Op.21,Suite in B minor (piano),1888,in-scope,,0,,,IMSLP: First Publication 1888 (Mainz: B. Schott's Sohne)
+Op.13 or Op.18,4 Pezzi di seguito (Quattro pezzi; includes the Vecchio minuetto as No.2),1885,in-scope,,0,,,"IMSLP: First Publication 1885; the Vecchio minuetto (in D-flat) is movement 2 of this set, not a separate work"
+no opus,Studio trionfale (Etude triomphale),1916,in-scope,,0,,,Wikipedia list: 'for piano (published 1916)' (posthumous opus; IMSLP page gives no year)
+no opus,Boite a musique (piano),1916,in-scope,,0,,,Wikipedia list: 'for piano (published 1916)'
+Op.7 or Op.10,2 Etudes de concert,,unverified-pub,n/a,0,,,IMSLP composition year 1880; first publication not read; not imported
+Op.8 or Op.12,Fogli volanti (8 pieces for piano),1880,in-scope,,0,,,IMSLP: Works first published in 1880 (category tag); composed 1879-80
+Op.6,Prelude and Fugue in E-flat minor,1877,in-scope,,0,,,IMSLP: Works first published in 1877 (category tag); composed 1876
+Op.9 or Op.14,Gavotte in A-flat minor,,unverified-pub,n/a,0,,,Composition 1880 (Wikipedia list); IMSLP page gives no first-publication year; not imported
+Op.15 or Op.20,"3 Nocturnes (B minor, G, C minor)",,unverified-pub,n/a,0,,,Composition 1873-87 (Wikipedia list); IMSLP page gives no first-publication year; not imported
+Op.31,Nocturne in D-flat (Schott Op.31; composer's Op.24),,unverified-pub,n/a,0,,,Composition 1897 (Wikipedia list); no first-publication year read; not imported
+Op.33,Nocturne in E (Schott Op.33; composer's Op.26),,unverified-pub,n/a,0,,,Composition 1897 (Wikipedia list); no first-publication year read; not imported
+Op.29 or Op.36,Melodies poetiques (12 pieces for piano),,unverified-pub,n/a,0,,,IMSLP composition 1903; first publication not read; not imported
+Op.42,"3 Morceaux (Prelude, Berceuse-Reverie, Melodia campestre)",,unverified-pub,n/a,0,,,Composition 1909-10 (Wikipedia list); IMSLP page gives no first-publication year; not imported
+no opus,Serenade valsee,1916,in-scope,,0,,,IMSLP: Works first published in 1916 (category tag; the page gives 1916?)
+Op.4,Piano Quintet No.1 in F minor,1877,in-scope,,0,,,IMSLP: Works first published in 1877 (category tag); composed 1866
+Op.5,Piano Quintet No.2 in B-flat,1877,in-scope,,0,,,IMSLP: Works first published in 1877 (category tag); composed 1867 (Wikipedia list: 1876?)
+Op.12 or Op.17,String Quartet in C-sharp minor,1884,in-scope,,0,,,IMSLP: Works first published in 1884 (category tag); composed 1882
+Op.10 or Op.15,Piano Concerto in G minor,1883,in-scope,,0,,,IMSLP: Works first published in 1883 (category tag); composed 1878-80
+Op.11 or Op.16,Symphony No.1 in D,1883,in-scope,,0,,,IMSLP: Works first published in 1883 (category tag); composed 1880-81
+Op.38,Requiem Mass,1906,in-scope,,0,,,"IMSLP: Works first published in 1906 (category tag); composed 1895 ca., revised 1901; baritone, chorus and orchestra (choral; kept for the record)"
+no opus,Sinfonia epitalamio (Symphony No.2),,excluded-unpublished,n/a,0,,,"Wikipedia list: composed 1887, unpublished; not imported"

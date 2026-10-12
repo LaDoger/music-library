@@ -1,6 +1,6 @@
 cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
 S.541/3,"Liebesträume No.3, S.541/3",1850,in-scope,yes,2,liszt_s541_liebestraume_no_3 liszt_s_541_3_liebestraume_no_3_s_541_3,pdmx,"IMSLP Liebesträume S.541 (3 nocturnes), First Publication 1850; row = No.3"
-S.172,"Consolations, S.172 (six pieces)",1850,in-scope,yes,4,liszt_ps_franz_liszt_consolation_no_4_in_d_flat_major liszt_s172_consolation_s_172_no_1 liszt_s_172_franz_liszt_consolation_no_4_in_d_flat_maj liszt_s_172_franz_liszt_consolations_i,"mutopia,pdmx","IMSLP Consolations S.172, First Publication 1850 (2nd version); 1992 for the 1st version"
+S.172,"Consolations, S.172 (six pieces)",1850,in-scope,yes,3,liszt_ps_franz_liszt_consolation_no_4_in_d_flat_major liszt_s172_consolation_s_172_no_1 liszt_s_172_franz_liszt_consolations_i,"mutopia,pdmx","IMSLP Consolations S.172, First Publication 1850 (2nd version); 1992 for the 1st version"
 S.244/2,"Hungarian Rhapsody No.2, S.244/2",1851,in-scope,yes,3,liszt_hungarian_rhapsody_2 liszt_s244_liszt_hungarian_rhapsody_no liszt_s_244_2_hungarian_rhapsody_no_2_s_244_2b2,"curated,pdmx","IMSLP S.244/2, First Publication 1851"
 S.244/9,"Hungarian Rhapsody No.9 (Pesther Carneval), S.244/9",1853,in-scope,,0,,,"IMSLP S.244/9, First Publication 1853"
 S.244/12,"Hungarian Rhapsody No.12, S.244/12",1853,in-scope,,0,,,"IMSLP S.244/12, First Publication 1853"

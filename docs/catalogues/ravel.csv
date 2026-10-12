@@ -13,9 +13,9 @@ M.55.2,Gaspard de la nuit: Le gibet,1909,in-scope,yes,1,ravel_m_55_2_gaspard_de_
 M.55.3,Gaspard de la nuit: Scarbo,1909,in-scope,,0,,,
 M.55,Gaspard de la nuit (complete),1909,in-scope,yes,1,ravel_m_55_gaspard_de_la_nuit_complete,pdmx,Matches whole-cycle files
 M.58,Menuet sur le nom d'Haydn,1910,in-scope,yes,1,ravel_m_58_menuet_sur_le_nom_d_haydn,pdmx,Revue musicale S.I.M. 1910
-M.60,Ma mère l'Oye (piano duet),1910,in-scope,yes,1,ravel_m_60_ravel_le_jardin_feerique_from_ma_mere_l_oye,pdmx,"Durand 1910; ballet M.62 1912, suite orch. M.60a 1911"
-M.61,Valses nobles et sentimentales,1911,in-scope,,0,,,Durand 1911
-M.63,"À la manière de… (Borodine, Chabrier)",1913,in-scope,yes,1,ravel_m_63_a_la_maniere_de_borodine_chabrier,pdmx,Revue musicale 1913
+M.60,Ma mère l'Oye (piano duet),1910,in-scope,yes,2,ravel_m_60_le_jardin_feerique ravel_m_60_ravel_le_jardin_feerique_from_ma_mere_l_oye,pdmx,"Durand 1910; ballet M.62 1912, suite orch. M.60a 1911"
+M.61,Valses nobles et sentimentales,1911,in-scope,yes,6,ravel_m61_valses_nobles_1 ravel_m61_valses_nobles_2 ravel_m61_valses_nobles_3 ravel_m61_valses_nobles_4 ravel_m61_valses_nobles_5 ravel_m61_valses_nobles_6,omr,Durand 1911
+M.63,"À la manière de… (Borodine, Chabrier)",1913,in-scope,yes,2,ravel_m_63_a_la_maniere_de_borodine_chabrier ravel_imslp_m_63_1_a_la_maniere_de_borodine,"imslp,pdmx",Revue musicale 1913
 M.65,Prélude,1913,in-scope,,0,,,Durand 1913 (Conservatoire sight-reading)
 M.68,Le Tombeau de Couperin,1918,in-scope,yes,1,ravel_m_68_le_tombeau_de_couperin,pdmx,Durand 1918; orch. M.68a 1919
 M.72,La Valse,1921,in-scope,yes,1,ravel_m_72_la_valse,pdmx,Durand 1921 (piano solo M.72b 1920)
@@ -28,7 +28,7 @@ M.A26,Debussy: Danse (Tarantelle styrienne) (orch. Ravel),1923,in-scope,,0,,,Dur
 M.52,L'Heure espagnole,1908,in-scope,,0,,,Vocal score Durand 1908
 M.71,L'Enfant et les sortilèges,1925,in-scope,,0,,,Vocal score Durand 1925
 M.80,Fanfare for L'éventail de Jeanne,1929,in-scope,,0,,,Heugel 1929
-M.35,String Quartet in F,1910,in-scope,yes,1,ravel_m_35_string_quartet_in_f_major,openscore-quartets,Durand 1910
+M.35,String Quartet in F,1910,in-scope,yes,2,ravel_m_35_string_quartet_in_fb2 ravel_m_35_string_quartet_in_f_major,"openscore-quartets,pdmx",Durand 1910
 M.46,Introduction et Allegro,1906,in-scope,,0,,,Durand 1906
 M.67,Piano Trio in A minor,1915,in-scope,,0,,,Durand 1915
 M.73,Sonata for Violin and Cello,1922,in-scope,,0,,,Durand 1922
@@ -44,7 +44,7 @@ M.75,Ronsard à son âme,1924,in-scope,,0,,,Revue musicale 1924
 M.78,Chansons madécasses,1926,in-scope,,0,,,Durand 1926
 M.79,Rêves,1927,in-scope,yes,1,ravel_m_79_reves,pdmx,1927
 M.A4-11,Cinq mélodies populaires grecques,1906,in-scope,yes,4,ravel_m_a4_11_maurice_ravel_chanson_de_la_mariee ravel_m_a4_11_la_bas_vers_l_eglise_maurice_ravel ravel_m_a4_11_quel_galant_m_est_comparable_maurice_rav ravel_m_a4_11_tout_gai_maurice_ravel,pdmx,Durand 1906
-M.A17,Chants populaires,1910,in-scope,yes,2,ravel_m_a17_chanson_espagnole_ravel ravel_m_a17_chanson_francaise_chant_populaire_limousin,pdmx,"Chanson espagnole/française/italienne/hébraïque, 1910"
+M.A17,Chants populaires,1910,in-scope,yes,1,ravel_m_a17_chanson_espagnole_ravel,pdmx,"Chanson espagnole/française/italienne/hébraïque, 1910"
 M.A22,Deux mélodies hébraïques,1915,in-scope,,0,,,Durand 1915
 M.81,Boléro,1929,excluded-disputed,n/a,0,,,Boléro excluded: disputed (LaDoger). Never import.
 M.82,Piano Concerto for the Left Hand in D,1931,excluded-post1930,n/a,0,,,Published 1931

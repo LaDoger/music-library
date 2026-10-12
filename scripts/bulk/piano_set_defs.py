@@ -52,6 +52,12 @@ SETS = [
  ("Chopin Waltzes Op.64", "chopin", [op(64)], "PD", numbered(3, {1: [r"minute waltz|valse du petit chien"]})),
  ("Chopin Waltzes Op.69", "chopin", [op(69)], "PD", numbered(2, {1: [r"farewell waltz|l'adieu|valse de l.adieu"]})),
  ("Chopin Waltzes Op.70", "chopin", [op(70)], "PD", numbered(3)),
+ # A generic Sonata title does not prove a whole work: Mutopia 1727 is only movement IV.
+ ("Chopin Sonata No.2 Op.35", "chopin", [op(35)], "PD", mv([
+     ("I Grave - Doppio movimento", [r"grave|doppio movimento"]),
+     ("II Scherzo", [r"scherzo"]),
+     ("III Marche funèbre", [r"marche funebre|funeral march"]),
+     ("IV Finale - Presto", [r"finale|presto"])])),
  # ---- Schubert (D and Op. aliases; key aliases for D.899)
  ("Schubert Impromptus D.899 (Op.90)", "schubert", [cat("d", 899), op(90)], "PD", numbered(4, {
      1: [r"impromptu[^|]*\bc[ -]?(minor|moll)"], 2: [r"impromptu[^|]*\be[ -]?(flat|b|s)[ -]?(major|dur)|impromptu[^|]*\bes[ -]dur"],
@@ -141,7 +147,7 @@ SETS = [
  # ---- Bach
  ("Bach WTC Book I BWV 846-869", "bach", [r"bwv"], "PD", [(f"BWV {b}", b, [rf"bwv\.? ?{b}(?![0-9])"]) for b in range(846, 870)]),
  ("Bach WTC Book II BWV 870-893", "bach", [r"bwv"], "PD", [(f"BWV {b}", b, [rf"bwv\.? ?{b}(?![0-9])"]) for b in range(870, 894)]),
- # ---- Beethoven 32 sonatas (a sonata counts when any movement or the whole sonata is present)
+ # ---- Beethoven 32 sonatas (count only rows without explicit single-movement labels)
  ("Beethoven 32 Piano Sonatas", "beethoven", [r"sonat|op"], "PD", [(f"No. {i} Op.{o}", i, [rf"\bop\.? ?{o.split('/')[0]}(?![0-9a-z])" + (rf"[^|]{{0,20}}?(no\.? ?{o.split('/')[1]}\b|/ ?{o.split('/')[1]}\b|n\.? ?{o.split('/')[1]}\b)" if "/" in o else "")])
    for i, o in enumerate("2/1 2/2 2/3 7 10/1 10/2 10/3 13 14/1 14/2 22 26 27/1 27/2 28 31/1 31/2 31/3 49/1 49/2 53 54 57 78 79 81a 90 101 106 109 110 111".split(), 1)]),
  # ---- Liszt
@@ -229,11 +235,13 @@ SETS = [
 ]
 
 # extra guards: an item must match REQUIRE[set] to count; WHOLE[set] = a single file holding every movement
-REQUIRE = {"Beethoven 32 Piano Sonatas": r"sonat|pathetique|moonlight|mondschein|appassionata|waldstein|tempest|sturm|hammerklavier|adieux|pastoral|aurora|hunt",
+REQUIRE = {"Chopin Sonata No.2 Op.35": r"(?=.*\bop\.? ?35(?![0-9]))(?=.*sonat)",
+           "Beethoven 32 Piano Sonatas": r"sonat|pathetique|moonlight|mondschein|appassionata|waldstein|tempest|sturm|hammerklavier|adieux|pastoral|aurora|hunt",
            "Ravel Le Tombeau de Couperin M.68": r"tombeau", "Debussy Préludes Book I L.117": r"prelude|l\.? ?117|l\.? ?125",
            "Debussy Préludes Book II L.123": r"prelude|l\.? ?123|l\.? ?131"}
 # per-set exclusions (voice parts of a single movement; arrangements of a concerto) applied on top of EXCLUDE
-EXTRA_EXCLUDE = {"Vivaldi Gloria RV 589": r"\b(soprano|alto|tenor|bass|basso|canto)\b",
+EXTRA_EXCLUDE = {"Beethoven 32 Piano Sonatas": r"\bmovement\b|\bmov\.?|\bscherzo\b|\ballegro\b|\badagio\b|\bandante\b|\bfinale\b|\bpresto\b|\bpart\b|\bexcerpt\b|\bfragment\b",
+                 "Vivaldi Gloria RV 589": r"\b(soprano|alto|tenor|bass|basso|canto)\b",
                  "Vivaldi Magnificat RV 611": r"\b(soprano|alto|tenor|bass|basso|canto)\b|\bmagnificat\b(?![^|]*anima)",
                  "Vivaldi Four Seasons Op.8 Nos.1-4": r"clarinet|guitar|celtic|brass|quintet|lute|flute|harp|organ|mandolin|piano|simple|didattica|duo|cello|oboe|mission|puddle|designing|lago|february|angeli|sonata|trio|vocal|mix"}
 EXCLUDE = r"\b(violin|cello|horn|flute|clarinet) sonata|\bfor (clarinet|flute|violin|cello|orchestra|band|guitar|organ|string|wind|brass)|\barr\.|arranged|arrangement|transcri|\beasy\b|simplified"
@@ -311,7 +319,7 @@ def match_set(items, s):
     for lab, n, aliases in mvts:
         for iid, h in pool:
             hit = any(re.search(a, h) for a in aliases)
-            if not hit and n and whole_cat.search(h) and name.startswith(("Chopin Bal", "Chopin 4 S")) is False:
+            if not hit and n and name != "Beethoven 32 Piano Sonatas" and whole_cat.search(h) and name.startswith(("Chopin Bal", "Chopin 4 S")) is False:
                 hit = _num_ok(lab, n, cats, h)
             if not hit and n and name.startswith(("Chopin 4", "Satie", "Liszt Cons", "Liszt Lieb", "Liszt Hung", "Liszt Pag")) and whole_cat.search(h):
                 hit = bool(re.search(rf"(?:{'|'.join(cats)})[^|]{{0,30}}?\b(no\.? ?|nr\.? ?|n\.? ?)?0?{n}\b(?![.,]?\d)", h))

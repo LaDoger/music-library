@@ -11569,6 +11569,15 @@
    "licence": "CC0"
   }
  ],
+ "liszt_ps_franz_liszt_consolation_no_4_in_d_flat_major": [
+  {
+   "id": "liszt_s_172_franz_liszt_consolation_no_4_in_d_flat_maj",
+   "source": "pdmx",
+   "title": "Consolation No.4 in D-flat major",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "liszt_s123_liszt_hungarian_fantasy_for": [
   {
    "id": "liszt_s123_liszt_hungarian_fantasy_forb2",
@@ -17380,6 +17389,22 @@
    "licence": "CC0"
   }
  ],
+ "satie_3_gymnopedies_gymnopedie_1": [
+  {
+   "id": "satie_3_gymnopedies_gymnopedie_1b2",
+   "source": "pdmx",
+   "title": "Gymnopedie 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "satie_3_gymnopedies_gymnopedie_1b3",
+   "source": "pdmx",
+   "title": "Gymnopédie 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "satie_3_morceaux_en_forme_de_poire": [
   {
    "id": "satie_3_morceaux_en_forme_de_poireb2",
@@ -19038,6 +19063,15 @@
    "title": "Romances op.94 Schumann",
    "url": "https://zenodo.org/records/15571083",
    "licence": "PD"
+  }
+ ],
+ "schumann_op9_carnaval_12": [
+  {
+   "id": "schumann_op9_schumann_carnaval_no_12_chop",
+   "source": "pdmx",
+   "title": "Carnaval - No. 12 Chopin (Piano solo)",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
   }
  ],
  "schumann_op9_schumann_carnaval_no_12_chop": [

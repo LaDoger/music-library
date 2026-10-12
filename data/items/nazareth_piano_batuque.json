@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "US public domain only (composer died 1934; work published 1913, before 1931). Also public domain in the EU / life+70 countries (composer died 1934); only this pre-1931 publication is US-PD, later works by the composer are not. PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/11/5/QmT6YyB1nDXiacN9GMZsepinwCAKWAiNbUtc8cXPXszx2y.mid.",
+ "legal_notes": "US public domain only (composer died 1934; work published 1913, before 1931). Also public domain in the EU / life+70 countries (composer died 1934); only this pre-1931 publication is US-PD, later works by the composer are not. PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/11/5/QmT6YyB1nDXiacN9GMZsepinwCAKWAiNbUtc8cXPXszx2y.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/nazareth_piano_batuque.mid",
  "local_audio_path": "",
  "preview_path": "",

@@ -1,0 +1,18 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.26,Quelques danses,1896,in-scope,,0,,,"IMSLP: piano, E. Baudoux & Cie., Paris 1896; composed 1896"
+Op.38,Paysage,1910,in-scope,,0,,,"IMSLP: piano, Rouart, Lerolle & Cie., n.d. (ca.1910) (no dated First Publication field; year approximate); composed 1895"
+Op.25,Poème for violin and orchestra,1898,in-scope,,0,,,"IMSLP: violin and orchestra, Breitkopf und Härtel, Leipzig 1898; composed 1896"
+Op.21,"Concert in D major (violin, piano and string quartet)",1894,in-scope,,0,,,"IMSLP: Librairie de l'Art indépendant, Paris 1894; composed 1889-91"
+Op.20,Symphony in B-flat major,1891,in-scope,,0,,,"IMSLP: orchestra, First Publication 1891 (composed 1890); E. Baudoux & Cie. score undated"
+Op.5,Viviane (symphonic poem),1888,in-scope,,0,,,"IMSLP: orchestra, First Publication 1888 in a reduction by Vincent d'Indy; composed 1882, rev. 1887; full score Bornemann n.d.[1893]"
+Op.30,Piano Quartet in A major,1898,in-scope,,0,,,"IMSLP: violin, viola, cello and piano, E. Baudoux et Cie., Paris 1898; composed 1897"
+Op.35,String Quartet in C minor,1900,in-scope,,0,,,"IMSLP: parts A. Durand & Fils 1900, score 1907; composed 1897-99"
+Op.39,Pièce (cello or viola and piano),1917,in-scope,,0,,,"IMSLP: Rouart, Lerolle & Cie., Paris 1917; composed 1897"
+Op.1,5 Fantaisies (piano),1879,in-scope,,0,,,"IMSLP: piano, Durand, Schoenewerk & Cie, Paris 1879; movements Prélude, Pas vite, Très lent, Grave, Fièrement"
+no opus,Piano Trio in G minor,1919,unverified-pub,n/a,0,,,IMSLP first-publication field reads '1919 ?' (uncertain); composed 1881; not imported
+no opus,Sonatine in G major (piano four hands),,unverified-pub,n/a,0,,,IMSLP: manuscript 1878 only; not imported
+no opus,Sonatine in D minor (piano four hands),,unverified-pub,n/a,0,,,IMSLP: manuscript 1879 only; not imported
+no opus,11 Fugues (piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1880-81 only; not imported
+no opus,Marche militaire (piano),,unverified-pub,n/a,0,,,IMSLP: holograph manuscript 1884 only; not imported
+no opus,Andante and Allegro (clarinet and piano),,unverified-pub,n/a,0,,,IMSLP: manuscript 1881 only; not imported
+Op.32,Soir de fête (symphonic poem),,unverified-pub,n/a,0,,,IMSLP: orchestral manuscript 1893 and piano four-hands manuscript 1898; no First Publication field; not imported

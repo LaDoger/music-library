@@ -1,5 +1,5 @@
 cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
-Op.2,Biryulki Op.2 (14 pieces),1876,in-scope,,0,,,"IMSLP: composed and first published 1876; 14 pieces, a set"
+Op.2,Biryulki Op.2 (14 pieces),1876,in-scope,yes,13,lyadov_imslp462481_1 lyadov_imslp462481_10 lyadov_imslp462481_11 lyadov_imslp462481_12 lyadov_imslp462481_13 lyadov_imslp462481_14,omr,"IMSLP: composed and first published 1876; 14 pieces, a set"
 Op.3,6 Morceaux Op.3,1876,in-scope,,0,,,IMSLP: composed and first published 1876; 2 books
 Op.4,Arabesques Op.4 (4 pieces),1878,in-scope,,0,,,IMSLP: composed and first published 1878 (Bessel)
 Op.5,Etude Op.5,1881,in-scope,,0,,,IMSLP: first publication 1881 (Bessel)

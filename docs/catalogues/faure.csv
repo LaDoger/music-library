@@ -4,7 +4,7 @@ Op.50,Pavane (chorus and orchestra or piano),1888,in-scope,yes,3,faure_pavane fa
 Op.78,Sicilienne (cello and piano),1898,in-scope,yes,2,faure_sicilienne faure_o78_sicilienne,"curated,mutopia",IMSLP: 1898 (Bibliographie de la France)
 Op.80,Pelléas et Mélisande (incidental music suite),1900,in-scope,,0,,,"IMSLP: Hamelle, Paris 1900 (suite 1898); 1909 plates for later numbers"
 Op.24,Élégie (cello and piano),1883,in-scope,yes,2,faure_elegie_by_g_faure_for_two_ce faure_op24_gabriel_faure_elegie_op_24_f,pdmx,IMSLP: 1883; viola version also exists
-Op.56,Dolly (piano duet suite),1894,in-scope,yes,6,faure_op_56_faure_dolly_suite_no_1_berceuse faure_op_56_faure_dolly_suite_no_2_mi_a_ou faure_op_56_faure_dolly_suite_no_6_le_pas_espagnol faure_op_56_faure_dolly_suite_no_4_kitty_valse faure_op_56_faure_dolly_suite_no_5_tendresse faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly,pdmx,IMSLP 'First Publication' field reads 1892-94 (composition range); year kept at 1894; Hamelle
+Op.56,Dolly (piano duet suite),1894,in-scope,yes,6,faure_op_56_faure_dolly_suite_no_1_berceuse faure_op_56_faure_dolly_suite_no_2_mi_a_ou faure_op_56_faure_dolly_suite_no_3_le_jardin_de_dolly faure_op_56_faure_dolly_suite_no_4_kitty_valse faure_op_56_faure_dolly_suite_no_5_tendresse faure_op_56_faure_dolly_suite_no_6_le_pas_espagnol,pdmx,IMSLP 'First Publication' field reads 1892-94 (composition range); year kept at 1894; Hamelle
 Op.16,Berceuse (violin and piano),1879,in-scope,yes,2,faure_op56_berceuse faure_op16_berceuse_flute_and_guitar_du,"mutopia,pdmx",IMSLP: 1879; Hélène Depret dedication; flute and guitar version exists
 Op.19,Ballade (piano and orchestra),1880,in-scope,,0,,,IMSLP: 1880; dedication Saint-Saëns
 Op.13,Violin Sonata No.1,1877,in-scope,,0,,,"IMSLP: Breitkopf und Härtel, Leipzig 1877"
@@ -15,7 +15,7 @@ Op.121,String Quartet,1925,in-scope,yes,1,faure_op121_string_quartet_op_121,open
 Op.73,Thème et variations (piano),1897,in-scope,,0,,,"IMSLP: Hamelle, Paris 1897; Metzler, London"
 Op.26,Barcarolle No.1 (piano),1881,in-scope,,0,,,"IMSLP: J. Hamelle, Paris 1881"
 Op.119,Nocturne No.13 (piano),1922,in-scope,,0,,,IMSLP: 1922; dedication Mme Fernand Maillot
-Op.31,Impromptu No.2 (piano),1883,in-scope,,0,,,"IMSLP: Hamelle, Paris 1883"
+Op.31,Impromptu No.2 (piano),1883,in-scope,yes,1,faure_imslp543_1,omr,"IMSLP: Hamelle, Paris 1883"
 Op.61,"La bonne chanson (song cycle, Verlaine)",1894,in-scope,,0,,,IMSLP: 1894; composed 1892-94
 Op.113,Mirages (song cycle),1919,in-scope,,0,,,IMSLP: 1919; Baronne Renée de Brimont
 Op.118,L'horizon chimérique (song cycle),1922,in-scope,,0,,,IMSLP: 1922; Jean de La Ville de Mirmont

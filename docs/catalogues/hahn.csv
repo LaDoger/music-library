@@ -1,0 +1,36 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+IRH 71,"Portraits de peintres (4 pieces: Albert Cuyp, Paulus Potter, Anton van Dyck, Antoine Watteau), IRH 71",1896,in-scope,,0,,,"IMSLP: First Publication 1896 (Heugel, plates 18387-18390); composed 1894. Set of four"
+IRH 74,"Premieres valses (10 waltzes), IRH 74",1898,in-scope,,0,,,"IMSLP: First Publication 1898 (Heugel, plates 19139-19140); composed 1898. Set of ten"
+IRH 84,"Le rossignol eperdu (53 poems in four series), IRH 84",1912,in-scope,,0,,,"IMSLP: First Publication 1912 (Heugel, plates 25161-25190); composed 1899-1910. Some pieces appeared earlier in periodicals (Le Figaro 1910); the full set's 1912 date is the gate. Set"
+no opus,Sonatine in C major,1907,in-scope,,0,,,"BnF catalogue (search result): first edition Paris, Heugel 1907; composed 1907. IMSLP page not reached (404 on guessed URL)"
+IRH 114,"Reverie pour piano, IRH 114",1910,in-scope,,0,,,"IMSLP: First Publication 1910 (Rouart, Lerolle & Cie., plate R.L. 10822); composed 1910. Extract from Carrier-Belleuse's piano method"
+IRH 31,"2 Etudes, IRH 31",1927,in-scope,,0,,,"IMSLP: First Publication 1927 (Heugel, plate 29728). Dedicated to Juliette Bouquet. Set of two"
+no opus,Theme varie sur le nom de Haydn,1909,unverified-pub,n/a,0,,,Composed 1909 (Wikipedia); IMSLP page 404 on guessed URL; first publication not read; not imported
+no opus,Canon dans le mode phrygien,1909,unverified-pub,n/a,0,,,Composed 1909 (Wikipedia); publication not read; not imported
+no opus,Preface en musique,1911,unverified-pub,n/a,0,,,Composed 1911 (Wikipedia); publication not read; not imported
+no opus,7 Berceuses (some for piano four or three hands),1904,unverified-pub,n/a,0,,,Composed 1904 (Wikipedia); publication not read; not imported
+no opus,Bacchante endormie,1905,unverified-pub,n/a,0,,,Composed 1905 (Wikipedia); publication not read; not imported
+no opus,Pavane d'Angelo,1905,unverified-pub,n/a,0,,,Composed 1905 (Wikipedia); publication not read; not imported
+no opus,Juvenilia (6 petites pieces),,unverified-pub,n/a,0,,,Composed 1890-93 (Wikipedia); publication not read; not imported
+no opus,Les jeunes lauriers (military march),1915,unverified-pub,n/a,0,,,Composed 1915 (Wikipedia); publication not read; not imported
+no opus,Le ruban denoue (12 waltzes for two pianos and a song),1915,unverified-pub,n/a,0,,,"Two-piano work, composed 1915 (Wikipedia); publication not read; not imported"
+no opus,Pour bercer un convalescent (two pianos),1927,unverified-pub,n/a,0,,,"Two-piano work, composed 1927 (Wikipedia); publication not read; not imported"
+IRH 16,"7 Chansons grises (Verlaine), IRH 16, incl. L'heure exquise",1891,in-scope,yes,1,hahn_irh_16_7_chansons_grises_l_heure_exquise,openscore-lieder,"IMSLP: First Publication 1891 (Heugel, n.d.[1890], plates 8237-8243); composed 1887-90. Set of seven"
+IRH 89,"Si mes vers avaient des ailes (20 Melodies, Book I), IRH 89",1895,in-scope,,0,,,"IMSLP: Heugel 1895, plate 8315 (no First Publication field; the earliest dated printing); composed 1888"
+IRH 94,"A Chloris (20 Melodies, Book II), IRH 94",1913,in-scope,yes,1,hahn_irh_94_a_chloris,openscore-lieder,"IMSLP: First Publication 1913 (Heugel, plate H. & Cie. 26102); composed 1910. A later Heugel plate 27627 is dated 1916"
+no opus,"Quand je fus pris au pavillon (20 Melodies, Book II)",1899,in-scope,,0,,,"IMSLP: 1899 Heugel (first publication of the song, per IMSLP note in search snippet); composed 1896-1921 range"
+no opus,"Le printemps (20 Melodies, Book II)",,unverified-pub,n/a,0,,,Composed 1899 (Wikipedia); no IMSLP page found; not imported
+no opus,D'une prison,1888,unverified-pub,n/a,0,,,IMSLP: n.d.(1888) with question mark; not confirmed; not imported
+no opus,Mai (Coppee),1889,unverified-pub,n/a,0,,,"IMSLP: Heugel n.d.(1889), an estimate; regex too generic; not imported"
+IRH 102,"Violin Sonata in C major (Sonate en ut majeur), IRH 102",1927,in-scope,,0,,,"IMSLP: First Publication 1927 (Heugel, plate H. 29553); composed 1926. Three movements"
+no opus,Piano Quintet in F sharp minor,1923,in-scope,,0,,,"IMSLP: First Publication 1923 (Heugel, plate H. 28175), dedication question-marked; composed 1920-21. Three movements"
+no opus,Trio en fa mineur (piano trio),1896,unverified-pub,n/a,0,,,Composed 1896 (Wikipedia); no IMSLP page or publisher found; not imported
+no opus,Nocturne in E flat major (violin and piano),1906,unverified-pub,n/a,0,,,Composed 1906 (Wikipedia); publication not read; not imported
+no opus,Variations sur un theme de Mozart (flute),1905,unverified-pub,n/a,0,,,"Composed 1905 (Wikipedia; flute, viola and piano version 1910); publication not read; not imported"
+no opus,"Le Bal de Beatrice d'Este (suite for winds, harps and piano)",1905,unverified-pub,n/a,0,,,Composed and first performed 1905 (Wikipedia); IMSLP page 404 on guessed URL; publisher not found; not imported
+no opus,Romance in A major (violin),1901,unverified-pub,n/a,0,,,Composed 1901 (Wikipedia); publication not read; generic title; not imported
+no opus,Divertissement pour une fete de nuit,1931,excluded-post1930,n/a,0,,,"Composed 1931 (Wikipedia), so after the 1930 gate; excluded"
+no opus,Concerto provencal,1945,excluded-post1930,n/a,0,,,"Composed 1944-45 (Wikipedia, Good Music Guide); after the 1930 gate; excluded"
+no opus,String Quartet No.1 in A minor,1939,excluded-post1930,n/a,0,,,Composed 1939 (Wikipedia); after the 1930 gate; excluded
+no opus,String Quartet No.2 in F major,1943,excluded-post1930,n/a,0,,,Composed 1939-43 (Wikipedia); after the 1930 gate; excluded
+no opus,Piano Quartet in G major,1946,excluded-post1930,n/a,0,,,Heugel 1946 (search result); after the 1930 gate; excluded

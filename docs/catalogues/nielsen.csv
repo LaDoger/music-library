@@ -1,0 +1,25 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.7,Symphony No. 1 in G minor,1894,in-scope,,0,,,"Hansen, Copenhagen (IMSLP plate 11486; undated, bracketed c.1894, premiere 1894); composed 1891-92"
+Op.16,Symphony No. 2 'The Four Temperaments',1903,in-scope,,0,,,"Hansen, Copenhagen (IMSLP plate 13308; n.d. [1903] estimate); composed 1901-02"
+Op.27,Symphony No. 3 'Sinfonia espansiva',1913,in-scope,,0,,,"Kahnt, Leipzig (IMSLP plate 7039, 1913); composed 1910-11"
+Op.29,Symphony No. 4 'The Inextinguishable',1916,in-scope,,0,,,"Hansen, Copenhagen (IMSLP plate 16557, 1916); composed 1914-16"
+Op.50,Symphony No. 5,1926,in-scope,,0,,,IMSLP first publication 1926 (modern Skandinavisk 1950 edition is not the first print); composed 1920-22
+Sinfonia semplice,Symphony No. 6 'Sinfonia semplice',,excluded-unpublished,n/a,0,,,Composed 1924-25; not published in Nielsen's lifetime; not imported
+Op.17,Helios Overture,1905,in-scope,,0,,,"Hansen, Copenhagen (IMSLP plate 13669; n.d. [1905] estimate); composed 1903"
+CNW 2,Maskarade Overture,1929,in-scope,,0,,,"Samfundet til Udgivelse af dansk Musik, Copenhagen (IMSLP n.d. [1929] estimate); Hansen reprint 1930; opera composed 1904-06"
+Op.49,Pan og Syrinx,1926,in-scope,,0,,,"Hansen, Copenhagen 1926 (IMSLP, Wikipedia); composed 1918"
+Op.33,Violin Concerto,1919,in-scope,,0,,,"Hansen, Copenhagen 1919 (IMSLP plate 16967; Royal Library record c1919); composed 1911"
+Op.32,Chaconne (piano),1917,in-scope,,0,,,"Hansen, Copenhagen 1917 (IMSLP plate 16743); composed 1916"
+Op.43,Wind Quintet,1923,in-scope,yes,1,nielsen_op_43_wind_quintet,pdmx,"Hansen, Copenhagen 1923 (Wikipedia; IMSLP page not read); composed and premiered 1922, so 1922 or 1923 both in scope"
+Op.2,Fantasy Pieces for Oboe and Piano,1891,in-scope,yes,1,nielsen_op_2_two_fantasy_pieces_for_oboe_and_piano_roman,pdmx,"Hansen, Copenhagen 1891 (IMSLP n.d. [1891]; Wikipedia premiere 16 Mar 1891); opus said to be 1890"
+Op.13,String Quartet No. 1 in G minor,1902,in-scope,yes,1,nielsen_op_13_string_quartet_no_1_op_13,openscore-quartets,"Hansen, Copenhagen (IMSLP No. 638, n.d. [1902], first publication 1902); many sources say 1900; composed 1887-88"
+CNW 42,Flute Concerto,1952,excluded-post1930,n/a,0,,,"First published 1952, Samfundet til Udgivelse af dansk Musik (Telmanyi ed.); composed 1926; excluded post-1930"
+Op.57,Clarinet Concerto,1931,excluded-post1930,n/a,0,,,"First published 1931, Samfundet til Udgivelse af dansk Musik (IMSLP); composed 1928; excluded post-1930"
+Op.58,Commotio (organ),,unverified-pub,n/a,0,,,Composed 1930-31; publication date not verified: not imported
+Op.40,Theme and Variations (piano),,unverified-pub,n/a,0,,,Composed 1917; publication date not verified: not imported
+Op.45,Suite for piano 'Den Luciferiske',,unverified-pub,n/a,0,,,Composed 1919-20; publication date not verified: not imported
+Op.59,Three Piano Pieces (posthumous),,unverified-pub,n/a,0,,,Composed 1928; publication date not verified: not imported
+Op.39,Saga-Drøm,,unverified-pub,n/a,0,,,Composed 1907-08; publication date not verified: not imported
+Op.35,Violin Sonata No. 3,,unverified-pub,n/a,0,,,Composed 1912; publication date not verified: not imported
+Op.42,Fynsk Foraar (Springtime on Funen),,unverified-pub,n/a,0,,,Composed 1921; publication date not verified: not imported
+Op.34,Aladdin (suite),,unverified-pub,n/a,0,,,Composed 1918-19; publication date not verified: not imported

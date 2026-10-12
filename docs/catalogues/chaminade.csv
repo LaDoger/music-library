@@ -1,0 +1,36 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.37b / No.3,"Pas des écharpes (Scarf Dance), from Cinq Airs de ballet (Callirhoë) Op.37b",1888,in-scope,,0,,,Wikipedia: Op.37b Cinq Airs de Ballet (Enoch) 1888; Scarf Dance is Op.37 No.3; IMSLP n.d.
+Op.35 No.2,"Automne, from Six Études de concert Op.35",1886,in-scope,,0,,,Wikipedia: Op.35 Six Études de Concert (Enoch) 1886; the piano-duet Op.35a is 1924 (separate row not needed)
+Op.39,Toccata,1887,in-scope,,0,,,Wikipedia: Op.39 (Enoch) 1887
+Op.21,Piano Sonata in C minor,1893,in-scope,,0,,,Wikipedia: Op.21 (Enoch) 1893
+Op.56,Scaramouche,1890,in-scope,,0,,,Wikipedia: Op.56 (Enoch) 1890
+Op.54,Lolita. Caprice espagnol,1890,in-scope,,0,,,Wikipedia: Op.54 (Enoch) 1890
+Op.57,Havanaise,1891,in-scope,,0,,,Wikipedia: Op.57 (Enoch) 1891
+Op.61,Arabesque No.1,1892,in-scope,,0,,,Wikipedia: Op.61 (Enoch) 1892
+Op.60,Les Sylvains,1892,in-scope,,0,,,IMSLP 'First Publication' 1892 (Enoch & Costellat)
+Op.83,"Ritournelle (piano), Op.83",1892,unverified-pub,n/a,0,,,"Wikipedia lists Op.83 as a piano piece (Enoch 1892), but the OpenScore Lieder song of the same title (voice and piano) has no opus or year source: not imported until the song is dated"
+Op.123,"Album des enfants, 1re série",1906,in-scope,,0,,,Wikipedia: Op.123 (Enoch) 1906; 2e série Op.126 (1907) not a separate row
+Op.30,Air de ballet (premier),1884,in-scope,,0,,,IMSLP 'First Publication' 1884 (Enoch)
+Op.94,Danse créole (Deuxième Havanaise),1898,in-scope,,0,,,Wikipedia: Op.94 (Enoch) 1898
+Op.7,Barcarolle,1880,in-scope,,0,,,Wikipedia year column 1880 (publisher not given)
+Op.101,L'Ondine,1900,in-scope,,0,,,Wikipedia: Op.101 L'Ondine (Enoch) 1900
+Op.11,Piano Trio No.1 in G minor,1881,in-scope,,0,,,IMSLP 'First Publication' 1881
+Op.34,Piano Trio No.2 in A minor,1887,in-scope,,0,,,IMSLP 'First Publication' 1887 (Wikipedia gives 1886)
+Op.107,"Concertino for flute (and orchestra), D major",1902,in-scope,yes,1,chaminade_op_107_concertino_for_flute_and_orchestra_d_majo,pdmx,"IMSLP 'First Publication' 1902 (Enoch & Cie, plate E. & C. 5161); Op.107a flute and piano version same date"
+Op.40,"Konzertstück in C-sharp minor, piano and orchestra",1888,in-scope,,0,,,Wikipedia: (Enoch) 1888; IMSLP n.d. [1894] estimate; both <= 1930
+Op.37a,"Callirhoë, Suite d'orchestre",1890,in-scope,,0,,,Wikipedia: Op.37a (Enoch) 1890; IMSLP n.d. [1890]; ballet symphonique Op.37 (1888) unpublished
+Op.20,Suite d'orchestre,1881,in-scope,,0,,,IMSLP 'First Publication' 1881 (Paris: Léon Grus)
+Op.26,"Les Amazones, symphonie dramatique",1884,in-scope,,0,,,IMSLP 'First Publication' 1884 (Enoch); choral with orchestra
+Op.18,"Capriccio, violin and piano",1890,in-scope,,0,,,IMSLP 'First Publication' 1890 (Enoch); Op.18a solo piano 1912
+Op.142,"Sérénade aux étoiles, flute and piano",1911,in-scope,,0,,,Wikipedia: Op.142 (Enoch) 1911
+Op.170,Au pays bleu (Air italien),1928,in-scope,yes,1,chaminade_op_170_au_pays_bleu,openscore-lieder,Wikipedia: Op.170 (Enoch) 1928; the untitled-opus songs of the same name are unverified
+Op.52,Capriccio appassionato,1890,in-scope,,0,,,Wikipedia: Op.52 (Ricordi) 1890
+Op.92,Deuxième Arabesque,1898,in-scope,,0,,,Wikipedia: Op.92 (Enoch) 1898
+Op.120,Variations sur un thème original (piano),1906,in-scope,,0,,,Wikipedia: Op.120 (Enoch) 1906; Op.89 Thème varié is 1898 (separate row not needed)
+Op.155,Au pays dévasté,1919,in-scope,,0,,,Wikipedia: Op.155 (Enoch) 1919
+Op.156,Berceuse du petit soldat blessé,1919,in-scope,,0,,,Wikipedia: Op.156 (Enoch) 1919
+Op.161,Chanson nègre,1921,in-scope,,0,,,Wikipedia: Op.161 (Enoch) 1921
+Op.35 (set),"Six Études de concert Op.35 (set, other pieces)",,unverified-pub,n/a,0,,,"Wikipedia gives 1886 for the set; the single-piece rows are the ones to import, not this set"
+Op.? (no opus),"Songs: Madrigal, Colette, Souhait, Les Rêves, L'Idéal, Amour d'automne, Rosemonde, Bleus",,unverified-pub,n/a,0,,,No opus numbers in the Wikipedia list; per-song publication years not read on IMSLP (PDMX song rows are license_conflict-flagged anyway)
+Op.67,"La Morena, Caprice espagnol",1892,in-scope,,0,,,Wikipedia: Op.67 (Enoch) 1892
+Op.128,Pastel,1908,in-scope,,0,,,Wikipedia: Op.128 (Enoch) 1908

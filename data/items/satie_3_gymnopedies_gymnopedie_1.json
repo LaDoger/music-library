@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/1/5/Qmb69dY9CoqiRXre3yTcR6NDcgadeZJsBAbSuqBW6kZt7M.mid.",
+ "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/1/5/Qmb69dY9CoqiRXre3yTcR6NDcgadeZJsBAbSuqBW6kZt7M.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/satie_3_gymnopedies_gymnopedie_1.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -62,7 +62,22 @@
  "stream_audio_mime": "",
  "duration_s": 0,
  "midi_play_url": "files/scores/satie_3_gymnopedies_gymnopedie_1.mid",
- "other_editions": [],
+ "other_editions": [
+  {
+   "id": "satie_3_gymnopedies_gymnopedie_1b2",
+   "source": "pdmx",
+   "title": "Gymnopedie 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  },
+  {
+   "id": "satie_3_gymnopedies_gymnopedie_1b3",
+   "source": "pdmx",
+   "title": "Gymnopédie 1",
+   "url": "https://zenodo.org/records/15571083",
+   "licence": "CC0"
+  }
+ ],
  "schema_version": 3,
  "pages_base": "https://ladoger.github.io/music-library/",
  "page_url": "https://ladoger.github.io/music-library/?id=satie_3_gymnopedies_gymnopedie_1",

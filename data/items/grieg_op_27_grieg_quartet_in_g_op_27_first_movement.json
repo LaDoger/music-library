@@ -2,7 +2,7 @@
  "id": "grieg_op_27_grieg_quartet_in_g_op_27_first_movement",
  "composer": "Edvard Grieg",
  "death_year": "1907",
- "title": "Grieg: Quartet in g op 27 first movement",
+ "title": "Quartet in g op 27 first movement",
  "catalog": "Op. 27",
  "movement": "",
  "mood_tags": "classical;lyrical",
@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/1/25/QmbiCK6M45KF3ZbZXu5geeVwGw7og44wMeaf7hmG6DjA3j.mid.",
+ "legal_notes": "PDMX Zenodo 10.5281/zenodo.15571083. subset:no_license_conflict; file licence cc-zero (https://creativecommons.org/publicdomain/zero/1.0/). Zenodo compilation is CC BY 4.0; this file's own label is public domain or CC0. User-uploaded MuseScore transcription, not a critical edition. MIDI member: ./mid/1/25/QmbiCK6M45KF3ZbZXu5geeVwGw7og44wMeaf7hmG6DjA3j.mid. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/grieg_op_27_grieg_quartet_in_g_op_27_first_movement.mid",
  "local_audio_path": "",
  "preview_path": "",
@@ -79,5 +79,5 @@
   "zip_member": ""
  },
  "licence_meaning": "PD / CC0 / PDM / US-gov recording and score. Commercial use, no credit needed (courtesy credit still listed where the source asks).",
- "credit_text": "Edvard Grieg: Grieg: Quartet in g op 27 first movement, Op. 27 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
+ "credit_text": "Edvard Grieg: Quartet in g op 27 first movement, Op. 27 (composition public domain).\nScore edition: https://zenodo.org/records/15571083. Licence: CC0."
 }

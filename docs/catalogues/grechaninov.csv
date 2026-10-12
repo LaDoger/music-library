@@ -1,0 +1,41 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Op.98,"Livre d'enfants (Children's Book), Op.98 (15 pieces, piano)",1924,in-scope,,0,,,IMSLP: First Publication 1924; composed 1923 (LaDoger priority)
+Op.123,"Glass Beads, Op.123 (piano)",1930,in-scope,,0,,,"IMSLP: First Publication 1930 (Zimmermann, Leipzig); composed 1929 (LaDoger priority)"
+Op.99,"On the Green Meadow, Op.99 (piano)",1926,in-scope,,0,,,IMSLP: First Publication 1926 (Monatsbericht)
+Op.109,"The Day of the Child, Op.109 (piano)",1927,in-scope,,0,,,"IMSLP: First Publication 1927 (Schott, Mainz)"
+Op.110,"2 Sonatinas, Op.110 (piano)",1927,in-scope,,0,,,IMSLP: First Publication 1927
+Op.119,"Grandfather's Album, Op.119 (piano)",1929,in-scope,,0,,,IMSLP: First Publication 1929 (Schott)
+Op.118,"Historiettes, Op.118 (piano)",1930,in-scope,,0,,,"IMSLP: First Publication 1930 (Leduc, Paris)"
+Op.3,"5 Pastels (Pastelles), Op.3 (piano)",1894,in-scope,,0,,,IMSLP: First Publication 1894
+Op.61,"Pastelle No.2, Op.61 (piano, 8 pieces)",1913,in-scope,,0,,,IMSLP: First Publication 1913 (ca.)
+Op.53,"4 Mazurkas, Op.53 (piano)",1911,in-scope,,0,,,IMSLP: First Publication 1911 (Zimmermann)
+Op.115,"Pensees fugitives (Fleeting Thoughts), Op.115 (piano)",1928,in-scope,,0,,,IMSLP: First Publication 1928
+Op.116,"3 Pieces, Op.116 (piano)",1928,in-scope,,0,,,IMSLP: First Publication 1928 (Schott; Monatsbericht 1928)
+Op.37,"2 Pieces (Impromptu, Prelude), Op.37 (piano)",1905,in-scope,,0,,,"IMSLP: First Publication 1905 (Gutheil, Moscow)"
+Op.112,"Bagatelles, Op.112 (piano)",,unverified-pub,n/a,0,,,"IMSLP: First Publication '1928 ?' (query mark, Zimmermann); not confirmed, not imported"
+Op.129,"Piano Sonata No.1 in G minor, Op.129",1931,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1931 (post-1930, excluded)"
+Op.174,"Piano Sonata No.2 in G major, Op.174",1947,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1947 (post-1930, excluded)"
+Op.130,"Russian Folk Dances, Op.130 (piano)",1931,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1931 (Schott, Mainz) (post-1930, excluded)"
+Op.2,"String Quartet No.1 in G major, Op.2",1894,in-scope,,0,,,IMSLP: First Publication 1894 (prize-winning)
+Op.70,"String Quartet No.2 in D minor, Op.70",1915,in-scope,,0,,,IMSLP: First Publication 1915
+Op.75,"String Quartet No.3 in C minor, Op.75",,unverified-pub,n/a,0,,,"IMSLP: no work page found; first publication not verified, not imported"
+Op.124,"String Quartet No.4 in F major, Op.124",,unverified-pub,n/a,0,,,"IMSLP: no work page found; composed 1929 (Wikipedia list); publication not verified, not imported"
+Op.38,"Piano Trio No.1 in C minor, Op.38",1907,in-scope,,0,,,IMSLP: First Publication 1907
+Op.128,"Piano Trio No.2 in G major, Op.128",1931,excluded-post1930,n/a,0,,,"composed 1931 (Wikipedia list), so not published by 1930 (post-1930, excluded)"
+Op.87,"Violin Sonata No.1 in D major, Op.87",1923,in-scope,,0,,,IMSLP: First Publication 1923
+Op.113,"Cello Sonata in E minor, Op.113",,unverified-pub,n/a,0,,,"IMSLP: no work page found; composed 1927 (Wikipedia list); publication not verified, not imported"
+Op.137,"Violin Sonata No.2 in C minor, Op.137",1933,excluded-post1930,n/a,0,,,"composed 1933 (Wikipedia list) (post-1930, excluded)"
+Op.172,"Clarinet Sonata No.2, Op.172(a)",1949,excluded-post1930,n/a,0,,,"IMSLP: First Publication 1949 (post-1930, excluded)"
+Op.126,"In aller Fruhe, Op.126 (violin and piano)",1921,in-scope,,0,,,IMSLP: First Publication 1921
+Op.9,"Wish, Op.9 (violin and piano)",1895,in-scope,,0,,,"IMSLP: First Publication 1895 (Belaieff, Leipzig)"
+Op.6,"Symphony No.1 in B minor, Op.6",1905,in-scope,,0,,,"IMSLP: First Publication '1905 or earlier' (Monatsbericht 1905); on or before 1905, inside the window"
+Op.27,"Symphony No.2 in A major, 'Pastoral', Op.27",1910,in-scope,,0,,,IMSLP: First Publication 1910
+Op.100,"Symphony No.3 in E major, Op.100",,unverified-pub,n/a,0,,,"IMSLP: no work page found; composed 1923 (Wikipedia list); publication not verified, not imported"
+Op.102,"Symphony No.4 in C major, Op.102",,unverified-pub,n/a,0,,,"IMSLP: no work page found; composed 1927 (Wikipedia list); publication not verified, not imported"
+Op.153,"Symphony No.5 in G minor, Op.153",1936,excluded-post1930,n/a,0,,,"composed 1936 (Wikipedia list) (post-1930, excluded)"
+Op.81,"In modo antico, Op.81 (violin and orchestra)",1920,in-scope,,0,,,IMSLP: First Publication 1920
+Op.132,"Violin Concerto, Op.132",1932,excluded-post1930,n/a,0,,,"composed 1932 (Wikipedia list) (post-1930, excluded)"
+Op.8,"Cello Concerto, Op.8",,unverified-pub,n/a,0,,,"IMSLP: no work page found; composed 1895 (Wikipedia list); publication not verified, not imported"
+Op.22,"Dobrynya Nikitich (opera), Op.22",,unverified-pub,n/a,0,,,"IMSLP: composed 1895-1901, no First Publication field; not imported"
+Op.13,"Liturgy of St John Chrysostom No.1, Op.13 (mixed chorus)",1898,in-scope,,0,,,IMSLP: First Publication 1898
+Op.59,"All-Night Vigil, Op.59",,unverified-pub,n/a,0,,,IMSLP: no work page at the obvious URL; not imported

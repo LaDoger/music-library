@@ -17,7 +17,7 @@
  "recording_performer": "",
  "recording_license": "",
  "recording_quality": "",
- "legal_notes": "Composer died 1914: public domain. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #462481 (Polnoe Sobranie Sochinenii dlia Fortepiano, Vol.1 (pp.3-24) Moscow: Muzgiz, 1947 (1947); https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~98%, pitch ~94% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/lyadov_imslp462481_7.musicxml.",
+ "legal_notes": "Composer died 1914: public domain. OCR draft: optical music recognition (Audiveris 5.11) of the public-domain scan IMSLP #462481 (Polnoe Sobranie Sochinenii dlia Fortepiano, Vol.1 (pp.3-24) Moscow: Muzgiz, 1947 (1947); https://imslp.org/wiki/Birioulki,_Op.2_(Lyadov,_Anatoly)), corrected against the page images by an AI model. Bar count matches the scan, 0 wrong-length bars; model self-estimate rhythm ~98%, pitch ~94% (treat pitch claims as optimistic). MAY CONTAIN WRONG NOTES. Transcription released CC0. MusicXML: files/scores/lyadov_imslp462481_7.musicxml. No pre-rendered preview: the site plays the score MIDI with an in-browser General MIDI synth; no third-party recording.",
  "local_score_path": "files/scores/lyadov_imslp462481_7.mid",
  "local_audio_path": "",
  "preview_path": "",

@@ -1,0 +1,29 @@
+cat_no,title,publication_year,status,in_library,n_items,library_ids,sources,note
+Goyescas,Goyescas (piano suite),1912,in-scope,,0,,,"Unión Musical Española / Casa Dotesio, Barcelona 1912 (IMSLP); composed 1909-11. Opera (Schirmer 1915) not in checklist"
+Danzas,12 Danzas espanolas (Spanish Dances),1892,in-scope,yes,1,granados_granados_enrique_spanish_dan,pdmx,"J.B. Pujol, Barcelona 1892 (IMSLP); composed 1890. Op.37 Danzas 1-2 (UME ca.1915) covered here"
+Valses,8 Valses poeticos,1900,in-scope,yes,3,granados_valses_8_poetic_waltzes_7 granados_valses_8_poetic_waltzes_coda granados_s5_8_poetic_waltzes_5,pdmx,"Valses 1-4 1894, complete 1900 (IMSLP); UME Madrid 1900"
+Escenas romanticas,Escenas romanticas Op.10,1906,in-scope,,0,,,"UME / Casa Dotesio, Barcelona ca.1906 (IMSLP plate 20125)"
+Allegro de concierto,Allegro de concierto Op.46,1905,in-scope,,0,,,UME ca.1905 (IMSLP); composed 1903
+Capricho,Capricho espanol Op.39,1915,in-scope,,0,,,UME ca.1915 (IMSLP)
+Valse de concert,Valse de concert Op.35,1914,in-scope,,0,,,"G. Schirmer, New York 1914 (IMSLP)"
+Paisaje,Paisaje Op.35,1913,in-scope,,0,,,UME ca.1913 (IMSLP)
+Carezza,Carezza Op.38 (valse),1891,in-scope,,0,,,"J.B. Pujol, Barcelona ca.1891 (IMSLP plate P.8 C)"
+A la cubana,A la cubana Op.36,1914,in-scope,,0,,,"G. Schirmer 1914 (4 pieces, IMSLP); UME ca.1915"
+Dante,Dante Op.21 (symphonic poem),1915,in-scope,,0,,,"G. Schirmer, New York 1915 (IMSLP); composed 1908"
+Piano Quintet,Piano Quintet in G minor Op.49,1973,in-scope,,0,,,"UME, Madrid 1973 (IMSLP first publication); composed 1894-95"
+Madrigal,Madrigal for cello and piano,1945,in-scope,,0,,,"Editio Musica Budapest 1945 (IMSLP, marked '?'); composed 1915"
+Tonadillas,12 Tonadillas en estilo antiguo,1915,in-scope,,0,,,UME ca.1915 (IMSLP); composed 1914
+Canciones amatorias,Canciones amatorias (songs),1916,in-scope,,0,,,G. Schirmer 1916 (IMSLP)
+Bocetos,Bocetos (sketches),1918,in-scope,,0,,,UME 1918 (IMSLP); composed 1912-13
+Escenas poeticas,Escenas poeticas,1912,in-scope,,0,,,UME / Casa Dotesio 1912 (IMSLP)
+Jardi,El jardi d'Elisenda,1913,in-scope,,0,,,UME / Casa Dotesio 1913 (IMSLP plate 20329); composed 1912
+Paises sonados,Paises sonados (Palacio encantado en el mar),1918,in-scope,,0,,,UME 1918 (IMSLP plate 20417)
+Elegia eterna,Elegia eterna,1916,in-scope,,0,,,UME 1916 (IMSLP plate 20345); composed 1914
+Cuentos,Cuentos de la juventud Op.1,1910,in-scope,,0,,,"IMSLP first publication 1910; easy pieces, Op.1"
+Folksongs,6 Pieces on Spanish Folksongs,1900,in-scope,,0,,,UME / Casa Dotesio ca.1900 (IMSLP); Salabert 1924
+Moresque,Moresque y cancion arabe,,unverified-pub,n/a,0,,,"Year not on the IMSLP page (Casa Dotesio, n.d.): not imported until verified"
+Playera,Playera,,unverified-pub,n/a,0,,,Year not on the IMSLP page: not imported until verified
+Rapsodia,Rapsodia aragonesa,,unverified-pub,n/a,0,,,"Vidal Llimona y Boceta, n.d.; year not confirmed"
+Pelele,El pelele (Escena goyesca),,unverified-pub,n/a,0,,,Composed 1913; publication year not confirmed
+Marchas,2 Marchas militares / Marche militaire Op.38,,unverified-pub,n/a,0,,,Publisher n.d. (UME; Schirmer); year not confirmed
+Maria del Carmen,"Maria del Carmen (zarzuela, intermezzo)",,unverified-pub,n/a,0,,,"Opera/zarzuela, not checked for a piano or orchestral publication"
