@@ -17,3 +17,5 @@ Live URL: https://ladoger.github.io/music-library/ . Before push, 37 live URLs r
 Token/quota note: Codex primary with Python/Node scripts only; exact token totals and weekly quota are not exposed, so no percentage inferred. No model rate limit encountered. No additional model jobs.
 
 Resume: obtain human-fetched, source-verified clean editable complete-set files in tier order; review accuracy and completeness before import. Do not recreate quality-trimmed entries, import include-only Mutopia directories, or treat single movements as full sets. Local scan logs and baseline batch are retained in the isolated worktree for reproducibility.
+
+Post-push verification: published commit **0ee0cd55**, Pages deployment **38358826545**, succeeded. **39 live URLs** returned HTTP 200, with **15 valid MIDI headers**. Live/local item-id sets match (5,925 works / 237 composers); the two corrected item JSON records match local data exactly. The push encountered a concurrent matching nightly commit; reconciled by fast-forward/rebase without force, preserving the published audit wording.
