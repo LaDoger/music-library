@@ -12937,7 +12937,6 @@
    "files/scores/bach_bwv999_prelude.ly",
    "files/scores/bach_bwv999_prelude.mid",
    "files/scores/bach_bwv999_prelude_fromly.mxl",
-   "files/scores/bach_bwv999_prelude_in_d_minorb51.mid",
    "files/scores/bach_bwv999_prelude_in_d_minorb51_reconstructed.mxl"
   ],
   "mood_tags_list": [
@@ -187494,8 +187493,7 @@
   "preview_url": "",
   "score_url": "files/scores/holst_op_32_mars.mid",
   "score_files": [
-   "files/scores/holst_op_32_mars.mid",
-   "files/scores/holst_op_32_mars_bringer_of_warb51.mid"
+   "files/scores/holst_op_32_mars.mid"
   ],
   "mood_tags_list": [
    "classical",
