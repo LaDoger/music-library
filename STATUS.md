@@ -262,3 +262,9 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 | CP-NIGHTLY-2026-10-13-START | 2026-10-13 | Nightly depth run started at origin/main 0e215c85 in isolated worktree; main dirty edits preserved. Rank-1 gaps then complete piano sets; licence gate, no previews, own PIDs only. | Codex; token/quota unavailable |
 
 | CP-NIGHTLY-2026-10-13-END | 2026-10-13 | Nightly completed to source/quality gate. Added 0 works / 0 composers; completed 0 sets. 5,925 works / 237 composers retained; two broken alternate-score links removed. US/signature/piano scans refreshed; 13 piano metadata matches, three recovered MIDI candidates remain unpublished pending score comparison. Build/catalog/licence (0 violations), UI/player, brand/diff and unchanged-ID/edition checks PASS. Pages 0ee0cd55 / run 38358826545 succeeded; 39 live URLs / 15 MIDI headers verified. Report parts/NIGHTLY_REPORT_2026-10-13.md. Main dirty work preserved; no processes killed. | Codex + scripts; token/quota unavailable |
+
+## CP-NIGHTLY-2026-10-17-START
+- Started 2026-10-17; isolated worktree from origin/main 90effda2; shared checkout has unrelated dirty work and divergent commits, preserved.
+- Done: read bot rules, checkpoint protocol, nightly brief and previous report. Next: investigate genuinely new clean sources for rank-1 gaps and complete piano sets; no IMSLP captcha retries or unreviewed MIDI imports.
+- Model: GPT-6.1 Sol, low effort; no agents/harnesses per user. No paid media; exact session token/cost unavailable. Usage helper pending. Disk 81%.
+- Git: starting checkpoint to be committed/pushed; report parts/NIGHTLY_REPORT_2026-10-17.md.
