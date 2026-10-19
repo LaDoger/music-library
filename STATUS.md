@@ -274,3 +274,10 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 - Read rules, nightly brief, October 15 report/resume and source audit. Investigating alternate legitimate sources, Debussy/Ravel first; no captcha bypass, subagents, previews or unreviewed imports.
 - Model: Codex (session model identifier unavailable), default effort; no other harness. Tokens/cost unavailable; no paid generations or Argon. Disk 72%.
 - Next: verify alternative source licences and coverage, then report and verify live. START checkpoint committed/pushed to nightly branch.
+
+## CP-NIGHTLY-2026-10-19-END
+- Done: alternate-source audit, Debussy/Ravel first; 0 works, 0 composers, 0 sets added. Existing 5,925 works / 237 composers retained. Source decisions: docs/nightly/SOURCE_AUDIT_2026-10-19.md; report: parts/NIGHTLY_REPORT_2026-10-19.md.
+- Checks: catalog 5,925 PASS; licence 5,590 bulk rows / 0 violations; UI stress + player PASS. Five live endpoints HTTP 200; baseline Pages 39001224537 successful. No data rebuild for documentation-only change. Main checkout and other jobs untouched; no processes killed.
+- Models: Codex default effort; helper reports gpt-6.1-sol. No other model/harness/subagent, Argon or media review; fps/resolution not applicable. Exact job tokens/cost unavailable; no paid generation spend ($0). Usage snapshot primary 25%; START disk 72%.
+- Git: START 9095eaea pushed to nightly-20261019; END/report/audit to be committed and pushed to main from this isolated worktree. Post-push Pages check follows.
+- Next/resume: see source audit; use complete editable scores with accessible edition-specific licences, avoid duplicating active correction jobs, and retain forbidden CPDL/IMSLP gates. Live https://ladoger.github.io/music-library/ .
