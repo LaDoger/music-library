@@ -268,3 +268,9 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 - Done: read bot rules, checkpoint protocol, nightly brief and previous report. Next: investigate genuinely new clean sources for rank-1 gaps and complete piano sets; no IMSLP captcha retries or unreviewed MIDI imports.
 - Model: GPT-6.1 Sol, low effort; no agents/harnesses per user. No paid media; exact session token/cost unavailable. Usage helper pending. Disk 81%.
 - Git: starting checkpoint to be committed/pushed; report parts/NIGHTLY_REPORT_2026-10-17.md.
+
+## CP-NIGHTLY-2026-10-19-START
+- Isolated worktree /workspace/music/lib_nightly_20261019 from origin/main 6c0f9bc3; main checkout and OMR jobs untouched.
+- Read rules, nightly brief, October 15 report/resume and source audit. Investigating alternate legitimate sources, Debussy/Ravel first; no captcha bypass, subagents, previews or unreviewed imports.
+- Model: Codex (session model identifier unavailable), default effort; no other harness. Tokens/cost unavailable; no paid generations or Argon. Disk 72%.
+- Next: verify alternative source licences and coverage, then report and verify live. START checkpoint committed/pushed to nightly branch.
