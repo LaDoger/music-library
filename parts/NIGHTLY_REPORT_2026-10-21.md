@@ -15,3 +15,5 @@ Live URL: https://ladoger.github.io/music-library/ . Homepage, manifest, catalog
 Models/effort: Codex, default effort; usage helper identifies gpt-6.1-sol, with exact session model not separately exposed. No other model/harness, paid generation or audio/video review. Argon fps/resolution/tokens/cost: not applicable. Additional spend: $0. Exact job token/cost totals unavailable; usage helper reports machine-wide figures, not this job. Codex primary usage snapshot: 24%; disk 78% at START.
 
 Next: complete existing source-verified rank-1 correction jobs, then import reviewed complete editable sets. Existing recovered sonata MIDIs still require independent score comparison. All research scratch and the isolated worktree are removed after publication; no processes were killed.
+
+Post-push verification: d8f4be65 on main, Pages run 39563981784 succeeded; live catalogue HTTP 200 (5,925 works) and this report HTTP 200 with completed piano-scan result. Own research scratch removed; temporary worktree/branches cleaned after final documentation push.
