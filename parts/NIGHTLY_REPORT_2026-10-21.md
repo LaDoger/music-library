@@ -4,7 +4,7 @@ Works added: **0**. Composers added: **0**. Sets completed: **0**. Published cat
 
 Read /workspace/tools/BRIEF_TEMPLATE.md, the nightly brief, October 15 report, and newer October 19 audit. Worked in isolated /workspace/music/lib_nightly_20261021 from origin/main f50239ff. The divergent main checkout and its unpublished scores/cataloguing work remained untouched.
 
-US-only and signature dry runs repeated the October 13 candidates; no additions cleared review. The piano-set dry run was stopped by exact owned PID 2252410 after over 19 minutes without producing a plan; it is incomplete, not a passed scan.
+US-only and signature dry runs repeated the October 13 candidates; no additions cleared review. The piano-set dry run completed successfully with the same 13 metadata-slot matches reviewed on October 13. Unfinished sonatas, quality-trim exclusions, existing editions and unreviewed whole-sonata encodings remain uncleared. A late SIGTERM attempt found the process already exited; no process was killed.
 
 No candidate passed both the source-licence and complete-set quality gates. Fresh rank-1 piano-set research found scan-only Miroirs sources and NC-licensed editable Estampes. Evidence and resume: [source audit](../docs/nightly/SOURCE_AUDIT_2026-10-21.md). No new approvals, excluded works, guessed licences, SA/NC/ND imports, captcha bypasses or MP3 previews.
 
@@ -14,4 +14,4 @@ Live URL: https://ladoger.github.io/music-library/ . Homepage, manifest, catalog
 
 Models/effort: Codex, default effort; usage helper identifies gpt-6.1-sol, with exact session model not separately exposed. No other model/harness, paid generation or audio/video review. Argon fps/resolution/tokens/cost: not applicable. Additional spend: $0. Exact job token/cost totals unavailable; usage helper reports machine-wide figures, not this job. Codex primary usage snapshot: 24%; disk 78% at START.
 
-Next: complete existing source-verified rank-1 correction jobs, then import reviewed complete editable sets. Existing recovered sonata MIDIs still require independent score comparison. All research scratch and the isolated worktree are removed after publication; only the owned piano-scan PID was stopped.
+Next: complete existing source-verified rank-1 correction jobs, then import reviewed complete editable sets. Existing recovered sonata MIDIs still require independent score comparison. All research scratch and the isolated worktree are removed after publication; no processes were killed.
