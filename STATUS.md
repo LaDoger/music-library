@@ -281,3 +281,5 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 - Models: Codex default effort; helper reports gpt-6.1-sol. No other model/harness/subagent, Argon or media review; fps/resolution not applicable. Exact job tokens/cost unavailable; no paid generation spend ($0). Usage snapshot primary 25%; START disk 72%.
 - Git: START 9095eaea pushed to nightly-20261019; END/report/audit to be committed and pushed to main from this isolated worktree. Post-push Pages check follows.
 - Next/resume: see source audit; use complete editable scores with accessible edition-specific licences, avoid duplicating active correction jobs, and retain forbidden CPDL/IMSLP gates. Live https://ladoger.github.io/music-library/ .
+
+| CP-NIGHTLY-2026-10-21-START | 2026-10-21 | Spare-quota run started in isolated worktree from origin/main f50239ff; resume October 15 and newer source audits. Rank-1 gaps then complete piano sets; source licence gate, no previews. Main diverged with unrelated work and is preserved. Next: inspect current source state, run eligible importers and required checks, publish report. | Codex default effort; tokens/cost unavailable |
