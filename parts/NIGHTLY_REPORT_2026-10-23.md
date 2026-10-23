@@ -17,3 +17,5 @@ Models: Codex coordinator (session model/effort and exact token/cost totals not 
 Git: isolated branch from origin/main `720417bd`; only this report and STATUS checkpoint intended for publication. Main checkout preserved. Raw logs remain outside git.
 
 Final validation: committed-snapshot bulk rebuild PASS (5,590 rows; zero additional duplicates); site sync check and catalogue check PASS (5,925 works / 237 composers); bulk licence audit PASS (zero violations); UI PASS (11,850-row fixture); player PASS including live MIDI. Snapshot rebuild omits historical alternate editions, so that generated file was restored; catalogue inputs and generated data remain unchanged. Changed-report brand/secret and diff checks PASS. Final quota snapshot 2%, disk 77%.
+
+Publication verified: e0a222bd pushed to origin/main; Pages run 39919495670 succeeded. Live report, homepage, manifest and catalogue HTTP 200; 5,925 works / 237 composers retained; sampled Debussy MIDI returned MThd. Verification-only follow-up commit records this result.
