@@ -304,3 +304,9 @@ Resume: the local pools are exhausted for these sets. Next step is an IMSLP per-
 Final validation: committed-snapshot bulk rebuild PASS (5,590 rows; zero additional duplicates); site sync check and catalogue check PASS (5,925 works / 237 composers); bulk licence audit PASS (zero violations); UI PASS (11,850-row fixture); player PASS including live MIDI. Snapshot rebuild omits historical alternate editions, so that generated file was restored; catalogue inputs and generated data remain unchanged. Changed-report brand/secret and diff checks PASS. Final quota snapshot 2%, disk 77%.
 
 Publication verified: e0a222bd pushed to origin/main; Pages run 39919495670 succeeded. Live report, homepage, manifest and catalogue HTTP 200; 5,925 works / 237 composers retained; sampled Debussy MIDI returned MThd. Verification-only follow-up commit records this result.
+
+
+## CP-NIGHTLY-2026-10-24-START
+- Started isolated from origin/main 70931063; original dirty/divergent checkout and concurrent jobs preserved. Read required rules/brief. Resume rank-1 complete-set leads before broader scans; source licence and quality gates apply; no MP3 previews.
+- Models: Codex coordinator default effort; Haiku default effort planned for routine audits/checks, one hop. Exact coordinator tokens/cost unavailable. No Argon/media generation. Quota 22%, disk 76%.
+- Next: inspect changed correction verdicts and accessible complete-set sources; import only cleared sets, rebuild/check, push and verify live.
