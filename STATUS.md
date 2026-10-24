@@ -317,3 +317,5 @@ Publication verified: e0a222bd pushed to origin/main; Pages run 39919495670 succ
 - Models: Codex default coordinator, exact tokens/cost unavailable; Haiku 5.5 normal (medium CLI), one hop, 54 input / 64,207 cache-write / 1,509,781 cache-read / 17,389 output incl 5,668 thinking; $0.04005861 reported. Spend 2026-10-24 Claude audit/checks $0.04005861. No media generation; Argon fps/resolution/tokens/cost N/A.
 - Git: START a8dc06bc pushed; END/report ready to push and verify deployment. Report parts/NIGHTLY_REPORT_2026-10-24.md; live https://ladoger.github.io/music-library/ .
 - Next: source-compare Épigraphes 5 bar 26, regenerate and independently verify entire set; human-fetch Images I #11443, convert/review three pieces. No guessed PASS.
+
+Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. Live report, homepage, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own temporary snapshot removed; isolated worktree removed after this verification commit.

@@ -15,3 +15,5 @@ Models: Codex coordinator, default effort, exact job tokens/cost unavailable; Cl
 Next: correct Épigraphes piece 5 bar 26 against its source and independently verify the full six-piece set; obtain Images I #11443 normally and compare all three converted pieces before import. Publish only after source licence, quality and complete-set gates pass.
 
 Publication and live deployment verification follow below.
+
+Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. Live report, homepage, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own temporary snapshot removed; isolated worktree removed after this verification commit.
