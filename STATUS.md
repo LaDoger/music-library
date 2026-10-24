@@ -310,3 +310,10 @@ Publication verified: e0a222bd pushed to origin/main; Pages run 39919495670 succ
 - Started isolated from origin/main 70931063; original dirty/divergent checkout and concurrent jobs preserved. Read required rules/brief. Resume rank-1 complete-set leads before broader scans; source licence and quality gates apply; no MP3 previews.
 - Models: Codex coordinator default effort; Haiku default effort planned for routine audits/checks, one hop. Exact coordinator tokens/cost unavailable. No Argon/media generation. Quota 22%, disk 76%.
 - Next: inspect changed correction verdicts and accessible complete-set sources; import only cleared sets, rebuild/check, push and verify live.
+
+## CP-NIGHTLY-2026-10-24-END
+- Done: 0 works/composers/complete sets added; retained 5,925 works / 237 composers. Épigraphes piece 5 remains FAIL; Images I #11443 CC BY source lead still needs human fetch and three-piece review. No imports/previews/approvals or process kills. Other jobs and original checkout preserved.
+- Checks: committed-snapshot bulk gate/dedupe check PASS (5,590 rows, zero extra duplicates); sync/catalogue, licence (zero violations), UI/player, brand/secret/diff PASS. Initial empty-input rebuild restored. Disk 76%, initial quota 22%.
+- Models: Codex default coordinator, exact tokens/cost unavailable; Haiku 5.5 normal (medium CLI), one hop, 54 input / 64,207 cache-write / 1,509,781 cache-read / 17,389 output incl 5,668 thinking; $0.04005861 reported. Spend 2026-10-24 Claude audit/checks $0.04005861. No media generation; Argon fps/resolution/tokens/cost N/A.
+- Git: START a8dc06bc pushed; END/report ready to push and verify deployment. Report parts/NIGHTLY_REPORT_2026-10-24.md; live https://ladoger.github.io/music-library/ .
+- Next: source-compare Épigraphes 5 bar 26, regenerate and independently verify entire set; human-fetch Images I #11443, convert/review three pieces. No guessed PASS.
