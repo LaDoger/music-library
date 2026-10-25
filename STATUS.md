@@ -324,3 +324,9 @@ Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. 
 - Isolated worktree from origin/main 350345f8; shared dirty checkout, OMR and props preserved. Disk 85%. Required rules and previous report read. No other models/harnesses permitted for this run.
 - Next: investigate a different rank-1 complete-set lead (Satie Sarabandes), source licence and completeness gates, rebuild/check, publish and verify live. Do not repeat October 24 blocked leads.
 - Model: Codex default effort; exact tokens/cost unavailable. No paid generations or Argon (fps/resolution/tokens/cost N/A).
+
+## CP-NIGHTLY-2026-10-25-END
+- Done: 0 works/composers/complete sets added; retained 5,925 works / 237 composers. Different rank-1 lead Satie Three Sarabandes audited on two source pages: complete PD piano PDF confirmed, no complete editable set established. No October 24 blocked leads repeated. Evidence docs/nightly/SOURCE_AUDIT_2026-10-25.md; report parts/NIGHTLY_REPORT_2026-10-25.md.
+- Checks: committed-snapshot bulk gate/dedupe 5,590 rows / zero extra duplicates; sync/catalogue; licence zero violations; UI and live MIDI player; public-document brand/secret and diff checks PASS. Data unchanged; own snapshot removed. Disk 85%. Shared checkout and concurrent jobs preserved; no process kills.
+- Model: Codex default effort only, no other models/harnesses; exact tokens/cost unavailable, additional paid generation/API spend $0. Argon fps/resolution/tokens/cost N/A. Usage local snapshot 33% used.
+- Git: START 054c1b16 pushed; END/report ready for push and live verification. Live https://ladoger.github.io/music-library/ . Next: obtain and convert all three Sarabandes piano pieces, compare against source, require all-PASS before import.
