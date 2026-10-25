@@ -319,3 +319,8 @@ Publication verified: e0a222bd pushed to origin/main; Pages run 39919495670 succ
 - Next: source-compare Épigraphes 5 bar 26, regenerate and independently verify entire set; human-fetch Images I #11443, convert/review three pieces. No guessed PASS.
 
 Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. Live report, homepage, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own temporary snapshot removed; isolated worktree removed after this verification commit.
+
+## CP-NIGHTLY-2026-10-25-START
+- Isolated worktree from origin/main 350345f8; shared dirty checkout, OMR and props preserved. Disk 85%. Required rules and previous report read. No other models/harnesses permitted for this run.
+- Next: investigate a different rank-1 complete-set lead (Satie Sarabandes), source licence and completeness gates, rebuild/check, publish and verify live. Do not repeat October 24 blocked leads.
+- Model: Codex default effort; exact tokens/cost unavailable. No paid generations or Argon (fps/resolution/tokens/cost N/A).
