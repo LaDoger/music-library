@@ -13,3 +13,5 @@ Next: normally obtain the complete PD Sarabandes piano scan, convert all three p
 Validation and publication results follow below.
 
 Validation: committed-snapshot bulk gate/dedupe check PASS (5,590 rows, zero additional duplicates); sync and catalogue check PASS (5,925 items); independent bulk licence audit PASS (zero violations); UI PASS (11,850-row fixture), player PASS including live MIDI. Generated tracked data unchanged. New public documents brand/secret scan and git diff check PASS. Temporary batch snapshot removed.
+
+Publication verified: 70cdeb5a pushed to main; Pages run 40164567309 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own isolated worktree and temporary dependency directory removed after recording verification.

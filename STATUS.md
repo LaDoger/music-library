@@ -330,3 +330,5 @@ Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. 
 - Checks: committed-snapshot bulk gate/dedupe 5,590 rows / zero extra duplicates; sync/catalogue; licence zero violations; UI and live MIDI player; public-document brand/secret and diff checks PASS. Data unchanged; own snapshot removed. Disk 85%. Shared checkout and concurrent jobs preserved; no process kills.
 - Model: Codex default effort only, no other models/harnesses; exact tokens/cost unavailable, additional paid generation/API spend $0. Argon fps/resolution/tokens/cost N/A. Usage local snapshot 33% used.
 - Git: START 054c1b16 pushed; END/report ready for push and live verification. Live https://ladoger.github.io/music-library/ . Next: obtain and convert all three Sarabandes piano pieces, compare against source, require all-PASS before import.
+
+Publication verified: 70cdeb5a pushed to main; Pages run 40164567309 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own isolated worktree and temporary dependency directory removed after recording verification.
