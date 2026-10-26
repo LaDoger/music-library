@@ -337,3 +337,10 @@ Publication verified: 70cdeb5a pushed to main; Pages run 40164567309 succeeded. 
 - Read template, rules, October 24 report and newer October 25 report. Isolated worktree from origin/main a1e866e7; concurrent checkout and OMR untouched. Resume complete rank-1 piano-set leads; do not repeat unchanged scans or import uncleared sets.
 - Next: inspect changed Épigraphes verdicts read-only, advance Sarabandes normal-source lead, then rebuild/licence/dedupe/UI/player checks, publish and verify live.
 - Models: Codex coordinator default effort; Claude Haiku normal effort for routine audit/checks, one hop, no nested models. Coordinator tokens/cost unavailable; no media generation, Argon N/A. Disk 87%.
+
+## CP-NIGHTLY-2026-10-26-END
+- Done: 0 works/composers/sets added; catalogue 5,925 works / 237 composers retained. Sarabandes normal fetch blocked by verification interstitial; Épigraphes piece 5 still FAIL and cited REPORT/VERDICTS absent. No unchecked imports, previews, source downloads, new approvals or process kills; concurrent jobs untouched.
+- Checks: bulk build/check via committed snapshot 5,590 rows and 0 extra duplicates; restored editions map after snapshot rebuild, sync/catalogue/licence (0 violations)/UI/player/brand/secret/diff PASS. Tracked catalogue/data unchanged; own temporary snapshot removed. Disk 87%; initial quota 11% used.
+- Models: Codex coordinator default effort; exact job tokens/cost unavailable. Haiku 5.5 normal (medium CLI), one hop: 60 input / 158,297 cache-write / 2,108,393 cache-read / 22,383 output incl 8,232 thinking. Spend 2026-10-26 Claude audit/checks $0.06394083 reported; known subtotal same, no media generation. Argon fps/resolution/tokens/cost N/A.
+- Git: START 22a63b1b pushed; END/source audit/report ready for publication and live checks. Report parts/NIGHTLY_REPORT_2026-10-26.md.
+- Next: normally obtain Sarabandes complete scan (record URL/hash/pages), convert and verify three pieces separately; correct Épigraphes 5 bar 26 and recover/regenerate independent full-set verdicts. Images I #11443 still pending normal fetch/review. Each set requires its own licence and all-PASS gate.
