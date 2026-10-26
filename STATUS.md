@@ -332,3 +332,8 @@ Publication verified: 36c929cc pushed to main; Pages run 40067186635 succeeded. 
 - Git: START 054c1b16 pushed; END/report ready for push and live verification. Live https://ladoger.github.io/music-library/ . Next: obtain and convert all three Sarabandes piano pieces, compare against source, require all-PASS before import.
 
 Publication verified: 70cdeb5a pushed to main; Pages run 40164567309 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Own isolated worktree and temporary dependency directory removed after recording verification.
+
+## CP-NIGHTLY-2026-10-26-START
+- Read template, rules, October 24 report and newer October 25 report. Isolated worktree from origin/main a1e866e7; concurrent checkout and OMR untouched. Resume complete rank-1 piano-set leads; do not repeat unchanged scans or import uncleared sets.
+- Next: inspect changed Épigraphes verdicts read-only, advance Sarabandes normal-source lead, then rebuild/licence/dedupe/UI/player checks, publish and verify live.
+- Models: Codex coordinator default effort; Claude Haiku normal effort for routine audit/checks, one hop, no nested models. Coordinator tokens/cost unavailable; no media generation, Argon N/A. Disk 87%.
