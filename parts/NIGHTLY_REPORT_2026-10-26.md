@@ -13,3 +13,5 @@ Models: Codex coordinator, default effort; exact job tokens/cost unavailable. Cl
 Next: obtain the complete PD Sarabandes piano scan normally, record URL/hash/page count, then convert and verify all three pieces in a separate job. Resolve Épigraphes 5 bar 26 and recover/regenerate independent full-set REPORT/VERDICTS without disturbing active jobs. Images I #11443 remains a pending normal-fetch and three-piece conversion/review lead. Publish each set only after its own licence and complete-set gates pass.
 
 Publication verification pending below.
+
+Publication verified: 9c978f59 on main; Pages run 40283263124 succeeded. Live homepage, October 26 report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Concurrent publication contained the same audit/report and was preserved; duplicate local commit dropped. Own worktree and dependency scratch scheduled for removal after this verification commit.
