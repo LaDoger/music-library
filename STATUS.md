@@ -353,3 +353,14 @@ Publication verified: 9c978f59 on main; Pages run 40283263124 succeeded. Live ho
 - Disk 89.19% used at START (df shows 90% rounded); below the 90% gate. Any download re-checks df first.
 - Models: Haiku 5.5 normal effort, one hop, no nested models/Argon. No media generation, no score conversion, no audio/rendering, no MP3 previews.
 - Next: source checks, bulk/sync/licence/UI/player checks via temporary committed snapshot, SOURCE_AUDIT_2026-10-27.md, NIGHTLY_REPORT_2026-10-27.md draft (no final commit/push of report; coordinator publishes).
+
+## CP-NIGHTLY-2026-10-27-END
+- Done: 0 works/composers/complete sets added; retained 5,925 works / 237 composers. Épigraphes correction evidence re-read read-only: piece 5 still FAIL (bar 26); REPORT/VERDICTS still absent (corrected/ holds only .finished3). Sarabandes IMSLP page re-fetched unchanged (complete PD piano scan, no editable file); free-scores still anti-bot interstitial, not bypassed. Images I #11443 still CC BY 3.0 Sibelius, human-gated, not fetched. No imports, previews, conversions, renders, approvals or process kills.
+- Checks: bulk --check via temporary committed snapshot 5,590 rows, 0 duplicates (snapshot removed; ignored parts/DEDUPE_* regenerated); sync and catalogue check 5,925 items, tracked data unchanged; licence audit 5,590 rows, 0 violations; UI PASS (11,850-row fixture) and player PASS incl. live MIDI using an existing playwright install (no npm install); brand/secret scan of new docs PASS.
+- Models: Claude Haiku 5.5 normal effort, one hop, no nested models, no Argon, no paid media. Exact token/cost figures not recorded in this session; coordinator to add accounting.
+- Disk: 89.19% used at START and before checks (df shows 90% rounded); no downloads performed.
+- Git: START d46ba154 pushed to main. Docs/report left uncommitted for coordinator review: docs/nightly/SOURCE_AUDIT_2026-10-27.md, parts/NIGHTLY_REPORT_2026-10-27.md (parts/* is git-ignored; force-add like earlier reports), STATUS.md END block. Raw logs in /tmp/nightly_20261027_logs (outside git).
+- Next: coordinator review, accounting, commit/push, live verification. Sarabandes complete scan, Épigraphes piece 5 bar 26 and Images I #11443 remain blocked on normal/human fetch and conversion.
+
+Models: Codex coordinator, default effort; exact coordinator tokens/cost unavailable. Claude Haiku 5.5 routine audit/checks, normal effort (medium CLI), one hop: 68 input, 151,463 cache-write, 2,246,543 cache-read, 26,173 output tokens including 12,201 thinking. Reported cost $0.06585133; known subtotal $0.06585133. Spend 2026-10-27: Claude audit/checks $0.06585133. No paid media generation; Argon fps/resolution/tokens/cost N/A.
+- Final bulk write run repeated with the committed snapshot; restored the committed alternate-edition map and ran sync/catalogue again. Publication verification pending.
