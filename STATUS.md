@@ -346,3 +346,10 @@ Publication verified: 70cdeb5a pushed to main; Pages run 40164567309 succeeded. 
 - Next: normally obtain Sarabandes complete scan (record URL/hash/pages), convert and verify three pieces separately; correct Épigraphes 5 bar 26 and recover/regenerate independent full-set verdicts. Images I #11443 still pending normal fetch/review. Each set requires its own licence and all-PASS gate.
 
 Publication verified: 9c978f59 on main; Pages run 40283263124 succeeded. Live homepage, October 26 report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; sampled Debussy MIDI MThd PASS. Concurrent publication contained the same audit/report and was preserved; duplicate local commit dropped. Own worktree and dependency scratch scheduled for removal after this verification commit.
+
+## CP-NIGHTLY-2026-10-27-START
+- Isolated worktree at origin/main 9f577d4e (fetched; no rebase needed). Read BOT_RULES, NIGHTLY_BULK brief, Oct 24-26 reports and audits. Original /workspace/music/library dirty checkout, OMR and other jobs preserved; read-only inspection only.
+- Resume leads: Épigraphes correction evidence (read-only in /workspace/music/tools/omr/out/imp_epigraphes and logs_correct_imp_epigraphes.log); one normal page fetch each for Satie Sarabandes and Debussy Images I #11443 (no captcha bypass, no scripted IMSLP file download). No broad scans.
+- Disk 89.19% used at START (df shows 90% rounded); below the 90% gate. Any download re-checks df first.
+- Models: Haiku 5.5 normal effort, one hop, no nested models/Argon. No media generation, no score conversion, no audio/rendering, no MP3 previews.
+- Next: source checks, bulk/sync/licence/UI/player checks via temporary committed snapshot, SOURCE_AUDIT_2026-10-27.md, NIGHTLY_REPORT_2026-10-27.md draft (no final commit/push of report; coordinator publishes).
