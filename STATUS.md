@@ -364,3 +364,5 @@ Publication verified: 9c978f59 on main; Pages run 40283263124 succeeded. Live ho
 
 Models: Codex coordinator, default effort; exact coordinator tokens/cost unavailable. Claude Haiku 5.5 routine audit/checks, normal effort (medium CLI), one hop: 68 input, 151,463 cache-write, 2,246,543 cache-read, 26,173 output tokens including 12,201 thinking. Reported cost $0.06585133; known subtotal $0.06585133. Spend 2026-10-27: Claude audit/checks $0.06585133. No paid media generation; Argon fps/resolution/tokens/cost N/A.
 - Final bulk write run repeated with the committed snapshot; restored the committed alternate-edition map and ran sync/catalogue again. Publication verification pending.
+
+Publication verified: 2b450047 pushed to main; Pages run 40466923157 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; Debussy Arabesque 1 MIDI MThd PASS. Initial network timeout resolved by IPv4 retry. Own isolated worktree removed after this verification commit; original dirty checkout preserved.

@@ -12,4 +12,4 @@ Models: Codex coordinator, default effort; exact coordinator tokens/cost unavail
 
 Next: obtain the complete PD Sarabandes piano scan through a normal route and record its URL, hash and page count. Resolve Épigraphes piece 5 (bar 26) and recover the full-set REPORT and VERDICTS before any import. Obtain Images I #11443 through a human fetch, then convert and compare all three pieces. Publish each set only after its own licence and complete-set gates pass.
 
-Publication verification pending.
+Publication verified: 2b450047 pushed to main; Pages run 40466923157 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; Debussy Arabesque 1 MIDI MThd PASS. Initial network timeout resolved by IPv4 retry. Own isolated worktree removed after this verification commit; original dirty checkout preserved.
