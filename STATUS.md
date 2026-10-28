@@ -366,3 +366,9 @@ Models: Codex coordinator, default effort; exact coordinator tokens/cost unavail
 - Final bulk write run repeated with the committed snapshot; restored the committed alternate-edition map and ran sync/catalogue again. Publication verification pending.
 
 Publication verified: 2b450047 pushed to main; Pages run 40466923157 succeeded. Live homepage, report, source audit, index manifest and catalogue HTTP 200; 5,925 works retained; Debussy Arabesque 1 MIDI MThd PASS. Initial network timeout resolved by IPv4 retry. Own isolated worktree removed after this verification commit; original dirty checkout preserved.
+
+## CP-NIGHTLY-2026-10-28-START
+- Read required rules, nightly brief and October 24/27 reports. Isolated worktree from origin/main d51657b4; original dirty checkout and concurrent correction jobs preserved.
+- Disk initially 89.6%, after worktree approximately 89.9%; no score downloads planned while close to gate. Resume existing rank-1 complete-set verdicts and validate retained catalogue; no previews or inferred approvals.
+- Models: Codex coordinator default effort, exact tokens/cost unavailable; Claude Haiku normal effort for routine read-only audit/checks, one hop. No media generation; Argon metrics N/A.
+- Next: inspect existing verdict evidence, run build/licence/UI/player checks, publish report and verify live.
