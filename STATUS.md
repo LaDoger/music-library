@@ -1,3 +1,5 @@
+PAUSED_DISK — 2026-10-28: root reached 91% after checks/publication; further work stopped.
+
 # Music library — STATUS
 
 Updated: 2026-10-10 11:20 Europe/Warsaw (CEST)
@@ -379,3 +381,5 @@ Publication verified: 2b450047 pushed to main; Pages run 40466923157 succeeded. 
 - Models: Codex default coordinator, exact tokens/cost unavailable; Claude Haiku 5.5 normal/medium CLI, one hop; 46 input / 47,236 cache-write / 987,068 cache-read / 13,967 output incl 5,637 thinking; reported $0.02630598. Spend 2026-10-28: Claude audit/checks $0.02630598. Argon fps/resolution/tokens/cost N/A; no media generation.
 - Git: START ded8736c pushed; END/report prepared for push and live verification. Report parts/NIGHTLY_REPORT_2026-10-28.md; live https://ladoger.github.io/music-library/ .
 - Next: wait for all-PASS complete-set evidence on existing corrections; resolve Épigraphes bar 26; normal human fetch of Sarabandes scan and Images I #11443. Re-check disk before downloads. Remove own worktree/dependencies after verified push.
+
+CP-NIGHTLY-2026-10-28 disk stop: report 18344dcf pushed to main; Pages run 40636709665 was in progress at last check. Root 123,765,022,720 / 136,797,466,624 bytes (90.47%, df 91%). All validation completed below 90%; no subsequent downloads or builds. Live verification remains pending because the disk stop rule applies. Temporary browser dependencies removed; own worktree removed after this checkpoint push. Next: restore disk below threshold, verify deployment and live report/catalogue/MIDI. No questions sent in unattended mode. Quota snapshot 18%; models/cost as END checkpoint.

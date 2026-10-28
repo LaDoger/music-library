@@ -12,4 +12,4 @@ Models: Codex coordinator, default effort; exact coordinator tokens/cost unavail
 
 Next: complete the existing corrections and require all-PASS full-set REPORT/VERDICTS before import. Resolve Épigraphes piece 5 bar 26. Obtain the complete PD Sarabandes piano scan normally and record URL/hash/page count; obtain Images I Sibelius #11443 through a human fetch, convert and compare all three pieces. Do not bypass source challenges. Re-check disk before downloads.
 
-Publication/live verification pending below.
+Report **18344dcf** pushed to main. Pages run **40636709665** was in progress at the last check. After validation, root usage rose to **90.47%** (df: **91%**), triggering the required disk stop. Further checks stopped; live deployment verification remains pending. Temporary browser dependencies removed; own worktree removed after the final checkpoint push. Resume only after disk is below the threshold, then verify the live report, catalogue and sampled MIDI.
