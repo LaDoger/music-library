@@ -372,3 +372,10 @@ Publication verified: 2b450047 pushed to main; Pages run 40466923157 succeeded. 
 - Disk initially 89.6%, after worktree approximately 89.9%; no score downloads planned while close to gate. Resume existing rank-1 complete-set verdicts and validate retained catalogue; no previews or inferred approvals.
 - Models: Codex coordinator default effort, exact tokens/cost unavailable; Claude Haiku normal effort for routine read-only audit/checks, one hop. No media generation; Argon metrics N/A.
 - Next: inspect existing verdict evidence, run build/licence/UI/player checks, publish report and verify live.
+
+## CP-NIGHTLY-2026-10-28-END
+- Done: zero works/composers/complete sets added; retained 5,925 works / 237 composers. Épigraphes 5 FAIL; Mallarmé no final verdict; Danses I FAIL / II incomplete. Concurrent jobs and original dirty checkout preserved; no score downloads, previews, renders or process kills.
+- Checks PASS: bulk committed-snapshot build/check (5,590 rows, zero additional duplicates), sync/catalogue (5,925), licence audit (zero violations), UI (11,850-row fixture), player including live MIDI. Catalogue/data unchanged, provenance preserved, temporary snapshot removed. Brand/secret/diff checks required before push. Disk stayed below 90%, rounded display 90%.
+- Models: Codex default coordinator, exact tokens/cost unavailable; Claude Haiku 5.5 normal/medium CLI, one hop; 46 input / 47,236 cache-write / 987,068 cache-read / 13,967 output incl 5,637 thinking; reported $0.02630598. Spend 2026-10-28: Claude audit/checks $0.02630598. Argon fps/resolution/tokens/cost N/A; no media generation.
+- Git: START ded8736c pushed; END/report prepared for push and live verification. Report parts/NIGHTLY_REPORT_2026-10-28.md; live https://ladoger.github.io/music-library/ .
+- Next: wait for all-PASS complete-set evidence on existing corrections; resolve Épigraphes bar 26; normal human fetch of Sarabandes scan and Images I #11443. Re-check disk before downloads. Remove own worktree/dependencies after verified push.
