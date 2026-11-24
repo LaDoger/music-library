@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
   <work>
     <work-title>Erstes Scherzo, Op. 10 (opening, mm. 1–54)</work-title>
@@ -1877,37 +1877,17 @@
     <!--========================= Measure 14 =========================-->
     <measure implicit="no" number="14">
       <note>
-        <grace slash="yes" />
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>4</octave>
-        </pitch>
-        <voice>1</voice>
-        <type>eighth</type>
-        <accidental>sharp</accidental>
+        <pitch><step>C</step><alter>1</alter><octave>4</octave></pitch><duration>55440</duration><voice>1</voice>
+        <type>eighth</type><accidental>sharp</accidental>
         <staff>1</staff>
       </note>
       <note>
-        <grace slash="yes" />
-        <chord />
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <voice>1</voice>
-        <type>eighth</type>
-        <staff>1</staff>
+        <chord /><pitch><step>G</step><octave>4</octave></pitch><duration>55440</duration><voice>1</voice>
+        <type>eighth</type><staff>1</staff>
       </note>
       <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>55440</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <staff>1</staff>
+        <chord /><pitch><step>A</step><octave>4</octave></pitch><duration>55440</duration><voice>1</voice>
+        <type>eighth</type><accidental>natural</accidental><staff>1</staff>
       </note>
       <note>
         <rest />
@@ -3184,34 +3164,19 @@
         <staff>1</staff>
       </note>
       <note>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>55440</duration>
+        <pitch><step>F</step><octave>3</octave></pitch><duration>55440</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>natural</accidental><staff>1</staff>
+      </note>
+      <note>
+        <chord /><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>55440</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
       </note>
       <note>
-        <chord />
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>55440</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <staff>1</staff>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>55440</duration>
+        <chord /><pitch><step>E</step><octave>4</octave></pitch><duration>55440</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
@@ -3428,34 +3393,19 @@
         <staff>1</staff>
       </note>
       <note>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>55440</duration>
+        <pitch><step>F</step><octave>3</octave></pitch><duration>55440</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>natural</accidental><staff>1</staff>
+      </note>
+      <note>
+        <chord /><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>55440</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
       </note>
       <note>
-        <chord />
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>55440</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <staff>1</staff>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>55440</duration>
+        <chord /><pitch><step>E</step><octave>4</octave></pitch><duration>55440</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>

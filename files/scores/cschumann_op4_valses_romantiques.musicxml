@@ -2706,6 +2706,7 @@
         <duration>110880</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -2719,6 +2720,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <accidental>flat</accidental>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -2730,6 +2732,7 @@
         <duration>110880</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -2737,22 +2740,10 @@
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>110880</duration>
+        <duration>221760</duration>
         <voice>1</voice>
-        <type>quarter</type>
-        <staff>1</staff>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>A</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>110880</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>flat</accidental>
+        <type>half</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -2761,9 +2752,33 @@
           <step>B</step>
           <octave>4</octave>
         </pitch>
-        <duration>110880</duration>
+        <duration>221760</duration>
         <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>332640</duration>
+      </backup>
+      <note>
+        <rest />
+        <duration>110880</duration>
+        <voice>2</voice>
         <type>quarter</type>
+        <staff>1</staff>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>110880</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -2772,8 +2787,9 @@
           <octave>4</octave>
         </pitch>
         <duration>110880</duration>
-        <voice>1</voice>
+        <voice>2</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2786,7 +2802,7 @@
           <octave>2</octave>
         </pitch>
         <duration>110880</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <staff>2</staff>
@@ -2799,7 +2815,7 @@
           <octave>3</octave>
         </pitch>
         <duration>110880</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <staff>2</staff>
@@ -2811,7 +2827,7 @@
           <octave>2</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
@@ -2826,7 +2842,7 @@
           <octave>3</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
         <staff>2</staff>
@@ -2837,7 +2853,7 @@
           <octave>2</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
@@ -2850,7 +2866,7 @@
           <octave>3</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <staff>2</staff>
       </note>
@@ -2860,7 +2876,7 @@
           <octave>2</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
@@ -2873,7 +2889,7 @@
           <octave>3</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <staff>2</staff>
       </note>
@@ -2883,7 +2899,7 @@
           <octave>2</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
@@ -2896,7 +2912,7 @@
           <octave>3</octave>
         </pitch>
         <duration>55440</duration>
-        <voice>2</voice>
+        <voice>7</voice>
         <type>eighth</type>
         <staff>2</staff>
       </note>

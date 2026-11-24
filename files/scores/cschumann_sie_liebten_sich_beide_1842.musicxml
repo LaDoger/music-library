@@ -751,7 +751,7 @@
         <stem>up</stem>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
-          <text>tren</text>
+          <text>trenn</text>
         </lyric>
       </note>
       <note>
@@ -764,7 +764,7 @@
         <stem>up</stem>
         <lyric name="1" number="1">
           <syllabic>end</syllabic>
-          <text>nten</text>
+          <text>ten</text>
         </lyric>
       </note>
       <note>
@@ -1248,8 +1248,8 @@
       </note>
       <note>
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
